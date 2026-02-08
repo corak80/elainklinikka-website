@@ -487,6 +487,11 @@ const translations = {
     sv: 'Vänligt och professionellt bemötande.',
     en: 'Friendly and professional treatment.'
   },
+  'testimonial.6': {
+    fi: 'Luotettava klinikka, jonne voi aina turvallisesti tuoda lemmikkinsä.',
+    sv: 'En pålitlig klinik dit man alltid tryggt kan ta sitt husdjur.',
+    en: 'A reliable clinic where you can always safely bring your pet.'
+  },
 
   // Contact
   'contact.title': { fi: 'Yhteystiedot', sv: 'Kontaktuppgifter', en: 'Contact Us' },
@@ -749,6 +754,274 @@ const translations = {
     fi: 'MLK-infuusion lääkeaineet annetaan matalilla annoksilla, jolloin sivuvaikutusriski on pieni. Tutkimuksissa MLK ei ole aiheuttanut haitallisia hemodynaamiseen vaikutuksia. Klinikalla valvomme jokaista potilasta tarkasti koko anestesian ajan — käytössämme on kaksi ventilaattoria turvallisen anestesian varmistamiseksi, ja päivitämme jatkuvasti protokolliamme ja koulutustamme.',
     sv: 'Läkemedlen i MLK-infusionen ges i låga doser, vilket ger en liten risk för biverkningar. I studier har MLK inte orsakat negativa hemodynamiska effekter. På kliniken övervakar vi varje patient noggrant under hela anestesin — vi har två ventilatorer för att säkerställa säker anestesi, och vi uppdaterar kontinuerligt våra protokoll och vår utbildning.',
     en: 'The drugs in MLK infusion are given at low doses, resulting in a low risk of side effects. Studies have shown that MLK does not cause adverse hemodynamic effects. At our clinic we closely monitor every patient throughout anesthesia — we have two ventilators to ensure safe anesthesia, and we continuously update our protocols and training.'
+  },
+
+  // Article: Diarrhea
+  'article.diarrhea.title': {
+    fi: 'Ripuli koirilla ja kissoilla — syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan',
+    sv: 'Diarré hos hundar och katter — orsaker, hembehandling och när du ska kontakta kliniken',
+    en: 'Diarrhea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic'
+  },
+  'article.diarrhea.intro': {
+    fi: 'Ripuli on yksi yleisimmistä syistä eläinlääkärikäyntiin. Lähes jokainen koira ja kissa kärsii ripulista jossain vaiheessa elämäänsä. Useimmiten kyseessä on lievä, itsestään paraneva vaiva — mutta joskus ripuli voi olla merkki vakavammasta sairaudesta. Tässä artikkelissa käymme läpi yleisimmät syyt, kotihoidon perusteet ja tilanteet, joissa on syytä ottaa yhteyttä eläinlääkäriin.',
+    sv: 'Diarré är en av de vanligaste orsakerna till veterinärbesök. Nästan varje hund och katt drabbas av diarré någon gång i livet. Oftast handlar det om ett lindrigt, självläkande besvär — men ibland kan diarré vara tecken på allvarligare sjukdom. I denna artikel går vi igenom de vanligaste orsakerna, grunderna i hembehandling och situationer då du bör kontakta veterinären.',
+    en: 'Diarrhea is one of the most common reasons for a veterinary visit. Nearly every dog and cat experiences diarrhea at some point. Most often it is a mild, self-resolving issue — but sometimes diarrhea can indicate a more serious condition. In this article we cover the most common causes, basics of home care and situations where you should contact the clinic.'
+  },
+  'article.diarrhea.causes.title': {
+    fi: 'Yleisimmät syyt',
+    sv: 'Vanligaste orsaker',
+    en: 'Most Common Causes'
+  },
+  'article.diarrhea.causes.text': {
+    fi: 'Koirilla yleisin syy on ruokavaliovirhe — roskien syöminen, ruuanvaihto liian nopeasti tai pöytäjätteiden syöminen. Kissoilla äkillinen ruuanvaihto on tavallinen laukaisija. Muita yleisiä syitä ovat suolistoloiset (Giardia, suolinkaiset, kokkidit), stressi (muutto, lemmikkihotelli, muutokset arjessa), ruoka-aineallergia tai -intoleranssi, bakteeri- ja virusinfektiot (erityisesti parvovirukseen rokottamattomat pennut ja kissanpennut) sekä myrkylliset aineet.',
+    sv: 'Hos hundar är den vanligaste orsaken felaktigt matintag — att äta skräp, för snabbt fobyte eller bordssrester. Hos katter är plötsligt fobyte en vanlig utlösare. Andra vanliga orsaker inkluderar tarmparasiter (Giardia, spolmask, koccidier), stress (flytt, hundpensionat, förändringar i vardagen), foallergi eller -intolerans, bakterie- och virusinfektioner (särskilt parvoviruset hos ovaccinerade valpar och kattungar) samt giftiga ämnen.',
+    en: 'In dogs, the most common cause is dietary indiscretion — eating garbage, switching food too quickly or consuming table scraps. In cats, sudden food changes are a common trigger. Other common causes include intestinal parasites (Giardia, roundworms, coccidia), stress (moving, boarding, changes in routine), food allergy or intolerance, bacterial and viral infections (especially parvovirus in unvaccinated puppies and kittens) and toxic substances.'
+  },
+  'article.diarrhea.homecare.title': {
+    fi: 'Kotihoito',
+    sv: 'Hembehandling',
+    en: 'Home Care'
+  },
+  'article.diarrhea.homecare.text': {
+    fi: 'Jos lemmikkisi on muuten virkeä, syö ja juo normaalisti eikä ripuli ole veristä, voit kokeilla kotihoitoa 24–48 tunnin ajan. Koiralla voidaan pidättäytyä ruuasta 12–24 tuntia suoliston lepuuttamiseksi — kissaa ei saa paastottaa yli 12 tuntia maksan rasvoittumisriskin vuoksi. Siirry miedolle dieettille: keitetty kana (ilman nahkaa ja luita) ja riisi suhteessa 1:2. Tarjoa pieniä annoksia 4–6 kertaa päivässä. Varmista riittävä nesteensaanti — raikasta vettä tulee olla aina tarjolla. Eläimille tarkoitetut probiootit (esim. Fortiflora) tukevat suoliston palautumista. Jatka mietoa dieettiä 3–5 päivää ulosteen normalisoitumisen jälkeen ja palaa normaaliin ruokaan asteittain 5–7 päivän kuluessa.',
+    sv: 'Om ditt husdjur annars är pigg, äter och dricker normalt och diarrén inte är blodig, kan du prova hembehandling i 24–48 timmar. Hundar kan fastas 12–24 timmar för att låta tarmen vila — katter ska inte fastas mer än 12 timmar på grund av risk för leverförfettning. Byt till mild diet: kokt kyckling (utan skinn och ben) och ris i förhållandet 1:2. Ge små portioner 4–6 gånger dagligen. Säkerställ tillräckligt vätskeintag — färskt vatten ska alltid finnas tillgängligt. Probiotika avsedda för djur (t.ex. Fortiflora) stödjer tarmens återhämtning. Fortsätt med mild diet 3–5 dagar efter att avföringen normaliserats och återgå gradvis till normal kost under 5–7 dagar.',
+    en: 'If your pet is otherwise alert, eating and drinking normally and the diarrhea is not bloody, you can try home care for 24–48 hours. Dogs can be fasted for 12–24 hours to rest the gut — cats should not be fasted for more than 12 hours due to the risk of hepatic lipidosis. Switch to a bland diet: boiled chicken (no skin, no bones) and rice at a 1:2 ratio. Offer small portions 4–6 times daily. Ensure adequate hydration — fresh water should always be available. Veterinary probiotics (e.g. Fortiflora) support gut recovery. Continue the bland diet for 3–5 days after the stool normalizes and gradually return to regular food over 5–7 days.'
+  },
+  'article.diarrhea.warning.title': {
+    fi: 'Milloin ottaa yhteyttä eläinlääkäriin',
+    sv: 'När ska du kontakta veterinären',
+    en: 'When to Contact the Veterinarian'
+  },
+  'article.diarrhea.warning.text': {
+    fi: 'Ota yhteyttä eläinlääkäriin välittömästi, jos ripuli on veristä (veri voi olla kirkkaanpunaista tai tummaa/tervamusta), lemmikki oksentaa samanaikaisesti, eläin on väsynyt tai apaattinen, huomaat kuivumisen merkkejä (kuivat ikenet, ihon joustamattomuus), epäilet myrkyn syömistä, eläimellä on kuumetta tai vatsakipua. Pentujen ja kissanpentujen kohdalla älä odota — ne kuivuvat nopeasti ja ovat alttiita vakavalle parvovirustaudille. Ota yhteyttä 12–24 tunnin kuluessa oireiden alkamisesta. Myös iäkkäät ja pienet rodut kuivuvat nopeammin. Jos ripuli ei hellitä 48 tunnin kotihoidon jälkeen tai palaa toistuvasti, varaa aika tutkimuksiin. Vinkki: ota ulosteesta valokuva — se auttaa eläinlääkäriä arvioimaan tilanteen.',
+    sv: 'Kontakta veterinären omedelbart om diarrén är blodig (blodet kan vara klarrött eller mörkt/tjärsvart), husdjuret kräks samtidigt, djuret är trött eller apatiskt, du märker tecken på uttorkning (torra tandkött, minskad hudelasticitet), du misstänker förgiftning, djuret har feber eller buksmärta. För valpar och kattungar — vänta inte. De torkar ut snabbt och är känsliga för allvarlig parvovirusinfektion. Kontakta kliniken inom 12–24 timmar efter symtomdebut. Även äldre djur och små raser torkar ut snabbare. Om diarrén inte förbättras efter 48 timmars hembehandling eller återkommer upprepade gånger, boka tid för undersökning. Tips: ta ett foto av avföringen — det hjälper veterinären att bedöma situationen.',
+    en: 'Contact the veterinarian immediately if the diarrhea is bloody (blood can be bright red or dark/tarry black), your pet is vomiting at the same time, the animal is lethargic or apathetic, you notice signs of dehydration (dry gums, loss of skin elasticity), you suspect toxin ingestion, or the animal has fever or abdominal pain. For puppies and kittens — do not wait. They dehydrate quickly and are vulnerable to serious parvovirus infection. Contact the clinic within 12–24 hours of symptom onset. Older animals and small breeds also dehydrate faster. If diarrhea does not improve after 48 hours of home care or keeps recurring, book an appointment for examination. Tip: take a photo of the stool — it helps the veterinarian assess the situation.'
+  },
+  'article.diarrhea.prevention.title': {
+    fi: 'Ehkäisy',
+    sv: 'Förebyggande',
+    en: 'Prevention'
+  },
+  'article.diarrhea.prevention.text': {
+    fi: 'Vaihda ruokaa asteittain 7–10 päivän kuluessa. Vältä pöytäjätteitä, luita ja pääsyä roskakoriin. Huolehdi säännöllisistä madotuksista — matolääkkeitä saa apteekista ilman reseptiä. Huolehdi myös rokotuksista. Vähennä stressiä muutostilanteissa (feromonivalmisteet kuten Adaptil koirille ja Feliway kissoille voivat auttaa).',
+    sv: 'Byt foder gradvis under 7–10 dagar. Undvik bordsrester, ben och tillgång till sopor. Se till att avmaskning sker regelbundet — avmaskningsmedel finns receptfritt på apoteket. Se även till att vaccinationerna är uppdaterade. Minska stress vid förändringar (feromonprodukter som Adaptil för hundar och Feliway för katter kan hjälpa).',
+    en: 'Switch food gradually over 7–10 days. Avoid table scraps, bones and access to garbage. Keep up with regular deworming — deworming medicine is available over the counter at pharmacies. Keep vaccinations up to date. Reduce stress during transitions (pheromone products like Adaptil for dogs and Feliway for cats can help).'
+  },
+  'article.diarrhea.contact.title': {
+    fi: 'Ota yhteyttä',
+    sv: 'Kontakta oss',
+    en: 'Contact Us'
+  },
+  'article.diarrhea.contact.text': {
+    fi: 'Jos olet epävarma, soita meille (puh. 06-3217300) tai lähetä sähköpostia osoitteeseen elainklinikkasaari.vaasa@gmail.com — voit liittää mukaan valokuvia. Neuvomme mielellämme, onko eläinlääkärikäynti tarpeen.',
+    sv: 'Om du är osäker, ring oss (tfn 06-3217300) eller skicka e-post till elainklinikkasaari.vaasa@gmail.com — du kan bifoga foton. Vi ger gärna råd om ett veterinärbesök behövs.',
+    en: 'If you are unsure, give us a call (tel. 06-3217300) or send an email to elainklinikkasaari.vaasa@gmail.com — you can attach photos. We are happy to advise whether a visit is needed.'
+  },
+
+  // Article: PDA
+  'article.pda.title': {
+    fi: 'Avoin valtimotiehyt (PDA) koirilla — synnynnäinen sydänvika, joka on parannettavissa',
+    sv: 'Öppen ductus arteriosus (PDA) hos hundar — ett medfött hjärtfel som kan botas',
+    en: 'Patent Ductus Arteriosus (PDA) in Dogs — A Congenital Heart Defect That Can Be Cured'
+  },
+  'article.pda.intro': {
+    fi: 'Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Kyseessä on verisuoni, joka yhdistää aortan ja keuhkovaltimon sikiökaudella, mutta jonka pitäisi sulkeutua syntymän jälkeen. Kun se jää auki, sydän kuormittuu ja ilman hoitoa 60–70 % koirista menehtyy ensimmäisen elinvuoden aikana sydämen vajaatoimintaan. Hyvä uutinen: PDA on yksi harvoista sydänsairauksista, joka voidaan parantaa kokonaan, kun se havaitaan ajoissa.',
+    sv: 'Öppen ductus arteriosus, eller PDA, är ett av de vanligaste medfödda hjärtfelen hos hundar. Det handlar om ett blodkärl som förbinder aorta och lungartären under fosterlivet, men som normalt stängs efter födseln. När det förblir öppet överbelastas hjärtat, och utan behandling dör 60–70 % av hundarna inom första levnadsåret av hjärtsvikt. Den goda nyheten: PDA är ett av få hjärtfel som kan botas helt om det upptäcks i tid.',
+    en: 'Patent ductus arteriosus, or PDA, is one of the most common congenital heart defects in dogs. It is a blood vessel that connects the aorta and pulmonary artery during fetal life but should close after birth. When it remains open, the heart becomes overloaded, and without treatment 60–70% of affected dogs die within the first year from heart failure. The good news: PDA is one of the few heart conditions that can be completely cured when detected early.'
+  },
+  'article.pda.what.title': {
+    fi: 'Mikä on PDA?',
+    sv: 'Vad är PDA?',
+    en: 'What Is PDA?'
+  },
+  'article.pda.what.text': {
+    fi: 'Sikiökaudella keuhkot eivät toimi ja kaasunvaihto tapahtuu istukan kautta. Valtimotiehyt ohjaa veren keuhkojen ohi suoraan verenkiertoon. Syntymän jälkeen keuhkot laajenevat, happipitoisuus nousee ja valtimotiehyt supistuu ja sulkeutuu normaalisti 12–24 tunnin kuluessa. PDA:ssa tämä sulkeutuminen jää tapahtumatta. Veri virtaa jatkuvasti aortasta keuhkovaltimoon, mikä kuormittaa sydämen vasenta puolta ja johtaa sen laajentumiseen. Hoitamattomana tämä etenee sydämen vajaatoimintaan.',
+    sv: 'Under fosterutvecklingen fungerar inte lungorna och gasutbytet sker via moderkakan. Ductus arteriosus leder blodet förbi lungorna direkt ut i cirkulationen. Efter födseln expanderar lungorna, syrenivån stiger och ductus arteriosus drar ihop sig och stängs normalt inom 12–24 timmar. Vid PDA sker denna stängning inte. Blod flödar kontinuerligt från aorta till lungartären, vilket överbelastar hjärtats vänstra sida och leder till att det vidgas. Utan behandling fortskrider detta till hjärtsvikt.',
+    en: 'During fetal development the lungs are not functional and gas exchange occurs via the placenta. The ductus arteriosus diverts blood past the lungs directly into the circulation. After birth the lungs expand, oxygen levels rise, and the ductus arteriosus constricts and normally closes within 12–24 hours. In PDA this closure does not happen. Blood flows continuously from the aorta into the pulmonary artery, overloading the left side of the heart and causing it to enlarge. Without treatment this progresses to heart failure.'
+  },
+  'article.pda.breeds.title': {
+    fi: 'Altiit rodut',
+    sv: 'Predisponerade raser',
+    en: 'Predisposed Breeds'
+  },
+  'article.pda.breeds.text': {
+    fi: 'PDA:lla on geneettinen tausta ja se on yleisempi naarailla (suhde 3:1). Alttiita rotuja ovat muun muassa maltankoira, pomeranian, shetlanninlammaskoira, englanninspringerspanieli, bichon frise, kääpiö- ja toyvillakoira, yorkshirenterrieri, chihuahua ja cockerspanieli. PDA:ta esiintyy myös kissoilla, mutta huomattavasti harvemmin.',
+    sv: 'PDA har en genetisk grund och är vanligare hos tikar (förhållande 3:1). Predisponerade raser inkluderar bland annat malteser, pomeranian, shetland sheepdog, engelsk springer spaniel, bichon frise, dvärg- och toypudel, yorkshireterrier, chihuahua och cockerspaniel. PDA förekommer även hos katter, men betydligt mer sällan.',
+    en: 'PDA has a genetic basis and is more common in females (ratio 3:1). Predisposed breeds include Maltese, Pomeranian, Shetland Sheepdog, English Springer Spaniel, Bichon Frise, Miniature and Toy Poodle, Yorkshire Terrier, Chihuahua and Cocker Spaniel. PDA also occurs in cats but much less frequently.'
+  },
+  'article.pda.signs.title': {
+    fi: 'Oireet — mitä omistaja voi huomata',
+    sv: 'Symtom — vad ägaren kan märka',
+    en: 'Signs — What Owners May Notice'
+  },
+  'article.pda.signs.text': {
+    fi: 'PDA löytyy usein ensimmäisellä eläinlääkärikäynnillä, kun eläinlääkäri kuulee jatkuvan "koneäänen" (machinery murmur) sydäntä kuunnellessaan. Omistaja voi huomata, että pentu on pentueensa pienin, väsyy nopeasti leikkiessä, hengittää normaalia nopeammin tai yskii. Vakavammissa tapauksissa voi esiintyä pyörtymistä tai vatsan turvotusta. Joskus omistaja tuntee rintakehällä värinää lemmikkiä pidettäessä.',
+    sv: 'PDA upptäcks ofta vid det första veterinärbesöket, när veterinären hör ett kontinuerligt "maskinljud" (machinery murmur) vid auskultation. Ägaren kan märka att valpen är kullens minsta, tröttas snabbt under lek, andas snabbare än normalt eller hostar. I allvarligare fall kan svimning eller buksvullnad förekomma. Ibland känner ägaren en vibration på bröstkorgen när de håller sitt husdjur.',
+    en: 'PDA is often discovered at the first veterinary visit when the vet hears a continuous "machinery murmur" during auscultation. Owners may notice the puppy is the smallest in the litter, tires quickly during play, breathes faster than normal, or coughs. In more severe cases fainting or abdominal swelling may occur. Sometimes owners feel a vibration on the chest wall when holding their pet.'
+  },
+  'article.pda.treatment.title': {
+    fi: 'Hoito',
+    sv: 'Behandling',
+    en: 'Treatment'
+  },
+  'article.pda.treatment.text': {
+    fi: 'PDA hoidetaan sulkemalla avoin valtimotiehyt. Tähän on kaksi päämenetelmää. Kirurginen ligatuura tehdään rintakehän avauksella, jossa tiehyt suljetaan ompelemalla — menetelmällä on yli 90–95 % onnistumisprosentti. Katetritoimenpiteessä (ACDO, Amplatz Canine Duct Occluder) erikoislaite viedään reisivaltimon kautta tiehyeen ja se sulkee verisuonen sisältäpäin — tämä on vähemmän invasiivinen, ja onnistumisprosentti on yli 95–98 %. Lääkehoidolla voidaan vakauttaa potilaan tila ennen toimenpidettä, mutta se ei paranna PDA:ta. Mitä aikaisemmin sulku tehdään — mieluiten ennen 6 kuukauden ikää — sitä parempi ennuste.',
+    sv: 'PDA behandlas genom att stänga den öppna ductus arteriosus. Det finns två huvudmetoder. Kirurgisk ligering utförs via torakotomi, där kanalen stängs med suturer — metoden har över 90–95 % framgångsfrekvens. Vid kateterbaserad stängning (ACDO, Amplatz Canine Duct Occluder) förs en specialanordning via lårbensartären till kanalen och stänger blodkärlet inifrån — detta är mindre invasivt med över 95–98 % framgångsfrekvens. Medicinsk behandling kan stabilisera patienten före ingreppet men botar inte PDA. Ju tidigare stängningen görs — helst före 6 månaders ålder — desto bättre prognos.',
+    en: 'PDA is treated by closing the open ductus. There are two main methods. Surgical ligation is performed via thoracotomy, where the duct is tied off with sutures — success rate exceeds 90–95%. Catheter-based closure (ACDO, Amplatz Canine Duct Occluder) involves delivering a specialized device through the femoral artery to seal the vessel from within — this is less invasive with a success rate over 95–98%. Medical treatment can stabilize the patient before the procedure but does not cure PDA. The earlier the closure is performed — ideally before 6 months of age — the better the prognosis.'
+  },
+  'article.pda.clinic.title': {
+    fi: 'Diagnostiikka klinikallamme',
+    sv: 'Diagnostik på vår klinik',
+    en: 'Diagnosis at Our Clinic'
+  },
+  'article.pda.clinic.text': {
+    fi: 'Eläinklinikka Saaressa teemme sydämen ultraäänitutkimuksia, joiden avulla PDA voidaan havaita ja diagnosoida klinikalla. Eläinlääkärimme Leena suorittaa sydämen kaikututkimukset. Jos pennullasi todetaan sivuääni, voimme tutkia sydämen ultraäänellä ja tarvittaessa ohjata jatkohoitoon erikoisklinikalle.',
+    sv: 'På Djurkliniken Saari utför vi hjärtultraljudsundersökningar som gör det möjligt att upptäcka och diagnostisera PDA på kliniken. Vår veterinär Leena utför hjärtultraljudsundersökningarna. Om ett blåsljud upptäcks hos din valp kan vi undersöka hjärtat med ultraljud och vid behov remittera till en specialistklinik för vidare behandling.',
+    en: 'At Eläinklinikka Saari, we perform cardiac ultrasound examinations that allow us to detect and diagnose PDA at our clinic. Our veterinarian Leena performs the cardiac ultrasound examinations. If a murmur is detected in your puppy, we can examine the heart with ultrasound and refer to a specialist clinic for further treatment if needed.'
+  },
+  'article.pda.prognosis.title': {
+    fi: 'Ennuste',
+    sv: 'Prognos',
+    en: 'Prognosis'
+  },
+  'article.pda.prognosis.text': {
+    fi: 'Ajoissa hoidetun PDA:n ennuste on erinomainen. Koirat, joiden valtimotiehyt suljetaan ennen sydämen vajaatoiminnan kehittymistä, elävät tyypillisesti normaalin elämän. Sydämen laajentuminen palautuu usein viikkojen tai kuukausien kuluessa. Ilman hoitoa ennuste on huono: noin 60–70 % koirista menehtyy ensimmäisen elinvuoden aikana.',
+    sv: 'Prognosen för PDA som behandlas i tid är utmärkt. Hundar vars ductus stängs innan hjärtsvikt utvecklas lever vanligtvis ett normalt liv. Hjärtförstoringen går ofta tillbaka inom veckor till månader. Utan behandling är prognosen dålig: cirka 60–70 % av hundarna dör inom det första levnadsåret.',
+    en: 'The prognosis for PDA treated in time is excellent. Dogs whose ductus is closed before heart failure develops typically live a normal life. Heart enlargement often reverses within weeks to months. Without treatment the prognosis is poor: approximately 60–70% of dogs die within the first year.'
+  },
+  'article.pda.message.title': {
+    fi: 'Tärkein viesti omistajille',
+    sv: 'Det viktigaste budskapet till ägare',
+    en: 'The Most Important Message for Owners'
+  },
+  'article.pda.message.text': {
+    fi: 'Jokaisen pennun sydän tulee kuunnella ensimmäisellä eläinlääkärikäynnillä. Jos sivuääni todetaan, jatkotutkimukset sydämen ultraäänellä tulee tehdä viipymättä. PDA on parannettavissa — kunhan se havaitaan ajoissa. Alttiiden rotujen kasvattajien ja omistajien tulisi olla erityisen valppaina.',
+    sv: 'Varje valps hjärta bör auskulteras vid det första veterinärbesöket. Om ett blåsljud upptäcks bör vidare undersökning med hjärtultraljud ske utan dröjsmål. PDA kan botas — förutsatt att det upptäcks i tid. Uppfödare och ägare av predisponerade raser bör vara särskilt uppmärksamma.',
+    en: 'Every puppy\'s heart should be auscultated at the first veterinary visit. If a murmur is detected, further examination with cardiac ultrasound should be done without delay. PDA is curable — as long as it is detected in time. Breeders and owners of predisposed breeds should be especially vigilant.'
+  },
+
+  // Article: Grain-Free Food
+  'article.grainfree.title': {
+    fi: 'Viljaton ruoka koirille ja kissoille — onko se tarpeellista vai haitallista?',
+    sv: 'Spannmålsfri mat för hundar och katter — är det nödvändigt eller skadligt?',
+    en: 'Grain-Free Food for Dogs and Cats — Is It Necessary or Harmful?'
+  },
+  'article.grainfree.intro': {
+    fi: 'Viljaton lemmikkiruoka on ollut valtava trendi viime vuosina. Markkinointi lupaa "luonnollisempaa" ruokavaliota, mutta vuonna 2018 Yhdysvaltain elintarvikevirasto FDA aloitti tutkimuksen, joka yhdisti viljattomat ruokavaliot koirien sydänsairauksiin. Tässä artikkelissa selvitämme, mitä tiede sanoo — ja mitä eläinlääkärit suosittelevat.',
+    sv: 'Spannmålsfri djurmat har varit en enorm trend de senaste åren. Marknadsföringen lovar en "mer naturlig" diet, men 2018 inledde amerikanska livsmedelsverket FDA en undersökning som kopplade spannmålsfria dieter till hjärtsjukdom hos hundar. I denna artikel reder vi ut vad forskningen säger — och vad veterinärer rekommenderar.',
+    en: 'Grain-free pet food has been a huge trend in recent years. Marketing promises a "more natural" diet, but in 2018 the U.S. Food and Drug Administration (FDA) launched an investigation linking grain-free diets to heart disease in dogs. In this article we examine what the science says — and what veterinarians recommend.'
+  },
+  'article.grainfree.fda.title': {
+    fi: 'FDA:n tutkimus ja sydänsairaus',
+    sv: 'FDA:s undersökning och hjärtsjukdom',
+    en: 'The FDA Investigation and Heart Disease'
+  },
+  'article.grainfree.fda.text': {
+    fi: 'FDA tutki satoja raportteja dilatoivasta kardiomyopatiasta (DCM) — sydänsairaudesta, jossa sydänlihas heikkenee ja sydän laajenee. Huolestuttavaa oli, että DCM:ää esiintyi roduilla, jotka eivät normaalisti ole alttiita sille, kuten kultaisilla noutajilla, labradoreilla ja sekarotuisilla. Tutkimuksessa 91 % epäillyistä ruokavalioista oli viljattomia ja 93 % sisälsi herneitä tai linssejä pääainesosina. Vaikka suoraa syy-yhteyttä ei lopullisesti todistettu, monet koirat toipuivat, kun ruokavalio vaihdettiin viljapohjaiseen — mikä on merkittävä havainto.',
+    sv: 'FDA undersökte hundratals rapporter om dilaterad kardiomyopati (DCM) — en hjärtsjukdom där hjärtmuskeln försvagas och hjärtat vidgas. Det oroande var att DCM förekom hos raser som normalt inte är predisponerade, som golden retriever, labrador och blandraser. I undersökningen var 91 % av de misstänkta dieterna spannmålsfria och 93 % innehöll ärtor eller linser som huvudingredienser. Även om ett direkt orsakssamband inte slutgiltigt bevisades, återhämtade sig många hundar när kosten byttes till spannmålsbaserad — vilket är en viktig observation.',
+    en: 'The FDA investigated hundreds of reports of dilated cardiomyopathy (DCM) — a heart disease where the heart muscle weakens and the heart enlarges. What was alarming was that DCM appeared in breeds not normally prone to it, such as Golden Retrievers, Labradors and mixed breeds. In the investigation, 91% of suspected diets were grain-free and 93% contained peas or lentils as main ingredients. While a direct causal link was not definitively proven, many dogs recovered when switched to grain-inclusive diets — which is a significant finding.'
+  },
+  'article.grainfree.myth.title': {
+    fi: 'Tarvitseeko lemmikkini villatonta ruokaa?',
+    sv: 'Behöver mitt husdjur spannmålsfri mat?',
+    en: 'Does My Pet Need Grain-Free Food?'
+  },
+  'article.grainfree.myth.text': {
+    fi: 'Todennäköisesti ei. Markkinointiväite siitä, että viljat ovat "täyteaineita" tai aiheuttavat allergioita, ei perustu tieteeseen. Koirat ovat kehittyneet tuhansia vuosia ihmisen rinnalla ja niillä on jopa 30 kopiota AMY2B-geenistä, joka pilkkoo tärkkelystä — susilla vain 2. Koirat sulattavat kypsennettyjä viljoja yli 99-prosenttisesti. Todellinen vilja-allergia on erittäin harvinainen: vain noin 1 % ruoka-allergisista koirista reagoi viljoihin. Yleisimmät allergeenit ovat nauta (34 %), maitotuotteet (17 %) ja kana (15 %).',
+    sv: 'Förmodligen inte. Marknadsföringspåståendet att spannmål är "fyllmedel" eller orsakar allergier saknar vetenskapligt stöd. Hundar har utvecklats i tusentals år vid människans sida och har upp till 30 kopior av AMY2B-genen som bryter ner stärkelse — vargar har bara 2. Hundar smälter tillagad spannmål till över 99 %. Verklig spannmålsallergi är extremt ovanlig: bara cirka 1 % av hundar med matallergi reagerar på spannmål. De vanligaste allergenerna är nötkött (34 %), mejeriprodukter (17 %) och kyckling (15 %).',
+    en: 'Probably not. The marketing claim that grains are "fillers" or cause allergies is not supported by science. Dogs have evolved alongside humans for thousands of years and carry up to 30 copies of the AMY2B gene for starch digestion — wolves have only 2. Dogs digest cooked grains at over 99% efficiency. True grain allergy is extremely rare: only about 1% of food-allergic dogs react to grains. The most common allergens are beef (34%), dairy (17%) and chicken (15%).'
+  },
+  'article.grainfree.cats.title': {
+    fi: 'Entä kissat?',
+    sv: 'Hur är det med katter?',
+    en: 'What About Cats?'
+  },
+  'article.grainfree.cats.text': {
+    fi: 'Kissat ovat pakollisia lihansyöjiä ja tarvitsevat runsaasti eläinproteiinia. Viljattomat kissanruoat korvaavat kuitenkin usein viljat perunalla, herneillä tai tapiokalla — jolloin hiilihydraattipitoisuus on käytännössä sama tai jopa korkeampi. Tutkimukset osoittavat, että kissat pystyvät sulattamaan hiilihydraatteja tehokkaasti (94–100 %). Kissojen ruoassa tärkeintä on riittävä eläinproteiinin ja tauriinin määrä — ei se, onko ruoka villatonta vai ei.',
+    sv: 'Katter är obligata köttätare och behöver rikligt med animaliskt protein. Spannmålsfria kattfoder ersätter dock ofta spannmål med potatis, ärtor eller tapioka — varvid kolhydratinnehållet i praktiken är detsamma eller till och med högre. Studier visar att katter kan smälta kolhydrater effektivt (94–100 %). Det viktigaste i kattmat är tillräckligt animaliskt protein och taurin — inte huruvida maten är spannmålsfri eller inte.',
+    en: 'Cats are obligate carnivores and need plenty of animal protein. However, grain-free cat foods often replace grains with potatoes, peas or tapioca — meaning the carbohydrate content is practically the same or even higher. Studies show cats can digest carbohydrates effectively (94–100%). What matters most in cat food is adequate animal protein and taurine — not whether it is grain-free or not.'
+  },
+  'article.grainfree.advice.title': {
+    fi: 'Eläinlääkärin suositus',
+    sv: 'Veterinärens rekommendation',
+    en: 'Veterinary Recommendation'
+  },
+  'article.grainfree.advice.text': {
+    fi: 'Älä valitse villatonta ruokaa ilman lääketieteellistä syytä. Vältä ruokia, joissa herneet, linssit tai kikherneet ovat pääainesosina. Valitse ruoka tunnetuilta valmistajilta, jotka työllistävät eläinravitsemuksen asiantuntijoita ja toteuttavat ruokintakokeita. Jos epäilet ruoka-allergiaa, ota yhteyttä eläinlääkäriin — oikea diagnoosi tehdään eliminaatiodieetillä, ei vaihtamalla satunnaisesti ruokaa. Jos lemmikkisi syö tällä hetkellä villatonta ruokaa, keskustele eläinlääkärisi kanssa vaihtoehdoista.',
+    sv: 'Välj inte spannmålsfri mat utan medicinsk anledning. Undvik foder där ärtor, linser eller kikärtor är huvudingredienser. Välj foder från etablerade tillverkare som anställer djurnutritionsexperter och genomför utfodringsförsök. Om du misstänker matallergi, kontakta veterinären — korrekt diagnos ställs med eliminationsdiet, inte genom att slumpmässigt byta foder. Om ditt husdjur för närvarande äter spannmålsfri mat, diskutera alternativ med din veterinär.',
+    en: 'Do not choose grain-free food without a medical reason. Avoid foods where peas, lentils or chickpeas are among the main ingredients. Choose food from established manufacturers that employ animal nutrition experts and conduct feeding trials. If you suspect a food allergy, contact the veterinarian — proper diagnosis is made through an elimination diet, not by randomly switching foods. If your pet currently eats grain-free food, discuss alternatives with your vet.'
+  },
+
+  // Article: Dental Brushing
+  'article.brushing.title': {
+    fi: 'Hampaiden harjaus — paras asia, jonka voit tehdä lemmikkisi hampaiden hyväksi',
+    sv: 'Tandborstning — det bästa du kan göra för ditt husdjurs tänder',
+    en: 'Tooth Brushing — The Best Thing You Can Do for Your Pet\'s Teeth'
+  },
+  'article.brushing.intro': {
+    fi: '80 % koirista ja 70 % kissoista kärsii jonkinasteisesta hammassairaudesta jo kolmen vuoden ikäisinä. Hammassairaudet aiheuttavat kroonista kipua, infektioita ja voivat vahingoittaa jopa sydäntä, munuaisia ja maksaa. Päivittäinen hampaiden harjaus on tehokkain keino ehkäistä näitä ongelmia — ja se on helpompaa kuin luulet.',
+    sv: '80 % av hundarna och 70 % av katterna lider av någon grad av tandsjukdom redan vid tre års ålder. Tandsjukdomar orsakar kronisk smärta, infektioner och kan till och med skada hjärtat, njurarna och levern. Daglig tandborstning är det mest effektiva sättet att förebygga dessa problem — och det är enklare än du tror.',
+    en: '80% of dogs and 70% of cats suffer from some degree of dental disease by age three. Dental disease causes chronic pain, infections and can even damage the heart, kidneys and liver. Daily tooth brushing is the most effective way to prevent these problems — and it is easier than you think.'
+  },
+  'article.brushing.why.title': {
+    fi: 'Miksi päivittäin?',
+    sv: 'Varför dagligen?',
+    en: 'Why Daily?'
+  },
+  'article.brushing.why.text': {
+    fi: 'Plakki — bakteerien muodostama pehmeä kerros — alkaa muodostua hampaiden pinnoille 6–8 tunnin kuluessa puhdistuksen jälkeen. Jo 24 tunnissa plakki kovettuu hammaskiveksi, jota ei enää saa harjaamalla pois. Siksi päivittäinen harjaus on ratkaisevan tärkeää: se katkaisee kierteen ennen kuin plakki ehtii kovettua. Tutkimusten mukaan päivittäinen harjaus vähentää plakin kertymistä 40–70 %. Joka toinen päivä harjaaminen on vain noin puolet yhtä tehokasta.',
+    sv: 'Plack — en mjuk beläggning av bakterier — börjar bildas på tandytorna 6–8 timmar efter rengöring. Redan inom 24 timmar hårdnar plack till tandsten, som inte längre kan avlägsnas med borstning. Därför är daglig borstning avgörande: den bryter cykeln innan plack hinner hårdna. Studier visar att daglig borstning minskar plackbildningen med 40–70 %. Borstning varannan dag är bara ungefär hälften så effektivt.',
+    en: 'Plaque — a soft layer of bacteria — begins forming on tooth surfaces within 6–8 hours of cleaning. Within just 24 hours, plaque hardens into tartar that can no longer be removed by brushing. This is why daily brushing is critical: it breaks the cycle before plaque hardens. Studies show daily brushing reduces plaque buildup by 40–70%. Brushing every other day is only about half as effective.'
+  },
+  'article.brushing.how.title': {
+    fi: 'Näin harjaat lemmikkisi hampaat',
+    sv: 'Så borstar du ditt husdjurs tänder',
+    en: 'How to Brush Your Pet\'s Teeth'
+  },
+  'article.brushing.how.text': {
+    fi: 'Käytä aina eläimille tarkoitettua hammastahnaa — ei koskaan ihmisten tahnaa, joka voi sisältää ksylitolia (erittäin myrkyllistä koirille) ja fluorideja. Eläintahnat ovat turvallisia nieltäväksi ja niitä on liha- ja kalamakuisina. Sormiharja on hyvä aloittelijoille ja kissoille. Nosta huulta ja harjaa 45 asteen kulmassa ienrajaa vasten pyörivin liikkein. Keskity ulkopintoihin — kieli puhdistaa sisäpintoja luonnollisesti. Tärkeimmät kohdat ovat yläleuan takahampaat ja kulmahampaiden alue. 1–2 minuuttia riittää.',
+    sv: 'Använd alltid tandkräm avsedd för djur — aldrig mänsklig tandkräm som kan innehålla xylitol (extremt giftigt för hundar) och fluorid. Djurtandkräm är säker att svälja och finns i kött- och fisksmaker. Fingerborste är bra för nybörjare och katter. Lyft läppen och borsta i 45 graders vinkel mot tandköttsranden med cirkulära rörelser. Fokusera på yttersidorna — tungan rengör insidorna naturligt. De viktigaste områdena är överkäkens bakre tänder och hörntänderna. 1–2 minuter räcker.',
+    en: 'Always use toothpaste made for pets — never human toothpaste, which may contain xylitol (extremely toxic to dogs) and fluoride. Pet toothpaste is safe to swallow and comes in meat and fish flavors. A finger brush is great for beginners and cats. Lift the lip and brush at a 45-degree angle to the gumline using circular motions. Focus on the outer surfaces — the tongue naturally cleans the inner surfaces. The most important areas are the upper back teeth and the canines. 1–2 minutes is enough.'
+  },
+  'article.brushing.start.title': {
+    fi: 'Näin totutat lemmikkisi harjaukseen',
+    sv: 'Så vänjer du ditt husdjur vid borstning',
+    en: 'Getting Your Pet Used to Brushing'
+  },
+  'article.brushing.start.text': {
+    fi: 'Aloita rauhallisesti. Ensimmäisellä viikolla totuta lemmikkisi suun käsittelyyn koskettamalla huulia ja hampaita sormella. Toisella viikolla anna lemmikkisi maistaa hammastahnaa sormeltasi ja hieroa sitä etuhampaiden pintaan. Kolmannella viikolla ota harja mukaan ja harjaa muutama hammas. Laajenna vähitellen harjattavaa aluetta. Anna aina palkinto jälkeenpäin. Älä pakota — pidä tuokiot lyhyinä ja positiivisina. Pentuiällä aloittaminen on helpointa, mutta myös aikuinen eläin voi oppia.',
+    sv: 'Börja lugnt. Under första veckan, vänj husdjuret vid munhantering genom att röra vid läppar och tänder med fingret. Under andra veckan, låt husdjuret smaka på tandkrämen från ditt finger och gnid lite på framtänderna. Under tredje veckan, ta med borsten och borsta några tänder. Utöka gradvis det borstade området. Ge alltid belöning efteråt. Tvinga inte — håll stunderna korta och positiva. Det är lättast att börja som valp, men även vuxna djur kan lära sig.',
+    en: 'Start slowly. During the first week, get your pet used to mouth handling by touching the lips and teeth with your finger. In the second week, let your pet taste the toothpaste from your finger and rub some on the front teeth. In the third week, introduce the brush and brush a few teeth. Gradually expand the area. Always reward afterward. Never force — keep sessions short and positive. Starting as a puppy is easiest, but adult animals can learn too.'
+  },
+  'article.brushing.signs.title': {
+    fi: 'Hammassairauden merkit',
+    sv: 'Tecken på tandsjukdom',
+    en: 'Signs of Dental Disease'
+  },
+  'article.brushing.signs.text': {
+    fi: 'Pahanhajuinen hengitys (ei ole normaalia!), punaiset tai turvonneet ikenet, näkyvä hammaskivi, ruuan putoilu syödessä, yhdellä puolella pureskelu, kuolaaminen, kasvojen turvotus, haluttomuus antaa koskea päähän, käyttäytymisen muutokset tai painon lasku. Muista, että eläimet piilottavat kipua — monet vakavasti sairaat lemmikit syövät edelleen normaalisti. Omistajat raportoivat usein dramaattisen muutoksen käytöksessä hammashoidon jälkeen.',
+    sv: 'Dålig andedräkt (det är inte normalt!), röda eller svullna tandkött, synlig tandsten, tappar mat vid ätande, tuggar bara på ena sidan, dregling, svullnad i ansiktet, ovilja att bli berörd vid huvudet, beteendeförändringar eller viktnedgång. Kom ihåg att djur döljer smärta — många allvarligt sjuka husdjur fortsätter äta normalt. Ägare rapporterar ofta dramatisk beteendeförbättring efter tandbehandling.',
+    en: 'Bad breath (this is not normal!), red or swollen gums, visible tartar, dropping food while eating, chewing on one side only, drooling, facial swelling, reluctance to have the head touched, behavioral changes or weight loss. Remember that animals hide pain — many seriously ill pets continue eating normally. Owners often report dramatic behavioral improvement after dental treatment.'
+  },
+  'article.brushing.professional.title': {
+    fi: 'Ammattimainen hammaspuhdistus',
+    sv: 'Professionell tandrengöring',
+    en: 'Professional Dental Cleaning'
+  },
+  'article.brushing.professional.text': {
+    fi: 'Vaikka harjaisit päivittäin, ammattimainen hammaspuhdistus yleisanestesiassa on tarpeen ajoittain. Ammattipuhdistuksessa pääsemme käsittelemään ienrajan alaiset alueet, otamme hammasröntgenkuvat (jopa 60 % hammassairauksista on piilossa ienrajan alla) ja tarkastamme jokaisen hampaan. Yleisanestesia on välttämätön turvalliseen ja perusteelliseen puhdistukseen. Niin sanottu "anestesiaton hammaspuhdistus" on vain kosmeettista — se ei hoida ienrajan alaista sairautta ja antaa väärän turvallisuudentunteen.',
+    sv: 'Även om du borstar dagligen behövs professionell tandrengöring under generell anestesi med jämna mellanrum. Vid professionell rengöring kan vi behandla områden under tandköttsranden, ta tandröntgen (upp till 60 % av tandsjukdomar är dolda under tandköttsranden) och undersöka varje tand. Generell anestesi är nödvändig för en säker och grundlig rengöring. Så kallad "anestesifri tandrengöring" är bara kosmetisk — den behandlar inte sjukdom under tandköttsranden och ger en falsk känsla av trygghet.',
+    en: 'Even with daily brushing, professional dental cleaning under general anesthesia is needed periodically. During professional cleaning we can treat areas below the gumline, take dental X-rays (up to 60% of dental disease is hidden below the gumline) and examine every tooth. General anesthesia is essential for safe and thorough cleaning. So-called "anesthesia-free dental cleaning" is purely cosmetic — it does not address disease below the gumline and gives a false sense of security.'
+  },
+  'article.brushing.challenge.title': {
+    fi: '#BrushChamp — harjaatko joka päivä?',
+    sv: '#BrushChamp — borstar du varje dag?',
+    en: '#BrushChamp — Do You Brush Every Day?'
+  },
+  'article.brushing.challenge.text': {
+    fi: 'Eläinklinikka Saaressa arvostamme omistajia, jotka sitoutuvat lemmikkinsä hampaiden päivittäiseen harjaukseen. Jos harjaat lemmikkisi hampaat joka päivä, kerro meille — kunniajäsenet saavat #BrushChamp-mitalin! Ota yhteyttä klinikalla tai sähköpostitse: elainklinikkasaari.vaasa@gmail.com.',
+    sv: 'På Eläinklinikka Saari uppskattar vi ägare som förbinder sig till daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: elainklinikkasaari.vaasa@gmail.com.',
+    en: 'At Eläinklinikka Saari we value owners who commit to daily tooth brushing. If you brush your pet\'s teeth every day, let us know — dedicated brushers receive the #BrushChamp medal! Contact us at the clinic or by email: elainklinikkasaari.vaasa@gmail.com.'
   },
 };
 
