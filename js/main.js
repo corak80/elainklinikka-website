@@ -411,6 +411,42 @@ const translations = {
   'price.other.euthcat': { fi: 'Eutanasia kissa', sv: 'Eutanasi katt', en: 'Euthanasia cat' },
   'price.other.euthdog': { fi: 'Eutanasia koira', sv: 'Eutanasi hund', en: 'Euthanasia dog' },
 
+  // Orthopedics prices
+  'price.ortho.lameness': { fi: 'Ontumatutkimus', sv: 'Hältundersökning', en: 'Lameness exam' },
+  'price.ortho.xray': { fi: '+ röntgen (nukutettu)', sv: '+ röntgen (sederad)', en: '+ X-ray (sedated)' },
+  'price.ortho.fracture': { fi: 'Murtumaleikkaukset', sv: 'Frakturkirurgi', en: 'Fracture surgery' },
+  'price.ortho.cruciate': { fi: 'Ristisideleikkaus lateraalisutuura', sv: 'Korsbandsoperation lateral sutur', en: 'Cruciate ligament lateral suture' },
+  'price.ortho.tta': { fi: 'Ristisideleikkaus TTA', sv: 'Korsbandsoperation TTA', en: 'Cruciate ligament TTA' },
+  'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
+  'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head removal' },
+
+  // Dental prices
+  'price.dental.xray': { fi: 'Hammasröntgen', sv: 'Tandröntgen', en: 'Dental X-ray' },
+
+  // Pregnancy prices
+  'price.preg.ultrasound': { fi: 'Tiineysultraääni', sv: 'Dräktighetsultraljud', en: 'Pregnancy ultrasound' },
+  'price.preg.xray': { fi: 'Tiineysröntgen', sv: 'Dräktighetsröntgen', en: 'Pregnancy X-ray' },
+
+  // Official examination prices
+  'price.official.hip.small': { fi: 'Lonkkakuvat <20kg', sv: 'Höftröntgen <20kg', en: 'Hip X-ray <20kg' },
+  'price.official.hip.medium': { fi: 'Lonkkakuvat 20–40kg', sv: 'Höftröntgen 20–40kg', en: 'Hip X-ray 20–40kg' },
+  'price.official.hip.large': { fi: 'Lonkkakuvat >40kg', sv: 'Höftröntgen >40kg', en: 'Hip X-ray >40kg' },
+  'price.official.elbow': { fi: 'Kyynärnivelkuvat', sv: 'Armbågsröntgen', en: 'Elbow X-ray' },
+  'price.official.spine': { fi: 'Selkäkuvat', sv: 'Ryggröntgen', en: 'Spine X-ray' },
+  'price.official.package.small': { fi: 'Paketti <40kg', sv: 'Paket <40kg', en: 'Package <40kg' },
+  'price.official.package.large': { fi: 'Paketti >40kg', sv: 'Paket >40kg', en: 'Package >40kg' },
+  'price.official.knee': { fi: 'Polvitarkastus', sv: 'Knäundersökning', en: 'Knee exam' },
+  'price.official.heart': { fi: 'Sydänauskultaatio', sv: 'Hjärtauskultation', en: 'Heart auscultation' },
+
+  // Endoscopy prices
+  'price.endo.earflush': { fi: 'Korvahuuhtelu (video-otoskooppinen)', sv: 'Öronspolning (video-otoskopisk)', en: 'Ear flushing (video-otoscopic)' },
+  'price.endo.rhinoscopy': { fi: 'Rhinoskopia', sv: 'Rinoskopi', en: 'Rhinoscopy' },
+
+  // Cardiac prices
+  'price.cardiac.official.small': { fi: 'Virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud <40kg', en: 'Official cardiac ultrasound <40kg' },
+  'price.cardiac.official.large': { fi: 'Virallinen sydämen ultraääni >40kg', sv: 'Officiellt hjärtultraljud >40kg', en: 'Official cardiac ultrasound >40kg' },
+  'price.cardiac.ultrasound': { fi: 'Sydämen ultraääni', sv: 'Hjärtultraljud', en: 'Heart ultrasound' },
+
   'prices.note': {
     fi: 'Peruuttamattomista ajoista veloitetaan enintään 50% toimenpiteen hinnasta. Peruutukset 24h ennen.',
     sv: 'Avbokning krävs minst 24 timmar före besöket. Avgift högst 50% av behandlingens pris.',
