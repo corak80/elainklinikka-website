@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eläinklinikka Saari – Vaasa</title>
+  <meta name="description" content="Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989. Professional veterinary care in Vaasa since 1989.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <div class="logo-icon"><img src="images/logo.png" alt="Eläinklinikka Saari"></div>
+      </a>
+
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="#about" data-i18n="nav.about">Klinikka</a>
+          <a href="#services" data-i18n="nav.services">Palvelut</a>
+          <a href="#team" data-i18n="nav.team">Henkilökunta</a>
+          <a href="#prices" data-i18n="nav.prices">Hinnasto</a>
+          <a href="#wildlife" data-i18n="nav.wildlife">Wildlife</a>
+          <a href="#contact" data-i18n="nav.contact">Yhteystiedot</a>
+          <a href="#" onclick="toggleArticles(); return false;" data-i18n="nav.articles">Artikkelit</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-cta mobile-cta" data-i18n="nav.book">Varaa aika</a>
+        </div>
+
+        <div class="nav-actions">
+          <div class="lang-toggle">
+            <button data-lang="fi" class="active">FI</button>
+            <button data-lang="sv">SV</button>
+            <button data-lang="en">EN</button>
+          </div>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-cta btn-sm desktop-only" data-i18n="nav.book">Varaa aika</a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Notice Banner ===== -->
+  <div class="notice-banner">
+    <span>💉 <span data-i18n="notice">Drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00</span></span>
+  </div>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container">
+      <h1>
+        <span data-i18n="hero.title1">Eläinklinikka</span><br>
+        <span class="accent" data-i18n="hero.title2">Saari</span>
+      </h1>
+      <p class="subtitle" data-i18n="hero.subtitle">Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989.</p>
+      <div class="hero-actions">
+        <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-cta btn-lg" data-i18n="hero.cta">Varaa aika</a>
+        <a href="#services" class="btn btn-outline btn-lg" data-i18n="hero.services">Palvelumme</a>
+      </div>
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <div class="badge-icon">🐱</div>
+          <span data-i18n="hero.badge.catfriendly">Kissaystävällinen klinikka</span>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon">🏥</div>
+          <span data-i18n="hero.badge.since">Perustettu 1989</span>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-icon">👥</div>
+          <span data-i18n="hero.badge.team">13 ammattilaista</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/team-hero.webp" alt="Eläinklinikka Saari team">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="about.title">Tietoa klinikasta</h2>
+        <p data-i18n="about.subtitle">Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-content">
+          <p data-i18n="about.text1">Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
+          <p data-i18n="about.text2">Ammattitaitoinen hoitotiimimme tarjoaa Teille kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi.</p>
+          <div class="cat-friendly-badge">
+            🐱 <span data-i18n="about.catfriendly.title">ISFM-sertifioitu kissaystävällinen klinikka</span>
+          </div>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">🔬</div>
+              <div class="feature-text">
+                <strong data-i18n="about.feature1.title">Laaja diagnostiikka</strong>
+                <span data-i18n="about.feature1.text">Röntgen, ultraääni, tähystys, laboratorio</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">🏥</div>
+              <div class="feature-text">
+                <strong data-i18n="about.feature2.title">Moderni kirurgia</strong>
+                <span data-i18n="about.feature2.text">Ortopedia, pehmytkudoskirurgia, hammashoito</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon">❤️</div>
+              <div class="feature-text">
+                <strong data-i18n="about.feature3.title">Sydäntutkimukset</strong>
+                <span data-i18n="about.feature3.text">Viralliset sydänultraäänitutkimukset</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="placeholder">
+            <div class="icon">📸</div>
+            <p data-i18n="about.placeholder">Klinikan kuva</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="services.title">Palvelumme</h2>
+        <p data-i18n="services.subtitle">Tarjoamme monipuoliset eläinlääkäripalvelut lemmikillesi</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🪡</div><h3 data-i18n="service.acupuncture">Akupunktio</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.acupuncture">Akupunktiota käytetään kivunlievennykseen ja joidenkin tautien hoitoon. Akupunktiota klinikalla tekee Assaf, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🩸</div><h3 data-i18n="service.bloodtests">Verikokeet</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.bloodtests">Klinikallamme on mahdollisuus tutkia lemmikin verinäytteet. Useimmat näytteet tutkimme omassa laboratoriossamme, jolloin saamme vastauksen jo käynnin aikana.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🔬</div><h3 data-i18n="service.dermatology">Ihotaudit ja allergiat</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.dermatology">Ihotaudit ovat yksi yleisimmistä syistä hakeutua eläinlääkäriin. Joka kymmenennellä suomalaisella koiralla on allergioita, jotka usein oireilevat ihotulehduksina ja korvatulehduksina. Tyypillisiä oireita ovat tassujen nuoleminen, korvien raapiminen ja kasvojen hankaaminen. Allergiaa epäiltäessä pyritään ensin poissulkemaan ruoka-aineet, ja tarvittaessa otetaan allergiaverinäytteet.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🤰</div><h3 data-i18n="service.pregnancy">Tiineystutkimus</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.pregnancy">Ultraäänitutkimuksella voidaan todeta tiineys noin raskauspäivästä 24. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin, noin raskauspäivästä 50 lähtien.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">📷</div><h3 data-i18n="service.endoscopy">Tähystystutkimukset</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.endoscopy">Klinikalla tehdään video-otoskopia (korvaontelon tähystys ja huuhtelu), rhinoskopia (nenäontelon tähystys), gastroskopia (vatsan ja suoliston tähystys), kystoskopia (virtsateiden tähystys) ja bronkoskopia (hengitysteiden tähystys).</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🍖</div><h3 data-i18n="service.food">Rehunmyynti</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.food">Klinikaltamme löydät lemmikin eri sairauksien hoidossa käytettävät erikoisruokavaliot. Erikoisruokia suositellaan esimerkiksi nivelrikkoon, munuaisten vajaatoimintaan, vatsa- ja suolistovaivoihin, ruoka-aineallergioihin ja painonhallintaan. Merkit: Royal Canin, Specific, Hill's.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">💪</div><h3 data-i18n="service.wellness">Hyvinvointi ja kuntoutus</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.wellness">Kuntoutuksen avulla arvioidaan ja pyritään parantamaan eläimen toimintakykyä ja liikkumista. Yleisimmät syyt ovat liikkuvuuden häiriöt, suorituskyvyn alentuminen, trauman jälkeiset kiputilat ja leikkauksen jälkeinen kuntoutus. Palvelut: liikkumisanalyysi, hieronta, elektroterapia, harjoitusohjelmat.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🩺</div><h3 data-i18n="service.healthcheck">Terveystarkastukset</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.healthcheck">Terveystarkastuksessa voidaan havaita muutokset jotka voivat pitkällä tähtäimellä aiheuttaa terveysongelmia. Eläinlääkäri tutkii koko eläimen kliinisesti, kuuntelee sydäntä ja keuhkoja sekä tarvittaessa ottaa verinäytteet.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">❤️</div><h3 data-i18n="service.cardiology">Sydänsairaudet</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.cardiology">Sydänsairaudet ovat yleisiä erityisesti tietyissä roduissa. Ajoissa aloitettu lääkitys voi pidentää lemmikin elinikää. Klinikalla tehdään sydämen ultraäänitutkimuksia, EKG- ja Holter-tutkimuksia. Teemme myös virallisia sydämen ultraäänitutkimuksia koirille. Klinikalla on viralliset sydämen auskultaatio-oikeudet.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">✂️</div><h3 data-i18n="service.castration">Kastraatio</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.castration">Teemme kissojen, koirien ja kanien kastraatioita. Koiran kastraatiolla voidaan ennaltaehkäistä eturauhasvaivoja ja merkkailua. Tarjolla myös kemiallinen kastraatio hormoni-implantilla (6 tai 12 kk teho).</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🦷</div><h3 data-i18n="service.surgery.dental">Hammaskirurgia</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.surgery.dental">Hammaskiven poisto ultraäänilaitteella, hammasröntgen, hampaiden kirurgiset poistot sekä maitohampaiden poistot. Kaikki toimenpiteet tehdään yleisanestesiassa inhalaatioanestesialla, suonensisäisellä nesteytyksellä ja kattavalla kivunlievennyksellä.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🔪</div><h3 data-i18n="service.surgery.soft">Pehmytkudoskirurgia</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.surgery.soft">Sterilisaatiot, kastraatiot, keisarinleikkaukset, kasvainten poistot, vierasesineleikkaukset, virtsakivileikkaukset, muut vatsaonteloleikkaukset sekä silmä- ja korvaleikkaukset.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🦴</div><h3 data-i18n="service.surgery.ortho">Ortopedinen kirurgia</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.surgery.ortho">Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🧪</div><h3 data-i18n="service.laboratory">Laboratorio</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.laboratory">Hyvin varusteltu oma laboratorio: verinäytteet, virtsanäytteet, verisivelyt, iho- ja korvanäytteet. Suurin osa tuloksista jo käynnin aikana. Tutkimuksia: hematologia, kliininen kemia, elektrolyytit, hormonit, virtsaviljelyt, sytologia.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">📋</div><h3 data-i18n="service.official">Viralliset tutkimukset</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.official">Viralliset lonkka-, kyynär- ja selkätutkimukset. Viralliset polvitutkimukset. Viralliset sydämen auskultaatiotutkimukset.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🦴</div><h3 data-i18n="service.orthopedics">Ortopedia</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.orthopedics">Ortopediset tutkimukset ja viralliset röntgentutkimukset. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">☢️</div><h3 data-i18n="service.xray">Röntgen</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.xray">Digitaalinen röntgen. Suositellaan esim. ontumiin, keuhko- tai sydänoireisiin, akuuttiin oksenteluun, virtsaamisvaikeuksiin, kasvainepäilyihin ja virallisiin röntgenkuvauksiin.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🕊️</div><h3 data-i18n="service.euthanasia">Viimeinen jäähyväinen</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.euthanasia">Pyrimme siihen, että hyvästien otto tapahtuu rauhallisesti, ilman kiirettä. Lemmikille annetaan ensin rauhoite kivunlievennyksellä, sitten nukutusaine. Vaihtoehdot: kotihautaus, tuhkaus tai yksilötuhkaus uurnalla.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🏥</div><h3 data-i18n="service.sterilization">Sterilisaatio</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.sterilization">Yleinen toimenpide koirille, kissoille ja kaneille. Sterilisaatiolla voidaan välttyä hormonaalisilta taudeilta, kuten nisäkasvaimilta tai kohtutulehdukselta. Inhalaatioanestesia ja kattava kivunlievennys.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🦷</div><h3 data-i18n="service.dental">Hammashoito</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.dental">Hammassairaudet ovat erittäin yleisiä — jo 3-vuoden iässä valtaosalla on hampaiden tulehdus. Palvelut: hammaskiven poisto, hammasröntgen, hampaiden poistot ja maitohampaiden poistot. Kaikki toimenpiteet yleisanestesiassa.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">📡</div><h3 data-i18n="service.ultrasound">Ultraäänitutkimukset</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.ultrasound">Laadukas ultraääni: vatsan alueen tutkimukset, kohdun tutkimukset, maksan, munuaisten ja sisäelinten tutkimukset sekä sydämen ultraäänitutkimukset.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">💉</div><h3 data-i18n="service.vaccinations">Rokotukset</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.vaccinations">Rokotus on tärkeää ennaltaehkäisevää terveydenhoitoa. Koiranpennut rokotetaan 12 ja 16 viikon ikäisinä. Kissanpennut samoin. Aikuiset rokotetaan 1–3 vuoden välein. Koirat: parvovirus, maksatulehdus, penikkatuti, rabies, kennelyskä. Kissat: kissarutto, herpes, calici.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">🐕</div><h3 data-i18n="service.puppy">Pentutarkastus</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.puppy">Pentutarkastuksessa eläinlääkäri tutkii pennun päästä varpaisiin ja antaa terveystodistuksen. Tarkastuksen yhteydessä voidaan asettaa mikrosiru.</div>
+        </div>
+        <div class="service-card" onclick="this.classList.toggle('open')">
+          <div class="service-header"><div class="service-icon">😴</div><h3 data-i18n="service.anesthesia">Anestesia</h3><span class="service-toggle">▼</span></div>
+          <div class="service-desc" data-i18n="service.desc.anesthesia">Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme ja koulutustamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikalla on käytössä kaksi ventilaattoria turvallisen anestesian varmistamiseksi.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Team ===== -->
+  <section id="team" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="team.title">Henkilökuntamme</h2>
+        <p data-i18n="team.subtitle">Ammattitaitoinen hoitotiimimme palveluksessanne</p>
+      </div>
+
+      <h3 class="text-center mb-2" data-i18n="team.vets">Eläinlääkärit</h3>
+      <div class="team-grid mb-2">
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/leena.webp" alt="Leena Sandström"></div>
+          <h3>Leena Sandström</h3>
+          <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
+          <p class="bio" data-i18n="bio.leena">Sydänsairaudet ja sisätaudit. ESAVS-kardiologian sertifikaatti. Kennelklubin valtuutettu sydäntutkija.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/pamela.webp" alt="Pamela Kvarngård"></div>
+          <h3>Pamela Kvarngård</h3>
+          <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
+          <p class="bio" data-i18n="bio.pamela">Ortopedia, pehmytkudoskirurgia ja hammashoito. AOVET & ESAVS koulutus.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/assaf.webp" alt="Assaf Wydra"></div>
+          <h3>Assaf Wydra</h3>
+          <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
+          <p class="bio" data-i18n="bio.assaf">Hammashoito, tähystystutkimukset ja luonnonvaraisten eläinten hoito.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/nina.webp" alt="Nina Haglund"></div>
+          <h3>Nina Haglund</h3>
+          <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
+          <p class="bio" data-i18n="bio.nina">Kirurgia, hammashoito ja ihotaudit. Farmaseutin tausta.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/merja.webp" alt="Merja Autio"></div>
+          <h3>Merja Autio</h3>
+          <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
+          <p class="bio" data-i18n="bio.merja">Pehmytkudoskirurgia ja eksoottisten eläinten hoito.</p>
+        </div>
+      </div>
+
+      <h3 class="text-center mb-2" data-i18n="team.techs">Hoitohenkilökunta</h3>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/sanna.webp" alt="Sanna Koskiluhta"></div>
+          <h3>Sanna Koskiluhta</h3>
+          <p class="role" data-i18n="role.manager">Klinikkamanageri, klinikkaeläinhoitaja</p>
+          <p class="bio" data-i18n="bio.sanna">Klinikan hallinto, tilaukset ja aikataulut.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/jenni.webp" alt="Jenni Ruotsala"></div>
+          <h3>Jenni Ruotsala</h3>
+          <p class="role" data-i18n="role.headtech">Johtava klinikkaeläinhoitaja</p>
+          <p class="bio" data-i18n="bio.jenni">Anestesia ja laboratoriotyö. Anestesia EAT-tutkinto.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/meri.webp" alt="Meri Vilén"></div>
+          <h3>Meri Vilén</h3>
+          <p class="role" data-i18n="role.tech">Klinikkaeläinhoitaja</p>
+          <p class="bio" data-i18n="bio.meri">Kissojen hoitoon erikoistunut. Myös hevostenhoitajan tutkinto.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/susanna.webp" alt="Susanna Seljas"></div>
+          <h3>Susanna Seljas</h3>
+          <p class="role" data-i18n="role.tech">Klinikkaeläinhoitaja</p>
+          <p class="bio" data-i18n="bio.susanna">Monipuolinen klinikkatyö ja jatkuva oppiminen.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/emilia.webp" alt="Emilia Svahn"></div>
+          <h3>Emilia Svahn</h3>
+          <p class="role" data-i18n="role.tech">Klinikkaeläinhoitaja</p>
+          <p class="bio" data-i18n="bio.emilia">Anestesia, kirurgiset toimenpiteet ja hammashoito.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/jennifer.webp" alt="Jennifer Couloigner"></div>
+          <h3>Jennifer Couloigner</h3>
+          <p class="role" data-i18n="role.nurse_student">Eläinhoitaja / opiskelija</p>
+          <p class="bio" data-i18n="bio.jennifer">Anestesian valvonta, kirurgia ja eksoottiset potilaat.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/josefiina.webp" alt="Josefiina Saarimäki"></div>
+          <h3>Josefiina Saarimäki</h3>
+          <p class="role" data-i18n="role.practical">Lähihoitaja</p>
+          <p class="bio" data-i18n="bio.josefiina">Laboratorio- ja leikkaussalityö.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"><img src="images/tiina.webp" alt="Tiina McBreen"></div>
+          <h3>Tiina McBreen</h3>
+          <p class="role" data-i18n="role.practical">Lähihoitaja</p>
+          <p class="bio" data-i18n="bio.tiina">Kirurgia, ortopedia ja traumahoito.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Prices ===== -->
+  <section id="prices" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="prices.title">Hinnasto</h2>
+        <p data-i18n="prices.subtitle">Hinnat ovat kokonaishintoja. Leikkaukset sisältävät lääkkeet ja tarvikkeet.</p>
+      </div>
+
+      <div class="prices-container">
+        <!-- Consultation -->
+        <div class="price-category open">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.consultation">Eläinlääkärin vastaanotto</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.consult15">Vastaanotto &lt;15 min</span>
+              <span class="price-value">71,45 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.consult30">Vastaanotto &lt;30 min</span>
+              <span class="price-value">101,80 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.consult45">Vastaanotto &lt;45 min</span>
+              <span class="price-value">132,20 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vaccinations -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.vaccinations">Rokotukset</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.catrcp">Kissan 3-rokotus (RCP)</span>
+              <span class="price-value">75,45 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.catrcprabies">Kissan 3-rokotus + rabies</span>
+              <span class="price-value">86,44 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.dogdhppi">Koiran 4-rokotus (DHPPI)</span>
+              <span class="price-value">76,85 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.dogdhppirabies">Koiran 4-rokotus + rabies</span>
+              <span class="price-value">84,80 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.kennelpi">Kennelyskärokotus PI</span>
+              <span class="price-value">74,56 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.vacc.kennelkc">Kennelyskärokotus KC</span>
+              <span class="price-value">76,93 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Surgery -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.surgery">Peruskirurgia</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.surg.catfemale">Naaraskissan sterilisaatio</span>
+              <span class="price-value">205 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.surg.catmale">Uroskissan kastraatio</span>
+              <span class="price-value">105 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.surg.dogfemale">Naaraskoiran sterilisaatio</span>
+              <span class="price-value">480–750 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.surg.dogmale">Uroskoiran kastraatio</span>
+              <span class="price-value">380–550 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Orthopedics -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.orthopedics">Ortopedia</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name">Ontumatutkimus / Lameness exam</span>
+              <span class="price-value">160 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">+ röntgen (nukutettu) / + X-ray (sedated)</span>
+              <span class="price-value">270–450 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Murtumaleikkaukset / Fracture surgery</span>
+              <span class="price-value">alk. 1 300 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Ristisideleikkaus lateraalisutuura / Cruciate ligament</span>
+              <span class="price-value">900–1 050 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Ristisideleikkaus TTA</span>
+              <span class="price-value">1 700–1 800 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Patellaluksaatio / Patellar luxation</span>
+              <span class="price-value">950–1 300 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Reisiluunpään poisto / Femoral head removal</span>
+              <span class="price-value">950–1 100 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dental -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.dental">Hammashoidot</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.dental.check">Hampaiden tarkistus hereillä</span>
+              <span class="price-value">32 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.dental.catscaling">Hammaskiven poisto kissa</span>
+              <span class="price-value">260 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.dental.dogsmall">Hammaskiven poisto koira &lt;20kg</span>
+              <span class="price-value">300 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.dental.doglarge">Hammaskiven poisto koira &gt;20kg</span>
+              <span class="price-value">350 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Hammasröntgen / Dental X-ray</span>
+              <span class="price-value">59–99 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregnancy -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.pregnancy">Tiineystutkimukset</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name">Tiineysultraääni / Pregnancy ultrasound</span>
+              <span class="price-value">114,80 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Tiineysröntgen / Pregnancy X-ray</span>
+              <span class="price-value">105,00 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official Examinations -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.official">Viralliset tutkimukset</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name">Lonkkakuvat / Hip X-ray &lt;20kg</span>
+              <span class="price-value">180 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Lonkkakuvat / Hip X-ray 20–40kg</span>
+              <span class="price-value">190 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Lonkkakuvat / Hip X-ray &gt;40kg</span>
+              <span class="price-value">230 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Kyynärnivelkuvat / Elbow X-ray</span>
+              <span class="price-value">63 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Selkäkuvat / Spine X-ray</span>
+              <span class="price-value">204–254 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Paketti / Package &lt;40kg</span>
+              <span class="price-value">299 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Paketti / Package &gt;40kg</span>
+              <span class="price-value">359 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Polvitarkastus / Knee exam</span>
+              <span class="price-value">38–77 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Sydänauskultaatio / Heart auscultation</span>
+              <span class="price-value">37–77 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Endoscopy -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.endoscopy">Tähystystoimenpiteet</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name">Korvahuuhtelu (video-otoskooppinen) / Ear flushing</span>
+              <span class="price-value">446–486 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Rhinoskopia / Rhinoscopy</span>
+              <span class="price-value">526–556 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cardiac -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.cardiac">Sydäntutkimukset</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name">Virallinen sydämen ultraääni &lt;40kg / Official cardiac US</span>
+              <span class="price-value">400 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Virallinen sydämen ultraääni &gt;40kg / Official cardiac US</span>
+              <span class="price-value">450 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name">Sydämen ultraääni / Heart ultrasound</span>
+              <span class="price-value">373–473 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="price-category">
+          <div class="price-category-header">
+            <span data-i18n="prices.cat.other">Muut toimenpiteet</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="price-category-body">
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.other.passport">EU-passi</span>
+              <span class="price-value">37,50–77,50 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.other.chip">Mikrosiru</span>
+              <span class="price-value">32,40–55 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.other.nails">Kynsien lyhennys</span>
+              <span class="price-value">21,50–31,50 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.other.euthcat">Eutanasia kissa</span>
+              <span class="price-value">117–128 €</span>
+            </div>
+            <div class="price-row">
+              <span class="price-name" data-i18n="price.other.euthdog">Eutanasia koira</span>
+              <span class="price-value">140–190 €</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-note" data-i18n="prices.note">Peruuttamattomista ajoista veloitetaan enintään 50% toimenpiteen hinnasta. Peruutukset 24h ennen.</div>
+        <p class="text-center mt-1" style="font-size: 0.875rem; color: var(--color-primary); font-weight: 600;" data-i18n="prices.insurance">Suorakorvaus: Lähitapiola, Agria, Pohjola</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Wildlife ===== -->
+  <section id="wildlife" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="wildlife.title">Wildlife</h2>
+        <p data-i18n="wildlife.subtitle">Yhteistyössä Nordic Wildlife Caren kanssa</p>
+      </div>
+      <div class="wildlife-content">
+        <div class="wildlife-text">
+          <p data-i18n="wildlife.text1">Eläinklinikka Saari tekee yhteistyötä villieläinhoitolan kanssa. Vapaaehtoistyömme organisaation kanssa tapahtuu maksutta.</p>
+          <p data-i18n="wildlife.text2">Tarjoamme diagnostiikka- ja hoitopalveluita loukkaantuneille villieläimille. Eläimet saavat ensihoitoa ennen kuntoutuskeskukseen siirtoa, ja tavoitteena on vapauttaa ne takaisin luontoon.</p>
+          <p><strong data-i18n="wildlife.donate">Tue villieläinhoitolaa lahjoittamalla Nordic Wildlife Carelle</strong></p>
+          <p data-i18n="wildlife.found">Löysitkö loukkaantuneen villieläimen? Ota yhteyttä hoitolaan tai tuo eläin suoraan klinikalle.</p>
+        </div>
+        <div class="wildlife-image">
+          <img src="images/wildlife-bat.png" alt="Bat receiving care at Eläinklinikka Saari" style="width:100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section id="testimonials" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="testimonials.title">Asiakaspalaute</h2>
+        <p data-i18n="testimonials.subtitle">Mitä asiakkaamme sanovat</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p data-i18n="testimonial.1">Kiitos erittäin hyvästä palvelusta sekä ystävällisestä ja ammattimaisesta kohtelusta!</p>
+          <div class="stars">★★★★★</div>
+          <small>— I.A., Facebook</small>
+        </div>
+        <div class="testimonial-card">
+          <p data-i18n="testimonial.2">Parasta palvelua, ystävällisyyttä ja ammattimaisuutta mitä voi kuvitella.</p>
+          <div class="stars">★★★★★</div>
+          <small>— J.H., Google</small>
+        </div>
+        <div class="testimonial-card">
+          <p data-i18n="testimonial.3">Aina huippuluokan hoitoa. Ihana ja osaava henkilökunta.</p>
+          <div class="stars">★★★★★</div>
+          <small>— C.B., Google</small>
+        </div>
+        <div class="testimonial-card">
+          <p data-i18n="testimonial.4">Ammattimaista palvelua eläinten hyvinvointi edellä!</p>
+          <div class="stars">★★★★★</div>
+          <small>— G.K., Facebook</small>
+        </div>
+        <div class="testimonial-card">
+          <p data-i18n="testimonial.5">Ystävällinen ja ammattimainen kohtelu.</p>
+          <div class="stars">★★★★★</div>
+          <small>— A.S., Google</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="contact.title">Yhteystiedot</h2>
+        <p data-i18n="contact.subtitle">Ota yhteyttä tai varaa aika</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <strong data-i18n="contact.address.label">Osoite</strong>
+              <span data-i18n="contact.address">Gerbyntie 18-22, 65230 Vaasa</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-text">
+              <strong data-i18n="contact.phone.label">Puhelin</strong>
+              <a href="tel:+35863217300">(06) 321 7300</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-text">
+              <strong data-i18n="contact.email.label">Sähköposti</strong>
+              <a href="mailto:elainklinikkasaari.vaasa@gmail.com">elainklinikkasaari.vaasa@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="hours-table">
+            <h4 data-i18n="contact.hours.label">Aukioloajat</h4>
+            <div class="hours-row">
+              <span class="day" data-i18n="contact.hours.weekdays">Ma–Pe</span>
+              <span class="time" data-i18n="contact.hours.weekdays.time">9:00–17:00</span>
+            </div>
+            <div class="hours-row">
+              <span class="day" data-i18n="contact.hours.weekends">La–Su</span>
+              <span class="time" data-i18n="contact.hours.weekends.time">Suljettu</span>
+            </div>
+          </div>
+
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-cta btn-lg mt-2" data-i18n="contact.book">Varaa aika verkossa</a>
+        </div>
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps?q=Eläinklinikka+Saari+Oy,+Gerbyntie+18-22,+65230+Vaasa,+Finland&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Articles (hidden, click-only) ===== -->
+  <section id="articles" class="section articles-section" style="display:none;">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="articles.title">Artikkelit</h2>
+        <p data-i18n="articles.subtitle">Asiantuntija-artikkeleita lemmikkien terveydestä</p>
+      </div>
+
+      <article class="article-card">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.tag.orthopedics">Ortopedia</span>
+          <time>2026</time>
+        </div>
+        <h3 data-i18n="article.tta.title">TTA-leikkaus koirilla – eturistisiteen korjaus tibial tuberosity advancement -menetelmällä</h3>
+        <div class="article-content">
+          <p data-i18n="article.tta.intro">Eturistisiteen (cranial cruciate ligament, CCL) repeämä on yksi yleisimmistä ortopedisistä ongelmista koirilla. Vaurioitunut ristiside aiheuttaa polvinivelen epävakautta, kipua, ontumista ja johtaa hoitamattomana nivelrikkoon. TTA eli tibial tuberosity advancement on moderni kirurginen menetelmä, jolla polvinivelen biomekaniikka korjataan ilman ristisiteen korvaamista.</p>
+
+          <h4 data-i18n="article.tta.how.title">Miten TTA toimii?</h4>
+          <p data-i18n="article.tta.how.text">TTA-leikkauksessa sääriluun kyhmyä (tuberositas tibiae) siirretään eteenpäin ja kiinnitetään titaanisella levyllä, ruuveilla ja välikappaleella. Tämä muuttaa patellajänteen kulmaa suhteessa sääriluun yläpintaan noin 90 asteeseen, jolloin polvinivelen leikkaavat voimat (cranial tibial thrust) neutraloituvat. Koiran polvi stabiloituu toiminnallisesti ilman keinotekoista sidettä.</p>
+
+          <h4 data-i18n="article.tta.vs.title">TTA vai lateral suture?</h4>
+          <p data-i18n="article.tta.vs.text">Klinikalla käytämme kahta eri menetelmää eturistisiteen korjaukseen. Lateral suture -tekniikka stabiloi polvinivelen synteettisellä tukimateriaalilla, joka jäljittelee ristisiteen toimintaa. TTA sen sijaan muuttaa polven biomekaniikkaa pysyvästi. Lateral suture sopii erinomaisesti pienille ja keskikokoisille koirille sekä kissoille, kun taas TTA on hyvä vaihtoehto erityisesti aktiivisille ja suuremmille koirille.</p>
+
+          <h4 data-i18n="article.tta.recovery.title">Toipuminen</h4>
+          <p data-i18n="article.tta.recovery.text">TTA-leikkauksen jälkeen koira alkaa tyypillisesti varata jalalle jo muutaman päivän kuluessa. Luun paraneminen kestää noin 8 viikkoa, ja noin 16 viikon kohdalla useimmat koirat ovat palanneet täyteen aktiivisuuteen. Liikkumista rajoitetaan toipumisaikana ja kontrollikäynnit tehdään 2 ja 8 viikon kohdalla. Tutkimusten mukaan yli 90 % koirista saavuttaa hyvän tai erinomaisen lopputuloksen.</p>
+
+          <h4 data-i18n="article.tta.risks.title">Riskit ja komplikaatiot</h4>
+          <p data-i18n="article.tta.risks.text">Kuten kaikissa leikkauksissa, TTA:han liittyy komplikaatioiden mahdollisuus: infektio, implantin löystyminen, luun hitaampi paraneminen tai meniskivaurio (noin 9–10 % tapauksista). Komplikaatioriski pienenee kirurgin kokemuksen myötä. Klinikalla valvomme anestesiaa tarkasti ja käytämme kattavaa kivunlievennystä kaikissa ortopedisissä leikkauksissa.</p>
+
+          <h4 data-i18n="article.tta.when.title">Milloin kannattaa ottaa yhteyttä?</h4>
+          <p data-i18n="article.tta.when.text">Jos koirasi ontuu takajalkaansa, välttää rasitusta tai jäykistelee levon jälkeen, ristisidevaurio on yleinen syy. Varhainen diagnoosi ja hoito parantavat ennustetta merkittävästi. Varaa aika ortopediseen tutkimukseen — arvioimme tilanteen ja suosittelemme koirallesi parhaiten sopivan leikkausmenetelmän.</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.tag.endoscopy">Tähystys</span>
+          <time>2026</time>
+        </div>
+        <h3 data-i18n="article.otoscopy.title">Video-otoskopia – korvien tähystystutkimus koirilla ja kissoilla</h3>
+        <div class="article-content">
+          <p data-i18n="article.otoscopy.intro">Korvatulehdukset ovat yksi yleisimmistä syistä eläinlääkärikäyntiin. Tavallisella korvantähystimellä näkeminen rajoittuu korvakäytävän ulko-osiin, mutta video-otoskopia tuo aivan uuden tason diagnostiikkaan ja hoitoon. Menetelmässä korvakäytävään viedään ohut, jäykkä tähystin, jonka kärjessä on teräväpiirtokamera ja kirkas valo — kuva heijastetaan suurennettuna monitorille reaaliajassa.</p>
+
+          <h4 data-i18n="article.otoscopy.advantages.title">Miksi video-otoskopia?</h4>
+          <p data-i18n="article.otoscopy.advantages.text">Perinteiseen korvantähystimeen verrattuna video-otoskopia tarjoaa merkittävästi paremman suurennuksen ja valaistuksen, mahdollistaen koko korvakäytävän ja tärykalvon tarkan tarkastelun. Tähystimen kautta voidaan samanaikaisesti käyttää erikoistyökaluja: huuhtelukatetreja, harjoja, biopsiapihtejä ja imulaitteita. Näin diagnoosi ja hoito tapahtuvat samassa toimenpiteessä.</p>
+
+          <h4 data-i18n="article.otoscopy.when.title">Milloin video-otoskopiaa suositellaan?</h4>
+          <p data-i18n="article.otoscopy.when.text">Video-otoskopia on erityisen hyödyllinen kroonisissa korvatulehduksissa, jotka eivät reagoi tavanomaiseen lääkehoitoon. Tyypillisiä syitä tutkimukseen ovat toistuva korvatulehdus, epäilys vierasesineestä (esim. heinänkorsi korvakäytävässä), polyypit tai kasvaimet korvakäytävässä, tärykalvon vaurioepäily sekä välikorvatulehdus.</p>
+
+          <h4 data-i18n="article.otoscopy.procedure.title">Miten toimenpide etenee?</h4>
+          <p data-i18n="article.otoscopy.procedure.text">Video-otoskopia tehdään yleisanestesiassa, koska korvakäytävä on herkkä ja potilaan on pysyttävä täysin liikkumatta. Eläinlääkäri vie tähystimen varovasti korvakäytävään ja tutkii sen koko pituudelta monitorilta. Korvakäytävä huuhdellaan perusteellisesti — lika, erite ja biofilmi poistetaan. Tarvittaessa otetaan näytteitä bakteeriviljelyä varten, poistetaan vierasesineitä tai polyypeja, tai tehdään myringotomia (tärykalvon avaus) välikorvan tutkimiseksi ja hoitamiseksi.</p>
+
+          <h4 data-i18n="article.otoscopy.chronic.title">Krooninen korvatulehdus ja sen haasteet</h4>
+          <p data-i18n="article.otoscopy.chronic.text">Krooninen korvatulehdus on yleinen erityisesti luppakorvaisilla koiraroduilla ja allergisilla koirilla. Pitkittynyt tulehdus voi johtaa korvakäytävän ahtautumiseen, biofilmin muodostumiseen ja resistenttien bakteerien kasvuun. Video-otoskopia mahdollistaa perusteellisen syväpuhdistuksen, jossa bakteereja suojaava biofilmi poistetaan mekaanisesti. Puhdistuksen jälkeen korvaan voidaan annostella lääkettä suoraan tulehdusalueelle.</p>
+
+          <h4 data-i18n="article.otoscopy.contact.title">Milloin kannattaa ottaa yhteyttä?</h4>
+          <p data-i18n="article.otoscopy.contact.text">Jos lemmikkisi raapii korviaan toistuvasti, korvista tulee pahaa hajua tai eritettä, pää on kallellaan, tai korvatulehdus palaa aina uudelleen hoidosta huolimatta — video-otoskopia voi olla avain ongelman ratkaisemiseen. Varaa aika tutkimukseen, niin selvitämme tilanteen ja suunnittelemme tehokkaan hoitostrategian.</p>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.tag.anesthesia">Anestesia</span>
+          <time>2026</time>
+        </div>
+        <h3 data-i18n="article.mlk.title">MLK-infuusio – multimodaalinen kivunlievennys leikkausten aikana</h3>
+        <div class="article-content">
+          <p data-i18n="article.mlk.intro">Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (morfiini-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.</p>
+
+          <h4 data-i18n="article.mlk.what.title">Mitä MLK-infuusio tarkoittaa?</h4>
+          <p data-i18n="article.mlk.what.text">MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: morfiini on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.</p>
+
+          <h4 data-i18n="article.mlk.why.title">Miksi monikomponenttinen lähestymistapa?</h4>
+          <p data-i18n="article.mlk.why.text">Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä kolme eri lääkeainetta matalilla annoksilla saadaan tehokkaampi kivunlievennys kuin yhdellä lääkkeellä yksinään — ja samalla pidetään kunkin lääkkeen sivuvaikutukset mahdollisimman pieninä. Tutkimusten mukaan MLK-infuusio vähentää inhalaatioanesteetin (isofluraanin) tarvetta jopa 45 %, mikä parantaa hemodynamiikkaa ja vähentää anestesiaan liittyviä riskejä.</p>
+
+          <h4 data-i18n="article.mlk.benefits.title">Edut verrattuna perinteiseen kerta-annokseen</h4>
+          <p data-i18n="article.mlk.benefits.text">Kun kipulääke annetaan yksittäisinä annoksina, potilaan verenkierrossa tapahtuu lääkepitoisuuden nousuja ja laskuja — välillä lääke vaikuttaa, välillä kipu palaa. Jatkuva infuusio tasoittaa nämä vaihtelut ja tarjoaa tasaisen, katkeamattoman kivunlievennyksen. Näin potilas pysyy vakaassa tilassa koko leikkauksen ajan ja toipuminen on nopeampaa ja kivuttomampaa.</p>
+
+          <h4 data-i18n="article.mlk.use.title">Käyttö klinikallamme</h4>
+          <p data-i18n="article.mlk.use.text">MLK-infuusio on vakiomenetelmämme kaikissa kivuliaissa kirurgisissa toimenpiteissä. Käytämme sitä naaraskoirien sterilisaatioissa, kasvainleikkauksissa, vatsaonteloleikkauksissa ja kaikissa ortopedisissä leikkauksissa, kuten ristisideleikkauksissa, murtumien korjauksissa ja amputaatioissa. Infuusio aloitetaan ennen leikkausta ja sitä jatketaan tarvittaessa myös leikkauksen jälkeen optimaalisen kivunlievennyksen takaamiseksi.</p>
+
+          <h4 data-i18n="article.mlk.windup.title">Mitä on kivun "wind-up"?</h4>
+          <p data-i18n="article.mlk.windup.text">Wind-up on ilmiö, jossa pitkittynyt kipu herkistää keskushermoston kipuratoja niin, että kipukokemus voimistuu progressiivisesti. Jos leikkauksen aikainen kivunlievennys on riittämätöntä, toipumisvaiheessa kipu voi olla vaikeasti hallittavissa ja vaatii huomattavasti suurempia lääkeannoksia. MLK-infuusion ketamiinikomponentti estää tätä herkistymistä tehokkaasti, mikä on yksi menetelmän merkittävimmistä eduista.</p>
+
+          <h4 data-i18n="article.mlk.safety.title">Turvallisuus ja valvonta</h4>
+          <p data-i18n="article.mlk.safety.text">MLK-infuusion lääkeaineet annetaan matalilla annoksilla, jolloin sivuvaikutusriski on pieni. Tutkimuksissa MLK ei ole aiheuttanut haitallisia hemodynaamiseen vaikutuksia. Klinikalla valvomme jokaista potilasta tarkasti koko anestesian ajan — käytössämme on kaksi ventilaattoria turvallisen anestesian varmistamiseksi, ja päivitämme jatkuvasti protokolliamme ja koulutustamme.</p>
+        </div>
+      </article>
+
+      <a href="#" class="btn btn-secondary articles-back" onclick="toggleArticles(); return false;" data-i18n="articles.back">← Takaisin etusivulle</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p data-i18n="footer.description">Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.quicklinks">Pikalinkit</h4>
+          <a href="#about" data-i18n="nav.about">Klinikka</a>
+          <a href="#services" data-i18n="nav.services">Palvelut</a>
+          <a href="#team" data-i18n="nav.team">Henkilökunta</a>
+          <a href="#prices" data-i18n="nav.prices">Hinnasto</a>
+          <a href="#wildlife" data-i18n="nav.wildlife">Wildlife</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Yhteystiedot</h4>
+          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="mailto:elainklinikkasaari.vaasa@gmail.com">elainklinikkasaari.vaasa@gmail.com</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18-22+Vaasa">Gerbyntie 18-22, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Eläinklinikka Saari Oy. <span data-i18n="footer.rights">Kaikki oikeudet pidätetään.</span></span>
+        <a href="#" data-i18n="footer.privacy">Tietosuojarekisteri</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
