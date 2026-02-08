@@ -756,6 +756,14 @@ ul {
   font-style: italic;
 }
 
+.price-note-small {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin: 0;
+}
+
 /* --- Wildlife Section --- */
 .wildlife-content {
   display: grid;
