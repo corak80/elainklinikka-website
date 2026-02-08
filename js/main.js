@@ -94,9 +94,9 @@ const translations = {
     en: 'Modern Surgery'
   },
   'about.feature2.text': {
-    fi: 'Ortopedia, pehmytkudoskirurgia, hammashoito',
-    sv: 'Ortopedi, mjukdelskirurgi, tandvård',
-    en: 'Orthopedics, soft tissue surgery, dentistry'
+    fi: 'Ortopedia ja pehmytkudoskirurgia',
+    sv: 'Ortopedi och mjukdelskirurgi',
+    en: 'Orthopedics and soft tissue surgery'
   },
   'about.feature3.title': {
     fi: 'Sydäntutkimukset',
