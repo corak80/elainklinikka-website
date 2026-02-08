@@ -754,6 +754,7 @@ ul {
   color: var(--color-text-muted);
   border-top: 1px solid var(--color-border);
   font-style: italic;
+  text-align: center;
 }
 
 .price-note-small {
