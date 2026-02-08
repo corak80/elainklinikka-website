@@ -326,39 +326,39 @@ const translations = {
     en: 'Clinic administration, orders and scheduling.'
   },
   'bio.jenni': {
-    fi: 'Anestesia ja laboratoriotyö. Anestesia EAT-tutkinto.',
-    sv: 'Anestesi och laboratoriearbete. Anestesi specialistkompetens.',
-    en: 'Anesthesia and laboratory work. Anesthesia specialist qualification.'
+    fi: 'Kiinnostuksen kohteet: anestesia ja laboratoriotyö. Anestesia EAT-tutkinto.',
+    sv: 'Intresseområden: anestesi och laboratoriearbete. Anestesi specialistkompetens.',
+    en: 'Interests: anesthesia and laboratory work. Anesthesia specialist qualification.'
   },
   'bio.meri': {
-    fi: 'Kissojen hoitoon erikoistunut. Myös hevostenhoitajan tutkinto.',
-    sv: 'Specialiserad på katter. Även utbildad hästskötare.',
-    en: 'Specialized in cat care. Also qualified horse caretaker.'
+    fi: 'Kiinnostuksen kohteet: kissojen hoito. Myös hevostenhoitajan tutkinto.',
+    sv: 'Intresseområden: kattvård. Även utbildad hästskötare.',
+    en: 'Interests: cat care. Also qualified horse caretaker.'
   },
   'bio.susanna': {
-    fi: 'Monipuolinen klinikkatyö ja jatkuva oppiminen.',
-    sv: 'Varierande klinikarbete och kontinuerligt lärande.',
-    en: 'Diverse clinical work and continuous learning.'
+    fi: 'Kiinnostuksen kohteet: monipuolinen klinikkatyö ja jatkuva oppiminen.',
+    sv: 'Intresseområden: varierande klinikarbete och kontinuerligt lärande.',
+    en: 'Interests: diverse clinical work and continuous learning.'
   },
   'bio.emilia': {
-    fi: 'Anestesia, kirurgiset toimenpiteet ja hammashoito.',
-    sv: 'Anestesi, kirurgiska ingrepp och tandvård.',
-    en: 'Anesthesia, surgical procedures and dental care.'
+    fi: 'Kiinnostuksen kohteet: anestesia, kirurgiset toimenpiteet ja hammashoito.',
+    sv: 'Intresseområden: anestesi, kirurgiska ingrepp och tandvård.',
+    en: 'Interests: anesthesia, surgical procedures and dental care.'
   },
   'bio.jennifer': {
-    fi: 'Anestesian valvonta, kirurgia ja eksoottiset potilaat.',
-    sv: 'Anestesiövervakning, kirurgi och exotiska patienter.',
-    en: 'Anesthesia monitoring, surgery and exotic patients.'
+    fi: 'Kiinnostuksen kohteet: anestesian valvonta, kirurgia ja eksoottiset potilaat.',
+    sv: 'Intresseområden: anestesiövervakning, kirurgi och exotiska patienter.',
+    en: 'Interests: anesthesia monitoring, surgery and exotic patients.'
   },
   'bio.josefiina': {
-    fi: 'Laboratorio- ja leikkaussalityö.',
-    sv: 'Laboratorie- och operationsarbete.',
-    en: 'Laboratory and operating room work.'
+    fi: 'Kiinnostuksen kohteet: laboratorio- ja leikkaussalityö.',
+    sv: 'Intresseområden: laboratorie- och operationsarbete.',
+    en: 'Interests: laboratory and operating room work.'
   },
   'bio.tiina': {
-    fi: 'Kirurgia, ortopedia ja traumahoito.',
-    sv: 'Kirurgi, ortopedi och traumavård.',
-    en: 'Surgery, orthopedics and trauma care.'
+    fi: 'Kiinnostuksen kohteet: kirurgia, ortopedia ja traumahoito.',
+    sv: 'Intresseområden: kirurgi, ortopedi och traumavård.',
+    en: 'Interests: surgery, orthopedics and trauma care.'
   },
 
   // Prices
