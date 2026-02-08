@@ -394,9 +394,22 @@ const translations = {
 
   // Price items - Surgery
   'price.surg.catfemale': { fi: 'Naaraskissan sterilisaatio', sv: 'Honkatt sterilisering', en: 'Female cat spay' },
+  'price.surg.catfemale.note': { fi: 'Sis. kaulurin ja kipulääkkeet', sv: 'Inkl. krage och smärtlindring', en: 'Incl. collar and pain medication' },
   'price.surg.catmale': { fi: 'Uroskissan kastraatio', sv: 'Hankatt kastrering', en: 'Male cat neuter' },
-  'price.surg.dogfemale': { fi: 'Naaraskoiran sterilisaatio', sv: 'Hontik sterilisering', en: 'Female dog spay' },
-  'price.surg.dogmale': { fi: 'Uroskoiran kastraatio', sv: 'Hanhund kastrering', en: 'Male dog neuter' },
+  'price.surg.catmale.note': { fi: 'Sis. kipulääkkeet', sv: 'Inkl. smärtlindring', en: 'Incl. pain medication' },
+  'price.surg.dogfemale.5': { fi: 'Naaraskoiran sterilisaatio <5kg', sv: 'Hontik sterilisering <5kg', en: 'Female dog spay <5kg' },
+  'price.surg.dogfemale.20': { fi: 'Naaraskoiran sterilisaatio 5–20kg', sv: 'Hontik sterilisering 5–20kg', en: 'Female dog spay 5–20kg' },
+  'price.surg.dogfemale.40': { fi: 'Naaraskoiran sterilisaatio 20–40kg', sv: 'Hontik sterilisering 20–40kg', en: 'Female dog spay 20–40kg' },
+  'price.surg.dogfemale.over40': { fi: 'Naaraskoiran sterilisaatio >40kg', sv: 'Hontik sterilisering >40kg', en: 'Female dog spay >40kg' },
+  'price.surg.dogmale.10': { fi: 'Uroskoiran kastraatio <10kg', sv: 'Hanhund kastrering <10kg', en: 'Male dog neuter <10kg' },
+  'price.surg.dogmale.20': { fi: 'Uroskoiran kastraatio 10–20kg', sv: 'Hanhund kastrering 10–20kg', en: 'Male dog neuter 10–20kg' },
+  'price.surg.dogmale.40': { fi: 'Uroskoiran kastraatio 20–40kg', sv: 'Hanhund kastrering 20–40kg', en: 'Male dog neuter 20–40kg' },
+  'price.surg.dogmale.over40': { fi: 'Uroskoiran kastraatio >40kg', sv: 'Hanhund kastrering >40kg', en: 'Male dog neuter >40kg' },
+  'price.surg.crypto.inguinal.small': { fi: 'Piilokivesleikkaus, nivusesta <20kg', sv: 'Kryptorkidoperation, inguinal <20kg', en: 'Cryptorchid surgery, inguinal <20kg' },
+  'price.surg.crypto.inguinal.large': { fi: 'Piilokivesleikkaus, nivusesta >20kg', sv: 'Kryptorkidoperation, inguinal >20kg', en: 'Cryptorchid surgery, inguinal >20kg' },
+  'price.surg.crypto.abdom.small': { fi: 'Piilokivesleikkaus, vatsaontelosta <20kg', sv: 'Kryptorkidoperation, abdominell <20kg', en: 'Cryptorchid surgery, abdominal <20kg' },
+  'price.surg.crypto.abdom.large': { fi: 'Piilokivesleikkaus, vatsaontelosta >20kg', sv: 'Kryptorkidoperation, abdominell >20kg', en: 'Cryptorchid surgery, abdominal >20kg' },
+  'price.surg.stitch.note': { fi: 'Leikkausten hintaan sisältyy tikkien poisto.', sv: 'Stygnen ingår i operationspriset.', en: 'Stitch removal is included in the surgery price.' },
 
   // Price items - Dental
   'price.dental.check': { fi: 'Hampaiden tarkistus hereillä', sv: 'Tandkontroll vaken', en: 'Dental check (awake)' },
@@ -420,6 +433,13 @@ const translations = {
   'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
   'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head removal' },
   'price.ortho.fracture.price': { fi: 'alk. 1,300 €', sv: 'fr. 1,300 €', en: 'from 1,300 €' },
+  'price.ortho.amputation': { fi: 'Amputaatiot yms.', sv: 'Amputationer m.m.', en: 'Amputations etc.' },
+  'price.ortho.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
+  'price.ortho.cruciate.note': {
+    fi: '*) Lateraalisutuura sopii kissojen ja pienten koirien ristisidevaurioiden hoitoon. Aktiivisesti harrastaville tai suurille koirille sopii paremmin TTA-menetelmä.',
+    sv: '*) Lateral sutur lämpar sig för behandling av korsbandsskador hos katter och små hundar. För aktiva eller stora hundar passar TTA-metoden bättre.',
+    en: '*) Lateral suture is suitable for cruciate ligament injuries in cats and small dogs. For active or large dogs, the TTA method is more appropriate.'
+  },
 
   // Dental prices
   'price.dental.xray': { fi: 'Hammasröntgen', sv: 'Tandröntgen', en: 'Dental X-ray' },
@@ -450,16 +470,43 @@ const translations = {
   // Endoscopy prices
   'price.endo.earflush': { fi: 'Korvahuuhtelu (video-otoskooppinen)', sv: 'Öronspolning (video-otoskopisk)', en: 'Ear flushing (video-otoscopic)' },
   'price.endo.rhinoscopy': { fi: 'Rhinoskopia', sv: 'Rinoskopi', en: 'Rhinoscopy' },
+  'price.endo.gi.note': {
+    fi: 'Ruoansulatuskanavan ja keuhkojen tähystys — ota yhteyttä puhelimitse.',
+    sv: 'Endoskopi av mag-tarmkanal och lungor — kontakta oss per telefon.',
+    en: 'GI tract and lung endoscopy — please contact us by phone.'
+  },
 
   // Cardiac prices
   'price.cardiac.official.small': { fi: 'Virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud <40kg', en: 'Official cardiac ultrasound <40kg' },
   'price.cardiac.official.large': { fi: 'Virallinen sydämen ultraääni >40kg', sv: 'Officiellt hjärtultraljud >40kg', en: 'Official cardiac ultrasound >40kg' },
   'price.cardiac.ultrasound': { fi: 'Sydämen ultraääni', sv: 'Hjärtultraljud', en: 'Heart ultrasound' },
+  'price.cardiac.auscultation': { fi: 'Virallinen sydänauskultaatio', sv: 'Officiell hjärtauskultation', en: 'Official heart auscultation' },
+  'price.cardiac.auscultation.combined': {
+    fi: 'Virallinen sydänauskultaatio muun käynnin yhteydessä',
+    sv: 'Officiell hjärtauskultation i samband med annat besök',
+    en: 'Official heart auscultation with another visit'
+  },
+
+  // Other prices
+  'price.other.catgrooming': { fi: 'Kissan turkinhuolto nukutettuna', sv: 'Kattpälsvård under sedering', en: 'Cat grooming under sedation' },
+  'price.other.euthdog.small': { fi: 'Eutanasia koira <20kg', sv: 'Eutanasi hund <20kg', en: 'Euthanasia dog <20kg' },
+  'price.other.euthdog.medium': { fi: 'Eutanasia koira 20–40kg', sv: 'Eutanasi hund 20–40kg', en: 'Euthanasia dog 20–40kg' },
+  'price.other.euthdog.large': { fi: 'Eutanasia koira >40kg', sv: 'Eutanasi hund >40kg', en: 'Euthanasia dog >40kg' },
 
   'prices.note': {
     fi: 'Peruuttamattomista ajoista veloitetaan enintään 50% toimenpiteen hinnasta. Peruutukset 24h ennen.',
     sv: 'Avbokning krävs minst 24 timmar före besöket. Avgift högst 50% av behandlingens pris.',
     en: 'Cancellations require 24 hours notice. Fee up to 50% of procedure cost applies.'
+  },
+  'prices.rights': {
+    fi: 'Pidätämme oikeuden hintojen muutoksiin.',
+    sv: 'Vi förbehåller oss rätten att ändra priserna.',
+    en: 'We reserve the right to change prices.'
+  },
+  'prices.payment': {
+    fi: 'Voit maksaa myös laskulla tai erissä — ota yhteyttä niin kerromme lisää!',
+    sv: 'Du kan även betala med faktura eller på avbetalning — kontakta oss för mer info!',
+    en: 'You can also pay by invoice or in installments — contact us for more info!'
   },
   'prices.insurance': {
     fi: 'Suorakorvaus: Lähitapiola, Agria, Pohjola',
