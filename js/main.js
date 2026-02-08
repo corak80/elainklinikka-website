@@ -419,7 +419,7 @@ const translations = {
   'price.ortho.tta': { fi: 'Ristisideleikkaus TTA', sv: 'Korsbandsoperation TTA', en: 'Cruciate ligament TTA' },
   'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
   'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head removal' },
-  'price.ortho.fracture.price': { fi: 'alk. 1 300 €', sv: 'fr. 1 300 €', en: 'from 1 300 €' },
+  'price.ortho.fracture.price': { fi: 'alk. 1,300 €', sv: 'fr. 1,300 €', en: 'from 1,300 €' },
 
   // Dental prices
   'price.dental.xray': { fi: 'Hammasröntgen', sv: 'Tandröntgen', en: 'Dental X-ray' },
