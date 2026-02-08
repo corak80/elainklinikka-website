@@ -54,14 +54,14 @@ const translations = {
   // About
   'about.title': { fi: 'Tietoa klinikasta', sv: 'Om kliniken', en: 'About the Clinic' },
   'about.subtitle': {
-    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä',
-    sv: 'En finskägd privat djurklinik i Dragnäsbäck, Vasa',
-    en: 'A Finnish-owned private small animal clinic in Dragnäsbäck, Vaasa'
+    fi: 'Yksityinen pieneläinklinikka Vaasan Pukinkulman Autotalossa',
+    sv: 'En privatägd smådjursklinik i Bocks hörna, Vasa',
+    en: 'A privately owned small animal veterinary clinic in Bock\'s corner, Vaasa'
   },
   'about.text1': {
-    fi: 'Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.',
-    sv: 'För oss är en nöjd kund och patientens hälsa vår huvudsak. Vår målsättning är ett varmt och tillförlitligt förhållande till kunden och patienten.',
-    en: 'For us, a satisfied customer and the health of the patient are the main priority. Our goal is a warm and trustworthy relationship with both the customer and the patient.'
+    fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat tärkeimmät prioriteetit. Pyrimme luomaan lämpimän ja luottamuksellisen suhteen niin asiakkaaseen kuin potilaasenkin.',
+    sv: 'För oss är patientens välbefinnande och kundens tillfredsställelse de viktigaste prioriteringarna. Vi strävar efter att skapa en varm och förtroendefull relation till både kunden och patienten.',
+    en: 'For us, the welfare of the patient and the satisfaction of the customer are the number one priorities. We strive to create a warm and trusting relationship with both the customer and the patient.'
   },
   'about.text2': {
     fi: 'Ammattitaitoinen hoitotiimimme tarjoaa Teille kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi.',
@@ -147,6 +147,7 @@ const translations = {
   'service.vaccinations': { fi: 'Rokotukset', sv: 'Vaccinationer', en: 'Vaccinations' },
   'service.puppy': { fi: 'Pentutarkastus', sv: 'Valpgranskning', en: 'Puppy Examinations' },
   'service.anesthesia': { fi: 'Anestesia', sv: 'Anestesi', en: 'Anesthesia' },
+  'service.hygiene': { fi: 'Hygienia', sv: 'Hygien', en: 'Hygiene' },
 
   // Service descriptions
   'service.desc.acupuncture': {
@@ -210,9 +211,9 @@ const translations = {
     en: 'Spays, neuters, caesarean sections, tumor removals, foreign body extraction, bladder stone surgery, other abdominal surgeries, and eye and ear procedures.'
   },
   'service.desc.surgery.ortho': {
-    fi: 'Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
-    sv: 'Korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom frakturkirurgi, amputationer (ben, svans, tår) samt lårbensh­uvudektomi vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
-    en: 'Cranial cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also fracture repairs, amputations (leg, tail, toes) and femoral head ostectomy for chronic luxation or Legg-Perthes disease.'
+    fi: 'Klinikalla on oma ortopedinen leikkaussali, jossa on korkeampi steriiliyystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
+    sv: 'Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom frakturkirurgi, amputationer (ben, svans, tår) samt lårbensh­uvudektomi vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
+    en: 'The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also fracture repairs, amputations (leg, tail, toes) and femoral head ostectomy for chronic luxation or Legg-Perthes disease.'
   },
   'service.desc.laboratory': {
     fi: 'Hyvin varusteltu oma laboratorio: verinäytteet, virtsanäytteet, verisivelyt, iho- ja korvanäytteet. Suurin osa tuloksista jo käynnin aikana. Tutkimuksia: hematologia, kliininen kemia, elektrolyytit, hormonit, virtsaviljelyt, sytologia.',
@@ -220,14 +221,14 @@ const translations = {
     en: 'Well-equipped in-house laboratory: blood samples, urine samples, blood smears, skin and ear samples. Most results during the visit. Analyses: hematology, clinical chemistry, electrolytes, hormones, urine cultures, cytology.'
   },
   'service.desc.official': {
-    fi: 'Viralliset lonkka-, kyynär- ja selkätutkimukset. Viralliset polvitutkimukset. Viralliset sydämen auskultaatiotutkimukset.',
-    sv: 'Officiella röntgenbilder (höfter, armbågar, rygg). Officiella knäundersökningar. Officiella hjärtauskultationer.',
-    en: 'Official hip, elbow and back X-rays. Official knee examinations. Official heart auscultations.'
+    fi: 'Viralliset lonkka-, kyynär- ja selkätutkimukset. Viralliset polvitutkimukset. Viralliset sydämen auskultaatiotutkimukset. Viralliset sydämen ultraäänitutkimukset koirille.',
+    sv: 'Officiella röntgenbilder (höfter, armbågar, rygg). Officiella knäundersökningar. Officiella hjärtauskultationer. Officiella hjärtultraljudsundersökningar för hundar.',
+    en: 'Official hip, elbow and back X-rays. Official knee examinations. Official heart auscultations. Official heart ultrasound examinations for dogs.'
   },
   'service.desc.orthopedics': {
-    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
-    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Frakturkirurgi, amputationer samt lårbensh­uvudektomi.',
-    en: 'Orthopedic examinations and official X-ray examinations. Cranial cruciate ligament repair with two methods: lateral suture technique (joint stabilization with synthetic support material) and TTA (tibial tuberosity advancement to alter knee biomechanics). Fracture repairs, amputations, and femoral head ostectomy.'
+    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Klinikalla on oma ortopedinen leikkaussali, jossa on korkeampi steriiliyystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
+    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Frakturkirurgi, amputationer samt lårbensh­uvudektomi.',
+    en: 'Orthopedic examinations and official X-ray examinations. The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique (joint stabilization with synthetic support material) and TTA (tibial tuberosity advancement to alter knee biomechanics). Fracture repairs, amputations, and femoral head ostectomy.'
   },
   'service.desc.xray': {
     fi: 'Digitaalinen röntgen. Suositellaan esim. ontumiin, keuhko- tai sydänoireisiin, akuuttiin oksenteluun, virtsaamisvaikeuksiin, kasvainepäilyihin ja virallisiin röntgenkuvauksiin.',
@@ -245,9 +246,9 @@ const translations = {
     en: 'A common procedure for dogs, cats and rabbits. Sterilization helps prevent hormonal diseases including mammary tumors and uterine infections. Inhalation anesthesia with comprehensive pain management.'
   },
   'service.desc.dental': {
-    fi: 'Hammassairaudet ovat erittäin yleisiä — jo 3-vuoden iässä valtaosalla on hampaiden tulehdus. Palvelut: hammaskiven poisto, hammasröntgen, hampaiden poistot ja maitohampaiden poistot. Kaikki toimenpiteet yleisanestesiassa.',
-    sv: 'Tandsjukdomar är mycket vanliga — vid 3 års ålder har de flesta hundar och katter inflammation i munnen. Tjänster: tandstensavlägsnande, tandröntgen, tandutdragningar och mjölktandsborttagning. Alla ingrepp under generell anestesi.',
-    en: 'Dental disorders are very common — by age 3, most dogs and cats have some dental inflammation. Services: tartar removal, dental X-rays, tooth extractions, and deciduous teeth removals. All procedures under general anesthesia.'
+    fi: 'Hammassairaudet ovat erittäin yleisiä — jo 3-vuoden iässä valtaosalla on hampaiden tulehdus. Palvelut: hammaskiven poisto ultraäänilaitteella, hammasröntgen, hampaiden kirurgiset poistot, maitohampaiden poistot sekä puhkeamattomien hampaiden ja kystojen poisto. Kaikki toimenpiteet yleisanestesiassa inhalaatioanestesialla, suonensisäisellä nesteytyksellä ja kattavalla kivunlievennyksellä.',
+    sv: 'Tandsjukdomar är mycket vanliga — vid 3 års ålder har de flesta hundar och katter inflammation i munnen. Tjänster: tandstensavlägsnande med ultraljud, tandröntgen, kirurgiska tandutdragningar, mjölktandsborttagning samt borttagning av icke-erupterade tänder och cystor. Alla ingrepp under generell anestesi med inhalationsanestesi, intravenöst dropp och omfattande smärthantering.',
+    en: 'Dental disorders are very common — by age 3, most dogs and cats have some dental inflammation. Services: tartar removal with ultrasound, dental X-rays, surgical tooth extractions, deciduous teeth removals, and removal of unerupted teeth and cysts. All procedures under general anesthesia with inhalation anesthesia, intravenous fluids and comprehensive pain management.'
   },
   'service.desc.ultrasound': {
     fi: 'Laadukas ultraääni: vatsan alueen tutkimukset, kohdun tutkimukset, maksan, munuaisten ja sisäelinten tutkimukset sekä sydämen ultraäänitutkimukset.',
@@ -265,9 +266,14 @@ const translations = {
     en: 'The veterinarian examines the puppy thoroughly from head to toe and issues a health certificate. A microchip can be implanted during the visit.'
   },
   'service.desc.anesthesia': {
-    fi: 'Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme ja koulutustamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikalla on käytössä kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
-    sv: 'Anestesi ligger oss varmt om hjärtat. Vi uppdaterar kontinuerligt vår utbildning, förnyar våra protokoll och övervakar patienterna noggrant under hela ingreppet. Kliniken har två ventilatorer för att säkerställa säker anestesi.',
-    en: 'Anesthesia is close to our hearts. We continuously update our education, refresh our protocols and monitor patients closely throughout every procedure. The clinic has two ventilators to ensure safe anesthesia.'
+    fi: 'Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme ja koulutustamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikalla on kehittyneet monitorointilaitteet, neljä anestesiakonetta ja kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
+    sv: 'Anestesi ligger oss varmt om hjärtat. Vi uppdaterar kontinuerligt vår utbildning, förnyar våra protokoll och övervakar patienterna noggrant under hela ingreppet. Kliniken har avancerad övervakningsutrustning, fyra anestesimaskiner och två ventilatorer för att säkerställa säker anestesi.',
+    en: 'Anesthesia is close to our hearts. We continuously update our education, refresh our protocols and monitor patients closely throughout every procedure. The clinic has advanced monitoring equipment, four anesthesia machines and two ventilators to ensure safe anesthesia.'
+  },
+  'service.desc.hygiene': {
+    fi: 'Korkea hygieniataso on meille keskeinen tavoite. Pesemme kädet ja käytämme kertakäyttökäsineitä jokaisen potilaan kohdalla. Tutkimuspöydät desinfioidaan potilaiden välillä ja kankaat pestään jokaisen käytön jälkeen. Käytämme UV-valoa klinikan tilojen desinfiointiin ja suodattimia inhalaatioanestesiassa. Lattiat desinfioidaan kahdesti päivässä.',
+    sv: 'Hög hygiennivå är ett centralt mål för oss. Vi tvättar händerna och använder engångshandskar för varje patient. Undersökningsborden desinficeras mellan patienter och textilier tvättas efter varje användning. Vi använder UV-ljus för desinfektion av klinikens utrymmen och filter vid inhalationsanestesi. Golven desinficeras två gånger om dagen.',
+    en: 'Maintaining a high level of hygiene is a core priority for us. We wash our hands and use single-use gloves for every patient. Examination tables are disinfected between patients and fabrics are washed after every use. We use UV light to disinfect all clinic areas and filters with inhalation anesthesia. Floors are disinfected twice per day.'
   },
 
   // Team
@@ -509,8 +515,30 @@ const translations = {
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
   'footer.follow': { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow Us' },
-  'footer.privacy': { fi: 'Tietosuojarekisteri', sv: 'Dataskyddsregister', en: 'Privacy Policy' },
+  'footer.privacy': { fi: 'Tietosuojaseloste', sv: 'Integritetspolicy', en: 'Privacy Policy' },
   'footer.rights': { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' },
+
+  // Privacy Policy
+  'privacy.title': { fi: 'Tietosuojaseloste', sv: 'Integritetspolicy', en: 'Privacy Policy' },
+  'privacy.controller.title': { fi: 'Rekisterinpitäjä', sv: 'Personuppgiftsansvarig', en: 'Data Controller' },
+  'privacy.contact.title': { fi: 'Rekisteriasioiden yhteyshenkilö', sv: 'Kontaktperson för registerfrågor', en: 'Contact Person for Registry Matters' },
+  'privacy.name.title': { fi: 'Rekisterin nimi', sv: 'Registrets namn', en: 'Registry Name' },
+  'privacy.name.text': { fi: 'Eläinklinikka Saari Oy:n asiakasrekisteri', sv: 'Eläinklinikka Saari Oy:s kundregister', en: 'Eläinklinikka Saari Oy Customer Registry' },
+  'privacy.purpose.title': { fi: 'Henkilötietojen käyttötarkoitus', sv: 'Syfte med behandling av personuppgifter', en: 'Purpose of Personal Data Processing' },
+  'privacy.purpose.text': { fi: 'Henkilötietoja käytetään viestintään, asiakaspalveluun ja potilassuhteen ylläpitoon.', sv: 'Personuppgifter används för kommunikation, kundservice och upprätthållande av patientrelationer.', en: 'Personal data is used for communication, customer service and maintaining patient relationships.' },
+  'privacy.data.title': { fi: 'Rekisterin tietokentät', sv: 'Registrets datafält', en: 'Registry Data Fields' },
+  'privacy.data.text': { fi: 'Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.', sv: 'Patientuppgifter och ägarens namn, telefonnummer, adress och e-postadress. Kundens personnummer registreras endast vid delbetalning. Patientens vårdhistorik: åtgärder, kundkommunikation och behandlingsplaner. Försäkringsnummer vid behov.', en: 'Patient information and owner\'s name, phone number, address and email. Customer\'s social security number only if using installment payment. Patient treatment history: procedures, customer communications and treatment plans. Insurance number when available.' },
+  'privacy.sources.title': { fi: 'Tietolähteet', sv: 'Datakällor', en: 'Data Sources' },
+  'privacy.sources.text': { fi: 'Tiedot saadaan pääasiassa asiakkailta. Potilasasiakirjat voivat sisältää tietoja muista klinikoista, mikäli asiakas on saanut hoitoa muualla tai siirtänyt asiakkuutensa.', sv: 'Uppgifterna erhålls främst från kunderna. Patientjournaler kan innehålla information från andra kliniker om kunden har fått vård på annat håll eller överfört sin kundrelation.', en: 'Information comes primarily from customers. Patient records may include information from other clinics if the customer received treatment elsewhere or transferred their account.' },
+  'privacy.sharing.title': { fi: 'Tietojen luovutus', sv: 'Utlämnande av uppgifter', en: 'Data Sharing' },
+  'privacy.sharing.text': { fi: 'Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille ellei asiakas sitä edellytä.', sv: 'Uppgifter lämnas ut enbart till specialister (veterinärer) vid konsultationsfall (namn, adress, patientuppgifter, fynd). I övrigt lämnas uppgifter inte ut till tredje part såvida kunden inte begär det.', en: 'Information is shared only with specialists (veterinarians) in consultation cases (name, address, patient data, findings). Otherwise, data is not disclosed to third parties unless the customer requires it.' },
+  'privacy.security.title': { fi: 'Tietojen suojaus', sv: 'Dataskydd', en: 'Data Security' },
+  'privacy.security.text': { fi: 'Rekisteri on talletettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.', sv: 'Registret lagras i ett lösenordsskyddat kundhanteringssystem som är tillgängligt för Eläinklinikka Saari Oy:s behöriga personalmedlemmar.', en: 'The registry is stored in a password-protected customer management system accessible to authorized staff members of Eläinklinikka Saari Oy.' },
+  'privacy.rights.title': { fi: 'Rekisteröidyn oikeudet', sv: 'Den registrerades rättigheter', en: 'Individual Rights' },
+  'privacy.rights.text': { fi: 'Asiakkaalla on oikeus tarkistaa itseään koskevat tiedot sekä pyytää virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden tietojen korjaamista tai poistamista.', sv: 'Kunden har rätt att granska sina personuppgifter samt begära rättelse eller radering av felaktiga, onödiga, ofullständiga eller föråldrade uppgifter.', en: 'Customers have the right to inspect their personal data and request correction or deletion of inaccurate, unnecessary, incomplete or outdated information.' },
+  'privacy.credit.title': { fi: 'Luottopäätöksen käsittely', sv: 'Kreditbeslut', en: 'Credit Processing' },
+  'privacy.credit.text': { fi: 'Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.', sv: 'Lindorff Invest Oy fungerar som personuppgiftsansvarig vid behandling av betalningsansökningar. Personuppgifter är nödvändiga för ansökningsbehandling, kreditbeslut och kundrelationshantering. Automatiserade kreditbeslut kan bestridas; kunden kan begära manuell granskning genom att kontakta Lindorffs kundtjänst, tfn 02 2700 327. Mer information: lindorff.fi/tietosuoja.', en: 'Lindorff Invest Oy acts as data controller for payment application processing. Personal data is necessary for application handling, credit decisions and customer relationship management. Automated credit decisions can be contested; customers may request manual review by contacting Lindorff customer service at 02 2700 327. More information: lindorff.fi/tietosuoja.' },
+  'privacy.back': { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to front page' },
 
   // Navigation - Articles
   'nav.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
@@ -881,19 +909,36 @@ function initScrollAnimations() {
 // --- Articles Toggle ---
 function toggleArticles() {
   const articlesSection = document.getElementById('articles');
-  const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles), body > .hero');
+  const privacySection = document.getElementById('privacy');
+  const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero');
   const isShowing = articlesSection.style.display !== 'none';
 
   if (isShowing) {
-    // Hide articles, show main content
     articlesSection.style.display = 'none';
     mainSections.forEach(el => el.style.display = '');
   } else {
-    // Show articles, hide main content
     mainSections.forEach(el => el.style.display = 'none');
+    privacySection.style.display = 'none';
     articlesSection.style.display = '';
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Re-apply translations
+    setLanguage(currentLang);
+  }
+}
+
+function togglePrivacy() {
+  const privacySection = document.getElementById('privacy');
+  const articlesSection = document.getElementById('articles');
+  const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero');
+  const isShowing = privacySection.style.display !== 'none';
+
+  if (isShowing) {
+    privacySection.style.display = 'none';
+    mainSections.forEach(el => el.style.display = '');
+  } else {
+    mainSections.forEach(el => el.style.display = 'none');
+    articlesSection.style.display = 'none';
+    privacySection.style.display = '';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     setLanguage(currentLang);
   }
 }
@@ -913,9 +958,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (link.getAttribute('onclick')) return; // skip the Articles link
     link.addEventListener('click', () => {
       const articlesSection = document.getElementById('articles');
-      if (articlesSection && articlesSection.style.display !== 'none') {
-        articlesSection.style.display = 'none';
-        document.querySelectorAll('body > .notice-banner, body > section:not(#articles), body > .hero').forEach(el => el.style.display = '');
+      const privacySection = document.getElementById('privacy');
+      const anyOverlay = (articlesSection && articlesSection.style.display !== 'none') || (privacySection && privacySection.style.display !== 'none');
+      if (anyOverlay) {
+        if (articlesSection) articlesSection.style.display = 'none';
+        if (privacySection) privacySection.style.display = 'none';
+        document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero').forEach(el => el.style.display = '');
       }
     });
   });

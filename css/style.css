@@ -41,7 +41,7 @@
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
   --max-width: 1200px;
-  --header-height: 72px;
+  --header-height: 150px;
   --transition: 0.3s ease;
 }
 
@@ -219,7 +219,7 @@ ul {
 }
 
 .logo-icon {
-  height: 80px;
+  height: 140px;
   width: auto;
 }
 
@@ -1097,11 +1097,11 @@ ul {
 
 @media (max-width: 768px) {
   :root {
-    --header-height: 64px;
+    --header-height: 80px;
   }
 
   .logo-icon {
-    height: 50px;
+    height: 65px;
   }
 
   .nav-links {
@@ -1287,7 +1287,7 @@ ul {
 
 @media (max-width: 480px) {
   .logo-icon {
-    height: 42px;
+    height: 55px;
   }
 
   .hero h1 {
