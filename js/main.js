@@ -590,7 +590,7 @@ const translations = {
     en: 'Get in touch or book an appointment'
   },
   'contact.address.label': { fi: 'Osoite', sv: 'Adress', en: 'Address' },
-  'contact.address': { fi: 'Gerbyntie 18-22, 65230 Vaasa', sv: 'Gerbyvägen 18-22, 65230 Vasa', en: 'Gerbyntie 18-22, 65230 Vaasa' },
+  'contact.address': { fi: 'Gerbyntie 18, 65230 Vaasa', sv: 'Gerbyvägen 18, 65230 Vasa', en: 'Gerbyntie 18, 65230 Vaasa' },
   'contact.phone.label': { fi: 'Puhelin', sv: 'Telefon', en: 'Phone' },
   'contact.email.label': { fi: 'Sähköposti', sv: 'E-post', en: 'Email' },
   'contact.hours.label': { fi: 'Aukioloajat', sv: 'Öppettider', en: 'Opening Hours' },
