@@ -470,11 +470,8 @@ const translations = {
   // Endoscopy prices
   'price.endo.earflush': { fi: 'Korvahuuhtelu (video-otoskooppinen)', sv: 'Öronspolning (video-otoskopisk)', en: 'Ear flushing (video-otoscopic)' },
   'price.endo.rhinoscopy': { fi: 'Rhinoskopia', sv: 'Rinoskopi', en: 'Rhinoscopy' },
-  'price.endo.gi.note': {
-    fi: 'Ruoansulatuskanavan ja keuhkojen tähystys — ota yhteyttä puhelimitse.',
-    sv: 'Endoskopi av mag-tarmkanal och lungor — kontakta oss per telefon.',
-    en: 'GI tract and lung endoscopy — please contact us by phone.'
-  },
+  'price.endo.gi': { fi: 'Ruoansulatuskanavan ja keuhkojen tähystys', sv: 'Endoskopi av mag-tarmkanal och lungor', en: 'GI tract and lung endoscopy' },
+  'price.endo.gi.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
 
   // Cardiac prices
   'price.cardiac.official.small': { fi: 'Virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud <40kg', en: 'Official cardiac ultrasound <40kg' },
