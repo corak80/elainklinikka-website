@@ -64,9 +64,9 @@ const translations = {
     en: 'For us, the welfare of the patient and the satisfaction of the customer are the number one priorities. We strive to create a warm and trusting relationship with both the customer and the patient.'
   },
   'about.text2': {
-    fi: 'Tarjoamme laajaa hammashoitoa, mukaan lukien hammasröntgenkuvaus, hampaan poistot ja vaativat tapaukset. Ammattitaitoinen hoitotiimimme tarjoaa Teille kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi.',
-    sv: 'Vi erbjuder omfattande tandvård, inklusive tandröntgen, tandextraktioner och komplicerade fall. Vårt professionella vårdteam erbjuder Er erfaren och sakkunning service alltid för ert djurs bästa.',
-    en: 'We offer extensive dental care, including dental X-rays, extractions and complicated cases. Our professional care team offers you experienced and knowledgeable service, always for the best of your pet.'
+    fi: 'Ammattitaitoinen hoitotiimimme tarjoaa Teille kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi.',
+    sv: 'Vårt professionella vårdteam erbjuder Er erfaren och sakkunning service alltid för ert djurs bästa.',
+    en: 'Our professional care team offers you experienced and knowledgeable service, always for the best of your pet.'
   },
   'about.catfriendly.title': {
     fi: 'ISFM-sertifioitu kissaystävällinen klinikka',
@@ -107,6 +107,16 @@ const translations = {
     fi: 'Viralliset sydänultraäänitutkimukset',
     sv: 'Officiella hjärtultraljudsundersökningar',
     en: 'Official cardiac ultrasound examinations'
+  },
+  'about.feature4.title': {
+    fi: 'Laaja hammashoito',
+    sv: 'Omfattande tandvård',
+    en: 'Extensive Dental Care'
+  },
+  'about.feature4.text': {
+    fi: 'Hammasröntgen, poistot ja vaativat tapaukset',
+    sv: 'Tandröntgen, extraktioner och komplicerade fall',
+    en: 'Dental X-rays, extractions and complicated cases'
   },
   'about.placeholder': {
     fi: 'Klinikan kuva',
