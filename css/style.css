@@ -765,6 +765,14 @@ ul {
   margin: 0;
 }
 
+.price-footer-note {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin: var(--spacing-xs) 0;
+}
+
 /* --- Wildlife Section --- */
 .wildlife-content {
   display: grid;
