@@ -301,6 +301,8 @@ const translations = {
   'vet.experience': { fi: 'Kokemus', sv: 'Erfarenhet', en: 'Experience' },
   'vet.training': { fi: 'Koulutus', sv: 'Utbildning', en: 'Training' },
   'vet.focus': { fi: 'Erikoisosaaminen', sv: 'Specialkompetens', en: 'Areas of Expertise' },
+  'nurse.background': { fi: 'Tausta', sv: 'Bakgrund', en: 'Background' },
+  'nurse.interests': { fi: 'Kiinnostuksen kohteet', sv: 'Intresseområden', en: 'Interests' },
   'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Technician' },
   'role.headtech': { fi: 'Johtava klinikkaeläinhoitaja', sv: 'Ledande klinikdjurskötare', en: 'Head Veterinary Technician' },
   'role.tech': { fi: 'Klinikkaeläinhoitaja', sv: 'Klinikdjurskötare', en: 'Veterinary Technician' },
@@ -1252,6 +1254,23 @@ function setLanguage(lang) {
       }
     }
   }
+
+  // Update nurse modal if open
+  const nurseModal = document.getElementById('nurse-modal');
+  if (nurseModal && nurseModal.classList.contains('active')) {
+    const nurseImg = document.getElementById('nurse-modal-img');
+    if (nurseImg && nurseImg.src) {
+      const nurseId = Object.keys(nurseProfiles).find(id => nurseImg.src.includes(nurseProfiles[id].image));
+      if (nurseId) {
+        const profile = nurseProfiles[nurseId];
+        const roleData = translations[profile.role];
+        document.getElementById('nurse-modal-role').textContent = roleData ? (roleData[lang] || roleData.fi) : '';
+        document.getElementById('nurse-modal-bio').textContent = profile.bio[lang] || profile.bio.fi;
+        document.getElementById('nurse-modal-background').textContent = profile.background[lang] || profile.background.fi;
+        document.getElementById('nurse-modal-interests').textContent = profile.interests[lang] || profile.interests.fi;
+      }
+    }
+  }
 }
 
 // --- Mobile Menu ---
@@ -1541,12 +1560,203 @@ function closeVetProfile() {
   document.body.style.overflow = '';
 }
 
+// --- Nurse Profiles ---
+const nurseProfiles = {
+  sanna: {
+    name: 'Sanna Koskiluhta',
+    image: 'images/sanna.webp',
+    role: 'role.manager',
+    bio: {
+      fi: 'Sanna toimii klinikan managerina ja vastaa klinikan hallinnosta, tilauksista ja aikataulutuksesta. Hän pitää huolta siitä, että klinikka toimii sujuvasti ja tehokkaasti joka päivä.',
+      sv: 'Sanna är klinikens föreståndare och ansvarar för administration, beställningar och schemaläggning. Hon ser till att kliniken fungerar smidigt och effektivt varje dag.',
+      en: 'Sanna serves as the clinic manager, responsible for administration, orders and scheduling. She ensures the clinic runs smoothly and efficiently every day.'
+    },
+    background: {
+      fi: 'Klinikkaeläinhoitaja. Pitkä kokemus klinikkatyöstä ja hallinnosta.',
+      sv: 'Klinikdjurskötare. Lång erfarenhet av klinikarbete och administration.',
+      en: 'Veterinary technician. Extensive experience in clinical work and administration.'
+    },
+    interests: {
+      fi: 'Klinikan hallinto, tilaukset ja aikataulutus',
+      sv: 'Klinikadministration, beställningar och schemaläggning',
+      en: 'Clinic administration, orders and scheduling'
+    }
+  },
+  jenni: {
+    name: 'Jenni Ruotsala',
+    image: 'images/jenni.webp',
+    role: 'role.headtech',
+    bio: {
+      fi: 'Jenni on klinikan johtava klinikkaeläinhoitaja, jolla on erityisosaamista anestesiassa ja laboratoriotyössä. Hän on suorittanut anestesian erikoisammattitutkinnon (EAT).',
+      sv: 'Jenni är klinikens ledande djurskötare med specialkompetens inom anestesi och laboratoriearbete. Hon har avlagt specialyrkesexamen (EAT) inom anestesi.',
+      en: 'Jenni is the clinic\'s head veterinary technician with expertise in anesthesia and laboratory work. She holds a specialist qualification (EAT) in anesthesia.'
+    },
+    background: {
+      fi: 'Johtava klinikkaeläinhoitaja. Anestesia EAT-tutkinto.',
+      sv: 'Ledande klinikdjurskötare. Anestesi specialistkompetens (EAT).',
+      en: 'Head veterinary technician. Anesthesia specialist qualification (EAT).'
+    },
+    interests: {
+      fi: 'Anestesia ja laboratoriotyö',
+      sv: 'Anestesi och laboratoriearbete',
+      en: 'Anesthesia and laboratory work'
+    }
+  },
+  meri: {
+    name: 'Meri Vilén',
+    image: 'images/meri.webp',
+    role: 'role.tech',
+    bio: {
+      fi: 'Meri on klinikkaeläinhoitaja, jolla on erityinen kiinnostus kissojen hoitoon. Hänellä on myös hevostenhoitajan tutkinto, mikä tuo monipuolista osaamista eläinten käsittelyyn.',
+      sv: 'Meri är klinikdjurskötare med särskilt intresse för kattvård. Hon har även utbildning som hästskötare, vilket ger mångsidig kompetens inom djurhantering.',
+      en: 'Meri is a veterinary technician with a special interest in cat care. She also holds a horse caretaker qualification, bringing versatile animal handling skills.'
+    },
+    background: {
+      fi: 'Klinikkaeläinhoitaja. Myös hevostenhoitajan tutkinto.',
+      sv: 'Klinikdjurskötare. Även utbildad hästskötare.',
+      en: 'Veterinary technician. Also qualified horse caretaker.'
+    },
+    interests: {
+      fi: 'Kissojen hoito',
+      sv: 'Kattvård',
+      en: 'Cat care'
+    }
+  },
+  susanna: {
+    name: 'Susanna Seljas',
+    image: 'images/susanna.webp',
+    role: 'role.tech',
+    bio: {
+      fi: 'Susanna on monipuolinen klinikkaeläinhoitaja, joka nauttii klinikkatyön vaihtelevuudesta. Hän kehittää jatkuvasti osaamistaan ja on aina valmis oppimaan uutta.',
+      sv: 'Susanna är en mångsidig klinikdjurskötare som trivs med variationen i klinikarbetet. Hon utvecklar kontinuerligt sin kompetens och är alltid redo att lära sig nytt.',
+      en: 'Susanna is a versatile veterinary technician who enjoys the variety of clinical work. She continuously develops her skills and is always ready to learn something new.'
+    },
+    background: {
+      fi: 'Klinikkaeläinhoitaja.',
+      sv: 'Klinikdjurskötare.',
+      en: 'Veterinary technician.'
+    },
+    interests: {
+      fi: 'Monipuolinen klinikkatyö ja jatkuva oppiminen',
+      sv: 'Varierande klinikarbete och kontinuerligt lärande',
+      en: 'Diverse clinical work and continuous learning'
+    }
+  },
+  emilia: {
+    name: 'Emilia Svahn',
+    image: 'images/emilia.webp',
+    role: 'role.tech',
+    bio: {
+      fi: 'Emilia on klinikkaeläinhoitaja, jolla on vahva kiinnostus anestesiaan, kirurgisiin toimenpiteisiin ja hammashoitoon. Hän avustaa eläinlääkäreitä vaativissa leikkauksissa ja hammastoimenpiteissä.',
+      sv: 'Emilia är klinikdjurskötare med starkt intresse för anestesi, kirurgiska ingrepp och tandvård. Hon assisterar veterinärerna vid krävande operationer och tandingrepp.',
+      en: 'Emilia is a veterinary technician with a strong interest in anesthesia, surgical procedures and dental care. She assists the veterinarians in demanding surgeries and dental procedures.'
+    },
+    background: {
+      fi: 'Klinikkaeläinhoitaja.',
+      sv: 'Klinikdjurskötare.',
+      en: 'Veterinary technician.'
+    },
+    interests: {
+      fi: 'Anestesia, kirurgiset toimenpiteet ja hammashoito',
+      sv: 'Anestesi, kirurgiska ingrepp och tandvård',
+      en: 'Anesthesia, surgical procedures and dental care'
+    }
+  },
+  jennifer: {
+    name: 'Jennifer Couloigner',
+    image: 'images/jennifer.webp',
+    role: 'role.nurse_student',
+    bio: {
+      fi: 'Jennifer on eläinhoitaja ja opiskelija, joka kehittää osaamistaan klinikkatyössä. Hän on erityisen kiinnostunut anestesian valvonnasta, kirurgiasta ja eksoottisten eläinten hoidosta.',
+      sv: 'Jennifer är djurskötare och studerande som utvecklar sin kompetens i klinikarbetet. Hon är särskilt intresserad av anestesiövervakning, kirurgi och vård av exotiska djur.',
+      en: 'Jennifer is a veterinary nurse and student developing her skills in clinical work. She is particularly interested in anesthesia monitoring, surgery and exotic animal care.'
+    },
+    background: {
+      fi: 'Eläinhoitaja, opiskelija.',
+      sv: 'Djurskötare, studerande.',
+      en: 'Veterinary nurse, student.'
+    },
+    interests: {
+      fi: 'Anestesian valvonta, kirurgia ja eksoottiset potilaat',
+      sv: 'Anestesiövervakning, kirurgi och exotiska patienter',
+      en: 'Anesthesia monitoring, surgery and exotic patients'
+    }
+  },
+  josefiina: {
+    name: 'Josefiina Saarimäki',
+    image: 'images/josefiina.webp',
+    role: 'role.practical',
+    bio: {
+      fi: 'Josefiina on lähihoitaja, joka työskentelee monipuolisesti klinikan eri tehtävissä. Hänen vahvuuksiaan ovat laboratorio- ja leikkaussalityö.',
+      sv: 'Josefiina är närvårdare som arbetar mångsidigt med klinikens olika uppgifter. Hennes styrkor är laboratorie- och operationssalsarbete.',
+      en: 'Josefiina is a practical nurse who works across various clinic tasks. Her strengths lie in laboratory and operating room work.'
+    },
+    background: {
+      fi: 'Lähihoitaja.',
+      sv: 'Närvårdare.',
+      en: 'Practical nurse.'
+    },
+    interests: {
+      fi: 'Laboratorio- ja leikkaussalityö',
+      sv: 'Laboratorie- och operationssalsarbete',
+      en: 'Laboratory and operating room work'
+    }
+  },
+  tiina: {
+    name: 'Tiina McBreen',
+    image: 'images/tiina.webp',
+    role: 'role.practical',
+    bio: {
+      fi: 'Tiina on lähihoitaja, joka on erityisen kiinnostunut kirurgiasta, ortopediasta ja traumahoidosta. Hän avustaa aktiivisesti leikkauksissa ja ortopedisissä toimenpiteissä.',
+      sv: 'Tiina är närvårdare med särskilt intresse för kirurgi, ortopedi och traumavård. Hon assisterar aktivt vid operationer och ortopediska ingrepp.',
+      en: 'Tiina is a practical nurse with a particular interest in surgery, orthopedics and trauma care. She actively assists in surgeries and orthopedic procedures.'
+    },
+    background: {
+      fi: 'Lähihoitaja.',
+      sv: 'Närvårdare.',
+      en: 'Practical nurse.'
+    },
+    interests: {
+      fi: 'Kirurgia, ortopedia ja traumahoito',
+      sv: 'Kirurgi, ortopedi och traumavård',
+      en: 'Surgery, orthopedics and trauma care'
+    }
+  }
+};
+
+function openNurseProfile(nurseId) {
+  const profile = nurseProfiles[nurseId];
+  if (!profile) return;
+
+  document.getElementById('nurse-modal-img').src = profile.image;
+  document.getElementById('nurse-modal-img').alt = profile.name;
+  document.getElementById('nurse-modal-name').textContent = profile.name;
+  const roleEl = document.getElementById('nurse-modal-role');
+  const roleData = translations[profile.role];
+  roleEl.textContent = roleData ? (roleData[currentLang] || roleData.fi) : '';
+  document.getElementById('nurse-modal-bio').textContent = profile.bio[currentLang] || profile.bio.fi;
+  document.getElementById('nurse-modal-background').textContent = profile.background[currentLang] || profile.background.fi;
+  document.getElementById('nurse-modal-interests').textContent = profile.interests[currentLang] || profile.interests.fi;
+
+  document.getElementById('nurse-modal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeNurseProfile() {
+  document.getElementById('nurse-modal').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
 // Close modal with Escape key
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
-    const modal = document.getElementById('vet-modal');
-    if (modal && modal.classList.contains('active')) {
+    const vetModal = document.getElementById('vet-modal');
+    if (vetModal && vetModal.classList.contains('active')) {
       closeVetProfile();
+    }
+    const nurseModal = document.getElementById('nurse-modal');
+    if (nurseModal && nurseModal.classList.contains('active')) {
+      closeNurseProfile();
     }
   }
 });
