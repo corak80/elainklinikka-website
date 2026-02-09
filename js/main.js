@@ -298,6 +298,9 @@ const translations = {
 
   // Staff roles
   'role.vet': { fi: 'Eläinlääkäri', sv: 'Veterinär', en: 'Veterinarian' },
+  'vet.experience': { fi: 'Kokemus', sv: 'Erfarenhet', en: 'Experience' },
+  'vet.training': { fi: 'Koulutus', sv: 'Utbildning', en: 'Training' },
+  'vet.focus': { fi: 'Erikoisosaaminen', sv: 'Specialkompetens', en: 'Areas of Expertise' },
   'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Technician' },
   'role.headtech': { fi: 'Johtava klinikkaeläinhoitaja', sv: 'Ledande klinikdjurskötare', en: 'Head Veterinary Technician' },
   'role.tech': { fi: 'Klinikkaeläinhoitaja', sv: 'Klinikdjurskötare', en: 'Veterinary Technician' },
@@ -1233,6 +1236,22 @@ function setLanguage(lang) {
 
   // Update HTML lang attribute
   document.documentElement.lang = lang;
+
+  // Update vet modal if open
+  const modal = document.getElementById('vet-modal');
+  if (modal && modal.classList.contains('active')) {
+    const img = document.getElementById('vet-modal-img');
+    if (img && img.src) {
+      const vetId = Object.keys(vetProfiles).find(id => img.src.includes(vetProfiles[id].image));
+      if (vetId) {
+        const profile = vetProfiles[vetId];
+        document.getElementById('vet-modal-bio').textContent = profile.bio[lang] || profile.bio.fi;
+        document.getElementById('vet-modal-experience').textContent = profile.experience[lang] || profile.experience.fi;
+        document.getElementById('vet-modal-training').textContent = profile.training[lang] || profile.training.fi;
+        document.getElementById('vet-modal-focus').textContent = profile.focus[lang] || profile.focus.fi;
+      }
+    }
+  }
 }
 
 // --- Mobile Menu ---
@@ -1376,6 +1395,161 @@ function togglePrivacy() {
     setLanguage(currentLang);
   }
 }
+
+// --- Vet Profiles ---
+const vetProfiles = {
+  leena: {
+    name: 'Leena Sandström',
+    image: 'images/leena.webp',
+    bio: {
+      fi: 'Leena on kokenut eläinlääkäri, joka on erikoistunut sydänsairauksiin ja sisätauteihin. Hän on Suomen Kennelklubin valtuutettu sydäntutkija ja suorittaa virallisia sydänultraäänitutkimuksia klinikallamme.',
+      sv: 'Leena är en erfaren veterinär som specialiserat sig på hjärtsjukdomar och internmedicin. Hon är auktoriserad hjärtundersökare för Finska Kennelklubben och utför officiella hjärtultraljudsundersökningar på vår klinik.',
+      en: 'Leena is an experienced veterinarian specializing in heart diseases and internal medicine. She is an authorized heart examiner for the Finnish Kennel Club and performs official cardiac ultrasound examinations at our clinic.'
+    },
+    experience: {
+      fi: 'Valmistunut eläinlääkäriksi vuonna 1997. Pitkä kokemus pieneläinlääketieteestä.',
+      sv: 'Utexaminerad som veterinär 1997. Lång erfarenhet inom smådjursmedicin.',
+      en: 'Graduated as veterinarian in 1997. Extensive experience in small animal medicine.'
+    },
+    training: {
+      fi: 'ESAVS-kardiologian sertifikaatti. Kennelklubin valtuutettu sydäntutkija.',
+      sv: 'ESAVS kardiologicertifikat. Auktoriserad hjärtundersökare för Kennelklubben.',
+      en: 'ESAVS Cardiology Certificate. Authorized heart examiner for the Finnish Kennel Club.'
+    },
+    focus: {
+      fi: 'Sydänsairaudet, sisätaudit, sydänultraäänitutkimukset',
+      sv: 'Hjärtsjukdomar, internmedicin, hjärtultraljudsundersökningar',
+      en: 'Heart diseases, internal medicine, cardiac ultrasound examinations'
+    }
+  },
+  pamela: {
+    name: 'Pamela Kvarngård',
+    image: 'images/pamela.webp',
+    bio: {
+      fi: 'Pamela on monipuolinen kirurgi, joka on erikoistunut ortopediaan, pehmytkudoskirurgiaan ja hammashoitoon. Hän on suorittanut laajat jatkokoulutukset sekä ortopedisessa kirurgiassa että hammashoidossa.',
+      sv: 'Pamela är en mångsidig kirurg som specialiserat sig på ortopedi, mjukdelskirurgi och tandvård. Hon har genomgått omfattande vidareutbildning inom både ortopedisk kirurgi och tandvård.',
+      en: 'Pamela is a versatile surgeon specializing in orthopedics, soft tissue surgery and dental care. She has completed extensive continuing education in both orthopedic surgery and dentistry.'
+    },
+    experience: {
+      fi: 'Eläinlääkärinä vuodesta 2013. Klinikkamme johtava kirurgi.',
+      sv: 'Veterinär sedan 2013. Vår kliniks ledande kirurg.',
+      en: 'Veterinarian since 2013. Our clinic\'s lead surgeon.'
+    },
+    training: {
+      fi: 'AOVET ja ESAVS ortopedisen kirurgian koulutus. Accesian hammashoidon koulutus.',
+      sv: 'AOVET och ESAVS utbildning i ortopedisk kirurgi. Accesia tandvårdsutbildning.',
+      en: 'AOVET and ESAVS orthopedic surgery training. Accesia dental care training.'
+    },
+    focus: {
+      fi: 'Ortopedinen kirurgia, pehmytkudoskirurgia, hammashoito',
+      sv: 'Ortopedisk kirurgi, mjukdelskirurgi, tandvård',
+      en: 'Orthopedic surgery, soft tissue surgery, dental care'
+    }
+  },
+  assaf: {
+    name: 'Assaf Wydra',
+    image: 'images/assaf.webp',
+    bio: {
+      fi: 'Assaf on klinikan perustajan poika ja intohimoinen eläinlääkäri, joka on erikoistunut hammashoitoon, tähystystutkimuksiin ja luonnonvaraisten eläinten hoitoon. Hän on myös koulutettu koirien ja hevosten akupunktiossa.',
+      sv: 'Assaf är grundarens son och en passionerad veterinär som specialiserat sig på tandvård, endoskopi och vård av vilda djur. Han har också utbildning i akupunktur för hundar och hästar.',
+      en: 'Assaf is the founder\'s son and a passionate veterinarian specializing in dental care, endoscopy and wildlife care. He is also trained in canine and equine acupuncture.'
+    },
+    experience: {
+      fi: 'Eläinlääkärinä vuodesta 2011. Nordic Wildlife Care -yhteistyö.',
+      sv: 'Veterinär sedan 2011. Nordic Wildlife Care -samarbete.',
+      en: 'Veterinarian since 2011. Nordic Wildlife Care cooperation.'
+    },
+    training: {
+      fi: 'Accesian hammashoidon koulutus. Tähystys- ja luonnonvaraisten eläinten koulutus. Akupunktiokoulutus.',
+      sv: 'Accesia tandvårdsutbildning. Endoskopi- och viltdjursutbildning. Akupunkturutbildning.',
+      en: 'Accesia dental training. Endoscopy and wildlife education. Acupuncture training.'
+    },
+    focus: {
+      fi: 'Hammashoito, tähystystutkimukset, luonnonvaraisten eläinten hoito, akupunktio',
+      sv: 'Tandvård, endoskopi, vård av vilda djur, akupunktur',
+      en: 'Dental care, endoscopy, wildlife care, acupuncture'
+    }
+  },
+  nina: {
+    name: 'Nina Haglund',
+    image: 'images/nina.webp',
+    bio: {
+      fi: 'Nina tuo ainutlaatuisen farmaseuttisen taustan eläinlääkärin työhönsä. Hän on erikoistunut kirurgiaan, hammashoitoon ja ihotauteihin, ja on suorittanut jatkokoulutukset sekä hammashoidossa että pehmytkudoskirurgiassa.',
+      sv: 'Nina bidrar med en unik farmaceutisk bakgrund till sitt veterinärarbete. Hon har specialiserat sig på kirurgi, tandvård och dermatologi, och har genomgått vidareutbildning i både tandvård och mjukdelskirurgi.',
+      en: 'Nina brings a unique pharmaceutical background to her veterinary work. She specializes in surgery, dental care and dermatology, and has completed continuing education in both dentistry and soft tissue surgery.'
+    },
+    experience: {
+      fi: 'Eläinlääkäriksi 2016/2017, Saaren klinikalla vuodesta 2020. Aiempi farmaseutin tausta.',
+      sv: 'Veterinär 2016/2017, på Saari kliniken sedan 2020. Tidigare bakgrund som farmaceut.',
+      en: 'Veterinarian since 2016/2017, at Saari Clinic since 2020. Previous pharmacist background.'
+    },
+    training: {
+      fi: 'Accesian hammashoidon koulutus. ESAVS pehmytkudoskirurgian koulutus.',
+      sv: 'Accesia tandvårdsutbildning. ESAVS mjukdelskirurgiutbildning.',
+      en: 'Accesia dental training. ESAVS soft tissue surgery training.'
+    },
+    focus: {
+      fi: 'Kirurgia, hammashoito, ihotaudit',
+      sv: 'Kirurgi, tandvård, dermatologi',
+      en: 'Surgery, dental care, dermatology'
+    }
+  },
+  merja: {
+    name: 'Merja Autio',
+    image: 'images/merja.webp',
+    bio: {
+      fi: 'Merja on tuore eläinlääkäri, joka valmistui Viron maaelämän yliopistosta kesällä 2025 ja liittyi tiimiimme huhtikuussa 2025. Hän on erityisen kiinnostunut pehmytkudoskirurgiasta ja eksoottisten eläinten hoidosta.',
+      sv: 'Merja är en nyutexaminerad veterinär som tog examen från Estlands lantbruksuniversitet sommaren 2025 och anslöt sig till vårt team i april 2025. Hon är särskilt intresserad av mjukdelskirurgi och vård av exotiska djur.',
+      en: 'Merja is a recent graduate who obtained her degree from the Estonian University of Life Sciences in summer 2025 and joined our team in April 2025. She is particularly interested in soft tissue surgery and exotic animal care.'
+    },
+    experience: {
+      fi: 'Valmistunut kesällä 2025 Viron maaelämän yliopistosta. Saaren klinikalla huhtikuusta 2025.',
+      sv: 'Utexaminerad sommaren 2025 från Estlands lantbruksuniversitet. På Saari kliniken sedan april 2025.',
+      en: 'Graduated summer 2025 from Estonian University of Life Sciences. At Saari Clinic since April 2025.'
+    },
+    training: {
+      fi: 'Eläinlääketieteen tutkinto, Viron maaelämän yliopisto.',
+      sv: 'Veterinärmedicin examen, Estlands lantbruksuniversitet.',
+      en: 'Veterinary Medicine degree, Estonian University of Life Sciences.'
+    },
+    focus: {
+      fi: 'Pehmytkudoskirurgia, eksoottisten eläinten hoito',
+      sv: 'Mjukdelskirurgi, vård av exotiska djur',
+      en: 'Soft tissue surgery, exotic animal care'
+    }
+  }
+};
+
+function openVetProfile(vetId) {
+  const profile = vetProfiles[vetId];
+  if (!profile) return;
+
+  document.getElementById('vet-modal-img').src = profile.image;
+  document.getElementById('vet-modal-img').alt = profile.name;
+  document.getElementById('vet-modal-name').textContent = profile.name;
+  document.getElementById('vet-modal-bio').textContent = profile.bio[currentLang] || profile.bio.fi;
+  document.getElementById('vet-modal-experience').textContent = profile.experience[currentLang] || profile.experience.fi;
+  document.getElementById('vet-modal-training').textContent = profile.training[currentLang] || profile.training.fi;
+  document.getElementById('vet-modal-focus').textContent = profile.focus[currentLang] || profile.focus.fi;
+
+  document.getElementById('vet-modal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeVetProfile() {
+  document.getElementById('vet-modal').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const modal = document.getElementById('vet-modal');
+    if (modal && modal.classList.contains('active')) {
+      closeVetProfile();
+    }
+  }
+});
 
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {

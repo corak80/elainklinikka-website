@@ -260,35 +260,62 @@
 
       <h3 class="text-center mb-2" data-i18n="team.vets">Eläinlääkärit</h3>
       <div class="team-grid mb-2">
-        <div class="team-card">
+        <div class="team-card team-card-clickable" onclick="openVetProfile('leena')">
           <div class="team-avatar"><img src="images/leena.webp" alt="Leena Sandström"></div>
           <h3>Leena Sandström</h3>
           <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
           <p class="bio" data-i18n="bio.leena">Sydänsairaudet ja sisätaudit. ESAVS-kardiologian sertifikaatti. Kennelklubin valtuutettu sydäntutkija.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card team-card-clickable" onclick="openVetProfile('pamela')">
           <div class="team-avatar"><img src="images/pamela.webp" alt="Pamela Kvarngård"></div>
           <h3>Pamela Kvarngård</h3>
           <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
           <p class="bio" data-i18n="bio.pamela">Ortopedia, pehmytkudoskirurgia ja hammashoito. AOVET & ESAVS koulutus.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card team-card-clickable" onclick="openVetProfile('assaf')">
           <div class="team-avatar"><img src="images/assaf.webp" alt="Assaf Wydra"></div>
           <h3>Assaf Wydra</h3>
           <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
           <p class="bio" data-i18n="bio.assaf">Hammashoito, tähystystutkimukset ja luonnonvaraisten eläinten hoito.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card team-card-clickable" onclick="openVetProfile('nina')">
           <div class="team-avatar"><img src="images/nina.webp" alt="Nina Haglund"></div>
           <h3>Nina Haglund</h3>
           <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
           <p class="bio" data-i18n="bio.nina">Kirurgia, hammashoito ja ihotaudit. Farmaseutin tausta.</p>
         </div>
-        <div class="team-card">
+        <div class="team-card team-card-clickable" onclick="openVetProfile('merja')">
           <div class="team-avatar"><img src="images/merja.webp" alt="Merja Autio"></div>
           <h3>Merja Autio</h3>
           <p class="role" data-i18n="role.vet">Eläinlääkäri</p>
           <p class="bio" data-i18n="bio.merja">Pehmytkudoskirurgia ja eksoottisten eläinten hoito.</p>
+        </div>
+      </div>
+
+      <!-- Vet Profile Modal -->
+      <div id="vet-modal" class="vet-modal" onclick="if(event.target===this)closeVetProfile()">
+        <div class="vet-modal-content">
+          <button class="vet-modal-close" onclick="closeVetProfile()">&times;</button>
+          <div class="vet-modal-avatar">
+            <img id="vet-modal-img" src="" alt="">
+          </div>
+          <h2 id="vet-modal-name"></h2>
+          <p class="vet-modal-role" data-i18n="role.vet">Eläinlääkäri</p>
+          <div class="vet-modal-details">
+            <p id="vet-modal-bio" class="vet-modal-bio"></p>
+            <div class="vet-modal-info">
+              <p><strong data-i18n="vet.experience">Kokemus</strong></p>
+              <p id="vet-modal-experience"></p>
+            </div>
+            <div class="vet-modal-info">
+              <p><strong data-i18n="vet.training">Koulutus</strong></p>
+              <p id="vet-modal-training"></p>
+            </div>
+            <div class="vet-modal-info">
+              <p><strong data-i18n="vet.focus">Erikoisosaaminen</strong></p>
+              <p id="vet-modal-focus"></p>
+            </div>
+          </div>
         </div>
       </div>
 
