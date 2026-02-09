@@ -54,9 +54,9 @@ const translations = {
   // About
   'about.title': { fi: 'Tietoa klinikasta', sv: 'Om kliniken', en: 'About the Clinic' },
   'about.subtitle': {
-    fi: 'Yksityinen pieneläinklinikka Vaasan Pukinkulman Autotalossa',
-    sv: 'En privatägd smådjursklinik i Bocks hörna, Vasa',
-    en: 'A privately owned small animal veterinary clinic in Bock\'s corner, Vaasa'
+    fi: 'Vaasan ainoa yksityinen pieneläinklinikka – Pukinkulman Autotalossa vuodesta 1989',
+    sv: 'Vasas enda privata smådjursklinik – i Bocks hörna sedan 1989',
+    en: 'The only private small animal clinic in Vaasa – in Bock\'s corner since 1989'
   },
   'about.text1': {
     fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat tärkeimmät prioriteetit. Pyrimme luomaan lämpimän ja luottamuksellisen suhteen niin asiakkaaseen kuin potilaasenkin.',
@@ -617,9 +617,9 @@ const translations = {
 
   // Footer
   'footer.description': {
-    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
-    sv: 'En finskägd privat djurklinik i Dragnäsbäck, Bockis hörnet, Vasa.',
-    en: 'A Finnish-owned private small animal clinic in Dragnäsbäck, Vaasa.'
+    fi: 'Vaasan ainoa yksityinen pieneläinklinikka – Dragnäsbäckissä vuodesta 1989.',
+    sv: 'Vasas enda privata smådjursklinik – i Dragnäsbäck sedan 1989.',
+    en: 'The only private small animal clinic in Vaasa – in Dragnäsbäck since 1989.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
