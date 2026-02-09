@@ -506,9 +506,9 @@ const translations = {
   'price.other.euthdog.large': { fi: 'Eutanasia koira >40kg', sv: 'Eutanasi hund >40kg', en: 'Euthanasia dog >40kg' },
 
   'prices.note': {
-    fi: 'Peruuttamattomista ajoista veloitetaan enintään 50% toimenpiteen hinnasta. Peruutukset 24h ennen.',
-    sv: 'Avbokning krävs minst 24 timmar före besöket. Avgift högst 50% av behandlingens pris.',
-    en: 'Cancellations require 24 hours notice. Fee up to 50% of procedure cost applies.'
+    fi: 'Peruuttamattomista ajoista veloitetaan 30–100 €. Peruutukset 24h ennen.',
+    sv: 'Avbokning krävs minst 24 timmar före besöket. Avgift 30–100 €.',
+    en: 'Cancellations require 24 hours notice. Fee 30–100 € applies.'
   },
   'prices.rights': {
     fi: 'Pidätämme oikeuden hintojen muutoksiin.',
