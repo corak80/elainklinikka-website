@@ -41,7 +41,7 @@
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
   --max-width: 1200px;
-  --header-height: 150px;
+  --header-height: 190px;
   --transition: 0.3s ease;
 }
 
@@ -219,7 +219,7 @@ ul {
 }
 
 .logo-icon {
-  height: 140px;
+  height: 180px;
   width: auto;
 }
 
