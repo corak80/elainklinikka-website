@@ -303,12 +303,6 @@ const translations = {
   'vet.focus': { fi: 'Erikoisosaaminen', sv: 'Specialkompetens', en: 'Areas of Expertise' },
   'nurse.background': { fi: 'Tausta', sv: 'Bakgrund', en: 'Background' },
   'nurse.interests': { fi: 'Kiinnostuksen kohteet', sv: 'Intresseområden', en: 'Interests' },
-  'cookie.text': {
-    fi: 'Tämä sivusto käyttää selaimen muistia kielivalinnan tallentamiseen. Emme käytä evästeitä tai seurantapalveluja.',
-    sv: 'Denna webbplats använder webbläsarens minne för att spara språkval. Vi använder inga cookies eller spårningstjänster.',
-    en: 'This website uses browser storage to save your language preference. We do not use cookies or tracking services.'
-  },
-  'cookie.accept': { fi: 'Selvä', sv: 'OK', en: 'OK' },
   'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Technician' },
   'role.headtech': { fi: 'Johtava klinikkaeläinhoitaja', sv: 'Ledande klinikdjurskötare', en: 'Head Veterinary Technician' },
   'role.tech': { fi: 'Klinikkaeläinhoitaja', sv: 'Klinikdjurskötare', en: 'Veterinary Technician' },
@@ -1223,11 +1217,10 @@ const serviceIcons = {
 };
 
 // --- Language System ---
-let currentLang = localStorage.getItem('siteLanguage') || 'fi';
+let currentLang = 'fi';
 
 function setLanguage(lang) {
   currentLang = lang;
-  localStorage.setItem('siteLanguage', lang);
 
   // Update all translatable elements
   document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -1767,21 +1760,10 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// --- Cookie Notice ---
-function acceptCookieNotice() {
-  document.getElementById('cookie-notice').style.display = 'none';
-  localStorage.setItem('cookieNoticeAccepted', 'true');
-}
-
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize language
   setLanguage(currentLang);
-
-  // Show cookie notice if not yet accepted
-  if (!localStorage.getItem('cookieNoticeAccepted')) {
-    document.getElementById('cookie-notice').style.display = 'flex';
-  }
 
   // Bind language toggle
   document.querySelectorAll('.lang-toggle button').forEach(btn => {
