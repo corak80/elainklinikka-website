@@ -1122,6 +1122,68 @@ const translations = {
     sv: 'På Eläinklinikka Saari uppskattar vi ägare som förbinder sig till daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: elainklinikkasaari.vaasa@gmail.com.',
     en: 'At Eläinklinikka Saari we value owners who commit to daily tooth brushing. If you brush your pet\'s teeth every day, let us know — dedicated brushers receive the #BrushChamp medal! Contact us at the clinic or by email: elainklinikkasaari.vaasa@gmail.com.'
   },
+
+  // Article: PerioVive
+  'article.periovive.title': {
+    fi: 'PerioVive — hyaluronihappogeeli parodontaalisairauksien hoitoon',
+    sv: 'PerioVive — hyaluronsyragel för behandling av parodontal sjukdom',
+    en: 'PerioVive — Hyaluronic Acid Gel for Periodontal Disease Treatment'
+  },
+  'article.periovive.intro': {
+    fi: 'Parodontaalisairaus (ientauti) on yleisin sairaus koirilla ja kissoilla — jopa 80 % yli kolmevuotiaista koirista kärsii jonkinasteisesta ientaudista. Hoitamattomana se johtaa hampaan kiinnityskudosten tuhoutumiseen, luukatoon ja lopulta hampaiden menetykseen. PerioVive on eläinlääketieteelliseen käyttöön kehitetty hyaluronihappogeeli, joka tuo uuden mahdollisuuden parodontaalisairauksien hoitoon hammastoimenpiteiden yhteydessä.',
+    sv: 'Parodontal sjukdom (tandköttsinflammation) är den vanligaste sjukdomen hos hundar och katter — upp till 80 % av hundar över tre år lider av någon grad av tandköttssjukdom. Obehandlad leder den till förstörelse av tandens stödjevävnader, benförlust och slutligen tandförlust. PerioVive är en hyaluronsyragel utvecklad för veterinärmedicinskt bruk som ger nya möjligheter att behandla parodontal sjukdom i samband med tandbehandlingar.',
+    en: 'Periodontal disease is the most common disease in dogs and cats — up to 80% of dogs over three years old suffer from some degree of gum disease. Left untreated, it leads to destruction of tooth support structures, bone loss and ultimately tooth loss. PerioVive is a hyaluronic acid gel developed for veterinary use that brings a new option for treating periodontal disease during dental procedures.'
+  },
+  'article.periovive.what.title': {
+    fi: 'Mitä PerioVive on?',
+    sv: 'Vad är PerioVive?',
+    en: 'What is PerioVive?'
+  },
+  'article.periovive.what.text': {
+    fi: 'PerioVive on 0,8 % hyaluronihappoa (HA) sisältävä geeli, joka on suunniteltu eläinlääketieteellisiin hammastoimenpiteisiin. Hyaluronihappo on luonnollisesti sidekudoksessa, ikenissä ja nivelnesteessä esiintyvä aine, jolla on keskeinen rooli kudosten paranemisessa ja uusiutumisessa. Geeli levitetään suoraan ientaskuihin ja hoitoalueille hammastoimenpiteen yhteydessä.',
+    sv: 'PerioVive är en gel som innehåller 0,8 % hyaluronsyra (HA) och är designad för veterinärmedicinska tandbehandlingar. Hyaluronsyra förekommer naturligt i bindväv, tandkött och ledvätska och spelar en central roll i vävnadsläkning och regenerering. Gelen appliceras direkt i tandköttsfickor och behandlingsområden under tandbehandlingen.',
+    en: 'PerioVive is a 0.8% hyaluronic acid (HA) gel designed for veterinary dental procedures. Hyaluronic acid is a naturally occurring substance in connective tissue, gums and joint fluid that plays a key role in tissue healing and regeneration. The gel is applied directly to periodontal pockets and treatment areas during the dental procedure.'
+  },
+  'article.periovive.how.title': {
+    fi: 'Miten se vaikuttaa?',
+    sv: 'Hur fungerar det?',
+    en: 'How Does It Work?'
+  },
+  'article.periovive.how.text': {
+    fi: 'Hyaluronihappo vaikuttaa usealla eri mekanismilla. Se vähentää tulehdusta ja turvotusta ikenissä, edistää pehmytkudosten ja luun uusiutumista, tukee verihyytymän vakautta toimenpidealueella, muodostaa suojaavan esteen mikrobeja vastaan ja nopeuttaa kudosten paranemista. Tutkimuksissa yksittäinen HA-annos toimenpiteen jälkeen nopeutti kudosten paranemista, lisäsi luun muodostumista ja vähensi ientaskujen syvyyttä merkittävästi.',
+    sv: 'Hyaluronsyra verkar genom flera mekanismer. Den minskar inflammation och svullnad i tandköttet, främjar regenerering av mjukvävnad och ben, stöder blodkoagelstabilitet i behandlingsområdet, bildar en skyddande barriär mot mikrober och påskyndar vävnadsläkning. Studier visar att en enda dos HA efter ingreppet påskyndade vävnadsläkning, ökade benbildning och minskade tandköttsfickans djup avsevärt.',
+    en: 'Hyaluronic acid works through multiple mechanisms. It reduces inflammation and swelling in the gums, promotes soft tissue and bone regeneration, supports blood clot stability at the treatment site, forms a protective barrier against microbes and accelerates tissue healing. Studies show a single dose of HA after the procedure accelerated tissue healing, increased bone formation and significantly reduced periodontal pocket depth.'
+  },
+  'article.periovive.evidence.title': {
+    fi: 'Tieteellinen näyttö',
+    sv: 'Vetenskaplig evidens',
+    en: 'Scientific Evidence'
+  },
+  'article.periovive.evidence.text': {
+    fi: 'Hyaluronihapon tehosta parodontaalisairauksien hoidossa on runsaasti tutkimusnäyttöä. Koiramalleilla tehdyissä tutkimuksissa HA osoitti 89 % luun uudelleenmuodostumisen hoidetuissa kudosvaurioissa, verrattuna 39 %:iin kontrolliryhmässä. Ientaskujen syvyyden väheneminen ja kliininen kiinnittymisen paraneminen olivat tilastollisesti merkitseviä. Hyaluronihapon tehoa tukevat yli 5 koiratutkimusta ja yli 100 ihmistutkimusta parodontaalisairauksien hoidossa.',
+    sv: 'Det finns omfattande forskningsbevis för hyaluronsyrans effekt vid behandling av parodontal sjukdom. I studier på hundmodeller visade HA 89 % bennybildning i behandlade vävnadsdefekter, jämfört med 39 % i kontrollgruppen. Minskning av tandköttsfickornas djup och förbättrad klinisk fästning var statistiskt signifikanta. Effekten av hyaluronsyra stöds av över 5 hundstudier och över 100 humanstudier inom parodontal behandling.',
+    en: 'There is extensive research evidence for the effectiveness of hyaluronic acid in treating periodontal disease. In canine model studies, HA demonstrated 89% bone regeneration in treated tissue defects, compared to 39% in the control group. Reduction in pocket depth and improvement in clinical attachment were statistically significant. The effectiveness of HA is supported by over 5 canine studies and over 100 human studies in periodontal treatment.'
+  },
+  'article.periovive.when.title': {
+    fi: 'Milloin PerioVivea käytetään?',
+    sv: 'När används PerioVive?',
+    en: 'When is PerioVive Used?'
+  },
+  'article.periovive.when.text': {
+    fi: 'PerioVive soveltuu käytettäväksi hammaskiven poiston jälkeen syventyneiden ientaskujen hoitoon, hampaanpoiston jälkeen paranemisen edistämiseen, ikenien kirurgisten toimenpiteiden yhteydessä sekä parodontaalisairauden etenemisen hidastamiseen. Geeli levitetään toimenpidealueelle nukutuksen aikana, joten erillistä käyntiä ei tarvita.',
+    sv: 'PerioVive lämpar sig för behandling av fördjupade tandköttsfickor efter tandstensborttagning, för att främja läkning efter tandextraktion, vid kirurgiska ingrepp på tandköttet samt för att bromsa parodontal sjukdomsutveckling. Gelen appliceras på behandlingsområdet under narkos, så inget separat besök behövs.',
+    en: 'PerioVive is suitable for treating deepened periodontal pockets after scaling, promoting healing after tooth extraction, during gingival surgical procedures and slowing the progression of periodontal disease. The gel is applied to the treatment area during anesthesia, so no separate visit is needed.'
+  },
+  'article.periovive.clinic.title': {
+    fi: 'PerioVive-hoito klinikallamme',
+    sv: 'PerioVive-behandling på vår klinik',
+    en: 'PerioVive Treatment at Our Clinic'
+  },
+  'article.periovive.clinic.text': {
+    fi: 'Eläinklinikka Saaressa tarjoamme PerioVive-hoitoa osana laajaa hammashoitopalveluamme. Käytämme PerioViveä hammastoimenpiteiden yhteydessä edistämään ikenien ja luun paranemista. Kysy lisää seuraavalla käynnillä tai ota yhteyttä klinikkaan — arvioimme mielellämme, hyötyisikö lemmikkisi PerioVive-hoidosta.',
+    sv: 'På Djurkliniken Saari erbjuder vi PerioVive-behandling som en del av vår omfattande tandvård. Vi använder PerioVive i samband med tandbehandlingar för att främja läkning av tandkött och ben. Fråga mer vid nästa besök eller kontakta kliniken — vi bedömer gärna om ditt husdjur skulle dra nytta av PerioVive-behandling.',
+    en: 'At Eläinklinikka Saari, we offer PerioVive treatment as part of our extensive dental care services. We use PerioVive during dental procedures to promote gum and bone healing. Ask us more at your next visit or contact the clinic — we are happy to assess whether your pet would benefit from PerioVive treatment.'
+  },
 };
 
 // --- Service icons mapping ---
