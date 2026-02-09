@@ -16,7 +16,7 @@
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="#" class="logo">
+      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.getElementById('privacy').style.display='none'; document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="images/logo.png" alt="Eläinklinikka Saari"></div>
       </a>
 
