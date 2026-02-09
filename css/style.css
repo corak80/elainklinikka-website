@@ -512,14 +512,9 @@ ul {
 }
 
 .about-image {
-  border-radius: var(--radius-lg);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  overflow: hidden;
-  justify-content: center;
-  min-height: 350px;
-  position: relative;
-  overflow: hidden;
 }
 
 .about-image .placeholder {
