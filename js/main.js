@@ -1470,9 +1470,9 @@ const translations = {
     en: 'Prevention'
   },
   'article.snake.prevention.text': {
-    fi: 'Pidä koira kytkettynä alueilla, joilla kyitä esiintyy (kalliot, avoimet maastot, metsänreunat). Kyyt ovat aktiivisimpia lämpimillä aamuilla ja iltapäivillä. Tarkista maasto ennen kuin päästät koiran vapaaksi. Jos koirasi on aiemmin saanut kyynpureman, riski vakavaan reaktioon on suurempi seuraavalla kerralla. Suomessa kyynpuremia hoidetaan kaikilla eläinlääkäriasemilla — meille voi tulla myös päivystysaikana.',
-    sv: 'Håll hunden kopplad i områden där huggormar förekommer (klippor, öppna marker, skogsbryn). Huggormar är mest aktiva varma morgnar och eftermiddagar. Kontrollera terrängen innan du släpper hunden lös. Om din hund tidigare fått ett huggormsbett är risken för en allvarlig reaktion större nästa gång. I Finland behandlas huggormsbett på alla veterinärstationer — hos oss kan du komma även jourtid.',
-    en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. If your dog has previously been bitten by an adder, the risk of a severe reaction is greater next time. In Finland, adder bites are treated at all veterinary clinics — you can come to us even during on-call hours.'
+    fi: 'Pidä koira kytkettynä alueilla, joilla kyitä esiintyy (kalliot, avoimet maastot, metsänreunat). Kyyt ovat aktiivisimpia lämpimillä aamuilla ja iltapäivillä. Tarkista maasto ennen kuin päästät koiran vapaaksi. Jos koirasi on aiemmin saanut kyynpureman, riski vakavaan reaktioon on suurempi seuraavalla kerralla.',
+    sv: 'Håll hunden kopplad i områden där huggormar förekommer (klippor, öppna marker, skogsbryn). Huggormar är mest aktiva varma morgnar och eftermiddagar. Kontrollera terrängen innan du släpper hunden lös. Om din hund tidigare fått ett huggormsbett är risken för en allvarlig reaktion större nästa gång.',
+    en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. If your dog has previously been bitten by an adder, the risk of a severe reaction is greater next time.'
   },
 
   // Article 14: Pyometra
