@@ -597,6 +597,8 @@ ul {
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
   transition: transform var(--transition);
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 .service-card.open .service-toggle {
