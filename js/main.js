@@ -655,9 +655,9 @@ const translations = {
   // Articles section
   'articles.title': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
   'articles.subtitle': {
-    fi: 'Asiantuntija-artikkeleita lemmikkien terveydestä',
-    sv: 'Expertartiklar om husdjurens hälsa',
-    en: 'Expert articles about pet health'
+    fi: 'Ammatillisia artikkeleita lemmikkien terveydestä',
+    sv: 'Professionella artiklar om husdjurens hälsa',
+    en: 'Professional articles about pet health'
   },
   'articles.back': { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' },
   'articles.filter.all': { fi: 'Kaikki', sv: 'Alla', en: 'All' },
