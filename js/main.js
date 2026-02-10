@@ -1189,6 +1189,69 @@ const translations = {
     sv: 'På Djurkliniken Saari erbjuder vi PerioVive-behandling som en del av vår omfattande tandvård. Vi använder PerioVive i samband med tandbehandlingar för att främja läkning av tandkött och ben. Fråga mer vid nästa besök eller kontakta kliniken — vi bedömer gärna om ditt husdjur skulle dra nytta av PerioVive-behandling.',
     en: 'At Eläinklinikka Saari, we offer PerioVive treatment as part of our extensive dental care services. We use PerioVive during dental procedures to promote gum and bone healing. Ask us more at your next visit or contact the clinic — we are happy to assess whether your pet would benefit from PerioVive treatment.'
   },
+
+  // Article 9: Independent Clinic
+  'article.independent.tag': { fi: 'Klinikka', sv: 'Klinik', en: 'Clinic' },
+  'article.independent.title': {
+    fi: 'Miksi yksityinen eläinklinikka on tärkeä valinta?',
+    sv: 'Varför är en privat djurklinik ett viktigt val?',
+    en: 'Why Choosing an Independent Veterinary Clinic Matters'
+  },
+  'article.independent.intro': {
+    fi: 'Suomen eläinlääkärimarkkina on muuttunut dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä — hallitsevat nyt 50–70 % markkinasta. Eläinklinikka Saari on Vaasan ainoa yksityinen pieneläinklinikka, ja haluamme kertoa, miksi se merkitsee.',
+    sv: 'Den finländska veterinärmarknaden har förändrats dramatiskt under det senaste årtiondet. Två utlandsägda kedjor — Evidensia och Vireä — kontrollerar nu 50–70 % av marknaden. Djurklinik Saari är den enda privata smådjurskliniken i Vasa, och vi vill berätta varför det spelar roll.',
+    en: 'The Finnish veterinary market has changed dramatically over the past decade. Two foreign-owned chains — Evidensia and Vireä — now control 50–70% of the market. Eläinklinikka Saari is the only private small animal clinic in Vaasa, and we want to explain why that matters.'
+  },
+  'article.independent.chains.title': {
+    fi: 'Ketjut Suomessa',
+    sv: 'Kedjorna i Finland',
+    en: 'Chains in Finland'
+  },
+  'article.independent.chains.text': {
+    fi: 'Evidensia on osa IVC Evidensia -konsernia, jota hallitsevat ruotsalainen pääomasijoitusyhtiö EQT, yhdysvaltalainen Silver Lake ja muut sijoittajat. Konsernin arvo on noin 12,3 miljardia euroa. Suomessa Evidensialla on noin 50 klinikkaa ja 40–50 % markkinaosuus. Vireä (ent. Univet) kuuluu tanskalaiseen Vetopia-ryhmään, jota omistaa tanskalainen pääomasijoitusyhtiö Axcel. Vireällä on noin 15 klinikkaa Suomessa. Lisäksi 11 Suomen 13 päivystyseläinsairaalasta on Evidensian omistuksessa.',
+    sv: 'Evidensia är en del av IVC Evidensia-koncernen, som kontrolleras av det svenska riskkapitalbolaget EQT, amerikanska Silver Lake och andra investerare. Koncernens värde uppgår till cirka 12,3 miljarder euro. I Finland har Evidensia cirka 50 kliniker och 40–50 % marknadsandel. Vireä (f.d. Univet) ingår i den danska Vetopia-gruppen, som ägs av det danska riskkapitalbolaget Axcel. Vireä har cirka 15 kliniker i Finland. Dessutom ägs 11 av Finlands 13 jourdjursjukhus av Evidensia.',
+    en: 'Evidensia is part of the IVC Evidensia group, controlled by Swedish private equity firm EQT, American Silver Lake and other investors. The group is valued at approximately €12.3 billion. In Finland, Evidensia operates about 50 clinics with 40–50% market share. Vireä (formerly Univet) belongs to the Danish Vetopia group, owned by Danish private equity firm Axcel. Vireä has about 15 clinics in Finland. Additionally, 11 of Finland\'s 13 emergency animal hospitals are owned by Evidensia.'
+  },
+  'article.independent.prices.title': {
+    fi: 'Vaikutus hintoihin',
+    sv: 'Påverkan på priser',
+    en: 'Impact on Prices'
+  },
+  'article.independent.prices.text': {
+    fi: 'Kilpailu- ja kuluttajaviraston (KKV) marraskuussa 2024 julkaiseman tutkimuksen mukaan Evidensia nosti hintojaan 28 % vuosina 2021–2024 — 15 prosenttiyksikköä enemmän kuin alan keskiarvo. Kotitalouksien eläinlääkärimenot ovat kaksinkertaistuneet kymmenessä vuodessa. Yksityiset klinikat ovat KKV:n mukaan johdonmukaisesti edullisempia kuin ketjuklinikat.',
+    sv: 'Enligt en studie publicerad av Konkurrens- och konsumentverket (KKV) i november 2024 höjde Evidensia sina priser med 28 % mellan 2021 och 2024 — 15 procentenheter mer än branschgenomsnittet. Hushållens veterinärutgifter har fördubblats på tio år. Enligt KKV är privata kliniker konsekvent billigare än kedjekliniker.',
+    en: 'According to a study published by the Finnish Competition and Consumer Authority (KKV) in November 2024, Evidensia raised its prices by 28% between 2021 and 2024 — 15 percentage points above the industry average. Household spending on veterinary care has doubled in ten years. According to KKV, independent clinics are consistently more affordable than chain clinics.'
+  },
+  'article.independent.quality.title': {
+    fi: 'Mitä ketjuistuminen tarkoittaa hoidolle?',
+    sv: 'Vad innebär kedjeetableringen för vården?',
+    en: 'What Does Chain Ownership Mean for Care?'
+  },
+  'article.independent.quality.text': {
+    fi: 'Kun sijoitusyhtiöt omistavat klinikat, tavoitteena on tuotto — ei eläinten hyvinvointi. Eläinlääkäreiltä odotetaan enemmän potilaita vuoroa kohden ja tulostavoitteet ohjaavat hoitopäätöksiä. YLE:n selvityksen mukaan ketjuissa hinnat nousivat 2–4 kertaa vuodessa, mutta palkat eivät nousseet kolmeen vuoteen. Hoitohenkilökunta ei uskalla puhua, koska monilla alueilla ei ole vaihtoehtoista työnantajaa.',
+    sv: 'När investeringsbolag äger kliniker är målet avkastning — inte djurens välbefinnande. Veterinärer förväntas ta emot fler patienter per skift och resultatmål styr behandlingsbeslut. Enligt YLE:s undersökning höjdes priserna 2–4 gånger per år i kedjorna, men lönerna steg inte på tre år. Vårdpersonal vågar inte tala ut eftersom det på många orter inte finns en alternativ arbetsgivare.',
+    en: 'When investment firms own clinics, the goal is profit — not animal welfare. Veterinarians are expected to see more patients per shift and revenue targets influence treatment decisions. According to YLE\'s investigation, chain prices rose 2–4 times per year, but staff salaries did not increase for three years. Staff are afraid to speak up because in many regions there is no alternative employer.'
+  },
+  'article.independent.international.title': {
+    fi: 'Kansainvälinen esimerkki',
+    sv: 'Internationella exempel',
+    en: 'International Examples'
+  },
+  'article.independent.international.text': {
+    fi: 'Iso-Britanniassa eläinlääkärimarkkinat ketjuistuivat aikaisemmin. Yksityisten klinikoiden osuus laski 83 %:sta 45 %:iin kahdeksassa vuodessa, ja hinnat nousivat 63 %. Maan kilpailuviranomainen (CMA) totesi, että ketjuklinikoissa maksetaan keskimäärin 16,6 % enemmän kuin yksityisillä. Ruotsissa Evidensian hinnat nousivat 15 % vuodessa — yksityisillä vain 6 %.',
+    sv: 'I Storbritannien konsoliderades veterinärmarknaden tidigare. Andelen privata kliniker sjönk från 83 % till 45 % på åtta år, och priserna steg med 63 %. Landets konkurrensmyndighet (CMA) konstaterade att kedjekliniker i genomsnitt är 16,6 % dyrare än privata. I Sverige steg Evidensias priser med 15 % per år — medan privata kliniker bara höjde med 6 %.',
+    en: 'In the UK, veterinary market consolidation happened earlier. Independent clinics dropped from 83% to 45% in eight years, and prices rose 63%. The Competition and Markets Authority (CMA) found that chain clinics charge on average 16.6% more than independents. In Sweden, Evidensia raised prices 15% per year — independents only 6%.'
+  },
+  'article.independent.choice.title': {
+    fi: 'Eläinklinikka Saari — tietoinen valinta',
+    sv: 'Djurklinik Saari — ett medvetet val',
+    en: 'Eläinklinikka Saari — A Conscious Choice'
+  },
+  'article.independent.choice.text': {
+    fi: 'Olemme saaneet useita yhteydenottoja ketjuilta, jotka haluaisivat ostaa klinikkamme. Olemme päättäneet pysyä yksityisenä. Meille tämä tarkoittaa, että hoitopäätökset tekee aina eläinlääkäri — ei sijoitusyhtiö. Hintamme perustuvat todellisiin kustannuksiin, emme noudata konsernin tulostavoitteita. Sama eläinlääkäri hoitaa lemmikkisi koko sen elämän ajan. Tulomme jäävät Vaasaan. Kun valitset yksityisen klinikan, tuet myös suomalaista yrittäjyyttä ja kilpailua markkinoilla, jotka keskittyvät yhä harvempiin käsiin.',
+    sv: 'Vi har fått flera förfrågningar från kedjor som vill köpa vår klinik. Vi har beslutat att förbli privata. För oss innebär detta att behandlingsbeslut alltid fattas av veterinären — inte av ett investeringsbolag. Våra priser baseras på verkliga kostnader, vi följer inga koncernens resultatmål. Samma veterinär tar hand om ditt husdjur hela dess liv. Våra intäkter stannar i Vasa. När du väljer en privat klinik stöder du också finländskt företagande och konkurrens på en marknad som koncentreras i allt färre händer.',
+    en: 'We have received multiple offers from chains wanting to buy our clinic. We have chosen to remain independent. For us this means that treatment decisions are always made by the veterinarian — not an investment firm. Our prices are based on actual costs, not corporate revenue targets. The same vet cares for your pet throughout its life. Our revenue stays in Vaasa. When you choose an independent clinic, you also support Finnish entrepreneurship and competition in a market that is concentrating into fewer and fewer hands.'
+  },
 };
 
 // --- Service icons mapping ---
