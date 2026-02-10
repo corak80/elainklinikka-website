@@ -254,7 +254,8 @@ ul {
 
 .nav-links {
   display: flex;
-  gap: var(--spacing-md);
+  min-width: 620px;
+  justify-content: space-between;
 }
 
 .nav-links a {
@@ -296,6 +297,11 @@ ul {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
+}
+
+.nav-actions .btn-cta {
+  min-width: 7.5rem;
+  justify-content: center;
 }
 
 /* --- Language Toggle --- */

@@ -666,6 +666,7 @@ const translations = {
   'articles.filter.dental': { fi: 'Hammashoito', sv: 'Tandvård', en: 'Dental' },
   'articles.filter.emergency': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   'articles.filter.clinic': { fi: 'Klinikka', sv: 'Klinik', en: 'Clinic' },
+  'articles.filter.cardiology': { fi: 'Kardiologia', sv: 'Kardiologi', en: 'Cardiology' },
   'articles.filter.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
   'articles.tag.orthopedics': { fi: 'Ortopedia', sv: 'Ortopedi', en: 'Orthopedics' },
 
@@ -1734,6 +1735,132 @@ const translations = {
     sv: 'Igelkotten är ett nattdjur som rör sig 1–2 km per natt i jakt på föda. En vuxen igelkott väger 600–1 100 g och har cirka 5 000–6 000 taggar. Födan består av skalbaggar, larver, sniglar, snäckor, maskar och insekter — igelkotten är trädgårdsmästarens bästa vän. Vinterdvalan varar i Finland ungefär från oktober till april: kroppstemperaturen sjunker från 35 grader till så lågt som 1–4 grader och hjärtfrekvensen sjunker från 190 till cirka 20 slag per minut. Fortplantningstiden är april–september och honan föder i genomsnitt 4–5 ungar. Igelkottens genomsnittliga livslängd i det vilda är 2–3 år. I Finland behöver igelkotten en vikt på minst cirka 450–600 gram för att överleva vinterdvalan.',
     en: 'The hedgehog is a nocturnal animal that travels 1–2 km per night foraging for food. An adult hedgehog weighs 600–1,100 g and has approximately 5,000–6,000 spines. Its diet consists of beetles, larvae, slugs, snails, worms and insects — the hedgehog is the gardener\'s best friend. Hibernation in Finland lasts approximately from October to April: body temperature drops from 35 degrees to as low as 1–4 degrees and heart rate falls from 190 to about 20 beats per minute. The breeding season is April–September and the female gives birth to an average of 4–5 hoglets. The average lifespan of a hedgehog in the wild is 2–3 years. In Finland, a hedgehog needs a weight of at least approximately 450–600 grams to survive hibernation.'
   },
+
+  // Cat Stress & Cat Friendly Clinic Article
+  'article.catstress.tag': { fi: 'Kissojen terveys', sv: 'Katthälsa', en: 'Cat Health' },
+  'article.catstress.title': {
+    fi: 'Stressitön eläinlääkärikäynti kissalle — näin autamme ja näin voit valmistautua',
+    sv: 'Stressfritt veterinärbesök för katten — så hjälper vi och så kan du förbereda dig',
+    en: 'A Stress-Free Vet Visit for Your Cat — How We Help and How You Can Prepare'
+  },
+  'article.catstress.intro': {
+    fi: 'Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat laukaista voimakkaan stressireaktion. Stressi ei ole vain epämukavaa — se vaikuttaa myös tutkimustuloksiin: stressaantuneen kissan verensokeriarvo voi nousta jopa 10 mmol/l (ns. stressihyperglykemia), ja verenpaine voi kohota 15–75 mmHg ("valkotakkihypertensio"), mikä vaikeuttaa diagnosointia. Eläinklinikka Saarella olemme panostaneet kissojen hyvinvointiin ja saaneet kansainvälisen ISFM-järjestön Cat Friendly Clinic Silver -sertifikaatin.',
+    sv: 'Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, närvaro av hundar och hantering av främlingar kan utlösa en stark stressreaktion. Stress är inte bara obehagligt — det påverkar också undersökningsresultaten: en stressad katts blodsockervärde kan stiga med upp till 10 mmol/l (s.k. stresshyperglykemi) och blodtrycket kan höjas med 15–75 mmHg ("vitrockhypertension"), vilket försvårar diagnostiken. På Djurkliniken Saari har vi satsat på katternas välbefinnande och erhållit den internationella ISFM-organisationens Cat Friendly Clinic Silver-certifiering.',
+    en: 'A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs, and handling by strangers can trigger a strong stress response. Stress is not just uncomfortable — it also affects test results: a stressed cat\'s blood glucose can rise by up to 10 mmol/L (stress hyperglycemia), and blood pressure can increase by 15–75 mmHg ("white coat hypertension"), making diagnosis more difficult. At Eläinklinikka Saari, we have invested in feline wellbeing and earned the international ISFM Cat Friendly Clinic Silver certification.'
+  },
+  'article.catstress.signs.title': {
+    fi: 'Stressin merkit kissalla',
+    sv: 'Tecken på stress hos katten',
+    en: 'Signs of Stress in Cats'
+  },
+  'article.catstress.signs.text': {
+    fi: 'Stressaantunut kissa osoittaa merkkejä kehonkielellään: pupillit laajenevat, korvat painuvat litteiksi tai sivuille, keho jäykistyy ja häntä painuu kiinni vartaloon. Kissa voi sihistä, murisee, yrittää paeta tai jähmettyä paikoilleen. Stressioireita ovat myös liiallinen nuoleminen, haukottelu, huulten lipominen sekä pahimmillaan virtsan tai ulosteen hallitsematon karkaaminen. Nämä reaktiot ovat normaaleja — ne kertovat, että kissa kokee tilanteen uhkaavaksi.',
+    sv: 'En stressad katt visar tecken genom sitt kroppsspråk: pupillerna vidgas, öronen plattas till eller vänds åt sidorna, kroppen styvnar och svansen pressas mot kroppen. Katten kan fräsa, morra, försöka fly eller frysa på plats. Andra stresstecken är överdriven slickning, gäspning, läppslickning och i värsta fall okontrollerad urinering eller avföring. Dessa reaktioner är normala — de berättar att katten upplever situationen som hotfull.',
+    en: 'A stressed cat shows signs through body language: pupils dilate, ears flatten or turn sideways, the body stiffens and the tail presses against the body. The cat may hiss, growl, try to escape, or freeze in place. Other stress signs include excessive licking, yawning, lip licking, and in the worst case, loss of bladder or bowel control. These reactions are normal — they indicate that the cat perceives the situation as threatening.'
+  },
+  'article.catstress.feliway.title': {
+    fi: 'Feliway — kissan oma rauhoittava viesti',
+    sv: 'Feliway — kattens eget lugnande budskap',
+    en: 'Feliway — The Cat\'s Own Calming Signal'
+  },
+  'article.catstress.feliway.text': {
+    fi: 'Kun kissa tuntee olonsa turvalliseksi, se hieroo päätään ja poskiaan kalusteisiin jättäen kasvojen feromoneja (F3-fraktio). Feliway on synteettinen kopio tästä feromonista. Se lähettää kissan vomeronasaalielimen kautta rauhoittavan viestin: "tämä paikka on turvallinen." Tutkimuksissa Feliway-suihketta saaneiden kissojen stressipisteet olivat merkitsevästi alhaisemmat kuin verrokkiryhmän, ja 41 % omistajista koki kissansa olevan selvästi rauhallisempi. Klinikallamme käytämme Feliway-haihdutiota vastaanotto- ja odotustiloissa sekä Feliway-suihketta tutkimuspöydillä ja pyyhkeillä.',
+    sv: 'När en katt känner sig trygg gnider den sitt huvud och kinder mot möbler och avsätter ansiktsferomoner (F3-fraktionen). Feliway är en syntetisk kopia av detta feromon. Det skickar via kattens vomeronasala organ ett lugnande budskap: "den här platsen är trygg." I studier hade katter som exponerades för Feliway-spray signifikant lägre stresspoäng än kontrollgruppen, och 41 % av ägarna upplevde sin katt som tydligt lugnare. På vår klinik använder vi Feliway-diffusorer i mottagnings- och väntrum samt Feliway-spray på undersökningsbord och handdukar.',
+    en: 'When a cat feels safe, it rubs its head and cheeks against furniture, depositing facial pheromones (the F3 fraction). Feliway is a synthetic copy of this pheromone. It sends a calming message through the cat\'s vomeronasal organ: "this place is safe." In studies, cats exposed to Feliway spray had significantly lower stress scores than the control group, and 41% of owners reported their cat was noticeably calmer. At our clinic, we use Feliway diffusers in reception and waiting areas and Feliway spray on examination tables and towels.'
+  },
+  'article.catstress.clinic.title': {
+    fi: 'Cat Friendly Clinic Silver — mitä se tarkoittaa?',
+    sv: 'Cat Friendly Clinic Silver — vad innebär det?',
+    en: 'Cat Friendly Clinic Silver — What Does It Mean?'
+  },
+  'article.catstress.clinic.text': {
+    fi: 'ISFM:n (International Society of Feline Medicine) Cat Friendly Clinic -ohjelma on kansainvälinen sertifiointijärjestelmä, joka asettaa standardit kissojen hoidolle eläinklinikoilla. Silver-taso edellyttää mm. erillistä odotustilaa kissoille erillään koirista, Feliway-feromonihaihduttimien käyttöä kaikissa tiloissa, nimettyä "kissavastaavaa" (Cat Advocate) henkilökunnasta, kissaystävällisiä käsittelytekniikoita (scruff-free — emme koskaan nosta kissaa niskasta), henkilökunnan koulutusta stressin tunnistamiseen sekä rauhallista ympäristöä sairaalahoitotiloissa piiloutumispaikkoineen ja näköestein. Sertifikaatti uusitaan kolmen vuoden välein.',
+    sv: 'ISFM:s (International Society of Feline Medicine) Cat Friendly Clinic-program är ett internationellt certifieringssystem som sätter standarder för kattvård på veterinärkliniker. Silver-nivån kräver bl.a. separat väntområde för katter skilt från hundar, Feliway-feromondiffusorer i alla utrymmen, en utsedd "kattansvarig" (Cat Advocate) bland personalen, kattvänliga hanteringstekniker (scruff-free — vi lyfter aldrig katten i nackskinnet), personalutbildning i stressigenkänning samt en lugn miljö på vårdavdelningen med gömställen och synbarriärer. Certifikatet förnyas vart tredje år.',
+    en: 'The ISFM (International Society of Feline Medicine) Cat Friendly Clinic program is an international certification system that sets standards for cat care at veterinary clinics. The Silver level requires a separate waiting area for cats away from dogs, Feliway pheromone diffusers in all areas, a designated Cat Advocate among the staff, cat-friendly handling techniques (scruff-free — we never lift a cat by the scruff), staff training in stress recognition, and a calm environment in hospitalization areas with hiding spots and visual barriers. The certificate is renewed every three years.'
+  },
+  'article.catstress.tips.title': {
+    fi: 'Näin valmistaudut kissasi eläinlääkärikäyntiin',
+    sv: 'Så förbereder du din katt för veterinärbesöket',
+    en: 'How to Prepare Your Cat for the Vet Visit'
+  },
+  'article.catstress.tips.text': {
+    fi: 'Jätä kuljetuslaatikko kotona pysyvästi esille avoimena — laita sisälle pehmeä peitto ja herkkuja, jotta kissa oppii yhdistämään laatikon turvalliseen paikkaan. Suihkuta Feliway-suihketta kuljetuslaatikon sisälle (8–10 suihkausta) vähintään 15 minuuttia ennen kissaa — alkoholin tulee haihtua ensin. Peitä kuljetuslaatikko pyyhkeellä autossa ja odotustilassa. Jos verikokeet ovat mahdollisia, paastota kissaa 8–12 tuntia ennen käyntiä. Aseta kuljetuslaatikko klinikalla korotettuun paikkaan — ei lattialle. Klinikallamme voit pyytää odottamaan kissojen omassa odotustilassa. Tutkimushuoneessa anna kissan tulla ulos laatikosta vapaaehtoisesti tai pyydä meitä avaamaan laatikon yläosa — emme koskaan vedä kissaa ulos väkisin.',
+    sv: 'Låt transportburen stå framme hemma permanent med öppen dörr — lägg i en mjuk filt och godsaker så att katten lär sig associera buren med en trygg plats. Spraya Feliway-spray inuti buren (8–10 sprayningar) minst 15 minuter innan katten placeras i — alkoholen måste avdunsta först. Täck buren med en handduk i bilen och i väntrummet. Om blodprov kan bli aktuellt, låt katten fasta 8–12 timmar före besöket. Ställ buren på en upphöjd yta på kliniken — inte på golvet. På vår klinik kan du be om att vänta i katternas eget väntområde. I undersökningsrummet, låt katten komma ut ur buren frivilligt eller be oss att öppna burens ovandel — vi drar aldrig ut katten med tvång.',
+    en: 'Leave the carrier out at home permanently with the door open — place a soft blanket and treats inside so the cat learns to associate the carrier with a safe place. Spray Feliway spray inside the carrier (8–10 sprays) at least 15 minutes before placing the cat in — the alcohol must evaporate first. Cover the carrier with a towel in the car and in the waiting room. If blood tests may be needed, fast the cat for 8–12 hours before the visit. Place the carrier on a raised surface at the clinic — not on the floor. At our clinic, you can ask to wait in the cats\' own waiting area. In the examination room, let the cat come out of the carrier voluntarily or ask us to open the top of the carrier — we never pull a cat out by force.'
+  },
+
+  // Unerupted Teeth & Dentigerous Cyst Article
+  'article.unerupted.tag': { fi: 'Hammashoito', sv: 'Tandvård', en: 'Dental' },
+  'article.unerupted.title': {
+    fi: 'Puhkeamattomat hampaat ja dentigeroottinen kysta — piilevä vaara leukaluussa',
+    sv: 'Icke-erupterade tänder och dentigena cystor — en dold fara i käkbenet',
+    en: 'Unerupted Teeth and Dentigerous Cysts — A Hidden Danger in the Jawbone'
+  },
+  'article.unerupted.intro': {
+    fi: 'Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koirilla — noin 5–7 % koirista kärsii siitä, ja lyhytkuonoisilla roduilla osuus on vielä suurempi. Puhkeamattoman hampaan ympärille voi kehittyä dentigeroottinen kysta, nestettä täynnä oleva rakenne, joka kasvaa hitaasti ja tuhoaa leukaluuta. Ilman hammasröntgeniä tilanne jää havaitsematta, kunnes vahinko on jo merkittävä. Klinikallamme suoritamme hammasröntgenkuvaukset ja puhkeamattomien hampaiden kirurgiset poistot.',
+    sv: 'En icke-erupterad tand är en tand som inte har kommit upp normalt i munhålan utan stannat kvar inuti käkbenet. Tillståndet är förvånansvärt vanligt, särskilt hos hundar — cirka 5–7 % av hundar drabbas, och hos brachycefala (trubbnosiga) raser är andelen ännu högre. Runt en icke-erupterad tand kan en dentigena cysta utvecklas — en vätskefylld struktur som växer långsamt och förstör käkbenet. Utan tandröngen förblir tillståndet oupptäckt tills skadan redan är betydande. På vår klinik utför vi tandröngenundersökningar och kirurgiska extraktioner av icke-erupterade tänder.',
+    en: 'An unerupted tooth is a tooth that has failed to emerge normally into the oral cavity and remains trapped inside the jawbone. The condition is surprisingly common, especially in dogs — approximately 5–7% of dogs are affected, and the proportion is even higher in brachycephalic (short-nosed) breeds. A dentigerous cyst can develop around an unerupted tooth — a fluid-filled structure that grows slowly and destroys the jawbone. Without dental X-rays, the condition goes undetected until significant damage has already occurred. At our clinic, we perform dental radiography and surgical extraction of unerupted teeth.'
+  },
+  'article.unerupted.cyst.title': {
+    fi: 'Mikä on dentigeroottinen kysta?',
+    sv: 'Vad är en dentigen cysta?',
+    en: 'What Is a Dentigerous Cyst?'
+  },
+  'article.unerupted.cyst.text': {
+    fi: 'Normaalissa hampaan kehityksessä hampaan kruunua ympäröivä kiillekalvo (ns. redusoitu kiille-epitheeli) hajoaa hampaan puhjetessa. Kun hammas ei puhkea, tämä epiteelikerros jää ehjäksi ja nesteen kertyessä sen ympärille muodostuu kysta. Kysta kasvaa hitaasti mutta väistämättä: neste aiheuttaa painetta, joka aktivoi leukaluun syöjäsolut (osteoklastit). Tutkimusten mukaan 29–50 % puhkeamattomista hampaista kehittää dentigeroottisen kystan.',
+    sv: 'Under normal tandutveckling bryts emaljehinnan (det s.k. reducerade emalj-epitelet) som omger tandkronan ned när tanden erupterar. När tanden inte erupterar förblir detta epitelskikt intakt och vätska samlas, vilket bildar en cysta. Cystan växer långsamt men oundvikligt: vätskan skapar tryck som aktiverar käkbenets nedbrytningsceller (osteoklaster). Studier visar att 29–50 % av icke-erupterade tänder utvecklar en dentigen cysta.',
+    en: 'During normal tooth development, the enamel membrane (the reduced enamel epithelium) surrounding the tooth crown breaks down as the tooth erupts. When a tooth fails to erupt, this epithelial layer remains intact and fluid accumulates, forming a cyst. The cyst grows slowly but inevitably: the fluid creates pressure that activates the jawbone\'s resorption cells (osteoclasts). Studies show that 29–50% of unerupted teeth develop a dentigerous cyst.'
+  },
+  'article.unerupted.symptoms.title': {
+    fi: 'Oireet — usein oireeton',
+    sv: 'Symtom — ofta symtomfritt',
+    en: 'Symptoms — Often Asymptomatic'
+  },
+  'article.unerupted.symptoms.text': {
+    fi: 'Dentigeroottinen kysta on usein täysin oireeton alkuvaiheessa — tämä tekee siitä erityisen salakavalan. Yleisin löydös on "puuttuva hammas" suun tarkastuksessa: hammas, jonka pitäisi olla paikallaan, ei näy. Muita merkkejä voivat olla leuan turvotus, viereisten hampaiden siirtyminen tai kallistuminen, ja pitkälle edenneissä tapauksissa fisteli eli märkäkäytävä. Pahimmassa tapauksessa kysta heikentää leukaluuta niin paljon, että syntyy patologinen murtuma — leuka murtuu normaalista kuormituksesta.',
+    sv: 'En dentigen cysta är ofta helt symtomfri i början — detta gör den särskilt lömsk. Det vanligaste fyndet är en "saknad tand" vid munundersökning: en tand som borde finnas på plats syns inte. Andra tecken kan vara svullnad i käken, förskjutning eller lutning av intilliggande tänder, och i avancerade fall en fistel (varutgång). I värsta fall försvagar cystan käkbenet så mycket att en patologisk fraktur uppstår — käken bryts av normal belastning.',
+    en: 'A dentigerous cyst is often completely asymptomatic in the early stages — this makes it particularly insidious. The most common finding is a "missing tooth" on oral examination: a tooth that should be present is not visible. Other signs may include jaw swelling, displacement or tilting of adjacent teeth, and in advanced cases a fistula (draining tract). In the worst case, the cyst weakens the jawbone so much that a pathological fracture occurs — the jaw breaks under normal load.'
+  },
+  'article.unerupted.breeds.title': {
+    fi: 'Riskirodut',
+    sv: 'Riskraser',
+    en: 'At-Risk Breeds'
+  },
+  'article.unerupted.breeds.text': {
+    fi: 'Lyhytkuonoiset rodut (brakykefaaliset) ovat suurimmassa vaarassa, koska niiden lyhentynyt leuka ei tarjoa riittävästi tilaa kaikille hampaille. Erityisesti bokseri, englanninbulldoggi, ranskanbulldoggi, bostoninterrieri, mopsi ja shih tzu ovat yliedustettuja. Myös pienet rodut kuten maltankoira, yorkshirenterrieri, chihuahua, kääpiövillakoira ja mäyräkoira ovat riskissä. Kissoilla puhkeamattomat hampaat ja dentigeroottinen kysta ovat harvinaisia, mutta mahdollisia — samat periaatteet pätevät.',
+    sv: 'Brachycefala (trubbnosiga) raser löper störst risk eftersom deras förkortade käke inte erbjuder tillräckligt med utrymme för alla tänder. Särskilt boxer, engelsk bulldogg, fransk bulldogg, bostonterrier, mops och shih tzu är överrepresenterade. Även små raser som malteser, yorkshireterrier, chihuahua, dvärg- och toypudel samt tax löper risk. Hos katter är icke-erupterade tänder och dentigena cystor sällsynta men möjliga — samma principer gäller.',
+    en: 'Brachycephalic (short-nosed) breeds are at greatest risk because their shortened jaw does not provide enough space for all teeth. Boxers, English Bulldogs, French Bulldogs, Boston Terriers, Pugs, and Shih Tzus are particularly overrepresented. Small breeds such as Maltese, Yorkshire Terriers, Chihuahuas, Miniature Poodles, and Dachshunds are also at risk. In cats, unerupted teeth and dentigerous cysts are rare but possible — the same principles apply.'
+  },
+  'article.unerupted.diagnosis.title': {
+    fi: 'Diagnoosi — hammasröntgen on välttämätön',
+    sv: 'Diagnos — tandröngen är nödvändig',
+    en: 'Diagnosis — Dental X-Rays Are Essential'
+  },
+  'article.unerupted.diagnosis.text': {
+    fi: 'Puhkeamatonta hammasta ja dentigeroottista kystaa ei voi havaita paljaalla silmällä — ainoa tapa on hammasröntgen. Röntgenkuvassa näkyy selkeärajainen, pyöreä tai soikea kirkasalue (nestettä sisältävä onkalo) puhkeamattoman hampaan kruunun ympärillä. Röntgenkuva paljastaa myös luukadon laajuuden ja vaikutuksen viereisiin hampaisiin. Siksi suosittelemme täyden suun röntgenkuvausta jokaisen hammashoidon yhteydessä — tutkimukset osoittavat, että hammasröntgen muuttaa hoitosuunnitelmaa 28–50 %:lla potilaista paljastamalla piileviä ongelmia.',
+    sv: 'En icke-erupterad tand och dentigen cysta kan inte upptäckas med blotta ögat — det enda sättet är tandröngen. På röngenbilden syns ett välavgränsat, runt eller ovalt genomskinligt område (en vätskefylld hålighet) runt kronan på den icke-erupterade tanden. Röngenbilden avslöjar också omfattningen av benförlust och påverkan på intilliggande tänder. Därför rekommenderar vi tandröngen av hela munnen vid varje tandbehandling — studier visar att tandröngen ändrar behandlingsplanen hos 28–50 % av patienterna genom att avslöja dolda problem.',
+    en: 'An unerupted tooth and dentigerous cyst cannot be detected with the naked eye — the only way is dental X-rays. On the radiograph, a well-defined, round or oval radiolucent area (a fluid-filled cavity) appears around the crown of the unerupted tooth. The X-ray also reveals the extent of bone loss and the effect on adjacent teeth. This is why we recommend full-mouth radiographs with every dental procedure — studies show that dental X-rays change the treatment plan in 28–50% of patients by revealing hidden problems.'
+  },
+  'article.unerupted.treatment.title': {
+    fi: 'Hoito — kirurginen poisto',
+    sv: 'Behandling — kirurgisk extraktion',
+    en: 'Treatment — Surgical Extraction'
+  },
+  'article.unerupted.treatment.text': {
+    fi: 'Hoitona on puhkeamattoman hampaan kirurginen poisto ja kystaonkalon perusteellinen kaavinta (kyretaasi), jotta kaikki epiteelisolut saadaan poistettua. Toimenpiteessä nostetaan limakalvoläppä, avataan luussa ikkuna, poistetaan hammas ja kystan seinämä kokonaisuudessaan, ja suljetaan haava. Luuontelo täyttyy uudella luulla 2–6 kuukauden kuluessa. Hoitamattomana kysta jatkaa kasvuaan, tuhoaa luuta ja voi johtaa patologiseen murtumaan — kysta ei koskaan parane itsestään. Eläinklinikka Saarella suoritamme puhkeamattomien hampaiden kirurgiset poistot ja kystakaavinta on osa hammashoidon palvelujamme — varaa aika hammastutkimukseen, niin arvioimme tilanteen.',
+    sv: 'Behandlingen är kirurgisk extraktion av den icke-erupterade tanden och noggrann utskrapning (kyrettage) av cystahålan för att avlägsna alla epitelceller. Vid ingreppet lyfts en mukoperiosteal lambå, ett fönster öppnas i benet, tanden och cystans hela vägg avlägsnas, och såret sluts. Benhålan fylls med nytt ben inom 2–6 månader. Obehandlad fortsätter cystan att växa, förstöra ben och kan leda till patologisk fraktur — en cysta läker aldrig av sig själv. På Djurkliniken Saari utför vi kirurgiska extraktioner av icke-erupterade tänder och cystakirurgi är en del av våra tandvårdstjänster — boka tid för en tandundersökning så bedömer vi situationen.',
+    en: 'Treatment involves surgical extraction of the unerupted tooth and thorough curettage of the cyst cavity to remove all epithelial cells. The procedure involves raising a mucoperiosteal flap, opening a window in the bone, removing the tooth and the entire cyst wall, and closing the wound. The bone cavity fills with new bone within 2–6 months. Left untreated, the cyst continues to grow, destroys bone, and can lead to pathological fracture — a cyst never resolves on its own. At Eläinklinikka Saari, we perform surgical extractions of unerupted teeth and cyst surgery is part of our dental services — book an appointment for a dental examination and we will assess the situation.'
+  },
+  'article.unerupted.prognosis.title': {
+    fi: 'Ennuste',
+    sv: 'Prognos',
+    en: 'Prognosis'
+  },
+  'article.unerupted.prognosis.text': {
+    fi: 'Varhain havaitun ja täydellisesti poistetun dentigeroottisen kystan ennuste on erinomainen. Uusiutumisriski on pieni, kun kystan seinämä on poistettu kokonaan. Ennuste on heikompi, jos kysta on kasvanut suureksi, luuta on tuhoutunut laajasti tai leuka on jo murtunut. Siksi varhainen diagnoosi on ratkaiseva — hammasröntgen on paras keino löytää puhkeamattomat hampaat ennen kuin kysta ehtii muodostua.',
+    sv: 'Prognosen för en tidigt upptäckt och fullständigt avlägsnad dentigen cysta är utmärkt. Risken för återfall är liten när cystans vägg har avlägsnats helt. Prognosen är sämre om cystan har vuxit sig stor, betydande benförlust har skett eller käken redan har frakturerats. Därför är tidig diagnos avgörande — tandröngen är det bästa sättet att hitta icke-erupterade tänder innan en cysta hinner bildas.',
+    en: 'The prognosis for an early-detected and completely removed dentigerous cyst is excellent. The risk of recurrence is low when the cyst wall has been entirely removed. The prognosis is worse if the cyst has grown large, extensive bone has been destroyed, or the jaw has already fractured. This is why early diagnosis is crucial — dental X-rays are the best way to find unerupted teeth before a cyst has time to form.'
+  },
 };
 
 // --- Service icons mapping ---
@@ -1927,6 +2054,15 @@ function initScrollAnimations() {
 }
 
 // --- Articles Toggle ---
+function showMainPage() {
+  const articlesSection = document.getElementById('articles');
+  const privacySection = document.getElementById('privacy');
+  const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero');
+  articlesSection.style.display = 'none';
+  privacySection.style.display = 'none';
+  mainSections.forEach(el => el.style.display = '');
+}
+
 function toggleArticles() {
   const articlesSection = document.getElementById('articles');
   const privacySection = document.getElementById('privacy');
@@ -1936,6 +2072,7 @@ function toggleArticles() {
   if (isShowing) {
     articlesSection.style.display = 'none';
     mainSections.forEach(el => el.style.display = '');
+    history.pushState({ page: 'main' }, '', window.location.pathname);
   } else {
     mainSections.forEach(el => el.style.display = 'none');
     privacySection.style.display = 'none';
@@ -1943,6 +2080,7 @@ function toggleArticles() {
     filterArticles('all');
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setLanguage(currentLang);
+    history.pushState({ page: 'articles' }, '', window.location.pathname + '#articles');
   }
 }
 
@@ -1977,12 +2115,14 @@ function togglePrivacy() {
   if (isShowing) {
     privacySection.style.display = 'none';
     mainSections.forEach(el => el.style.display = '');
+    history.pushState({ page: 'main' }, '', window.location.pathname);
   } else {
     mainSections.forEach(el => el.style.display = 'none');
     articlesSection.style.display = 'none';
     privacySection.style.display = '';
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setLanguage(currentLang);
+    history.pushState({ page: 'privacy' }, '', window.location.pathname + '#privacy');
   }
 }
 
@@ -2350,12 +2490,47 @@ document.addEventListener('DOMContentLoaded', () => {
       const privacySection = document.getElementById('privacy');
       const anyOverlay = (articlesSection && articlesSection.style.display !== 'none') || (privacySection && privacySection.style.display !== 'none');
       if (anyOverlay) {
-        if (articlesSection) articlesSection.style.display = 'none';
-        if (privacySection) privacySection.style.display = 'none';
-        document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero').forEach(el => el.style.display = '');
+        showMainPage();
+        history.pushState({ page: 'main' }, '', window.location.pathname + link.getAttribute('href'));
       }
     });
   });
+
+  // Browser back/forward button support
+  window.addEventListener('popstate', (e) => {
+    const state = e.state;
+    if (state && state.page === 'articles') {
+      const articlesSection = document.getElementById('articles');
+      const privacySection = document.getElementById('privacy');
+      const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero');
+      mainSections.forEach(el => el.style.display = 'none');
+      privacySection.style.display = 'none';
+      articlesSection.style.display = '';
+      filterArticles('all');
+      window.scrollTo({ top: 0 });
+      setLanguage(currentLang);
+    } else if (state && state.page === 'privacy') {
+      const articlesSection = document.getElementById('articles');
+      const privacySection = document.getElementById('privacy');
+      const mainSections = document.querySelectorAll('body > .notice-banner, body > section:not(#articles):not(#privacy), body > .hero');
+      mainSections.forEach(el => el.style.display = 'none');
+      articlesSection.style.display = 'none';
+      privacySection.style.display = '';
+      window.scrollTo({ top: 0 });
+      setLanguage(currentLang);
+    } else {
+      showMainPage();
+      window.scrollTo({ top: 0 });
+    }
+  });
+
+  // Set initial state and handle direct hash navigation
+  history.replaceState({ page: 'main' }, '', window.location.pathname + window.location.hash);
+  if (window.location.hash === '#articles') {
+    toggleArticles();
+  } else if (window.location.hash === '#privacy') {
+    togglePrivacy();
+  }
 
   // Initialize all features
   initMobileMenu();
