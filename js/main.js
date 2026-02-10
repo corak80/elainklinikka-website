@@ -660,6 +660,13 @@ const translations = {
     en: 'Expert articles about pet health'
   },
   'articles.back': { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' },
+  'articles.filter.all': { fi: 'Kaikki', sv: 'Alla', en: 'All' },
+  'articles.filter.health': { fi: 'Terveys', sv: 'Hälsa', en: 'Health' },
+  'articles.filter.surgery': { fi: 'Kirurgia', sv: 'Kirurgi', en: 'Surgery' },
+  'articles.filter.dental': { fi: 'Hammashoito', sv: 'Tandvård', en: 'Dental' },
+  'articles.filter.emergency': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
+  'articles.filter.clinic': { fi: 'Klinikka', sv: 'Klinik', en: 'Clinic' },
+  'articles.filter.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
   'articles.tag.orthopedics': { fi: 'Ortopedia', sv: 'Ortopedi', en: 'Orthopedics' },
 
   // TTA Article
@@ -795,9 +802,9 @@ const translations = {
     en: 'MLK Infusion – Multimodal Pain Management During Surgery'
   },
   'article.mlk.intro': {
-    fi: 'Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (morfiini-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.',
-    sv: 'Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På kliniken använder vi MLK-infusion (morfin-lidokain-ketamin) som standardmetod vid alla smärtsamma mjukdelsoperationer — inklusive sterilisering av tikar — samt ortopediska ingrepp. MLK är en multimodal smärtlindringsmetod där tre olika läkemedel verkar samtidigt på olika smärtmekanismer.',
-    en: 'Pain management is one of the most important aspects of veterinary surgery. At our clinic we use MLK infusion (morphine-lidocaine-ketamine) as the standard method for all painful soft tissue surgeries — including dog spays — and orthopedic procedures. MLK is a multimodal pain management approach where three different drugs act simultaneously on different pain pathways.'
+    fi: 'Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (metadoni-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.',
+    sv: 'Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På kliniken använder vi MLK-infusion (metadon-lidokain-ketamin) som standardmetod vid alla smärtsamma mjukdelsoperationer — inklusive sterilisering av tikar — samt ortopediska ingrepp. MLK är en multimodal smärtlindringsmetod där tre olika läkemedel verkar samtidigt på olika smärtmekanismer.',
+    en: 'Pain management is one of the most important aspects of veterinary surgery. At our clinic we use MLK infusion (methadone-lidocaine-ketamine) as the standard method for all painful soft tissue surgeries — including dog spays — and orthopedic procedures. MLK is a multimodal pain management approach where three different drugs act simultaneously on different pain pathways.'
   },
   'article.mlk.what.title': {
     fi: 'Mitä MLK-infuusio tarkoittaa?',
@@ -805,9 +812,9 @@ const translations = {
     en: 'What Is MLK Infusion?'
   },
   'article.mlk.what.text': {
-    fi: 'MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: morfiini on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.',
-    sv: 'MLK är en kombination av tre läkemedel som administreras som en kontinuerlig intravenös infusion (CRI, constant rate infusion) under hela operationen. Varje komponent verkar genom olika mekanismer: morfin är en opioid som blockerar smärtsignaler i centrala nervsystemet; lidokain är ett lokalbedövningsmedel som dämpar smärtsignaler perifert och minskar inflammatoriska reaktioner i tarmarna; ketamin blockerar NMDA-receptorer och förhindrar effektivt smärtans "wind-up"-fenomen, alltså en progressiv förstärkning av smärtkänsligheten.',
-    en: 'MLK is a combination of three drugs administered as a continuous intravenous infusion (CRI, constant rate infusion) throughout surgery. Each component acts through a different mechanism: morphine is an opioid that blocks pain signals in the central nervous system; lidocaine is a local anesthetic that dampens pain signals peripherally and reduces intestinal inflammatory responses; ketamine blocks NMDA receptors and effectively prevents pain "wind-up" — the progressive amplification of pain sensitivity.'
+    fi: 'MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: metadoni on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.',
+    sv: 'MLK är en kombination av tre läkemedel som administreras som en kontinuerlig intravenös infusion (CRI, constant rate infusion) under hela operationen. Varje komponent verkar genom olika mekanismer: metadon är en opioid som blockerar smärtsignaler i centrala nervsystemet; lidokain är ett lokalbedövningsmedel som dämpar smärtsignaler perifert och minskar inflammatoriska reaktioner i tarmarna; ketamin blockerar NMDA-receptorer och förhindrar effektivt smärtans "wind-up"-fenomen, alltså en progressiv förstärkning av smärtkänsligheten.',
+    en: 'MLK is a combination of three drugs administered as a continuous intravenous infusion (CRI, constant rate infusion) throughout surgery. Each component acts through a different mechanism: methadone is an opioid that blocks pain signals in the central nervous system; lidocaine is a local anesthetic that dampens pain signals peripherally and reduces intestinal inflammatory responses; ketamine blocks NMDA receptors and effectively prevents pain "wind-up" — the progressive amplification of pain sensitivity.'
   },
   'article.mlk.why.title': {
     fi: 'Miksi monikomponenttinen lähestymistapa?',
@@ -1527,6 +1534,206 @@ const translations = {
     sv: 'Det mest effektiva förebyggandet är sterilisering. Om hunden inte ska användas i avel rekommenderar vi sterilisering — det eliminerar risken för pyometra helt. Hos katter är pyometra mer sällsynt men möjlig, och symtomen är liknande. Om du planerar att sterilisera ditt husdjur eller märker symtom på pyometra, kontakta vår klinik.',
     en: 'The most effective prevention is spaying. If the dog is not used for breeding, we recommend spaying — it eliminates the risk of pyometra entirely. In cats, pyometra is rarer but possible, and the symptoms are similar. If you are planning to spay your pet or notice symptoms of pyometra, contact our clinic.'
   },
+
+  // Article 15: CCL / Lateral Suture
+  'article.ccl.title': {
+    fi: 'Lateral suture — eturistisiteen korjaus synteettisellä tukimateriaalilla',
+    sv: 'Lateral sutur — korsbandsskadereparation med syntetiskt stödmaterial',
+    en: 'Lateral Suture — Cruciate Ligament Repair with Synthetic Support Material'
+  },
+  'article.ccl.intro': {
+    fi: 'Eturistisiteen (cranial cruciate ligament, CCL) repeämä on koirien yleisin ortopedinen ongelma ja sitä esiintyy myös kissoilla. Lateral suture eli ekstrakapsulaari lateraalisuturaatio on tehokas ja pitkään käytetty kirurginen menetelmä, jossa polvinivel stabiloidaan synteettisellä tukimateriaalilla nivelen ulkopuolelta. Menetelmä sopii erinomaisesti pienille ja keskikokoisille koirille sekä kissoille. Klinikallamme leikkauksen suorittaa eläinlääkäri Pamela, jolla on laaja kokemus ortopedisistä toimenpiteistä.',
+    sv: 'Främre korsbandsskada (cranial cruciate ligament, CCL) är det vanligaste ortopediska problemet hos hundar och förekommer även hos katter. Lateral sutur, det vill säga extrakapsulär lateral suturering, är en effektiv och beprövad kirurgisk metod där knäleden stabiliseras med syntetiskt stödmaterial utanför leden. Metoden passar utmärkt för små och medelstora hundar samt katter. På vår klinik utförs operationen av veterinär Pamela, som har bred erfarenhet av ortopediska ingrepp.',
+    en: 'Cranial cruciate ligament (CCL) rupture is the most common orthopedic problem in dogs and also occurs in cats. The lateral suture technique, also known as extracapsular lateral suture stabilization, is an effective and well-established surgical method where the knee joint is stabilized with synthetic support material placed outside the joint. The technique is excellent for small and medium-sized dogs and cats. At our clinic, the surgery is performed by veterinarian Pamela, who has extensive experience in orthopedic procedures.'
+  },
+  'article.ccl.how.title': {
+    fi: 'Miten lateral suture toimii?',
+    sv: 'Hur fungerar lateral sutur?',
+    en: 'How Does Lateral Suture Work?'
+  },
+  'article.ccl.how.text': {
+    fi: 'Leikkauksessa polvinivel avataan ja tarkastetaan: repeytyneen ristisiteen jäänteet poistetaan ja nivelkierukat (meniskit) tutkitaan vaurioiden varalta. Tämän jälkeen nivelen ulkopuolelle asennetaan vahva monofilamenttinen nylonlanka, joka kierretään reisiluun takaosan (fabella) ympäri ja kiinnitetään sääriluun etuosaan poratun tunnelin kautta. Lanka kiristetään ja lukitaan metallisilla puristusholkeilla (crimp clamp). Tämä stabiloi polvinivelen ja estää sääriluun liukumisen eteenpäin — aivan kuten terve ristiside tekisi. Lanka toimii väliaikaisena tukirakenteena, kunnes kehon oma sidekudos (periarticulaarinen fibroosi) muodostuu nivelen ympärille ja tarjoaa pysyvän vakauden.',
+    sv: 'Under operationen öppnas knäleden och undersöks: resterna av det skadade korsbandet avlägsnas och meniskerna kontrolleras för skador. Därefter placeras en stark monofilament nylontråd utanför leden — tråden leds runt den bakre delen av lårbenet (fabella) och fästs genom en borrad tunnel i skenbenet. Tråden spänns och låses med metallklämmor (crimp clamp). Detta stabiliserar knäleden och förhindrar skenbenet från att glida framåt — precis som ett friskt korsband. Tråden fungerar som en tillfällig stödstruktur tills kroppens egen bindväv (periartikulär fibros) bildas runt leden och ger permanent stabilitet.',
+    en: 'During surgery, the knee joint is opened and examined: remnants of the torn cruciate ligament are removed and the menisci are checked for damage. A strong monofilament nylon suture is then placed outside the joint — it is routed around the back of the femur (fabella) and secured through a drilled tunnel in the tibia. The suture is tightened and locked with metal crimp clamps. This stabilizes the knee joint and prevents the tibia from sliding forward — just as a healthy cruciate ligament would. The suture acts as a temporary support structure until the body\'s own connective tissue (periarticular fibrosis) forms around the joint and provides permanent stability.'
+  },
+  'article.ccl.who.title': {
+    fi: 'Kenelle lateral suture sopii?',
+    sv: 'Vilka patienter passar lateral sutur för?',
+    en: 'Who Is Lateral Suture Suitable For?'
+  },
+  'article.ccl.who.text': {
+    fi: 'Lateral suture on erinomainen valinta pienille koirille (alle 15 kg) ja kissoille — näillä potilailla onnistumisprosentti on yli 90 %. Menetelmä sopii hyvin myös keskikokoisille koirille (15–25 kg) sekä iäkkäämmille, rauhallisemmille suurille koirille. Kissoilla lateral suture on eturistisiteen korjauksen standardimenetelmä, sillä kissojen kevyt ruumiinrakenne sopii tekniikkaan erinomaisesti. Aktiivisille ja suurille koirille (yli 25 kg) suosittelemme TTA-leikkausta, joka muuttaa polven biomekaniikkaa pysyvästi.',
+    sv: 'Lateral sutur är ett utmärkt val för små hundar (under 15 kg) och katter — hos dessa patienter överstiger framgångsgraden 90 %. Metoden passar också bra för medelstora hundar (15–25 kg) samt äldre, lugnare stora hundar. Hos katter är lateral sutur standardmetoden för korsbandsskadereparation, då katternas lätta kroppsbyggnad passar tekniken utmärkt. För aktiva och stora hundar (över 25 kg) rekommenderar vi TTA-kirurgi, som permanent förändrar knäets biomekanik.',
+    en: 'Lateral suture is an excellent choice for small dogs (under 15 kg) and cats — with a success rate exceeding 90% in these patients. The technique also works well for medium-sized dogs (15–25 kg) and for older, calmer large dogs. In cats, the lateral suture is the standard method for cruciate ligament repair, as cats\' light body frame is perfectly suited to the technique. For active and large dogs (over 25 kg), we recommend TTA surgery, which permanently alters knee biomechanics.'
+  },
+  'article.ccl.recovery.title': {
+    fi: 'Toipuminen',
+    sv: 'Återhämtning',
+    en: 'Recovery'
+  },
+  'article.ccl.recovery.text': {
+    fi: 'Leikkauksen jälkeen ensimmäiset 6 viikkoa ovat kriittisiä: liikkumista rajoitetaan tiukasti, jotta sidekudos ehtii muodostua nivelen ympärille. Koira ulkoilutetaan lyhyillä talutushihnakävelyillä (5–15 minuuttia) ja hyppiminen, juokseminen ja portaat ovat kiellettyjä. Tikit poistetaan noin 2 viikon kohdalla. 6–8 viikon kontrollikäynnillä arvioidaan paraneminen ja kävelylenkkejä pidennetään asteittain. Noin 12–16 viikon kohdalla useimmat potilaat palaavat normaaliin aktiivisuuteen. Kuntoutus — esimerkiksi vesijuoksumatto — nopeuttaa toipumista merkittävästi.',
+    sv: 'De första 6 veckorna efter operationen är kritiska: rörelsen begränsas strikt så att bindväv hinner bildas runt leden. Hunden rastas med korta koppelpromenader (5–15 minuter) och hoppande, springande och trappor är förbjudna. Stygnen tas bort efter cirka 2 veckor. Vid kontrollbesöket efter 6–8 veckor bedöms läkningen och promenaderna förlängs stegvis. Efter cirka 12–16 veckor har de flesta patienter återgått till normal aktivitet. Rehabilitering — till exempel undervattenslöpband — påskyndar återhämtningen avsevärt.',
+    en: 'The first 6 weeks after surgery are critical: activity is strictly restricted to allow connective tissue to form around the joint. The dog is taken on short leash walks (5–15 minutes) and jumping, running and stairs are prohibited. Sutures are removed at approximately 2 weeks. At the 6–8 week follow-up, healing is assessed and walks are gradually extended. By approximately 12–16 weeks, most patients have returned to normal activity. Rehabilitation — such as an underwater treadmill — significantly speeds recovery.'
+  },
+  'article.ccl.risks.title': {
+    fi: 'Riskit ja komplikaatiot',
+    sv: 'Risker och komplikationer',
+    en: 'Risks and Complications'
+  },
+  'article.ccl.risks.text': {
+    fi: 'Komplikaatioriski on pieni (5–17 %), ja suurin osa komplikaatioista on lieviä: turvotusta, serooman muodostumista tai lievää infektiota. Harvinaisempi mutta kliinisesti merkittävä komplikaatio on myöhäinen nivelkierukkavaurio (noin 7 %), joka voi ilmetä viikkojen tai kuukausien kuluttua äkillisenä ontumisena. Langan pettäminen on mahdollista erityisesti ylipainoisilla tai liian aikaisin aktiivisilla koirilla. Paras keino ehkäistä komplikaatioita on noudattaa toipumisohjeita tarkasti.',
+    sv: 'Komplikationsrisken är liten (5–17 %), och de flesta komplikationer är lindriga: svullnad, serombildning eller lätt infektion. En mer sällsynt men kliniskt betydande komplikation är sen meniskskada (cirka 7 %), som kan visa sig som plötslig hälta veckor eller månader efter operationen. Suturbrott kan förekomma särskilt hos överviktiga eller för tidigt aktiva hundar. Det bästa sättet att förebygga komplikationer är att följa återhämtningsinstruktionerna noggrant.',
+    en: 'The complication rate is low (5–17%), and most complications are minor: swelling, seroma formation, or mild infection. A rarer but clinically significant complication is late meniscal injury (approximately 7%), which can present as sudden lameness weeks or months after surgery. Suture failure can occur particularly in overweight dogs or those returned to activity too early. The best way to prevent complications is to follow recovery instructions carefully.'
+  },
+  'article.ccl.vs.title': {
+    fi: 'Lateral suture vai TTA?',
+    sv: 'Lateral sutur eller TTA?',
+    en: 'Lateral Suture or TTA?'
+  },
+  'article.ccl.vs.text': {
+    fi: 'Klinikallamme käytämme kahta menetelmää eturistisiteen korjaukseen. Lateral suture stabiloi nivelen synteettisellä langalla ilman luun sahaamista — se on lyhyempi toimenpide, edullisempi ja erinomainen vaihtoehto pienille ja keskikokoisille potilaille. TTA muuttaa polven biomekaniikkaa pysyvästi siirtämällä sääriluun kyhmyä ja on parempi valinta aktiivisille ja suuremmille koirille. Arvioimme aina yksilöllisesti, kumpi menetelmä sopii parhaiten juuri sinun lemmikillesi.',
+    sv: 'På vår klinik använder vi två metoder för korsbandsskadereparation. Lateral sutur stabiliserar leden med en syntetisk tråd utan att behöva såga i benet — det är ett kortare ingrepp, mer ekonomiskt och ett utmärkt alternativ för små och medelstora patienter. TTA förändrar knäets biomekanik permanent genom att flytta skenbenets utskott framåt och är ett bättre val för aktiva och större hundar. Vi bedömer alltid individuellt vilken metod som passar bäst för just ditt husdjur.',
+    en: 'At our clinic we use two methods for cruciate ligament repair. The lateral suture stabilizes the joint with a synthetic suture without cutting bone — it is a shorter procedure, more affordable, and an excellent option for small and medium-sized patients. TTA permanently alters knee biomechanics by advancing the tibial tuberosity and is a better choice for active and larger dogs. We always assess individually which method is best suited for your pet.'
+  },
+  'article.ccl.signs.title': {
+    fi: 'Milloin kannattaa ottaa yhteyttä?',
+    sv: 'När bör du kontakta oss?',
+    en: 'When Should You Contact Us?'
+  },
+  'article.ccl.signs.text': {
+    fi: 'Ristisidevauriota kannattaa epäillä, jos koira tai kissa ontuu takajalkaansa, ei halua hypätä tai nousta portaita, jäykistelee levon jälkeen tai liikunnan aikana jalka "pettää". Oireet voivat alkaa äkillisesti tai kehittyä hitaasti viikkojen kuluessa. Varhainen diagnoosi parantaa ennustetta merkittävästi — varaa aika ortopediseen tutkimukseen, niin arvioimme tilanteen ja suosittelemme parhaiten sopivan hoitovaihtoehdon.',
+    sv: 'En korsbandsskada bör misstänkas om hunden eller katten haltar på bakbenet, inte vill hoppa eller gå i trappor, är stel efter vila eller om benet "viker sig" under aktivitet. Symtomen kan börja plötsligt eller utvecklas långsamt under veckor. Tidig diagnos förbättrar prognosen avsevärt — boka tid för en ortopedisk undersökning, så bedömer vi situationen och rekommenderar det bäst lämpade behandlingsalternativet.',
+    en: 'A cruciate ligament injury should be suspected if your dog or cat is limping on a hind leg, reluctant to jump or climb stairs, stiff after rest, or the leg "gives way" during activity. Symptoms can start suddenly or develop slowly over weeks. Early diagnosis significantly improves the prognosis — book an orthopedic examination and we will assess the situation and recommend the most suitable treatment option.'
+  },
+  'article.ccl.price.title': {
+    fi: 'Hinta',
+    sv: 'Pris',
+    en: 'Price'
+  },
+  'article.ccl.price.text': {
+    fi: 'Lateral suture -leikkauksen hinta klinikallamme alkaa noin 1 200 eurosta. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian valvontoineen, itse leikkauksen ja välittömän jälkihoidon. Tarkka hinta riippuu potilaan koosta ja tapauksen vaativuudesta. Vertailun vuoksi TTA-leikkaus alkaa noin 2 500 eurosta.',
+    sv: 'Priset för lateral sutur-operation på vår klinik börjar från cirka 1 200 euro. Priset inkluderar undersökning före operationen, anestesi med övervakning, själva operationen och omedelbar eftervård. Det exakta priset beror på patientens storlek och fallets komplexitet. Som jämförelse börjar TTA-operationen från cirka 2 500 euro.',
+    en: 'The price for lateral suture surgery at our clinic starts from approximately 1,200 euros. The price includes the pre-operative examination, anesthesia with monitoring, the surgery itself, and immediate aftercare. The exact price depends on the patient\'s size and case complexity. For comparison, TTA surgery starts from approximately 2,500 euros.'
+  },
+
+  // Article 16: Hedgehog Conservation
+  'article.hedgehog.tag': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
+  'article.hedgehog.title': {
+    fi: 'Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä, joka tarvitsee apuamme',
+    sv: 'Igelkotten i Europa och Finland — en hotad trädgårdsvän som behöver vår hjälp',
+    en: 'The Hedgehog in Europe and Finland — An Endangered Garden Friend That Needs Our Help'
+  },
+  'article.hedgehog.intro': {
+    fi: 'Euroopan siili (Erinaceus europaeus) on yksi rakastetuimmista villieläimistämme — ja yksi nopeimmin vähenevistä. Lokakuussa 2024 IUCN nosti siilin uhanalaisuusluokituksen luokasta "elinvoimainen" luokkaan "silmälläpidettävä" (Near Threatened), koska kannat ovat romahtaneet yli 30 % kymmenessä vuodessa monissa Euroopan maissa. Suomessa siili elää levinneisyytensä pohjoisrajalla, mikä tekee kannastamme erityisen haavoittuvan. Tässä artikkelissa käymme läpi siilin tilanteen, uhat ja sen, miten jokainen voi auttaa.',
+    sv: 'Den europeiska igelkotten (Erinaceus europaeus) är ett av våra mest älskade vilda djur — och ett av de snabbast minskande. I oktober 2024 uppgraderade IUCN igelkottens hotstatus till "nära hotad" (Near Threatened), eftersom populationerna har minskat med över 30 % på tio år i många europeiska länder. I Finland lever igelkotten vid den nordligaste gränsen av sitt utbredningsområde, vilket gör vår population särskilt sårbar. I denna artikel går vi igenom igelkottens situation, hoten och hur var och en kan hjälpa till.',
+    en: 'The European hedgehog (Erinaceus europaeus) is one of our most beloved wild animals — and one of the fastest declining. In October 2024, the IUCN upgraded the hedgehog\'s threat status to Near Threatened, as populations have collapsed by over 30% in ten years across many European countries. In Finland, the hedgehog lives at the northernmost limit of its range, making our population particularly vulnerable. In this article, we cover the hedgehog\'s situation, the threats it faces, and how everyone can help.'
+  },
+  'article.hedgehog.photo.caption': {
+    fi: 'Vasemmalla: 420 g siili, oikealla: 750 g siili — puhelin kokovertailuna. Syksyllä alle 600 g painava siili ei selviä talvihorroksesta ja tarvitsee apua, mutta alkukesällä pienet siilit ovat usein terveitä poikasia. Kuva: Eläinklinikka Saari.',
+    sv: 'Till vänster: 420 g igelkott, till höger: 750 g igelkott — telefonen som storleksjämförelse. På hösten klarar en igelkott under 600 g inte vinterdvalan och behöver hjälp, men på försommaren är små igelkottar ofta friska ungar. Foto: Djurkliniken Saari.',
+    en: 'Left: 420 g hedgehog, right: 750 g hedgehog — phone for scale. In autumn, a hedgehog under 600 g cannot survive hibernation and needs help, but in early summer small hedgehogs are often healthy juveniles. Photo: Eläinklinikka Saari.'
+  },
+  'article.hedgehog.decline.title': {
+    fi: 'Kannan romahdus Euroopassa',
+    sv: 'Populationskollapsen i Europa',
+    en: 'Population Collapse Across Europe'
+  },
+  'article.hedgehog.decline.text': {
+    fi: 'Siilikanta on laskenut dramaattisesti kaikkialla Euroopassa. Iso-Britanniassa maaseudun siilikanta on pienentynyt 30–75 % vuodesta 2000 ja siili on luokiteltu vaarantuneeksi (Vulnerable). Saksassa kanta on puolittunut Baijerissa kymmenessä vuodessa. Alankomaissa siili on luokiteltu erittäin uhanalaiseksi (Endangered). Ruotsissa ja Norjassa kannan arvioidaan laskeneen yli 30 %. Vuonna 2025 julkaistu kattava tutkimus (Biological Conservation) vahvisti, että siilikanta on pienentynyt yli puolessa niistä Euroopan maista, joissa laji esiintyy. Euroopan parlamentissa on käynnistetty työ EU:n laajuisen siilien suojelustrategian luomiseksi.',
+    sv: 'Igelkottspopulationen har minskat dramatiskt i hela Europa. I Storbritannien har landsbygdens population minskat med 30–75 % sedan år 2000 och igelkotten klassas som sårbar (Vulnerable). I Tyskland har populationen halverats i Bayern på tio år. I Nederländerna klassas igelkotten som starkt hotad (Endangered). I Sverige och Norge beräknas populationen ha minskat med över 30 %. En omfattande studie publicerad 2025 (Biological Conservation) bekräftade att igelkottspopulationen har minskat i mer än hälften av de europeiska länder där arten förekommer. I Europaparlamentet har arbete inletts för att skapa en EU-omfattande strategi för igelkottsskydd.',
+    en: 'The hedgehog population has declined dramatically across Europe. In Great Britain, the rural population has decreased by 30–75% since 2000 and the hedgehog is classified as Vulnerable. In Germany, the population has halved in Bavaria in ten years. In the Netherlands, the hedgehog is classified as Endangered. In Sweden and Norway, the population is estimated to have declined by over 30%. A comprehensive study published in 2025 (Biological Conservation) confirmed that hedgehog populations have decreased in more than half of the European countries where the species occurs. The European Parliament has begun work on creating an EU-wide Hedgehog Conservation Strategy.'
+  },
+  'article.hedgehog.finland.title': {
+    fi: 'Siili Suomessa',
+    sv: 'Igelkotten i Finland',
+    en: 'The Hedgehog in Finland'
+  },
+  'article.hedgehog.finland.text': {
+    fi: 'Suomessa siili elää levinneisyytensä pohjoisrajalla — yhtenäinen esiintymisalue ulottuu suunnilleen Tornio–Kuhmo-linjalle asti. Siili on rauhoitettu luonnonsuojelulain (9/2023) nojalla. Vuoden 2019 uhanalaisuusarvioinnissa siili luokiteltiin Suomessa elinvoimaiseksi (LC), mutta kannan kehityksestä ei ole järjestelmällistä seurantatietoa ja laskua epäillään. Siili tarvitsee vähintään 155 halleetonta päivää lisääntyäkseen ja kerätäkseen riittävät rasvavarastot talvihorrokseen — Suomen lyhyt kesä tekee tästä haastavaa. Siilit elävät meillä lähes yksinomaan ihmisasutuksen läheisyydessä: pihoilla, puistoissa ja puutarhoissa.',
+    sv: 'I Finland lever igelkotten vid den nordligaste gränsen av sitt utbredningsområde — det sammanhängande utbredningsområdet sträcker sig ungefär till linjen Torneå–Kuhmo. Igelkotten är fridlyst enligt naturvårdslagen (9/2023). I den finska rödlistebedömningen 2019 klassades igelkotten som livskraftig (LC), men det finns ingen systematisk övervakning av populationsutvecklingen och en minskning misstänks. Igelkotten behöver minst 155 frostfria dagar för att kunna fortplanta sig och samla tillräckliga fettreserver för vinterdvala — Finlands korta sommar gör detta utmanande. Hos oss lever igelkottar nästan uteslutande i närheten av bebyggelse: på gårdar, i parker och trädgårdar.',
+    en: 'In Finland, the hedgehog lives at the northernmost limit of its range — the continuous distribution area extends approximately to the Tornio–Kuhmo line. The hedgehog is protected under the Nature Conservation Act (9/2023). In the 2019 Finnish Red List assessment, the hedgehog was classified as Least Concern (LC), but there is no systematic monitoring of population trends and a decline is suspected. The hedgehog needs at least 155 frost-free days to breed and accumulate sufficient fat reserves for hibernation — Finland\'s short summer makes this challenging. In Finland, hedgehogs live almost exclusively near human habitation: in yards, parks and gardens.'
+  },
+  'article.hedgehog.threats.title': {
+    fi: 'Miksi siilit vähenevät?',
+    sv: 'Varför minskar igelkottarna?',
+    en: 'Why Are Hedgehogs Declining?'
+  },
+  'article.hedgehog.threats.text': {
+    fi: 'Suurimmat uhkat ovat ihmisen aiheuttamia. Liikenne tappaa Euroopassa vuosittain satoja tuhansia siilejä — pelkästään Saksassa jopa miljoona, Alankomaissa 340 000 ja Belgiassa 230 000–350 000. Elinympäristöjen pirstoutuminen umpinaisilla aidoilla estää siilien liikkumisen. Maatalouden tehostuminen, torjunta-aineet ja hyönteiskato vähentävät ravintoa. Tanskassa 2024 julkaistu tutkimus osoitti, että 84 % tutkituista siileistä oli altistunut jyrsijämyrkyille ja 43 % hyönteismyrkyille. Ilmastonmuutos aiheuttaa ennenaikaisia talvihorrosheräämisiä, jotka kuluttavat kriittisiä rasvavarastoja.',
+    sv: 'De största hoten är orsakade av människan. Trafiken dödar hundratusentals igelkottar i Europa årligen — enbart i Tyskland upp till en miljon, i Nederländerna 340 000 och i Belgien 230 000–350 000. Fragmentering av livsmiljöer med täta staket hindrar igelkottars rörelse. Intensifierat jordbruk, bekämpningsmedel och insektsdöd minskar födotillgången. En dansk studie publicerad 2024 visade att 84 % av undersökta igelkottar hade exponerats för gnagargift och 43 % för insekticider. Klimatförändringen orsakar förtida uppvaknanden från vinterdvala som förbrukar kritiska fettreserver.',
+    en: 'The greatest threats are human-caused. Traffic kills hundreds of thousands of hedgehogs in Europe annually — in Germany alone up to one million, in the Netherlands 340,000 and in Belgium 230,000–350,000. Habitat fragmentation with solid fences prevents hedgehog movement. Agricultural intensification, pesticides and insect decline reduce food availability. A Danish study published in 2024 showed that 84% of examined hedgehogs had been exposed to rodenticides and 43% to insecticides. Climate change causes premature awakenings from hibernation that deplete critical fat reserves.'
+  },
+  'article.hedgehog.robots.title': {
+    fi: 'Robottiruohonleikkurit — kasvava uhka',
+    sv: 'Robotgräsklippare — ett växande hot',
+    en: 'Robot Lawn Mowers — A Growing Threat'
+  },
+  'article.hedgehog.robots.text': {
+    fi: 'Robottiruohonleikkurit ovat nousseet yhdeksi merkittävimmistä siilien uhista. Oxfordin yliopiston ja Leibniz-instituutin vuonna 2024 julkaisemassa tutkimuksessa testattiin 19 robottileikkuria — käytännössä kaikki aiheuttivat vammoja siileille. Saksassa dokumentoitiin 16 kuukauden aikana 370 robottiruohonleikkurin vahingoittamaa siiliä, joista lähes puolet kuoli. Todellinen luku on huomattavasti suurempi. Siilit ovat yöeläimiä, ja robottiruohonleikkurit toimivat usein öisin valvomattomina — siilin puolustusmekanismi (keräytyminen palloksi) ei suojaa teriltä. Tärkein viesti: älä koskaan käytä robottiruohonleikkuria yöllä.',
+    sv: 'Robotgräsklippare har blivit ett av de mest betydande hoten mot igelkottar. I en studie publicerad 2024 av Oxfords universitet och Leibniz-institutet testades 19 robotklippare — praktiskt taget alla orsakade skador på igelkottar. I Tyskland dokumenterades under 16 månader 370 igelkottar skadade av robotgräsklippare, varav nästan hälften dog. Det verkliga antalet är betydligt högre. Igelkottar är nattdjur och robotgräsklippare körs ofta nattetid utan uppsikt — igelkottens försvarsmekanism (att rulla ihop sig till en boll) skyddar inte mot klingorna. Det viktigaste budskapet: kör aldrig robotgräsklipparen på natten.',
+    en: 'Robot lawn mowers have become one of the most significant threats to hedgehogs. In a study published in 2024 by the University of Oxford and the Leibniz Institute, 19 robot mowers were tested — virtually all caused injuries to hedgehogs. In Germany, 370 hedgehogs injured by robot mowers were documented over 16 months, of which nearly half died. The actual number is significantly higher. Hedgehogs are nocturnal, and robot mowers often operate at night unattended — the hedgehog\'s defense mechanism (curling into a ball) offers no protection against the blades. The most important message: never run robot mowers at night.'
+  },
+  'article.hedgehog.help.title': {
+    fi: 'Miten voit auttaa siilejä?',
+    sv: 'Hur kan du hjälpa igelkottarna?',
+    en: 'How Can You Help Hedgehogs?'
+  },
+  'article.hedgehog.help.text': {
+    fi: 'Tee siiliaukko aitaan — 13 × 13 cm:n reikä aidan alaosassa riittää ja mahdollistaa siilien liikkumisen pihojen välillä. Tämä on yksittäisistä toimista vaikuttavin. Älä käytä robottiruohonleikkuria hämärän jälkeen. Jätä puutarhaan villiintyneitä alueita — lehtikasat ja risukot tarjoavat pesäpaikkoja. Tarjoa raikasta vettä matalassa astiassa. Lisäruokana sopii kissanruoka (lihapohjasta, ei kalaa) — älä koskaan anna leipää tai maitoa, ne aiheuttavat ripulia. Vältä torjunta-aineita ja etanasyöttejä — siilit ovat luonnon parhaita etanan- ja kotiloidentorjujia. Tarkista aina nuotiopaikat ja lehtikasot ennen polttamista. Asenna lammikkoon nousuramppi, sillä siilit uivat mutta väsyvät nopeasti.',
+    sv: 'Gör en igelkottsöppning i staketet — ett hål på 13 × 13 cm vid staketets botten räcker och gör det möjligt för igelkottar att röra sig mellan trädgårdar. Detta är den enskilt mest effektiva åtgärden. Kör inte robotgräsklipparen efter skymning. Lämna vilda ytor i trädgården — lövhögar och rishögar erbjuder boplatser. Ställ ut friskt vatten i en grund skål. Som tillskottsfoder passar kattmat (köttbaserad, inte fisk) — ge aldrig bröd eller mjölk, det orsakar diarré. Undvik bekämpningsmedel och snigelgift — igelkottar är naturens bästa snigel- och snäckbekämpare. Kontrollera alltid eldhögar och lövhögar innan du tänder eld. Installera en ramp i dammen, eftersom igelkottar kan simma men tröttar snabbt.',
+    en: 'Make a hedgehog highway — a 13 × 13 cm hole at the bottom of your fence is enough and allows hedgehogs to move between gardens. This is the single most impactful action. Never run robot mowers after dusk. Leave wild areas in your garden — leaf piles and brush heaps provide nesting sites. Provide fresh water in a shallow dish. Supplementary food can be meat-based cat food (not fish) — never give bread or milk, as they cause diarrhea. Avoid pesticides and slug pellets — hedgehogs are nature\'s best slug and snail controllers. Always check bonfire sites and leaf piles before burning. Install a ramp in your pond, as hedgehogs can swim but tire quickly.'
+  },
+  'article.hedgehog.nest.title': {
+    fi: 'Rakenna siilille talvipesä',
+    sv: 'Bygg ett vinterbo åt igelkotten',
+    en: 'Build a Winter Nest for Hedgehogs'
+  },
+  'article.hedgehog.nest.text': {
+    fi: 'Yksi parhaista tavoista auttaa siilejä on rakentaa talvipesä eli siilitalo. Suomessa talvihorros kestää jopa 8 kuukautta — lokakuusta huhtikuuhun — ja hyvä pesä voi ratkaista siilin selviytymisen. Suomen luonnonsuojeluliiton ja WWF Suomen ohjeiden mukaan talvipesän rakentaminen on yksinkertaista:',
+    sv: 'Ett av de bästa sätten att hjälpa igelkottar är att bygga ett vinterbo, ett så kallat igelkottshus. I Finland varar vinterdvalan upp till 8 månader — från oktober till april — och ett bra bo kan avgöra om igelkotten överlever. Enligt anvisningar från Finlands naturskyddsförbund och WWF Finland är det enkelt att bygga ett vinterbo:',
+    en: 'One of the best ways to help hedgehogs is to build a winter nest, a hedgehog house. In Finland, hibernation lasts up to 8 months — from October to April — and a good nest can determine whether a hedgehog survives. According to guidelines from the Finnish Association for Nature Conservation and WWF Finland, building a winter nest is straightforward:'
+  },
+  'article.hedgehog.nest.instructions': {
+    fi: 'Käsittelemättömistä laudoista (EI vaneria — vaneri ei hengitä ja homehtuu) rakennetaan noin 40 × 40 × 40 cm:n laatikko ILMAN pohjaa — avoin pohja päästää virtsan valumaan maahan eikä siili jäädy märkään pohjaan. Yhdelle seinälle sahataan 10 × 15 cm:n sisäänkäyntiaukko, johon kiinnitetään kolmesta laudasta rakennettu 15–20 cm:n tunneli — tunneli estää kettuja ja kissoja pääsemästä sisään. Molempiin yläkulmiin porataan tuuletusreiät (homeenesto). Kansi tehdään irrotettavaksi ja päällystetään kattohuovalla vesisateelta suojaksi. Sisälle levitetään ensin soraa (salaojitus), sitten multaa, sammalta ja lopuksi pakkaus täyteen kuivia lehtiä (vaahteran lehdet ovat siilien suosikkeja) ja heinää. Pesä sijoitetaan rauhalliseen, varjoisaan paikkaan pohjoissuuntaan — EI aurinkoiselle puolelle, sillä keväinen aurinko herättäisi siilin liian aikaisin. Suuntaa sisäänkäynti tuulelta suojaan. Pesän tulee olla valmis viimeistään syyskuun lopussa, mielellään jo elokuussa. Lokakuun ja huhtikuun välillä pesää ei saa avata eikä häiritä — lumen alla oleva pesä on lämmin ja turvallinen. Älä koskaan poista lunta pesän päältä. Keväällä (touko-kesäkuussa) pesä puhdistetaan hansikkaat kädessä, pestään kuumalla vedellä ja täytetään uudelleen tuoreilla lehdillä.',
+    sv: 'Av obehandlade brädor (INTE plywood — plywood andas inte och mögelbildas) byggs en låda på ungefär 40 × 40 × 40 cm UTAN botten — den öppna botten låter urinen rinna ner i marken och igelkotten fryser inte fast i ett vått golv. I en vägg sågas en ingångsöppning på 10 × 15 cm, där en tunnel på 15–20 cm fästs, byggd av tre brädor — tunneln hindrar rävar och katter från att ta sig in. I båda övre hörnen borras ventilationshål (mot mögel). Locket görs avtagbart och kläs med takpapp som vattenskydd. Inuti läggs först grus (dränering), sedan jord, mossa och slutligen fylls hela utrymmet med torra löv (lönnlöv är igelkottarnas favorit) och hö. Boet placeras på en lugn, skuggig plats i norrläge — INTE på solsidan, eftersom vårsolen skulle väcka igelkotten för tidigt. Rikta ingången i lä. Boet ska vara klart senast i slutet av september, helst redan i augusti. Mellan oktober och april får boet inte öppnas eller störas — ett bo under snön är varmt och tryggt. Ta aldrig bort snö från boet. På våren (maj–juni) rengörs boet med handskar, tvättas med hett vatten och fylls på nytt med färska löv.',
+    en: 'From untreated boards (NOT plywood — plywood does not breathe and develops mold) build a box of approximately 40 × 40 × 40 cm WITHOUT a bottom — the open bottom lets urine drain into the soil and prevents the hedgehog from freezing to a wet floor. Cut a 10 × 15 cm entrance opening in one wall and attach a 15–20 cm tunnel made from three boards — the tunnel prevents foxes and cats from reaching inside. Drill ventilation holes in both upper corners (to prevent mold). Make the lid removable and cover it with roofing felt for rain protection. Inside, first spread gravel (drainage), then soil, moss, and finally pack the entire space full of dry leaves (maple leaves are hedgehogs\' favorite) and hay. Place the nest in a quiet, shaded spot facing north — NOT on the sunny side, as spring sunshine would wake the hedgehog too early. Point the entrance away from prevailing winds. The nest must be ready by the end of September at the latest, preferably by August. Between October and April, do not open or disturb the nest — a nest under snow is warm and safe. Never remove snow from the nest. In spring (May–June), clean the nest wearing gloves, wash with hot water, and refill with fresh leaves.'
+  },
+  'article.hedgehog.nest.links': {
+    fi: 'Yksityiskohtaiset rakennus\u00ADohjeet kuvien kanssa löydät täältä: Suomen luonnonsuojeluliitto (<a href="https://www.sll.fi/2019/05/21/nikkaroi-siilille-pesa/" target="_blank" rel="noopener">sll.fi</a>), WWF Suomi (<a href="https://wwf.fi/ala-villiksi/tee-siilille-pesa/" target="_blank" rel="noopener">wwf.fi</a>) ja YLE Strömsö (<a href="https://yle.fi/aihe/artikkeli/2018/05/18/rakenna-kodikas-pesa-siilille" target="_blank" rel="noopener">yle.fi</a>).',
+    sv: 'Detaljerade bygginstruktioner med bilder hittar du här: Finlands naturskyddsförbund (<a href="https://www.sll.fi/2019/05/21/nikkaroi-siilille-pesa/" target="_blank" rel="noopener">sll.fi</a>), WWF Finland (<a href="https://wwf.fi/ala-villiksi/tee-siilille-pesa/" target="_blank" rel="noopener">wwf.fi</a>) och YLE Strömsö (<a href="https://yle.fi/aihe/artikkeli/2018/05/18/rakenna-kodikas-pesa-siilille" target="_blank" rel="noopener">yle.fi</a>).',
+    en: 'Detailed building instructions with photos can be found here: Finnish Association for Nature Conservation (<a href="https://www.sll.fi/2019/05/21/nikkaroi-siilille-pesa/" target="_blank" rel="noopener">sll.fi</a>), WWF Finland (<a href="https://wwf.fi/ala-villiksi/tee-siilille-pesa/" target="_blank" rel="noopener">wwf.fi</a>) and YLE Strömsö (<a href="https://yle.fi/aihe/artikkeli/2018/05/18/rakenna-kodikas-pesa-siilille" target="_blank" rel="noopener">yle.fi</a>).'
+  },
+  'article.hedgehog.nest.photo.caption': {
+    fi: 'Siili kurkistaa puisesta suojastaan. Yksinkertainenkin siilitalo voi pelastaa siilin hengen talvella. Kuva: Alexas Fotos / Pexels.',
+    sv: 'En igelkott kikar ut från sitt träskydd. Även ett enkelt igelkottshus kan rädda en igelkotts liv på vintern. Foto: Alexas Fotos / Pexels.',
+    en: 'A hedgehog peeks out from its wooden shelter. Even a simple hedgehog house can save a hedgehog\'s life in winter. Photo: Alexas Fotos / Pexels.'
+  },
+  'article.hedgehog.nest.cta': {
+    fi: '<strong>Osaatko rakentaa siilitalon ja haluaisit rakentaa myös muille?</strong> Ota meihin yhteyttä — yhdistämme sinut apua tarvitsevien kanssa. Yhdessä voimme auttaa Vaasan alueen siilejä selviytymään talvesta.',
+    sv: '<strong>Kan du bygga igelkottshus och vill du bygga åt andra också?</strong> Kontakta oss — vi kopplar ihop dig med dem som behöver hjälp. Tillsammans kan vi hjälpa Vasaregionens igelkottar att överleva vintern.',
+    en: '<strong>Do you know how to build a hedgehog house and would you be willing to build for others?</strong> Contact us — we will connect you with people who need help. Together we can help the hedgehogs of the Vaasa region survive the winter.'
+  },
+  'article.hedgehog.injured.title': {
+    fi: 'Löysitkö loukkaantuneen siilin?',
+    sv: 'Hittade du en skadad igelkott?',
+    en: 'Found an Injured Hedgehog?'
+  },
+  'article.hedgehog.injured.text': {
+    fi: 'Siili tarvitsee apua, jos se horjuu tai makaa kyljellään, liikkuu päivänvalossa (terve siili on yöeläin), sillä on näkyviä vammoja tai kärpäsen toukkia, tai se on syksyllä (syyskuusta lähtien) pieni — alle 600 g. Alkukesällä pienet siilit ovat usein poikasia, jotka syntyvät kesä–heinäkuussa ja painavat vieroitettuna vain 120–350 g: tämä on normaalia. Mutta syyskuusta lähtien alle 600 g painava siili ei selviä Suomen talvihorroksesta ilman apua. Nosta siili paksut hansikkaat kädessä ja aseta se korkeareunaisen pahvilaatikon sisälle, jossa on pyyhe pohjalla. Tarjoa lämpöä — lämpimällä vedellä täytetty, pyyhkeeseen kääritty kuumavesipullo. Tarjoa vettä ja ruokaa (kissanruoka). Ota yhteyttä eläinlääkäriin mahdollisimman pian. Eläinklinikka Saaressa hoidamme yhteistyössä Nordic Wildlife Caren kanssa myös loukkaantuneita siilejä — tuo eläin klinikalle, niin annamme ensiavun ja järjestämme jatkohoidon.',
+    sv: 'En igelkott behöver hjälp om den raglar eller ligger på sidan, rör sig i dagsljus (en frisk igelkott är ett nattdjur), har synliga skador eller fluglarver, eller om den är liten på hösten (från september) — under 600 g. På försommaren är små igelkottar ofta ungar som föds i juni–juli och väger bara 120–350 g vid avvänjning: detta är helt normalt. Men från september klarar en igelkott under 600 g inte Finlands långa vinterdvala utan hjälp. Lyft igelkotten med tjocka handskar och placera den i en låda med höga kanter med en handduk i botten. Erbjud värme — en varmvattenflaska fylld med varmt vatten, inlindad i en handduk. Erbjud vatten och mat (kattmat). Kontakta veterinär så snart som möjligt. På Djurkliniken Saari vårdar vi i samarbete med Nordic Wildlife Care även skadade igelkottar — ta med djuret till kliniken så ger vi första hjälpen och ordnar fortsatt vård.',
+    en: 'A hedgehog needs help if it is staggering or lying on its side, active during daylight (a healthy hedgehog is nocturnal), has visible injuries or fly larvae, or is small in autumn (from September onwards) — under 600 g. In early summer, small hedgehogs are often juveniles born in June–July that weigh only 120–350 g when weaned: this is completely normal. But from September onwards, a hedgehog under 600 g cannot survive Finland\'s long hibernation without help. Pick up the hedgehog wearing thick gloves and place it in a high-sided cardboard box with a towel at the bottom. Provide warmth — a hot water bottle filled with warm water, wrapped in a towel. Offer water and food (cat food). Contact a veterinarian as soon as possible. At Eläinklinikka Saari, we care for injured hedgehogs in cooperation with Nordic Wildlife Care — bring the animal to the clinic and we will provide first aid and arrange ongoing care.'
+  },
+  'article.hedgehog.ecology.title': {
+    fi: 'Siilin elämää lyhyesti',
+    sv: 'Igelkottens liv i korthet',
+    en: 'Hedgehog Life in Brief'
+  },
+  'article.hedgehog.ecology.text': {
+    fi: 'Siili on yöeläin, joka kulkee yössä 1–2 km ravintoa etsien. Aikuinen siili painaa 600–1 100 g ja sillä on noin 5 000–6 000 piikkiä. Ravintona ovat kovakuoriaiset, toukat, etanat, kotilot, madot ja hyönteiset — siili on puutarhurin paras ystävä. Talvihorros kestää Suomessa noin lokakuusta huhtikuuhun: ruumiinlämpö laskee 35 asteesta jopa 1–4 asteeseen ja syke putoaa 190:stä noin 20 lyöntiin minuutissa. Lisääntymiskausi on huhti–syyskuussa, ja naaras synnyttää keskimäärin 4–5 poikasta. Siilin keskimääräinen elinikä luonnossa on 2–3 vuotta. Suomessa siili vaatii vähintään noin 450–600 gramman painon selviytyäkseen talvihorroksesta.',
+    sv: 'Igelkotten är ett nattdjur som rör sig 1–2 km per natt i jakt på föda. En vuxen igelkott väger 600–1 100 g och har cirka 5 000–6 000 taggar. Födan består av skalbaggar, larver, sniglar, snäckor, maskar och insekter — igelkotten är trädgårdsmästarens bästa vän. Vinterdvalan varar i Finland ungefär från oktober till april: kroppstemperaturen sjunker från 35 grader till så lågt som 1–4 grader och hjärtfrekvensen sjunker från 190 till cirka 20 slag per minut. Fortplantningstiden är april–september och honan föder i genomsnitt 4–5 ungar. Igelkottens genomsnittliga livslängd i det vilda är 2–3 år. I Finland behöver igelkotten en vikt på minst cirka 450–600 gram för att överleva vinterdvalan.',
+    en: 'The hedgehog is a nocturnal animal that travels 1–2 km per night foraging for food. An adult hedgehog weighs 600–1,100 g and has approximately 5,000–6,000 spines. Its diet consists of beetles, larvae, slugs, snails, worms and insects — the hedgehog is the gardener\'s best friend. Hibernation in Finland lasts approximately from October to April: body temperature drops from 35 degrees to as low as 1–4 degrees and heart rate falls from 190 to about 20 beats per minute. The breeding season is April–September and the female gives birth to an average of 4–5 hoglets. The average lifespan of a hedgehog in the wild is 2–3 years. In Finland, a hedgehog needs a weight of at least approximately 450–600 grams to survive hibernation.'
+  },
 };
 
 // --- Service icons mapping ---
@@ -1564,7 +1771,11 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (translations[key] && translations[key][lang]) {
-      el.textContent = translations[key][lang];
+      if (el.hasAttribute('data-i18n-html')) {
+        el.innerHTML = translations[key][lang];
+      } else {
+        el.textContent = translations[key][lang];
+      }
     }
   });
 
@@ -1729,9 +1940,32 @@ function toggleArticles() {
     mainSections.forEach(el => el.style.display = 'none');
     privacySection.style.display = 'none';
     articlesSection.style.display = '';
+    filterArticles('all');
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setLanguage(currentLang);
   }
+}
+
+// --- Article Category Filters ---
+function filterArticles(category) {
+  const articles = document.querySelectorAll('#articles .article-card[data-category]');
+  const buttons = document.querySelectorAll('.filter-btn');
+
+  buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.filter === category));
+
+  articles.forEach(article => {
+    if (category === 'all' || article.dataset.category === category) {
+      article.classList.remove('filter-hidden');
+    } else {
+      article.classList.add('filter-hidden');
+    }
+  });
+}
+
+function initArticleFilters() {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => filterArticles(btn.dataset.filter));
+  });
 }
 
 function togglePrivacy() {
@@ -2130,4 +2364,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initPriceAccordion();
   initActiveNav();
   initScrollAnimations();
+  initArticleFilters();
 });

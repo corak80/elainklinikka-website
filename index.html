@@ -900,7 +900,17 @@
         <p data-i18n="articles.subtitle">Asiantuntija-artikkeleita lemmikkien terveydestä</p>
       </div>
 
-      <article class="article-card">
+      <div class="article-filters">
+        <button class="filter-btn active" data-filter="all" data-i18n="articles.filter.all">Kaikki</button>
+        <button class="filter-btn" data-filter="health" data-i18n="articles.filter.health">Terveys</button>
+        <button class="filter-btn" data-filter="surgery" data-i18n="articles.filter.surgery">Kirurgia</button>
+        <button class="filter-btn" data-filter="dental" data-i18n="articles.filter.dental">Hammashoito</button>
+        <button class="filter-btn" data-filter="emergency" data-i18n="articles.filter.emergency">Päivystys</button>
+        <button class="filter-btn" data-filter="clinic" data-i18n="articles.filter.clinic">Klinikka</button>
+        <button class="filter-btn" data-filter="wildlife" data-i18n="articles.filter.wildlife">Wildlife</button>
+      </div>
+
+      <article class="article-card" data-category="surgery">
         <div class="article-header">
           <span class="article-tag" data-i18n="articles.tag.orthopedics">Ortopedia</span>
           <time>2026</time>
@@ -926,7 +936,7 @@
         </div>
       </article>
 
-      <article class="article-card">
+      <article class="article-card" data-category="surgery">
         <div class="article-header">
           <span class="article-tag" data-i18n="articles.tag.endoscopy">Tähystys</span>
           <time>2026</time>
@@ -952,17 +962,17 @@
         </div>
       </article>
 
-      <article class="article-card">
+      <article class="article-card" data-category="surgery">
         <div class="article-header">
           <span class="article-tag" data-i18n="articles.tag.anesthesia">Anestesia</span>
           <time>2026</time>
         </div>
         <h3 data-i18n="article.mlk.title">MLK-infuusio – multimodaalinen kivunlievennys leikkausten aikana</h3>
         <div class="article-content">
-          <p data-i18n="article.mlk.intro">Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (morfiini-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.</p>
+          <p data-i18n="article.mlk.intro">Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (metadoni-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.</p>
 
           <h4 data-i18n="article.mlk.what.title">Mitä MLK-infuusio tarkoittaa?</h4>
-          <p data-i18n="article.mlk.what.text">MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: morfiini on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.</p>
+          <p data-i18n="article.mlk.what.text">MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: metadoni on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.</p>
 
           <h4 data-i18n="article.mlk.why.title">Miksi monikomponenttinen lähestymistapa?</h4>
           <p data-i18n="article.mlk.why.text">Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä kolme eri lääkeainetta matalilla annoksilla saadaan tehokkaampi kivunlievennys kuin yhdellä lääkkeellä yksinään — ja samalla pidetään kunkin lääkkeen sivuvaikutukset mahdollisimman pieninä. Tutkimusten mukaan MLK-infuusio vähentää inhalaatioanesteetin (isofluraanin) tarvetta jopa 45 %, mikä parantaa hemodynamiikkaa ja vähentää anestesiaan liittyviä riskejä.</p>
@@ -982,7 +992,7 @@
       </article>
 
       <!-- Article 4: Diarrhea -->
-      <article class="article-card">
+      <article class="article-card" data-category="health">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.tta.tag">Lemmikkien terveys</span>
         </div>
@@ -1008,7 +1018,7 @@
       </article>
 
       <!-- Article 5: PDA -->
-      <article class="article-card">
+      <article class="article-card" data-category="surgery">
         <div class="article-header">
           <span class="article-tag">Kardiologia</span>
         </div>
@@ -1040,7 +1050,7 @@
       </article>
 
       <!-- Article 6: Dental Brushing -->
-      <article class="article-card">
+      <article class="article-card" data-category="dental">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.tta.tag">Lemmikkien terveys</span>
         </div>
@@ -1069,7 +1079,7 @@
       </article>
 
       <!-- Article 7: Grain-Free Food -->
-      <article class="article-card">
+      <article class="article-card" data-category="health">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.tta.tag">Lemmikkien terveys</span>
         </div>
@@ -1092,7 +1102,7 @@
       </article>
 
       <!-- Article 8: PerioVive -->
-      <article class="article-card">
+      <article class="article-card" data-category="dental">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.tta.tag">Lemmikkien terveys</span>
         </div>
@@ -1118,7 +1128,7 @@
       </article>
 
       <!-- Article 9: Independent Clinic -->
-      <article class="article-card">
+      <article class="article-card" data-category="clinic">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.independent.tag">Klinikka</span>
         </div>
@@ -1144,7 +1154,7 @@
       </article>
 
       <!-- Article 10: Food Allergies -->
-      <article class="article-card">
+      <article class="article-card" data-category="health">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.food.tag">Lemmikkien terveys</span>
         </div>
@@ -1173,7 +1183,7 @@
       </article>
 
       <!-- Article 11: Hyperthyroidism -->
-      <article class="article-card">
+      <article class="article-card" data-category="health">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.hyperthyroid.tag">Kissaterveys</span>
         </div>
@@ -1196,7 +1206,7 @@
       </article>
 
       <!-- Article 12: Kidney Disease -->
-      <article class="article-card">
+      <article class="article-card" data-category="health">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.kidney.tag">Lemmikkien terveys</span>
         </div>
@@ -1216,7 +1226,7 @@
       </article>
 
       <!-- Article 13: Snake Bite -->
-      <article class="article-card">
+      <article class="article-card" data-category="emergency">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.snake.tag">Päivystys</span>
         </div>
@@ -1239,7 +1249,7 @@
       </article>
 
       <!-- Article 14: Pyometra -->
-      <article class="article-card">
+      <article class="article-card" data-category="emergency">
         <div class="article-header">
           <span class="article-tag" data-i18n="article.pyometra.tag">Päivystys</span>
         </div>
@@ -1258,6 +1268,91 @@
 
           <h4 data-i18n="article.pyometra.prevention.title">Ehkäisy</h4>
           <p data-i18n="article.pyometra.prevention.text">Tehokkain ehkäisy on sterilointi. Jos koiraa ei käytetä jalostukseen, suosittelemme sterilointia — se poistaa pyometran riskin kokonaan. Kissoilla pyometra on harvinaisempi, mutta mahdollinen, ja oireet ovat samankaltaiset. Jos suunnittelet lemmikin sterilointia tai huomaat pyometran oireita, ota yhteyttä klinikkaamme.</p>
+        </div>
+      </article>
+
+      <!-- Article 15: CCL / Lateral Suture -->
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.tag.orthopedics">Ortopedia</span>
+          <time>2026</time>
+        </div>
+        <h3 data-i18n="article.ccl.title">Lateral suture — eturistisiteen korjaus synteettisellä tukimateriaalilla</h3>
+        <div class="article-content">
+          <p data-i18n="article.ccl.intro">Eturistisiteen (cranial cruciate ligament, CCL) repeämä on koirien yleisin ortopedinen ongelma ja sitä esiintyy myös kissoilla. Lateral suture eli ekstrakapsulaari lateraalisuturaatio on tehokas ja pitkään käytetty kirurginen menetelmä, jossa polvinivel stabiloidaan synteettisellä tukimateriaalilla nivelen ulkopuolelta. Menetelmä sopii erinomaisesti pienille ja keskikokoisille koirille sekä kissoille. Klinikallamme leikkauksen suorittaa eläinlääkäri Pamela, jolla on laaja kokemus ortopedisistä toimenpiteistä.</p>
+
+          <h4 data-i18n="article.ccl.how.title">Miten lateral suture toimii?</h4>
+          <p data-i18n="article.ccl.how.text">Leikkauksessa polvinivel avataan ja tarkastetaan: repeytyneen ristisiteen jäänteet poistetaan ja nivelkierukat (meniskit) tutkitaan vaurioiden varalta. Tämän jälkeen nivelen ulkopuolelle asennetaan vahva monofilamenttinen nylonlanka, joka kierretään reisiluun takaosan (fabella) ympäri ja kiinnitetään sääriluun etuosaan poratun tunnelin kautta. Lanka kiristetään ja lukitaan metallisilla puristusholkeilla (crimp clamp). Tämä stabiloi polvinivelen ja estää sääriluun liukumisen eteenpäin — aivan kuten terve ristiside tekisi. Lanka toimii väliaikaisena tukirakenteena, kunnes kehon oma sidekudos (periarticulaarinen fibroosi) muodostuu nivelen ympärille ja tarjoaa pysyvän vakauden.</p>
+
+          <h4 data-i18n="article.ccl.who.title">Kenelle lateral suture sopii?</h4>
+          <p data-i18n="article.ccl.who.text">Lateral suture on erinomainen valinta pienille koirille (alle 15 kg) ja kissoille — näillä potilailla onnistumisprosentti on yli 90 %. Menetelmä sopii hyvin myös keskikokoisille koirille (15–25 kg) sekä iäkkäämmille, rauhallisemmille suurille koirille. Kissoilla lateral suture on eturistisiteen korjauksen standardimenetelmä, sillä kissojen kevyt ruumiinrakenne sopii tekniikkaan erinomaisesti. Aktiivisille ja suurille koirille (yli 25 kg) suosittelemme TTA-leikkausta, joka muuttaa polven biomekaniikkaa pysyvästi.</p>
+
+          <h4 data-i18n="article.ccl.recovery.title">Toipuminen</h4>
+          <p data-i18n="article.ccl.recovery.text">Leikkauksen jälkeen ensimmäiset 6 viikkoa ovat kriittisiä: liikkumista rajoitetaan tiukasti, jotta sidekudos ehtii muodostua nivelen ympärille. Koira ulkoilutetaan lyhyillä talutushihnakävelyillä (5–15 minuuttia) ja hyppiminen, juokseminen ja portaat ovat kiellettyjä. Tikit poistetaan noin 2 viikon kohdalla. 6–8 viikon kontrollikäynnillä arvioidaan paraneminen ja kävelylenkkejä pidennetään asteittain. Noin 12–16 viikon kohdalla useimmat potilaat palaavat normaaliin aktiivisuuteen. Kuntoutus — esimerkiksi vesijuoksumatto — nopeuttaa toipumista merkittävästi.</p>
+
+          <h4 data-i18n="article.ccl.risks.title">Riskit ja komplikaatiot</h4>
+          <p data-i18n="article.ccl.risks.text">Komplikaatioriski on pieni (5–17 %), ja suurin osa komplikaatioista on lieviä: turvotusta, serooman muodostumista tai lievää infektiota. Harvinaisempi mutta kliinisesti merkittävä komplikaatio on myöhäinen nivelkierukkavaurio (noin 7 %), joka voi ilmetä viikkojen tai kuukausien kuluttua äkillisenä ontumisena. Langan pettäminen on mahdollista erityisesti ylipainoisilla tai liian aikaisin aktiivisilla koirilla. Paras keino ehkäistä komplikaatioita on noudattaa toipumisohjeita tarkasti.</p>
+
+          <h4 data-i18n="article.ccl.vs.title">Lateral suture vai TTA?</h4>
+          <p data-i18n="article.ccl.vs.text">Klinikallamme käytämme kahta menetelmää eturistisiteen korjaukseen. Lateral suture stabiloi nivelen synteettisellä langalla ilman luun sahaamista — se on lyhyempi toimenpide, edullisempi ja erinomainen vaihtoehto pienille ja keskikokoisille potilaille. TTA muuttaa polven biomekaniikkaa pysyvästi siirtämällä sääriluun kyhmyä ja on parempi valinta aktiivisille ja suuremmille koirille. Arvioimme aina yksilöllisesti, kumpi menetelmä sopii parhaiten juuri sinun lemmikillesi.</p>
+
+          <h4 data-i18n="article.ccl.signs.title">Milloin kannattaa ottaa yhteyttä?</h4>
+          <p data-i18n="article.ccl.signs.text">Ristisidevauriota kannattaa epäillä, jos koira tai kissa ontuu takajalkaansa, ei halua hypätä tai nousta portaita, jäykistelee levon jälkeen tai liikunnan aikana jalka "pettää". Oireet voivat alkaa äkillisesti tai kehittyä hitaasti viikkojen kuluessa. Varhainen diagnoosi parantaa ennustetta merkittävästi — varaa aika ortopediseen tutkimukseen, niin arvioimme tilanteen ja suosittelemme parhaiten sopivan hoitovaihtoehdon.</p>
+
+          <h4 data-i18n="article.ccl.price.title">Hinta</h4>
+          <p data-i18n="article.ccl.price.text">Lateral suture -leikkauksen hinta klinikallamme alkaa noin 1 200 eurosta. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian valvontoineen, itse leikkauksen ja välittömän jälkihoidon. Tarkka hinta riippuu potilaan koosta ja tapauksen vaativuudesta. Vertailun vuoksi TTA-leikkaus alkaa noin 2 500 eurosta.</p>
+        </div>
+      </article>
+
+      <!-- Article 16: Hedgehog Conservation -->
+      <article class="article-card" data-category="wildlife">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="article.hedgehog.tag">Wildlife</span>
+          <time>2026</time>
+        </div>
+        <h3 data-i18n="article.hedgehog.title">Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä, joka tarvitsee apuamme</h3>
+        <div class="article-content">
+          <p data-i18n="article.hedgehog.intro">Euroopan siili (Erinaceus europaeus) on yksi rakastetuimmista villieläimistämme — ja yksi nopeimmin vähenevistä. Lokakuussa 2024 IUCN nosti siilin uhanalaisuusluokituksen luokasta "elinvoimainen" luokkaan "silmälläpidettävä" (Near Threatened), koska kannat ovat romahtaneet yli 30 % kymmenessä vuodessa monissa Euroopan maissa. Suomessa siili elää levinneisyytensä pohjoisrajalla, mikä tekee kannastamme erityisen haavoittuvan. Tässä artikkelissa käymme läpi siilin tilanteen, uhat ja sen, miten jokainen voi auttaa.</p>
+
+          <h4 data-i18n="article.hedgehog.decline.title">Kannan romahdus Euroopassa</h4>
+          <p data-i18n="article.hedgehog.decline.text">Siilikanta on laskenut dramaattisesti kaikkialla Euroopassa. Iso-Britanniassa maaseudun siilikanta on pienentynyt 30–75 % vuodesta 2000 ja siili on luokiteltu vaarantuneeksi (Vulnerable). Saksassa kanta on puolittunut Baijerissa kymmenessä vuodessa. Alankomaissa siili on luokiteltu erittäin uhanalaiseksi (Endangered). Ruotsissa ja Norjassa kannan arvioidaan laskeneen yli 30 %. Vuonna 2025 julkaistu kattava tutkimus (Biological Conservation) vahvisti, että siilikanta on pienentynyt yli puolessa niistä Euroopan maista, joissa laji esiintyy. Euroopan parlamentissa on käynnistetty työ EU:n laajuisen siilien suojelustrategian luomiseksi.</p>
+
+          <h4 data-i18n="article.hedgehog.finland.title">Siili Suomessa</h4>
+          <p data-i18n="article.hedgehog.finland.text">Suomessa siili elää levinneisyytensä pohjoisrajalla — yhtenäinen esiintymisalue ulottuu suunnilleen Tornio–Kuhmo-linjalle asti. Siili on rauhoitettu luonnonsuojelulain (9/2023) nojalla. Vuoden 2019 uhanalaisuusarvioinnissa siili luokiteltiin Suomessa elinvoimaiseksi (LC), mutta kannan kehityksestä ei ole järjestelmällistä seurantatietoa ja laskua epäillään. Siili tarvitsee vähintään 155 halleetonta päivää lisääntyäkseen ja kerätäkseen riittävät rasvavarastot talvihorrokseen — Suomen lyhyt kesä tekee tästä haastavaa. Siilit elävät meillä lähes yksinomaan ihmisasutuksen läheisyydessä: pihoilla, puistoissa ja puutarhoissa.</p>
+
+          <h4 data-i18n="article.hedgehog.threats.title">Miksi siilit vähenevät?</h4>
+          <p data-i18n="article.hedgehog.threats.text">Suurimmat uhkat ovat ihmisen aiheuttamia. Liikenne tappaa Euroopassa vuosittain satoja tuhansia siilejä — pelkästään Saksassa jopa miljoona, Alankomaissa 340 000 ja Belgiassa 230 000–350 000. Elinympäristöjen pirstoutuminen umpinaisilla aidoilla estää siilien liikkumisen. Maatalouden tehostuminen, torjunta-aineet ja hyönteiskato vähentävät ravintoa. Tanskassa 2024 julkaistu tutkimus osoitti, että 84 % tutkituista siileistä oli altistunut jyrsijämyrkyille ja 43 % hyönteismyrkyille. Ilmastonmuutos aiheuttaa ennenaikaisia talvihorrosheräämisiä, jotka kuluttavat kriittisiä rasvavarastoja.</p>
+
+          <h4 data-i18n="article.hedgehog.robots.title">Robottiruohonleikkurit — kasvava uhka</h4>
+          <p data-i18n="article.hedgehog.robots.text">Robottiruohonleikkurit ovat nousseet yhdeksi merkittävimmistä siilien uhista. Oxfordin yliopiston ja Leibniz-instituutin vuonna 2024 julkaisemassa tutkimuksessa testattiin 19 robottileikkuria — käytännössä kaikki aiheuttivat vammoja siileille. Saksassa dokumentoitiin 16 kuukauden aikana 370 robottiruohonleikkurin vahingoittamaa siiliä, joista lähes puolet kuoli. Todellinen luku on huomattavasti suurempi. Siilit ovat yöeläimiä, ja robottiruohonleikkurit toimivat usein öisin valvomattomina — siilin puolustusmekanismi (keräytyminen palloksi) ei suojaa teriltä. Tärkein viesti: älä koskaan käytä robottiruohonleikkuria yöllä.</p>
+
+          <h4 data-i18n="article.hedgehog.help.title">Miten voit auttaa siilejä?</h4>
+          <p data-i18n="article.hedgehog.help.text">Tee siiliaukko aitaan — 13 × 13 cm:n reikä aidan alaosassa riittää ja mahdollistaa siilien liikkumisen pihojen välillä. Tämä on yksittäisistä toimista vaikuttavin. Älä käytä robottiruohonleikkuria hämärän jälkeen. Jätä puutarhaan villiintyneitä alueita — lehtikasat ja risukot tarjoavat pesäpaikkoja. Tarjoa raikasta vettä matalassa astiassa. Lisäruokana sopii kissanruoka (lihapohjasta, ei kalaa) — älä koskaan anna leipää tai maitoa, ne aiheuttavat ripulia. Vältä torjunta-aineita ja etanasyöttejä — siilit ovat luonnon parhaita etanan- ja kotiloidentorjujia. Tarkista aina nuotiopaikat ja lehtikasot ennen polttamista. Asenna lammikkoon nousuramppi, sillä siilit uivat mutta väsyvät nopeasti.</p>
+
+          <h4 data-i18n="article.hedgehog.nest.title">Rakenna siilille talvipesä</h4>
+          <p data-i18n="article.hedgehog.nest.text">Yksi parhaista tavoista auttaa siilejä on rakentaa talvipesä eli siilitalo. Suomessa talvihorros kestää jopa 8 kuukautta — lokakuusta huhtikuuhun — ja hyvä pesä voi ratkaista siilin selviytymisen. Suomen luonnonsuojeluliiton ja WWF Suomen ohjeiden mukaan talvipesän rakentaminen on yksinkertaista:</p>
+
+          <p data-i18n="article.hedgehog.nest.instructions">Käsittelemättömistä laudoista (EI vaneria — vaneri ei hengitä ja homehtuu) rakennetaan noin 40 × 40 × 40 cm:n laatikko ILMAN pohjaa — avoin pohja päästää virtsan valumaan maahan eikä siili jäädy märkään pohjaan. Yhdelle seinälle sahataan 10 × 15 cm:n sisäänkäyntiaukko, johon kiinnitetään kolmesta laudasta rakennettu 15–20 cm:n tunneli — tunneli estää kettuja ja kissoja pääsemästä sisään. Molempiin yläkulmiin porataan tuuletusreiät (homeenesto). Kansi tehdään irrotettavaksi ja päällystetään kattohuovalla vesisateelta suojaksi. Sisälle levitetään ensin soraa (salaojitus), sitten multaa, sammalta ja lopuksi pakkaus täyteen kuivia lehtiä (vaahteran lehdet ovat siilien suosikkeja) ja heinää. Pesä sijoitetaan rauhalliseen, varjoisaan paikkaan pohjoissuuntaan — EI aurinkoiselle puolelle, sillä keväinen aurinko herättäisi siilin liian aikaisin. Suuntaa sisäänkäynti tuulelta suojaan. Pesän tulee olla valmis viimeistään syyskuun lopussa, mielellään jo elokuussa. Lokakuun ja huhtikuun välillä pesää ei saa avata eikä häiritä — lumen alla oleva pesä on lämmin ja turvallinen. Älä koskaan poista lunta pesän päältä. Keväällä (touko-kesäkuussa) pesä puhdistetaan hansikkaat kädessä, pestään kuumalla vedellä ja täytetään uudelleen tuoreilla lehdillä.</p>
+
+          <div style="margin: var(--spacing-lg) 0;">
+            <img src="images/hedgehog-house.jpg" alt="Siili kurkistaa puisesta siilitalosta — juuri tällaisen voit rakentaa omaan pihaasi" style="width:100%; border-radius: var(--radius-lg);">
+            <p data-i18n="article.hedgehog.nest.photo.caption" style="text-align:center; margin-top:0.5rem; font-size:var(--font-size-sm); color:var(--color-text-light);">Siili kurkistaa puisesta suojastaan. Yksinkertainenkin siilitalo voi pelastaa siilin hengen talvella. Kuva: Alexas Fotos / Pexels.</p>
+          </div>
+
+          <p data-i18n="article.hedgehog.nest.links" data-i18n-html>Yksityiskohtaiset rakennus&shy;ohjeet kuvien kanssa löydät täältä: Suomen luonnonsuojeluliitto (<a href="https://www.sll.fi/2019/05/21/nikkaroi-siilille-pesa/" target="_blank" rel="noopener">sll.fi</a>), WWF Suomi (<a href="https://wwf.fi/ala-villiksi/tee-siilille-pesa/" target="_blank" rel="noopener">wwf.fi</a>) ja YLE Strömsö (<a href="https://yle.fi/aihe/artikkeli/2018/05/18/rakenna-kodikas-pesa-siilille" target="_blank" rel="noopener">yle.fi</a>).</p>
+
+          <p data-i18n="article.hedgehog.nest.cta" data-i18n-html><strong>Osaatko rakentaa siilitalon ja haluaisit rakentaa myös muille?</strong> Ota meihin yhteyttä — yhdistämme sinut apua tarvitsevien kanssa. Yhdessä voimme auttaa Vaasan alueen siilejä selviytymään talvesta.</p>
+
+          <h4 data-i18n="article.hedgehog.injured.title">Löysitkö loukkaantuneen siilin?</h4>
+          <p data-i18n="article.hedgehog.injured.text">Siili tarvitsee apua, jos se horjuu tai makaa kyljellään, liikkuu päivänvalossa (terve siili on yöeläin), sillä on näkyviä vammoja tai kärpäsen toukkia, tai se on syksyllä (syyskuusta lähtien) pieni — alle 600 g. Alkukesällä pienet siilit ovat usein poikasia, jotka syntyvät kesä–heinäkuussa ja painavat vieroitettuna vain 120–350 g: tämä on normaalia. Mutta syyskuusta lähtien alle 600 g painava siili ei selviä Suomen talvihorroksesta ilman apua. Nosta siili paksut hansikkaat kädessä ja aseta se korkeareunaisen pahvilaatikon sisälle, jossa on pyyhe pohjalla. Tarjoa lämpöä — lämpimällä vedellä täytetty, pyyhkeeseen kääritty kuumavesipullo. Tarjoa vettä ja ruokaa (kissanruoka). Ota yhteyttä eläinlääkäriin mahdollisimman pian. Eläinklinikka Saaressa hoidamme yhteistyössä Nordic Wildlife Caren kanssa myös loukkaantuneita siilejä — tuo eläin klinikalle, niin annamme ensiavun ja järjestämme jatkohoidon.</p>
+
+          <div style="margin: var(--spacing-lg) 0;">
+            <img src="images/wildlife-hedgehog-size.jpg" alt="Kaksi siiliä ja puhelin kokovertailuna — vasemmalla 420 g siili, oikealla 750 g siili" style="width:100%; border-radius: var(--radius-lg);">
+            <p data-i18n="article.hedgehog.photo.caption" style="text-align:center; margin-top:0.5rem; font-size:var(--font-size-sm); color:var(--color-text-light);">Vasemmalla: 420 g siili, oikealla: 750 g siili — puhelin kokovertailuna. Syksyllä alle 600 g painava siili ei selviä talvihorroksesta ja tarvitsee apua, mutta alkukesällä pienet siilit ovat usein terveitä poikasia. Kuva: Eläinklinikka Saari.</p>
+          </div>
+
+          <h4 data-i18n="article.hedgehog.ecology.title">Siilin elämää lyhyesti</h4>
+          <p data-i18n="article.hedgehog.ecology.text">Siili on yöeläin, joka kulkee yössä 1–2 km ravintoa etsien. Aikuinen siili painaa 600–1 100 g ja sillä on noin 5 000–6 000 piikkiä. Ravintona ovat kovakuoriaiset, toukat, etanat, kotilot, madot ja hyönteiset — siili on puutarhurin paras ystävä. Talvihorros kestää Suomessa noin lokakuusta huhtikuuhun: ruumiinlämpö laskee 35 asteesta jopa 1–4 asteeseen ja syke putoaa 190:stä noin 20 lyöntiin minuutissa. Lisääntymiskausi on huhti–syyskuussa, ja naaras synnyttää keskimäärin 4–5 poikasta. Siilin keskimääräinen elinikä luonnossa on 2–3 vuotta. Suomessa siili vaatii vähintään noin 450–600 gramman painon selviytyäkseen talvihorroksesta.</p>
         </div>
       </article>
 
