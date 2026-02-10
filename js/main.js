@@ -1252,6 +1252,281 @@ const translations = {
     sv: 'Vi har fått flera förfrågningar från kedjor som vill köpa vår klinik. Vi har beslutat att förbli privata. För oss innebär detta att behandlingsbeslut alltid fattas av veterinären — inte av ett investeringsbolag. Våra priser baseras på verkliga kostnader, vi följer inga koncernens resultatmål. Samma veterinär tar hand om ditt husdjur hela dess liv. Våra intäkter stannar i Vasa. När du väljer en privat klinik stöder du också finländskt företagande och konkurrens på en marknad som koncentreras i allt färre händer.',
     en: 'We have received multiple offers from chains wanting to buy our clinic. We have chosen to remain independent. For us this means that treatment decisions are always made by the veterinarian — not an investment firm. Our prices are based on actual costs, not corporate revenue targets. The same vet cares for your pet throughout its life. Our revenue stays in Vaasa. When you choose an independent clinic, you also support Finnish entrepreneurship and competition in a market that is concentrating into fewer and fewer hands.'
   },
+
+  // Article 10: Food Allergies
+  'article.food.tag': { fi: 'Lemmikkien terveys', sv: 'Husdjurshälsa', en: 'Pet Health' },
+  'article.food.title': {
+    fi: 'Ruoka-allergiat koirilla ja kissoilla — oireet, diagnoosi ja eliminaatioruokavalio',
+    sv: 'Födoämnesallergi hos hundar och katter — symtom, diagnos och eliminationsdiet',
+    en: 'Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet'
+  },
+  'article.food.intro': {
+    fi: 'Ruoka-allergia on yksi yleisimmistä kutinaa aiheuttavista sairauksista koirilla ja kissoilla. Tutkimusten mukaan 9–40 % kutisevista koirista ja 12–21 % kutisevista kissoista kärsii ruoka-allergiasta. Monet omistajat luulevat viljojen olevan ongelma, mutta tutkimukset osoittavat selvästi: yleisimmät allergeenit ovat eläinproteiineja — nauta (34 %), maito (17 %) ja kana (15 %). Oikea diagnoosi vaatii eliminaatioruokavalion, ja me autamme siinä.',
+    sv: 'Födoämnesallergi är en av de vanligaste orsakerna till klåda hos hundar och katter. Enligt studier lider 9–40 % av kliande hundar och 12–21 % av kliande katter av födoämnesallergi. Många ägare tror att spannmål är problemet, men forskning visar tydligt: de vanligaste allergenerna är animaliska proteiner — nötkött (34 %), mjölk (17 %) och kyckling (15 %). En korrekt diagnos kräver en eliminationsdiet, och vi hjälper dig med det.',
+    en: 'Food allergy is one of the most common causes of itching in dogs and cats. Studies show that 9–40% of itchy dogs and 12–21% of itchy cats suffer from food allergies. Many owners believe grains are the problem, but research clearly shows: the most common allergens are animal proteins — beef (34%), dairy (17%) and chicken (15%). A correct diagnosis requires an elimination diet, and we can help you with that.'
+  },
+  'article.food.symptoms.title': {
+    fi: 'Oireet',
+    sv: 'Symtom',
+    en: 'Symptoms'
+  },
+  'article.food.symptoms.text': {
+    fi: 'Ruoka-allergian tyypillisimpiä oireita ovat kutina, toistuvat korvatulehdukset, tassujen nuoleminen, ihotulehdukset ja vatsa-suolioireet (oksentelu, ripuli). Kissoilla oireet ilmenevät usein pään ja kaulan alueen kutinana. Toisin kuin ympäristöallergiat, ruoka-allergia ei ole kausittainen — oireet jatkuvat ympäri vuoden. Jos lemmikillesi on yli 2 ulostuskertaa päivässä ja iho-oireet alkoivat alle vuoden iässä, ruoka-allergia on erityisen todennäköinen.',
+    sv: 'De vanligaste symtomen på födoämnesallergi är klåda, återkommande öroninflammationer, slickande av tassar, hudinfektioner och mag-tarmbesvär (kräkningar, diarré). Hos katter visar sig symtomen ofta som klåda runt huvud och hals. Till skillnad från miljöallergier är födoämnesallergi inte säsongsbetonad — symtomen fortsätter året runt. Om ditt husdjur har mer än 2 avföringar per dag och hudsymtom som började före ett års ålder är födoämnesallergi särskilt sannolik.',
+    en: 'The most common symptoms of food allergy are itching, recurring ear infections, paw licking, skin infections and gastrointestinal symptoms (vomiting, diarrhea). In cats, symptoms often appear as itching around the head and neck. Unlike environmental allergies, food allergy is not seasonal — symptoms persist year-round. If your pet has more than 2 bowel movements per day and skin symptoms started before one year of age, food allergy is particularly likely.'
+  },
+  'article.food.allergens.title': {
+    fi: 'Yleisimmät allergeenit',
+    sv: 'Vanligaste allergenerna',
+    en: 'Most Common Allergens'
+  },
+  'article.food.allergens.text': {
+    fi: 'Tutkimuksissa yleisimmät allergeenit koirilla ovat nauta (34 %), maitotuotteet (17 %), kana (15 %), vehnä (13 %) ja soija (6 %). Kissoilla yleisimpiä ovat nauta (18 %), kala (17 %) ja kana (5 %). Viljat aiheuttavat siis vain pienen osan allergiatapauksista — vehnä 13 % ja maissi 4 %. "Viljaton" ruoka ei ole ratkaisu, koska se sisältää usein edelleen yleisimpiä allergeenejä (nauta, kana). Lisäksi viljojen korvaaminen palkokasveilla on yhdistetty sydänsairauksien (DCM) riskiin koirilla.',
+    sv: 'I studier är de vanligaste allergenerna hos hundar nötkött (34 %), mejeriprodukter (17 %), kyckling (15 %), vete (13 %) och soja (6 %). Hos katter är de vanligaste nötkött (18 %), fisk (17 %) och kyckling (5 %). Spannmål orsakar alltså bara en liten del av allergifallen — vete 13 % och majs 4 %. "Spannmålsfri" mat är ingen lösning eftersom den ofta fortfarande innehåller de vanligaste allergenerna (nötkött, kyckling). Dessutom har ersättning av spannmål med baljväxter kopplats till risk för hjärtsjukdom (DCM) hos hundar.',
+    en: 'In studies, the most common allergens in dogs are beef (34%), dairy (17%), chicken (15%), wheat (13%) and soy (6%). In cats, the most common are beef (18%), fish (17%) and chicken (5%). Grains cause only a small portion of allergy cases — wheat 13% and corn 4%. "Grain-free" food is not the solution because it often still contains the most common allergens (beef, chicken). Additionally, replacing grains with legumes has been linked to heart disease (DCM) risk in dogs.'
+  },
+  'article.food.trial.title': {
+    fi: 'Eliminaatioruokavalio — ainoa luotettava diagnoosimenetelmä',
+    sv: 'Eliminationsdiet — den enda tillförlitliga diagnosmetoden',
+    en: 'Elimination Diet — The Only Reliable Diagnostic Method'
+  },
+  'article.food.trial.text': {
+    fi: 'Allergiaverikokeet ruoka-aineille eivät ole luotettavia — tutkimuksessa kaikki 30 tervettä koiraa ilman allergiahistoriaa saivat virheellisiä positiivisia tuloksia. Ainoa luotettava menetelmä on eliminaatioruokavalio: lemmikille syötetään 8–12 viikon ajan ainoastaan ruokaa, joka sisältää proteiinia, jota se ei ole koskaan syönyt (uusi proteiini, esim. känguru, peura, hyönteinen), tai hydrolysoitua proteiiniruokaa, jossa proteiinit on pilkottu niin pieniksi, ettei immuunijärjestelmä tunnista niitä.',
+    sv: 'Allergiblodprov för livsmedel är inte tillförlitliga — i en studie fick alla 30 friska hundar utan allergihistorik felaktigt positiva resultat. Den enda tillförlitliga metoden är en eliminationsdiet: husdjuret matas under 8–12 veckor uteslutande med mat som innehåller protein det aldrig har ätit (nytt protein, t.ex. känguru, hjort, insekt) eller hydrolyserad proteinmat där proteinerna har brutits ner till så små delar att immunsystemet inte känner igen dem.',
+    en: 'Allergy blood tests for food are not reliable — in one study, all 30 healthy dogs with no allergy history received false positive results. The only reliable method is an elimination diet: the pet is fed for 8–12 weeks exclusively food containing a protein it has never eaten (novel protein, e.g. kangaroo, venison, insect) or hydrolyzed protein food where proteins have been broken down so small that the immune system cannot recognize them.'
+  },
+  'article.food.strict.title': {
+    fi: 'Eliminaatioruokavalion säännöt',
+    sv: 'Regler för eliminationsdiet',
+    en: 'Elimination Diet Rules'
+  },
+  'article.food.strict.text': {
+    fi: 'Eliminaatioruokavalion on oltava ehdottoman tiukka. Lemmikin suuhun saa mennä VAIN eliminaatioruoka. Ei makupaloja, ei ihmisruokaa, ei raakavuotia tai puruluita, ei maustettua hammastahnaa, ei maustettuja lääkkeitä (matolääkkeet, punkkitabletit). Lääkkeet vaihdetaan maustamattomiin vaihtoehtoihin. Kaupan "rajoitetun ainesosan" ruoat eivät kelpaa — tutkimukset osoittavat, että 33–83 % niistä sisältää ilmoittamattomia proteiineja. Siksi käytämme aina eläinlääkärin reseptiruokia.',
+    sv: 'Eliminationsdieten måste vara absolut strikt. BARA eliminationsmat får gå i husdjurets mun. Inga godisbitar, ingen människomat, inga råhudsben eller tuggben, ingen smaksatt tandkräm, inga smaksatta mediciner (avmaskningsmedel, fästingtabletter). Mediciner byts till osmakade alternativ. Butikens "begränsad ingrediens"-foder duger inte — studier visar att 33–83 % av dem innehåller odeklarerade proteiner. Därför använder vi alltid veterinärrecept-foder.',
+    en: 'The elimination diet must be absolutely strict. ONLY the elimination food may enter your pet\'s mouth. No treats, no human food, no rawhide or chew bones, no flavored toothpaste, no flavored medications (dewormers, flea/tick tablets). Medications are switched to unflavored alternatives. Store-bought "limited ingredient" foods are not suitable — studies show 33–83% of them contain undeclared proteins. That is why we always use veterinary prescription diets.'
+  },
+  'article.food.challenge.title': {
+    fi: 'Haastevaihe ja pitkäaikaishoito',
+    sv: 'Provokationsfas och långtidsvård',
+    en: 'Challenge Phase and Long-Term Management'
+  },
+  'article.food.challenge.text': {
+    fi: 'Jos oireet paranevat eliminaatioruokavaliolla, diagnoosi varmistetaan syöttämällä vanha ruoka uudelleen. 90 % koirista reagoi 7 päivän kuluessa. Tämän jälkeen palataan eliminaatioruokaan ja testataan yksittäisiä proteiineja yksitellen. Näin selviää, mitkä proteiinit ovat turvallisia ja mitä on vältettävä. Ruoka-allergiaa ei voi parantaa, mutta kun allergeenejä välttää, lemmikki voi elää täysin oireetta ilman lääkitystä. Eläinlääkärin ohjauksessa tehtynä eliminaatioruokavalio on tehokas ja turvallinen prosessi.',
+    sv: 'Om symtomen förbättras med eliminationsdieten bekräftas diagnosen genom att ge den gamla maten igen. 90 % av hundarna reagerar inom 7 dagar. Därefter återgår man till eliminationsdieten och testar enskilda proteiner en i taget. Så klargörs vilka proteiner som är säkra och vilka som måste undvikas. Födoämnesallergi kan inte botas, men när allergener undviks kan husdjuret leva helt symtomfritt utan medicinering. Under veterinärens vägledning är eliminationsdieten en effektiv och säker process.',
+    en: 'If symptoms improve on the elimination diet, the diagnosis is confirmed by reintroducing the old food. 90% of dogs react within 7 days. After this, the pet returns to the elimination diet and individual proteins are tested one at a time. This reveals which proteins are safe and which must be avoided. Food allergy cannot be cured, but when allergens are avoided, your pet can live completely symptom-free without medication. Under veterinary guidance, the elimination diet is an effective and safe process.'
+  },
+  'article.food.clinic.title': {
+    fi: 'Ruoka-allergiatutkimukset klinikallamme',
+    sv: 'Födoämnesallergutredning på vår klinik',
+    en: 'Food Allergy Investigations at Our Clinic'
+  },
+  'article.food.clinic.text': {
+    fi: 'Eläinklinikka Saaressa autamme sinua ruoka-allergian tutkimisessa ja hoidossa. Suunnittelemme yksilöllisen eliminaatioruokavalion lemmikillesi, hoidamme samalla sekundaariset iho- ja korvainfektiot ja seuraamme edistymistä koko prosessin ajan. Myymme klinikaltamme myös eliminaatioruokavalioita ja voimme neuvoa sopivan ruokavalion valinnassa.',
+    sv: 'På Djurkliniken Saari hjälper vi dig med utredning och behandling av födoämnesallergi. Vi planerar en individuell eliminationsdiet för ditt husdjur, behandlar samtidigt sekundära hud- och öroninfektioner och följer upp framstegen under hela processen. Vi säljer även eliminationsdieter på kliniken och kan rådge om rätt dietval.',
+    en: 'At Eläinklinikka Saari, we help you investigate and manage food allergies. We design an individual elimination diet for your pet, treat secondary skin and ear infections at the same time, and monitor progress throughout the process. We also sell elimination diets at our clinic and can advise on choosing the right diet.'
+  },
+
+  // Article 11: Hyperthyroidism
+  'article.hyperthyroid.tag': { fi: 'Kissaterveys', sv: 'Katthälsa', en: 'Cat Health' },
+  'article.hyperthyroid.title': {
+    fi: 'Kilpirauhasen liikatoiminta kissalla — oireet, diagnoosi ja hoito',
+    sv: 'Sköldkörtelöverfunktion hos katter — symtom, diagnos och behandling',
+    en: 'Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment'
+  },
+  'article.hyperthyroid.intro': {
+    fi: 'Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyvien kissojen yleisin hormonisairaus. Se todetaan noin 10 %:lla yli 10-vuotiaista kissoista. Kilpirauhanen tuottaa liikaa kilpirauhashormonia (T4), mikä kiihdyttää aineenvaihduntaa ja rasittaa monia elimiä — erityisesti sydäntä ja munuaisia. Hoitamattomana sairaus johtaa vakaviin komplikaatioihin, mutta oikein hoidettuna ennuste on hyvä.',
+    sv: 'Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos åldrande katter. Den diagnostiseras hos cirka 10 % av katter över 10 år. Sköldkörteln producerar för mycket sköldkörtelhormon (T4), vilket ökar ämnesomsättningen och belastar många organ — särskilt hjärtat och njurarna. Obehandlad leder sjukdomen till allvarliga komplikationer, men med rätt behandling är prognosen god.',
+    en: 'Hyperthyroidism is the most common hormonal disease in aging cats. It is diagnosed in approximately 10% of cats over 10 years of age. The thyroid gland produces excess thyroid hormone (T4), which accelerates metabolism and strains many organs — especially the heart and kidneys. Left untreated, the disease leads to serious complications, but with proper treatment the prognosis is good.'
+  },
+  'article.hyperthyroid.symptoms.title': {
+    fi: 'Oireet',
+    sv: 'Symtom',
+    en: 'Symptoms'
+  },
+  'article.hyperthyroid.symptoms.text': {
+    fi: 'Tyypillisimpiä oireita ovat painonlasku hyvästä ruokahalusta huolimatta, lisääntynyt juominen ja virtsaaminen, oksentelu, ripuli, yliaktiivisuus tai levottomuus, huono turkki ja nopea sydämen syke. Joillakin kissoilla näkyy myös laihtumista, lihaskatoa ja käytösmuutoksia. Oireet kehittyvät yleensä hitaasti, ja omistajat saattavat pitää niitä normaalina ikääntymiseen liittyvinä muutoksina.',
+    sv: 'De vanligaste symtomen är viktnedgång trots god aptit, ökad törst och urinering, kräkningar, diarré, hyperaktivitet eller rastlöshet, dålig päls och snabb hjärtrytm. Vissa katter visar även avmagring, muskelförlust och beteendeförändringar. Symtomen utvecklas vanligtvis långsamt och ägare kan förväxla dem med normala åldersförändringar.',
+    en: 'The most common symptoms are weight loss despite good appetite, increased drinking and urination, vomiting, diarrhea, hyperactivity or restlessness, poor coat and rapid heart rate. Some cats also show wasting, muscle loss and behavioral changes. Symptoms usually develop slowly, and owners may mistake them for normal age-related changes.'
+  },
+  'article.hyperthyroid.diagnosis.title': {
+    fi: 'Diagnoosi',
+    sv: 'Diagnos',
+    en: 'Diagnosis'
+  },
+  'article.hyperthyroid.diagnosis.text': {
+    fi: 'Diagnoosi perustuu verikokeeseen, jossa mitataan kilpirauhashormoni T4. Kohonnut T4-arvo yhdessä tyypillisten oireiden kanssa vahvistaa diagnoosin. Joskus T4 voi olla normaali, vaikka sairaus on olemassa — silloin mitataan vapaa T4 (fT4). Kliinisessä tutkimuksessa eläinlääkäri voi tunnustella suurentuneen kilpirauhasen kaulan alueella. Samalla tutkitaan sydän, verenpaine ja munuaisarvot.',
+    sv: 'Diagnosen baseras på ett blodprov som mäter sköldkörtelhormonet T4. Ett förhöjt T4-värde tillsammans med typiska symtom bekräftar diagnosen. Ibland kan T4 vara normalt trots att sjukdomen finns — då mäts fritt T4 (fT4). Vid klinisk undersökning kan veterinären palpera en förstorad sköldkörtel i halsområdet. Samtidigt undersöks hjärtat, blodtrycket och njurvärdena.',
+    en: 'Diagnosis is based on a blood test measuring thyroid hormone T4. An elevated T4 value together with typical symptoms confirms the diagnosis. Sometimes T4 can be normal even when the disease is present — then free T4 (fT4) is measured. During clinical examination, the vet can feel an enlarged thyroid gland in the neck area. At the same time, the heart, blood pressure and kidney values are checked.'
+  },
+  'article.hyperthyroid.complications.title': {
+    fi: 'Komplikaatiot',
+    sv: 'Komplikationer',
+    en: 'Complications'
+  },
+  'article.hyperthyroid.complications.text': {
+    fi: 'Hoitamaton hypertyreoosi voi aiheuttaa sydämen liikakasvu (hypertrofinen kardiomyopatia), korkean verenpaineen, verkkokalvon irtoamisen ja näköhäiriöitä. Tärkeä yhteys on myös munuaissairauteen: hypertyreoosi lisää munuaisten verenvirtausta, mikä voi peittää taustalla olevan munuaisten vajaatoiminnan. Kun kilpirauhasen toiminta korjataan, piilevä munuaissairaus saattaa paljastua. Siksi munuaisarvoja seurataan tarkasti hoidon aikana.',
+    sv: 'Obehandlad hypertyreos kan orsaka hjärtförstoring (hypertrofisk kardiomyopati), högt blodtryck, näthinneavlossning och synstörningar. Det finns även ett viktigt samband med njursjukdom: hypertyreos ökar blodflödet till njurarna, vilket kan dölja en underliggande njursvikt. När sköldkörtelfunktionen korrigeras kan en dold njursjukdom avslöjas. Därför övervakas njurvärdena noggrant under behandlingen.',
+    en: 'Untreated hyperthyroidism can cause heart enlargement (hypertrophic cardiomyopathy), high blood pressure, retinal detachment and vision problems. There is also an important connection to kidney disease: hyperthyroidism increases blood flow to the kidneys, which can mask underlying kidney failure. When thyroid function is corrected, hidden kidney disease may be revealed. That is why kidney values are monitored closely during treatment.'
+  },
+  'article.hyperthyroid.treatment.title': {
+    fi: 'Hoitovaihtoehdot',
+    sv: 'Behandlingsalternativ',
+    en: 'Treatment Options'
+  },
+  'article.hyperthyroid.treatment.text': {
+    fi: 'Hoitovaihtoehtoja on neljä: 1) Päivittäinen lääkitys (metimatsoli/Felimazole) — yleisin vaihtoehto, edullinen mutta elinikäinen. 2) Leikkaus (tyreoidektomia) — kilpirauhasen poisto, parantava hoito. 3) Radiojodihoito (I-131) — kultastandardi, yksi hoitokerta parantaa yli 95 % tapauksista, mutta vaatii erikoisklinikan. 4) Reseptiruokavalio (Hill\'s y/d) — jodirajoitettu ruoka, sopii lieväoireisille kissoille. Klinikallamme autamme valitsemaan parhaan hoitomuodon kissasi tilanteeseen.',
+    sv: 'Det finns fyra behandlingsalternativ: 1) Daglig medicinering (metimazol/Felimazole) — det vanligaste alternativet, prisvärt men livslångt. 2) Kirurgi (tyreoidektomi) — borttagning av sköldkörteln, botande behandling. 3) Radiojodbehandling (I-131) — guldstandard, en behandling botar över 95 % av fallen men kräver specialklinik. 4) Receptdiet (Hill\'s y/d) — jodbegränsad mat, lämplig för katter med lindriga symtom. På vår klinik hjälper vi dig välja den bästa behandlingen för din katts situation.',
+    en: 'There are four treatment options: 1) Daily medication (methimazole/Felimazole) — the most common option, affordable but lifelong. 2) Surgery (thyroidectomy) — removal of the thyroid gland, a curative treatment. 3) Radioactive iodine therapy (I-131) — the gold standard, one treatment cures over 95% of cases but requires a specialized clinic. 4) Prescription diet (Hill\'s y/d) — iodine-restricted food, suitable for cats with mild symptoms. At our clinic, we help you choose the best treatment for your cat\'s situation.'
+  },
+
+  // Article 12: Kidney Disease
+  'article.kidney.tag': { fi: 'Lemmikkien terveys', sv: 'Husdjurshälsa', en: 'Pet Health' },
+  'article.kidney.title': {
+    fi: 'Munuaisten vajaatoiminta koirilla ja kissoilla — tunnista oireet ajoissa',
+    sv: 'Njursvikt hos hundar och katter — känn igen symtomen i tid',
+    en: 'Kidney Disease in Dogs and Cats — Recognizing the Symptoms Early'
+  },
+  'article.kidney.intro': {
+    fi: 'Krooninen munuaissairaus (CKD) on yksi ikääntyvien kissojen ja koirien yleisimmistä sairauksista. Jopa 30–40 % yli 10-vuotiaista kissoista kärsii jonkinasteisesta munuaisten vajaatoiminnasta. Munuaiset menettävät toimintakykyään hitaasti ja peruuttamattomasti, mutta varhaisella diagnoosilla ja oikealla hoidolla elinaikaa ja elämänlaatua voidaan parantaa merkittävästi.',
+    sv: 'Kronisk njursjukdom (CKD) är en av de vanligaste sjukdomarna hos åldrande katter och hundar. Upp till 30–40 % av katter över 10 år lider av någon grad av njursvikt. Njurarna förlorar sin funktion långsamt och oåterkalleligt, men med tidig diagnos och rätt behandling kan livslängd och livskvalitet förbättras avsevärt.',
+    en: 'Chronic kidney disease (CKD) is one of the most common diseases in aging cats and dogs. Up to 30–40% of cats over 10 years of age suffer from some degree of kidney failure. The kidneys lose function slowly and irreversibly, but with early diagnosis and proper treatment, life expectancy and quality of life can be significantly improved.'
+  },
+  'article.kidney.stages.title': {
+    fi: 'IRIS-luokitus — sairauden vaiheet',
+    sv: 'IRIS-klassificering — sjukdomens stadier',
+    en: 'IRIS Classification — Disease Stages'
+  },
+  'article.kidney.stages.text': {
+    fi: 'Munuaissairaus luokitellaan kansainvälisen IRIS-järjestelmän mukaan neljään vaiheeseen. Vaihe 1: munuaisvaurio ilman oireita, kreatiniini normaali. Vaihe 2: lievä munuaisten vajaatoiminta, lieviä oireita (lisääntynyt juominen). Vaihe 3: kohtalainen vajaatoiminta, selvät oireet (ruokahaluttomuus, oksentelu, laihtuminen). Vaihe 4: vaikea vajaatoiminta, ureemiset oireet (pahoinvointi, suun haavaumat, kouristukset). Varhaisessa vaiheessa SDMA-verikoe voi havaita munuaisvaurion jopa kuukausia ennen kuin kreatiniini nousee.',
+    sv: 'Njursjukdom klassificeras enligt det internationella IRIS-systemet i fyra stadier. Stadium 1: njurskada utan symtom, kreatinin normalt. Stadium 2: lindrig njursvikt, lindriga symtom (ökad törst). Stadium 3: måttlig njursvikt, tydliga symtom (aptitlöshet, kräkningar, viktnedgång). Stadium 4: svår njursvikt, uremiska symtom (illamående, munsår, kramper). I ett tidigt skede kan SDMA-blodprovet upptäcka njurskada redan månader innan kreatininet stiger.',
+    en: 'Kidney disease is classified according to the international IRIS system into four stages. Stage 1: kidney damage without symptoms, creatinine normal. Stage 2: mild kidney failure, mild symptoms (increased drinking). Stage 3: moderate failure, clear symptoms (loss of appetite, vomiting, weight loss). Stage 4: severe failure, uremic symptoms (nausea, mouth ulcers, seizures). In the early stages, the SDMA blood test can detect kidney damage months before creatinine rises.'
+  },
+  'article.kidney.symptoms.title': {
+    fi: 'Oireet',
+    sv: 'Symtom',
+    en: 'Symptoms'
+  },
+  'article.kidney.symptoms.text': {
+    fi: 'Varhaiset oireet ovat usein hienovaraisia: lisääntynyt juominen ja virtsaaminen, lievä laihtuminen ja vähentynyt ruokahalu. Sairauden edetessä oireet voimistuvat: oksentelu, ripuli, huono turkki, lihasheikkous, anemia (kalpeat limakalvot), suun haavaumat ja ammoniakin haju hengityksessä. Koska oireet kehittyvät hitaasti, monet omistajat eivät huomaa muutoksia ajoissa. Siksi suosittelemme vuosittaista verikoetta yli 7-vuotiaille lemmikeille.',
+    sv: 'Tidiga symtom är ofta subtila: ökad törst och urinering, lätt viktnedgång och minskad aptit. När sjukdomen fortskrider förstärks symtomen: kräkningar, diarré, dålig päls, muskelsvaghet, anemi (bleka slemhinnor), munsår och ammoniaklukt i andedräkten. Eftersom symtomen utvecklas långsamt märker många ägare inte förändringarna i tid. Därför rekommenderar vi årligt blodprov för husdjur över 7 år.',
+    en: 'Early symptoms are often subtle: increased drinking and urination, mild weight loss and decreased appetite. As the disease progresses, symptoms intensify: vomiting, diarrhea, poor coat, muscle weakness, anemia (pale gums), mouth ulcers and ammonia smell in the breath. Because symptoms develop slowly, many owners do not notice the changes in time. That is why we recommend annual blood tests for pets over 7 years of age.'
+  },
+  'article.kidney.treatment.title': {
+    fi: 'Hoito ja seuranta',
+    sv: 'Behandling och uppföljning',
+    en: 'Treatment and Monitoring'
+  },
+  'article.kidney.treatment.text': {
+    fi: 'Munuaissairautta ei voi parantaa, mutta etenemistä voidaan hidastaa merkittävästi. Hoidon kulmakiviä ovat: munuaisruokavalio (vähentynyt proteiini ja fosfori — tutkitusti pidentää elinaikaa), fosforinsitojahoito, nestehoito (ihonalainen tai suonensisäinen), verenpainelääkitys ja pahoinvointilääkitys. Anemiaa hoidetaan tarvittaessa erytropoietiinilla. Säännöllinen seuranta (verikokeet, verenpaine, virtsakoe) on välttämätöntä hoidon sopeuttamiseksi. Klinikallamme seuraamme munuaispotilaita yksilöllisellä aikataululla.',
+    sv: 'Njursjukdom kan inte botas, men sjukdomsförloppet kan bromsas avsevärt. Behandlingens hörnstenar är: njurdiet (minskat protein och fosfor — bevisat förlänger livslängden), fosforbindarterapi, vätskebehandling (subkutan eller intravenös), blodtrycksmedicin och medel mot illamående. Anemi behandlas vid behov med erytropoetin. Regelbunden uppföljning (blodprover, blodtryck, urinprov) är nödvändig för att anpassa behandlingen. På vår klinik följer vi njurpatienter med individuellt anpassade scheman.',
+    en: 'Kidney disease cannot be cured, but progression can be significantly slowed. The cornerstones of treatment are: renal diet (reduced protein and phosphorus — proven to extend life expectancy), phosphate binder therapy, fluid therapy (subcutaneous or intravenous), blood pressure medication and anti-nausea medication. Anemia is treated with erythropoietin when needed. Regular monitoring (blood tests, blood pressure, urinalysis) is essential for adjusting treatment. At our clinic, we follow kidney patients on individually tailored schedules.'
+  },
+
+  // Article 13: Snake Bite
+  'article.snake.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
+  'article.snake.title': {
+    fi: 'Kyynpurema — Suomen ainoan myrkyllisen käärmeen purema lemmikille',
+    sv: 'Huggormsbett — bett av Finlands enda giftiga orm',
+    en: 'Adder Bite — Finland\'s Only Venomous Snake Bite in Pets'
+  },
+  'article.snake.intro': {
+    fi: 'Kyy (Vipera berus) on Suomen ainoa myrkyllinen käärme. Kyynpuremat ovat yleisimpiä touko–syyskuussa, erityisesti keväällä, kun käärmeet ovat juuri heränneet talviuniltaan ja ovat hitaita. Koirat ovat suurimmassa vaarassa uteliaisuutensa vuoksi — useimmat puremat kohdistuvat kuonoon tai etutassuihin. Kyynpurema on aina eläinlääkäripäivystys.',
+    sv: 'Huggormen (Vipera berus) är Finlands enda giftiga orm. Huggormsbett är vanligast från maj till september, särskilt på våren när ormarna just vaknat ur vinterdvalan och är tröga. Hundar löper störst risk på grund av sin nyfikenhet — de flesta bett drabbar nosen eller framtassarna. Ett huggormsbett är alltid en veterinärakut.',
+    en: 'The European adder (Vipera berus) is Finland\'s only venomous snake. Adder bites are most common from May to September, especially in spring when the snakes have just woken from hibernation and are sluggish. Dogs are at greatest risk due to their curiosity — most bites occur on the snout or front paws. An adder bite is always a veterinary emergency.'
+  },
+  'article.snake.symptoms.title': {
+    fi: 'Oireet',
+    sv: 'Symtom',
+    en: 'Symptoms'
+  },
+  'article.snake.symptoms.text': {
+    fi: 'Oireet ilmaantuvat yleensä minuuteista tunteihin pureman jälkeen. Paikallisoireet: voimakas turvotus purema-alueella, kipu, kaksi pistohaavaa. Yleisoireet: kuolaaminen, oksentelu, nopea hengitys, heikkous, lamautuminen. Vaikeissa tapauksissa: allerginen reaktio (kasvojen turpoaminen, hengitysvaikeudet), verenhyytymishäiriöt, sokki ja kollapsi. Kuonoon saatu purema voi aihtaa hengenvaarallista turvotusta hengitysteissä. Oireet voivat pahentua 24–48 tunnin ajan.',
+    sv: 'Symtom uppträder vanligtvis från minuter till timmar efter bettet. Lokala symtom: kraftig svullnad vid bettområdet, smärta, två sticksår. Allmänna symtom: dregling, kräkningar, snabb andning, svaghet, förlamning. I svåra fall: allergisk reaktion (ansiktssvullnad, andningssvårigheter), koagulationsrubbningar, chock och kollaps. Bett i nosen kan orsaka livshotande svullnad i luftvägarna. Symtomen kan förvärras under 24–48 timmar.',
+    en: 'Symptoms appear from minutes to hours after the bite. Local symptoms: severe swelling at the bite area, pain, two puncture wounds. Systemic symptoms: drooling, vomiting, rapid breathing, weakness, collapse. In severe cases: allergic reaction (facial swelling, breathing difficulties), blood clotting disorders, shock and collapse. A bite to the snout can cause life-threatening airway swelling. Symptoms may worsen over 24–48 hours.'
+  },
+  'article.snake.firstaid.title': {
+    fi: 'Ensiapu',
+    sv: 'Första hjälpen',
+    en: 'First Aid'
+  },
+  'article.snake.firstaid.text': {
+    fi: 'Pidä lemmikki rauhallisena ja liikkumattomana — liike levittää myrkkyä nopeammin. Älä yritä imeä myrkkyä, asettaa kiristyssidettä tai jäädyttää puremakohtaa. Kanna koiraa, jos mahdollista. Hakeudu eläinlääkäriin mahdollisimman nopeasti — aika on ratkaiseva tekijä. Valokuvaa käärme, jos se onnistuu turvallisesti.',
+    sv: 'Håll husdjuret lugnt och stilla — rörelse sprider giftet snabbare. Försök inte suga ut giftet, sätta på stasband eller kyla ner bettområdet. Bär hunden om möjligt. Uppsök veterinär så snabbt som möjligt — tid är en avgörande faktor. Fotografera ormen om det kan göras säkert.',
+    en: 'Keep your pet calm and still — movement spreads the venom faster. Do not try to suck out the venom, apply a tourniquet or ice the bite area. Carry the dog if possible. Seek veterinary care as quickly as possible — time is crucial. Photograph the snake if it can be done safely.'
+  },
+  'article.snake.treatment.title': {
+    fi: 'Eläinlääkärin hoito',
+    sv: 'Veterinärbehandling',
+    en: 'Veterinary Treatment'
+  },
+  'article.snake.treatment.text': {
+    fi: 'Hoito sisältää kivunlievityksen, tulehduskipulääkkeet tai kortisonia, suonensisäisen nestehoidon ja tarvittaessa antihistamiinia. Vaikeissa tapauksissa käytetään antiveniiniä (kyykäärmeseerumi). Potilasta seurataan hyytymistekijöiden, munuaisten ja maksan toiminnan osalta. Useimmat koirat toipuvat 2–5 päivässä, mutta vakavissa tapauksissa sairaalahoito voi kestää pidempään. Kuolleisuus hoidolla on alle 5 %, mutta hoitamattomana purema voi olla kohtalokas erityisesti pienille koirille.',
+    sv: 'Behandlingen inkluderar smärtlindring, antiinflammatoriska läkemedel eller kortison, intravenös vätskebehandling och vid behov antihistamin. I svåra fall används antiserum (huggormserum). Patienten övervakas avseende koagulationsfaktorer, njur- och leverfunktion. De flesta hundar återhämtar sig inom 2–5 dagar, men i allvarliga fall kan sjukhusvård ta längre tid. Dödligheten med behandling är under 5 %, men utan behandling kan bettet vara dödligt särskilt för små hundar.',
+    en: 'Treatment includes pain relief, anti-inflammatory medication or corticosteroids, intravenous fluid therapy and antihistamines when needed. In severe cases, antivenom is used. The patient is monitored for clotting factors, kidney and liver function. Most dogs recover within 2–5 days, but in severe cases hospitalization may take longer. Mortality with treatment is under 5%, but without treatment the bite can be fatal, especially for small dogs.'
+  },
+  'article.snake.prevention.title': {
+    fi: 'Ehkäisy',
+    sv: 'Förebyggande',
+    en: 'Prevention'
+  },
+  'article.snake.prevention.text': {
+    fi: 'Pidä koira kytkettynä alueilla, joilla kyitä esiintyy (kalliot, avoimet maastot, metsänreunat). Kyyt ovat aktiivisimpia lämpimillä aamuilla ja iltapäivillä. Tarkista maasto ennen kuin päästät koiran vapaaksi. Jos koirasi on aiemmin saanut kyynpureman, riski vakavaan reaktioon on suurempi seuraavalla kerralla. Suomessa kyynpuremia hoidetaan kaikilla eläinlääkäriasemilla — meille voi tulla myös päivystysaikana.',
+    sv: 'Håll hunden kopplad i områden där huggormar förekommer (klippor, öppna marker, skogsbryn). Huggormar är mest aktiva varma morgnar och eftermiddagar. Kontrollera terrängen innan du släpper hunden lös. Om din hund tidigare fått ett huggormsbett är risken för en allvarlig reaktion större nästa gång. I Finland behandlas huggormsbett på alla veterinärstationer — hos oss kan du komma även jourtid.',
+    en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. If your dog has previously been bitten by an adder, the risk of a severe reaction is greater next time. In Finland, adder bites are treated at all veterinary clinics — you can come to us even during on-call hours.'
+  },
+
+  // Article 14: Pyometra
+  'article.pyometra.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
+  'article.pyometra.title': {
+    fi: 'Kohtutulehdus (pyometra) — hengenvaarallinen sairaus, joka vaatii pikaista hoitoa',
+    sv: 'Livmoderinflammation (pyometra) — livshotande sjukdom som kräver snabb behandling',
+    en: 'Pyometra (Uterine Infection) — A Life-Threatening Condition Requiring Urgent Treatment'
+  },
+  'article.pyometra.intro': {
+    fi: 'Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista steriloimattomilla narttukoirilla — jopa 25 % steriloimattomista nartuista sairastuu pyometraan ennen 10 vuoden ikää. Sairaus vaatii yleensä kiireellistä leikkaushoitoa. Oireiden tunnistaminen voi pelastaa lemmikkisi hengen.',
+    sv: 'Pyometra, det vill säga livmoderinflammation, är en allvarlig, livshotande infektion där livmodern fylls med var. Det är en av de vanligaste akutsituationerna hos osteriliserade tikar — upp till 25 % av osteriliserade tikar drabbas av pyometra före 10 års ålder. Sjukdomen kräver vanligtvis akut kirurgisk behandling. Att känna igen symtomen kan rädda ditt husdjurs liv.',
+    en: 'Pyometra is a serious, life-threatening infection in which the uterus fills with pus. It is one of the most common emergencies in unspayed female dogs — up to 25% of unspayed females develop pyometra before 10 years of age. The condition usually requires emergency surgery. Recognizing the symptoms can save your pet\'s life.'
+  },
+  'article.pyometra.symptoms.title': {
+    fi: 'Oireet — tunnista ajoissa',
+    sv: 'Symtom — känn igen i tid',
+    en: 'Symptoms — Recognize Them Early'
+  },
+  'article.pyometra.symptoms.text': {
+    fi: 'Pyometra kehittyy tyypillisesti 2–8 viikkoa kiiman jälkeen. Avoimessa pyometrassa kohdunkaulasta vuotaa märkäistä, usein pahanhajuista eritettä — tämä on selkein merkki. Suljetussa pyometrassa eritettä ei tule ulos, mikä tekee taudista erityisen vaarallisen, koska oireet ovat epämääräisempiä. Muita oireita ovat: lisääntynyt juominen ja virtsaaminen, ruokahaluttomuus, väsymys ja apaattisuus, oksentelu, laajentunut tai kipeä vatsa ja kuume (tai alilämpö vakavissa tapauksissa). Jos steriloimaton narttu on väsynyt ja juo paljon kiiman jälkeen, hakeudu eläinlääkäriin heti.',
+    sv: 'Pyometra utvecklas typiskt 2–8 veckor efter löpningen. Vid öppen pyometra läcker varig, ofta illaluktande flytning från livmoderhalsen — detta är det tydligaste tecknet. Vid sluten pyometra kommer ingen flytning ut, vilket gör sjukdomen särskilt farlig då symtomen är vagare. Övriga symtom är: ökad törst och urinering, aptitlöshet, trötthet och apati, kräkningar, utspänd eller smärtsam buk samt feber (eller undertemperatur i allvarliga fall). Om en osteriliserad tik är trött och dricker mycket efter löpning — uppsök veterinär omedelbart.',
+    en: 'Pyometra typically develops 2–8 weeks after the heat cycle. In open pyometra, purulent, often foul-smelling discharge drains from the cervix — this is the clearest sign. In closed pyometra, no discharge comes out, making the condition particularly dangerous as symptoms are more vague. Other symptoms include: increased drinking and urination, loss of appetite, fatigue and lethargy, vomiting, distended or painful abdomen, and fever (or hypothermia in severe cases). If an unspayed female is tired and drinking excessively after her heat — seek veterinary care immediately.'
+  },
+  'article.pyometra.danger.title': {
+    fi: 'Miksi pyometra on hengenvaarallinen?',
+    sv: 'Varför är pyometra livshotande?',
+    en: 'Why Is Pyometra Life-Threatening?'
+  },
+  'article.pyometra.danger.text': {
+    fi: 'Suljetussa pyometrassa bakteerit ja myrkylliset aineet imeytyvät kohdusta verenkiertoon aiheuttaen sepsiksen (verenmyrkytyksen). Tämä voi johtaa munuaisten vajaatoimintaan, vatsakalvontulehdukseen, veren hyytymishäiriöihin (DIC) ja monielinvaurioon. Hoitamaton pyometra on lähes aina kuolemaan johtava. Myös kohtu voi revetä, jolloin märkä vuotaa vatsaonteloon.',
+    sv: 'Vid sluten pyometra absorberas bakterier och giftiga ämnen från livmodern till blodomloppet och orsakar sepsis (blodförgiftning). Detta kan leda till njursvikt, bukhinneinflammation, koagulationsrubbningar (DIC) och multiorgansvikt. Obehandlad pyometra leder nästan alltid till döden. Livmodern kan även brista, varvid var läcker ut i bukhålan.',
+    en: 'In closed pyometra, bacteria and toxins are absorbed from the uterus into the bloodstream, causing sepsis (blood poisoning). This can lead to kidney failure, peritonitis, blood clotting disorders (DIC) and multi-organ failure. Untreated pyometra is almost always fatal. The uterus can also rupture, causing pus to leak into the abdominal cavity.'
+  },
+  'article.pyometra.treatment.title': {
+    fi: 'Hoito — leikkaus on kultastandardi',
+    sv: 'Behandling — kirurgi är guldstandard',
+    en: 'Treatment — Surgery Is the Gold Standard'
+  },
+  'article.pyometra.treatment.text': {
+    fi: 'Pyometran ensisijainen hoito on kohdunpoisto (ovariohysterektomia) eli sterilisaatio. Leikkaus tehdään kiireellisesti, usein saman päivän aikana. Ennen leikkausta potilas stabiloidaan nestehoidolla ja aloitetaan suonensisäinen antibioottihoito. Leikkaus poistaa sekä infektoituneen kohdun että munasarjat, mikä estää taudin uusiutumisen. Lääkinnällinen hoito (prostaglandiinit + antibiootit) on mahdollinen jalostusnartuille, mutta se on hitaampi, riskialttiimpi ja tauti uusiutuu 50–75 % tapauksista. Leikkaushoidolla ennuste on hyvä — yli 90 % potilaista toipuu.',
+    sv: 'Den primära behandlingen av pyometra är livmoderavlägsnande (ovariohysterektomi), det vill säga sterilisering. Operationen utförs akut, ofta samma dag. Innan operationen stabiliseras patienten med vätskebehandling och intravenös antibiotikabehandling påbörjas. Operationen avlägsnar både den infekterade livmodern och äggstockarna, vilket förhindrar återfall. Medicinsk behandling (prostaglandiner + antibiotika) är möjlig för avelstikar, men den är långsammare, mer riskfylld och sjukdomen återkommer i 50–75 % av fallen. Med kirurgisk behandling är prognosen god — över 90 % av patienterna tillfrisknar.',
+    en: 'The primary treatment for pyometra is ovariohysterectomy (surgical removal of the uterus and ovaries), essentially spaying. Surgery is performed urgently, often on the same day. Before surgery, the patient is stabilized with fluid therapy and intravenous antibiotics are started. The surgery removes both the infected uterus and the ovaries, preventing recurrence. Medical treatment (prostaglandins + antibiotics) is possible for breeding animals, but it is slower, riskier, and the disease recurs in 50–75% of cases. With surgical treatment, the prognosis is good — over 90% of patients recover.'
+  },
+  'article.pyometra.prevention.title': {
+    fi: 'Ehkäisy',
+    sv: 'Förebyggande',
+    en: 'Prevention'
+  },
+  'article.pyometra.prevention.text': {
+    fi: 'Tehokkain ehkäisy on sterilointi. Jos koiraa ei käytetä jalostukseen, suosittelemme sterilointia — se poistaa pyometran riskin kokonaan. Kissoilla pyometra on harvinaisempi, mutta mahdollinen, ja oireet ovat samankaltaiset. Jos suunnittelet lemmikin sterilointia tai huomaat pyometran oireita, ota yhteyttä klinikkaamme.',
+    sv: 'Det mest effektiva förebyggandet är sterilisering. Om hunden inte ska användas i avel rekommenderar vi sterilisering — det eliminerar risken för pyometra helt. Hos katter är pyometra mer sällsynt men möjlig, och symtomen är liknande. Om du planerar att sterilisera ditt husdjur eller märker symtom på pyometra, kontakta vår klinik.',
+    en: 'The most effective prevention is spaying. If the dog is not used for breeding, we recommend spaying — it eliminates the risk of pyometra entirely. In cats, pyometra is rarer but possible, and the symptoms are similar. If you are planning to spay your pet or notice symptoms of pyometra, contact our clinic.'
+  },
 };
 
 // --- Service icons mapping ---
