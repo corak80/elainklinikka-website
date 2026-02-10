@@ -617,9 +617,9 @@ const translations = {
 
   // Footer
   'footer.description': {
-    fi: 'Vaasan ainoa yksityinen pieneläinklinikka. Olemme tarjonneet ammattitaitoista ja lämmintä eläinlääkäripalvelua Dragnäsbäckissä vuodesta 1989 – viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessanne.',
-    sv: 'Vasas enda privata smådjursklinik. Vi har erbjudit professionell och varm djursjukvård i Dragnäsbäck sedan 1989 – fem veterinärer och åtta djurskötare till er tjänst.',
-    en: 'The only private small animal clinic in Vaasa. We have provided professional and compassionate veterinary care in Dragnäsbäck since 1989 – five veterinarians and eight technicians at your service.'
+    fi: 'Vaasan ainoa yksityinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 – viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessanne.',
+    sv: 'Vasas enda privata smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till er tjänst.',
+    en: 'The only private small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight technicians at your service.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
