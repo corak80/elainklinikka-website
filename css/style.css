@@ -1446,7 +1446,9 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .cat-friendly-badge img {
