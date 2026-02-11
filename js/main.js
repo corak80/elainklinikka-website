@@ -2178,6 +2178,73 @@ const translations = {
     en: 'Electric heating pads and hot water bottles designed for humans are dangerous for anesthetized animals — the patient cannot move away from an overheated surface or express pain. Documented burn cases have been reported. According to AAHA guidelines, heating pads and cage dryers must not be used for warming anesthetized patients. Forced air warmers and purpose-designed conductive warming mats are the safest options.'
   },
 
+  // --- Article 24: Anesthesia Safety ---
+  'article.anesthesia.tag': {
+    fi: 'Anestesia',
+    sv: 'Anestesi',
+    en: 'Anesthesia'
+  },
+  'article.anesthesia.title': {
+    fi: 'Anestesiaturvallisuus — tilastot, riskit ja miten minimoimme ne',
+    sv: 'Anestesisäkerhet — statistik, risker och hur vi minimerar dem',
+    en: 'Anesthesia Safety — Statistics, Risks, and How We Minimize Them'
+  },
+  'article.anesthesia.intro': {
+    fi: 'Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Monet omistajat pelkäävät nukutusta — ymmärrettävästi. Todellinen riski on kuitenkin nykyaikaisella valvonnalla ja protokollilla erittäin matala. Maailmanlaajuinen tutkimus (Redondo ym. 2024, 55 000 koiraa) osoitti anestesiakuolleisuudeksi 0,17 % koirilla ja 0,24 % kissoilla — terveillä potilailla vain 0,05 % (1/1 849) koirilla ja 0,11 % (1/895) kissoilla.',
+    sv: 'Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare fruktar narkos — förståeligt. Den faktiska risken är dock med modern övervakning och protokoll mycket låg. En världsomfattande studie (Redondo m.fl. 2024, 55 000 hundar) visade en anestesidödlighet på 0,17 % hos hundar och 0,24 % hos katter — hos friska patienter bara 0,05 % (1/1 849) hos hundar och 0,11 % (1/895) hos katter.',
+    en: 'Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners fear anesthesia — understandably so. However, the actual risk with modern monitoring and protocols is very low. A worldwide study (Redondo et al. 2024, 55,000 dogs) showed anesthesia mortality of 0.17% in dogs and 0.24% in cats — in healthy patients only 0.05% (1 in 1,849) in dogs and 0.11% (1 in 895) in cats.'
+  },
+  'article.anesthesia.risk.title': {
+    fi: 'Riskitekijät ja ASA-luokitus',
+    sv: 'Riskfaktorer och ASA-klassificering',
+    en: 'Risk Factors and ASA Classification'
+  },
+  'article.anesthesia.risk.text': {
+    fi: 'Suurin yksittäinen riskitekijä on potilaan terveydentila. Eläinlääketieteessä käytetään ASA-luokitusta (I–V), joka arvioi potilaan kunnon ennen anestesiaa. Terveillä potilailla (ASA I–II) riski on erittäin matala. Sairailla potilailla (ASA III tai enemmän) riski kasvaa koirilla <strong>3,3-kertaiseksi</strong> ja kissoilla <strong>4,8-kertaiseksi</strong>. Muita riskitekijöitä ovat päivystysleikkaus, pitkä anestesia, brakykefaaliset rodut (lyhytkuonoiset) ja korkea tai hyvin nuori ikä. Brakykefaalisilla koirilla anestesian jälkeisten komplikaatioiden riski on <strong>4,3-kertainen</strong> ahtaiden hengitysteiden vuoksi.',
+    sv: 'Den enskilt största riskfaktorn är patientens hälsotillstånd. Inom veterinärmedicin används ASA-klassificeringen (I–V), som bedömer patientens tillstånd före anestesi. Hos friska patienter (ASA I–II) är risken mycket låg. Hos sjuka patienter (ASA III eller högre) ökar risken hos hundar <strong>3,3 gånger</strong> och hos katter <strong>4,8 gånger</strong>. Andra riskfaktorer är akutkirurgi, lång anestesi, brachycefala raser (trubbnosiga) och hög eller mycket ung ålder. Hos brachycefala hundar är risken för postanestesikomplikationer <strong>4,3 gånger</strong> högre på grund av trånga luftvägar.',
+    en: 'The single largest risk factor is the patient\'s health status. In veterinary medicine, the ASA classification (I–V) is used to assess patient condition before anesthesia. In healthy patients (ASA I–II), the risk is very low. In sick patients (ASA III or higher), the risk increases <strong>3.3-fold</strong> in dogs and <strong>4.8-fold</strong> in cats. Other risk factors include emergency surgery, prolonged anesthesia, brachycephalic breeds (short-nosed), and very old or very young age. Brachycephalic dogs have a <strong>4.3-fold</strong> higher risk of post-anesthetic complications due to their narrow airways.'
+  },
+  'article.anesthesia.monitoring.title': {
+    fi: 'Moderni valvonta pelastaa henkiä',
+    sv: 'Modern övervakning räddar liv',
+    en: 'Modern Monitoring Saves Lives'
+  },
+  'article.anesthesia.monitoring.text': {
+    fi: 'ACVAA:n päivitetyt ohjeet (2025) korostavat monitoroinnin merkitystä. Klinikallamme valvomme jokaista potilasta: <strong>pulssioksimetri</strong> (happikyllästeisyys), <strong>kapnografia</strong> (hiilidioksidi — varhainen varoitusjärjestelmä), <strong>verenpainemittaus</strong> (hypotension tunnistaminen), <strong>EKG</strong> (sydämen rytmi), <strong>lämpötilaseuranta</strong> ja <strong>ruokatorven stetoskooppi</strong>. Tutkimusten mukaan pulssioksimetri ja kapnografia yhdessä olisivat voineet estää 93 % anestesiavahingoista. Tärkeintä on kuitenkin koulutettu henkilö, joka tulkitsee monitoreja ja reagoi muutoksiin — automaattiset laitteet eivät korvaa valpasta ammattilaista.',
+    sv: 'ACVAA:s uppdaterade riktlinjer (2025) betonar vikten av övervakning. På vår klinik övervakar vi varje patient med: <strong>pulsoximeter</strong> (syremättnad), <strong>kapnograf</strong> (koldioxid — tidigt varningssystem), <strong>blodtrycksmätning</strong> (identifiering av hypotension), <strong>EKG</strong> (hjärtrytm), <strong>temperaturövervakning</strong> och <strong>esofagealt stetoskop</strong>. Studier visar att pulsoximetri och kapnografi tillsammans kunde ha förhindrat 93 % av anestesiolyckorna. Det viktigaste är dock en utbildad person som tolkar monitorerna och reagerar på förändringar — automatiska apparater ersätter inte en vaksam yrkesperson.',
+    en: 'The ACVAA updated guidelines (2025) emphasize the importance of monitoring. At our clinic, we monitor every patient with: <strong>pulse oximetry</strong> (oxygen saturation), <strong>capnography</strong> (carbon dioxide — early warning system), <strong>blood pressure measurement</strong> (detecting hypotension), <strong>ECG</strong> (heart rhythm), <strong>temperature monitoring</strong>, and <strong>esophageal stethoscope</strong>. Studies show that pulse oximetry and capnography together could have prevented 93% of anesthetic mishaps. Most importantly, however, is a trained person who interprets the monitors and responds to changes — automated devices do not replace a vigilant professional.'
+  },
+  'article.anesthesia.balanced.title': {
+    fi: 'Balansoitu anestesia ja kivunhallinta',
+    sv: 'Balanserad anestesi och smärthantering',
+    en: 'Balanced Anesthesia and Pain Management'
+  },
+  'article.anesthesia.balanced.text': {
+    fi: 'Nykyaikainen anestesia perustuu monimuotoiseen lähestymistapaan: yhdistämällä useita lääkeaineita pienillä annoksilla saadaan turvallisempi kokonaisuus kuin yhdellä lääkkeellä suurella annoksella. Käytämme induktiossa laskimonsisäistä anestesiaa (propofoli tai alfaksaloni), ylläpidossa inhalaatioanestesiaa (isofluraani tai sevofluraani) ja kivunhallinnassa opioideja, ketamiinia ja paikallispuudutuksia. Tämä balansoitu protokolla vähentää jokaisen yksittäisen lääkkeen annosta ja sen sivuvaikutuksia — erityisesti sydän- ja verenkiertolamaa. Klinikallamme on käytössä kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
+    sv: 'Modern anestesi bygger på ett multimodalt tillvägagångssätt: genom att kombinera flera läkemedel i låga doser uppnås en säkrare helhet än med ett enda läkemedel i hög dos. Vi använder intravenös anestesi vid induktion (propofol eller alfaxalon), inhalationsanestesi vid underhåll (isofluran eller sevofluran) och opioider, ketamin och lokalbedövning för smärthantering. Detta balanserade protokoll minskar dosen av varje enskilt läkemedel och dess biverkningar — särskilt kardiovaskulär depression. På vår klinik har vi två ventilatorer för att säkerställa säker anestesi.',
+    en: 'Modern anesthesia is based on a multimodal approach: by combining multiple drugs at low doses, a safer outcome is achieved than with a single drug at a high dose. We use intravenous anesthesia for induction (propofol or alfaxalone), inhalation anesthesia for maintenance (isoflurane or sevoflurane), and opioids, ketamine, and local anesthetics for pain management. This balanced protocol reduces the dose of each individual drug and its side effects — especially cardiovascular depression. Our clinic has two ventilators to ensure safe anesthesia.'
+  },
+  'article.anesthesia.vatinoxan.title': {
+    fi: 'Suomalainen innovaatio — vatinoksaani',
+    sv: 'Finsk innovation — vatinoxan',
+    en: 'Finnish Innovation — Vatinoxan'
+  },
+  'article.anesthesia.vatinoxan.text': {
+    fi: 'Helsingin yliopiston eläinlääketieteellisessä tiedekunnassa professori Outi Vainion johtama tutkimusryhmä kehitti vatinoksaanin (Zenalpha) — lääkeaineen, joka tekee sedaatiosta turvallisempaa. Alfa-2-agonistit (medetomidiini, deksmedetomidiini) ovat eläinlääketieteen käytetyimpiä sedatiiveja, mutta ne aiheuttavat bradykardiaa ja kohonnutta verenpainetta. Vatinoksaani estää nämä perifeeriset haittavaikutukset ylittämättä veri-aivoestettä — sedaatio ja kivunlievitys säilyvät, mutta sydämeen kohdistuvat haitat vähenevät merkittävästi. EMA hyväksyi lääkkeen 2021 ja FDA 2022.',
+    sv: 'Vid Helsingfors universitets veterinärmedicinska fakultet utvecklade forskargruppen ledd av professor Outi Vainio vatinoxan (Zenalpha) — ett läkemedel som gör sederingen säkrare. Alfa-2-agonister (medetomidin, dexmedetomidin) är de mest använda sedativa inom veterinärmedicin, men de orsakar bradykardi och förhöjt blodtryck. Vatinoxan blockerar dessa perifera biverkningar utan att passera blod-hjärnbarriären — sederingen och smärtlindringen bevaras, men de kardiovaskulära biverkningarna minskar avsevärt. EMA godkände läkemedlet 2021 och FDA 2022.',
+    en: 'At the University of Helsinki Faculty of Veterinary Medicine, the research group led by Professor Outi Vainio developed vatinoxan (Zenalpha) — a drug that makes sedation safer. Alpha-2 agonists (medetomidine, dexmedetomidine) are the most commonly used sedatives in veterinary medicine, but they cause bradycardia and elevated blood pressure. Vatinoxan blocks these peripheral side effects without crossing the blood-brain barrier — sedation and pain relief are preserved, while cardiovascular side effects are significantly reduced. EMA approved the drug in 2021 and FDA in 2022.'
+  },
+  'article.anesthesia.preop.title': {
+    fi: 'Ennen anestesiaa',
+    sv: 'Före anestesi',
+    en: 'Before Anesthesia'
+  },
+  'article.anesthesia.preop.text': {
+    fi: 'Jokainen potilas arvioidaan yksilöllisesti ennen anestesiaa. Esitutkimus sisältää kliinisen tutkimuksen, sydämen ja keuhkojen auskultaation sekä verikokeet (täydellinen verenkuva ja biokemia). Tutkimusten mukaan anestesiaprotokollaa muutettiin 79 %:ssa tapauksista verikoetulosten perusteella. Verikokeet voivat paljastaa piilevää munuais- tai maksasairautta, anemiaa tai elektrolyyttihäiriöitä, jotka vaikuttavat lääkeaineiden valintaan ja annosteluun. Jos löydökset ovat merkittäviä, toimenpide voidaan siirtää potilaan turvallisuuden vuoksi.',
+    sv: 'Varje patient bedöms individuellt före anestesi. Förundersökningen inkluderar klinisk undersökning, auskultation av hjärta och lungor samt blodprover (fullständig blodräkning och biokemi). Studier visar att anestesiprotokollet ändrades i 79 % av fallen baserat på blodprovsresultat. Blodprover kan avslöja dold njur- eller leversjukdom, anemi eller elektrolytrubbningar som påverkar val och dosering av läkemedel. Om fynden är betydande kan ingreppet skjutas upp för patientens säkerhet.',
+    en: 'Every patient is individually assessed before anesthesia. The pre-anesthetic evaluation includes a clinical examination, auscultation of the heart and lungs, and blood tests (complete blood count and biochemistry). Studies show that the anesthesia protocol was modified in 79% of cases based on blood test results. Blood tests can reveal hidden kidney or liver disease, anemia, or electrolyte imbalances that affect drug selection and dosing. If findings are significant, the procedure may be postponed for the patient\'s safety.'
+  },
+
 };
 
 // --- Service icons mapping ---
