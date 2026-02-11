@@ -1997,6 +1997,73 @@ const translations = {
     en: 'Owners often report an astonishing change within 24–48 hours after extraction: the pet is more energetic, eats better, is more social, and is "like a different animal." This transformation itself proves how much pain the animal was hiding. There is no known prevention because the cause of the disease remains unknown — the best protection is regular dental examination under general anesthesia so that lesions are detected early.'
   },
 
+  // --- Article 21: Vaccination ---
+  'article.vaccination.tag': {
+    fi: 'Terveys',
+    sv: 'Hälsa',
+    en: 'Health'
+  },
+  'article.vaccination.title': {
+    fi: 'Rokotukset Suomessa — koirien ja kissojen rokotusohjelma',
+    sv: 'Vaccinationer i Finland — vaccinationsprogram för hundar och katter',
+    en: 'Vaccinations in Finland — Vaccination Program for Dogs and Cats'
+  },
+  'article.vaccination.intro': {
+    fi: 'Rokotukset ovat tehokkain tapa suojata lemmikkiä tartuntataudeilta. Suomessa Ruokavirasto antaa rokotussuosituksia, mutta ne eivät ole juridisesti sitovia — eläinlääkäri tekee aina yksilöllisen arvion. Suomen rokotuskäytäntö seuraa WSAVA:n kansainvälisiä ohjeita maan matalan tautipaineen huomioiden.',
+    sv: 'Vaccinationer är det mest effektiva sättet att skydda husdjur mot smittsamma sjukdomar. I Finland ger Livsmedelsverket (Ruokavirasto) vaccinationsrekommendationer, men de är inte juridiskt bindande — veterinären gör alltid en individuell bedömning. Finlands vaccinationspraxis följer WSAVA:s internationella riktlinjer med hänsyn till landets låga sjukdomstryck.',
+    en: 'Vaccinations are the most effective way to protect pets from infectious diseases. In Finland, the Finnish Food Authority (Ruokavirasto) provides vaccination recommendations, but they are not legally binding — the veterinarian always makes an individual assessment. Finnish vaccination practice follows WSAVA international guidelines, taking into account the country\'s low disease pressure.'
+  },
+  'article.vaccination.dogs.title': {
+    fi: 'Koirien perusrokotteet',
+    sv: 'Grundvacciner för hundar',
+    en: 'Core Vaccines for Dogs'
+  },
+  'article.vaccination.dogs.text': {
+    fi: 'Kaikille koirille suositellaan perusrokotuksia kolmea tautia vastaan: <strong>penikkatautia</strong> (CDV), <strong>tarttuva maksatulehdusta</strong> (CAV) ja <strong>parvovirusta</strong> (CPV). Nämä annetaan yleensä kolmoisrokotteena. Lisäksi <strong>rabies</strong> suositellaan kaikille koirille ja on lakisääteinen metsästys- ja virkakoirille. Ei-ydinrokotteet kuten kennelyskä (parainfluenssa + Bordetella) suositellaan koirille, jotka tapaavat säännöllisesti muita koiria. Leptospiroosirokotus suositellaan vain endeemisille alueille matkustaville — Suomi ei ole endeeminen alue.',
+    sv: 'Alla hundar rekommenderas grundvaccinationer mot tre sjukdomar: <strong>valpsjuka</strong> (CDV), <strong>smittsam leverinflammation</strong> (CAV) och <strong>parvovirus</strong> (CPV). Dessa ges vanligtvis som ett trippelvaccin. Dessutom rekommenderas <strong>rabies</strong> för alla hundar och är lagstadgat för jakthundar och tjänstehundar. Icke-kärnvacciner som kennelhosta (parainfluensa + Bordetella) rekommenderas för hundar som regelbundet träffar andra hundar. Leptospirosvaccination rekommenderas bara för hundar som reser till endemiska områden — Finland är inte ett endemiskt område.',
+    en: 'All dogs are recommended core vaccinations against three diseases: <strong>canine distemper</strong> (CDV), <strong>infectious hepatitis</strong> (CAV), and <strong>parvovirus</strong> (CPV). These are usually given as a triple vaccine. Additionally, <strong>rabies</strong> is recommended for all dogs and is legally required for hunting and service dogs. Non-core vaccines such as kennel cough (parainfluenza + Bordetella) are recommended for dogs that regularly meet other dogs. Leptospirosis vaccination is recommended only for dogs travelling to endemic areas — Finland is not an endemic area.'
+  },
+  'article.vaccination.cats.title': {
+    fi: 'Kissojen perusrokotteet',
+    sv: 'Grundvacciner för katter',
+    en: 'Core Vaccines for Cats'
+  },
+  'article.vaccination.cats.text': {
+    fi: 'Kaikille kissoille suositellaan kolmoisrokotusta (RCP): <strong>kissaruttoa</strong> (FPV), <strong>kalikivirusta</strong> (FCV) ja <strong>herpesvirusta</strong> (FHV-1) vastaan. Hengitystievirusrokotus ei estä tartuntaa kokonaan, mutta lieventää oireita merkittävästi. Rabies suositellaan ulkoilukissoille ja on pakollinen matkustaville kissoille. <strong>Kissaleukemia</strong> (FeLV) ei kuulu Suomen rutiiinirokotuksiin, sillä FeLV:n esiintyvyys Suomessa on lähes nolla — se suositellaan vain FeLV-positiivisen kissan kanssa asuville.',
+    sv: 'Alla katter rekommenderas trippelvaccination (RCP): mot <strong>kattpest</strong> (FPV), <strong>calicivirus</strong> (FCV) och <strong>herpesvirus</strong> (FHV-1). Vaccin mot luftvägsinfektioner förhindrar inte smitta helt, men mildrar symtomen avsevärt. Rabies rekommenderas för utekatter och är obligatoriskt för katter som reser. <strong>Kattleukemi</strong> (FeLV) ingår inte i Finlands rutinvaccinationer, eftersom förekomsten av FeLV i Finland är nästan noll — det rekommenderas bara för katter som bor med en FeLV-positiv katt.',
+    en: 'All cats are recommended the triple vaccination (RCP): against <strong>feline panleukopenia</strong> (FPV), <strong>calicivirus</strong> (FCV), and <strong>herpesvirus</strong> (FHV-1). Respiratory virus vaccination does not completely prevent infection, but significantly reduces symptoms. Rabies is recommended for outdoor cats and is mandatory for cats travelling abroad. <strong>Feline leukemia</strong> (FeLV) is not part of routine vaccination in Finland, as FeLV prevalence in Finland is nearly zero — it is recommended only for cats living with a FeLV-positive cat.'
+  },
+  'article.vaccination.schedule.title': {
+    fi: 'Pentujen ja kissanpentujen rokotusohjelma',
+    sv: 'Vaccinationsprogram för valpar och kattungar',
+    en: 'Vaccination Schedule for Puppies and Kittens'
+  },
+  'article.vaccination.schedule.text': {
+    fi: '<strong>Koiranpennut:</strong> Ensimmäinen rokotus 8 viikon iässä (kolmoisrokote), toinen 12 viikon iässä, rabies 12–16 viikon iässä. Tehosterokotus 6–16 kuukauden iässä. Aikuisilla koirilla perusrokotteet 3 vuoden välein.<br><br><strong>Kissanpennut:</strong> Ensimmäinen RCP-rokotus 8–9 viikon iässä, toinen 12 viikon iässä. Tehosterokotus 12–16 kuukauden iässä. Aikuisilla kissoilla kissarutto (FPV) 3 vuoden välein, hengitystievirukset (FCV + FHV-1) 1–3 vuoden välein riskin mukaan.',
+    sv: '<strong>Valpar:</strong> Första vaccination vid 8 veckors ålder (trippelvaccin), andra vid 12 veckor, rabies vid 12–16 veckor. Boostervaccination vid 6–16 månaders ålder. Vuxna hundar: grundvacciner vart 3:e år.<br><br><strong>Kattungar:</strong> Första RCP-vaccination vid 8–9 veckors ålder, andra vid 12 veckor. Boostervaccination vid 12–16 månaders ålder. Vuxna katter: kattpest (FPV) vart 3:e år, luftvägsvirus (FCV + FHV-1) vart 1–3 år beroende på risk.',
+    en: '<strong>Puppies:</strong> First vaccination at 8 weeks (triple vaccine), second at 12 weeks, rabies at 12–16 weeks. Booster at 6–16 months of age. Adult dogs: core vaccines every 3 years.<br><br><strong>Kittens:</strong> First RCP vaccination at 8–9 weeks, second at 12 weeks. Booster at 12–16 months of age. Adult cats: panleukopenia (FPV) every 3 years, respiratory viruses (FCV + FHV-1) every 1–3 years depending on risk.'
+  },
+  'article.vaccination.rabies.title': {
+    fi: 'Rabies Suomessa',
+    sv: 'Rabies i Finland',
+    en: 'Rabies in Finland'
+  },
+  'article.vaccination.rabies.text': {
+    fi: 'Suomi on ollut virallisesti rabiesvapaa vuodesta 1991. Rabiesrokotus on lakisääteinen metsästyskoirille, viranomaisten palveluskoirille ja kaikille ulkomaille matkustaville lemmikeille. Tavalliselle kotikoiralle rokotus ei ole juridisesti pakollinen, mutta Ruokavirasto suosittelee sitä vahvasti kaikille koirille ja kissoille. Kennelliitto vaatii rabiesrokotuksen kaikilta näyttelyihin osallistuvilta koirilta. Ensimmäinen annos noin 4 kuukauden iässä, tehosterokotus vuoden iässä, sen jälkeen 3 vuoden välein.',
+    sv: 'Finland har varit officiellt rabiesfritt sedan 1991. Rabiesvaccination är lagstadgad för jakthundar, myndigheters tjänstehundar och alla husdjur som reser utomlands. För vanliga sällskapshundar är vaccinet inte juridiskt obligatoriskt, men Livsmedelsverket rekommenderar det starkt för alla hundar och katter. Kennelklubben kräver rabiesvaccination för alla hundar som deltar i utställningar. Första dosen vid cirka 4 månaders ålder, booster vid ett års ålder, därefter vart 3:e år.',
+    en: 'Finland has been officially rabies-free since 1991. Rabies vaccination is legally required for hunting dogs, government service dogs, and all pets travelling abroad. For ordinary pet dogs, vaccination is not legally mandatory, but the Finnish Food Authority strongly recommends it for all dogs and cats. The Finnish Kennel Club requires rabies vaccination for all dogs attending shows. First dose at approximately 4 months of age, booster at one year, then every 3 years.'
+  },
+  'article.vaccination.travel.title': {
+    fi: 'Matkustaminen lemmikin kanssa',
+    sv: 'Resa med husdjur',
+    en: 'Travelling with Your Pet'
+  },
+  'article.vaccination.travel.text': {
+    fi: 'EU:n alueella matkustamiseen tarvitaan <strong>mikrosiru</strong> (ennen rabiesrokotusta), voimassa oleva <strong>rabiesrokotus</strong> (vähintään 21 päivää ennen matkaa) ja <strong>EU-lemmikkipassi</strong>. Koirilta vaaditaan lisäksi <strong>ekinokokkoosilääkitys</strong> 1–5 päivää ennen Suomeen paluuta. Riskimaista (esim. Venäjä, Turkki) saapuvilta vaaditaan rabiesvasta-ainepitoisuustesti EU-hyväksytyssä laboratoriossa. Varaa aika rokotuksille ja matkustusasiakirjoille — hoidamme EU-lemmikkipassit klinikallamme.',
+    sv: 'För resor inom EU krävs <strong>mikrochip</strong> (före rabiesvaccination), giltig <strong>rabiesvaccination</strong> (minst 21 dagar före resan) och <strong>EU-sällskapsdjurspass</strong>. För hundar krävs dessutom <strong>ekinokockbehandling</strong> 1–5 dagar före återkomst till Finland. Från högriskländer (t.ex. Ryssland, Turkiet) krävs ett rabiesantikroppstest vid ett EU-godkänt laboratorium. Boka tid för vaccinationer och resedokument — vi utfärdar EU-sällskapsdjurspass på vår klinik.',
+    en: 'For travel within the EU, you need a <strong>microchip</strong> (before rabies vaccination), a valid <strong>rabies vaccination</strong> (at least 21 days before travel), and an <strong>EU pet passport</strong>. Dogs additionally require <strong>echinococcus treatment</strong> 1–5 days before returning to Finland. Pets arriving from high-risk countries (e.g., Russia, Turkey) require a rabies antibody titer test at an EU-approved laboratory. Book an appointment for vaccinations and travel documents — we issue EU pet passports at our clinic.'
+  },
+
 };
 
 // --- Service icons mapping ---
