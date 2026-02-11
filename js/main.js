@@ -667,6 +667,7 @@ const translations = {
   'articles.filter.emergency': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   'articles.filter.clinic': { fi: 'Klinikka', sv: 'Klinik', en: 'Clinic' },
   'articles.filter.cardiology': { fi: 'Kardiologia', sv: 'Kardiologi', en: 'Cardiology' },
+  'articles.filter.endoscopy': { fi: 'Tähystys', sv: 'Endoskopi', en: 'Endoscopy' },
   'articles.filter.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
   'articles.tag.orthopedics': { fi: 'Ortopedia', sv: 'Ortopedi', en: 'Orthopedics' },
 
@@ -1861,6 +1862,141 @@ const translations = {
     sv: 'Prognosen för en tidigt upptäckt och fullständigt avlägsnad dentigen cysta är utmärkt. Risken för återfall är liten när cystans vägg har avlägsnats helt. Prognosen är sämre om cystan har vuxit sig stor, betydande benförlust har skett eller käken redan har frakturerats. Därför är tidig diagnos avgörande — tandröngen är det bästa sättet att hitta icke-erupterade tänder innan en cysta hinner bildas.',
     en: 'The prognosis for an early-detected and completely removed dentigerous cyst is excellent. The risk of recurrence is low when the cyst wall has been entirely removed. The prognosis is worse if the cyst has grown large, extensive bone has been destroyed, or the jaw has already fractured. This is why early diagnosis is crucial — dental X-rays are the best way to find unerupted teeth before a cyst has time to form.'
   },
+
+  // Article 19: Gastroscopy
+  'article.gastroscopy.tag': {
+    fi: 'Tähystys',
+    sv: 'Endoskopi',
+    en: 'Endoscopy'
+  },
+  'article.gastroscopy.title': {
+    fi: 'Gastroskopia — mahalaukun tähystys ja vierasesineiden poisto ilman leikkausta',
+    sv: 'Gastroskopi — magsäcksundersökning och avlägsnande av främmande föremål utan kirurgi',
+    en: 'Gastroscopy — Stomach Examination and Foreign Body Removal Without Surgery'
+  },
+  'article.gastroscopy.intro': {
+    fi: 'Gastroskopia on tähystystutkimus, jossa taipuisa kameraendoskooppi viedään suun kautta ruokatorveen, mahalaukkuun ja pohjukaissuoleen. Tutkimus mahdollistaa limakalvojen tarkastelun reaaliajassa monitorilta, koepalojen oton ja vierasesineiden poiston — kaikki ilman kirurgista viiltoa. Gastroskopia on yksi yleisimmistä tähystystoimenpiteistä eläinlääketieteessä, ja se on erityisen arvokas työkalu kroonisten vatsaoireiden selvittämisessä ja vierasesineiden poistossa.',
+    sv: 'Gastroskopi är en endoskopisk undersökning där ett flexibelt kameraendoskop förs genom munnen till matstrupen, magsäcken och tolvfingertarmen. Undersökningen möjliggör granskning av slemhinnorna i realtid på en monitor, provtagning av vävnadsprover och avlägsnande av främmande föremål — allt utan kirurgiskt snitt. Gastroskopi är en av de vanligaste endoskopiska procedurerna inom veterinärmedicin och är ett särskilt värdefullt verktyg för att utreda kroniska magsymtom och avlägsna främmande föremål.',
+    en: 'Gastroscopy is an endoscopic procedure in which a flexible camera endoscope is passed through the mouth into the esophagus, stomach, and duodenum. The examination allows real-time viewing of the mucosal lining on a monitor, tissue biopsy collection, and foreign body removal — all without a surgical incision. Gastroscopy is one of the most common endoscopic procedures in veterinary medicine and is an especially valuable tool for investigating chronic gastrointestinal symptoms and removing foreign bodies.'
+  },
+  'article.gastroscopy.foreign.title': {
+    fi: 'Vierasesineiden poisto — leikkauksen vaihtoehto',
+    sv: 'Avlägsnande av främmande föremål — ett alternativ till kirurgi',
+    en: 'Foreign Body Removal — an Alternative to Surgery'
+  },
+  'article.gastroscopy.foreign.text': {
+    fi: 'Vierasesineen poisto on gastroskopian yleisimpiä käyttöaiheita. Tutkimusten mukaan endoskooppinen poisto onnistuu 83–88 % tapauksista. Koirilla yleisimmät vierasesineet ovat sukat, muovinpalat, kankaat, luut ja lelut. Kissoilla tyypillisimpiä ovat neulat, langat, kengännauhat ja kumilenkit. Endoskooppinen poisto on huomattavasti vähemmän invasiivinen kuin leikkaus: komplikaatioriski on merkittävästi pienempi, toipuminen nopeampaa, ja lemmikki pääsee usein kotiin samana päivänä. Vierasesineen nieltämisen jälkeen nopea hoitoon hakeutuminen on tärkeää — yli 24 tunnin oksentelu heikentää ennustetta merkittävästi.',
+    sv: 'Avlägsnande av främmande föremål är en av de vanligaste indikationerna för gastroskopi. Studier visar att endoskopisk avlägsnande lyckas i 83–88 % av fallen. Hos hundar är de vanligaste främmande föremålen strumpor, plastbitar, tyg, ben och leksaker. Hos katter är nålar, trådar, skosnören och gummiband vanligast. Endoskopisk avlägsnande är betydligt mindre invasivt än kirurgi: komplikationsrisken är markant lägre, återhämtningen snabbare, och husdjuret kan ofta gå hem samma dag. Efter att ett främmande föremål svalts är det viktigt att snabbt söka vård — kräkningar i mer än 24 timmar försämrar prognosen avsevärt.',
+    en: 'Foreign body removal is one of the most common indications for gastroscopy. Studies show that endoscopic removal succeeds in 83–88% of cases. In dogs, the most common foreign bodies are socks, plastic fragments, cloth, bones, and toys. In cats, needles, threads, shoelaces, and rubber bands are most typical. Endoscopic removal is significantly less invasive than surgery: the complication risk is markedly lower, recovery is faster, and the pet can often go home the same day. After swallowing a foreign body, seeking prompt veterinary care is important — vomiting for more than 24 hours significantly worsens the prognosis.'
+  },
+  'article.gastroscopy.diagnosis.title': {
+    fi: 'Kroonisten vatsaoireiden selvittäminen',
+    sv: 'Utredning av kroniska magsymtom',
+    en: 'Investigating Chronic Gastrointestinal Symptoms'
+  },
+  'article.gastroscopy.diagnosis.text': {
+    fi: 'Gastroskopia on välttämätön työkalu kroonisen oksentelun, ripulin, laihtumisen ja ruokahaluttomuuden syyn selvittämisessä. Tähystyksen aikana otetaan koepaloja limakalvosta. Koepalat otetaan aina, vaikka limakalvo näyttäisi normaalilta — monissa merkittävissä sairauksissa limakalvo voi näyttää silmämääräisesti terveeltä. Gastroskopia paljastaa myös mahalaukun kasvaimet, polyypit, haavaumat ja tulehdusmuutokset.',
+    sv: 'Gastroskopi är ett oumbärligt verktyg för att utreda orsaken till kroniska kräkningar, diarré, viktminskning och aptitlöshet. Under undersökningen tas vävnadsprover (biopsier) från slemhinnan. Biopsier tas alltid, även om slemhinnan ser normal ut — vid många betydande sjukdomar kan slemhinnan se visuellt frisk ut. Gastroskopi avslöjar också tumörer i magsäcken, polyper, sår och inflammatoriska förändringar.',
+    en: 'Gastroscopy is an essential tool for investigating the cause of chronic vomiting, diarrhea, weight loss, and loss of appetite. During the examination, tissue biopsies are taken from the mucosa. Biopsies are always taken even when the mucosa appears normal — in many significant diseases, the mucosa can look visually healthy. Gastroscopy also reveals stomach tumors, polyps, ulcers, and inflammatory changes.'
+  },
+  'article.gastroscopy.procedure.title': {
+    fi: 'Toimenpide',
+    sv: 'Proceduren',
+    en: 'The Procedure'
+  },
+  'article.gastroscopy.procedure.text': {
+    fi: 'Gastroskopia tehdään yleisanestesiassa. Lemmikki paastoaa 12–18 tuntia ennen toimenpidettä. Taipuisa endoskooppi viedään suun kautta ruokatorveen ja edelleen mahalaukkuun ja pohjukaissuoleen. Kamera välittää teräväpiirtokuvaa monitorille reaaliajassa. Endoskoopin työkanavan kautta voidaan käyttää biopsiapihtejä koepalojen ottoon, tarttumapihtejä vierasesineiden poistoon sekä huuhtelukatetria. Diagnostinen gastroskopia kestää tyypillisesti 15–30 minuuttia, vierasesineen poisto keskimäärin noin tunnin.',
+    sv: 'Gastroskopi utförs under generell anestesi. Husdjuret fastar 12–18 timmar före ingreppet. Ett flexibelt endoskop förs genom munnen till matstrupen och vidare till magsäcken och tolvfingertarmen. Kameran överför högupplöst bild till en monitor i realtid. Genom endoskopets arbetskanal kan man använda biopsitänger för provtagning, greptänger för avlägsnande av främmande föremål samt spolkateter. Diagnostisk gastroskopi tar typiskt 15–30 minuter, avlägsnande av främmande föremål i genomsnitt cirka en timme.',
+    en: 'Gastroscopy is performed under general anesthesia. The pet fasts for 12–18 hours before the procedure. A flexible endoscope is passed through the mouth into the esophagus and onward to the stomach and duodenum. The camera transmits high-definition images to a monitor in real time. Through the endoscope\'s working channel, biopsy forceps can be used for tissue sampling, grasping forceps for foreign body removal, and flushing catheters. Diagnostic gastroscopy typically takes 15–30 minutes, foreign body removal approximately one hour on average.'
+  },
+  'article.gastroscopy.advantages.title': {
+    fi: 'Edut verrattuna leikkaukseen',
+    sv: 'Fördelar jämfört med kirurgi',
+    en: 'Advantages Over Surgery'
+  },
+  'article.gastroscopy.advantages.text': {
+    fi: 'Gastroskopia on minimaalisesti invasiivinen — ei viiltoa, ei tikkejä mahalaukkuun tai suoleen. Lemmikki toipuu nopeammin, kipua on vähemmän ja infektioriski on pienempi. Useimmat potilaat pääsevät kotiin samana päivänä ja voivat syödä jo muutaman tunnin kuluttua. Komplikaatioriski on erittäin matala: mahalaukun perforaatioriski on vain 0,1 % koirilla ja 1,6 % kissoilla. Gastroskopia on sekä diagnostinen että hoidollinen — samassa toimenpiteessä voidaan tutkia, ottaa koepalaoja ja poistaa vierasesine.',
+    sv: 'Gastroskopi är minimalt invasivt — inget snitt, inga suturer i magsäck eller tarm. Husdjuret återhämtar sig snabbare, smärtan är mindre och infektionsrisken lägre. De flesta patienter kan gå hem samma dag och kan äta redan efter några timmar. Komplikationsrisken är mycket låg: risken för magperforation är bara 0,1 % hos hundar och 1,6 % hos katter. Gastroskopi är både diagnostiskt och terapeutiskt — i samma ingrepp kan man undersöka, ta vävnadsprover och avlägsna främmande föremål.',
+    en: 'Gastroscopy is minimally invasive — no incision, no sutures to the stomach or intestine. The pet recovers faster, there is less pain, and the infection risk is lower. Most patients go home the same day and can eat within a few hours. The complication risk is very low: the perforation rate is only 0.1% in dogs and 1.6% in cats. Gastroscopy is both diagnostic and therapeutic — in the same procedure, the doctor can examine, take biopsies, and remove foreign bodies.'
+  },
+  'article.gastroscopy.contact.title': {
+    fi: 'Milloin hakeutua tutkimukseen?',
+    sv: 'När ska man söka undersökning?',
+    en: 'When to Seek Examination?'
+  },
+  'article.gastroscopy.contact.text': {
+    fi: 'Ota yhteyttä, jos lemmikkisi oksentelee toistuvasti, on laihtunut selittämättömästi, välttelee ruokaa, ulosteessa on verta tai limaa, tai epäilet vierasesineen nielemistä. Eläinklinikka Saarella suoritamme gastroskopiatutkimukset ja vierasesineiden endoskooppiset poistot — varaa aika tutkimukseen.',
+    sv: 'Kontakta oss om ditt husdjur kräks upprepade gånger, har gått ner i vikt utan förklaring, undviker mat, har blod eller slem i avföringen, eller om du misstänker att det har svalt ett främmande föremål. På Djurkliniken Saari utför vi gastroskopiundersökningar och endoskopiska avlägsnanden av främmande föremål — boka tid för undersökning.',
+    en: 'Contact us if your pet vomits repeatedly, has lost weight unexpectedly, avoids food, has blood or mucus in the stool, or if you suspect it has swallowed a foreign object. At Eläinklinikka Saari, we perform gastroscopy examinations and endoscopic foreign body removals — book an appointment for examination.'
+  },
+
+  // Article 20: Tooth Resorption
+  'article.resorption.tag': {
+    fi: 'Hammashoito',
+    sv: 'Tandvård',
+    en: 'Dental'
+  },
+  'article.resorption.title': {
+    fi: 'Hammasresorptio — piilevä ja kivulias hammassairaus',
+    sv: 'Tandresorption — en dold och smärtsam tandsjukdom',
+    en: 'Tooth Resorption — a Hidden and Painful Dental Disease'
+  },
+  'article.resorption.intro': {
+    fi: 'Hammasresorptio on sairaus, jossa erikoistuneet solut (odontolastit) tuhoavat hampaan kovakudosta — kiillettä, dentiiniä ja hammassementtiä. Sairaus koskettaa sekä kissoja että koiria ja on paljon yleisempi kuin moni omistaja uskoo. Kissoilla esiintyvyys on 20–67 %, ja yli 5-vuotiailla jopa 75 %. Suomalaisessa 8 115 kissan tutkimuksessa rotukatit olivat selvästi alttiimpia (70 %) kuin sekarotuiset (38 %). Koirilla esiintyvyys on vastaavasti merkittävä: täyden suun röntgenkuvauksessa jopa 54 % koirista kärsi hammasresorptiosta, ja riski kasvaa erityisesti 9–11 vuoden iässä. Molemmilla lajeilla yleisimmin vaurioituvat hampaat ovat välihampaat (premolaarit). Sairaus on erityisen salakavala, koska sekä kissat että koirat peittävät suukipua — moni lemmikki syö ja käyttäytyy "normaalisti" vaikka kärsii merkittävästä kroonisesta kivusta.',
+    sv: 'Tandresorption är en sjukdom där specialiserade celler (odontoklaster) bryter ner tandens hårda vävnader — emalj, dentin och tandcement. Sjukdomen drabbar både katter och hundar och är mycket vanligare än många ägare tror. Hos katter är prevalensen 20–67 %, och bland katter över 5 år upp till 75 %. I en finsk studie med 8 115 katter var raskatter klart mer mottagliga (70 %) än blandraser (38 %). Hos hundar är prevalensen likaså betydande: vid fullständig tandröntgen hade upp till 54 % av hundarna tandresorption, och risken ökar särskilt vid 9–11 års ålder. Hos båda arterna är premolarerna (kindtänderna) de mest drabbade tänderna. Sjukdomen är särskilt lömsk eftersom både katter och hundar döljer munsmärta — många husdjur äter och beter sig "normalt" trots betydande kronisk smärta.',
+    en: 'Tooth resorption is a disease in which specialized cells (odontoclasts) destroy the hard tissues of the tooth — enamel, dentin, and cementum. The disease affects both cats and dogs and is far more common than many owners realize. In cats, the prevalence is 20–67%, rising to as high as 75% in cats over 5 years old. In a Finnish study of 8,115 cats, purebred cats were clearly more susceptible (70%) than mixed-breed cats (38%). In dogs, the prevalence is similarly significant: full-mouth radiographs revealed tooth resorption in up to 54% of dogs, with the risk increasing particularly at 9–11 years of age. In both species, the premolars are the most commonly affected teeth. The disease is particularly insidious because both cats and dogs hide oral pain — many pets eat and behave "normally" despite significant chronic pain.'
+  },
+  'article.resorption.types.title': {
+    fi: 'Tyypit — miksi röntgen ratkaisee hoidon',
+    sv: 'Typer — varför röntgen avgör behandlingen',
+    en: 'Types — Why Radiographs Determine Treatment'
+  },
+  'article.resorption.types.text': {
+    fi: 'Hammasresorptio jaetaan kolmeen tyyppiin, ja erottelu vaatii aina hammasröntgenkuvan. Tyypissä 1 hammas tuhoutuu paikallisesti ja tulehduskudos korvaa menetetyn hampaan — röntgenkuvassa näkyy tummia alueita, mutta hampaan juuret ja parodontaaliligamentti ovat edelleen tunnistettavissa. Tyypissä 2 hampaan juuri korvautuu luulla ja sulautuu leukaluuhun (ankyloosi) — röntgenkuvassa juuret näkyvät "haamuina" tai katoavat kokonaan ympäröivään luuhun. Tyypissä 3 samassa hampaassa esiintyy molempia. Tyyppi 2 on yleisempi, ja syytä pidetään tuntemattomana. Tyyppi 1 liittyy usein paikalliseen tulehdukseen.',
+    sv: 'Tandresorption delas in i tre typer, och skillnaden kräver alltid tandröntgen. Vid typ 1 förstörs tanden lokalt och inflammatorisk granulationsvävnad ersätter den förlorade tanden — på röntgen syns mörka områden, men tandens rötter och parodontalligament är fortfarande identifierbara. Vid typ 2 ersätts tandroten med ben och smälter samman med käkbenet (ankylos) — på röntgen syns rötterna som "spöken" eller försvinner helt in i omgivande ben. Vid typ 3 förekommer båda typerna i samma tand. Typ 2 är vanligare och orsaken anses okänd. Typ 1 är ofta kopplad till lokal inflammation.',
+    en: 'Tooth resorption is divided into three types, and distinguishing between them always requires dental radiographs. In Type 1, the tooth is destroyed locally and inflammatory granulation tissue replaces the lost tooth — radiographs show dark areas, but the roots and periodontal ligament are still identifiable. In Type 2, the root is replaced by bone and fuses with the jawbone (ankylosis) — on radiographs, the roots appear as "ghosts" or disappear entirely into the surrounding bone. Type 3 shows features of both in the same tooth. Type 2 is more common and its cause is considered unknown. Type 1 is often associated with local inflammation.'
+  },
+  'article.resorption.symptoms.title': {
+    fi: 'Oireet — piilevä kipu',
+    sv: 'Symtom — dold smärta',
+    en: 'Symptoms — Hidden Pain'
+  },
+  'article.resorption.symptoms.text': {
+    fi: 'Hammasresorptio on usein "hiljainen sairaus" — eläimet ovat evoluution myötä oppineet peittämään suukipua, koska luonnossa kivun näyttäminen tekee eläimestä saaliin. Omistaja voi huomata hienovaraisia merkkejä: ruoan putoilu suusta, pään kallistaminen syödessä, pureskelu vain toisella puolella, pureskelematta nieleminen, lisääntynyt kuolaaminen, leuan vapina tai naksahtelu (lihaskouristus kun vaurio koskettaa), kovien lelujen tai luiden välttely, ärtyisyys, vetäytyminen tai huonontunut turkki. Moni lemmikki jatkaa syömistä kivusta huolimatta. Kliinisessä tutkimuksessa voidaan nähdä vaaleanpunaisia pisteitä ikenessä (tulehduskudos kasvaa hampaan vaurioon), puuttuvia hampaita tai paikallista ientulehdusta yksittäisen hampaan ympärillä.',
+    sv: 'Tandresorption är ofta en "tyst sjukdom" — djur har genom evolutionen lärt sig att dölja munsmärta, eftersom det i naturen gör djuret till ett byte. Ägaren kan märka subtila tecken: mat som faller ur munnen, huvudlutning vid ätande, tuggande bara på ena sidan, sväljning utan att tugga, ökad dregling, käkskakningar eller klickande (muskelkramper när lesionen berörs), undvikande av hårda leksaker eller ben, irritabilitet, tillbakadragenhet eller försämrad päls. Många husdjur fortsätter att äta trots smärta. Vid klinisk undersökning kan man se rosa fläckar i tandköttet (inflammatorisk vävnad som växer in i tandskadan), saknade tänder eller lokal tandköttsinflammation runt enskilda tänder.',
+    en: 'Tooth resorption is often a "silent disease" — animals have evolved to hide oral pain, because in nature showing pain makes an animal prey. Owners may notice subtle signs: dropping food from the mouth, tilting the head while eating, chewing on only one side, swallowing without chewing, increased drooling, jaw trembling or chattering (muscle spasms when the lesion is touched), avoiding hard toys or bones, irritability, withdrawal, or a deteriorating coat. Many pets continue eating despite pain. During clinical examination, pink spots on the gums may be seen (inflammatory tissue growing into the tooth defect), missing teeth, or localized gingivitis around individual teeth.'
+  },
+  'article.resorption.diagnosis.title': {
+    fi: 'Diagnoosi — hammasröntgen löytää 2,4-kertaisesti',
+    sv: 'Diagnos — tandröntgen hittar 2,4 gånger mer',
+    en: 'Diagnosis — Dental Radiographs Find 2.4 Times More'
+  },
+  'article.resorption.diagnosis.text': {
+    fi: 'Hammasröntgen on ainoa tapa todeta hammasresorptio luotettavasti. Tutkimusten mukaan röntgen löytää 2,4 kertaa enemmän vaurioituneita hampaita kuin pelkkä kliininen tutkimus. Noin 60 % hampaan rakenteesta on ikenen alla näkymättömissä. Röntgenkuva paljastaa myös vaurion tyypin (1, 2 vai 3), mikä suoraan määrittää hoidon. Suosittelemme täyden suun hammasröntgenkuvausta yleisanestesiassa kaikille potilaille — erityisesti iäkkäämmille eläimille. "Puuttuva hammas" suun tarkastuksessa ei aina tarkoita menetystä — hammas on voinut resorboitua ikenen alle.',
+    sv: 'Tandröntgen är det enda sättet att tillförlitligt diagnostisera tandresorption. Studier visar att röntgen hittar 2,4 gånger fler skadade tänder än enbart klinisk undersökning. Cirka 60 % av tandens struktur ligger under tandköttet och är osynlig. Röntgenbilden avslöjar också skadans typ (1, 2 eller 3), vilket direkt bestämmer behandlingen. Vi rekommenderar fullständig tandröntgen under generell anestesi för alla patienter — särskilt äldre djur. En "saknad tand" vid munundersökning betyder inte alltid att den tappats — tanden kan ha resorberats under tandköttet.',
+    en: 'Dental radiographs are the only way to reliably diagnose tooth resorption. Studies show that radiographs detect 2.4 times more affected teeth than clinical examination alone. About 60% of tooth structure lies below the gum line and is invisible. Radiographs also reveal the lesion type (1, 2, or 3), which directly determines treatment. We recommend full-mouth dental radiographs under general anesthesia for all patients — especially older animals. A "missing tooth" during oral examination does not always mean it was lost — the tooth may have resorbed beneath the gum.'
+  },
+  'article.resorption.treatment.title': {
+    fi: 'Hoito — tyyppi määrittää menetelmän',
+    sv: 'Behandling — typen avgör metoden',
+    en: 'Treatment — Type Determines the Method'
+  },
+  'article.resorption.treatment.text': {
+    fi: 'Tyypin 1 hoito on kirurginen poisto — sekä kruunu että kaikki juuret poistetaan kokonaan, koska parodontaaliligamentti on ehjä ja juurissa voi olla tulehduskudosta. Tyypin 2 hoito on kruunun amputaatio — koska juuret ovat korvautumassa luulla, niitä ei tarvitse eikä tule yrittää poistaa (ankyloituneen juuren poistoyritys voi johtaa leukaluun murtumaan). Tyypin 3 hoito on sama kuin tyypin 1 — täydellinen poisto. Paikkausta tai fluorihoitoa ei suositella — tutkimuksissa 72 % paikatuista hampaista eteni. Hammasresorptio ei koskaan parane itsestään. Eläinklinikka Saarella suoritamme hammasröntgenkuvaukset ja hampaiden kirurgiset poistot — varaa aika hammastutkimukseen.',
+    sv: 'Behandlingen för typ 1 är kirurgisk extraktion — både kronan och alla rötter avlägsnas helt, eftersom parodontalligamentet är intakt och rötterna kan innehålla inflammatorisk vävnad. Behandlingen för typ 2 är kronamputering — eftersom rötterna håller på att ersättas av ben behöver de inte och ska inte försöka avlägsnas (försök att extrahera en ankyloserad rot kan leda till käkfraktur). Typ 3 behandlas som typ 1 — fullständig extraktion. Lagning eller fluorbehandling rekommenderas inte — i studier fortskred 72 % av lagade tänder. Tandresorption läker aldrig av sig själv. På Djurkliniken Saari utför vi tandröntgen och kirurgiska tandextraktioner — boka tid för en tandundersökning.',
+    en: 'Type 1 treatment is surgical extraction — both the crown and all roots are completely removed, because the periodontal ligament is intact and the roots may contain inflammatory tissue. Type 2 treatment is crown amputation — since the roots are being replaced by bone, they do not need to be and should not be attempted to be removed (attempting to extract an ankylosed root can lead to jaw fracture). Type 3 is treated the same as Type 1 — complete extraction. Fillings or fluoride treatment are not recommended — in studies, 72% of filled teeth progressed. Tooth resorption never heals on its own. At Eläinklinikka Saari, we perform dental radiographs and surgical tooth extractions — book an appointment for a dental examination.'
+  },
+  'article.resorption.after.title': {
+    fi: 'Hoidon jälkeen — dramaattinen muutos',
+    sv: 'Efter behandling — en dramatisk förändring',
+    en: 'After Treatment — a Dramatic Change'
+  },
+  'article.resorption.after.text': {
+    fi: 'Omistajat raportoivat usein hämmästyttävästä muutoksesta 24–48 tunnin kuluessa poistosta: lemmikki on energisempi, syö paremmin, on sosiaalisempi ja "kuin eri eläin". Tämä muutos itsessään todistaa, kuinka paljon kipua eläin kätki. Ennaltaehkäisyä ei tunneta, koska sairauden syy on edelleen tuntematon — paras suoja on säännöllinen hammastutkimus yleisanestesiassa, jotta vauriot löydetään varhain.',
+    sv: 'Ägare rapporterar ofta en häpnadsväckande förändring inom 24–48 timmar efter extraktion: husdjuret är mer energiskt, äter bättre, är mer socialt och "som ett annat djur". Denna förändring i sig bevisar hur mycket smärta djuret dolde. Det finns ingen känd förebyggande åtgärd eftersom sjukdomens orsak fortfarande är okänd — det bästa skyddet är regelbunden tandundersökning under generell anestesi så att skador upptäcks tidigt.',
+    en: 'Owners often report an astonishing change within 24–48 hours after extraction: the pet is more energetic, eats better, is more social, and is "like a different animal." This transformation itself proves how much pain the animal was hiding. There is no known prevention because the cause of the disease remains unknown — the best protection is regular dental examination under general anesthesia so that lesions are detected early.'
+  },
+
 };
 
 // --- Service icons mapping ---
