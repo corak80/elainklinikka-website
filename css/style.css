@@ -1510,7 +1510,7 @@ ul {
 
   .hero-actions .btn {
     width: 100%;
-    text-align: center;
+    justify-content: center;
   }
 
   .lang-toggle {
