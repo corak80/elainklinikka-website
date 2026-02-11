@@ -2064,6 +2064,120 @@ const translations = {
     en: 'For travel within the EU, you need a <strong>microchip</strong> (before rabies vaccination), a valid <strong>rabies vaccination</strong> (at least 21 days before travel), and an <strong>EU pet passport</strong>. Dogs additionally require <strong>echinococcus treatment</strong> 1–5 days before returning to Finland. Alternatively, the 28-day rule can be used: two treatments no more than 28 days apart before travel and a third after arrival in Finland. Pets arriving from high-risk countries (e.g., Russia, Turkey) require a rabies antibody titer test at an EU-approved laboratory. Book an appointment for vaccinations and travel documents — we issue EU pet passports at our clinic.'
   },
 
+  // --- Article 22: IBD vs Lymphoma ---
+  'article.ibdlymphoma.tag': {
+    fi: 'Terveys',
+    sv: 'Hälsa',
+    en: 'Health'
+  },
+  'article.ibdlymphoma.title': {
+    fi: 'IBD vai lymfooma? — eläinlääketieteen vaikein erotusdiagnoosi',
+    sv: 'IBD eller lymfom? — veterinärmedicinens svåraste differentialdiagnos',
+    en: 'IBD or Lymphoma? — The Most Difficult Differential Diagnosis in Veterinary Medicine'
+  },
+  'article.ibdlymphoma.intro': {
+    fi: 'Tulehduksellinen suolistosairaus (IBD) ja matala-asteinen suoliston lymfooma ovat eläinlääketieteen vaikeimpia erotusdiagnooseja — erityisesti kissoilla. Molemmat aiheuttavat kroonista oksentelua, ripulia, laihtumista ja ruokahaluttomuutta, ja ne esiintyvät tyypillisesti keski-ikäisillä ja iäkkäillä eläimillä. Oikea diagnoosi on ratkaiseva, sillä hoidot eroavat merkittävästi: IBD:tä hoidetaan immunosuppressiolla, lymfoomaa kemoterapialla.',
+    sv: 'Inflammatorisk tarmsjukdom (IBD) och låggradig intestinal lymfom är bland de svåraste differentialdiagnoserna inom veterinärmedicin — särskilt hos katter. Båda orsakar kroniska kräkningar, diarré, viktminskning och aptitlöshet, och drabbar typiskt medelålders och äldre djur. Korrekt diagnos är avgörande, eftersom behandlingarna skiljer sig markant: IBD behandlas med immunsuppression, lymfom med kemoterapi.',
+    en: 'Inflammatory bowel disease (IBD) and low-grade intestinal lymphoma are among the most difficult differential diagnoses in veterinary medicine — especially in cats. Both cause chronic vomiting, diarrhea, weight loss, and loss of appetite, and typically occur in middle-aged and older animals. Accurate diagnosis is critical, as treatments differ significantly: IBD is treated with immunosuppression, lymphoma with chemotherapy.'
+  },
+  'article.ibdlymphoma.challenge.title': {
+    fi: 'Miksi erottaminen on niin vaikeaa',
+    sv: 'Varför det är så svårt att skilja dem åt',
+    en: 'Why Differentiation Is So Difficult'
+  },
+  'article.ibdlymphoma.challenge.text': {
+    fi: 'Vakava lymfosyyttis-plasmasyyttinen IBD ja matala-asteinen lymfooma näyttävät mikroskoopissa lähes identtisiltä — molemmat ilmenevät pienten lymfosyyttien tunkeutumisena suoliston limakalvoon. Tutkimuksissa patologit ovat erimielisiä diagnoosista merkittävässä osassa tapauksista pelkän perinteisen värjäyksen perusteella. Lisäksi yhä enemmän on näyttöä siitä, että krooninen tulehdus (IBD) voi edetä lymfoomaksi — kyseessä ei ole kaksi täysin erillistä sairautta vaan mahdollinen jatkumo.',
+    sv: 'Allvarlig lymfocytär-plasmacytär IBD och låggradig lymfom ser nästan identiska ut i mikroskop — båda visar infiltration av små lymfocyter i tarmslemhinnan. Studier visar att patologer är oeniga om diagnosen i en betydande andel fall baserat enbart på konventionell färgning. Dessutom finns allt mer bevis för att kronisk inflammation (IBD) kan utvecklas till lymfom — det handlar inte om två helt separata sjukdomar utan om ett möjligt kontinuum.',
+    en: 'Severe lymphocytic-plasmacytic IBD and low-grade lymphoma look nearly identical under the microscope — both appear as infiltration of small lymphocytes into the intestinal mucosa. Studies show that pathologists disagree on the diagnosis in a significant proportion of cases based on conventional staining alone. Furthermore, there is growing evidence that chronic inflammation (IBD) may progress to lymphoma — these are not two entirely separate diseases but rather a possible continuum.'
+  },
+  'article.ibdlymphoma.diagnosis.title': {
+    fi: 'Diagnoosi vaatii kehittyneitä menetelmiä',
+    sv: 'Diagnosen kräver avancerade metoder',
+    en: 'Diagnosis Requires Advanced Methods'
+  },
+  'article.ibdlymphoma.diagnosis.text': {
+    fi: 'Ultraäänitutkimus ohjaa koepalanottoa, mutta ei yksinään erota IBD:tä lymfoomasta. Kudosnäyte tähystyksellä tai kirurgisella koepalanotolla on välttämätön. Pelkkä histopatologia (H&E-värjäys) tunnistaa lymfooman vain 60–75 %:n herkkyydellä. <strong>Immunohistokemia</strong> (CD3/CD20) tunnistaa, onko solukko T- vai B-soluperäistä — matala-asteinen lymfooma on 80–95 % tapauksista T-soluperäistä. <strong>PARR-klonaliteettitesti</strong> (PCR) on tarkin yksittäinen lisätutkimus: se tunnistaa, onko solukko monoklonaalista (lymfooma) vai polyklonaalista (tulehdus). Yhdistettynä histopatologia + immunohistokemia + PARR saavuttaa 85–95 %:n diagnostisen tarkkuuden.',
+    sv: 'Ultraljud vägleder provtagningen, men kan inte ensamt skilja IBD från lymfom. Vävnadsprov via endoskopi eller kirurgisk biopsi är nödvändigt. Enbart histopatologi (H&E-färgning) identifierar lymfom med bara 60–75 % sensitivitet. <strong>Immunhistokemi</strong> (CD3/CD20) identifierar om cellpopulationen är T- eller B-cellsursprung — låggradig lymfom är T-cellsursprung i 80–95 % av fallen. <strong>PARR-klonalitetstest</strong> (PCR) är det mest exakta enskilda tilläggsprovet: det identifierar om cellpopulationen är monoklonal (lymfom) eller polyklonal (inflammation). Kombinationen histopatologi + immunhistokemi + PARR uppnår 85–95 % diagnostisk noggrannhet.',
+    en: 'Ultrasound guides biopsy site selection but cannot alone differentiate IBD from lymphoma. Tissue sampling via endoscopy or surgical biopsy is essential. Histopathology alone (H&E staining) identifies lymphoma with only 60–75% sensitivity. <strong>Immunohistochemistry</strong> (CD3/CD20) identifies whether the cell population is T-cell or B-cell in origin — low-grade lymphoma is T-cell in origin in 80–95% of cases. <strong>PARR clonality testing</strong> (PCR) is the most accurate single ancillary test: it identifies whether the population is monoclonal (lymphoma) or polyclonal (inflammation). Combined histopathology + immunohistochemistry + PARR achieves 85–95% diagnostic accuracy.'
+  },
+  'article.ibdlymphoma.treatment.title': {
+    fi: 'Hoito ja ennuste',
+    sv: 'Behandling och prognos',
+    en: 'Treatment and Prognosis'
+  },
+  'article.ibdlymphoma.treatment.text': {
+    fi: '<strong>IBD:n</strong> hoito perustuu ruokavaliomuutokseen (hydrolysoitu proteiini) ja immunosuppressioon (prednisoloni, budesonidi). Ennuste on yleensä hyvä — useimmat eläimet elävät vuosia oikealla hoidolla. <strong>Matala-asteisen lymfooman</strong> hoito on klorambusiili + prednisoloni. Hoitovaste on 85–96 %, ja mediaanielinaika on 1,5–2,5 vuotta, parhaimmillaan yli 5 vuotta. <strong>Korkea-asteista lymfoomaa</strong> hoidetaan monilääkekemoterapialla (CHOP-protokolla), ja ennuste on varovaisempi (mediaanielinaika 1,5–6 kuukautta).',
+    sv: '<strong>IBD</strong> behandlas med dietförändring (hydrolyserat protein) och immunsuppression (prednisolon, budesonid). Prognosen är vanligtvis god — de flesta djur lever i flera år med rätt behandling. <strong>Låggradig lymfom</strong> behandlas med klorambucil + prednisolon. Behandlingssvaret är 85–96 %, och medianöverlevnaden är 1,5–2,5 år, i bästa fall över 5 år. <strong>Höggradig lymfom</strong> behandlas med kombinationskemoterapi (CHOP-protokoll), och prognosen är mer försiktig (medianöverlevnad 1,5–6 månader).',
+    en: '<strong>IBD</strong> is treated with dietary change (hydrolyzed protein) and immunosuppression (prednisolone, budesonide). The prognosis is generally good — most animals live for years with proper treatment. <strong>Low-grade lymphoma</strong> is treated with chlorambucil + prednisolone. The response rate is 85–96%, and median survival is 1.5–2.5 years, with some animals surviving over 5 years. <strong>High-grade lymphoma</strong> is treated with multi-agent chemotherapy (CHOP protocol), and the prognosis is more guarded (median survival 1.5–6 months).'
+  },
+  'article.ibdlymphoma.why.title': {
+    fi: 'Miksi oikea diagnoosi on tärkeä',
+    sv: 'Varför korrekt diagnos är viktig',
+    en: 'Why Accurate Diagnosis Matters'
+  },
+  'article.ibdlymphoma.why.text': {
+    fi: 'Jos lymfoomaa hoidetaan IBD:nä, kortikosteroidit voivat aluksi lievittää oireita ja antaa väärän turvallisuudentunteen. Immunosuppression lisääminen (esim. siklosporiini) voi heikentää kasvaimen vastaista immuniteettia ja nopeuttaa lymfooman etenemistä. Toisaalta IBD:n virheellinen hoito kemoterapialla altistaa eläimen tarpeettomille sivuvaikutuksille. Suosittelemme kehittyneitä diagnostisia tutkimuksia kaikissa epäselvissä tapauksissa — ota yhteyttä klinikkaamme.',
+    sv: 'Om lymfom behandlas som IBD kan kortikosteroider initialt lindra symtomen och ge en falsk trygghetskänsla. Tillägg av immunsuppression (t.ex. ciklosporin) kan försvaga immunförsvaret mot tumören och påskynda lymfomets progression. Å andra sidan utsätter felaktig kemoterapibehandling av IBD djuret för onödiga biverkningar. Vi rekommenderar avancerade diagnostiska undersökningar i alla oklara fall — kontakta vår klinik.',
+    en: 'If lymphoma is treated as IBD, corticosteroids may initially relieve symptoms and create a false sense of security. Adding immunosuppression (e.g., cyclosporine) can weaken anti-tumor immunity and accelerate lymphoma progression. Conversely, incorrectly treating IBD with chemotherapy exposes the animal to unnecessary side effects. We recommend advanced diagnostic testing in all equivocal cases — contact our clinic.'
+  },
+
+  // --- Article 23: Hypothermia Prevention ---
+  'article.hypothermia.tag': {
+    fi: 'Anestesia',
+    sv: 'Anestesi',
+    en: 'Anesthesia'
+  },
+  'article.hypothermia.title': {
+    fi: 'Hypotermian ehkäisy — miksi aktiivinen lämmitys pelastaa henkiä',
+    sv: 'Förebyggande av hypotermi — varför aktiv uppvärmning räddar liv',
+    en: 'Hypothermia Prevention — Why Active Warming Saves Lives'
+  },
+  'article.hypothermia.intro': {
+    fi: 'Hypotermia on yleisin anestesiakomplikaatio: yli 80 % koirista ja lähes kaikki kissat jäähtyvät anestesian aikana. Anestesia-aineet lamauttavat lämmönsäätelyn, verisuonet laajenevat ja pienet potilaat menettävät lämpöä nopeasti. Seuraukset ovat vakavia — hidastunut lääkeaineiden aineenvaihdunta, pidentynyt toipuminen, hyytymishäiriöt, sydämen rytmihäiriöt ja jopa kolminkertainen infektioriski.',
+    sv: 'Hypotermi är den vanligaste anestesikomplikationen: över 80 % av hundarna och nästan alla katter blir nedkylda under anestesi. Anestesimedel förlamar temperaturregleringen, blodkärlen vidgas och små patienter förlorar värme snabbt. Konsekvenserna är allvarliga — långsammare läkemedelsmetabolism, förlängd återhämtning, koagulationsstörningar, hjärtarytmier och till och med trefaldig infektionsrisk.',
+    en: 'Hypothermia is the most common anesthesia complication: over 80% of dogs and nearly all cats become hypothermic during anesthesia. Anesthetic agents impair thermoregulation, blood vessels dilate, and small patients lose heat rapidly. The consequences are serious — slower drug metabolism, prolonged recovery, coagulopathy, cardiac arrhythmias, and even a threefold increase in infection risk.'
+  },
+  'article.hypothermia.risks.title': {
+    fi: 'Hypotermian seuraukset',
+    sv: 'Konsekvenser av hypotermi',
+    en: 'Consequences of Hypothermia'
+  },
+  'article.hypothermia.risks.text': {
+    fi: 'Kehon lämpötilan lasku 1 °C hidastaa aineenvaihduntaa noin 10 %. Anestesia-aineet poistuvat elimistöstä hitaammin, mikä pidentää heräämistä ja lisää yliannostuksen riskiä. Hyytymistekijöiden toiminta heikkenee, mikä lisää leikkausvuotoa. Sydänlihaksen ärtyisyys kasvaa, ja alle 31 °C:ssa vakavat rytmihäiriöt ovat todennäköisiä. Ihmislääketieteessä on osoitettu, että jo 2 °C:n lasku kolminkertaistaa leikkaushaavainfektioiden riskin.',
+    sv: 'En kroppstemperatursänkning på 1 °C saktar ner ämnesomsättningen med cirka 10 %. Anestesimedel elimineras långsammare, vilket förlänger uppvaknandet och ökar risken för överdosering. Koagulationsfaktorernas funktion försämras, vilket ökar kirurgisk blödning. Myokardiets irritabilitet ökar, och under 31 °C är allvarliga arytmier sannolika. Inom humanmedicin har man visat att redan en sänkning på 2 °C tredubblar risken för postoperativa sårinfektioner.',
+    en: 'A 1 °C drop in body temperature slows metabolism by approximately 10%. Anesthetic agents are eliminated more slowly, prolonging recovery and increasing the risk of relative overdose. Coagulation factor function deteriorates, increasing surgical bleeding. Myocardial irritability increases, and below 31 °C serious arrhythmias become likely. In human medicine, it has been shown that even a 2 °C drop triples the risk of surgical site infection.'
+  },
+  'article.hypothermia.warming.title': {
+    fi: 'Aktiivinen lämmitys — puhallinkuivaimen ylivertaisuus',
+    sv: 'Aktiv uppvärmning — varmluftsvärmarens överlägsenhet',
+    en: 'Active Warming — The Superiority of Forced Air Warmers'
+  },
+  'article.hypothermia.warming.text': {
+    fi: 'Klinikallamme on käytössä kolme aktiivista puhallinkuivainta (forced air warmer), joita pidetään lämmitysmenetelmien kultaisena standardina. Laite puhaltaa lämmitettyä ilmaa tasaisesti potilaan ympärille kertakäyttöisen huovan kautta — ilman palovammariskiä, joka liittyy sähköisiin lämpöpatjoihin. Tutkimukset osoittavat, että lämmitetyt infuusionesteet yksinään eivät estä hypotermiaa koirilla tai kissoilla. Passiivinen eristys (peitot, sukat) hidastaa lämmön menetystä vain 30 %. Aktiivinen puhallinlämmitys yhdistettynä lämpimiin nesteisiin ja eristykseen on tehokkain yhdistelmä.',
+    sv: 'På vår klinik har vi tre aktiva varmluftsvämare (forced air warmers), som anses vara gyllene standarden bland uppvärmningsmetoder. Apparaten blåser uppvärmd luft jämnt runt patienten genom en engångsfilt — utan brännskaderisken som förknippas med elektriska värmedynor. Studier visar att uppvärmda infusionsvätskor ensamma inte förhindrar hypotermi hos hundar eller katter. Passiv isolering (filtar, strumpor) minskar värmeförlusten med bara 30 %. Aktiv varmluftsvärme kombinerat med varma vätskor och isolering är den mest effektiva kombinationen.',
+    en: 'At our clinic, we have three active forced air warmers, which are considered the gold standard of warming methods. The device blows heated air evenly around the patient through a disposable blanket — without the burn risk associated with electric heating pads. Studies show that heated IV fluids alone do not prevent hypothermia in dogs or cats. Passive insulation (blankets, socks) reduces heat loss by only 30%. Active forced air warming combined with warm fluids and insulation is the most effective combination.'
+  },
+  'article.hypothermia.recovery.title': {
+    fi: 'Toipumisvaiheen valvonta',
+    sv: 'Övervakning under återhämtningen',
+    en: 'Recovery Phase Monitoring'
+  },
+  'article.hypothermia.recovery.text': {
+    fi: 'Suurin osa anestesiakuolemista tapahtuu toipumisvaiheessa — koirilla 47–81 % ja kissoilla 61–75 %. Klinikallamme jatkamme aktiivista lämmitystä ja valvontaa koko toipumisen ajan. Seuraamme lämpötilaa, happisaturaatiota ja verenpainetta, kunnes potilas on täysin hereillä ja normaalin kehonlämpötilan saavuttanut. Lämmitys lopetetaan 36,9 °C:ssa ylikuumenemisen estämiseksi.',
+    sv: 'Majoriteten av anestesidödsfallen inträffar under återhämtningsfasen — hos hundar 47–81 % och hos katter 61–75 %. På vår klinik fortsätter vi aktiv uppvärmning och övervakning under hela återhämtningen. Vi övervakar temperatur, syremättnad och blodtryck tills patienten är helt vaken och har uppnått normal kroppstemperatur. Uppvärmningen avslutas vid 36,9 °C för att förhindra överhettning.',
+    en: 'The majority of anesthesia-related deaths occur during the recovery phase — 47–81% in dogs and 61–75% in cats. At our clinic, we continue active warming and monitoring throughout recovery. We monitor temperature, oxygen saturation, and blood pressure until the patient is fully awake and has reached normal body temperature. Warming is stopped at 36.9 °C to prevent overheating.'
+  },
+  'article.hypothermia.safety.title': {
+    fi: 'Turvallinen lämmitys',
+    sv: 'Säker uppvärmning',
+    en: 'Safe Warming'
+  },
+  'article.hypothermia.safety.text': {
+    fi: 'Ihmisille tarkoitetut sähköiset lämpötyynyt ja kuumavesipullot ovat vaarallisia nukutetuille eläimille — potilas ei voi siirtyä pois liian kuumasta pinnasta eikä ilmaista kipua. Dokumentoituja palovammatapauksia on raportoitu. AAHA:n ohjeiden mukaan lämpötyynyjä ja häkkikuivaimia ei saa käyttää nukutettujen potilaiden lämmitykseen. Puhallinkuivaimet ja tarkoitukseen suunnitellut johtolämpömatot ovat turvallisimmat vaihtoehdot.',
+    sv: 'Elektriska värmedynor och varmvattenflaskor avsedda för människor är farliga för sövda djur — patienten kan inte flytta sig från en för varm yta eller uttrycka smärta. Dokumenterade brännskadefall har rapporterats. Enligt AAHA:s riktlinjer får värmedynor och burtorkar inte användas för uppvärmning av sövda patienter. Varmluftsvämare och specialdesignade konduktiva värmemattor är de säkraste alternativen.',
+    en: 'Electric heating pads and hot water bottles designed for humans are dangerous for anesthetized animals — the patient cannot move away from an overheated surface or express pain. Documented burn cases have been reported. According to AAHA guidelines, heating pads and cage dryers must not be used for warming anesthetized patients. Forced air warmers and purpose-designed conductive warming mats are the safest options.'
+  },
+
 };
 
 // --- Service icons mapping ---
