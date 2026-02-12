@@ -799,75 +799,67 @@ const translations = {
   // MLK Anesthesia Article
   'articles.tag.anesthesia': { fi: 'Anestesia', sv: 'Anestesi', en: 'Anesthesia' },
   'article.mlk.title': {
-    fi: 'MLK-infuusio – multimodaalinen kivunlievennys leikkausten aikana',
-    sv: 'MLK-infusion – multimodal smärtlindring under kirurgi',
-    en: 'MLK Infusion – Multimodal Pain Management During Surgery'
+    fi: 'Jatkuva kipulääkeinfuusio (CRI) — tasainen kivunhallinta leikkausten aikana',
+    sv: 'Kontinuerlig smärtinfusion (CRI) — jämn smärtlindring under kirurgi',
+    en: 'Continuous Rate Infusion (CRI) — Steady Pain Management During Surgery'
   },
   'article.mlk.intro': {
-    fi: 'Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikalla käytämme MLK-infuusiota (metadoni-lidokaiini-ketamiini) vakiomenetelmänä kaikissa kivuliaissa pehmytkudosleikkauksissa — mukaan lukien naaraskoirien sterilisaatiot — sekä ortopedisissä toimenpiteissä. MLK on multimodaalinen eli monikomponenttinen kivunlievennystapa, jossa kolme eri lääkettä vaikuttavat samanaikaisesti eri kipumekanismeihin.',
-    sv: 'Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På kliniken använder vi MLK-infusion (metadon-lidokain-ketamin) som standardmetod vid alla smärtsamma mjukdelsoperationer — inklusive sterilisering av tikar — samt ortopediska ingrepp. MLK är en multimodal smärtlindringsmetod där tre olika läkemedel verkar samtidigt på olika smärtmekanismer.',
-    en: 'Pain management is one of the most important aspects of veterinary surgery. At our clinic we use MLK infusion (methadone-lidocaine-ketamine) as the standard method for all painful soft tissue surgeries — including dog spays — and orthopedic procedures. MLK is a multimodal pain management approach where three different drugs act simultaneously on different pain pathways.'
+    fi: 'Kivunhallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikallamme käytämme jatkuvaa suonensisäistä kipulääkeinfuusiota (CRI) vakiomenetelmänä kaikissa kivuliaissa leikkauksissa — pehmytkudoskirurgiasta ortopedisiin toimenpiteisiin. CRI tarkoittaa, että kipulääkkeitä annostellaan tasaisena virtana suonensisäisesti koko leikkauksen ajan, sen sijaan että annettaisiin yksittäisiä kerta-annoksia.',
+    sv: 'Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På vår klinik använder vi kontinuerlig intravenös smärtinfusion (CRI) som standardmetod vid alla smärtsamma operationer — från mjukdelskirurgi till ortopediska ingrepp. CRI innebär att smärtstillande läkemedel administreras som en jämn ström intravenöst under hela operationen, istället för enskilda engångsdoser.',
+    en: 'Pain management is one of the most important aspects of veterinary surgery. At our clinic, we use continuous rate infusion (CRI) as the standard method for all painful surgeries — from soft tissue to orthopedic procedures. CRI means that pain medications are delivered as a steady intravenous stream throughout surgery, rather than as single bolus doses.'
   },
   'article.mlk.what.title': {
-    fi: 'Mitä MLK-infuusio tarkoittaa?',
-    sv: 'Vad innebär MLK-infusion?',
-    en: 'What Is MLK Infusion?'
+    fi: 'Miksi jatkuva infuusio?',
+    sv: 'Varför kontinuerlig infusion?',
+    en: 'Why Continuous Infusion?'
   },
   'article.mlk.what.text': {
-    fi: 'MLK on kolmen lääkeaineen yhdistelmä, joka annostellaan jatkuvana suonensisäisenä infuusiona (CRI, constant rate infusion) koko leikkauksen ajan. Jokainen komponentti vaikuttaa eri mekanismilla: metadoni on opioidi, joka estää kipuviestien kulkua keskushermostossa; lidokaiini on puudute, joka vaimentaa kipusignaaleja perifeerisesti ja vähentää suoliston tulehdusreaktioita; ketamiini estää NMDA-reseptoreita ja ehkäisee tehokkaasti kivun "wind-up"-ilmiötä eli kipuherkkyyden voimistumista.',
-    sv: 'MLK är en kombination av tre läkemedel som administreras som en kontinuerlig intravenös infusion (CRI, constant rate infusion) under hela operationen. Varje komponent verkar genom olika mekanismer: metadon är en opioid som blockerar smärtsignaler i centrala nervsystemet; lidokain är ett lokalbedövningsmedel som dämpar smärtsignaler perifert och minskar inflammatoriska reaktioner i tarmarna; ketamin blockerar NMDA-receptorer och förhindrar effektivt smärtans "wind-up"-fenomen, alltså en progressiv förstärkning av smärtkänsligheten.',
-    en: 'MLK is a combination of three drugs administered as a continuous intravenous infusion (CRI, constant rate infusion) throughout surgery. Each component acts through a different mechanism: methadone is an opioid that blocks pain signals in the central nervous system; lidocaine is a local anesthetic that dampens pain signals peripherally and reduces intestinal inflammatory responses; ketamine blocks NMDA receptors and effectively prevents pain "wind-up" — the progressive amplification of pain sensitivity.'
-  },
-  'article.mlk.why.title': {
-    fi: 'Miksi monikomponenttinen lähestymistapa?',
-    sv: 'Varför en multimodal approach?',
-    en: 'Why a Multimodal Approach?'
-  },
-  'article.mlk.why.text': {
-    fi: 'Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä kolme eri lääkeainetta matalilla annoksilla saadaan tehokkaampi kivunlievennys kuin yhdellä lääkkeellä yksinään — ja samalla pidetään kunkin lääkkeen sivuvaikutukset mahdollisimman pieninä. Tutkimusten mukaan MLK-infuusio vähentää inhalaatioanesteetin (isofluraanin) tarvetta jopa 45 %, mikä parantaa hemodynamiikkaa ja vähentää anestesiaan liittyviä riskejä.',
-    sv: 'Ett enskilt smärtstillande läkemedel påverkar bara en smärtmekanism. Genom att kombinera tre olika läkemedel i låga doser uppnås effektivare smärtlindring än med ett enda läkemedel — samtidigt som biverkningarna från varje enskilt läkemedel hålls minimala. Studier visar att MLK-infusion minskar behovet av inhalationsanestesi (isofluran) med upp till 45 %, vilket förbättrar hemodynamiken och minskar anestesirelaterade risker.',
-    en: 'A single painkiller affects only one pain mechanism. By combining three different drugs at low doses, more effective pain relief is achieved than with any single drug alone — while keeping the side effects of each drug to a minimum. Studies show that MLK infusion reduces the need for inhalation anesthetic (isoflurane) by up to 45%, which improves hemodynamics and reduces anesthesia-related risks.'
-  },
-  'article.mlk.benefits.title': {
-    fi: 'Edut verrattuna perinteiseen kerta-annokseen',
-    sv: 'Fördelar jämfört med traditionell engångsdosering',
-    en: 'Advantages Over Traditional Single Dosing'
-  },
-  'article.mlk.benefits.text': {
-    fi: 'Kun kipulääke annetaan yksittäisinä annoksina, potilaan verenkierrossa tapahtuu lääkepitoisuuden nousuja ja laskuja — välillä lääke vaikuttaa, välillä kipu palaa. Jatkuva infuusio tasoittaa nämä vaihtelut ja tarjoaa tasaisen, katkeamattoman kivunlievennyksen. Näin potilas pysyy vakaassa tilassa koko leikkauksen ajan ja toipuminen on nopeampaa ja kivuttomampaa.',
-    sv: 'När smärtstillande ges som enskilda doser uppstår toppar och dalar i läkemedelskoncentrationen i blodet — ibland verkar läkemedlet, ibland återkommer smärtan. En kontinuerlig infusion jämnar ut dessa variationer och erbjuder jämn, oavbruten smärtlindring. På så vis förblir patienten stabil under hela operationen och återhämtningen blir snabbare och mer smärtfri.',
+    fi: 'Kun kipulääke annetaan yksittäisinä annoksina, potilaan verenkierrossa tapahtuu lääkepitoisuuden nousuja ja laskuja — välillä lääke vaikuttaa tehokkaasti, välillä kipu palaa. Jatkuva infuusio tasoittaa nämä vaihtelut ja tarjoaa tasaisen, katkeamattoman kivunlievennyksen. Näin potilas pysyy vakaassa tilassa koko leikkauksen ajan ja toipuminen on nopeampaa ja kivuttomampaa.',
+    sv: 'När smärtstillande ges som enskilda doser uppstår toppar och dalar i läkemedelskoncentrationen i blodet — ibland verkar läkemedlet effektivt, ibland återkommer smärtan. En kontinuerlig infusion jämnar ut dessa variationer och erbjuder jämn, oavbruten smärtlindring. På så vis förblir patienten stabil under hela operationen och återhämtningen blir snabbare och mer smärtfri.',
     en: 'When painkillers are given as single doses, the patient experiences peaks and troughs in blood drug levels — sometimes the drug is effective, sometimes the pain returns. A continuous infusion smooths out these fluctuations and provides steady, uninterrupted pain relief. This keeps the patient stable throughout surgery and makes recovery faster and less painful.'
   },
-  'article.mlk.use.title': {
+  'article.mlk.why.title': {
+    fi: 'Multimodaalinen lähestymistapa',
+    sv: 'Multimodal approach',
+    en: 'The Multimodal Approach'
+  },
+  'article.mlk.why.text': {
+    fi: 'Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä useita eri lääkeaineita matalilla annoksilla saadaan tehokkaampi kivunlievennys kuin yhdellä lääkkeellä yksinään — ja samalla pidetään kunkin lääkkeen sivuvaikutukset mahdollisimman pieninä. Tutkimusten mukaan multimodaalinen CRI-kivunhallinta vähentää inhalaatioanesteetin tarvetta merkittävästi, mikä parantaa verenkierron vakautta ja vähentää anestesiaan liittyviä riskejä.',
+    sv: 'Ett enskilt smärtstillande läkemedel påverkar bara en smärtmekanism. Genom att kombinera flera olika läkemedel i låga doser uppnås effektivare smärtlindring än med ett enda läkemedel — samtidigt som biverkningarna från varje enskilt läkemedel hålls minimala. Studier visar att multimodal CRI-smärtlindring minskar behovet av inhalationsanestesi avsevärt, vilket förbättrar cirkulationsstabiliteten och minskar anestesirelaterade risker.',
+    en: 'A single painkiller affects only one pain mechanism. By combining several different drugs at low doses, more effective pain relief is achieved than with any single drug alone — while keeping the side effects of each drug to a minimum. Studies show that multimodal CRI pain management significantly reduces the need for inhalation anesthetic, which improves circulatory stability and reduces anesthesia-related risks.'
+  },
+  'article.mlk.benefits.title': {
     fi: 'Käyttö klinikallamme',
     sv: 'Användning på vår klinik',
     en: 'Use at Our Clinic'
   },
-  'article.mlk.use.text': {
-    fi: 'MLK-infuusio on vakiomenetelmämme kaikissa kivuliaissa kirurgisissa toimenpiteissä. Käytämme sitä naaraskoirien sterilisaatioissa, kasvainleikkauksissa, vatsaonteloleikkauksissa ja kaikissa ortopedisissä leikkauksissa, kuten ristisideleikkauksissa, murtumien korjauksissa ja amputaatioissa. Infuusio aloitetaan ennen leikkausta ja sitä jatketaan tarvittaessa myös leikkauksen jälkeen optimaalisen kivunlievennyksen takaamiseksi.',
-    sv: 'MLK-infusion är vår standardmetod vid alla smärtsamma kirurgiska ingrepp. Vi använder den vid sterilisering av tikar, tumöroperationer, bukoperationer och alla ortopediska ingrepp som korsbandsskadeoperationer, frakturreparationer och amputationer. Infusionen startas före operationen och fortsätter vid behov även postoperativt för optimal smärtlindring.',
-    en: 'MLK infusion is our standard method for all painful surgical procedures. We use it for dog spays, tumor surgeries, abdominal surgeries and all orthopedic procedures such as cruciate ligament repairs, fracture repairs and amputations. The infusion is started before surgery and continued postoperatively when needed for optimal pain relief.'
+  'article.mlk.benefits.text': {
+    fi: 'CRI-kipulääkeinfuusio on vakiomenetelmämme kaikissa kivuliaissa kirurgisissa toimenpiteissä: sterilisaatioissa, kastraatioissa, kasvainleikkauksissa, vatsaonteloleikkauksissa ja ortopedisissä leikkauksissa. Infuusio aloitetaan ennen leikkausta ja sitä jatketaan tarvittaessa myös leikkauksen jälkeen optimaalisen kivunlievennyksen takaamiseksi.',
+    sv: 'CRI-smärtinfusion är vår standardmetod vid alla smärtsamma kirurgiska ingrepp: steriliseringar, kastreringar, tumöroperationer, bukoperationer och ortopediska operationer. Infusionen startas före operationen och fortsätter vid behov även postoperativt för optimal smärtlindring.',
+    en: 'CRI pain infusion is our standard method for all painful surgical procedures: spays, neuters, tumor surgeries, abdominal surgeries, and orthopedic procedures. The infusion is started before surgery and continued postoperatively when needed for optimal pain relief.'
   },
-  'article.mlk.windup.title': {
+  'article.mlk.use.title': {
     fi: 'Mitä on kivun "wind-up"?',
     sv: 'Vad är smärtans "wind-up"?',
     en: 'What Is Pain "Wind-Up"?'
   },
+  'article.mlk.use.text': {
+    fi: 'Wind-up on ilmiö, jossa pitkittynyt kipu herkistää keskushermoston kipuratoja niin, että kipukokemus voimistuu progressiivisesti. Jos leikkauksen aikainen kivunlievennys on riittämätöntä, toipumisvaiheessa kipu voi olla vaikeasti hallittavissa ja vaatia huomattavasti suurempia lääkeannoksia. Jatkuva infuusio estää tätä herkistymistä tehokkaasti, mikä on yksi menetelmän merkittävimmistä eduista.',
+    sv: 'Wind-up är ett fenomen där långvarig smärta sensibiliserar centrala nervsystemets smärtbanor så att smärtupplevelsen förstärks progressivt. Om smärtlindringen under operationen är otillräcklig kan smärtan i återhämtningsfasen vara svårkontrollerad och kräva betydligt högre läkemedelsdoser. Kontinuerlig infusion förhindrar effektivt denna sensibilisering, vilket är en av metodens mest betydande fördelar.',
+    en: 'Wind-up is a phenomenon where prolonged pain sensitizes the central nervous system\'s pain pathways so that the pain experience intensifies progressively. If intraoperative pain relief is inadequate, post-surgical pain can be difficult to control and requires significantly higher drug doses. Continuous infusion effectively prevents this sensitization, which is one of the method\'s most significant advantages.'
+  },
+  'article.mlk.windup.title': {
+    fi: 'Turvallisuus',
+    sv: 'Säkerhet',
+    en: 'Safety'
+  },
   'article.mlk.windup.text': {
-    fi: 'Wind-up on ilmiö, jossa pitkittynyt kipu herkistää keskushermoston kipuratoja niin, että kipukokemus voimistuu progressiivisesti. Jos leikkauksen aikainen kivunlievennys on riittämätöntä, toipumisvaiheessa kipu voi olla vaikeasti hallittavissa ja vaatii huomattavasti suurempia lääkeannoksia. MLK-infuusion ketamiinikomponentti estää tätä herkistymistä tehokkaasti, mikä on yksi menetelmän merkittävimmistä eduista.',
-    sv: 'Wind-up är ett fenomen där långvarig smärta sensibiliserar centrala nervsystemets smärtbanor så att smärtupplevelsen förstärks progressivt. Om smärtlindringen under operationen är otillräcklig kan smärtan i återhämtningsfasen vara svårkontrollerad och kräva betydligt högre läkemedelsdoser. Ketaminkomponenten i MLK-infusionen förhindrar effektivt denna sensibilisering, vilket är en av metodens mest betydande fördelar.',
-    en: 'Wind-up is a phenomenon where prolonged pain sensitizes the central nervous system\'s pain pathways so that the pain experience intensifies progressively. If intraoperative pain relief is inadequate, post-surgical pain can be difficult to control and requires significantly higher drug doses. The ketamine component in MLK infusion effectively prevents this sensitization, which is one of the method\'s most significant advantages.'
+    fi: 'Koska CRI-infuusiossa käytetään useita lääkeaineita matalilla annoksilla, sivuvaikutusriski on pienempi kuin yksittäisellä lääkkeellä suurella annoksella. Klinikalla valvomme jokaista potilasta tarkasti koko anestesian ajan ja säädämme infuusionopeutta potilaan vasteen mukaan reaaliajassa.',
+    sv: 'Eftersom CRI-infusionen använder flera läkemedel i låga doser är risken för biverkningar lägre än med ett enskilt läkemedel i hög dos. På kliniken övervakar vi varje patient noggrant under hela anestesin och justerar infusionshastigheten i realtid efter patientens respons.',
+    en: 'Because CRI uses multiple drugs at low doses, the risk of side effects is lower than with a single drug at a high dose. At our clinic, we closely monitor every patient throughout anesthesia and adjust the infusion rate in real time based on the patient\'s response.'
   },
-  'article.mlk.safety.title': {
-    fi: 'Turvallisuus ja valvonta',
-    sv: 'Säkerhet och övervakning',
-    en: 'Safety and Monitoring'
-  },
-  'article.mlk.safety.text': {
-    fi: 'MLK-infuusion lääkeaineet annetaan matalilla annoksilla, jolloin sivuvaikutusriski on pieni. Tutkimuksissa MLK ei ole aiheuttanut haitallisia hemodynaamiseen vaikutuksia. Klinikalla valvomme jokaista potilasta tarkasti koko anestesian ajan — käytössämme on kaksi ventilaattoria turvallisen anestesian varmistamiseksi, ja päivitämme jatkuvasti protokolliamme ja koulutustamme.',
-    sv: 'Läkemedlen i MLK-infusionen ges i låga doser, vilket ger en liten risk för biverkningar. I studier har MLK inte orsakat negativa hemodynamiska effekter. På kliniken övervakar vi varje patient noggrant under hela anestesin — vi har två ventilatorer för att säkerställa säker anestesi, och vi uppdaterar kontinuerligt våra protokoll och vår utbildning.',
-    en: 'The drugs in MLK infusion are given at low doses, resulting in a low risk of side effects. Studies have shown that MLK does not cause adverse hemodynamic effects. At our clinic we closely monitor every patient throughout anesthesia — we have two ventilators to ensure safe anesthesia, and we continuously update our protocols and training.'
-  },
+  'article.mlk.safety.title': { fi: '', sv: '', en: '' },
+  'article.mlk.safety.text': { fi: '', sv: '', en: '' },
 
   // Article: Diarrhea
   'article.diarrhea.title': {
