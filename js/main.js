@@ -2245,6 +2245,58 @@ const translations = {
     en: 'Every patient is individually assessed before anesthesia. The pre-anesthetic evaluation includes a clinical examination, auscultation of the heart and lungs, and blood tests (complete blood count and biochemistry). Studies show that the anesthesia protocol was modified in 79% of cases based on blood test results. Blood tests can reveal hidden kidney or liver disease, anemia, or electrolyte imbalances that affect drug selection and dosing. If findings are significant, the procedure may be postponed for the patient\'s safety.'
   },
 
+  // Article 25: Veterinary Nurse
+  'article.vetnurse.title': {
+    fi: 'Klinikkaeläinhoitaja — potilasturvallisuuden kulmakivi',
+    sv: 'Klinikdjurskötare — hörnstenen i patientsäkerhet',
+    en: 'Veterinary Nurse — The Cornerstone of Patient Safety'
+  },
+  'article.vetnurse.intro': {
+    fi: 'Eläinlääkäri ei voi samanaikaisesti leikata ja valvoa potilaan elintoimintoja. Koulutettu klinikkaeläinhoitaja on se henkilö, joka seuraa monitoreja, reagoi muutoksiin ja huolehtii potilaasta leikkausta ennen, sen aikana ja sen jälkeen. Tutkimusten mukaan koulutetun hoitajan läsnäolo anestesian aikana on tärkein yksittäinen muutettavissa oleva tekijä kuolleisuuden vähentämisessä.',
+    sv: 'En veterinär kan inte samtidigt operera och övervaka patientens vitalfunktioner. En utbildad klinikdjurskötare är den person som övervakar monitorerna, reagerar på förändringar och tar hand om patienten före, under och efter operationen. Forskning visar att en utbildad skötares närvaro under anestesi är den enskilt viktigaste påverkbara faktorn för att minska dödligheten.',
+    en: 'A veterinarian cannot simultaneously perform surgery and monitor the patient\'s vital functions. A trained veterinary nurse is the person who watches the monitors, responds to changes, and cares for the patient before, during, and after surgery. Research shows that the presence of a trained nurse during anesthesia is the single most important modifiable factor in reducing mortality.'
+  },
+  'article.vetnurse.role.title': {
+    fi: 'Hoitajan rooli klinikalla',
+    sv: 'Skötarens roll på kliniken',
+    en: 'The Nurse\'s Role at the Clinic'
+  },
+  'article.vetnurse.role.text': {
+    fi: 'Klinikkaeläinhoitaja valmistelee potilaan leikkaukseen: asettaa suonikanyylin, antaa esilääkityksen ja valmistelee leikkausalueen. Leikkauksen aikana hoitaja valvoo anestesiaa — seuraa sydämen rytmiä, happikyllästeisyyttä, kapnografiaa ja lämpötilaa. Steriilissä avustamisessa hoitaja ojentaa instrumentit, ylläpitää steriiliä kenttää ja huomaa mahdolliset kontaminaatiot. Toimenpiteen jälkeen hoitaja valvoo toipumista, joka on kriittisin vaihe: yli puolet anestesiakomplikaatioista tapahtuu heräämövaiheessa.',
+    sv: 'Klinikdjurskötaren förbereder patienten för operation: lägger in venkateter, administrerar premedicinering och förbereder operationsområdet. Under operationen övervakar skötaren anestesin — följer hjärtrytm, syremättnad, kapnografi och temperatur. Vid steril assistans räcker skötaren instrument, upprätthåller det sterila fältet och uppmärksammar eventuella kontaminationer. Efter ingreppet övervakar skötaren återhämtningen, som är den mest kritiska fasen: över hälften av anestesikomplikationerna inträffar under uppvaknandet.',
+    en: 'The veterinary nurse prepares the patient for surgery: placing an IV catheter, administering premedication, and preparing the surgical site. During surgery, the nurse monitors anesthesia — tracking heart rhythm, oxygen saturation, capnography, and temperature. In sterile assistance, the nurse passes instruments, maintains the sterile field, and identifies potential contamination. After the procedure, the nurse monitors recovery, which is the most critical phase: over half of anesthesia complications occur during the wake-up period.'
+  },
+  'article.vetnurse.evidence.title': {
+    fi: 'Mitä tutkimus sanoo',
+    sv: 'Vad forskningen säger',
+    en: 'What Research Shows'
+  },
+  'article.vetnurse.evidence.text': {
+    fi: 'CEPSAF-tutkimus (Brodbelt ym., 117 klinikkaa, ~185 000 eläintä) osoitti, että koulutetun hoitajan puuttuminen anestesian valvonnasta oli riskitekijä kuolemalle. Yli 50 % anestesiakuolemista tapahtui kolmen tunnin sisällä toimenpiteen päättymisestä — heräämövaiheessa. Banfield-tutkimus (2022) osoitti, että laatustandardien käyttöönotto, mukaan lukien koulutettu henkilökunta, vähensi anestesiakuolleisuutta 16 % kuudessa kuukaudessa. Redondo ym. (2024) vahvistivat, että 81 % anestesiakuolemista tapahtui postoperatiivisesti.',
+    sv: 'CEPSAF-studien (Brodbelt m.fl., 117 kliniker, ~185 000 djur) visade att avsaknaden av en utbildad skötare vid anestesiövervakning var en riskfaktor för dödsfall. Över 50 % av anestesidödsfallen inträffade inom tre timmar efter ingreppets slut — under uppvakningsfasen. Banfield-studien (2022) visade att införandet av kvalitetsstandarder, inklusive utbildad personal, minskade anestesidödligheten med 16 % på sex månader. Redondo m.fl. (2024) bekräftade att 81 % av anestesidödsfallen inträffade postoperativt.',
+    en: 'The CEPSAF study (Brodbelt et al., 117 clinics, ~185,000 animals) demonstrated that the absence of a trained nurse monitoring anesthesia was a risk factor for death. Over 50% of anesthesia deaths occurred within three hours of the procedure ending — during the recovery phase. The Banfield study (2022) showed that implementing quality standards, including trained personnel, reduced anesthesia mortality by 16% within six months. Redondo et al. (2024) confirmed that 81% of anesthesia deaths occurred postoperatively.'
+  },
+  'article.vetnurse.education.title': {
+    fi: 'Koulutus Suomessa',
+    sv: 'Utbildning i Finland',
+    en: 'Education in Finland'
+  },
+  'article.vetnurse.education.text': {
+    fi: 'Suomessa klinikkaeläinhoitajan koulutus on kolmiportainen. Perustutkinto (eläintenhoitaja, 2–3 vuotta) antaa perustiedot eläinten hoidosta. Ammattitutkinto (klinikkaeläinhoitaja, ~1,5 vuotta) erikoistuu klinikkatyöhön: anestesian valvontaan, leikkausavustamiseen, laboratoriotyöhön ja röntgenkuvaukseen. Korkein taso on erikoisammattitutkinto (EAT), jossa voi erikoistua esimerkiksi anestesiaan, akuutti- ja tehohoitoon, sisätautien hoitotyöhön tai diagnostiseen kuvantamiseen. EAT edellyttää vuosien kliinistä kokemusta.',
+    sv: 'I Finland är utbildningen för klinikdjurskötare trestegsbaserad. Grundexamen (djurskötare, 2–3 år) ger grundläggande kunskaper i djurvård. Yrkesexamen (klinikdjurskötare, ~1,5 år) specialiserar sig på klinikarbete: anestesiövervakning, operationsassistans, laboratoriearbete och röntgen. Den högsta nivån är specialyrkesexamen (EAT), där man kan specialisera sig på till exempel anestesi, akut- och intensivvård, internmedicinsk omvårdnad eller diagnostisk bilddiagnostik. EAT kräver flera års klinisk erfarenhet.',
+    en: 'In Finland, veterinary nurse education has three tiers. The basic qualification (animal care worker, 2–3 years) provides foundational knowledge in animal care. The vocational qualification (clinical veterinary nurse, ~1.5 years) specializes in clinic work: anesthesia monitoring, surgical assistance, laboratory work, and radiography. The highest level is the specialist vocational qualification (EAT), with specializations in anesthesia, acute and intensive care, internal medicine nursing, or diagnostic imaging. The EAT requires years of clinical experience.'
+  },
+  'article.vetnurse.jenni.title': {
+    fi: 'Jenni Ruotsala — johtava klinikkaeläinhoitajamme',
+    sv: 'Jenni Ruotsala — vår ledande klinikdjurskötare',
+    en: 'Jenni Ruotsala — Our Head Veterinary Nurse'
+  },
+  'article.vetnurse.jenni.text': {
+    fi: 'Johtava klinikkaeläinhoitajamme Jenni Ruotsala on työskennellyt klinikallamme vuodesta 2014. Hänellä on klinikkaeläinhoitajan koulutuksen kaikki kolme tasoa: perustutkinto (2010), ammattitutkinto (2018) ja erikoisammattitutkinto anestesiaan erikoistuen (2025) — korkein Suomessa saatavilla oleva ammatillinen pätevyys. Lisäksi Jenni on suorittanut hammashoitokoulutuksen Ruotsissa Accesia Academyssa, joka on Euroopan johtava eläinlääketieteellisen hammashoidon koulutuskeskus.',
+    sv: 'Vår ledande klinikdjurskötare Jenni Ruotsala har arbetat på vår klinik sedan 2014. Hon har alla tre nivåerna av klinikdjurskötarutbildning: grundexamen (2010), yrkesexamen (2018) och specialyrkesexamen med specialisering på anestesi (2025) — den högsta tillgängliga yrkeskvalifikationen i Finland. Dessutom har Jenni genomgått tandvårdsutbildning i Sverige vid Accesia Academy, Europas ledande utbildningscenter för veterinär tandvård.',
+    en: 'Our head veterinary nurse Jenni Ruotsala has worked at our clinic since 2014. She holds all three levels of Finnish veterinary nurse qualifications: basic qualification (2010), vocational qualification (2018), and specialist vocational qualification with anesthesia specialization (2025) — the highest professional qualification available in Finland. Additionally, Jenni has completed dental training in Sweden at Accesia Academy, Europe\'s leading veterinary dentistry education center.'
+  },
+
 };
 
 // --- Service icons mapping ---
