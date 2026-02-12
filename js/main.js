@@ -2163,9 +2163,9 @@ const translations = {
     en: 'Recovery Phase Monitoring'
   },
   'article.hypothermia.recovery.text': {
-    fi: 'Suurin osa anestesiakuolemista tapahtuu toipumisvaiheessa — koirilla 47–81 % ja kissoilla 61–75 %. Klinikallamme jatkamme aktiivista lämmitystä ja valvontaa koko toipumisen ajan. Seuraamme lämpötilaa, happisaturaatiota ja verenpainetta, kunnes potilas on täysin hereillä ja normaalin kehonlämpötilan saavuttanut. Lämmitys lopetetaan 36,9 °C:ssa ylikuumenemisen estämiseksi.',
-    sv: 'Majoriteten av anestesidödsfallen inträffar under återhämtningsfasen — hos hundar 47–81 % och hos katter 61–75 %. På vår klinik fortsätter vi aktiv uppvärmning och övervakning under hela återhämtningen. Vi övervakar temperatur, syremättnad och blodtryck tills patienten är helt vaken och har uppnått normal kroppstemperatur. Uppvärmningen avslutas vid 36,9 °C för att förhindra överhettning.',
-    en: 'The majority of anesthesia-related deaths occur during the recovery phase — 47–81% in dogs and 61–75% in cats. At our clinic, we continue active warming and monitoring throughout recovery. We monitor temperature, oxygen saturation, and blood pressure until the patient is fully awake and has reached normal body temperature. Warming is stopped at 36.9 °C to prevent overheating.'
+    fi: 'Suurin osa anestesiakuolemista tapahtuu toipumisvaiheessa — koirilla 47–81 % ja kissoilla 61–75 %. Klinikallamme jatkamme aktiivista lämmitystä ja valvontaa koko toipumisen ajan. Seuraamme lämpötilaa, happisaturaatiota ja verenpainetta, kunnes potilas on täysin hereillä ja normaalin kehonlämpötilan saavuttanut.',
+    sv: 'Majoriteten av anestesidödsfallen inträffar under återhämtningsfasen — hos hundar 47–81 % och hos katter 61–75 %. På vår klinik fortsätter vi aktiv uppvärmning och övervakning under hela återhämtningen. Vi övervakar temperatur, syremättnad och blodtryck tills patienten är helt vaken och har uppnått normal kroppstemperatur.',
+    en: 'The majority of anesthesia-related deaths occur during the recovery phase — 47–81% in dogs and 61–75% in cats. At our clinic, we continue active warming and monitoring throughout recovery. We monitor temperature, oxygen saturation, and blood pressure until the patient is fully awake and has reached normal body temperature.'
   },
   'article.hypothermia.safety.title': {
     fi: 'Turvallinen lämmitys',
