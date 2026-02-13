@@ -1129,6 +1129,40 @@ ul {
   color: white;
 }
 
+.article-search {
+  max-width: 500px;
+  margin: calc(-1 * var(--spacing-lg)) auto var(--spacing-md);
+}
+
+.article-search input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid var(--color-border);
+  border-radius: 50px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: border-color var(--transition);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.article-search input:focus {
+  border-color: var(--color-primary);
+}
+
+.article-search input::placeholder {
+  color: var(--color-text-light);
+}
+
+.article-no-results {
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: var(--font-size-base);
+  padding: var(--spacing-xl) 0;
+}
+
 .article-card.filter-hidden {
   display: none;
 }
@@ -1145,7 +1179,12 @@ ul {
   box-shadow: var(--shadow-md);
   padding: var(--spacing-xl);
   max-width: 800px;
-  margin: 0 auto var(--spacing-lg);
+  margin: 0 auto var(--spacing-2xl);
+}
+
+.article-card + .article-card {
+  border-top: 1px solid var(--color-primary);
+  padding-top: var(--spacing-2xl);
 }
 
 .article-header {
@@ -1167,6 +1206,27 @@ ul {
 .article-header time {
   color: var(--color-text-light);
   font-size: 0.85rem;
+}
+
+.article-print-btn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  background: var(--color-bg);
+  color: var(--color-text-light);
+  font-size: 0.8rem;
+  font-family: var(--font-family);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.article-print-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .article-card h3 {
@@ -1611,4 +1671,43 @@ ul {
 .animate-in:nth-child(4) { animation-delay: 0.3s; }
 .animate-in:nth-child(5) { animation-delay: 0.4s; }
 .animate-in:nth-child(6) { animation-delay: 0.5s; }
+
+/* --- Print Styles --- */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .article-card.printing,
+  .article-card.printing * {
+    visibility: visible;
+  }
+  .article-card.printing {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+    padding: 1cm;
+    margin: 0;
+  }
+  .article-card.printing .article-print-btn {
+    display: none;
+  }
+  .article-card.printing .article-content {
+    display: block !important;
+    max-height: none !important;
+  }
+  .article-card.printing h3 {
+    font-size: 1.3rem;
+  }
+  .article-card.printing h4 {
+    font-size: 1rem;
+  }
+  .article-card.printing p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
 

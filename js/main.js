@@ -47,7 +47,7 @@ const translations = {
   },
   'hero.badge.team': {
     fi: '13 ammattilaista',
-    sv: '13 specialister',
+    sv: '13 medarbetare',
     en: '13 Professionals'
   },
 
@@ -59,14 +59,14 @@ const translations = {
     en: 'The only private small animal clinic in Vaasa – in Bock\'s corner since 1989'
   },
   'about.text1': {
-    fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat tärkeimmät prioriteetit. Pyrimme luomaan lämpimän ja luottamuksellisen suhteen niin asiakkaaseen kuin potilaasenkin.',
+    fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat kaikkein tärkeintä. Haluamme luoda lämpimän ja luottamuksellisen suhteen niin sinuun kuin lemmikkiisikin.',
     sv: 'För oss är patientens välbefinnande och kundens tillfredsställelse de viktigaste prioriteringarna. Vi strävar efter att skapa en varm och förtroendefull relation till både kunden och patienten.',
-    en: 'For us, the welfare of the patient and the satisfaction of the customer are the number one priorities. We strive to create a warm and trusting relationship with both the customer and the patient.'
+    en: 'For us, patient welfare and client satisfaction are our top priorities. We strive to create a warm and trusting relationship with both you and your pet.'
   },
   'about.text2': {
-    fi: 'Ammattitaitoinen hoitotiimimme tarjoaa Teille kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi.',
-    sv: 'Vårt professionella vårdteam erbjuder Er erfaren och sakkunning service alltid för ert djurs bästa.',
-    en: 'Our professional care team offers you experienced and knowledgeable service, always for the best of your pet.'
+    fi: 'Ammattitaitoinen hoitotiimimme tarjoaa sinulle kokenutta ja asiantuntevaa palvelua aina eläimesi parhaaksi.',
+    sv: 'Vårt professionella vårdteam erbjuder dig erfaren och kunnig service – alltid för ditt djurs bästa.',
+    en: 'Our professional care team offers experienced and knowledgeable service, always in the best interest of your pet.'
   },
   'about.catfriendly.title': {
     fi: 'ISFM-sertifioitu kissaystävällinen klinikka',
@@ -74,9 +74,9 @@ const translations = {
     en: 'ISFM Certified Cat Friendly Clinic'
   },
   'about.catfriendly.text': {
-    fi: 'Kansainvälinen kissajärjestö ISFM on myöntänyt meille kissaystävällisen klinikan sertifikaatin.',
-    sv: 'Den internationella kattorganisationen ISFM har tilldelat oss certifikat för kattvänlig klinik.',
-    en: 'The international cat organization ISFM has awarded us the Cat Friendly Clinic certificate.'
+    fi: 'Kansainvälinen kissalääketieteen järjestö ISFM on myöntänyt meille kissaystävällisen klinikan sertifikaatin.',
+    sv: 'Den internationella kattmedicinska organisationen ISFM har tilldelat oss certifikatet Cat Friendly Clinic.',
+    en: 'The International Society of Feline Medicine (ISFM) has awarded us the Cat Friendly Clinic certificate.'
   },
   'about.feature1.title': {
     fi: 'Laaja diagnostiikka',
@@ -138,9 +138,9 @@ const translations = {
   'service.dermatology': { fi: 'Ihotaudit ja allergiat', sv: 'Dermatologi och allergier', en: 'Dermatology & Allergies' },
   'service.pregnancy': { fi: 'Tiineystutkimus', sv: 'Dräktighetsdiagnos', en: 'Pregnancy Diagnosis' },
   'service.endoscopy': { fi: 'Tähystystutkimukset', sv: 'Endoskopi', en: 'Endoscopy' },
-  'service.food': { fi: 'Rehunmyynti', sv: 'Foderförsäljning', en: 'Feed Sales' },
+  'service.food': { fi: 'Rehunmyynti', sv: 'Foderförsäljning', en: 'Therapeutic Diets' },
   'service.wellness': { fi: 'Hyvinvointi ja kuntoutus', sv: 'Friskvård och rehabilitering', en: 'Wellness & Rehabilitation' },
-  'service.healthcheck': { fi: 'Terveystarkastukset', sv: 'Hälsogranskning', en: 'Health Examinations' },
+  'service.healthcheck': { fi: 'Terveystarkastukset', sv: 'Hälsokontroll', en: 'Health Examinations' },
   'service.cardiology': { fi: 'Sydänsairaudet', sv: 'Hjärtsjukdomar', en: 'Heart Diseases' },
   'service.castration': { fi: 'Kastraatio', sv: 'Kastrering', en: 'Castration' },
   'service.surgery.dental': { fi: 'Hammaskirurgia', sv: 'Tandkirurgi', en: 'Dental Surgery' },
@@ -155,7 +155,7 @@ const translations = {
   'service.dental': { fi: 'Hammashoito', sv: 'Tandvård', en: 'Dental Care' },
   'service.ultrasound': { fi: 'Ultraäänitutkimukset', sv: 'Ultraljud', en: 'Ultrasound' },
   'service.vaccinations': { fi: 'Rokotukset', sv: 'Vaccinationer', en: 'Vaccinations' },
-  'service.puppy': { fi: 'Pentutarkastus', sv: 'Valpgranskning', en: 'Puppy Examinations' },
+  'service.puppy': { fi: 'Pentutarkastus', sv: 'Valpkontroll', en: 'Puppy Examinations' },
   'service.anesthesia': { fi: 'Anestesia', sv: 'Anestesi', en: 'Anesthesia' },
   'service.hygiene': { fi: 'Hygienia', sv: 'Hygien', en: 'Hygiene' },
 
@@ -166,19 +166,19 @@ const translations = {
     en: 'Acupuncture is used for pain relief and for the treatment of some diseases. Administered by Assaf, who has completed specialized training in canine and equine acupuncture.'
   },
   'service.desc.bloodtests': {
-    fi: 'Klinikallamme on mahdollisuus tutkia lemmikin verinäytteet. Useimmat näytteet tutkimme omassa laboratoriossamme, jolloin saamme vastauksen jo käynnin aikana.',
+    fi: 'Klinikallamme on mahdollisuus tutkia lemmikkisi verinäytteet. Useimmat näytteet tutkimme omassa laboratoriossamme, joten saat vastauksen jo käynnin aikana.',
     sv: 'De flesta prover undersöks i vårt eget laboratorium, så vi får svaret redan under besöket.',
-    en: 'Most samples are examined in our own laboratory, so we get the answer already during the visit.'
+    en: 'Most samples are examined in our own laboratory, so you can get results during the same visit.'
   },
   'service.desc.dermatology': {
-    fi: 'Ihotaudit ovat yksi yleisimmistä syistä hakeutua eläinlääkäriin. Joka kymmenennellä suomalaisella koiralla on allergioita, jotka usein oireilevat ihotulehduksina ja korvatulehduksina. Tyypillisiä oireita ovat tassujen nuoleminen, korvien raapiminen ja kasvojen hankaaminen. Allergiaa epäiltäessä pyritään ensin poissulkemaan ruoka-aineet, ja tarvittaessa otetaan allergiaverinäytteet.',
+    fi: 'Ihotaudit ovat yksi yleisimmistä syistä hakeutua eläinlääkäriin. Joka kymmenennellä suomalaisella koiralla on allergioita, jotka usein oireilevat ihotulehduksina ja korvatulehduksina. Tyypillisiä oireita ovat tassujen nuoleminen, korvien raapiminen ja kasvojen hankaaminen. Allergiaa epäiltäessä pyrimme ensin poissulkemaan ruoka-aineet, ja tarvittaessa otamme allergiaverinäytteet.',
     sv: 'Dermatologiska sjukdomar är en av de vanligaste orsakerna att uppsöka veterinär. Allergier drabbar ungefär en av tio hundar i Finland och visar sig ofta genom hud- och öroninflammation. Typiska symtom inkluderar tasslickande, öronkliande och ansiktsgnuggning. Vid allergimisstanke försöker vi först utesluta foderallergier, och vid behov tas allergiblodprover.',
-    en: 'Skin diseases are one of the most common reasons to seek veterinary care. About one in ten dogs in Finland has allergies, which often cause skin and ear infections. Typical symptoms include paw licking, ear scratching, and face rubbing. When allergy is suspected, we first try to eliminate food as a source, and if necessary collect allergy blood samples.'
+    en: 'Skin diseases are one of the most common reasons to seek veterinary care. About one in ten dogs in Finland has allergies, which often cause skin and ear infections. Typical symptoms include paw licking, ear scratching, and face rubbing. When allergy is suspected, we first try to rule out food as a cause, and if necessary, collect allergy blood samples.'
   },
   'service.desc.pregnancy': {
-    fi: 'Ultraäänitutkimuksella voidaan todeta tiineys noin raskauspäivästä 24. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin, noin raskauspäivästä 50 lähtien.',
+    fi: 'Ultraäänitutkimuksella voidaan todeta tiineys noin tiineyspäivästä 24. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin, noin tiineyspäivästä 50 lähtien.',
     sv: 'Ultraljudsundersökning kan upptäcka dräktighet från dag 24. Röntgenundersökning kan ge en mer exakt bedömning av antalet valpar, från dag 50 och framåt.',
-    en: 'Ultrasound pregnancy confirmation is possible from day 24. X-ray examination can estimate the number of puppies more closely, from approximately day 50.'
+    en: 'Ultrasound can confirm pregnancy from approximately day 24. X-ray examination can provide a more accurate estimate of the number of puppies from approximately day 50.'
   },
   'service.desc.endoscopy': {
     fi: 'Klinikalla tehdään video-otoskopia (korvaontelon tähystys ja huuhtelu), rhinoskopia (nenäontelon tähystys), gastroskopia (vatsan ja suoliston tähystys), kystoskopia (virtsateiden tähystys) ja bronkoskopia (hengitysteiden tähystys).',
@@ -186,27 +186,27 @@ const translations = {
     en: 'We perform video-otoscopy (ear canal examination and flushing), rhinoscopy (nasal cavity examination), gastroscopy (gastrointestinal examination), cystoscopy (urinary tract examination) and bronchoscopy (airway examination).'
   },
   'service.desc.food': {
-    fi: 'Klinikaltamme löydät lemmikin eri sairauksien hoidossa käytettävät erikoisruokavaliot. Erikoisruokia suositellaan esimerkiksi nivelrikkoon, munuaisten vajaatoimintaan, vatsa- ja suolistovaivoihin, ruoka-aineallergioihin ja painonhallintaan. Merkit: Royal Canin, Specific, Hill\'s.',
-    sv: 'På kliniken hittar ni olika specialfoder som används som stöd under sjukdom. Rekommenderas vid bland annat artros, njursvikt, mag-tarmproblem, urinvägssjukdomar, foderallergier och viktkontroll. Märken: Royal Canin, Specific, Hill\'s.',
-    en: 'Special therapeutic diets used as part of the treatment of various diseases. Recommended for osteoarthritis, renal failure, gastrointestinal diseases, food allergies, urinary tract diseases, and weight management. Brands: Royal Canin, Specific, Hill\'s.'
+    fi: 'Klinikaltamme saat lemmikkisi eri sairauksien hoitoon tarkoitetut erikoisruoat. Erikoisruokia suositellaan esimerkiksi nivelrikkoon, munuaisten vajaatoimintaan, vatsa- ja suolistovaivoihin, ruoka-aineallergioihin ja painonhallintaan. Merkit: Royal Canin, Specific, Hill\'s.',
+    sv: 'På kliniken hittar du olika specialfoder som används som stöd under sjukdom. Rekommenderas vid bland annat artros, njursvikt, mag-tarmproblem, urinvägssjukdomar, foderallergier och viktkontroll. Märken: Royal Canin, Specific, Hill\'s.',
+    en: 'We carry special therapeutic diets used as part of the treatment for various conditions. Recommended for osteoarthritis, renal failure, gastrointestinal diseases, food allergies, urinary tract diseases, and weight management. Brands: Royal Canin, Specific, Hill\'s.'
   },
   'service.desc.wellness': {
     fi: 'Kuntoutuksen avulla arvioidaan ja pyritään parantamaan eläimen toimintakykyä ja liikkumista. Yleisimmät syyt ovat liikkuvuuden häiriöt, suorituskyvyn alentuminen, trauman jälkeiset kiputilat ja leikkauksen jälkeinen kuntoutus. Palvelut: liikkumisanalyysi, hieronta, elektroterapia, harjoitusohjelmat.',
     sv: 'Med hjälp av friskvård och rehabilitering analyseras och förbättras djurets förmåga till rörelse. De vanligaste orsakerna är funktionsstörningar, nedsatt prestationsförmåga, smärta efter trauma samt rehabilitering efter operationer. Tjänster: rörelseanalys, djupgående massage, elektroterapi, träningsprogram.',
-    en: 'Wellness and rehabilitation to analyze and improve the animal\'s function and mobility. Common reasons include reduced mobility, pain following trauma, and post-surgical recovery. Services: gait analysis, deep massage, electrotherapy, customized training programs.'
+    en: 'Wellness and rehabilitation services to assess and improve your pet\'s mobility and function. Common reasons include reduced mobility, pain following trauma, and post-surgical recovery. Services: gait analysis, deep massage, electrotherapy, customized training programs.'
   },
   'service.desc.healthcheck': {
-    fi: 'Terveystarkastuksessa voidaan havaita muutokset jotka voivat pitkällä tähtäimellä aiheuttaa terveysongelmia. Eläinlääkäri tutkii koko eläimen kliinisesti, kuuntelee sydäntä ja keuhkoja sekä tarvittaessa ottaa verinäytteet.',
-    sv: 'Under hälsogranskningen kan man upptäcka förändringar som i det långa loppet kan förorsaka hälsoproblem. Veterinären gör en klinisk undersökning, lyssnar på hjärtat och lungorna och vid behov tas blodprover.',
-    en: 'During health checks we can detect changes that may cause health problems in the long run. The vet examines the whole animal clinically, listens to the heart and lungs and, if necessary, takes blood samples.'
+    fi: 'Terveystarkastuksessa voidaan havaita muutokset, jotka voivat pitkällä tähtäimellä aiheuttaa terveysongelmia. Eläinlääkäri tutkii lemmikkisi kliinisesti, kuuntelee sydämen ja keuhkot sekä tarvittaessa ottaa verinäytteet.',
+    sv: 'Under hälsoundersökningen kan man upptäcka förändringar som i det långa loppet kan förorsaka hälsoproblem. Veterinären gör en klinisk undersökning, lyssnar på hjärtat och lungorna och vid behov tas blodprover.',
+    en: 'During health checks we can detect changes that may cause health problems in the long run. The vet performs a full clinical examination, listens to the heart and lungs and, if necessary, takes blood samples.'
   },
   'service.desc.cardiology': {
-    fi: 'Sydänsairaudet ovat yleisiä erityisesti tietyissä roduissa. Ajoissa aloitettu lääkitys voi pidentää lemmikin elinikää. Klinikalla tehdään sydämen ultraäänitutkimuksia, EKG- ja Holter-tutkimuksia. Teemme myös virallisia sydämen ultraäänitutkimuksia koirille. Klinikalla on viralliset sydämen auskultaatio-oikeudet.',
-    sv: 'Hjärtsjukdomar är vanliga särskilt hos vissa raser. Tidig intervention kan förlänga livslängden och förbättra livskvaliteten. Kliniken erbjuder hjärtultraljud, EKG och Holter-monitorering. Vi utför även officiella hjärtultraljudsundersökningar för hundar. Vi har officiella hjärtauskultationsrättigheter.',
-    en: 'Heart diseases are common especially in certain breeds. Early medication can extend pet lifespan and improve quality of life. We offer cardiac ultrasound, ECG and Holter monitoring. We also perform official heart ultrasound examinations for dogs. We hold official heart auscultation rights.'
+    fi: 'Sydänsairaudet ovat yleisiä erityisesti tietyissä roduissa. Ajoissa aloitettu lääkitys voi pidentää lemmikkisi elinikää. Klinikalla tehdään sydämen ultraäänitutkimuksia, EKG- ja Holter-tutkimuksia. Teemme myös virallisia sydämen ultraäänitutkimuksia koirille. Klinikallamme on viralliset oikeudet sydämen auskultaatiotutkimuksiin.',
+    sv: 'Hjärtsjukdomar är vanliga särskilt hos vissa raser. Tidig behandling kan förlänga livslängden och förbättra livskvaliteten. Kliniken erbjuder hjärtultraljud, EKG och Holter-monitorering. Vi utför även officiella hjärtultraljudsundersökningar för hundar. Vi har officiella rättigheter för hjärtauskultation.',
+    en: 'Heart diseases are common, especially in certain breeds. Early treatment can extend your pet\'s lifespan and improve quality of life. We offer cardiac ultrasound, ECG and Holter monitoring. We also perform official heart ultrasound examinations for dogs. We are authorized to perform official heart auscultation examinations.'
   },
   'service.desc.castration': {
-    fi: 'Teemme kissojen, koirien ja kanien kastraatioita. Koiran kastraatiolla voidaan ennaltaehkäistä eturauhasvaivoja ja merkkailua. Tarjolla myös kemiallinen kastraatio hormoni-implantilla (6 tai 12 kk teho).',
+    fi: 'Teemme kissojen, koirien ja kanien kastraatioita. Koiran kastraatio auttaa ennaltaehkäisemään eturauhasvaivoja ja merkkailua. Tarjolla myös kemiallinen kastraatio hormoni-implantilla (6 tai 12 kk teho).',
     sv: 'Vi kastrerar katter, hundar och kaniner. Kastrering av hund kan motverka prostataproblem och urinmarkering. Kemisk kastrering med hormonimplantat finns också tillgängligt (6 eller 12 månaders effektivitet).',
     en: 'We castrate cats, dogs and rabbits. Dog castration can prevent prostate problems and urine marking. Chemical castration with a hormonal implant is also available (6 or 12-month duration).'
   },
@@ -221,42 +221,42 @@ const translations = {
     en: 'Spays, neuters, caesarean sections, tumor removals, foreign body extraction, bladder stone surgery, other abdominal surgeries, and eye and ear procedures.'
   },
   'service.desc.surgery.ortho': {
-    fi: 'Klinikalla on oma ortopedinen leikkaussali, jossa on korkeampi steriiliyystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
-    sv: 'Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom frakturkirurgi, amputationer (ben, svans, tår) samt lårbensh­uvudektomi vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
+    fi: 'Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
+    sv: 'Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom frakturkirurgi, amputationer (ben, svans, tår) samt lårbenshuvudresektion vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
     en: 'The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also fracture repairs, amputations (leg, tail, toes) and femoral head ostectomy for chronic luxation or Legg-Perthes disease.'
   },
   'service.desc.laboratory': {
-    fi: 'Hyvin varusteltu oma laboratorio: verinäytteet, virtsanäytteet, verisivelyt, iho- ja korvanäytteet. Suurin osa tuloksista jo käynnin aikana. Tutkimuksia: hematologia, kliininen kemia, elektrolyytit, hormonit, virtsaviljelyt, sytologia.',
+    fi: 'Hyvin varusteltu oma laboratorio: verinäytteet, virtsanäytteet, verisivelyt, iho- ja korvanäytteet. Suurin osa tuloksista on valmiina jo käynnin aikana. Tutkimuksia: hematologia, kliininen kemia, elektrolyytit, hormonit, virtsaviljelyt, sytologia.',
     sv: 'Välutrustat eget laboratorium: blodprover, urinprover, blodutstryk, hud- och öronprover. De flesta resultat redan under besöket. Analyser: hematologi, klinisk kemi, elektrolyter, hormoner, urinodlingar, cytologi.',
-    en: 'Well-equipped in-house laboratory: blood samples, urine samples, blood smears, skin and ear samples. Most results during the visit. Analyses: hematology, clinical chemistry, electrolytes, hormones, urine cultures, cytology.'
+    en: 'Well-equipped in-house laboratory: blood samples, urine samples, blood smears, skin and ear samples. Most results available during your visit. Analyses: hematology, clinical chemistry, electrolytes, hormones, urine cultures, cytology.'
   },
   'service.desc.official': {
-    fi: 'Viralliset lonkka-, kyynär- ja selkätutkimukset. Viralliset polvitutkimukset. Viralliset sydämen auskultaatiotutkimukset. Viralliset sydämen ultraäänitutkimukset koirille.',
+    fi: 'Viralliset lonkka-, kyynär- ja selkäkuvaukset. Viralliset polvitutkimukset. Viralliset sydämen auskultaatiotutkimukset. Viralliset sydämen ultraäänitutkimukset koirille.',
     sv: 'Officiella röntgenbilder (höfter, armbågar, rygg). Officiella knäundersökningar. Officiella hjärtauskultationer. Officiella hjärtultraljudsundersökningar för hundar.',
     en: 'Official hip, elbow and back X-rays. Official knee examinations. Official heart auscultations. Official heart ultrasound examinations for dogs.'
   },
   'service.desc.orthopedics': {
-    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Klinikalla on oma ortopedinen leikkaussali, jossa on korkeampi steriiliyystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
-    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Frakturkirurgi, amputationer samt lårbensh­uvudektomi.',
+    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
+    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Frakturkirurgi, amputationer samt lårbenshuvudresektion.',
     en: 'Orthopedic examinations and official X-ray examinations. The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique (joint stabilization with synthetic support material) and TTA (tibial tuberosity advancement to alter knee biomechanics). Fracture repairs, amputations, and femoral head ostectomy.'
   },
   'service.desc.xray': {
-    fi: 'Digitaalinen röntgen. Suositellaan esim. ontumiin, keuhko- tai sydänoireisiin, akuuttiin oksenteluun, virtsaamisvaikeuksiin, kasvainepäilyihin ja virallisiin röntgenkuvauksiin.',
+    fi: 'Digitaalinen röntgen. Suosittelemme esimerkiksi ontumisen, keuhko- tai sydänoireiden, akuutin oksentelun, virtsaamisvaikeuksien ja kasvainepäilyjen tutkimiseen sekä virallisiin röntgenkuvauksiin.',
     sv: 'Digital röntgen. Rekommenderas vid hälta, lung- och hjärtsymtom, akut kräkning, urinproblem, misstänkta tumörer och officiella röntgenbilder.',
     en: 'Digital X-ray. Recommended for limping, respiratory or cardiac symptoms, acute vomiting, urinary problems, tumor suspicion, and official screening X-rays.'
   },
   'service.desc.euthanasia': {
-    fi: 'Pyrimme siihen, että hyvästien otto tapahtuu rauhallisesti, ilman kiirettä. Lemmikille annetaan ensin rauhoite kivunlievennyksellä, sitten nukutusaine. Vaihtoehdot: kotihautaus, tuhkaus tai yksilötuhkaus uurnalla.',
-    sv: 'Vi strävar efter att farvälet ska vara lugnt och utan brådska. Djuret får först ett lugnande medel med smärtlindring, sedan sömnmedel. Alternativ: hemgravering, kremering eller individuell kremering med urna.',
-    en: 'We strive to make the final farewell peaceful and unhurried. The pet first receives a sedative with pain relief, then an anesthetic. Options: home burial, cremation, or individual cremation with urn.'
+    fi: 'Pyrimme siihen, että viimeinen jäähyväinen tapahtuu rauhallisesti, ilman kiirettä. Lemmikille annetaan ensin rauhoite kivunlievennyksellä, sitten nukutusaine. Vaihtoehdot: kotihautaus, tuhkaus tai yksilötuhkaus uurnalla.',
+    sv: 'Vi strävar efter att farvälet ska vara lugnt och utan brådska. Djuret får först ett lugnande medel med smärtlindring, sedan sömnmedel. Alternativ: hembegravning, kremering eller individuell kremering med urna.',
+    en: 'We strive to make the final farewell peaceful and unhurried. Your pet first receives a sedative with pain relief, followed by an anesthetic. Options: home burial, cremation, or individual cremation with urn.'
   },
   'service.desc.sterilization': {
-    fi: 'Yleinen toimenpide koirille, kissoille ja kaneille. Sterilisaatiolla voidaan välttyä hormonaalisilta taudeilta, kuten nisäkasvaimilta tai kohtutulehdukselta. Inhalaatioanestesia ja kattava kivunlievennys.',
+    fi: 'Yleinen toimenpide koirille, kissoille ja kaneille. Sterilisaatio auttaa ehkäisemään hormonaalisia sairauksia, kuten nisäkasvaimia ja kohtutulehdusta. Inhalaatioanestesia ja kattava kivunlievitys.',
     sv: 'Ett vanligt ingrepp på hundar, katter och kaniner. Sterilisering kan motverka hormonala sjukdomar som juvertumörer och livmoderinflammation. Inhalationsanestesi och omfattande smärthantering.',
     en: 'A common procedure for dogs, cats and rabbits. Sterilization helps prevent hormonal diseases including mammary tumors and uterine infections. Inhalation anesthesia with comprehensive pain management.'
   },
   'service.desc.dental': {
-    fi: 'Hammassairaudet ovat erittäin yleisiä — jo 3-vuoden iässä valtaosalla on hampaiden tulehdus. Palvelut: hammaskiven poisto ultraäänilaitteella, hammasröntgen, hampaiden kirurgiset poistot, maitohampaiden poistot sekä puhkeamattomien hampaiden ja kystojen poisto. Kaikki toimenpiteet yleisanestesiassa inhalaatioanestesialla, suonensisäisellä nesteytyksellä ja kattavalla kivunlievennyksellä.',
+    fi: 'Hammassairaudet ovat erittäin yleisiä — jo kolmen vuoden iässä valtaosalla koirista ja kissoista on jonkinasteinen hammastulehdus. Palvelut: hammaskiven poisto ultraäänilaitteella, hammasröntgen, hampaiden kirurgiset poistot, maitohampaiden poistot sekä puhkeamattomien hampaiden ja kystojen poisto. Kaikki toimenpiteet yleisanestesiassa inhalaatioanestesialla, suonensisäisellä nesteytyksellä ja kattavalla kivunlievennyksellä.',
     sv: 'Tandsjukdomar är mycket vanliga — vid 3 års ålder har de flesta hundar och katter inflammation i munnen. Tjänster: tandstensavlägsnande med ultraljud, tandröntgen, kirurgiska tandutdragningar, mjölktandsborttagning samt borttagning av icke-erupterade tänder och cystor. Alla ingrepp under generell anestesi med inhalationsanestesi, intravenöst dropp och omfattande smärthantering.',
     en: 'Dental disorders are very common — by age 3, most dogs and cats have some dental inflammation. Services: tartar removal with ultrasound, dental X-rays, surgical tooth extractions, deciduous teeth removals, and removal of unerupted teeth and cysts. All procedures under general anesthesia with inhalation anesthesia, intravenous fluids and comprehensive pain management.'
   },
@@ -266,22 +266,22 @@ const translations = {
     en: 'High-quality ultrasound: abdominal examinations, uterine examinations, liver, kidney and other organ examinations, and heart ultrasound.'
   },
   'service.desc.vaccinations': {
-    fi: 'Rokotus on tärkeää ennaltaehkäisevää terveydenhoitoa. Koiranpennut rokotetaan 12 ja 16 viikon ikäisinä. Kissanpennut samoin. Aikuiset rokotetaan 1–3 vuoden välein. Koirat: parvovirus, maksatulehdus, penikkatuti, rabies, kennelyskä. Kissat: kissarutto, herpes, calici.',
+    fi: 'Rokotukset ovat tärkeä osa ennaltaehkäisevää terveydenhoitoa. Koiranpennut rokotetaan 12 ja 16 viikon iässä, kissanpennut samoin. Aikuiset rokotetaan 1–3 vuoden välein. Koirat: parvovirus, maksatulehdus, penikkatuti, rabies, kennelyskä. Kissat: kissarutto, herpes, calici.',
     sv: 'Vaccinationer är en viktig del av förebyggande hälsovård. Valpar vaccineras vid 12 och 16 veckors ålder. Kattungar likaså. Vuxna djur vaccineras med 1–3 års intervall. Hundar: parvovirus, hepatit, valpsjuka, rabies, kennelhosta. Katter: panleukopeni, herpes, calici.',
     en: 'Vaccination is important preventative healthcare. Puppies are vaccinated at 12 and 16 weeks. Kittens likewise. Adults every 1–3 years. Dogs: parvovirus, hepatitis, distemper, rabies, kennel cough. Cats: panleukopenia, herpes, calicivirus.'
   },
   'service.desc.puppy': {
-    fi: 'Pentutarkastuksessa eläinlääkäri tutkii pennun päästä varpaisiin ja antaa terveystodistuksen. Tarkastuksen yhteydessä voidaan asettaa mikrosiru.',
-    sv: 'Vid valpgranskningen undersöker veterinären valpen från topp till tå och utfärdar ett hälsointyg. I samband med undersökningen kan man sätta mikrochip.',
+    fi: 'Pentutarkastuksessa eläinlääkäri tutkii pennun päästä varpaisiin ja antaa terveystodistuksen. Tarkastuksen yhteydessä voimme asettaa mikrosirun.',
+    sv: 'Vid valpkontrollen undersöker veterinären valpen från topp till tå och utfärdar ett hälsointyg. I samband med undersökningen kan man sätta mikrochip.',
     en: 'The veterinarian examines the puppy thoroughly from head to toe and issues a health certificate. A microchip can be implanted during the visit.'
   },
   'service.desc.anesthesia': {
-    fi: 'Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme ja koulutustamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikalla on kehittyneet monitorointilaitteet, neljä anestesiakonetta ja kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
+    fi: 'Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikallamme on edistykselliset valvontalaitteet, neljä anestesiakonetta ja kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
     sv: 'Anestesi ligger oss varmt om hjärtat. Vi uppdaterar kontinuerligt vår utbildning, förnyar våra protokoll och övervakar patienterna noggrant under hela ingreppet. Kliniken har avancerad övervakningsutrustning, fyra anestesimaskiner och två ventilatorer för att säkerställa säker anestesi.',
     en: 'Anesthesia is close to our hearts. We continuously update our education, refresh our protocols and monitor patients closely throughout every procedure. The clinic has advanced monitoring equipment, four anesthesia machines and two ventilators to ensure safe anesthesia.'
   },
   'service.desc.hygiene': {
-    fi: 'Korkea hygieniataso on meille keskeinen tavoite. Pesemme kädet ja käytämme kertakäyttökäsineitä jokaisen potilaan kohdalla. Tutkimuspöydät desinfioidaan potilaiden välillä ja kankaat pestään jokaisen käytön jälkeen. Käytämme UV-valoa klinikan tilojen desinfiointiin ja suodattimia inhalaatioanestesiassa. Lattiat desinfioidaan kahdesti päivässä.',
+    fi: 'Korkea hygieniataso on meille ensiarvoisen tärkeää. Pesemme kädet ja käytämme kertakäyttökäsineitä jokaisen potilaan kohdalla. Tutkimuspöydät desinfioidaan potilaiden välillä ja kankaat pestään jokaisen käytön jälkeen. Käytämme UV-valoa klinikan tilojen desinfiointiin ja suodattimia inhalaatioanestesiassa. Lattiat desinfioidaan kahdesti päivässä.',
     sv: 'Hög hygiennivå är ett centralt mål för oss. Vi tvättar händerna och använder engångshandskar för varje patient. Undersökningsborden desinficeras mellan patienter och textilier tvättas efter varje användning. Vi använder UV-ljus för desinfektion av klinikens utrymmen och filter vid inhalationsanestesi. Golven desinficeras två gånger om dagen.',
     en: 'Maintaining a high level of hygiene is a core priority for us. We wash our hands and use single-use gloves for every patient. Examination tables are disinfected between patients and fabrics are washed after every use. We use UV light to disinfect all clinic areas and filters with inhalation anesthesia. Floors are disinfected twice per day.'
   },
@@ -289,8 +289,8 @@ const translations = {
   // Team
   'team.title': { fi: 'Henkilökuntamme', sv: 'Vår personal', en: 'Our Team' },
   'team.subtitle': {
-    fi: 'Ammattitaitoinen hoitotiimimme palveluksessanne',
-    sv: 'Vårt professionella vårdteam till er tjänst',
+    fi: 'Ammattitaitoinen hoitotiimimme palveluksessasi',
+    sv: 'Vårt professionella vårdteam till din tjänst',
     en: 'Our professional care team at your service'
   },
   'team.vets': { fi: 'Eläinlääkärit', sv: 'Veterinärer', en: 'Veterinarians' },
@@ -380,7 +380,7 @@ const translations = {
   'prices.title': { fi: 'Hinnasto', sv: 'Prislista', en: 'Price List' },
   'prices.subtitle': {
     fi: 'Hinnat ovat kokonaishintoja. Leikkaukset sisältävät lääkkeet ja tarvikkeet.',
-    sv: 'Priserna är totalpriser. Kirurgiska ingrepp innehåller mediciner och tillbehör.',
+    sv: 'Priserna är totalpriser. Kirurgiska ingrepp innehåller mediciner och förbrukningsmaterial.',
     en: 'Prices are total amounts. Surgical procedures include medicines and supplies.'
   },
   'prices.cat.consultation': { fi: 'Eläinlääkärin vastaanotto', sv: 'Veterinärbesök', en: 'Veterinary Consultation' },
@@ -412,10 +412,10 @@ const translations = {
   'price.surg.catfemale.note': { fi: 'Sis. kaulurin ja kipulääkkeet', sv: 'Inkl. krage och smärtlindring', en: 'Incl. collar and pain medication' },
   'price.surg.catmale': { fi: 'Uroskissan kastraatio', sv: 'Hankatt kastrering', en: 'Male cat neuter' },
   'price.surg.catmale.note': { fi: 'Sis. kipulääkkeet', sv: 'Inkl. smärtlindring', en: 'Incl. pain medication' },
-  'price.surg.dogfemale.5': { fi: 'Naaraskoiran sterilisaatio <5kg', sv: 'Hontik sterilisering <5kg', en: 'Female dog spay <5kg' },
-  'price.surg.dogfemale.20': { fi: 'Naaraskoiran sterilisaatio 5–20kg', sv: 'Hontik sterilisering 5–20kg', en: 'Female dog spay 5–20kg' },
-  'price.surg.dogfemale.40': { fi: 'Naaraskoiran sterilisaatio 20–40kg', sv: 'Hontik sterilisering 20–40kg', en: 'Female dog spay 20–40kg' },
-  'price.surg.dogfemale.over40': { fi: 'Naaraskoiran sterilisaatio >40kg', sv: 'Hontik sterilisering >40kg', en: 'Female dog spay >40kg' },
+  'price.surg.dogfemale.5': { fi: 'Naaraskoiran sterilisaatio <5kg', sv: 'Hynda sterilisering <5kg', en: 'Female dog spay <5kg' },
+  'price.surg.dogfemale.20': { fi: 'Naaraskoiran sterilisaatio 5–20kg', sv: 'Hynda sterilisering 5–20kg', en: 'Female dog spay 5–20kg' },
+  'price.surg.dogfemale.40': { fi: 'Naaraskoiran sterilisaatio 20–40kg', sv: 'Hynda sterilisering 20–40kg', en: 'Female dog spay 20–40kg' },
+  'price.surg.dogfemale.over40': { fi: 'Naaraskoiran sterilisaatio >40kg', sv: 'Hynda sterilisering >40kg', en: 'Female dog spay >40kg' },
   'price.surg.dogmale.10': { fi: 'Uroskoiran kastraatio <10kg', sv: 'Hanhund kastrering <10kg', en: 'Male dog neuter <10kg' },
   'price.surg.dogmale.20': { fi: 'Uroskoiran kastraatio 10–20kg', sv: 'Hanhund kastrering 10–20kg', en: 'Male dog neuter 10–20kg' },
   'price.surg.dogmale.40': { fi: 'Uroskoiran kastraatio 20–40kg', sv: 'Hanhund kastrering 20–40kg', en: 'Male dog neuter 20–40kg' },
@@ -424,7 +424,7 @@ const translations = {
   'price.surg.crypto.inguinal.large': { fi: 'Piilokivesleikkaus, nivusesta >20kg', sv: 'Kryptorkidoperation, inguinal >20kg', en: 'Cryptorchid surgery, inguinal >20kg' },
   'price.surg.crypto.abdom.small': { fi: 'Piilokivesleikkaus, vatsaontelosta <20kg', sv: 'Kryptorkidoperation, abdominell <20kg', en: 'Cryptorchid surgery, abdominal <20kg' },
   'price.surg.crypto.abdom.large': { fi: 'Piilokivesleikkaus, vatsaontelosta >20kg', sv: 'Kryptorkidoperation, abdominell >20kg', en: 'Cryptorchid surgery, abdominal >20kg' },
-  'price.surg.stitch.note': { fi: 'Leikkausten hintaan sisältyy tikkien poisto.', sv: 'Stygnen ingår i operationspriset.', en: 'Stitch removal is included in the surgery price.' },
+  'price.surg.stitch.note': { fi: 'Leikkausten hintaan sisältyy tikkien poisto.', sv: 'Borttagning av stygn ingår i operationspriset.', en: 'Stitch removal is included in the surgery price.' },
 
   // Price items - Dental
   'price.dental.check': { fi: 'Hampaiden tarkistus hereillä', sv: 'Tandkontroll vaken', en: 'Dental check (awake)' },
@@ -446,7 +446,7 @@ const translations = {
   'price.ortho.cruciate': { fi: 'Ristisideleikkaus lateraalisutuura', sv: 'Korsbandsoperation lateral sutur', en: 'Cruciate ligament lateral suture' },
   'price.ortho.tta': { fi: 'Ristisideleikkaus TTA', sv: 'Korsbandsoperation TTA', en: 'Cruciate ligament TTA' },
   'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
-  'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head removal' },
+  'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head ostectomy' },
   'price.ortho.fracture.price': { fi: 'alk. 1,300 €', sv: 'fr. 1,300 €', en: 'from 1,300 €' },
   'price.ortho.amputation': { fi: 'Amputaatiot yms.', sv: 'Amputationer m.m.', en: 'Amputations etc.' },
   'price.ortho.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
@@ -506,23 +506,23 @@ const translations = {
   'price.other.euthdog.large': { fi: 'Eutanasia koira >40kg', sv: 'Eutanasi hund >40kg', en: 'Euthanasia dog >40kg' },
 
   'prices.note': {
-    fi: 'Alle 24h ennen peruutetuista ajoista veloitetaan 30–100 €.',
+    fi: 'Alle 24 tuntia ennen vastaanottoaikaa peruutetuista ajoista veloitamme 30–100 €.',
     sv: 'Avbokning mindre än 24 timmar före besöket debiteras 30–100 €.',
     en: 'Cancellations less than 24 hours before the appointment are charged 30–100 €.'
   },
   'prices.rights': {
-    fi: 'Pidätämme oikeuden hintojen muutoksiin.',
+    fi: 'Pidätämme oikeuden hinnanmuutoksiin.',
     sv: 'Vi förbehåller oss rätten att ändra priserna.',
     en: 'We reserve the right to change prices.'
   },
   'prices.payment': {
-    fi: 'Voit maksaa myös laskulla tai erissä — ota yhteyttä niin kerromme lisää!',
+    fi: 'Voit maksaa myös laskulla tai osamaksulla — ota yhteyttä, niin kerromme lisää!',
     sv: 'Du kan även betala med faktura eller på avbetalning — kontakta oss för mer info!',
     en: 'You can also pay by invoice or in installments — contact us for more info!'
   },
   'prices.insurance': {
     fi: 'Suorakorvaus: Lähitapiola, Agria, Pohjola',
-    sv: 'Direktersättning: Lokaltapiola, Agria, Pohjola',
+    sv: 'Direktersättning: LokalTapiola, Agria, Pohjola',
     en: 'Direct insurance billing: Lähitapiola, Agria, Pohjola'
   },
 
@@ -534,17 +534,17 @@ const translations = {
     en: 'In cooperation with Nordic Wildlife Care'
   },
   'wildlife.text1': {
-    fi: 'Eläinklinikka Saari tekee yhteistyötä villieläinhoitolan kanssa. Vapaaehtoistyömme organisaation kanssa tapahtuu maksutta.',
-    sv: 'Djurklinik Saari samarbetar med en viltdjursvårdsanläggning. Vårt frivilligarbete med organisationen sker utan kostnad.',
-    en: 'Animal Clinic Saari cooperates with a wildlife care facility. Our volunteer work with the organization is free of charge.'
+    fi: 'Eläinklinikka Saari tekee yhteistyötä Nordic Wildlife Care -villieläinhoitolan kanssa. Vapaaehtoistyömme on maksutonta.',
+    sv: 'Djurkliniken Saari samarbetar med Nordic Wildlife Care. Vårt frivilligarbete är kostnadsfritt.',
+    en: 'Animal Clinic Saari cooperates with Nordic Wildlife Care. Our volunteer work is free of charge.'
   },
   'wildlife.text2': {
-    fi: 'Tarjoamme diagnostiikka- ja hoitopalveluita loukkaantuneille villieläimille. Eläimet saavat ensihoitoa ennen kuntoutuskeskukseen siirtoa, ja tavoitteena on vapauttaa ne takaisin luontoon.',
-    sv: 'Vi erbjuder diagnostik och behandling för skadade vilda djur. Djuren får initialvård innan de överförs till rehabiliteringscenter, med målet att släppa ut dem i naturen igen.',
+    fi: 'Tarjoamme diagnostiikka- ja hoitopalveluja loukkaantuneille villieläimille. Eläimet saavat ensihoitoa klinikallamme ennen siirtoa kuntoutuskeskukseen, ja tavoitteena on vapauttaa ne takaisin luontoon.',
+    sv: 'Vi erbjuder diagnostik och behandling för skadade vilda djur. Djuren får akutvård innan de överförs till rehabiliteringscenter, med målet att släppa ut dem i naturen igen.',
     en: 'We provide diagnostic and treatment services for injured wild animals. Animals receive initial care before transfer to rehabilitation centers, with the goal of releasing them back into nature.'
   },
   'wildlife.donate': {
-    fi: 'Tue villieläinhoitolaa lahjoittamalla Nordic Wildlife Carelle',
+    fi: 'Voit tukea villieläinhoitolaa lahjoittamalla Nordic Wildlife Carelle',
     sv: 'Stöd viltdjursvården genom att donera till Nordic Wildlife Care',
     en: 'Support wildlife care by donating to Nordic Wildlife Care'
   },
@@ -555,7 +555,7 @@ const translations = {
   },
   'wildlife.placeholder': {
     fi: 'Villieläinkuva',
-    sv: 'Viltdjurbild',
+    sv: 'Viltdjursbild',
     en: 'Wildlife photo'
   },
 
@@ -584,7 +584,7 @@ const translations = {
   'testimonial.4': {
     fi: 'Ammattimaista palvelua eläinten hyvinvointi edellä!',
     sv: 'Proffsig service med fokus på djurens välmående!',
-    en: 'Professional service with focus on animal wellbeing!'
+    en: 'Professional service with a focus on animal wellbeing!'
   },
   'testimonial.5': {
     fi: 'Ystävällinen ja ammattimainen kohtelu.',
@@ -617,8 +617,8 @@ const translations = {
 
   // Footer
   'footer.description': {
-    fi: 'Vaasan ainoa yksityinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 – viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessanne.',
-    sv: 'Vasas enda privata smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till er tjänst.',
+    fi: 'Vaasan ainoa yksityinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 — viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
+    sv: 'Vasas enda privata smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till din tjänst.',
     en: 'The only private small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight technicians at your service.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
@@ -634,20 +634,20 @@ const translations = {
   'privacy.name.title': { fi: 'Rekisterin nimi', sv: 'Registrets namn', en: 'Registry Name' },
   'privacy.name.text': { fi: 'Eläinklinikka Saari Oy:n asiakasrekisteri', sv: 'Eläinklinikka Saari Oy:s kundregister', en: 'Eläinklinikka Saari Oy Customer Registry' },
   'privacy.purpose.title': { fi: 'Henkilötietojen käyttötarkoitus', sv: 'Syfte med behandling av personuppgifter', en: 'Purpose of Personal Data Processing' },
-  'privacy.purpose.text': { fi: 'Henkilötietoja käytetään viestintään, asiakaspalveluun ja potilassuhteen ylläpitoon.', sv: 'Personuppgifter används för kommunikation, kundservice och upprätthållande av patientrelationer.', en: 'Personal data is used for communication, customer service and maintaining patient relationships.' },
+  'privacy.purpose.text': { fi: 'Henkilötietoja käytetään viestintään, asiakaspalveluun ja hoitosuhteen ylläpitoon.', sv: 'Personuppgifter används för kommunikation, kundservice och upprätthållande av patientrelationer.', en: 'Personal data is used for communication, customer service and maintaining patient relationships.' },
   'privacy.data.title': { fi: 'Rekisterin tietokentät', sv: 'Registrets datafält', en: 'Registry Data Fields' },
-  'privacy.data.text': { fi: 'Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.', sv: 'Patientuppgifter och ägarens namn, telefonnummer, adress och e-postadress. Kundens personnummer registreras endast vid delbetalning. Patientens vårdhistorik: åtgärder, kundkommunikation och behandlingsplaner. Försäkringsnummer vid behov.', en: 'Patient information and owner\'s name, phone number, address and email. Customer\'s social security number only if using installment payment. Patient treatment history: procedures, customer communications and treatment plans. Insurance number when available.' },
+  'privacy.data.text': { fi: 'Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.', sv: 'Patientuppgifter och ägarens namn, telefonnummer, adress och e-postadress. Kundens personnummer registreras endast vid delbetalning. Patientens vårdhistorik: åtgärder, kundkommunikation och behandlingsplaner. Försäkringsnummer vid behov.', en: 'Patient information and owner\'s name, phone number, address and email. Customer\'s social security number only if using installment payment. Patient treatment history: procedures, customer communications and treatment plans. Insurance number when applicable.' },
   'privacy.sources.title': { fi: 'Tietolähteet', sv: 'Datakällor', en: 'Data Sources' },
   'privacy.sources.text': { fi: 'Tiedot saadaan pääasiassa asiakkailta. Potilasasiakirjat voivat sisältää tietoja muista klinikoista, mikäli asiakas on saanut hoitoa muualla tai siirtänyt asiakkuutensa.', sv: 'Uppgifterna erhålls främst från kunderna. Patientjournaler kan innehålla information från andra kliniker om kunden har fått vård på annat håll eller överfört sin kundrelation.', en: 'Information comes primarily from customers. Patient records may include information from other clinics if the customer received treatment elsewhere or transferred their account.' },
   'privacy.sharing.title': { fi: 'Tietojen luovutus', sv: 'Utlämnande av uppgifter', en: 'Data Sharing' },
-  'privacy.sharing.text': { fi: 'Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille ellei asiakas sitä edellytä.', sv: 'Uppgifter lämnas ut enbart till specialister (veterinärer) vid konsultationsfall (namn, adress, patientuppgifter, fynd). I övrigt lämnas uppgifter inte ut till tredje part såvida kunden inte begär det.', en: 'Information is shared only with specialists (veterinarians) in consultation cases (name, address, patient data, findings). Otherwise, data is not disclosed to third parties unless the customer requires it.' },
+  'privacy.sharing.text': { fi: 'Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille, ellei asiakas sitä nimenomaisesti pyydä.', sv: 'Uppgifter lämnas ut enbart till specialister (veterinärer) vid konsultationsfall (namn, adress, patientuppgifter, fynd). I övrigt lämnas uppgifter inte ut till tredje part såvida kunden inte begär det.', en: 'Information is shared only with specialists (veterinarians) in consultation cases (name, address, patient data, findings). Otherwise, data is not disclosed to third parties unless the customer specifically requests it.' },
   'privacy.security.title': { fi: 'Tietojen suojaus', sv: 'Dataskydd', en: 'Data Security' },
-  'privacy.security.text': { fi: 'Rekisteri on talletettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.', sv: 'Registret lagras i ett lösenordsskyddat kundhanteringssystem som är tillgängligt för Eläinklinikka Saari Oy:s behöriga personalmedlemmar.', en: 'The registry is stored in a password-protected customer management system accessible to authorized staff members of Eläinklinikka Saari Oy.' },
+  'privacy.security.text': { fi: 'Rekisteri on tallennettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy ainoastaan Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.', sv: 'Registret lagras i ett lösenordsskyddat kundhanteringssystem som är tillgängligt för Eläinklinikka Saari Oy:s behöriga personalmedlemmar.', en: 'The registry is stored in a password-protected customer management system accessible to authorized staff members of Eläinklinikka Saari Oy.' },
   'privacy.rights.title': { fi: 'Rekisteröidyn oikeudet', sv: 'Den registrerades rättigheter', en: 'Individual Rights' },
   'privacy.rights.text': { fi: 'Asiakkaalla on oikeus tarkistaa itseään koskevat tiedot sekä pyytää virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden tietojen korjaamista tai poistamista.', sv: 'Kunden har rätt att granska sina personuppgifter samt begära rättelse eller radering av felaktiga, onödiga, ofullständiga eller föråldrade uppgifter.', en: 'Customers have the right to inspect their personal data and request correction or deletion of inaccurate, unnecessary, incomplete or outdated information.' },
   'privacy.credit.title': { fi: 'Luottopäätöksen käsittely', sv: 'Kreditbeslut', en: 'Credit Processing' },
   'privacy.credit.text': { fi: 'Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.', sv: 'Lindorff Invest Oy fungerar som personuppgiftsansvarig vid behandling av betalningsansökningar. Personuppgifter är nödvändiga för ansökningsbehandling, kreditbeslut och kundrelationshantering. Automatiserade kreditbeslut kan bestridas; kunden kan begära manuell granskning genom att kontakta Lindorffs kundtjänst, tfn 02 2700 327. Mer information: lindorff.fi/tietosuoja.', en: 'Lindorff Invest Oy acts as data controller for payment application processing. Personal data is necessary for application handling, credit decisions and customer relationship management. Automated credit decisions can be contested; customers may request manual review by contacting Lindorff customer service at 02 2700 327. More information: lindorff.fi/tietosuoja.' },
-  'privacy.back': { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to front page' },
+  'privacy.back': { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' },
 
   // Navigation - Articles
   'nav.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
@@ -669,6 +669,9 @@ const translations = {
   'articles.filter.cardiology': { fi: 'Kardiologia', sv: 'Kardiologi', en: 'Cardiology' },
   'articles.filter.endoscopy': { fi: 'Tähystys', sv: 'Endoskopi', en: 'Endoscopy' },
   'articles.filter.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
+  'articles.search.placeholder': { fi: 'Hae artikkeleista...', sv: 'Sök i artiklar...', en: 'Search articles...' },
+  'articles.search.noresults': { fi: 'Ei hakutuloksia', sv: 'Inga sökresultat', en: 'No results found' },
+  'articles.print': { fi: 'Tulosta', sv: 'Skriv ut', en: 'Print' },
   'articles.tag.orthopedics': { fi: 'Ortopedia', sv: 'Ortopedi', en: 'Orthopedics' },
 
   // TTA Article
@@ -698,7 +701,7 @@ const translations = {
     en: 'TTA or Lateral Suture?'
   },
   'article.tta.vs.text': {
-    fi: 'Klinikalla käytämme kahta eri menetelmää eturistisiteen korjaukseen. Lateral suture -tekniikka stabiloi polvinivelen synteettisellä tukimateriaalilla, joka jäljittelee ristisiteen toimintaa. TTA sen sijaan muuttaa polven biomekaniikkaa pysyvästi. Lateral suture sopii erinomaisesti pienille ja keskikokoisille koirille sekä kissoille, kun taas TTA on hyvä vaihtoehto erityisesti aktiivisille ja suuremmille koirille.',
+    fi: 'Klinikallamme käytämme kahta eri menetelmää eturistisiteen korjaukseen. Lateral suture -tekniikka stabiloi polvinivelen synteettisellä tukimateriaalilla, joka jäljittelee ristisiteen toimintaa. TTA sen sijaan muuttaa polven biomekaniikkaa pysyvästi. Lateral suture sopii erinomaisesti pienille ja keskikokoisille koirille sekä kissoille, kun taas TTA on hyvä vaihtoehto erityisesti aktiivisille ja suuremmille koirille.',
     sv: 'På kliniken använder vi två olika metoder för korsbandsskadereparation. Lateral sutur-teknik stabiliserar knäleden med syntetiskt stödmaterial som efterliknar korsbandets funktion. TTA förändrar däremot knäets biomekanik permanent. Lateral sutur passar utmärkt för små och medelstora hundar samt katter, medan TTA är ett bra alternativ särskilt för aktiva och större hundar.',
     en: 'At our clinic we use two methods for cruciate ligament repair. The lateral suture technique stabilizes the knee joint with synthetic support material that mimics the function of the ligament. TTA, on the other hand, permanently alters knee biomechanics. Lateral suture is excellent for small and medium-sized dogs and cats, while TTA is a good option especially for active and larger dogs.'
   },
@@ -718,7 +721,7 @@ const translations = {
     en: 'Risks and Complications'
   },
   'article.tta.risks.text': {
-    fi: 'Kuten kaikissa leikkauksissa, TTA:han liittyy komplikaatioiden mahdollisuus: infektio, implantin löystyminen, luun hitaampi paraneminen tai meniskivaurio (noin 9–10 % tapauksista). Komplikaatioriski pienenee kirurgin kokemuksen myötä. Klinikalla valvomme anestesiaa tarkasti ja käytämme kattavaa kivunlievennystä kaikissa ortopedisissä leikkauksissa.',
+    fi: 'Kuten kaikissa leikkauksissa, TTA:han liittyy komplikaatioiden mahdollisuus: infektio, implantin löystyminen, luun hitaampi paraneminen tai meniskivaurio (noin 9–10 % tapauksista). Komplikaatioriski pienenee kirurgin kokemuksen myötä. Klinikallamme valvomme anestesiaa tarkasti ja käytämme kattavaa kivunlievitystä kaikissa ortopedisissä leikkauksissa.',
     sv: 'Som vid alla operationer finns risk för komplikationer vid TTA: infektion, implantatslossning, långsammare benläkning eller meniskskada (cirka 9–10 % av fallen). Komplikationsrisken minskar med kirurgens erfarenhet. På kliniken övervakar vi anestesin noggrant och använder omfattande smärtlindring vid alla ortopediska ingrepp.',
     en: 'As with all surgeries, TTA carries a risk of complications: infection, implant loosening, slower bone healing, or meniscal injury (approximately 9–10% of cases). Complication risk decreases with surgeon experience. At our clinic we closely monitor anesthesia and provide comprehensive pain management for all orthopedic procedures.'
   },
@@ -814,17 +817,17 @@ const translations = {
     en: 'Why Continuous Infusion?'
   },
   'article.mlk.what.text': {
-    fi: 'Kun kipulääke annetaan yksittäisinä annoksina, potilaan verenkierrossa tapahtuu lääkepitoisuuden nousuja ja laskuja — välillä lääke vaikuttaa tehokkaasti, välillä kipu palaa. Jatkuva infuusio tasoittaa nämä vaihtelut ja tarjoaa tasaisen, katkeamattoman kivunlievennyksen. Näin potilas pysyy vakaassa tilassa koko leikkauksen ajan ja toipuminen on nopeampaa ja kivuttomampaa.',
+    fi: 'Kun kipulääke annetaan yksittäisinä annoksina, potilaan verenkierrossa tapahtuu lääkepitoisuuden nousuja ja laskuja — välillä lääke vaikuttaa tehokkaasti, välillä kipu palaa. Jatkuva infuusio tasoittaa nämä vaihtelut ja tarjoaa tasaisen, katkeamattoman kivunlievityksen. Näin potilas pysyy vakaassa tilassa koko leikkauksen ajan ja toipuminen on nopeampaa ja kivuttomampaa.',
     sv: 'När smärtstillande ges som enskilda doser uppstår toppar och dalar i läkemedelskoncentrationen i blodet — ibland verkar läkemedlet effektivt, ibland återkommer smärtan. En kontinuerlig infusion jämnar ut dessa variationer och erbjuder jämn, oavbruten smärtlindring. På så vis förblir patienten stabil under hela operationen och återhämtningen blir snabbare och mer smärtfri.',
     en: 'When painkillers are given as single doses, the patient experiences peaks and troughs in blood drug levels — sometimes the drug is effective, sometimes the pain returns. A continuous infusion smooths out these fluctuations and provides steady, uninterrupted pain relief. This keeps the patient stable throughout surgery and makes recovery faster and less painful.'
   },
   'article.mlk.why.title': {
     fi: 'Multimodaalinen lähestymistapa',
-    sv: 'Multimodal approach',
+    sv: 'Multimodalt angreppssätt',
     en: 'The Multimodal Approach'
   },
   'article.mlk.why.text': {
-    fi: 'Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä useita eri lääkeaineita matalilla annoksilla saadaan tehokkaampi kivunlievennys kuin yhdellä lääkkeellä yksinään — ja samalla pidetään kunkin lääkkeen sivuvaikutukset mahdollisimman pieninä. Tutkimusten mukaan multimodaalinen CRI-kivunhallinta vähentää inhalaatioanesteetin tarvetta merkittävästi, mikä parantaa verenkierron vakautta ja vähentää anestesiaan liittyviä riskejä.',
+    fi: 'Yksittäinen kipulääke vaikuttaa vain yhteen kipumekanismiin. Yhdistämällä useita eri lääkeaineita matalilla annoksilla saadaan tehokkaampi kivunlievitys kuin yhdellä lääkkeellä yksinään — ja samalla kunkin lääkkeen sivuvaikutukset pysyvät mahdollisimman pieninä. Tutkimusten mukaan multimodaalinen CRI-kivunhallinta vähentää inhalaatioanesteetin tarvetta merkittävästi, mikä parantaa verenkierron vakautta ja vähentää anestesiaan liittyviä riskejä.',
     sv: 'Ett enskilt smärtstillande läkemedel påverkar bara en smärtmekanism. Genom att kombinera flera olika läkemedel i låga doser uppnås effektivare smärtlindring än med ett enda läkemedel — samtidigt som biverkningarna från varje enskilt läkemedel hålls minimala. Studier visar att multimodal CRI-smärtlindring minskar behovet av inhalationsanestesi avsevärt, vilket förbättrar cirkulationsstabiliteten och minskar anestesirelaterade risker.',
     en: 'A single painkiller affects only one pain mechanism. By combining several different drugs at low doses, more effective pain relief is achieved than with any single drug alone — while keeping the side effects of each drug to a minimum. Studies show that multimodal CRI pain management significantly reduces the need for inhalation anesthetic, which improves circulatory stability and reduces anesthesia-related risks.'
   },
@@ -834,19 +837,19 @@ const translations = {
     en: 'Use at Our Clinic'
   },
   'article.mlk.benefits.text': {
-    fi: 'CRI-kipulääkeinfuusio on vakiomenetelmämme kaikissa kivuliaissa kirurgisissa toimenpiteissä: sterilisaatioissa, kastraatioissa, kasvainleikkauksissa, vatsaonteloleikkauksissa ja ortopedisissä leikkauksissa. Infuusio aloitetaan ennen leikkausta ja sitä jatketaan tarvittaessa myös leikkauksen jälkeen optimaalisen kivunlievennyksen takaamiseksi.',
+    fi: 'CRI-kipulääkeinfuusio on vakiomenetelmämme kaikissa kivuliaissa kirurgisissa toimenpiteissä: sterilisaatioissa, kastraatioissa, kasvainleikkauksissa, vatsaonteloleikkauksissa ja ortopedisissä leikkauksissa. Infuusio aloitetaan ennen leikkausta ja sitä jatketaan tarvittaessa myös leikkauksen jälkeen optimaalisen kivunlievityksen takaamiseksi.',
     sv: 'CRI-smärtinfusion är vår standardmetod vid alla smärtsamma kirurgiska ingrepp: steriliseringar, kastreringar, tumöroperationer, bukoperationer och ortopediska operationer. Infusionen startas före operationen och fortsätter vid behov även postoperativt för optimal smärtlindring.',
     en: 'CRI pain infusion is our standard method for all painful surgical procedures: spays, neuters, tumor surgeries, abdominal surgeries, and orthopedic procedures. The infusion is started before surgery and continued postoperatively when needed for optimal pain relief.'
   },
   'article.mlk.use.title': {
-    fi: 'Mitä on kivun "wind-up"?',
+    fi: 'Mitä on kivun wind-up-ilmiö?',
     sv: 'Vad är smärtans "wind-up"?',
     en: 'What Is Pain "Wind-Up"?'
   },
   'article.mlk.use.text': {
     fi: 'Wind-up on ilmiö, jossa pitkittynyt kipu herkistää keskushermoston kipuratoja niin, että kipukokemus voimistuu progressiivisesti. Jos leikkauksen aikainen kivunlievennys on riittämätöntä, toipumisvaiheessa kipu voi olla vaikeasti hallittavissa ja vaatia huomattavasti suurempia lääkeannoksia. Jatkuva infuusio estää tätä herkistymistä tehokkaasti, mikä on yksi menetelmän merkittävimmistä eduista.',
     sv: 'Wind-up är ett fenomen där långvarig smärta sensibiliserar centrala nervsystemets smärtbanor så att smärtupplevelsen förstärks progressivt. Om smärtlindringen under operationen är otillräcklig kan smärtan i återhämtningsfasen vara svårkontrollerad och kräva betydligt högre läkemedelsdoser. Kontinuerlig infusion förhindrar effektivt denna sensibilisering, vilket är en av metodens mest betydande fördelar.',
-    en: 'Wind-up is a phenomenon where prolonged pain sensitizes the central nervous system\'s pain pathways so that the pain experience intensifies progressively. If intraoperative pain relief is inadequate, post-surgical pain can be difficult to control and requires significantly higher drug doses. Continuous infusion effectively prevents this sensitization, which is one of the method\'s most significant advantages.'
+    en: 'Wind-up is a phenomenon where prolonged pain sensitizes the central nervous system\'s pain pathways so that the pain experience intensifies progressively. If intraoperative pain relief is inadequate, post-surgical pain can become difficult to control and may require significantly higher drug doses. Continuous infusion effectively prevents this sensitization, which is one of the method\'s most significant advantages.'
   },
   'article.mlk.windup.title': {
     fi: 'Turvallisuus',
@@ -854,7 +857,7 @@ const translations = {
     en: 'Safety'
   },
   'article.mlk.windup.text': {
-    fi: 'Koska CRI-infuusiossa käytetään useita lääkeaineita matalilla annoksilla, sivuvaikutusriski on pienempi kuin yksittäisellä lääkkeellä suurella annoksella. Klinikalla valvomme jokaista potilasta tarkasti koko anestesian ajan ja säädämme infuusionopeutta potilaan vasteen mukaan reaaliajassa.',
+    fi: 'Koska CRI-infuusiossa käytetään useita lääkeaineita matalilla annoksilla, sivuvaikutusriski on pienempi kuin käytettäessä yksittäistä lääkettä suurella annoksella. Klinikallamme valvomme jokaista potilasta tarkasti koko anestesian ajan ja säädämme infuusionopeutta potilaan vasteen mukaan reaaliajassa.',
     sv: 'Eftersom CRI-infusionen använder flera läkemedel i låga doser är risken för biverkningar lägre än med ett enskilt läkemedel i hög dos. På kliniken övervakar vi varje patient noggrant under hela anestesin och justerar infusionshastigheten i realtid efter patientens respons.',
     en: 'Because CRI uses multiple drugs at low doses, the risk of side effects is lower than with a single drug at a high dose. At our clinic, we closely monitor every patient throughout anesthesia and adjust the infusion rate in real time based on the patient\'s response.'
   },
@@ -878,8 +881,8 @@ const translations = {
     en: 'Most Common Causes'
   },
   'article.diarrhea.causes.text': {
-    fi: 'Koirilla yleisin syy on ruokavaliovirhe — roskien syöminen, ruuanvaihto liian nopeasti tai pöytäjätteiden syöminen. Kissoilla äkillinen ruuanvaihto on tavallinen laukaisija. Muita yleisiä syitä ovat suolistoloiset (Giardia, suolinkaiset, kokkidit), stressi (muutto, lemmikkihotelli, muutokset arjessa), ruoka-aineallergia tai -intoleranssi, bakteeri- ja virusinfektiot (erityisesti parvovirukseen rokottamattomat pennut ja kissanpennut) sekä myrkylliset aineet.',
-    sv: 'Hos hundar är den vanligaste orsaken felaktigt matintag — att äta skräp, för snabbt fobyte eller bordssrester. Hos katter är plötsligt fobyte en vanlig utlösare. Andra vanliga orsaker inkluderar tarmparasiter (Giardia, spolmask, koccidier), stress (flytt, hundpensionat, förändringar i vardagen), foallergi eller -intolerans, bakterie- och virusinfektioner (särskilt parvoviruset hos ovaccinerade valpar och kattungar) samt giftiga ämnen.',
+    fi: 'Koirilla yleisin syy on ruokavaliovirhe — roskien syöminen, liian nopea ruuanvaihto tai pöytäjätteiden syöminen. Kissoilla äkillinen ruuanvaihto on tavallinen laukaisija. Muita yleisiä syitä ovat suolistoloiset (Giardia, suolinkaiset, kokkidit), stressi (muutto, lemmikkihotelli, muutokset arjessa), ruoka-aineallergia tai -intoleranssi, bakteeri- ja virusinfektiot (erityisesti parvovirusta vastaan rokottamattomat pennut ja kissanpennut) sekä myrkylliset aineet.',
+    sv: 'Hos hundar är den vanligaste orsaken felaktigt matintag — att äta skräp, för snabbt foderbyte eller bordsrester. Hos katter är plötsligt foderbyte en vanlig utlösare. Andra vanliga orsaker inkluderar tarmparasiter (Giardia, spolmask, koccidier), stress (flytt, hundpensionat, förändringar i vardagen), foderallergi eller -intolerans, bakterie- och virusinfektioner (särskilt parvoviruset hos ovaccinerade valpar och kattungar) samt giftiga ämnen.',
     en: 'In dogs, the most common cause is dietary indiscretion — eating garbage, switching food too quickly or consuming table scraps. In cats, sudden food changes are a common trigger. Other common causes include intestinal parasites (Giardia, roundworms, coccidia), stress (moving, boarding, changes in routine), food allergy or intolerance, bacterial and viral infections (especially parvovirus in unvaccinated puppies and kittens) and toxic substances.'
   },
   'article.diarrhea.homecare.title': {
@@ -888,7 +891,7 @@ const translations = {
     en: 'Home Care'
   },
   'article.diarrhea.homecare.text': {
-    fi: 'Jos lemmikkisi on muuten virkeä, syö ja juo normaalisti eikä ripuli ole veristä, voit kokeilla kotihoitoa 24–48 tunnin ajan. Koiralla voidaan pidättäytyä ruuasta 12–24 tuntia suoliston lepuuttamiseksi — kissaa ei saa paastottaa yli 12 tuntia maksan rasvoittumisriskin vuoksi. Siirry miedolle dieettille: keitetty kana (ilman nahkaa ja luita) ja riisi suhteessa 1:2. Tarjoa pieniä annoksia 4–6 kertaa päivässä. Varmista riittävä nesteensaanti — raikasta vettä tulee olla aina tarjolla. Eläimille tarkoitetut probiootit (esim. Fortiflora) tukevat suoliston palautumista. Jatka mietoa dieettiä 3–5 päivää ulosteen normalisoitumisen jälkeen ja palaa normaaliin ruokaan asteittain 5–7 päivän kuluessa.',
+    fi: 'Jos lemmikkisi on muuten virkeä, syö ja juo normaalisti eikä ripuli ole veristä, voit kokeilla kotihoitoa 24–48 tunnin ajan. Koiran voidaan antaa paastota 12–24 tuntia suoliston lepuuttamiseksi — kissaa ei saa paastottaa yli 12 tuntia maksan rasvoittumisriskin vuoksi. Siirry miedolle dieettille: keitetty kana (ilman nahkaa ja luita) ja riisi suhteessa 1:2. Tarjoa pieniä annoksia 4–6 kertaa päivässä. Varmista riittävä nesteensaanti — raikasta vettä tulee olla aina tarjolla. Eläimille tarkoitetut probiootit (esim. FortiFlora) tukevat suoliston palautumista. Jatka mietoa dieettiä 3–5 päivää ulosteen normalisoitumisen jälkeen ja palaa normaaliin ruokaan asteittain 5–7 päivän kuluessa.',
     sv: 'Om ditt husdjur annars är pigg, äter och dricker normalt och diarrén inte är blodig, kan du prova hembehandling i 24–48 timmar. Hundar kan fastas 12–24 timmar för att låta tarmen vila — katter ska inte fastas mer än 12 timmar på grund av risk för leverförfettning. Byt till mild diet: kokt kyckling (utan skinn och ben) och ris i förhållandet 1:2. Ge små portioner 4–6 gånger dagligen. Säkerställ tillräckligt vätskeintag — färskt vatten ska alltid finnas tillgängligt. Probiotika avsedda för djur (t.ex. Fortiflora) stödjer tarmens återhämtning. Fortsätt med mild diet 3–5 dagar efter att avföringen normaliserats och återgå gradvis till normal kost under 5–7 dagar.',
     en: 'If your pet is otherwise alert, eating and drinking normally and the diarrhea is not bloody, you can try home care for 24–48 hours. Dogs can be fasted for 12–24 hours to rest the gut — cats should not be fasted for more than 12 hours due to the risk of hepatic lipidosis. Switch to a bland diet: boiled chicken (no skin, no bones) and rice at a 1:2 ratio. Offer small portions 4–6 times daily. Ensure adequate hydration — fresh water should always be available. Veterinary probiotics (e.g. Fortiflora) support gut recovery. Continue the bland diet for 3–5 days after the stool normalizes and gradually return to regular food over 5–7 days.'
   },
@@ -898,8 +901,8 @@ const translations = {
     en: 'When to Contact the Veterinarian'
   },
   'article.diarrhea.warning.text': {
-    fi: 'Ota yhteyttä eläinlääkäriin välittömästi, jos ripuli on veristä (veri voi olla kirkkaanpunaista tai tummaa/tervamusta), lemmikki oksentaa samanaikaisesti, eläin on väsynyt tai apaattinen, huomaat kuivumisen merkkejä (kuivat ikenet, ihon joustamattomuus), epäilet myrkyn syömistä, eläimellä on kuumetta tai vatsakipua. Pentujen ja kissanpentujen kohdalla älä odota — ne kuivuvat nopeasti ja ovat alttiita vakavalle parvovirustaudille. Ota yhteyttä 12–24 tunnin kuluessa oireiden alkamisesta. Myös iäkkäät ja pienet rodut kuivuvat nopeammin. Jos ripuli ei hellitä 48 tunnin kotihoidon jälkeen tai palaa toistuvasti, varaa aika tutkimuksiin. Vinkki: ota ulosteesta valokuva — se auttaa eläinlääkäriä arvioimaan tilanteen.',
-    sv: 'Kontakta veterinären omedelbart om diarrén är blodig (blodet kan vara klarrött eller mörkt/tjärsvart), husdjuret kräks samtidigt, djuret är trött eller apatiskt, du märker tecken på uttorkning (torra tandkött, minskad hudelasticitet), du misstänker förgiftning, djuret har feber eller buksmärta. För valpar och kattungar — vänta inte. De torkar ut snabbt och är känsliga för allvarlig parvovirusinfektion. Kontakta kliniken inom 12–24 timmar efter symtomdebut. Även äldre djur och små raser torkar ut snabbare. Om diarrén inte förbättras efter 48 timmars hembehandling eller återkommer upprepade gånger, boka tid för undersökning. Tips: ta ett foto av avföringen — det hjälper veterinären att bedöma situationen.',
+    fi: 'Ota yhteyttä eläinlääkäriin välittömästi, jos ripuli on veristä (veri voi olla kirkkaanpunaista tai tummaa/tervamusta), lemmikki oksentaa samanaikaisesti, eläin on väsynyt tai apaattinen, huomaat kuivumisen merkkejä (kuivat ikenet, heikentynyt ihon kimmoisuus), epäilet myrkyn syömistä, eläimellä on kuumetta tai vatsakipua. Pentujen ja kissanpentujen kohdalla älä odota — ne kuivuvat nopeasti ja ovat alttiita vakavalle parvovirustaudille. Ota yhteyttä klinikkaan 12–24 tunnin kuluessa oireiden alkamisesta. Myös iäkkäät ja pienet rodut kuivuvat nopeammin. Jos ripuli ei hellitä 48 tunnin kotihoidon jälkeen tai palaa toistuvasti, varaa aika tutkimuksiin. Vinkki: ota ulosteesta valokuva — se auttaa eläinlääkäriä arvioimaan tilanteen.',
+    sv: 'Kontakta veterinären omedelbart om diarrén är blodig (blodet kan vara klarrött eller mörkt/tjärsvart), husdjuret kräks samtidigt, djuret är trött eller apatiskt, du märker tecken på uttorkning (torrt tandkött, minskad hudelasticitet), du misstänker förgiftning, djuret har feber eller buksmärta. För valpar och kattungar — vänta inte. De torkar ut snabbt och är känsliga för allvarlig parvovirusinfektion. Kontakta kliniken inom 12–24 timmar efter symtomdebut. Även äldre djur och små raser torkar ut snabbare. Om diarrén inte förbättras efter 48 timmars hembehandling eller återkommer upprepade gånger, boka tid för undersökning. Tips: ta ett foto av avföringen — det hjälper veterinären att bedöma situationen.',
     en: 'Contact the veterinarian immediately if the diarrhea is bloody (blood can be bright red or dark/tarry black), your pet is vomiting at the same time, the animal is lethargic or apathetic, you notice signs of dehydration (dry gums, loss of skin elasticity), you suspect toxin ingestion, or the animal has fever or abdominal pain. For puppies and kittens — do not wait. They dehydrate quickly and are vulnerable to serious parvovirus infection. Contact the clinic within 12–24 hours of symptom onset. Older animals and small breeds also dehydrate faster. If diarrhea does not improve after 48 hours of home care or keeps recurring, book an appointment for examination. Tip: take a photo of the stool — it helps the veterinarian assess the situation.'
   },
   'article.diarrhea.prevention.title': {
@@ -950,7 +953,7 @@ const translations = {
     en: 'Predisposed Breeds'
   },
   'article.pda.breeds.text': {
-    fi: 'PDA:lla on geneettinen tausta ja se on yleisempi naarailla (suhde 3:1). Alttiita rotuja ovat muun muassa maltankoira, pomeranian, shetlanninlammaskoira, englanninspringerspanieli, bichon frise, kääpiö- ja toyvillakoira, yorkshirenterrieri, chihuahua ja cockerspanieli. PDA:ta esiintyy myös kissoilla, mutta huomattavasti harvemmin.',
+    fi: 'PDA:lla on perinnöllinen tausta ja se on yleisempi naarailla (suhde 3:1). Alttiita rotuja ovat muun muassa maltankoira, pomeranian, shetlanninlammaskoira, englanninspringerspanieli, bichon frise, kääpiö- ja toyvillakoira, yorkshirenterrieri, chihuahua ja cockerspanieli. PDA:ta esiintyy myös kissoilla, mutta huomattavasti harvemmin.',
     sv: 'PDA har en genetisk grund och är vanligare hos tikar (förhållande 3:1). Predisponerade raser inkluderar bland annat malteser, pomeranian, shetland sheepdog, engelsk springer spaniel, bichon frise, dvärg- och toypudel, yorkshireterrier, chihuahua och cockerspaniel. PDA förekommer även hos katter, men betydligt mer sällan.',
     en: 'PDA has a genetic basis and is more common in females (ratio 3:1). Predisposed breeds include Maltese, Pomeranian, Shetland Sheepdog, English Springer Spaniel, Bichon Frise, Miniature and Toy Poodle, Yorkshire Terrier, Chihuahua and Cocker Spaniel. PDA also occurs in cats but much less frequently.'
   },
@@ -960,7 +963,7 @@ const translations = {
     en: 'Signs — What Owners May Notice'
   },
   'article.pda.signs.text': {
-    fi: 'PDA löytyy usein ensimmäisellä eläinlääkärikäynnillä, kun eläinlääkäri kuulee jatkuvan "koneäänen" (machinery murmur) sydäntä kuunnellessaan. Omistaja voi huomata, että pentu on pentueensa pienin, väsyy nopeasti leikkiessä, hengittää normaalia nopeammin tai yskii. Vakavammissa tapauksissa voi esiintyä pyörtymistä tai vatsan turvotusta. Joskus omistaja tuntee rintakehällä värinää lemmikkiä pidettäessä.',
+    fi: 'PDA löytyy usein ensimmäisellä eläinlääkärikäynnillä, kun eläinlääkäri kuulee jatkuvan "koneäänen" (machinery murmur) sydäntä kuunnellessaan. Omistaja voi huomata, että pentu on pentueensa pienin, väsyy nopeasti leikkiessä, hengittää normaalia nopeammin tai yskii. Vakavammissa tapauksissa voi esiintyä pyörtymistä tai vatsan turvotusta. Joskus omistaja voi tuntea rintakehällä värinää lemmikkiä pideltäessä.',
     sv: 'PDA upptäcks ofta vid det första veterinärbesöket, när veterinären hör ett kontinuerligt "maskinljud" (machinery murmur) vid auskultation. Ägaren kan märka att valpen är kullens minsta, tröttas snabbt under lek, andas snabbare än normalt eller hostar. I allvarligare fall kan svimning eller buksvullnad förekomma. Ibland känner ägaren en vibration på bröstkorgen när de håller sitt husdjur.',
     en: 'PDA is often discovered at the first veterinary visit when the vet hears a continuous "machinery murmur" during auscultation. Owners may notice the puppy is the smallest in the litter, tires quickly during play, breathes faster than normal, or coughs. In more severe cases fainting or abdominal swelling may occur. Sometimes owners feel a vibration on the chest wall when holding their pet.'
   },
@@ -970,7 +973,7 @@ const translations = {
     en: 'Treatment'
   },
   'article.pda.treatment.text': {
-    fi: 'PDA hoidetaan sulkemalla avoin valtimotiehyt. Tähän on kaksi päämenetelmää. Kirurginen ligatuura tehdään rintakehän avauksella, jossa tiehyt suljetaan ompelemalla — menetelmällä on yli 90–95 % onnistumisprosentti. Katetritoimenpiteessä (ACDO, Amplatz Canine Duct Occluder) erikoislaite viedään reisivaltimon kautta tiehyeen ja se sulkee verisuonen sisältäpäin — tämä on vähemmän invasiivinen, ja onnistumisprosentti on yli 95–98 %. Lääkehoidolla voidaan vakauttaa potilaan tila ennen toimenpidettä, mutta se ei paranna PDA:ta. Mitä aikaisemmin sulku tehdään — mieluiten ennen 6 kuukauden ikää — sitä parempi ennuste.',
+    fi: 'PDA hoidetaan sulkemalla avoin valtimotiehyt. Tähän on kaksi päämenetelmää. Kirurginen ligatuura tehdään torakotomialla eli rintakehän avauksella, jossa tiehyt suljetaan ompelemalla — menetelmän onnistumisprosentti on yli 90–95 %. Katetritoimenpiteessä (ACDO, Amplatz Canine Duct Occluder) erikoislaite viedään reisivaltimon kautta tiehyeen ja se sulkee verisuonen sisältäpäin — tämä on vähemmän invasiivinen, ja onnistumisprosentti on yli 95–98 %. Lääkehoidolla voidaan vakauttaa potilaan tila ennen toimenpidettä, mutta se ei paranna PDA:ta. Mitä aikaisemmin sulku tehdään — mieluiten ennen 6 kuukauden ikää — sitä parempi ennuste.',
     sv: 'PDA behandlas genom att stänga den öppna ductus arteriosus. Det finns två huvudmetoder. Kirurgisk ligering utförs via torakotomi, där kanalen stängs med suturer — metoden har över 90–95 % framgångsfrekvens. Vid kateterbaserad stängning (ACDO, Amplatz Canine Duct Occluder) förs en specialanordning via lårbensartären till kanalen och stänger blodkärlet inifrån — detta är mindre invasivt med över 95–98 % framgångsfrekvens. Medicinsk behandling kan stabilisera patienten före ingreppet men botar inte PDA. Ju tidigare stängningen görs — helst före 6 månaders ålder — desto bättre prognos.',
     en: 'PDA is treated by closing the open ductus. There are two main methods. Surgical ligation is performed via thoracotomy, where the duct is tied off with sutures — success rate exceeds 90–95%. Catheter-based closure (ACDO, Amplatz Canine Duct Occluder) involves delivering a specialized device through the femoral artery to seal the vessel from within — this is less invasive with a success rate over 95–98%. Medical treatment can stabilize the patient before the procedure but does not cure PDA. The earlier the closure is performed — ideally before 6 months of age — the better the prognosis.'
   },
@@ -980,7 +983,7 @@ const translations = {
     en: 'Diagnosis at Our Clinic'
   },
   'article.pda.clinic.text': {
-    fi: 'Eläinklinikka Saaressa teemme sydämen ultraäänitutkimuksia, joiden avulla PDA voidaan havaita ja diagnosoida klinikalla. Eläinlääkärimme Leena suorittaa sydämen kaikututkimukset. Jos pennullasi todetaan sivuääni, voimme tutkia sydämen ultraäänellä ja tarvittaessa ohjata jatkohoitoon erikoisklinikalle.',
+    fi: 'Eläinklinikka Saaressa teemme sydämen ultraäänitutkimuksia, joiden avulla PDA voidaan havaita ja diagnosoida. Eläinlääkärimme Leena suorittaa sydämen kaikututkimukset. Jos pennullasi todetaan sivuääni, voimme tutkia sydämen ultraäänellä ja tarvittaessa ohjata jatkohoitoon erikoisklinikalle.',
     sv: 'På Djurkliniken Saari utför vi hjärtultraljudsundersökningar som gör det möjligt att upptäcka och diagnostisera PDA på kliniken. Vår veterinär Leena utför hjärtultraljudsundersökningarna. Om ett blåsljud upptäcks hos din valp kan vi undersöka hjärtat med ultraljud och vid behov remittera till en specialistklinik för vidare behandling.',
     en: 'At Eläinklinikka Saari, we perform cardiac ultrasound examinations that allow us to detect and diagnose PDA at our clinic. Our veterinarian Leena performs the cardiac ultrasound examinations. If a murmur is detected in your puppy, we can examine the heart with ultrasound and refer to a specialist clinic for further treatment if needed.'
   },
@@ -1000,7 +1003,7 @@ const translations = {
     en: 'The Most Important Message for Owners'
   },
   'article.pda.message.text': {
-    fi: 'Jokaisen pennun sydän tulee kuunnella ensimmäisellä eläinlääkärikäynnillä. Jos sivuääni todetaan, jatkotutkimukset sydämen ultraäänellä tulee tehdä viipymättä. PDA on parannettavissa — kunhan se havaitaan ajoissa. Alttiiden rotujen kasvattajien ja omistajien tulisi olla erityisen valppaina.',
+    fi: 'Jokaisen pennun sydän tulee kuunnella ensimmäisellä eläinlääkärikäynnillä. Jos sivuääni todetaan, jatkotutkimus sydämen ultraäänellä tulee tehdä viipymättä. PDA on parannettavissa — kunhan se havaitaan ajoissa. Alttiiden rotujen kasvattajien ja omistajien tulisi olla erityisen valppaina.',
     sv: 'Varje valps hjärta bör auskulteras vid det första veterinärbesöket. Om ett blåsljud upptäcks bör vidare undersökning med hjärtultraljud ske utan dröjsmål. PDA kan botas — förutsatt att det upptäcks i tid. Uppfödare och ägare av predisponerade raser bör vara särskilt uppmärksamma.',
     en: 'Every puppy\'s heart should be auscultated at the first veterinary visit. If a murmur is detected, further examination with cardiac ultrasound should be done without delay. PDA is curable — as long as it is detected in time. Breeders and owners of predisposed breeds should be especially vigilant.'
   },
@@ -1013,7 +1016,7 @@ const translations = {
   },
   'article.grainfree.intro': {
     fi: 'Viljaton lemmikkiruoka on ollut valtava trendi viime vuosina. Markkinointi lupaa "luonnollisempaa" ruokavaliota, mutta vuonna 2018 Yhdysvaltain elintarvikevirasto FDA aloitti tutkimuksen, joka yhdisti viljattomat ruokavaliot koirien sydänsairauksiin. Tässä artikkelissa selvitämme, mitä tiede sanoo — ja mitä eläinlääkärit suosittelevat.',
-    sv: 'Spannmålsfri djurmat har varit en enorm trend de senaste åren. Marknadsföringen lovar en "mer naturlig" diet, men 2018 inledde amerikanska livsmedelsverket FDA en undersökning som kopplade spannmålsfria dieter till hjärtsjukdom hos hundar. I denna artikel reder vi ut vad forskningen säger — och vad veterinärer rekommenderar.',
+    sv: 'Spannmålsfri djurmat har varit en enorm trend de senaste åren. Marknadsföringen lovar en "mer naturlig" kost, men 2018 inledde amerikanska livsmedelsverket FDA en undersökning som kopplade spannmålsfri kost till hjärtsjukdom hos hundar. I denna artikel reder vi ut vad forskningen säger — och vad veterinärer rekommenderar.',
     en: 'Grain-free pet food has been a huge trend in recent years. Marketing promises a "more natural" diet, but in 2018 the U.S. Food and Drug Administration (FDA) launched an investigation linking grain-free diets to heart disease in dogs. In this article we examine what the science says — and what veterinarians recommend.'
   },
   'article.grainfree.fda.title': {
@@ -1022,8 +1025,8 @@ const translations = {
     en: 'The FDA Investigation and Heart Disease'
   },
   'article.grainfree.fda.text': {
-    fi: 'FDA tutki satoja raportteja dilatoivasta kardiomyopatiasta (DCM) — sydänsairaudesta, jossa sydänlihas heikkenee ja sydän laajenee. Huolestuttavaa oli, että DCM:ää esiintyi roduilla, jotka eivät normaalisti ole alttiita sille, kuten kultaisilla noutajilla, labradoreilla ja sekarotuisilla. Tutkimuksessa 91 % epäillyistä ruokavalioista oli viljattomia ja 93 % sisälsi herneitä tai linssejä pääainesosina. Vaikka suoraa syy-yhteyttä ei lopullisesti todistettu, monet koirat toipuivat, kun ruokavalio vaihdettiin viljapohjaiseen — mikä on merkittävä havainto.',
-    sv: 'FDA undersökte hundratals rapporter om dilaterad kardiomyopati (DCM) — en hjärtsjukdom där hjärtmuskeln försvagas och hjärtat vidgas. Det oroande var att DCM förekom hos raser som normalt inte är predisponerade, som golden retriever, labrador och blandraser. I undersökningen var 91 % av de misstänkta dieterna spannmålsfria och 93 % innehöll ärtor eller linser som huvudingredienser. Även om ett direkt orsakssamband inte slutgiltigt bevisades, återhämtade sig många hundar när kosten byttes till spannmålsbaserad — vilket är en viktig observation.',
+    fi: 'FDA tutki satoja raportteja dilatoivasta kardiomyopatiasta (DCM) — sydänsairaudesta, jossa sydänlihas heikkenee ja sydän laajenee. Huolestuttavaa oli, että DCM:ää esiintyi roduilla, jotka eivät normaalisti ole alttiita sille, kuten kultaisilla noutajilla, labradoreilla ja sekarotuisilla koirilla. Tutkimuksessa 91 % epäillyistä ruokavalioista oli viljattomia ja 93 % sisälsi herneitä tai linssejä pääainesosina. Vaikka suoraa syy-yhteyttä ei lopullisesti todistettu, monet koirat toipuivat, kun ruokavalio vaihdettiin viljapohjaiseen — mikä on merkittävä havainto.',
+    sv: 'FDA undersökte hundratals rapporter om dilaterad kardiomyopati (DCM) — en hjärtsjukdom där hjärtmuskeln försvagas och hjärtat vidgas. Det oroande var att DCM förekom hos raser som normalt inte är predisponerade, som golden retriever, labrador och blandraser. I undersökningen var 91 % av de misstänkta kosterna spannmålsfria och 93 % innehöll ärtor eller linser som huvudingredienser. Även om ett direkt orsakssamband inte slutgiltigt bevisades, återhämtade sig många hundar när kosten byttes till spannmålsbaserad — vilket är en viktig observation.',
     en: 'The FDA investigated hundreds of reports of dilated cardiomyopathy (DCM) — a heart disease where the heart muscle weakens and the heart enlarges. What was alarming was that DCM appeared in breeds not normally prone to it, such as Golden Retrievers, Labradors and mixed breeds. In the investigation, 91% of suspected diets were grain-free and 93% contained peas or lentils as main ingredients. While a direct causal link was not definitively proven, many dogs recovered when switched to grain-inclusive diets — which is a significant finding.'
   },
   'article.grainfree.myth.title': {
@@ -1042,7 +1045,7 @@ const translations = {
     en: 'What About Cats?'
   },
   'article.grainfree.cats.text': {
-    fi: 'Kissat ovat pakollisia lihansyöjiä ja tarvitsevat runsaasti eläinproteiinia. Viljattomat kissanruoat korvaavat kuitenkin usein viljat perunalla, herneillä tai tapiokalla — jolloin hiilihydraattipitoisuus on käytännössä sama tai jopa korkeampi. Tutkimukset osoittavat, että kissat pystyvät sulattamaan hiilihydraatteja tehokkaasti (94–100 %). Kissojen ruoassa tärkeintä on riittävä eläinproteiinin ja tauriinin määrä — ei se, onko ruoka villatonta vai ei.',
+    fi: 'Kissat ovat pakollisia lihansyöjiä ja tarvitsevat runsaasti eläinproteiinia. Viljattomat kissanruoat korvaavat kuitenkin usein viljat perunalla, herneillä tai tapiokalla — jolloin hiilihydraattipitoisuus on käytännössä sama tai jopa korkeampi. Tutkimukset osoittavat, että kissat sulavat hiilihydraatit tehokkaasti (94–100 %). Kissojen ruoassa tärkeintä on riittävä eläinproteiinin ja tauriinin määrä — ei se, onko ruoka villatonta vai ei.',
     sv: 'Katter är obligata köttätare och behöver rikligt med animaliskt protein. Spannmålsfria kattfoder ersätter dock ofta spannmål med potatis, ärtor eller tapioka — varvid kolhydratinnehållet i praktiken är detsamma eller till och med högre. Studier visar att katter kan smälta kolhydrater effektivt (94–100 %). Det viktigaste i kattmat är tillräckligt animaliskt protein och taurin — inte huruvida maten är spannmålsfri eller inte.',
     en: 'Cats are obligate carnivores and need plenty of animal protein. However, grain-free cat foods often replace grains with potatoes, peas or tapioca — meaning the carbohydrate content is practically the same or even higher. Studies show cats can digest carbohydrates effectively (94–100%). What matters most in cat food is adequate animal protein and taurine — not whether it is grain-free or not.'
   },
@@ -1084,7 +1087,7 @@ const translations = {
     en: 'How to Brush Your Pet\'s Teeth'
   },
   'article.brushing.how.text': {
-    fi: 'Käytä aina eläimille tarkoitettua hammastahnaa — ei koskaan ihmisten tahnaa, joka voi sisältää ksylitolia (erittäin myrkyllistä koirille) ja fluorideja. Eläintahnat ovat turvallisia nieltäväksi ja niitä on liha- ja kalamakuisina. Sormiharja on hyvä aloittelijoille ja kissoille. Nosta huulta ja harjaa 45 asteen kulmassa ienrajaa vasten pyörivin liikkein. Keskity ulkopintoihin — kieli puhdistaa sisäpintoja luonnollisesti. Tärkeimmät kohdat ovat yläleuan takahampaat ja kulmahampaiden alue. 1–2 minuuttia riittää.',
+    fi: 'Käytä aina eläimille tarkoitettua hammastahnaa — ei koskaan ihmisten tahnaa, joka voi sisältää ksylitolia (erittäin myrkyllistä koirille) ja fluorideja. Eläintahnat ovat turvallisia niellä, ja niitä on saatavana liha- ja kalamakuisina. Sormiharja on hyvä aloittelijoille ja kissoille. Nosta huulta ja harjaa 45 asteen kulmassa ienrajaa vasten pyörivin liikkein. Keskity ulkopintoihin — kieli puhdistaa sisäpintoja luonnollisesti. Tärkeimmät kohdat ovat yläleuan takahampaat ja kulmahampaiden alue. 1–2 minuuttia riittää.',
     sv: 'Använd alltid tandkräm avsedd för djur — aldrig mänsklig tandkräm som kan innehålla xylitol (extremt giftigt för hundar) och fluorid. Djurtandkräm är säker att svälja och finns i kött- och fisksmaker. Fingerborste är bra för nybörjare och katter. Lyft läppen och borsta i 45 graders vinkel mot tandköttsranden med cirkulära rörelser. Fokusera på yttersidorna — tungan rengör insidorna naturligt. De viktigaste områdena är överkäkens bakre tänder och hörntänderna. 1–2 minuter räcker.',
     en: 'Always use toothpaste made for pets — never human toothpaste, which may contain xylitol (extremely toxic to dogs) and fluoride. Pet toothpaste is safe to swallow and comes in meat and fish flavors. A finger brush is great for beginners and cats. Lift the lip and brush at a 45-degree angle to the gumline using circular motions. Focus on the outer surfaces — the tongue naturally cleans the inner surfaces. The most important areas are the upper back teeth and the canines. 1–2 minutes is enough.'
   },
@@ -1094,7 +1097,7 @@ const translations = {
     en: 'Getting Your Pet Used to Brushing'
   },
   'article.brushing.start.text': {
-    fi: 'Aloita rauhallisesti. Ensimmäisellä viikolla totuta lemmikkisi suun käsittelyyn koskettamalla huulia ja hampaita sormella. Toisella viikolla anna lemmikkisi maistaa hammastahnaa sormeltasi ja hieroa sitä etuhampaiden pintaan. Kolmannella viikolla ota harja mukaan ja harjaa muutama hammas. Laajenna vähitellen harjattavaa aluetta. Anna aina palkinto jälkeenpäin. Älä pakota — pidä tuokiot lyhyinä ja positiivisina. Pentuiällä aloittaminen on helpointa, mutta myös aikuinen eläin voi oppia.',
+    fi: 'Aloita rauhallisesti. Ensimmäisellä viikolla totuta lemmikkisi suun käsittelyyn koskettamalla huulia ja hampaita sormella. Toisella viikolla anna lemmikkisi maistaa hammastahnaa sormestasi ja hiero sitä etuhampaiden pintaan. Kolmannella viikolla ota harja mukaan ja harjaa muutama hammas. Laajenna vähitellen harjattavaa aluetta. Anna aina palkinto jälkeenpäin. Älä pakota — pidä tuokiot lyhyinä ja positiivisina. Pentuiällä aloittaminen on helpointa, mutta myös aikuinen eläin voi oppia.',
     sv: 'Börja lugnt. Under första veckan, vänj husdjuret vid munhantering genom att röra vid läppar och tänder med fingret. Under andra veckan, låt husdjuret smaka på tandkrämen från ditt finger och gnid lite på framtänderna. Under tredje veckan, ta med borsten och borsta några tänder. Utöka gradvis det borstade området. Ge alltid belöning efteråt. Tvinga inte — håll stunderna korta och positiva. Det är lättast att börja som valp, men även vuxna djur kan lära sig.',
     en: 'Start slowly. During the first week, get your pet used to mouth handling by touching the lips and teeth with your finger. In the second week, let your pet taste the toothpaste from your finger and rub some on the front teeth. In the third week, introduce the brush and brush a few teeth. Gradually expand the area. Always reward afterward. Never force — keep sessions short and positive. Starting as a puppy is easiest, but adult animals can learn too.'
   },
@@ -1105,7 +1108,7 @@ const translations = {
   },
   'article.brushing.signs.text': {
     fi: 'Pahanhajuinen hengitys (ei ole normaalia!), punaiset tai turvonneet ikenet, näkyvä hammaskivi, ruuan putoilu syödessä, yhdellä puolella pureskelu, kuolaaminen, kasvojen turvotus, haluttomuus antaa koskea päähän, käyttäytymisen muutokset tai painon lasku. Muista, että eläimet piilottavat kipua — monet vakavasti sairaat lemmikit syövät edelleen normaalisti. Omistajat raportoivat usein dramaattisen muutoksen käytöksessä hammashoidon jälkeen.',
-    sv: 'Dålig andedräkt (det är inte normalt!), röda eller svullna tandkött, synlig tandsten, tappar mat vid ätande, tuggar bara på ena sidan, dregling, svullnad i ansiktet, ovilja att bli berörd vid huvudet, beteendeförändringar eller viktnedgång. Kom ihåg att djur döljer smärta — många allvarligt sjuka husdjur fortsätter äta normalt. Ägare rapporterar ofta dramatisk beteendeförbättring efter tandbehandling.',
+    sv: 'Dålig andedräkt (det är inte normalt!), rött eller svullet tandkött, synlig tandsten, tappar mat vid ätande, tuggar bara på ena sidan, dregling, svullnad i ansiktet, ovilja att bli berörd vid huvudet, beteendeförändringar eller viktnedgång. Kom ihåg att djur döljer smärta — många allvarligt sjuka husdjur fortsätter äta normalt. Ägare rapporterar ofta dramatisk beteendeförbättring efter tandbehandling.',
     en: 'Bad breath (this is not normal!), red or swollen gums, visible tartar, dropping food while eating, chewing on one side only, drooling, facial swelling, reluctance to have the head touched, behavioral changes or weight loss. Remember that animals hide pain — many seriously ill pets continue eating normally. Owners often report dramatic behavioral improvement after dental treatment.'
   },
   'article.brushing.professional.title': {
@@ -1124,8 +1127,8 @@ const translations = {
     en: '#BrushChamp — Do You Brush Every Day?'
   },
   'article.brushing.challenge.text': {
-    fi: 'Eläinklinikka Saaressa arvostamme omistajia, jotka sitoutuvat lemmikkinsä hampaiden päivittäiseen harjaukseen. Jos harjaat lemmikkisi hampaat joka päivä, kerro meille — kunniajäsenet saavat #BrushChamp-mitalin! Ota yhteyttä klinikalla tai sähköpostitse: elainklinikkasaari.vaasa@gmail.com.',
-    sv: 'På Eläinklinikka Saari uppskattar vi ägare som förbinder sig till daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: elainklinikkasaari.vaasa@gmail.com.',
+    fi: 'Eläinklinikka Saaressa arvostamme omistajia, jotka sitoutuvat lemmikkinsä hampaiden päivittäiseen harjaamiseen. Jos harjaat lemmikkisi hampaat joka päivä, kerro meille — kunniajäsenet saavat #BrushChamp-mitalin! Ota yhteyttä klinikalla tai sähköpostitse: elainklinikkasaari.vaasa@gmail.com.',
+    sv: 'På Eläinklinikka Saari uppskattar vi ägare som engagerar sig i daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: elainklinikkasaari.vaasa@gmail.com.',
     en: 'At Eläinklinikka Saari we value owners who commit to daily tooth brushing. If you brush your pet\'s teeth every day, let us know — dedicated brushers receive the #BrushChamp medal! Contact us at the clinic or by email: elainklinikkasaari.vaasa@gmail.com.'
   },
 
@@ -1147,7 +1150,7 @@ const translations = {
   },
   'article.periovive.what.text': {
     fi: 'PerioVive on 0,8 % hyaluronihappoa (HA) sisältävä geeli, joka on suunniteltu eläinlääketieteellisiin hammastoimenpiteisiin. Hyaluronihappo on luonnollisesti sidekudoksessa, ikenissä ja nivelnesteessä esiintyvä aine, jolla on keskeinen rooli kudosten paranemisessa ja uusiutumisessa. Geeli levitetään suoraan ientaskuihin ja hoitoalueille hammastoimenpiteen yhteydessä.',
-    sv: 'PerioVive är en gel som innehåller 0,8 % hyaluronsyra (HA) och är designad för veterinärmedicinska tandbehandlingar. Hyaluronsyra förekommer naturligt i bindväv, tandkött och ledvätska och spelar en central roll i vävnadsläkning och regenerering. Gelen appliceras direkt i tandköttsfickor och behandlingsområden under tandbehandlingen.',
+    sv: 'PerioVive är en gel som innehåller 0,8 % hyaluronsyra (HA) och är utformad för veterinärmedicinska tandbehandlingar. Hyaluronsyra förekommer naturligt i bindväv, tandkött och ledvätska och spelar en central roll i vävnadsläkning och regenerering. Gelen appliceras direkt i tandköttsfickor och behandlingsområden under tandbehandlingen.',
     en: 'PerioVive is a 0.8% hyaluronic acid (HA) gel designed for veterinary dental procedures. Hyaluronic acid is a naturally occurring substance in connective tissue, gums and joint fluid that plays a key role in tissue healing and regeneration. The gel is applied directly to periodontal pockets and treatment areas during the dental procedure.'
   },
   'article.periovive.how.title': {
@@ -1318,12 +1321,12 @@ const translations = {
   },
   'article.food.clinic.title': {
     fi: 'Ruoka-allergiatutkimukset klinikallamme',
-    sv: 'Födoämnesallergutredning på vår klinik',
+    sv: 'Födoämnesallergiutredning på vår klinik',
     en: 'Food Allergy Investigations at Our Clinic'
   },
   'article.food.clinic.text': {
     fi: 'Eläinklinikka Saaressa autamme sinua ruoka-allergian tutkimisessa ja hoidossa. Suunnittelemme yksilöllisen eliminaatioruokavalion lemmikillesi, hoidamme samalla sekundaariset iho- ja korvainfektiot ja seuraamme edistymistä koko prosessin ajan. Myymme klinikaltamme myös eliminaatioruokavalioita ja voimme neuvoa sopivan ruokavalion valinnassa.',
-    sv: 'På Djurkliniken Saari hjälper vi dig med utredning och behandling av födoämnesallergi. Vi planerar en individuell eliminationsdiet för ditt husdjur, behandlar samtidigt sekundära hud- och öroninfektioner och följer upp framstegen under hela processen. Vi säljer även eliminationsdieter på kliniken och kan rådge om rätt dietval.',
+    sv: 'På Djurkliniken Saari hjälper vi dig med utredning och behandling av födoämnesallergi. Vi planerar en individuell eliminationsdiet för ditt husdjur, behandlar samtidigt sekundära hud- och öroninfektioner och följer upp framstegen under hela processen. Vi säljer även eliminationsdieter på kliniken och kan rådge om rätt kostval.',
     en: 'At Eläinklinikka Saari, we help you investigate and manage food allergies. We design an individual elimination diet for your pet, treat secondary skin and ear infections at the same time, and monitor progress throughout the process. We also sell elimination diets at our clinic and can advise on choosing the right diet.'
   },
 
@@ -1345,7 +1348,7 @@ const translations = {
     en: 'Symptoms'
   },
   'article.hyperthyroid.symptoms.text': {
-    fi: 'Tyypillisimpiä oireita ovat painonlasku hyvästä ruokahalusta huolimatta, lisääntynyt juominen ja virtsaaminen, oksentelu, ripuli, yliaktiivisuus tai levottomuus, huono turkki ja nopea sydämen syke. Joillakin kissoilla näkyy myös laihtumista, lihaskatoa ja käytösmuutoksia. Oireet kehittyvät yleensä hitaasti, ja omistajat saattavat pitää niitä normaalina ikääntymiseen liittyvinä muutoksina.',
+    fi: 'Tyypillisimpiä oireita ovat painonlasku hyvästä ruokahalusta huolimatta, lisääntynyt juominen ja virtsaaminen, oksentelu, ripuli, yliaktiivisuus tai levottomuus, huono turkki ja nopea sydämen syke. Joillakin kissoilla esiintyy myös laihtumista, lihaskatoa ja käytösmuutoksia. Oireet kehittyvät yleensä hitaasti, ja omistajat saattavat pitää niitä normaalina ikääntymiseen liittyvinä muutoksina.',
     sv: 'De vanligaste symtomen är viktnedgång trots god aptit, ökad törst och urinering, kräkningar, diarré, hyperaktivitet eller rastlöshet, dålig päls och snabb hjärtrytm. Vissa katter visar även avmagring, muskelförlust och beteendeförändringar. Symtomen utvecklas vanligtvis långsamt och ägare kan förväxla dem med normala åldersförändringar.',
     en: 'The most common symptoms are weight loss despite good appetite, increased drinking and urination, vomiting, diarrhea, hyperactivity or restlessness, poor coat and rapid heart rate. Some cats also show wasting, muscle loss and behavioral changes. Symptoms usually develop slowly, and owners may mistake them for normal age-related changes.'
   },
@@ -1365,7 +1368,7 @@ const translations = {
     en: 'Complications'
   },
   'article.hyperthyroid.complications.text': {
-    fi: 'Hoitamaton hypertyreoosi voi aiheuttaa sydämen liikakasvu (hypertrofinen kardiomyopatia), korkean verenpaineen, verkkokalvon irtoamisen ja näköhäiriöitä. Tärkeä yhteys on myös munuaissairauteen: hypertyreoosi lisää munuaisten verenvirtausta, mikä voi peittää taustalla olevan munuaisten vajaatoiminnan. Kun kilpirauhasen toiminta korjataan, piilevä munuaissairaus saattaa paljastua. Siksi munuaisarvoja seurataan tarkasti hoidon aikana.',
+    fi: 'Hoitamaton hypertyreoosi voi aiheuttaa sydämen liikakasvua (hypertrofinen kardiomyopatia), korkean verenpaineen, verkkokalvon irtoamisen ja näköhäiriöitä. Tärkeä yhteys on myös munuaissairauteen: hypertyreoosi lisää munuaisten verenkiertoa, mikä voi peittää taustalla olevan munuaisten vajaatoiminnan. Kun kilpirauhasen toiminta korjataan, piilevä munuaissairaus saattaa paljastua. Siksi munuaisarvoja seurataan tarkasti hoidon aikana.',
     sv: 'Obehandlad hypertyreos kan orsaka hjärtförstoring (hypertrofisk kardiomyopati), högt blodtryck, näthinneavlossning och synstörningar. Det finns även ett viktigt samband med njursjukdom: hypertyreos ökar blodflödet till njurarna, vilket kan dölja en underliggande njursvikt. När sköldkörtelfunktionen korrigeras kan en dold njursjukdom avslöjas. Därför övervakas njurvärdena noggrant under behandlingen.',
     en: 'Untreated hyperthyroidism can cause heart enlargement (hypertrophic cardiomyopathy), high blood pressure, retinal detachment and vision problems. There is also an important connection to kidney disease: hyperthyroidism increases blood flow to the kidneys, which can mask underlying kidney failure. When thyroid function is corrected, hidden kidney disease may be revealed. That is why kidney values are monitored closely during treatment.'
   },
@@ -1376,7 +1379,7 @@ const translations = {
   },
   'article.hyperthyroid.treatment.text': {
     fi: 'Hoitovaihtoehtoja on neljä: 1) Päivittäinen lääkitys (metimatsoli/Felimazole) — yleisin vaihtoehto, edullinen mutta elinikäinen. 2) Leikkaus (tyreoidektomia) — kilpirauhasen poisto, parantava hoito. 3) Radiojodihoito (I-131) — kultastandardi, yksi hoitokerta parantaa yli 95 % tapauksista, mutta vaatii erikoisklinikan. 4) Reseptiruokavalio (Hill\'s y/d) — jodirajoitettu ruoka, sopii lieväoireisille kissoille. Klinikallamme autamme valitsemaan parhaan hoitomuodon kissasi tilanteeseen.',
-    sv: 'Det finns fyra behandlingsalternativ: 1) Daglig medicinering (metimazol/Felimazole) — det vanligaste alternativet, prisvärt men livslångt. 2) Kirurgi (tyreoidektomi) — borttagning av sköldkörteln, botande behandling. 3) Radiojodbehandling (I-131) — guldstandard, en behandling botar över 95 % av fallen men kräver specialklinik. 4) Receptdiet (Hill\'s y/d) — jodbegränsad mat, lämplig för katter med lindriga symtom. På vår klinik hjälper vi dig välja den bästa behandlingen för din katts situation.',
+    sv: 'Det finns fyra behandlingsalternativ: 1) Daglig medicinering (metimazol/Felimazole) — det vanligaste alternativet, prisvärt men livslångt. 2) Kirurgi (tyreoidektomi) — borttagning av sköldkörteln, botande behandling. 3) Radiojodbehandling (I-131) — guldstandard, en behandling botar över 95 % av fallen men kräver specialklinik. 4) Receptbelagd kost (Hill\'s y/d) — jodbegränsad mat, lämplig för katter med lindriga symtom. På vår klinik hjälper vi dig välja den bästa behandlingen för din katts situation.',
     en: 'There are four treatment options: 1) Daily medication (methimazole/Felimazole) — the most common option, affordable but lifelong. 2) Surgery (thyroidectomy) — removal of the thyroid gland, a curative treatment. 3) Radioactive iodine therapy (I-131) — the gold standard, one treatment cures over 95% of cases but requires a specialized clinic. 4) Prescription diet (Hill\'s y/d) — iodine-restricted food, suitable for cats with mild symptoms. At our clinic, we help you choose the best treatment for your cat\'s situation.'
   },
 
@@ -1418,8 +1421,8 @@ const translations = {
     en: 'Treatment and Monitoring'
   },
   'article.kidney.treatment.text': {
-    fi: 'Munuaissairautta ei voi parantaa, mutta etenemistä voidaan hidastaa merkittävästi. Hoidon kulmakiviä ovat: munuaisruokavalio (vähentynyt proteiini ja fosfori — tutkitusti pidentää elinaikaa), fosforinsitojahoito, nestehoito (ihonalainen tai suonensisäinen), verenpainelääkitys ja pahoinvointilääkitys. Anemiaa hoidetaan tarvittaessa erytropoietiinilla. Säännöllinen seuranta (verikokeet, verenpaine, virtsakoe) on välttämätöntä hoidon sopeuttamiseksi. Klinikallamme seuraamme munuaispotilaita yksilöllisellä aikataululla.',
-    sv: 'Njursjukdom kan inte botas, men sjukdomsförloppet kan bromsas avsevärt. Behandlingens hörnstenar är: njurdiet (minskat protein och fosfor — bevisat förlänger livslängden), fosforbindarterapi, vätskebehandling (subkutan eller intravenös), blodtrycksmedicin och medel mot illamående. Anemi behandlas vid behov med erytropoetin. Regelbunden uppföljning (blodprover, blodtryck, urinprov) är nödvändig för att anpassa behandlingen. På vår klinik följer vi njurpatienter med individuellt anpassade scheman.',
+    fi: 'Munuaissairautta ei voi parantaa, mutta etenemistä voidaan hidastaa merkittävästi. Hoidon kulmakiviä ovat: munuaisruokavalio (rajoitettu proteiini ja fosfori — tutkitusti pidentää elinaikaa), fosforinsitojahoito, nestehoito (ihonalainen tai suonensisäinen), verenpainelääkitys ja pahoinvointilääkitys. Anemiaa hoidetaan tarvittaessa erytropoietiinilla. Säännöllinen seuranta (verikokeet, verenpaine, virtsakoe) on välttämätöntä hoidon sopeuttamiseksi. Klinikallamme seuraamme munuaispotilaita yksilöllisellä aikataululla.',
+    sv: 'Njursjukdom kan inte botas, men sjukdomsförloppet kan bromsas avsevärt. Behandlingens hörnstenar är: njurkost (minskat protein och fosfor — bevisat förlänger livslängden), fosforbindarterapi, vätskebehandling (subkutan eller intravenös), blodtrycksmedicin och medel mot illamående. Anemi behandlas vid behov med erytropoetin. Regelbunden uppföljning (blodprover, blodtryck, urinprov) är nödvändig för att anpassa behandlingen. På vår klinik följer vi njurpatienter med individuellt anpassade scheman.',
     en: 'Kidney disease cannot be cured, but progression can be significantly slowed. The cornerstones of treatment are: renal diet (reduced protein and phosphorus — proven to extend life expectancy), phosphate binder therapy, fluid therapy (subcutaneous or intravenous), blood pressure medication and anti-nausea medication. Anemia is treated with erythropoietin when needed. Regular monitoring (blood tests, blood pressure, urinalysis) is essential for adjusting treatment. At our clinic, we follow kidney patients on individually tailored schedules.'
   },
 
@@ -1441,7 +1444,7 @@ const translations = {
     en: 'Symptoms'
   },
   'article.snake.symptoms.text': {
-    fi: 'Oireet ilmaantuvat yleensä minuuteista tunteihin pureman jälkeen. Paikallisoireet: voimakas turvotus purema-alueella, kipu, kaksi pistohaavaa. Yleisoireet: kuolaaminen, oksentelu, nopea hengitys, heikkous, lamautuminen. Vaikeissa tapauksissa: allerginen reaktio (kasvojen turpoaminen, hengitysvaikeudet), verenhyytymishäiriöt, sokki ja kollapsi. Kuonoon saatu purema voi aihtaa hengenvaarallista turvotusta hengitysteissä. Oireet voivat pahentua 24–48 tunnin ajan.',
+    fi: 'Oireet ilmaantuvat yleensä minuuteista tunteihin pureman jälkeen. Paikallisoireet: voimakas turvotus purema-alueella, kipu, kaksi pistohaavaa. Yleisoireet: kuolaaminen, oksentelu, nopea hengitys, heikkous, lamautuminen. Vaikeissa tapauksissa: allerginen reaktio (kasvojen turpoaminen, hengitysvaikeudet), verenhyytymishäiriöt, sokki ja kollapsi. Kuonoon saatu purema voi aiheuttaa hengenvaarallista turvotusta hengitysteissä. Oireet voivat pahentua 24–48 tunnin ajan.',
     sv: 'Symtom uppträder vanligtvis från minuter till timmar efter bettet. Lokala symtom: kraftig svullnad vid bettområdet, smärta, två sticksår. Allmänna symtom: dregling, kräkningar, snabb andning, svaghet, förlamning. I svåra fall: allergisk reaktion (ansiktssvullnad, andningssvårigheter), koagulationsrubbningar, chock och kollaps. Bett i nosen kan orsaka livshotande svullnad i luftvägarna. Symtomen kan förvärras under 24–48 timmar.',
     en: 'Symptoms appear from minutes to hours after the bite. Local symptoms: severe swelling at the bite area, pain, two puncture wounds. Systemic symptoms: drooling, vomiting, rapid breathing, weakness, collapse. In severe cases: allergic reaction (facial swelling, breathing difficulties), blood clotting disorders, shock and collapse. A bite to the snout can cause life-threatening airway swelling. Symptoms may worsen over 24–48 hours.'
   },
@@ -1484,7 +1487,7 @@ const translations = {
     en: 'Pyometra (Uterine Infection) — A Life-Threatening Condition Requiring Urgent Treatment'
   },
   'article.pyometra.intro': {
-    fi: 'Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista steriloimattomilla narttukoirilla — jopa 25 % steriloimattomista nartuista sairastuu pyometraan ennen 10 vuoden ikää. Sairaus vaatii yleensä kiireellistä leikkaushoitoa. Oireiden tunnistaminen voi pelastaa lemmikkisi hengen.',
+    fi: 'Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista steriloimattomilla narttukoirilla — jopa 25 % steriloimattomista narttukoirista sairastuu pyometraan ennen 10 vuoden ikää. Sairaus vaatii yleensä kiireellistä leikkaushoitoa. Oireiden tunnistaminen voi pelastaa lemmikkisi hengen.',
     sv: 'Pyometra, det vill säga livmoderinflammation, är en allvarlig, livshotande infektion där livmodern fylls med var. Det är en av de vanligaste akutsituationerna hos osteriliserade tikar — upp till 25 % av osteriliserade tikar drabbas av pyometra före 10 års ålder. Sjukdomen kräver vanligtvis akut kirurgisk behandling. Att känna igen symtomen kan rädda ditt husdjurs liv.',
     en: 'Pyometra is a serious, life-threatening infection in which the uterus fills with pus. It is one of the most common emergencies in unspayed female dogs — up to 25% of unspayed females develop pyometra before 10 years of age. The condition usually requires emergency surgery. Recognizing the symptoms can save your pet\'s life.'
   },
@@ -1514,7 +1517,7 @@ const translations = {
     en: 'Treatment — Surgery Is the Only Option'
   },
   'article.pyometra.treatment.text': {
-    fi: 'Pyometran ainoa hoito on kohdunpoisto (ovariohysterektomia) eli sterilisaatio. Leikkaus tehdään kiireellisesti, usein saman päivän aikana. Ennen leikkausta potilas stabiloidaan nestehoidolla ja aloitetaan suonensisäinen antibioottihoito. Leikkaus poistaa sekä infektoituneen kohdun että munasarjat, mikä estää taudin uusiutumisen. Lääkinnällistä hoitoa ei suositella, koska tauti uusiutuu jopa 75 %:ssa tapauksista. Leikkaushoidolla ennuste on hyvä — yli 90 % potilaista toipuu.',
+    fi: 'Pyometran ainoa hoito on kohdunpoisto (ovariohysterektomia) eli sterilisaatio. Leikkaus tehdään kiireellisesti, usein samana päivänä. Ennen leikkausta potilas stabiloidaan nestehoidolla ja aloitetaan suonensisäinen antibioottihoito. Leikkaus poistaa sekä infektoituneen kohdun että munasarjat, mikä estää taudin uusiutumisen. Lääkinnällistä hoitoa ei suositella, koska tauti uusiutuu jopa 75 %:ssa tapauksista. Leikkaushoidolla ennuste on hyvä — yli 90 % potilaista toipuu.',
     sv: 'Den enda behandlingen av pyometra är livmoderavlägsnande (ovariohysterektomi), det vill säga sterilisering. Operationen utförs akut, ofta samma dag. Innan operationen stabiliseras patienten med vätskebehandling och intravenös antibiotikabehandling påbörjas. Operationen avlägsnar både den infekterade livmodern och äggstockarna, vilket förhindrar återfall. Medicinsk behandling rekommenderas inte eftersom sjukdomen återkommer i upp till 75 % av fallen. Med kirurgisk behandling är prognosen god — över 90 % av patienterna tillfrisknar.',
     en: 'The only treatment for pyometra is ovariohysterectomy (surgical removal of the uterus and ovaries), essentially spaying. Surgery is performed urgently, often on the same day. Before surgery, the patient is stabilized with fluid therapy and intravenous antibiotics are started. The surgery removes both the infected uterus and the ovaries, preventing recurrence. Medical treatment is not recommended as the disease recurs in up to 75% of cases. With surgical treatment, the prognosis is good — over 90% of patients recover.'
   },
@@ -1546,7 +1549,7 @@ const translations = {
     en: 'How Does Lateral Suture Work?'
   },
   'article.ccl.how.text': {
-    fi: 'Leikkauksessa polvinivel avataan ja tarkastetaan: repeytyneen ristisiteen jäänteet poistetaan ja nivelkierukat (meniskit) tutkitaan vaurioiden varalta. Tämän jälkeen nivelen ulkopuolelle asennetaan vahva monofilamenttinen nylonlanka, joka kierretään reisiluun takaosan (fabella) ympäri ja kiinnitetään sääriluun etuosaan poratun tunnelin kautta. Lanka kiristetään ja lukitaan metallisilla puristusholkeilla (crimp clamp). Tämä stabiloi polvinivelen ja estää sääriluun liukumisen eteenpäin — aivan kuten terve ristiside tekisi. Lanka toimii väliaikaisena tukirakenteena, kunnes kehon oma sidekudos (periarticulaarinen fibroosi) muodostuu nivelen ympärille ja tarjoaa pysyvän vakauden.',
+    fi: 'Leikkauksessa polvinivel avataan ja tarkastetaan: repeytyneen ristisiteen jäänteet poistetaan ja nivelkierukat (meniskit) tutkitaan vaurioiden varalta. Tämän jälkeen nivelen ulkopuolelle asennetaan vahva monofilamenttinen nylonlanka, joka kierretään reisiluun takaosan (fabella) ympäri ja kiinnitetään sääriluun etuosaan poratun tunnelin kautta. Lanka kiristetään ja lukitaan metallisilla puristusholkeilla (crimp clamp). Tämä stabiloi polvinivelen ja estää sääriluun liukumisen eteenpäin — aivan kuten terve ristiside tekisi. Lanka toimii väliaikaisena tukirakenteena, kunnes kehon oma sidekudos (periartikulaarinen fibroosi) muodostuu nivelen ympärille ja tarjoaa pysyvän vakauden.',
     sv: 'Under operationen öppnas knäleden och undersöks: resterna av det skadade korsbandet avlägsnas och meniskerna kontrolleras för skador. Därefter placeras en stark monofilament nylontråd utanför leden — tråden leds runt den bakre delen av lårbenet (fabella) och fästs genom en borrad tunnel i skenbenet. Tråden spänns och låses med metallklämmor (crimp clamp). Detta stabiliserar knäleden och förhindrar skenbenet från att glida framåt — precis som ett friskt korsband. Tråden fungerar som en tillfällig stödstruktur tills kroppens egen bindväv (periartikulär fibros) bildas runt leden och ger permanent stabilitet.',
     en: 'During surgery, the knee joint is opened and examined: remnants of the torn cruciate ligament are removed and the menisci are checked for damage. A strong monofilament nylon suture is then placed outside the joint — it is routed around the back of the femur (fabella) and secured through a drilled tunnel in the tibia. The suture is tightened and locked with metal crimp clamps. This stabilizes the knee joint and prevents the tibia from sliding forward — just as a healthy cruciate ligament would. The suture acts as a temporary support structure until the body\'s own connective tissue (periarticular fibrosis) forms around the joint and provides permanent stability.'
   },
@@ -1674,7 +1677,7 @@ const translations = {
     en: 'How Can You Help Hedgehogs?'
   },
   'article.hedgehog.help.text': {
-    fi: 'Tee siiliaukko aitaan — 13 × 13 cm:n reikä aidan alaosassa riittää ja mahdollistaa siilien liikkumisen pihojen välillä. Tämä on yksittäisistä toimista vaikuttavin. Älä käytä robottiruohonleikkuria hämärän jälkeen. Jätä puutarhaan villiintyneitä alueita — lehtikasat ja risukot tarjoavat pesäpaikkoja. Tarjoa raikasta vettä matalassa astiassa. Lisäruokana sopii kissanruoka (lihapohjasta, ei kalaa) — älä koskaan anna leipää tai maitoa, ne aiheuttavat ripulia. Vältä torjunta-aineita ja etanasyöttejä — siilit ovat luonnon parhaita etanan- ja kotiloidentorjujia. Tarkista aina nuotiopaikat ja lehtikasot ennen polttamista. Asenna lammikkoon nousuramppi, sillä siilit uivat mutta väsyvät nopeasti.',
+    fi: 'Tee siiliaukko aitaan — 13 × 13 cm:n reikä aidan alaosassa riittää ja mahdollistaa siilien liikkumisen pihojen välillä. Tämä on yksittäisistä toimista vaikuttavin. Älä käytä robottiruohonleikkuria hämärän jälkeen. Jätä puutarhaan villiintyneitä alueita — lehtikasat ja risukot tarjoavat pesäpaikkoja. Tarjoa raikasta vettä matalassa astiassa. Lisäruokana sopii kissanruoka (lihapohjaista, ei kalaa) — älä koskaan anna leipää tai maitoa, ne aiheuttavat ripulia. Vältä torjunta-aineita ja etanasyöttejä — siilit ovat luonnon parhaita etanan- ja kotiloidentorjujia. Tarkista aina nuotiopaikat ja lehtikasot ennen polttamista. Asenna lammikkoon nousuramppi, sillä siilit uivat mutta väsyvät nopeasti.',
     sv: 'Gör en igelkottsöppning i staketet — ett hål på 13 × 13 cm vid staketets botten räcker och gör det möjligt för igelkottar att röra sig mellan trädgårdar. Detta är den enskilt mest effektiva åtgärden. Kör inte robotgräsklipparen efter skymning. Lämna vilda ytor i trädgården — lövhögar och rishögar erbjuder boplatser. Ställ ut friskt vatten i en grund skål. Som tillskottsfoder passar kattmat (köttbaserad, inte fisk) — ge aldrig bröd eller mjölk, det orsakar diarré. Undvik bekämpningsmedel och snigelgift — igelkottar är naturens bästa snigel- och snäckbekämpare. Kontrollera alltid eldhögar och lövhögar innan du tänder eld. Installera en ramp i dammen, eftersom igelkottar kan simma men tröttar snabbt.',
     en: 'Make a hedgehog highway — a 13 × 13 cm hole at the bottom of your fence is enough and allows hedgehogs to move between gardens. This is the single most impactful action. Never run robot mowers after dusk. Leave wild areas in your garden — leaf piles and brush heaps provide nesting sites. Provide fresh water in a shallow dish. Supplementary food can be meat-based cat food (not fish) — never give bread or milk, as they cause diarrhea. Avoid pesticides and slug pellets — hedgehogs are nature\'s best slug and snail controllers. Always check bonfire sites and leaf piles before burning. Install a ramp in your pond, as hedgehogs can swim but tire quickly.'
   },
@@ -1689,7 +1692,7 @@ const translations = {
     en: 'One of the best ways to help hedgehogs is to build a winter nest, a hedgehog house. In Finland, hibernation lasts up to 8 months — from October to April — and a good nest can determine whether a hedgehog survives. According to guidelines from the Finnish Association for Nature Conservation and WWF Finland, building a winter nest is straightforward:'
   },
   'article.hedgehog.nest.instructions': {
-    fi: 'Käsittelemättömistä laudoista (EI vaneria — vaneri ei hengitä ja homehtuu) rakennetaan noin 40 × 40 × 40 cm:n laatikko ILMAN pohjaa — avoin pohja päästää virtsan valumaan maahan eikä siili jäädy märkään pohjaan. Yhdelle seinälle sahataan 10 × 15 cm:n sisäänkäyntiaukko, johon kiinnitetään kolmesta laudasta rakennettu 15–20 cm:n tunneli — tunneli estää kettuja ja kissoja pääsemästä sisään. Molempiin yläkulmiin porataan tuuletusreiät (homeenesto). Kansi tehdään irrotettavaksi ja päällystetään kattohuovalla vesisateelta suojaksi. Sisälle levitetään ensin soraa (salaojitus), sitten multaa, sammalta ja lopuksi pakkaus täyteen kuivia lehtiä (vaahteran lehdet ovat siilien suosikkeja) ja heinää. Pesä sijoitetaan rauhalliseen, varjoisaan paikkaan pohjoissuuntaan — EI aurinkoiselle puolelle, sillä keväinen aurinko herättäisi siilin liian aikaisin. Suuntaa sisäänkäynti tuulelta suojaan. Pesän tulee olla valmis viimeistään syyskuun lopussa, mielellään jo elokuussa. Lokakuun ja huhtikuun välillä pesää ei saa avata eikä häiritä — lumen alla oleva pesä on lämmin ja turvallinen. Älä koskaan poista lunta pesän päältä. Keväällä (touko-kesäkuussa) pesä puhdistetaan hansikkaat kädessä, pestään kuumalla vedellä ja täytetään uudelleen tuoreilla lehdillä.',
+    fi: 'Käsittelemättömistä laudoista (EI vaneria — vaneri ei hengitä ja homehtuu) rakennetaan noin 40 × 40 × 40 cm:n laatikko ILMAN pohjaa — avoin pohja päästää virtsan valumaan maahan eikä siili jäädy märkään pohjaan. Yhdelle seinälle sahataan 10 × 15 cm:n sisäänkäyntiaukko, johon kiinnitetään kolmesta laudasta rakennettu 15–20 cm:n tunneli — tunneli estää kettuja ja kissoja pääsemästä sisään. Molempiin yläkulmiin porataan tuuletusreiät (homeenesto). Kansi tehdään irrotettavaksi ja päällystetään kattohuovalla vesisateelta suojaksi. Sisälle levitetään ensin soraa (salaojitus), sitten multaa, sammalta ja lopuksi tila pakataan täyteen kuivia lehtiä (vaahteran lehdet ovat siilien suosikkeja) ja heinää. Pesä sijoitetaan rauhalliseen, varjoisaan paikkaan pohjoissuuntaan — EI aurinkoiselle puolelle, sillä keväinen aurinko herättäisi siilin liian aikaisin. Suuntaa sisäänkäynti tuulelta suojaan. Pesän tulee olla valmis viimeistään syyskuun lopussa, mielellään jo elokuussa. Lokakuun ja huhtikuun välillä pesää ei saa avata eikä häiritä — lumen alla oleva pesä on lämmin ja turvallinen. Älä koskaan poista lunta pesän päältä. Keväällä (touko-kesäkuussa) pesä puhdistetaan hansikkaat kädessä, pestään kuumalla vedellä ja täytetään uudelleen tuoreilla lehdillä.',
     sv: 'Av obehandlade brädor (INTE plywood — plywood andas inte och mögelbildas) byggs en låda på ungefär 40 × 40 × 40 cm UTAN botten — den öppna botten låter urinen rinna ner i marken och igelkotten fryser inte fast i ett vått golv. I en vägg sågas en ingångsöppning på 10 × 15 cm, där en tunnel på 15–20 cm fästs, byggd av tre brädor — tunneln hindrar rävar och katter från att ta sig in. I båda övre hörnen borras ventilationshål (mot mögel). Locket görs avtagbart och kläs med takpapp som vattenskydd. Inuti läggs först grus (dränering), sedan jord, mossa och slutligen fylls hela utrymmet med torra löv (lönnlöv är igelkottarnas favorit) och hö. Boet placeras på en lugn, skuggig plats i norrläge — INTE på solsidan, eftersom vårsolen skulle väcka igelkotten för tidigt. Rikta ingången i lä. Boet ska vara klart senast i slutet av september, helst redan i augusti. Mellan oktober och april får boet inte öppnas eller störas — ett bo under snön är varmt och tryggt. Ta aldrig bort snö från boet. På våren (maj–juni) rengörs boet med handskar, tvättas med hett vatten och fylls på nytt med färska löv.',
     en: 'From untreated boards (NOT plywood — plywood does not breathe and develops mold) build a box of approximately 40 × 40 × 40 cm WITHOUT a bottom — the open bottom lets urine drain into the soil and prevents the hedgehog from freezing to a wet floor. Cut a 10 × 15 cm entrance opening in one wall and attach a 15–20 cm tunnel made from three boards — the tunnel prevents foxes and cats from reaching inside. Drill ventilation holes in both upper corners (to prevent mold). Make the lid removable and cover it with roofing felt for rain protection. Inside, first spread gravel (drainage), then soil, moss, and finally pack the entire space full of dry leaves (maple leaves are hedgehogs\' favorite) and hay. Place the nest in a quiet, shaded spot facing north — NOT on the sunny side, as spring sunshine would wake the hedgehog too early. Point the entrance away from prevailing winds. The nest must be ready by the end of September at the latest, preferably by August. Between October and April, do not open or disturb the nest — a nest under snow is warm and safe. Never remove snow from the nest. In spring (May–June), clean the nest wearing gloves, wash with hot water, and refill with fresh leaves.'
   },
@@ -1724,9 +1727,9 @@ const translations = {
     en: 'Hedgehog Life in Brief'
   },
   'article.hedgehog.ecology.text': {
-    fi: 'Siili on yöeläin, joka kulkee yössä 1–2 km ravintoa etsien. Aikuinen siili painaa 600–1 100 g ja sillä on noin 5 000–6 000 piikkiä. Ravintona ovat kovakuoriaiset, toukat, etanat, kotilot, madot ja hyönteiset — siili on puutarhurin paras ystävä. Talvihorros kestää Suomessa noin lokakuusta huhtikuuhun: ruumiinlämpö laskee 35 asteesta jopa 1–4 asteeseen ja syke putoaa 190:stä noin 20 lyöntiin minuutissa. Lisääntymiskausi on huhti–syyskuussa, ja naaras synnyttää keskimäärin 4–5 poikasta. Siilin keskimääräinen elinikä luonnossa on 2–3 vuotta. Suomessa siili vaatii vähintään noin 450–600 gramman painon selviytyäkseen talvihorroksesta.',
+    fi: 'Siili on yöeläin, joka kulkee yössä 1–2 km ravintoa etsien. Aikuinen siili painaa 600–1 100 g ja sillä on noin 5 000–6 000 piikkiä. Ravintona ovat kovakuoriaiset, toukat, etanat, kotilot, madot ja hyönteiset — siili on puutarhurin paras ystävä. Talvihorros kestää Suomessa noin lokakuusta huhtikuuhun: ruumiinlämpö laskee 35 asteesta jopa 1–4 asteeseen ja syke putoaa 190:stä noin 20 lyöntiin minuutissa. Lisääntymiskausi on huhti–syyskuussa, ja naaras synnyttää keskimäärin 4–5 poikasta. Siilin keskimääräinen elinikä luonnossa on 2–3 vuotta. Suomessa siili tarvitsee vähintään noin 450–600 gramman painon selviytyäkseen talvihorroksesta.',
     sv: 'Igelkotten är ett nattdjur som rör sig 1–2 km per natt i jakt på föda. En vuxen igelkott väger 600–1 100 g och har cirka 5 000–6 000 taggar. Födan består av skalbaggar, larver, sniglar, snäckor, maskar och insekter — igelkotten är trädgårdsmästarens bästa vän. Vinterdvalan varar i Finland ungefär från oktober till april: kroppstemperaturen sjunker från 35 grader till så lågt som 1–4 grader och hjärtfrekvensen sjunker från 190 till cirka 20 slag per minut. Fortplantningstiden är april–september och honan föder i genomsnitt 4–5 ungar. Igelkottens genomsnittliga livslängd i det vilda är 2–3 år. I Finland behöver igelkotten en vikt på minst cirka 450–600 gram för att överleva vinterdvalan.',
-    en: 'The hedgehog is a nocturnal animal that travels 1–2 km per night foraging for food. An adult hedgehog weighs 600–1,100 g and has approximately 5,000–6,000 spines. Its diet consists of beetles, larvae, slugs, snails, worms and insects — the hedgehog is the gardener\'s best friend. Hibernation in Finland lasts approximately from October to April: body temperature drops from 35 degrees to as low as 1–4 degrees and heart rate falls from 190 to about 20 beats per minute. The breeding season is April–September and the female gives birth to an average of 4–5 hoglets. The average lifespan of a hedgehog in the wild is 2–3 years. In Finland, a hedgehog needs a weight of at least approximately 450–600 grams to survive hibernation.'
+    en: 'The hedgehog is a nocturnal animal that travels 1–2 km per night foraging for food. An adult hedgehog weighs 600–1,100 g and has approximately 5,000–6,000 spines. Its diet consists of beetles, larvae, slugs, snails, worms and insects — the hedgehog is the gardener\'s best friend. Hibernation in Finland lasts approximately from October to April: body temperature drops from 35°C to as low as 1–4°C and heart rate falls from 190 to about 20 beats per minute. The breeding season is April–September and the female gives birth to an average of 4–5 hoglets. The average lifespan of a hedgehog in the wild is 2–3 years. In Finland, a hedgehog needs a weight of at least approximately 450–600 grams to survive hibernation.'
   },
 
   // Cat Stress & Cat Friendly Clinic Article
@@ -1737,7 +1740,7 @@ const translations = {
     en: 'A Stress-Free Vet Visit for Your Cat — How We Help and How You Can Prepare'
   },
   'article.catstress.intro': {
-    fi: 'Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat laukaista voimakkaan stressireaktion. Stressi ei ole vain epämukavaa — se vaikuttaa myös tutkimustuloksiin: stressaantuneen kissan verensokeriarvo voi nousta jopa 10 mmol/l (ns. stressihyperglykemia), ja verenpaine voi kohota 15–75 mmHg ("valkotakkihypertensio"), mikä vaikeuttaa diagnosointia. Eläinklinikka Saarella olemme panostaneet kissojen hyvinvointiin ja saaneet kansainvälisen ISFM-järjestön Cat Friendly Clinic Silver -sertifikaatin.',
+    fi: 'Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat laukaista voimakkaan stressireaktion. Stressi ei ole vain epämukavaa — se vaikuttaa myös tutkimustuloksiin: stressaantuneen kissan verensokeriarvo voi nousta jopa 10 mmol/l (ns. stressihyperglykemia), ja verenpaine voi kohota 15–75 mmHg ("valkotakkihypertensio"), mikä vaikeuttaa diagnosointia. Eläinklinikka Saaressa olemme panostaneet kissojen hyvinvointiin ja saaneet kansainvälisen ISFM-järjestön Cat Friendly Clinic Silver -sertifikaatin.',
     sv: 'Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, närvaro av hundar och hantering av främlingar kan utlösa en stark stressreaktion. Stress är inte bara obehagligt — det påverkar också undersökningsresultaten: en stressad katts blodsockervärde kan stiga med upp till 10 mmol/l (s.k. stresshyperglykemi) och blodtrycket kan höjas med 15–75 mmHg ("vitrockhypertension"), vilket försvårar diagnostiken. På Djurkliniken Saari har vi satsat på katternas välbefinnande och erhållit den internationella ISFM-organisationens Cat Friendly Clinic Silver-certifiering.',
     en: 'A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs, and handling by strangers can trigger a strong stress response. Stress is not just uncomfortable — it also affects test results: a stressed cat\'s blood glucose can rise by up to 10 mmol/L (stress hyperglycemia), and blood pressure can increase by 15–75 mmHg ("white coat hypertension"), making diagnosis more difficult. At Eläinklinikka Saari, we have invested in feline wellbeing and earned the international ISFM Cat Friendly Clinic Silver certification.'
   },
@@ -1747,8 +1750,8 @@ const translations = {
     en: 'Signs of Stress in Cats'
   },
   'article.catstress.signs.text': {
-    fi: 'Stressaantunut kissa osoittaa merkkejä kehonkielellään: pupillit laajenevat, korvat painuvat litteiksi tai sivuille, keho jäykistyy ja häntä painuu kiinni vartaloon. Kissa voi sihistä, murisee, yrittää paeta tai jähmettyä paikoilleen. Stressioireita ovat myös liiallinen nuoleminen, haukottelu, huulten lipominen sekä pahimmillaan virtsan tai ulosteen hallitsematon karkaaminen. Nämä reaktiot ovat normaaleja — ne kertovat, että kissa kokee tilanteen uhkaavaksi.',
-    sv: 'En stressad katt visar tecken genom sitt kroppsspråk: pupillerna vidgas, öronen plattas till eller vänds åt sidorna, kroppen styvnar och svansen pressas mot kroppen. Katten kan fräsa, morra, försöka fly eller frysa på plats. Andra stresstecken är överdriven slickning, gäspning, läppslickning och i värsta fall okontrollerad urinering eller avföring. Dessa reaktioner är normala — de berättar att katten upplever situationen som hotfull.',
+    fi: 'Stressaantunut kissa osoittaa merkkejä kehonkielellään: pupillit laajenevat, korvat painuvat litteiksi tai sivuille, keho jäykistyy ja häntä painuu kiinni vartaloon. Kissa voi sihistä, murista, yrittää paeta tai jähmettyä paikoilleen. Stressioireita ovat myös liiallinen nuoleminen, haukottelu, huulten lipominen sekä pahimmillaan virtsan tai ulosteen hallitsematon karkaaminen. Nämä reaktiot ovat normaaleja — ne kertovat, että kissa kokee tilanteen uhkaavaksi.',
+    sv: 'En stressad katt visar tecken genom sitt kroppsspråk: pupillerna vidgas, öronen plattas till eller vänds åt sidorna, kroppen styvnar och svansen pressas mot kroppen. Katten kan fräsa, morra, försöka fly eller stelna till. Andra stresstecken är överdriven slickning, gäspning, läppslickning och i värsta fall okontrollerad urinering eller avföring. Dessa reaktioner är normala — de berättar att katten upplever situationen som hotfull.',
     en: 'A stressed cat shows signs through body language: pupils dilate, ears flatten or turn sideways, the body stiffens and the tail presses against the body. The cat may hiss, growl, try to escape, or freeze in place. Other stress signs include excessive licking, yawning, lip licking, and in the worst case, loss of bladder or bowel control. These reactions are normal — they indicate that the cat perceives the situation as threatening.'
   },
   'article.catstress.feliway.title': {
@@ -1767,7 +1770,7 @@ const translations = {
     en: 'Cat Friendly Clinic Silver — What Does It Mean?'
   },
   'article.catstress.clinic.text': {
-    fi: 'ISFM:n (International Society of Feline Medicine) Cat Friendly Clinic -ohjelma on kansainvälinen sertifiointijärjestelmä, joka asettaa standardit kissojen hoidolle eläinklinikoilla. Silver-taso edellyttää mm. erillistä odotustilaa kissoille erillään koirista, Feliway-feromonihaihduttimien käyttöä kaikissa tiloissa, nimettyä "kissavastaavaa" (Cat Advocate) henkilökunnasta, kissaystävällisiä käsittelytekniikoita (scruff-free — emme koskaan nosta kissaa niskasta), henkilökunnan koulutusta stressin tunnistamiseen sekä rauhallista ympäristöä sairaalahoitotiloissa piiloutumispaikkoineen ja näköestein. Sertifikaatti uusitaan kolmen vuoden välein.',
+    fi: 'ISFM:n (International Society of Feline Medicine) Cat Friendly Clinic -ohjelma on kansainvälinen sertifiointijärjestelmä, joka asettaa standardit kissojen hoidolle eläinklinikoilla. Silver-taso edellyttää mm. erillistä odotustilaa kissoille erillään koirista, Feliway-feromonihaihduttimien käyttöä kaikissa tiloissa, nimettyä "kissavastaavaa" (Cat Advocate) henkilökunnasta, kissaystävällisiä käsittelytekniikoita (scruff-free eli emme koskaan nosta kissaa niskasta), henkilökunnan koulutusta stressin tunnistamiseen sekä rauhallista ympäristöä sairaalahoitotiloissa piiloutumispaikkoineen ja näköestein. Sertifikaatti uusitaan kolmen vuoden välein.',
     sv: 'ISFM:s (International Society of Feline Medicine) Cat Friendly Clinic-program är ett internationellt certifieringssystem som sätter standarder för kattvård på veterinärkliniker. Silver-nivån kräver bl.a. separat väntområde för katter skilt från hundar, Feliway-feromondiffusorer i alla utrymmen, en utsedd "kattansvarig" (Cat Advocate) bland personalen, kattvänliga hanteringstekniker (scruff-free — vi lyfter aldrig katten i nackskinnet), personalutbildning i stressigenkänning samt en lugn miljö på vårdavdelningen med gömställen och synbarriärer. Certifikatet förnyas vart tredje år.',
     en: 'The ISFM (International Society of Feline Medicine) Cat Friendly Clinic program is an international certification system that sets standards for cat care at veterinary clinics. The Silver level requires a separate waiting area for cats away from dogs, Feliway pheromone diffusers in all areas, a designated Cat Advocate among the staff, cat-friendly handling techniques (scruff-free — we never lift a cat by the scruff), staff training in stress recognition, and a calm environment in hospitalization areas with hiding spots and visual barriers. The certificate is renewed every three years.'
   },
@@ -1777,7 +1780,7 @@ const translations = {
     en: 'How to Prepare Your Cat for the Vet Visit'
   },
   'article.catstress.tips.text': {
-    fi: 'Jätä kuljetuslaatikko kotona pysyvästi esille avoimena — laita sisälle pehmeä peitto ja herkkuja, jotta kissa oppii yhdistämään laatikon turvalliseen paikkaan. Suihkuta Feliway-suihketta kuljetuslaatikon sisälle (8–10 suihkausta) vähintään 15 minuuttia ennen kissaa — alkoholin tulee haihtua ensin. Peitä kuljetuslaatikko pyyhkeellä autossa ja odotustilassa. Jos verikokeet ovat mahdollisia, paastota kissaa 8–12 tuntia ennen käyntiä. Aseta kuljetuslaatikko klinikalla korotettuun paikkaan — ei lattialle. Klinikallamme voit pyytää odottamaan kissojen omassa odotustilassa. Tutkimushuoneessa anna kissan tulla ulos laatikosta vapaaehtoisesti tai pyydä meitä avaamaan laatikon yläosa — emme koskaan vedä kissaa ulos väkisin.',
+    fi: 'Jätä kuljetuslaatikko kotona pysyvästi esille avoimena — laita sisälle pehmeä peitto ja herkkuja, jotta kissa oppii yhdistämään laatikon turvalliseen paikkaan. Suihkuta Feliway-suihketta kuljetuslaatikon sisälle (8–10 suihkausta) vähintään 15 minuuttia ennen kissaa — alkoholin tulee haihtua ensin. Peitä kuljetuslaatikko pyyhkeellä autossa ja odotustilassa. Jos verikokeet ovat mahdollisia, pidä kissa ravinnotta 8–12 tuntia ennen käyntiä. Aseta kuljetuslaatikko klinikalla korotettuun paikkaan — ei lattialle. Klinikallamme voit pyytää odottamaan kissojen omassa odotustilassa. Tutkimushuoneessa anna kissan tulla ulos laatikosta vapaaehtoisesti tai pyydä meitä avaamaan laatikon yläosa — emme koskaan vedä kissaa ulos väkisin.',
     sv: 'Låt transportburen stå framme hemma permanent med öppen dörr — lägg i en mjuk filt och godsaker så att katten lär sig associera buren med en trygg plats. Spraya Feliway-spray inuti buren (8–10 sprayningar) minst 15 minuter innan katten placeras i — alkoholen måste avdunsta först. Täck buren med en handduk i bilen och i väntrummet. Om blodprov kan bli aktuellt, låt katten fasta 8–12 timmar före besöket. Ställ buren på en upphöjd yta på kliniken — inte på golvet. På vår klinik kan du be om att vänta i katternas eget väntområde. I undersökningsrummet, låt katten komma ut ur buren frivilligt eller be oss att öppna burens ovandel — vi drar aldrig ut katten med tvång.',
     en: 'Leave the carrier out at home permanently with the door open — place a soft blanket and treats inside so the cat learns to associate the carrier with a safe place. Spray Feliway spray inside the carrier (8–10 sprays) at least 15 minutes before placing the cat in — the alcohol must evaporate first. Cover the carrier with a towel in the car and in the waiting room. If blood tests may be needed, fast the cat for 8–12 hours before the visit. Place the carrier on a raised surface at the clinic — not on the floor. At our clinic, you can ask to wait in the cats\' own waiting area. In the examination room, let the cat come out of the carrier voluntarily or ask us to open the top of the carrier — we never pull a cat out by force.'
   },
@@ -1790,8 +1793,8 @@ const translations = {
     en: 'Unerupted Teeth and Dentigerous Cysts — A Hidden Danger in the Jawbone'
   },
   'article.unerupted.intro': {
-    fi: 'Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koirilla — noin 5–7 % koirista kärsii siitä, ja lyhytkuonoisilla roduilla osuus on vielä suurempi. Puhkeamattoman hampaan ympärille voi kehittyä dentigeroottinen kysta, nestettä täynnä oleva rakenne, joka kasvaa hitaasti ja tuhoaa leukaluuta. Ilman hammasröntgeniä tilanne jää havaitsematta, kunnes vahinko on jo merkittävä. Klinikallamme suoritamme hammasröntgenkuvaukset ja puhkeamattomien hampaiden kirurgiset poistot.',
-    sv: 'En icke-erupterad tand är en tand som inte har kommit upp normalt i munhålan utan stannat kvar inuti käkbenet. Tillståndet är förvånansvärt vanligt, särskilt hos hundar — cirka 5–7 % av hundar drabbas, och hos brachycefala (trubbnosiga) raser är andelen ännu högre. Runt en icke-erupterad tand kan en dentigena cysta utvecklas — en vätskefylld struktur som växer långsamt och förstör käkbenet. Utan tandröngen förblir tillståndet oupptäckt tills skadan redan är betydande. På vår klinik utför vi tandröngenundersökningar och kirurgiska extraktioner av icke-erupterade tänder.',
+    fi: 'Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koirilla — noin 5–7 % koirista kärsii siitä, ja lyhytkuonoisilla roduilla osuus on vielä suurempi. Puhkeamattoman hampaan ympärille voi kehittyä dentigeroottinen kysta, nestettä täynnä oleva rakenne, joka kasvaa hitaasti ja tuhoaa leukaluuta. Ilman hammasröntgenkuvausta tilanne jää havaitsematta, kunnes vahinko on jo merkittävä. Klinikallamme suoritamme hammasröntgenkuvaukset ja puhkeamattomien hampaiden kirurgiset poistot.',
+    sv: 'En icke-erupterad tand är en tand som inte har kommit upp normalt i munhålan utan stannat kvar inuti käkbenet. Tillståndet är förvånansvärt vanligt, särskilt hos hundar — cirka 5–7 % av hundar drabbas, och hos brachycefala (trubbnosiga) raser är andelen ännu högre. Runt en icke-erupterad tand kan en dentigena cysta utvecklas — en vätskefylld struktur som växer långsamt och förstör käkbenet. Utan tandröntgen förblir tillståndet oupptäckt tills skadan redan är betydande. På vår klinik utför vi tandröntgenundersökningar och kirurgiska extraktioner av icke-erupterade tänder.',
     en: 'An unerupted tooth is a tooth that has failed to emerge normally into the oral cavity and remains trapped inside the jawbone. The condition is surprisingly common, especially in dogs — approximately 5–7% of dogs are affected, and the proportion is even higher in brachycephalic (short-nosed) breeds. A dentigerous cyst can develop around an unerupted tooth — a fluid-filled structure that grows slowly and destroys the jawbone. Without dental X-rays, the condition goes undetected until significant damage has already occurred. At our clinic, we perform dental radiography and surgical extraction of unerupted teeth.'
   },
   'article.unerupted.cyst.title': {
@@ -1826,12 +1829,12 @@ const translations = {
   },
   'article.unerupted.diagnosis.title': {
     fi: 'Diagnoosi — hammasröntgen on välttämätön',
-    sv: 'Diagnos — tandröngen är nödvändig',
+    sv: 'Diagnos — tandröntgen är nödvändig',
     en: 'Diagnosis — Dental X-Rays Are Essential'
   },
   'article.unerupted.diagnosis.text': {
     fi: 'Puhkeamatonta hammasta ja dentigeroottista kystaa ei voi havaita paljaalla silmällä — ainoa tapa on hammasröntgen. Röntgenkuvassa näkyy selkeärajainen, pyöreä tai soikea kirkasalue (nestettä sisältävä onkalo) puhkeamattoman hampaan kruunun ympärillä. Röntgenkuva paljastaa myös luukadon laajuuden ja vaikutuksen viereisiin hampaisiin. Siksi suosittelemme täyden suun röntgenkuvausta jokaisen hammashoidon yhteydessä — tutkimukset osoittavat, että hammasröntgen muuttaa hoitosuunnitelmaa 28–50 %:lla potilaista paljastamalla piileviä ongelmia.',
-    sv: 'En icke-erupterad tand och dentigen cysta kan inte upptäckas med blotta ögat — det enda sättet är tandröngen. På röngenbilden syns ett välavgränsat, runt eller ovalt genomskinligt område (en vätskefylld hålighet) runt kronan på den icke-erupterade tanden. Röngenbilden avslöjar också omfattningen av benförlust och påverkan på intilliggande tänder. Därför rekommenderar vi tandröngen av hela munnen vid varje tandbehandling — studier visar att tandröngen ändrar behandlingsplanen hos 28–50 % av patienterna genom att avslöja dolda problem.',
+    sv: 'En icke-erupterad tand och dentigen cysta kan inte upptäckas med blotta ögat — det enda sättet är tandröntgen. På röntgenbilden syns ett välavgränsat, runt eller ovalt genomskinligt område (en vätskefylld hålighet) runt kronan på den icke-erupterade tanden. Röntgenbilden avslöjar också omfattningen av benförlust och påverkan på intilliggande tänder. Därför rekommenderar vi tandröntgen av hela munnen vid varje tandbehandling — studier visar att tandröntgen ändrar behandlingsplanen hos 28–50 % av patienterna genom att avslöja dolda problem.',
     en: 'An unerupted tooth and dentigerous cyst cannot be detected with the naked eye — the only way is dental X-rays. On the radiograph, a well-defined, round or oval radiolucent area (a fluid-filled cavity) appears around the crown of the unerupted tooth. The X-ray also reveals the extent of bone loss and the effect on adjacent teeth. This is why we recommend full-mouth radiographs with every dental procedure — studies show that dental X-rays change the treatment plan in 28–50% of patients by revealing hidden problems.'
   },
   'article.unerupted.treatment.title': {
@@ -1851,7 +1854,7 @@ const translations = {
   },
   'article.unerupted.prognosis.text': {
     fi: 'Varhain havaitun ja täydellisesti poistetun dentigeroottisen kystan ennuste on erinomainen. Uusiutumisriski on pieni, kun kystan seinämä on poistettu kokonaan. Ennuste on heikompi, jos kysta on kasvanut suureksi, luuta on tuhoutunut laajasti tai leuka on jo murtunut. Siksi varhainen diagnoosi on ratkaiseva — hammasröntgen on paras keino löytää puhkeamattomat hampaat ennen kuin kysta ehtii muodostua.',
-    sv: 'Prognosen för en tidigt upptäckt och fullständigt avlägsnad dentigen cysta är utmärkt. Risken för återfall är liten när cystans vägg har avlägsnats helt. Prognosen är sämre om cystan har vuxit sig stor, betydande benförlust har skett eller käken redan har frakturerats. Därför är tidig diagnos avgörande — tandröngen är det bästa sättet att hitta icke-erupterade tänder innan en cysta hinner bildas.',
+    sv: 'Prognosen för en tidigt upptäckt och fullständigt avlägsnad dentigen cysta är utmärkt. Risken för återfall är liten när cystans vägg har avlägsnats helt. Prognosen är sämre om cystan har vuxit sig stor, betydande benförlust har skett eller käken redan har frakturerats. Därför är tidig diagnos avgörande — tandröntgen är det bästa sättet att hitta icke-erupterade tänder innan en cysta hinner bildas.',
     en: 'The prognosis for an early-detected and completely removed dentigerous cyst is excellent. The risk of recurrence is low when the cyst wall has been entirely removed. The prognosis is worse if the cyst has grown large, extensive bone has been destroyed, or the jaw has already fractured. This is why early diagnosis is crucial — dental X-rays are the best way to find unerupted teeth before a cyst has time to form.'
   },
 
@@ -1874,11 +1877,11 @@ const translations = {
   'article.gastroscopy.foreign.title': {
     fi: 'Vierasesineiden poisto — leikkauksen vaihtoehto',
     sv: 'Avlägsnande av främmande föremål — ett alternativ till kirurgi',
-    en: 'Foreign Body Removal — an Alternative to Surgery'
+    en: 'Foreign Body Removal — An Alternative to Surgery'
   },
   'article.gastroscopy.foreign.text': {
     fi: 'Vierasesineen poisto on gastroskopian yleisimpiä käyttöaiheita. Tutkimusten mukaan endoskooppinen poisto onnistuu 83–88 % tapauksista. Koirilla yleisimmät vierasesineet ovat sukat, muovinpalat, kankaat, luut ja lelut. Kissoilla tyypillisimpiä ovat neulat, langat, kengännauhat ja kumilenkit. Endoskooppinen poisto on huomattavasti vähemmän invasiivinen kuin leikkaus: komplikaatioriski on merkittävästi pienempi, toipuminen nopeampaa, ja lemmikki pääsee usein kotiin samana päivänä. Vierasesineen nieltämisen jälkeen nopea hoitoon hakeutuminen on tärkeää — yli 24 tunnin oksentelu heikentää ennustetta merkittävästi.',
-    sv: 'Avlägsnande av främmande föremål är en av de vanligaste indikationerna för gastroskopi. Studier visar att endoskopisk avlägsnande lyckas i 83–88 % av fallen. Hos hundar är de vanligaste främmande föremålen strumpor, plastbitar, tyg, ben och leksaker. Hos katter är nålar, trådar, skosnören och gummiband vanligast. Endoskopisk avlägsnande är betydligt mindre invasivt än kirurgi: komplikationsrisken är markant lägre, återhämtningen snabbare, och husdjuret kan ofta gå hem samma dag. Efter att ett främmande föremål svalts är det viktigt att snabbt söka vård — kräkningar i mer än 24 timmar försämrar prognosen avsevärt.',
+    sv: 'Avlägsnande av främmande föremål är en av de vanligaste indikationerna för gastroskopi. Studier visar att endoskopiskt avlägsnande lyckas i 83–88 % av fallen. Hos hundar är de vanligaste främmande föremålen strumpor, plastbitar, tyg, ben och leksaker. Hos katter är nålar, trådar, skosnören och gummiband vanligast. Endoskopisk avlägsnande är betydligt mindre invasivt än kirurgi: komplikationsrisken är markant lägre, återhämtningen snabbare, och husdjuret kan ofta gå hem samma dag. Efter att ett främmande föremål svalts är det viktigt att snabbt söka vård — kräkningar i mer än 24 timmar försämrar prognosen avsevärt.',
     en: 'Foreign body removal is one of the most common indications for gastroscopy. Studies show that endoscopic removal succeeds in 83–88% of cases. In dogs, the most common foreign bodies are socks, plastic fragments, cloth, bones, and toys. In cats, needles, threads, shoelaces, and rubber bands are most typical. Endoscopic removal is significantly less invasive than surgery: the complication risk is markedly lower, recovery is faster, and the pet can often go home the same day. After swallowing a foreign body, seeking prompt veterinary care is important — vomiting for more than 24 hours significantly worsens the prognosis.'
   },
   'article.gastroscopy.diagnosis.title': {
@@ -1907,7 +1910,7 @@ const translations = {
     en: 'Advantages Over Surgery'
   },
   'article.gastroscopy.advantages.text': {
-    fi: 'Gastroskopia on minimaalisesti invasiivinen — ei viiltoa, ei tikkejä mahalaukkuun tai suoleen. Lemmikki toipuu nopeammin, kipua on vähemmän ja infektioriski on pienempi. Useimmat potilaat pääsevät kotiin samana päivänä ja voivat syödä jo muutaman tunnin kuluttua. Komplikaatioriski on erittäin matala: mahalaukun perforaatioriski on vain 0,1 % koirilla ja 1,6 % kissoilla. Gastroskopia on sekä diagnostinen että hoidollinen — samassa toimenpiteessä voidaan tutkia, ottaa koepalaoja ja poistaa vierasesine.',
+    fi: 'Gastroskopia on minimaalisesti invasiivinen — ei viiltoa, ei tikkejä mahalaukkuun tai suoleen. Lemmikki toipuu nopeammin, kipua on vähemmän ja infektioriski on pienempi. Useimmat potilaat pääsevät kotiin samana päivänä ja voivat syödä jo muutaman tunnin kuluttua. Komplikaatioriski on erittäin matala: mahalaukun perforaatioriski on vain 0,1 % koirilla ja 1,6 % kissoilla. Gastroskopia on sekä diagnostinen että hoidollinen — samassa toimenpiteessä voidaan tutkia, ottaa koepaloja ja poistaa vierasesine.',
     sv: 'Gastroskopi är minimalt invasivt — inget snitt, inga suturer i magsäck eller tarm. Husdjuret återhämtar sig snabbare, smärtan är mindre och infektionsrisken lägre. De flesta patienter kan gå hem samma dag och kan äta redan efter några timmar. Komplikationsrisken är mycket låg: risken för magperforation är bara 0,1 % hos hundar och 1,6 % hos katter. Gastroskopi är både diagnostiskt och terapeutiskt — i samma ingrepp kan man undersöka, ta vävnadsprover och avlägsna främmande föremål.',
     en: 'Gastroscopy is minimally invasive — no incision, no sutures to the stomach or intestine. The pet recovers faster, there is less pain, and the infection risk is lower. Most patients go home the same day and can eat within a few hours. The complication risk is very low: the perforation rate is only 0.1% in dogs and 1.6% in cats. Gastroscopy is both diagnostic and therapeutic — in the same procedure, the doctor can examine, take biopsies, and remove foreign bodies.'
   },
@@ -1955,12 +1958,12 @@ const translations = {
   },
   'article.resorption.symptoms.text': {
     fi: 'Hammasresorptio on usein "hiljainen sairaus" — eläimet ovat evoluution myötä oppineet peittämään suukipua, koska luonnossa kivun näyttäminen tekee eläimestä saaliin. Omistaja voi huomata hienovaraisia merkkejä: ruoan putoilu suusta, pään kallistaminen syödessä, pureskelu vain toisella puolella, pureskelematta nieleminen, lisääntynyt kuolaaminen, leuan vapina tai naksahtelu (lihaskouristus kun vaurio koskettaa), kovien lelujen tai luiden välttely, ärtyisyys, vetäytyminen tai huonontunut turkki. Moni lemmikki jatkaa syömistä kivusta huolimatta. Kliinisessä tutkimuksessa voidaan nähdä vaaleanpunaisia pisteitä ikenessä (tulehduskudos kasvaa hampaan vaurioon), puuttuvia hampaita tai paikallista ientulehdusta yksittäisen hampaan ympärillä.',
-    sv: 'Tandresorption är ofta en "tyst sjukdom" — djur har genom evolutionen lärt sig att dölja munsmärta, eftersom det i naturen gör djuret till ett byte. Ägaren kan märka subtila tecken: mat som faller ur munnen, huvudlutning vid ätande, tuggande bara på ena sidan, sväljning utan att tugga, ökad dregling, käkskakningar eller klickande (muskelkramper när lesionen berörs), undvikande av hårda leksaker eller ben, irritabilitet, tillbakadragenhet eller försämrad päls. Många husdjur fortsätter att äta trots smärta. Vid klinisk undersökning kan man se rosa fläckar i tandköttet (inflammatorisk vävnad som växer in i tandskadan), saknade tänder eller lokal tandköttsinflammation runt enskilda tänder.',
+    sv: 'Tandresorption är ofta en "tyst sjukdom" — djur har genom evolutionen lärt sig att dölja munsmärta, eftersom det i naturen gör djuret till ett byte. Ägaren kan märka subtila tecken: mat som faller ur munnen, huvudlutning vid ätande, tuggande bara på ena sidan, sväljning utan att tugga, ökad dregling, käkskakningar eller knäppande (muskelkramper när lesionen berörs), undvikande av hårda leksaker eller ben, irritabilitet, tillbakadragenhet eller försämrad päls. Många husdjur fortsätter att äta trots smärta. Vid klinisk undersökning kan man se rosa fläckar i tandköttet (inflammatorisk vävnad som växer in i tandskadan), saknade tänder eller lokal tandköttsinflammation runt enskilda tänder.',
     en: 'Tooth resorption is often a "silent disease" — animals have evolved to hide oral pain, because in nature showing pain makes an animal prey. Owners may notice subtle signs: dropping food from the mouth, tilting the head while eating, chewing on only one side, swallowing without chewing, increased drooling, jaw trembling or chattering (muscle spasms when the lesion is touched), avoiding hard toys or bones, irritability, withdrawal, or a deteriorating coat. Many pets continue eating despite pain. During clinical examination, pink spots on the gums may be seen (inflammatory tissue growing into the tooth defect), missing teeth, or localized gingivitis around individual teeth.'
   },
   'article.resorption.diagnosis.title': {
     fi: 'Diagnoosi — hammasröntgen löytää 2,4-kertaisesti',
-    sv: 'Diagnos — tandröntgen hittar 2,4 gånger mer',
+    sv: 'Diagnos — tandröntgen hittar 2,4 gånger fler',
     en: 'Diagnosis — Dental Radiographs Find 2.4 Times More'
   },
   'article.resorption.diagnosis.text': {
@@ -2021,7 +2024,7 @@ const translations = {
     en: 'Core Vaccines for Cats'
   },
   'article.vaccination.cats.text': {
-    fi: 'Kaikille kissoille suositellaan kolmoisrokotusta (RCP): <strong>kissaruttoa</strong> (FPV), <strong>kalikivirusta</strong> (FCV) ja <strong>herpesvirusta</strong> (FHV-1) vastaan. Hengitystievirusrokotus ei estä tartuntaa kokonaan, mutta lieventää oireita merkittävästi. Rabies suositellaan ulkoilukissoille ja on pakollinen matkustaville kissoille. <strong>Kissaleukemia</strong> (FeLV) ei kuulu Suomen rutiiinirokotuksiin, sillä FeLV:n esiintyvyys Suomessa on lähes nolla — se suositellaan vain FeLV-positiivisen kissan kanssa asuville.',
+    fi: 'Kaikille kissoille suositellaan kolmoisrokotusta (RCP): <strong>kissaruttoa</strong> (FPV), <strong>kalikivirusta</strong> (FCV) ja <strong>herpesvirusta</strong> (FHV-1) vastaan. Hengitystievirusrokotus ei estä tartuntaa kokonaan, mutta lieventää oireita merkittävästi. Rabies suositellaan ulkoilukissoille ja on pakollinen matkustaville kissoille. <strong>Kissaleukemia</strong> (FeLV) ei kuulu Suomen rutiinirokotuksiin, sillä FeLV:n esiintyvyys Suomessa on lähes nolla — sitä suositellaan vain FeLV-positiivisen kissan kanssa asuville.',
     sv: 'Alla katter rekommenderas trippelvaccination (RCP): mot <strong>kattpest</strong> (FPV), <strong>calicivirus</strong> (FCV) och <strong>herpesvirus</strong> (FHV-1). Vaccin mot luftvägsinfektioner förhindrar inte smitta helt, men mildrar symtomen avsevärt. Rabies rekommenderas för utekatter och är obligatoriskt för katter som reser. <strong>Kattleukemi</strong> (FeLV) ingår inte i Finlands rutinvaccinationer, eftersom förekomsten av FeLV i Finland är nästan noll — det rekommenderas bara för katter som bor med en FeLV-positiv katt.',
     en: 'All cats are recommended the triple vaccination (RCP): against <strong>feline panleukopenia</strong> (FPV), <strong>calicivirus</strong> (FCV), and <strong>herpesvirus</strong> (FHV-1). Respiratory virus vaccination does not completely prevent infection, but significantly reduces symptoms. Rabies is recommended for outdoor cats and is mandatory for cats travelling abroad. <strong>Feline leukemia</strong> (FeLV) is not part of routine vaccination in Finland, as FeLV prevalence in Finland is nearly zero — it is recommended only for cats living with a FeLV-positive cat.'
   },
@@ -2099,7 +2102,7 @@ const translations = {
   },
   'article.ibdlymphoma.treatment.text': {
     fi: '<strong>IBD:n</strong> hoito perustuu ruokavaliomuutokseen (hydrolysoitu proteiini) ja immunosuppressioon (prednisoloni, budesonidi). Ennuste on yleensä hyvä — useimmat eläimet elävät vuosia oikealla hoidolla. <strong>Matala-asteisen lymfooman</strong> ennuste on huomattavasti parempi kuin korkea-asteisen: hoitovaste on 85–96 %, ja mediaanielinaika on 1,5–2,5 vuotta, parhaimmillaan yli 5 vuotta. <strong>Korkea-asteisen lymfooman</strong> ennuste on varovaisempi (mediaanielinaika 1,5–6 kuukautta).',
-    sv: '<strong>IBD</strong> behandlas med dietförändring (hydrolyserat protein) och immunsuppression (prednisolon, budesonid). Prognosen är vanligtvis god — de flesta djur lever i flera år med rätt behandling. <strong>Låggradig lymfom</strong> har en betydligt bättre prognos än höggradig: behandlingssvaret är 85–96 %, och medianöverlevnaden är 1,5–2,5 år, i bästa fall över 5 år. <strong>Höggradig lymfom</strong> har en mer försiktig prognos (medianöverlevnad 1,5–6 månader).',
+    sv: '<strong>IBD</strong> behandlas med kostförändring (hydrolyserat protein) och immunsuppression (prednisolon, budesonid). Prognosen är vanligtvis god — de flesta djur lever i flera år med rätt behandling. <strong>Låggradig lymfom</strong> har en betydligt bättre prognos än höggradig: behandlingssvaret är 85–96 %, och medianöverlevnaden är 1,5–2,5 år, i bästa fall över 5 år. <strong>Höggradig lymfom</strong> har en mer försiktig prognos (medianöverlevnad 1,5–6 månader).',
     en: '<strong>IBD</strong> is treated with dietary change (hydrolyzed protein) and immunosuppression (prednisolone, budesonide). The prognosis is generally good — most animals live for years with proper treatment. <strong>Low-grade lymphoma</strong> has a significantly better prognosis than high-grade: the response rate is 85–96%, and median survival is 1.5–2.5 years, with some animals surviving over 5 years. <strong>High-grade lymphoma</strong> has a more guarded prognosis (median survival 1.5–6 months).'
   },
   'article.ibdlymphoma.why.title': {
@@ -2146,7 +2149,7 @@ const translations = {
   },
   'article.hypothermia.warming.text': {
     fi: 'Klinikallamme on käytössä kolme aktiivista puhallinkuivainta (forced air warmer), joita pidetään lämmitysmenetelmien kultaisena standardina. Laite puhaltaa lämmitettyä ilmaa tasaisesti potilaan ympärille kertakäyttöisen huovan kautta — ilman palovammariskiä, joka liittyy sähköisiin lämpöpatjoihin. Tutkimukset osoittavat, että lämmitetyt infuusionesteet yksinään eivät estä hypotermiaa koirilla tai kissoilla. Passiivinen eristys (peitot, sukat) hidastaa lämmön menetystä vain 30 %. Aktiivinen puhallinlämmitys yhdistettynä lämpimiin nesteisiin ja eristykseen on tehokkain yhdistelmä.',
-    sv: 'På vår klinik har vi tre aktiva varmluftsvämare (forced air warmers), som anses vara gyllene standarden bland uppvärmningsmetoder. Apparaten blåser uppvärmd luft jämnt runt patienten genom en engångsfilt — utan brännskaderisken som förknippas med elektriska värmedynor. Studier visar att uppvärmda infusionsvätskor ensamma inte förhindrar hypotermi hos hundar eller katter. Passiv isolering (filtar, strumpor) minskar värmeförlusten med bara 30 %. Aktiv varmluftsvärme kombinerat med varma vätskor och isolering är den mest effektiva kombinationen.',
+    sv: 'På vår klinik har vi tre aktiva varmluftsvämare (forced air warmers), som anses vara guldstandarden bland uppvärmningsmetoder. Apparaten blåser uppvärmd luft jämnt runt patienten genom en engångsfilt — utan brännskaderisken som förknippas med elektriska värmedynor. Studier visar att uppvärmda infusionsvätskor ensamma inte förhindrar hypotermi hos hundar eller katter. Passiv isolering (filtar, strumpor) minskar värmeförlusten med bara 30 %. Aktiv varmluftsvärme kombinerat med varma vätskor och isolering är den mest effektiva kombinationen.',
     en: 'At our clinic, we have three active forced air warmers, which are considered the gold standard of warming methods. The device blows heated air evenly around the patient through a disposable blanket — without the burn risk associated with electric heating pads. Studies show that heated IV fluids alone do not prevent hypothermia in dogs or cats. Passive insulation (blankets, socks) reduces heat loss by only 30%. Active forced air warming combined with warm fluids and insulation is the most effective combination.'
   },
   'article.hypothermia.recovery.title': {
@@ -2166,7 +2169,7 @@ const translations = {
   },
   'article.hypothermia.safety.text': {
     fi: 'Ihmisille tarkoitetut sähköiset lämpötyynyt ja kuumavesipullot ovat vaarallisia nukutetuille eläimille — potilas ei voi siirtyä pois liian kuumasta pinnasta eikä ilmaista kipua. Dokumentoituja palovammatapauksia on raportoitu. AAHA:n ohjeiden mukaan lämpötyynyjä ja häkkikuivaimia ei saa käyttää nukutettujen potilaiden lämmitykseen. Puhallinkuivaimet ja tarkoitukseen suunnitellut johtolämpömatot ovat turvallisimmat vaihtoehdot.',
-    sv: 'Elektriska värmedynor och varmvattenflaskor avsedda för människor är farliga för sövda djur — patienten kan inte flytta sig från en för varm yta eller uttrycka smärta. Dokumenterade brännskadefall har rapporterats. Enligt AAHA:s riktlinjer får värmedynor och burtorkar inte användas för uppvärmning av sövda patienter. Varmluftsvämare och specialdesignade konduktiva värmemattor är de säkraste alternativen.',
+    sv: 'Elektriska värmedynor och varmvattenflaskor avsedda för människor är farliga för sövda djur — patienten kan inte flytta sig från en för varm yta eller uttrycka smärta. Dokumenterade brännskadefall har rapporterats. Enligt AAHA:s riktlinjer får värmedynor och burtorkar inte användas för uppvärmning av sövda patienter. Varmluftsvämare och specialutformade konduktiva värmemattor är de säkraste alternativen.',
     en: 'Electric heating pads and hot water bottles designed for humans are dangerous for anesthetized animals — the patient cannot move away from an overheated surface or express pain. Documented burn cases have been reported. According to AAHA guidelines, heating pads and cage dryers must not be used for warming anesthetized patients. Forced air warmers and purpose-designed conductive warming mats are the safest options.'
   },
 
@@ -2275,7 +2278,7 @@ const translations = {
   },
   'article.vetnurse.education.text': {
     fi: 'Suomessa klinikkaeläinhoitajan koulutus on kolmiportainen. Perustutkinto (eläintenhoitaja, 2–3 vuotta) antaa perustiedot eläinten hoidosta. Ammattitutkinto (klinikkaeläinhoitaja, ~1,5 vuotta) keskittyy klinikkatyöhön: anestesian valvontaan, leikkausavustamiseen, laboratoriotyöhön ja röntgenkuvaukseen. Korkein taso on erikoisammattitutkinto (EAT), jossa voi syventää osaamistaan esimerkiksi anestesiassa, akuutti- ja tehohoidossa, sisätautien hoitotyössä tai diagnostisessa kuvantamisessa. EAT edellyttää vuosien kliinistä kokemusta.',
-    sv: 'I Finland är utbildningen för klinikdjurskötare trestegsbaserad. Grundexamen (djurskötare, 2–3 år) ger grundläggande kunskaper i djurvård. Yrkesexamen (klinikdjurskötare, ~1,5 år) fokuserar på klinikarbete: anestesiövervakning, operationsassistans, laboratoriearbete och röntgen. Den högsta nivån är specialyrkesexamen (EAT), där man kan fördjupa sin kompetens inom till exempel anestesi, akut- och intensivvård, internmedicinsk omvårdnad eller diagnostisk bilddiagnostik. EAT kräver flera års klinisk erfarenhet.',
+    sv: 'I Finland är utbildningen för klinikdjurskötare trestegsbaserad. Grundexamen (djurskötare, 2–3 år) ger grundläggande kunskaper i djurvård. Yrkesexamen (klinikdjurskötare, ~1,5 år) fokuserar på klinikarbete: anestesiövervakning, operationsassistans, laboratoriearbete och röntgen. Den högsta nivån är specialyrkesexamen (EAT), där man kan fördjupa sin kompetens inom till exempel anestesi, akut- och intensivvård, internmedicinsk omvårdnad eller bilddiagnostik. EAT kräver flera års klinisk erfarenhet.',
     en: 'In Finland, veterinary nurse education has three tiers. The basic qualification (animal care worker, 2–3 years) provides foundational knowledge in animal care. The vocational qualification (clinical veterinary nurse, ~1.5 years) focuses on clinic work: anesthesia monitoring, surgical assistance, laboratory work, and radiography. The highest level is the advanced vocational qualification (EAT), where one can deepen expertise in anesthesia, acute and intensive care, internal medicine nursing, or diagnostic imaging. The EAT requires years of clinical experience.'
   },
   'article.vetnurse.jenni.title': {
@@ -2331,6 +2334,14 @@ function setLanguage(lang) {
       } else {
         el.textContent = translations[key][lang];
       }
+    }
+  });
+
+  // Update placeholder translations
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (translations[key] && translations[key][lang]) {
+      el.placeholder = translations[key][lang];
     }
   });
 
@@ -2512,25 +2523,95 @@ function toggleArticles() {
   }
 }
 
-// --- Article Category Filters ---
+// --- Article Category Filters & Search ---
+let currentArticleFilter = 'all';
+
 function filterArticles(category) {
+  currentArticleFilter = category;
+  const searchInput = document.getElementById('article-search-input');
+  if (searchInput) searchInput.value = '';
+  applyArticleFilters();
+}
+
+function searchArticles(query) {
+  applyArticleFilters(query);
+}
+
+function applyArticleFilters(searchQuery) {
   const articles = document.querySelectorAll('#articles .article-card[data-category]');
   const buttons = document.querySelectorAll('.filter-btn');
+  const query = (searchQuery || '').toLowerCase().trim();
 
-  buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.filter === category));
+  buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.filter === currentArticleFilter));
 
+  let visibleCount = 0;
   articles.forEach(article => {
-    if (category === 'all' || article.dataset.category === category) {
+    const matchesCategory = currentArticleFilter === 'all' || article.dataset.category === currentArticleFilter;
+    let matchesSearch = true;
+    if (query) {
+      const title = article.querySelector('h3');
+      const content = article.querySelector('.article-content');
+      const text = ((title ? title.textContent : '') + ' ' + (content ? content.textContent : '')).toLowerCase();
+      matchesSearch = text.includes(query);
+    }
+    if (matchesCategory && matchesSearch) {
       article.classList.remove('filter-hidden');
+      visibleCount++;
     } else {
       article.classList.add('filter-hidden');
     }
   });
+
+  // Show/hide no results message
+  let noResults = document.getElementById('article-no-results');
+  if (visibleCount === 0 && query) {
+    if (!noResults) {
+      noResults = document.createElement('p');
+      noResults.id = 'article-no-results';
+      noResults.className = 'article-no-results';
+      const filtersDiv = document.querySelector('.article-filters');
+      filtersDiv.parentNode.insertBefore(noResults, filtersDiv.nextSibling);
+    }
+    const t = translations['articles.search.noresults'];
+    noResults.textContent = t ? (t[currentLang] || t.fi) : 'No results found';
+    noResults.style.display = '';
+  } else if (noResults) {
+    noResults.style.display = 'none';
+  }
+}
+
+function printArticle(btn) {
+  const article = btn.closest('.article-card');
+  if (!article) return;
+  article.classList.add('printing');
+  window.print();
+  article.classList.remove('printing');
 }
 
 function initArticleFilters() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => filterArticles(btn.dataset.filter));
+    btn.addEventListener('click', () => {
+      currentArticleFilter = btn.dataset.filter;
+      const searchInput = document.getElementById('article-search-input');
+      if (searchInput) searchInput.value = '';
+      applyArticleFilters();
+    });
+  });
+
+  const searchInput = document.getElementById('article-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      applyArticleFilters(e.target.value);
+    });
+  }
+
+  // Inject print buttons into article headers
+  document.querySelectorAll('#articles .article-card[data-category] .article-header').forEach(header => {
+    const btn = document.createElement('button');
+    btn.className = 'article-print-btn';
+    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg><span data-i18n="articles.print">Tulosta</span>';
+    btn.addEventListener('click', () => printArticle(btn));
+    header.appendChild(btn);
   });
 }
 
