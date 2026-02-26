@@ -789,6 +789,7 @@ ul {
   line-height: 1.7;
   color: var(--color-text-light);
   margin-bottom: var(--spacing-md);
+  white-space: pre-line;
 }
 
 .vet-modal-details {

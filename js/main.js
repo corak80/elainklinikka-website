@@ -300,7 +300,7 @@ const translations = {
   'role.vet': { fi: 'Eläinlääkäri', sv: 'Veterinär', en: 'Veterinarian' },
   'vet.experience': { fi: 'Kokemus', sv: 'Erfarenhet', en: 'Experience' },
   'vet.training': { fi: 'Koulutus', sv: 'Utbildning', en: 'Training' },
-  'vet.focus': { fi: 'Erikoisosaaminen', sv: 'Specialkompetens', en: 'Areas of Expertise' },
+  'vet.focus': { fi: 'Painopistealueet', sv: 'Fokusområden', en: 'Special Interests' },
   'nurse.background': { fi: 'Tausta', sv: 'Bakgrund', en: 'Background' },
   'nurse.interests': { fi: 'Kiinnostuksen kohteet', sv: 'Intresseområden', en: 'Interests' },
   'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Technician' },
@@ -316,64 +316,64 @@ const translations = {
     en: 'Heart diseases and internal medicine. ESAVS Cardiology Certificate. Authorized heart examiner for the Finnish Kennel Club.'
   },
   'bio.pamela': {
-    fi: 'Ortopedia, pehmytkudoskirurgia ja hammashoito. AOVET & ESAVS koulutus.',
-    sv: 'Ortopedi, mjukdelskirurgi och tandvård. AOVET & ESAVS utbildning.',
-    en: 'Orthopedics, soft tissue surgery and dentistry. AOVET & ESAVS training.'
+    fi: 'Ortopedia, pehmytkudoskirurgia ja hammashoito. Jatkokoulutus AOVET, ESAVS ja Accesia Academy.',
+    sv: 'Ortopedi, mjukdelskirurgi och tandvård. Vidareutbildning AOVET, ESAVS och Accesia Academy.',
+    en: 'Orthopedics, soft tissue surgery and dentistry. Further training AOVET, ESAVS and Accesia Academy.'
   },
   'bio.assaf': {
-    fi: 'Hammashoito, tähystystutkimukset ja luonnonvaraisten eläinten hoito.',
-    sv: 'Tandvård, endoskopi och vård av vilda djur.',
-    en: 'Dentistry, endoscopic examinations and wildlife care.'
+    fi: 'Hammashoito, tähystystutkimukset ja luonnonvaraisten eläinten hoito. Accesia Academy.',
+    sv: 'Tandvård, endoskopi och vård av vilda djur. Accesia Academy.',
+    en: 'Dentistry, endoscopy and wildlife care. Accesia Academy.'
   },
   'bio.nina': {
-    fi: 'Kirurgia, hammashoito ja ihotaudit. Farmaseutin tausta.',
-    sv: 'Kirurgi, tandvård och dermatologi. Bakgrund som farmaceut.',
-    en: 'Surgery, dentistry and dermatology. Pharmacist background.'
+    fi: 'Kirurgia, hammashoito ja ihotaudit. Farmaseutin koulutus, Accesia Academy ja ESAVS.',
+    sv: 'Kirurgi, tandvård och dermatologi. Farmaceutexamen, Accesia Academy och ESAVS.',
+    en: 'Surgery, dentistry and dermatology. Pharmacist degree, Accesia Academy and ESAVS.'
   },
   'bio.merja': {
-    fi: 'Pehmytkudoskirurgia ja eksoottisten eläinten hoito.',
-    sv: 'Mjukdelskirurgi och exotiska djur.',
-    en: 'Soft tissue surgery and exotic animals.'
+    fi: 'Pehmytkudoskirurgia ja eksoottiset eläimet. Valmistunut 2025 Eesti Maaülikoolista.',
+    sv: 'Mjukdelskirurgi och exotiska djur. Examen 2025 från Eesti Maaülikool.',
+    en: 'Soft tissue surgery and exotic animals. Graduated 2025 from Eesti Maaülikool.'
   },
   'bio.sanna': {
-    fi: 'Klinikan hallinto, tilaukset ja aikataulut.',
-    sv: 'Klinikadministration, beställningar och schemaläggning.',
-    en: 'Clinic administration, orders and scheduling.'
+    fi: 'Ravitsemus ja anestesiavalvonta. Hallinto, tilaukset ja työvuorosuunnittelu.',
+    sv: 'Nutrition och anestesiövervakning. Administration, beställningar och schemaplanering.',
+    en: 'Nutrition and anesthesia monitoring. Administration, orders and scheduling.'
   },
   'bio.jenni': {
-    fi: 'Kiinnostuksen kohteet: anestesia ja laboratoriotyö. Anestesia EAT-tutkinto.',
-    sv: 'Intresseområden: anestesi och laboratoriearbete. Anestesi specialistkompetens.',
-    en: 'Interests: anesthesia and laboratory work. Anesthesia specialist qualification.'
+    fi: 'Anestesia ja laboratoriotyö. Anestesian erikoisammattitutkinto (EAT) 2025.',
+    sv: 'Anestesi och laboratoriearbete. Specialyrkesexamen i anestesi (EAT) 2025.',
+    en: 'Anesthesia and laboratory work. Specialist qualification in anesthesia (EAT) 2025.'
   },
   'bio.meri': {
-    fi: 'Kiinnostuksen kohteet: kissojen hoito. Myös hevostenhoitajan tutkinto.',
-    sv: 'Intresseområden: kattvård. Även utbildad hästskötare.',
-    en: 'Interests: cat care. Also qualified horse caretaker.'
+    fi: 'Klinikkaeläinhoitaja, erityinen kiinnostus kissoihin. Myös hevostenhoitajan tutkinto.',
+    sv: 'Klinikdjurskötare, särskilt intresse för katter. Även utbildad hästskötare.',
+    en: 'Veterinary nurse with a passion for cats. Also qualified horse caretaker.'
   },
   'bio.susanna': {
-    fi: 'Kiinnostuksen kohteet: monipuolinen klinikkatyö ja jatkuva oppiminen.',
-    sv: 'Intresseområden: varierande klinikarbete och kontinuerligt lärande.',
-    en: 'Interests: diverse clinical work and continuous learning.'
+    fi: 'Monipuolinen klinikkatyö ja jatkuva kehittyminen.',
+    sv: 'Varierande klinikarbete och ständig utveckling.',
+    en: 'Diverse clinical work and continuous development.'
   },
   'bio.emilia': {
-    fi: 'Kiinnostuksen kohteet: anestesia, kirurgiset toimenpiteet ja hammashoito.',
-    sv: 'Intresseområden: anestesi, kirurgiska ingrepp och tandvård.',
-    en: 'Interests: anesthesia, surgical procedures and dental care.'
+    fi: 'Anestesia, kirurgiset toimenpiteet ja hammashoito.',
+    sv: 'Anestesi, kirurgiska ingrepp och tandvård.',
+    en: 'Anesthesia, surgical procedures and dental care.'
   },
   'bio.jennifer': {
-    fi: 'Kiinnostuksen kohteet: anestesian valvonta, kirurgia ja eksoottiset potilaat.',
-    sv: 'Intresseområden: anestesiövervakning, kirurgi och exotiska patienter.',
-    en: 'Interests: anesthesia monitoring, surgery and exotic patients.'
+    fi: 'Anestesiavalvonta, kirurgia ja eksoottiset potilaat. Opiskelee klinikkaeläinhoitajaksi.',
+    sv: 'Anestesiövervakning, kirurgi och exotiska patienter. Studerar till klinikdjurskötare.',
+    en: 'Anesthesia monitoring, surgery and exotic patients. Studying to become a veterinary technician.'
   },
   'bio.josefiina': {
-    fi: 'Kiinnostuksen kohteet: laboratorio- ja leikkaussalityö.',
-    sv: 'Intresseområden: laboratorie- och operationsarbete.',
-    en: 'Interests: laboratory and operating room work.'
+    fi: 'Laboratorio- ja leikkaussalityö. Tavoitteena klinikkaeläinhoitajan koulutus.',
+    sv: 'Laboratorie- och operationssalsarbete. Mål att utbilda sig till klinikdjurskötare.',
+    en: 'Laboratory and operating room work. Aiming to qualify as veterinary nurse.'
   },
   'bio.tiina': {
-    fi: 'Kiinnostuksen kohteet: kirurgia, ortopedia ja traumahoito.',
-    sv: 'Intresseområden: kirurgi, ortopedi och traumavård.',
-    en: 'Interests: surgery, orthopedics and trauma care.'
+    fi: 'Kirurgia, ortopedia ja traumahoito. Pitkä kokemus eläinten vapaaehtoistyöstä.',
+    sv: 'Kirurgi, ortopedi och traumavård. Lång erfarenhet av frivilligarbete med djur.',
+    en: 'Surgery, orthopedics and trauma care. Long experience in animal volunteer work.'
   },
 
   // Prices
@@ -2279,7 +2279,7 @@ const translations = {
   'article.vetnurse.education.text': {
     fi: 'Suomessa klinikkaeläinhoitajan koulutus on kolmiportainen. Perustutkinto (eläintenhoitaja, 2–3 vuotta) antaa perustiedot eläinten hoidosta. Ammattitutkinto (klinikkaeläinhoitaja, ~1,5 vuotta) keskittyy klinikkatyöhön: anestesian valvontaan, leikkausavustamiseen, laboratoriotyöhön ja röntgenkuvaukseen. Korkein taso on erikoisammattitutkinto (EAT), jossa voi syventää osaamistaan esimerkiksi anestesiassa, akuutti- ja tehohoidossa, sisätautien hoitotyössä tai diagnostisessa kuvantamisessa. EAT edellyttää vuosien kliinistä kokemusta.',
     sv: 'I Finland är utbildningen för klinikdjurskötare trestegsbaserad. Grundexamen (djurskötare, 2–3 år) ger grundläggande kunskaper i djurvård. Yrkesexamen (klinikdjurskötare, ~1,5 år) fokuserar på klinikarbete: anestesiövervakning, operationsassistans, laboratoriearbete och röntgen. Den högsta nivån är specialyrkesexamen (EAT), där man kan fördjupa sin kompetens inom till exempel anestesi, akut- och intensivvård, internmedicinsk omvårdnad eller bilddiagnostik. EAT kräver flera års klinisk erfarenhet.',
-    en: 'In Finland, veterinary nurse education has three tiers. The basic qualification (animal care worker, 2–3 years) provides foundational knowledge in animal care. The vocational qualification (clinical veterinary nurse, ~1.5 years) focuses on clinic work: anesthesia monitoring, surgical assistance, laboratory work, and radiography. The highest level is the advanced vocational qualification (EAT), where one can deepen expertise in anesthesia, acute and intensive care, internal medicine nursing, or diagnostic imaging. The EAT requires years of clinical experience.'
+    en: 'In Finland, veterinary nurse education has three tiers. The basic qualification (animal care worker, 2–3 years) provides foundational knowledge in animal care. The vocational qualification (clinical veterinary nurse, ~1.5 years) focuses on clinic work: anesthesia monitoring, surgical assistance, laboratory work, and radiography. The highest level is the advanced vocational qualification (EAT), where one can deepen skills in anesthesia, acute and intensive care, internal medicine nursing, or diagnostic imaging. The EAT requires years of clinical experience.'
   },
   'article.vetnurse.jenni.title': {
     fi: 'Jenni Ruotsala — johtava klinikkaeläinhoitajamme',
@@ -2641,120 +2641,120 @@ const vetProfiles = {
     name: 'Leena Sandström',
     image: 'images/leena.webp',
     bio: {
-      fi: 'Leena on kokenut eläinlääkäri, joka on erikoistunut sydänsairauksiin ja sisätauteihin. Hän on Suomen Kennelklubin valtuutettu sydäntutkija ja suorittaa virallisia sydänultraäänitutkimuksia klinikallamme.',
-      sv: 'Leena är en erfaren veterinär som specialiserat sig på hjärtsjukdomar och internmedicin. Hon är auktoriserad hjärtundersökare för Finska Kennelklubben och utför officiella hjärtultraljudsundersökningar på vår klinik.',
-      en: 'Leena is an experienced veterinarian specializing in heart diseases and internal medicine. She is an authorized heart examiner for the Finnish Kennel Club and performs official cardiac ultrasound examinations at our clinic.'
+      fi: 'Valmistuin eläinlääkäriksi vuonna 1997 ja olen työskennellyt pieneläinlääkärinä lähes koko ammattiurani ajan.\n\nOlen perehtynyt sydänsairauksiin ja suorittanut eurooppalaisen ESAVS:n Certificate in Small Animal Veterinary Practice / Cardiology \u2013 tutkinnon. Minulla on oikeudet suorittaa Suomen Kennelliiton virallisia sydäntutkimuksia (auskultaatio-, ultraääni- ja EKG-tutkimukset). Vatsaontelon ultraäänitutkimusten suorittamista olen opetellut suomalaisilla kursseilla (Fennovet) ja Euroopassa (ESAVS).\n\nAmmatilliset kiinnostuksen kohteeni painottuu koirien ja kissojen sydänsairauksiin ja sisätauteihin.\n\nHuolellisen tutkimuksen ja ajan tasalla olevan tiedon avulla pyrin varmistamaan, että lemmikkisi saa asianmukaisen hoidon.',
+      sv: 'Jag blev veterinär 1997 och har arbetat som smådjursveterinär nästan hela min yrkeskarriär.\n\nJag har inriktat mig på hjärtsjukdomar och har genomfört det europeiska ESAVS Certificate in Small Animal Veterinary Practice / Cardiology. Jag har rätt att utföra Finska Kennelklubbens officiella hjärtundersökningar (auskultation, ultraljud och EKG-undersökningar). Jag har lärt mig att utföra ultraljudsundersökningar av bukhålan på finska kurser (Fennovet) och i Europa (ESAVS).\n\nMina professionella intresseområden fokuserar på hjärtsjukdomar och inre sjukdomar hos hundar och katter.\n\nGenom noggrann undersökning och uppdaterad kunskap strävar jag efter att säkerställa att ditt husdjur får saklig behandling.',
+      en: 'I graduated as a veterinarian in 1997 and have worked as a small animal veterinarian for almost my entire professional career.\n\nI have orientated in heart diseases and completed the European ESAVS Certificate in Small Animal Veterinary Practice / Cardiology. I am authorized to perform official heart examinations for the Finnish Kennel Club (auscultation, ultrasound, and ECG examinations). I have learned to perform abdominal ultrasound examinations through Finnish courses (Fennovet) and in Europe (ESAVS).\n\nMy professional interests focus on heart diseases and internal medicine in dogs and cats.\n\nThrough thorough examination and up-to-date knowledge, I strive to ensure that your pet receives appropriate care.'
     },
     experience: {
-      fi: 'Valmistunut eläinlääkäriksi vuonna 1997. Pitkä kokemus pieneläinlääketieteestä.',
-      sv: 'Utexaminerad som veterinär 1997. Lång erfarenhet inom smådjursmedicin.',
-      en: 'Graduated as veterinarian in 1997. Extensive experience in small animal medicine.'
+      fi: 'Eläinlääkärinä vuodesta 1997. Lähes koko ura pieneläinlääketieteessä.',
+      sv: 'Veterinär sedan 1997. Nästan hela karriären inom smådjursmedicin.',
+      en: 'Veterinarian since 1997. Almost entire career in small animal medicine.'
     },
     training: {
-      fi: 'ESAVS-kardiologian sertifikaatti. Kennelklubin valtuutettu sydäntutkija.',
-      sv: 'ESAVS kardiologicertifikat. Auktoriserad hjärtundersökare för Kennelklubben.',
-      en: 'ESAVS Cardiology Certificate. Authorized heart examiner for the Finnish Kennel Club.'
+      fi: 'ESAVS Certificate in Cardiology. Kennelliiton valtuutettu sydäntutkija. Fennovet ja ESAVS ultraäänikoulutus.',
+      sv: 'ESAVS Certificate in Cardiology. Auktoriserad hjärtundersökare för Kennelklubben. Fennovet och ESAVS ultraljudsutbildning.',
+      en: 'ESAVS Certificate in Cardiology. Authorized heart examiner for the Finnish Kennel Club. Fennovet and ESAVS ultrasound training.'
     },
     focus: {
-      fi: 'Sydänsairaudet, sisätaudit, sydänultraäänitutkimukset',
-      sv: 'Hjärtsjukdomar, internmedicin, hjärtultraljudsundersökningar',
-      en: 'Heart diseases, internal medicine, cardiac ultrasound examinations'
+      fi: 'Sydänsairaudet, sisätaudit, sydän- ja vatsaontelon ultraäänitutkimukset',
+      sv: 'Hjärtsjukdomar, internmedicin, hjärt- och bukultraljudsundersökningar',
+      en: 'Heart diseases, internal medicine, cardiac and abdominal ultrasound examinations'
     }
   },
   pamela: {
     name: 'Pamela Kvarngård',
     image: 'images/pamela.webp',
     bio: {
-      fi: 'Pamela on monipuolinen kirurgi, joka on erikoistunut ortopediaan, pehmytkudoskirurgiaan ja hammashoitoon. Hän on suorittanut laajat jatkokoulutukset sekä ortopedisessa kirurgiassa että hammashoidossa.',
-      sv: 'Pamela är en mångsidig kirurg som specialiserat sig på ortopedi, mjukdelskirurgi och tandvård. Hon har genomgått omfattande vidareutbildning inom både ortopedisk kirurgi och tandvård.',
-      en: 'Pamela is a versatile surgeon specializing in orthopedics, soft tissue surgery and dental care. She has completed extensive continuing education in both orthopedic surgery and dentistry.'
+      fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2013 lähtien, ja nykyään työni painottuu erityisesti ortopedisten potilaiden hoitoon. Olen jatkokouluttautunut muun muassa ortopedisessa kirurgiassa (AOVET, ESAVS etc.) sekä hammassairauksissa (Accesia Academy).\n\nMinulle on tärkeää pysyä ajan tasalla uusista tutkimuksista, hoitomenetelmistä ja tekniikoista \u2013 jatkuva kouluttautuminen on olennainen osa parhaan mahdollisen hoidon tarjoamista.\n\nKeskeisiä ammatillisia kiinnostuksen kohteitani ovat ortopedia, pehmytosakirurgia ja hammashoidot. Koen erityisen palkitsevaksi auttaa eläimiä palauttamaan mukavuutensa, liikkuvuutensa ja hyvän elämänlaadun, ja tämä motivoi minua työssäni joka päivä.',
+      sv: 'Jag har arbetat som smådjursveterinär sedan 2013, och idag ligger mitt fokus framför allt på att behandla ortopediska patienter. Jag har vidareutbildning inom bland annat ortopedisk kirurgi (AOVET, ESAVS etc.) samt tandvård (Accesia Academy).\n\nDet är viktigt för mig att hålla mig uppdaterad kring nya forskningsrön, tekniker och behandlingsmetoder \u2013 kontinuerlig fortbildning är en central del av att kunna erbjuda bästa möjliga vård.\n\nMina främsta professionella intressen är ortopedi, mjukdelskirurgi och tandvård. Jag upplever det som särskilt givande att hjälpa djur att återfå komfort, rörlighet och livskvalitet, och det motiverar mig varje dag i mitt arbete.',
+      en: 'I have been working as a small animal veterinarian since 2013, and today my work focuses largely on treating orthopedic patients. I have completed further education in orthopedic surgery (AOVET, ESAVS etc) as well as in dentistry (Accesia Academy).\n\nI prioritise staying up to date with new research, techniques, and treatment options\u2014continuously educating myself is an important part of offering the best possible care.\n\nMy main professional interests lie in orthopedics, soft tissue surgery, and dentistry. I find it especially rewarding to help animals regain comfort, mobility, and quality of life, and this motivates me every day in my work.'
     },
     experience: {
-      fi: 'Eläinlääkärinä vuodesta 2013. Klinikkamme johtava kirurgi.',
-      sv: 'Veterinär sedan 2013. Vår kliniks ledande kirurg.',
-      en: 'Veterinarian since 2013. Our clinic\'s lead surgeon.'
+      fi: 'Pieneläinlääkärinä vuodesta 2013.',
+      sv: 'Smådjursveterinär sedan 2013.',
+      en: 'Small animal veterinarian since 2013.'
     },
     training: {
-      fi: 'AOVET ja ESAVS ortopedisen kirurgian koulutus. Accesian hammashoidon koulutus.',
-      sv: 'AOVET och ESAVS utbildning i ortopedisk kirurgi. Accesia tandvårdsutbildning.',
-      en: 'AOVET and ESAVS orthopedic surgery training. Accesia dental care training.'
+      fi: 'AOVET ja ESAVS ortopedinen kirurgia. Accesia Academy hammashoito.',
+      sv: 'AOVET och ESAVS ortopedisk kirurgi. Accesia Academy tandvård.',
+      en: 'AOVET and ESAVS orthopedic surgery. Accesia Academy dentistry.'
     },
     focus: {
-      fi: 'Ortopedinen kirurgia, pehmytkudoskirurgia, hammashoito',
-      sv: 'Ortopedisk kirurgi, mjukdelskirurgi, tandvård',
-      en: 'Orthopedic surgery, soft tissue surgery, dental care'
+      fi: 'Ortopedia, pehmytkudoskirurgia, hammashoito',
+      sv: 'Ortopedi, mjukdelskirurgi, tandvård',
+      en: 'Orthopedics, soft tissue surgery, dentistry'
     }
   },
   assaf: {
     name: 'Assaf Wydra',
     image: 'images/assaf.webp',
     bio: {
-      fi: 'Assaf on klinikan perustajan poika ja intohimoinen eläinlääkäri, joka on erikoistunut hammashoitoon, tähystystutkimuksiin ja luonnonvaraisten eläinten hoitoon. Hän on myös koulutettu koirien ja hevosten akupunktiossa.',
-      sv: 'Assaf är grundarens son och en passionerad veterinär som specialiserat sig på tandvård, endoskopi och vård av vilda djur. Han har också utbildning i akupunktur för hundar och hästar.',
-      en: 'Assaf is the founder\'s son and a passionate veterinarian specializing in dental care, endoscopy and wildlife care. He is also trained in canine and equine acupuncture.'
+      fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2011 lähtien, ja nykyisin työni painottuu pääasiassa hammashoitoihin, tähystystutkimuksiin sekä luonnonvaraisten eläinten hoitoon. Olen suorittanut lisäkoulutusta eläinlääketieteellisessä hammashoidossa (Accesia Academy) sekä tähystystutkimuksissa ja villieläinten hoidossa.\n\nUuden teknologian seuraaminen ja hyödyntäminen on olennainen osa ammatillista kehittymistäni ja auttaa minua tarjoamaan potilailleni mahdollisimman korkeatasoista hoitoa.\n\nAmmatillisia mielenkiinnon kohteitani ovat erityisesti hammashoito, endoskopia sekä uusien teknologisten innovaatioiden käytännön soveltaminen kliinisessä työssä. Klinikkatyön lisäksi teen aktiivisesti vapaaehtoista pro bono -työtä luonnonvaraisten eläinten parissa, minkä koen erittäin merkitykselliseksi ja tärkeäksi osaksi eläinlääkärin rooliani.',
+      sv: 'Jag har arbetat som smådjursveterinär sedan 2011, och idag fokuserar mitt arbete främst på tandvård, endoskopiska undersökningar samt vård av vilda djur. Jag har genomgått vidareutbildning inom veterinär tandvård (Accesia Academy) samt inom endoskopiska undersökningar och vård av vilda djur.\n\nAtt följa och ta i bruk ny teknologi är en viktig del av min professionella utveckling och hjälper mig att erbjuda vård av högsta möjliga kvalitet till mina patienter.\n\nMina huvudsakliga professionella intresseområden är tandvård, endoskopi samt den praktiska tillämpningen av nya teknologiska innovationer i kliniskt arbete. Utöver mitt arbete på kliniken är jag aktivt engagerad i frivilligt pro bono-arbete med vård av vilda djur, vilket jag upplever som mycket meningsfullt och som en viktig del av min roll som veterinär.',
+      en: 'I have been working as a small animal veterinarian since 2011, and today my work focuses mainly on dentistry and endoscopic examinations as well as treating wildlife. I have completed further education in veterinary dentistry (Accesia Academy) as well as in endoscopic examinations and wildlife care.\n\nExploring and adopting new technology is an essential part of my professional development and helps me provide the highest standard of care for my patients.\n\nMy main professional interests include dentistry, endoscopy, and the practical application of new technological innovations in clinical work. In addition to my work at the clinic, I am actively involved in voluntary pro bono work treating wildlife, which I find deeply meaningful and an important part of my role as a veterinarian.'
     },
     experience: {
-      fi: 'Eläinlääkärinä vuodesta 2011. Nordic Wildlife Care -yhteistyö.',
-      sv: 'Veterinär sedan 2011. Nordic Wildlife Care -samarbete.',
-      en: 'Veterinarian since 2011. Nordic Wildlife Care cooperation.'
+      fi: 'Pieneläinlääkärinä vuodesta 2011.',
+      sv: 'Smådjursveterinär sedan 2011.',
+      en: 'Small animal veterinarian since 2011.'
     },
     training: {
-      fi: 'Accesian hammashoidon koulutus. Tähystys- ja luonnonvaraisten eläinten koulutus. Akupunktiokoulutus.',
-      sv: 'Accesia tandvårdsutbildning. Endoskopi- och viltdjursutbildning. Akupunkturutbildning.',
-      en: 'Accesia dental training. Endoscopy and wildlife education. Acupuncture training.'
+      fi: 'Accesia Academy hammashoito. Tähystys- ja luonnonvaraisten eläinten koulutus.',
+      sv: 'Accesia Academy tandvård. Endoskopi- och viltdjursutbildning.',
+      en: 'Accesia Academy dentistry. Endoscopy and wildlife training.'
     },
     focus: {
-      fi: 'Hammashoito, tähystystutkimukset, luonnonvaraisten eläinten hoito, akupunktio',
-      sv: 'Tandvård, endoskopi, vård av vilda djur, akupunktur',
-      en: 'Dental care, endoscopy, wildlife care, acupuncture'
+      fi: 'Hammashoito, tähystystutkimukset, luonnonvaraisten eläinten hoito, teknologiset innovaatiot',
+      sv: 'Tandvård, endoskopi, vård av vilda djur, teknologiska innovationer',
+      en: 'Dentistry, endoscopy, wildlife care, technological innovations'
     }
   },
   nina: {
     name: 'Nina Haglund',
     image: 'images/nina.webp',
     bio: {
-      fi: 'Nina tuo ainutlaatuisen farmaseuttisen taustan eläinlääkärin työhönsä. Hän on erikoistunut kirurgiaan, hammashoitoon ja ihotauteihin, ja on suorittanut jatkokoulutukset sekä hammashoidossa että pehmytkudoskirurgiassa.',
-      sv: 'Nina bidrar med en unik farmaceutisk bakgrund till sitt veterinärarbete. Hon har specialiserat sig på kirurgi, tandvård och dermatologi, och har genomgått vidareutbildning i både tandvård och mjukdelskirurgi.',
-      en: 'Nina brings a unique pharmaceutical background to her veterinary work. She specializes in surgery, dental care and dermatology, and has completed continuing education in both dentistry and soft tissue surgery.'
+      fi: 'Olen työskennellyt eläinlääkärinä vuodesta 2016/2017 ja vuodesta 2020 alkaen ollut osa Eläinklinikka Saaren tiimiä. Minulle on tärkeää yhdistää rauhallinen ja empaattinen kohtaaminen potilasturvallisuutta korostavaan työskentelytapaan ja vahvaan kliiniseen osaamiseen \u2013 haluan, että sekä eläimet että omistajat tuntevat olonsa turvalliseksi vastaanotollani.\n\nEnnen eläinlääkäriuraa valmistuin farmaseutiksi, mikä antaa vahvan pohjan farmakologian ja lääkehoitojen ymmärtämiselle. Olen täydentänyt osaamistani hammassairauksien jatkokoulutuksella (Accesia Academy) sekä pehmytosakirurgian opinnoilla (ESAVS).\n\nAmmatilliset kiinnostuksenkohteeni painottuvat erityisesti kirurgiaan, hammashoitoihin ja dermatologiaan. Työssäni minua motivoi jatkuva kehittyminen \u2013 ja ennen kaikkea se, että voin olla tukena eläinten hyvinvoinnille joka päivä.',
+      sv: 'Jag har arbetat som veterinär sedan 2016/2017 och sedan år 2020 har jag varit en del av Djurklinik Saaris team. För mig är det viktigt att kombinera ett lugnt och empatiskt bemötande med ett arbetssätt som betonar patientsäkerhet och stark klinisk kompetens \u2013 jag vill att både djuren och deras ägare ska känna sig trygga hos mig.\n\nFöre min veterinärkarriär tog jag examen som farmaceut, vilket ger mig en bra grund inom farmakologi och läkemedelsbehandlingar. Jag har även vidareutbildat mig inom tandsjukdomar (Accesia Academy) och mjukvävnadskirurgi (ESAVS).\n\nMina professionella intresseområden ligger särskilt inom kirurgi, tandvård och dermatologi. Det som motiverar mig i arbetet är möjligheten att ständigt utvecklas \u2013 och framför allt att kunna bidra till djurens välmående varje dag.',
+      en: 'I have worked as a veterinarian since 2016/2017, and since 2020 I have been part of the Eläinklinikka Saari team. It is important to me to combine a calm, empathetic approach with a working style that prioritises patient safety and strong clinical competence \u2013 I want both animals and their owners to feel safe and comfortable during their visit.\n\nBefore becoming a veterinarian, I graduated as a pharmacist, which provides me with a solid foundation in pharmacology and medical treatments. I have also completed further training in dental diseases (Accesia Academy) and soft tissue surgery (ESAVS).\n\nMy professional interests focus particularly on surgery, dentistry, and dermatology. What motivates me most in my work is the opportunity to continuously develop \u2013 and above all, to contribute to animal well-being every day.'
     },
     experience: {
-      fi: 'Eläinlääkäriksi 2016/2017, Saaren klinikalla vuodesta 2020. Aiempi farmaseutin tausta.',
-      sv: 'Veterinär 2016/2017, på Saari kliniken sedan 2020. Tidigare bakgrund som farmaceut.',
-      en: 'Veterinarian since 2016/2017, at Saari Clinic since 2020. Previous pharmacist background.'
+      fi: 'Eläinlääkärinä vuodesta 2016/2017, Saaren klinikalla vuodesta 2020. Farmaseutin tutkinto.',
+      sv: 'Veterinär sedan 2016/2017, på Saari kliniken sedan 2020. Farmaceutexamen.',
+      en: 'Veterinarian since 2016/2017, at Saari Clinic since 2020. Pharmacist degree.'
     },
     training: {
-      fi: 'Accesian hammashoidon koulutus. ESAVS pehmytkudoskirurgian koulutus.',
-      sv: 'Accesia tandvårdsutbildning. ESAVS mjukdelskirurgiutbildning.',
-      en: 'Accesia dental training. ESAVS soft tissue surgery training.'
+      fi: 'Accesia Academy hammashoito. ESAVS pehmytkudoskirurgia. Farmaseutin tutkinto.',
+      sv: 'Accesia Academy tandvård. ESAVS mjukvävnadskirurgi. Farmaceutexamen.',
+      en: 'Accesia Academy dentistry. ESAVS soft tissue surgery. Pharmacist degree.'
     },
     focus: {
-      fi: 'Kirurgia, hammashoito, ihotaudit',
+      fi: 'Kirurgia, hammashoito, dermatologia',
       sv: 'Kirurgi, tandvård, dermatologi',
-      en: 'Surgery, dental care, dermatology'
+      en: 'Surgery, dentistry, dermatology'
     }
   },
   merja: {
     name: 'Merja Autio',
     image: 'images/merja.webp',
     bio: {
-      fi: 'Merja on tuore eläinlääkäri, joka valmistui Viron maaelämän yliopistosta kesällä 2025 ja liittyi tiimiimme huhtikuussa 2025. Hän on erityisen kiinnostunut pehmytkudoskirurgiasta ja eksoottisten eläinten hoidosta.',
-      sv: 'Merja är en nyutexaminerad veterinär som tog examen från Estlands lantbruksuniversitet sommaren 2025 och anslöt sig till vårt team i april 2025. Hon är särskilt intresserad av mjukdelskirurgi och vård av exotiska djur.',
-      en: 'Merja is a recent graduate who obtained her degree from the Estonian University of Life Sciences in summer 2025 and joined our team in April 2025. She is particularly interested in soft tissue surgery and exotic animal care.'
+      fi: 'Valmistuin kesällä 2025 Eesti Maaülikoolista Tartosta ja olen työskennellyt eläinlääkärinä vuodesta 2024. Olen ollut osana Eläinklinikka Saaren tiimiä huhtikuusta 2025 lähtien. Erityisiä mielenkiinnon kohteitani ovat pehmytkudoskirurgia sekä eksoottiset eläimet, ja tavoitteenani on kouluttautua näillä osa-alueilla lisää tulevaisuudessa.\n\nMinulle on tärkeää rauhallinen ja yksilöllinen kohtaaminen sekä eläimen luotettava ja näyttöön perustuva hoito. Koen työni merkitykselliseksi ja arvostan sen vaihtelevuutta ja ammatillista haastavuutta.',
+      sv: 'Jag tog veterinärexamen sommaren 2025 vid Eesti Maaülikool i Tartu och har arbetat som veterinär sedan 2024. Jag har varit en del av Eläinklinikka Saaris team sedan april 2025. Mina särskilda intresseområden är mjukdelskirurgi och exotiska djur, och mitt mål är att vidareutbilda mig inom dessa områden även i framtiden.\n\nFör mig är ett lugnt och individuellt bemötande samt tillförlitlig och evidensbaserad vård av djuret mycket viktigt. Jag upplever mitt arbete som meningsfullt och uppskattar dess variation och professionella utmaningar.',
+      en: 'I graduated in the summer of 2025 from Eesti Maaülikool in Tartu and have been working as a veterinarian since 2024. I have been part of the Eläinklinikka Saari team since April 2025. My particular areas of interest are soft tissue surgery and exotic animals, and I aim to pursue further training in these areas in the future.\n\nI value calm and individual interactions, as well as reliable, evidence-based care for each animal. I find my work meaningful and appreciate its variety and professional challenges.'
     },
     experience: {
-      fi: 'Valmistunut kesällä 2025 Viron maaelämän yliopistosta. Saaren klinikalla huhtikuusta 2025.',
-      sv: 'Utexaminerad sommaren 2025 från Estlands lantbruksuniversitet. På Saari kliniken sedan april 2025.',
-      en: 'Graduated summer 2025 from Estonian University of Life Sciences. At Saari Clinic since April 2025.'
+      fi: 'Eläinlääkärinä vuodesta 2024. Valmistunut Eesti Maaülikoolista 2025. Saaren klinikalla huhtikuusta 2025.',
+      sv: 'Veterinär sedan 2024. Examen från Eesti Maaülikool 2025. På Saari kliniken sedan april 2025.',
+      en: 'Veterinarian since 2024. Graduated from Eesti Maaülikool 2025. At Saari Clinic since April 2025.'
     },
     training: {
-      fi: 'Eläinlääketieteen tutkinto, Viron maaelämän yliopisto.',
-      sv: 'Veterinärmedicin examen, Estlands lantbruksuniversitet.',
-      en: 'Veterinary Medicine degree, Estonian University of Life Sciences.'
+      fi: 'Eläinlääketieteen tutkinto, Eesti Maaülikool, Tartu.',
+      sv: 'Veterinärmedicin examen, Eesti Maaülikool, Tartu.',
+      en: 'Veterinary Medicine degree, Eesti Maaülikool, Tartu.'
     },
     focus: {
-      fi: 'Pehmytkudoskirurgia, eksoottisten eläinten hoito',
-      sv: 'Mjukdelskirurgi, vård av exotiska djur',
-      en: 'Soft tissue surgery, exotic animal care'
+      fi: 'Pehmytkudoskirurgia, eksoottiset eläimet',
+      sv: 'Mjukdelskirurgi, exotiska djur',
+      en: 'Soft tissue surgery, exotic animals'
     }
   }
 };
@@ -2787,19 +2787,19 @@ const nurseProfiles = {
     image: 'images/sanna.webp',
     role: 'role.manager',
     bio: {
-      fi: 'Sanna toimii klinikan managerina ja vastaa klinikan hallinnosta, tilauksista ja aikataulutuksesta. Hän pitää huolta siitä, että klinikka toimii sujuvasti ja tehokkaasti joka päivä.',
-      sv: 'Sanna är klinikens föreståndare och ansvarar för administration, beställningar och schemaläggning. Hon ser till att kliniken fungerar smidigt och effektivt varje dag.',
-      en: 'Sanna serves as the clinic manager, responsible for administration, orders and scheduling. She ensures the clinic runs smoothly and efficiently every day.'
+      fi: 'Olen valmistunut eläintenhoitajaksi Ylä-Savon ammattiopistosta vuonna 2009 ja työskennellyt Eläinklinikka Saarella siitä lähtien. Olen täydentänyt osaamistani useilla lisäkoulutuksilla, erityisesti ravitsemuksen ja anestesiavalvonnan parissa. Työssäni pidän eniten sen monipuolisuudesta.\n\nEläinten hoidon ja asiakaspalvelun lisäksi vastaan tilauksista sekä työvuorosuunnittelusta.',
+      sv: 'Jag utbildade mig till djursjukskötare vid Ylä-Savo yrkesinstitut år 2009 och har arbetat på Djurklinik Saari sedan dess. Jag har breddat min kompetens genom flera vidareutbildningar, särskilt inom nutrition och anestesiövervakning. Det jag uppskattar mest i mitt arbete är dess mångsidighet.\n\nFörutom djurvård och kundservice ansvarar jag även för beställningar och arbetsscheman.',
+      en: 'I qualified as a veterinary nurse at Ylä-Savo Vocational College in 2009 and have been working at Animal Clinic Saari ever since. Over the years, I have completed several advanced training courses covering areas from nutrition to anesthesia monitoring. What I value most about working in an animal clinic is the versatility of the work.\n\nIn addition to animal care and customer service, my responsibilities include managing orders and coordinating work schedules.'
     },
     background: {
-      fi: 'Klinikkaeläinhoitaja. Pitkä kokemus klinikkatyöstä ja hallinnosta.',
-      sv: 'Klinikdjurskötare. Lång erfarenhet av klinikarbete och administration.',
-      en: 'Veterinary technician. Extensive experience in clinical work and administration.'
+      fi: 'Eläintenhoitaja 2009, Ylä-Savon ammattiopisto. Lisäkoulutuksia ravitsemuksessa ja anestesiavalvonnassa.',
+      sv: 'Djursjukskötare 2009, Ylä-Savo yrkesinstitut. Vidareutbildning inom nutrition och anestesiövervakning.',
+      en: 'Veterinary nurse 2009, Ylä-Savo Vocational College. Further training in nutrition and anesthesia monitoring.'
     },
     interests: {
-      fi: 'Klinikan hallinto, tilaukset ja aikataulutus',
-      sv: 'Klinikadministration, beställningar och schemaläggning',
-      en: 'Clinic administration, orders and scheduling'
+      fi: 'Ravitsemus, anestesiavalvonta, tilaukset ja työvuorosuunnittelu',
+      sv: 'Nutrition, anestesiövervakning, beställningar och schemaplanering',
+      en: 'Nutrition, anesthesia monitoring, orders and scheduling'
     }
   },
   jenni: {
@@ -2807,14 +2807,14 @@ const nurseProfiles = {
     image: 'images/jenni.webp',
     role: 'role.headtech',
     bio: {
-      fi: 'Jenni on klinikan johtava klinikkaeläinhoitaja, jolla on erityisosaamista anestesiassa ja laboratoriotyössä. Hän on suorittanut anestesian erikoisammattitutkinnon (EAT).',
-      sv: 'Jenni är klinikens ledande djurskötare med specialkompetens inom anestesi och laboratoriearbete. Hon har avlagt specialyrkesexamen (EAT) inom anestesi.',
-      en: 'Jenni is the clinic\'s head veterinary technician with expertise in anesthesia and laboratory work. She holds a specialist qualification (EAT) in anesthesia.'
+      fi: 'Olen valmistunut eläintenhoitajaksi vuonna 2010 ja aloittanut työni klinikalla vuonna 2014. Vuonna 2018 valmistuin klinikkaeläinhoitajaksi ja suoritin hammashoidon lisäkoulutuksen ulkomailla (Accesia Academy). Vuosina 2024\u20132025 syvensin osaamistani anestesiologiassa, josta minulla on erikoisammattitutkinto.\n\nAmmatillisia mielenkiinnon kohteitani ovat erityisesti anestesia sekä laboratoriotyö. Työssäni parasta on sen vaihtelevuus \u2013 yksikään päivä ei ole samanlainen.',
+      sv: 'Jag tog examen som djurskötare år 2010 och började jobba här på kliniken 2014. År 2018 fick jag examen som klinikdjurskötare och i samband med det gick jag en skolning i tandvård utomlands. Senare har jag fördjupat mina kunskaper inom anestesiologi åren 2024\u20132025, vilket jag har en specialyrkesexamen inom.\n\nMina professionella intresseområden är främst anestesi, jag tycker också om laboratoriearbeten. Det bästa med det här jobbet är att ingen dag är den andra lik.',
+      en: 'I graduated as an animal caretaker in 2010 and began working at the clinic in 2014. In 2018, I qualified as a veterinary nurse and also completed further education in dentistry abroad. More recently, I deepened my knowledge in anesthesiology during 2024\u20132025, earning a special professional qualification in this field.\n\nMy main professional interests lie in anesthesia, and I also enjoy laboratory work. What I value most about this profession is the variety \u2014 no two days are ever the same.'
     },
     background: {
-      fi: 'Johtava klinikkaeläinhoitaja. Anestesia EAT-tutkinto.',
-      sv: 'Ledande klinikdjurskötare. Anestesi specialistkompetens (EAT).',
-      en: 'Head veterinary technician. Anesthesia specialist qualification (EAT).'
+      fi: 'Johtava klinikkaeläinhoitaja. Klinikkaeläinhoitaja EAT, anestesia 2025. Accesia Academy hammashoito.',
+      sv: 'Ledande klinikdjurskötare. Klinikdjurskötare EAT, anestesi 2025. Accesia Academy tandvård.',
+      en: 'Head veterinary technician. Veterinary technician EAT, anesthesia 2025. Accesia Academy dentistry.'
     },
     interests: {
       fi: 'Anestesia ja laboratoriotyö',
@@ -2827,14 +2827,14 @@ const nurseProfiles = {
     image: 'images/meri.webp',
     role: 'role.tech',
     bio: {
-      fi: 'Meri on klinikkaeläinhoitaja, jolla on erityinen kiinnostus kissojen hoitoon. Hänellä on myös hevostenhoitajan tutkinto, mikä tuo monipuolista osaamista eläinten käsittelyyn.',
-      sv: 'Meri är klinikdjurskötare med särskilt intresse för kattvård. Hon har även utbildning som hästskötare, vilket ger mångsidig kompetens inom djurhantering.',
-      en: 'Meri is a veterinary technician with a special interest in cat care. She also holds a horse caretaker qualification, bringing versatile animal handling skills.'
+      fi: 'Valmistuin klinikkaeläinhoitajaksi vuonna 2023, ja lisäksi minulla on hevostenhoitajan tutkinto. Eläimet ovat olleet tärkeä osa elämääni lapsuudesta asti, ja erityisesti kissat ovat minulle lähellä sydäntä.',
+      sv: 'Jag utexaminerades som klinikdjurskötare år 2023 och har även en utbildning som hästskötare. Djur har varit en viktig del av mitt liv sedan barndomen, och katter ligger mig särskilt varmt om hjärtat.',
+      en: 'I graduated as a veterinary nurse in 2023 and also hold a qualification as a horse caretaker. Animals have been an important part of my life since childhood, and cats in particular are very close to my heart.'
     },
     background: {
-      fi: 'Klinikkaeläinhoitaja. Myös hevostenhoitajan tutkinto.',
-      sv: 'Klinikdjurskötare. Även utbildad hästskötare.',
-      en: 'Veterinary technician. Also qualified horse caretaker.'
+      fi: 'Klinikkaeläinhoitaja 2023. Myös hevostenhoitajan tutkinto.',
+      sv: 'Klinikdjurskötare 2023. Även utbildad hästskötare.',
+      en: 'Veterinary nurse 2023. Also qualified horse caretaker.'
     },
     interests: {
       fi: 'Kissojen hoito',
@@ -2847,19 +2847,19 @@ const nurseProfiles = {
     image: 'images/susanna.webp',
     role: 'role.tech',
     bio: {
-      fi: 'Susanna on monipuolinen klinikkaeläinhoitaja, joka nauttii klinikkatyön vaihtelevuudesta. Hän kehittää jatkuvasti osaamistaan ja on aina valmis oppimaan uutta.',
-      sv: 'Susanna är en mångsidig klinikdjurskötare som trivs med variationen i klinikarbetet. Hon utvecklar kontinuerligt sin kompetens och är alltid redo att lära sig nytt.',
-      en: 'Susanna is a versatile veterinary technician who enjoys the variety of clinical work. She continuously develops her skills and is always ready to learn something new.'
+      fi: 'Eläimet ovat aina olleet lähellä sydäntäni, minkä vuoksi päätin tehdä niistä itselleni ammatin. Valmistuin klinikkaeläinhoitajaksi vuonna 2023, ja minulla on myös eläintenhoitajan ammattitutkinto. Klinikkatyössä parasta on sen vaihtelevuus sekä jatkuvat mahdollisuudet oppia ja kehittyä.',
+      sv: 'Djur har alltid legat mig varmt om hjärtat, vilket är anledningen till att jag valde att arbeta med dem. Jag utexaminerades som klinikdjurskötare år 2023 och har även en yrkesexamen som djurvårdare. Det bästa med klinikarbetet är variationen samt de ständiga möjligheterna att utvecklas och lära sig nytt.',
+      en: 'Animals have always been close to my heart, which is why I chose to make them my profession. I graduated as a veterinary nurse in 2023 and also hold a qualification as an animal caretaker. What I enjoy most about clinical work is the variety, along with the continuous opportunities to learn and develop.'
     },
     background: {
-      fi: 'Klinikkaeläinhoitaja.',
-      sv: 'Klinikdjurskötare.',
-      en: 'Veterinary technician.'
+      fi: 'Klinikkaeläinhoitaja 2023. Eläintenhoitajan ammattitutkinto.',
+      sv: 'Klinikdjurskötare 2023. Yrkesexamen som djurvårdare.',
+      en: 'Veterinary nurse 2023. Animal caretaker qualification.'
     },
     interests: {
-      fi: 'Monipuolinen klinikkatyö ja jatkuva oppiminen',
-      sv: 'Varierande klinikarbete och kontinuerligt lärande',
-      en: 'Diverse clinical work and continuous learning'
+      fi: 'Monipuolinen klinikkatyö ja jatkuva kehittyminen',
+      sv: 'Varierande klinikarbete och ständig utveckling',
+      en: 'Diverse clinical work and continuous development'
     }
   },
   emilia: {
@@ -2867,14 +2867,14 @@ const nurseProfiles = {
     image: 'images/emilia.webp',
     role: 'role.tech',
     bio: {
-      fi: 'Emilia on klinikkaeläinhoitaja, jolla on vahva kiinnostus anestesiaan, kirurgisiin toimenpiteisiin ja hammashoitoon. Hän avustaa eläinlääkäreitä vaativissa leikkauksissa ja hammastoimenpiteissä.',
-      sv: 'Emilia är klinikdjurskötare med starkt intresse för anestesi, kirurgiska ingrepp och tandvård. Hon assisterar veterinärerna vid krävande operationer och tandingrepp.',
-      en: 'Emilia is a veterinary technician with a strong interest in anesthesia, surgical procedures and dental care. She assists the veterinarians in demanding surgeries and dental procedures.'
+      fi: 'Olen useiden vuosien ajan opiskellut ja työskennellyt eläinten parissa, mikä on ollut intohimoni jo pitkään. Vuonna 2023 valmistuin eläintenhoitajaksi, mikä antoi minulle vahvan perustan eläinten hyvinvoinnista ja hoidosta. Tiesin jo silloin, että haluan syventää osaamistani, ja vuonna 2024 kouluttauduin klinikkaeläintenhoitajaksi.\n\nTyöni aikana olen löytänyt erityisen kiinnostuksen anestesiaan. Pidän siitä, että voin seurata koko anestesiaprosessia \u2013 valmisteluista ja monitoroinnista aina heräämiseen saakka. Nautin myös siitä, että saan olla mukana kirurgisissa toimenpiteissä, joissa tiimityö ja tarkkuus ovat ratkaisevia.\n\nPidän erittäin paljon myös hammashoitoon liittyvistä tehtävistä. On palkitsevaa voida edistää eläinten pitkäaikaista terveyttä ja elämänlaatua hyvän suunhoidon kautta.\n\nEläinten kanssa työskentely ja niiden hoidossa mukana oleminen tuovat minulle suurta iloa ja ylpeyttä. Jokainen päivä antaa minulle mahdollisuuden kehittyä, oppia lisää ja jatkaa arvokkaan työn tekemistä eläinten ja niiden omistajien hyväksi.',
+      sv: 'Jag har under flera år valt att studera och arbeta med djur, något som länge varit mitt intresse. År 2023 tog jag examen som djurskötare, vilket gav mig en stabil grund inom djurskötsel. Redan då visste jag att jag ville fördjupa mina kunskaper, 2024 utbildade jag mig till klinikdjurskötare.\n\nUnder min tid i yrket har jag upptäckt ett särskilt intresse för anestesi. Jag tycker om att följa hela processen kring narkos \u2013 från förberedelser och övervakning till uppvakning. Jag uppskattar också att få vara delaktig vid kirurgiska ingrepp, där samarbetet i teamet och precisionen i arbetet är avgörande.\n\nDessutom trivs jag väldigt bra med att arbeta med tandingrepp. Jag tycker om att kunna bidra till djurens långsiktiga hälsa och livskvalitet genom god munvård.\n\nAtt få arbeta nära djur och vara en del av deras vård är något jag känner stor glädje och stolthet över. Varje dag ger mig möjlighet att utvecklas, lära mig mer och fortsätta göra skillnad för både djuren och deras ägare.',
+      en: 'I have spent several years studying and working with animals, something that has long been a strong passion of mine. In 2023, I graduated as an animal caretaker, which gave me a solid foundation in animal husbandry. Already then, I knew I wanted to deepen my knowledge, and in 2024 I trained to become a veterinary nurse.\n\nDuring my time in the profession, I have discovered a particular interest in anesthesia. I enjoy following the entire process of anesthesia \u2013 from preparation and monitoring to recovery. I also appreciate being involved in surgical procedures, where teamwork and precision are essential.\n\nIn addition, I really enjoy working with dental procedures. I like being able to contribute to animals\u2019 long-term health and quality of life through good dental care.\n\nBeing able to work closely with animals and take part in their care is something I feel great joy and pride in. Every day gives me the opportunity to grow, learn more, and continue making a difference for both the animals and their owners.'
     },
     background: {
-      fi: 'Klinikkaeläinhoitaja.',
-      sv: 'Klinikdjurskötare.',
-      en: 'Veterinary technician.'
+      fi: 'Eläintenhoitaja 2023, klinikkaeläinhoitaja 2024.',
+      sv: 'Djurskötare 2023, klinikdjurskötare 2024.',
+      en: 'Animal caretaker 2023, veterinary nurse 2024.'
     },
     interests: {
       fi: 'Anestesia, kirurgiset toimenpiteet ja hammashoito',
@@ -2887,19 +2887,19 @@ const nurseProfiles = {
     image: 'images/jennifer.webp',
     role: 'role.nurse_student',
     bio: {
-      fi: 'Jennifer on eläinhoitaja ja opiskelija, joka kehittää osaamistaan klinikkatyössä. Hän on erityisen kiinnostunut anestesian valvonnasta, kirurgiasta ja eksoottisten eläinten hoidosta.',
-      sv: 'Jennifer är djurskötare och studerande som utvecklar sin kompetens i klinikarbetet. Hon är särskilt intresserad av anestesiövervakning, kirurgi och vård av exotiska djur.',
-      en: 'Jennifer is a veterinary nurse and student developing her skills in clinical work. She is particularly interested in anesthesia monitoring, surgery and exotic animal care.'
+      fi: 'Olen vuonna 2024 valmistunut eläintenhoitajaksi, ja jatkan parhaillaan opintojani klinikkaeläinhoitajaksi tavoitteena valmistua vuonna 2026. Erityisiä mielenkiinnon kohteitani ovat anestesiavalvonta, leikkaukset sekä eksoottiset potilaat.\n\nPidän alassani erityisesti jatkuvan oppimisen mahdollisuuksista sekä siitä, että saan kohdata niin eläimiä kuin heidän omistajiaan. Tavoitteenani on kehittää osaamistani kokonaisvaltaisesti ja tarjota eläinlähtöistä hoitoa jokaiselle potilaalle.',
+      sv: 'Jag tog examen som djurskötare år 2024 och fortsätter nu mina studier för att bli klinikdjurskötare, med målet att ta examen år 2026. Mina främsta intresseområden är anestesiövervakning, kirurgiska ingrepp och arbete med exotiska djurpatienter.\n\nDet jag uppskattar mest inom detta område är möjligheten till kontinuerligt lärande samt att få möta både djur och deras ägare. Mitt mål är att utveckla mina färdigheter på ett heltäckande sätt och ge högkvalitativ, djurcentrerad vård till varje patient.',
+      en: 'I graduated as a veterinary nurse in 2024 and I am currently continuing my studies to become a veterinary technician, with the goal of graduating in 2026. My key areas of interest include anesthesia monitoring, surgical procedures, and exotic patients.\n\nWhat I appreciate most in this field is the opportunity for continuous learning, as well as meeting both animals and their owners. My aim is to develop my skills comprehensively and provide animal-centered care for every patient.'
     },
     background: {
-      fi: 'Eläinhoitaja, opiskelija.',
-      sv: 'Djurskötare, studerande.',
-      en: 'Veterinary nurse, student.'
+      fi: 'Eläintenhoitaja 2024. Opiskelee klinikkaeläinhoitajaksi, valmistuu 2026.',
+      sv: 'Djurskötare 2024. Studerar till klinikdjurskötare, examen 2026.',
+      en: 'Animal caretaker 2024. Studying to become veterinary technician, graduating 2026.'
     },
     interests: {
-      fi: 'Anestesian valvonta, kirurgia ja eksoottiset potilaat',
-      sv: 'Anestesiövervakning, kirurgi och exotiska patienter',
-      en: 'Anesthesia monitoring, surgery and exotic patients'
+      fi: 'Anestesiavalvonta, leikkaukset ja eksoottiset potilaat',
+      sv: 'Anestesiövervakning, kirurgiska ingrepp och exotiska patienter',
+      en: 'Anesthesia monitoring, surgical procedures and exotic patients'
     }
   },
   josefiina: {
@@ -2907,14 +2907,14 @@ const nurseProfiles = {
     image: 'images/josefiina.webp',
     role: 'role.practical',
     bio: {
-      fi: 'Josefiina on lähihoitaja, joka työskentelee monipuolisesti klinikan eri tehtävissä. Hänen vahvuuksiaan ovat laboratorio- ja leikkaussalityö.',
-      sv: 'Josefiina är närvårdare som arbetar mångsidigt med klinikens olika uppgifter. Hennes styrkor är laboratorie- och operationssalsarbete.',
-      en: 'Josefiina is a practical nurse who works across various clinic tasks. Her strengths lie in laboratory and operating room work.'
+      fi: 'Olen koulutukseltani lähihoitaja, joka on aina haaveillut työskentelystä eläinten parissa. Erityisesti klinikalla, jossa on monipuolinen ja vaihteleva työympäristö. Pidän laboratoriossa ja leikkaussalissa työskentelystä. Tavoitteenani on jatkossa kouluttautua klinikkaeläinhoitajaksi ja laajentaa osaamistani, jotta voin tulevaisuudessa olla paremmin mukana edistämässä eläinten hyvinvointia.',
+      sv: 'Jag är närvårdare till utbildningen och har alltid drömt om att arbeta med djur. Särskilt på en klinik, där arbetsmiljön är mångsidig och omväxlande. Jag tycker om att arbeta i laboratoriet och i operationssalen. Mitt mål är att i framtiden utbilda mig till klinikdjurskötare och bredda min kompetens, så att jag bättre kan bidra till att främja djurens välbefinnande.',
+      en: 'I am a practical nurse by training, and I have always dreamed of working with animals \u2014 especially in a clinic environment, where the work is diverse and varies from day to day. I enjoy working in the laboratory and in the operating room. My goal is to continue my studies to become a veterinary nurse and to expand my skills so that I can better contribute to promoting animal welfare in the future.'
     },
     background: {
-      fi: 'Lähihoitaja.',
-      sv: 'Närvårdare.',
-      en: 'Practical nurse.'
+      fi: 'Lähihoitaja. Tavoitteena klinikkaeläinhoitajan tutkinto.',
+      sv: 'Närvårdare. Mål att utbilda sig till klinikdjurskötare.',
+      en: 'Practical nurse. Aiming to qualify as veterinary nurse.'
     },
     interests: {
       fi: 'Laboratorio- ja leikkaussalityö',
@@ -2927,14 +2927,14 @@ const nurseProfiles = {
     image: 'images/tiina.webp',
     role: 'role.practical',
     bio: {
-      fi: 'Tiina on lähihoitaja, joka on erityisen kiinnostunut kirurgiasta, ortopediasta ja traumahoidosta. Hän avustaa aktiivisesti leikkauksissa ja ortopedisissä toimenpiteissä.',
-      sv: 'Tiina är närvårdare med särskilt intresse för kirurgi, ortopedi och traumavård. Hon assisterar aktivt vid operationer och ortopediska ingrepp.',
-      en: 'Tiina is a practical nurse with a particular interest in surgery, orthopedics and trauma care. She actively assists in surgeries and orthopedic procedures.'
+      fi: 'Olen koulutukseltani lähihoitaja, ja lähitulevaisuudessa suunnitelmissani on opiskella klinikkaeläinhoitajaksi. Eläimet ovat aina olleet minulle suuri osa elämää, ja niiden kanssa työskentely on ollut haaveena pienestä pitäen. Olen tehnyt vapaaehtoistyötä pitkään kodittomien eläinten parissa.\n\nKlinikalla työskentely on monipuolista ja vaihtelevaa mikä tekee työstä erityisen mielenkiintoista. Erilaiset leikkaukset, ortopedia ja traumaperäiset vaivat kiinnostavat minua erityisen paljon.',
+      sv: 'Jag är legitimerad närvårdare till utbildningen och planerar inom en snar framtid att studera till klinikdjurskötare. Djur har alltid varit en stor del av mitt liv, och att arbeta med dem har varit en dröm sedan jag var liten. Jag har länge arbetat volontärt med hemlösa djur.\n\nAtt arbeta på en klinik är mångsidigt och varierat, vilket gör jobbet särskilt intressant. Jag är särskilt intresserad av olika operationer, ortopedi och traumarelaterade tillstånd.',
+      en: 'I am a registered nurse by education and plan to study to become a veterinary nurse in the near future. Animals have always been a big part of my life, and working with them has been a dream of mine since childhood. I have long worked voluntarily with homeless animals.\n\nWorking in a clinic is diverse and varied, which makes the job particularly interesting. I am especially interested in various surgical procedures, orthopedics, and trauma-related conditions.'
     },
     background: {
-      fi: 'Lähihoitaja.',
-      sv: 'Närvårdare.',
-      en: 'Practical nurse.'
+      fi: 'Lähihoitaja. Pitkä kokemus eläinten vapaaehtoistyöstä. Suunnittelee klinikkaeläinhoitajan opintoja.',
+      sv: 'Närvårdare. Lång erfarenhet av frivilligarbete med djur. Planerar att studera till klinikdjurskötare.',
+      en: 'Practical nurse. Long experience in animal volunteer work. Planning to study as veterinary nurse.'
     },
     interests: {
       fi: 'Kirurgia, ortopedia ja traumahoito',
