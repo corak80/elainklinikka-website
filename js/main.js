@@ -1609,9 +1609,9 @@ const translations = {
     en: 'Price'
   },
   'article.ccl.price.text': {
-    fi: 'Lateral suture -leikkauksen hinta klinikallamme alkaa noin 1 200 eurosta. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian ja sen valvonnan, itse leikkauksen ja välittömän jälkihoidon. Tarkka hinta riippuu potilaan koosta ja tapauksen vaativuudesta. Vertailun vuoksi TTA-leikkauksen hinta alkaa noin 2 500 eurosta.',
-    sv: 'Priset för lateral sutur-operation på vår klinik börjar från cirka 1 200 euro. Priset inkluderar undersökning före operationen, anestesi med övervakning, själva operationen och omedelbar eftervård. Det exakta priset beror på patientens storlek och fallets komplexitet. Som jämförelse börjar TTA-operationen från cirka 2 500 euro.',
-    en: 'The price for lateral suture surgery at our clinic starts from approximately 1,200 euros. The price includes the pre-operative examination, anesthesia with monitoring, the surgery itself, and immediate aftercare. The exact price depends on the patient\'s size and case complexity. For comparison, TTA surgery starts from approximately 2,500 euros.'
+    fi: 'Lateral suture -leikkauksen hinta klinikallamme on 900–1 050 euroa. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian ja sen valvonnan, itse leikkauksen ja välittömän jälkihoidon. Tarkka hinta riippuu potilaan koosta ja tapauksen vaativuudesta. Vertailun vuoksi TTA-leikkauksen hinta on 1 700–1 800 euroa.',
+    sv: 'Priset för lateral sutur-operation på vår klinik är 900–1 050 euro. Priset inkluderar undersökning före operationen, anestesi med övervakning, själva operationen och omedelbar eftervård. Det exakta priset beror på patientens storlek och fallets komplexitet. Som jämförelse kostar TTA-operationen 1 700–1 800 euro.',
+    en: 'The price for lateral suture surgery at our clinic is 900–1,050 euros. The price includes the pre-operative examination, anesthesia with monitoring, the surgery itself, and immediate aftercare. The exact price depends on the patient\'s size and case complexity. For comparison, TTA surgery is 1,700–1,800 euros.'
   },
 
   // Article 16: Hedgehog Conservation
