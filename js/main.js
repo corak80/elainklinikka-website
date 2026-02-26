@@ -163,7 +163,7 @@ const translations = {
   'service.desc.acupuncture': {
     fi: 'Akupunktiota käytetään kivunlievennykseen ja joidenkin tautien hoitoon. Akupunktiota klinikalla tekee Assaf, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa.',
     sv: 'Akupunktur används till smärtlindring och för behandling av vissa sjukdomar. Behandlingen utförs av Assaf, som har vidareutbildning inom akupunktur för hundar och hästar.',
-    en: 'Acupuncture is used for pain relief and for the treatment of some diseases. Administered by Assaf, who has completed specialized training in canine and equine acupuncture.'
+    en: 'Acupuncture is used for pain relief and for the treatment of some diseases. Administered by Assaf, who has completed further training in canine and equine acupuncture.'
   },
   'service.desc.bloodtests': {
     fi: 'Klinikallamme on mahdollisuus tutkia lemmikkisi verinäytteet. Useimmat näytteet tutkimme omassa laboratoriossamme, joten saat vastauksen jo käynnin aikana.',
