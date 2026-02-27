@@ -54,9 +54,9 @@ const translations = {
   // About
   'about.title': { fi: 'Tietoa klinikasta', sv: 'Om kliniken', en: 'About the Clinic' },
   'about.subtitle': {
-    fi: 'Vaasan ainoa yksityinen pieneläinklinikka – Pukinkulman Autotalossa vuodesta 1989',
-    sv: 'Vasas enda privata smådjursklinik – i Bocks hörna sedan 1989',
-    en: 'The only private small animal clinic in Vaasa – in Bock\'s corner since 1989'
+    fi: 'Vaasan ainoa yksityinen ketjuihin kuulumaton pieneläinklinikka \u2013 vuodesta 1989',
+    sv: 'Vasas enda privata kedjefria smådjursklinik \u2013 sedan 1989',
+    en: 'Vaasa\'s only private independent small animal clinic \u2013 since 1989'
   },
   'about.text1': {
     fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat kaikkein tärkeintä. Haluamme luoda lämpimän ja luottamuksellisen suhteen niin sinuun kuin lemmikkiisikin.',
@@ -138,7 +138,7 @@ const translations = {
   'service.dermatology': { fi: 'Ihotaudit ja allergiat', sv: 'Dermatologi och allergier', en: 'Dermatology & Allergies' },
   'service.pregnancy': { fi: 'Tiineystutkimus', sv: 'Dräktighetsdiagnos', en: 'Pregnancy Diagnosis' },
   'service.endoscopy': { fi: 'Tähystystutkimukset', sv: 'Endoskopi', en: 'Endoscopy' },
-  'service.food': { fi: 'Rehunmyynti', sv: 'Foderförsäljning', en: 'Therapeutic Diets' },
+  'service.food': { fi: 'Rehumyynti', sv: 'Foderförsäljning', en: 'Therapeutic Diets' },
   'service.wellness': { fi: 'Hyvinvointi ja kuntoutus', sv: 'Friskvård och rehabilitering', en: 'Wellness & Rehabilitation' },
   'service.healthcheck': { fi: 'Terveystarkastukset', sv: 'Hälsokontroll', en: 'Health Examinations' },
   'service.cardiology': { fi: 'Sydänsairaudet', sv: 'Hjärtsjukdomar', en: 'Heart Diseases' },
@@ -221,9 +221,9 @@ const translations = {
     en: 'Spays, neuters, caesarean sections, tumor removals, foreign body extraction, bladder stone surgery, other abdominal surgeries, and eye and ear procedures.'
   },
   'service.desc.surgery.ortho': {
-    fi: 'Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi murtumaleikkaukset, amputaatiot (jalka, häntä, varpaat) sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
-    sv: 'Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom frakturkirurgi, amputationer (ben, svans, tår) samt lårbenshuvudresektion vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
-    en: 'The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also fracture repairs, amputations (leg, tail, toes) and femoral head ostectomy for chronic luxation or Legg-Perthes disease.'
+    fi: 'Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Klinikalla ollaan tehty polvileikkauksia vuodesta 2017. Nykyään eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla, ja TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin. Lisäksi patellaluksaatioleikkaukset, murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto esim. kroonisen luksaation tai Legg-Perthes taudin vuoksi.',
+    sv: 'Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Vi har utfört knäoperationer sedan 2017. Idag erbjuds korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom patellaluxationsoperationer, frakturkirurgi, amputationer samt lårbenshuvudresektion vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.',
+    en: 'The clinic has a dedicated orthopedic surgery room with a higher level of sterility. We have been performing knee surgeries since 2017. Cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also patellar luxation surgery, fracture repairs, amputations and femoral head ostectomy for chronic luxation or Legg-Perthes disease.'
   },
   'service.desc.laboratory': {
     fi: 'Hyvin varusteltu oma laboratorio: verinäytteet, virtsanäytteet, verisivelyt, iho- ja korvanäytteet. Suurin osa tuloksista on valmiina jo käynnin aikana. Tutkimuksia: hematologia, kliininen kemia, elektrolyytit, hormonit, virtsaviljelyt, sytologia.',
@@ -236,9 +236,9 @@ const translations = {
     en: 'Official hip, elbow and back X-rays. Official knee examinations. Official heart auscultations. Official heart ultrasound examinations for dogs.'
   },
   'service.desc.orthopedics': {
-    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
-    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Frakturkirurgi, amputationer samt lårbenshuvudresektion.',
-    en: 'Orthopedic examinations and official X-ray examinations. The clinic has a dedicated orthopedic surgery room with a higher level of sterility. Cranial cruciate ligament repair with two methods: lateral suture technique (joint stabilization with synthetic support material) and TTA (tibial tuberosity advancement to alter knee biomechanics). Fracture repairs, amputations, and femoral head ostectomy.'
+    fi: 'Ortopediset tutkimukset ja viralliset röntgentutkimukset. Klinikallamme on oma ortopedinen leikkaussali, jossa on korkeampi steriiliystaso. Klinikalla ollaan tehty polvileikkauksia vuodesta 2017. Nykyään eturistisiteen korjausleikkaukset kahdella menetelmällä: lateral suture -tekniikka (nivelen stabilointi synteettisellä tukimateriaalilla) ja TTA (sääriluun kyhmyn siirto polven biomekaniikan muuttamiseksi). Patellaluksaatioleikkaukset, murtumaleikkaukset, amputaatiot sekä reisiluunpään poisto.',
+    sv: 'Ortopediska undersökningar och officiella röntgenundersökningar. Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Vi har utfört knäoperationer sedan 2017. Idag erbjuds korsbandsskadeoperationer med två metoder: lateral sutur-teknik (ledstabilisering med syntetiskt stödmaterial) och TTA (förflyttning av skenbenets utskott för att ändra knäets biomekanik). Patellaluxationsoperationer, frakturkirurgi, amputationer samt lårbenshuvudresektion.',
+    en: 'Orthopedic examinations and official X-ray examinations. The clinic has a dedicated orthopedic surgery room with a higher level of sterility. We have been performing knee surgeries since 2017. Cruciate ligament repair with two methods: lateral suture technique (joint stabilization with synthetic support material) and TTA (tibial tuberosity advancement to alter knee biomechanics). Patellar luxation surgery, fracture repairs, amputations, and femoral head ostectomy.'
   },
   'service.desc.xray': {
     fi: 'Digitaalinen röntgen. Suosittelemme esimerkiksi ontumisen, keuhko- tai sydänoireiden, akuutin oksentelun, virtsaamisvaikeuksien ja kasvainepäilyjen tutkimiseen sekä virallisiin röntgenkuvauksiin.',
@@ -266,9 +266,9 @@ const translations = {
     en: 'High-quality ultrasound: abdominal examinations, uterine examinations, liver, kidney and other organ examinations, and heart ultrasound.'
   },
   'service.desc.vaccinations': {
-    fi: 'Rokotukset ovat tärkeä osa ennaltaehkäisevää terveydenhoitoa. Koiranpennut rokotetaan 12 ja 16 viikon iässä, kissanpennut samoin. Aikuiset rokotetaan 1–3 vuoden välein. Koirat: parvovirus, maksatulehdus, penikkatuti, rabies, kennelyskä. Kissat: kissarutto, herpes, calici.',
-    sv: 'Vaccinationer är en viktig del av förebyggande hälsovård. Valpar vaccineras vid 12 och 16 veckors ålder. Kattungar likaså. Vuxna djur vaccineras med 1–3 års intervall. Hundar: parvovirus, hepatit, valpsjuka, rabies, kennelhosta. Katter: panleukopeni, herpes, calici.',
-    en: 'Vaccination is important preventative healthcare. Puppies are vaccinated at 12 and 16 weeks. Kittens likewise. Adults every 1–3 years. Dogs: parvovirus, hepatitis, distemper, rabies, kennel cough. Cats: panleukopenia, herpes, calicivirus.'
+    fi: 'Rokotukset ovat tärkeä osa ennaltaehkäisevää terveydenhoitoa. Koiranpennut rokotetaan useimmiten 12 ja 16 viikon iässä, kissanpennut samoin. Aikuiset rokotetaan 1–3 vuoden välein.',
+    sv: 'Vaccinationer är en viktig del av förebyggande hälsovård. Valpar vaccineras oftast vid 12 och 16 veckors ålder, kattungar likaså. Vuxna djur vaccineras med 1–3 års intervall.',
+    en: 'Vaccinations are an important part of preventive healthcare. Puppies are usually vaccinated at 12 and 16 weeks of age, kittens likewise. Adults are vaccinated every 1–3 years.'
   },
   'service.desc.puppy': {
     fi: 'Pentutarkastuksessa eläinlääkäri tutkii pennun päästä varpaisiin ja antaa terveystodistuksen. Tarkastuksen yhteydessä voimme asettaa mikrosirun.',
@@ -281,9 +281,9 @@ const translations = {
     en: 'Anesthesia is close to our hearts. We continuously update our education, refresh our protocols and monitor patients closely throughout every procedure. The clinic has advanced monitoring equipment, four anesthesia machines and two ventilators to ensure safe anesthesia.'
   },
   'service.desc.hygiene': {
-    fi: 'Korkea hygieniataso on meille ensiarvoisen tärkeää. Pesemme kädet ja käytämme kertakäyttökäsineitä jokaisen potilaan kohdalla. Tutkimuspöydät desinfioidaan potilaiden välillä ja kankaat pestään jokaisen käytön jälkeen. Käytämme UV-valoa klinikan tilojen desinfiointiin ja suodattimia inhalaatioanestesiassa. Lattiat desinfioidaan kahdesti päivässä.',
-    sv: 'Hög hygiennivå är ett centralt mål för oss. Vi tvättar händerna och använder engångshandskar för varje patient. Undersökningsborden desinficeras mellan patienter och textilier tvättas efter varje användning. Vi använder UV-ljus för desinfektion av klinikens utrymmen och filter vid inhalationsanestesi. Golven desinficeras två gånger om dagen.',
-    en: 'Maintaining a high level of hygiene is a core priority for us. We wash our hands and use single-use gloves for every patient. Examination tables are disinfected between patients and fabrics are washed after every use. We use UV light to disinfect all clinic areas and filters with inhalation anesthesia. Floors are disinfected twice per day.'
+    fi: 'Korkea hygieniataso on meille ensiarvoisen tärkeää. Tutkimuspöydät desinfioidaan potilaiden välillä ja viltit ja alustat pestään jokaisen käytön jälkeen. Käytämme UV-valoa klinikan tilojen desinfiointiin ja suodattimia inhalaatioanestesiassa. Lattiat desinfioidaan kahdesti päivässä.',
+    sv: 'Hög hygiennivå är av största vikt för oss. Undersökningsborden desinficeras mellan patienter och filtar och underlag tvättas efter varje användning. Vi använder UV-ljus för desinfektion av klinikens utrymmen och filter vid inhalationsanestesi. Golven desinficeras två gånger om dagen.',
+    en: 'A high level of hygiene is of utmost importance to us. Examination tables are disinfected between patients and blankets and pads are washed after every use. We use UV light to disinfect clinic areas and filters with inhalation anesthesia. Floors are disinfected twice daily.'
   },
 
   // Team
@@ -379,9 +379,9 @@ const translations = {
   // Prices
   'prices.title': { fi: 'Hinnasto', sv: 'Prislista', en: 'Price List' },
   'prices.subtitle': {
-    fi: 'Hinnat ovat kokonaishintoja. Leikkaukset sisältävät lääkkeet ja tarvikkeet.',
-    sv: 'Priserna är totalpriser. Kirurgiska ingrepp innehåller mediciner och förbrukningsmaterial.',
-    en: 'Prices are total amounts. Surgical procedures include medicines and supplies.'
+    fi: 'Hinnat ovat kokonaishintoja. Leikkaukset sisältävät lääkkeet ja tarvikkeet sekä tarvittaessa tikkien poiston.',
+    sv: 'Priserna är totalpriser. Kirurgiska ingrepp inkluderar mediciner, förbrukningsmaterial och vid behov borttagning av stygn.',
+    en: 'Prices are total amounts. Surgical procedures include medicines, supplies and stitch removal when needed.'
   },
   'prices.cat.consultation': { fi: 'Eläinlääkärin vastaanotto', sv: 'Veterinärbesök', en: 'Veterinary Consultation' },
   'prices.cat.vaccinations': { fi: 'Rokotukset', sv: 'Vaccinationer', en: 'Vaccinations' },
@@ -440,10 +440,11 @@ const translations = {
   'price.other.euthdog': { fi: 'Eutanasia koira', sv: 'Eutanasi hund', en: 'Euthanasia dog' },
 
   // Orthopedics prices
-  'price.ortho.lameness': { fi: 'Ontumatutkimus', sv: 'Hältundersökning', en: 'Lameness exam' },
-  'price.ortho.xray': { fi: '+ röntgen (nukutettu)', sv: '+ röntgen (sederad)', en: '+ X-ray (sedated)' },
+  'price.ortho.exam': { fi: 'Ontumatutkimus + röntgentutkimus (nukutettu eläin)', sv: 'Hältundersökning + röntgen (sederat djur)', en: 'Lameness exam + X-ray (sedated animal)' },
+  'price.ortho.exam.large': { fi: 'Ontumatutkimus + röntgentutkimus (nukutettu eläin) laaja/iso koira', sv: 'Hältundersökning + röntgen (sederat djur) utökad/stor hund', en: 'Lameness exam + X-ray (sedated) extended/large dog' },
   'price.ortho.fracture': { fi: 'Murtumaleikkaukset', sv: 'Frakturkirurgi', en: 'Fracture surgery' },
-  'price.ortho.cruciate': { fi: 'Ristisideleikkaus lateraalisutuura', sv: 'Korsbandsoperation lateral sutur', en: 'Cruciate ligament lateral suture' },
+  'price.ortho.cruciate.cat': { fi: 'Ristisideleikkaus lateraalisutuura kissa', sv: 'Korsbandsoperation lateral sutur katt', en: 'Cruciate ligament lateral suture cat' },
+  'price.ortho.cruciate.dog': { fi: 'Ristisideleikkaus lateraalisutuura koira', sv: 'Korsbandsoperation lateral sutur hund', en: 'Cruciate ligament lateral suture dog' },
   'price.ortho.tta': { fi: 'Ristisideleikkaus TTA', sv: 'Korsbandsoperation TTA', en: 'Cruciate ligament TTA' },
   'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
   'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head ostectomy' },
@@ -1609,9 +1610,9 @@ const translations = {
     en: 'Price'
   },
   'article.ccl.price.text': {
-    fi: 'Lateral suture -leikkauksen hinta klinikallamme on 900–1 050 euroa. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian ja sen valvonnan, itse leikkauksen ja välittömän jälkihoidon. Tarkka hinta riippuu potilaan koosta ja tapauksen vaativuudesta. Vertailun vuoksi TTA-leikkauksen hinta on 1 700–1 800 euroa.',
-    sv: 'Priset för lateral sutur-operation på vår klinik är 900–1 050 euro. Priset inkluderar undersökning före operationen, anestesi med övervakning, själva operationen och omedelbar eftervård. Det exakta priset beror på patientens storlek och fallets komplexitet. Som jämförelse kostar TTA-operationen 1 700–1 800 euro.',
-    en: 'The price for lateral suture surgery at our clinic is 900–1,050 euros. The price includes the pre-operative examination, anesthesia with monitoring, the surgery itself, and immediate aftercare. The exact price depends on the patient\'s size and case complexity. For comparison, TTA surgery is 1,700–1,800 euros.'
+    fi: 'Lateral suture -leikkauksen hinta klinikallamme on kissalle 950 euroa ja koiralle 1 200 euroa. Hinta sisältää leikkausta edeltävän tutkimuksen, anestesian ja sen valvonnan, itse leikkauksen ja välittömän jälkihoidon. Vertailun vuoksi TTA-leikkauksen hinta on 1 700–1 800 euroa.',
+    sv: 'Priset för lateral sutur-operation på vår klinik är 950 euro för katt och 1 200 euro för hund. Priset inkluderar undersökning före operationen, anestesi med övervakning, själva operationen och omedelbar eftervård. Som jämförelse kostar TTA-operationen 1 700–1 800 euro.',
+    en: 'The price for lateral suture surgery at our clinic is 950 euros for cats and 1,200 euros for dogs. The price includes the pre-operative examination, anesthesia with monitoring, the surgery itself, and immediate aftercare. For comparison, TTA surgery is 1,700–1,800 euros.'
   },
 
   // Article 16: Hedgehog Conservation
