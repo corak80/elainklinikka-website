@@ -393,6 +393,7 @@ const translations = {
   'prices.cat.endoscopy': { fi: 'Tähystystoimenpiteet', sv: 'Endoskopi', en: 'Endoscopy' },
   'prices.cat.cardiac': { fi: 'Sydäntutkimukset', sv: 'Hjärtundersökningar', en: 'Cardiac Examinations' },
   'prices.cat.other': { fi: 'Muut toimenpiteet', sv: 'Övriga tjänster', en: 'Other Services' },
+  'prices.cat.euthanasia': { fi: 'Eutanasia', sv: 'Eutanasi', en: 'Euthanasia' },
 
   // Price items - Consultation
   'price.consult15': { fi: 'Vastaanotto <15 min', sv: 'Besök <15 min', en: 'Visit <15 min' },
@@ -435,9 +436,10 @@ const translations = {
   // Price items - Other
   'price.other.passport': { fi: 'EU-passi', sv: 'EU-pass', en: 'EU Passport' },
   'price.other.passport.combined': { fi: 'EU-passi muun käynnin yhteydessä', sv: 'EU-pass i samband med annat besök', en: 'EU Passport with another visit' },
-  'price.other.chip': { fi: 'Mikrosiru', sv: 'Mikrochip', en: 'Microchip' },
+  'price.other.chip': { fi: 'Mikrosirutus', sv: 'Mikrochipning', en: 'Microchipping' },
+  'price.other.chip.combined': { fi: 'Mikrosirutus muun käynnin yhteydessä', sv: 'Mikrochipning i samband med annat besök', en: 'Microchipping with another visit' },
   'price.other.nails': { fi: 'Kynsien lyhennys', sv: 'Nagelklippning', en: 'Nail trimming' },
-  'price.other.euthcat': { fi: 'Eutanasia kissa', sv: 'Eutanasi katt', en: 'Euthanasia cat' },
+  'price.other.euthcat': { fi: 'Kissa', sv: 'Katt', en: 'Cat' },
   'price.other.euthdog': { fi: 'Eutanasia koira', sv: 'Eutanasi hund', en: 'Euthanasia dog' },
 
   // Orthopedics prices
@@ -510,9 +512,10 @@ const translations = {
 
   // Other prices
   'price.other.catgrooming': { fi: 'Kissan turkinhuolto nukutettuna', sv: 'Kattpälsvård under sedering', en: 'Cat grooming under sedation' },
-  'price.other.euthdog.small': { fi: 'Eutanasia koira <20kg', sv: 'Eutanasi hund <20kg', en: 'Euthanasia dog <20kg' },
-  'price.other.euthdog.medium': { fi: 'Eutanasia koira 20–40kg', sv: 'Eutanasi hund 20–40kg', en: 'Euthanasia dog 20–40kg' },
-  'price.other.euthdog.large': { fi: 'Eutanasia koira >40kg', sv: 'Eutanasi hund >40kg', en: 'Euthanasia dog >40kg' },
+  'price.other.euthdog.small': { fi: 'Koira <20kg', sv: 'Hund <20kg', en: 'Dog <20kg' },
+  'price.other.euthdog.medium': { fi: 'Koira 20–40kg', sv: 'Hund 20–40kg', en: 'Dog 20–40kg' },
+  'price.other.euthdog.large': { fi: 'Koira >40kg', sv: 'Hund >40kg', en: 'Dog >40kg' },
+  'price.other.euthrodent': { fi: 'Jyrsijät/kanit', sv: 'Gnagare/kaniner', en: 'Rodents/rabbits' },
 
   'prices.note': {
     fi: 'Alle 24 tuntia ennen vastaanottoaikaa peruutetuista ajoista veloitamme 30–100 €.',
