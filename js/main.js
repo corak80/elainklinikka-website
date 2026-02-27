@@ -434,22 +434,28 @@ const translations = {
 
   // Price items - Other
   'price.other.passport': { fi: 'EU-passi', sv: 'EU-pass', en: 'EU Passport' },
+  'price.other.passport.combined': { fi: 'EU-passi muun käynnin yhteydessä', sv: 'EU-pass i samband med annat besök', en: 'EU Passport with another visit' },
   'price.other.chip': { fi: 'Mikrosiru', sv: 'Mikrochip', en: 'Microchip' },
   'price.other.nails': { fi: 'Kynsien lyhennys', sv: 'Nagelklippning', en: 'Nail trimming' },
   'price.other.euthcat': { fi: 'Eutanasia kissa', sv: 'Eutanasi katt', en: 'Euthanasia cat' },
   'price.other.euthdog': { fi: 'Eutanasia koira', sv: 'Eutanasi hund', en: 'Euthanasia dog' },
 
   // Orthopedics prices
+  'price.ortho.lameness': { fi: 'Ontumatutkimus', sv: 'Hältundersökning', en: 'Lameness exam' },
   'price.ortho.exam': { fi: 'Ontumatutkimus + röntgentutkimus (nukutettu eläin)', sv: 'Hältundersökning + röntgen (sederat djur)', en: 'Lameness exam + X-ray (sedated animal)' },
   'price.ortho.exam.large': { fi: 'Ontumatutkimus + röntgentutkimus (nukutettu eläin) laaja/iso koira', sv: 'Hältundersökning + röntgen (sederat djur) utökad/stor hund', en: 'Lameness exam + X-ray (sedated) extended/large dog' },
   'price.ortho.fracture': { fi: 'Murtumaleikkaukset', sv: 'Frakturkirurgi', en: 'Fracture surgery' },
   'price.ortho.cruciate.cat': { fi: 'Ristisideleikkaus lateraalisutuura kissa', sv: 'Korsbandsoperation lateral sutur katt', en: 'Cruciate ligament lateral suture cat' },
   'price.ortho.cruciate.dog': { fi: 'Ristisideleikkaus lateraalisutuura koira', sv: 'Korsbandsoperation lateral sutur hund', en: 'Cruciate ligament lateral suture dog' },
-  'price.ortho.tta': { fi: 'Ristisideleikkaus TTA', sv: 'Korsbandsoperation TTA', en: 'Cruciate ligament TTA' },
+  'price.ortho.tta.small': { fi: 'Ristisideleikkaus TTA <20kg', sv: 'Korsbandsoperation TTA <20kg', en: 'Cruciate ligament TTA <20kg' },
+  'price.ortho.tta.large': { fi: 'Ristisideleikkaus TTA >20kg', sv: 'Korsbandsoperation TTA >20kg', en: 'Cruciate ligament TTA >20kg' },
   'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
-  'price.ortho.femoral': { fi: 'Reisiluunpään poisto', sv: 'Lårbenshuvudresektion', en: 'Femoral head ostectomy' },
+  'price.ortho.femoral.cat': { fi: 'Reisiluunpään poisto kissa', sv: 'Lårbenshuvudresektion katt', en: 'Femoral head ostectomy cat' },
+  'price.ortho.femoral.dog': { fi: 'Reisiluunpään poisto koira', sv: 'Lårbenshuvudresektion hund', en: 'Femoral head ostectomy dog' },
   'price.ortho.fracture.price': { fi: 'alk. 1,300 €', sv: 'fr. 1,300 €', en: 'from 1,300 €' },
   'price.ortho.amputation': { fi: 'Amputaatiot yms.', sv: 'Amputationer m.m.', en: 'Amputations etc.' },
+  'price.ortho.toe': { fi: 'Varvasamputaatio', sv: 'Tåamputation', en: 'Toe amputation' },
+  'price.ortho.tail': { fi: 'Häntäamputaatio', sv: 'Svansamputation', en: 'Tail amputation' },
   'price.ortho.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
   'price.ortho.cruciate.note': {
     fi: 'Lateraalisutuura sopii kissojen ja pienten koirien ristisidevaurioiden hoitoon. Aktiivisesti harrastaville tai suurille koirille sopii paremmin TTA-menetelmä.',
@@ -458,7 +464,7 @@ const translations = {
   },
 
   // Dental prices
-  'price.dental.xray': { fi: 'Hammasröntgen', sv: 'Tandröntgen', en: 'Dental X-ray' },
+  'price.dental.xray': { fi: 'Hammasröntgen hammashoidon yhteydessä', sv: 'Tandröntgen i samband med tandvård', en: 'Dental X-ray during dental treatment' },
   'price.dental.milk12': { fi: 'Maitohampaan poisto 1–2 hammasta', sv: 'Mjölktandsextraktion 1–2 tänder', en: 'Milk tooth extraction 1–2 teeth' },
   'price.dental.milk34': { fi: 'Maitohampaan poisto 3–4 hammasta', sv: 'Mjölktandsextraktion 3–4 tänder', en: 'Milk tooth extraction 3–4 teeth' },
   'price.dental.large.surcharge': { fi: 'Lisämaksu koira >40kg', sv: 'Tillägg hund >40kg', en: 'Surcharge dog >40kg' },
@@ -478,10 +484,12 @@ const translations = {
   'price.official.hip.large': { fi: 'Lonkkakuvat >40kg', sv: 'Höftröntgen >40kg', en: 'Hip X-ray >40kg' },
   'price.official.elbow': { fi: 'Kyynärnivelkuvat', sv: 'Armbågsröntgen', en: 'Elbow X-ray' },
   'price.official.spine': { fi: 'Selkäkuvat', sv: 'Ryggröntgen', en: 'Spine X-ray' },
-  'price.official.package.small': { fi: 'Paketti <40kg', sv: 'Paket <40kg', en: 'Package <40kg' },
-  'price.official.package.large': { fi: 'Paketti >40kg', sv: 'Paket >40kg', en: 'Package >40kg' },
+  'price.official.package.small': { fi: 'Lonkka-, kyynär- ja selkäkuvat <40kg / maks. 3 selkäkuvaa', sv: 'Höft-, armbågs- och ryggröntgen <40kg / max 3 ryggbilder', en: 'Hip, elbow and spine X-rays <40kg / max 3 spine images' },
+  'price.official.package.large': { fi: 'Lonkka-, kyynär- ja selkäkuvat >40kg / monta selkäkuvaa', sv: 'Höft-, armbågs- och ryggröntgen >40kg / flera ryggbilder', en: 'Hip, elbow and spine X-rays >40kg / multiple spine images' },
   'price.official.knee': { fi: 'Polvitarkastus', sv: 'Knäundersökning', en: 'Knee exam' },
+  'price.official.knee.combined': { fi: 'Polvitarkastus muun käynnin yhteydessä', sv: 'Knäundersökning i samband med annat besök', en: 'Knee exam with another visit' },
   'price.official.heart': { fi: 'Sydänauskultaatio', sv: 'Hjärtauskultation', en: 'Heart auscultation' },
+  'price.official.heart.combined': { fi: 'Sydänauskultaatio muun käynnin yhteydessä', sv: 'Hjärtauskultation i samband med annat besök', en: 'Heart auscultation with another visit' },
 
   // Endoscopy prices
   'price.endo.earflush': { fi: 'Korvahuuhtelu (video-otoskooppinen)', sv: 'Öronspolning (video-otoskopisk)', en: 'Ear flushing (video-otoscopic)' },
@@ -490,8 +498,8 @@ const translations = {
   'price.endo.gi.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
 
   // Cardiac prices
-  'price.cardiac.official.small': { fi: 'Virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud <40kg', en: 'Official cardiac ultrasound <40kg' },
-  'price.cardiac.official.large': { fi: 'Virallinen sydämen ultraääni >40kg', sv: 'Officiellt hjärtultraljud >40kg', en: 'Official cardiac ultrasound >40kg' },
+  'price.cardiac.official.small': { fi: 'Koiran virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud hund <40kg', en: 'Official canine cardiac ultrasound <40kg' },
+  'price.cardiac.official.large': { fi: 'Koiran virallinen sydämen ultraääni >40kg', sv: 'Officiellt hjärtultraljud hund >40kg', en: 'Official canine cardiac ultrasound >40kg' },
   'price.cardiac.ultrasound': { fi: 'Sydämen ultraääni', sv: 'Hjärtultraljud', en: 'Heart ultrasound' },
   'price.cardiac.auscultation': { fi: 'Virallinen sydänauskultaatio', sv: 'Officiell hjärtauskultation', en: 'Official heart auscultation' },
   'price.cardiac.auscultation.combined': {
