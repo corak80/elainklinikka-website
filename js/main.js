@@ -407,6 +407,7 @@ const translations = {
   'price.vacc.dogdhppirabies': { fi: 'Koiran 4-rokotus + rabies', sv: 'Hund DHPPI + rabies', en: 'Dog DHPPI + rabies' },
   'price.vacc.kennelpi': { fi: 'Kennelyskärokotus PI', sv: 'Kennelhosta PI', en: 'Kennel cough PI' },
   'price.vacc.kennelkc': { fi: 'Kennelyskärokotus KC', sv: 'Kennelhosta KC', en: 'Kennel cough KC' },
+  'price.vacc.leptospira': { fi: 'Koiran leptospira', sv: 'Hund leptospira', en: 'Dog leptospira' },
 
   // Price items - Surgery
   'price.surg.catfemale': { fi: 'Naaraskissan sterilisaatio', sv: 'Honkatt sterilisering', en: 'Female cat spay' },
@@ -421,10 +422,12 @@ const translations = {
   'price.surg.dogmale.20': { fi: 'Uroskoiran kastraatio 10–20kg', sv: 'Hanhund kastrering 10–20kg', en: 'Male dog neuter 10–20kg' },
   'price.surg.dogmale.40': { fi: 'Uroskoiran kastraatio 20–40kg', sv: 'Hanhund kastrering 20–40kg', en: 'Male dog neuter 20–40kg' },
   'price.surg.dogmale.over40': { fi: 'Uroskoiran kastraatio >40kg', sv: 'Hanhund kastrering >40kg', en: 'Male dog neuter >40kg' },
-  'price.surg.crypto.inguinal.small': { fi: 'Piilokivesleikkaus, nivusesta <20kg', sv: 'Kryptorkidoperation, inguinal <20kg', en: 'Cryptorchid surgery, inguinal <20kg' },
-  'price.surg.crypto.inguinal.large': { fi: 'Piilokivesleikkaus, nivusesta >20kg', sv: 'Kryptorkidoperation, inguinal >20kg', en: 'Cryptorchid surgery, inguinal >20kg' },
-  'price.surg.crypto.abdom.small': { fi: 'Piilokivesleikkaus, vatsaontelosta <20kg', sv: 'Kryptorkidoperation, abdominell <20kg', en: 'Cryptorchid surgery, abdominal <20kg' },
-  'price.surg.crypto.abdom.large': { fi: 'Piilokivesleikkaus, vatsaontelosta >20kg', sv: 'Kryptorkidoperation, abdominell >20kg', en: 'Cryptorchid surgery, abdominal >20kg' },
+  'price.surg.rabbitmale': { fi: 'Uroskanin kastraatio', sv: 'Hankanin kastrering', en: 'Male rabbit neuter' },
+  'price.surg.rabbitfemale': { fi: 'Naaraskanin sterilisaatio', sv: 'Honkanin sterilisering', en: 'Female rabbit spay' },
+  'price.surg.crypto.inguinal.small': { fi: 'Koiran piilokivesleikkaus, nivusesta <20kg', sv: 'Kryptorkidoperation, inguinal <20kg', en: 'Cryptorchid surgery, inguinal <20kg' },
+  'price.surg.crypto.inguinal.large': { fi: 'Koiran piilokivesleikkaus, nivusesta >20kg', sv: 'Kryptorkidoperation, inguinal >20kg', en: 'Cryptorchid surgery, inguinal >20kg' },
+  'price.surg.crypto.abdom.small': { fi: 'Koiran piilokivesleikkaus, vatsaontelosta <20kg', sv: 'Kryptorkidoperation, abdominell <20kg', en: 'Cryptorchid surgery, abdominal <20kg' },
+  'price.surg.crypto.abdom.large': { fi: 'Koiran piilokivesleikkaus, vatsaontelosta >20kg', sv: 'Kryptorkidoperation, abdominell >20kg', en: 'Cryptorchid surgery, abdominal >20kg' },
   'price.surg.stitch.note': { fi: 'Leikkausten hintaan sisältyy tikkien poisto.', sv: 'Borttagning av stygn ingår i operationspriset.', en: 'Stitch removal is included in the surgery price.' },
 
   // Price items - Dental
