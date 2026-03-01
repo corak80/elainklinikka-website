@@ -428,10 +428,13 @@ const translations = {
   'price.surg.crypto.inguinal.large': { fi: 'Koiran piilokivesleikkaus, nivusesta >20kg', sv: 'Kryptorkidoperation, inguinal >20kg', en: 'Cryptorchid surgery, inguinal >20kg' },
   'price.surg.crypto.abdom.small': { fi: 'Koiran piilokivesleikkaus, vatsaontelosta <20kg', sv: 'Kryptorkidoperation, abdominell <20kg', en: 'Cryptorchid surgery, abdominal <20kg' },
   'price.surg.crypto.abdom.large': { fi: 'Koiran piilokivesleikkaus, vatsaontelosta >20kg', sv: 'Kryptorkidoperation, abdominell >20kg', en: 'Cryptorchid surgery, abdominal >20kg' },
+  'price.surg.crypto.cat': { fi: 'Kissan piilokivesleikkaus, nivusesta', sv: 'Kryptorkidoperation katt, inguinal', en: 'Cat cryptorchid surgery, inguinal' },
+  'price.surg.crypto.cat.abdom': { fi: 'Kissan piilokivesleikkaus, vatsaontelosta', sv: 'Kryptorkidoperation katt, abdominell', en: 'Cat cryptorchid surgery, abdominal' },
   'price.surg.stitch.note': { fi: 'Leikkausten hintaan sisältyy tikkien poisto.', sv: 'Borttagning av stygn ingår i operationspriset.', en: 'Stitch removal is included in the surgery price.' },
 
   // Price items - Dental
   'price.dental.check': { fi: 'Hampaiden tarkistus hereillä', sv: 'Tandkontroll vaken', en: 'Dental check (awake)' },
+  'price.dental.check.note': { fi: 'Hoitotarpeen arviointi', sv: 'Bedömning av vårdbehov', en: 'Treatment needs assessment' },
   'price.dental.catscaling': { fi: 'Hammaskiven poisto kissa', sv: 'Tandstensborttagning katt', en: 'Cat dental scaling' },
   'price.dental.dogsmall': { fi: 'Hammaskiven poisto koira <20kg', sv: 'Tandstensborttagning hund <20kg', en: 'Dog dental scaling <20kg' },
   'price.dental.doglarge': { fi: 'Hammaskiven poisto koira >20kg', sv: 'Tandstensborttagning hund >20kg', en: 'Dog dental scaling >20kg' },
