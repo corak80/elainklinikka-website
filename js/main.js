@@ -481,6 +481,7 @@ const translations = {
     sv: 'Tandextraktioner utförs baserat på klinisk undersökning och röntgenbilder. Priset beror på tidsåtgång och tandens/tandköttets skick.',
     en: 'Extractions are performed based on clinical examination and X-rays. Price depends on time required and tooth/gum condition.'
   },
+  'price.dental.info.note': { fi: 'Lisätietoa ja hinta-arviot suoraan klinikalta.', sv: 'Mer information och prisuppskattningar direkt från kliniken.', en: 'More information and price estimates directly from the clinic.' },
 
   // Pregnancy prices
   'price.preg.ultrasound': { fi: 'Tiineysultraääni', sv: 'Dräktighetsultraljud', en: 'Pregnancy ultrasound' },
@@ -506,9 +507,9 @@ const translations = {
   'price.endo.gi.contact': { fi: 'Ota yhteyttä', sv: 'Kontakta oss', en: 'Contact us' },
 
   // Cardiac prices
-  'price.cardiac.official.small': { fi: 'Koiran virallinen sydämen ultraääni <40kg', sv: 'Officiellt hjärtultraljud hund <40kg', en: 'Official canine cardiac ultrasound <40kg' },
-  'price.cardiac.official.large': { fi: 'Koiran virallinen sydämen ultraääni >40kg', sv: 'Officiellt hjärtultraljud hund >40kg', en: 'Official canine cardiac ultrasound >40kg' },
-  'price.cardiac.ultrasound': { fi: 'Sydämen ultraääni', sv: 'Hjärtultraljud', en: 'Heart ultrasound' },
+  'price.cardiac.official.small': { fi: 'Koiran virallinen sydämen ultraäänitutkimus <40kg', sv: 'Officiell hjärtultraljudsundersökning hund <40kg', en: 'Official canine cardiac ultrasound examination <40kg' },
+  'price.cardiac.official.large': { fi: 'Koiran virallinen sydämen ultraäänitutkimus >40kg', sv: 'Officiell hjärtultraljudsundersökning hund >40kg', en: 'Official canine cardiac ultrasound examination >40kg' },
+  'price.cardiac.ultrasound': { fi: 'Sydämen ultraäänitutkimus', sv: 'Hjärtultraljudsundersökning', en: 'Heart ultrasound examination' },
   'price.cardiac.auscultation': { fi: 'Virallinen sydänauskultaatio', sv: 'Officiell hjärtauskultation', en: 'Official heart auscultation' },
   'price.cardiac.auscultation.combined': {
     fi: 'Virallinen sydänauskultaatio muun käynnin yhteydessä',
