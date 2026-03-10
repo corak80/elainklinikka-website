@@ -940,9 +940,9 @@ const translations = {
     en: 'Contact Us'
   },
   'article.diarrhea.contact.text': {
-    fi: 'Jos olet epävarma, soita meille (puh. 06-3217300) tai lähetä sähköpostia osoitteeseen elainklinikkasaari.vaasa@gmail.com — voit liittää mukaan valokuvia. Neuvomme mielellämme, onko eläinlääkärikäynti tarpeen.',
-    sv: 'Om du är osäker, ring oss (tfn 06-3217300) eller skicka e-post till elainklinikkasaari.vaasa@gmail.com — du kan bifoga foton. Vi ger gärna råd om ett veterinärbesök behövs.',
-    en: 'If you are unsure, give us a call (tel. 06-3217300) or send an email to elainklinikkasaari.vaasa@gmail.com — you can attach photos. We are happy to advise whether a visit is needed.'
+    fi: 'Jos olet epävarma, soita meille (puh. 06-3217300) tai lähetä sähköpostia osoitteeseen info@saarivet.fi — voit liittää mukaan valokuvia. Neuvomme mielellämme, onko eläinlääkärikäynti tarpeen.',
+    sv: 'Om du är osäker, ring oss (tfn 06-3217300) eller skicka e-post till info@saarivet.fi — du kan bifoga foton. Vi ger gärna råd om ett veterinärbesök behövs.',
+    en: 'If you are unsure, give us a call (tel. 06-3217300) or send an email to info@saarivet.fi — you can attach photos. We are happy to advise whether a visit is needed.'
   },
 
   // Article: PDA
@@ -1146,9 +1146,9 @@ const translations = {
     en: '#BrushChamp — Do You Brush Every Day?'
   },
   'article.brushing.challenge.text': {
-    fi: 'Eläinklinikka Saarella arvostamme omistajia, jotka sitoutuvat lemmikkinsä hampaiden päivittäiseen harjaamiseen. Jos harjaat lemmikkisi hampaat joka päivä, kerro siitä meille — olet ansainnut #BrushChamp-mitalin! Ota yhteyttä klinikalla tai sähköpostitse: elainklinikkasaari.vaasa@gmail.com.',
-    sv: 'På Djurklinik Saari uppskattar vi ägare som engagerar sig i daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: elainklinikkasaari.vaasa@gmail.com.',
-    en: 'At Eläinklinikka Saari we value owners who commit to daily tooth brushing. If you brush your pet\'s teeth every day, let us know — dedicated brushers receive the #BrushChamp medal! Contact us at the clinic or by email: elainklinikkasaari.vaasa@gmail.com.'
+    fi: 'Eläinklinikka Saarella arvostamme omistajia, jotka sitoutuvat lemmikkinsä hampaiden päivittäiseen harjaamiseen. Jos harjaat lemmikkisi hampaat joka päivä, kerro siitä meille — olet ansainnut #BrushChamp-mitalin! Ota yhteyttä klinikalla tai sähköpostitse: info@saarivet.fi.',
+    sv: 'På Djurklinik Saari uppskattar vi ägare som engagerar sig i daglig tandborstning av sitt husdjur. Om du borstar ditt husdjurs tänder varje dag, berätta för oss — hedersmedlemmar får #BrushChamp-medaljen! Kontakta oss på kliniken eller via e-post: info@saarivet.fi.',
+    en: 'At Eläinklinikka Saari we value owners who commit to daily tooth brushing. If you brush your pet\'s teeth every day, let us know — dedicated brushers receive the #BrushChamp medal! Contact us at the clinic or by email: info@saarivet.fi.'
   },
 
   // Article: PerioVive
