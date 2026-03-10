@@ -444,7 +444,7 @@ const translations = {
   'price.other.passport.combined': { fi: 'EU-passi muun käynnin yhteydessä', sv: 'EU-pass i samband med annat besök', en: 'EU Passport with another visit' },
   'price.other.chip': { fi: 'Mikrosirutus', sv: 'Mikrochipning', en: 'Microchipping' },
   'price.other.chip.combined': { fi: 'Mikrosirutus muun käynnin yhteydessä', sv: 'Mikrochipning i samband med annat besök', en: 'Microchipping with another visit' },
-  'price.other.nails': { fi: 'Kynsien lyhennys', sv: 'Nagelklippning', en: 'Nail trimming' },
+  'price.other.nails': { fi: 'Kynsien lyhennys', sv: 'Kloklippning', en: 'Nail trimming' },
   'price.other.euthcat': { fi: 'Kissa', sv: 'Katt', en: 'Cat' },
   'price.other.euthdog': { fi: 'Eutanasia koira', sv: 'Eutanasi hund', en: 'Euthanasia dog' },
 
@@ -457,7 +457,8 @@ const translations = {
   'price.ortho.cruciate.dog': { fi: 'Ristisideleikkaus lateraalisutuura koira', sv: 'Korsbandsoperation lateral sutur hund', en: 'Cruciate ligament lateral suture dog' },
   'price.ortho.tta.small': { fi: 'Ristisideleikkaus TTA <20kg', sv: 'Korsbandsoperation TTA <20kg', en: 'Cruciate ligament TTA <20kg' },
   'price.ortho.tta.large': { fi: 'Ristisideleikkaus TTA >20kg', sv: 'Korsbandsoperation TTA >20kg', en: 'Cruciate ligament TTA >20kg' },
-  'price.ortho.patella': { fi: 'Patellaluksaatio', sv: 'Patellaluxation', en: 'Patellar luxation' },
+  'price.ortho.patella.cat': { fi: 'Patellaluksaatio kissa', sv: 'Patellaluxation katt', en: 'Patellar luxation cat' },
+  'price.ortho.patella.dog': { fi: 'Patellaluksaatio koira', sv: 'Patellaluxation hund', en: 'Patellar luxation dog' },
   'price.ortho.femoral.cat': { fi: 'Reisiluunpään poisto kissa', sv: 'Lårbenshuvudresektion katt', en: 'Femoral head ostectomy cat' },
   'price.ortho.femoral.dog': { fi: 'Reisiluunpään poisto koira', sv: 'Lårbenshuvudresektion hund', en: 'Femoral head ostectomy dog' },
   'price.ortho.fracture.price': { fi: 'alk. 1,300 €', sv: 'fr. 1,300 €', en: 'from 1,300 €' },
