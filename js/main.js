@@ -29,9 +29,9 @@ const translations = {
   },
   'hero.title2': { fi: 'Saari', sv: 'Saari', en: 'Saari' },
   'hero.subtitle': {
-    fi: 'Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989.',
-    sv: 'Professionell och varm djursjukvård i Vasa sedan 1989.',
-    en: 'Professional and warm veterinary care in Vaasa since 1989.'
+    fi: 'Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989',
+    sv: 'Professionell och varm djursjukvård i Vasa sedan 1989',
+    en: 'Professional and warm veterinary care in Vaasa since 1989'
   },
   'hero.cta': { fi: 'Varaa aika', sv: 'Boka tid', en: 'Book Appointment' },
   'hero.services': { fi: 'Palvelumme', sv: 'Våra tjänster', en: 'Our Services' },
