@@ -4,6 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eläinklinikka Saari – Eläinlääkäri Vaasa | saarivet.fi</title>
+
+  <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-1FP203EM9Z');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FP203EM9Z"></script>
   <meta name="description" content="Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989 Hammashoito, kirurgia, sydäntutkimukset, ultraääni ja paljon muuta. Varaa aika!">
   <meta name="keywords" content="eläinlääkäri, Vaasa, eläinklinikka, eläinlääkäriasema, koira, kissa, hammashoito, kirurgia, sydäntutkimus, ultraääni, rokotus, veterinär, djurklinik">
   <link rel="canonical" href="https://saarivet.fi/">
@@ -1791,7 +1806,7 @@
           <p data-i18n="privacy.rights.full.text">Rekisteröidyllä on oikeus: (1) saada pääsy omiin tietoihinsa, (2) vaatia tietojen oikaisua, (3) vaatia tietojen poistamista, ellei säilyttämiselle ole lakisääteistä perustetta, (4) rajoittaa tietojen käsittelyä, (5) siirtää tiedot toiselle rekisterinpitäjälle (tietojen siirrettävyys), (6) vastustaa tietojen käsittelyä. Pyynnöt tulee osoittaa rekisteriasioiden yhteyshenkilölle. Rekisteröidyllä on myös oikeus tehdä valitus valvontaviranomaiselle: Tietosuojavaltuutetun toimisto, tietosuoja.fi.</p>
 
           <h4 data-i18n="privacy.digital.title">Digitaaliset palvelut</h4>
-          <p data-i18n="privacy.digital.text">Verkkosivusto ei käytä evästeitä eikä seurantateknologioita. Ajanvaraus tapahtuu ProvetCloud-järjestelmän kautta, jonka tietosuojasta vastaa Finnish Net Solutions Oy. WhatsApp-viestipalvelussa viestejä käsittelee tekoälypohjainen chatbot asiakaspalvelun tueksi.</p>
+          <p data-i18n="privacy.digital.text">Verkkosivusto käyttää Google Analytics -palvelua kävijäliikenteen analysointiin. Analytiikkaevästeet otetaan käyttöön vain käyttäjän suostumuksella. Ajanvaraus tapahtuu ProvetCloud-järjestelmän kautta, jonka tietosuojasta vastaa Finnish Net Solutions Oy. WhatsApp-viestipalvelussa viestejä käsittelee tekoälypohjainen chatbot asiakaspalvelun tueksi.</p>
 
           <h4 data-i18n="privacy.credit.title">Luottopäätöksen käsittely</h4>
           <p data-i18n="privacy.credit.text">Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.</p>
@@ -1839,5 +1854,72 @@
   </footer>
 
   <script src="js/main.js"></script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" style="display:none;">
+    <div class="cookie-consent-inner">
+      <p id="cookie-consent-text">Käytämme evästeitä sivuston kävijäliikenteen analysointiin Google Analyticsin avulla. Evästeitä käytetään vain, jos hyväksyt ne.</p>
+      <div class="cookie-consent-buttons">
+        <button id="cookie-accept" onclick="acceptCookies()">Hyväksy</button>
+        <button id="cookie-decline" onclick="declineCookies()">Hylkää</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var consent = localStorage.getItem('cookie_consent');
+      if (consent === 'accepted') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted',
+          'ad_storage': 'granted',
+          'ad_user_data': 'granted',
+          'ad_personalization': 'granted'
+        });
+      } else if (consent !== 'declined') {
+        document.getElementById('cookie-consent').style.display = 'flex';
+      }
+
+      var cookieTexts = {
+        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen analysointiin Google Analyticsin avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
+        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken med Google Analytics. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
+        en: { text: 'We use cookies to analyze site traffic with Google Analytics. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
+      };
+
+      function updateCookieText() {
+        var lang = localStorage.getItem('preferredLanguage') || 'fi';
+        var t = cookieTexts[lang] || cookieTexts.fi;
+        var el = document.getElementById('cookie-consent-text');
+        if (el) el.textContent = t.text;
+        var acceptBtn = document.getElementById('cookie-accept');
+        if (acceptBtn) acceptBtn.textContent = t.accept;
+        var declineBtn = document.getElementById('cookie-decline');
+        if (declineBtn) declineBtn.textContent = t.decline;
+      }
+      updateCookieText();
+
+      var origSetLang = window.setLanguage;
+      window.setLanguage = function(lang) {
+        if (origSetLang) origSetLang(lang);
+        updateCookieText();
+      };
+    })();
+
+    function acceptCookies() {
+      localStorage.setItem('cookie_consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+
+    function declineCookies() {
+      localStorage.setItem('cookie_consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
