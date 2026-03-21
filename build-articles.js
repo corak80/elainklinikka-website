@@ -448,9 +448,9 @@ function generateArticlePage(article, translations, specialContent) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-1FP203EM9Z');
+    gtag('config', 'G-92LHP2TK6N');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FP203EM9Z"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
 
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
