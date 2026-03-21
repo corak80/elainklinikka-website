@@ -17,8 +17,24 @@
     });
     gtag('js', new Date());
     gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
   <meta name="description" content="Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989 Hammashoito, kirurgia, sydäntutkimukset, ultraääni ja paljon muuta. Varaa aika!">
   <meta name="keywords" content="eläinlääkäri, Vaasa, eläinklinikka, eläinlääkäriasema, koira, kissa, hammashoito, kirurgia, sydäntutkimus, ultraääni, rokotus, veterinär, djurklinik">
   <link rel="canonical" href="https://saarivet.fi/">
@@ -1030,7 +1046,7 @@
             <div class="contact-icon">📞</div>
             <div class="contact-text">
               <strong data-i18n="contact.phone.label">Puhelin</strong>
-              <a href="tel:+35863217300">(06) 321 7300</a>
+              <a href="tel:+35863217300" onclick="return gtag_report_conversion('tel:+35863217300');">(06) 321 7300</a>
             </div>
           </div>
           <div class="contact-item">
@@ -1838,7 +1854,7 @@
         </div>
         <div class="footer-col">
           <h4 data-i18n="footer.contact">Yhteystiedot</h4>
-          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="tel:+35863217300" onclick="return gtag_report_conversion('tel:+35863217300');">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>

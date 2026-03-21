@@ -449,8 +449,24 @@ function generateArticlePage(article, translations, specialContent) {
     });
     gtag('js', new Date());
     gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -586,7 +602,7 @@ ${articleBody}        </div>
         </div>
         <div class="footer-col">
           <h4 data-i18n="footer.contact">Yhteystiedot</h4>
-          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="tel:+35863217300" onclick="return gtag_report_conversion('tel:+35863217300');">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
