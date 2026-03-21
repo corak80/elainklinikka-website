@@ -426,7 +426,9 @@ function generateArticlePage(article, translations, specialContent) {
   const canonicalUrl = `${BASE_URL}/articles/${article.slug}.html`;
   const articleBody = generateArticleBody(article, translations, specialContent);
   const dateStr = article.date || '2026';
-  const isoDate = '2026-01-01';
+  const today = new Date().toISOString().split('T')[0];
+  const isoDatePublished = '2026-01-01';
+  const isoDateModified = today;
 
   return `<!DOCTYPE html>
 <html lang="fi">
@@ -452,6 +454,10 @@ function generateArticlePage(article, translations, specialContent) {
 
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="sv" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="en" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
@@ -470,14 +476,14 @@ function generateArticlePage(article, translations, specialContent) {
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": ${JSON.stringify(title)},
     "description": ${JSON.stringify(description)},
     "image": "${BASE_URL}/images/clinic-about.jpg",
-    "datePublished": "${isoDate}",
-    "dateModified": "${isoDate}",
+    "datePublished": "${isoDatePublished}",
+    "dateModified": "${isoDateModified}",
     "author": {
       "@type": "Organization",
       "name": "Eläinklinikka Saari",
@@ -495,7 +501,31 @@ function generateArticlePage(article, translations, specialContent) {
       "@type": "WebPage",
       "@id": "${canonicalUrl}"
     }
-  }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Etusivu",
+        "item": "${BASE_URL}/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Artikkelit",
+        "item": "${BASE_URL}/#articles"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": ${JSON.stringify(title)},
+        "item": "${canonicalUrl}"
+      }
+    ]
+  }]
   </script>
 
   <link rel="stylesheet" href="../css/style.css">
