@@ -569,6 +569,12 @@ ul {
   cursor: pointer;
 }
 
+a.service-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .service-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 30px var(--color-shadow-hover);
@@ -1254,6 +1260,38 @@ ul {
   display: inline-block;
   max-width: 800px;
   margin: 0 auto var(--spacing-xl);
+}
+
+/* --- Service Page CTA --- */
+.service-icon-large {
+  font-size: 2.5rem;
+  display: block;
+}
+
+.service-cta-box {
+  max-width: 800px;
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-xl);
+  background: var(--color-bg-alt, #f8f8f8);
+  border-radius: var(--radius-md, 12px);
+  text-align: center;
+}
+
+.service-cta-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.service-cta-box p {
+  color: var(--color-text-light, #666);
+  margin-bottom: var(--spacing-md);
+}
+
+.service-cta-buttons {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* --- Related Articles --- */

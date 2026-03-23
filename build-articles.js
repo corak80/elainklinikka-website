@@ -941,7 +941,316 @@ ${cardsHtml}
 }
 
 // ──────────────────────────────────────────────
-// 7. Generate sitemap.xml
+// 7. Service landing pages
+// ──────────────────────────────────────────────
+const servicePages = [
+  {
+    slug: 'hammashoito',
+    title: 'Hammashoito koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Hammashoito',
+    metaDesc: 'Koiran ja kissan hammashoito Vaasassa. Hammaskiven poisto, hammasröntgen, hampaiden poistot. Kaikki toimenpiteet yleisanestesiassa. Eläinklinikka Saari.',
+    icon: '🦷',
+    sections: [
+      { heading: 'Miksi hammashoito on tärkeää?', text: 'Hammassairaudet ovat eläinten yleisimpiä terveysongelmia. Jo kolmen vuoden iässä valtaosalla koirista ja kissoista on hammaskiveä ja ientulehdusta. Hoitamattomana hammasvauriot etenevät äänettömästi — eläimet peittävät kipua instinktiivisesti, joten omistaja huomaa ongelman usein vasta kun se on edennyt pitkälle. Säännöllinen ammattimainen hammashoito pidentää lemmikin elinikää ja parantaa elämänlaatua merkittävästi.' },
+      { heading: 'Palvelumme', text: 'Klinikallamme tehdään kattavat hammashoidot yleisanestesiassa: hammaskiven poisto ultraäänilaitteella, hammasröntgentutkimukset (kaikki hampaat kuvataan digitaaliröntgenillä), hampaiden poistot, maitohampaiden poistot, parodontiitin hoito ja PerioVive-hyaluronihappogeelihoito. Jokainen hammastoimenpide sisältää täydellisen suun tutkimuksen ja hammaskartan.' },
+      { heading: 'Hammasröntgen — piilossa olevan näkeminen', text: 'Hammasröntgen on hammashoidon tärkein diagnostinen työkalu. Yli puolet hammassairauksista on näkymättömiä silmämääräisessä tutkimuksessa — juuritulehdukset, hammasresorptio, kystat ja luukato paljastuvat vasta röntgenkuvissa. Klinikallamme kuvataan kaikki hampaat osana jokaista hammastoimenpidettä.' },
+      { heading: 'Miten toimenpide etenee?', text: 'Ennen toimenpidettä potilaalle tehdään terveystarkastus ja tarvittaessa verikokeet. Toimenpide tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Anestesian aikana valvomme jatkuvasti sydämen sykettä, happisaturaatiota, verenpainetta ja lämpötilaa. Toimenpiteessä poistetaan hammaskivi, kuvataan hammasröntgenkuvat, hoidetaan sairaat hampaat ja tarvittaessa poistetaan vaurioituneet hampaat. Kotiutus tapahtuu yleensä samana päivänä.' },
+    ],
+    relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
+    schemaService: 'Veterinary Dental Care'
+  },
+  {
+    slug: 'sydantutkimukset',
+    title: 'Sydäntutkimukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Sydäntutkimukset',
+    metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Ajoissa aloitettu hoito pidentää elinikää. Eläinklinikka Saari.',
+    icon: '❤️',
+    sections: [
+      { heading: 'Sydänsairaudet lemmikeillä', text: 'Sydänsairaudet ovat yleisiä erityisesti tietyissä koira- ja kissaroduissa. Cavalier kingcharlesinspanielilla, dobermanneilla ja Maine Coon -kissoilla on perinnöllinen alttius sydänsairauksille. Ajoissa aloitettu lääkitys voi pidentää lemmikin elinikää huomattavasti — siksi säännölliset sydäntarkastukset ovat tärkeitä etenkin riskiroduilla.' },
+      { heading: 'Tutkimusmenetelmät', text: 'Klinikallamme on kattavat kardiologiset tutkimusmahdollisuudet. Sydämen ultraäänitutkimus (ekokardiografia) on tärkein sydänsairauksien diagnostinen menetelmä — sillä nähdään sydämen rakenne, kammioiden koko, läppien toiminta ja verenvirtaus reaaliajassa. EKG-tutkimuksella mitataan sydämen sähköistä toimintaa ja tunnistetaan rytmihäiriöt. Holter-tutkimuksella seurataan sydämen rytmiä 24 tunnin ajan kotioloissa.' },
+      { heading: 'Viralliset sydäntutkimukset', text: 'Klinikalla on Suomen Kennelliiton myöntämät viralliset sydämen auskultaatio-oikeudet. Teemme virallisia sydämen auskultaatio- ja ultraäänitutkimuksia jalostustarkastusten yhteydessä. Viralliset tulokset kirjataan Kennelliiton tietokantaan.' },
+      { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Oireita voivat olla yskiminen (erityisesti levossa tai rasituksen jälkeen), rasituksen sietokyvyn heikkeneminen, tiheä hengitys, pyörtyily tai äkillinen väsähtäminen. Riskirotujen kohdalla suosittelemme säännöllisiä sydäntarkastuksia jo nuorella iällä, vaikka oireita ei olisi. Varaa aika sydäntutkimukseen — varhainen diagnoosi ja hoito tekevät merkittävän eron.' },
+    ],
+    relatedArticles: ['avoin-valtimotiehyt-pda', 'anestesiaturvallisuus'],
+    schemaService: 'Veterinary Cardiology'
+  },
+  {
+    slug: 'kirurgia',
+    title: 'Kirurgia koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Kirurgia',
+    metaDesc: 'Eläinkirurgia Vaasassa: pehmytkudoskirurgia, ortopedia, TTA, lateral suture, murtumaleikkaukset. Turvallinen anestesia ja kattava kivunlievitys. Eläinklinikka Saari.',
+    icon: '🔪',
+    sections: [
+      { heading: 'Pehmytkudoskirurgia', text: 'Klinikallamme tehdään laaja valikoima pehmytkudoskirurgisia toimenpiteitä: sterilisaatiot ja kastraatiot, keisarinleikkaukset, kasvainten poistot, vierasesineleikkaukset (mahalaukusta tai suolistosta), virtsakivileikkaukset, pernapoistot sekä silmä- ja korvaleikkaukset. Jokainen toimenpide suunnitellaan yksilöllisesti potilaan tarpeiden mukaan.' },
+      { heading: 'Ortopedinen kirurgia', text: 'Eturistisiteen korjausleikkaukset ovat yleisin ortopedinen toimenpide koirilla. Klinikallamme käytetään kahta menetelmää: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla ja sopii erityisesti pienille koirille ja kissoille. TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa pysyvästi ja on hyvä vaihtoehto aktiivisille ja suuremmille koirille. Lisäksi teemme murtumaleikkauksia, amputaatioita ja reisiluunpään poistoja.' },
+      { heading: 'Turvallinen anestesia', text: 'Anestesiaturvallisuus on meille sydämen asia. Käytämme inhalaatioanestesiaa ja jatkuvaa monitorointia: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.' },
+      { heading: 'Varaa aika konsultaatioon', text: 'Jos lemmikkisi tarvitsee kirurgista arviota, varaa aika konsultaatioon. Tutkimme potilaan, arvioimme toimenpiteiden tarpeen ja suunnittelemme parhaan hoitolinjan yhdessä omistajan kanssa. Hoidot annetaan samalla klinikalla tuttujen eläinlääkäreiden toimesta — lemmikin ei tarvitse matkustaa muualle.' },
+    ],
+    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
+    schemaService: 'Veterinary Surgery'
+  },
+  {
+    slug: 'tahystykset',
+    title: 'Tähystystutkimukset — gastroskopia, otoskopia, rhinoskopia | Eläinklinikka Saari, Vaasa',
+    h1: 'Tähystystutkimukset',
+    metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Vähemmän invasiivinen diagnostiikka. Eläinklinikka Saari.',
+    icon: '📷',
+    sections: [
+      { heading: 'Mitä tähystystutkimukset ovat?', text: 'Tähystystutkimukset (endoskopia) ovat minimaalisesti invasiivisia tutkimusmenetelmiä, joissa ohut kameraskooppi viedään kehon luonnollisten aukkojen kautta sisäelinten tutkimiseen. Menetelmä mahdollistaa tarkan diagnostiikan ilman avokirurgiaa, ja usein myös hoidon samalla kertaa — esimerkiksi vierasesineiden poiston mahalaukusta.' },
+      { heading: 'Gastroskopia', text: 'Vatsalaukun ja suoliston tähystyksellä tutkitaan ja hoidetaan ruuansulatuskanavan ongelmia. Yleisin indikaatio on vierasesineen poisto — tähystyksellä esimerkiksi sukat, lelut ja luun kappaleet saadaan usein poistettua ilman vatsaleikkausta. Lisäksi otetaan koepalojen näytteitä kroonisten suolistosairauksien (IBD, lymfooma) diagnostiikkaan.' },
+      { heading: 'Video-otoskopia', text: 'Korvien tähystystutkimus suurennetulla videokuvalla. Näkyvyys korvakäytävään on moninkertainen perinteiseen otoskooppiin verrattuna. Mahdollistaa korvakäytävän perusteellisen puhdistuksen ja huuhtelun näkökontrollissa. Erityisen arvokas kroonisten ja toistuvien korvatulehdusten tutkimuksessa ja hoidossa.' },
+      { heading: 'Muut tähystykset', text: 'Rhinoskopia (nenäontelon tähystys) vierasesineille, kasvaimille ja krooniselle nuhalle. Kystoskopia (virtsateiden tähystys) virtsarakon ongelmien tutkimiseen. Bronkoskopia (hengitysteiden tähystys) kroonisen yskän ja hengitystieoireiden diagnostiikkaan.' },
+    ],
+    relatedArticles: ['gastroskopia', 'video-otoskopia', 'ibd-lymfooma', 'anestesiaturvallisuus'],
+    schemaService: 'Veterinary Endoscopy'
+  },
+  {
+    slug: 'rokotukset',
+    title: 'Rokotukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Rokotukset',
+    metaDesc: 'Koiran ja kissan rokotukset Vaasassa. Pentujen rokotusohjelma, aikuisten tehosterokotukset, rabies ja matkustusasiakirjat. Eläinklinikka Saari.',
+    icon: '💉',
+    sections: [
+      { heading: 'Miksi rokotus on tärkeää?', text: 'Rokotus on tärkein ennaltaehkäisevän terveydenhuollon muoto lemmikeille. Rokotukset suojaavat vakavasti sairauksilta, jotka voivat olla hengenvaarallisia tai jopa kuolemaan johtavia. Suomessa koirien ja kissojen rokotusohjelma perustuu Suomen Eläinlääkäriliiton suosituksiin.' },
+      { heading: 'Koirien rokotukset', text: 'Koiranpennut rokotetaan ensimmäisen kerran 12 viikon iässä ja tehosterokotus annetaan 16 viikon iässä. Perusrokotus sisältää suojan penikkatautia, parvovirusta ja maksatulehdusta vastaan. Rabiesrokotus annetaan 12 viikon iästä alkaen. Kennelyskärokotus suositellaan koirille, jotka ovat paljon tekemisissä muiden koirien kanssa. Aikuisille koirille tehosterokotus annetaan 1–3 vuoden välein.' },
+      { heading: 'Kissojen rokotukset', text: 'Kissanpennut rokotetaan 12 ja 16 viikon iässä. Perusrokotus sisältää suojan kissaruttoa, herpesvirusta ja calicivirusta vastaan. Rabiesrokotus on pakollinen ulkokissoille ja kaikille ulkomaille matkustaville kissoille. Aikuisille kissoille tehosterokotus annetaan 1–3 vuoden välein riippuen rokotteesta ja kissan elintavoista.' },
+      { heading: 'Drop-in rokotukset ja matkustusasiakirjat', text: 'Klinikallamme on drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00. Laadimme myös EU-lemmikkieläinpassit ja matkustusasiakirjat ulkomaille matkustaville lemmikeille. Matkustusasiakirjojen vaatimukset vaihtelevat kohdemaan mukaan — ota yhteyttä hyvissä ajoin ennen matkaa.' },
+    ],
+    relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
+    schemaService: 'Veterinary Vaccination'
+  },
+  {
+    slug: 'ultraaani',
+    title: 'Ultraäänitutkimukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Ultraäänitutkimukset',
+    metaDesc: 'Ultraäänitutkimukset Vaasassa: vatsan ultraääni, sydämen ultraääni, tiineystutkimus. Laadukas diagnostiikka lemmikeille. Eläinklinikka Saari.',
+    icon: '📡',
+    sections: [
+      { heading: 'Ultraääni diagnostiikan kulmakivenä', text: 'Ultraäänitutkimus on yksi eläinlääketieteen tärkeimmistä kuvantamismenetelmistä. Se on kivuton, ei-invasiivinen ja ei altista potilasta säteilylle. Tutkimus tehdään yleensä hereillä olevalle potilaalle — vain harva tarvitsee kevyen rauhoituksen.' },
+      { heading: 'Vatsan ultraääni', text: 'Vatsan alueen ultraäänellä tutkitaan sisäelinten rakenne ja mahdolliset muutokset: maksa, perna, munuaiset, lisämunuaiset, virtsarakko, mahalaukku, suolisto, haima ja imusolmukkeet. Yleisiä indikaatioita ovat oksentelu, ripuli, painon lasku, virtsaamisongelmat, kasvainepäily ja yleisvoinnin lasku. Ultraääniohjatulla näytteenotolla voidaan ottaa koepalojen näytteitä suoraan muuttuneesta kudoksesta.' },
+      { heading: 'Sydämen ultraääni', text: 'Sydämen ultraääni (ekokardiografia) on sydänsairauksien tärkein tutkimusmenetelmä. Tutkimuksessa arvioidaan sydämen kammioiden koko, seinämien paksuus, läppien toiminta ja verenvirtaus. Tutkimus on välttämätön sydänlääkityksen aloittamiselle ja seurannalle. Klinikallamme on viralliset oikeudet jalostukseen liittyviin sydämen ultraäänitutkimuksiin.' },
+      { heading: 'Tiineystutkimus', text: 'Ultraäänellä voidaan todeta tiineys noin raskauspäivästä 24 alkaen. Tutkimuksella arvioidaan sikiöiden elinvoimaisuus ja kehitys. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin raskauspäivästä 50 lähtien.' },
+    ],
+    relatedArticles: ['avoin-valtimotiehyt-pda', 'ibd-lymfooma', 'munuaisten-vajaatoiminta'],
+    schemaService: 'Veterinary Ultrasound'
+  },
+];
+
+function generateServicePage(service, translations) {
+  const t = (key) => translations[key]?.fi || '';
+  const today = new Date().toISOString().split('T')[0];
+  const canonicalUrl = `${BASE_URL}/palvelut/${service.slug}/`;
+
+  // Build body sections
+  let sectionsHtml = '';
+  for (const section of service.sections) {
+    sectionsHtml += `
+          <h2>${escapeHtml(section.heading)}</h2>
+          <p>${escapeHtml(section.text)}</p>`;
+  }
+
+  // Build related articles
+  let relatedHtml = '';
+  if (service.relatedArticles && service.relatedArticles.length > 0) {
+    let cards = '';
+    for (const slug of service.relatedArticles) {
+      const article = articles.find(a => a.slug === slug);
+      if (!article) continue;
+      const title = t(article.titleKey);
+      const tag = t(article.tagKey);
+      const intro = t(`${article.prefix}.intro`);
+      const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
+      cards += `
+          <a href="../../articles/${slug}.html" class="related-article-card">
+            <span class="article-tag">${escapeHtml(tag)}</span>
+            <h3>${escapeHtml(title)}</h3>
+            <p>${escapeHtml(shortIntro)}</p>
+          </a>`;
+    }
+    relatedHtml = `
+      <div class="related-articles">
+        <h2>Aiheeseen liittyvät artikkelit</h2>
+        <div class="related-articles-grid">${cards}
+        </div>
+      </div>`;
+  }
+
+  return `<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${escapeHtml(service.title)}</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script>
+  function gtag_report_conversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR'
+    });
+  }
+  </script>
+
+  <meta name="description" content="${escapeAttr(service.metaDesc)}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:title" content="${escapeAttr(service.h1)} — Eläinklinikka Saari">
+  <meta property="og:description" content="${escapeAttr(service.metaDesc)}">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeAttr(service.h1)} — Eläinklinikka Saari">
+  <meta name="twitter:description" content="${escapeAttr(service.metaDesc)}">
+  <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": ${JSON.stringify(service.h1)},
+    "description": ${JSON.stringify(service.metaDesc)},
+    "url": "${canonicalUrl}",
+    "lastReviewed": "${today}",
+    "mainEntity": {
+      "@type": "MedicalProcedure",
+      "name": "${service.schemaService}",
+      "procedureType": "http://schema.org/NoninvasiveProcedure"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Eläinklinikka Saari",
+      "url": "${BASE_URL}"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Etusivu",
+        "item": "${BASE_URL}/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palvelut",
+        "item": "${BASE_URL}/#services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": ${JSON.stringify(service.h1)},
+        "item": "${canonicalUrl}"
+      }
+    ]
+  }]
+  </script>
+
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" type="image/png" href="../../images/logo.png">
+</head>
+<body class="article-page">
+
+  <header class="header">
+    <div class="container">
+      <a href="../../" class="logo">
+        <div class="logo-icon"><img src="../../images/logo.png" alt="Eläinklinikka Saari"></div>
+      </a>
+      <nav class="nav">
+        <div class="nav-actions">
+          <a href="../../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section articles-section">
+    <div class="container">
+      <article class="article-card">
+        <div class="article-header">
+          <span class="service-icon-large">${service.icon}</span>
+        </div>
+        <h1>${escapeHtml(service.h1)}</h1>
+        <div class="article-content">${sectionsHtml}
+        </div>
+      </article>
+
+      <div class="service-cta-box">
+        <h2>Varaa aika</h2>
+        <p>Soita meille tai varaa aika verkosta.</p>
+        <div class="service-cta-buttons">
+          <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-outline">Varaa verkossa</a>
+        </div>
+      </div>
+${relatedHtml}
+      <a href="../../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pikalinkit</h4>
+          <a href="../../#about">Klinikka</a>
+          <a href="../../#services">Palvelut</a>
+          <a href="../../#team">Henkilökunta</a>
+          <a href="../../#prices">Hinnasto</a>
+          <a href="../../#wildlife">Wildlife</a>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
+// 8. Generate sitemap.xml
 // ──────────────────────────────────────────────
 function generateSitemap() {
   const today = new Date().toISOString().split('T')[0];
@@ -960,6 +1269,16 @@ function generateSitemap() {
     <priority>0.9</priority>
   </url>
 `;
+
+  for (const service of servicePages) {
+    xml += `  <url>
+    <loc>${BASE_URL}/palvelut/${service.slug}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+  }
 
   for (const article of articles) {
     xml += `  <url>
@@ -1020,6 +1339,18 @@ function main() {
     console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${title.substring(0, 60)}...`);
   }
 
+  // Generate service landing pages
+  console.log('\nBuilding service pages...');
+  for (const service of servicePages) {
+    const serviceDir = path.join(ROOT, 'palvelut', service.slug);
+    if (!fs.existsSync(serviceDir)) {
+      fs.mkdirSync(serviceDir, { recursive: true });
+    }
+    const html = generateServicePage(service, translations);
+    fs.writeFileSync(path.join(serviceDir, 'index.html'), html, 'utf-8');
+    console.log(`  palvelut/${service.slug}/index.html - ${service.h1}`);
+  }
+
   // Generate article index page
   const artikkelitDir = path.join(ROOT, 'artikkelit');
   if (!fs.existsSync(artikkelitDir)) {
@@ -1033,7 +1364,7 @@ function main() {
   console.log('\nGenerating sitemap.xml...');
   const sitemap = generateSitemap();
   fs.writeFileSync(SITEMAP_PATH, sitemap, 'utf-8');
-  console.log(`  Sitemap updated with ${articles.length + 2} URLs`);
+  console.log(`  Sitemap updated with ${articles.length + servicePages.length + 2} URLs`);
 
   console.log(`\nDone! Generated ${count} article pages in articles/`);
 }
