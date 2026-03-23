@@ -302,6 +302,67 @@ function loadTranslations() {
 }
 
 // ──────────────────────────────────────────────
+// 2b. Related articles map (manual cross-links for SEO)
+// ──────────────────────────────────────────────
+const relatedArticles = {
+  'tta-leikkaus': ['lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
+  'lateral-suture': ['tta-leikkaus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
+  'video-otoskopia': ['gastroskopia', 'ruoka-allergiat', 'anestesiaturvallisuus'],
+  'kipulääkeinfuusio': ['anestesiaturvallisuus', 'hypotermia', 'tta-leikkaus'],
+  'ripuli': ['ruoka-allergiat', 'viljaton-ruoka', 'gastroskopia'],
+  'avoin-valtimotiehyt-pda': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
+  'hampaiden-harjaus': ['hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
+  'viljaton-ruoka': ['ruoka-allergiat', 'ripuli', 'ibd-lymfooma'],
+  'periovive': ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat'],
+  'yksityinen-klinikka': ['kissaystävällinen-klinikka', 'anestesiaturvallisuus', 'rokotukset'],
+  'ruoka-allergiat': ['viljaton-ruoka', 'ripuli', 'ibd-lymfooma'],
+  'kilpirauhasen-liikatoiminta': ['munuaisten-vajaatoiminta', 'rokotukset', 'anestesiaturvallisuus'],
+  'munuaisten-vajaatoiminta': ['kilpirauhasen-liikatoiminta', 'rokotukset', 'ruoka-allergiat'],
+  'kyynpurema': ['kohtutulehdus', 'anestesiaturvallisuus', 'ripuli'],
+  'kohtutulehdus': ['kyynpurema', 'anestesiaturvallisuus', 'rokotukset'],
+  'siili': ['kissaystävällinen-klinikka', 'yksityinen-klinikka'],
+  'kissaystävällinen-klinikka': ['hammasresorptio', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
+  'puhkeamattomat-hampaat': ['hammasresorptio', 'hampaiden-harjaus', 'periovive'],
+  'gastroskopia': ['video-otoskopia', 'ripuli', 'ibd-lymfooma'],
+  'hammasresorptio': ['puhkeamattomat-hampaat', 'hampaiden-harjaus', 'periovive'],
+  'rokotukset': ['kissaystävällinen-klinikka', 'kyynpurema', 'yksityinen-klinikka'],
+  'ibd-lymfooma': ['gastroskopia', 'ruoka-allergiat', 'anestesiaturvallisuus'],
+  'hypotermia': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'avoin-valtimotiehyt-pda'],
+  'anestesiaturvallisuus': ['kipulääkeinfuusio', 'hypotermia', 'klinikkaeläinhoitaja'],
+  'klinikkaeläinhoitaja': ['anestesiaturvallisuus', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
+};
+
+function generateRelatedArticlesHtml(currentSlug, translations) {
+  const related = relatedArticles[currentSlug];
+  if (!related || related.length === 0) return '';
+
+  const t = (key) => translations[key]?.fi || '';
+
+  let cards = '';
+  for (const slug of related) {
+    const article = articles.find(a => a.slug === slug);
+    if (!article) continue;
+    const title = t(article.titleKey);
+    const tag = t(article.tagKey);
+    const intro = t(`${article.prefix}.intro`);
+    const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
+    cards += `
+        <a href="${slug}.html" class="related-article-card">
+          <span class="article-tag">${escapeHtml(tag)}</span>
+          <h3>${escapeHtml(title)}</h3>
+          <p>${escapeHtml(shortIntro)}</p>
+        </a>`;
+  }
+
+  return `
+      <div class="related-articles">
+        <h2>Lue myös</h2>
+        <div class="related-articles-grid">${cards}
+        </div>
+      </div>`;
+}
+
+// ──────────────────────────────────────────────
 // 3. Extract special article content from index.html
 // ──────────────────────────────────────────────
 function extractSpecialContent(indexHtml) {
@@ -321,14 +382,14 @@ function extractSpecialContent(indexHtml) {
   const nestCtaMatch = indexHtml.match(/<p data-i18n="article\.hedgehog\.nest\.cta" data-i18n-html>[\s\S]*?<\/p>/);
 
   // Hedgehog injured section
-  const injuredTitleMatch = indexHtml.match(/<h4 data-i18n="article\.hedgehog\.injured\.title">[\s\S]*?<\/h4>/);
+  const injuredTitleMatch = indexHtml.match(/<h2 data-i18n="article\.hedgehog\.injured\.title">[\s\S]*?<\/h2>/);
   const injuredTextMatch = indexHtml.match(/<p data-i18n="article\.hedgehog\.injured\.text">[\s\S]*?<\/p>/);
 
   // Hedgehog size comparison image
   const hedgehogSizeImg = indexHtml.match(/<div style="margin: var\(--spacing-lg\) 0;">\s*<img src="images\/wildlife-hedgehog-size\.jpg"[\s\S]*?<\/div>/);
 
   // Hedgehog ecology section
-  const ecologyTitleMatch = indexHtml.match(/<h4 data-i18n="article\.hedgehog\.ecology\.title">[\s\S]*?<\/h4>/);
+  const ecologyTitleMatch = indexHtml.match(/<h2 data-i18n="article\.hedgehog\.ecology\.title">[\s\S]*?<\/h2>/);
   const ecologyTextMatch = indexHtml.match(/<p data-i18n="article\.hedgehog\.ecology\.text">[\s\S]*?<\/p>/);
 
   // Hedgehog photo caption
@@ -371,7 +432,7 @@ function generateArticleBody(article, translations, specialContent) {
     if (suffix === 'intro') {
       html += `          <p data-i18n="${key}">${content}</p>\n`;
     } else if (suffix.endsWith('.title')) {
-      html += `\n          <h4 data-i18n="${key}">${content}</h4>\n`;
+      html += `\n          <h2 data-i18n="${key}">${content}</h2>\n`;
     } else {
       if (isHtml(suffix)) {
         html += `          <p data-i18n="${key}" data-i18n-html>${content}</p>\n`;
@@ -425,6 +486,7 @@ function generateArticlePage(article, translations, specialContent) {
 
   const canonicalUrl = `${BASE_URL}/articles/${article.slug}.html`;
   const articleBody = generateArticleBody(article, translations, specialContent);
+  const relatedHtml = generateRelatedArticlesHtml(article.slug, translations);
   const dateStr = article.date || '2026';
   const today = new Date().toISOString().split('T')[0];
   const isoDatePublished = '2026-01-01';
@@ -466,9 +528,6 @@ function generateArticlePage(article, translations, specialContent) {
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
   <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="sv" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="en" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
@@ -527,7 +586,7 @@ function generateArticlePage(article, translations, specialContent) {
         "@type": "ListItem",
         "position": 2,
         "name": "Artikkelit",
-        "item": "${BASE_URL}/#articles"
+        "item": "${BASE_URL}/artikkelit/"
       },
       {
         "@type": "ListItem",
@@ -575,7 +634,7 @@ ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
         <div class="article-content">
 ${articleBody}        </div>
       </article>
-
+${relatedHtml}
       <a href="../" class="btn btn-secondary articles-back" data-i18n="articles.back">\u2190 Takaisin etusivulle</a>
     </div>
   </section>
@@ -689,7 +748,200 @@ ${articleBody}        </div>
 }
 
 // ──────────────────────────────────────────────
-// 6. Generate sitemap.xml
+// 6. Generate article index page (artikkelit/index.html)
+// ──────────────────────────────────────────────
+function generateArticleIndex(translations) {
+  const t = (key) => translations[key]?.fi || '';
+  const today = new Date().toISOString().split('T')[0];
+
+  // Group articles by category
+  const categoryLabels = {
+    dental: 'Hammashoito',
+    surgery: 'Kirurgia ja anestesia',
+    cardiology: 'Kardiologia',
+    endoscopy: 'Tähystykset',
+    health: 'Terveys ja sairaudet',
+    emergency: 'Päivystys',
+    wildlife: 'Wildlife',
+    clinic: 'Klinikka'
+  };
+
+  const categoryOrder = ['dental', 'surgery', 'cardiology', 'endoscopy', 'health', 'emergency', 'wildlife', 'clinic'];
+  const grouped = {};
+  for (const article of articles) {
+    const cat = article.category || 'health';
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(article);
+  }
+
+  let cardsHtml = '';
+  for (const cat of categoryOrder) {
+    if (!grouped[cat]) continue;
+    cardsHtml += `\n        <h2>${categoryLabels[cat] || cat}</h2>\n        <div class="article-index-grid">\n`;
+    for (const article of grouped[cat]) {
+      const title = t(article.titleKey);
+      const intro = t(`${article.prefix}.intro`);
+      const shortIntro = intro.length > 150 ? intro.substring(0, 147) + '...' : intro;
+      cardsHtml += `          <a href="../articles/${article.slug}.html" class="article-index-card">
+            <h3>${escapeHtml(title)}</h3>
+            <p>${escapeHtml(shortIntro)}</p>
+          </a>\n`;
+    }
+    cardsHtml += `        </div>\n`;
+  }
+
+  return `<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikkelit — eläinlääketieteelliset artikkelit | Eläinklinikka Saari</title>
+
+  <!-- Google Analytics: Consent Mode v2 -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script>
+  function gtag_report_conversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR'
+    });
+  }
+  </script>
+
+  <meta name="description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta. Eläinklinikka Saari, Vaasa.">
+  <link rel="canonical" href="${BASE_URL}/artikkelit/">
+  <link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/artikkelit/">
+  <meta property="og:title" content="Artikkelit — Eläinklinikka Saari">
+  <meta property="og:description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta.">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Artikkelit — Eläinklinikka Saari">
+  <meta name="twitter:description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset ja paljon muuta.">
+  <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Artikkelit",
+    "description": "Eläinlääketieteelliset artikkelit Eläinklinikka Saarelta",
+    "url": "${BASE_URL}/artikkelit/",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Eläinklinikka Saari",
+      "url": "${BASE_URL}"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Etusivu",
+        "item": "${BASE_URL}/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Artikkelit",
+        "item": "${BASE_URL}/artikkelit/"
+      }
+    ]
+  }]
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body class="article-page">
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari"></div>
+      </a>
+      <nav class="nav">
+        <div class="nav-actions">
+          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section articles-section">
+    <div class="container">
+      <div class="section-header">
+        <h1>Artikkelit</h1>
+        <p>Eläinlääketieteelliset artikkelit ammattilaisilta</p>
+      </div>
+${cardsHtml}
+      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pikalinkit</h4>
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#prices">Hinnasto</a>
+          <a href="../#wildlife">Wildlife</a>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
+// 7. Generate sitemap.xml
 // ──────────────────────────────────────────────
 function generateSitemap() {
   const today = new Date().toISOString().split('T')[0];
@@ -700,6 +952,12 @@ function generateSitemap() {
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>${BASE_URL}/artikkelit/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 `;
 
@@ -762,11 +1020,20 @@ function main() {
     console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${title.substring(0, 60)}...`);
   }
 
+  // Generate article index page
+  const artikkelitDir = path.join(ROOT, 'artikkelit');
+  if (!fs.existsSync(artikkelitDir)) {
+    fs.mkdirSync(artikkelitDir, { recursive: true });
+  }
+  const indexPage = generateArticleIndex(translations);
+  fs.writeFileSync(path.join(artikkelitDir, 'index.html'), indexPage, 'utf-8');
+  console.log('  Generated artikkelit/index.html');
+
   // Generate sitemap
   console.log('\nGenerating sitemap.xml...');
   const sitemap = generateSitemap();
   fs.writeFileSync(SITEMAP_PATH, sitemap, 'utf-8');
-  console.log(`  Sitemap updated with ${articles.length + 1} URLs`);
+  console.log(`  Sitemap updated with ${articles.length + 2} URLs`);
 
   console.log(`\nDone! Generated ${count} article pages in articles/`);
 }
