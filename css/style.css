@@ -1250,6 +1250,13 @@ a.service-card-link {
   color: var(--color-primary-dark);
 }
 
+.article-byline {
+  font-size: 0.85rem;
+  color: var(--color-text-light, #666);
+  margin-bottom: var(--spacing-md);
+  font-style: italic;
+}
+
 .article-content p {
   margin-bottom: var(--spacing-sm);
   line-height: 1.7;

@@ -363,6 +363,50 @@ function generateRelatedArticlesHtml(currentSlug, translations) {
 }
 
 // ──────────────────────────────────────────────
+// 2c. FAQ schema generator — extracts Q&A pairs from article sections
+// ──────────────────────────────────────────────
+function generateFaqSchema(article, translations) {
+  const t = (key) => translations[key]?.fi || '';
+  const faqPairs = [];
+
+  for (let i = 0; i < article.sections.length; i++) {
+    const suffix = article.sections[i];
+    if (suffix.endsWith('.title') && i + 1 < article.sections.length) {
+      const nextSuffix = article.sections[i + 1];
+      if (nextSuffix.endsWith('.text')) {
+        const question = t(`${article.prefix}.${suffix}`);
+        let answer = t(`${article.prefix}.${nextSuffix}`);
+        if (question && answer) {
+          // Truncate answer to 300 chars for schema
+          if (answer.length > 300) answer = answer.substring(0, 297) + '...';
+          faqPairs.push({ question, answer });
+        }
+      }
+    }
+  }
+
+  if (faqPairs.length < 2) return ''; // Need at least 2 Q&A pairs
+
+  const items = faqPairs.map(pair => `    {
+      "@type": "Question",
+      "name": ${JSON.stringify(pair.question)},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ${JSON.stringify(pair.answer)}
+      }
+    }`).join(',\n');
+
+  return `,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+${items}
+    ]
+  }`;
+}
+
+// ──────────────────────────────────────────────
 // 3. Extract special article content from index.html
 // ──────────────────────────────────────────────
 function extractSpecialContent(indexHtml) {
@@ -487,6 +531,7 @@ function generateArticlePage(article, translations, specialContent) {
   const canonicalUrl = `${BASE_URL}/articles/${article.slug}.html`;
   const articleBody = generateArticleBody(article, translations, specialContent);
   const relatedHtml = generateRelatedArticlesHtml(article.slug, translations);
+  const faqSchema = generateFaqSchema(article, translations);
   const dateStr = article.date || '2026';
   const today = new Date().toISOString().split('T')[0];
   const isoDatePublished = '2026-01-01';
@@ -555,9 +600,14 @@ function generateArticlePage(article, translations, specialContent) {
     "datePublished": "${isoDatePublished}",
     "dateModified": "${isoDateModified}",
     "author": {
-      "@type": "Organization",
-      "name": "Eläinklinikka Saari",
-      "url": "${BASE_URL}"
+      "@type": "Person",
+      "name": "Assaf Wydra",
+      "jobTitle": "Eläinlääkäri, toimitusjohtaja",
+      "worksFor": {
+        "@type": "VeterinaryHospital",
+        "name": "Eläinklinikka Saari",
+        "url": "${BASE_URL}"
+      }
     },
     "publisher": {
       "@type": "Organization",
@@ -595,7 +645,7 @@ function generateArticlePage(article, translations, specialContent) {
         "item": "${canonicalUrl}"
       }
     ]
-  }]
+  }${faqSchema}]
   </script>
 
   <link rel="stylesheet" href="../css/style.css">
@@ -631,6 +681,7 @@ function generateArticlePage(article, translations, specialContent) {
           <span class="article-tag" data-i18n="${article.tagKey}">${tag}</span>
 ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
         <h1 data-i18n="${article.titleKey}">${title}</h1>
+        <div class="article-byline">Eläinlääkäri Assaf Wydra, Eläinklinikka Saari</div>
         <div class="article-content">
 ${articleBody}        </div>
       </article>
@@ -1033,6 +1084,96 @@ const servicePages = [
     ],
     relatedArticles: ['avoin-valtimotiehyt-pda', 'ibd-lymfooma', 'munuaisten-vajaatoiminta'],
     schemaService: 'Veterinary Ultrasound'
+  },
+  {
+    slug: 'ihotaudit',
+    title: 'Ihotaudit ja allergiat koirilla ja kissoilla — Eläinklinikka Saari, Vaasa',
+    h1: 'Ihotaudit ja allergiat',
+    metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
+    icon: '🔬',
+    sections: [
+      { heading: 'Yleisimmät iho-ongelmat', text: 'Ihotaudit ovat yksi yleisimmistä syistä hakeutua eläinlääkäriin. Joka kymmenennellä suomalaisella koiralla on allergioita, jotka usein oireilevat ihotulehduksina ja korvatulehduksina. Tyypillisiä oireita ovat tassujen nuoleminen, korvien raapiminen, kasvojen hankaaminen, vatsan alueen punoitus ja toistuva korvatulehdus.' },
+      { heading: 'Allergian tutkiminen', text: 'Allergiaa epäiltäessä pyritään ensin poissulkemaan ruoka-aineet eliminaatiodieetillä. Jos ruoka-allergia suljetaan pois, kyseessä voi olla atooppinen ihottuma (ympäristöallergia). Tarvittaessa otetaan allergiaverinäytteet, joilla voidaan tunnistaa allergiaa aiheuttavat aineet. Iho- ja korvanäytteitä tutkitaan klinikan omassa laboratoriossa.' },
+      { heading: 'Korvatulehdukset', text: 'Toistuvat korvatulehdukset liittyvät usein taustalla olevaan allergiaan. Klinikallamme on käytössä video-otoskopia, jolla korvaonteloa voidaan tutkia ja puhdistaa suurennetulla videokuvalla. Näkyvyys on moninkertainen perinteiseen tutkimukseen verrattuna, mikä mahdollistaa tehokkaamman hoidon.' },
+      { heading: 'Hoitovaihtoehdot', text: 'Ihotautien hoito räätälöidään yksilöllisesti. Hoitoon voi kuulua eliminaatiodieetit, allergiaspesifinen immunoterapia (siedätyshoito), paikallishoidot, lääkitys ja ruokavaliomuutokset. Tavoitteena on löytää syy, ei vain lievittää oireita.' },
+    ],
+    relatedArticles: ['ruoka-allergiat', 'video-otoskopia', 'viljaton-ruoka'],
+    schemaService: 'Veterinary Dermatology'
+  },
+  {
+    slug: 'senioritarkastus',
+    title: 'Senioritarkastus koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Senioritarkastus',
+    metaDesc: 'Ikääntyvän lemmikin terveystarkastus Vaasassa. Verikokeet, sydäntutkimus, ultraääni. Varhainen diagnoosi pidentää elinikää. Eläinklinikka Saari.',
+    icon: '🩺',
+    sections: [
+      { heading: 'Milloin lemmikki on seniori?', text: 'Koirat ovat senioreita noin 7-vuotiaina (suuret rodut jo 5-6-vuotiaina) ja kissat noin 10-vuotiaina. Ikääntyessä monet sairaudet kehittyvät hitaasti ja huomaamattomasti — munuaisten vajaatoiminta, kilpirauhasen liikatoiminta, sydänsairaudet ja nivelvauriot voivat edetä pitkälle ennen kuin omistaja huomaa oireita.' },
+      { heading: 'Mitä senioritarkastukseen kuuluu?', text: 'Senioritarkastuksessa eläinlääkäri tutkii lemmikin kliinisesti päästä varpaisiin, kuuntelee sydäntä ja keuhkoja, tunnustelee vatsan ja imusolmukkeet. Verikokeet kertovat munuaisten, maksan ja kilpirauhasen toiminnasta. Virtsanäytteellä voidaan havaita varhaisia munuaismuutoksia. Tarvittaessa tehdään verenpaineen mittaus, sydämen ultraääni tai vatsan ultraääni.' },
+      { heading: 'Miksi säännöllinen tarkastus on tärkeää?', text: 'Säännöllisellä senioritarkastuksella sairaudet havaitaan varhaisessa vaiheessa, jolloin hoito on tehokkaampaa ja lemmikin elämänlaatu säilyy pidempään. Esimerkiksi munuaisten vajaatoiminnan varhainen toteaminen mahdollistaa ruokavalion ja lääkityksen aloittamisen ajoissa, mikä voi pidentää elinikää vuosilla.' },
+      { heading: 'Kuinka usein tarkastukseen?', text: 'Suosittelemme senioritarkastusta kerran vuodessa terveille ikääntyville lemmikeille. Jos lemmikillä on krooninen sairaus tai lääkitys, tarkempi seurantaväli sovitaan yksilöllisesti. Varaa aika senioritarkastukseen — se on parasta ennaltaehkäisevää hoitoa ikääntyvälle lemmikillesi.' },
+    ],
+    relatedArticles: ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
+    schemaService: 'Senior Pet Health Screening'
+  },
+  {
+    slug: 'pentutarkastus',
+    title: 'Pentutarkastus ja mikrosiru — Eläinklinikka Saari, Vaasa',
+    h1: 'Pentutarkastus',
+    metaDesc: 'Koiranpennun ja kissanpennun terveystarkastus Vaasassa. Pentutarkastus, mikrosiru, rokotusohjelma, madotus. Eläinklinikka Saari.',
+    icon: '🐕',
+    sections: [
+      { heading: 'Ensimmäinen käynti eläinlääkärillä', text: 'Pentutarkastus on tärkeä askel uuden perheenjäsenen elämässä. Eläinlääkäri tutkii pennun huolellisesti päästä varpaisiin: sydämen kuuntelu, silmien, korvien ja suun tarkastus, imusolmukkeiden tunnustelu, navan tarkastus ja yleisen kehityksen arviointi. Tarkastuksen yhteydessä annetaan terveystodistus.' },
+      { heading: 'Mikrosiru — pysyvä tunnistus', text: 'Mikrosiru on riisinjyvän kokoinen tunniste, joka asetetaan ihon alle niskaan. Siruttaminen on nopea ja lähes kivuton toimenpide. Mikrosiru on ainoa pysyvä tunnistustapa — tatuoinnit haalistuvat ja pannat voivat kadota. Siru rekisteröidään omistajan tietoihin, jolloin kadonnut lemmikki löytää helposti takaisin kotiin.' },
+      { heading: 'Pennun rokotusohjelma', text: 'Ensimmäinen rokotus annetaan yleensä 12 viikon iässä ja tehosterokotus 16 viikon iässä. Rokotukset suojaavat vakavien tautien kuten penikkataudin, parvoviruksen ja rabieksen varalta. Ennen rokotussuojan valmistumista pentu ei saisi olla kosketuksissa tuntemattomien koirien kanssa.' },
+      { heading: 'Madotus ja loisten ehkäisy', text: 'Pennut madotetaan säännöllisesti sisäloisia vastaan. Eläinlääkäri laatii yksilöllisen madotus- ja loistorjuntaohjelman pennun iän, painon ja elinolosuhteiden mukaan. Varaa aika pentutarkastukseen — hyvä alku turvaa lemmikin terveyden pitkälle tulevaisuuteen.' },
+    ],
+    relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'ripuli'],
+    schemaService: 'Puppy Health Examination'
+  },
+  {
+    slug: 'akupunktio',
+    title: 'Akupunktio koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    h1: 'Akupunktio',
+    metaDesc: 'Eläinakupunktio Vaasassa. Kivunlievitys, tuki- ja liikuntaelinvaivat, neurologiset oireet. Jatkokouluttautunut eläinlääkäri. Eläinklinikka Saari.',
+    icon: '🪡',
+    sections: [
+      { heading: 'Mitä eläinakupunktio on?', text: 'Akupunktio on tuhansia vuosia vanha hoitomuoto, jossa ohuita neuloja asetetaan tiettyihin pisteisiin kehossa. Eläinlääketieteessä akupunktiota käytetään erityisesti kivunlievitykseen, tuki- ja liikuntaelinvaivoihin sekä neurologisten oireiden hoitoon. Hoito perustuu hermostimulaatioon, joka vapauttaa kehon omia kipua lievittäviä aineita.' },
+      { heading: 'Milloin akupunktiosta on hyötyä?', text: 'Akupunktio soveltuu erityisesti kroonisen kivun hoitoon, nivelrikon oireiden lievitykseen, selkäkipuihin, välilevyongelmiin, leikkauksen jälkeiseen kuntoutukseen ja neurologisiin oireisiin. Se toimii hyvin yhdessä muun lääkehoidon kanssa ja voi vähentää kipulääkkeiden tarvetta.' },
+      { heading: 'Miten hoito etenee?', text: 'Hoitokäynti kestää noin 30-45 minuuttia. Ohuet neulat asetetaan akupunktiopisteisiin ja ne jätetään paikoilleen 15-20 minuutiksi. Useimmat eläimet rentoutuvat hoidon aikana ja voivat jopa nukahtaa. Vaste nähdään tyypillisesti 3-4 hoitokerran jälkeen, ja hoidon tehoa ylläpidetään säännöllisin välein.' },
+      { heading: 'Koulutus ja kokemus', text: 'Klinikallamme akupunktiota tekee Assaf Wydra, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa. Koulutus sisältää sekä perinteisen kiinalaisen lääketieteen periaatteet että modernin eläinlääketieteellisen akupunktion.' },
+    ],
+    relatedArticles: ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'yksityinen-klinikka'],
+    schemaService: 'Veterinary Acupuncture'
+  },
+  {
+    slug: 'viralliset-tutkimukset',
+    title: 'Viralliset tutkimukset koirille — lonkat, kyynärät, polvet, sydän | Eläinklinikka Saari, Vaasa',
+    h1: 'Viralliset tutkimukset',
+    metaDesc: 'Viralliset lonkka-, kyynär-, polvi- ja sydäntutkimukset Vaasassa. Kennelliiton hyväksymä tutkija. Jalostustarkastukset. Eläinklinikka Saari.',
+    icon: '📋',
+    sections: [
+      { heading: 'Viralliset röntgentutkimukset', text: 'Klinikallamme tehdään Suomen Kennelliiton hyväksymiä virallisia röntgentutkimuksia: lonkka-, kyynär- ja selkäkuvaukset. Viralliset röntgenkuvat lähetetään Kennelliiton arvostelijalle ja tulokset kirjataan Jalostustietojärjestelmään. Tutkimukset tehdään kevyessä rauhoituksessa oikean asennon varmistamiseksi.' },
+      { heading: 'Polvi- ja sydäntutkimukset', text: 'Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet — kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Nämä tutkimukset ovat osa monen rodun jalostustarkastuksia.' },
+      { heading: 'Kenelle viralliset tutkimukset?', text: 'Viralliset tutkimukset ovat pakollisia tai suositeltuja jalostuskoirille rodusta riippuen. Tutkimusten tavoitteena on vähentää perinnöllisten sairauksien esiintyvyyttä roduissa. Tutkimukset voidaan tehdä aikaisintaan 12 kuukauden iässä (lonkat 18 kk iässä) ja ne ovat voimassa koko koiran eliniän.' },
+      { heading: 'Varaa aika', text: 'Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan — kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan.' },
+    ],
+    relatedArticles: ['anestesiaturvallisuus', 'tta-leikkaus', 'lateral-suture'],
+    schemaService: 'Official Veterinary Examinations'
+  },
+  {
+    slug: 'sterilisaatio',
+    title: 'Sterilisaatio ja kastraatio koirille, kissoille ja kaneille — Eläinklinikka Saari, Vaasa',
+    h1: 'Sterilisaatio ja kastraatio',
+    metaDesc: 'Koiran, kissan ja kanin sterilisaatio ja kastraatio Vaasassa. Inhalaatioanestesia, kattava kivunlievitys. Myös kemiallinen kastraatio. Eläinklinikka Saari.',
+    icon: '🏥',
+    sections: [
+      { heading: 'Miksi sterilisaatio tai kastraatio?', text: 'Sterilisaatiolla ja kastraatiolla voidaan ennaltaehkäistä monia sairauksia: nisäkasvaimet, kohtutulehdus, eturauhasvaivat ja kiveskasvaimet. Sterilisaatio poistaa kohdun ja munasarjat, mikä eliminoi hormonaaliset sairaudet kokonaan. Kastraatiolla voidaan myös vähentää ei-toivottua merkkailua ja aggressiivisuutta.' },
+      { heading: 'Toimenpide klinikallamme', text: 'Kaikki sterilisaatiot ja kastraatiot tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Valvomme potilasta jatkuvasti koko toimenpiteen ajan: sydämen syke, verenpaine, happisaturaatio ja lämpötila. Potilas kotiutuu yleensä samana päivänä ja saa mukaansa kipulääkityksen kotiin.' },
+      { heading: 'Kemiallinen kastraatio', text: 'Koirille on tarjolla myös kemiallinen kastraatio hormoni-implantilla (Suprelorin). Implantti asetetaan ihon alle ja sen vaikutus kestää 6 tai 12 kuukautta. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta ennen pysyvää päätöstä, tai kun kirurginen toimenpide ei ole toivottu.' },
+      { heading: 'Oikea ajoitus', text: 'Optimaalinen sterilisaatio- tai kastraatioikä riippuu rodusta, koosta ja yksilöllisestä tilanteesta. Keskustellaan yhdessä, mikä on paras ajoitus juuri sinun lemmikillesi. Varaa aika konsultaatioon tai toimenpiteeseen.' },
+    ],
+    relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
+    schemaService: 'Veterinary Spay and Neuter'
   },
 ];
 
