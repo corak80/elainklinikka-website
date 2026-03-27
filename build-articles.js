@@ -29,6 +29,7 @@ const articles = [
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
     date: '2026',
+    publishDate: '2026-01-15',
     sections: ['intro', 'how.title', 'how.text', 'vs.title', 'vs.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'when.title', 'when.text'],
     prefix: 'article.tta'
   },
@@ -38,6 +39,7 @@ const articles = [
     tagKey: 'articles.tag.endoscopy',
     category: 'endoscopy',
     date: '2026',
+    publishDate: '2026-01-15',
     sections: ['intro', 'advantages.title', 'advantages.text', 'when.title', 'when.text', 'procedure.title', 'procedure.text', 'chronic.title', 'chronic.text', 'contact.title', 'contact.text'],
     prefix: 'article.otoscopy'
   },
@@ -47,6 +49,7 @@ const articles = [
     tagKey: 'articles.tag.anesthesia',
     category: 'surgery',
     date: '2026',
+    publishDate: '2026-01-15',
     sections: ['intro', 'what.title', 'what.text', 'why.title', 'why.text', 'benefits.title', 'benefits.text', 'use.title', 'use.text', 'windup.title', 'windup.text'],
     prefix: 'article.mlk'
   },
@@ -56,6 +59,7 @@ const articles = [
     tagKey: 'article.tta.tag',
     category: 'health',
     date: '',
+    publishDate: '2026-01-20',
     sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     prefix: 'article.diarrhea'
   },
@@ -65,6 +69,7 @@ const articles = [
     tagKey: 'articles.filter.cardiology',
     category: 'cardiology',
     date: '',
+    publishDate: '2026-01-20',
     sections: ['intro', 'what.title', 'what.text', 'breeds.title', 'breeds.text', 'signs.title', 'signs.text', 'treatment.title', 'treatment.text', 'clinic.title', 'clinic.text', 'prognosis.title', 'prognosis.text', 'message.title', 'message.text'],
     prefix: 'article.pda'
   },
@@ -74,6 +79,7 @@ const articles = [
     tagKey: 'article.tta.tag',
     category: 'dental',
     date: '',
+    publishDate: '2026-01-25',
     sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'challenge.title', 'challenge.text'],
     prefix: 'article.brushing'
   },
@@ -83,6 +89,7 @@ const articles = [
     tagKey: 'article.tta.tag',
     category: 'health',
     date: '',
+    publishDate: '2026-01-25',
     sections: ['intro', 'fda.title', 'fda.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
     prefix: 'article.grainfree'
   },
@@ -92,6 +99,7 @@ const articles = [
     tagKey: 'article.tta.tag',
     category: 'dental',
     date: '',
+    publishDate: '2026-01-30',
     sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.periovive'
   },
@@ -101,6 +109,7 @@ const articles = [
     tagKey: 'article.independent.tag',
     category: 'clinic',
     date: '',
+    publishDate: '2026-01-30',
     sections: ['intro', 'chains.title', 'chains.text', 'prices.title', 'prices.text', 'quality.title', 'quality.text', 'international.title', 'international.text', 'choice.title', 'choice.text'],
     prefix: 'article.independent'
   },
@@ -110,6 +119,7 @@ const articles = [
     tagKey: 'article.food.tag',
     category: 'health',
     date: '',
+    publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.food'
   },
@@ -119,6 +129,7 @@ const articles = [
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
     date: '',
+    publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text'],
     prefix: 'article.hyperthyroid'
   },
@@ -128,6 +139,7 @@ const articles = [
     tagKey: 'article.kidney.tag',
     category: 'health',
     date: '',
+    publishDate: '2026-02-05',
     sections: ['intro', 'stages.title', 'stages.text', 'symptoms.title', 'symptoms.text', 'treatment.title', 'treatment.text'],
     prefix: 'article.kidney'
   },
@@ -137,6 +149,7 @@ const articles = [
     tagKey: 'article.snake.tag',
     category: 'emergency',
     date: '',
+    publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'firstaid.title', 'firstaid.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.snake'
   },
@@ -146,6 +159,7 @@ const articles = [
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
     date: '',
+    publishDate: '2026-02-10',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'danger.title', 'danger.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.pyometra'
   },
@@ -155,6 +169,7 @@ const articles = [
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
     date: '2026',
+    publishDate: '2026-02-10',
     sections: ['intro', 'how.title', 'how.text', 'who.title', 'who.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'vs.title', 'vs.text', 'signs.title', 'signs.text', 'price.title', 'price.text'],
     prefix: 'article.ccl'
   },
@@ -164,6 +179,7 @@ const articles = [
     tagKey: 'article.hedgehog.tag',
     category: 'wildlife',
     date: '2026',
+    publishDate: '2026-02-15',
     sections: ['intro', 'decline.title', 'decline.text', 'finland.title', 'finland.text', 'threats.title', 'threats.text', 'robots.title', 'robots.text', 'help.title', 'help.text', 'nest.title', 'nest.text'],
     prefix: 'article.hedgehog',
     hasSpecialContent: true
@@ -174,6 +190,7 @@ const articles = [
     tagKey: 'article.catstress.tag',
     category: 'health',
     date: '2026',
+    publishDate: '2026-02-20',
     sections: ['intro', 'signs.title', 'signs.text', 'feliway.title', 'feliway.text', 'clinic.title', 'clinic.text', 'tips.title', 'tips.text'],
     prefix: 'article.catstress'
   },
@@ -183,6 +200,7 @@ const articles = [
     tagKey: 'article.unerupted.tag',
     category: 'dental',
     date: '2026',
+    publishDate: '2026-02-20',
     sections: ['intro', 'cyst.title', 'cyst.text', 'symptoms.title', 'symptoms.text', 'breeds.title', 'breeds.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'prognosis.title', 'prognosis.text'],
     prefix: 'article.unerupted'
   },
@@ -192,6 +210,7 @@ const articles = [
     tagKey: 'article.gastroscopy.tag',
     category: 'endoscopy',
     date: '2026',
+    publishDate: '2026-02-25',
     sections: ['intro', 'foreign.title', 'foreign.text', 'diagnosis.title', 'diagnosis.text', 'procedure.title', 'procedure.text', 'advantages.title', 'advantages.text', 'contact.title', 'contact.text'],
     prefix: 'article.gastroscopy'
   },
@@ -201,6 +220,7 @@ const articles = [
     tagKey: 'article.resorption.tag',
     category: 'dental',
     date: '2026',
+    publishDate: '2026-02-25',
     sections: ['intro', 'types.title', 'types.text', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'after.title', 'after.text'],
     prefix: 'article.resorption'
   },
@@ -210,6 +230,7 @@ const articles = [
     tagKey: 'article.vaccination.tag',
     category: 'health',
     date: '2026',
+    publishDate: '2026-03-01',
     sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'schedule.title', 'schedule.text', 'rabies.title', 'rabies.text', 'travel.title', 'travel.text'],
     prefix: 'article.vaccination',
     htmlSections: ['dogs.text', 'cats.text', 'schedule.text', 'travel.text']
@@ -220,6 +241,7 @@ const articles = [
     tagKey: 'article.ibdlymphoma.tag',
     category: 'health',
     date: '2026',
+    publishDate: '2026-03-01',
     sections: ['intro', 'challenge.title', 'challenge.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'why.title', 'why.text'],
     prefix: 'article.ibdlymphoma',
     htmlSections: ['diagnosis.text', 'treatment.text']
@@ -230,6 +252,7 @@ const articles = [
     tagKey: 'article.hypothermia.tag',
     category: 'surgery',
     date: '2026',
+    publishDate: '2026-03-05',
     sections: ['intro', 'risks.title', 'risks.text', 'warming.title', 'warming.text', 'recovery.title', 'recovery.text', 'safety.title', 'safety.text'],
     prefix: 'article.hypothermia'
   },
@@ -239,6 +262,7 @@ const articles = [
     tagKey: 'article.anesthesia.tag',
     category: 'surgery',
     date: '2026',
+    publishDate: '2026-03-05',
     sections: ['intro', 'risk.title', 'risk.text', 'monitoring.title', 'monitoring.text', 'balanced.title', 'balanced.text', 'vatinoxan.title', 'vatinoxan.text', 'preop.title', 'preop.text'],
     prefix: 'article.anesthesia',
     htmlSections: ['risk.text']
@@ -249,6 +273,7 @@ const articles = [
     tagKey: 'articles.filter.clinic',
     category: 'clinic',
     date: '2026',
+    publishDate: '2026-03-10',
     sections: ['intro', 'role.title', 'role.text', 'evidence.title', 'evidence.text', 'education.title', 'education.text', 'jenni.title', 'jenni.text'],
     prefix: 'article.vetnurse'
   }
@@ -520,12 +545,41 @@ function generateArticlePage(article, translations, specialContent) {
 
   const title = t(article.titleKey);
   const tag = t(article.tagKey);
-  const pageTitle = `${title} | Eläinklinikka Saari`;
-  // Use first 160 chars of intro as description
+  // Smart page title: if full title + suffix > 70 chars, use part before dash
+  const suffix = ' | Eläinklinikka Saari';
+  let pageTitle;
+  if ((title + suffix).length <= 70) {
+    pageTitle = title + suffix;
+  } else {
+    // Try using part before em-dash/en-dash
+    const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
+    if (dashMatch && (dashMatch[1] + suffix).length <= 70) {
+      pageTitle = dashMatch[1] + suffix;
+    } else {
+      // Just use title without suffix to stay under limit
+      pageTitle = title.length <= 70 ? title : title.substring(0, 67) + '...';
+    }
+  }
+  // Use first 155 chars of intro, cut at sentence boundary
   const introKey = `${article.prefix}.intro`;
   let description = t(introKey);
-  if (description.length > 160) {
-    description = description.substring(0, 157) + '...';
+  if (description.length > 155) {
+    // Try to cut at last sentence boundary before 155 chars
+    const truncated = description.substring(0, 155);
+    const lastPeriod = truncated.lastIndexOf('. ');
+    const lastExcl = truncated.lastIndexOf('! ');
+    const cutPoint = Math.max(lastPeriod, lastExcl);
+    if (cutPoint > 80) {
+      description = description.substring(0, cutPoint + 1);
+    } else {
+      // Fall back to last comma or space
+      const lastComma = truncated.lastIndexOf(', ');
+      if (lastComma > 80) {
+        description = description.substring(0, lastComma + 1);
+      } else {
+        description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
+      }
+    }
   }
 
   const canonicalUrl = `${BASE_URL}/articles/${article.slug}.html`;
@@ -534,7 +588,7 @@ function generateArticlePage(article, translations, specialContent) {
   const faqSchema = generateFaqSchema(article, translations);
   const dateStr = article.date || '2026';
   const today = new Date().toISOString().split('T')[0];
-  const isoDatePublished = '2026-01-01';
+  const isoDatePublished = article.publishDate || '2026-01-01';
   const isoDateModified = today;
 
   return `<!DOCTYPE html>
