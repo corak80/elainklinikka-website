@@ -58,7 +58,7 @@ const articles = [
     titleKey: 'article.diarrhea.title',
     tagKey: 'article.tta.tag',
     category: 'health',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-20',
     sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     prefix: 'article.diarrhea'
@@ -68,7 +68,7 @@ const articles = [
     titleKey: 'article.pda.title',
     tagKey: 'articles.filter.cardiology',
     category: 'cardiology',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-20',
     sections: ['intro', 'what.title', 'what.text', 'breeds.title', 'breeds.text', 'signs.title', 'signs.text', 'treatment.title', 'treatment.text', 'clinic.title', 'clinic.text', 'prognosis.title', 'prognosis.text', 'message.title', 'message.text'],
     prefix: 'article.pda'
@@ -78,7 +78,7 @@ const articles = [
     titleKey: 'article.brushing.title',
     tagKey: 'article.tta.tag',
     category: 'dental',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'challenge.title', 'challenge.text'],
     prefix: 'article.brushing'
@@ -88,7 +88,7 @@ const articles = [
     titleKey: 'article.grainfree.title',
     tagKey: 'article.tta.tag',
     category: 'health',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'fda.title', 'fda.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
     prefix: 'article.grainfree'
@@ -98,7 +98,7 @@ const articles = [
     titleKey: 'article.periovive.title',
     tagKey: 'article.tta.tag',
     category: 'dental',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-30',
     sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.periovive'
@@ -108,7 +108,7 @@ const articles = [
     titleKey: 'article.independent.title',
     tagKey: 'article.independent.tag',
     category: 'clinic',
-    date: '',
+    date: '2026',
     publishDate: '2026-01-30',
     sections: ['intro', 'chains.title', 'chains.text', 'prices.title', 'prices.text', 'quality.title', 'quality.text', 'international.title', 'international.text', 'choice.title', 'choice.text'],
     prefix: 'article.independent'
@@ -118,7 +118,7 @@ const articles = [
     titleKey: 'article.food.title',
     tagKey: 'article.food.tag',
     category: 'health',
-    date: '',
+    date: '2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.food'
@@ -128,7 +128,7 @@ const articles = [
     titleKey: 'article.hyperthyroid.title',
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
-    date: '',
+    date: '2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text'],
     prefix: 'article.hyperthyroid'
@@ -138,7 +138,7 @@ const articles = [
     titleKey: 'article.kidney.title',
     tagKey: 'article.kidney.tag',
     category: 'health',
-    date: '',
+    date: '2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'stages.title', 'stages.text', 'symptoms.title', 'symptoms.text', 'treatment.title', 'treatment.text'],
     prefix: 'article.kidney'
@@ -148,7 +148,7 @@ const articles = [
     titleKey: 'article.snake.title',
     tagKey: 'article.snake.tag',
     category: 'emergency',
-    date: '',
+    date: '2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'firstaid.title', 'firstaid.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.snake'
@@ -158,7 +158,7 @@ const articles = [
     titleKey: 'article.pyometra.title',
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
-    date: '',
+    date: '2026',
     publishDate: '2026-02-10',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'danger.title', 'danger.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.pyometra'
