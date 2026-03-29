@@ -655,8 +655,8 @@ function generateArticlePage(article, translations, specialContent) {
     "dateModified": "${isoDateModified}",
     "author": {
       "@type": "Person",
-      "name": "Assaf Wydra",
-      "jobTitle": "Eläinlääkäri, toimitusjohtaja",
+      "name": "${article.tagKey === 'articles.tag.orthopedics' ? 'Pamela Kvarngård' : 'Assaf Wydra'}",
+      "jobTitle": "${article.tagKey === 'articles.tag.orthopedics' ? 'Eläinlääkäri' : 'Eläinlääkäri, toimitusjohtaja'}",
       "worksFor": {
         "@type": "VeterinaryHospital",
         "name": "Eläinklinikka Saari",
@@ -737,7 +737,7 @@ function generateArticlePage(article, translations, specialContent) {
           <span class="article-tag" data-i18n="${article.tagKey}">${tag}</span>
 ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
         <h1 data-i18n="${article.titleKey}">${title}</h1>
-        <div class="article-byline">Eläinlääkäri Assaf Wydra, Eläinklinikka Saari</div>
+        <div class="article-byline">Eläinlääkäri ${article.tagKey === 'articles.tag.orthopedics' ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>
         <div class="article-content">
 ${articleBody}        </div>
       </article>
