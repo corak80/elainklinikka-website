@@ -14,7 +14,7 @@ const path = require('path');
 const ROOT = __dirname;
 const ARTICLES_DIR = path.join(ROOT, 'articles');
 const INDEX_PATH = path.join(ROOT, 'index.html');
-const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.js');
+const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.src.js');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://saarivet.fi';
 
@@ -548,16 +548,16 @@ function generateArticlePage(article, translations, specialContent) {
   // Smart page title: if full title + suffix > 70 chars, use part before dash
   const suffix = ' | Eläinklinikka Saari';
   let pageTitle;
-  if ((title + suffix).length <= 70) {
+  if ((title + suffix).length <= 60) {
     pageTitle = title + suffix;
   } else {
     // Try using part before em-dash/en-dash
     const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
-    if (dashMatch && (dashMatch[1] + suffix).length <= 70) {
+    if (dashMatch && (dashMatch[1] + suffix).length <= 60) {
       pageTitle = dashMatch[1] + suffix;
     } else {
       // Just use title without suffix to stay under limit
-      pageTitle = title.length <= 70 ? title : title.substring(0, 67) + '...';
+      pageTitle = title.length <= 60 ? title : title.substring(0, 57) + '...';
     }
   }
   // Use first 155 chars of intro, cut at sentence boundary
@@ -706,6 +706,7 @@ function generateArticlePage(article, translations, specialContent) {
   <link rel="icon" type="image/png" href="../images/logo.png">
 </head>
 <body class="article-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
 
   <!-- ===== Header ===== -->
   <header class="header">
@@ -728,6 +729,7 @@ function generateArticlePage(article, translations, specialContent) {
   </header>
 
   <!-- ===== Article ===== -->
+  <main id="main-content">
   <section class="section articles-section">
     <div class="container">
       <article class="article-card" data-category="${article.category}">
@@ -743,6 +745,7 @@ ${relatedHtml}
       <a href="../" class="btn btn-secondary articles-back" data-i18n="articles.back">\u2190 Takaisin etusivulle</a>
     </div>
   </section>
+  </main>
 
   <!-- ===== Footer ===== -->
   <footer class="footer">
@@ -768,8 +771,8 @@ ${relatedHtml}
         <div class="footer-col">
           <h4 data-i18n="footer.follow">Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
           </div>
         </div>
       </div>
@@ -900,7 +903,7 @@ function generateArticleIndex(translations) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artikkelit — eläinlääketieteelliset artikkelit | Eläinklinikka Saari</title>
+  <title>Artikkelit — Eläinklinikka Saari</title>
 
   <!-- Google Analytics: Consent Mode v2 -->
   <script>
@@ -981,6 +984,7 @@ function generateArticleIndex(translations) {
   <link rel="icon" type="image/png" href="../images/logo.png">
 </head>
 <body class="article-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
 
   <header class="header">
     <div class="container">
@@ -995,6 +999,7 @@ function generateArticleIndex(translations) {
     </div>
   </header>
 
+  <main id="main-content">
   <section class="section articles-section">
     <div class="container">
       <div class="section-header">
@@ -1005,6 +1010,7 @@ ${cardsHtml}
       <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
     </div>
   </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -1029,8 +1035,8 @@ ${cardsHtml}
         <div class="footer-col">
           <h4>Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
           </div>
         </div>
       </div>
@@ -1051,7 +1057,7 @@ ${cardsHtml}
 const servicePages = [
   {
     slug: 'hammashoito',
-    title: 'Hammashoito koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Hammashoito — Eläinklinikka Saari, Vaasa',
     h1: 'Hammashoito',
     metaDesc: 'Koiran ja kissan hammashoito Vaasassa. Hammaskiven poisto, hammasröntgen, hampaiden poistot. Kaikki toimenpiteet yleisanestesiassa. Eläinklinikka Saari.',
     icon: '🦷',
@@ -1066,7 +1072,7 @@ const servicePages = [
   },
   {
     slug: 'sydantutkimukset',
-    title: 'Sydäntutkimukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Sydäntutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Sydäntutkimukset',
     metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Ajoissa aloitettu hoito pidentää elinikää. Eläinklinikka Saari.',
     icon: '❤️',
@@ -1081,9 +1087,9 @@ const servicePages = [
   },
   {
     slug: 'kirurgia',
-    title: 'Kirurgia koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Kirurgia — Eläinklinikka Saari, Vaasa',
     h1: 'Kirurgia',
-    metaDesc: 'Eläinkirurgia Vaasassa: pehmytkudoskirurgia, ortopedia, TTA, lateral suture, murtumaleikkaukset. Turvallinen anestesia ja kattava kivunlievitys. Eläinklinikka Saari.',
+    metaDesc: 'Eläinkirurgia Vaasassa: pehmytkudoskirurgia, ortopedia, TTA, lateral suture, murtumaleikkaukset. Turvallinen anestesia ja kivunlievitys.',
     icon: '🔪',
     sections: [
       { heading: 'Pehmytkudoskirurgia', text: 'Klinikallamme tehdään laaja valikoima pehmytkudoskirurgisia toimenpiteitä: sterilisaatiot ja kastraatiot, keisarinleikkaukset, kasvainten poistot, vierasesineleikkaukset (mahalaukusta tai suolistosta), virtsakivileikkaukset, pernapoistot sekä silmä- ja korvaleikkaukset. Jokainen toimenpide suunnitellaan yksilöllisesti potilaan tarpeiden mukaan.' },
@@ -1096,7 +1102,7 @@ const servicePages = [
   },
   {
     slug: 'tahystykset',
-    title: 'Tähystystutkimukset — gastroskopia, otoskopia, rhinoskopia | Eläinklinikka Saari, Vaasa',
+    title: 'Tähystystutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Tähystystutkimukset',
     metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Vähemmän invasiivinen diagnostiikka. Eläinklinikka Saari.',
     icon: '📷',
@@ -1111,7 +1117,7 @@ const servicePages = [
   },
   {
     slug: 'rokotukset',
-    title: 'Rokotukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Rokotukset — Eläinklinikka Saari, Vaasa',
     h1: 'Rokotukset',
     metaDesc: 'Koiran ja kissan rokotukset Vaasassa. Pentujen rokotusohjelma, aikuisten tehosterokotukset, rabies ja matkustusasiakirjat. Eläinklinikka Saari.',
     icon: '💉',
@@ -1126,7 +1132,7 @@ const servicePages = [
   },
   {
     slug: 'ultraaani',
-    title: 'Ultraäänitutkimukset koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Ultraäänitutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Ultraäänitutkimukset',
     metaDesc: 'Ultraäänitutkimukset Vaasassa: vatsan ultraääni, sydämen ultraääni, tiineystutkimus. Laadukas diagnostiikka lemmikeille. Eläinklinikka Saari.',
     icon: '📡',
@@ -1141,7 +1147,7 @@ const servicePages = [
   },
   {
     slug: 'ihotaudit',
-    title: 'Ihotaudit ja allergiat koirilla ja kissoilla — Eläinklinikka Saari, Vaasa',
+    title: 'Ihotaudit ja allergiat — Eläinklinikka Saari, Vaasa',
     h1: 'Ihotaudit ja allergiat',
     metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
     icon: '🔬',
@@ -1156,7 +1162,7 @@ const servicePages = [
   },
   {
     slug: 'senioritarkastus',
-    title: 'Senioritarkastus koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Senioritarkastus — Eläinklinikka Saari, Vaasa',
     h1: 'Senioritarkastus',
     metaDesc: 'Ikääntyvän lemmikin terveystarkastus Vaasassa. Verikokeet, sydäntutkimus, ultraääni. Varhainen diagnoosi pidentää elinikää. Eläinklinikka Saari.',
     icon: '🩺',
@@ -1186,7 +1192,7 @@ const servicePages = [
   },
   {
     slug: 'akupunktio',
-    title: 'Akupunktio koirille ja kissoille — Eläinklinikka Saari, Vaasa',
+    title: 'Akupunktio — Eläinklinikka Saari, Vaasa',
     h1: 'Akupunktio',
     metaDesc: 'Eläinakupunktio Vaasassa. Kivunlievitys, tuki- ja liikuntaelinvaivat, neurologiset oireet. Jatkokouluttautunut eläinlääkäri. Eläinklinikka Saari.',
     icon: '🪡',
@@ -1201,7 +1207,7 @@ const servicePages = [
   },
   {
     slug: 'viralliset-tutkimukset',
-    title: 'Viralliset tutkimukset koirille — lonkat, kyynärät, polvet, sydän | Eläinklinikka Saari, Vaasa',
+    title: 'Viralliset tutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Viralliset tutkimukset',
     metaDesc: 'Viralliset lonkka-, kyynär-, polvi- ja sydäntutkimukset Vaasassa. Kennelliiton hyväksymä tutkija. Jalostustarkastukset. Eläinklinikka Saari.',
     icon: '📋',
@@ -1216,7 +1222,7 @@ const servicePages = [
   },
   {
     slug: 'sterilisaatio',
-    title: 'Sterilisaatio ja kastraatio koirille, kissoille ja kaneille — Eläinklinikka Saari, Vaasa',
+    title: 'Sterilisaatio ja kastraatio — Eläinklinikka Saari, Vaasa',
     h1: 'Sterilisaatio ja kastraatio',
     metaDesc: 'Koiran, kissan ja kanin sterilisaatio ja kastraatio Vaasassa. Inhalaatioanestesia, kattava kivunlievitys. Myös kemiallinen kastraatio. Eläinklinikka Saari.',
     icon: '🏥',
@@ -1367,6 +1373,7 @@ function generateServicePage(service, translations) {
   <link rel="icon" type="image/png" href="../../images/logo.png">
 </head>
 <body class="article-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
 
   <header class="header">
     <div class="container">
@@ -1381,6 +1388,7 @@ function generateServicePage(service, translations) {
     </div>
   </header>
 
+  <main id="main-content">
   <section class="section articles-section">
     <div class="container">
       <article class="article-card">
@@ -1397,13 +1405,14 @@ function generateServicePage(service, translations) {
         <p>Soita meille tai varaa aika verkosta.</p>
         <div class="service-cta-buttons">
           <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" class="btn btn-outline">Varaa verkossa</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
         </div>
       </div>
 ${relatedHtml}
       <a href="../../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
     </div>
   </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
@@ -1428,8 +1437,8 @@ ${relatedHtml}
         <div class="footer-col">
           <h4>Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
           </div>
         </div>
       </div>
@@ -1445,7 +1454,156 @@ ${relatedHtml}
 }
 
 // ──────────────────────────────────────────────
-// 8. Generate sitemap.xml
+// 8. Generate privacy policy standalone page
+// ──────────────────────────────────────────────
+function generatePrivacyPage() {
+  return `<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tietosuojaseloste — Eläinklinikka Saari</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+
+  <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus.">
+  <link rel="canonical" href="${BASE_URL}/tietosuoja/">
+  <link rel="alternate" hreflang="fi" href="${BASE_URL}/tietosuoja/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/tietosuoja/">
+  <meta property="og:title" content="Tietosuojaseloste — Eläinklinikka Saari">
+  <meta property="og:description" content="Eläinklinikka Saari Oy:n tietosuojaseloste ja rekisteriseloste.">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body class="article-page">
+
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      </a>
+      <nav class="nav">
+        <div class="nav-actions">
+          <a href="../" class="btn btn-outline btn-sm">← Takaisin etusivulle</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+  <section class="section articles-section">
+    <div class="container">
+      <article class="article-card">
+        <h1>Tietosuojaseloste</h1>
+        <div class="article-content">
+          <h2>Rekisterinpitäjä</h2>
+          <p>Eläinklinikka Saari Oy<br>Y-tunnus: 0708667-9<br>Gerbyntie 18, 65230 Vaasa</p>
+
+          <h2>Rekisteriasioiden yhteyshenkilö</h2>
+          <p>Pamela Kvarngård<br>Puh: 06-3217300<br>info@saarivet.fi</p>
+
+          <h2>Rekisterin nimi</h2>
+          <p>Eläinklinikka Saari Oy:n asiakasrekisteri</p>
+
+          <h2>Henkilötietojen käyttötarkoitus</h2>
+          <p>Henkilötietoja käytetään viestintään, asiakaspalveluun ja potilassuhteen ylläpitoon.</p>
+
+          <h2>Käsittelyn oikeusperuste</h2>
+          <p>Henkilötietojen käsittely perustuu sopimussuhteeseen (eläinlääkäripalveluiden tarjoaminen) sekä lakisääteisiin velvoitteisiin (eläinlääkintähuoltolaki, kirjanpitolaki). Erämaksun yhteydessä käsittely perustuu oikeutettuun etuun.</p>
+
+          <h2>Rekisterin tietokentät</h2>
+          <p>Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.</p>
+
+          <h2>Tietolähteet</h2>
+          <p>Tiedot saadaan pääasiassa asiakkailta. Potilasasiakirjat voivat sisältää tietoja muista klinikoista, mikäli asiakas on saanut hoitoa muualla tai siirtänyt asiakkuutensa.</p>
+
+          <h2>Tietojen luovutus</h2>
+          <p>Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille ellei asiakas sitä edellytä.</p>
+
+          <h2>Tietojen suojaus</h2>
+          <p>Rekisteri on talletettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.</p>
+
+          <h2>Tietojen säilytysaika</h2>
+          <p>Potilasasiakirjoja säilytetään vähintään 3 vuotta viimeisestä hoitokäynnistä eläinlääkintälainsäädännön mukaisesti. Kirjanpitoaineistoa säilytetään 6 vuotta tilikauden päättymisestä. Muut henkilötiedot poistetaan, kun asiakassuhde päättyy eikä säilyttämiselle ole lakisääteistä perustetta.</p>
+
+          <h2>Rekisteröidyn oikeudet</h2>
+          <p>Asiakkaalla on oikeus tarkistaa itseään koskevat tiedot sekä pyytää virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden tietojen korjaamista tai poistamista.</p>
+
+          <h2>Tarkemmat oikeudet (EU:n yleinen tietosuoja-asetus)</h2>
+          <p>Rekisteröidyllä on oikeus: (1) saada pääsy omiin tietoihinsa, (2) vaatia tietojen oikaisua, (3) vaatia tietojen poistamista, ellei säilyttämiselle ole lakisääteistä perustetta, (4) rajoittaa tietojen käsittelyä, (5) siirtää tiedot toiselle rekisterinpitäjälle (tietojen siirrettävyys), (6) vastustaa tietojen käsittelyä. Pyynnöt tulee osoittaa rekisteriasioiden yhteyshenkilölle. Rekisteröidyllä on myös oikeus tehdä valitus valvontaviranomaiselle: Tietosuojavaltuutetun toimisto, tietosuoja.fi.</p>
+
+          <h2>Digitaaliset palvelut</h2>
+          <p>Verkkosivusto käyttää Google Analytics -palvelua kävijäliikenteen analysointiin. Analytiikkaevästeet otetaan käyttöön vain käyttäjän suostumuksella. Ajanvaraus tapahtuu ProvetCloud-järjestelmän kautta, jonka tietosuojasta vastaa Finnish Net Solutions Oy. WhatsApp-viestipalvelussa viestejä käsittelee tekoälypohjainen chatbot asiakaspalvelun tueksi.</p>
+
+          <h2>Luottopäätöksen käsittely</h2>
+          <p>Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.</p>
+        </div>
+      </article>
+
+      <a href="../" class="btn btn-secondary articles-back">← Takaisin etusivulle</a>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pikalinkit</h4>
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#prices">Hinnasto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
+// 9. Generate sitemap.xml
 // ──────────────────────────────────────────────
 function generateSitemap() {
   const today = new Date().toISOString().split('T')[0];
@@ -1462,6 +1620,14 @@ function generateSitemap() {
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+`;
+
+  xml += `  <url>
+    <loc>${BASE_URL}/tietosuoja/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 `;
 
@@ -1555,11 +1721,21 @@ function main() {
   fs.writeFileSync(path.join(artikkelitDir, 'index.html'), indexPage, 'utf-8');
   console.log('  Generated artikkelit/index.html');
 
+  // Generate privacy policy page
+  console.log('\nBuilding privacy policy page...');
+  const privacyDir = path.join(ROOT, 'tietosuoja');
+  if (!fs.existsSync(privacyDir)) {
+    fs.mkdirSync(privacyDir, { recursive: true });
+  }
+  const privacyPage = generatePrivacyPage();
+  fs.writeFileSync(path.join(privacyDir, 'index.html'), privacyPage, 'utf-8');
+  console.log('  Generated tietosuoja/index.html');
+
   // Generate sitemap
   console.log('\nGenerating sitemap.xml...');
   const sitemap = generateSitemap();
   fs.writeFileSync(SITEMAP_PATH, sitemap, 'utf-8');
-  console.log(`  Sitemap updated with ${articles.length + servicePages.length + 2} URLs`);
+  console.log(`  Sitemap updated with ${articles.length + servicePages.length + 3} URLs`);
 
   console.log(`\nDone! Generated ${count} article pages in articles/`);
 }
