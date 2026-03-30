@@ -705,6 +705,7 @@ function generateArticlePage(article, translations, specialContent) {
   }${faqSchema}]
   </script>
 
+  <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/logo.png">
 </head>
@@ -774,8 +775,8 @@ ${relatedHtml}
         <div class="footer-col">
           <h4 data-i18n="footer.follow">Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>
@@ -984,6 +985,7 @@ function generateArticleIndex(translations) {
   }]
   </script>
 
+  <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/logo.png">
 </head>
@@ -1039,8 +1041,8 @@ ${cardsHtml}
         <div class="footer-col">
           <h4>Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>
@@ -1124,6 +1126,7 @@ const servicePages = [
       { heading: 'Tutkimusmenetelmät', text: 'Klinikallamme on kattavat kardiologiset tutkimusmahdollisuudet. Sydämen ultraäänitutkimus (ekokardiografia) on tärkein sydänsairauksien diagnostinen menetelmä — sillä nähdään sydämen rakenne, kammioiden koko, läppien toiminta ja verenvirtaus reaaliajassa. EKG-tutkimuksella mitataan sydämen sähköistä toimintaa ja tunnistetaan rytmihäiriöt. Holter-tutkimuksella seurataan sydämen rytmiä 24 tunnin ajan kotioloissa.' },
       { heading: 'Viralliset sydäntutkimukset', text: 'Klinikalla on Suomen Kennelliiton myöntämät viralliset sydämen auskultaatio-oikeudet. Teemme virallisia sydämen auskultaatio- ja ultraäänitutkimuksia jalostustarkastusten yhteydessä. Viralliset tulokset kirjataan Kennelliiton tietokantaan.' },
       { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Oireita voivat olla yskiminen (erityisesti levossa tai rasituksen jälkeen), rasituksen sietokyvyn heikkeneminen, tiheä hengitys, pyörtyily tai äkillinen väsähtäminen. Riskirotujen kohdalla suosittelemme säännöllisiä sydäntarkastuksia jo nuorella iällä, vaikka oireita ei olisi. Varaa aika sydäntutkimukseen — varhainen diagnoosi ja hoito tekevät merkittävän eron.' },
+      { heading: 'Usein kysyttyä sydäntutkimuksista', text: '<strong>Kuinka usein sydäntutkimuksia tehdään?</strong> Riskirotujen kohdalla suosittelemme ensimmäistä sydäntutkimusta 1–2 vuoden iässä ja sen jälkeen vuosittain. Oireettomille lemmikeille riittää yleensä tarkastus senioritarkastuksen yhteydessä. Jos lemmikillä on todettu sydänsairaus, seurantaväli sovitaan yksilöllisesti — yleensä 3–12 kuukauden välein. <strong>Tarvitaanko sydäntutkimukseen rauhoitusta?</strong> Sydämen ultraäänitutkimus tehdään yleensä hereillä olevalle potilaalle ilman rauhoitusta. Tutkimus on kivuton ja kestää noin 15–30 minuuttia. Levottomille potilaille voidaan antaa kevyt rauhoitus, joka ei vaikuta tutkimustuloksiin.' },
     ],
     sv: {
       title: 'Hjärtundersökningar — Djurklinik Saari, Vasa',
@@ -1134,6 +1137,7 @@ const servicePages = [
         { heading: 'Undersökningsmetoder', text: 'Vår klinik har omfattande kardiologiska undersökningsmöjligheter. Hjärtultraljud (ekokardiografi) är den viktigaste diagnostiska metoden för hjärtsjukdomar — den visar hjärtats struktur, kammarstorlek, klaffarnas funktion och blodflöde i realtid. EKG-undersökning mäter hjärtats elektriska aktivitet och identifierar arytmier. Holter-undersökning övervakar hjärtrytmen under 24 timmar i hemmiljö.' },
         { heading: 'Officiella hjärtundersökningar', text: 'Kliniken har officiella rättigheter för hjärtauskultation beviljade av Finska Kennelklubben. Vi utför officiella hjärtauskultations- och ultraljudsundersökningar i samband med avelskontroller. Officiella resultat registreras i Kennelklubbens databas.' },
         { heading: 'När ska man söka undersökning?', text: 'Symtom kan vara hosta (särskilt i vila eller efter ansträngning), minskad tolerans för fysisk aktivitet, snabb andning, svimning eller plötslig trötthet. För riskraser rekommenderar vi regelbundna hjärtkontroller redan i ung ålder, även utan symtom. Boka tid för hjärtundersökning — tidig diagnos och behandling gör en betydande skillnad.' },
+        { heading: 'Vanliga frågor om hjärtundersökningar', text: '<strong>Hur ofta görs hjärtundersökningar?</strong> För riskraser rekommenderar vi den första hjärtundersökningen vid 1–2 års ålder och därefter årligen. För symtomfria husdjur räcker det vanligen med kontroll i samband med seniorundersökningen. Om husdjuret har en diagnostiserad hjärtsjukdom bestäms uppföljningsintervallet individuellt — vanligen var 3–12 månad. <strong>Behövs sedering för hjärtundersökning?</strong> Hjärtultraljud görs vanligen på en vaken patient utan sedering. Undersökningen är smärtfri och tar cirka 15–30 minuter. Oroliga patienter kan få lätt sedering som inte påverkar undersökningsresultaten.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1151,6 +1155,7 @@ const servicePages = [
         { heading: 'Examination methods', text: 'Our clinic offers comprehensive cardiological examination capabilities. Cardiac ultrasound (echocardiography) is the primary diagnostic method for heart disease — it shows heart structure, chamber size, valve function, and blood flow in real time. ECG examination measures the heart\'s electrical activity and identifies arrhythmias. Holter monitoring tracks heart rhythm over 24 hours in the home environment.' },
         { heading: 'Official cardiac examinations', text: 'Our clinic holds official heart auscultation rights granted by the Finnish Kennel Club. We perform official cardiac auscultation and ultrasound examinations in connection with breeding evaluations. Official results are recorded in the Kennel Club database.' },
         { heading: 'When to seek examination?', text: 'Symptoms may include coughing (especially at rest or after exertion), reduced exercise tolerance, rapid breathing, fainting, or sudden lethargy. For at-risk breeds, we recommend regular cardiac check-ups from a young age, even without symptoms. Book an appointment for a cardiac examination — early diagnosis and treatment make a significant difference.' },
+        { heading: 'Frequently asked questions about cardiac examinations', text: '<strong>How often are cardiac examinations performed?</strong> For at-risk breeds, we recommend the first cardiac examination at 1–2 years of age and annually thereafter. For asymptomatic pets, a check-up during the senior examination is usually sufficient. If your pet has been diagnosed with heart disease, the follow-up interval is agreed individually — typically every 3–12 months. <strong>Is sedation needed for cardiac examination?</strong> Cardiac ultrasound is usually performed on an awake patient without sedation. The examination is painless and takes approximately 15–30 minutes. Restless patients may receive light sedation that does not affect the examination results.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1227,6 +1232,7 @@ const servicePages = [
       { heading: 'Gastroskopia', text: 'Vatsalaukun ja suoliston tähystyksellä tutkitaan ja hoidetaan ruuansulatuskanavan ongelmia. Yleisin indikaatio on vierasesineen poisto — tähystyksellä esimerkiksi sukat, lelut ja luun kappaleet saadaan usein poistettua ilman vatsaleikkausta. Lisäksi otetaan koepalojen näytteitä kroonisten suolistosairauksien (IBD, lymfooma) diagnostiikkaan.' },
       { heading: 'Video-otoskopia', text: 'Korvien tähystystutkimus suurennetulla videokuvalla. Näkyvyys korvakäytävään on moninkertainen perinteiseen otoskooppiin verrattuna. Mahdollistaa korvakäytävän perusteellisen puhdistuksen ja huuhtelun näkökontrollissa. Erityisen arvokas kroonisten ja toistuvien korvatulehdusten tutkimuksessa ja hoidossa.' },
       { heading: 'Muut tähystykset', text: 'Rhinoskopia (nenäontelon tähystys) vierasesineille, kasvaimille ja krooniselle nuhalle. Kystoskopia (virtsateiden tähystys) virtsarakon ongelmien tutkimiseen. Bronkoskopia (hengitysteiden tähystys) kroonisen yskän ja hengitystieoireiden diagnostiikkaan.' },
+      { heading: 'Usein kysyttyä tähystyksistä', text: '<strong>Onko tähystys kivuliasta?</strong> Tähystystutkimukset tehdään yleisanestesiassa, joten lemmikki ei tunne kipua toimenpiteen aikana. Toimenpiteen jälkeen potilas voi tuntea lievää vatsavaivaa, mutta toipuminen on yleensä nopeaa — useimmat potilaat kotiutetaan saman päivän aikana. <strong>Kuinka nopeasti tulokset saadaan?</strong> Tähystyksen aikana otetut löydökset ja kuvat arvioidaan heti toimenpiteen jälkeen. Jos koepalojen näytteitä lähetetään patologin tutkittavaksi, vastaukset saadaan yleensä 5–10 arkipäivässä. Eläinlääkäri käy tulokset läpi omistajan kanssa ja laatii hoitosuunnitelman.' },
     ],
     sv: {
       title: 'Endoskopi — Djurklinik Saari, Vasa',
@@ -1237,6 +1243,7 @@ const servicePages = [
         { heading: 'Gastroskopi', text: 'Med gastroskopi undersöks och behandlas problem i matsmältningskanalen. Den vanligaste indikationen är borttagning av främmande föremål — med endoskopi kan till exempel strumpor, leksaker och benbitar ofta avlägsnas utan bukoperation. Dessutom tas biopsier för diagnostik av kroniska tarmsjukdomar (IBD, lymfom).' },
         { heading: 'Video-otoskopi', text: 'Öronundersökning med förstorad videobild. Sikten in i hörselgången är mångdubbelt bättre jämfört med ett traditionellt otoskop. Möjliggör grundlig rengöring och sköljning av hörselgången under visuell kontroll. Särskilt värdefullt vid undersökning och behandling av kroniska och återkommande öroninflammationer.' },
         { heading: 'Övriga endoskopier', text: 'Rinoskopi (näshåleendoskopi) för främmande föremål, tumörer och kronisk snuva. Cystoskopi (urinvägsendoskopi) för undersökning av urinblåseproblem. Bronkoskopi (luftvägsendoskopi) för diagnostik av kronisk hosta och luftvägssymtom.' },
+        { heading: 'Vanliga frågor om endoskopi', text: '<strong>Är endoskopi smärtsamt?</strong> Endoskopiska undersökningar utförs under generell anestesi, så husdjuret känner ingen smärta under ingreppet. Efter ingreppet kan patienten uppleva lätta magbesvär, men återhämtningen är vanligen snabb — de flesta patienter skrivs ut samma dag. <strong>Hur snabbt fås resultaten?</strong> Fynd och bilder som tas under endoskopin bedöms direkt efter ingreppet. Om biopsier skickas till patolog fås svaren vanligen inom 5–10 arbetsdagar. Veterinären går igenom resultaten med ägaren och upprättar en behandlingsplan.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1254,6 +1261,7 @@ const servicePages = [
         { heading: 'Gastroscopy', text: 'Gastroscopy examines and treats digestive tract problems. The most common indication is foreign body removal — endoscopy can often remove socks, toys, and bone fragments without abdominal surgery. Biopsies are also taken for the diagnosis of chronic intestinal diseases (IBD, lymphoma).' },
         { heading: 'Video otoscopy', text: 'Ear examination with magnified video imaging. Visibility into the ear canal is many times greater compared to a traditional otoscope. It enables thorough cleaning and flushing of the ear canal under visual control. Particularly valuable in the investigation and treatment of chronic and recurrent ear infections.' },
         { heading: 'Other endoscopies', text: 'Rhinoscopy (nasal cavity endoscopy) for foreign bodies, tumours, and chronic nasal discharge. Cystoscopy (urinary tract endoscopy) for investigating bladder problems. Bronchoscopy (airway endoscopy) for diagnosing chronic cough and respiratory symptoms.' },
+        { heading: 'Frequently asked questions about endoscopy', text: '<strong>Is endoscopy painful?</strong> Endoscopic examinations are performed under general anaesthesia, so your pet feels no pain during the procedure. After the procedure, the patient may experience mild stomach discomfort, but recovery is usually quick — most patients are discharged the same day. <strong>How quickly are results available?</strong> Findings and images taken during endoscopy are assessed immediately after the procedure. If biopsy samples are sent to a pathologist, results are usually available within 5–10 working days. The veterinarian reviews the results with the owner and prepares a treatment plan.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1278,6 +1286,7 @@ const servicePages = [
       { heading: 'Koirien rokotukset', text: 'Koiranpennut rokotetaan ensimmäisen kerran 12 viikon iässä ja tehosterokotus annetaan 16 viikon iässä. Perusrokotus sisältää suojan penikkatautia, parvovirusta ja maksatulehdusta vastaan. Rabiesrokotus annetaan 12 viikon iästä alkaen. Kennelyskärokotus suositellaan koirille, jotka ovat paljon tekemisissä muiden koirien kanssa. Aikuisille koirille tehosterokotus annetaan 1–3 vuoden välein.' },
       { heading: 'Kissojen rokotukset', text: 'Kissanpennut rokotetaan 12 ja 16 viikon iässä. Perusrokotus sisältää suojan kissaruttoa, herpesvirusta ja calicivirusta vastaan. Rabiesrokotus on pakollinen ulkokissoille ja kaikille ulkomaille matkustaville kissoille. Aikuisille kissoille tehosterokotus annetaan 1–3 vuoden välein riippuen rokotteesta ja kissan elintavoista.' },
       { heading: 'Drop-in rokotukset ja matkustusasiakirjat', text: 'Klinikallamme on drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00. Laadimme myös EU-lemmikkieläinpassit ja matkustusasiakirjat ulkomaille matkustaville lemmikeille. Matkustusasiakirjojen vaatimukset vaihtelevat kohdemaan mukaan — ota yhteyttä hyvissä ajoin ennen matkaa.' },
+      { heading: 'Usein kysyttyä rokotuksista', text: '<strong>Kuinka usein rokotukset uusitaan?</strong> Ensimmäisen rokotussarjan jälkeen tehosterokotus annetaan vuoden kuluttua. Sen jälkeen aikuisten koirien ja kissojen perusrokotukset uusitaan 1–3 vuoden välein rokotteesta riippuen. Rabiesrokotus uusitaan yleensä 2–3 vuoden välein. Eläinlääkäri suunnittelee yksilöllisen rokotusohjelman lemmikkisi tarpeiden mukaan. <strong>Voiko rokottamattoman koiran ulkoiluttaa?</strong> Rokottamattomalla pennulla on suurempi riski sairastua vakaviin tartuntatauteihin kuten parvovirukseen. Pennun ensimmäisen rokotussarjan aikana on tärkeää välttää kontaktia tuntemattomien koirien kanssa ja paikkoja, joissa käy paljon koiria. Turvallista ulkoilua omalla pihalla tai puhtailla alueilla voi harjoittaa jo ennen rokotussarjan valmistumista.' },
     ],
     sv: {
       title: 'Vaccinationer — Djurklinik Saari, Vasa',
@@ -1288,6 +1297,7 @@ const servicePages = [
         { heading: 'Hundvaccinationer', text: 'Hundvalpar vaccineras första gången vid 12 veckors ålder och en boostervaccination ges vid 16 veckors ålder. Grundvaccinationen inkluderar skydd mot valpsjuka, parvovirus och hepatit. Rabiesvaccination ges från 12 veckors ålder. Kennelhosta-vaccination rekommenderas för hundar som har mycket kontakt med andra hundar. Vuxna hundar får boostervaccination vart 1–3 år.' },
         { heading: 'Kattvaccinationer', text: 'Kattungar vaccineras vid 12 och 16 veckors ålder. Grundvaccinationen inkluderar skydd mot kattpest, herpesvirus och calicivirus. Rabiesvaccination är obligatorisk för utekatter och alla katter som reser utomlands. Vuxna katter får boostervaccination vart 1–3 år beroende på vaccin och kattens levnadsvanor.' },
         { heading: 'Drop-in-vaccinationer och resehandlingar', text: 'Vår klinik erbjuder drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00. Vi utfärdar även EU-pass för sällskapsdjur och resehandlingar för husdjur som reser utomlands. Kraven för resehandlingar varierar beroende på destinationsland — kontakta oss i god tid före resan.' },
+        { heading: 'Vanliga frågor om vaccinationer', text: '<strong>Hur ofta förnyas vaccinationerna?</strong> Efter den första vaccinationsserien ges en boostervaccination efter ett år. Därefter förnyas grundvaccinationerna för vuxna hundar och katter vart 1–3 år beroende på vaccin. Rabiesvaccination förnyas vanligen vart 2–3 år. Veterinären planerar ett individuellt vaccinationsprogram utifrån ditt husdjurs behov. <strong>Kan man rasta en ovaccinerad hund?</strong> En ovaccinerad valp löper större risk att drabbas av allvarliga smittsjukdomar som parvovirus. Under valpens första vaccinationsserie är det viktigt att undvika kontakt med okända hundar och platser där många hundar vistas. Säker utevistelse på egen gård eller rena områden kan utövas redan innan vaccinationsserien är klar.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1305,6 +1315,7 @@ const servicePages = [
         { heading: 'Dog vaccinations', text: 'Puppies receive their first vaccination at 12 weeks of age, with a booster at 16 weeks. The core vaccination includes protection against distemper, parvovirus, and hepatitis. Rabies vaccination is given from 12 weeks of age. Kennel cough vaccination is recommended for dogs that have frequent contact with other dogs. Adult dogs receive booster vaccinations every 1–3 years.' },
         { heading: 'Cat vaccinations', text: 'Kittens are vaccinated at 12 and 16 weeks of age. The core vaccination includes protection against feline panleukopenia, herpesvirus, and calicivirus. Rabies vaccination is mandatory for outdoor cats and all cats travelling abroad. Adult cats receive booster vaccinations every 1–3 years depending on the vaccine and the cat\'s lifestyle.' },
         { heading: 'Drop-in vaccinations and travel documents', text: 'Our clinic offers drop-in vaccinations without appointment on Tuesdays from 15:30 to 16:00. We also issue EU pet passports and travel documents for pets travelling abroad. Travel document requirements vary by destination country — please contact us well in advance of your trip.' },
+        { heading: 'Frequently asked questions about vaccinations', text: '<strong>How often are vaccinations renewed?</strong> After the initial vaccination series, a booster is given after one year. Thereafter, core vaccinations for adult dogs and cats are renewed every 1–3 years depending on the vaccine. Rabies vaccination is typically renewed every 2–3 years. The veterinarian will plan an individual vaccination programme based on your pet\'s needs. <strong>Can an unvaccinated dog be walked outside?</strong> An unvaccinated puppy has a higher risk of contracting serious infectious diseases such as parvovirus. During the puppy\'s first vaccination series, it is important to avoid contact with unknown dogs and places frequented by many dogs. Safe outdoor activity in your own garden or clean areas can be practised before the vaccination series is complete.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1329,6 +1340,7 @@ const servicePages = [
       { heading: 'Vatsan ultraääni', text: 'Vatsan alueen ultraäänellä tutkitaan sisäelinten rakenne ja mahdolliset muutokset: maksa, perna, munuaiset, lisämunuaiset, virtsarakko, mahalaukku, suolisto, haima ja imusolmukkeet. Yleisiä indikaatioita ovat oksentelu, ripuli, painon lasku, virtsaamisongelmat, kasvainepäily ja yleisvoinnin lasku. Ultraääniohjatulla näytteenotolla voidaan ottaa koepalojen näytteitä suoraan muuttuneesta kudoksesta.' },
       { heading: 'Sydämen ultraääni', text: 'Sydämen ultraääni (ekokardiografia) on sydänsairauksien tärkein tutkimusmenetelmä. Tutkimuksessa arvioidaan sydämen kammioiden koko, seinämien paksuus, läppien toiminta ja verenvirtaus. Tutkimus on välttämätön sydänlääkityksen aloittamiselle ja seurannalle. Klinikallamme on viralliset oikeudet jalostukseen liittyviin sydämen ultraäänitutkimuksiin.' },
       { heading: 'Tiineystutkimus', text: 'Ultraäänellä voidaan todeta tiineys noin raskauspäivästä 24 alkaen. Tutkimuksella arvioidaan sikiöiden elinvoimaisuus ja kehitys. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin raskauspäivästä 50 lähtien.' },
+      { heading: 'Usein kysyttyä ultraäänitutkimuksista', text: '<strong>Tarvitaanko ultraäänitutkimukseen rauhoitusta?</strong> Valtaosa ultraäänitutkimuksista tehdään hereillä olevalle potilaalle ilman rauhoitusta. Tutkimus on kivuton — ainoa valmistelu on tutkimusalueen karvojen ajelu ja ultraäänigeeelin levittäminen iholle. Erityisen levottomille tai jännittyneille potilaille voidaan antaa kevyt rauhoitus. <strong>Kauanko ultraäänitutkimus kestää?</strong> Vatsan ultraäänitutkimus kestää yleensä 20–40 minuuttia riippuen löydöksistä ja tutkimuksen laajuudesta. Sydämen ultraääni vie noin 15–30 minuuttia. Tiineystutkimus on nopein ja kestää yleensä 10–15 minuuttia. Tulokset kerrotaan omistajalle heti tutkimuksen jälkeen.' },
     ],
     sv: {
       title: 'Ultraljud — Djurklinik Saari, Vasa',
@@ -1339,6 +1351,7 @@ const servicePages = [
         { heading: 'Bukens ultraljud', text: 'Med bukens ultraljud undersöks inre organs struktur och eventuella förändringar: lever, mjälte, njurar, binjurar, urinblåsa, magsäck, tarmar, bukspottkörtel och lymfknutor. Vanliga indikationer är kräkningar, diarré, viktnedgång, urineringsproblem, tumörmisstanke och nedsatt allmäntillstånd. Med ultraljudsledd provtagning kan biopsier tas direkt från förändrad vävnad.' },
         { heading: 'Hjärtultraljud', text: 'Hjärtultraljud (ekokardiografi) är den viktigaste undersökningsmetoden för hjärtsjukdomar. Undersökningen bedömer hjärtats kammarstorlek, väggars tjocklek, klaffarnas funktion och blodflöde. Undersökningen är nödvändig för att inleda och följa upp hjärtmedicinering. Vår klinik har officiella rättigheter för avelrelaterade hjärtultraljudsundersökningar.' },
         { heading: 'Dräktighetsundersökning', text: 'Med ultraljud kan dräktighet konstateras från ungefär dräktighetsdag 24. Undersökningen bedömer fosternas livskraft och utveckling. Med röntgenundersökning kan antalet valpar bedömas mer exakt från dräktighetsdag 50.' },
+        { heading: 'Vanliga frågor om ultraljudsundersökningar', text: '<strong>Behövs sedering för ultraljudsundersökning?</strong> De flesta ultraljudsundersökningar görs på en vaken patient utan sedering. Undersökningen är smärtfri — den enda förberedelsen är rakning av undersökningsområdet och applicering av ultraljudsgel på huden. Särskilt oroliga eller spända patienter kan få lätt sedering. <strong>Hur lång tid tar en ultraljudsundersökning?</strong> Bukens ultraljudsundersökning tar vanligen 20–40 minuter beroende på fynd och undersökningens omfattning. Hjärtultraljud tar cirka 15–30 minuter. Dräktighetsundersökning är snabbast och tar vanligen 10–15 minuter. Resultaten meddelas ägaren direkt efter undersökningen.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1356,6 +1369,7 @@ const servicePages = [
         { heading: 'Abdominal ultrasound', text: 'Abdominal ultrasound examines the structure of internal organs and any changes: liver, spleen, kidneys, adrenal glands, bladder, stomach, intestines, pancreas, and lymph nodes. Common indications include vomiting, diarrhoea, weight loss, urination problems, suspected tumours, and general decline. Ultrasound-guided sampling allows biopsies to be taken directly from abnormal tissue.' },
         { heading: 'Cardiac ultrasound', text: 'Cardiac ultrasound (echocardiography) is the primary examination method for heart disease. The examination assesses chamber size, wall thickness, valve function, and blood flow. It is essential for initiating and monitoring cardiac medication. Our clinic has official rights for breeding-related cardiac ultrasound examinations.' },
         { heading: 'Pregnancy scanning', text: 'Ultrasound can confirm pregnancy from approximately day 24 of gestation. The examination assesses fetal viability and development. Radiography can more accurately estimate the number of puppies from day 50 of gestation.' },
+        { heading: 'Frequently asked questions about ultrasound', text: '<strong>Is sedation needed for ultrasound?</strong> The majority of ultrasound examinations are performed on an awake patient without sedation. The examination is painless — the only preparation is shaving the examination area and applying ultrasound gel to the skin. Particularly restless or anxious patients may receive light sedation. <strong>How long does an ultrasound examination take?</strong> An abdominal ultrasound typically takes 20–40 minutes depending on findings and the scope of the examination. Cardiac ultrasound takes approximately 15–30 minutes. Pregnancy scanning is the quickest and usually takes 10–15 minutes. Results are communicated to the owner immediately after the examination.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1380,6 +1394,7 @@ const servicePages = [
       { heading: 'Allergian tutkiminen', text: 'Allergiaa epäiltäessä pyritään ensin poissulkemaan ruoka-aineet eliminaatiodieetillä. Jos ruoka-allergia suljetaan pois, kyseessä voi olla atooppinen ihottuma (ympäristöallergia). Tarvittaessa otetaan allergiaverinäytteet, joilla voidaan tunnistaa allergiaa aiheuttavat aineet. Iho- ja korvanäytteitä tutkitaan klinikan omassa laboratoriossa.' },
       { heading: 'Korvatulehdukset', text: 'Toistuvat korvatulehdukset liittyvät usein taustalla olevaan allergiaan. Klinikallamme on käytössä video-otoskopia, jolla korvaonteloa voidaan tutkia ja puhdistaa suurennetulla videokuvalla. Näkyvyys on moninkertainen perinteiseen tutkimukseen verrattuna, mikä mahdollistaa tehokkaamman hoidon.' },
       { heading: 'Hoitovaihtoehdot', text: 'Ihotautien hoito räätälöidään yksilöllisesti. Hoitoon voi kuulua eliminaatiodieetit, allergiaspesifinen immunoterapia (siedätyshoito), paikallishoidot, lääkitys ja ruokavaliomuutokset. Tavoitteena on löytää syy, ei vain lievittää oireita.' },
+      { heading: 'Usein kysyttyä ihotaudeista', text: '<strong>Voiko allergiasta parantua?</strong> Allergia on krooninen sairaus, josta ei yleensä parannuta kokonaan. Hyvällä hoidolla oireet saadaan kuitenkin hallintaan ja lemmikin elämänlaatu pysyy hyvänä. Siedätyshoito (immunoterapia) voi vähentää allergian voimakkuutta merkittävästi — jopa 60–70 % potilaista hyötyy siedätyshoidosta. Hoito on pitkäkestoinen, mutta voi vähentää lääkityksen tarvetta pysyvästi. <strong>Kuinka nopeasti hoitovaste näkyy?</strong> Ihotautien hoitovaste riippuu diagnoosista. Bakteeri-ihotulehdus vastaa yleensä antibioottikuuriin 2–4 viikossa. Eliminaatiodieetti vaatii 6–8 viikon tiukan noudattamisen ennen kuin tuloksia voidaan arvioida. Siedätyshoito on hitain — ensimmäiset tulokset näkyvät usein vasta 6–12 kuukauden kuluessa.' },
     ],
     sv: {
       title: 'Hudsjukdomar och allergier — Djurklinik Saari, Vasa',
@@ -1390,6 +1405,7 @@ const servicePages = [
         { heading: 'Allergiutredning', text: 'Vid misstanke om allergi försöker man först utesluta livsmedel med eliminationsdiet. Om födoämnesallergi utesluts kan det vara atopisk dermatit (miljöallergi). Vid behov tas allergiblodprov för att identifiera allergiframkallande ämnen. Hud- och öronprov undersöks i klinikens eget laboratorium.' },
         { heading: 'Öroninflammationer', text: 'Återkommande öroninflammationer hänger ofta samman med en underliggande allergi. Vår klinik använder video-otoskopi, som gör det möjligt att undersöka och rengöra hörselgången med förstorad videobild. Sikten är mångdubbelt bättre jämfört med traditionell undersökning, vilket möjliggör effektivare behandling.' },
         { heading: 'Behandlingsalternativ', text: 'Behandlingen av hudsjukdomar skräddarsys individuellt. Behandlingen kan inkludera eliminationsdieter, allergenspecifik immunterapi (hyposensibilisering), lokalbehandlingar, medicinering och kostförändringar. Målet är att hitta orsaken, inte bara lindra symtomen.' },
+        { heading: 'Vanliga frågor om hudsjukdomar', text: '<strong>Kan man bli av med allergi?</strong> Allergi är en kronisk sjukdom som vanligen inte kan botas helt. Med god behandling kan symtomen dock kontrolleras och husdjurets livskvalitet förbli god. Hyposensibilisering (immunterapi) kan minska allergins intensitet avsevärt — upp till 60–70 % av patienterna drar nytta av behandlingen. Behandlingen är långvarig men kan minska behovet av medicinering permanent. <strong>Hur snabbt syns behandlingsresultat?</strong> Behandlingssvaret vid hudsjukdomar beror på diagnosen. Bakteriell hudinfektion svarar vanligen på antibiotikakur inom 2–4 veckor. Eliminationsdiet kräver 6–8 veckors strikt efterlevnad innan resultat kan bedömas. Hyposensibilisering är långsammast — de första resultaten syns ofta först efter 6–12 månader.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1407,6 +1423,7 @@ const servicePages = [
         { heading: 'Allergy investigation', text: 'When allergy is suspected, food allergens are first ruled out with an elimination diet. If food allergy is excluded, atopic dermatitis (environmental allergy) may be the cause. Allergy blood tests can be taken to identify allergens if needed. Skin and ear samples are examined in the clinic\'s own laboratory.' },
         { heading: 'Ear infections', text: 'Recurrent ear infections are often linked to an underlying allergy. Our clinic uses video otoscopy, which enables examination and cleaning of the ear canal with magnified video imaging. Visibility is many times greater compared to traditional examination, enabling more effective treatment.' },
         { heading: 'Treatment options', text: 'Treatment of skin diseases is individually tailored. Treatment may include elimination diets, allergen-specific immunotherapy (desensitisation), topical treatments, medication, and dietary changes. The goal is to find the cause, not just relieve symptoms.' },
+        { heading: 'Frequently asked questions about skin diseases', text: '<strong>Can allergies be cured?</strong> Allergy is a chronic condition that usually cannot be completely cured. However, with good management, symptoms can be controlled and your pet\'s quality of life maintained. Allergen-specific immunotherapy (desensitisation) can significantly reduce the severity of allergies — up to 60–70% of patients benefit from the treatment. The treatment is long-term but can permanently reduce the need for medication. <strong>How quickly do treatment results appear?</strong> Treatment response for skin diseases depends on the diagnosis. Bacterial skin infections typically respond to antibiotic treatment within 2–4 weeks. An elimination diet requires 6–8 weeks of strict adherence before results can be assessed. Immunotherapy is the slowest — initial results often appear only after 6–12 months.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2599,6 +2616,7 @@ function generateServicePage(service, translations, lang) {
   }]
   </script>
 
+  <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
   <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
 </head>
@@ -2668,8 +2686,8 @@ ${relatedHtml}
         <div class="footer-col">
           <h4>${escapeHtml(footerFollow[lang] || footerFollow.fi)}</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>
@@ -2718,9 +2736,11 @@ function generatePrivacyPage() {
   <meta property="og:url" content="${BASE_URL}/tietosuoja/">
   <meta property="og:title" content="Tietosuojaseloste — Eläinklinikka Saari">
   <meta property="og:description" content="Eläinklinikka Saari Oy:n tietosuojaseloste ja rekisteriseloste.">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="fi_FI">
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
+  <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/logo.png">
 </head>
@@ -2818,8 +2838,8 @@ function generatePrivacyPage() {
         <div class="footer-col">
           <h4>Seuraa meitä</h4>
           <div class="footer-social">
-            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>
