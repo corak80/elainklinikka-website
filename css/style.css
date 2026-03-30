@@ -1448,7 +1448,9 @@ a.service-card-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-col h4 {
+.footer-col h4,
+.footer-col .footer-heading {
+  display: block;
   color: white;
   font-size: var(--font-size-sm);
   font-weight: 600;

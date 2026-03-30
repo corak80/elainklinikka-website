@@ -759,21 +759,24 @@ ${relatedHtml}
           <p data-i18n="footer.description">Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.quicklinks">Pikalinkit</h4>
+          <strong class="footer-heading" data-i18n="footer.quicklinks">Pikalinkit</strong>
           <a href="../#about" data-i18n="nav.about">Klinikka</a>
           <a href="../#services" data-i18n="nav.services">Palvelut</a>
           <a href="../#team" data-i18n="nav.team">Henkilökunta</a>
           <a href="../#prices" data-i18n="nav.prices">Hinnasto</a>
           <a href="../#wildlife" data-i18n="nav.wildlife">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.contact">Yhteystiedot</h4>
+          <strong class="footer-heading" data-i18n="footer.contact">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.follow">Seuraa meitä</h4>
+          <strong class="footer-heading" data-i18n="footer.follow">Seuraa meitä</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -782,7 +785,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; <span data-i18n="footer.rights">Kaikki oikeudet pidätetään.</span></span>
-        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja</a>
+        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
@@ -1026,21 +1029,24 @@ ${cardsHtml}
           <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
         </div>
         <div class="footer-col">
-          <h4>Pikalinkit</h4>
+          <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#prices">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4>Yhteystiedot</h4>
+          <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>Seuraa meitä</h4>
+          <strong class="footer-heading">Seuraa meitä</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -1049,7 +1055,7 @@ ${cardsHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
@@ -2201,6 +2207,7 @@ const servicePages = [
       { heading: 'Kuntoutusmenetelmät', text: 'Klinikallamme on käytössä monipuoliset kuntoutusmenetelmät: manuaalinen terapia ja hieronta lihasjäykkyyden lievittämiseen, elektroterapia kivunlievitykseen ja lihasten stimulointiin, sekä yksilölliset harjoitusohjelmat lihasvoiman ja liikkuvuuden parantamiseen. Hoitosuunnitelma räätälöidään potilaan tarpeiden ja tavoitteiden mukaan.' },
       { heading: 'Leikkauksen jälkeinen kuntoutus', text: 'Leikkauksen jälkeinen kuntoutus on olennainen osa toipumista, erityisesti ortopedisten toimenpiteiden jälkeen. Kuntoutus nopeuttaa paranemista, palauttaa toimintakykyä ja vähentää komplikaatioiden riskiä. Aloitamme kuntoutuksen yleensä 1–2 viikkoa leikkauksen jälkeen ja jatkamme kunnes potilas on saavuttanut normaalin liikkumisen.' },
       { heading: 'Kroonisen kivun hallinta', text: 'Kuntoutus on tärkeä osa kroonisen kivun hoitoa, erityisesti nivelrikossa ja ikääntymiseen liittyvissä liikuntaelinvaivoissa. Säännöllinen kuntoutus yhdistettynä kipulääkitykseen ja tarvittaessa akupunktioon parantaa lemmikin elämänlaatua merkittävästi. Tavoitteena on aktiivinen ja kivuton arki mahdollisimman pitkään.' },
+      { heading: 'Usein kysyttyä kuntoutuksesta', text: '<strong>Kuinka nopeasti kuntoutus kannattaa aloittaa leikkauksen jälkeen?</strong> Kuntoutuksen aloitusajankohta riippuu toimenpiteestä ja potilaan tilasta. Yleensä kuntoutus aloitetaan 1–2 viikkoa leikkauksen jälkeen, kun haavan paraneminen on hyvässä vauhdissa. Eläinlääkäri arvioi optimaalisen aloitusajankohdan jälkitarkastuksessa. Liian aikainen aloitus voi rasittaa leikkausaluetta, mutta liian pitkä odottaminen hidastaa lihasvoiman ja liikkuvuuden palautumista. <strong>Sopiiko kuntoutus myös vanhoille lemmikeille?</strong> Kyllä, kuntoutus sopii erinomaisesti iäkkäille lemmikeille. Ikääntyneillä koirilla ja kissoilla kuntoutus auttaa erityisesti nivelrikon oireiden hallinnassa, lihasvoiman ylläpitämisessä ja liikkuvuuden parantamisessa. Hoito-ohjelma räätälöidään potilaan kunnon ja rajoitteiden mukaan — iäkkäille lemmikeille valitaan hellävaraisempia menetelmiä ja harjoituksia. Monet omistajat huomaavat, että säännöllinen kuntoutus parantaa merkittävästi ikääntyneen lemmikin elämänlaatua ja aktiivisuutta arjessa.' },
     ],
     sv: {
       title: 'Välbefinnande och rehabilitering — Djurklinik Saari, Vasa',
@@ -2211,6 +2218,7 @@ const servicePages = [
         { heading: 'Rehabiliteringsmetoder', text: 'Vår klinik erbjuder mångsidiga rehabiliteringsmetoder: manuell terapi och massage för att lindra muskelstelhet, elektroterapi för smärtlindring och muskelstimulering, samt individuella träningsprogram för att förbättra muskelstyrka och rörlighet. Behandlingsplanen skräddarsys efter patientens behov och mål.' },
         { heading: 'Postoperativ rehabilitering', text: 'Rehabilitering efter operation är en väsentlig del av tillfrisknandet, särskilt efter ortopediska ingrepp. Rehabilitering påskyndar läkningen, återställer funktionsförmågan och minskar risken för komplikationer. Vi påbörjar rehabiliteringen vanligen 1–2 veckor efter operationen och fortsätter tills patienten har uppnått normal rörlighet.' },
         { heading: 'Kronisk smärthantering', text: 'Rehabilitering är en viktig del av behandlingen av kronisk smärta, särskilt vid artros och åldersrelaterade muskuloskeletala besvär. Regelbunden rehabilitering i kombination med smärtmedicin och vid behov akupunktur förbättrar husdjurets livskvalitet avsevärt. Målet är en aktiv och smärtfri vardag så länge som möjligt.' },
+        { heading: 'Vanliga frågor om rehabilitering', text: '<strong>Hur snabbt bör rehabiliteringen påbörjas efter operation?</strong> Tidpunkten för rehabiliteringens start beror på ingreppet och patientens tillstånd. Vanligen påbörjas rehabiliteringen 1–2 veckor efter operationen, när sårläkningen har kommit igång ordentligt. Veterinären bedömer den optimala starttidpunkten vid efterkontrollen. För tidig start kan belasta operationsområdet, men för lång väntan fördröjer återhämtningen av muskelstyrka och rörlighet. <strong>Passar rehabilitering även för äldre husdjur?</strong> Ja, rehabilitering passar utmärkt för äldre husdjur. Hos äldre hundar och katter hjälper rehabilitering särskilt med hantering av artrossymtom, bibehållande av muskelstyrka och förbättring av rörlighet. Behandlingsprogrammet skräddarsys efter patientens kondition och begränsningar — för äldre husdjur väljs skonsamma metoder och övningar. Många ägare märker att regelbunden rehabilitering avsevärt förbättrar det äldre husdjurets livskvalitet och aktivitetsnivå i vardagen.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2228,6 +2236,7 @@ const servicePages = [
         { heading: 'Rehabilitation methods', text: 'Our clinic offers a range of rehabilitation methods: manual therapy and massage to relieve muscle stiffness, electrotherapy for pain relief and muscle stimulation, and individual exercise programmes to improve muscle strength and mobility. The treatment plan is tailored to the patient\'s needs and goals.' },
         { heading: 'Post-surgical rehabilitation', text: 'Post-surgical rehabilitation is an essential part of recovery, especially after orthopaedic procedures. Rehabilitation accelerates healing, restores function, and reduces the risk of complications. We typically begin rehabilitation 1–2 weeks after surgery and continue until the patient has achieved normal mobility.' },
         { heading: 'Chronic pain management', text: 'Rehabilitation is an important part of chronic pain management, especially in osteoarthritis and age-related musculoskeletal conditions. Regular rehabilitation combined with pain medication and acupuncture when needed significantly improves your pet\'s quality of life. The goal is an active and pain-free daily life for as long as possible.' },
+        { heading: 'Frequently asked questions about rehabilitation', text: '<strong>How soon should rehabilitation begin after surgery?</strong> The timing for starting rehabilitation depends on the procedure and the patient\'s condition. Rehabilitation typically begins 1–2 weeks after surgery, once wound healing is well under way. The veterinarian assesses the optimal start time at the post-operative check-up. Starting too early may strain the surgical site, but waiting too long delays the recovery of muscle strength and mobility. <strong>Is rehabilitation suitable for older pets?</strong> Yes, rehabilitation is excellent for elderly pets. In older dogs and cats, rehabilitation is particularly helpful for managing osteoarthritis symptoms, maintaining muscle strength, and improving mobility. The treatment programme is tailored to the patient\'s condition and limitations — gentler methods and exercises are chosen for older pets. Many owners notice that regular rehabilitation significantly improves their senior pet\'s quality of life and daily activity level.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2720,21 +2729,24 @@ ${relatedHtml}
           <p>${escapeHtml(footerDesc[lang] || footerDesc.fi)}</p>
         </div>
         <div class="footer-col">
-          <h4>${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</h4>
+          <strong class="footer-heading">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
           <a href="${assetPrefix}#about">${escapeHtml(nav.about)}</a>
           <a href="${assetPrefix}#services">${escapeHtml(nav.services)}</a>
           <a href="${assetPrefix}#team">${escapeHtml(nav.team)}</a>
           <a href="${assetPrefix}#prices">${escapeHtml(nav.prices)}</a>
           <a href="${assetPrefix}#wildlife">${escapeHtml(nav.wildlife)}</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4>${escapeHtml(footerContact[lang] || footerContact.fi)}</h4>
+          <strong class="footer-heading">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>${escapeHtml(footerFollow[lang] || footerFollow.fi)}</h4>
+          <strong class="footer-heading">${escapeHtml(footerFollow[lang] || footerFollow.fi)}</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -2743,7 +2755,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; ${footerBusinessId[lang] || footerBusinessId.fi}: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
@@ -2779,6 +2791,7 @@ function generatePrivacyPage() {
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
 
   <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus.">
+  <meta name="page-topic" content="Privacy Policy">
   <link rel="canonical" href="${BASE_URL}/tietosuoja/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/tietosuoja/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/tietosuoja/">
@@ -2874,20 +2887,24 @@ function generatePrivacyPage() {
           <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
         </div>
         <div class="footer-col">
-          <h4>Pikalinkit</h4>
+          <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#prices">Hinnasto</a>
+          <a href="../#wildlife">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4>Yhteystiedot</h4>
+          <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>Seuraa meitä</h4>
+          <strong class="footer-heading">Seuraa meitä</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -2896,7 +2913,7 @@ function generatePrivacyPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
@@ -2943,6 +2960,7 @@ function generateAboutPage() {
   </script>
 
   <meta name="description" content="Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, sydäntutkimukset ja ISFM-kissaystävällinen klinikka.">
+  <meta name="page-topic" content="About us">
   <link rel="canonical" href="${BASE_URL}/meista/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/meista/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/meista/">
@@ -3017,8 +3035,14 @@ function generateAboutPage() {
         <h1>Tietoa klinikasta</h1>
         <div class="article-content">
           <h2>Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasassa</h2>
-          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
-          <p>Ammattitaitoinen hoitotiimimme tarjoaa kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi. Klinikkamme on ISFM-sertifioitu kissaystävällinen klinikka (International Society of Feline Medicine), mikä tarkoittaa erityistä huomiota kissapotilaiden hyvinvointiin ja stressin vähentämiseen.</p>
+          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa. Klinikka on perustettu vuonna 1989, ja olemme palvelleet vaasalaisia lemmikkien omistajia yli 35 vuoden ajan. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
+          <p>Ammattitaitoinen hoitotiimimme koostuu 13 ammattilaisesta — kokeneista eläinlääkäreistä ja eläintenhoitajista — jotka tarjoavat asiantuntevaa palvelua aina eläimenne parhaaksi. Klinikkamme on ISFM-sertifioitu kissaystävällinen klinikka (International Society of Feline Medicine), mikä tarkoittaa erityistä huomiota kissapotilaiden hyvinvointiin ja stressin vähentämiseen vastaanottotilanteissa.</p>
+
+          <h2>Erikoisalat ja osaaminen</h2>
+          <p>Klinikalla on laaja erikoisosaaminen useilla eläinlääketieteen osa-alueilla. Erikoisalueitamme ovat hammashoito, kardiologia (sydäntutkimukset), ortopedinen ja pehmytkudoskirurgia, ihotaudit (dermatologia) sekä tähystystutkimukset (endoskopia). Eläinlääkäreillemme on vuosikymmenten kokemus ja jatkokoulutusta näillä erikoisaloilla, minkä ansiosta pystymme tarjoamaan korkeatasoista hoitoa ilman lähetettä erikoisklinikkaan.</p>
+
+          <h2>Moderni laitteisto</h2>
+          <p>Investoimme jatkuvasti nykyaikaiseen teknologiaan, jotta diagnostiikka ja hoito ovat mahdollisimman tarkkoja ja turvallisia. Käytössämme on digitaalinen röntgen, hammasröntgen, ultraäänilaitteisto (vatsa- ja sydänultraääni), EKG, Holter-monitori sekä monipuolinen tähystysvälineistö gastroskopiasta bronkoskopiaan ja video-otoskopiaan. Oma laboratorio tuottaa tulokset nopeasti vastaanoton aikana, mikä mahdollistaa nopean hoidon aloittamisen.</p>
 
           <h2>Palvelumme</h2>
           <p>Tarjoamme monipuoliset eläinlääkäripalvelut:</p>
@@ -3027,15 +3051,18 @@ function generateAboutPage() {
           <p><strong>Sydäntutkimukset</strong> — Sydämen ultraääni, EKG, Holter-tutkimus. Viralliset sydäntutkimukset jalostuskoirille Kennelliiton hyväksymänä tutkijana.</p>
           <p><strong>Hammashoito</strong> — Hammaskiven poisto, hammasröntgen, hampaiden poistot, PerioVive-hyaluronihappogeelihoito.</p>
 
+          <h2>Hoitofilosofia</h2>
+          <p>Uskomme myötätuntoiseen ja yksilölliseen hoitoon. Jokainen potilas kohdataan yksilönä, ja hoitosuunnitelma laaditaan yhdessä omistajan kanssa. Haluamme, että käynti kliniikalla on mahdollisimman stressitön sekä lemmikille että omistajalle. Kissapotilaiden erityistarpeet huomioidaan ISFM-sertifioinnin mukaisesti erillisillä odotustiloilla ja rauhallisilla hoitokäytännöillä.</p>
+
           <h2>Henkilökunta</h2>
-          <p>Klinikkamme tiimi koostuu kokeneista eläinlääkäreistä ja eläintenhoitajista. Eläinlääkäreillemme on vuosikymmenten kokemus pieneläinlääketieteestä ja jatkokoulutus mm. ortopediassa, kardiologiassa, akupunktiossa ja hammashoidossa.</p>
+          <p>Klinikkamme tiimi koostuu kokeneista eläinlääkäreistä ja eläintenhoitajista. Eläinlääkäreillemme on vuosikymmenten kokemus pieneläinlääketieteestä ja jatkokoulutus mm. ortopediassa, kardiologiassa, akupunktiossa ja hammashoidossa. Hoitajamme ovat ammattitaitoisia ja huolehtivat potilaista lämpimästi ennen, aikana ja jälkeen toimenpiteiden.</p>
 
           <div class="cat-friendly-badge" style="margin-top:1.5rem;">
             🐱 <span>ISFM-sertifioitu kissaystävällinen klinikka</span>
           </div>
 
           <h2>Sijainti</h2>
-          <p>Gerbyntie 18, 65230 Vaasa (Dragnäsbäck, Bockis-kurvissa). Ilmainen pysäköinti klinikan edessä.</p>
+          <p>Gerbyntie 18, 65230 Vaasa (Dragnäsbäck, Bockis-kurvissa). Ilmainen pysäköinti klinikan edessä. Klinikka sijaitsee keskeisellä paikalla ja on helposti saavutettavissa sekä autolla että julkisilla liikennevälineillä.</p>
         </div>
       </article>
 
@@ -3060,21 +3087,24 @@ function generateAboutPage() {
           <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
         </div>
         <div class="footer-col">
-          <h4>Pikalinkit</h4>
+          <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#prices">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4>Yhteystiedot</h4>
+          <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>Seuraa meitä</h4>
+          <strong class="footer-heading">Seuraa meitä</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -3083,7 +3113,7 @@ function generateAboutPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
@@ -3130,6 +3160,7 @@ function generateContactPage() {
   </script>
 
   <meta name="description" content="Eläinklinikka Saaren yhteystiedot. Osoite: Gerbyntie 18, Vaasa. Puhelin: (06) 321 7300. Sähköposti: info@saarivet.fi. Aukioloajat ja ajanvaraus.">
+  <meta name="page-topic" content="Contact">
   <link rel="canonical" href="${BASE_URL}/yhteystiedot/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/yhteystiedot/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/yhteystiedot/">
@@ -3207,24 +3238,36 @@ function generateContactPage() {
       <article class="article-card">
         <h1>Yhteystiedot</h1>
         <div class="article-content">
-          <h2>Osoite</h2>
+          <h2>Osoite ja sijainti</h2>
           <p><strong>Eläinklinikka Saari</strong><br>
           Gerbyntie 18<br>
           65230 Vaasa<br>
           (Dragnäsbäck, Bockis-kurvissa)</p>
-          <p>Ilmainen pysäköinti klinikan edessä.</p>
+
+          <h2>Saapumisohjeet</h2>
+          <p><strong>Autolla:</strong> Klinikka sijaitsee Dragnäsbäckin kaupunginosassa, Gerbyntien ja Dragnäsbäckintien risteyksessä (Bockis-kurvi). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
+          <p><strong>Bussilla:</strong> Lähin bussipysäkki on Dragnäsbäckintien varrella, noin 200 metrin kävelymatkan päässä klinikasta. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta lysreisor.fi.</p>
 
           <h2>Puhelin ja sähköposti</h2>
           <p>Puhelin: <a href="tel:+35863217300" onclick="gtag_report_conversion();"><strong>(06) 321 7300</strong></a><br>
           Sähköposti: <a href="mailto:info@saarivet.fi">info@saarivet.fi</a></p>
+          <p>Puhelimeen vastataan arkisin aukioloaikojen puitteissa. Kiireettömissä asioissa voit myös lähettää sähköpostia tai WhatsApp-viestin, niin vastaamme mahdollisimman pian.</p>
 
           <h2>Aukioloajat</h2>
           <p>Ma–Pe: 9:00–16:00<br>
           La–Su: Suljettu</p>
-          <p>Vastaanotto ajanvarauksella. Päivystys: tarkista päivystävä klinikka numerosta (06) 321 7300.</p>
+          <p>Vastaanotto toimii ajanvarauksella. Suosittelemme varaamaan ajan etukäteen, jotta voimme varata riittävästi aikaa lemmikkisi hoitoon. Päivystystilanteissa soita numeroon (06) 321 7300, niin opastamme sinut oikean päivystävän klinikan puoleen.</p>
 
           <h2>Ajanvaraus</h2>
-          <p>Varaa aika soittamalla tai verkkoajanvarauksella:</p>
+          <p>Voit varata ajan kahdella tavalla:</p>
+          <p><strong>Puhelimitse:</strong> Soita <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a> arkisin klo 9–16. Vastaanottomme henkilökunta auttaa löytämään sopivan ajan.</p>
+          <p><strong>Verkkoajanvaraus:</strong> Varaa aika ympäri vuorokauden verkkoajanvarausjärjestelmässämme osoitteessa <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener">my.provet.com/elainklinikka-saari</a>. Verkkoajanvaraus on nopea ja helppokäyttöinen.</p>
+
+          <h2>Mitä ottaa mukaan vastaanotolle</h2>
+          <p>Ota vastaanotolle mukaan lemmikin mahdolliset aiemmat hoitotiedot tai epikriisit, voimassa oleva lääkitys sekä rokotuskortti. Jos lemmikillä on vakuutus, ota mukaan vakuutustodistus — teemme suorakorvauksen Lähitapiolan, Agrian ja Pohjolan vakuutuksille. Kissapotilaat tulisi tuoda kuljetuskopassa ja koirat talutushihnassa.</p>
+
+          <h2>Hätätilanteet</h2>
+          <p>Klinikkamme ei tarjoa ympärivuorokautista päivystystä. Hätätilanteissa aukioloaikojen ulkopuolella soita klinikan numeroon (06) 321 7300, jossa puhelinvastaaja ohjaa lähimpään päivystävään klinikkaan. Akuuteissa hengenvaarallisissa tilanteissa ota välittömästi yhteyttä päivystävään eläinlääkäriin.</p>
 
           <h2>Sijainti kartalla</h2>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.5!2d21.5967!3d63.0883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d6007bf4e31b1%3A0x3e189f57a09e4f42!2sGerbyntie%2018%2C%2065230%20Vaasa!5e0!3m2!1sfi!2sfi!4v1700000000000" width="100%" height="350" style="border:0;border-radius:var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eläinklinikka Saari kartalla"></iframe>
@@ -3252,21 +3295,24 @@ function generateContactPage() {
           <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
         </div>
         <div class="footer-col">
-          <h4>Pikalinkit</h4>
+          <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#prices">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
         </div>
         <div class="footer-col">
-          <h4>Yhteystiedot</h4>
+          <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>Seuraa meitä</h4>
+          <strong class="footer-heading">Seuraa meitä</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
@@ -3275,7 +3321,7 @@ function generateContactPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
       </div>
     </div>
   </footer>
