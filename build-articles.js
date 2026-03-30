@@ -782,6 +782,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; <span data-i18n="footer.rights">Kaikki oikeudet pidätetään.</span></span>
+        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -1048,6 +1049,7 @@ ${cardsHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -1448,6 +1450,7 @@ const servicePages = [
       { heading: 'Mitä senioritarkastukseen kuuluu?', text: 'Senioritarkastuksessa eläinlääkäri tutkii lemmikin kliinisesti päästä varpaisiin, kuuntelee sydäntä ja keuhkoja, tunnustelee vatsan ja imusolmukkeet. Verikokeet kertovat munuaisten, maksan ja kilpirauhasen toiminnasta. Virtsanäytteellä voidaan havaita varhaisia munuaismuutoksia. Tarvittaessa tehdään verenpaineen mittaus, sydämen ultraääni tai vatsan ultraääni.' },
       { heading: 'Miksi säännöllinen tarkastus on tärkeää?', text: 'Säännöllisellä senioritarkastuksella sairaudet havaitaan varhaisessa vaiheessa, jolloin hoito on tehokkaampaa ja lemmikin elämänlaatu säilyy pidempään. Esimerkiksi munuaisten vajaatoiminnan varhainen toteaminen mahdollistaa ruokavalion ja lääkityksen aloittamisen ajoissa, mikä voi pidentää elinikää vuosilla.' },
       { heading: 'Kuinka usein tarkastukseen?', text: 'Suosittelemme senioritarkastusta kerran vuodessa terveille ikääntyville lemmikeille. Jos lemmikillä on krooninen sairaus tai lääkitys, tarkempi seurantaväli sovitaan yksilöllisesti. Varaa aika senioritarkastukseen — se on parasta ennaltaehkäisevää hoitoa ikääntyvälle lemmikillesi.' },
+      { heading: 'Usein kysyttyä senioritarkastuksesta', text: '<strong>Kuinka usein senioritarkastus tehdään?</strong> Terveelle ikääntyvälle lemmikille suositellaan senioritarkastusta kerran vuodessa. Suurikokoisille koiraroduille tarkastukset voidaan aloittaa jo 5–6 vuoden iässä, pienemmille roduille noin 7-vuotiaana ja kissoille noin 10-vuotiaana. Jos lemmikillä on krooninen sairaus tai lääkitys, seurantaväli voi olla tiiviimpi — esimerkiksi puolivuosittain. <strong>Mitä verikokeet kertovat?</strong> Senioritarkastuksen verikokeet paljastavat munuaisten, maksan ja kilpirauhasen toiminnan muutokset usein jo ennen kuin näkyviä oireita ilmenee. Verinäytteestä mitataan mm. kreatiniini ja SDMA (munuaiset), ALAT ja ALP (maksa), T4 (kilpirauhanen) sekä verenkuva. Varhainen diagnoosi mahdollistaa hoidon aloittamisen ajoissa, mikä voi pidentää lemmikin elinikää merkittävästi.' },
     ],
     sv: {
       title: 'Seniorundersökning — Djurklinik Saari, Vasa',
@@ -1458,6 +1461,7 @@ const servicePages = [
         { heading: 'Vad ingår i seniorundersökningen?', text: 'Vid seniorundersökningen undersöker veterinären husdjuret kliniskt från huvud till tå, lyssnar på hjärta och lungor, palperar buken och lymfknutorna. Blodprov berättar om njurarnas, leverns och sköldkörtelns funktion. Urinprov kan avslöja tidiga njurförändringar. Vid behov görs blodtrycksmätning, hjärtultraljud eller bukultraljud.' },
         { heading: 'Varför är regelbunden kontroll viktigt?', text: 'Med regelbundna seniorundersökningar upptäcks sjukdomar i ett tidigt skede, då behandlingen är effektivare och husdjurets livskvalitet bevaras längre. Till exempel möjliggör tidig upptäckt av njursvikt att kost och medicinering kan påbörjas i tid, vilket kan förlänga livslängden med år.' },
         { heading: 'Hur ofta bör man undersökas?', text: 'Vi rekommenderar seniorundersökning en gång om året för friska äldre husdjur. Om husdjuret har en kronisk sjukdom eller medicinering, bestäms ett tätare uppföljningsintervall individuellt. Boka tid för seniorundersökning — det är den bästa förebyggande vården för ditt äldre husdjur.' },
+        { heading: 'Vanliga frågor om seniorundersökning', text: '<strong>Hur ofta görs seniorundersökning?</strong> För friska äldre husdjur rekommenderas seniorundersökning en gång om året. För stora hundraser kan undersökningarna påbörjas redan vid 5–6 års ålder, för mindre raser vid cirka 7 år och för katter vid cirka 10 år. Om husdjuret har en kronisk sjukdom eller medicinering kan uppföljningsintervallet vara tätare — till exempel halvårsvis. <strong>Vad berättar blodproven?</strong> Blodproven vid seniorundersökning avslöjar förändringar i njurarnas, leverns och sköldkörtelns funktion ofta redan innan synliga symtom uppträder. Från blodprovet mäts bl.a. kreatinin och SDMA (njurar), ALAT och ALP (lever), T4 (sköldkörtel) samt blodstatus. Tidig diagnos möjliggör behandlingsstart i tid, vilket kan förlänga husdjurets livslängd avsevärt.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1475,6 +1479,7 @@ const servicePages = [
         { heading: 'What does the senior check-up include?', text: 'During the senior check-up, the veterinarian examines the pet clinically from head to toe, listens to the heart and lungs, and palpates the abdomen and lymph nodes. Blood tests assess kidney, liver, and thyroid function. A urine sample can detect early kidney changes. Blood pressure measurement, cardiac ultrasound, or abdominal ultrasound are performed as needed.' },
         { heading: 'Why are regular check-ups important?', text: 'With regular senior check-ups, diseases are detected at an early stage when treatment is more effective and quality of life is preserved longer. For example, early detection of kidney failure allows diet and medication to be started in time, which can extend lifespan by years.' },
         { heading: 'How often should check-ups be done?', text: 'We recommend a senior check-up once a year for healthy ageing pets. If your pet has a chronic disease or medication, a more frequent follow-up interval is agreed individually. Book a senior check-up appointment — it is the best preventive care for your ageing pet.' },
+        { heading: 'Frequently asked questions about senior check-ups', text: '<strong>How often is a senior check-up performed?</strong> For healthy ageing pets, a senior check-up is recommended once a year. For large dog breeds, check-ups can begin as early as 5–6 years of age, for smaller breeds at around 7 years, and for cats at around 10 years. If your pet has a chronic disease or is on medication, the follow-up interval may be more frequent — for example, every six months. <strong>What do blood tests reveal?</strong> Blood tests during a senior check-up detect changes in kidney, liver, and thyroid function often before visible symptoms appear. The blood sample measures creatinine and SDMA (kidneys), ALT and ALP (liver), T4 (thyroid), and a complete blood count. Early diagnosis enables timely treatment, which can significantly extend your pet\'s lifespan.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1499,6 +1504,7 @@ const servicePages = [
       { heading: 'Mikrosiru — pysyvä tunnistus', text: 'Mikrosiru on riisinjyvän kokoinen tunniste, joka asetetaan ihon alle niskaan. Siruttaminen on nopea ja lähes kivuton toimenpide. Mikrosiru on ainoa pysyvä tunnistustapa — tatuoinnit haalistuvat ja pannat voivat kadota. Siru rekisteröidään omistajan tietoihin, jolloin kadonnut lemmikki löytää helposti takaisin kotiin.' },
       { heading: 'Pennun rokotusohjelma', text: 'Ensimmäinen rokotus annetaan yleensä 12 viikon iässä ja tehosterokotus 16 viikon iässä. Rokotukset suojaavat vakavien tautien kuten penikkataudin, parvoviruksen ja rabieksen varalta. Ennen rokotussuojan valmistumista pentu ei saisi olla kosketuksissa tuntemattomien koirien kanssa.' },
       { heading: 'Madotus ja loisten ehkäisy', text: 'Pennut madotetaan säännöllisesti sisäloisia vastaan. Eläinlääkäri laatii yksilöllisen madotus- ja loistorjuntaohjelman pennun iän, painon ja elinolosuhteiden mukaan. Varaa aika pentutarkastukseen — hyvä alku turvaa lemmikin terveyden pitkälle tulevaisuuteen.' },
+      { heading: 'Usein kysyttyä pentutarkastuksesta', text: '<strong>Missä iässä pentu tulee tarkastaa?</strong> Pentutarkastus suositellaan tehtäväksi mahdollisimman pian uuden pennun kotiutumisen jälkeen, yleensä 8–12 viikon iässä. Ensimmäinen käynti on tärkeä, jotta mahdolliset synnynnäiset viat (kuten sydänviat, napanuoran ongelmat tai purentavirheet) havaitaan ajoissa. Samalla aloitetaan rokotusohjelma ja siruttaminen. <strong>Mitä pentutarkastukseen kuuluu?</strong> Pentutarkastus sisältää kattavan kliinisen tutkimuksen: sydämen kuuntelu sivuäänien varalta, silmien, korvien ja suun tarkastus, imusolmukkeiden tunnustelu, navan tarkastus ja yleisen kehityksen arviointi. Eläinlääkäri tarkastaa myös purennan ja kivesten laskeutumisen urospennuilla. Tarkastuksen yhteydessä annetaan terveystodistus, keskustellaan ruokinnasta, madotuksesta ja rokotusaikataulusta.' },
     ],
     sv: {
       title: 'Valpundersökning och mikrochip — Djurklinik Saari, Vasa',
@@ -1509,6 +1515,7 @@ const servicePages = [
         { heading: 'Mikrochip — permanent identifiering', text: 'Ett mikrochip är en identifikationsmarkör i storlek av ett riskorn som placeras under huden i nacken. Chipningen är en snabb och nästan smärtfri procedur. Mikrochip är det enda permanenta identifieringssättet — tatueringar bleknar och halsband kan försvinna. Chipet registreras med ägarens uppgifter, så att ett försvunnet husdjur lätt hittar hem.' },
         { heading: 'Valpens vaccinationsprogram', text: 'Den första vaccinationen ges vanligen vid 12 veckors ålder och en boostervaccination vid 16 veckors ålder. Vaccinationerna skyddar mot allvarliga sjukdomar som valpsjuka, parvovirus och rabies. Innan vaccinationsskyddet är fullständigt bör valpen inte vara i kontakt med okända hundar.' },
         { heading: 'Avmaskning och parasitförebyggande', text: 'Valpar avmaskas regelbundet mot inre parasiter. Veterinären utarbetar ett individuellt avmasknings- och parasitbekämpningsprogram baserat på valpens ålder, vikt och levnadsförhållanden. Boka tid för valpundersökning — en bra start tryggar husdjurets hälsa långt in i framtiden.' },
+        { heading: 'Vanliga frågor om valpundersökning', text: '<strong>Vid vilken ålder bör valpen undersökas?</strong> Valpundersökning rekommenderas så snart som möjligt efter att den nya valpen kommit hem, vanligen vid 8–12 veckors ålder. Det första besöket är viktigt för att upptäcka eventuella medfödda defekter (som hjärtfel, navelproblem eller bettfel) i tid. Samtidigt påbörjas vaccinationsprogrammet och chipning. <strong>Vad ingår i valpundersökningen?</strong> Valpundersökningen inkluderar en omfattande klinisk undersökning: hjärtauskultation för att kontrollera blåsljud, kontroll av ögon, öron och mun, palpation av lymfknutor, kontroll av naveln och bedömning av den allmänna utvecklingen. Veterinären kontrollerar även bettet och testikelnedstigningen hos hanvalpar. I samband med undersökningen utfärdas ett hälsointyg och man diskuterar utfodring, avmaskning och vaccinationsschema.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1526,6 +1533,7 @@ const servicePages = [
         { heading: 'Microchip — permanent identification', text: 'A microchip is a rice-grain-sized identifier placed under the skin at the back of the neck. Microchipping is a quick and virtually painless procedure. A microchip is the only permanent form of identification — tattoos fade and collars can be lost. The chip is registered with the owner\'s details, so a lost pet can easily find its way home.' },
         { heading: 'Puppy vaccination programme', text: 'The first vaccination is usually given at 12 weeks of age, with a booster at 16 weeks. Vaccinations protect against serious diseases such as distemper, parvovirus, and rabies. Before vaccination protection is complete, the puppy should not be in contact with unknown dogs.' },
         { heading: 'Deworming and parasite prevention', text: 'Puppies are dewormed regularly against internal parasites. The veterinarian creates an individual deworming and parasite control programme based on the puppy\'s age, weight, and living conditions. Book a puppy check-up — a good start ensures your pet\'s health far into the future.' },
+        { heading: 'Frequently asked questions about puppy check-ups', text: '<strong>At what age should a puppy be checked?</strong> A puppy check-up is recommended as soon as possible after bringing a new puppy home, usually at 8–12 weeks of age. The first visit is important to detect any congenital defects (such as heart defects, umbilical problems, or bite abnormalities) early. At the same time, the vaccination programme and microchipping are started. <strong>What does the puppy check-up include?</strong> The puppy check-up includes a comprehensive clinical examination: heart auscultation for murmurs, examination of eyes, ears, and mouth, lymph node palpation, umbilical check, and assessment of overall development. The veterinarian also checks the bite and testicular descent in male puppies. A health certificate is issued during the visit, and feeding, deworming, and vaccination schedule are discussed.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1550,6 +1558,7 @@ const servicePages = [
       { heading: 'Milloin akupunktiosta on hyötyä?', text: 'Akupunktio soveltuu erityisesti kroonisen kivun hoitoon, nivelrikon oireiden lievitykseen, selkäkipuihin, välilevyongelmiin, leikkauksen jälkeiseen kuntoutukseen ja neurologisiin oireisiin. Se toimii hyvin yhdessä muun lääkehoidon kanssa ja voi vähentää kipulääkkeiden tarvetta.' },
       { heading: 'Miten hoito etenee?', text: 'Hoitokäynti kestää noin 30-45 minuuttia. Ohuet neulat asetetaan akupunktiopisteisiin ja ne jätetään paikoilleen 15-20 minuutiksi. Useimmat eläimet rentoutuvat hoidon aikana ja voivat jopa nukahtaa. Vaste nähdään tyypillisesti 3-4 hoitokerran jälkeen, ja hoidon tehoa ylläpidetään säännöllisin välein.' },
       { heading: 'Koulutus ja kokemus', text: 'Klinikallamme akupunktiota tekee Assaf Wydra, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa. Koulutus sisältää sekä perinteisen kiinalaisen lääketieteen periaatteet että modernin eläinlääketieteellisen akupunktion.' },
+      { heading: 'Usein kysyttyä akupunktiosta', text: '<strong>Kuinka monta hoitokertaa tarvitaan?</strong> Tyypillisesti akupunktion vaikutus nähdään 3–4 hoitokerran jälkeen. Akuuteissa kiputiloissa helpotus voi tulla jo ensimmäisen hoidon jälkeen. Kroonisissa tiloissa, kuten nivelrikossa, hoitoja annetaan aluksi viikoittain ja ylläpitovaiheessa 2–6 viikon välein. Hoitosuunnitelma laaditaan yksilöllisesti potilaan vasteen mukaan. <strong>Onko akupunktio kivuliasta?</strong> Akupunktio on useimmille eläimille lähes kivuton kokemus. Neulat ovat erittäin ohuita ja niiden asettaminen aiheuttaa korkeintaan lievän tuntemuksen. Useimmat potilaat rentoutuvat hoidon aikana selvästi — monet jopa nukahtavat. Akupunktio ei vaadi rauhoitusta eikä anestesiaa, ja normaaliin arkeen voi palata heti hoidon jälkeen.' },
     ],
     sv: {
       title: 'Akupunktur — Djurklinik Saari, Vasa',
@@ -1560,6 +1569,7 @@ const servicePages = [
         { heading: 'När är akupunktur till nytta?', text: 'Akupunktur lämpar sig särskilt för behandling av kronisk smärta, lindring av artrossymtom, ryggsmärtor, diskproblem, rehabilitering efter operation och neurologiska symtom. Den fungerar bra tillsammans med annan läkemedelsbehandling och kan minska behovet av smärtstillande medel.' },
         { heading: 'Hur går behandlingen till?', text: 'Ett behandlingsbesök varar cirka 30–45 minuter. Tunna nålar placeras i akupunkturpunkterna och lämnas på plats i 15–20 minuter. De flesta djur slappnar av under behandlingen och kan till och med somna. Effekt ses typiskt efter 3–4 behandlingar, och behandlingseffekten upprätthålls med regelbundna intervall.' },
         { heading: 'Utbildning och erfarenhet', text: 'På vår klinik utför Assaf Wydra akupunktur. Han har vidareutbildning i akupunktur för hundar och hästar. Utbildningen omfattar både traditionell kinesisk medicins principer och modern veterinärmedicinsk akupunktur.' },
+        { heading: 'Vanliga frågor om akupunktur', text: '<strong>Hur många behandlingar behövs?</strong> Vanligtvis ses effekten av akupunktur efter 3–4 behandlingar. Vid akuta smärttillstånd kan lindring komma redan efter första behandlingen. Vid kroniska tillstånd som artros ges behandlingar inledningsvis varje vecka och i underhållsfasen var 2–6 vecka. Behandlingsplanen upprättas individuellt utifrån patientens respons. <strong>Är akupunktur smärtsamt?</strong> Akupunktur är en nästan smärtfri upplevelse för de flesta djur. Nålarna är extremt tunna och deras insättning orsakar som mest en lätt känsla. De flesta patienter slappnar av tydligt under behandlingen — många somnar till och med. Akupunktur kräver varken sedering eller anestesi, och normal vardag kan återupptas direkt efter behandlingen.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1577,6 +1587,7 @@ const servicePages = [
         { heading: 'When is acupuncture beneficial?', text: 'Acupuncture is particularly suited for treating chronic pain, relieving osteoarthritis symptoms, back pain, disc problems, post-surgical rehabilitation, and neurological symptoms. It works well alongside other medication and can reduce the need for pain relief drugs.' },
         { heading: 'How does treatment work?', text: 'A treatment session lasts approximately 30–45 minutes. Thin needles are placed at acupuncture points and left in place for 15–20 minutes. Most animals relax during treatment and may even fall asleep. A response is typically seen after 3–4 treatments, and the therapeutic effect is maintained at regular intervals.' },
         { heading: 'Training and experience', text: 'At our clinic, acupuncture is performed by Assaf Wydra, who has advanced training in acupuncture for dogs and horses. The training covers both traditional Chinese medicine principles and modern veterinary acupuncture.' },
+        { heading: 'Frequently asked questions about acupuncture', text: '<strong>How many treatment sessions are needed?</strong> Typically, the effect of acupuncture is seen after 3–4 treatments. In acute pain conditions, relief may come after the first treatment. For chronic conditions such as osteoarthritis, treatments are given weekly initially and every 2–6 weeks during the maintenance phase. The treatment plan is tailored individually based on the patient\'s response. <strong>Is acupuncture painful?</strong> Acupuncture is a virtually painless experience for most animals. The needles are extremely thin and their insertion causes at most a mild sensation. Most patients visibly relax during treatment — many even fall asleep. Acupuncture requires neither sedation nor anaesthesia, and normal daily life can resume immediately after treatment.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1601,6 +1612,7 @@ const servicePages = [
       { heading: 'Polvi- ja sydäntutkimukset', text: 'Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet — kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Nämä tutkimukset ovat osa monen rodun jalostustarkastuksia.' },
       { heading: 'Kenelle viralliset tutkimukset?', text: 'Viralliset tutkimukset ovat pakollisia tai suositeltuja jalostuskoirille rodusta riippuen. Tutkimusten tavoitteena on vähentää perinnöllisten sairauksien esiintyvyyttä roduissa. Tutkimukset voidaan tehdä aikaisintaan 12 kuukauden iässä (lonkat 18 kk iässä) ja ne ovat voimassa koko koiran eliniän.' },
       { heading: 'Ajanvaraus ja lisätiedot', text: 'Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan — kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan.' },
+      { heading: 'Usein kysyttyä virallisista tutkimuksista', text: '<strong>Missä iässä viralliset tutkimukset tehdään?</strong> Viralliset lonkkaröntgenkuvat otetaan aikaisintaan 18 kuukauden iässä ja kyynärröntgenkuvat 12 kuukauden iässä. Polvitutkimukset voidaan tehdä 12 kuukauden iästä alkaen. Sydämen auskultaatio voidaan tehdä jo aikaisemmin, mutta jalostuskäyttöön hyväksytty tutkimus edellyttää yleensä vähintään 12 kuukauden ikää. On tärkeää tarkistaa rotukohtaiset vaatimukset Kennelliiton sivuilta. <strong>Kuinka kauan tulokset ovat voimassa?</strong> Viralliset röntgentutkimustulokset ovat voimassa koiran koko eliniän — niitä ei tarvitse uusia. Sydämen auskultaatiotulokset ovat voimassa rodusta riippuen 1–2 vuotta. Polvitutkimuksen tulos on pysyvä. Tulokset kirjataan Kennelliiton Jalostustietojärjestelmään, jossa ne ovat julkisesti nähtävissä.' },
     ],
     sv: {
       title: 'Officiella undersökningar — Djurklinik Saari, Vasa',
@@ -1611,6 +1623,7 @@ const servicePages = [
         { heading: 'Knä- och hjärtundersökningar', text: 'Officiella knäundersökningar görs kliniskt utan sedering. Kliniken har även officiella rättigheter för hjärtauskultation — med auskultationsundersökning bedöms om hunden har hjärtblåsljud. Dessa undersökningar är en del av avelskontrollerna för många raser.' },
         { heading: 'Vem behöver officiella undersökningar?', text: 'Officiella undersökningar är obligatoriska eller rekommenderade för avelsdjur beroende på ras. Syftet med undersökningarna är att minska förekomsten av ärftliga sjukdomar inom raserna. Undersökningarna kan göras tidigast vid 12 månaders ålder (höfter vid 18 månaders ålder) och gäller hela hundens livstid.' },
         { heading: 'Tidsbokning och information', text: 'Officiella undersökningar kräver förbokning, eftersom de kräver sedering och tillräckligt med tid för att ta bilder av hög kvalitet. Kontakta kliniken för att boka undersökningstid — vi berättar gärna mer om vilka undersökningar som rekommenderas för din hunds ras.' },
+        { heading: 'Vanliga frågor om officiella undersökningar', text: '<strong>Vid vilken ålder görs officiella undersökningar?</strong> Officiella höftröntgen tas tidigast vid 18 månaders ålder och armbågsröntgen vid 12 månaders ålder. Knäundersökningar kan göras från 12 månaders ålder. Hjärtauskultation kan göras tidigare, men en undersökning godkänd för avel kräver vanligen minst 12 månaders ålder. Det är viktigt att kontrollera rasspecifika krav på Kennelklubbens sidor. <strong>Hur länge gäller resultaten?</strong> Officiella röntgenresultat gäller hela hundens livstid — de behöver inte förnyas. Hjärtauskultationsresultat gäller beroende på ras 1–2 år. Knäundersökningens resultat är permanent. Resultaten registreras i Kennelklubbens Avelsdatasystem, där de är offentligt tillgängliga.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1628,6 +1641,7 @@ const servicePages = [
         { heading: 'Patella and cardiac examinations', text: 'Official patella examinations are performed clinically without sedation. The clinic also holds official cardiac auscultation rights — the auscultation examination assesses whether the dog has a heart murmur. These examinations are part of the breeding evaluations for many breeds.' },
         { heading: 'Who needs official examinations?', text: 'Official examinations are mandatory or recommended for breeding dogs depending on the breed. The aim of the examinations is to reduce the incidence of hereditary diseases within breeds. Examinations can be performed from 12 months of age (hips from 18 months) and are valid for the dog\'s entire lifetime.' },
         { heading: 'Booking and information', text: 'Official examinations require advance booking as they require sedation and sufficient time to take high-quality images. Contact the clinic to arrange an examination appointment — we are happy to advise on which examinations are recommended for your dog\'s breed.' },
+        { heading: 'Frequently asked questions about official examinations', text: '<strong>At what age are official examinations performed?</strong> Official hip radiographs are taken from 18 months of age at the earliest, and elbow radiographs from 12 months. Patella examinations can be performed from 12 months. Cardiac auscultation can be done earlier, but an examination approved for breeding typically requires at least 12 months of age. It is important to check breed-specific requirements on the Finnish Kennel Club website. <strong>How long are results valid?</strong> Official radiographic results are valid for the dog\'s entire lifetime — they do not need to be renewed. Cardiac auscultation results are valid for 1–2 years depending on the breed. Patella examination results are permanent. Results are recorded in the Kennel Club Breeding Information System, where they are publicly available.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1652,6 +1666,7 @@ const servicePages = [
       { heading: 'Toimenpide klinikallamme', text: 'Kaikki sterilisaatiot ja kastraatiot tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Valvomme potilasta jatkuvasti koko toimenpiteen ajan: sydämen syke, verenpaine, happisaturaatio ja lämpötila. Potilas kotiutuu yleensä samana päivänä ja saa mukaansa kipulääkityksen kotiin.' },
       { heading: 'Kemiallinen kastraatio', text: 'Koirille on tarjolla myös kemiallinen kastraatio hormoni-implantilla (Suprelorin). Implantti asetetaan ihon alle ja sen vaikutus kestää 6 tai 12 kuukautta. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta ennen pysyvää päätöstä, tai kun kirurginen toimenpide ei ole toivottu.' },
       { heading: 'Oikea ajoitus', text: 'Optimaalinen sterilisaatio- tai kastraatioikä riippuu rodusta, koosta ja yksilöllisestä tilanteesta. Keskustellaan yhdessä, mikä on paras ajoitus juuri sinun lemmikillesi. Varaa aika konsultaatioon tai toimenpiteeseen.' },
+      { heading: 'Usein kysyttyä sterilisaatiosta', text: '<strong>Missä iässä sterilisaatio tehdään?</strong> Optimaalinen sterilisaatioikä riippuu rodusta ja koosta. Pienillä koiraroduilla sterilisaatio voidaan tehdä noin 6 kuukauden iässä, suurilla roduilla suositellaan odottamista 12–18 kuukauden ikään kasvun varmistamiseksi. Kissoilla sterilisaatio tehdään yleensä noin 5–6 kuukauden iässä. Eläinlääkäri arvioi parhaan ajankohdan yksilöllisesti. <strong>Kuinka pitkä on toipumisaika?</strong> Sterilisaation jälkeen lemmikki tarvitsee lepoa noin 10–14 päivää. Tänä aikana on vältettävä hyppimistä, juoksemista ja rajua leikkiä. Kipulääkitys annetaan mukaan kotiin ja haavaa suojataan body-puvulla tai kaulurilla. Ompeleet poistetaan tai sulavat itsestään noin 10 päivän kuluttua. Useimmat potilaat toipuvat nopeasti ja palaavat normaaliin arkeen viikon kuluessa.' },
     ],
     sv: {
       title: 'Sterilisering och kastrering — Djurklinik Saari, Vasa',
@@ -1662,6 +1677,7 @@ const servicePages = [
         { heading: 'Ingreppet på vår klinik', text: 'Alla steriliseringar och kastreringar utförs under inhalationsanestesi med omfattande smärtlindring. Vi övervakar patienten kontinuerligt under hela ingreppet: hjärtfrekvens, blodtryck, syremättnad och temperatur. Patienten skrivs vanligen ut samma dag och får smärtstillande medicin med sig hem.' },
         { heading: 'Kemisk kastrering', text: 'För hundar finns även kemisk kastrering med hormonimplantat (Suprelorin). Implantatet placeras under huden och dess effekt varar 6 eller 12 månader. Kemisk kastrering är ett bra alternativ när man vill testa effekten av kastrering innan ett permanent beslut fattas, eller när ett kirurgiskt ingrepp inte är önskat.' },
         { heading: 'Rätt tidpunkt', text: 'Optimal ålder för sterilisering eller kastrering beror på ras, storlek och individuell situation. Vi diskuterar gärna tillsammans vad som är den bästa tidpunkten just för ditt husdjur. Boka tid för konsultation eller ingrepp.' },
+        { heading: 'Vanliga frågor om sterilisering', text: '<strong>Vid vilken ålder görs sterilisering?</strong> Optimal ålder för sterilisering beror på ras och storlek. Hos små hundraser kan sterilisering göras vid cirka 6 månaders ålder, hos stora raser rekommenderas att vänta till 12–18 månaders ålder för att säkerställa tillväxten. Hos katter görs sterilisering vanligen vid cirka 5–6 månaders ålder. Veterinären bedömer den bästa tidpunkten individuellt. <strong>Hur lång är återhämtningsperioden?</strong> Efter sterilisering behöver husdjuret vila i cirka 10–14 dagar. Under denna tid bör man undvika hoppande, springande och vild lek. Smärtstillande medicin ges med hem och såret skyddas med body eller krage. Stygnena tas bort eller löses upp själva efter cirka 10 dagar. De flesta patienter återhämtar sig snabbt och återgår till normal vardag inom en vecka.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1679,6 +1695,7 @@ const servicePages = [
         { heading: 'The procedure at our clinic', text: 'All spays and neuters are performed under inhalation anaesthesia with comprehensive pain management. We monitor the patient continuously throughout the procedure: heart rate, blood pressure, oxygen saturation, and temperature. Patients are typically discharged the same day with pain medication to take home.' },
         { heading: 'Chemical castration', text: 'For dogs, chemical castration with a hormone implant (Suprelorin) is also available. The implant is placed under the skin and its effect lasts 6 or 12 months. Chemical castration is a good option when you want to trial the effects of castration before making a permanent decision, or when surgical procedure is not desired.' },
         { heading: 'The right timing', text: 'The optimal age for spaying or neutering depends on breed, size, and individual circumstances. Let us discuss together what is the best timing for your pet. Book an appointment for a consultation or procedure.' },
+        { heading: 'Frequently asked questions about spaying', text: '<strong>At what age is spaying performed?</strong> The optimal age for spaying depends on breed and size. Small dog breeds can be spayed at around 6 months of age, while for large breeds it is recommended to wait until 12–18 months to ensure growth. Cats are usually spayed at around 5–6 months of age. The veterinarian assesses the best timing individually. <strong>How long is the recovery period?</strong> After spaying, the pet needs rest for approximately 10–14 days. During this time, jumping, running, and rough play should be avoided. Pain medication is sent home and the wound is protected with a body suit or cone. Sutures are removed or dissolve on their own after approximately 10 days. Most patients recover quickly and return to normal daily life within a week.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1704,6 +1721,7 @@ const servicePages = [
       { heading: 'Diagnostiikka', text: 'Sisätautien selvittely vaatii usein perusteellista diagnostiikkaa. Klinikallamme tutkimme verinäytteitä, virtsanäytteitä ja hormonitasoja omassa laboratoriossa, jolloin saamme tulokset nopeasti. Vatsan alueen ultraäänitutkimuksella nähdään sisäelinten rakenne ja mahdolliset muutokset. Tarvittaessa otetaan koepalojen näytteitä ultraääniohjauksessa tai tähystyksessä.' },
       { heading: 'Hoito', text: 'Sisätautien hoito on usein pitkäaikaista ja vaatii säännöllistä seurantaa. Diabetesta hoidetaan insuliinilla ja ruokavaliomuutoksilla, Cushingin tautia lääkityksellä, haimatulehdusta nesteyhoidolla ja kivunlievityksellä. Autoimmuunisairaudet vaativat immunosuppressiivista lääkitystä. Hoitosuunnitelma räätälöidään aina yksilöllisesti — tavoitteena on lemmikin hyvä elämänlaatu.' },
       { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Oireita, jotka viittaavat sisätautiin, voivat olla lisääntynyt janoisuus ja virtsaaminen, painon muutos, oksentelu, ripuli, väsymys, ruokahaluttomuus, ihon tai turkin muutokset tai vatsan turpoaminen. Jos huomaat näitä oireita lemmikkilläsi, varaa aika tutkimukseen — varhainen diagnoosi ja hoito parantavat ennustetta merkittävästi.' },
+      { heading: 'Usein kysyttyä sisätaudeista', text: '<strong>Miten diabetes diagnosoidaan?</strong> Diabetes diagnosoidaan verinäytteestä mitatun korkean verensokerin ja virtsanäytteessä havaitun glukoosin perusteella. Fruktosamiiniarvo kertoo verensokerin tasosta pidemmällä aikavälillä. Diabeteksen hoito aloitetaan insuliinilla ja ruokavaliomuutoksilla, ja seurataan säännöllisin verikokeilla. Useimmat diabeetikkolemmikkit elävät hyvää elämää asianmukaisella hoidolla. <strong>Tarvitseeko lemmikki elinikäistä lääkitystä?</strong> Monet sisätaudit, kuten diabetes, kilpirauhasen vajaatoiminta ja Cushingin tauti, vaativat elinikäistä lääkitystä. Hoidon tavoitteena on pitää sairaus hallinnassa ja turvata hyvä elämänlaatu. Lääkityksen annosta säädetään säännöllisten kontrollikäyntien perusteella. Joissakin tapauksissa, kuten haimatulehduksessa, hoito voi olla tilapäistä ja lemmikki toipuu kokonaan.' },
     ],
     sv: {
       title: 'Internmedicin — Djurklinik Saari, Vasa',
@@ -1714,6 +1732,7 @@ const servicePages = [
         { heading: 'Diagnostik', text: 'Utredning av internmedicinska sjukdomar kräver ofta grundlig diagnostik. På vår klinik undersöker vi blodprov, urinprov och hormonnivåer i vårt eget laboratorium, vilket ger snabba resultat. Med bukens ultraljud kan vi se inre organs struktur och eventuella förändringar. Vid behov tas biopsier under ultraljudsvägledning eller endoskopi.' },
         { heading: 'Behandling', text: 'Behandling av internmedicinska sjukdomar är ofta långvarig och kräver regelbunden uppföljning. Diabetes behandlas med insulin och kostförändringar, Cushings sjukdom med medicinering, pankreatit med vätskebehandling och smärtlindring. Autoimmunsjukdomar kräver immunsuppressiv medicinering. Behandlingsplanen skräddarsys alltid individuellt — målet är god livskvalitet för husdjuret.' },
         { heading: 'När ska man söka undersökning?', text: 'Symtom som kan tyda på internmedicinsk sjukdom kan vara ökad törst och urinering, viktförändring, kräkningar, diarré, trötthet, aptitlöshet, förändringar i hud eller päls eller uppsvälld buk. Om du märker dessa symtom hos ditt husdjur, boka tid för undersökning — tidig diagnos och behandling förbättrar prognosen avsevärt.' },
+        { heading: 'Vanliga frågor om internmedicin', text: '<strong>Hur diagnostiseras diabetes?</strong> Diabetes diagnostiseras baserat på förhöjt blodsocker i blodprov och glukos i urinprov. Fruktosaminvärdet berättar om blodsockernivån under en längre period. Diabetesbehandling inleds med insulin och kostförändringar och följs upp med regelbundna blodprov. De flesta husdjur med diabetes lever ett bra liv med rätt behandling. <strong>Behöver husdjuret livslång medicinering?</strong> Många internmedicinska sjukdomar, som diabetes, hypotyreos och Cushings sjukdom, kräver livslång medicinering. Behandlingens mål är att hålla sjukdomen under kontroll och trygga god livskvalitet. Medicineringsdosen justeras baserat på regelbundna kontrollbesök. I vissa fall, som vid pankreatit, kan behandlingen vara tillfällig och husdjuret återhämtar sig helt.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1731,6 +1750,7 @@ const servicePages = [
         { heading: 'Diagnostics', text: 'Investigating internal diseases often requires thorough diagnostics. At our clinic, we analyse blood samples, urine samples, and hormone levels in our own laboratory, providing rapid results. Abdominal ultrasound reveals organ structure and any abnormalities. When necessary, biopsies are taken under ultrasound guidance or during endoscopy.' },
         { heading: 'Treatment', text: 'Treatment of internal diseases is often long-term and requires regular follow-up. Diabetes is managed with insulin and dietary changes, Cushing\'s disease with medication, and pancreatitis with fluid therapy and pain relief. Autoimmune diseases require immunosuppressive medication. The treatment plan is always individually tailored — the goal is a good quality of life for your pet.' },
         { heading: 'When to seek examination?', text: 'Symptoms that may indicate internal disease include increased thirst and urination, weight changes, vomiting, diarrhoea, lethargy, loss of appetite, changes in the skin or coat, or abdominal swelling. If you notice these symptoms in your pet, book an examination — early diagnosis and treatment significantly improve the prognosis.' },
+        { heading: 'Frequently asked questions about internal medicine', text: '<strong>How is diabetes diagnosed?</strong> Diabetes is diagnosed based on elevated blood glucose in a blood sample and glucose detected in a urine sample. The fructosamine level indicates blood sugar levels over a longer period. Diabetes treatment is initiated with insulin and dietary changes, and monitored with regular blood tests. Most diabetic pets live a good life with proper management. <strong>Does my pet need lifelong medication?</strong> Many internal diseases, such as diabetes, hypothyroidism, and Cushing\'s disease, require lifelong medication. The goal of treatment is to keep the disease under control and ensure good quality of life. Medication doses are adjusted based on regular check-up visits. In some cases, such as pancreatitis, treatment may be temporary and the pet recovers fully.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1755,6 +1775,7 @@ const servicePages = [
       { heading: 'Tutkimusmenetelmät', text: 'Silmätutkimuksessa käytetään useita diagnostisia menetelmiä. Fluoresiinivärjäys paljastaa sarveiskalvon vauriot ja haavaumat. Silmänpainemittauksella (tonometria) tunnistetaan glaukooma. Schirmerin kyyneltestillä mitataan kyynelnesteen tuotantoa. Silmälamppututkimuksella arvioidaan silmän etuosan rakenteet. Näiden tutkimusten avulla saadaan tarkka kuva silmän tilasta ja voidaan aloittaa oikea hoito.' },
       { heading: 'Hoito', text: 'Silmäsairauksien hoito riippuu diagnoosista. Sarveiskalvon haavaumat hoidetaan silmätipoilla ja tarvittaessa suojalinssillä tai kirurgisesti. Glaukooman hoitoon käytetään silmänpainetta alentavia lääkkeitä. Kuivasilmäisyyttä hoidetaan kyynelkorvikkeilla ja immunomoduloivilla tipoilla. Entropion ja muut silmäluomien rakenteelliset ongelmat vaativat usein kirurgista korjausta.' },
       { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Silmäoireisiin tulee reagoida nopeasti, sillä monet silmäsairaudet etenevät nopeasti ja voivat johtaa pysyvään näkövaurioon. Hakeudu vastaanotolle, jos lemmikkisi siristää silmäänsä, silmä vuotaa, silmä on punoittava, pupillit ovat erikokoiset, silmä on samentunut tai lemmikki raapii silmäänsä. Varhainen hoito on silmäsairauksissa erityisen tärkeää.' },
+      { heading: 'Usein kysyttyä silmätaudeista', text: '<strong>Ovatko silmäsairaudet perinnöllisiä?</strong> Monet silmäsairaudet ovat perinnöllisiä tai rotutyypillisiä. Brakykefaalisilla (lyhytkuonoisilla) roduilla, kuten mopseilla ja englanninbulldogeilla, on alttius sarveiskalvon vaurioille ja kuivasilmäisyydelle. Cocker spanielilla ja pudeleilla esiintyy kaihia, ja collieilla verkkokalvosairauksia. Perinnöllisten silmäsairauksien seulonta on osa jalostustarkastuksia. <strong>Kuinka nopeasti hoitoon pitää hakeutua?</strong> Silmäoireissa nopeus on ratkaisevaa. Sarveiskalvon haavauma voi syventyä vuorokaudessa ilman hoitoa, ja glaukooma voi johtaa pysyvään sokeuteen tunneissa. Jos lemmikkisi siristää silmäänsä, silmä on punainen tai samentunut, tai pupillit ovat erikokoiset, hakeudu vastaanotolle saman päivän aikana. Silmäoireet eivät parane itsestään.' },
     ],
     sv: {
       title: 'Ögonsjukdomar — Djurklinik Saari, Vasa',
@@ -1765,6 +1786,7 @@ const servicePages = [
         { heading: 'Undersökningsmetoder', text: 'Vid ögonundersökning används flera diagnostiska metoder. Fluoresceinfärgning avslöjar hornhinneskador och sår. Ögontrycksmätning (tonometri) identifierar glaukom. Schirmers tårtest mäter tårproduktionen. Spaltlampsundersökning bedömer strukturerna i ögats främre del. Med hjälp av dessa undersökningar fås en exakt bild av ögats tillstånd och rätt behandling kan påbörjas.' },
         { heading: 'Behandling', text: 'Behandlingen av ögonsjukdomar beror på diagnosen. Hornhinnesår behandlas med ögondroppar och vid behov med skyddslins eller kirurgiskt. Glaukom behandlas med trycksänkande läkemedel. Torra ögon behandlas med tårersättningsmedel och immunmodulerande droppar. Entropion och andra strukturella ögonlocksproblem kräver ofta kirurgisk korrigering.' },
         { heading: 'När ska man söka undersökning?', text: 'Man bör reagera snabbt på ögonsymtom, eftersom många ögonsjukdomar fortskrider snabbt och kan leda till permanent synskada. Sök vård om ditt husdjur kisar, ögat rinner, ögat är rött, pupillerna är olika stora, ögat är grumligt eller husdjuret kliar sig i ögat. Tidig behandling är särskilt viktigt vid ögonsjukdomar.' },
+        { heading: 'Vanliga frågor om ögonsjukdomar', text: '<strong>Är ögonsjukdomar ärftliga?</strong> Många ögonsjukdomar är ärftliga eller rasspecifika. Brakycefala (kortnosade) raser som mops och engelsk bulldogg har benägenhet för hornhinneskador och torra ögon. Cocker spaniel och pudel drabbas av katarakt, och collier av näthinnesjukdomar. Screening för ärftliga ögonsjukdomar är en del av avelskontrollerna. <strong>Hur snabbt ska man söka vård?</strong> Vid ögonsymtom är snabbhet avgörande. Ett hornhinnesår kan fördjupas inom ett dygn utan behandling, och glaukom kan leda till permanent blindhet inom timmar. Om ditt husdjur kisar, ögat är rött eller grumligt, eller pupillerna är olika stora, sök vård samma dag. Ögonsymtom läker inte av sig själva.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1782,6 +1804,7 @@ const servicePages = [
         { heading: 'Examination methods', text: 'Eye examination uses several diagnostic methods. Fluorescein staining reveals corneal damage and ulcers. Intraocular pressure measurement (tonometry) identifies glaucoma. The Schirmer tear test measures tear production. Slit lamp examination assesses the structures of the anterior segment. These examinations provide a precise picture of the eye\'s condition and allow appropriate treatment to be initiated.' },
         { heading: 'Treatment', text: 'Treatment of eye diseases depends on the diagnosis. Corneal ulcers are treated with eye drops and, when necessary, with a protective contact lens or surgically. Glaucoma is managed with pressure-lowering medications. Dry eye is treated with tear substitutes and immunomodulatory drops. Entropion and other structural eyelid problems often require surgical correction.' },
         { heading: 'When to seek examination?', text: 'Eye symptoms should be addressed promptly, as many eye diseases progress rapidly and can lead to permanent vision loss. Seek veterinary care if your pet is squinting, the eye is watering, the eye is red, the pupils are unequal in size, the eye appears cloudy, or your pet is pawing at its eye. Early treatment is particularly critical in eye diseases.' },
+        { heading: 'Frequently asked questions about eye diseases', text: '<strong>Are eye diseases hereditary?</strong> Many eye diseases are hereditary or breed-related. Brachycephalic (short-nosed) breeds such as Pugs and English Bulldogs are predisposed to corneal damage and dry eye. Cocker Spaniels and Poodles are prone to cataracts, and Collies to retinal diseases. Screening for hereditary eye diseases is part of breeding evaluations. <strong>How quickly should I seek treatment?</strong> With eye symptoms, speed is crucial. A corneal ulcer can deepen within 24 hours without treatment, and glaucoma can lead to permanent blindness within hours. If your pet is squinting, the eye is red or cloudy, or the pupils are unequal in size, seek veterinary care the same day. Eye symptoms do not resolve on their own.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1857,6 +1880,7 @@ const servicePages = [
       { heading: 'Digitaalinen röntgen', text: 'Klinikallamme käytetään digitaalista röntgeniä, joka tuottaa korkealaatuisia kuvia sekunneissa. Digitaalinen tekniikka mahdollistaa kuvien suurentamisen, kontrastin säädön ja nopean lähettämisen konsultointiin. Yleisimpiä röntgentutkimuksen kohteita ovat luunmurtumat, nivelten sairaudet, rintaontelon kuvaukset (sydämen koko, keuhkomuutokset) ja vatsaontelon kuvaukset (vierasesineet, virtsatiekivet, sisäelinten muutokset).' },
       { heading: 'Hammasröntgen', text: 'Hammasröntgen on välttämätön osa jokaista hammastoimenpidettä. Yli puolet hammassairauksista on näkymättömiä silmämääräisessä tutkimuksessa — juuritulehdukset, hammasresorptio, kystat ja luukato paljastuvat vasta röntgenkuvissa. Klinikallamme kuvataan kaikki hampaat osana jokaista hammastoimenpidettä digitaalisella hammasröntgenillä.' },
       { heading: 'Milloin röntgenkuvia tarvitaan?', text: 'Röntgentutkimusta suositellaan ontumisen tutkimisessa, epäiltäessä murtumia tai nivelongelmia, sydän- tai keuhko-oireiden diagnostiikassa, akuutin oksentelun tai vierasesineen epäilyn yhteydessä, virtsaamisvaikeuksien tutkimisessa ja ennen virallisia jalostustutkimuksia. Kuvat tallennetaan digitaalisesti ja niitä voidaan verrata aiempiin kuviin seurantaa varten.' },
+      { heading: 'Usein kysyttyä röntgenistä', text: '<strong>Tarvitaanko rauhoitusta röntgeniin?</strong> Useimmissa tapauksissa röntgenkuvaus onnistuu ilman rauhoitusta. Potilaan asentoa ohjataan kevyesti ja kuvaus kestää vain sekunteja. Rauhoitusta tarvitaan, jos potilas on kovin levoton tai kivulias, tai kun kyseessä ovat viralliset jalostusröntgenkuvat, jotka vaativat tarkan asennon. Rauhoitus on turvallinen ja potilas toipuu nopeasti. <strong>Onko röntgensäteily vaarallista?</strong> Röntgenkuvaus on turvallinen diagnostinen tutkimus. Yksittäisen kuvan säteilyannos on erittäin pieni eikä aiheuta terveysriskiä. Digitaalinen röntgen vähentää tarvittavaa säteilyannosta entisestään perinteiseen filmitekniikkaan verrattuna. Hoitohenkilökunta käyttää suojavarusteita ja noudattaa säteilyturvallisuusohjeita.' },
     ],
     sv: {
       title: 'Röntgen — Djurklinik Saari, Vasa',
@@ -1867,6 +1891,7 @@ const servicePages = [
         { heading: 'Digital röntgen', text: 'Vår klinik använder digital röntgen som producerar högkvalitativa bilder på sekunder. Digital teknik möjliggör förstoring av bilder, kontrastjustering och snabb översändning för konsultation. De vanligaste indikationerna för röntgen är benfrakturer, ledsjukdomar, thoraxröntgen (hjärtstorlek, lungförändringar) och bukröntgen (främmande föremål, urinstenar, förändringar i inre organ).' },
         { heading: 'Dentalröntgen', text: 'Dentalröntgen är en nödvändig del av varje tandingrepp. Över hälften av tandsjukdomarna är osynliga vid visuell undersökning — rotinfektioner, tandresorption, cystor och benförlust avslöjas först på röntgenbilder. På vår klinik röntgas alla tänder som en del av varje tandingrepp med digital dentalröntgen.' },
         { heading: 'När behövs röntgenbilder?', text: 'Röntgenundersökning rekommenderas vid utredning av hälta, misstanke om frakturer eller ledproblem, diagnostik av hjärt- eller lungsymtom, akuta kräkningar eller misstanke om främmande föremål, utredning av urineringsproblem och inför officiella avelsundersökningar. Bilderna sparas digitalt och kan jämföras med tidigare bilder för uppföljning.' },
+        { heading: 'Vanliga frågor om röntgen', text: '<strong>Behövs sedering för röntgen?</strong> I de flesta fall lyckas röntgen utan sedering. Patientens position justeras försiktigt och bildtagningen tar bara sekunder. Sedering behövs om patienten är mycket orolig eller smärtpåverkad, eller vid officiella avelsröntgen som kräver exakt position. Sederingen är säker och patienten återhämtar sig snabbt. <strong>Är röntgenstrålning farligt?</strong> Röntgen är en säker diagnostisk undersökning. Stråldosen vid en enskild bild är mycket liten och utgör ingen hälsorisk. Digital röntgen minskar den nödvändiga stråldosen ytterligare jämfört med traditionell filmteknik. Personalen använder skyddsutrustning och följer strålsäkerhetsföreskrifter.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1884,6 +1909,7 @@ const servicePages = [
         { heading: 'Digital X-ray', text: 'Our clinic uses digital X-ray technology that produces high-quality images in seconds. Digital technology enables image magnification, contrast adjustment, and rapid transmission for consultation. The most common indications for X-ray include bone fractures, joint diseases, thoracic imaging (heart size, lung changes), and abdominal imaging (foreign bodies, urinary stones, organ abnormalities).' },
         { heading: 'Dental X-ray', text: 'Dental radiography is an essential part of every dental procedure. Over half of dental diseases are invisible on visual examination — root infections, tooth resorption, cysts, and bone loss are only revealed on radiographs. At our clinic, all teeth are radiographed as part of every dental procedure using digital dental X-ray.' },
         { heading: 'When are X-rays needed?', text: 'X-ray examination is recommended for investigating lameness, suspected fractures or joint problems, diagnosing cardiac or respiratory symptoms, acute vomiting or suspected foreign body ingestion, investigating urination difficulties, and before official breeding examinations. Images are stored digitally and can be compared with previous images for follow-up monitoring.' },
+        { heading: 'Frequently asked questions about X-rays', text: '<strong>Is sedation needed for X-rays?</strong> In most cases, X-ray imaging is successful without sedation. The patient\'s position is gently adjusted and image capture takes only seconds. Sedation is needed if the patient is very restless or in pain, or for official breeding radiographs that require precise positioning. Sedation is safe and the patient recovers quickly. <strong>Is X-ray radiation dangerous?</strong> X-ray is a safe diagnostic examination. The radiation dose from a single image is very small and poses no health risk. Digital X-ray further reduces the required radiation dose compared to traditional film technology. Staff use protective equipment and follow radiation safety guidelines.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1959,6 +1985,7 @@ const servicePages = [
       { heading: 'Matkustaminen EU:n sisällä', text: 'EU:n sisäinen matkustaminen lemmikin kanssa on suhteellisen suoraviivaista. Vaatimuksena on voimassa oleva EU-lemmikkipassi, mikrosiru ja rabiesrokotus (annettu vähintään 21 päivää ennen matkaa). Rabiesrokotuksen tehosteväli on 1–3 vuotta rokotteesta riippuen, ja voimassaolon on jatkuttava koko matkan ajan. Joissakin maissa on lisävaatimuksia, kuten ekinokokkilääkitys Iso-Britanniaan matkustettaessa.' },
       { heading: 'Matkustaminen EU:n ulkopuolelle', text: 'EU:n ulkopuolelle matkustettaessa vaatimukset vaihtelevat maan mukaan. Joihinkin maihin tarvitaan rabies-tiitteritutkimus (vasta-ainemääritys), joka on tehtävä vähintään 30 päivää rokotuksen jälkeen ja 3 kuukautta ennen matkaa. Lisäksi voidaan vaatia erillinen eläinlääkärin terveystodistus, tuontilupa tai karanteeni. Ota yhteyttä meihin hyvissä ajoin — selvitämme kohdemaasi vaatimukset ja autamme aikatauluttamaan tutkimukset ja rokotukset oikein.' },
       { heading: 'Miten hakea passia?', text: 'EU-lemmikkipassin saat klinikaltamme. Passiin tarvitaan mikrosiru (jos lemmikillä ei ole, asennamme sen samalla käynnillä) ja voimassa oleva rabiesrokotus. Varaa aika passinhakua varten — käynti sisältää terveystarkastuksen, mahdollisen mikrosirun asennuksen ja rabiesrokotuksen. Saat passin mukaasi samana päivänä. Jos suunnittelet matkaa, aloita valmistelut ajoissa — osa vaatimuksista edellyttää viikkojen odotusaikoja.' },
+      { heading: 'Usein kysyttyä EU-lemmikkipassista', text: '<strong>Kuinka aikaisin passia kannattaa hakea?</strong> Suosittelemme aloittamaan passihakemuksen vähintään 1–3 kuukautta ennen suunniteltua matkaa. Rabiesrokotus on annettava vähintään 21 päivää ennen EU:n sisäistä matkustamista. EU:n ulkopuolelle matkustettaessa tiitteri-tutkimus vaatii 30 päivän odotuksen rokotuksesta ja 3 kuukauden odotuksen ennen matkaa. Ota yhteyttä ajoissa, niin suunnitellaan aikataulu yhdessä. <strong>Tarvitaanko rabiesrokotus?</strong> Kyllä, rabiesrokotus on pakollinen kaikille EU-maiden välillä matkustaville koirille, kissoille ja freteille. Rokotus on annettava vähintään 21 päivää ennen matkaa. Rokotuksen voimassaoloaika riippuu käytetystä rokotteesta — yleensä 1–3 vuotta. Rokotustiedot kirjataan passiin ja voimassaolo tarkistetaan rajanylityksessä.' },
     ],
     sv: {
       title: 'EU-sällskapsdjurspass — Djurklinik Saari, Vasa',
@@ -1969,6 +1996,7 @@ const servicePages = [
         { heading: 'Resa inom EU', text: 'Att resa med husdjur inom EU är relativt okomplicerat. Kraven är giltigt EU-sällskapsdjurspass, mikrochip och rabiesvaccination (given minst 21 dagar före resan). Intervallet för rabiesvaccinationens booster är 1–3 år beroende på vaccin, och giltigheten måste gälla under hela resan. Vissa länder har ytterligare krav, som echinococcbehandling vid resa till Storbritannien.' },
         { heading: 'Resa utanför EU', text: 'Vid resa utanför EU varierar kraven beroende på land. Till vissa länder krävs rabies-titertest (antikroppsbestämning) som måste göras minst 30 dagar efter vaccination och 3 månader före resan. Dessutom kan separat veterinärhälsointyg, importtillstånd eller karantän krävas. Kontakta oss i god tid — vi utreder kraven för ditt destinationsland och hjälper dig att schemalägga undersökningar och vaccinationer korrekt.' },
         { heading: 'Hur ansöker man om pass?', text: 'EU-sällskapsdjurspasset kan du få på vår klinik. För passet behövs mikrochip (om ditt husdjur inte har ett, installerar vi det vid samma besök) och giltig rabiesvaccination. Boka tid för passansökan — besöket inkluderar hälsokontroll, eventuell mikrochipinstallation och rabiesvaccination. Du får passet med dig samma dag. Om du planerar en resa, börja förberedelserna i tid — vissa krav innebär väntetider på flera veckor.' },
+        { heading: 'Vanliga frågor om EU-sällskapsdjurspass', text: '<strong>Hur tidigt bör man ansöka om pass?</strong> Vi rekommenderar att påbörja passansökan minst 1–3 månader före planerad resa. Rabiesvaccination måste ges minst 21 dagar före resa inom EU. Vid resa utanför EU kräver titertestet 30 dagars väntan efter vaccination och 3 månaders väntan före resan. Kontakta oss i god tid så planerar vi schemat tillsammans. <strong>Behövs rabiesvaccination?</strong> Ja, rabiesvaccination är obligatorisk för alla hundar, katter och illrar som reser mellan EU-länder. Vaccinationen måste ges minst 21 dagar före resan. Vaccinationens giltighetstid beror på det använda vaccinet — vanligen 1–3 år. Vaccinationsuppgifterna registreras i passet och giltigheten kontrolleras vid gränspassering.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1986,6 +2014,7 @@ const servicePages = [
         { heading: 'Travelling within the EU', text: 'Travelling with a pet within the EU is relatively straightforward. The requirements are a valid EU pet passport, microchip, and rabies vaccination (administered at least 21 days before travel). The rabies booster interval is 1–3 years depending on the vaccine, and validity must cover the entire journey. Some countries have additional requirements, such as echinococcus treatment when travelling to the United Kingdom.' },
         { heading: 'Travelling outside the EU', text: 'When travelling outside the EU, requirements vary by country. Some countries require a rabies titre test (antibody determination), which must be performed at least 30 days after vaccination and 3 months before travel. Additionally, a separate veterinary health certificate, import permit, or quarantine may be required. Contact us well in advance — we will clarify the requirements for your destination country and help schedule examinations and vaccinations correctly.' },
         { heading: 'How to apply for a passport?', text: 'You can obtain an EU pet passport at our clinic. The passport requires a microchip (if your pet does not have one, we will implant it during the same visit) and a valid rabies vaccination. Book an appointment for passport application — the visit includes a health check, microchip implantation if needed, and rabies vaccination. You receive the passport on the same day. If you are planning a trip, start preparations early — some requirements involve waiting periods of several weeks.' },
+        { heading: 'Frequently asked questions about EU pet passports', text: '<strong>How early should I apply for a passport?</strong> We recommend starting the passport application at least 1–3 months before the planned trip. Rabies vaccination must be given at least 21 days before travel within the EU. For travel outside the EU, the titre test requires a 30-day wait after vaccination and a 3-month wait before travel. Contact us in good time so we can plan the schedule together. <strong>Is rabies vaccination required?</strong> Yes, rabies vaccination is mandatory for all dogs, cats, and ferrets travelling between EU countries. The vaccination must be given at least 21 days before travel. The vaccination\'s validity period depends on the vaccine used — typically 1–3 years. Vaccination details are recorded in the passport and validity is checked at border crossings.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2010,6 +2039,7 @@ const servicePages = [
       { heading: 'Tutkimukset', text: 'Laboratoriossamme tehdään kattavasti erilaisia tutkimuksia: hematologia (täydellinen verenkuva), kliininen kemia (maksa-, munuais- ja haimaentsyymit), elektrolyytit, hormonitutkimukset (kilpirauhanen, lisämunuainen, kortisoli), virtsatutkimukset ja virtsaviljelyt. Lisäksi teemme sytologisia tutkimuksia eli solunäytteitä kasvaimista, iholta ja korvista.' },
       { heading: 'Milloin verikokeet ovat tarpeen?', text: 'Verikokeet ovat tärkeä osa monia tilanteita: ennen anestesiaa ja leikkausta, sairauden syyn selvittämisessä, kroonisten sairauksien seurannassa, lääkityksen vaikutuksen arvioinnissa ja senioritarkastuksissa. Ikääntyvillä lemmikeillä säännölliset verikokeet paljastavat muutokset munuaisissa, maksassa ja kilpirauhasessa ajoissa.' },
       { heading: 'Näytteenotto on helppoa', text: 'Verinäytteen ottaminen on nopea ja lähes kivuton toimenpide. Näyte otetaan yleensä etujalasta tai kaulasta. Useimmissa tapauksissa paastoa ei vaadita, mutta rasva-arvoja tutkittaessa suositellaan 8–12 tunnin paastoa. Tulokset käydään läpi yhdessä vastaanotolla ja tarvittaessa laaditaan hoitosuunnitelma heti.' },
+      { heading: 'Usein kysyttyä verikokeista', text: '<strong>Pitääkö lemmikin olla ravinnotta?</strong> Useimpien verikokeiden kohdalla paastoa ei vaadita — voit syöttää lemmikkiäsi normaalisti ennen käyntiä. Paastoa suositellaan ainoastaan rasva-arvojen (triglyseridi, kolesteroli) tutkimisessa — tällöin 8–12 tunnin paasto riittää. Vettä saa ja pitää tarjota normaalisti. Eläinlääkäri kertoo ajanvarauksen yhteydessä, jos paasto on tarpeen. <strong>Kuinka nopeasti tulokset saadaan?</strong> Klinikkamme omassa laboratoriossa suurin osa tuloksista valmistuu 15–30 minuutissa, joten saat vastaukset yleensä jo käynnin aikana. Tämä mahdollistaa hoidon aloittamisen heti. Harvinaisemmat tutkimukset, kuten hormonitasot ja erikoisvärjäykset, lähetetään ulkopuoliseen laboratorioon, jolloin vastaus saadaan 1–5 arkipäivässä.' },
     ],
     sv: {
       title: 'Blodprov — Djurklinik Saari, Vasa',
@@ -2020,6 +2050,7 @@ const servicePages = [
         { heading: 'Undersökningar', text: 'I vårt laboratorium utförs omfattande undersökningar: hematologi (komplett blodstatus), klinisk kemi (lever-, njur- och bukspottskörtelenzymer), elektrolyter, hormonundersökningar (sköldkörtel, binjure, kortisol), urinundersökningar och urinodlingar. Dessutom utför vi cytologiska undersökningar, det vill säga cellprov från tumörer, hud och öron.' },
         { heading: 'När behövs blodprov?', text: 'Blodprov är en viktig del av många situationer: före anestesi och operation, vid utredning av sjukdomsorsak, uppföljning av kroniska sjukdomar, bedömning av läkemedelseffekt och seniorundersökningar. Hos äldre husdjur avslöjar regelbundna blodprov förändringar i njurar, lever och sköldkörtel i tid.' },
         { heading: 'Provtagning är enkelt', text: 'Blodprovstagning är en snabb och nästan smärtfri procedur. Provet tas vanligen från frambenet eller halsen. I de flesta fall krävs ingen fasta, men vid undersökning av fettvärden rekommenderas 8–12 timmars fasta. Resultaten gås igenom tillsammans på mottagningen och vid behov upprättas en behandlingsplan direkt.' },
+        { heading: 'Vanliga frågor om blodprov', text: '<strong>Behöver husdjuret vara fastande?</strong> För de flesta blodprov krävs ingen fasta — du kan utfodra ditt husdjur normalt före besöket. Fasta rekommenderas enbart vid undersökning av fettvärden (triglycerider, kolesterol) — då räcker 8–12 timmars fasta. Vatten ska och bör erbjudas normalt. Veterinären meddelar vid tidsbokning om fasta behövs. <strong>Hur snabbt fås resultaten?</strong> I vår kliniks eget laboratorium blir de flesta resultat klara på 15–30 minuter, så du får svaren vanligen redan under besöket. Det möjliggör att behandling kan påbörjas direkt. Mer sällsynta undersökningar, som hormonnivåer och specialfärgningar, skickas till externt laboratorium och svaret fås inom 1–5 arbetsdagar.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2037,6 +2068,7 @@ const servicePages = [
         { heading: 'Tests we perform', text: 'Our laboratory performs a comprehensive range of tests: haematology (complete blood count), clinical chemistry (liver, kidney, and pancreatic enzymes), electrolytes, hormone testing (thyroid, adrenal, cortisol), urine analysis, and urine cultures. We also perform cytological examinations — cell samples from tumours, skin, and ears.' },
         { heading: 'When are blood tests needed?', text: 'Blood tests are an important part of many situations: before anaesthesia and surgery, investigating the cause of illness, monitoring chronic diseases, evaluating medication effects, and senior check-ups. In ageing pets, regular blood tests reveal changes in the kidneys, liver, and thyroid gland in time.' },
         { heading: 'Sampling is easy', text: 'Taking a blood sample is a quick and virtually painless procedure. The sample is usually taken from the front leg or neck. In most cases, fasting is not required, but for lipid values, 8–12 hours of fasting is recommended. Results are reviewed together at the consultation and a treatment plan is drawn up immediately if needed.' },
+        { heading: 'Frequently asked questions about blood tests', text: '<strong>Does my pet need to fast?</strong> For most blood tests, fasting is not required — you can feed your pet normally before the visit. Fasting is recommended only when testing lipid values (triglycerides, cholesterol) — in that case, 8–12 hours of fasting is sufficient. Water should be offered as normal. The veterinarian will advise when booking whether fasting is needed. <strong>How quickly are results available?</strong> In our clinic\'s in-house laboratory, most results are ready within 15–30 minutes, so you typically receive answers during the visit. This enables treatment to begin immediately. Less common tests such as hormone levels and special stains are sent to an external laboratory, with results available within 1–5 working days.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2061,6 +2093,7 @@ const servicePages = [
       { heading: 'Röntgen — pentujen lukumäärä', text: 'Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin noin raskauspäivästä 50 alkaen, jolloin sikiöiden luusto on riittävästi mineralisoitunut näkyäkseen röntgenkuvassa. Tarkka pentumäärän tietäminen on tärkeää synnytyksen suunnittelun kannalta — se auttaa tunnistamaan, milloin kaikki pennut ovat syntyneet, ja varautumaan mahdollisiin komplikaatioihin.' },
       { heading: 'Sikiöiden seuranta', text: 'Tiineyden loppuvaiheessa ultraäänellä seurataan sikiöiden elinvoimaisuutta. Sydämenlyöntien tiheys kertoo sikiöiden voinnista — normaali sikiön syke on yli 200 lyöntiä minuutissa. Alentunut syke voi viitata sikiöahdinkoon, jolloin keisarinleikkaus voi olla tarpeen. Säännöllinen seuranta on erityisen tärkeää riskiraskauksissa.' },
       { heading: 'Keisarinleikkauksen suunnittelu', text: 'Joillakin roduilla (esim. englanninbulldoggi, ranskanbulldoggi, bostoninterrieri) keisarinleikkaus on usein suunniteltava etukäteen. Klinikallamme on valmius sekä suunniteltuihin että hätäkeisarinleikkauksiin. Tiineystutkimuksissa arvioidaan pentujen koko suhteessa synnytyskanavaan ja suunnitellaan synnytysten ajankohta yhdessä omistajan kanssa.' },
+      { heading: 'Usein kysyttyä tiineystutkimuksesta', text: '<strong>Milloin tiineys näkyy ultraäänellä?</strong> Tiineys voidaan todeta ultraäänellä luotettavasti noin raskauspäivästä 24–25 alkaen. Tällöin näkyvät sikiörakkulat ja sikiöiden sydämenlyönnit ovat havaittavissa. Liian aikainen tutkimus voi antaa väärän negatiivisen tuloksen. Jos astutuksesta on kulunut vähemmän kuin 24 päivää, suosittelemme odottamaan muutaman päivän ja varaamaan ajan sen jälkeen. <strong>Kuinka monta pentua voidaan laskea?</strong> Ultraäänellä voidaan arvioida pentujen lukumäärää, mutta tarkin tulos saadaan röntgentutkimuksella noin raskauspäivästä 50 alkaen, jolloin sikiöiden luusto on mineralisoitunut. Röntgenkuvasta voidaan laskea kallot ja selkärangat luotettavasti. Tarkka pentumäärä on tärkeä tieto synnytyksen seurannan kannalta — se kertoo, milloin kaikki pennut ovat syntyneet.' },
     ],
     sv: {
       title: 'Dräktighetsundersökning — Djurklinik Saari, Vasa',
@@ -2071,6 +2104,7 @@ const servicePages = [
         { heading: 'Röntgen — antal valpar', text: 'Med röntgenundersökning kan antalet valpar bedömas mer exakt från ungefär dräktighetsdag 50, då fosternas skelett har mineraliserats tillräckligt för att synas på röntgen. Att veta det exakta antalet valpar är viktigt för planeringen av förlossningen — det hjälper att identifiera när alla valpar har fötts och att förbereda sig för eventuella komplikationer.' },
         { heading: 'Fosterövervakning', text: 'I slutet av dräktigheten övervakas fosternas livskraft med ultraljud. Hjärtslagsfrekvensen berättar om fosternas tillstånd — normal fosterhjärtfrekvens är över 200 slag per minut. Sänkt frekvens kan tyda på fetal distress, varvid kejsarsnitt kan bli nödvändigt. Regelbunden uppföljning är särskilt viktig vid riskgraviditeter.' },
         { heading: 'Planering av kejsarsnitt', text: 'Hos vissa raser (t.ex. engelsk bulldogg, fransk bulldogg, bostonterrier) behöver kejsarsnitt ofta planeras i förväg. Vår klinik har beredskap för både planerade och akuta kejsarsnitt. Vid dräktighetsundersökning bedöms valparnas storlek i förhållande till förlossningskanalen och förlossningens tidpunkt planeras tillsammans med ägaren.' },
+        { heading: 'Vanliga frågor om dräktighetsundersökning', text: '<strong>När syns dräktigheten på ultraljud?</strong> Dräktighet kan konstateras tillförlitligt med ultraljud från ungefär dräktighetsdag 24–25. Då syns fostersäckarna och fosternas hjärtslag kan registreras. En för tidig undersökning kan ge falskt negativt resultat. Om det gått mindre än 24 dagar sedan parningen rekommenderar vi att vänta några dagar och boka tid därefter. <strong>Hur många valpar kan räknas?</strong> Med ultraljud kan antalet valpar uppskattas, men det mest exakta resultatet fås med röntgen från ungefär dräktighetsdag 50, då fosternas skelett har mineraliserats. På röntgenbilden kan skallar och ryggrader räknas tillförlitligt. Exakt antal valpar är viktig information för uppföljningen av förlossningen — det berättar när alla valpar har fötts.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2088,6 +2122,7 @@ const servicePages = [
         { heading: 'X-ray — counting puppies', text: 'Radiography can more accurately estimate the number of puppies from approximately day 50 of gestation, when the fetal skeleton has mineralised sufficiently to be visible on X-ray. Knowing the exact number of puppies is important for delivery planning — it helps identify when all puppies have been born and prepare for potential complications.' },
         { heading: 'Fetal monitoring', text: 'In late pregnancy, fetal viability is monitored with ultrasound. Heart rate indicates fetal wellbeing — a normal fetal heart rate is above 200 beats per minute. A decreased rate may indicate fetal distress, in which case a caesarean section may be necessary. Regular monitoring is especially important in high-risk pregnancies.' },
         { heading: 'Caesarean section planning', text: 'In certain breeds (e.g. English Bulldog, French Bulldog, Boston Terrier), caesarean sections often need to be planned in advance. Our clinic is equipped for both planned and emergency caesarean sections. During pregnancy examinations, puppy size is assessed relative to the birth canal and the delivery timing is planned together with the owner.' },
+        { heading: 'Frequently asked questions about pregnancy examinations', text: '<strong>When does pregnancy become visible on ultrasound?</strong> Pregnancy can be reliably confirmed by ultrasound from approximately day 24–25 of gestation. At this stage, gestational sacs are visible and fetal heartbeats can be detected. Too early an examination may give a false negative result. If fewer than 24 days have passed since mating, we recommend waiting a few days before booking. <strong>How many puppies can be counted?</strong> Ultrasound can estimate the number of puppies, but the most accurate count is obtained by X-ray from approximately day 50 of gestation, when the fetal skeletons have mineralised. Skulls and spines can be reliably counted on the radiograph. Knowing the exact number of puppies is important for monitoring delivery — it confirms when all puppies have been born.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2112,6 +2147,7 @@ const servicePages = [
       { heading: 'Merkit ja valikoima', text: 'Klinikaltamme löydät laajan valikoiman erikoisruokia johtavilta valmistajilta: Royal Canin, Specific ja Hill\'s. Valikoimamme kattaa kuiva- ja märkäruokia koirille ja kissoille. Ruoat ovat saatavilla suoraan klinikalta ilman erillistä tilausta — voit hakea ruoan samalla käynnillä tai tilata sen noudettavaksi.' },
       { heading: 'Milloin erikoisruokavalio?', text: 'Erikoisruokavaliot ovat erityisen tärkeitä munuaisten vajaatoiminnassa (vähentää fosforin ja proteiinin kuormitusta), ruoka-aineallergioissa (hydrolysoidut tai uudet proteiinilähteet), nivelrikossa (lisätyt omega-rasvahapot ja niveltä tukevat ravintoaineet), virtsatiesairauksissa (virtsan pH:n säätely) ja painonhallinnassa (kontrolloitu energiasisältö). Oikea ravinto voi parantaa elämänlaatua merkittävästi.' },
       { heading: 'Asiantunteva neuvonta', text: 'Eläinlääkärimme auttavat valitsemaan lemmikillesi sopivan ruokavalion. Ravitsemuskonsultaatiossa arvioidaan lemmikin terveydentila, paino ja erityistarpeet. Autamme myös ruokavalion vaihdossa — uuteen ruokaan siirtyminen tehdään asteittain noin viikon aikana. Kysy meiltä neuvoa lemmikin ravitsemukseen liittyvissä kysymyksissä.' },
+      { heading: 'Usein kysyttyä rehumyynnistä', text: '<strong>Tarvitaanko resepti erikoisruokiin?</strong> Suurin osa erikoisruoista ei vaadi reseptiä ja niitä voi ostaa suoraan klinikalta. Eläinlääkärin suositus on kuitenkin tärkeä, jotta lemmikille valitaan juuri oikea ruokavalio diagnoosiin ja yksilölliseen tilanteeseen sopivaksi. Väärä erikoisruoka voi jopa pahentaa oireita, joten suosittelemme aina keskustelua eläinlääkärin kanssa ennen ruokavalion vaihtoa. <strong>Voiko ruokaa tilata etukäteen?</strong> Kyllä, voit tilata ruokaa etukäteen soittamalla klinikkaan tai mainitsemalla asiasta edellisellä käynnillä. Tilaamme ruoan valmiiksi noudettavaksi, jolloin sinun ei tarvitse odottaa. Pidämme varastossa laajan valikoiman yleisimpiä erikoisruokia, mutta harvinaisempia tuotteita tilaamme tarpeen mukaan — toimitusaika on yleensä 1–3 arkipäivää.' },
     ],
     sv: {
       title: 'Foderförsäljning — Djurklinik Saari, Vasa',
@@ -2122,6 +2158,7 @@ const servicePages = [
         { heading: 'Märken och sortiment', text: 'Hos oss hittar du ett brett utbud av specialfoder från ledande tillverkare: Royal Canin, Specific och Hill\'s. Vårt sortiment omfattar torr- och våtfoder för hundar och katter. Fodren finns tillgängliga direkt på kliniken utan separat beställning — du kan hämta fodret vid samma besök eller beställa det för avhämtning.' },
         { heading: 'När behövs specialfoder?', text: 'Specialfoder är särskilt viktigt vid njursvikt (minskar fosfor- och proteinbelastningen), födoämnesallergier (hydrolyserade eller nya proteinkällor), artros (tillsatta omega-fettsyror och ledstödjande näringsämnen), urinvägssjukdomar (reglering av urinens pH) och viktkontroll (kontrollerat energiinnehåll). Rätt näring kan förbättra livskvaliteten avsevärt.' },
         { heading: 'Sakkunnig rådgivning', text: 'Våra veterinärer hjälper dig att välja rätt kost för ditt husdjur. Vid näringskonsultation bedöms husdjurets hälsotillstånd, vikt och specialbehov. Vi hjälper även vid kostbyte — övergången till ny kost görs gradvis under ungefär en vecka. Fråga oss om allt som rör ditt husdjurs näring.' },
+        { heading: 'Vanliga frågor om foderförsäljning', text: '<strong>Behövs recept för specialfoder?</strong> De flesta specialfoder kräver inget recept och kan köpas direkt på kliniken. En veterinärrekommendation är dock viktig för att välja rätt kost för husdjurets diagnos och individuella situation. Fel specialfoder kan till och med förvärra symtomen, så vi rekommenderar alltid att diskutera med veterinären innan kostbyte. <strong>Kan man beställa foder i förväg?</strong> Ja, du kan beställa foder i förväg genom att ringa kliniken eller nämna det vid föregående besök. Vi beställer fodret färdigt för avhämtning så att du inte behöver vänta. Vi har ett brett lager av de vanligaste specialfodren, men mer sällsynta produkter beställer vi vid behov — leveranstiden är vanligen 1–3 arbetsdagar.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2139,6 +2176,7 @@ const servicePages = [
         { heading: 'Brands and range', text: 'At our clinic you will find a wide selection of prescription diets from leading manufacturers: Royal Canin, Specific, and Hill\'s. Our range covers dry and wet foods for dogs and cats. Diets are available directly from the clinic without separate ordering — you can pick up the food during the same visit or order it for collection.' },
         { heading: 'When is a prescription diet needed?', text: 'Prescription diets are especially important in kidney failure (reducing phosphorus and protein load), food allergies (hydrolysed or novel protein sources), osteoarthritis (added omega fatty acids and joint-supporting nutrients), urinary tract diseases (urine pH regulation), and weight management (controlled energy content). The right nutrition can significantly improve quality of life.' },
         { heading: 'Expert advice', text: 'Our veterinarians help you choose the right diet for your pet. During a nutrition consultation, your pet\'s health status, weight, and special needs are assessed. We also help with diet transition — switching to a new food is done gradually over about one week. Ask us about any questions related to your pet\'s nutrition.' },
+        { heading: 'Frequently asked questions about prescription diets', text: '<strong>Is a prescription needed for special diets?</strong> Most prescription diets do not require a prescription and can be purchased directly from the clinic. However, a veterinary recommendation is important to ensure the right diet is chosen for your pet\'s diagnosis and individual situation. The wrong prescription diet can even worsen symptoms, so we always recommend discussing with the veterinarian before changing diets. <strong>Can food be ordered in advance?</strong> Yes, you can order food in advance by calling the clinic or mentioning it at your previous visit. We order the food ready for collection so you do not need to wait. We keep a wide stock of the most common prescription diets, but rarer products are ordered on demand — delivery time is usually 1–3 working days.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2214,6 +2252,7 @@ const servicePages = [
       { heading: 'Kemiallinen kastraatio', text: 'Koirille on tarjolla kemiallinen kastraatio Suprelorin-hormoni-implantilla. Implantti asetetaan ihon alle niskaan — toimenpide on nopea eikä vaadi anestesiaa. Vaikutus kestää 6 tai 12 kuukautta valitun implantin mukaan. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta käytökseen ennen pysyvää päätöstä, tai kun kirurgista toimenpidettä halutaan välttää.' },
       { heading: 'Turvallinen anestesia', text: 'Kirurginen kastraatio tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Potilasta valvotaan jatkuvasti koko toimenpiteen ajan monitoreilla, jotka seuraavat sydämen sykettä, verenpainetta, happisaturaatiota ja lämpötilaa. Potilas kotiutuu yleensä samana päivänä ja saa mukaansa kipulääkityksen toipumisajalle.' },
       { heading: 'Oikea ajoitus ja neuvonta', text: 'Kastraation optimaalinen ajoitus riippuu eläimen lajista, rodusta ja koosta. Kissat kastroidaan yleensä noin 5–6 kuukauden iässä, koirat rodun mukaan 6–18 kuukauden iässä. Keskustellaan yhdessä, mikä on paras vaihtoehto juuri sinun lemmikillesi — kirurginen vai kemiallinen kastraatio, ja oikea ajankohta. Varaa aika konsultaatioon.' },
+      { heading: 'Usein kysyttyä kastraatiosta', text: '<strong>Muuttuuko koiran käytös kastraation jälkeen?</strong> Kastraatio voi vähentää hormonaalista käytöstä kuten merkkailua, kiertelyä ja muita koiraita kohtaan osoitettua aggressiivisuutta. Vaikutus käytökseen riippuu kuitenkin yksilöstä — opitut käytösmallit eivät välttämättä muutu pelkän kastraation myötä. Kemiallinen kastraatio on hyvä tapa kokeilla vaikutusta ennen pysyvää päätöstä. Perusluonne ja opittu käytös säilyvät ennallaan. <strong>Voiko kastraation peruuttaa?</strong> Kirurginen kastraatio on pysyvä toimenpide, jota ei voi peruuttaa. Sen vuoksi tarjoamme kemiallista kastraatiota Suprelorin-implantilla, jonka vaikutus kestää 6 tai 12 kuukautta ja häviää sen jälkeen kokonaan. Kemiallinen kastraatio on erinomainen tapa kokeilla, miten kastraatio vaikuttaa koiran käytökseen ja terveyteen ennen lopullista päätöstä.' },
     ],
     sv: {
       title: 'Kastrering — Djurklinik Saari, Vasa',
@@ -2224,6 +2263,7 @@ const servicePages = [
         { heading: 'Kemisk kastrering', text: 'För hundar finns kemisk kastrering med Suprelorin-hormonimplantat. Implantatet placeras under huden i nacken — ingreppet är snabbt och kräver ingen anestesi. Effekten varar 6 eller 12 månader beroende på valt implantat. Kemisk kastrering är ett bra alternativ när man vill testa kastrationens effekt på beteendet innan ett permanent beslut fattas, eller när man vill undvika kirurgiskt ingrepp.' },
         { heading: 'Säker anestesi', text: 'Kirurgisk kastrering utförs under inhalationsanestesi med omfattande smärtlindring. Patienten övervakas kontinuerligt under hela ingreppet med monitorer som följer hjärtfrekvens, blodtryck, syremättnad och temperatur. Patienten skrivs vanligen ut samma dag och får smärtstillande medicin med sig för tillfrisknandet.' },
         { heading: 'Rätt tidpunkt och rådgivning', text: 'Optimal tidpunkt för kastrering beror på djurets art, ras och storlek. Katter kastreras vanligen vid cirka 5–6 månaders ålder, hundar beroende på ras vid 6–18 månaders ålder. Vi diskuterar gärna vad som är det bästa alternativet just för ditt husdjur — kirurgisk eller kemisk kastrering, och rätt tidpunkt. Boka tid för konsultation.' },
+        { heading: 'Vanliga frågor om kastrering', text: '<strong>Förändras hundens beteende efter kastrering?</strong> Kastrering kan minska hormonellt betingat beteende som markering, strövande och aggressivitet mot andra hundar. Effekten på beteendet beror dock på individen — inlärda beteendemönster förändras inte nödvändigtvis enbart genom kastrering. Kemisk kastrering är ett bra sätt att testa effekten innan ett permanent beslut fattas. Grundläggande personlighet och inlärt beteende förblir oförändrade. <strong>Kan kastrering ångras?</strong> Kirurgisk kastrering är ett permanent ingrepp som inte kan ångras. Därför erbjuder vi kemisk kastrering med Suprelorin-implantat, vars effekt varar 6 eller 12 månader och därefter försvinner helt. Kemisk kastrering är ett utmärkt sätt att testa hur kastrering påverkar hundens beteende och hälsa innan ett slutgiltigt beslut fattas.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2241,6 +2281,7 @@ const servicePages = [
         { heading: 'Chemical castration', text: 'Chemical castration with a Suprelorin hormone implant is available for dogs. The implant is placed under the skin at the back of the neck — the procedure is quick and does not require anaesthesia. The effect lasts 6 or 12 months depending on the implant chosen. Chemical castration is a good option when you want to test the effect of castration on behaviour before making a permanent decision, or when surgical intervention is not desired.' },
         { heading: 'Safe anaesthesia', text: 'Surgical castration is performed under inhalation anaesthesia with comprehensive pain relief. The patient is continuously monitored throughout the procedure with monitors tracking heart rate, blood pressure, oxygen saturation, and temperature. Patients are typically discharged the same day with pain medication for the recovery period.' },
         { heading: 'Timing and guidance', text: 'The optimal timing for castration depends on the animal\'s species, breed, and size. Cats are usually castrated at around 5–6 months of age, dogs at 6–18 months depending on the breed. Let us discuss together what is the best option for your pet — surgical or chemical castration, and the right timing. Book a consultation appointment.' },
+        { heading: 'Frequently asked questions about castration', text: '<strong>Does a dog\'s behaviour change after castration?</strong> Castration can reduce hormonal behaviours such as marking, roaming, and aggression towards other dogs. However, the effect on behaviour depends on the individual — learned behaviour patterns do not necessarily change through castration alone. Chemical castration is a good way to test the effect before making a permanent decision. Basic temperament and learned behaviour remain unchanged. <strong>Can castration be reversed?</strong> Surgical castration is a permanent procedure that cannot be reversed. That is why we offer chemical castration with a Suprelorin implant, whose effect lasts 6 or 12 months and then disappears completely. Chemical castration is an excellent way to test how castration affects your dog\'s behaviour and health before making a final decision.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2266,6 +2307,7 @@ const servicePages = [
       { heading: 'Murtumaleikkaukset ja amputaatiot', text: 'Klinikallamme tehdään murtumaleikkauksia, joissa luun kappaleet kiinnitetään levyillä, ruuveilla tai ulkoisella fiksaattorilla. Amputaatioita tehdään tarvittaessa — raaja, häntä tai varpaat — esimerkiksi vakavan trauman, kasvaimen tai kroonisen kiputilan vuoksi. Eläimet sopeutuvat kolmella jalalla yllättävän hyvin ja elämänlaatu paranee, kun kipu poistuu.' },
       { heading: 'Patellaluksaatio ja reisiluunpään poisto', text: 'Polvilumpion sijoiltaanmeno (patellaluksaatio) on yleinen erityisesti pienillä koiraroduilla. Hoito on leikkauksellinen, ja menetelmä valitaan luksaation vakavuusasteen mukaan. Reisiluunpään poisto (FHO) tehdään esimerkiksi kroonisen lonkkaluksaation tai Legg-Perthes-taudin vuoksi — toimenpide poistaa kivun lähteen ja potilas oppii käyttämään raajaa ilman lonkkaniveltä.' },
       { heading: 'Viralliset röntgentutkimukset', text: 'Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- ja selkäröntgenkuvauksiin. Viralliset tutkimukset ovat osa jalostustarkastuksia ja niiden tavoitteena on vähentää perinnöllisten ortopedisten sairauksien esiintyvyyttä. Tutkimukset tehdään kevyessä rauhoituksessa ja kuvat lähetetään Kennelliiton arvostelijalle.' },
+      { heading: 'Usein kysyttyä ortopediasta', text: '<strong>Kuinka pitkä on toipumisaika leikkauksen jälkeen?</strong> Toipumisaika riippuu toimenpiteestä. Eturistisiteen korjausleikkauksen (TTA tai lateral suture) jälkeen toipuminen kestää noin 8–12 viikkoa, jonka aikana liikkumista rajoitetaan asteittain. Murtumaleikkausten toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista — ne nopeuttavat paranemista ja parantavat lopputulosta. <strong>Voiko ontumisen syyn selvittää ilman leikkausta?</strong> Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Ortopedinen tutkimus, röntgenkuvat ja tarvittaessa ultraääni tai CT-kuvaus antavat tarkan diagnoosin. Kaikki ontumisen syyt eivät vaadi leikkausta — esimerkiksi lievä nivelrikko ja jänneongelmat hoidetaan usein konservatiivisesti lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.' },
     ],
     sv: {
       title: 'Ortopedi — Djurklinik Saari, Vasa',
@@ -2276,6 +2318,7 @@ const servicePages = [
         { heading: 'Frakturoperationer och amputationer', text: 'Vår klinik utför frakturoperationer där benfragment fixeras med plattor, skruvar eller extern fixator. Amputationer utförs vid behov — ben, svans eller tår — till exempel vid allvarligt trauma, tumör eller kroniskt smärttillstånd. Djur anpassar sig förvånansvärt bra på tre ben och livskvaliteten förbättras när smärtan försvinner.' },
         { heading: 'Patellaluxation och femurhuvudresektion', text: 'Knäskålsluxation (patellaluxation) är vanligt särskilt hos små hundraser. Behandlingen är kirurgisk och metoden väljs utifrån luxationens svårighetsgrad. Femurhuvedresektion (FHO) utförs till exempel vid kronisk höftluxation eller Legg-Perthes sjukdom — ingreppet avlägsnar smärtkällan och patienten lär sig använda benet utan höftled.' },
         { heading: 'Officiella röntgenundersökningar', text: 'Vår klinik har Finska Kennelklubbens godkännande för officiella höft-, armbågs- och ryggröntgenundersökningar. Officiella undersökningar är en del av avelskontrollerna och syftar till att minska förekomsten av ärftliga ortopediska sjukdomar. Undersökningarna görs under lätt sedering och bilderna skickas till Kennelklubbens granskare.' },
+        { heading: 'Vanliga frågor om ortopedi', text: '<strong>Hur lång är återhämtningsperioden efter operation?</strong> Återhämtningsperioden beror på ingreppet. Efter korsbandsskadeoperation (TTA eller lateral suture) varar återhämtningen cirka 8–12 veckor, under vilken tid rörligheten begränsas gradvis. Frakturoperationers återhämtning tar vanligen 6–12 veckor. Rehabilitering och kontrollbesök är en väsentlig del av tillfrisknandet — de påskyndar läkningen och förbättrar slutresultatet. <strong>Kan orsaken till hälta utredas utan operation?</strong> Ja, de flesta orsaker till hälta kan utredas utan operation. Ortopedisk undersökning, röntgenbilder och vid behov ultraljud eller CT-undersökning ger en exakt diagnos. Alla orsaker till hälta kräver inte operation — till exempel lindrig artros och senproblem behandlas ofta konservativt med medicinering, vila och rehabilitering. Veterinären bedömer den bästa behandlingslinjen individuellt.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2293,6 +2336,7 @@ const servicePages = [
         { heading: 'Fracture surgery and amputations', text: 'Our clinic performs fracture surgery in which bone fragments are fixed with plates, screws, or external fixators. Amputations are performed when necessary — limb, tail, or digits — for example due to severe trauma, tumour, or chronic pain. Animals adapt surprisingly well on three legs and quality of life improves when pain is eliminated.' },
         { heading: 'Patella luxation and femoral head resection', text: 'Kneecap displacement (patella luxation) is common especially in small dog breeds. Treatment is surgical and the method is chosen based on the severity of the luxation. Femoral head osteotomy (FHO) is performed for example in chronic hip luxation or Legg-Perthes disease — the procedure removes the source of pain and the patient learns to use the limb without the hip joint.' },
         { heading: 'Official radiographic examinations', text: 'Our clinic holds Finnish Kennel Club approval for official hip, elbow, and spinal radiographic examinations. Official examinations are part of breeding evaluations and aim to reduce the incidence of hereditary orthopaedic diseases. Examinations are performed under light sedation and images are sent to the Kennel Club evaluator.' },
+        { heading: 'Frequently asked questions about orthopaedics', text: '<strong>How long is the recovery period after surgery?</strong> The recovery period depends on the procedure. After cruciate ligament repair (TTA or lateral suture), recovery takes approximately 8–12 weeks, during which movement is gradually restricted. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery — they accelerate healing and improve the outcome. <strong>Can the cause of lameness be determined without surgery?</strong> Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery — for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2318,6 +2362,7 @@ const servicePages = [
       { heading: 'Jatkuva valvonta', text: 'Potilasta valvotaan jatkuvasti koko anestesian ajan monitoroimalla: sydämen syke ja EKG, verenpaine, happisaturaatio (SpO2), kapnografia (uloshengityksen hiilidioksidi), hengitystaajuus ja ruumiinlämpötila. Kokenut hoitaja vastaa anestesiavalvonnasta koko toimenpiteen ajan, ja poikkeamiin reagoidaan välittömästi.' },
       { heading: 'Balansoitu anestesiaprotokolla', text: 'Käytämme modernia balansoitua anestesiaprotokollaa, jossa yhdistetään useita eri lääkeaineita pienemmillä annoksilla parhaan vaikutuksen ja turvallisuuden saavuttamiseksi. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen ja tehokkaan kivunlievityksen leikkauksen aikana ja sen jälkeen. Klinikalla on kaksi ventilaattoria potilasturvallisuuden varmistamiseksi.' },
       { heading: 'Ennen anestesiaa', text: 'Ennen toimenpidettä tehdään huolellinen esitarkastus ja tarvittaessa verikokeet. Arvioimme jokaisen potilaan yksilöllisesti ja valitsemme anestesiaprotokollan iän, rodun, terveydentilan ja toimenpiteen mukaan. Eläinlääkäri keskustelee anestesiaan liittyvistä riskeistä ja valmistautumisesta kanssasi. Potilaiden tulee olla syömättä 8–12 tuntia ennen toimenpidettä.' },
+      { heading: 'Usein kysyttyä anestesiasta', text: '<strong>Onko anestesia turvallista?</strong> Moderni inhalaatioanestesia on erittäin turvallinen. Anestesiariski terveellä potilaalla on alle 0,1 %. Riskiä pienennetään huolellisella esitarkastuksella, verikokeilla, yksilöllisellä anestesiaprotokollalla ja jatkuvalla monitoroinnilla. Klinikallamme jokaista potilasta valvoo kokenut hoitaja, joka seuraa sydämen sykettä, verenpainetta, happisaturaatiota, kapnografiaa ja lämpötilaa reaaliajassa. <strong>Kuinka pitkään toipuminen kestää?</strong> Inhalaatioanestesiasta herääminen on nopeaa — useimmat potilaat ovat hereillä 10–30 minuutin kuluessa toimenpiteen päättymisestä. Potilas voi olla tokkurainen muutaman tunnin ajan, mutta palautuu yleensä normaaliksi saman päivän aikana. Kotiutus tapahtuu yleensä iltapäivällä, kun potilas kävelee itsenäisesti ja voi normaalisti. Kipulääkitys jatkuu kotona eläinlääkärin ohjeen mukaan.' },
     ],
     sv: {
       title: 'Anestesi — Djurklinik Saari, Vasa',
@@ -2328,6 +2373,7 @@ const servicePages = [
         { heading: 'Kontinuerlig övervakning', text: 'Patienten övervakas kontinuerligt under hela anestesin genom monitorering av: hjärtfrekvens och EKG, blodtryck, syremättnad (SpO2), kapnografi (koldioxid i utandningsluft), andningsfrekvens och kroppstemperatur. En erfaren sköterska ansvarar för anestesiövervakningen under hela ingreppet, och avvikelser åtgärdas omedelbart.' },
         { heading: 'Balanserat anestesiprotokoll', text: 'Vi använder ett modernt balanserat anestesiprotokoll där flera olika läkemedel kombineras i lägre doser för bästa effekt och säkerhet. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn och effektiv smärtlindring under och efter operationen. Kliniken har två ventilatorer för att säkerställa patientsäkerheten.' },
         { heading: 'Före anestesin', text: 'Före ingreppet görs en noggrann förundersökning och vid behov blodprov. Vi bedömer varje patient individuellt och väljer anestesiprotokoll utifrån ålder, ras, hälsotillstånd och typ av ingrepp. Veterinären diskuterar risker och förberedelser med dig. Patienter ska vara fastande 8–12 timmar före ingreppet.' },
+        { heading: 'Vanliga frågor om anestesi', text: '<strong>Är anestesi säkert?</strong> Modern inhalationsanestesi är mycket säker. Anestesirisken för en frisk patient är under 0,1 %. Risken minskas genom noggrann förundersökning, blodprov, individuellt anestesiprotokoll och kontinuerlig övervakning. På vår klinik övervakas varje patient av en erfaren sköterska som följer hjärtfrekvens, blodtryck, syremättnad, kapnografi och temperatur i realtid. <strong>Hur lång tid tar återhämtningen?</strong> Uppvaknande från inhalationsanestesi är snabbt — de flesta patienter är vakna inom 10–30 minuter efter ingreppets slut. Patienten kan vara dåsig några timmar, men återgår vanligen till normalt tillstånd under samma dag. Hemgång sker vanligen på eftermiddagen, när patienten går självständigt och mår bra. Smärtlindring fortsätter hemma enligt veterinärens instruktioner.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2345,6 +2391,7 @@ const servicePages = [
         { heading: 'Continuous monitoring', text: 'The patient is continuously monitored throughout anaesthesia: heart rate and ECG, blood pressure, oxygen saturation (SpO2), capnography (end-tidal CO2), respiratory rate, and body temperature. An experienced nurse is responsible for anaesthesia monitoring throughout the procedure, and any deviations are addressed immediately.' },
         { heading: 'Balanced anaesthesia protocol', text: 'We use a modern balanced anaesthesia protocol combining multiple drugs at lower doses for optimal effect and safety. Continuous rate infusion (CRI) pain management ensures steady and effective pain relief during and after surgery. The clinic has two ventilators to ensure patient safety.' },
         { heading: 'Before anaesthesia', text: 'Before the procedure, a thorough pre-anaesthetic assessment is performed and blood tests are taken as needed. We assess each patient individually and select the anaesthesia protocol based on age, breed, health status, and the type of procedure. The veterinarian discusses risks and preparation with you. Patients should be fasted for 8–12 hours before the procedure.' },
+        { heading: 'Frequently asked questions about anaesthesia', text: '<strong>Is anaesthesia safe?</strong> Modern inhalation anaesthesia is very safe. The anaesthesia risk for a healthy patient is less than 0.1%. Risk is minimised through thorough pre-anaesthetic assessment, blood tests, an individualised anaesthesia protocol, and continuous monitoring. At our clinic, every patient is monitored by an experienced nurse tracking heart rate, blood pressure, oxygen saturation, capnography, and temperature in real time. <strong>How long does recovery take?</strong> Waking from inhalation anaesthesia is rapid — most patients are awake within 10–30 minutes of the procedure ending. The patient may be drowsy for a few hours but typically returns to normal during the same day. Discharge usually occurs in the afternoon, once the patient is walking independently and feeling well. Pain medication continues at home according to the veterinarian\'s instructions.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2369,6 +2416,7 @@ const servicePages = [
       { heading: 'UV-desinfiointi ja kankaiden pesu', text: 'Käytämme UV-valoa kaikkien klinikan tilojen desinfiointiin säännöllisesti. UV-valo tuhoaa mikro-organismeja pinnoilta, joita perinteiset desinfektioaineet eivät välttämättä tavoita. Kaikki kankaat — pyyhkeet, peitot ja koiranpedit — pestään jokaisen käytön jälkeen. Kertakäyttöisiä materiaaleja käytetään aina kun mahdollista.' },
       { heading: 'Anestesia ja ilmanlaatu', text: 'Inhalaatioanestesiassa käytämme suodattimia, jotka estävät mikrobien leviämisen potilaiden välillä anestesialaitteiston kautta. Lattiat desinfioidaan kahdesti päivässä ja tehokkaammin aina tarpeen mukaan. Ilmanvaihto varmistaa puhtaan sisäilman kaikissa tiloissa.' },
       { heading: 'ISFM-kissaystävälliset standardit', text: 'Noudatamme International Society of Feline Medicine (ISFM) -standardeja kissaystävällisessä klinikkatoiminnassa. Tämä tarkoittaa erityistä huomiota kissapotilaiden hygieniaan, erillisiä odotustiloja ja tutkimushuoneita kissoille, sekä feromonivalmisteiden käyttöä stressin vähentämiseksi. Kissaystävälliset käytännöt parantavat sekä hygieniaa että potilaan hyvinvointia.' },
+      { heading: 'Usein kysyttyä hygieniasta', text: '<strong>Kuinka usein tilat desinfioidaan?</strong> Jokaisen potilaan jälkeen desinfioimme kaikki tutkimuspöydät ja kosketuspinnat. Lattiat desinfioidaan kahdesti päivässä ja tehokkaammin aina tarpeen mukaan. UV-desinfiointi suoritetaan säännöllisesti kaikissa tiloissa. Kankaat — pyyhkeet, peitot ja koiranpedit — pestään jokaisen käytön jälkeen. Näin estämme tartuntojen leviämisen potilaiden välillä. <strong>Käytetäänkö antibakteerisia aineita?</strong> Käytämme tehokkaita desinfektioaineita, jotka tuhoavat bakteerit, virukset ja sienet. Desinfektioaineet valitaan niiden laaja-alaisuuden ja turvallisuuden perusteella — ne ovat tehokkaita mutta eivät aiheuta haittaa potilaille. Lisäksi käytämme UV-valoa pintojen desinfointiin, mikä täydentää kemiallista puhdistusta. Kertakäyttöisiä materiaaleja käytetään aina kun mahdollista.' },
     ],
     sv: {
       title: 'Hygien — Djurklinik Saari, Vasa',
@@ -2379,6 +2427,7 @@ const servicePages = [
         { heading: 'UV-desinfektion och tvättning av textilier', text: 'Vi använder UV-ljus för att regelbundet desinficera alla klinikens utrymmen. UV-ljus dödar mikroorganismer på ytor som traditionella desinfektionsmedel kanske inte når. Alla textilier — handdukar, filtar och hundbäddar — tvättas efter varje användning. Engångsmaterial används när det är möjligt.' },
         { heading: 'Anestesi och luftkvalitet', text: 'Vid inhalationsanestesi använder vi filter som förhindrar spridning av mikrober mellan patienter via anestesiutrustningen. Golven desinficeras två gånger dagligen och mer noggrant vid behov. Ventilationen säkerställer ren inomhusluft i alla utrymmen.' },
         { heading: 'ISFM kattvänliga standarder', text: 'Vi följer International Society of Feline Medicine (ISFM) standarder för kattvänlig klinikverksamhet. Det innebär särskild uppmärksamhet på hygien för kattpatienter, separata väntrum och undersökningsrum för katter, samt användning av feromonpreparat för att minska stress. Kattvänliga rutiner förbättrar både hygien och patientens välbefinnande.' },
+        { heading: 'Vanliga frågor om hygien', text: '<strong>Hur ofta desinficeras lokalerna?</strong> Efter varje patient desinficerar vi alla undersökningsbord och beröringsytor. Golven desinficeras två gånger dagligen och mer noggrant vid behov. UV-desinfektion utförs regelbundet i alla utrymmen. Textilier — handdukar, filtar och hundbäddar — tvättas efter varje användning. Så förhindrar vi smittspridning mellan patienter. <strong>Används antibakteriella medel?</strong> Vi använder effektiva desinfektionsmedel som dödar bakterier, virus och svampar. Desinfektionsmedlen väljs utifrån deras bredspektrumsverkan och säkerhet — de är effektiva men skadar inte patienterna. Dessutom använder vi UV-ljus för ytdesinfektion, vilket kompletterar den kemiska rengöringen. Engångsmaterial används när det är möjligt.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -2396,6 +2445,7 @@ const servicePages = [
         { heading: 'UV disinfection and fabric washing', text: 'We use UV light to regularly disinfect all clinic areas. UV light destroys microorganisms on surfaces that traditional disinfectants may not reach. All fabrics — towels, blankets, and dog beds — are washed after every use. Disposable materials are used whenever possible.' },
         { heading: 'Anaesthesia and air quality', text: 'During inhalation anaesthesia, we use filters that prevent the spread of microbes between patients via the anaesthesia equipment. Floors are disinfected twice daily and more thoroughly as needed. Ventilation ensures clean indoor air in all areas.' },
         { heading: 'ISFM cat-friendly standards', text: 'We follow International Society of Feline Medicine (ISFM) standards for cat-friendly clinic practice. This means special attention to hygiene for cat patients, separate waiting areas and examination rooms for cats, and the use of pheromone products to reduce stress. Cat-friendly practices improve both hygiene and patient wellbeing.' },
+        { heading: 'Frequently asked questions about hygiene', text: '<strong>How often are the premises disinfected?</strong> After every patient, we disinfect all examination tables and contact surfaces. Floors are disinfected twice daily and more thoroughly as needed. UV disinfection is performed regularly in all areas. Fabrics — towels, blankets, and dog beds — are washed after every use. This prevents the spread of infections between patients. <strong>Are antibacterial agents used?</strong> We use effective disinfectants that destroy bacteria, viruses, and fungi. Disinfectants are chosen based on their broad-spectrum efficacy and safety — they are effective but do not harm patients. Additionally, we use UV light for surface disinfection, which complements chemical cleaning. Disposable materials are used whenever possible.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -2693,6 +2743,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; ${footerBusinessId[lang] || footerBusinessId.fi}: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -2845,6 +2896,7 @@ function generatePrivacyPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -2855,7 +2907,386 @@ function generatePrivacyPage() {
 }
 
 // ──────────────────────────────────────────────
-// 9. Generate sitemap.xml
+// 9a. Generate About page (/meista/)
+// ──────────────────────────────────────────────
+function generateAboutPage() {
+  const today = new Date().toISOString().split('T')[0];
+  return `<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tietoa klinikasta — Eläinklinikka Saari, Vaasa</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script>
+  function gtag_report_conversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR'
+    });
+  }
+  </script>
+
+  <meta name="description" content="Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, sydäntutkimukset ja ISFM-kissaystävällinen klinikka.">
+  <link rel="canonical" href="${BASE_URL}/meista/">
+  <link rel="alternate" hreflang="fi" href="${BASE_URL}/meista/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/meista/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/meista/">
+  <meta property="og:title" content="Tietoa klinikasta — Eläinklinikka Saari">
+  <meta property="og:description" content="Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, ISFM-kissaystävällinen klinikka.">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Eläinklinikka Saari",
+    "description": "Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä",
+    "url": "${BASE_URL}",
+    "telephone": "+358-6-321-7300",
+    "email": "info@saarivet.fi",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gerbyntie 18",
+      "addressLocality": "Vaasa",
+      "postalCode": "65230",
+      "addressCountry": "FI"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Etusivu", "item": "${BASE_URL}/" },
+      { "@type": "ListItem", "position": 2, "name": "Tietoa klinikasta", "item": "${BASE_URL}/meista/" }
+    ]
+  }]
+  </script>
+
+  <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body class="article-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      </a>
+      <nav class="nav">
+        <div class="nav-actions">
+          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+  <section class="section articles-section">
+    <div class="container">
+      <article class="article-card">
+        <h1>Tietoa klinikasta</h1>
+        <div class="article-content">
+          <h2>Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasassa</h2>
+          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
+          <p>Ammattitaitoinen hoitotiimimme tarjoaa kokenutta ja asiantuntevaa palvelua aina eläimenne parhaaksi. Klinikkamme on ISFM-sertifioitu kissaystävällinen klinikka (International Society of Feline Medicine), mikä tarkoittaa erityistä huomiota kissapotilaiden hyvinvointiin ja stressin vähentämiseen.</p>
+
+          <h2>Palvelumme</h2>
+          <p>Tarjoamme monipuoliset eläinlääkäripalvelut:</p>
+          <p><strong>Laaja diagnostiikka</strong> — Digitaalinen röntgen, hammasröntgen, ultraääni (vatsa ja sydän), tähystystutkimukset (gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia) sekä oma laboratorio nopeilla tuloksilla.</p>
+          <p><strong>Moderni kirurgia</strong> — Pehmytkudoskirurgia, ortopedia (TTA, lateral suture, murtumaleikkaukset), inhalaatioanestesia kahdella ventilaattorilla ja jatkuvalla monitoroinnilla.</p>
+          <p><strong>Sydäntutkimukset</strong> — Sydämen ultraääni, EKG, Holter-tutkimus. Viralliset sydäntutkimukset jalostuskoirille Kennelliiton hyväksymänä tutkijana.</p>
+          <p><strong>Hammashoito</strong> — Hammaskiven poisto, hammasröntgen, hampaiden poistot, PerioVive-hyaluronihappogeelihoito.</p>
+
+          <h2>Henkilökunta</h2>
+          <p>Klinikkamme tiimi koostuu kokeneista eläinlääkäreistä ja eläintenhoitajista. Eläinlääkäreillemme on vuosikymmenten kokemus pieneläinlääketieteestä ja jatkokoulutus mm. ortopediassa, kardiologiassa, akupunktiossa ja hammashoidossa.</p>
+
+          <div class="cat-friendly-badge" style="margin-top:1.5rem;">
+            🐱 <span>ISFM-sertifioitu kissaystävällinen klinikka</span>
+          </div>
+
+          <h2>Sijainti</h2>
+          <p>Gerbyntie 18, 65230 Vaasa (Dragnäsbäck, Bockis-kurvissa). Ilmainen pysäköinti klinikan edessä.</p>
+        </div>
+      </article>
+
+      <div class="service-cta-box">
+        <h2>Varaa aika</h2>
+        <p>Soita meille tai varaa aika verkosta.</p>
+        <div class="service-cta-buttons">
+          <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
+        </div>
+      </div>
+
+      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pikalinkit</h4>
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#prices">Hinnasto</a>
+          <a href="../#wildlife">Wildlife</a>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
+// 9b. Generate Contact page (/yhteystiedot/)
+// ──────────────────────────────────────────────
+function generateContactPage() {
+  const today = new Date().toISOString().split('T')[0];
+  return `<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yhteystiedot — Eläinklinikka Saari, Vaasa</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script>
+  function gtag_report_conversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR'
+    });
+  }
+  </script>
+
+  <meta name="description" content="Eläinklinikka Saaren yhteystiedot. Osoite: Gerbyntie 18, Vaasa. Puhelin: (06) 321 7300. Sähköposti: info@saarivet.fi. Aukioloajat ja ajanvaraus.">
+  <link rel="canonical" href="${BASE_URL}/yhteystiedot/">
+  <link rel="alternate" hreflang="fi" href="${BASE_URL}/yhteystiedot/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/yhteystiedot/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/yhteystiedot/">
+  <meta property="og:title" content="Yhteystiedot — Eläinklinikka Saari">
+  <meta property="og:description" content="Eläinklinikka Saari, Gerbyntie 18, 65230 Vaasa. Puhelin (06) 321 7300. Ajanvaraus verkossa.">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Eläinklinikka Saari",
+    "url": "${BASE_URL}",
+    "telephone": "+358-6-321-7300",
+    "email": "info@saarivet.fi",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gerbyntie 18",
+      "addressLocality": "Vaasa",
+      "postalCode": "65230",
+      "addressCountry": "FI"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 63.0833,
+      "longitude": 21.6167
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Etusivu", "item": "${BASE_URL}/" },
+      { "@type": "ListItem", "position": 2, "name": "Yhteystiedot", "item": "${BASE_URL}/yhteystiedot/" }
+    ]
+  }]
+  </script>
+
+  <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body class="article-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      </a>
+      <nav class="nav">
+        <div class="nav-actions">
+          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+  <section class="section articles-section">
+    <div class="container">
+      <article class="article-card">
+        <h1>Yhteystiedot</h1>
+        <div class="article-content">
+          <h2>Osoite</h2>
+          <p><strong>Eläinklinikka Saari</strong><br>
+          Gerbyntie 18<br>
+          65230 Vaasa<br>
+          (Dragnäsbäck, Bockis-kurvissa)</p>
+          <p>Ilmainen pysäköinti klinikan edessä.</p>
+
+          <h2>Puhelin ja sähköposti</h2>
+          <p>Puhelin: <a href="tel:+35863217300" onclick="gtag_report_conversion();"><strong>(06) 321 7300</strong></a><br>
+          Sähköposti: <a href="mailto:info@saarivet.fi">info@saarivet.fi</a></p>
+
+          <h2>Aukioloajat</h2>
+          <p>Ma–Pe: 9:00–16:00<br>
+          La–Su: Suljettu</p>
+          <p>Vastaanotto ajanvarauksella. Päivystys: tarkista päivystävä klinikka numerosta (06) 321 7300.</p>
+
+          <h2>Ajanvaraus</h2>
+          <p>Varaa aika soittamalla tai verkkoajanvarauksella:</p>
+
+          <h2>Sijainti kartalla</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.5!2d21.5967!3d63.0883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d6007bf4e31b1%3A0x3e189f57a09e4f42!2sGerbyntie%2018%2C%2065230%20Vaasa!5e0!3m2!1sfi!2sfi!4v1700000000000" width="100%" height="350" style="border:0;border-radius:var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eläinklinikka Saari kartalla"></iframe>
+        </div>
+      </article>
+
+      <div class="service-cta-box">
+        <h2>Varaa aika</h2>
+        <p>Soita meille tai varaa aika verkosta.</p>
+        <div class="service-cta-buttons">
+          <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
+        </div>
+      </div>
+
+      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pikalinkit</h4>
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#prices">Hinnasto</a>
+          <a href="../#wildlife">Wildlife</a>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seuraa meitä</h4>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
+// 10. Generate sitemap.xml
 // ──────────────────────────────────────────────
 function generateSitemap() {
   const today = new Date().toISOString().split('T')[0];
@@ -2880,6 +3311,22 @@ function generateSitemap() {
     <lastmod>${today}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+`;
+
+  xml += `  <url>
+    <loc>${BASE_URL}/meista/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+
+  xml += `  <url>
+    <loc>${BASE_URL}/yhteystiedot/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 `;
 
@@ -3005,6 +3452,26 @@ function main() {
   const indexPage = generateArticleIndex(translations);
   fs.writeFileSync(path.join(artikkelitDir, 'index.html'), indexPage, 'utf-8');
   console.log('  Generated artikkelit/index.html');
+
+  // Generate about page
+  console.log('\nBuilding about page...');
+  const aboutDir = path.join(ROOT, 'meista');
+  if (!fs.existsSync(aboutDir)) {
+    fs.mkdirSync(aboutDir, { recursive: true });
+  }
+  const aboutPage = generateAboutPage();
+  fs.writeFileSync(path.join(aboutDir, 'index.html'), aboutPage, 'utf-8');
+  console.log('  Generated meista/index.html');
+
+  // Generate contact page
+  console.log('Building contact page...');
+  const contactDir = path.join(ROOT, 'yhteystiedot');
+  if (!fs.existsSync(contactDir)) {
+    fs.mkdirSync(contactDir, { recursive: true });
+  }
+  const contactPage = generateContactPage();
+  fs.writeFileSync(path.join(contactDir, 'index.html'), contactPage, 'utf-8');
+  console.log('  Generated yhteystiedot/index.html');
 
   // Generate privacy policy page
   console.log('\nBuilding privacy policy page...');
