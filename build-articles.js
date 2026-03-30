@@ -1057,6 +1057,8 @@ ${cardsHtml}
 const servicePages = [
   {
     slug: 'hammashoito',
+    slugSv: 'tandvard',
+    slugEn: 'dental-care',
     title: 'Hammashoito — Eläinklinikka Saari, Vaasa',
     h1: 'Hammashoito',
     metaDesc: 'Koiran ja kissan hammashoito Vaasassa. Hammaskiven poisto, hammasröntgen, hampaiden poistot. Kaikki toimenpiteet yleisanestesiassa. Eläinklinikka Saari.',
@@ -1067,11 +1069,47 @@ const servicePages = [
       { heading: 'Hammasröntgen — piilossa olevan näkeminen', text: 'Hammasröntgen on hammashoidon tärkein diagnostinen työkalu. Yli puolet hammassairauksista on näkymättömiä silmämääräisessä tutkimuksessa — juuritulehdukset, hammasresorptio, kystat ja luukato paljastuvat vasta röntgenkuvissa. Klinikallamme kuvataan kaikki hampaat osana jokaista hammastoimenpidettä.' },
       { heading: 'Miten toimenpide etenee?', text: 'Ennen toimenpidettä potilaalle tehdään terveystarkastus ja tarvittaessa verikokeet. Toimenpide tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Anestesian aikana valvomme jatkuvasti sydämen sykettä, happisaturaatiota, verenpainetta ja lämpötilaa. Toimenpiteessä poistetaan hammaskivi, kuvataan hammasröntgenkuvat, hoidetaan sairaat hampaat ja tarvittaessa poistetaan vaurioituneet hampaat. Kotiutus tapahtuu yleensä samana päivänä.' },
     ],
+    sv: {
+      title: 'Tandvård — Djurklinik Saari, Vasa',
+      h1: 'Tandvård',
+      metaDesc: 'Tandvård för hund och katt i Vasa. Tandstensborttagning, dentalröntgen, tandextraktioner. Alla ingrepp under generell anestesi. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Varför är tandvård viktigt?', text: 'Tandsjukdomar är bland de vanligaste hälsoproblemen hos djur. Redan vid tre års ålder har majoriteten av hundar och katter tandsten och tandköttsinflammation. Obehandlade tandskador fortskrider tyst — djur döljer smärta instinktivt, så ägaren märker ofta problemet först när det har gått långt. Regelbunden professionell tandvård förlänger husdjurets livslängd och förbättrar livskvaliteten avsevärt.' },
+        { heading: 'Våra tjänster', text: 'På vår klinik utförs omfattande tandvård under generell anestesi: tandstensborttagning med ultraljudsapparat, dentalröntgenundersökningar (alla tänder röntgas digitalt), tandextraktioner, borttagning av mjölktänder, parodontitbehandling och PerioVive-hyaluronsyrageelbehandling. Varje tandingrepp inkluderar en fullständig munundersökning och tandkarta.' },
+        { heading: 'Dentalröntgen — att se det dolda', text: 'Dentalröntgen är tandvårdens viktigaste diagnostiska verktyg. Över hälften av tandsjukdomarna är osynliga vid visuell undersökning — rotinfektioner, tandresorption, cystor och benförlust avslöjas först på röntgenbilder. På vår klinik röntgas alla tänder som en del av varje tandingrepp.' },
+        { heading: 'Hur går ingreppet till?', text: 'Före ingreppet görs en hälsokontroll och vid behov blodprov. Ingreppet utförs under inhalationsanestesi med omfattande smärtlindring. Under anestesin övervakar vi kontinuerligt hjärtfrekvens, syremättnad, blodtryck och temperatur. Under ingreppet avlägsnas tandsten, dentalröntgenbilder tas, sjuka tänder behandlas och vid behov extraheras skadade tänder. Hemgång sker vanligen samma dag.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Dental Care — Eläinklinikka Saari, Vaasa',
+      h1: 'Dental Care',
+      metaDesc: 'Dog and cat dental care in Vaasa. Scaling, dental X-rays, extractions. All procedures under general anaesthesia. Book an appointment at Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Why is dental care important?', text: 'Dental disease is among the most common health problems in pets. By the age of three, the majority of dogs and cats have tartar and gingivitis. Untreated dental damage progresses silently — animals instinctively hide pain, so owners often notice the problem only when it has advanced significantly. Regular professional dental care extends your pet\'s lifespan and significantly improves quality of life.' },
+        { heading: 'Our services', text: 'Our clinic provides comprehensive dental care under general anaesthesia: ultrasonic scaling, dental X-ray examinations (all teeth are digitally radiographed), extractions, deciduous tooth removal, periodontal treatment, and PerioVive hyaluronic acid gel therapy. Every dental procedure includes a complete oral examination and dental chart.' },
+        { heading: 'Dental X-rays — seeing what is hidden', text: 'Dental X-rays are the most important diagnostic tool in dentistry. Over half of dental diseases are invisible on visual examination — root infections, tooth resorption, cysts, and bone loss are only revealed on radiographs. At our clinic, all teeth are radiographed as part of every dental procedure.' },
+        { heading: 'How does the procedure work?', text: 'Before the procedure, a health check and blood tests are performed as needed. The procedure is carried out under inhalation anaesthesia with comprehensive pain relief. During anaesthesia, we continuously monitor heart rate, oxygen saturation, blood pressure, and temperature. Tartar is removed, dental X-rays are taken, diseased teeth are treated, and damaged teeth are extracted if necessary. Patients are typically discharged the same day.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
     schemaService: 'Veterinary Dental Care'
   },
   {
     slug: 'sydantutkimukset',
+    slugSv: 'hjartundersokningar',
+    slugEn: 'cardiac-examinations',
     title: 'Sydäntutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Sydäntutkimukset',
     metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Ajoissa aloitettu hoito pidentää elinikää. Eläinklinikka Saari.',
@@ -1082,11 +1120,47 @@ const servicePages = [
       { heading: 'Viralliset sydäntutkimukset', text: 'Klinikalla on Suomen Kennelliiton myöntämät viralliset sydämen auskultaatio-oikeudet. Teemme virallisia sydämen auskultaatio- ja ultraäänitutkimuksia jalostustarkastusten yhteydessä. Viralliset tulokset kirjataan Kennelliiton tietokantaan.' },
       { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Oireita voivat olla yskiminen (erityisesti levossa tai rasituksen jälkeen), rasituksen sietokyvyn heikkeneminen, tiheä hengitys, pyörtyily tai äkillinen väsähtäminen. Riskirotujen kohdalla suosittelemme säännöllisiä sydäntarkastuksia jo nuorella iällä, vaikka oireita ei olisi. Varaa aika sydäntutkimukseen — varhainen diagnoosi ja hoito tekevät merkittävän eron.' },
     ],
+    sv: {
+      title: 'Hjärtundersökningar — Djurklinik Saari, Vasa',
+      h1: 'Hjärtundersökningar',
+      metaDesc: 'Hjärtultraljud, EKG och Holter för hundar och katter i Vasa. Officiella hjärtundersökningar. Tidig behandling förlänger livslängden. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Hjärtsjukdomar hos husdjur', text: 'Hjärtsjukdomar är vanliga särskilt hos vissa hund- och kattraser. Cavalier king charles spaniel, dobermann och Maine Coon-katter har en ärftlig benägenhet för hjärtsjukdomar. Tidigt insatt medicinering kan förlänga husdjurets livslängd avsevärt — därför är regelbundna hjärtkontroller viktiga, särskilt för riskraser.' },
+        { heading: 'Undersökningsmetoder', text: 'Vår klinik har omfattande kardiologiska undersökningsmöjligheter. Hjärtultraljud (ekokardiografi) är den viktigaste diagnostiska metoden för hjärtsjukdomar — den visar hjärtats struktur, kammarstorlek, klaffarnas funktion och blodflöde i realtid. EKG-undersökning mäter hjärtats elektriska aktivitet och identifierar arytmier. Holter-undersökning övervakar hjärtrytmen under 24 timmar i hemmiljö.' },
+        { heading: 'Officiella hjärtundersökningar', text: 'Kliniken har officiella rättigheter för hjärtauskultation beviljade av Finska Kennelklubben. Vi utför officiella hjärtauskultations- och ultraljudsundersökningar i samband med avelskontroller. Officiella resultat registreras i Kennelklubbens databas.' },
+        { heading: 'När ska man söka undersökning?', text: 'Symtom kan vara hosta (särskilt i vila eller efter ansträngning), minskad tolerans för fysisk aktivitet, snabb andning, svimning eller plötslig trötthet. För riskraser rekommenderar vi regelbundna hjärtkontroller redan i ung ålder, även utan symtom. Boka tid för hjärtundersökning — tidig diagnos och behandling gör en betydande skillnad.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Cardiac Examinations — Eläinklinikka Saari, Vaasa',
+      h1: 'Cardiac Examinations',
+      metaDesc: 'Cardiac ultrasound, ECG and Holter monitoring for dogs and cats in Vaasa. Official heart screenings. Early treatment extends lifespan. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Heart disease in pets', text: 'Heart disease is common, particularly in certain dog and cat breeds. Cavalier King Charles Spaniels, Dobermanns, and Maine Coon cats have a hereditary predisposition to heart disease. Early medication can significantly extend your pet\'s lifespan — which is why regular cardiac check-ups are important, especially for at-risk breeds.' },
+        { heading: 'Examination methods', text: 'Our clinic offers comprehensive cardiological examination capabilities. Cardiac ultrasound (echocardiography) is the primary diagnostic method for heart disease — it shows heart structure, chamber size, valve function, and blood flow in real time. ECG examination measures the heart\'s electrical activity and identifies arrhythmias. Holter monitoring tracks heart rhythm over 24 hours in the home environment.' },
+        { heading: 'Official cardiac examinations', text: 'Our clinic holds official heart auscultation rights granted by the Finnish Kennel Club. We perform official cardiac auscultation and ultrasound examinations in connection with breeding evaluations. Official results are recorded in the Kennel Club database.' },
+        { heading: 'When to seek examination?', text: 'Symptoms may include coughing (especially at rest or after exertion), reduced exercise tolerance, rapid breathing, fainting, or sudden lethargy. For at-risk breeds, we recommend regular cardiac check-ups from a young age, even without symptoms. Book an appointment for a cardiac examination — early diagnosis and treatment make a significant difference.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Cardiology'
   },
   {
     slug: 'kirurgia',
+    slugSv: 'kirurgi',
+    slugEn: 'surgery',
     title: 'Kirurgia — Eläinklinikka Saari, Vaasa',
     h1: 'Kirurgia',
     metaDesc: 'Eläinkirurgia Vaasassa: pehmytkudoskirurgia, ortopedia, TTA, lateral suture, murtumaleikkaukset. Turvallinen anestesia ja kivunlievitys.',
@@ -1097,11 +1171,47 @@ const servicePages = [
       { heading: 'Turvallinen anestesia', text: 'Anestesiaturvallisuus on meille sydämen asia. Käytämme inhalaatioanestesiaa ja jatkuvaa monitorointia: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.' },
       { heading: 'Varaa aika konsultaatioon', text: 'Jos lemmikkisi tarvitsee kirurgista arviota, varaa aika konsultaatioon. Tutkimme potilaan, arvioimme toimenpiteiden tarpeen ja suunnittelemme parhaan hoitolinjan yhdessä omistajan kanssa. Hoidot annetaan samalla klinikalla tuttujen eläinlääkäreiden toimesta — lemmikin ei tarvitse matkustaa muualle.' },
     ],
+    sv: {
+      title: 'Kirurgi — Djurklinik Saari, Vasa',
+      h1: 'Kirurgi',
+      metaDesc: 'Veterinärkirurgi i Vasa: mjukdelskirurgi, ortopedi, TTA, lateral suture, frakturoperationer. Säker anestesi och smärtlindring. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Mjukdelskirurgi', text: 'På vår klinik utförs ett brett utbud av mjukdelskirurgiska ingrepp: steriliseringar och kastreringar, kejsarsnitt, tumörborttagning, främmandekroppsoperationer (från magsäck eller tarm), urinstensoperationer, mjältborttagning samt ögon- och öronoperationer. Varje ingrepp planeras individuellt utifrån patientens behov.' },
+        { heading: 'Ortopedisk kirurgi', text: 'Korsbandsskador är det vanligaste ortopediska ingreppet hos hundar. Vår klinik använder två metoder: lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och passar särskilt för små hundar och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent och är ett bra alternativ för aktiva och större hundar. Dessutom utför vi frakturoperationer, amputationer och femurhuvedresektioner.' },
+        { heading: 'Säker anestesi', text: 'Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi och kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.' },
+        { heading: 'Boka tid för konsultation', text: 'Om ditt husdjur behöver en kirurgisk bedömning, boka tid för konsultation. Vi undersöker patienten, bedömer behovet av ingrepp och planerar den bästa behandlingslinjen tillsammans med ägaren. Behandlingar ges på samma klinik av bekanta veterinärer — husdjuret behöver inte resa någon annanstans.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Surgery — Eläinklinikka Saari, Vaasa',
+      h1: 'Surgery',
+      metaDesc: 'Veterinary surgery in Vaasa: soft tissue surgery, orthopaedics, TTA, lateral suture, fracture repair. Safe anaesthesia and pain management. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Soft tissue surgery', text: 'Our clinic performs a wide range of soft tissue surgical procedures: spays and neutering, caesarean sections, tumour removals, foreign body surgery (from stomach or intestines), urinary stone surgery, splenectomies, and eye and ear operations. Each procedure is individually planned according to the patient\'s needs.' },
+        { heading: 'Orthopaedic surgery', text: 'Cruciate ligament repair is the most common orthopaedic procedure in dogs. Our clinic uses two methods: the lateral suture technique stabilises the joint with synthetic support material and is especially suited for small dogs and cats. TTA (tibial tuberosity advancement) permanently alters the knee\'s biomechanics and is a good option for active and larger dogs. We also perform fracture repairs, amputations, and femoral head resections.' },
+        { heading: 'Safe anaesthesia', text: 'Anaesthesia safety is close to our hearts. We use inhalation anaesthesia and continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG, and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. Continuous rate infusion (CRI) pain management ensures steady pain relief during and after surgery.' },
+        { heading: 'Book a consultation', text: 'If your pet needs a surgical evaluation, book a consultation appointment. We examine the patient, assess the need for procedures, and plan the best treatment approach together with the owner. Treatments are given at the same clinic by familiar veterinarians — your pet does not need to travel elsewhere.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
     schemaService: 'Veterinary Surgery'
   },
   {
     slug: 'tahystykset',
+    slugSv: 'endoskopi',
+    slugEn: 'endoscopy',
     title: 'Tähystystutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Tähystystutkimukset',
     metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Vähemmän invasiivinen diagnostiikka. Eläinklinikka Saari.',
@@ -1112,11 +1222,47 @@ const servicePages = [
       { heading: 'Video-otoskopia', text: 'Korvien tähystystutkimus suurennetulla videokuvalla. Näkyvyys korvakäytävään on moninkertainen perinteiseen otoskooppiin verrattuna. Mahdollistaa korvakäytävän perusteellisen puhdistuksen ja huuhtelun näkökontrollissa. Erityisen arvokas kroonisten ja toistuvien korvatulehdusten tutkimuksessa ja hoidossa.' },
       { heading: 'Muut tähystykset', text: 'Rhinoskopia (nenäontelon tähystys) vierasesineille, kasvaimille ja krooniselle nuhalle. Kystoskopia (virtsateiden tähystys) virtsarakon ongelmien tutkimiseen. Bronkoskopia (hengitysteiden tähystys) kroonisen yskän ja hengitystieoireiden diagnostiikkaan.' },
     ],
+    sv: {
+      title: 'Endoskopi — Djurklinik Saari, Vasa',
+      h1: 'Endoskopi',
+      metaDesc: 'Endoskopi i Vasa: gastroskopi, video-otoskopi, rinoskopi, cystoskopi, bronkoskopi. Minimalt invasiv diagnostik för husdjur. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Vad är endoskopi?', text: 'Endoskopi är minimalt invasiva undersökningsmetoder där ett tunt kameraskop förs in genom kroppens naturliga öppningar för att undersöka inre organ. Metoden möjliggör exakt diagnostik utan öppen kirurgi, och ofta även behandling samtidigt — till exempel borttagning av främmande föremål från magsäcken.' },
+        { heading: 'Gastroskopi', text: 'Med gastroskopi undersöks och behandlas problem i matsmältningskanalen. Den vanligaste indikationen är borttagning av främmande föremål — med endoskopi kan till exempel strumpor, leksaker och benbitar ofta avlägsnas utan bukoperation. Dessutom tas biopsier för diagnostik av kroniska tarmsjukdomar (IBD, lymfom).' },
+        { heading: 'Video-otoskopi', text: 'Öronundersökning med förstorad videobild. Sikten in i hörselgången är mångdubbelt bättre jämfört med ett traditionellt otoskop. Möjliggör grundlig rengöring och sköljning av hörselgången under visuell kontroll. Särskilt värdefullt vid undersökning och behandling av kroniska och återkommande öroninflammationer.' },
+        { heading: 'Övriga endoskopier', text: 'Rinoskopi (näshåleendoskopi) för främmande föremål, tumörer och kronisk snuva. Cystoskopi (urinvägsendoskopi) för undersökning av urinblåseproblem. Bronkoskopi (luftvägsendoskopi) för diagnostik av kronisk hosta och luftvägssymtom.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Endoscopy — Eläinklinikka Saari, Vaasa',
+      h1: 'Endoscopy',
+      metaDesc: 'Endoscopy in Vaasa: gastroscopy, video otoscopy, rhinoscopy, cystoscopy, bronchoscopy. Minimally invasive diagnostics for pets. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'What is endoscopy?', text: 'Endoscopy involves minimally invasive examination methods where a thin camera scope is inserted through the body\'s natural openings to examine internal organs. The method enables precise diagnostics without open surgery, and often treatment at the same time — for example, removal of foreign bodies from the stomach.' },
+        { heading: 'Gastroscopy', text: 'Gastroscopy examines and treats digestive tract problems. The most common indication is foreign body removal — endoscopy can often remove socks, toys, and bone fragments without abdominal surgery. Biopsies are also taken for the diagnosis of chronic intestinal diseases (IBD, lymphoma).' },
+        { heading: 'Video otoscopy', text: 'Ear examination with magnified video imaging. Visibility into the ear canal is many times greater compared to a traditional otoscope. It enables thorough cleaning and flushing of the ear canal under visual control. Particularly valuable in the investigation and treatment of chronic and recurrent ear infections.' },
+        { heading: 'Other endoscopies', text: 'Rhinoscopy (nasal cavity endoscopy) for foreign bodies, tumours, and chronic nasal discharge. Cystoscopy (urinary tract endoscopy) for investigating bladder problems. Bronchoscopy (airway endoscopy) for diagnosing chronic cough and respiratory symptoms.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['gastroskopia', 'video-otoskopia', 'ibd-lymfooma', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Endoscopy'
   },
   {
     slug: 'rokotukset',
+    slugSv: 'vaccinationer',
+    slugEn: 'vaccinations',
     title: 'Rokotukset — Eläinklinikka Saari, Vaasa',
     h1: 'Rokotukset',
     metaDesc: 'Koiran ja kissan rokotukset Vaasassa. Pentujen rokotusohjelma, aikuisten tehosterokotukset, rabies ja matkustusasiakirjat. Eläinklinikka Saari.',
@@ -1127,11 +1273,47 @@ const servicePages = [
       { heading: 'Kissojen rokotukset', text: 'Kissanpennut rokotetaan 12 ja 16 viikon iässä. Perusrokotus sisältää suojan kissaruttoa, herpesvirusta ja calicivirusta vastaan. Rabiesrokotus on pakollinen ulkokissoille ja kaikille ulkomaille matkustaville kissoille. Aikuisille kissoille tehosterokotus annetaan 1–3 vuoden välein riippuen rokotteesta ja kissan elintavoista.' },
       { heading: 'Drop-in rokotukset ja matkustusasiakirjat', text: 'Klinikallamme on drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00. Laadimme myös EU-lemmikkieläinpassit ja matkustusasiakirjat ulkomaille matkustaville lemmikeille. Matkustusasiakirjojen vaatimukset vaihtelevat kohdemaan mukaan — ota yhteyttä hyvissä ajoin ennen matkaa.' },
     ],
+    sv: {
+      title: 'Vaccinationer — Djurklinik Saari, Vasa',
+      h1: 'Vaccinationer',
+      metaDesc: 'Vaccinationer för hund och katt i Vasa. Valpvaccinationsprogram, boostervaccinationer, rabies och resehandlingar. Boka tid hos Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Varför är vaccination viktigt?', text: 'Vaccination är den viktigaste formen av förebyggande hälsovård för husdjur. Vaccinationer skyddar mot allvarliga sjukdomar som kan vara livshotande eller till och med dödliga. I Finland baseras vaccinationsprogrammet för hundar och katter på rekommendationer från Finlands Veterinärförbund.' },
+        { heading: 'Hundvaccinationer', text: 'Hundvalpar vaccineras första gången vid 12 veckors ålder och en boostervaccination ges vid 16 veckors ålder. Grundvaccinationen inkluderar skydd mot valpsjuka, parvovirus och hepatit. Rabiesvaccination ges från 12 veckors ålder. Kennelhosta-vaccination rekommenderas för hundar som har mycket kontakt med andra hundar. Vuxna hundar får boostervaccination vart 1–3 år.' },
+        { heading: 'Kattvaccinationer', text: 'Kattungar vaccineras vid 12 och 16 veckors ålder. Grundvaccinationen inkluderar skydd mot kattpest, herpesvirus och calicivirus. Rabiesvaccination är obligatorisk för utekatter och alla katter som reser utomlands. Vuxna katter får boostervaccination vart 1–3 år beroende på vaccin och kattens levnadsvanor.' },
+        { heading: 'Drop-in-vaccinationer och resehandlingar', text: 'Vår klinik erbjuder drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00. Vi utfärdar även EU-pass för sällskapsdjur och resehandlingar för husdjur som reser utomlands. Kraven för resehandlingar varierar beroende på destinationsland — kontakta oss i god tid före resan.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Vaccinations — Eläinklinikka Saari, Vaasa',
+      h1: 'Vaccinations',
+      metaDesc: 'Dog and cat vaccinations in Vaasa. Puppy vaccination programme, booster vaccinations, rabies and travel documents. Book at Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Why is vaccination important?', text: 'Vaccination is the most important form of preventive healthcare for pets. Vaccinations protect against serious diseases that can be life-threatening or even fatal. In Finland, the vaccination programme for dogs and cats is based on recommendations from the Finnish Veterinary Association.' },
+        { heading: 'Dog vaccinations', text: 'Puppies receive their first vaccination at 12 weeks of age, with a booster at 16 weeks. The core vaccination includes protection against distemper, parvovirus, and hepatitis. Rabies vaccination is given from 12 weeks of age. Kennel cough vaccination is recommended for dogs that have frequent contact with other dogs. Adult dogs receive booster vaccinations every 1–3 years.' },
+        { heading: 'Cat vaccinations', text: 'Kittens are vaccinated at 12 and 16 weeks of age. The core vaccination includes protection against feline panleukopenia, herpesvirus, and calicivirus. Rabies vaccination is mandatory for outdoor cats and all cats travelling abroad. Adult cats receive booster vaccinations every 1–3 years depending on the vaccine and the cat\'s lifestyle.' },
+        { heading: 'Drop-in vaccinations and travel documents', text: 'Our clinic offers drop-in vaccinations without appointment on Tuesdays from 15:30 to 16:00. We also issue EU pet passports and travel documents for pets travelling abroad. Travel document requirements vary by destination country — please contact us well in advance of your trip.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
     schemaService: 'Veterinary Vaccination'
   },
   {
     slug: 'ultraaani',
+    slugSv: 'ultraljud',
+    slugEn: 'ultrasound',
     title: 'Ultraäänitutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Ultraäänitutkimukset',
     metaDesc: 'Ultraäänitutkimukset Vaasassa: vatsan ultraääni, sydämen ultraääni, tiineystutkimus. Laadukas diagnostiikka lemmikeille. Eläinklinikka Saari.',
@@ -1142,11 +1324,47 @@ const servicePages = [
       { heading: 'Sydämen ultraääni', text: 'Sydämen ultraääni (ekokardiografia) on sydänsairauksien tärkein tutkimusmenetelmä. Tutkimuksessa arvioidaan sydämen kammioiden koko, seinämien paksuus, läppien toiminta ja verenvirtaus. Tutkimus on välttämätön sydänlääkityksen aloittamiselle ja seurannalle. Klinikallamme on viralliset oikeudet jalostukseen liittyviin sydämen ultraäänitutkimuksiin.' },
       { heading: 'Tiineystutkimus', text: 'Ultraäänellä voidaan todeta tiineys noin raskauspäivästä 24 alkaen. Tutkimuksella arvioidaan sikiöiden elinvoimaisuus ja kehitys. Röntgentutkimuksella voidaan arvioida pentujen lukumäärä tarkemmin raskauspäivästä 50 lähtien.' },
     ],
+    sv: {
+      title: 'Ultraljud — Djurklinik Saari, Vasa',
+      h1: 'Ultraljudsundersökningar',
+      metaDesc: 'Ultraljudsundersökningar i Vasa: bukens ultraljud, hjärtultraljud, dräktighetsundersökning. Högkvalitativ diagnostik för husdjur. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Ultraljud som diagnostisk hörnsten', text: 'Ultraljudsundersökning är en av veterinärmedicinens viktigaste bilddiagnostiska metoder. Den är smärtfri, icke-invasiv och utsätter inte patienten för strålning. Undersökningen görs vanligen på en vaken patient — bara ett fåtal behöver lätt sedering.' },
+        { heading: 'Bukens ultraljud', text: 'Med bukens ultraljud undersöks inre organs struktur och eventuella förändringar: lever, mjälte, njurar, binjurar, urinblåsa, magsäck, tarmar, bukspottkörtel och lymfknutor. Vanliga indikationer är kräkningar, diarré, viktnedgång, urineringsproblem, tumörmisstanke och nedsatt allmäntillstånd. Med ultraljudsledd provtagning kan biopsier tas direkt från förändrad vävnad.' },
+        { heading: 'Hjärtultraljud', text: 'Hjärtultraljud (ekokardiografi) är den viktigaste undersökningsmetoden för hjärtsjukdomar. Undersökningen bedömer hjärtats kammarstorlek, väggars tjocklek, klaffarnas funktion och blodflöde. Undersökningen är nödvändig för att inleda och följa upp hjärtmedicinering. Vår klinik har officiella rättigheter för avelrelaterade hjärtultraljudsundersökningar.' },
+        { heading: 'Dräktighetsundersökning', text: 'Med ultraljud kan dräktighet konstateras från ungefär dräktighetsdag 24. Undersökningen bedömer fosternas livskraft och utveckling. Med röntgenundersökning kan antalet valpar bedömas mer exakt från dräktighetsdag 50.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Ultrasound — Eläinklinikka Saari, Vaasa',
+      h1: 'Ultrasound Examinations',
+      metaDesc: 'Ultrasound examinations in Vaasa: abdominal ultrasound, cardiac ultrasound, pregnancy scanning. Quality diagnostics for pets. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Ultrasound as a diagnostic cornerstone', text: 'Ultrasound is one of veterinary medicine\'s most important imaging methods. It is painless, non-invasive, and does not expose the patient to radiation. The examination is usually performed on an awake patient — only a few require light sedation.' },
+        { heading: 'Abdominal ultrasound', text: 'Abdominal ultrasound examines the structure of internal organs and any changes: liver, spleen, kidneys, adrenal glands, bladder, stomach, intestines, pancreas, and lymph nodes. Common indications include vomiting, diarrhoea, weight loss, urination problems, suspected tumours, and general decline. Ultrasound-guided sampling allows biopsies to be taken directly from abnormal tissue.' },
+        { heading: 'Cardiac ultrasound', text: 'Cardiac ultrasound (echocardiography) is the primary examination method for heart disease. The examination assesses chamber size, wall thickness, valve function, and blood flow. It is essential for initiating and monitoring cardiac medication. Our clinic has official rights for breeding-related cardiac ultrasound examinations.' },
+        { heading: 'Pregnancy scanning', text: 'Ultrasound can confirm pregnancy from approximately day 24 of gestation. The examination assesses fetal viability and development. Radiography can more accurately estimate the number of puppies from day 50 of gestation.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'ibd-lymfooma', 'munuaisten-vajaatoiminta'],
     schemaService: 'Veterinary Ultrasound'
   },
   {
     slug: 'ihotaudit',
+    slugSv: 'hudsjukdomar',
+    slugEn: 'dermatology',
     title: 'Ihotaudit ja allergiat — Eläinklinikka Saari, Vaasa',
     h1: 'Ihotaudit ja allergiat',
     metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
@@ -1157,11 +1375,47 @@ const servicePages = [
       { heading: 'Korvatulehdukset', text: 'Toistuvat korvatulehdukset liittyvät usein taustalla olevaan allergiaan. Klinikallamme on käytössä video-otoskopia, jolla korvaonteloa voidaan tutkia ja puhdistaa suurennetulla videokuvalla. Näkyvyys on moninkertainen perinteiseen tutkimukseen verrattuna, mikä mahdollistaa tehokkaamman hoidon.' },
       { heading: 'Hoitovaihtoehdot', text: 'Ihotautien hoito räätälöidään yksilöllisesti. Hoitoon voi kuulua eliminaatiodieetit, allergiaspesifinen immunoterapia (siedätyshoito), paikallishoidot, lääkitys ja ruokavaliomuutokset. Tavoitteena on löytää syy, ei vain lievittää oireita.' },
     ],
+    sv: {
+      title: 'Hudsjukdomar och allergier — Djurklinik Saari, Vasa',
+      h1: 'Hudsjukdomar och allergier',
+      metaDesc: 'Hudsjukdomar och allergier hos hund och katt i Vasa. Allergitester, öroninflammationer, klåda, hudinfektioner. Diagnos och behandling. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'De vanligaste hudproblemen', text: 'Hudsjukdomar är en av de vanligaste orsakerna till veterinärbesök. Var tionde finsk hund har allergier som ofta yttrar sig som hudinfektioner och öroninflammationer. Typiska symtom är slickande av tassar, klösande av öron, gnuggande av ansiktet, rodnad på buken och återkommande öroninflammation.' },
+        { heading: 'Allergiutredning', text: 'Vid misstanke om allergi försöker man först utesluta livsmedel med eliminationsdiet. Om födoämnesallergi utesluts kan det vara atopisk dermatit (miljöallergi). Vid behov tas allergiblodprov för att identifiera allergiframkallande ämnen. Hud- och öronprov undersöks i klinikens eget laboratorium.' },
+        { heading: 'Öroninflammationer', text: 'Återkommande öroninflammationer hänger ofta samman med en underliggande allergi. Vår klinik använder video-otoskopi, som gör det möjligt att undersöka och rengöra hörselgången med förstorad videobild. Sikten är mångdubbelt bättre jämfört med traditionell undersökning, vilket möjliggör effektivare behandling.' },
+        { heading: 'Behandlingsalternativ', text: 'Behandlingen av hudsjukdomar skräddarsys individuellt. Behandlingen kan inkludera eliminationsdieter, allergenspecifik immunterapi (hyposensibilisering), lokalbehandlingar, medicinering och kostförändringar. Målet är att hitta orsaken, inte bara lindra symtomen.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Dermatology — Eläinklinikka Saari, Vaasa',
+      h1: 'Skin Diseases and Allergies',
+      metaDesc: 'Dog and cat dermatology and allergies in Vaasa. Allergy testing, ear infections, itching, skin infections. Diagnosis and treatment. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'The most common skin problems', text: 'Skin diseases are one of the most common reasons for veterinary visits. One in ten Finnish dogs has allergies, which often manifest as skin infections and ear infections. Typical symptoms include paw licking, ear scratching, face rubbing, redness on the belly, and recurrent ear infections.' },
+        { heading: 'Allergy investigation', text: 'When allergy is suspected, food allergens are first ruled out with an elimination diet. If food allergy is excluded, atopic dermatitis (environmental allergy) may be the cause. Allergy blood tests can be taken to identify allergens if needed. Skin and ear samples are examined in the clinic\'s own laboratory.' },
+        { heading: 'Ear infections', text: 'Recurrent ear infections are often linked to an underlying allergy. Our clinic uses video otoscopy, which enables examination and cleaning of the ear canal with magnified video imaging. Visibility is many times greater compared to traditional examination, enabling more effective treatment.' },
+        { heading: 'Treatment options', text: 'Treatment of skin diseases is individually tailored. Treatment may include elimination diets, allergen-specific immunotherapy (desensitisation), topical treatments, medication, and dietary changes. The goal is to find the cause, not just relieve symptoms.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['ruoka-allergiat', 'video-otoskopia', 'viljaton-ruoka'],
     schemaService: 'Veterinary Dermatology'
   },
   {
     slug: 'senioritarkastus',
+    slugSv: 'seniorundersokning',
+    slugEn: 'senior-check-up',
     title: 'Senioritarkastus — Eläinklinikka Saari, Vaasa',
     h1: 'Senioritarkastus',
     metaDesc: 'Ikääntyvän lemmikin terveystarkastus Vaasassa. Verikokeet, sydäntutkimus, ultraääni. Varhainen diagnoosi pidentää elinikää. Eläinklinikka Saari.',
@@ -1172,11 +1426,47 @@ const servicePages = [
       { heading: 'Miksi säännöllinen tarkastus on tärkeää?', text: 'Säännöllisellä senioritarkastuksella sairaudet havaitaan varhaisessa vaiheessa, jolloin hoito on tehokkaampaa ja lemmikin elämänlaatu säilyy pidempään. Esimerkiksi munuaisten vajaatoiminnan varhainen toteaminen mahdollistaa ruokavalion ja lääkityksen aloittamisen ajoissa, mikä voi pidentää elinikää vuosilla.' },
       { heading: 'Kuinka usein tarkastukseen?', text: 'Suosittelemme senioritarkastusta kerran vuodessa terveille ikääntyville lemmikeille. Jos lemmikillä on krooninen sairaus tai lääkitys, tarkempi seurantaväli sovitaan yksilöllisesti. Varaa aika senioritarkastukseen — se on parasta ennaltaehkäisevää hoitoa ikääntyvälle lemmikillesi.' },
     ],
+    sv: {
+      title: 'Seniorundersökning — Djurklinik Saari, Vasa',
+      h1: 'Seniorundersökning',
+      metaDesc: 'Hälsokontroll för äldre husdjur i Vasa. Blodprov, hjärtundersökning, ultraljud. Tidig diagnos förlänger livslängden. Boka tid hos Eläinklinikka Saari.',
+      sections: [
+        { heading: 'När är ett husdjur senior?', text: 'Hundar är seniorer vid cirka 7 års ålder (stora raser redan vid 5–6 år) och katter vid cirka 10 års ålder. Med åldern utvecklas många sjukdomar långsamt och obemärkt — njursvikt, sköldkörtelöverfunktion, hjärtsjukdomar och ledskador kan fortskrida långt innan ägaren märker symtom.' },
+        { heading: 'Vad ingår i seniorundersökningen?', text: 'Vid seniorundersökningen undersöker veterinären husdjuret kliniskt från huvud till tå, lyssnar på hjärta och lungor, palperar buken och lymfknutorna. Blodprov berättar om njurarnas, leverns och sköldkörtelns funktion. Urinprov kan avslöja tidiga njurförändringar. Vid behov görs blodtrycksmätning, hjärtultraljud eller bukultraljud.' },
+        { heading: 'Varför är regelbunden kontroll viktigt?', text: 'Med regelbundna seniorundersökningar upptäcks sjukdomar i ett tidigt skede, då behandlingen är effektivare och husdjurets livskvalitet bevaras längre. Till exempel möjliggör tidig upptäckt av njursvikt att kost och medicinering kan påbörjas i tid, vilket kan förlänga livslängden med år.' },
+        { heading: 'Hur ofta bör man undersökas?', text: 'Vi rekommenderar seniorundersökning en gång om året för friska äldre husdjur. Om husdjuret har en kronisk sjukdom eller medicinering, bestäms ett tätare uppföljningsintervall individuellt. Boka tid för seniorundersökning — det är den bästa förebyggande vården för ditt äldre husdjur.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Senior Pet Check-up — Eläinklinikka Saari, Vaasa',
+      h1: 'Senior Pet Check-up',
+      metaDesc: 'Health check-up for ageing pets in Vaasa. Blood tests, cardiac examination, ultrasound. Early diagnosis extends lifespan. Book at Eläinklinikka Saari.',
+      sections: [
+        { heading: 'When is a pet a senior?', text: 'Dogs are seniors at around 7 years of age (large breeds as early as 5–6 years) and cats at around 10 years. As pets age, many diseases develop slowly and unnoticed — kidney failure, hyperthyroidism, heart disease, and joint damage can progress significantly before the owner notices symptoms.' },
+        { heading: 'What does the senior check-up include?', text: 'During the senior check-up, the veterinarian examines the pet clinically from head to toe, listens to the heart and lungs, and palpates the abdomen and lymph nodes. Blood tests assess kidney, liver, and thyroid function. A urine sample can detect early kidney changes. Blood pressure measurement, cardiac ultrasound, or abdominal ultrasound are performed as needed.' },
+        { heading: 'Why are regular check-ups important?', text: 'With regular senior check-ups, diseases are detected at an early stage when treatment is more effective and quality of life is preserved longer. For example, early detection of kidney failure allows diet and medication to be started in time, which can extend lifespan by years.' },
+        { heading: 'How often should check-ups be done?', text: 'We recommend a senior check-up once a year for healthy ageing pets. If your pet has a chronic disease or medication, a more frequent follow-up interval is agreed individually. Book a senior check-up appointment — it is the best preventive care for your ageing pet.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
     schemaService: 'Senior Pet Health Screening'
   },
   {
     slug: 'pentutarkastus',
+    slugSv: 'valpundersokning',
+    slugEn: 'puppy-check-up',
     title: 'Pentutarkastus ja mikrosiru — Eläinklinikka Saari, Vaasa',
     h1: 'Pentutarkastus',
     metaDesc: 'Koiranpennun ja kissanpennun terveystarkastus Vaasassa. Pentutarkastus, mikrosiru, rokotusohjelma, madotus. Eläinklinikka Saari.',
@@ -1187,11 +1477,47 @@ const servicePages = [
       { heading: 'Pennun rokotusohjelma', text: 'Ensimmäinen rokotus annetaan yleensä 12 viikon iässä ja tehosterokotus 16 viikon iässä. Rokotukset suojaavat vakavien tautien kuten penikkataudin, parvoviruksen ja rabieksen varalta. Ennen rokotussuojan valmistumista pentu ei saisi olla kosketuksissa tuntemattomien koirien kanssa.' },
       { heading: 'Madotus ja loisten ehkäisy', text: 'Pennut madotetaan säännöllisesti sisäloisia vastaan. Eläinlääkäri laatii yksilöllisen madotus- ja loistorjuntaohjelman pennun iän, painon ja elinolosuhteiden mukaan. Varaa aika pentutarkastukseen — hyvä alku turvaa lemmikin terveyden pitkälle tulevaisuuteen.' },
     ],
+    sv: {
+      title: 'Valpundersökning och mikrochip — Djurklinik Saari, Vasa',
+      h1: 'Valpundersökning',
+      metaDesc: 'Hälsokontroll för hund- och kattungar i Vasa. Valpundersökning, mikrochip, vaccinationsprogram, avmaskning. Boka tid hos Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Första besöket hos veterinären', text: 'Valpundersökning är ett viktigt steg i den nya familjemedlemmens liv. Veterinären undersöker valpen noggrant från huvud till tå: hjärtauskultation, kontroll av ögon, öron och mun, palpation av lymfknutor, kontroll av naveln och bedömning av den allmänna utvecklingen. I samband med undersökningen utfärdas ett hälsointyg.' },
+        { heading: 'Mikrochip — permanent identifiering', text: 'Ett mikrochip är en identifikationsmarkör i storlek av ett riskorn som placeras under huden i nacken. Chipningen är en snabb och nästan smärtfri procedur. Mikrochip är det enda permanenta identifieringssättet — tatueringar bleknar och halsband kan försvinna. Chipet registreras med ägarens uppgifter, så att ett försvunnet husdjur lätt hittar hem.' },
+        { heading: 'Valpens vaccinationsprogram', text: 'Den första vaccinationen ges vanligen vid 12 veckors ålder och en boostervaccination vid 16 veckors ålder. Vaccinationerna skyddar mot allvarliga sjukdomar som valpsjuka, parvovirus och rabies. Innan vaccinationsskyddet är fullständigt bör valpen inte vara i kontakt med okända hundar.' },
+        { heading: 'Avmaskning och parasitförebyggande', text: 'Valpar avmaskas regelbundet mot inre parasiter. Veterinären utarbetar ett individuellt avmasknings- och parasitbekämpningsprogram baserat på valpens ålder, vikt och levnadsförhållanden. Boka tid för valpundersökning — en bra start tryggar husdjurets hälsa långt in i framtiden.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Puppy Check-up and Microchip — Eläinklinikka Saari, Vaasa',
+      h1: 'Puppy Check-up',
+      metaDesc: 'Puppy and kitten health check in Vaasa. Health examination, microchipping, vaccination programme, deworming. Book at Eläinklinikka Saari.',
+      sections: [
+        { heading: 'First visit to the vet', text: 'The puppy check-up is an important step in your new family member\'s life. The veterinarian examines the puppy carefully from head to toe: heart auscultation, examination of eyes, ears, and mouth, lymph node palpation, umbilical check, and assessment of overall development. A health certificate is issued during the examination.' },
+        { heading: 'Microchip — permanent identification', text: 'A microchip is a rice-grain-sized identifier placed under the skin at the back of the neck. Microchipping is a quick and virtually painless procedure. A microchip is the only permanent form of identification — tattoos fade and collars can be lost. The chip is registered with the owner\'s details, so a lost pet can easily find its way home.' },
+        { heading: 'Puppy vaccination programme', text: 'The first vaccination is usually given at 12 weeks of age, with a booster at 16 weeks. Vaccinations protect against serious diseases such as distemper, parvovirus, and rabies. Before vaccination protection is complete, the puppy should not be in contact with unknown dogs.' },
+        { heading: 'Deworming and parasite prevention', text: 'Puppies are dewormed regularly against internal parasites. The veterinarian creates an individual deworming and parasite control programme based on the puppy\'s age, weight, and living conditions. Book a puppy check-up — a good start ensures your pet\'s health far into the future.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'ripuli'],
     schemaService: 'Puppy Health Examination'
   },
   {
     slug: 'akupunktio',
+    slugSv: 'akupunktur',
+    slugEn: 'acupuncture',
     title: 'Akupunktio — Eläinklinikka Saari, Vaasa',
     h1: 'Akupunktio',
     metaDesc: 'Eläinakupunktio Vaasassa. Kivunlievitys, tuki- ja liikuntaelinvaivat, neurologiset oireet. Jatkokouluttautunut eläinlääkäri. Eläinklinikka Saari.',
@@ -1202,11 +1528,47 @@ const servicePages = [
       { heading: 'Miten hoito etenee?', text: 'Hoitokäynti kestää noin 30-45 minuuttia. Ohuet neulat asetetaan akupunktiopisteisiin ja ne jätetään paikoilleen 15-20 minuutiksi. Useimmat eläimet rentoutuvat hoidon aikana ja voivat jopa nukahtaa. Vaste nähdään tyypillisesti 3-4 hoitokerran jälkeen, ja hoidon tehoa ylläpidetään säännöllisin välein.' },
       { heading: 'Koulutus ja kokemus', text: 'Klinikallamme akupunktiota tekee Assaf Wydra, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa. Koulutus sisältää sekä perinteisen kiinalaisen lääketieteen periaatteet että modernin eläinlääketieteellisen akupunktion.' },
     ],
+    sv: {
+      title: 'Akupunktur — Djurklinik Saari, Vasa',
+      h1: 'Akupunktur',
+      metaDesc: 'Veterinärakupunktur i Vasa. Smärtlindring, muskuloskeletala besvär, neurologiska symtom. Vidareutbildad veterinär. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Vad är veterinärakupunktur?', text: 'Akupunktur är en tusenårig behandlingsform där tunna nålar placeras i specifika punkter på kroppen. Inom veterinärmedicin används akupunktur särskilt för smärtlindring, muskuloskeletala besvär och behandling av neurologiska symtom. Behandlingen bygger på nervstimulering som frigör kroppens egna smärtlindrande ämnen.' },
+        { heading: 'När är akupunktur till nytta?', text: 'Akupunktur lämpar sig särskilt för behandling av kronisk smärta, lindring av artrossymtom, ryggsmärtor, diskproblem, rehabilitering efter operation och neurologiska symtom. Den fungerar bra tillsammans med annan läkemedelsbehandling och kan minska behovet av smärtstillande medel.' },
+        { heading: 'Hur går behandlingen till?', text: 'Ett behandlingsbesök varar cirka 30–45 minuter. Tunna nålar placeras i akupunkturpunkterna och lämnas på plats i 15–20 minuter. De flesta djur slappnar av under behandlingen och kan till och med somna. Effekt ses typiskt efter 3–4 behandlingar, och behandlingseffekten upprätthålls med regelbundna intervall.' },
+        { heading: 'Utbildning och erfarenhet', text: 'På vår klinik utför Assaf Wydra akupunktur. Han har vidareutbildning i akupunktur för hundar och hästar. Utbildningen omfattar både traditionell kinesisk medicins principer och modern veterinärmedicinsk akupunktur.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Acupuncture — Eläinklinikka Saari, Vaasa',
+      h1: 'Acupuncture',
+      metaDesc: 'Veterinary acupuncture in Vaasa. Pain relief, musculoskeletal conditions, neurological symptoms. Specially trained veterinarian. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'What is veterinary acupuncture?', text: 'Acupuncture is a thousands-of-years-old treatment in which thin needles are placed at specific points on the body. In veterinary medicine, acupuncture is used especially for pain relief, musculoskeletal conditions, and treatment of neurological symptoms. The treatment is based on nerve stimulation that releases the body\'s own pain-relieving substances.' },
+        { heading: 'When is acupuncture beneficial?', text: 'Acupuncture is particularly suited for treating chronic pain, relieving osteoarthritis symptoms, back pain, disc problems, post-surgical rehabilitation, and neurological symptoms. It works well alongside other medication and can reduce the need for pain relief drugs.' },
+        { heading: 'How does treatment work?', text: 'A treatment session lasts approximately 30–45 minutes. Thin needles are placed at acupuncture points and left in place for 15–20 minutes. Most animals relax during treatment and may even fall asleep. A response is typically seen after 3–4 treatments, and the therapeutic effect is maintained at regular intervals.' },
+        { heading: 'Training and experience', text: 'At our clinic, acupuncture is performed by Assaf Wydra, who has advanced training in acupuncture for dogs and horses. The training covers both traditional Chinese medicine principles and modern veterinary acupuncture.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'yksityinen-klinikka'],
     schemaService: 'Veterinary Acupuncture'
   },
   {
     slug: 'viralliset-tutkimukset',
+    slugSv: 'officiella-undersokningar',
+    slugEn: 'official-examinations',
     title: 'Viralliset tutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Viralliset tutkimukset',
     metaDesc: 'Viralliset lonkka-, kyynär-, polvi- ja sydäntutkimukset Vaasassa. Kennelliiton hyväksymä tutkija. Jalostustarkastukset. Eläinklinikka Saari.',
@@ -1217,11 +1579,47 @@ const servicePages = [
       { heading: 'Kenelle viralliset tutkimukset?', text: 'Viralliset tutkimukset ovat pakollisia tai suositeltuja jalostuskoirille rodusta riippuen. Tutkimusten tavoitteena on vähentää perinnöllisten sairauksien esiintyvyyttä roduissa. Tutkimukset voidaan tehdä aikaisintaan 12 kuukauden iässä (lonkat 18 kk iässä) ja ne ovat voimassa koko koiran eliniän.' },
       { heading: 'Varaa aika', text: 'Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan — kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan.' },
     ],
+    sv: {
+      title: 'Officiella undersökningar — Djurklinik Saari, Vasa',
+      h1: 'Officiella undersökningar',
+      metaDesc: 'Officiella höft-, armbågs-, knä- och hjärtundersökningar i Vasa. Godkänd av Finska Kennelklubben. Avelskontroller. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Officiella röntgenundersökningar', text: 'På vår klinik utförs officiella röntgenundersökningar godkända av Finska Kennelklubben: höft-, armbågs- och ryggröntgen. Officiella röntgenbilder skickas till Kennelklubbens granskare och resultaten registreras i Avelsdatasystemet. Undersökningarna görs under lätt sedering för att säkerställa korrekt position.' },
+        { heading: 'Knä- och hjärtundersökningar', text: 'Officiella knäundersökningar görs kliniskt utan sedering. Kliniken har även officiella rättigheter för hjärtauskultation — med auskultationsundersökning bedöms om hunden har hjärtblåsljud. Dessa undersökningar är en del av avelskontrollerna för många raser.' },
+        { heading: 'Vem behöver officiella undersökningar?', text: 'Officiella undersökningar är obligatoriska eller rekommenderade för avelsdjur beroende på ras. Syftet med undersökningarna är att minska förekomsten av ärftliga sjukdomar inom raserna. Undersökningarna kan göras tidigast vid 12 månaders ålder (höfter vid 18 månaders ålder) och gäller hela hundens livstid.' },
+        { heading: 'Boka tid', text: 'Officiella undersökningar kräver förbokning, eftersom de kräver sedering och tillräckligt med tid för att ta bilder av hög kvalitet. Kontakta kliniken för att boka undersökningstid — vi berättar gärna mer om vilka undersökningar som rekommenderas för din hunds ras.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Official Examinations — Eläinklinikka Saari, Vaasa',
+      h1: 'Official Examinations',
+      metaDesc: 'Official hip, elbow, patella and cardiac examinations in Vaasa. Finnish Kennel Club approved examiner. Breeding evaluations. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Official radiographic examinations', text: 'Our clinic performs official radiographic examinations approved by the Finnish Kennel Club: hip, elbow, and spinal imaging. Official radiographs are sent to the Kennel Club evaluator and results are recorded in the Breeding Information System. Examinations are performed under light sedation to ensure correct positioning.' },
+        { heading: 'Patella and cardiac examinations', text: 'Official patella examinations are performed clinically without sedation. The clinic also holds official cardiac auscultation rights — the auscultation examination assesses whether the dog has a heart murmur. These examinations are part of the breeding evaluations for many breeds.' },
+        { heading: 'Who needs official examinations?', text: 'Official examinations are mandatory or recommended for breeding dogs depending on the breed. The aim of the examinations is to reduce the incidence of hereditary diseases within breeds. Examinations can be performed from 12 months of age (hips from 18 months) and are valid for the dog\'s entire lifetime.' },
+        { heading: 'Book an appointment', text: 'Official examinations require advance booking as they require sedation and sufficient time to take high-quality images. Contact the clinic to arrange an examination appointment — we are happy to advise on which examinations are recommended for your dog\'s breed.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['anestesiaturvallisuus', 'tta-leikkaus', 'lateral-suture'],
     schemaService: 'Official Veterinary Examinations'
   },
   {
     slug: 'sterilisaatio',
+    slugSv: 'sterilisering',
+    slugEn: 'spay-and-neuter',
     title: 'Sterilisaatio ja kastraatio — Eläinklinikka Saari, Vaasa',
     h1: 'Sterilisaatio ja kastraatio',
     metaDesc: 'Koiran, kissan ja kanin sterilisaatio ja kastraatio Vaasassa. Inhalaatioanestesia, kattava kivunlievitys. Myös kemiallinen kastraatio. Eläinklinikka Saari.',
@@ -1232,25 +1630,119 @@ const servicePages = [
       { heading: 'Kemiallinen kastraatio', text: 'Koirille on tarjolla myös kemiallinen kastraatio hormoni-implantilla (Suprelorin). Implantti asetetaan ihon alle ja sen vaikutus kestää 6 tai 12 kuukautta. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta ennen pysyvää päätöstä, tai kun kirurginen toimenpide ei ole toivottu.' },
       { heading: 'Oikea ajoitus', text: 'Optimaalinen sterilisaatio- tai kastraatioikä riippuu rodusta, koosta ja yksilöllisestä tilanteesta. Keskustellaan yhdessä, mikä on paras ajoitus juuri sinun lemmikillesi. Varaa aika konsultaatioon tai toimenpiteeseen.' },
     ],
+    sv: {
+      title: 'Sterilisering och kastrering — Djurklinik Saari, Vasa',
+      h1: 'Sterilisering och kastrering',
+      metaDesc: 'Sterilisering och kastrering av hund, katt och kanin i Vasa. Inhalationsanestesi, omfattande smärtlindring. Även kemisk kastrering. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Varför sterilisering eller kastrering?', text: 'Med sterilisering och kastrering kan man förebygga många sjukdomar: bröstcancer, livmoderinflammation, prostataproblem och testikelcancer. Sterilisering avlägsnar livmodern och äggstockarna, vilket eliminerar hormonella sjukdomar helt. Kastrering kan också minska oönskad markering och aggressivitet.' },
+        { heading: 'Ingreppet på vår klinik', text: 'Alla steriliseringar och kastreringar utförs under inhalationsanestesi med omfattande smärtlindring. Vi övervakar patienten kontinuerligt under hela ingreppet: hjärtfrekvens, blodtryck, syremättnad och temperatur. Patienten skrivs vanligen ut samma dag och får smärtstillande medicin med sig hem.' },
+        { heading: 'Kemisk kastrering', text: 'För hundar finns även kemisk kastrering med hormonimplantat (Suprelorin). Implantatet placeras under huden och dess effekt varar 6 eller 12 månader. Kemisk kastrering är ett bra alternativ när man vill testa effekten av kastrering innan ett permanent beslut fattas, eller när ett kirurgiskt ingrepp inte är önskat.' },
+        { heading: 'Rätt tidpunkt', text: 'Optimal ålder för sterilisering eller kastrering beror på ras, storlek och individuell situation. Vi diskuterar gärna tillsammans vad som är den bästa tidpunkten just för ditt husdjur. Boka tid för konsultation eller ingrepp.' },
+      ],
+      ctaTitle: 'Boka tid',
+      ctaText: 'Ring oss eller boka tid online.',
+      ctaCall: 'Ring (06) 321 7300',
+      ctaBook: 'Boka online',
+      back: '\u2190 Tillbaka till startsidan',
+      relatedTitle: 'Relaterade artiklar',
+    },
+    en: {
+      title: 'Spay and Neuter — Eläinklinikka Saari, Vaasa',
+      h1: 'Spay and Neuter',
+      metaDesc: 'Spaying and neutering for dogs, cats and rabbits in Vaasa. Inhalation anaesthesia, comprehensive pain management. Also chemical castration. Eläinklinikka Saari.',
+      sections: [
+        { heading: 'Why spay or neuter?', text: 'Spaying and neutering can prevent many diseases: mammary tumours, pyometra, prostate problems, and testicular cancer. Spaying removes the uterus and ovaries, completely eliminating hormonal diseases. Neutering can also reduce unwanted marking behaviour and aggression.' },
+        { heading: 'The procedure at our clinic', text: 'All spays and neuters are performed under inhalation anaesthesia with comprehensive pain management. We monitor the patient continuously throughout the procedure: heart rate, blood pressure, oxygen saturation, and temperature. Patients are typically discharged the same day with pain medication to take home.' },
+        { heading: 'Chemical castration', text: 'For dogs, chemical castration with a hormone implant (Suprelorin) is also available. The implant is placed under the skin and its effect lasts 6 or 12 months. Chemical castration is a good option when you want to trial the effects of castration before making a permanent decision, or when surgical procedure is not desired.' },
+        { heading: 'The right timing', text: 'The optimal age for spaying or neutering depends on breed, size, and individual circumstances. Let us discuss together what is the best timing for your pet. Book an appointment for a consultation or procedure.' },
+      ],
+      ctaTitle: 'Book an appointment',
+      ctaText: 'Call us or book online.',
+      ctaCall: 'Call (06) 321 7300',
+      ctaBook: 'Book online',
+      back: '\u2190 Back to homepage',
+      relatedTitle: 'Related articles',
+    },
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
     schemaService: 'Veterinary Spay and Neuter'
   },
 ];
 
-function generateServicePage(service, translations) {
+function generateServicePage(service, translations, lang) {
+  lang = lang || 'fi';
   const t = (key) => translations[key]?.fi || '';
   const today = new Date().toISOString().split('T')[0];
-  const canonicalUrl = `${BASE_URL}/palvelut/${service.slug}/`;
+
+  // Language-specific data
+  const langData = lang === 'fi' ? null : service[lang];
+  const pageTitle = lang === 'fi' ? service.title : (langData ? langData.title : service.title);
+  const pageH1 = lang === 'fi' ? service.h1 : (langData ? langData.h1 : service.h1);
+  const pageMetaDesc = lang === 'fi' ? service.metaDesc : (langData ? langData.metaDesc : service.metaDesc);
+  const pageSections = lang === 'fi' ? service.sections : (langData ? langData.sections : service.sections);
+
+  // CTA text
+  const ctaTexts = {
+    fi: { title: 'Varaa aika', text: 'Soita meille tai varaa aika verkosta.', call: 'Soita (06) 321 7300', book: 'Varaa verkossa' },
+    sv: langData ? { title: langData.ctaTitle, text: langData.ctaText, call: langData.ctaCall, book: langData.ctaBook } : { title: 'Boka tid', text: 'Ring oss eller boka tid online.', call: 'Ring (06) 321 7300', book: 'Boka online' },
+    en: langData ? { title: langData.ctaTitle, text: langData.ctaText, call: langData.ctaCall, book: langData.ctaBook } : { title: 'Book an appointment', text: 'Call us or book online.', call: 'Call (06) 321 7300', book: 'Book online' },
+  };
+  const cta = ctaTexts[lang] || ctaTexts.fi;
+
+  // Back button text
+  const backTexts = { fi: '\u2190 Takaisin etusivulle', sv: '\u2190 Tillbaka till startsidan', en: '\u2190 Back to homepage' };
+  const backText = (lang !== 'fi' && langData) ? langData.back : backTexts[lang] || backTexts.fi;
+
+  // Skip link text
+  const skipTexts = { fi: 'Siirry sisältöön', sv: 'Hoppa till innehållet', en: 'Skip to content' };
+  const skipText = skipTexts[lang] || skipTexts.fi;
+
+  // OG locale
+  const ogLocales = { fi: 'fi_FI', sv: 'sv_SE', en: 'en_US' };
+  const ogLocale = ogLocales[lang] || 'fi_FI';
+
+  // URLs for all language versions
+  const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
+  const svUrl = `${BASE_URL}/sv/tjanster/${service.slugSv}/`;
+  const enUrl = `${BASE_URL}/en/services/${service.slugEn}/`;
+  const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
+
+  // Asset path: FI pages are at /palvelut/slug/, SV/EN at /sv/tjanster/slug/ or /en/services/slug/
+  const assetPrefix = lang === 'fi' ? '../../' : '../../../';
+
+  // Breadcrumb labels
+  const breadcrumbHome = { fi: 'Etusivu', sv: 'Startsidan', en: 'Home' };
+  const breadcrumbServices = { fi: 'Palvelut', sv: 'Tjänster', en: 'Services' };
+
+  // Footer text
+  const footerDesc = {
+    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockis-kurvan.',
+    en: 'Finnish independent small animal clinic in Dragnäsbäck, Vaasa, at the Bockis curve.'
+  };
+  const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
+  const footerContact = { fi: 'Yhteystiedot', sv: 'Kontaktuppgifter', en: 'Contact' };
+  const footerFollow = { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow us' };
+  const footerRights = { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' };
+  const navLabels = {
+    fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', prices: 'Hinnasto', wildlife: 'Wildlife' },
+    sv: { about: 'Kliniken', services: 'Tjänster', team: 'Personal', prices: 'Prislista', wildlife: 'Wildlife' },
+    en: { about: 'Clinic', services: 'Services', team: 'Staff', prices: 'Prices', wildlife: 'Wildlife' }
+  };
+  const nav = navLabels[lang] || navLabels.fi;
+
+  // Related articles title
+  const relatedTitle = (lang !== 'fi' && langData) ? langData.relatedTitle : { fi: 'Aiheeseen liittyvät artikkelit', sv: 'Relaterade artiklar', en: 'Related articles' }[lang] || 'Aiheeseen liittyvät artikkelit';
 
   // Build body sections
   let sectionsHtml = '';
-  for (const section of service.sections) {
+  for (const section of pageSections) {
     sectionsHtml += `
           <h2>${escapeHtml(section.heading)}</h2>
           <p>${escapeHtml(section.text)}</p>`;
   }
 
-  // Build related articles
+  // Build related articles (always Finnish article links since articles are only in Finnish)
   let relatedHtml = '';
   if (service.relatedArticles && service.relatedArticles.length > 0) {
     let cards = '';
@@ -1262,7 +1754,7 @@ function generateServicePage(service, translations) {
       const intro = t(`${article.prefix}.intro`);
       const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
       cards += `
-          <a href="../../articles/${slug}.html" class="related-article-card">
+          <a href="${assetPrefix}articles/${slug}.html" class="related-article-card">
             <span class="article-tag">${escapeHtml(tag)}</span>
             <h3>${escapeHtml(title)}</h3>
             <p>${escapeHtml(shortIntro)}</p>
@@ -1270,18 +1762,26 @@ function generateServicePage(service, translations) {
     }
     relatedHtml = `
       <div class="related-articles">
-        <h2>Aiheeseen liittyvät artikkelit</h2>
+        <h2>${escapeHtml(relatedTitle)}</h2>
         <div class="related-articles-grid">${cards}
         </div>
       </div>`;
   }
 
+  // Language switcher
+  const langSwitcher = `
+          <div class="lang-toggle">
+            <a href="${lang === 'fi' ? '#' : ('/' + 'palvelut/' + service.slug + '/')}" class="${lang === 'fi' ? 'active' : ''}">FI</a>
+            <a href="${lang === 'sv' ? '#' : ('/sv/tjanster/' + service.slugSv + '/')}" class="${lang === 'sv' ? 'active' : ''}">SV</a>
+            <a href="${lang === 'en' ? '#' : ('/en/services/' + service.slugEn + '/')}" class="${lang === 'en' ? 'active' : ''}">EN</a>
+          </div>`;
+
   return `<!DOCTYPE html>
-<html lang="fi">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(service.title)}</title>
+  <title>${escapeHtml(pageTitle)}</title>
 
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -1307,29 +1807,32 @@ function generateServicePage(service, translations) {
   }
   </script>
 
-  <meta name="description" content="${escapeAttr(service.metaDesc)}">
+  <meta name="description" content="${escapeAttr(pageMetaDesc)}">
   <link rel="canonical" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${fiUrl}">
+  <link rel="alternate" hreflang="sv" href="${svUrl}">
+  <link rel="alternate" hreflang="en" href="${enUrl}">
+  <link rel="alternate" hreflang="x-default" href="${fiUrl}">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${canonicalUrl}">
-  <meta property="og:title" content="${escapeAttr(service.h1)} — Eläinklinikka Saari">
-  <meta property="og:description" content="${escapeAttr(service.metaDesc)}">
+  <meta property="og:title" content="${escapeAttr(pageH1)} — Eläinklinikka Saari">
+  <meta property="og:description" content="${escapeAttr(pageMetaDesc)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
-  <meta property="og:locale" content="fi_FI">
+  <meta property="og:locale" content="${ogLocale}">
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeAttr(service.h1)} — Eläinklinikka Saari">
-  <meta name="twitter:description" content="${escapeAttr(service.metaDesc)}">
+  <meta name="twitter:title" content="${escapeAttr(pageH1)} — Eläinklinikka Saari">
+  <meta name="twitter:description" content="${escapeAttr(pageMetaDesc)}">
   <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": ${JSON.stringify(service.h1)},
-    "description": ${JSON.stringify(service.metaDesc)},
+    "name": ${JSON.stringify(pageH1)},
+    "description": ${JSON.stringify(pageMetaDesc)},
     "url": "${canonicalUrl}",
     "lastReviewed": "${today}",
     "mainEntity": {
@@ -1350,39 +1853,40 @@ function generateServicePage(service, translations) {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Etusivu",
+        "name": "${breadcrumbHome[lang] || 'Etusivu'}",
         "item": "${BASE_URL}/"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Palvelut",
+        "name": "${breadcrumbServices[lang] || 'Palvelut'}",
         "item": "${BASE_URL}/#services"
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": ${JSON.stringify(service.h1)},
+        "name": ${JSON.stringify(pageH1)},
         "item": "${canonicalUrl}"
       }
     ]
   }]
   </script>
 
-  <link rel="stylesheet" href="../../css/style.css">
-  <link rel="icon" type="image/png" href="../../images/logo.png">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
 </head>
 <body class="article-page">
-  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+  <a href="#main-content" class="skip-link">${escapeHtml(skipText)}</a>
 
   <header class="header">
     <div class="container">
-      <a href="../../" class="logo">
-        <div class="logo-icon"><img src="../../images/logo.png" alt="Eläinklinikka Saari"></div>
+      <a href="${assetPrefix}" class="logo">
+        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari"></div>
       </a>
       <nav class="nav">
         <div class="nav-actions">
-          <a href="../../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
+${langSwitcher}
+          <a href="${assetPrefix}" class="btn btn-outline btn-sm">${escapeHtml(backText)}</a>
         </div>
       </nav>
     </div>
@@ -1395,21 +1899,21 @@ function generateServicePage(service, translations) {
         <div class="article-header">
           <span class="service-icon-large">${service.icon}</span>
         </div>
-        <h1>${escapeHtml(service.h1)}</h1>
+        <h1>${escapeHtml(pageH1)}</h1>
         <div class="article-content">${sectionsHtml}
         </div>
       </article>
 
       <div class="service-cta-box">
-        <h2>Varaa aika</h2>
-        <p>Soita meille tai varaa aika verkosta.</p>
+        <h2>${escapeHtml(cta.title)}</h2>
+        <p>${escapeHtml(cta.text)}</p>
         <div class="service-cta-buttons">
-          <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
+          <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">${escapeHtml(cta.call)}</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">${escapeHtml(cta.book)}</a>
         </div>
       </div>
 ${relatedHtml}
-      <a href="../../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+      <a href="${assetPrefix}" class="btn btn-secondary articles-back">${escapeHtml(backText)}</a>
     </div>
   </section>
   </main>
@@ -1418,24 +1922,24 @@ ${relatedHtml}
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p>${escapeHtml(footerDesc[lang] || footerDesc.fi)}</p>
         </div>
         <div class="footer-col">
-          <h4>Pikalinkit</h4>
-          <a href="../../#about">Klinikka</a>
-          <a href="../../#services">Palvelut</a>
-          <a href="../../#team">Henkilökunta</a>
-          <a href="../../#prices">Hinnasto</a>
-          <a href="../../#wildlife">Wildlife</a>
+          <h4>${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</h4>
+          <a href="${assetPrefix}#about">${escapeHtml(nav.about)}</a>
+          <a href="${assetPrefix}#services">${escapeHtml(nav.services)}</a>
+          <a href="${assetPrefix}#team">${escapeHtml(nav.team)}</a>
+          <a href="${assetPrefix}#prices">${escapeHtml(nav.prices)}</a>
+          <a href="${assetPrefix}#wildlife">${escapeHtml(nav.wildlife)}</a>
         </div>
         <div class="footer-col">
-          <h4>Yhteystiedot</h4>
+          <h4>${escapeHtml(footerContact[lang] || footerContact.fi)}</h4>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <h4>Seuraa meitä</h4>
+          <h4>${escapeHtml(footerFollow[lang] || footerFollow.fi)}</h4>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">f</a>
             <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
@@ -1443,12 +1947,12 @@ ${relatedHtml}
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
       </div>
     </div>
   </footer>
 
-  <script src="../../js/main.js"></script>
+  <script src="${assetPrefix}js/main.js"></script>
 </body>
 </html>`;
 }
@@ -1639,6 +2143,20 @@ function generateSitemap() {
     <priority>0.9</priority>
   </url>
 `;
+    xml += `  <url>
+    <loc>${BASE_URL}/sv/tjanster/${service.slugSv}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+    xml += `  <url>
+    <loc>${BASE_URL}/en/services/${service.slugEn}/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
   }
 
   for (const article of articles) {
@@ -1700,16 +2218,35 @@ function main() {
     console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${title.substring(0, 60)}...`);
   }
 
-  // Generate service landing pages
+  // Generate service landing pages (FI, SV, EN)
   console.log('\nBuilding service pages...');
   for (const service of servicePages) {
+    // Finnish
     const serviceDir = path.join(ROOT, 'palvelut', service.slug);
     if (!fs.existsSync(serviceDir)) {
       fs.mkdirSync(serviceDir, { recursive: true });
     }
-    const html = generateServicePage(service, translations);
-    fs.writeFileSync(path.join(serviceDir, 'index.html'), html, 'utf-8');
+    const htmlFi = generateServicePage(service, translations, 'fi');
+    fs.writeFileSync(path.join(serviceDir, 'index.html'), htmlFi, 'utf-8');
     console.log(`  palvelut/${service.slug}/index.html - ${service.h1}`);
+
+    // Swedish
+    const svDir = path.join(ROOT, 'sv', 'tjanster', service.slugSv);
+    if (!fs.existsSync(svDir)) {
+      fs.mkdirSync(svDir, { recursive: true });
+    }
+    const htmlSv = generateServicePage(service, translations, 'sv');
+    fs.writeFileSync(path.join(svDir, 'index.html'), htmlSv, 'utf-8');
+    console.log(`  sv/tjanster/${service.slugSv}/index.html - ${service.sv.h1}`);
+
+    // English
+    const enDir = path.join(ROOT, 'en', 'services', service.slugEn);
+    if (!fs.existsSync(enDir)) {
+      fs.mkdirSync(enDir, { recursive: true });
+    }
+    const htmlEn = generateServicePage(service, translations, 'en');
+    fs.writeFileSync(path.join(enDir, 'index.html'), htmlEn, 'utf-8');
+    console.log(`  en/services/${service.slugEn}/index.html - ${service.en.h1}`);
   }
 
   // Generate article index page
