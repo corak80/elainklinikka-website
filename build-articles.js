@@ -658,7 +658,7 @@ function generateArticlePage(article, translations, specialContent) {
       "name": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}",
       "jobTitle": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Eläinlääkäri' : 'Eläinlääkäri, toimitusjohtaja'}",
       "worksFor": {
-        "@type": "VeterinaryHospital",
+        "@type": "VeterinaryCare",
         "name": "Eläinklinikka Saari",
         "url": "${BASE_URL}"
       }
