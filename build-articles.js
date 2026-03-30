@@ -563,6 +563,8 @@ function generateArticlePage(article, translations, specialContent) {
   // Use first 155 chars of intro, cut at sentence boundary
   const introKey = `${article.prefix}.intro`;
   let description = t(introKey);
+  // Clean trailing punctuation that looks bad in meta descriptions
+  description = description.replace(/[,;:\s]+$/, '').replace(/\.{2,}$/, '.');
   if (description.length > 155) {
     // Try to cut at last sentence boundary before 155 chars
     const truncated = description.substring(0, 155);
@@ -575,7 +577,7 @@ function generateArticlePage(article, translations, specialContent) {
       // Fall back to last comma or space
       const lastComma = truncated.lastIndexOf(', ');
       if (lastComma > 80) {
-        description = description.substring(0, lastComma + 1);
+        description = description.substring(0, lastComma) + '...';
       } else {
         description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
       }
@@ -627,6 +629,7 @@ function generateArticlePage(article, translations, specialContent) {
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
   <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
@@ -712,7 +715,7 @@ function generateArticlePage(article, translations, specialContent) {
   <header class="header">
     <div class="container">
       <a href="../" class="logo">
-        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari"></div>
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
 
       <nav class="nav">
@@ -933,6 +936,7 @@ function generateArticleIndex(translations) {
   <meta name="description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta. Eläinklinikka Saari, Vaasa.">
   <link rel="canonical" href="${BASE_URL}/artikkelit/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/artikkelit/">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/artikkelit/">
@@ -989,7 +993,7 @@ function generateArticleIndex(translations) {
   <header class="header">
     <div class="container">
       <a href="../" class="logo">
-        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari"></div>
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <nav class="nav">
         <div class="nav-actions">
@@ -1089,7 +1093,7 @@ const servicePages = [
     en: {
       title: 'Dental Care — Eläinklinikka Saari, Vaasa',
       h1: 'Dental Care',
-      metaDesc: 'Dog and cat dental care in Vaasa. Scaling, dental X-rays, extractions. All procedures under general anaesthesia. Book an appointment at Eläinklinikka Saari.',
+      metaDesc: 'Dog and cat dental care in Vaasa. Scaling, dental X-rays, extractions. All procedures under general anaesthesia. Eläinklinikka Saari.',
       sections: [
         { heading: 'Why is dental care important?', text: 'Dental disease is among the most common health problems in pets. By the age of three, the majority of dogs and cats have tartar and gingivitis. Untreated dental damage progresses silently — animals instinctively hide pain, so owners often notice the problem only when it has advanced significantly. Regular professional dental care extends your pet\'s lifespan and significantly improves quality of life.' },
         { heading: 'Our services', text: 'Our clinic provides comprehensive dental care under general anaesthesia: ultrasonic scaling, dental X-ray examinations (all teeth are digitally radiographed), extractions, deciduous tooth removal, periodontal treatment, and PerioVive hyaluronic acid gel therapy. Every dental procedure includes a complete oral examination and dental chart.' },
@@ -1104,7 +1108,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
-    schemaService: 'Veterinary Dental Care'
+    schemaService: 'Veterinary Dental Care',
+    procedureType: 'SurgicalProcedure'
   },
   {
     slug: 'sydantutkimukset',
@@ -1112,7 +1117,7 @@ const servicePages = [
     slugEn: 'cardiac-examinations',
     title: 'Sydäntutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Sydäntutkimukset',
-    metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Ajoissa aloitettu hoito pidentää elinikää. Eläinklinikka Saari.',
+    metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Eläinklinikka Saari.',
     icon: '❤️',
     sections: [
       { heading: 'Sydänsairaudet lemmikeillä', text: 'Sydänsairaudet ovat yleisiä erityisesti tietyissä koira- ja kissaroduissa. Cavalier kingcharlesinspanielilla, dobermanneilla ja Maine Coon -kissoilla on perinnöllinen alttius sydänsairauksille. Ajoissa aloitettu lääkitys voi pidentää lemmikin elinikää huomattavasti — siksi säännölliset sydäntarkastukset ovat tärkeitä etenkin riskiroduilla.' },
@@ -1177,7 +1182,7 @@ const servicePages = [
       metaDesc: 'Veterinärkirurgi i Vasa: mjukdelskirurgi, ortopedi, TTA, lateral suture, frakturoperationer. Säker anestesi och smärtlindring. Eläinklinikka Saari.',
       sections: [
         { heading: 'Mjukdelskirurgi', text: 'På vår klinik utförs ett brett utbud av mjukdelskirurgiska ingrepp: steriliseringar och kastreringar, kejsarsnitt, tumörborttagning, främmandekroppsoperationer (från magsäck eller tarm), urinstensoperationer, mjältborttagning samt ögon- och öronoperationer. Varje ingrepp planeras individuellt utifrån patientens behov.' },
-        { heading: 'Ortopedisk kirurgi', text: 'Korsbandsskador är det vanligaste ortopediska ingreppet hos hundar. Vår klinik använder två metoder: lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och passar särskilt för små hundar och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent och är ett bra alternativ för aktiva och större hundar. Dessutom utför vi frakturoperationer, amputationer och femurhuvedresektioner.' },
+        { heading: 'Ortopedisk kirurgi', text: 'Korsbandsskador är det vanligaste ortopediska ingreppet hos hundar. Vår klinik använder två metoder: lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och passar särskilt för små hundar och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent och är ett bra alternativ för aktiva och större hundar. Dessutom utför vi frakturoperationer, amputationer och femurhuvudresektioner.' },
         { heading: 'Säker anestesi', text: 'Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi och kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.' },
         { heading: 'Boka tid för konsultation', text: 'Om ditt husdjur behöver en kirurgisk bedömning, boka tid för konsultation. Vi undersöker patienten, bedömer behovet av ingrepp och planerar den bästa behandlingslinjen tillsammans med ägaren. Behandlingar ges på samma klinik av bekanta veterinärer — husdjuret behöver inte resa någon annanstans.' },
       ],
@@ -1191,7 +1196,7 @@ const servicePages = [
     en: {
       title: 'Surgery — Eläinklinikka Saari, Vaasa',
       h1: 'Surgery',
-      metaDesc: 'Veterinary surgery in Vaasa: soft tissue surgery, orthopaedics, TTA, lateral suture, fracture repair. Safe anaesthesia and pain management. Eläinklinikka Saari.',
+      metaDesc: 'Veterinary surgery in Vaasa: soft tissue, orthopaedics, TTA, lateral suture, fracture repair. Safe anaesthesia. Eläinklinikka Saari.',
       sections: [
         { heading: 'Soft tissue surgery', text: 'Our clinic performs a wide range of soft tissue surgical procedures: spays and neutering, caesarean sections, tumour removals, foreign body surgery (from stomach or intestines), urinary stone surgery, splenectomies, and eye and ear operations. Each procedure is individually planned according to the patient\'s needs.' },
         { heading: 'Orthopaedic surgery', text: 'Cruciate ligament repair is the most common orthopaedic procedure in dogs. Our clinic uses two methods: the lateral suture technique stabilises the joint with synthetic support material and is especially suited for small dogs and cats. TTA (tibial tuberosity advancement) permanently alters the knee\'s biomechanics and is a good option for active and larger dogs. We also perform fracture repairs, amputations, and femoral head resections.' },
@@ -1206,7 +1211,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
-    schemaService: 'Veterinary Surgery'
+    schemaService: 'Veterinary Surgery',
+    procedureType: 'SurgicalProcedure'
   },
   {
     slug: 'tahystykset',
@@ -1214,7 +1220,7 @@ const servicePages = [
     slugEn: 'endoscopy',
     title: 'Tähystystutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Tähystystutkimukset',
-    metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Vähemmän invasiivinen diagnostiikka. Eläinklinikka Saari.',
+    metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Eläinklinikka Saari.',
     icon: '📷',
     sections: [
       { heading: 'Mitä tähystystutkimukset ovat?', text: 'Tähystystutkimukset (endoskopia) ovat minimaalisesti invasiivisia tutkimusmenetelmiä, joissa ohut kameraskooppi viedään kehon luonnollisten aukkojen kautta sisäelinten tutkimiseen. Menetelmä mahdollistaa tarkan diagnostiikan ilman avokirurgiaa, ja usein myös hoidon samalla kertaa — esimerkiksi vierasesineiden poiston mahalaukusta.' },
@@ -1577,7 +1583,7 @@ const servicePages = [
       { heading: 'Viralliset röntgentutkimukset', text: 'Klinikallamme tehdään Suomen Kennelliiton hyväksymiä virallisia röntgentutkimuksia: lonkka-, kyynär- ja selkäkuvaukset. Viralliset röntgenkuvat lähetetään Kennelliiton arvostelijalle ja tulokset kirjataan Jalostustietojärjestelmään. Tutkimukset tehdään kevyessä rauhoituksessa oikean asennon varmistamiseksi.' },
       { heading: 'Polvi- ja sydäntutkimukset', text: 'Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet — kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Nämä tutkimukset ovat osa monen rodun jalostustarkastuksia.' },
       { heading: 'Kenelle viralliset tutkimukset?', text: 'Viralliset tutkimukset ovat pakollisia tai suositeltuja jalostuskoirille rodusta riippuen. Tutkimusten tavoitteena on vähentää perinnöllisten sairauksien esiintyvyyttä roduissa. Tutkimukset voidaan tehdä aikaisintaan 12 kuukauden iässä (lonkat 18 kk iässä) ja ne ovat voimassa koko koiran eliniän.' },
-      { heading: 'Varaa aika', text: 'Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan — kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan.' },
+      { heading: 'Ajanvaraus ja lisätiedot', text: 'Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan — kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan.' },
     ],
     sv: {
       title: 'Officiella undersökningar — Djurklinik Saari, Vasa',
@@ -1587,7 +1593,7 @@ const servicePages = [
         { heading: 'Officiella röntgenundersökningar', text: 'På vår klinik utförs officiella röntgenundersökningar godkända av Finska Kennelklubben: höft-, armbågs- och ryggröntgen. Officiella röntgenbilder skickas till Kennelklubbens granskare och resultaten registreras i Avelsdatasystemet. Undersökningarna görs under lätt sedering för att säkerställa korrekt position.' },
         { heading: 'Knä- och hjärtundersökningar', text: 'Officiella knäundersökningar görs kliniskt utan sedering. Kliniken har även officiella rättigheter för hjärtauskultation — med auskultationsundersökning bedöms om hunden har hjärtblåsljud. Dessa undersökningar är en del av avelskontrollerna för många raser.' },
         { heading: 'Vem behöver officiella undersökningar?', text: 'Officiella undersökningar är obligatoriska eller rekommenderade för avelsdjur beroende på ras. Syftet med undersökningarna är att minska förekomsten av ärftliga sjukdomar inom raserna. Undersökningarna kan göras tidigast vid 12 månaders ålder (höfter vid 18 månaders ålder) och gäller hela hundens livstid.' },
-        { heading: 'Boka tid', text: 'Officiella undersökningar kräver förbokning, eftersom de kräver sedering och tillräckligt med tid för att ta bilder av hög kvalitet. Kontakta kliniken för att boka undersökningstid — vi berättar gärna mer om vilka undersökningar som rekommenderas för din hunds ras.' },
+        { heading: 'Tidsbokning och information', text: 'Officiella undersökningar kräver förbokning, eftersom de kräver sedering och tillräckligt med tid för att ta bilder av hög kvalitet. Kontakta kliniken för att boka undersökningstid — vi berättar gärna mer om vilka undersökningar som rekommenderas för din hunds ras.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1604,7 +1610,7 @@ const servicePages = [
         { heading: 'Official radiographic examinations', text: 'Our clinic performs official radiographic examinations approved by the Finnish Kennel Club: hip, elbow, and spinal imaging. Official radiographs are sent to the Kennel Club evaluator and results are recorded in the Breeding Information System. Examinations are performed under light sedation to ensure correct positioning.' },
         { heading: 'Patella and cardiac examinations', text: 'Official patella examinations are performed clinically without sedation. The clinic also holds official cardiac auscultation rights — the auscultation examination assesses whether the dog has a heart murmur. These examinations are part of the breeding evaluations for many breeds.' },
         { heading: 'Who needs official examinations?', text: 'Official examinations are mandatory or recommended for breeding dogs depending on the breed. The aim of the examinations is to reduce the incidence of hereditary diseases within breeds. Examinations can be performed from 12 months of age (hips from 18 months) and are valid for the dog\'s entire lifetime.' },
-        { heading: 'Book an appointment', text: 'Official examinations require advance booking as they require sedation and sufficient time to take high-quality images. Contact the clinic to arrange an examination appointment — we are happy to advise on which examinations are recommended for your dog\'s breed.' },
+        { heading: 'Booking and information', text: 'Official examinations require advance booking as they require sedation and sufficient time to take high-quality images. Contact the clinic to arrange an examination appointment — we are happy to advise on which examinations are recommended for your dog\'s breed.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1650,7 +1656,7 @@ const servicePages = [
     en: {
       title: 'Spay and Neuter — Eläinklinikka Saari, Vaasa',
       h1: 'Spay and Neuter',
-      metaDesc: 'Spaying and neutering for dogs, cats and rabbits in Vaasa. Inhalation anaesthesia, comprehensive pain management. Also chemical castration. Eläinklinikka Saari.',
+      metaDesc: 'Spaying and neutering for dogs, cats and rabbits in Vaasa. Inhalation anaesthesia, comprehensive pain management. Eläinklinikka Saari.',
       sections: [
         { heading: 'Why spay or neuter?', text: 'Spaying and neutering can prevent many diseases: mammary tumours, pyometra, prostate problems, and testicular cancer. Spaying removes the uterus and ovaries, completely eliminating hormonal diseases. Neutering can also reduce unwanted marking behaviour and aggression.' },
         { heading: 'The procedure at our clinic', text: 'All spays and neuters are performed under inhalation anaesthesia with comprehensive pain management. We monitor the patient continuously throughout the procedure: heart rate, blood pressure, oxygen saturation, and temperature. Patients are typically discharged the same day with pain medication to take home.' },
@@ -1665,7 +1671,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
-    schemaService: 'Veterinary Spay and Neuter'
+    schemaService: 'Veterinary Spay and Neuter',
+    procedureType: 'SurgicalProcedure'
   },
   {
     slug: 'sisataudit',
@@ -1673,7 +1680,7 @@ const servicePages = [
     slugEn: 'internal-medicine',
     title: 'Sisätaudit — Eläinklinikka Saari, Vaasa',
     h1: 'Sisätaudit',
-    metaDesc: 'Eläinten sisätaudit Vaasassa: diabetes, Cushingin tauti, haimatulehdus, anemia, autoimmuunisairaudet. Perusteellinen diagnostiikka ja hoito. Eläinklinikka Saari.',
+    metaDesc: 'Eläinten sisätaudit Vaasassa: diabetes, Cushing, haimatulehdus, anemia. Perusteellinen diagnostiikka ja hoito. Eläinklinikka Saari.',
     icon: '💊',
     sections: [
       { heading: 'Yleisimmät sisätaudit', text: 'Sisätaudit kattavat laajan kirjon eläinten sairauksia. Yleisimpiä ovat diabetes (sokeritauti), Cushingin tauti (lisämunuaiskuoren liikatoiminta), Addisonin tauti (lisämunuaiskuoren vajaatoiminta), haimatulehdus (pankreatiitti), erilaiset anemiat sekä autoimmuunisairaudet. Monilla näistä sairauksista on oireita, jotka etenevät hitaasti — omistaja saattaa huomata vain lisääntyneen janon, painon muutoksen tai yleisen väsymyksen.' },
@@ -1684,7 +1691,7 @@ const servicePages = [
     sv: {
       title: 'Internmedicin — Djurklinik Saari, Vasa',
       h1: 'Internmedicin',
-      metaDesc: 'Internmedicin för husdjur i Vasa: diabetes, Cushings sjukdom, pankreatit, anemi, autoimmunsjukdomar. Grundlig diagnostik och behandling. Eläinklinikka Saari.',
+      metaDesc: 'Internmedicin för husdjur i Vasa: diabetes, Cushings sjukdom, pankreatit, anemi. Grundlig diagnostik och behandling. Eläinklinikka Saari.',
       sections: [
         { heading: 'De vanligaste internmedicinska sjukdomarna', text: 'Internmedicin omfattar ett brett spektrum av sjukdomar hos djur. De vanligaste är diabetes (sockersjuka), Cushings sjukdom (binjurebarkens överfunktion), Addisons sjukdom (binjurebarkens underfunktion), pankreatit (bukspottkörtelinflammation), olika former av anemi samt autoimmunsjukdomar. Många av dessa sjukdomar har symtom som fortskrider långsamt — ägaren kanske bara märker ökad törst, viktförändring eller allmän trötthet.' },
         { heading: 'Diagnostik', text: 'Utredning av internmedicinska sjukdomar kräver ofta grundlig diagnostik. På vår klinik undersöker vi blodprov, urinprov och hormonnivåer i vårt eget laboratorium, vilket ger snabba resultat. Med bukens ultraljud kan vi se inre organs struktur och eventuella förändringar. Vid behov tas biopsier under ultraljudsvägledning eller endoskopi.' },
@@ -1701,7 +1708,7 @@ const servicePages = [
     en: {
       title: 'Internal Medicine — Eläinklinikka Saari, Vaasa',
       h1: 'Internal Medicine',
-      metaDesc: 'Veterinary internal medicine in Vaasa: diabetes, Cushing\'s disease, pancreatitis, anaemia, autoimmune diseases. Thorough diagnostics and treatment. Eläinklinikka Saari.',
+      metaDesc: 'Veterinary internal medicine in Vaasa: diabetes, Cushing\'s disease, pancreatitis, anaemia. Thorough diagnostics and treatment. Eläinklinikka Saari.',
       sections: [
         { heading: 'The most common internal diseases', text: 'Internal medicine covers a wide range of animal diseases. The most common include diabetes mellitus, Cushing\'s disease (hyperadrenocorticism), Addison\'s disease (hypoadrenocorticism), pancreatitis, various forms of anaemia, and autoimmune diseases. Many of these conditions have symptoms that progress slowly — the owner may only notice increased thirst, weight change, or general lethargy.' },
         { heading: 'Diagnostics', text: 'Investigating internal diseases often requires thorough diagnostics. At our clinic, we analyse blood samples, urine samples, and hormone levels in our own laboratory, providing rapid results. Abdominal ultrasound reveals organ structure and any abnormalities. When necessary, biopsies are taken under ultrasound guidance or during endoscopy.' },
@@ -1724,7 +1731,7 @@ const servicePages = [
     slugEn: 'ophthalmology',
     title: 'Silmätaudit — Eläinklinikka Saari, Vaasa',
     h1: 'Silmätaudit',
-    metaDesc: 'Eläinten silmäsairaudet Vaasassa: sarveiskalvon haavaumat, glaukooma, kuivasilmäisyys, kaihi, silmäluomien sairaudet. Tutkimus ja hoito. Eläinklinikka Saari.',
+    metaDesc: 'Eläinten silmäsairaudet Vaasassa: sarveiskalvon haavaumat, glaukooma, kuivasilmäisyys, kaihi. Tutkimus ja hoito. Eläinklinikka Saari.',
     icon: '👁️',
     sections: [
       { heading: 'Yleisimmät silmäsairaudet', text: 'Silmäsairaudet ovat yleisiä lemmikeillä ja voivat olla hyvin kivuliaita. Yleisimpiä ovat sarveiskalvon haavaumat (eroosiot ja ulseraatiot), glaukooma (silmänpainetauti), kuivasilmäisyys (keratoconjunctivitis sicca), kaihi (linssin samentuma) sekä silmäluomien sairaudet kuten entropion (silmäluomen sisäänpäin kääntyminen) ja ektropion (ulospäin kääntyminen). Tietyt rodut, kuten brakykefaaliset (lyhytkuonoiset) koirat, ovat erityisen alttiita silmäongelmille.' },
@@ -1738,7 +1745,7 @@ const servicePages = [
       metaDesc: 'Ögonsjukdomar hos husdjur i Vasa: hornhinnesår, glaukom, torra ögon, katarakt, ögonlockssjukdomar. Undersökning och behandling. Eläinklinikka Saari.',
       sections: [
         { heading: 'De vanligaste ögonsjukdomarna', text: 'Ögonsjukdomar är vanliga hos husdjur och kan vara mycket smärtsamma. De vanligaste är hornhinnesår (erosioner och ulcerationer), glaukom (förhöjt ögontryck), torra ögon (keratoconjunctivitis sicca), katarakt (linsgrumling) samt ögonlockssjukdomar som entropion (inåtvänt ögonlock) och ektropion (utåtvänt ögonlock). Vissa raser, som brakycefala (kortnosade) hundar, är särskilt mottagliga för ögonproblem.' },
-        { heading: 'Undersökningsmetoder', text: 'Vid ögonundersökning används flera diagnostiska metoder. Fluoresceinfärgning avslöjar hornhinneskador och sår. Ögontrycksmätning (tonometri) identifierar glaukom. Schirmers tårtest mäter tårproduktionen. Spaltlampundersökning bedömer strukturerna i ögats främre del. Med hjälp av dessa undersökningar fås en exakt bild av ögats tillstånd och rätt behandling kan påbörjas.' },
+        { heading: 'Undersökningsmetoder', text: 'Vid ögonundersökning används flera diagnostiska metoder. Fluoresceinfärgning avslöjar hornhinneskador och sår. Ögontrycksmätning (tonometri) identifierar glaukom. Schirmers tårtest mäter tårproduktionen. Spaltlampsundersökning bedömer strukturerna i ögats främre del. Med hjälp av dessa undersökningar fås en exakt bild av ögats tillstånd och rätt behandling kan påbörjas.' },
         { heading: 'Behandling', text: 'Behandlingen av ögonsjukdomar beror på diagnosen. Hornhinnesår behandlas med ögondroppar och vid behov med skyddslins eller kirurgiskt. Glaukom behandlas med trycksänkande läkemedel. Torra ögon behandlas med tårersättningsmedel och immunmodulerande droppar. Entropion och andra strukturella ögonlocksproblem kräver ofta kirurgisk korrigering.' },
         { heading: 'När ska man söka undersökning?', text: 'Man bör reagera snabbt på ögonsymtom, eftersom många ögonsjukdomar fortskrider snabbt och kan leda till permanent synskada. Sök vård om ditt husdjur kisar, ögat rinner, ögat är rött, pupillerna är olika stora, ögat är grumligt eller husdjuret kliar sig i ögat. Tidig behandling är särskilt viktigt vid ögonsjukdomar.' },
       ],
@@ -1817,7 +1824,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['senioritarkastus', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
+    relatedArticles: ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Laboratory Services'
   },
   {
@@ -1868,7 +1875,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['kirurgia', 'viralliset-tutkimukset', 'tta-leikkaus'],
+    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Radiology'
   },
   {
@@ -1919,7 +1926,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['senioritarkastus'],
+    relatedArticles: ['kissaystävällinen-klinikka', 'munuaisten-vajaatoiminta'],
     schemaService: 'Veterinary Euthanasia'
   },
   {
@@ -1928,7 +1935,7 @@ const servicePages = [
     slugEn: 'eu-pet-passport',
     title: 'EU-lemmikkipassi — Eläinklinikka Saari, Vaasa',
     h1: 'EU-lemmikkipassi',
-    metaDesc: 'EU-lemmikkieläinpassi ja matkustusasiakirjat Vaasassa. Rabiesrokotus, tiitteritutkimus, terveystodistukset. Matkusta turvallisesti lemmikkisi kanssa. Eläinklinikka Saari.',
+    metaDesc: 'EU-lemmikkipassi ja matkustusasiakirjat Vaasassa. Rabiesrokotus, tiitteritutkimus, terveystodistukset. Eläinklinikka Saari.',
     icon: '🛂',
     sections: [
       { heading: 'Mikä on EU-lemmikkipassi?', text: 'EU-lemmikkieläinpassi on virallinen asiakirja, joka todistaa lemmikkisi tunnistuksen ja rokotustiedot. Passi vaaditaan kaikille koirille, kissoille ja freteille, jotka matkustavat EU-maiden välillä. Passin saa vain eläinlääkäriltä, ja se edellyttää voimassa olevaa mikrosirutunnistusta ja rabiesrokotusta. Passi on lemmikkisi henkilöllisyystodistus kansainvälisessä matkustamisessa.' },
@@ -1970,7 +1977,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['rokotukset'],
+    relatedArticles: ['rokotukset', 'yksityinen-klinikka'],
     schemaService: 'EU Pet Passport Services'
   },
   {
@@ -2072,7 +2079,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['ultraaani', 'rontgen'],
+    relatedArticles: ['rokotukset', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Pregnancy Examination'
   },
   {
@@ -2174,7 +2181,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['akupunktio', 'kipulääkeinfuusio'],
+    relatedArticles: ['kipulääkeinfuusio', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Rehabilitation'
   },
   {
@@ -2225,8 +2232,9 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['sterilisaatio', 'anestesiaturvallisuus'],
-    schemaService: 'Veterinary Castration'
+    relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus'],
+    schemaService: 'Veterinary Castration',
+    procedureType: 'SurgicalProcedure'
   },
   {
     slug: 'ortopedia',
@@ -2249,7 +2257,7 @@ const servicePages = [
       sections: [
         { heading: 'Korsbandsskador', text: 'Korsbandsskada är hundens vanligaste ortopediska problem. Vår klinik använder två reparationsmetoder: TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent genom att flytta skenbensknölen framåt — metoden lämpar sig särskilt för aktiva och medelstora till stora hundar. Lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och är ett bra alternativ för små hundar och katter.' },
         { heading: 'Frakturoperationer och amputationer', text: 'Vår klinik utför frakturoperationer där benfragment fixeras med plattor, skruvar eller extern fixator. Amputationer utförs vid behov — ben, svans eller tår — till exempel vid allvarligt trauma, tumör eller kroniskt smärttillstånd. Djur anpassar sig förvånansvärt bra på tre ben och livskvaliteten förbättras när smärtan försvinner.' },
-        { heading: 'Patellaluxation och femurhuvedresektion', text: 'Knäskålsluxation (patellaluxation) är vanligt särskilt hos små hundraser. Behandlingen är kirurgisk och metoden väljs utifrån luxationens svårighetsgrad. Femurhuvedresektion (FHO) utförs till exempel vid kronisk höftluxation eller Legg-Perthes sjukdom — ingreppet avlägsnar smärtkällan och patienten lär sig använda benet utan höftled.' },
+        { heading: 'Patellaluxation och femurhuvudresektion', text: 'Knäskålsluxation (patellaluxation) är vanligt särskilt hos små hundraser. Behandlingen är kirurgisk och metoden väljs utifrån luxationens svårighetsgrad. Femurhuvedresektion (FHO) utförs till exempel vid kronisk höftluxation eller Legg-Perthes sjukdom — ingreppet avlägsnar smärtkällan och patienten lär sig använda benet utan höftled.' },
         { heading: 'Officiella röntgenundersökningar', text: 'Vår klinik har Finska Kennelklubbens godkännande för officiella höft-, armbågs- och ryggröntgenundersökningar. Officiella undersökningar är en del av avelskontrollerna och syftar till att minska förekomsten av ärftliga ortopediska sjukdomar. Undersökningarna görs under lätt sedering och bilderna skickas till Kennelklubbens granskare.' },
       ],
       ctaTitle: 'Boka tid',
@@ -2260,8 +2268,8 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Orthopedics — Eläinklinikka Saari, Vaasa',
-      h1: 'Orthopedics',
+      title: 'Orthopaedics — Eläinklinikka Saari, Vaasa',
+      h1: 'Orthopaedics',
       metaDesc: 'Veterinary orthopaedics in Vaasa: cruciate ligament repair (TTA, lateral suture), fracture surgery, amputations, official X-rays. Eläinklinikka Saari.',
       sections: [
         { heading: 'Cruciate ligament repair', text: 'Cruciate ligament rupture is the most common orthopaedic problem in dogs. Our clinic uses two repair methods: TTA (tibial tuberosity advancement) permanently alters the knee\'s biomechanics by advancing the tibial tuberosity — the method is especially suited for active medium to large dogs. The lateral suture technique stabilises the joint with synthetic support material and is a good option for small dogs and cats.' },
@@ -2276,8 +2284,9 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'viralliset-tutkimukset'],
-    schemaService: 'Veterinary Orthopedics'
+    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
+    schemaService: 'Veterinary Orthopedics',
+    procedureType: 'SurgicalProcedure'
   },
   {
     slug: 'anestesia',
@@ -2311,7 +2320,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Anesthesia — Eläinklinikka Saari, Vaasa',
+      title: 'Anaesthesia — Eläinklinikka Saari, Vaasa',
       h1: 'Anaesthesia',
       metaDesc: 'Safe veterinary anaesthesia in Vaasa. Inhalation anaesthesia, continuous monitoring, two ventilators, balanced protocol. Eläinklinikka Saari.',
       sections: [
@@ -2378,7 +2387,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['kissaystävällinen-klinikka'],
+    relatedArticles: ['kissaystävällinen-klinikka', 'yksityinen-klinikka'],
     schemaService: 'Veterinary Clinic Hygiene'
   },
 ];
@@ -2431,13 +2440,14 @@ function generateServicePage(service, translations, lang) {
   // Footer text
   const footerDesc = {
     fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
-    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockis-kurvan.',
-    en: 'Finnish independent small animal clinic in Dragnäsbäck, Vaasa, at the Bockis curve.'
+    sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
+    en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
   const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
   const footerContact = { fi: 'Yhteystiedot', sv: 'Kontaktuppgifter', en: 'Contact' };
   const footerFollow = { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow us' };
   const footerRights = { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' };
+  const footerBusinessId = { fi: 'Y-tunnus', sv: 'FO-nummer', en: 'Business ID' };
   const navLabels = {
     fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', prices: 'Hinnasto', wildlife: 'Wildlife' },
     sv: { about: 'Kliniken', services: 'Tjänster', team: 'Personal', prices: 'Prislista', wildlife: 'Wildlife' },
@@ -2456,16 +2466,17 @@ function generateServicePage(service, translations, lang) {
           <p>${escapeHtml(section.text)}</p>`;
   }
 
-  // Build related articles (always Finnish article links since articles are only in Finnish)
+  // Build related articles — translate titles/tags/intros per page language
+  const tLang = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
   let relatedHtml = '';
   if (service.relatedArticles && service.relatedArticles.length > 0) {
     let cards = '';
     for (const slug of service.relatedArticles) {
       const article = articles.find(a => a.slug === slug);
       if (!article) continue;
-      const title = t(article.titleKey);
-      const tag = t(article.tagKey);
-      const intro = t(`${article.prefix}.intro`);
+      const title = tLang(article.titleKey);
+      const tag = tLang(article.tagKey);
+      const intro = tLang(`${article.prefix}.intro`);
       const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
       cards += `
           <a href="${assetPrefix}articles/${slug}.html" class="related-article-card">
@@ -2474,20 +2485,22 @@ function generateServicePage(service, translations, lang) {
             <p>${escapeHtml(shortIntro)}</p>
           </a>`;
     }
-    relatedHtml = `
+    if (cards) {
+      relatedHtml = `
       <div class="related-articles">
         <h2>${escapeHtml(relatedTitle)}</h2>
         <div class="related-articles-grid">${cards}
         </div>
       </div>`;
+    }
   }
 
   // Language switcher
   const langSwitcher = `
           <div class="lang-toggle">
-            <a href="${lang === 'fi' ? '#' : ('/' + 'palvelut/' + service.slug + '/')}" class="${lang === 'fi' ? 'active' : ''}">FI</a>
-            <a href="${lang === 'sv' ? '#' : ('/sv/tjanster/' + service.slugSv + '/')}" class="${lang === 'sv' ? 'active' : ''}">SV</a>
-            <a href="${lang === 'en' ? '#' : ('/en/services/' + service.slugEn + '/')}" class="${lang === 'en' ? 'active' : ''}">EN</a>
+            <a href="${'/' + 'palvelut/' + service.slug + '/'}" class="${lang === 'fi' ? 'active' : ''}"${lang === 'fi' ? ' aria-current="page"' : ''}>FI</a>
+            <a href="${'/sv/tjanster/' + service.slugSv + '/'}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
+            <a href="${'/en/services/' + service.slugEn + '/'}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
           </div>`;
 
   return `<!DOCTYPE html>
@@ -2552,7 +2565,7 @@ function generateServicePage(service, translations, lang) {
     "mainEntity": {
       "@type": "MedicalProcedure",
       "name": "${service.schemaService}",
-      "procedureType": "http://schema.org/NoninvasiveProcedure"
+      "procedureType": "http://schema.org/${service.procedureType || 'NoninvasiveProcedure'}"
     },
     "isPartOf": {
       "@type": "WebSite",
@@ -2595,7 +2608,7 @@ function generateServicePage(service, translations, lang) {
   <header class="header">
     <div class="container">
       <a href="${assetPrefix}" class="logo">
-        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari"></div>
+        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <nav class="nav">
         <div class="nav-actions">
@@ -2661,7 +2674,7 @@ ${relatedHtml}
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; ${footerBusinessId[lang] || footerBusinessId.fi}: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
       </div>
     </div>
   </footer>
@@ -2699,6 +2712,7 @@ function generatePrivacyPage() {
   <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus.">
   <link rel="canonical" href="${BASE_URL}/tietosuoja/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/tietosuoja/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/tietosuoja/">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/tietosuoja/">
