@@ -2370,7 +2370,7 @@ const serviceIcons = {
 };
 
 // --- Language System ---
-let currentLang = 'fi';
+let currentLang = new URLSearchParams(window.location.search).get('lang') || 'fi';
 
 function setLanguage(lang) {
   currentLang = lang;
