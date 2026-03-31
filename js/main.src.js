@@ -156,6 +156,9 @@ const translations = {
   'service.ultrasound': { fi: 'Ultraäänitutkimukset', sv: 'Ultraljud', en: 'Ultrasound' },
   'service.vaccinations': { fi: 'Rokotukset', sv: 'Vaccinationer', en: 'Vaccinations' },
   'service.puppy': { fi: 'Pentutarkastus', sv: 'Valpkontroll', en: 'Puppy Examinations' },
+  'service.internalmedicine': { fi: 'Sisätaudit', sv: 'Internmedicin', en: 'Internal Medicine' },
+  'service.ophthalmology': { fi: 'Silmätaudit', sv: 'Ögonsjukdomar', en: 'Ophthalmology' },
+  'service.eupetpassport': { fi: 'EU-lemmikkipassi', sv: 'EU-sällskapsdjurspass', en: 'EU Pet Passport' },
   'service.anesthesia': { fi: 'Anestesia', sv: 'Anestesi', en: 'Anesthesia' },
   'service.hygiene': { fi: 'Hygienia', sv: 'Hygien', en: 'Hygiene' },
 
@@ -274,6 +277,21 @@ const translations = {
     fi: 'Pentutarkastuksessa eläinlääkäri tutkii pennun päästä varpaisiin ja antaa terveystodistuksen. Tarkastuksen yhteydessä voimme asettaa mikrosirun.',
     sv: 'Vid valpkontrollen undersöker veterinären valpen från topp till tå och utfärdar ett hälsointyg. I samband med undersökningen kan man sätta mikrochip.',
     en: 'The veterinarian examines the puppy thoroughly from head to toe and issues a health certificate. A microchip can be implanted during the visit.'
+  },
+  'service.desc.internalmedicine': {
+    fi: 'Sisätaudit kattavat laajan kirjon eläinten sairauksia: diabetes, Cushingin tauti, haimatulehdus, anemia, autoimmuunisairaudet. Perusteellinen diagnostiikka ja hoitosuunnitelma.',
+    sv: 'Internmedicin omfattar ett brett spektrum av sjukdomar hos djur: diabetes, Cushings sjukdom, pankreatit, anemi, autoimmunsjukdomar. Grundlig diagnostik och behandlingsplan.',
+    en: 'Internal medicine covers a wide range of animal diseases: diabetes, Cushing\'s disease, pancreatitis, anaemia, autoimmune diseases. Thorough diagnostics and treatment planning.'
+  },
+  'service.desc.ophthalmology': {
+    fi: 'Silmäsairaudet ovat yleisiä lemmikeillä. Sarveiskalvon haavaumat, glaukooma, kuivasilmäisyys, kaihi, silmäluomien sairaudet. Tutkimus ja hoito samalla käynnillä.',
+    sv: 'Ögonsjukdomar är vanliga hos husdjur. Hornhinnesår, glaukom, torra ögon, katarakt, ögonlockssjukdomar. Undersökning och behandling vid samma besök.',
+    en: 'Eye diseases are common in pets. Corneal ulcers, glaucoma, dry eye, cataracts, eyelid diseases. Examination and treatment during the same visit.'
+  },
+  'service.desc.eupetpassport': {
+    fi: 'EU-lemmikkieläinpassit, rabiesrokotus, tiitteritutkimus ja terveystodistukset. Kaikki matkustusasiakirjat saman katon alta.',
+    sv: 'EU-sällskapsdjurspass, rabiesvaccination, titerundersökning och hälsointyg. Alla resedokument under samma tak.',
+    en: 'EU pet passports, rabies vaccination, titre testing and health certificates. All travel documents under one roof.'
   },
   'service.desc.anesthesia': {
     fi: 'Anestesia on lähellä sydäntämme. Päivitämme jatkuvasti osaamistamme, uudistamme protokolliamme ja valvomme potilaita tarkasti koko toimenpiteen ajan. Klinikallamme on edistykselliset valvontalaitteet, neljä anestesiakonetta ja kaksi ventilaattoria turvallisen anestesian varmistamiseksi.',
@@ -2380,6 +2398,12 @@ function setLanguage(lang) {
 
   // Update HTML lang attribute
   document.documentElement.lang = lang;
+
+  // Update service card links for current language
+  document.querySelectorAll('[data-href-fi]').forEach(el => {
+    const href = el.getAttribute('data-href-' + lang);
+    if (href) el.setAttribute('href', href);
+  });
 
   // Update vet modal if open
   const modal = document.getElementById('vet-modal');
