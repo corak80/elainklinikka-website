@@ -1345,6 +1345,13 @@ a.service-card-link {
   color: var(--color-text);
 }
 
+.related-note {
+  font-size: 0.9rem;
+  color: var(--color-text-light, #666);
+  font-style: italic;
+  margin-bottom: var(--spacing-md);
+}
+
 .related-articles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

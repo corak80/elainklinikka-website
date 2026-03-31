@@ -785,7 +785,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; <span data-i18n="footer.rights">Kaikki oikeudet pidätetään.</span></span>
-        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -1055,7 +1055,7 @@ ${cardsHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -2524,6 +2524,10 @@ function generateServicePage(service, translations, lang) {
   const footerFollow = { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow us' };
   const footerRights = { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' };
   const footerBusinessId = { fi: 'Y-tunnus', sv: 'FO-nummer', en: 'Business ID' };
+  const footerAbout = { fi: 'Meistä', sv: 'Om oss', en: 'About Us' };
+  const footerContactPage = { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' };
+  const footerArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
+  const footerPrivacy = { fi: 'Tietosuoja', sv: 'Integritetspolicy', en: 'Privacy Policy' };
   const navLabels = {
     fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', prices: 'Hinnasto', wildlife: 'Wildlife' },
     sv: { about: 'Kliniken', services: 'Tjänster', team: 'Personal', prices: 'Prislista', wildlife: 'Wildlife' },
@@ -2562,9 +2566,12 @@ function generateServicePage(service, translations, lang) {
           </a>`;
     }
     if (cards) {
+      const relatedNote = lang === 'sv' ? '<p class="related-note">Artiklarna finns tillgängliga på finska.</p>'
+        : lang === 'en' ? '<p class="related-note">Articles are available in Finnish.</p>'
+        : '';
       relatedHtml = `
       <div class="related-articles">
-        <h2>${escapeHtml(relatedTitle)}</h2>
+        <h2>${escapeHtml(relatedTitle)}</h2>${relatedNote}
         <div class="related-articles-grid">${cards}
         </div>
       </div>`;
@@ -2735,9 +2742,9 @@ ${relatedHtml}
           <a href="${assetPrefix}#team">${escapeHtml(nav.team)}</a>
           <a href="${assetPrefix}#prices">${escapeHtml(nav.prices)}</a>
           <a href="${assetPrefix}#wildlife">${escapeHtml(nav.wildlife)}</a>
-          <a href="/meista/">Meistä</a>
-          <a href="/yhteystiedot/">Yhteystiedot</a>
-          <a href="/artikkelit/">Artikkelit</a>
+          <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
+          <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
+          <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
@@ -2755,7 +2762,7 @@ ${relatedHtml}
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; ${footerBusinessId[lang] || footerBusinessId.fi}: 0708667-9 &middot; ${escapeHtml(footerRights[lang] || footerRights.fi)}</span>
-        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/">${escapeHtml(footerPrivacy[lang] || footerPrivacy.fi)}</a>
       </div>
     </div>
   </footer>
@@ -2913,7 +2920,7 @@ function generatePrivacyPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -3113,7 +3120,7 @@ function generateAboutPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>
@@ -3321,7 +3328,7 @@ function generateContactPage() {
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja / Privacy Policy</a>
+        <a href="/tietosuoja/">Tietosuoja</a>
       </div>
     </div>
   </footer>

@@ -662,8 +662,12 @@ const translations = {
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
   'footer.follow': { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow Us' },
-  'footer.privacy': { fi: 'Tietosuojaseloste', sv: 'Integritetspolicy', en: 'Privacy Policy' },
+  'footer.privacy': { fi: 'Tietosuoja', sv: 'Integritetspolicy', en: 'Privacy Policy' },
   'footer.rights': { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' },
+  'footer.about': { fi: 'Meistä', sv: 'Om oss', en: 'About Us' },
+  'footer.contactpage': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
+  'footer.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
+  'footer.businessid': { fi: 'Y-tunnus', sv: 'FO-nummer', en: 'Business ID' },
 
   // Privacy Policy
   'privacy.title': { fi: 'Tietosuojaseloste', sv: 'Integritetspolicy', en: 'Privacy Policy' },
