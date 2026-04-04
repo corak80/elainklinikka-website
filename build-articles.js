@@ -1119,7 +1119,12 @@ const servicePages = [
     },
     relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
     schemaService: 'Veterinary Dental Care',
-    procedureType: 'SurgicalProcedure'
+    procedureType: 'SurgicalProcedure',
+    faq: [
+      { q: 'Paljonko koiran hammashoito maksaa?', a: 'Hammaskiven poisto koiralle maksaa alkaen 300 € (alle 20 kg) tai 350 € (yli 20 kg). Hinta sisältää yleisanestesian, hammaskiven poiston, hammasröntgenkuvat ja suun tutkimuksen. Hampaiden poistot hinnoitellaan tapauskohtaisesti.' },
+      { q: 'Miten tiedän, tarvitseeko lemmikkini hammashoitoa?', a: 'Merkkejä hammassairauksista ovat pahanhajuinen hengitys, hammaskivi, punaiset ikenet, syömisen vaikeudet ja kuolaaminen. Suosittelemme hampaiden tarkastusta vastaanoton yhteydessä — usein ongelmia ei huomaa päällepäin.' },
+      { q: 'Tehdäänkö hammashoito nukutuksessa?', a: 'Kyllä, kaikki hammashoidot tehdään yleisanestesiassa. Tämä on ainoa tapa tutkia ja hoitaa hampaat kunnolla ja turvallisesti. Nukutuksen aikana valvomme jatkuvasti elintoimintoja.' },
+    ]
   },
   {
     slug: 'sydantutkimukset',
@@ -1173,7 +1178,12 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'anestesiaturvallisuus'],
-    schemaService: 'Veterinary Cardiology'
+    schemaService: 'Veterinary Cardiology',
+    faq: [
+      { q: 'Miten tiedän, onko lemmikkilläni sydänsairaus?', a: 'Oireita voivat olla yskiminen, rasituksen sietokyvyn heikkeneminen, tiheä hengitys tai pyörtyily. Monilla roduilla (Cavalier, Dobermann, Maine Coon) suosittelemme tutkimusta jo nuorella iällä, ennen kuin oireita ilmenee.' },
+      { q: 'Paljonko sydämen ultraääni maksaa?', a: 'Sydäntutkimuksen hinta riippuu tutkimuksen laajuudesta. Ota yhteyttä klinikkaan saadaksesi tarkemman hinta-arvion. Puhelin (06) 321 7300.' },
+      { q: 'Tarvitaanko sydäntutkimukseen ajanvaraus?', a: 'Kyllä, sydäntutkimus vaatii ajanvarauksen. Varaa aika soittamalla (06) 321 7300 tai verkkoajanvarauksesta saarivet.fi.' },
+    ]
   },
   {
     slug: 'kirurgia',
@@ -1225,7 +1235,12 @@ const servicePages = [
     },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
     schemaService: 'Veterinary Surgery',
-    procedureType: 'SurgicalProcedure'
+    procedureType: 'SurgicalProcedure',
+    faq: [
+      { q: 'Onko eläinkirurgia turvallista?', a: 'Kyllä. Käytämme inhalaatioanestesiaa ja kattavaa monitorointia (sydän, happi, verenpaine, lämpötila). Anestesian aikana eläintä valvotaan jatkuvasti ja kivunlievitys on aina osa hoitoa.' },
+      { q: 'Paljonko koiran sterilisaatio maksaa?', a: 'Naaraskoiran sterilisaatio alkaen 480 € ja uroskoiran kastraatio alkaen 380 €. Hinta riippuu koiran koosta. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tikkien poiston.' },
+      { q: 'Miten pitkä on leikkauksesta toipuminen?', a: 'Toipumisaika riippuu toimenpiteestä. Sterilisaatiosta toipuu yleensä 10-14 päivässä, ortopedisistä leikkauksista 6-8 viikossa. Kotihoito-ohjeet annetaan aina mukaan.' },
+    ]
   },
   {
     slug: 'tahystykset',
@@ -1333,7 +1348,12 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
-    schemaService: 'Veterinary Vaccination'
+    schemaService: 'Veterinary Vaccination',
+    faq: [
+      { q: 'Paljonko koiran rokotus maksaa?', a: 'Koiran 4-rokotus (DHPPI) maksaa 77 € ja rabieslisällä 85 €. Kissan 3-rokotus (RCP) maksaa 75 € ja rabieslisällä 86 €.' },
+      { q: 'Kuinka usein rokotukset uusitaan?', a: 'Perusrokotusten jälkeen tehosterokotus annetaan vuoden kuluttua. Sen jälkeen aikuisten koirien ja kissojen perusrokotukset uusitaan 1-3 vuoden välein rokotteesta riippuen. Rabiesrokotus uusitaan tyypillisesti 2-3 vuoden välein.' },
+      { q: 'Voiko tulla ilman ajanvarausta?', a: 'Kyllä! Tarjoamme walk-in-rokotukset ilman ajanvarausta tiistaisin klo 15:30-16:00. Muulloin varaa aika puhelimitse (06) 321 7300 tai verkosta saarivet.fi.' },
+    ]
   },
   {
     slug: 'ultraaani',
@@ -1712,7 +1732,12 @@ const servicePages = [
     },
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
     schemaService: 'Veterinary Spay and Neuter',
-    procedureType: 'SurgicalProcedure'
+    procedureType: 'SurgicalProcedure',
+    faq: [
+      { q: 'Paljonko kissan sterilisaatio maksaa?', a: 'Naaraskissan sterilisaatio maksaa 205 € ja uroskissan kastraatio 105 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kaulurin tai haalarin.' },
+      { q: 'Missä iässä sterilisaatio tehdään?', a: 'Kissat sterilisoidaan yleensä noin 5-6 kuukauden iässä. Pienillä koiraroduilla noin 6 kuukauden iässä, suurilla roduilla 12-18 kuukauden iässä. Eläinlääkäri arvioi parhaan ajankohdan yksilöllisesti.' },
+      { q: 'Miten pitkä on toipumisaika?', a: 'Sterilisaation jälkeen lemmikki tarvitsee lepoa noin 10-14 päivää. Kipulääkkeet annetaan mukaan kotiin ja haava suojataan haalarilla tai kaulurilla. Useimmat potilaat toipuvat nopeasti.' },
+    ]
   },
   {
     slug: 'sisataudit',
@@ -2679,7 +2704,21 @@ function generateServicePage(service, translations, lang) {
         "item": "${canonicalUrl}"
       }
     ]
-  }]
+  }${service.faq && service.faq.length > 0 ? `,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [${service.faq.map(f => `
+      {
+        "@type": "Question",
+        "name": ${JSON.stringify(f.q)},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": ${JSON.stringify(f.a)}
+        }
+      }`).join(',')}
+    ]
+  }` : ''}]
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
