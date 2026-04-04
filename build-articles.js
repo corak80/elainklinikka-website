@@ -2568,7 +2568,7 @@ function generateServicePage(service, translations, lang) {
   for (const section of pageSections) {
     sectionsHtml += `
           <h2>${escapeHtml(section.heading)}</h2>
-          <p>${escapeHtml(section.text)}</p>`;
+          <p>${section.text}</p>`;
   }
 
   // Build related articles — translate titles/tags/intros per page language
