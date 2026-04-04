@@ -367,9 +367,7 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
 
   // Build href based on language
   const articleHref = (slug) => {
-    if (lang === 'fi') return `${slug}.html`;
-    if (lang === 'sv') return `../../sv/artiklar/${slug}.html`;
-    return `../../en/articles/${slug}.html`;
+    return `${slug}.html`;
   };
 
   let cards = '';
@@ -571,21 +569,31 @@ function generateArticlePage(article, translations, specialContent, lang) {
   }
   const introKey = `${article.prefix}.intro`;
   let description = t(introKey);
+  // If intro is too short, append first section text
+  if (description.length < 120) {
+    for (const suffix of article.sections) {
+      if (suffix !== 'intro' && suffix.endsWith('.text')) {
+        const extra = t(`${article.prefix}.${suffix}`);
+        if (extra) {
+          description = description.replace(/\s*$/, ' ') + extra;
+          break;
+        }
+      }
+    }
+  }
   description = description.replace(/[,;:\s]+$/, '').replace(/\.{2,}$/, '.');
   if (description.length > 155) {
     const truncated = description.substring(0, 155);
     const lastPeriod = truncated.lastIndexOf('. ');
     const lastExcl = truncated.lastIndexOf('! ');
     const cutPoint = Math.max(lastPeriod, lastExcl);
-    if (cutPoint > 80) {
+    if (cutPoint > 120) {
       description = description.substring(0, cutPoint + 1);
+    } else if (cutPoint > 80) {
+      // First period is too early — try to include more text up to 155
+      description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
     } else {
-      const lastComma = truncated.lastIndexOf(', ');
-      if (lastComma > 80) {
-        description = description.substring(0, lastComma) + '...';
-      } else {
-        description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
-      }
+      description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
     }
   }
 
@@ -1154,7 +1162,7 @@ const servicePages = [
     slugEn: 'cardiac-examinations',
     title: 'Sydäntutkimukset — Eläinklinikka Saari, Vaasa',
     h1: 'Sydäntutkimukset',
-    metaDesc: 'Sydämen ultraääni, EKG ja Holter koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset. Eläinklinikka Saari.',
+    metaDesc: 'Sydämen ultraääni, EKG ja Holter-tutkimukset koirille ja kissoille Vaasassa. Viralliset sydäntutkimukset ja jalostustarkastukset. Eläinklinikka Saari.',
     icon: '❤️',
     sections: [
       { heading: 'Sydänsairaudet lemmikeillä', text: 'Sydänsairaudet ovat yleisiä erityisesti tietyissä koira- ja kissaroduissa. Cavalier kingcharlesinspanielilla, dobermanneilla ja Maine Coon -kissoilla on perinnöllinen alttius sydänsairauksille. Ajoissa aloitettu lääkitys voi pidentää lemmikin elinikää huomattavasti — siksi säännölliset sydäntarkastukset ovat tärkeitä etenkin riskiroduilla.' },
