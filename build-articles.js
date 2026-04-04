@@ -357,11 +357,20 @@ const relatedArticles = {
   'klinikkaeläinhoitaja': ['anestesiaturvallisuus', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
 };
 
-function generateRelatedArticlesHtml(currentSlug, translations) {
+function generateRelatedArticlesHtml(currentSlug, translations, lang) {
+  lang = lang || 'fi';
   const related = relatedArticles[currentSlug];
   if (!related || related.length === 0) return '';
 
-  const t = (key) => translations[key]?.fi || '';
+  const t = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
+  const readAlso = { fi: 'Lue myös', sv: 'Läs också', en: 'Read also' };
+
+  // Build href based on language
+  const articleHref = (slug) => {
+    if (lang === 'fi') return `${slug}.html`;
+    if (lang === 'sv') return `../../sv/artiklar/${slug}.html`;
+    return `../../en/articles/${slug}.html`;
+  };
 
   let cards = '';
   for (const slug of related) {
@@ -372,7 +381,7 @@ function generateRelatedArticlesHtml(currentSlug, translations) {
     const intro = t(`${article.prefix}.intro`);
     const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
     cards += `
-        <a href="${slug}.html" class="related-article-card">
+        <a href="${articleHref(slug)}" class="related-article-card">
           <span class="article-tag">${escapeHtml(tag)}</span>
           <h3>${escapeHtml(title)}</h3>
           <p>${escapeHtml(shortIntro)}</p>
@@ -381,7 +390,7 @@ function generateRelatedArticlesHtml(currentSlug, translations) {
 
   return `
       <div class="related-articles">
-        <h2>Lue myös</h2>
+        <h2>${readAlso[lang]}</h2>
         <div class="related-articles-grid">${cards}
         </div>
       </div>`;
@@ -390,8 +399,9 @@ function generateRelatedArticlesHtml(currentSlug, translations) {
 // ──────────────────────────────────────────────
 // 2c. FAQ schema generator — extracts Q&A pairs from article sections
 // ──────────────────────────────────────────────
-function generateFaqSchema(article, translations) {
-  const t = (key) => translations[key]?.fi || '';
+function generateFaqSchema(article, translations, lang) {
+  lang = lang || 'fi';
+  const t = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
   const faqPairs = [];
 
   for (let i = 0; i < article.sections.length; i++) {
@@ -483,9 +493,10 @@ function extractSpecialContent(indexHtml) {
 // ──────────────────────────────────────────────
 // 4. Generate article HTML content
 // ──────────────────────────────────────────────
-function generateArticleBody(article, translations, specialContent) {
+function generateArticleBody(article, translations, specialContent, lang) {
+  lang = lang || 'fi';
   const t = (key) => {
-    if (translations[key] && translations[key].fi) return translations[key].fi;
+    if (translations[key] && (translations[key][lang] || translations[key].fi)) return translations[key][lang] || translations[key].fi;
     return '';
   };
 
@@ -537,36 +548,31 @@ function generateArticleBody(article, translations, specialContent) {
 // ──────────────────────────────────────────────
 // 5. Generate full article HTML page
 // ──────────────────────────────────────────────
-function generateArticlePage(article, translations, specialContent) {
+function generateArticlePage(article, translations, specialContent, lang) {
+  lang = lang || 'fi';
   const t = (key) => {
-    if (translations[key] && translations[key].fi) return translations[key].fi;
+    if (translations[key] && (translations[key][lang] || translations[key].fi)) return translations[key][lang] || translations[key].fi;
     return '';
   };
 
   const title = t(article.titleKey);
   const tag = t(article.tagKey);
-  // Smart page title: if full title + suffix > 70 chars, use part before dash
   const suffix = ' | Eläinklinikka Saari';
   let pageTitle;
   if ((title + suffix).length <= 60) {
     pageTitle = title + suffix;
   } else {
-    // Try using part before em-dash/en-dash
     const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
     if (dashMatch && (dashMatch[1] + suffix).length <= 60) {
       pageTitle = dashMatch[1] + suffix;
     } else {
-      // Just use title without suffix to stay under limit
       pageTitle = title.length <= 60 ? title : title.substring(0, 57) + '...';
     }
   }
-  // Use first 155 chars of intro, cut at sentence boundary
   const introKey = `${article.prefix}.intro`;
   let description = t(introKey);
-  // Clean trailing punctuation that looks bad in meta descriptions
   description = description.replace(/[,;:\s]+$/, '').replace(/\.{2,}$/, '.');
   if (description.length > 155) {
-    // Try to cut at last sentence boundary before 155 chars
     const truncated = description.substring(0, 155);
     const lastPeriod = truncated.lastIndexOf('. ');
     const lastExcl = truncated.lastIndexOf('! ');
@@ -574,7 +580,6 @@ function generateArticlePage(article, translations, specialContent) {
     if (cutPoint > 80) {
       description = description.substring(0, cutPoint + 1);
     } else {
-      // Fall back to last comma or space
       const lastComma = truncated.lastIndexOf(', ');
       if (lastComma > 80) {
         description = description.substring(0, lastComma) + '...';
@@ -584,17 +589,31 @@ function generateArticlePage(article, translations, specialContent) {
     }
   }
 
-  const canonicalUrl = `${BASE_URL}/articles/${article.slug}.html`;
-  const articleBody = generateArticleBody(article, translations, specialContent);
-  const relatedHtml = generateRelatedArticlesHtml(article.slug, translations);
-  const faqSchema = generateFaqSchema(article, translations);
+  // URLs for all language versions
+  const fiUrl = `${BASE_URL}/articles/${article.slug}.html`;
+  const svUrl = `${BASE_URL}/sv/artiklar/${article.slug}.html`;
+  const enUrl = `${BASE_URL}/en/articles/${article.slug}.html`;
+  const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
+  const assetPrefix = lang === 'fi' ? '../' : '../../../';
+
+  const articleBody = generateArticleBody(article, translations, specialContent, lang);
+  const relatedHtml = generateRelatedArticlesHtml(article.slug, translations, lang);
+  const faqSchema = generateFaqSchema(article, translations, lang);
   const dateStr = article.date || '2026';
   const today = new Date().toISOString().split('T')[0];
   const isoDatePublished = article.publishDate || '2026-01-01';
   const isoDateModified = today;
 
+  const ogLocales = { fi: 'fi_FI', sv: 'sv_SE', en: 'en_US' };
+  const ogLocale = ogLocales[lang] || 'fi_FI';
+  const skipTexts = { fi: 'Siirry sisältöön', sv: 'Hoppa till innehållet', en: 'Skip to content' };
+  const backTexts = { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' };
+  const readAlsoTexts = { fi: 'Lue myös', sv: 'Läs också', en: 'Read also' };
+  const breadcrumbHome = { fi: 'Etusivu', sv: 'Startsidan', en: 'Home' };
+  const breadcrumbArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
+
   return `<!DOCTYPE html>
-<html lang="fi">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -628,8 +647,10 @@ function generateArticlePage(article, translations, specialContent) {
 
   <meta name="description" content="${escapeAttr(description)}">
   <link rel="canonical" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="fi" href="${canonicalUrl}">
-  <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${fiUrl}">
+  <link rel="alternate" hreflang="sv" href="${svUrl}">
+  <link rel="alternate" hreflang="en" href="${enUrl}">
+  <link rel="alternate" hreflang="x-default" href="${fiUrl}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
@@ -637,7 +658,7 @@ function generateArticlePage(article, translations, specialContent) {
   <meta property="og:title" content="${escapeAttr(title)}">
   <meta property="og:description" content="${escapeAttr(description)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
-  <meta property="og:locale" content="fi_FI">
+  <meta property="og:locale" content="${ogLocale}">
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
   <!-- Twitter Card -->
@@ -686,13 +707,13 @@ function generateArticlePage(article, translations, specialContent) {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Etusivu",
+        "name": "${breadcrumbHome[lang]}",
         "item": "${BASE_URL}/"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Artikkelit",
+        "name": "${breadcrumbArticles[lang]}",
         "item": "${BASE_URL}/artikkelit/"
       },
       {
@@ -705,28 +726,28 @@ function generateArticlePage(article, translations, specialContent) {
   }${faqSchema}]
   </script>
 
-  <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
 </head>
 <body class="article-page">
-  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+  <a href="#main-content" class="skip-link">${skipTexts[lang]}</a>
 
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="../" class="logo">
-        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      <a href="${assetPrefix}" class="logo">
+        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
 
       <nav class="nav">
         <div class="nav-actions">
           <div class="lang-toggle">
-            <button data-lang="fi" class="active" onclick="setLanguage('fi')">FI</button>
-            <button data-lang="sv" onclick="setLanguage('sv')">SV</button>
-            <button data-lang="en" onclick="setLanguage('en')">EN</button>
+            <a href="${fiUrl}" class="${lang === 'fi' ? 'active' : ''}"${lang === 'fi' ? ' aria-current="page"' : ''}>FI</a>
+            <a href="${svUrl}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
+            <a href="${enUrl}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
           </div>
-          <a href="../" class="btn btn-outline btn-sm" data-i18n="articles.back">\u2190 Takaisin etusivulle</a>
+          <a href="${assetPrefix}" class="btn btn-outline btn-sm">${backTexts[lang]}</a>
         </div>
       </nav>
     </div>
@@ -738,15 +759,15 @@ function generateArticlePage(article, translations, specialContent) {
     <div class="container">
       <article class="article-card" data-category="${article.category}">
         <div class="article-header">
-          <span class="article-tag" data-i18n="${article.tagKey}">${tag}</span>
+          <span class="article-tag">${tag}</span>
 ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
-        <h1 data-i18n="${article.titleKey}">${title}</h1>
-        <div class="article-byline">Eläinlääkäri ${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>
+        <h1>${title}</h1>
+        <div class="article-byline">${lang === 'en' ? 'Veterinarian' : lang === 'sv' ? 'Veterinär' : 'Eläinlääkäri'} ${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>
         <div class="article-content">
 ${articleBody}        </div>
       </article>
 ${relatedHtml}
-      <a href="../" class="btn btn-secondary articles-back" data-i18n="articles.back">\u2190 Takaisin etusivulle</a>
+      <a href="${assetPrefix}" class="btn btn-secondary articles-back">${backTexts[lang]}</a>
     </div>
   </section>
   </main>
@@ -760,11 +781,11 @@ ${relatedHtml}
         </div>
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.quicklinks">Pikalinkit</strong>
-          <a href="../#about" data-i18n="nav.about">Klinikka</a>
-          <a href="../#services" data-i18n="nav.services">Palvelut</a>
-          <a href="../#team" data-i18n="nav.team">Henkilökunta</a>
-          <a href="../#prices" data-i18n="nav.prices">Hinnasto</a>
-          <a href="../#wildlife" data-i18n="nav.wildlife">Wildlife</a>
+          <a href="${assetPrefix}#about" data-i18n="nav.about">Klinikka</a>
+          <a href="${assetPrefix}#services" data-i18n="nav.services">Palvelut</a>
+          <a href="${assetPrefix}#team" data-i18n="nav.team">Henkilökunta</a>
+          <a href="${assetPrefix}#prices" data-i18n="nav.prices">Hinnasto</a>
+          <a href="${assetPrefix}#wildlife" data-i18n="nav.wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
@@ -790,7 +811,8 @@ ${relatedHtml}
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="${assetPrefix}js/main.js"></script>
+  ${lang !== 'fi' ? `<script>if(typeof setLanguage==='function')setLanguage('${lang}');</script>` : ''}
 
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">
@@ -3454,6 +3476,20 @@ function generateSitemap() {
     <priority>0.8</priority>
   </url>
 `;
+    xml += `  <url>
+    <loc>${BASE_URL}/sv/artiklar/${article.slug}.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+`;
+    xml += `  <url>
+    <loc>${BASE_URL}/en/articles/${article.slug}.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+`;
   }
 
   xml += `</urlset>
@@ -3494,15 +3530,27 @@ function main() {
     fs.mkdirSync(ARTICLES_DIR, { recursive: true });
   }
 
-  // Generate each article page
+  // Generate each article page (FI, SV, EN)
   let count = 0;
   for (const article of articles) {
-    const title = translations[article.titleKey]?.fi || article.slug;
-    const html = generateArticlePage(article, translations, specialContent);
-    const filePath = path.join(ARTICLES_DIR, `${article.slug}.html`);
-    fs.writeFileSync(filePath, html, 'utf-8');
+    // Finnish
+    const titleFi = translations[article.titleKey]?.fi || article.slug;
+    const htmlFi = generateArticlePage(article, translations, specialContent, 'fi');
+    fs.writeFileSync(path.join(ARTICLES_DIR, `${article.slug}.html`), htmlFi, 'utf-8');
     count++;
-    console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${title.substring(0, 60)}...`);
+    console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${titleFi.substring(0, 60)}...`);
+
+    // Swedish
+    const svDir = path.join(ROOT, 'sv', 'artiklar');
+    if (!fs.existsSync(svDir)) fs.mkdirSync(svDir, { recursive: true });
+    const htmlSv = generateArticlePage(article, translations, specialContent, 'sv');
+    fs.writeFileSync(path.join(svDir, `${article.slug}.html`), htmlSv, 'utf-8');
+
+    // English
+    const enDir = path.join(ROOT, 'en', 'articles');
+    if (!fs.existsSync(enDir)) fs.mkdirSync(enDir, { recursive: true });
+    const htmlEn = generateArticlePage(article, translations, specialContent, 'en');
+    fs.writeFileSync(path.join(enDir, `${article.slug}.html`), htmlEn, 'utf-8');
   }
 
   // Generate service landing pages (FI, SV, EN)
