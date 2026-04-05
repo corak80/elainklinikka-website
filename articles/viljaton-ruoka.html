@@ -22,12 +22,19 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <!-- Google Ads: Click to call conversion -->
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -62,7 +69,7 @@
     "description": "Viljaton lemmikkien ruokavalio on ollut valtava trendi viime vuosina. Markkinointi lupaa \"luonnollisempaa\" ruokavaliota, mutta vuonna 2018 Yhdysvaltain...",
     "image": "https://saarivet.fi/images/clinic-about.jpg",
     "datePublished": "2026-01-25",
-    "dateModified": "2026-04-04",
+    "dateModified": "2026-04-05",
     "author": {
       "@type": "Person",
       "name": "Assaf Wydra",

@@ -644,12 +644,19 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <!-- Google Ads: Click to call conversion -->
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -959,12 +966,19 @@ function generateArticleIndex(translations) {
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -2663,12 +2677,19 @@ function generateServicePage(service, translations, lang) {
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -3026,12 +3047,19 @@ function generateAboutPage() {
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -3226,12 +3254,19 @@ function generateContactPage() {
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 

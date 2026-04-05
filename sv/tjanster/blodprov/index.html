@@ -20,12 +20,19 @@
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
   <script>
-  function gtag_report_conversion() {
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
     gtag('event', 'conversion', {
       'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
       'value': 1.0,
-      'currency': 'EUR'
+      'currency': 'EUR',
+      'event_callback': callback
     });
+    return false;
   }
   </script>
 
@@ -56,7 +63,7 @@
     "name": "Blodprov",
     "description": "Blodprov för husdjur i Vasa. Eget laboratorium med snabba resultat under besöket. Hematologi, klinisk kemi, hormoner. Eläinklinikka Saari.",
     "url": "https://saarivet.fi/sv/tjanster/blodprov/",
-    "lastReviewed": "2026-04-04",
+    "lastReviewed": "2026-04-05",
     "mainEntity": {
       "@type": "MedicalProcedure",
       "name": "Veterinary Blood Testing",
