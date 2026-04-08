@@ -625,6 +625,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
@@ -948,6 +949,7 @@ function generateArticleIndex(translations) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Artikkelit — Eläinklinikka Saari</title>
 
   <!-- Google Analytics: Consent Mode v2 -->
@@ -2660,6 +2662,7 @@ function generateServicePage(service, translations, lang) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <script>
@@ -2871,6 +2874,7 @@ function generatePrivacyPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietosuojaseloste — Eläinklinikka Saari</title>
 
   <script>
@@ -3030,6 +3034,7 @@ function generateAboutPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietoa klinikasta — Eläinklinikka Saari, Vaasa</title>
 
   <script>
@@ -3237,6 +3242,7 @@ function generateContactPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Yhteystiedot — Eläinklinikka Saari, Vaasa</title>
 
   <script>
