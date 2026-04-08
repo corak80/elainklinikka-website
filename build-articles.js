@@ -3518,23 +3518,24 @@ function generateSitemap() {
   }
 
   for (const article of articles) {
+    const articleDate = article.publishDate || today;
     xml += `  <url>
     <loc>${BASE_URL}/articles/${article.slug}.html</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 `;
     xml += `  <url>
     <loc>${BASE_URL}/sv/artiklar/${article.slug}.html</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 `;
     xml += `  <url>
     <loc>${BASE_URL}/en/articles/${article.slug}.html</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
