@@ -603,6 +603,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const enUrl = `${BASE_URL}/en/articles/${article.slug}.html`;
   const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
   const assetPrefix = lang === 'fi' ? '../' : '../../../';
+  const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
 
   const articleBody = generateArticleBody(article, translations, specialContent, lang);
   const relatedHtml = generateRelatedArticlesHtml(article.slug, translations, lang);
@@ -752,7 +753,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="${assetPrefix}" class="logo">
+      <a href="${homeUrl}" class="logo">
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
 
@@ -763,7 +764,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
             <a href="${svUrl}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
             <a href="${enUrl}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
           </div>
-          <a href="${assetPrefix}" class="btn btn-outline btn-sm">${backTexts[lang]}</a>
+          <a href="${homeUrl}" class="btn btn-outline btn-sm">${backTexts[lang]}</a>
         </div>
       </nav>
     </div>
@@ -783,7 +784,7 @@ ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
 ${articleBody}        </div>
       </article>
 ${relatedHtml}
-      <a href="${assetPrefix}" class="btn btn-secondary articles-back">${backTexts[lang]}</a>
+      <a href="${homeUrl}" class="btn btn-secondary articles-back">${backTexts[lang]}</a>
     </div>
   </section>
   </main>
@@ -797,11 +798,11 @@ ${relatedHtml}
         </div>
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.quicklinks">Pikalinkit</strong>
-          <a href="${assetPrefix}#about" data-i18n="nav.about">Klinikka</a>
-          <a href="${assetPrefix}#services" data-i18n="nav.services">Palvelut</a>
-          <a href="${assetPrefix}#team" data-i18n="nav.team">Henkilökunta</a>
-          <a href="${assetPrefix}#prices" data-i18n="nav.prices">Hinnasto</a>
-          <a href="${assetPrefix}#wildlife" data-i18n="nav.wildlife">Wildlife</a>
+          <a href="${homeUrl}#about" data-i18n="nav.about">Klinikka</a>
+          <a href="${homeUrl}#services" data-i18n="nav.services">Palvelut</a>
+          <a href="${homeUrl}#team" data-i18n="nav.team">Henkilökunta</a>
+          <a href="${homeUrl}#prices" data-i18n="nav.prices">Hinnasto</a>
+          <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
@@ -2579,6 +2580,7 @@ function generateServicePage(service, translations, lang) {
 
   // Asset path: FI pages are at /palvelut/slug/, SV/EN at /sv/tjanster/slug/ or /en/services/slug/
   const assetPrefix = lang === 'fi' ? '../../' : '../../../';
+  const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
 
   // Breadcrumb labels
   const breadcrumbHome = { fi: 'Etusivu', sv: 'Startsidan', en: 'Home' };
@@ -2619,6 +2621,7 @@ function generateServicePage(service, translations, lang) {
 
   // Build related articles — translate titles/tags/intros per page language
   const tLang = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
+  const articlePathPrefix = lang === 'fi' ? 'articles' : lang === 'sv' ? 'sv/artiklar' : 'en/articles';
   let relatedHtml = '';
   if (service.relatedArticles && service.relatedArticles.length > 0) {
     let cards = '';
@@ -2630,7 +2633,7 @@ function generateServicePage(service, translations, lang) {
       const intro = tLang(`${article.prefix}.intro`);
       const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
       cards += `
-          <a href="${assetPrefix}articles/${slug}.html" class="related-article-card">
+          <a href="${assetPrefix}${articlePathPrefix}/${slug}.html" class="related-article-card">
             <span class="article-tag">${escapeHtml(tag)}</span>
             <h3>${escapeHtml(title)}</h3>
             <p>${escapeHtml(shortIntro)}</p>
@@ -2784,13 +2787,13 @@ function generateServicePage(service, translations, lang) {
 
   <header class="header">
     <div class="container">
-      <a href="${assetPrefix}" class="logo">
+      <a href="${homeUrl}" class="logo">
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <nav class="nav">
         <div class="nav-actions">
 ${langSwitcher}
-          <a href="${assetPrefix}" class="btn btn-outline btn-sm">${escapeHtml(backText)}</a>
+          <a href="${homeUrl}" class="btn btn-outline btn-sm">${escapeHtml(backText)}</a>
         </div>
       </nav>
     </div>
@@ -2817,7 +2820,7 @@ ${langSwitcher}
         </div>
       </div>
 ${relatedHtml}
-      <a href="${assetPrefix}" class="btn btn-secondary articles-back">${escapeHtml(backText)}</a>
+      <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(backText)}</a>
     </div>
   </section>
   </main>
@@ -2830,11 +2833,11 @@ ${relatedHtml}
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
-          <a href="${assetPrefix}#about">${escapeHtml(nav.about)}</a>
-          <a href="${assetPrefix}#services">${escapeHtml(nav.services)}</a>
-          <a href="${assetPrefix}#team">${escapeHtml(nav.team)}</a>
-          <a href="${assetPrefix}#prices">${escapeHtml(nav.prices)}</a>
-          <a href="${assetPrefix}#wildlife">${escapeHtml(nav.wildlife)}</a>
+          <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
+          <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
+          <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
+          <a href="${homeUrl}#prices">${escapeHtml(nav.prices)}</a>
+          <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
           <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>

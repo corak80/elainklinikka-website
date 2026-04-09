@@ -2370,10 +2370,11 @@ const serviceIcons = {
 };
 
 // --- Language System ---
-let currentLang = new URLSearchParams(window.location.search).get('lang') || 'fi';
+let currentLang = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('preferredLanguage') || 'fi';
 
 function setLanguage(lang) {
   currentLang = lang;
+  try { localStorage.setItem('preferredLanguage', lang); } catch(e) {}
 
   // Update all translatable elements
   document.querySelectorAll('[data-i18n]').forEach(el => {
