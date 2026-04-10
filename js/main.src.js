@@ -2410,6 +2410,20 @@ function setLanguage(lang) {
     if (href) el.setAttribute('href', href);
   });
 
+  // Rewrite article links to language-specific paths so clicking an article preserves language
+  const articleBaseMap = { fi: '/articles/', en: '/en/articles/', sv: '/sv/artiklar/' };
+  document.querySelectorAll('a[href]').forEach(a => {
+    // Skip the language toggle bar — those links must keep their fixed targets
+    if (a.closest('.lang-toggle')) return;
+    let url;
+    try { url = new URL(a.href); } catch(e) { return; }
+    if (url.origin !== window.location.origin) return;
+    const m = url.pathname.match(/^\/(?:articles|en\/articles|sv\/artiklar)\/([^\/]+\.html)$/);
+    if (m) {
+      a.setAttribute('href', articleBaseMap[lang] + m[1] + url.search + url.hash);
+    }
+  });
+
   // Update vet modal if open
   const modal = document.getElementById('vet-modal');
   if (modal && modal.classList.contains('active')) {
