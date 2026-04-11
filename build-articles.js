@@ -408,10 +408,10 @@ function generateFaqSchema(article, translations, lang) {
       const nextSuffix = article.sections[i + 1];
       if (nextSuffix.endsWith('.text')) {
         const question = t(`${article.prefix}.${suffix}`);
-        let answer = t(`${article.prefix}.${nextSuffix}`);
+        const answer = t(`${article.prefix}.${nextSuffix}`);
         if (question && answer) {
-          // Truncate answer to 300 chars for schema
-          if (answer.length > 300) answer = answer.substring(0, 297) + '...';
+          // Use full answer text — Google allows long FAQ answers (up to ~10k chars)
+          // and truncation creates invalid structured data + hurts AI Overview citation.
           faqPairs.push({ question, answer });
         }
       }
@@ -582,18 +582,22 @@ function generateArticlePage(article, translations, specialContent, lang) {
     }
   }
   description = description.replace(/[,;:\s]+$/, '').replace(/\.{2,}$/, '.');
-  if (description.length > 155) {
-    const truncated = description.substring(0, 155);
-    const lastPeriod = truncated.lastIndexOf('. ');
-    const lastExcl = truncated.lastIndexOf('! ');
-    const cutPoint = Math.max(lastPeriod, lastExcl);
-    if (cutPoint > 120) {
-      description = description.substring(0, cutPoint + 1);
-    } else if (cutPoint > 80) {
-      // First period is too early — try to include more text up to 155
-      description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
+  // Target ~155 chars but allow up to 170 to end on a complete sentence.
+  // Never emit a literal "..." — it looks broken in SERPs.
+  if (description.length > 170) {
+    const window = description.substring(0, 170);
+    const lastPeriod = window.lastIndexOf('. ');
+    const lastExcl = window.lastIndexOf('! ');
+    const lastQuest = window.lastIndexOf('? ');
+    const sentenceCut = Math.max(lastPeriod, lastExcl, lastQuest);
+    if (sentenceCut >= 80) {
+      // Cut at a sentence boundary (keep the terminator)
+      description = description.substring(0, sentenceCut + 1);
     } else {
-      description = truncated.substring(0, truncated.lastIndexOf(' ')) + '...';
+      // No good sentence boundary — fall back to word boundary within 155 chars, no ellipsis
+      const wordWindow = description.substring(0, 155);
+      const lastSpace = wordWindow.lastIndexOf(' ');
+      description = (lastSpace > 0 ? wordWindow.substring(0, lastSpace) : wordWindow).replace(/[,;:\s]+$/, '');
     }
   }
 

@@ -42,9 +42,6 @@
   <meta name="keywords" content="eläinlääkäri, Vaasa, eläinklinikka, eläinlääkäriasema, koira, kissa, hammashoito, kirurgia, sydäntutkimus, ultraääni, rokotus, veterinär, djurklinik">
   <link rel="canonical" href="https://saarivet.fi/">
   <link rel="alternate" hreflang="fi" href="https://saarivet.fi/">
-  <link rel="alternate" hreflang="sv" href="https://saarivet.fi/">
-  <link rel="alternate" hreflang="en" href="https://saarivet.fi/">
-  <link rel="alternate" hreflang="x-default" href="https://saarivet.fi/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -105,15 +102,60 @@
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "ISFM Cat Friendly Clinic"
     },
-    "medicalSpecialty": ["Veterinary Dentistry", "Veterinary Cardiology", "Veterinary Surgery", "Veterinary Dermatology"],
+    "medicalSpecialty": ["Veterinary Dentistry", "Veterinary Cardiology", "Veterinary Surgery", "Veterinary Dermatology", "Veterinary Ophthalmology", "Veterinary Internal Medicine", "Veterinary Orthopedics", "Veterinary Anesthesiology"],
     "availableService": [
-      {"@type": "MedicalProcedure", "name": "Hammashoito / Dental Care"},
-      {"@type": "MedicalProcedure", "name": "Sydäntutkimukset / Cardiac Examinations"},
-      {"@type": "MedicalProcedure", "name": "Ultraäänitutkimus / Ultrasound"},
-      {"@type": "MedicalProcedure", "name": "Ortopedinen kirurgia / Orthopedic Surgery"},
-      {"@type": "MedicalProcedure", "name": "Pehmytkudoskirurgia / Soft Tissue Surgery"},
-      {"@type": "MedicalProcedure", "name": "Rokotukset / Vaccinations"}
+      {"@type": "MedicalProcedure", "name": "Hammashoito / Dental Care", "url": "https://saarivet.fi/palvelut/hammashoito/"},
+      {"@type": "MedicalProcedure", "name": "Sydäntutkimukset / Cardiac Examinations", "url": "https://saarivet.fi/palvelut/sydantutkimukset/"},
+      {"@type": "MedicalProcedure", "name": "Kirurgia / Surgery", "url": "https://saarivet.fi/palvelut/kirurgia/"},
+      {"@type": "MedicalProcedure", "name": "Tähystykset / Endoscopy", "url": "https://saarivet.fi/palvelut/tahystykset/"},
+      {"@type": "MedicalProcedure", "name": "Rokotukset / Vaccinations", "url": "https://saarivet.fi/palvelut/rokotukset/"},
+      {"@type": "MedicalProcedure", "name": "Ultraäänitutkimus / Ultrasound", "url": "https://saarivet.fi/palvelut/ultraaani/"},
+      {"@type": "MedicalProcedure", "name": "Ihotaudit / Dermatology", "url": "https://saarivet.fi/palvelut/ihotaudit/"},
+      {"@type": "MedicalProcedure", "name": "Senioritarkastus / Senior Examination", "url": "https://saarivet.fi/palvelut/senioritarkastus/"},
+      {"@type": "MedicalProcedure", "name": "Pentutarkastus / Puppy Examination", "url": "https://saarivet.fi/palvelut/pentutarkastus/"},
+      {"@type": "MedicalProcedure", "name": "Akupunktio / Acupuncture", "url": "https://saarivet.fi/palvelut/akupunktio/"},
+      {"@type": "MedicalProcedure", "name": "Viralliset tutkimukset / Official Examinations", "url": "https://saarivet.fi/palvelut/viralliset-tutkimukset/"},
+      {"@type": "MedicalProcedure", "name": "Sterilisaatio / Sterilization", "url": "https://saarivet.fi/palvelut/sterilisaatio/"},
+      {"@type": "MedicalProcedure", "name": "Sisätaudit / Internal Medicine", "url": "https://saarivet.fi/palvelut/sisataudit/"},
+      {"@type": "MedicalProcedure", "name": "Silmätaudit / Ophthalmology", "url": "https://saarivet.fi/palvelut/silmataudit/"},
+      {"@type": "MedicalProcedure", "name": "Laboratorio / Laboratory", "url": "https://saarivet.fi/palvelut/laboratorio/"},
+      {"@type": "MedicalProcedure", "name": "Röntgen / X-ray", "url": "https://saarivet.fi/palvelut/rontgen/"},
+      {"@type": "MedicalProcedure", "name": "Eutanasia / Euthanasia", "url": "https://saarivet.fi/palvelut/eutanasia/"},
+      {"@type": "MedicalProcedure", "name": "EU-lemmikkipassi / EU Pet Passport", "url": "https://saarivet.fi/palvelut/eu-lemmikkipassi/"},
+      {"@type": "MedicalProcedure", "name": "Verikokeet / Blood Tests", "url": "https://saarivet.fi/palvelut/verikokeet/"},
+      {"@type": "MedicalProcedure", "name": "Tiineystutkimus / Pregnancy Examination", "url": "https://saarivet.fi/palvelut/tiineystutkimus/"},
+      {"@type": "MedicalProcedure", "name": "Rehumyynti / Pet Food", "url": "https://saarivet.fi/palvelut/rehumyynti/"},
+      {"@type": "MedicalProcedure", "name": "Kuntoutus / Rehabilitation", "url": "https://saarivet.fi/palvelut/kuntoutus/"},
+      {"@type": "MedicalProcedure", "name": "Kastraatio / Castration", "url": "https://saarivet.fi/palvelut/kastraatio/"},
+      {"@type": "MedicalProcedure", "name": "Ortopedia / Orthopedics", "url": "https://saarivet.fi/palvelut/ortopedia/"},
+      {"@type": "MedicalProcedure", "name": "Anestesia / Anesthesia", "url": "https://saarivet.fi/palvelut/anestesia/"},
+      {"@type": "MedicalProcedure", "name": "Hygienia / Hygiene", "url": "https://saarivet.fi/palvelut/hygienia/"}
     ]
+  }
+  </script>
+
+  <!-- Structured Data: WebSite + SearchAction (sitelinks search box) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Eläinklinikka Saari",
+    "alternateName": "Djurklinik Saari",
+    "url": "https://saarivet.fi/",
+    "inLanguage": ["fi", "sv", "en"],
+    "publisher": {
+      "@type": "VeterinaryCare",
+      "name": "Eläinklinikka Saari",
+      "url": "https://saarivet.fi/"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://saarivet.fi/artikkelit/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   }
   </script>
 
