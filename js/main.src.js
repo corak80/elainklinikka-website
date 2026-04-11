@@ -2412,15 +2412,53 @@ function setLanguage(lang) {
 
   // Rewrite article links to language-specific paths so clicking an article preserves language
   const articleBaseMap = { fi: '/articles/', en: '/en/articles/', sv: '/sv/artiklar/' };
+  // Map from FI slug to localized slug. Keeps SPA-rewritten links on localized URLs.
+  const articleSlugMap = {
+    'tta-leikkaus': { sv: 'tta-operation', en: 'tta-surgery' },
+    'video-otoskopia': { sv: 'video-otoskopi', en: 'video-otoscopy' },
+    'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
+    'ripuli': { sv: 'diarre', en: 'diarrhoea' },
+    'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
+    'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
+    'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },
+    'yksityinen-klinikka': { sv: 'privat-klinik', en: 'independent-clinic' },
+    'ruoka-allergiat': { sv: 'foderallergier', en: 'food-allergies' },
+    'kilpirauhasen-liikatoiminta': { sv: 'hypertyreos-katt', en: 'hyperthyroidism' },
+    'munuaisten-vajaatoiminta': { sv: 'njursvikt', en: 'kidney-disease' },
+    'kyynpurema': { sv: 'huggormsbett', en: 'snake-bite' },
+    'kohtutulehdus': { sv: 'livmoderinflammation', en: 'pyometra' },
+    'siili': { sv: 'igelkott', en: 'hedgehog' },
+    'kissaystävällinen-klinikka': { sv: 'kattvanlig-klinik', en: 'cat-friendly-clinic' },
+    'puhkeamattomat-hampaat': { sv: 'icke-framvaxta-tander', en: 'unerupted-teeth' },
+    'gastroskopia': { sv: 'gastroskopi', en: 'gastroscopy' },
+    'hammasresorptio': { sv: 'tandresorption', en: 'tooth-resorption' },
+    'rokotukset': { sv: 'vaccinationsguide', en: 'vaccinations-guide' },
+    'ibd-lymfooma': { sv: 'ibd-lymfom', en: 'ibd-lymphoma' },
+    'hypotermia': { sv: 'hypotermi', en: 'hypothermia' },
+    'anestesiaturvallisuus': { sv: 'anestesisakerhet', en: 'anaesthesia-safety' },
+    'klinikkaeläinhoitaja': { sv: 'klinikdjurskotare', en: 'veterinary-nurse' },
+  };
+  // Reverse lookup: any localized slug → FI slug
+  const slugToFi = {};
+  Object.keys(articleSlugMap).forEach(fi => {
+    slugToFi[fi] = fi;
+    Object.values(articleSlugMap[fi]).forEach(s => { slugToFi[s] = fi; });
+  });
   document.querySelectorAll('a[href]').forEach(a => {
     // Skip the language toggle bar — those links must keep their fixed targets
     if (a.closest('.lang-toggle')) return;
     let url;
     try { url = new URL(a.href); } catch(e) { return; }
     if (url.origin !== window.location.origin) return;
-    const m = url.pathname.match(/^\/(?:articles|en\/articles|sv\/artiklar)\/([^\/]+\.html)$/);
+    const m = url.pathname.match(/^\/(?:articles|en\/articles|sv\/artiklar)\/([^\/]+)\.html$/);
     if (m) {
-      a.setAttribute('href', articleBaseMap[lang] + m[1] + url.search + url.hash);
+      const currentSlug = m[1];
+      const fiSlug = slugToFi[currentSlug] || currentSlug;
+      let targetSlug = fiSlug;
+      if (lang !== 'fi' && articleSlugMap[fiSlug] && articleSlugMap[fiSlug][lang]) {
+        targetSlug = articleSlugMap[fiSlug][lang];
+      }
+      a.setAttribute('href', articleBaseMap[lang] + targetSlug + '.html' + url.search + url.hash);
     }
   });
 

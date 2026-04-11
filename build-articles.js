@@ -18,6 +18,34 @@ const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.src.js');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://saarivet.fi';
 
+// Returns the localized slug for an article in the given language.
+// Falls back to the Finnish slug if no localized slug is defined.
+function articleSlug(article, lang) {
+  if (lang === 'sv') return article.slugSv || article.slug;
+  if (lang === 'en') return article.slugEn || article.slug;
+  return article.slug;
+}
+
+// Generates a client-side redirect stub (meta refresh + canonical).
+// Used for old legacy SV/EN article paths to point at new localized slugs.
+// GitHub Pages has no native 301 support, so this is the best available option.
+function generateRedirectStub(targetUrl) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting…</title>
+<link rel="canonical" href="${targetUrl}">
+<meta name="robots" content="noindex,follow">
+<meta http-equiv="refresh" content="0; url=${targetUrl}">
+<script>window.location.replace(${JSON.stringify(targetUrl)});</script>
+</head>
+<body>
+<p>This page has moved. Redirecting to <a href="${targetUrl}">${targetUrl}</a>…</p>
+</body>
+</html>`;
+}
+
 // ──────────────────────────────────────────────
 // 1. Article Registry
 // ──────────────────────────────────────────────
@@ -25,6 +53,8 @@ const BASE_URL = 'https://saarivet.fi';
 const articles = [
   {
     slug: 'tta-leikkaus',
+    slugSv: 'tta-operation',
+    slugEn: 'tta-surgery',
     titleKey: 'article.tta.title',
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
@@ -35,6 +65,8 @@ const articles = [
   },
   {
     slug: 'video-otoskopia',
+    slugSv: 'video-otoskopi',
+    slugEn: 'video-otoscopy',
     titleKey: 'article.otoscopy.title',
     tagKey: 'articles.tag.endoscopy',
     category: 'endoscopy',
@@ -45,6 +77,8 @@ const articles = [
   },
   {
     slug: 'kipulääkeinfuusio',
+    slugSv: 'smartlindringsinfusion',
+    slugEn: 'pain-relief-infusion',
     titleKey: 'article.mlk.title',
     tagKey: 'articles.tag.anesthesia',
     category: 'surgery',
@@ -55,6 +89,8 @@ const articles = [
   },
   {
     slug: 'ripuli',
+    slugSv: 'diarre',
+    slugEn: 'diarrhoea',
     titleKey: 'article.diarrhea.title',
     tagKey: 'article.tta.tag',
     category: 'health',
@@ -65,6 +101,8 @@ const articles = [
   },
   {
     slug: 'avoin-valtimotiehyt-pda',
+    slugSv: 'oppen-ductus-arteriosus-pda',
+    slugEn: 'patent-ductus-arteriosus-pda',
     titleKey: 'article.pda.title',
     tagKey: 'articles.filter.cardiology',
     category: 'cardiology',
@@ -75,6 +113,8 @@ const articles = [
   },
   {
     slug: 'hampaiden-harjaus',
+    slugSv: 'tandborstning',
+    slugEn: 'tooth-brushing',
     titleKey: 'article.brushing.title',
     tagKey: 'article.tta.tag',
     category: 'dental',
@@ -85,6 +125,8 @@ const articles = [
   },
   {
     slug: 'viljaton-ruoka',
+    slugSv: 'spannmalsfri-mat',
+    slugEn: 'grain-free-food',
     titleKey: 'article.grainfree.title',
     tagKey: 'article.tta.tag',
     category: 'health',
@@ -95,6 +137,8 @@ const articles = [
   },
   {
     slug: 'periovive',
+    slugSv: 'periovive',
+    slugEn: 'periovive',
     titleKey: 'article.periovive.title',
     tagKey: 'article.tta.tag',
     category: 'dental',
@@ -105,6 +149,8 @@ const articles = [
   },
   {
     slug: 'yksityinen-klinikka',
+    slugSv: 'privat-klinik',
+    slugEn: 'independent-clinic',
     titleKey: 'article.independent.title',
     tagKey: 'article.independent.tag',
     category: 'clinic',
@@ -115,6 +161,8 @@ const articles = [
   },
   {
     slug: 'ruoka-allergiat',
+    slugSv: 'foderallergier',
+    slugEn: 'food-allergies',
     titleKey: 'article.food.title',
     tagKey: 'article.food.tag',
     category: 'health',
@@ -125,6 +173,8 @@ const articles = [
   },
   {
     slug: 'kilpirauhasen-liikatoiminta',
+    slugSv: 'hypertyreos-katt',
+    slugEn: 'hyperthyroidism',
     titleKey: 'article.hyperthyroid.title',
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
@@ -135,6 +185,8 @@ const articles = [
   },
   {
     slug: 'munuaisten-vajaatoiminta',
+    slugSv: 'njursvikt',
+    slugEn: 'kidney-disease',
     titleKey: 'article.kidney.title',
     tagKey: 'article.kidney.tag',
     category: 'health',
@@ -145,6 +197,8 @@ const articles = [
   },
   {
     slug: 'kyynpurema',
+    slugSv: 'huggormsbett',
+    slugEn: 'snake-bite',
     titleKey: 'article.snake.title',
     tagKey: 'article.snake.tag',
     category: 'emergency',
@@ -155,6 +209,8 @@ const articles = [
   },
   {
     slug: 'kohtutulehdus',
+    slugSv: 'livmoderinflammation',
+    slugEn: 'pyometra',
     titleKey: 'article.pyometra.title',
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
@@ -165,6 +221,8 @@ const articles = [
   },
   {
     slug: 'lateral-suture',
+    slugSv: 'lateral-suture',
+    slugEn: 'lateral-suture',
     titleKey: 'article.ccl.title',
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
@@ -175,6 +233,8 @@ const articles = [
   },
   {
     slug: 'siili',
+    slugSv: 'igelkott',
+    slugEn: 'hedgehog',
     titleKey: 'article.hedgehog.title',
     tagKey: 'article.hedgehog.tag',
     category: 'wildlife',
@@ -186,6 +246,8 @@ const articles = [
   },
   {
     slug: 'kissaystävällinen-klinikka',
+    slugSv: 'kattvanlig-klinik',
+    slugEn: 'cat-friendly-clinic',
     titleKey: 'article.catstress.title',
     tagKey: 'article.catstress.tag',
     category: 'health',
@@ -196,6 +258,8 @@ const articles = [
   },
   {
     slug: 'puhkeamattomat-hampaat',
+    slugSv: 'icke-framvaxta-tander',
+    slugEn: 'unerupted-teeth',
     titleKey: 'article.unerupted.title',
     tagKey: 'article.unerupted.tag',
     category: 'dental',
@@ -206,6 +270,8 @@ const articles = [
   },
   {
     slug: 'gastroskopia',
+    slugSv: 'gastroskopi',
+    slugEn: 'gastroscopy',
     titleKey: 'article.gastroscopy.title',
     tagKey: 'article.gastroscopy.tag',
     category: 'endoscopy',
@@ -216,6 +282,8 @@ const articles = [
   },
   {
     slug: 'hammasresorptio',
+    slugSv: 'tandresorption',
+    slugEn: 'tooth-resorption',
     titleKey: 'article.resorption.title',
     tagKey: 'article.resorption.tag',
     category: 'dental',
@@ -226,6 +294,8 @@ const articles = [
   },
   {
     slug: 'rokotukset',
+    slugSv: 'vaccinationsguide',
+    slugEn: 'vaccinations-guide',
     titleKey: 'article.vaccination.title',
     tagKey: 'article.vaccination.tag',
     category: 'health',
@@ -237,6 +307,8 @@ const articles = [
   },
   {
     slug: 'ibd-lymfooma',
+    slugSv: 'ibd-lymfom',
+    slugEn: 'ibd-lymphoma',
     titleKey: 'article.ibdlymphoma.title',
     tagKey: 'article.ibdlymphoma.tag',
     category: 'health',
@@ -248,6 +320,8 @@ const articles = [
   },
   {
     slug: 'hypotermia',
+    slugSv: 'hypotermi',
+    slugEn: 'hypothermia',
     titleKey: 'article.hypothermia.title',
     tagKey: 'article.hypothermia.tag',
     category: 'surgery',
@@ -258,6 +332,8 @@ const articles = [
   },
   {
     slug: 'anestesiaturvallisuus',
+    slugSv: 'anestesisakerhet',
+    slugEn: 'anaesthesia-safety',
     titleKey: 'article.anesthesia.title',
     tagKey: 'article.anesthesia.tag',
     category: 'surgery',
@@ -269,6 +345,8 @@ const articles = [
   },
   {
     slug: 'klinikkaeläinhoitaja',
+    slugSv: 'klinikdjurskotare',
+    slugEn: 'veterinary-nurse',
     titleKey: 'article.vetnurse.title',
     tagKey: 'articles.filter.clinic',
     category: 'clinic',
@@ -365,11 +443,6 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
   const t = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
   const readAlso = { fi: 'Lue myös', sv: 'Läs också', en: 'Read also' };
 
-  // Build href based on language
-  const articleHref = (slug) => {
-    return `${slug}.html`;
-  };
-
   let cards = '';
   for (const slug of related) {
     const article = articles.find(a => a.slug === slug);
@@ -378,8 +451,9 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
     const tag = t(article.tagKey);
     const intro = t(`${article.prefix}.intro`);
     const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
+    const href = `${articleSlug(article, lang)}.html`;
     cards += `
-        <a href="${articleHref(slug)}" class="related-article-card">
+        <a href="${href}" class="related-article-card">
           <span class="article-tag">${escapeHtml(tag)}</span>
           <h3>${escapeHtml(title)}</h3>
           <p>${escapeHtml(shortIntro)}</p>
@@ -602,9 +676,9 @@ function generateArticlePage(article, translations, specialContent, lang) {
   }
 
   // URLs for all language versions
-  const fiUrl = `${BASE_URL}/articles/${article.slug}.html`;
-  const svUrl = `${BASE_URL}/sv/artiklar/${article.slug}.html`;
-  const enUrl = `${BASE_URL}/en/articles/${article.slug}.html`;
+  const fiUrl = `${BASE_URL}/articles/${articleSlug(article, 'fi')}.html`;
+  const svUrl = `${BASE_URL}/sv/artiklar/${articleSlug(article, 'sv')}.html`;
+  const enUrl = `${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html`;
   const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
   const assetPrefix = lang === 'fi' ? '../' : '../../../';
   const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
@@ -1133,6 +1207,9 @@ const servicePages = [
       { heading: 'Palvelumme', text: 'Klinikallamme tehdään kattavat hammashoidot yleisanestesiassa: hammaskiven poisto ultraäänilaitteella, hammasröntgentutkimukset (kaikki hampaat kuvataan digitaaliröntgenillä), hampaiden poistot, maitohampaiden poistot, parodontiitin hoito ja PerioVive-hyaluronihappogeelihoito. Jokainen hammastoimenpide sisältää täydellisen suun tutkimuksen ja hammaskartan.' },
       { heading: 'Hammasröntgen — piilossa olevan näkeminen', text: 'Hammasröntgen on hammashoidon tärkein diagnostinen työkalu. Yli puolet hammassairauksista on näkymättömiä silmämääräisessä tutkimuksessa — juuritulehdukset, hammasresorptio, kystat ja luukato paljastuvat vasta röntgenkuvissa. Klinikallamme kuvataan kaikki hampaat osana jokaista hammastoimenpidettä.' },
       { heading: 'Miten toimenpide etenee?', text: 'Ennen toimenpidettä potilaalle tehdään terveystarkastus ja tarvittaessa verikokeet. Toimenpide tehdään inhalaatioanestesiassa kattavalla kivunlievityksellä. Anestesian aikana valvomme jatkuvasti sydämen sykettä, happisaturaatiota, verenpainetta ja lämpötilaa. Toimenpiteessä poistetaan hammaskivi, kuvataan hammasröntgenkuvat, hoidetaan sairaat hampaat ja tarvittaessa poistetaan vaurioituneet hampaat. Kotiutus tapahtuu yleensä samana päivänä.' },
+      { heading: 'Yleisimmät hammassairaudet koirilla ja kissoilla', text: 'Parodontiitti eli hampaan tukikudosten tulehdus on yleisin hammassairaus ja aiheuttaa pitkälle edettyessään hampaiden irtoamista ja kroonista kipua. Hammasresorptio on kissoilla erityisen yleinen vaurio, jossa hampaan rakenne hajoaa sisältäpäin — usein näkymätön silmämääräisesti ja huomattavasti kipua aiheuttava. Katkenneet hampaat (erityisesti kulmahampaat) altistavat juuritulehduksille. Maitohampaiden jääminen paikalleen pysyvien hampaiden puhjetessa aiheuttaa hammasvirheitä etenkin pienikokoisissa koiraroduissa. Jokainen näistä ongelmista voidaan diagnosoida ja hoitaa klinikallamme.' },
+      { heading: 'Hampaiden kotihoito — ennaltaehkäisy alkaa kotoa', text: 'Säännöllinen hampaiden harjaus on tehokkain tapa ehkäistä hammaskiven kertymistä ja ientulehdusta. Aloita totuttelemalla lemmikki rauhassa sormiin ja erityisesti lemmikeille tarkoitettuun hammastahnaan — ihmisten hammastahna ei sovi eläimille fluoridin ja ksylitolin vuoksi. Päivittäinen harjaus on tavoite, mutta 2–3 kertaa viikossa tuottaa jo merkittäviä tuloksia. Lisäksi VOHC-sertifioidut purutuotteet ja hampaita suojaavat erityisruoat täydentävät kotihoitoa. Kotihoito ei kuitenkaan korvaa ammattimaista hammaskiven poistoa, joka on tehtävissä vain anestesiassa.' },
+      { heading: 'Toipuminen hammashoidosta', text: 'Kotiutus tapahtuu yleensä saman päivän aikana ja lemmikki voidaan noutaa iltapäivällä. Suosittelemme pehmeää ruokaa 1–3 vuorokauden ajan, erityisesti jos hampaita on poistettu. Kivunlievitykseen annetaan kotiin tarvittaessa tulehduskipulääkitystä ja käyttöohjeet. Useimmat lemmikit palaavat normaaliin ruokailuun ja leikkimieleen 24–48 tunnin kuluessa. Jos toimenpiteen aikana on poistettu hampaita tai tehty ientoimenpiteitä, kontrollikäynti varataan 7–14 päivän päähän suun paranemisen varmistamiseksi.' },
     ],
     sv: {
       title: 'Tandvård — Djurklinik Saari, Vasa',
@@ -1143,6 +1220,9 @@ const servicePages = [
         { heading: 'Våra tjänster', text: 'På vår klinik utförs omfattande tandvård under generell anestesi: tandstensborttagning med ultraljudsapparat, dentalröntgenundersökningar (alla tänder röntgas digitalt), tandextraktioner, borttagning av mjölktänder, parodontitbehandling och PerioVive-hyaluronsyrageelbehandling. Varje tandingrepp inkluderar en fullständig munundersökning och tandkarta.' },
         { heading: 'Dentalröntgen — att se det dolda', text: 'Dentalröntgen är tandvårdens viktigaste diagnostiska verktyg. Över hälften av tandsjukdomarna är osynliga vid visuell undersökning — rotinfektioner, tandresorption, cystor och benförlust avslöjas först på röntgenbilder. På vår klinik röntgas alla tänder som en del av varje tandingrepp.' },
         { heading: 'Hur går ingreppet till?', text: 'Före ingreppet görs en hälsokontroll och vid behov blodprov. Ingreppet utförs under inhalationsanestesi med omfattande smärtlindring. Under anestesin övervakar vi kontinuerligt hjärtfrekvens, syremättnad, blodtryck och temperatur. Under ingreppet avlägsnas tandsten, dentalröntgenbilder tas, sjuka tänder behandlas och vid behov extraheras skadade tänder. Hemgång sker vanligen samma dag.' },
+        { heading: 'Vanliga tandsjukdomar hos hundar och katter', text: 'Parodontit, det vill säga inflammation i tandens stödjevävnader, är den vanligaste tandsjukdomen och leder i framskridna fall till tandlossning och kronisk smärta. Tandresorption är särskilt vanlig hos katter, där tandens struktur bryts ned inifrån — ofta osynlig vid visuell undersökning och mycket smärtsam. Frakturerade tänder (särskilt hörntänder) ger upphov till rotinfektioner. Kvarsittande mjölktänder vid genombrott av permanenta tänder orsakar bettproblem, särskilt hos små hundraser. Var och en av dessa kan diagnostiseras och behandlas på vår klinik.' },
+        { heading: 'Tandvård i hemmet — förebyggande börjar hemma', text: 'Regelbunden tandborstning är det effektivaste sättet att förebygga tandstens- och tandköttsinflammation. Börja med att försiktigt vänja husdjuret vid fingrarna och en speciell tandkräm för djur — människors tandkräm passar inte djur på grund av fluor- och xylitolinnehållet. Daglig borstning är målet, men 2–3 gånger i veckan ger redan märkbara resultat. Dessutom kompletterar VOHC-certifierade tuggprodukter och dentalfoder hemvården. Observera dock att hemvård inte ersätter professionell tandstensborttagning — den kan endast göras under anestesi.' },
+        { heading: 'Återhämtning efter tandvård', text: 'Hemgång sker vanligen samma dag och husdjuret kan hämtas på eftermiddagen. Mjuk föda rekommenderas i 1–3 dygn, särskilt om tänder har extraherats. Vid behov ges smärtstillande antiinflammatorisk medicin med hem tillsammans med bruksanvisning. De flesta husdjur återgår till normal matintag och lek inom 24–48 timmar. Om tänder har extraherats eller tandköttsingrepp utförts bokas ett kontrollbesök efter 7–14 dagar för att säkerställa läkningen.' },
       ],
       ctaTitle: 'Boka tid',
       ctaText: 'Ring oss eller boka tid online.',
@@ -1160,6 +1240,9 @@ const servicePages = [
         { heading: 'Our services', text: 'Our clinic provides comprehensive dental care under general anaesthesia: ultrasonic scaling, dental X-ray examinations (all teeth are digitally radiographed), extractions, deciduous tooth removal, periodontal treatment, and PerioVive hyaluronic acid gel therapy. Every dental procedure includes a complete oral examination and dental chart.' },
         { heading: 'Dental X-rays — seeing what is hidden', text: 'Dental X-rays are the most important diagnostic tool in dentistry. Over half of dental diseases are invisible on visual examination — root infections, tooth resorption, cysts, and bone loss are only revealed on radiographs. At our clinic, all teeth are radiographed as part of every dental procedure.' },
         { heading: 'How does the procedure work?', text: 'Before the procedure, a health check and blood tests are performed as needed. The procedure is carried out under inhalation anaesthesia with comprehensive pain relief. During anaesthesia, we continuously monitor heart rate, oxygen saturation, blood pressure, and temperature. Tartar is removed, dental X-rays are taken, diseased teeth are treated, and damaged teeth are extracted if necessary. Patients are typically discharged the same day.' },
+        { heading: 'Common dental diseases in dogs and cats', text: 'Periodontitis — inflammation of the tooth-supporting tissues — is the most common dental disease and leads to tooth loss and chronic pain when advanced. Tooth resorption is particularly common in cats, where the tooth structure breaks down from within — often invisible on visual examination and very painful. Fractured teeth (especially canines) predispose to root infections. Retained deciduous teeth when permanent teeth erupt cause alignment problems, especially in small dog breeds. Each of these conditions can be diagnosed and treated at our clinic.' },
+        { heading: 'Home dental care — prevention starts at home', text: 'Regular tooth brushing is the most effective way to prevent tartar buildup and gingivitis. Start by gently getting your pet used to fingers and a pet-specific toothpaste — human toothpaste is not suitable for animals due to fluoride and xylitol content. Daily brushing is the goal, but 2–3 times per week already produces meaningful results. VOHC-certified chew products and dental diets complement home care. Note, however, that home care does not replace professional scaling, which can only be performed under anaesthesia.' },
+        { heading: 'Recovery after dental care', text: 'Patients are typically discharged the same day and can be collected in the afternoon. Soft food is recommended for 1–3 days, especially if teeth have been extracted. Take-home anti-inflammatory pain medication is provided when needed, along with instructions for use. Most pets return to normal eating and play within 24–48 hours. If teeth have been extracted or gum procedures performed, a follow-up appointment is scheduled for 7–14 days to verify healing.' },
       ],
       ctaTitle: 'Book an appointment',
       ctaText: 'Call us or book online.',
@@ -1175,6 +1258,9 @@ const servicePages = [
       { q: 'Paljonko koiran hammashoito maksaa?', a: 'Hammaskiven poisto koiralle maksaa alkaen 300 € (alle 20 kg) tai 350 € (yli 20 kg). Hinta sisältää yleisanestesian, hammaskiven poiston, hammasröntgenkuvat ja suun tutkimuksen. Hampaiden poistot hinnoitellaan tapauskohtaisesti.' },
       { q: 'Miten tiedän, tarvitseeko lemmikkini hammashoitoa?', a: 'Merkkejä hammassairauksista ovat pahanhajuinen hengitys, hammaskivi, punaiset ikenet, syömisen vaikeudet ja kuolaaminen. Suosittelemme hampaiden tarkastusta vastaanoton yhteydessä — usein ongelmia ei huomaa päällepäin.' },
       { q: 'Tehdäänkö hammashoito nukutuksessa?', a: 'Kyllä, kaikki hammashoidot tehdään yleisanestesiassa. Tämä on ainoa tapa tutkia ja hoitaa hampaat kunnolla ja turvallisesti. Nukutuksen aikana valvomme jatkuvasti elintoimintoja.' },
+      { q: 'Miten usein lemmikkini hampaat pitäisi tarkastuttaa?', a: 'Hampaiden tarkastus kuuluu osaksi jokaista vuosikontrollia. Yli 3-vuotiailla koirilla ja kissoilla suosittelemme vuosittaista tarkastusta, sillä hammaskivi ja ientulehdus etenevät usein huomaamatta. Pieniroduille (kuten yorkshirenterrieri, chihuahua) suositellaan jo varhaisempia tarkastuksia.' },
+      { q: 'Voiko lemmikin hampaita harjata kotona?', a: 'Kyllä, ja se on tehokkain kotihoidon muoto. Käytä aina lemmikeille tarkoitettua hammastahnaa — ihmisten hammastahnan fluoridi ja ksylitoli ovat myrkyllisiä eläimille. Aloita rauhallisesti sormella, totuttele sitten pehmeää lasten hammasharjaa tai erityistä lemmikkiharjaa. Päivittäinen harjaus antaa parhaan suojan, mutta 2–3 kertaa viikossa auttaa jo merkittävästi.' },
+      { q: 'Milloin maitohampaat pitäisi poistaa?', a: 'Jos pysyvät hampaat ovat puhjenneet mutta maitohammas on jäänyt paikalleen (persistoiva maitohammas), se voi aiheuttaa hammasvirheitä ja tulehduksia. Yleensä ne poistetaan sterilisaation tai kastraation yhteydessä, kun koira on jo anestesiassa — näin säästyy erillinen anestesia.' },
     ]
   },
   {
@@ -1190,6 +1276,9 @@ const servicePages = [
       { heading: 'Tutkimusmenetelmät', text: 'Klinikallamme on kattavat kardiologiset tutkimusmahdollisuudet. Sydämen ultraäänitutkimus (ekokardiografia) on tärkein sydänsairauksien diagnostinen menetelmä — sillä nähdään sydämen rakenne, kammioiden koko, läppien toiminta ja verenvirtaus reaaliajassa. EKG-tutkimuksella mitataan sydämen sähköistä toimintaa ja tunnistetaan rytmihäiriöt. Holter-tutkimuksella seurataan sydämen rytmiä 24 tunnin ajan kotioloissa.' },
       { heading: 'Viralliset sydäntutkimukset', text: 'Klinikalla on Suomen Kennelliiton myöntämät viralliset sydämen auskultaatio-oikeudet. Teemme virallisia sydämen auskultaatio- ja ultraäänitutkimuksia jalostustarkastusten yhteydessä. Viralliset tulokset kirjataan Kennelliiton tietokantaan.' },
       { heading: 'Milloin hakeutua tutkimuksiin?', text: 'Oireita voivat olla yskiminen (erityisesti levossa tai rasituksen jälkeen), rasituksen sietokyvyn heikkeneminen, tiheä hengitys, pyörtyily tai äkillinen väsähtäminen. Riskirotujen kohdalla suosittelemme säännöllisiä sydäntarkastuksia jo nuorella iällä, vaikka oireita ei olisi. Varaa aika sydäntutkimukseen — varhainen diagnoosi ja hoito tekevät merkittävän eron.' },
+      { heading: 'Yleisimmät sydänsairaudet koirilla ja kissoilla', text: 'Koirilla yleisin sydänsairaus on läppävian aiheuttama krooninen mitraaliläppäsairaus (MMVD), joka on erityisen yleinen pienikokoisilla roduilla ja cavalier kingcharlesinspanielilla. Isokokoisilla roduilla (dobermann, isot mäyräkoirat, newfoundlandinkoira) yleisempi on laajentuva kardiomyopatia (DCM), joka heikentää sydänlihaksen supistumiskykyä. Kissoilla yleisin sydänsairaus on hypertrofinen kardiomyopatia (HCM), jossa sydänlihas paksuuntuu liikaa ja vaikeuttaa verenkiertoa — Maine Coon ja ragdoll ovat erityisiä riskirotuja. Jokainen sairaus voidaan todeta ultraäänellä ja aloittaa oikea-aikainen hoito.' },
+      { heading: 'Lääkehoito ja seuranta', text: 'Kun sydänsairaus on diagnosoitu, lääkitys räätälöidään yksilöllisesti diagnoosin, sairauden vaiheen ja oireiden mukaan. Tyypillisiä lääkkeitä ovat pimobendaani (Vetmedin), ACE-estäjät, diureetit ja spironolaktoni. ACVIM:n ohjeistusten mukaan varhaisessa vaiheessa aloitettu pimobendaanilääkitys voi pidentää oireettomana pysymisen aikaa merkittävästi. Seurantakäyntejä tarvitaan alkuvaiheessa tiiviimmin (4–8 viikon välein), vakaassa vaiheessa 3–6 kuukauden välein. Kontrollissa arvioidaan lääkityksen tehoa, mitataan tarvittaessa verenpainetta ja seurataan munuaisten toimintaa verikokeilla.' },
+      { heading: 'Kotihoito ja elämänlaatu', text: 'Sydänsairaan lemmikin kotihoidon kulmakiviä ovat lääkkeiden säännöllinen antaminen, ruokahalun ja hengitystaajuuden tarkkailu ja maltillinen liikunta. Pyydämme omistajaa seuraamaan levossa tapahtuvaa hengitystaajuutta: toistuvasti yli 30 hengenvetoa minuutissa levossa voi merkitä sydämen vajaatoiminnan pahenemista ja vaatia lääkityksen tarkistamista. Suolan rajoittaminen ruokavaliossa auttaa erityisesti pitkälle edenneessä vajaatoiminnassa. Oikean hoidon turvin monet sydänsairaat lemmikit elävät laadukasta elämää vielä vuosia diagnoosin jälkeen.' },
       { heading: 'Usein kysyttyä sydäntutkimuksista', text: '<strong>Kuinka usein sydäntutkimuksia tehdään?</strong> Riskirotujen kohdalla suosittelemme ensimmäistä sydäntutkimusta 1–2 vuoden iässä ja sen jälkeen vuosittain. Oireettomille lemmikeille riittää yleensä tarkastus senioritarkastuksen yhteydessä. Jos lemmikillä on todettu sydänsairaus, seurantaväli sovitaan yksilöllisesti — yleensä 3–12 kuukauden välein. <strong>Tarvitaanko sydäntutkimukseen rauhoitusta?</strong> Sydämen ultraäänitutkimus tehdään yleensä hereillä olevalle potilaalle ilman rauhoitusta. Tutkimus on kivuton ja kestää noin 15–30 minuuttia. Levottomille potilaille voidaan antaa kevyt rauhoitus, joka ei vaikuta tutkimustuloksiin.' },
     ],
     sv: {
@@ -1201,6 +1290,9 @@ const servicePages = [
         { heading: 'Undersökningsmetoder', text: 'Vår klinik har omfattande kardiologiska undersökningsmöjligheter. Hjärtultraljud (ekokardiografi) är den viktigaste diagnostiska metoden för hjärtsjukdomar — den visar hjärtats struktur, kammarstorlek, klaffarnas funktion och blodflöde i realtid. EKG-undersökning mäter hjärtats elektriska aktivitet och identifierar arytmier. Holter-undersökning övervakar hjärtrytmen under 24 timmar i hemmiljö.' },
         { heading: 'Officiella hjärtundersökningar', text: 'Kliniken har officiella rättigheter för hjärtauskultation beviljade av Finska Kennelklubben. Vi utför officiella hjärtauskultations- och ultraljudsundersökningar i samband med avelskontroller. Officiella resultat registreras i Kennelklubbens databas.' },
         { heading: 'När ska man söka undersökning?', text: 'Symtom kan vara hosta (särskilt i vila eller efter ansträngning), minskad tolerans för fysisk aktivitet, snabb andning, svimning eller plötslig trötthet. För riskraser rekommenderar vi regelbundna hjärtkontroller redan i ung ålder, även utan symtom. Boka tid för hjärtundersökning — tidig diagnos och behandling gör en betydande skillnad.' },
+        { heading: 'Vanligaste hjärtsjukdomarna hos hundar och katter', text: 'Hos hundar är den vanligaste hjärtsjukdomen kronisk klaffsjukdom i mitralklaffen (MMVD), som är särskilt vanlig hos små raser och hos cavalier king charles spaniel. Hos större raser (dobermann, stora tax, newfoundlandshund) är utvidgad kardiomyopati (DCM) vanligare, vilket försämrar hjärtmuskelns sammandragningsförmåga. Hos katter är den vanligaste hjärtsjukdomen hypertrofisk kardiomyopati (HCM), där hjärtmuskeln förtjockas onaturligt och försvårar blodcirkulationen — Maine Coon och ragdoll är särskilda riskraser. Varje sjukdom kan diagnostiseras med ultraljud och rätt behandling sättas in i tid.' },
+        { heading: 'Läkemedelsbehandling och uppföljning', text: 'När en hjärtsjukdom har diagnostiserats skräddarsys medicineringen individuellt efter diagnos, sjukdomsstadium och symtom. Typiska läkemedel är pimobendan (Vetmedin), ACE-hämmare, diuretika och spironolakton. Enligt ACVIM:s riktlinjer kan tidigt insatt pimobendanbehandling förlänga den symtomfria perioden avsevärt. Uppföljningsbesök behövs tätare i inledningsskedet (var 4–8 vecka) och var 3–6 månad i stabilt skede. Vid kontrollen bedöms medicineringens effekt, vid behov mäts blodtryck och njurfunktionen följs med blodprov.' },
+        { heading: 'Hemvård och livskvalitet', text: 'Grunden i hemvården av ett husdjur med hjärtsjukdom är regelbunden medicinering, observation av aptit och andningsfrekvens samt måttlig motion. Vi ber ägaren följa andningsfrekvensen i vila: upprepat över 30 andetag per minut i vila kan tyda på försämrad hjärtsvikt och kräva justering av medicineringen. Att begränsa salt i kosten hjälper särskilt vid framskriden hjärtsvikt. Med rätt behandling lever många hjärtsjuka husdjur ett högkvalitativt liv i ytterligare många år efter diagnosen.' },
         { heading: 'Vanliga frågor om hjärtundersökningar', text: '<strong>Hur ofta görs hjärtundersökningar?</strong> För riskraser rekommenderar vi den första hjärtundersökningen vid 1–2 års ålder och därefter årligen. För symtomfria husdjur räcker det vanligen med kontroll i samband med seniorundersökningen. Om husdjuret har en diagnostiserad hjärtsjukdom bestäms uppföljningsintervallet individuellt — vanligen var 3–12 månad. <strong>Behövs sedering för hjärtundersökning?</strong> Hjärtultraljud görs vanligen på en vaken patient utan sedering. Undersökningen är smärtfri och tar cirka 15–30 minuter. Oroliga patienter kan få lätt sedering som inte påverkar undersökningsresultaten.' },
       ],
       ctaTitle: 'Boka tid',
@@ -1219,6 +1311,9 @@ const servicePages = [
         { heading: 'Examination methods', text: 'Our clinic offers comprehensive cardiological examination capabilities. Cardiac ultrasound (echocardiography) is the primary diagnostic method for heart disease — it shows heart structure, chamber size, valve function, and blood flow in real time. ECG examination measures the heart\'s electrical activity and identifies arrhythmias. Holter monitoring tracks heart rhythm over 24 hours in the home environment.' },
         { heading: 'Official cardiac examinations', text: 'Our clinic holds official heart auscultation rights granted by the Finnish Kennel Club. We perform official cardiac auscultation and ultrasound examinations in connection with breeding evaluations. Official results are recorded in the Kennel Club database.' },
         { heading: 'When to seek examination?', text: 'Symptoms may include coughing (especially at rest or after exertion), reduced exercise tolerance, rapid breathing, fainting, or sudden lethargy. For at-risk breeds, we recommend regular cardiac check-ups from a young age, even without symptoms. Book an appointment for a cardiac examination — early diagnosis and treatment make a significant difference.' },
+        { heading: 'Most common heart diseases in dogs and cats', text: 'In dogs, mitral valve disease (MMVD, myxomatous mitral valve degeneration) is the most common heart condition and affects particularly small breeds such as the Cavalier King Charles Spaniel, Dachshund, and Poodle. Dilated cardiomyopathy (DCM) is typical of large breeds such as the Dobermann, Great Dane, and Boxer. In cats, hypertrophic cardiomyopathy (HCM) is the most common heart disease — it often progresses silently, and the first sign may be a sudden severe problem such as a blood clot or acute heart failure. That is why regular cardiac examinations are important, especially for at-risk breeds.' },
+        { heading: 'Medication and follow-up', text: 'When heart disease is diagnosed, the right medication and regular follow-up are essential. Pimobendan, ACE inhibitors, diuretics (furosemide, torasemide), and beta blockers are commonly used in treatment. Each pet gets an individual treatment plan based on the type and stage of the heart disease. Follow-up usually includes a cardiac ultrasound, blood pressure measurement, blood tests (kidney values, electrolytes), and sometimes a chest X-ray. The follow-up interval depends on the stage of the disease — typically every 3–6 months.' },
+        { heading: 'Home care and quality of life', text: 'Home care plays an important role in the treatment of heart disease. It is good to monitor resting respiratory rate (normal is below 30 breaths per minute when asleep), exercise tolerance, appetite, and energy levels. Medications must be given consistently at the same times. Exercise should be kept moderate — strenuous activity is to be avoided, but gentle walks are good. A special cardiac diet can support treatment. With proper treatment, many pets with heart disease can live good-quality lives for years after diagnosis.' },
         { heading: 'Frequently asked questions about cardiac examinations', text: '<strong>How often are cardiac examinations performed?</strong> For at-risk breeds, we recommend the first cardiac examination at 1–2 years of age and annually thereafter. For asymptomatic pets, a check-up during the senior examination is usually sufficient. If your pet has been diagnosed with heart disease, the follow-up interval is agreed individually — typically every 3–12 months. <strong>Is sedation needed for cardiac examination?</strong> Cardiac ultrasound is usually performed on an awake patient without sedation. The examination is painless and takes approximately 15–30 minutes. Restless patients may receive light sedation that does not affect the examination results.' },
       ],
       ctaTitle: 'Book an appointment',
@@ -1234,6 +1329,9 @@ const servicePages = [
       { q: 'Miten tiedän, onko lemmikkilläni sydänsairaus?', a: 'Oireita voivat olla yskiminen, rasituksen sietokyvyn heikkeneminen, tiheä hengitys tai pyörtyily. Monilla roduilla (Cavalier, Dobermann, Maine Coon) suosittelemme tutkimusta jo nuorella iällä, ennen kuin oireita ilmenee.' },
       { q: 'Paljonko sydämen ultraääni maksaa?', a: 'Sydäntutkimuksen hinta riippuu tutkimuksen laajuudesta. Ota yhteyttä klinikkaan saadaksesi tarkemman hinta-arvion. Puhelin (06) 321 7300.' },
       { q: 'Tarvitaanko sydäntutkimukseen ajanvaraus?', a: 'Kyllä, sydäntutkimus vaatii ajanvarauksen. Varaa aika soittamalla (06) 321 7300 tai verkkoajanvarauksesta saarivet.fi.' },
+      { q: 'Kuinka kauan sydänsairas lemmikki voi elää lääkityksen kanssa?', a: 'Ennuste riippuu sydänsairauden tyypistä ja vaiheesta. Varhaisvaiheen mitraaliläpän sairautta sairastavat koirat voivat elää normaalin elinikänsä ilman oireita. Sydämen vajaatoimintavaiheessa oleva koira elää hyvällä lääkityksellä keskimäärin 1–3 vuotta diagnoosin jälkeen. Kissan HCM:n ennuste vaihtelee paljon — osa elää vuosia oireettomina, osa saa nopeasti komplikaatioita. Säännöllinen seuranta ja oikea lääkitys pidentävät elinikää merkittävästi.' },
+      { q: 'Mitä eroa on sydämen ultraäänellä ja EKG:llä?', a: 'Sydämen ultraääni (ekokardiografia) näyttää sydämen rakenteen, läppien toiminnan ja verenvirtauksen reaaliajassa — se on ensisijainen diagnostinen menetelmä sydänsairauksiin. EKG mittaa sydämen sähköistä toimintaa ja tunnistaa rytmihäiriöt. Usein nämä tutkimukset täydentävät toisiaan: ultraääni paljastaa rakennemuutokset, EKG rytmin ongelmat.' },
+      { q: 'Tarvitseeko sydänlääkettä antaa koko loppuelämän?', a: 'Kyllä, sydänsairauden lääkitys on yleensä elinikäistä. Lääkkeiden tehtävä on hidastaa sairauden etenemistä, helpottaa oireita ja parantaa elämänlaatua — ne eivät paranna itse sairautta. Lääkityksen äkillinen lopettaminen voi johtaa nopeaan voinnin heikkenemiseen. Lääkitystä ja annoksia säädetään seurannan perusteella.' },
     ]
   },
   {
@@ -1248,6 +1346,9 @@ const servicePages = [
       { heading: 'Pehmytkudoskirurgia', text: 'Klinikallamme tehdään laaja valikoima pehmytkudoskirurgisia toimenpiteitä: sterilisaatiot ja kastraatiot, keisarinleikkaukset, kasvainten poistot, vierasesineleikkaukset (mahalaukusta tai suolistosta), virtsakivileikkaukset, pernapoistot sekä silmä- ja korvaleikkaukset. Jokainen toimenpide suunnitellaan yksilöllisesti potilaan tarpeiden mukaan.' },
       { heading: 'Ortopedinen kirurgia', text: 'Eturistisiteen korjausleikkaukset ovat yleisin ortopedinen toimenpide koirilla. Klinikallamme käytetään kahta menetelmää: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla ja sopii erityisesti pienille koirille ja kissoille. TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa pysyvästi ja on hyvä vaihtoehto aktiivisille ja suuremmille koirille. Lisäksi teemme murtumaleikkauksia, amputaatioita ja reisiluunpään poistoja.' },
       { heading: 'Turvallinen anestesia', text: 'Anestesiaturvallisuus on meille sydämen asia. Käytämme inhalaatioanestesiaa ja jatkuvaa monitorointia: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.' },
+      { heading: 'Leikkausta edeltävät tutkimukset', text: 'Turvallinen kirurgia alkaa huolellisesta potilaan arvioinnista. Ennen leikkausta teemme yleistutkimuksen, otamme tarvittavat verikokeet (hematologia, biokemia), tarkistamme maksan ja munuaisten toiminnan sekä iäkkäillä ja riskipotilailla sydämen kunnon ja verenpaineen. Näiden tietojen pohjalta suunnittelemme yksilöllisen anestesiaprotokollan ja minimoimme riskit. Riskipotilaille, kuten rotujohdannaisille (brakykefaaliset rodut) tai sydänsairaille, räätälöimme erityisprotokollat.' },
+      { heading: 'Leikkauksen jälkeinen hoito ja toipuminen', text: 'Toipuminen alkaa jo leikkaussalissa. Potilasta lämmitetään aktiivisesti ja kivunlievityksestä huolehditaan multimodaalisesti: opioidit, tulehduskipulääkkeet ja paikallispuudutukset yhdessä. Heräämöhoidossa potilasta seurataan kunnes hän on täysin hereillä ja vakaa. Kotiin saat selkeät ohjeet kivunlievityksestä, liikuntarajoituksista, ruokavaliosta ja haavan hoidosta. Sterilisaatiopotilaat kotiutetaan yleensä samana päivänä, isompien ortopedisten leikkausten jälkeen voi olla 1–2 yön seuranta. Tikit poistetaan 10–14 päivän kuluttua.' },
+      { heading: 'Kivunlievitys ja hyvinvointi', text: 'Kipu ei kuulu leikkauksen jälkeiseen toipumiseen. Käytämme monitasoista kivunlievitystä (multimodaalinen analgesia), jossa yhdistetään eri lääkeryhmiä. Tämä mahdollistaa tehokkaamman kivunlievityksen pienemmillä annoksilla ja vähentää sivuvaikutuksia. Seuraamme kipua standardoiduilla kivunarviointimenetelmillä (Glasgow Composite Pain Scale). Riittävä kivunlievitys nopeuttaa toipumista, pienentää stressiä ja vähentää komplikaatioita — se on sekä eläinsuojelullinen että lääketieteellinen prioriteetti meille.' },
       { heading: 'Varaa aika konsultaatioon', text: 'Jos lemmikkisi tarvitsee kirurgista arviota, varaa aika konsultaatioon. Tutkimme potilaan, arvioimme toimenpiteiden tarpeen ja suunnittelemme parhaan hoitolinjan yhdessä omistajan kanssa. Hoidot annetaan samalla klinikalla tuttujen eläinlääkäreiden toimesta — lemmikin ei tarvitse matkustaa muualle.' },
     ],
     sv: {
@@ -1258,6 +1359,9 @@ const servicePages = [
         { heading: 'Mjukdelskirurgi', text: 'På vår klinik utförs ett brett utbud av mjukdelskirurgiska ingrepp: steriliseringar och kastreringar, kejsarsnitt, tumörborttagning, främmandekroppsoperationer (från magsäck eller tarm), urinstensoperationer, mjältborttagning samt ögon- och öronoperationer. Varje ingrepp planeras individuellt utifrån patientens behov.' },
         { heading: 'Ortopedisk kirurgi', text: 'Korsbandsskador är det vanligaste ortopediska ingreppet hos hundar. Vår klinik använder två metoder: lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och passar särskilt för små hundar och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent och är ett bra alternativ för aktiva och större hundar. Dessutom utför vi frakturoperationer, amputationer och femurhuvudresektioner.' },
         { heading: 'Säker anestesi', text: 'Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi och kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.' },
+        { heading: 'Undersökningar före operation', text: 'Säker kirurgi börjar med en noggrann patientbedömning. Före operationen gör vi en allmän undersökning, tar nödvändiga blodprover (hematologi, biokemi), kontrollerar lever- och njurfunktion samt hos äldre patienter och riskpatienter även hjärtstatus och blodtryck. Utifrån dessa uppgifter planerar vi ett individuellt anestesiprotokoll och minimerar riskerna. För riskpatienter, såsom brakycefala raser eller hjärtsjuka djur, skräddarsyr vi särskilda protokoll.' },
+        { heading: 'Eftervård och återhämtning', text: 'Återhämtningen börjar redan i operationssalen. Patienten värms aktivt och smärtlindringen sköts multimodalt: opioider, antiinflammatoriska läkemedel och lokalbedövningar tillsammans. I uppvakningsrummet övervakas patienten tills den är helt vaken och stabil. Med hem får du tydliga instruktioner om smärtlindring, motionsbegränsningar, kost och sårvård. Steriliseringspatienter skrivs oftast ut samma dag, efter större ortopediska ingrepp kan det bli 1–2 nätters uppföljning. Stygnen tas bort efter 10–14 dagar.' },
+        { heading: 'Smärtlindring och välbefinnande', text: 'Smärta hör inte till återhämtningen efter en operation. Vi använder multimodal smärtlindring där olika läkemedelsgrupper kombineras. Detta möjliggör effektivare smärtlindring med lägre doser och minskar biverkningar. Vi följer smärta med standardiserade bedömningsmetoder (Glasgow Composite Pain Scale). Tillräcklig smärtlindring snabbar upp återhämtningen, minskar stress och komplikationer — det är både en djurskyddsfråga och en medicinsk prioritet för oss.' },
         { heading: 'Boka tid för konsultation', text: 'Om ditt husdjur behöver en kirurgisk bedömning, boka tid för konsultation. Vi undersöker patienten, bedömer behovet av ingrepp och planerar den bästa behandlingslinjen tillsammans med ägaren. Behandlingar ges på samma klinik av bekanta veterinärer — husdjuret behöver inte resa någon annanstans.' },
       ],
       ctaTitle: 'Boka tid',
@@ -1275,6 +1379,9 @@ const servicePages = [
         { heading: 'Soft tissue surgery', text: 'Our clinic performs a wide range of soft tissue surgical procedures: spays and neutering, caesarean sections, tumour removals, foreign body surgery (from stomach or intestines), urinary stone surgery, splenectomies, and eye and ear operations. Each procedure is individually planned according to the patient\'s needs.' },
         { heading: 'Orthopaedic surgery', text: 'Cruciate ligament repair is the most common orthopaedic procedure in dogs. Our clinic uses two methods: the lateral suture technique stabilises the joint with synthetic support material and is especially suited for small dogs and cats. TTA (tibial tuberosity advancement) permanently alters the knee\'s biomechanics and is a good option for active and larger dogs. We also perform fracture repairs, amputations, and femoral head resections.' },
         { heading: 'Safe anaesthesia', text: 'Anaesthesia safety is close to our hearts. We use inhalation anaesthesia and continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG, and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. Continuous rate infusion (CRI) pain management ensures steady pain relief during and after surgery.' },
+        { heading: 'Pre-operative assessment', text: 'Safe surgery starts with a thorough patient assessment. Before the operation, we perform a general examination, take the necessary blood tests (haematology, biochemistry), check liver and kidney function, and in older or high-risk patients also cardiac status and blood pressure. Based on these findings, we design an individual anaesthesia protocol and minimise the risks. For high-risk patients, such as brachycephalic breeds or animals with heart disease, we tailor specific protocols.' },
+        { heading: 'Post-operative care and recovery', text: 'Recovery begins already in the operating theatre. The patient is actively warmed and pain relief is managed multimodally: opioids, anti-inflammatories, and local anaesthetics together. In recovery, the patient is monitored until fully awake and stable. You will go home with clear instructions on pain relief, exercise restrictions, diet, and wound care. Spay/neuter patients are usually discharged the same day, while larger orthopaedic procedures may require 1–2 nights of observation. Stitches are removed after 10–14 days.' },
+        { heading: 'Pain management and welfare', text: 'Pain has no place in post-operative recovery. We use multimodal pain management, combining different drug groups. This allows more effective pain relief with lower doses and reduces side effects. We monitor pain using standardised assessment tools (Glasgow Composite Pain Scale). Adequate pain relief speeds up recovery, reduces stress, and lowers the risk of complications — it is both an animal welfare and a medical priority for us.' },
         { heading: 'Book a consultation', text: 'If your pet needs a surgical evaluation, book a consultation appointment. We examine the patient, assess the need for procedures, and plan the best treatment approach together with the owner. Treatments are given at the same clinic by familiar veterinarians — your pet does not need to travel elsewhere.' },
       ],
       ctaTitle: 'Book an appointment',
@@ -1291,6 +1398,9 @@ const servicePages = [
       { q: 'Onko eläinkirurgia turvallista?', a: 'Kyllä. Käytämme inhalaatioanestesiaa ja kattavaa monitorointia (sydän, happi, verenpaine, lämpötila). Anestesian aikana eläintä valvotaan jatkuvasti ja kivunlievitys on aina osa hoitoa.' },
       { q: 'Paljonko koiran sterilisaatio maksaa?', a: 'Naaraskoiran sterilisaatio alkaen 480 € ja uroskoiran kastraatio alkaen 380 €. Hinta riippuu koiran koosta. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tikkien poiston.' },
       { q: 'Miten pitkä on leikkauksesta toipuminen?', a: 'Toipumisaika riippuu toimenpiteestä. Sterilisaatiosta toipuu yleensä 10-14 päivässä, ortopedisistä leikkauksista 6-8 viikossa. Kotihoito-ohjeet annetaan aina mukaan.' },
+      { q: 'Pitääkö lemmikin paastota ennen leikkausta?', a: 'Kyllä. Aikuinen koira ja kissa paastotetaan yleensä 8–12 tuntia ennen leikkausta (viimeinen ateria edellisenä iltana). Vettä saa yleensä juoda aamuun asti. Pennuille, pienille jyrsijöille ja kaniineille on omat paastosuosituksensa — ohjeet saat aina ajanvarauksen yhteydessä. Paasto vähentää oksentamisen ja hengitysteiden aspiraation riskiä anestesian aikana.' },
+      { q: 'Mitä eroa on TTA:lla ja lateral suturella eturistisideleikkauksissa?', a: 'Lateral suture -tekniikka stabiloi polvinivelen synteettisellä tukimateriaalilla polven ulkopuolelta. Se sopii erityisesti pienille koirille (alle 15 kg) ja kissoille. TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin levyllä ja ruuveilla. TTA on suositeltava menetelmä aktiivisille ja isoille koirille, koska se kestää paremmin rasitusta ja toipuminen on usein nopeampaa. Valinta tehdään koiran koon, aktiivisuustason ja nivelen tilanteen perusteella.' },
+      { q: 'Pitääkö leikkauksen jälkeen käyttää kaulurupantaa?', a: 'Kyllä, leikkaushaavan suojaaminen on tärkeää — lemmikki voi nuolemalla avata tikit tai aiheuttaa haavainfektion. Perinteinen muovinen kaulus (Elizabethan collar) tai pehmeämmät vaihtoehdot, kuten suojapaita tai puhallettava kaulus, ovat hyviä vaihtoehtoja. Suosittelemme käyttämään suojausta koko ajan 10–14 päivän ajan eli tikkien poistoon asti. Lemmikki tottuu yleensä suojaukseen 1–2 päivässä.' },
     ]
   },
   {
@@ -1360,6 +1470,9 @@ const servicePages = [
       { heading: 'Koirien rokotukset', text: 'Koiranpennut rokotetaan ensimmäisen kerran 12 viikon iässä ja tehosterokotus annetaan 16 viikon iässä. Perusrokotus sisältää suojan penikkatautia, parvovirusta ja maksatulehdusta vastaan. Rabiesrokotus annetaan 12 viikon iästä alkaen. Kennelyskärokotus suositellaan koirille, jotka ovat paljon tekemisissä muiden koirien kanssa. Aikuisille koirille tehosterokotus annetaan 1–3 vuoden välein.' },
       { heading: 'Kissojen rokotukset', text: 'Kissanpennut rokotetaan 12 ja 16 viikon iässä. Perusrokotus sisältää suojan kissaruttoa, herpesvirusta ja calicivirusta vastaan. Rabiesrokotus on pakollinen ulkokissoille ja kaikille ulkomaille matkustaville kissoille. Aikuisille kissoille tehosterokotus annetaan 1–3 vuoden välein riippuen rokotteesta ja kissan elintavoista.' },
       { heading: 'Drop-in rokotukset ja matkustusasiakirjat', text: 'Klinikallamme on drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00. Laadimme myös EU-lemmikkieläinpassit ja matkustusasiakirjat ulkomaille matkustaville lemmikeille. Matkustusasiakirjojen vaatimukset vaihtelevat kohdemaan mukaan — ota yhteyttä hyvissä ajoin ennen matkaa.' },
+      { heading: 'Pentujen rokotusohjelma askel askeleelta', text: 'Pennun ensimmäinen rokotussarja on ratkaisevan tärkeä, koska emältä saatu vasta-ainesuoja loppuu 8–12 viikon iässä. Koiranpentu rokotetaan 12 viikon iässä (penikkatauti, parvovirus, hepatiitti) ja tehosterokotus annetaan 16 viikon iässä samalla kun annetaan myös rabiesrokotus. Kissanpentu rokotetaan 12 viikon iässä (kissarutto, herpes, calici) ja tehoste 16 viikon iässä. Ensimmäisen vuoden tehosterokotus annetaan 12 kuukauden iässä — tämä on tärkeä vaihe, jossa pitkäaikainen immuniteetti vahvistuu. Sen jälkeen siirrytään 1–3 vuoden tehostevälille.' },
+      { heading: 'Matkustaminen lemmikin kanssa', text: 'Lemmikkieläinpassi on pakollinen kaikille EU-alueella matkustaville koirille, kissoille ja freteille. Ennen matkaa lemmikki tarvitsee: sirun tunnistusta varten, voimassa olevan rabiesrokotuksen (vähintään 21 päivää rokotuksesta ensimmäisellä kerralla) ja joissakin maissa ekinokokki-lääkityksen (esim. Iso-Britannia, Suomi tuontiin). EU-maiden ulkopuolelle matkustaessa vaatimukset voivat olla paljon tiukempia — rabiesvasta-ainetesti ja karanteeniaika voivat olla tarpeen. Aloita matkan valmistelu vähintään 4–6 kuukautta etukäteen. Autamme mielellämme matkustusasiakirjojen laadinnassa.' },
+      { heading: 'Rokotusten turvallisuus ja sivuvaikutukset', text: 'Rokotukset ovat eläinlääketieteen turvallisimpia toimenpiteitä, mutta kuten kaikki lääketieteelliset toimenpiteet, niihin voi liittyä lieviä reaktioita. Tavallisia ja harmittomia sivuvaikutuksia ovat lievä väsymys, ruokahaluttomuus tai lievä turvotus pistoskohdassa 1–2 päivän ajan. Vakavat reaktiot, kuten voimakas allerginen reaktio (naaman turvotus, oksentelu, heikkous), ovat erittäin harvinaisia mutta vaativat välitöntä eläinlääkärin hoitoa. Suosittelemme seuraamaan lemmikkiä 30 minuuttia rokotuksen jälkeen klinikalla ja loppupäivän kotona. Rokotusten hyödyt ovat moninkertaisia verrattuna pieneen haittariskeihin — rokottamattomat lemmikit ovat vaarassa sairastua vakaviin, usein hengenvaarallisiin tauteihin.' },
       { heading: 'Usein kysyttyä rokotuksista', text: '<strong>Kuinka usein rokotukset uusitaan?</strong> Ensimmäisen rokotussarjan jälkeen tehosterokotus annetaan vuoden kuluttua. Sen jälkeen aikuisten koirien ja kissojen perusrokotukset uusitaan 1–3 vuoden välein rokotteesta riippuen. Rabiesrokotus uusitaan yleensä 2–3 vuoden välein. Eläinlääkäri suunnittelee yksilöllisen rokotusohjelman lemmikkisi tarpeiden mukaan. <strong>Voiko rokottamattoman koiran ulkoiluttaa?</strong> Rokottamattomalla pennulla on suurempi riski sairastua vakaviin tartuntatauteihin kuten parvovirukseen. Pennun ensimmäisen rokotussarjan aikana on tärkeää välttää kontaktia tuntemattomien koirien kanssa ja paikkoja, joissa käy paljon koiria. Turvallista ulkoilua omalla pihalla tai puhtailla alueilla voi harjoittaa jo ennen rokotussarjan valmistumista.' },
     ],
     sv: {
@@ -1371,6 +1484,9 @@ const servicePages = [
         { heading: 'Hundvaccinationer', text: 'Hundvalpar vaccineras första gången vid 12 veckors ålder och en boostervaccination ges vid 16 veckors ålder. Grundvaccinationen inkluderar skydd mot valpsjuka, parvovirus och hepatit. Rabiesvaccination ges från 12 veckors ålder. Kennelhosta-vaccination rekommenderas för hundar som har mycket kontakt med andra hundar. Vuxna hundar får boostervaccination vart 1–3 år.' },
         { heading: 'Kattvaccinationer', text: 'Kattungar vaccineras vid 12 och 16 veckors ålder. Grundvaccinationen inkluderar skydd mot kattpest, herpesvirus och calicivirus. Rabiesvaccination är obligatorisk för utekatter och alla katter som reser utomlands. Vuxna katter får boostervaccination vart 1–3 år beroende på vaccin och kattens levnadsvanor.' },
         { heading: 'Drop-in-vaccinationer och resehandlingar', text: 'Vår klinik erbjuder drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00. Vi utfärdar även EU-pass för sällskapsdjur och resehandlingar för husdjur som reser utomlands. Kraven för resehandlingar varierar beroende på destinationsland — kontakta oss i god tid före resan.' },
+        { heading: 'Valpens vaccinationsprogram steg för steg', text: 'Valpens första vaccinationsserie är avgörande, eftersom antikroppsskyddet från modern upphör vid 8–12 veckors ålder. En hundvalp vaccineras vid 12 veckors ålder (valpsjuka, parvovirus, hepatit) och boostervaccinationen ges vid 16 veckors ålder samtidigt med rabiesvaccination. En kattunge vaccineras vid 12 veckors ålder (kattpest, herpes, calici) och en booster vid 16 veckors ålder. Första årets boostervaccination ges vid 12 månaders ålder — det är ett viktigt steg där det långvariga immunitetsskyddet etableras. Därefter övergår man till vaccinationsintervaller på 1–3 år.' },
+        { heading: 'Resa med husdjur', text: 'Sällskapsdjurspass är obligatoriskt för alla hundar, katter och illrar som reser inom EU. Före resan behöver husdjuret: ett mikrochip för identifiering, ett giltigt rabiesvaccinationsintyg (minst 21 dagar efter vaccinationen första gången) och i vissa länder en ekinokock-behandling (t.ex. Storbritannien, Finland vid införsel). Vid resa utanför EU kan kraven vara betydligt strängare — rabiesantikroppstest och karantän kan krävas. Börja planera resan minst 4–6 månader i förväg. Vi hjälper gärna till med resehandlingarna.' },
+        { heading: 'Vaccinationers säkerhet och biverkningar', text: 'Vaccinationer är bland veterinärmedicinens säkraste ingrepp, men som alla medicinska åtgärder kan de medföra lindriga reaktioner. Vanliga och ofarliga biverkningar är lätt trötthet, nedsatt aptit eller en liten svullnad vid injektionsstället under 1–2 dagar. Allvarliga reaktioner, såsom kraftig allergisk reaktion (ansiktssvullnad, kräkningar, svaghet), är mycket sällsynta men kräver omedelbar veterinärvård. Vi rekommenderar att du observerar husdjuret i 30 minuter efter vaccinationen på kliniken och resten av dagen hemma. Fördelarna med vaccinationer överstiger vida de små riskerna — ovaccinerade husdjur riskerar att drabbas av allvarliga, ofta livshotande sjukdomar.' },
         { heading: 'Vanliga frågor om vaccinationer', text: '<strong>Hur ofta förnyas vaccinationerna?</strong> Efter den första vaccinationsserien ges en boostervaccination efter ett år. Därefter förnyas grundvaccinationerna för vuxna hundar och katter vart 1–3 år beroende på vaccin. Rabiesvaccination förnyas vanligen vart 2–3 år. Veterinären planerar ett individuellt vaccinationsprogram utifrån ditt husdjurs behov. <strong>Kan man rasta en ovaccinerad hund?</strong> En ovaccinerad valp löper större risk att drabbas av allvarliga smittsjukdomar som parvovirus. Under valpens första vaccinationsserie är det viktigt att undvika kontakt med okända hundar och platser där många hundar vistas. Säker utevistelse på egen gård eller rena områden kan utövas redan innan vaccinationsserien är klar.' },
       ],
       ctaTitle: 'Boka tid',
@@ -1389,6 +1505,9 @@ const servicePages = [
         { heading: 'Dog vaccinations', text: 'Puppies receive their first vaccination at 12 weeks of age, with a booster at 16 weeks. The core vaccination includes protection against distemper, parvovirus, and hepatitis. Rabies vaccination is given from 12 weeks of age. Kennel cough vaccination is recommended for dogs that have frequent contact with other dogs. Adult dogs receive booster vaccinations every 1–3 years.' },
         { heading: 'Cat vaccinations', text: 'Kittens are vaccinated at 12 and 16 weeks of age. The core vaccination includes protection against feline panleukopenia, herpesvirus, and calicivirus. Rabies vaccination is mandatory for outdoor cats and all cats travelling abroad. Adult cats receive booster vaccinations every 1–3 years depending on the vaccine and the cat\'s lifestyle.' },
         { heading: 'Drop-in vaccinations and travel documents', text: 'Our clinic offers drop-in vaccinations without appointment on Tuesdays from 15:30 to 16:00. We also issue EU pet passports and travel documents for pets travelling abroad. Travel document requirements vary by destination country — please contact us well in advance of your trip.' },
+        { heading: 'Puppy vaccination schedule step by step', text: 'The puppy\'s first vaccination series is crucial, as maternal antibody protection wanes at 8–12 weeks of age. A puppy is vaccinated at 12 weeks (distemper, parvovirus, hepatitis) and a booster is given at 16 weeks together with the rabies vaccine. A kitten is vaccinated at 12 weeks (feline panleukopenia, herpes, calici) and a booster at 16 weeks. The first-year booster is given at 12 months — an important milestone where long-lasting immunity is established. After that, vaccination intervals move to every 1–3 years.' },
+        { heading: 'Travelling with your pet', text: 'A pet passport is mandatory for all dogs, cats, and ferrets travelling within the EU. Before travelling, your pet needs: a microchip for identification, a valid rabies vaccination (at least 21 days after the first vaccination) and, in some countries, echinococcus treatment (e.g. UK, Finland for import). Travelling outside the EU can involve much stricter requirements — a rabies antibody test and quarantine may be required. Start planning your trip at least 4–6 months in advance. We are happy to help with travel documentation.' },
+        { heading: 'Vaccine safety and side effects', text: 'Vaccinations are among the safest procedures in veterinary medicine, but like all medical interventions they can occasionally cause mild reactions. Common and harmless side effects include mild lethargy, reduced appetite, or slight swelling at the injection site for 1–2 days. Serious reactions such as strong allergic responses (facial swelling, vomiting, weakness) are extremely rare but require immediate veterinary care. We recommend observing your pet for 30 minutes after the vaccination at the clinic and for the rest of the day at home. The benefits of vaccination far outweigh the small risks — unvaccinated pets are at risk of serious, often life-threatening diseases.' },
         { heading: 'Frequently asked questions about vaccinations', text: '<strong>How often are vaccinations renewed?</strong> After the initial vaccination series, a booster is given after one year. Thereafter, core vaccinations for adult dogs and cats are renewed every 1–3 years depending on the vaccine. Rabies vaccination is typically renewed every 2–3 years. The veterinarian will plan an individual vaccination programme based on your pet\'s needs. <strong>Can an unvaccinated dog be walked outside?</strong> An unvaccinated puppy has a higher risk of contracting serious infectious diseases such as parvovirus. During the puppy\'s first vaccination series, it is important to avoid contact with unknown dogs and places frequented by many dogs. Safe outdoor activity in your own garden or clean areas can be practised before the vaccination series is complete.' },
       ],
       ctaTitle: 'Book an appointment',
@@ -1404,6 +1523,9 @@ const servicePages = [
       { q: 'Paljonko koiran rokotus maksaa?', a: 'Koiran 4-rokotus (DHPPI) maksaa 77 € ja rabieslisällä 85 €. Kissan 3-rokotus (RCP) maksaa 75 € ja rabieslisällä 86 €.' },
       { q: 'Kuinka usein rokotukset uusitaan?', a: 'Perusrokotusten jälkeen tehosterokotus annetaan vuoden kuluttua. Sen jälkeen aikuisten koirien ja kissojen perusrokotukset uusitaan 1-3 vuoden välein rokotteesta riippuen. Rabiesrokotus uusitaan tyypillisesti 2-3 vuoden välein.' },
       { q: 'Voiko tulla ilman ajanvarausta?', a: 'Kyllä! Tarjoamme walk-in-rokotukset ilman ajanvarausta tiistaisin klo 15:30-16:00. Muulloin varaa aika puhelimitse (06) 321 7300 tai verkosta saarivet.fi.' },
+      { q: 'Milloin pentu voi aloittaa rokotussarjan?', a: 'Pennun ensimmäinen rokotus annetaan 12 viikon iässä ja tehosterokotus 16 viikon iässä. Ennen 12 viikon ikää pennut saavat suojaa emän antamista vasta-aineista. Jos pentu on tuotu ulkomailta tai erityisen riskialttiista ympäristöstä, rokotus voidaan joskus aloittaa aikaisemmin (8 viikon iässä) — tämä keskustellaan eläinlääkärin kanssa yksilöllisesti.' },
+      { q: 'Voiko lemmikki saada rokotuksesta sivuvaikutuksia?', a: 'Lievät sivuvaikutukset ovat yleisiä ja harmittomia: väsymys, ruokahaluttomuus tai lievä turvotus pistoskohdassa 1–2 päivän ajan. Voimakkaat reaktiot (kasvojen turvotus, oksentelu, heikkous) ovat erittäin harvinaisia mutta vaativat välitöntä eläinlääkärin hoitoa. Suosittelemme seuraamaan lemmikkiä 30 minuuttia rokotuksen jälkeen klinikalla ja loppupäivän kotona.' },
+      { q: 'Mitä rokotuksia tarvitaan matkustamiseen?', a: 'EU-maiden sisällä matkustaessa tarvitaan lemmikkieläinpassi, voimassa oleva rabiesrokotus (vähintään 21 päivää ensimmäisestä rokotuksesta) ja siru tunnistusta varten. Joissakin maissa (esim. Iso-Britannia) vaaditaan myös ekinokokki-lääkitys 1–5 päivää ennen saapumista. EU:n ulkopuolelle matkustaessa vaatimukset ovat usein tiukemmat — aloita valmistelu vähintään 4–6 kuukautta ennen matkaa.' },
     ]
   },
   {
@@ -2636,8 +2758,9 @@ function generateServicePage(service, translations, lang) {
       const tag = tLang(article.tagKey);
       const intro = tLang(`${article.prefix}.intro`);
       const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
+      const localizedSlug = articleSlug(article, lang);
       cards += `
-          <a href="${assetPrefix}${articlePathPrefix}/${slug}.html" class="related-article-card">
+          <a href="${assetPrefix}${articlePathPrefix}/${localizedSlug}.html" class="related-article-card">
             <span class="article-tag">${escapeHtml(tag)}</span>
             <h3>${escapeHtml(title)}</h3>
             <p>${escapeHtml(shortIntro)}</p>
@@ -2755,12 +2878,6 @@ function generateServicePage(service, translations, lang) {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "${breadcrumbServices[lang] || 'Palvelut'}",
-        "item": "${BASE_URL}/#services"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
         "name": ${JSON.stringify(pageH1)},
         "item": "${canonicalUrl}"
       }
@@ -3527,21 +3644,21 @@ function generateSitemap() {
   for (const article of articles) {
     const articleDate = article.publishDate || today;
     xml += `  <url>
-    <loc>${BASE_URL}/articles/${article.slug}.html</loc>
+    <loc>${BASE_URL}/articles/${articleSlug(article, 'fi')}.html</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/sv/artiklar/${article.slug}.html</loc>
+    <loc>${BASE_URL}/sv/artiklar/${articleSlug(article, 'sv')}.html</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/en/articles/${article.slug}.html</loc>
+    <loc>${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3589,6 +3706,11 @@ function main() {
 
   // Generate each article page (FI, SV, EN)
   let count = 0;
+  const svDir = path.join(ROOT, 'sv', 'artiklar');
+  const enDir = path.join(ROOT, 'en', 'articles');
+  if (!fs.existsSync(svDir)) fs.mkdirSync(svDir, { recursive: true });
+  if (!fs.existsSync(enDir)) fs.mkdirSync(enDir, { recursive: true });
+
   for (const article of articles) {
     // Finnish
     const titleFi = translations[article.titleKey]?.fi || article.slug;
@@ -3598,16 +3720,24 @@ function main() {
     console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${titleFi.substring(0, 60)}...`);
 
     // Swedish
-    const svDir = path.join(ROOT, 'sv', 'artiklar');
-    if (!fs.existsSync(svDir)) fs.mkdirSync(svDir, { recursive: true });
     const htmlSv = generateArticlePage(article, translations, specialContent, 'sv');
-    fs.writeFileSync(path.join(svDir, `${article.slug}.html`), htmlSv, 'utf-8');
+    const svSlug = articleSlug(article, 'sv');
+    fs.writeFileSync(path.join(svDir, `${svSlug}.html`), htmlSv, 'utf-8');
+    if (svSlug !== article.slug) {
+      const oldSvPath = path.join(svDir, `${article.slug}.html`);
+      const newSvUrl = `${BASE_URL}/sv/artiklar/${svSlug}.html`;
+      fs.writeFileSync(oldSvPath, generateRedirectStub(newSvUrl), 'utf-8');
+    }
 
     // English
-    const enDir = path.join(ROOT, 'en', 'articles');
-    if (!fs.existsSync(enDir)) fs.mkdirSync(enDir, { recursive: true });
     const htmlEn = generateArticlePage(article, translations, specialContent, 'en');
-    fs.writeFileSync(path.join(enDir, `${article.slug}.html`), htmlEn, 'utf-8');
+    const enSlug = articleSlug(article, 'en');
+    fs.writeFileSync(path.join(enDir, `${enSlug}.html`), htmlEn, 'utf-8');
+    if (enSlug !== article.slug) {
+      const oldEnPath = path.join(enDir, `${article.slug}.html`);
+      const newEnUrl = `${BASE_URL}/en/articles/${enSlug}.html`;
+      fs.writeFileSync(oldEnPath, generateRedirectStub(newEnUrl), 'utf-8');
+    }
   }
 
   // Generate service landing pages (FI, SV, EN)
