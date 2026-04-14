@@ -731,7 +731,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
       }
     };
     gtag('event', 'conversion', {
-      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
       'event_callback': callback
@@ -1068,7 +1068,7 @@ function generateArticleIndex(translations) {
       }
     };
     gtag('event', 'conversion', {
-      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
       'event_callback': callback
@@ -2831,7 +2831,7 @@ function generateServicePage(service, translations, lang) {
       }
     };
     gtag('event', 'conversion', {
-      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
       'event_callback': callback
@@ -3197,7 +3197,7 @@ function generateAboutPage() {
       }
     };
     gtag('event', 'conversion', {
-      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
       'event_callback': callback
@@ -3405,7 +3405,7 @@ function generateContactPage() {
       }
     };
     gtag('event', 'conversion', {
-      'send_to': 'AW-816483191/FPP_CIm07owcEPeWqoUD',
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
       'event_callback': callback
