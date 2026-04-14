@@ -852,16 +852,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
         <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 
-      <nav class="nav">
-        <div class="nav-actions">
-          <div class="lang-toggle">
-            <a href="${fiUrl}" class="${lang === 'fi' ? 'active' : ''}"${lang === 'fi' ? ' aria-current="page"' : ''}>FI</a>
-            <a href="${svUrl}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
-            <a href="${enUrl}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
-          </div>
-          <a href="${homeUrl}" class="btn btn-outline btn-sm">${backTexts[lang]}</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
     </div>
   </header>
 
@@ -1147,11 +1138,7 @@ function generateArticleIndex(translations) {
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-      <nav class="nav">
-        <div class="nav-actions">
-          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
   </header>
 
@@ -2936,12 +2923,7 @@ function generateServicePage(service, translations, lang) {
       <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-      <nav class="nav">
-        <div class="nav-actions">
-${langSwitcher}
-          <a href="${homeUrl}" class="btn btn-outline btn-sm">${escapeHtml(backText)}</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
     </div>
   </header>
 
@@ -3071,11 +3053,7 @@ function generatePrivacyPage() {
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-      <nav class="nav">
-        <div class="nav-actions">
-          <a href="../" class="btn btn-outline btn-sm">← Takaisin etusivulle</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
   </header>
 
@@ -3286,11 +3264,7 @@ function generateAboutPage() {
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-      <nav class="nav">
-        <div class="nav-actions">
-          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
   </header>
 
@@ -3502,11 +3476,7 @@ function generateContactPage() {
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-      <nav class="nav">
-        <div class="nav-actions">
-          <a href="../" class="btn btn-outline btn-sm">\u2190 Takaisin etusivulle</a>
-        </div>
-      </nav>
+${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
   </header>
 
@@ -3714,6 +3684,54 @@ function generateSitemap() {
 // ──────────────────────────────────────────────
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function getArticlesUrl(lang) {
+  if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
+  if (lang === 'en') return `${BASE_URL}/en/articles/`;
+  return `${BASE_URL}/artikkelit/`;
+}
+
+// Canonical nav labels used in every page's header (single source of truth).
+const NAV_LABELS = {
+  fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', catfriendly: 'Cat Friendly', prices: 'Hinnasto', wildlife: 'Wildlife', contact: 'Yhteystiedot', articles: 'Artikkelit', book: 'Varaa aika' },
+  sv: { about: 'Kliniken', services: 'Tjänster', team: 'Personal', catfriendly: 'Cat Friendly', prices: 'Prislista', wildlife: 'Wildlife', contact: 'Kontakt', articles: 'Artiklar', book: 'Boka tid' },
+  en: { about: 'Clinic', services: 'Services', team: 'Staff', catfriendly: 'Cat Friendly', prices: 'Prices', wildlife: 'Wildlife', contact: 'Contact', articles: 'Articles', book: 'Book Now' }
+};
+
+// Full nav matching index.html — used on every non-homepage page so the header is identical everywhere.
+// Article/service/static pages use <a> for the lang toggle (each lang is a separate URL); homepage uses <button> + JS.
+function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
+  const nav = NAV_LABELS[lang] || NAV_LABELS.fi;
+  const bookingUrl = 'https://my.provet.com/elainklinikka-saari';
+  return `      <nav class="nav">
+        <div class="nav-links">
+          <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
+          <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
+          <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
+          <a href="${homeUrl}#cat-friendly">${escapeHtml(nav.catfriendly)}</a>
+          <a href="${homeUrl}#prices">${escapeHtml(nav.prices)}</a>
+          <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
+          <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>
+          <a href="${articlesUrl}">${escapeHtml(nav.articles)}</a>
+          <a href="${bookingUrl}" target="_blank" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
+        </div>
+
+        <div class="nav-actions">
+          <div class="lang-toggle">
+            <a href="${fiUrl}" class="${lang === 'fi' ? 'active' : ''}"${lang === 'fi' ? ' aria-current="page"' : ''}>FI</a>
+            <a href="${svUrl}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
+            <a href="${enUrl}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
+          </div>
+          <a href="${bookingUrl}" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>`;
 }
 
 function escapeAttr(str) {
