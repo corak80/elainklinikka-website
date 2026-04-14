@@ -2033,6 +2033,9 @@ a.service-card-link {
 /* --- Cat Friendly Clinic Header Logo --- */
 .logo { flex-shrink: 0; }
 
+/* Keep CFC logo adjacent to main logo regardless of nav width — nav is pushed to the right */
+.header .container > .nav { margin-left: auto; }
+
 .cfc-header-logo {
   display: flex;
   align-items: center;
