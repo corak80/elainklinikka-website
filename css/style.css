@@ -265,7 +265,7 @@ ul {
 }
 
 .logo-icon {
-  height: 180px;
+  height: 120px;
   width: auto;
 }
 
@@ -2029,3 +2029,122 @@ a.service-card-link {
   }
 }
 
+
+/* --- Cat Friendly Clinic Header Logo --- */
+.logo { flex-shrink: 0; }
+
+.cfc-header-logo {
+  display: flex;
+  align-items: center;
+  height: 108px;
+  flex-shrink: 0;
+  margin-left: var(--spacing-md);
+}
+
+.cfc-header-logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 1280px) {
+  .cfc-header-logo {
+    display: none;
+  }
+}
+
+/* --- Cat Friendly Clinic Section --- */
+.cfc-section {
+  background: linear-gradient(135deg, #fff 0%, #fdf2fb 100%);
+}
+
+.cfc-card {
+  max-width: 780px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: var(--radius-lg, 16px);
+  padding: var(--spacing-xl) var(--spacing-xl);
+  box-shadow: 0 4px 30px var(--color-shadow);
+  text-align: center;
+}
+
+.cfc-hero-logo {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  margin: 0 auto var(--spacing-md);
+  display: block;
+}
+
+.cfc-card h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.cfc-lead {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-lg);
+}
+
+.cfc-promise-heading {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.12em;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  font-weight: 700;
+}
+
+.cfc-promises {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-lg);
+}
+
+.cfc-promises li {
+  padding: 0.5rem 0;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}
+
+.cfc-ask {
+  font-style: italic;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.cfc-more {
+  margin-bottom: var(--spacing-lg);
+  font-weight: 500;
+}
+
+.cfc-more a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cfc-more a:hover {
+  text-decoration: underline;
+}
+
+.cfc-charity {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--spacing-md);
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .cfc-card {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+  .cfc-hero-logo {
+    max-width: 260px;
+  }
+  .cfc-lead,
+  .cfc-promises li {
+    font-size: var(--font-size-base);
+  }
+}

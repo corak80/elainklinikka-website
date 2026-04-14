@@ -12,7 +12,55 @@ const translations = {
   'nav.prices': { fi: 'Hinnasto', sv: 'Prislista', en: 'Prices' },
   'nav.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
   'nav.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
+  'nav.catfriendly': { fi: 'Cat Friendly', sv: 'Cat Friendly', en: 'Cat Friendly' },
   'nav.book': { fi: 'Varaa aika', sv: 'Boka tid', en: 'Book Now' },
+
+  // Cat Friendly Clinic section
+  'cfc.title': {
+    fi: 'Olemme Silver-tason akkreditoitu Cat Friendly Clinic',
+    sv: 'Vi är en silverackrediterad Cat Friendly Clinic',
+    en: 'We are a Silver accredited Cat Friendly Clinic'
+  },
+  'cfc.intro': {
+    fi: 'Haluamme minimoida klinikallamme käyvien kissojen stressin, siksi klinikkamme on International Cat Care -järjestön akkreditoima Cat Friendly Clinic.',
+    sv: 'Eftersom vi vill minimera stressen för katter som besöker oss är vår klinik en International Cat Care-ackrediterad Cat Friendly Clinic.',
+    en: 'We want to minimise stress for cats visiting our clinic, so we are an International Cat Care Cat Friendly Clinic.'
+  },
+  'cfc.promise.heading': {
+    fi: 'LUPAAMME SINULLE:',
+    sv: 'VI GARANTERAR ATT:',
+    en: 'THIS IS OUR PROMISE TO YOU:'
+  },
+  'cfc.promise.1': {
+    fi: 'Käsittelemme kissoja hellävaraisesti ja huolehtivasti',
+    sv: 'Vi behandlar katter på ett varsamt och omhändertagande sätt',
+    en: 'We are gentle and caring with cats'
+  },
+  'cfc.promise.2': {
+    fi: 'Ymmärrämme kissojen tarpeet',
+    sv: 'Vi förstår katternas behov',
+    en: 'We understand the needs of cats'
+  },
+  'cfc.promise.3': {
+    fi: 'Meillä on kissaystävälliset tilat',
+    sv: 'Vi har kattvänliga faciliteter',
+    en: 'We have cat friendly facilities'
+  },
+  'cfc.ask': {
+    fi: 'Voit kysyä keneltä tahansa henkilökunnastamme, jos haluat tutustua klinikkaamme tai sinulla on kysyttävää.',
+    sv: 'Du är välkommen att kontakta vem som helst i vår personal om du skulle vilja se vår klinik eller om du har några frågor.',
+    en: 'Please ask any of our staff if you would like to see our clinic or if you have any questions.'
+  },
+  'cfc.more': {
+    fi: 'Lisätietoja:',
+    sv: 'Mer information hittar du på:',
+    en: 'To find out more visit:'
+  },
+  'cfc.charity': {
+    fi: 'International Cat Care on hyväntekeväisyysjärjestö, joka toimii sellaisen maailman puolesta, jossa kaikkia kissoja – omistettuja ja omistamattomia – kohdellaan huolenpidolla, myötätunnolla ja ymmärryksellä.',
+    sv: 'International Cat Care är en välgörenhetsorganisation som arbetar för en värld där alla katter – med eller utan ägare – behandlas med omsorg, medkänsla och förståelse.',
+    en: 'International Cat Care is a charity working towards a world where all cats, owned and unowned, are treated with care, compassion and understanding.'
+  },
 
   // Notice banner
   'notice': {
