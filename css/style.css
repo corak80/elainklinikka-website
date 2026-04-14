@@ -2053,6 +2053,15 @@ a.service-card-link {
   }
 }
 
+/* Mobile: nav collapses, freeing room for CFC logo alongside main logo */
+@media (max-width: 768px) {
+  .cfc-header-logo {
+    display: flex;
+    height: 65px;
+    margin-left: var(--spacing-sm);
+  }
+}
+
 /* --- Cat Friendly Clinic Section --- */
 .cfc-section {
   background: linear-gradient(135deg, #fff 0%, #fdf2fb 100%);
