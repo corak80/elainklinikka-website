@@ -699,6 +699,36 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const breadcrumbHome = { fi: 'Etusivu', sv: 'Startsidan', en: 'Home' };
   const breadcrumbArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
 
+  // Footer text (localized per language so Google doesn't collapse EN/SV pages
+  // as duplicates of the FI version — JS-based i18n runs too late for that check).
+  const footerDesc = {
+    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
+    en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
+  };
+  const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
+  const footerContact = { fi: 'Yhteystiedot', sv: 'Kontaktuppgifter', en: 'Contact' };
+  const footerFollow = { fi: 'Seuraa meitä', sv: 'Följ oss', en: 'Follow us' };
+  const footerRights = { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' };
+  const footerAbout = { fi: 'Meistä', sv: 'Om oss', en: 'About us' };
+  const footerContactPage = { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' };
+  const footerArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
+  const footerPrivacy = { fi: 'Tietosuoja', sv: 'Integritetspolicy', en: 'Privacy policy' };
+  const footerNavLabels = {
+    fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', catfriendly: 'Cat Friendly', prices: 'Hinnasto', wildlife: 'Wildlife' },
+    sv: { about: 'Kliniken', services: 'Tjänster', team: 'Personal', catfriendly: 'Cat Friendly', prices: 'Prislista', wildlife: 'Wildlife' },
+    en: { about: 'Clinic', services: 'Services', team: 'Staff', catfriendly: 'Cat Friendly', prices: 'Prices', wildlife: 'Wildlife' }
+  };
+  const fnav = footerNavLabels[lang] || footerNavLabels.fi;
+
+  // Cookie consent banner (localized at build time for the page's language).
+  const cookieBanner = {
+    fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen analysointiin Google Analyticsin avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
+    sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken med Google Analytics. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
+    en: { text: 'We use cookies to analyze site traffic with Google Analytics. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
+  };
+  const cb = cookieBanner[lang] || cookieBanner.fi;
+
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -880,28 +910,28 @@ ${relatedHtml}
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p data-i18n="footer.description">Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p data-i18n="footer.description">${escapeHtml(footerDesc[lang] || footerDesc.fi)}</p>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading" data-i18n="footer.quicklinks">Pikalinkit</strong>
-          <a href="${homeUrl}#about" data-i18n="nav.about">Klinikka</a>
-          <a href="${homeUrl}#services" data-i18n="nav.services">Palvelut</a>
-          <a href="${homeUrl}#team" data-i18n="nav.team">Henkilökunta</a>
-          <a href="${homeUrl}#cat-friendly" data-i18n="nav.catfriendly">Cat Friendly</a>
-          <a href="${homeUrl}#prices" data-i18n="nav.prices">Hinnasto</a>
-          <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">Wildlife</a>
-          <a href="/meista/">Meistä</a>
-          <a href="/yhteystiedot/">Yhteystiedot</a>
-          <a href="/artikkelit/">Artikkelit</a>
+          <strong class="footer-heading" data-i18n="footer.quicklinks">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
+          <a href="${homeUrl}#about" data-i18n="nav.about">${escapeHtml(fnav.about)}</a>
+          <a href="${homeUrl}#services" data-i18n="nav.services">${escapeHtml(fnav.services)}</a>
+          <a href="${homeUrl}#team" data-i18n="nav.team">${escapeHtml(fnav.team)}</a>
+          <a href="${homeUrl}#cat-friendly" data-i18n="nav.catfriendly">${escapeHtml(fnav.catfriendly)}</a>
+          <a href="${homeUrl}#prices" data-i18n="nav.prices">${escapeHtml(fnav.prices)}</a>
+          <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">${escapeHtml(fnav.wildlife)}</a>
+          <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
+          <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
+          <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading" data-i18n="footer.contact">Yhteystiedot</strong>
+          <strong class="footer-heading" data-i18n="footer.contact">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading" data-i18n="footer.follow">Seuraa meitä</strong>
+          <strong class="footer-heading" data-i18n="footer.follow">${escapeHtml(footerFollow[lang] || footerFollow.fi)}</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.5-3h-3v-2c0-.9.3-1.5 1.6-1.5H16.7V4.1C16.4 4.1 15.4 4 14.3 4c-2.3 0-3.8 1.4-3.8 3.9v2.6h-2.5v3h2.5V21h3z"/></svg>
@@ -913,8 +943,8 @@ ${relatedHtml}
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; <span data-i18n="footer.rights">Kaikki oikeudet pidätetään.</span></span>
-        <a href="/tietosuoja/" data-i18n="footer.privacy">Tietosuoja</a>
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; <span data-i18n="footer.rights">${escapeHtml(footerRights[lang] || footerRights.fi)}</span></span>
+        <a href="/tietosuoja/" data-i18n="footer.privacy">${escapeHtml(footerPrivacy[lang] || footerPrivacy.fi)}</a>
       </div>
     </div>
   </footer>
@@ -925,10 +955,10 @@ ${relatedHtml}
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">
     <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">Käytämme evästeitä sivuston kävijäliikenteen analysointiin Google Analyticsin avulla. Evästeitä käytetään vain, jos hyväksyt ne.</p>
+      <p id="cookie-consent-text">${escapeHtml(cb.text)}</p>
       <div class="cookie-consent-buttons">
-        <button id="cookie-accept" onclick="acceptCookies()">Hyväksy</button>
-        <button id="cookie-decline" onclick="declineCookies()">Hylkää</button>
+        <button id="cookie-accept" onclick="acceptCookies()">${escapeHtml(cb.accept)}</button>
+        <button id="cookie-decline" onclick="declineCookies()">${escapeHtml(cb.decline)}</button>
       </div>
     </div>
   </div>
