@@ -1333,6 +1333,24 @@ a.service-card-link {
   flex-wrap: wrap;
 }
 
+/* --- Related Services (article → service link) --- */
+.related-services {
+  max-width: 800px;
+  margin: var(--spacing-lg) auto 0;
+  padding: var(--spacing-md);
+  background: var(--bg-alt, #f7f8fa);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  font-size: .95rem;
+  color: var(--text2);
+}
+.related-services a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+.related-services a:hover { text-decoration: underline; }
+
 /* --- Related Articles --- */
 .related-articles {
   max-width: 800px;

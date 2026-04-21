@@ -435,6 +435,75 @@ const relatedArticles = {
   'klinikkaeläinhoitaja': ['anestesiaturvallisuus', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
 };
 
+// Article slug (FI) → related service slug(s). Articles without a natural service parent are omitted.
+const articleToServices = {
+  'tta-leikkaus': ['ortopedia', 'kirurgia'],
+  'video-otoskopia': ['tahystykset', 'ihotaudit'],
+  'kipulääkeinfuusio': ['anestesia', 'kirurgia'],
+  'ripuli': ['sisataudit'],
+  'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
+  'hampaiden-harjaus': ['hammashoito'],
+  'viljaton-ruoka': ['rehumyynti'],
+  'periovive': ['hammashoito'],
+  'ruoka-allergiat': ['ihotaudit', 'rehumyynti'],
+  'kilpirauhasen-liikatoiminta': ['sisataudit', 'verikokeet'],
+  'munuaisten-vajaatoiminta': ['sisataudit'],
+  'kyynpurema': ['sisataudit'],
+  'kohtutulehdus': ['kirurgia', 'sterilisaatio'],
+  'lateral-suture': ['ortopedia', 'kirurgia'],
+  'puhkeamattomat-hampaat': ['hammashoito'],
+  'gastroskopia': ['tahystykset', 'sisataudit'],
+  'hammasresorptio': ['hammashoito'],
+  'rokotukset': ['rokotukset'],
+  'ibd-lymfooma': ['sisataudit', 'tahystykset'],
+  'hypotermia': ['anestesia', 'kirurgia'],
+  'anestesiaturvallisuus': ['anestesia', 'kirurgia'],
+};
+
+const serviceMeta = {
+  ortopedia:        { fi: 'Ortopedinen kirurgia', sv: 'Ortopedisk kirurgi', en: 'Orthopedic Surgery',
+                      pathFi: '/palvelut/ortopedia/',       pathSv: '/sv/tjanster/ortopedi/',              pathEn: '/en/services/orthopedics/' },
+  kirurgia:         { fi: 'Pehmytkudoskirurgia',  sv: 'Mjukdelskirurgi',    en: 'Soft Tissue Surgery',
+                      pathFi: '/palvelut/kirurgia/',        pathSv: '/sv/tjanster/kirurgi/',               pathEn: '/en/services/surgery/' },
+  tahystykset:      { fi: 'Tähystystutkimukset',  sv: 'Endoskopi',          en: 'Endoscopy',
+                      pathFi: '/palvelut/tahystykset/',     pathSv: '/sv/tjanster/endoskopi/',             pathEn: '/en/services/endoscopy/' },
+  anestesia:        { fi: 'Anestesia',            sv: 'Anestesi',           en: 'Anesthesia',
+                      pathFi: '/palvelut/anestesia/',       pathSv: '/sv/tjanster/anestesi/',              pathEn: '/en/services/anesthesia/' },
+  sisataudit:       { fi: 'Sisätaudit',           sv: 'Internmedicin',      en: 'Internal Medicine',
+                      pathFi: '/palvelut/sisataudit/',      pathSv: '/sv/tjanster/internmedicin/',         pathEn: '/en/services/internal-medicine/' },
+  sydantutkimukset: { fi: 'Sydänsairaudet',       sv: 'Hjärtsjukdomar',     en: 'Heart Diseases',
+                      pathFi: '/palvelut/sydantutkimukset/', pathSv: '/sv/tjanster/hjartundersokningar/',  pathEn: '/en/services/cardiac-examinations/' },
+  hammashoito:      { fi: 'Hammashoito',          sv: 'Tandvård',           en: 'Dental Care',
+                      pathFi: '/palvelut/hammashoito/',     pathSv: '/sv/tjanster/tandvard/',              pathEn: '/en/services/dental-care/' },
+  ihotaudit:        { fi: 'Ihotaudit ja allergiat', sv: 'Dermatologi och allergier', en: 'Dermatology & Allergies',
+                      pathFi: '/palvelut/ihotaudit/',       pathSv: '/sv/tjanster/hudsjukdomar/',          pathEn: '/en/services/dermatology/' },
+  rehumyynti:       { fi: 'Rehumyynti',           sv: 'Foderförsäljning',   en: 'Therapeutic Diets',
+                      pathFi: '/palvelut/rehumyynti/',      pathSv: '/sv/tjanster/foderforsaljning/',      pathEn: '/en/services/prescription-diets/' },
+  verikokeet:       { fi: 'Verikokeet',           sv: 'Blodprov',           en: 'Blood Tests',
+                      pathFi: '/palvelut/verikokeet/',      pathSv: '/sv/tjanster/blodprov/',              pathEn: '/en/services/blood-tests/' },
+  sterilisaatio:    { fi: 'Sterilisaatio',        sv: 'Sterilisering',      en: 'Sterilization',
+                      pathFi: '/palvelut/sterilisaatio/',   pathSv: '/sv/tjanster/sterilisering/',         pathEn: '/en/services/spay-and-neuter/' },
+  rokotukset:       { fi: 'Rokotukset',           sv: 'Vaccinationer',      en: 'Vaccinations',
+                      pathFi: '/palvelut/rokotukset/',      pathSv: '/sv/tjanster/vaccinationer/',         pathEn: '/en/services/vaccinations/' },
+};
+
+function generateRelatedServicesHtml(articleSlugFi, lang) {
+  lang = lang || 'fi';
+  const services = articleToServices[articleSlugFi];
+  if (!services || !services.length) return '';
+  const heading = { fi: 'Aiheeseen liittyvät palvelumme', sv: 'Relaterade tjänster', en: 'Related services' };
+  const items = services.map(s => {
+    const m = serviceMeta[s];
+    if (!m) return '';
+    const path = lang === 'sv' ? m.pathSv : (lang === 'en' ? m.pathEn : m.pathFi);
+    const name = m[lang] || m.fi;
+    return `<a href="${path}">${escapeHtml(name)}</a>`;
+  }).filter(Boolean).join(' · ');
+  if (!items) return '';
+  return `
+      <p class="related-services"><strong>${heading[lang]}:</strong> ${items}</p>`;
+}
+
 function generateRelatedArticlesHtml(currentSlug, translations, lang) {
   lang = lang || 'fi';
   const related = relatedArticles[currentSlug];
@@ -685,6 +754,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   const articleBody = generateArticleBody(article, translations, specialContent, lang);
   const relatedHtml = generateRelatedArticlesHtml(article.slug, translations, lang);
+  const relatedServicesHtml = generateRelatedServicesHtml(article.slug, lang);
   const faqSchema = generateFaqSchema(article, translations, lang);
   const dateStr = article.date || '2026';
   const today = new Date().toISOString().split('T')[0];
@@ -897,7 +967,7 @@ ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
         <h1>${title}</h1>
         <div class="article-byline">${lang === 'en' ? 'Veterinarian' : lang === 'sv' ? 'Veterinär' : 'Eläinlääkäri'} ${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>
         <div class="article-content">
-${articleBody}        </div>
+${articleBody}        </div>${relatedServicesHtml}
       </article>
 ${relatedHtml}
       <a href="${homeUrl}" class="btn btn-secondary articles-back">${backTexts[lang]}</a>
