@@ -1561,7 +1561,8 @@ a.service-card-link {
   }
 
   .logo-icon {
-    height: 65px;
+    height: 110px;
+    overflow: visible;
   }
 
   .nav-links {
@@ -1751,7 +1752,8 @@ a.service-card-link {
 
 @media (max-width: 480px) {
   .logo-icon {
-    height: 55px;
+    height: 95px;
+    overflow: visible;
   }
 
   .hero h1 {
