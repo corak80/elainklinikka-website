@@ -3709,8 +3709,14 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
 // ──────────────────────────────────────────────
 function generateSitemap() {
   const today = new Date().toISOString().split('T')[0];
+  const hreflangLinks = (fiUrl, svUrl, enUrl) =>
+    `    <xhtml:link rel="alternate" hreflang="fi" href="${fiUrl}"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${svUrl}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${enUrl}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${fiUrl}"/>
+`;
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>${BASE_URL}/</loc>
     <lastmod>${today}</lastmod>
@@ -3750,51 +3756,59 @@ function generateSitemap() {
 `;
 
   for (const service of servicePages) {
+    const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
+    const svUrl = `${BASE_URL}/sv/tjanster/${service.slugSv}/`;
+    const enUrl = `${BASE_URL}/en/services/${service.slugEn}/`;
+    const links = hreflangLinks(fiUrl, svUrl, enUrl);
     xml += `  <url>
-    <loc>${BASE_URL}/palvelut/${service.slug}/</loc>
+    <loc>${fiUrl}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
+${links}  </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/sv/tjanster/${service.slugSv}/</loc>
+    <loc>${svUrl}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+${links}  </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/en/services/${service.slugEn}/</loc>
+    <loc>${enUrl}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+${links}  </url>
 `;
   }
 
   for (const article of articles) {
     const articleDate = article.publishDate || today;
+    const fiUrl = `${BASE_URL}/articles/${articleSlug(article, 'fi')}.html`;
+    const svUrl = `${BASE_URL}/sv/artiklar/${articleSlug(article, 'sv')}.html`;
+    const enUrl = `${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html`;
+    const links = hreflangLinks(fiUrl, svUrl, enUrl);
     xml += `  <url>
-    <loc>${BASE_URL}/articles/${articleSlug(article, 'fi')}.html</loc>
+    <loc>${fiUrl}</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+${links}  </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/sv/artiklar/${articleSlug(article, 'sv')}.html</loc>
+    <loc>${svUrl}</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
+${links}  </url>
 `;
     xml += `  <url>
-    <loc>${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html</loc>
+    <loc>${enUrl}</loc>
     <lastmod>${articleDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
+${links}  </url>
 `;
   }
 

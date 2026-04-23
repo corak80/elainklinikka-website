@@ -1,951 +1,1563 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://saarivet.fi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://saarivet.fi/artikkelit/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://saarivet.fi/tietosuoja/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://saarivet.fi/meista/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://saarivet.fi/yhteystiedot/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/hammashoito/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hammashoito/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/tandvard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dental-care/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hammashoito/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/tandvard/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hammashoito/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/tandvard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dental-care/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hammashoito/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/dental-care/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hammashoito/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/tandvard/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dental-care/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hammashoito/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/sydantutkimukset/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hjartundersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/cardiac-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/hjartundersokningar/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hjartundersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/cardiac-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/cardiac-examinations/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hjartundersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/cardiac-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sydantutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/kirurgia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kirurgia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kirurgi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/surgery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kirurgia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/kirurgi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kirurgia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kirurgi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/surgery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kirurgia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/surgery/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kirurgia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kirurgi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/surgery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kirurgia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/tahystykset/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tahystykset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/endoskopi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/endoscopy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tahystykset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/endoskopi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tahystykset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/endoskopi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/endoscopy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tahystykset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/endoscopy/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tahystykset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/endoskopi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/endoscopy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tahystykset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/rokotukset/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rokotukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/vaccinationer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/vaccinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rokotukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/vaccinationer/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rokotukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/vaccinationer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/vaccinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rokotukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/vaccinations/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rokotukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/vaccinationer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/vaccinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rokotukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/ultraaani/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ultraaani/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ultraljud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ultrasound/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ultraaani/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/ultraljud/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ultraaani/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ultraljud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ultrasound/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ultraaani/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/ultrasound/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ultraaani/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ultraljud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ultrasound/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ultraaani/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/ihotaudit/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ihotaudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hudsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dermatology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ihotaudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/hudsjukdomar/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ihotaudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hudsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dermatology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ihotaudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/dermatology/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ihotaudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hudsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/dermatology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ihotaudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/senioritarkastus/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/seniorundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/senior-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/seniorundersokning/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/seniorundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/senior-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/senior-check-up/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/seniorundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/senior-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/pentutarkastus/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/valpundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/puppy-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/valpundersokning/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/valpundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/puppy-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/puppy-check-up/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/valpundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/puppy-check-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/pentutarkastus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/akupunktio/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/akupunktio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/akupunktur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/acupuncture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/akupunktio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/akupunktur/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/akupunktio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/akupunktur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/acupuncture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/akupunktio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/acupuncture/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/akupunktio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/akupunktur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/acupuncture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/akupunktio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/viralliset-tutkimukset/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/officiella-undersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/official-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/officiella-undersokningar/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/officiella-undersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/official-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/official-examinations/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/officiella-undersokningar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/official-examinations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/viralliset-tutkimukset/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/sterilisaatio/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/sterilisering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/spay-and-neuter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/sterilisering/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/sterilisering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/spay-and-neuter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/spay-and-neuter/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/sterilisering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/spay-and-neuter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sterilisaatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/sisataudit/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sisataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/internmedicin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/internal-medicine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sisataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/internmedicin/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sisataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/internmedicin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/internal-medicine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sisataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/internal-medicine/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/sisataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/internmedicin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/internal-medicine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/sisataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/silmataudit/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/silmataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ogonsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ophthalmology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/silmataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/ogonsjukdomar/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/silmataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ogonsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ophthalmology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/silmataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/ophthalmology/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/silmataudit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ogonsjukdomar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/ophthalmology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/silmataudit/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/laboratorio/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/laboratorio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/laboratorium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/laboratory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/laboratorio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/laboratorium/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/laboratorio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/laboratorium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/laboratory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/laboratorio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/laboratory/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/laboratorio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/laboratorium/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/laboratory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/laboratorio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/rontgen/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/x-ray/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rontgen/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/rontgen/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/x-ray/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rontgen/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/x-ray/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rontgen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/x-ray/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rontgen/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/eutanasia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eutanasia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eutanasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/euthanasia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eutanasia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/eutanasi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eutanasia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eutanasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/euthanasia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eutanasia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/euthanasia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eutanasia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eutanasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/euthanasia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eutanasia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/eu-lemmikkipassi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eu-sallskapsdjurspass/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/eu-pet-passport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/eu-sallskapsdjurspass/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eu-sallskapsdjurspass/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/eu-pet-passport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/eu-pet-passport/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/eu-sallskapsdjurspass/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/eu-pet-passport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/eu-lemmikkipassi/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/verikokeet/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/verikokeet/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/blodprov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/blood-tests/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/verikokeet/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/blodprov/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/verikokeet/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/blodprov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/blood-tests/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/verikokeet/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/blood-tests/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/verikokeet/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/blodprov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/blood-tests/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/verikokeet/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/tiineystutkimus/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/draktighetsundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/pregnancy-examination/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/draktighetsundersokning/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/draktighetsundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/pregnancy-examination/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/pregnancy-examination/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/draktighetsundersokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/pregnancy-examination/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/tiineystutkimus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/rehumyynti/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rehumyynti/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/foderforsaljning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/prescription-diets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rehumyynti/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/foderforsaljning/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rehumyynti/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/foderforsaljning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/prescription-diets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rehumyynti/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/prescription-diets/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/rehumyynti/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/foderforsaljning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/prescription-diets/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/rehumyynti/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/kuntoutus/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kuntoutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rehabilitering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/rehabilitation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kuntoutus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/rehabilitering/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kuntoutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rehabilitering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/rehabilitation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kuntoutus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/rehabilitation/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kuntoutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/rehabilitering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/rehabilitation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kuntoutus/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/kastraatio/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kastraatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kastrering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/castration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kastraatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/kastrering/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kastraatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kastrering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/castration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kastraatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/castration/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/kastraatio/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/kastrering/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/castration/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/kastraatio/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/ortopedia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ortopedia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ortopedi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/orthopedics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ortopedia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/ortopedi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ortopedia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ortopedi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/orthopedics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ortopedia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/orthopedics/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/ortopedia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/ortopedi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/orthopedics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/ortopedia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/anestesia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/anestesia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/anestesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/anesthesia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/anestesia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/anestesi/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/anestesia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/anestesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/anesthesia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/anestesia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/anesthesia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/anestesia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/anestesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/anesthesia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/anestesia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/hygienia/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hygienia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hygien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/hygiene/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hygienia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/hygien/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hygienia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hygien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/hygiene/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hygienia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/hygiene/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/hygienia/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/hygien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/hygiene/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/hygienia/"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/tta-leikkaus.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tta-operation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tta-surgery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/tta-operation.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tta-operation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tta-surgery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/tta-surgery.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tta-operation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tta-surgery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/tta-leikkaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/video-otoskopia.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/video-otoskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/video-otoskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/video-otoscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/video-otoskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/video-otoskopi.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/video-otoskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/video-otoskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/video-otoscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/video-otoskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/video-otoscopy.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/video-otoskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/video-otoskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/video-otoscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/video-otoskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/kipulääkeinfuusio.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/smartlindringsinfusion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pain-relief-infusion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/smartlindringsinfusion.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/smartlindringsinfusion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pain-relief-infusion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/pain-relief-infusion.html</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/smartlindringsinfusion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pain-relief-infusion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kipulääkeinfuusio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/ripuli.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ripuli.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/diarre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/diarrhoea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ripuli.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/diarre.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ripuli.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/diarre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/diarrhoea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ripuli.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/diarrhoea.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ripuli.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/diarre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/diarrhoea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ripuli.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/patent-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/patent-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/patent-ductus-arteriosus-pda.html</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/patent-ductus-arteriosus-pda.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/avoin-valtimotiehyt-pda.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/hampaiden-harjaus.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandborstning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-brushing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/tandborstning.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandborstning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-brushing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/tooth-brushing.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandborstning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-brushing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hampaiden-harjaus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/viljaton-ruoka.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/spannmalsfri-mat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/grain-free-food.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/spannmalsfri-mat.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/spannmalsfri-mat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/grain-free-food.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/grain-free-food.html</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/spannmalsfri-mat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/grain-free-food.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/viljaton-ruoka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/periovive.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/periovive.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/periovive.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/periovive.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/periovive.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/periovive.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/periovive.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/yksityinen-klinikka.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/privat-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/independent-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/privat-klinik.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/privat-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/independent-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/independent-clinic.html</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/privat-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/independent-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/yksityinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/ruoka-allergiat.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/foderallergier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/food-allergies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/foderallergier.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/foderallergier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/food-allergies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/food-allergies.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/foderallergier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/food-allergies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ruoka-allergiat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypertyreos-katt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hyperthyroidism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/hypertyreos-katt.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypertyreos-katt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hyperthyroidism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/hyperthyroidism.html</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypertyreos-katt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hyperthyroidism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kilpirauhasen-liikatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/munuaisten-vajaatoiminta.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/njursvikt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/kidney-disease.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/njursvikt.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/njursvikt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/kidney-disease.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/kidney-disease.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/njursvikt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/kidney-disease.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/munuaisten-vajaatoiminta.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/kyynpurema.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kyynpurema.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/huggormsbett.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/snake-bite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kyynpurema.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/huggormsbett.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kyynpurema.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/huggormsbett.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/snake-bite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kyynpurema.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/snake-bite.html</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kyynpurema.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/huggormsbett.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/snake-bite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kyynpurema.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/kohtutulehdus.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/livmoderinflammation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pyometra.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/livmoderinflammation.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/livmoderinflammation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pyometra.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/pyometra.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/livmoderinflammation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/pyometra.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kohtutulehdus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/lateral-suture.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/lateral-suture.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/lateral-suture.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/lateral-suture.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/lateral-suture.html</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/lateral-suture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/lateral-suture.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/siili.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkott.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siili.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/igelkott.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkott.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siili.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/hedgehog.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkott.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siili.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/kissaystävällinen-klinikka.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/kattvanlig-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/cat-friendly-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/kattvanlig-klinik.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/kattvanlig-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/cat-friendly-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/cat-friendly-clinic.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/kattvanlig-klinik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/cat-friendly-clinic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/kissaystävällinen-klinikka.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/puhkeamattomat-hampaat.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/icke-framvaxta-tander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/unerupted-teeth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/icke-framvaxta-tander.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/icke-framvaxta-tander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/unerupted-teeth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/unerupted-teeth.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/icke-framvaxta-tander.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/unerupted-teeth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/puhkeamattomat-hampaat.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/gastroskopia.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/gastroskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/gastroskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/gastroscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/gastroskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/gastroskopi.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/gastroskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/gastroskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/gastroscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/gastroskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/gastroscopy.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/gastroskopia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/gastroskopi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/gastroscopy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/gastroskopia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/hammasresorptio.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hammasresorptio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandresorption.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-resorption.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hammasresorptio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/tandresorption.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hammasresorptio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandresorption.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-resorption.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hammasresorptio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/tooth-resorption.html</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hammasresorptio.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/tandresorption.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/tooth-resorption.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hammasresorptio.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/rokotukset.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/rokotukset.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/vaccinationsguide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/vaccinations-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/rokotukset.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/vaccinationsguide.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/rokotukset.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/vaccinationsguide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/vaccinations-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/rokotukset.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/vaccinations-guide.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/rokotukset.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/vaccinationsguide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/vaccinations-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/rokotukset.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/ibd-lymfooma.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/ibd-lymfom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/ibd-lymphoma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/ibd-lymfom.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/ibd-lymfom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/ibd-lymphoma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/ibd-lymphoma.html</loc>
     <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/ibd-lymfom.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/ibd-lymphoma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/ibd-lymfooma.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/hypotermia.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hypotermia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypotermi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hypothermia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hypotermia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/hypotermi.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hypotermia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypotermi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hypothermia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hypotermia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/hypothermia.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/hypotermia.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/hypotermi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/hypothermia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/hypotermia.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/anestesiaturvallisuus.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/anestesisakerhet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/anaesthesia-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/anestesisakerhet.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/anestesisakerhet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/anaesthesia-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/anaesthesia-safety.html</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/anestesisakerhet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/anaesthesia-safety.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/anestesiaturvallisuus.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/articles/klinikkaeläinhoitaja.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/klinikdjurskotare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/veterinary-nurse.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/klinikdjurskotare.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/klinikdjurskotare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/veterinary-nurse.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/veterinary-nurse.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/klinikdjurskotare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/veterinary-nurse.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/klinikkaeläinhoitaja.html"/>
   </url>
 </urlset>
