@@ -2087,10 +2087,22 @@ a.service-card-link {
   }
 }
 
-/* Phones: hide CFC badge so hamburger menu fits */
+/* Phones: shrink CFC badge + tighten lang toggle so hamburger menu fits */
 @media (max-width: 640px) {
   .cfc-header-logo {
-    display: none;
+    height: 42px;
+    margin-left: var(--spacing-xs);
+  }
+  .header .container {
+    padding: 0 var(--spacing-sm);
+  }
+  .nav {
+    gap: var(--spacing-sm);
+  }
+  .lang-toggle button,
+  .lang-toggle a {
+    padding: 0.25rem 0.45rem;
+    font-size: var(--font-size-xs);
   }
 }
 
