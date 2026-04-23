@@ -1557,11 +1557,11 @@ a.service-card-link {
 
 @media (max-width: 768px) {
   :root {
-    --header-height: 80px;
+    --header-height: 90px;
   }
 
   .logo-icon {
-    height: 65px;
+    height: 78px;
   }
 
   .nav-links {
@@ -1751,7 +1751,7 @@ a.service-card-link {
 
 @media (max-width: 480px) {
   .logo-icon {
-    height: 55px;
+    height: 70px;
   }
 
   .hero h1 {
@@ -2078,7 +2078,7 @@ a.service-card-link {
 @media (max-width: 768px) {
   .cfc-header-logo {
     display: flex;
-    height: 65px;
+    height: 78px;
     margin-left: var(--spacing-sm);
   }
 }
