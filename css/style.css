@@ -1563,7 +1563,7 @@ a.service-card-link {
   .logo-icon {
     height: 110px;
     overflow: visible;
-    transform: translateY(10px);
+    transform: translateY(2px);
   }
 
   .nav-links {
@@ -1755,11 +1755,7 @@ a.service-card-link {
   .logo-icon {
     height: 95px;
     overflow: visible;
-    transform: translateY(8px);
-  }
-
-  .cfc-header-logo {
-    display: none;
+    transform: translateY(2px);
   }
 
   .hero h1 {
@@ -2088,6 +2084,13 @@ a.service-card-link {
     display: flex;
     height: 65px;
     margin-left: var(--spacing-sm);
+  }
+}
+
+/* Phones: hide CFC badge so hamburger menu fits */
+@media (max-width: 640px) {
+  .cfc-header-logo {
+    display: none;
   }
 }
 
