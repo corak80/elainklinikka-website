@@ -2807,6 +2807,14 @@ function generateServicePage(service, translations, lang) {
   const backTexts = { fi: '\u2190 Takaisin etusivulle', sv: '\u2190 Tillbaka till startsidan', en: '\u2190 Back to homepage' };
   const backText = (lang !== 'fi' && langData) ? langData.back : backTexts[lang] || backTexts.fi;
 
+  // City-targeted landing-page link (per language)
+  const landingLinks = {
+    fi: { url: '/elainlaakari-vaasa/', anchor: 'El\u00e4inl\u00e4\u00e4k\u00e4ri Vaasassa \u2014 tutustu klinikkaamme' },
+    sv: { url: '/sv/veterinar-vasa/', anchor: 'Veterin\u00e4r i Vasa \u2014 l\u00e4s mer om kliniken' },
+    en: { url: '/en/veterinarian-vaasa/', anchor: 'Veterinarian in Vaasa \u2014 about our clinic' },
+  };
+  const landing = landingLinks[lang] || landingLinks.fi;
+
   // Skip link text
   const skipTexts = { fi: 'Siirry sisältöön', sv: 'Hoppa till innehållet', en: 'Skip to content' };
   const skipText = skipTexts[lang] || skipTexts.fi;
@@ -3055,6 +3063,8 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
           <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">${escapeHtml(cta.book)}</a>
         </div>
       </div>
+
+      <p class="service-clinic-link"><a href="${landing.url}">${escapeHtml(landing.anchor)} →</a></p>
 ${relatedHtml}
       <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(backText)}</a>
     </div>

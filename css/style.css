@@ -455,6 +455,25 @@ ul {
   text-underline-offset: 4px;
 }
 
+.service-clinic-link {
+  text-align: center;
+  margin: var(--spacing-lg) auto 0;
+  font-size: 1.05em;
+}
+
+.service-clinic-link a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.service-clinic-link a:hover,
+.service-clinic-link a:focus-visible {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
 .hero .subtitle {
   font-size: var(--font-size-xl);
   color: var(--color-text-light);
