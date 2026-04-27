@@ -436,6 +436,15 @@ ul {
   color: var(--color-primary);
 }
 
+.hero h1 .h1-tagline {
+  display: block;
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin-top: var(--spacing-xs);
+  letter-spacing: 0;
+}
+
 .hero .subtitle {
   font-size: var(--font-size-xl);
   color: var(--color-text-light);

@@ -76,6 +76,11 @@ const translations = {
     en: 'Animal Clinic'
   },
   'hero.title2': { fi: 'Saari', sv: 'Saari', en: 'Saari' },
+  'hero.title3': {
+    fi: '— Eläinlääkäri Vaasassa',
+    sv: '— Veterinär i Vasa',
+    en: '— Veterinarian in Vaasa'
+  },
   'hero.subtitle': {
     fi: 'Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989',
     sv: 'Professionell och varm djursjukvård i Vasa sedan 1989',
