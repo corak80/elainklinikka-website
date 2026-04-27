@@ -3755,12 +3755,32 @@ function generateSitemap() {
   </url>
 `;
 
+  // City-targeted landing pages (FI + SV + EN, hreflang-linked)
+  const landingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/elainlaakari-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-vasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/veterinarian-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/elainlaakari-vaasa/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/elainlaakari-vaasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+${landingHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/veterinar-vasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+${landingHreflang}  </url>
+`;
   xml += `  <url>
     <loc>${BASE_URL}/en/veterinarian-vaasa/</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
+${landingHreflang}  </url>
 `;
 
   for (const service of servicePages) {
