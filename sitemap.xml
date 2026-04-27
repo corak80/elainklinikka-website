@@ -31,6 +31,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://saarivet.fi/media/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/media/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/media/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/media/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/media/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/sv/media/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/media/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/media/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/media/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/media/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/en/media/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/media/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/media/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/media/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/media/"/>
+  </url>
+  <url>
     <loc>https://saarivet.fi/elainlaakari-vaasa/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>

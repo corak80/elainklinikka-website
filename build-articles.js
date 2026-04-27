@@ -783,6 +783,8 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const footerAbout = { fi: 'Meistä', sv: 'Om oss', en: 'About us' };
   const footerContactPage = { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' };
   const footerArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
+  const footerMedia = { fi: 'Saari mediassa', sv: 'Saari i media', en: 'Saari in the news' };
+  const mediaUrl = { fi: '/media/', sv: '/sv/media/', en: '/en/media/' };
   const footerPrivacy = { fi: 'Tietosuoja', sv: 'Integritetspolicy', en: 'Privacy policy' };
   const footerNavLabels = {
     fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', catfriendly: 'Cat Friendly', prices: 'Hinnasto', wildlife: 'Wildlife' },
@@ -993,6 +995,7 @@ ${relatedHtml}
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
           <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.contact">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
@@ -1276,6 +1279,7 @@ ${cardsHtml}
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -2851,6 +2855,8 @@ function generateServicePage(service, translations, lang) {
   const footerAbout = { fi: 'Meistä', sv: 'Om oss', en: 'About Us' };
   const footerContactPage = { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' };
   const footerArticles = { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' };
+  const footerMedia = { fi: 'Saari mediassa', sv: 'Saari i media', en: 'Saari in the news' };
+  const mediaUrl = { fi: '/media/', sv: '/sv/media/', en: '/en/media/' };
   const footerPrivacy = { fi: 'Tietosuoja', sv: 'Integritetspolicy', en: 'Privacy Policy' };
   const navLabels = {
     fi: { about: 'Klinikka', services: 'Palvelut', team: 'Henkilökunta', catfriendly: 'Cat Friendly', prices: 'Hinnasto', wildlife: 'Wildlife' },
@@ -3088,6 +3094,7 @@ ${relatedHtml}
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
           <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
@@ -3251,6 +3258,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -3463,6 +3471,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -3683,6 +3692,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -3770,6 +3780,32 @@ function generateSitemap() {
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-vasa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/veterinarian-vaasa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/elainlaakari-vaasa/"/>
+`;
+  const mediaHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/media/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/media/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/media/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/media/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/media/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${mediaHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/media/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${mediaHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/media/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${mediaHreflang}  </url>
 `;
   xml += `  <url>
     <loc>${BASE_URL}/elainlaakari-vaasa/</loc>
