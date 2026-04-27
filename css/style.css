@@ -443,6 +443,16 @@ ul {
   color: var(--color-text-light);
   margin-top: var(--spacing-xs);
   letter-spacing: 0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.hero h1 a.h1-tagline:hover,
+.hero h1 a.h1-tagline:focus-visible {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
 }
 
 .hero .subtitle {
