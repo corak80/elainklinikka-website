@@ -3755,6 +3755,14 @@ function generateSitemap() {
   </url>
 `;
 
+  xml += `  <url>
+    <loc>${BASE_URL}/en/veterinarian-vaasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+
   for (const service of servicePages) {
     const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
     const svUrl = `${BASE_URL}/sv/tjanster/${service.slugSv}/`;
