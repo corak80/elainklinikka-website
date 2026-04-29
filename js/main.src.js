@@ -1568,9 +1568,9 @@ const translations = {
     en: 'Veterinary Treatment'
   },
   'article.snake.treatment.text': {
-    fi: 'Hoito sisältää kivunlievityksen, tulehduskipulääkkeet tai kortisonia, suonensisäisen nestehoidon ja tarvittaessa antihistamiinia. Vaikeissa tapauksissa käytetään käärmeen myrkyn vasta-ainetta. Potilasta seurataan hyytymistekijöiden, munuaisten ja maksan toiminnan osalta. Useimmat koirat toipuvat 2–5 päivässä, mutta vakavissa tapauksissa sairaalahoito voi kestää pidempään. Kuolleisuus hoidolla on alle 5 %, mutta hoitamattomana purema voi olla kohtalokas erityisesti pienille koirille.',
-    sv: 'Behandlingen inkluderar smärtlindring, antiinflammatoriska läkemedel eller kortison, intravenös vätskebehandling och vid behov antihistamin. I svåra fall används antiserum (huggormserum). Patienten övervakas avseende koagulationsfaktorer, njur- och leverfunktion. De flesta hundar återhämtar sig inom 2–5 dagar, men i allvarliga fall kan sjukhusvård ta längre tid. Dödligheten med behandling är under 5 %, men utan behandling kan bettet vara dödligt särskilt för små hundar.',
-    en: 'Treatment includes pain relief, anti-inflammatory medication or corticosteroids, intravenous fluid therapy and antihistamines when needed. In severe cases, antivenom is used. The patient is monitored for clotting factors, kidney and liver function. Most dogs recover within 2–5 days, but in severe cases hospitalization may take longer. Mortality with treatment is under 5%, but without treatment the bite can be fatal, especially for small dogs.'
+    fi: 'Hoito perustuu tukihoitoon: laskimonsisäinen nestehoito, kivunlievitys (yleensä opioidi) ja tarkka monitorointi. Keskivaikeissa ja vaikeissa tapauksissa annetaan käärmeen vasta-ainetta (Vipera-antiseerumi). Potilasta seurataan hyytymistekijöiden, munuaisten ja maksan toiminnan osalta. Useimmat koirat toipuvat 2–5 päivässä, mutta vakavissa tapauksissa sairaalahoito voi kestää pidempään. Kuolleisuus hoidolla on alle 5 %, mutta hoitamattomana purema voi olla kohtalokas erityisesti pienille koirille.',
+    sv: 'Behandlingen baseras på understödjande vård: intravenös vätsketerapi, smärtlindring (vanligen en opioid) och noggrann övervakning. Vid medelsvåra och svåra fall ges antiserum (Vipera-antiserum). Patienten övervakas avseende koagulationsfaktorer, njur- och leverfunktion. De flesta hundar återhämtar sig inom 2–5 dagar, men i allvarliga fall kan sjukhusvård ta längre tid. Dödligheten med behandling är under 5 %, men utan behandling kan bettet vara dödligt särskilt för små hundar.',
+    en: 'Treatment is supportive care: intravenous fluid therapy, pain relief (typically an opioid), and close monitoring. Antivenom (Vipera antiserum) is given in moderate to severe cases. The patient is monitored for clotting factors, kidney, and liver function. Most dogs recover within 2–5 days, but in severe cases hospitalization may take longer. Mortality with treatment is under 5%, but without treatment the bite can be fatal, especially for small dogs.'
   },
   'article.snake.prevention.title': {
     fi: 'Ehkäisy',
@@ -1578,9 +1578,9 @@ const translations = {
     en: 'Prevention'
   },
   'article.snake.prevention.text': {
-    fi: 'Pidä koira kytkettynä alueilla, joilla kyitä esiintyy (kalliot, avoimet maastot, metsänreunat). Kyyt ovat aktiivisimpia lämpimillä aamuilla ja iltapäivillä. Tarkista maasto ennen kuin päästät koiran vapaaksi. Jos koirasi on aiemmin saanut kyynpureman, riski vakavaan reaktioon on suurempi seuraavalla kerralla.',
-    sv: 'Håll hunden kopplad i områden där huggormar förekommer (klippor, öppna marker, skogsbryn). Huggormar är mest aktiva varma morgnar och eftermiddagar. Kontrollera terrängen innan du släpper hunden lös. Om din hund har fått ett hugormsbett tidigare, är risken för en allvarligare reaktion större nästa gång.',
-    en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. If your dog has previously been bitten by an adder, the risk of a severe reaction is greater next time.'
+    fi: 'Pidä koira kytkettynä alueilla, joilla kyitä esiintyy (kalliot, avoimet maastot, metsänreunat). Kyyt ovat aktiivisimpia lämpimillä aamuilla ja iltapäivillä. Tarkista maasto ennen kuin päästät koiran vapaaksi. Jokainen kyynpurema on yksilöllinen — myös aiemmin purtu koira tarvitsee välittömän eläinlääkärihoidon.',
+    sv: 'Håll hunden kopplad i områden där huggormar förekommer (klippor, öppna marker, skogsbryn). Huggormar är mest aktiva varma morgnar och eftermiddagar. Kontrollera terrängen innan du släpper hunden lös. Varje huggormsbett är individuellt — även en hund som tidigare blivit biten behöver omedelbar veterinärvård.',
+    en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. Every adder bite is individual — even a previously bitten dog needs immediate veterinary care.'
   },
 
   // Article 14: Pyometra
