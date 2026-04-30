@@ -88,6 +88,7 @@ const translations = {
   },
   'hero.cta': { fi: 'Varaa aika', sv: 'Boka tid', en: 'Book Appointment' },
   'hero.services': { fi: 'Palvelumme', sv: 'Våra tjänster', en: 'Our Services' },
+  'hero.senior': { fi: 'Senioripaketti 299 €', sv: 'Seniorpaket 299 €', en: 'Senior Package €299' },
   'hero.badge.catfriendly': {
     fi: 'Kissaystävällinen klinikka',
     sv: 'Kattvänlig klinik',
