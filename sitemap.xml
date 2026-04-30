@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://saarivet.fi/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/senioritarkastus/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
@@ -312,7 +312,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/seniorundersokning/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
@@ -322,7 +322,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/senior-check-up/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/senioritarkastus/"/>
