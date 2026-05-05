@@ -17,6 +17,7 @@ const INDEX_PATH = path.join(ROOT, 'index.html');
 const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.src.js');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://saarivet.fi';
+const PRICES_URLS = { fi: '/hinnasto/', sv: '/sv/prislista/', en: '/en/pricelist/' };
 
 // Returns the localized slug for an article in the given language.
 // Falls back to the Finnish slug if no localized slug is defined.
@@ -751,6 +752,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
   const assetPrefix = lang === 'fi' ? '../' : '../../../';
   const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
+  const pricesUrl = PRICES_URLS[lang] || PRICES_URLS.fi;
 
   const articleBody = generateArticleBody(article, translations, specialContent, lang);
   const relatedHtml = generateRelatedArticlesHtml(article.slug, translations, lang);
@@ -991,7 +993,7 @@ ${relatedHtml}
           <a href="${homeUrl}#services" data-i18n="nav.services">${escapeHtml(fnav.services)}</a>
           <a href="${homeUrl}#team" data-i18n="nav.team">${escapeHtml(fnav.team)}</a>
           <a href="${homeUrl}#cat-friendly" data-i18n="nav.catfriendly">${escapeHtml(fnav.catfriendly)}</a>
-          <a href="${homeUrl}#prices" data-i18n="nav.prices">${escapeHtml(fnav.prices)}</a>
+          <a href="${pricesUrl}" data-i18n="nav.prices">${escapeHtml(fnav.prices)}</a>
           <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">${escapeHtml(fnav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
@@ -1276,7 +1278,7 @@ ${cardsHtml}
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
-          <a href="../#prices">Hinnasto</a>
+          <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
@@ -1394,7 +1396,7 @@ const servicePages = [
     schemaService: 'Veterinary Dental Care',
     procedureType: 'SurgicalProcedure',
     faq: [
-      { q: 'Paljonko koiran hammashoito maksaa?', a: 'Hammaskiven poisto koiralle maksaa alkaen 300 € (alle 20 kg) tai 350 € (yli 20 kg). Hinta sisältää yleisanestesian, hammaskiven poiston, hammasröntgenkuvat ja suun tutkimuksen. Hampaiden poistot hinnoitellaan tapauskohtaisesti.' },
+      { q: 'Paljonko koiran hammashoito maksaa?', a: 'Hammaskiven poisto koiralle maksaa alkaen 303 € (alle 20 kg) tai 353 € (yli 20 kg). Hinta sisältää yleisanestesian, hammaskiven poiston, hammasröntgenkuvat ja suun tutkimuksen. Hampaiden poistot hinnoitellaan tapauskohtaisesti.' },
       { q: 'Miten tiedän, tarvitseeko lemmikkini hammashoitoa?', a: 'Merkkejä hammassairauksista ovat pahanhajuinen hengitys, hammaskivi, punaiset ikenet, syömisen vaikeudet ja kuolaaminen. Suosittelemme hampaiden tarkastusta vastaanoton yhteydessä — usein ongelmia ei huomaa päällepäin.' },
       { q: 'Tehdäänkö hammashoito nukutuksessa?', a: 'Kyllä, kaikki hammashoidot tehdään yleisanestesiassa. Tämä on ainoa tapa tutkia ja hoitaa hampaat kunnolla ja turvallisesti. Nukutuksen aikana valvomme jatkuvasti elintoimintoja.' },
       { q: 'Miten usein lemmikkini hampaat pitäisi tarkastuttaa?', a: 'Hampaiden tarkastus kuuluu osaksi jokaista vuosikontrollia. Yli 3-vuotiailla koirilla ja kissoilla suosittelemme vuosittaista tarkastusta, sillä hammaskivi ja ientulehdus etenevät usein huomaamatta. Pieniroduille (kuten yorkshirenterrieri, chihuahua) suositellaan jo varhaisempia tarkastuksia.' },
@@ -1567,7 +1569,7 @@ const servicePages = [
     procedureType: 'SurgicalProcedure',
     faq: [
       { q: 'Onko eläinkirurgia turvallista?', a: 'Kyllä. Käytämme inhalaatioanestesiaa ja kattavaa monitorointia (sydän, happi, verenpaine, lämpötila). Anestesian aikana eläintä valvotaan jatkuvasti ja kivunlievitys on aina osa hoitoa.' },
-      { q: 'Paljonko koiran sterilisaatio maksaa?', a: 'Naaraskoiran sterilisaatio alkaen 480 € ja uroskoiran kastraatio alkaen 380 €. Hinta riippuu koiran koosta. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tikkien poiston.' },
+      { q: 'Paljonko koiran sterilisaatio maksaa?', a: 'Naaraskoiran sterilisaatio alkaen 483 € ja uroskoiran kastraatio alkaen 383 €. Hinta riippuu koiran koosta. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tikkien poiston.' },
       { q: 'Miten pitkä on leikkauksesta toipuminen?', a: 'Toipumisaika riippuu toimenpiteestä. Sterilisaatiosta toipuu yleensä 10-14 päivässä, ortopedisistä leikkauksista 6-8 viikossa. Kotihoito-ohjeet annetaan aina mukaan.' },
       { q: 'Pitääkö lemmikin paastota ennen leikkausta?', a: 'Kyllä. Aikuinen koira ja kissa paastotetaan yleensä 8–12 tuntia ennen leikkausta (viimeinen ateria edellisenä iltana). Vettä saa yleensä juoda aamuun asti. Pennuille, pienille jyrsijöille ja kaniineille on omat paastosuosituksensa — ohjeet saat aina ajanvarauksen yhteydessä. Paasto vähentää oksentamisen ja hengitysteiden aspiraation riskiä anestesian aikana.' },
       { q: 'Mitä eroa on TTA:lla ja lateral suturella eturistisideleikkauksissa?', a: 'Lateral suture -tekniikka stabiloi polvinivelen synteettisellä tukimateriaalilla polven ulkopuolelta. Se sopii erityisesti pienille koirille (alle 15 kg) ja kissoille. TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa siirtämällä sääriluun kyhmyä eteenpäin levyllä ja ruuveilla. TTA on suositeltava menetelmä aktiivisille ja isoille koirille, koska se kestää paremmin rasitusta ja toipuminen on usein nopeampaa. Valinta tehdään koiran koon, aktiivisuustason ja nivelen tilanteen perusteella.' },
@@ -1827,6 +1829,7 @@ const servicePages = [
     slug: 'senioritarkastus',
     slugSv: 'seniorundersokning',
     slugEn: 'senior-check-up',
+    skipBuild: true, // rendered FI/SV/EN files have hand-edited senior package content (€299 panel) not in source. Backfill before removing.
     title: 'Senioritarkastus — Eläinklinikka Saari, Vaasa',
     h1: 'Senioritarkastus',
     metaDesc: 'Ikääntyvän lemmikin terveystarkastus Vaasassa. Verikokeet, sydäntutkimus, ultraääni. Varhainen diagnoosi pidentää elinikää. Eläinklinikka Saari.',
@@ -2104,7 +2107,7 @@ const servicePages = [
     schemaService: 'Veterinary Spay and Neuter',
     procedureType: 'SurgicalProcedure',
     faq: [
-      { q: 'Paljonko kissan sterilisaatio maksaa?', a: 'Naaraskissan sterilisaatio maksaa 205 € ja uroskissan kastraatio 105 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kaulurin tai haalarin.' },
+      { q: 'Paljonko kissan sterilisaatio maksaa?', a: 'Naaraskissan sterilisaatio maksaa 208 € ja uroskissan kastraatio 108 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kaulurin tai haalarin.' },
       { q: 'Missä iässä sterilisaatio tehdään?', a: 'Kissat sterilisoidaan yleensä noin 5-6 kuukauden iässä. Pienillä koiraroduilla noin 6 kuukauden iässä, suurilla roduilla 12-18 kuukauden iässä. Eläinlääkäri arvioi parhaan ajankohdan yksilöllisesti.' },
       { q: 'Miten pitkä on toipumisaika?', a: 'Sterilisaation jälkeen lemmikki tarvitsee lepoa noin 10-14 päivää. Kipulääkkeet annetaan mukaan kotiin ja haava suojataan haalarilla tai kaulurilla. Useimmat potilaat toipuvat nopeasti.' },
     ]
@@ -2924,6 +2927,7 @@ function generateServicePage(service, translations, lang) {
   // Asset path: FI pages are at /palvelut/slug/, SV/EN at /sv/tjanster/slug/ or /en/services/slug/
   const assetPrefix = lang === 'fi' ? '../../' : '../../../';
   const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
+  const pricesUrl = PRICES_URLS[lang] || PRICES_URLS.fi;
 
   // Breadcrumb labels
   const breadcrumbHome = { fi: 'Etusivu', sv: 'Startsidan', en: 'Home' };
@@ -3178,7 +3182,7 @@ ${relatedHtml}
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
           <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
           <a href="${homeUrl}#cat-friendly">${escapeHtml(nav.catfriendly)}</a>
-          <a href="${homeUrl}#prices">${escapeHtml(nav.prices)}</a>
+          <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
@@ -3343,7 +3347,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
-          <a href="../#prices">Hinnasto</a>
+          <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
@@ -3557,7 +3561,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
-          <a href="../#prices">Hinnasto</a>
+          <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
@@ -3779,7 +3783,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="../#services">Palvelut</a>
           <a href="../#team">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
-          <a href="../#prices">Hinnasto</a>
+          <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
@@ -3905,6 +3909,34 @@ ${palvelutHreflang}  </url>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+`;
+
+  // Pricelist pages (FI/SV/EN, hreflang-linked)
+  const pricesHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/hinnasto/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/prislista/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/pricelist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/hinnasto/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/hinnasto/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${pricesHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/prislista/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${pricesHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/pricelist/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${pricesHreflang}  </url>
 `;
 
   // City-targeted landing pages (FI + SV + EN, hreflang-linked)
@@ -4047,6 +4079,7 @@ const NAV_LABELS = {
 // Article/service/static pages use <a> for the lang toggle (each lang is a separate URL); homepage uses <button> + JS.
 function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
   const nav = NAV_LABELS[lang] || NAV_LABELS.fi;
+  const pricesUrl = PRICES_URLS[lang] || PRICES_URLS.fi;
   const bookingUrl = 'https://my.provet.com/elainklinikka-saari';
   return `      <nav class="nav">
         <div class="nav-links">
@@ -4054,7 +4087,7 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
           <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
           <a href="${homeUrl}#cat-friendly">${escapeHtml(nav.catfriendly)}</a>
-          <a href="${homeUrl}#prices">${escapeHtml(nav.prices)}</a>
+          <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>
           <a href="${articlesUrl}">${escapeHtml(nav.articles)}</a>
@@ -4143,6 +4176,10 @@ function main() {
   // Generate service landing pages (FI, SV, EN)
   console.log('\nBuilding service pages...');
   for (const service of servicePages) {
+    if (service.skipBuild) {
+      console.log(`  SKIP ${service.slug} (rendered files preserved — see service.skipBuild)`);
+      continue;
+    }
     // Finnish
     const serviceDir = path.join(ROOT, 'palvelut', service.slug);
     if (!fs.existsSync(serviceDir)) {
