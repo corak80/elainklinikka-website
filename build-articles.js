@@ -3369,7 +3369,7 @@ function generateAboutPage() {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         "opens": "09:00",
-        "closes": "16:00"
+        "closes": "17:00"
       }
     ]
   },
@@ -3581,7 +3581,7 @@ function generateContactPage() {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         "opens": "09:00",
-        "closes": "16:00"
+        "closes": "17:00"
       }
     ],
     "geo": {
