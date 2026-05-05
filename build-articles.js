@@ -806,6 +806,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
@@ -1144,6 +1145,7 @@ function generateArticleIndex(translations) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Artikkelit — Eläinklinikka Saari</title>
 
@@ -1351,6 +1353,14 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Vad kostar tandvård för hund?', a: 'Tandstensavlägsning för hund kostar från 303 € (under 20 kg) eller 353 € (över 20 kg). Priset inkluderar narkos, tandstensavlägsning, tandröntgen och munundersökning. Tandextraktioner prissätts från fall till fall.' },
+        { q: 'Hur vet jag om mitt husdjur behöver tandvård?', a: 'Tecken på tandsjukdom är dålig andedräkt, tandsten, röda tandkött, svårigheter att äta och dregling. Vi rekommenderar tandkontroll i samband med besöket — problem syns ofta inte utåt.' },
+        { q: 'Utförs tandvård under narkos?', a: 'Ja — all tandvård utförs under allmän narkos. Det är enda sättet att undersöka och behandla tänderna ordentligt och säkert. Under narkosen övervakas vitala funktioner kontinuerligt.' },
+        { q: 'Hur ofta ska mitt husdjurs tänder kontrolleras?', a: 'Tandkontroll ingår i varje årskontroll. För hundar och katter över 3 år rekommenderar vi årlig kontroll, eftersom tandsten och tandköttsinflammation ofta utvecklas omärkligt. För småraser (som yorkshireterrier, chihuahua) rekommenderas tidigare kontroller.' },
+        { q: 'Kan man borsta husdjurets tänder hemma?', a: 'Ja, och det är den mest effektiva formen av hemvård. Använd alltid tandkräm avsedd för husdjur — fluor och xylitol i mänsklig tandkräm är giftiga för djur. Börja försiktigt med fingret, vänj sedan in mjuk barntandborste eller en särskild husdjursborste. Daglig borstning ger bäst skydd, men 2–3 gånger i veckan hjälper redan avsevärt.' },
+        { q: 'När ska kvarvarande mjölktänder tas bort?', a: 'Om de permanenta tänderna har brutit fram men mjölktanden finns kvar (persisterande mjölktand) kan det orsaka tandfel och inflammationer. De avlägsnas vanligen i samband med sterilisering eller kastrering, medan hunden redan är i narkos — på så sätt undviks en separat narkos.' }
+      ],
     },
     en: {
       title: 'Dental Care — Eläinklinikka Saari, Vaasa',
@@ -1371,6 +1381,14 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'How much does dog dental care cost?', a: 'Dental scaling for dogs costs from €303 (under 20 kg) or €353 (over 20 kg). The price includes general anaesthesia, scaling, dental X-rays and an oral exam. Tooth extractions are priced case by case.' },
+        { q: 'How do I know if my pet needs dental care?', a: 'Signs of dental disease include bad breath, dental tartar, red gums, difficulty eating and drooling. We recommend a dental check during the consultation — problems often go unnoticed from the outside.' },
+        { q: 'Is dental care done under anaesthesia?', a: 'Yes — all dental procedures are performed under general anaesthesia. This is the only way to examine and treat the teeth properly and safely. During anaesthesia we continuously monitor vital signs.' },
+        { q: 'How often should my pet\'s teeth be checked?', a: 'A dental check is part of every annual visit. For dogs and cats over 3 years we recommend a yearly check, since tartar and gingivitis often progress unnoticed. Smaller breeds (such as Yorkshire terrier, Chihuahua) benefit from earlier checks.' },
+        { q: 'Can I brush my pet\'s teeth at home?', a: 'Yes, and it is the most effective form of home care. Always use toothpaste designed for pets — fluoride and xylitol in human toothpaste are toxic to animals. Start gently with a finger, then progress to a soft children\'s toothbrush or a special pet toothbrush. Daily brushing gives the best protection, but 2–3 times a week already helps significantly.' },
+        { q: 'When should retained baby teeth be removed?', a: 'If the permanent teeth have erupted but the baby tooth is still in place (persistent baby tooth), it can cause dental misalignment and inflammation. They are usually removed during spay or neuter surgery, while the dog is already under anaesthesia — this avoids a separate anaesthesia.' }
+      ],
     },
     relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
     schemaService: 'Veterinary Dental Care',
@@ -1422,6 +1440,14 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Hur vet jag om mitt husdjur har en hjärtsjukdom?', a: 'Symtom kan vara hosta, försämrad ansträngningstolerans, snabb andning eller svimning. Hos många raser (Cavalier, Dobermann, Maine Coon) rekommenderar vi undersökning redan i ung ålder, innan symtom uppträder.' },
+        { q: 'Vad kostar ett hjärtultraljud?', a: 'Priset på en hjärtundersökning beror på undersökningens omfattning. Kontakta kliniken för en mer detaljerad uppskattning. Telefon: (06) 321 7300.' },
+        { q: 'Krävs tidsbokning för hjärtundersökning?', a: 'Ja — en hjärtundersökning kräver tidsbokning. Boka tid genom att ringa (06) 321 7300 eller via onlinebokningen på saarivet.fi.' },
+        { q: 'Hur länge kan ett hjärtsjukt husdjur leva med medicinering?', a: 'Prognosen beror på hjärtsjukdomens typ och stadium. Hundar med tidig mitralisklaffsjukdom kan leva sin normala livslängd utan symtom. En hund i hjärtsviktsstadium lever, med bra medicinering, i genomsnitt 1–3 år efter diagnos. Prognosen för HCM hos katter varierar mycket — vissa lever i åratal utan symtom, andra får snabbt komplikationer. Regelbunden uppföljning och rätt medicinering förlänger livslängden avsevärt.' },
+        { q: 'Vad är skillnaden mellan hjärtultraljud och EKG?', a: 'Hjärtultraljud (ekokardiografi) visar hjärtats struktur, klaffarnas funktion och blodflödet i realtid — det är den primära diagnostiska metoden för hjärtsjukdomar. EKG mäter hjärtats elektriska aktivitet och identifierar arytmier. Undersökningarna kompletterar ofta varandra: ultraljud avslöjar strukturella förändringar, EKG visar rytmproblem.' },
+        { q: 'Behöver hjärtmedicinering ges hela livet?', a: 'Ja — medicinering vid hjärtsjukdom är vanligen livslång. Läkemedlens uppgift är att bromsa sjukdomens utveckling, lindra symtom och förbättra livskvaliteten — de botar inte själva sjukdomen. Att plötsligt avbryta medicineringen kan leda till snabb försämring. Medicineringen och doserna justeras utifrån uppföljningen.' }
+      ],
     },
     en: {
       title: 'Cardiac Examinations — Eläinklinikka Saari, Vaasa',
@@ -1443,6 +1469,14 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'How do I know if my pet has heart disease?', a: 'Symptoms can include coughing, reduced exercise tolerance, rapid breathing or fainting. In many breeds (Cavalier, Doberman, Maine Coon) we recommend an examination already at a young age, before symptoms appear.' },
+        { q: 'How much does a heart ultrasound cost?', a: 'The price of a cardiac examination depends on its scope. Contact the clinic for a more detailed estimate. Phone: (06) 321 7300.' },
+        { q: 'Does a cardiac examination require an appointment?', a: 'Yes — a cardiac examination requires an appointment. Book by calling (06) 321 7300 or online at saarivet.fi.' },
+        { q: 'How long can a pet with heart disease live with medication?', a: 'The prognosis depends on the type and stage of heart disease. Dogs with early-stage mitral valve disease can live their normal lifespan without symptoms. A dog in the heart-failure stage typically lives, with good medication, an average of 1–3 years after diagnosis. The prognosis for HCM in cats varies greatly — some live for years symptom-free, while others develop complications quickly. Regular monitoring and correct medication significantly extend life expectancy.' },
+        { q: 'What\'s the difference between cardiac ultrasound and ECG?', a: 'Cardiac ultrasound (echocardiography) shows the heart\'s structure, valve function and blood flow in real time — it is the primary diagnostic method for heart disease. ECG measures the heart\'s electrical activity and identifies arrhythmias. The two examinations often complement each other: ultrasound reveals structural changes, ECG identifies rhythm problems.' },
+        { q: 'Does heart medication need to be given for life?', a: 'Yes — heart-disease medication is usually lifelong. The role of the medication is to slow disease progression, ease symptoms and improve quality of life — it does not cure the disease itself. Suddenly stopping medication can lead to rapid deterioration. Medication and doses are adjusted based on follow-up.' }
+      ],
     },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Cardiology',
@@ -1491,6 +1525,14 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Är djurkirurgi säker?', a: 'Ja. Vi använder inhalationsanestesi och omfattande monitorering (hjärta, syre, blodtryck, temperatur). Under anestesin övervakas djuret kontinuerligt och smärtlindring ingår alltid i vården.' },
+        { q: 'Vad kostar tikens sterilisering?', a: 'Tiksterilisering från 483 € och hankastrering från 383 €. Priset beror på hundens storlek. Det inkluderar anestesi, operationen, läkemedel och borttagning av stygn.' },
+        { q: 'Hur lång är återhämtningen efter operation?', a: 'Återhämtningstiden beror på ingreppet. Efter sterilisering tar återhämtningen vanligen 10–14 dagar, efter ortopedisk kirurgi 6–8 veckor. Hemvårdsanvisningar ges alltid med.' },
+        { q: 'Behöver husdjuret fasta före operationen?', a: 'Ja. Vuxna hundar och katter fastas vanligen 8–12 timmar före operationen (sista målet kvällen innan). Vatten får man oftast dricka fram till morgonen. För valpar, små gnagare och kaniner gäller egna fastrekommendationer — du får alltid instruktioner i samband med tidsbokningen. Fastan minskar risken för kräkningar och aspiration i luftvägarna under anestesin.' },
+        { q: 'Vad är skillnaden mellan TTA och lateral sutur vid korsbandsoperation?', a: 'Lateral sutur-tekniken stabiliserar knäleden med ett syntetiskt stödmaterial utanför knäet. Den passar särskilt små hundar (under 15 kg) och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt med en platta och skruvar. TTA är den rekommenderade metoden för aktiva och stora hundar, eftersom den tål belastning bättre och återhämtningen ofta går snabbare. Valet görs utifrån hundens storlek, aktivitetsnivå och ledens skick.' },
+        { q: 'Behöver husdjuret bära krage efter operationen?', a: 'Ja — det är viktigt att skydda operationssåret. Genom att slicka kan husdjuret öppna stygnen eller orsaka sårinfektion. Den traditionella plastkragen (Elizabethan collar) eller mjukare alternativ som skyddsdräkt eller uppblåsbar krage är bra alternativ. Vi rekommenderar att skyddet används hela tiden i 10–14 dagar, tills stygnen tas bort. Husdjuret vänjer sig vanligen vid skyddet på 1–2 dagar.' }
+      ],
     },
     en: {
       title: 'Surgery — Eläinklinikka Saari, Vaasa',
@@ -1511,6 +1553,14 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'Is veterinary surgery safe?', a: 'Yes. We use inhalation anaesthesia and comprehensive monitoring (heart, oxygen, blood pressure, temperature). The animal is monitored continuously throughout anaesthesia, and pain relief is always part of the care.' },
+        { q: 'How much does a dog spay cost?', a: 'Female dog spay starts from €483 and male dog neuter from €383. The price depends on the dog\'s size. It includes anaesthesia, the surgery, medications and stitch removal.' },
+        { q: 'How long is recovery from surgery?', a: 'Recovery time depends on the procedure. Spay/neuter recovery usually takes 10–14 days; orthopaedic surgery 6–8 weeks. Home-care instructions are always provided.' },
+        { q: 'Does my pet need to fast before surgery?', a: 'Yes. Adult dogs and cats are usually fasted for 8–12 hours before surgery (last meal the previous evening). Water is generally allowed until morning. Puppies, small rodents and rabbits have their own fasting recommendations — you\'ll always get instructions when booking. Fasting reduces the risk of vomiting and airway aspiration during anaesthesia.' },
+        { q: 'What\'s the difference between TTA and lateral suture in cruciate ligament surgery?', a: 'The lateral suture technique stabilises the knee joint with a synthetic support material from outside the knee. It is particularly suitable for small dogs (under 15 kg) and cats. TTA (tibial tuberosity advancement) changes the biomechanics of the knee by moving the tibial tuberosity forward with a plate and screws. TTA is the recommended method for active and large dogs because it withstands stress better and recovery is often quicker. The choice is based on the dog\'s size, activity level and joint condition.' },
+        { q: 'Does the pet need to wear a cone after surgery?', a: 'Yes — protecting the surgical wound is important. By licking, the pet can open the stitches or cause a wound infection. The traditional plastic Elizabethan collar or softer alternatives like a recovery suit or inflatable collar are good options. We recommend continuous use for 10–14 days, until stitch removal. Pets usually adjust to the protection within 1–2 days.' }
+      ],
     },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
     schemaService: 'Veterinary Surgery',
@@ -1616,6 +1666,14 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Vad kostar en hundvaccination?', a: 'Hundens 4-vaccin (DHPPI) kostar 77 € och med rabies 85 €. Kattens 3-vaccin (RCP) kostar 75 € och med rabies 86 €.' },
+        { q: 'Hur ofta förnyas vaccinationerna?', a: 'Efter grundvaccinationerna ges en booster ett år senare. Därefter förnyas grundvaccinationerna för vuxna hundar och katter med 1–3 års intervall beroende på vaccin. Rabiesvaccinet förnyas vart tredje år.' },
+        { q: 'Kan man komma utan tidsbokning?', a: 'Ja! Vi erbjuder drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15:30–16:00. I övrigt boka tid per telefon (06) 321 7300 eller online på saarivet.fi.' },
+        { q: 'När kan en valp börja vaccinationsserien?', a: 'Valpens första vaccination ges vid 12 veckors ålder och boostern vid 16 veckor. Före 12 veckor skyddas valpen av antikroppar från modern. Om valpen har importerats från utlandet eller kommer från en särskilt riskfylld miljö kan vaccinationen ibland inledas tidigare (vid 8 veckor) — detta diskuteras med veterinären individuellt.' },
+        { q: 'Kan ett husdjur få biverkningar av vaccination?', a: 'Lindriga biverkningar är vanliga och ofarliga: trötthet, dålig aptit eller lätt svullnad vid injektionsstället under 1–2 dagar. Kraftiga reaktioner (svullnad i ansiktet, kräkningar, svaghet) är mycket sällsynta men kräver omedelbar veterinärvård. Vi rekommenderar att husdjuret observeras 30 minuter på kliniken efter vaccinationen och resten av dagen hemma.' },
+        { q: 'Vilka vaccinationer behövs för resor?', a: 'Vid resa inom EU-länder krävs ett sällskapsdjurspass, en giltig rabiesvaccination (minst 21 dagar från första vaccinationen) och ett chipp för identifiering. Vissa länder (t.ex. Storbritannien) kräver också ekinokockmedicinering 1–5 dagar före ankomsten. Vid resor utanför EU är kraven ofta strängare — börja förberedelserna minst 4–6 månader före resan.' }
+      ],
     },
     en: {
       title: 'Vaccinations — Eläinklinikka Saari, Vaasa',
@@ -1637,6 +1695,14 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'How much does a dog vaccination cost?', a: 'The dog 4-vaccine (DHPPI) costs €77 and with rabies €85. The cat 3-vaccine (RCP) costs €75 and with rabies €86.' },
+        { q: 'How often are vaccinations renewed?', a: 'After the primary series a booster is given one year later. After that, the basic vaccinations for adult dogs and cats are renewed every 1–3 years depending on the vaccine. The rabies vaccine is renewed every 3 years.' },
+        { q: 'Can I come without an appointment?', a: 'Yes! We offer walk-in vaccinations without an appointment on Tuesdays at 15:30–16:00. Otherwise, book a time by phone (06) 321 7300 or online at saarivet.fi.' },
+        { q: 'When can a puppy start the vaccination series?', a: 'A puppy\'s first vaccination is given at 12 weeks and the booster at 16 weeks. Before 12 weeks, puppies are protected by maternal antibodies. If a puppy has been imported from abroad or comes from a particularly high-risk environment, vaccination can sometimes start earlier (at 8 weeks) — this is discussed with the veterinarian individually.' },
+        { q: 'Can a pet have side effects from vaccination?', a: 'Mild side effects are common and harmless: tiredness, reduced appetite or slight swelling at the injection site for 1–2 days. Strong reactions (facial swelling, vomiting, weakness) are very rare but require immediate veterinary care. We recommend monitoring the pet for 30 minutes at the clinic after vaccination, and the rest of the day at home.' },
+        { q: 'What vaccinations are needed for travel?', a: 'When travelling within EU countries, you need a pet passport, a valid rabies vaccination (at least 21 days from the first vaccination) and a microchip for identification. Some countries (e.g. the UK) also require echinococcus medication 1–5 days before arrival. For travel outside the EU, requirements are often stricter — start preparations at least 4–6 months before the trip.' }
+      ],
     },
     relatedArticles: ['rokotukset', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
     schemaService: 'Veterinary Vaccination',
@@ -2005,6 +2071,11 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Vad kostar kattens sterilisering?', a: 'Honkattens sterilisering kostar 208 € och hankattens kastrering 108 €. Priset inkluderar anestesi, operationen, läkemedel och en skyddsdräkt eller krage.' },
+        { q: 'I vilken ålder utförs steriliseringen?', a: 'Katter steriliseras vanligen vid cirka 5–6 månaders ålder. Små hundraser vid cirka 6 månader, stora raser vid 12–18 månader. Veterinären bedömer den bästa tidpunkten individuellt.' },
+        { q: 'Hur lång är återhämtningstiden?', a: 'Efter steriliseringen behöver husdjuret cirka 10–14 dagars vila. Smärtlindring skickas med hem och såret skyddas med skyddsdräkt eller krage. De flesta patienter återhämtar sig snabbt.' }
+      ],
     },
     en: {
       title: 'Spay and Neuter — Eläinklinikka Saari, Vaasa',
@@ -2023,6 +2094,11 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'How much does cat spaying cost?', a: 'A female cat spay costs €208 and a male cat neuter €108. The price includes anaesthesia, the surgery, medications and a recovery suit or collar.' },
+        { q: 'At what age is the surgery done?', a: 'Cats are usually spayed at around 5–6 months of age. Small dog breeds at around 6 months, large breeds at 12–18 months. The veterinarian assesses the best timing individually.' },
+        { q: 'How long is the recovery time?', a: 'After spay/neuter, the pet needs about 10–14 days of rest. Pain medication is sent home and the wound is protected with a recovery suit or collar. Most patients recover quickly.' }
+      ],
     },
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
     schemaService: 'Veterinary Spay and Neuter',
@@ -2654,6 +2730,10 @@ const servicePages = [
       ctaBook: 'Boka online',
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
+      faq: [
+        { q: 'Hur lång är återhämtningsperioden efter operation?', a: 'Återhämtningsperioden beror på ingreppet. Efter korsbandsskadeoperation (TTA eller lateral suture) varar återhämtningen cirka 8–12 veckor, under vilken tid rörligheten begränsas gradvis. Frakturoperationers återhämtning tar vanligen 6–12 veckor. Rehabilitering och kontrollbesök är en väsentlig del av tillfrisknandet — de påskyndar läkningen och förbättrar slutresultatet.' },
+        { q: 'Kan orsaken till hälta utredas utan operation?', a: 'Ja, de flesta orsaker till hälta kan utredas utan operation. Ortopedisk undersökning, röntgenbilder och vid behov ultraljud eller CT-undersökning ger en exakt diagnos. Alla orsaker till hälta kräver inte operation — till exempel lindrig artros och senproblem behandlas ofta konservativt med medicinering, vila och rehabilitering. Veterinären bedömer den bästa behandlingslinjen individuellt.' }
+      ],
     },
     en: {
       title: 'Orthopaedics — Eläinklinikka Saari, Vaasa',
@@ -2672,10 +2752,18 @@ const servicePages = [
       ctaBook: 'Book online',
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
+      faq: [
+        { q: 'How long is the recovery period after surgery?', a: 'The recovery period depends on the procedure. After cruciate ligament repair (TTA or lateral suture), recovery takes approximately 8–12 weeks, during which movement is gradually restricted. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery — they accelerate healing and improve the outcome.' },
+        { q: 'Can the cause of lameness be determined without surgery?', a: 'Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery — for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.' }
+      ],
     },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Orthopedics',
-    procedureType: 'SurgicalProcedure'
+    procedureType: 'SurgicalProcedure',
+    faq: [
+      { q: 'Kuinka pitkä on toipumisaika leikkauksen jälkeen?', a: 'Toipumisaika riippuu toimenpiteestä. Eturistisiteen korjausleikkauksen (TTA tai lateral suture) jälkeen toipuminen kestää noin 8–12 viikkoa, jonka aikana liikkumista rajoitetaan asteittain. Murtumaleikkausten toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista — ne nopeuttavat paranemista ja parantavat lopputulosta.' },
+      { q: 'Voiko ontumisen syyn selvittää ilman leikkausta?', a: 'Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Ortopedinen tutkimus, röntgenkuvat ja tarvittaessa ultraääni tai CT-kuvaus antavat tarkan diagnoosin. Kaikki ontumisen syyt eivät vaadi leikkausta — esimerkiksi lievä nivelrikko ja jänneongelmat hoidetaan usein konservatiivisesti lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.' }
+    ]
   },
   {
     slug: 'anestesia',
@@ -2923,6 +3011,7 @@ function generateServicePage(service, translations, lang) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
@@ -3013,11 +3102,11 @@ function generateServicePage(service, translations, lang) {
         "item": "${canonicalUrl}"
       }
     ]
-  }${service.faq && service.faq.length > 0 ? `,
+  }${((service[lang] && service[lang].faq) || service.faq) && ((service[lang] && service[lang].faq) || service.faq).length > 0 ? `,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [${service.faq.map(f => `
+    "mainEntity": [${((service[lang] && service[lang].faq) || service.faq).map(f => `
       {
         "@type": "Question",
         "name": ${JSON.stringify(f.q)},
@@ -3135,6 +3224,7 @@ function generatePrivacyPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietosuojaseloste — Eläinklinikka Saari</title>
 
@@ -3300,6 +3390,7 @@ function generateAboutPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietoa klinikasta — Eläinklinikka Saari, Vaasa</title>
 
@@ -3513,6 +3604,7 @@ function generateContactPage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Yhteystiedot — Eläinklinikka Saari, Vaasa</title>
 
@@ -3735,6 +3827,16 @@ function generateSitemap() {
     <xhtml:link rel="alternate" hreflang="en" href="${enUrl}"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${fiUrl}"/>
 `;
+  const homeHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/"/>
+`;
+  const palvelutHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/palvelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/tjanster/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/palvelut/"/>
+`;
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
@@ -3742,7 +3844,37 @@ function generateSitemap() {
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
+${homeHreflang}  </url>
+  <url>
+    <loc>${BASE_URL}/sv/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+${homeHreflang}  </url>
+  <url>
+    <loc>${BASE_URL}/en/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+${homeHreflang}  </url>
+  <url>
+    <loc>${BASE_URL}/palvelut/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+${palvelutHreflang}  </url>
+  <url>
+    <loc>${BASE_URL}/sv/tjanster/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+${palvelutHreflang}  </url>
+  <url>
+    <loc>${BASE_URL}/en/services/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+${palvelutHreflang}  </url>
   <url>
     <loc>${BASE_URL}/artikkelit/</loc>
     <lastmod>${today}</lastmod>
