@@ -109,6 +109,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/elainlaakari-vaasa/"/>
   </url>
   <url>
+    <loc>https://saarivet.fi/palvelut/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/sv/tjanster/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/en/services/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/tjanster/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/palvelut/"/>
+  </url>
+  <url>
     <loc>https://saarivet.fi/palvelut/hammashoito/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
