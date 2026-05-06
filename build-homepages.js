@@ -155,6 +155,50 @@ function applyDataHrefs(html, lang) {
   );
 }
 
+// FI article slug → SV/EN slug map (kept in sync with main.src.js articleSlugMap).
+// Used to rewrite article hrefs on SV/EN homepages so they point to translated articles
+// instead of the FI default. Without this, Googlebot indexing /sv/ or /en/ sees 25 FI links.
+const ARTICLE_SLUG_MAP = {
+  'tta-leikkaus': { sv: 'tta-operation', en: 'tta-surgery' },
+  'video-otoskopia': { sv: 'video-otoskopi', en: 'video-otoscopy' },
+  'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
+  'ripuli': { sv: 'diarre', en: 'diarrhoea' },
+  'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
+  'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
+  'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },
+  'yksityinen-klinikka': { sv: 'privat-klinik', en: 'independent-clinic' },
+  'ruoka-allergiat': { sv: 'foderallergier', en: 'food-allergies' },
+  'kilpirauhasen-liikatoiminta': { sv: 'hypertyreos-katt', en: 'hyperthyroidism' },
+  'munuaisten-vajaatoiminta': { sv: 'njursvikt', en: 'kidney-disease' },
+  'kyynpurema': { sv: 'huggormsbett', en: 'snake-bite' },
+  'kohtutulehdus': { sv: 'livmoderinflammation', en: 'pyometra' },
+  'siili': { sv: 'igelkott', en: 'hedgehog' },
+  'kissaystävällinen-klinikka': { sv: 'kattvanlig-klinik', en: 'cat-friendly-clinic' },
+  'puhkeamattomat-hampaat': { sv: 'icke-framvaxta-tander', en: 'unerupted-teeth' },
+  'gastroskopia': { sv: 'gastroskopi', en: 'gastroscopy' },
+  'hammasresorptio': { sv: 'tandresorption', en: 'tooth-resorption' },
+  'rokotukset': { sv: 'vaccinationsguide', en: 'vaccinations-guide' },
+  'ibd-lymfooma': { sv: 'ibd-lymfom', en: 'ibd-lymphoma' },
+  'hypotermia': { sv: 'hypotermi', en: 'hypothermia' },
+  'anestesiaturvallisuus': { sv: 'anestesisakerhet', en: 'anaesthesia-safety' },
+  'klinikkaeläinhoitaja': { sv: 'klinikdjurskotare', en: 'veterinary-nurse' },
+  'periovive': { sv: 'periovive', en: 'periovive' },
+  'lateral-suture': { sv: 'lateral-suture', en: 'lateral-suture' },
+};
+
+function rewriteArticleUrls(html, lang) {
+  if (lang === 'fi') return html;
+  const baseMap = { sv: '/sv/artiklar/', en: '/en/articles/' };
+  const base = baseMap[lang];
+  return html.replace(
+    /href="\/articles\/([^"]+)\.html"/g,
+    (m, fiSlug) => {
+      const localized = (ARTICLE_SLUG_MAP[fiSlug] && ARTICLE_SLUG_MAP[fiSlug][lang]) || fiSlug;
+      return `href="${base}${localized}.html"`;
+    }
+  );
+}
+
 function rewriteLangToggle(html, lang) {
   // The lang-toggle has <button data-lang="fi" class="active">FI</button> etc.
   // Move "active" class to the right button.
@@ -314,6 +358,7 @@ for (const lang of ['sv', 'en']) {
   html = applyDataI18n(html, lang);
   html = applyDataI18nPlaceholder(html, lang);
   html = applyDataHrefs(html, lang);
+  html = rewriteArticleUrls(html, lang);
   html = rewriteLangToggle(html, lang);
   html = rewriteHead(html, lang);
   html = rewriteJsonLd(html, lang);

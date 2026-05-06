@@ -4042,7 +4042,9 @@ ${links}  </url>
   }
 
   for (const article of articles) {
-    const articleDate = article.publishDate || today;
+    // Use today (build-time) so Google sees fresh lastmod when content actually changed.
+    // article.publishDate stays in <article datePublished>; lastmod tracks last build modification.
+    const articleDate = today;
     const fiUrl = `${BASE_URL}/articles/${articleSlug(article, 'fi')}.html`;
     const svUrl = `${BASE_URL}/sv/artiklar/${articleSlug(article, 'sv')}.html`;
     const enUrl = `${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html`;
