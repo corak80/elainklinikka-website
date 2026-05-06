@@ -1414,6 +1414,7 @@ const servicePages = [
     relatedArticles: ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat', 'periovive'],
     schemaService: 'Veterinary Dental Care',
     procedureType: 'SurgicalProcedure',
+    offers: { lowPrice: '303', highPrice: '353' },
     faq: [
       { q: 'Paljonko koiran hammashoito maksaa?', a: 'Hammaskiven poisto koiralle maksaa alkaen 303 € (alle 20 kg) tai 353 € (yli 20 kg). Hinta sisältää yleisanestesian, hammaskiven poiston, hammasröntgenkuvat ja suun tutkimuksen. Hampaiden poistot hinnoitellaan tapauskohtaisesti.' },
       { q: 'Miten tiedän, tarvitseeko lemmikkini hammashoitoa?', a: 'Merkkejä hammassairauksista ovat pahanhajuinen hengitys, hammaskivi, punaiset ikenet, syömisen vaikeudet ja kuolaaminen. Suosittelemme hampaiden tarkastusta vastaanoton yhteydessä — usein ongelmia ei huomaa päällepäin.' },
@@ -1586,6 +1587,7 @@ const servicePages = [
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
     schemaService: 'Veterinary Surgery',
     procedureType: 'SurgicalProcedure',
+    offers: { lowPrice: '383', highPrice: '483' },
     faq: [
       { q: 'Onko eläinkirurgia turvallista?', a: 'Kyllä. Käytämme inhalaatioanestesiaa ja kattavaa monitorointia (sydän, happi, verenpaine, lämpötila). Anestesian aikana eläintä valvotaan jatkuvasti ja kivunlievitys on aina osa hoitoa.' },
       { q: 'Paljonko koiran sterilisaatio maksaa?', a: 'Naaraskoiran sterilisaatio alkaen 483 € ja uroskoiran kastraatio alkaen 383 €. Hinta riippuu koiran koosta. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tikkien poiston.' },
@@ -2157,6 +2159,7 @@ const servicePages = [
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
     schemaService: 'Veterinary Spay and Neuter',
     procedureType: 'SurgicalProcedure',
+    offers: { lowPrice: '108', highPrice: '208' },
     faq: [
       { q: 'Paljonko kissan sterilisaatio maksaa?', a: 'Naaraskissan sterilisaatio maksaa 208 € ja uroskissan kastraatio 108 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kaulurin tai haalarin.' },
       { q: 'Missä iässä sterilisaatio tehdään?', a: 'Kissat sterilisoidaan yleensä noin 5-6 kuukauden iässä. Pienillä koiraroduilla noin 6 kuukauden iässä, suurilla roduilla 12-18 kuukauden iässä. Eläinlääkäri arvioi parhaan ajankohdan yksilöllisesti.' },
@@ -3162,7 +3165,29 @@ function generateServicePage(service, translations, lang) {
         "item": "${canonicalUrl}"
       }
     ]
-  }${((service[lang] && service[lang].faq) || service.faq) && ((service[lang] && service[lang].faq) || service.faq).length > 0 ? `,
+  }${service.offers ? `,
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": ${JSON.stringify(pageH1)},
+    "serviceType": "${service.schemaService}",
+    "url": "${canonicalUrl}",
+    "areaServed": {"@type": "City", "name": "Vaasa"},
+    "provider": {
+      "@type": "VeterinaryCare",
+      "name": "Eläinklinikka Saari",
+      "url": "${BASE_URL}",
+      "telephone": "+358-6-321-7300"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "${service.offers.lowPrice}",
+      "highPrice": "${service.offers.highPrice}",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "${canonicalUrl}"
+    }
+  }` : ''}${((service[lang] && service[lang].faq) || service.faq) && ((service[lang] && service[lang].faq) || service.faq).length > 0 ? `,
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
