@@ -739,7 +739,8 @@ function generateArticlePage(article, translations, specialContent, lang) {
     const lastDash = window.lastIndexOf('— ');
     const lastSemi = window.lastIndexOf('; ');
     const sentenceCut = Math.max(lastPeriod, lastExcl, lastQuest, lastDash, lastSemi);
-    if (sentenceCut >= 50) {
+    // Need at least 100 chars to avoid descriptions that are too short
+    if (sentenceCut >= 100) {
       // Cut at a sentence/clause boundary. Keep terminator if it's . ! ? ; ;
       // strip trailing — for em-dash cuts.
       let cut = description.substring(0, sentenceCut + 1);
@@ -748,11 +749,18 @@ function generateArticlePage(article, translations, specialContent, lang) {
       if (!/[.!?]$/.test(cut)) cut += '.';
       description = cut;
     } else {
-      // No good sentence boundary — fall back to word boundary within 155 chars, no ellipsis
-      const wordWindow = description.substring(0, 155);
-      const lastSpace = wordWindow.lastIndexOf(' ');
-      description = (lastSpace > 0 ? wordWindow.substring(0, lastSpace) : wordWindow).replace(/[,;:\s]+$/, '');
-      if (!/[.!?]$/.test(description)) description += '.';
+      // No good sentence boundary — fall back to word boundary, accounting for HTML escaping.
+      // Shrink the cap until escapeAttr(cut).length <= 155.
+      let cap = 155;
+      let cut;
+      do {
+        const wordWindow = description.substring(0, cap);
+        const lastSpace = wordWindow.lastIndexOf(' ');
+        cut = (lastSpace > 0 ? wordWindow.substring(0, lastSpace) : wordWindow).replace(/[,;:\s]+$/, '');
+        cap -= 5;
+      } while (escapeAttr(cut).length > 155 && cap > 70);
+      if (!/[.!?]$/.test(cut)) cut += '.';
+      description = cut;
     }
   }
 
