@@ -44,8 +44,8 @@ console.log(`Loaded ${Object.keys(translations).length} translation keys`);
 const pageMeta = {
   fi: {
     htmlLang: 'fi',
-    title: 'Eläinklinikka Vaasa — Saari | Pieneläinklinikka & eläinlääkäri',
-    description: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Ammattitaitoista hammashoitoa, kirurgiaa, sydäntutkimuksia ja ultraääntä koirille ja kissoille. Varaa aika!',
+    title: 'Eläinlääkäri Vaasa — Eläinklinikka Saari, ark. 9–17',
+    description: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille. Varaa aika!',
     ogTitle: 'Eläinklinikka Saari – Pieneläinklinikka ja eläinlääkäri Vaasassa',
     ogDescription: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille.',
     ogLocale: 'fi_FI',
@@ -57,8 +57,8 @@ const pageMeta = {
   },
   sv: {
     htmlLang: 'sv',
-    title: 'Djurklinik Vasa — Saari | Smådjursklinik & veterinär',
-    description: 'Smådjursklinik och veterinär i Vasa sedan 1989. Yrkesskicklig tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!',
+    title: 'Veterinär Vasa — Djurklinik Saari, mån–fre 9–17',
+    description: 'Smådjursklinik och veterinär i Vasa sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!',
     ogTitle: 'Djurklinik Saari – Smådjursklinik och veterinär i Vasa',
     ogDescription: 'Smådjursklinik och veterinär i Vasa sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter.',
     ogLocale: 'sv_SE',
@@ -70,8 +70,8 @@ const pageMeta = {
   },
   en: {
     htmlLang: 'en',
-    title: 'Vaasa Veterinary Clinic — Saari | Small Animal Clinic & Veterinarian',
-    description: 'Small animal clinic and veterinarian in Vaasa since 1989. Professional dental care, surgery, cardiac examinations and ultrasound for dogs and cats. Book an appointment!',
+    title: 'Veterinarian in Vaasa — Saari Clinic, Mon–Fri 9–17',
+    description: 'Small animal clinic and veterinarian in Vaasa since 1989. Dental, surgery, cardiac examinations and ultrasound for dogs and cats. Book online.',
     ogTitle: 'Eläinklinikka Saari – Small Animal Clinic and Veterinarian in Vaasa',
     ogDescription: 'Small animal clinic and veterinarian in Vaasa since 1989. Dental care, surgery, cardiac examinations and ultrasound for dogs and cats.',
     ogLocale: 'en_US',

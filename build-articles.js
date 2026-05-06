@@ -513,6 +513,8 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
   const t = (key) => translations[key]?.[lang] || translations[key]?.fi || '';
   const readAlso = { fi: 'Lue myös', sv: 'Läs också', en: 'Read also' };
 
+  const articleBaseMap = { fi: '/articles/', sv: '/sv/artiklar/', en: '/en/articles/' };
+  const baseUrl = articleBaseMap[lang] || articleBaseMap.fi;
   let cards = '';
   for (const slug of related) {
     const article = articles.find(a => a.slug === slug);
@@ -521,7 +523,7 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
     const tag = t(article.tagKey);
     const intro = t(`${article.prefix}.intro`);
     const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
-    const href = `${articleSlug(article, lang)}.html`;
+    const href = `${baseUrl}${articleSlug(article, lang)}.html`;
     cards += `
         <a href="${href}" class="related-article-card">
           <span class="article-tag">${escapeHtml(tag)}</span>
@@ -726,22 +728,31 @@ function generateArticlePage(article, translations, specialContent, lang) {
     }
   }
   description = description.replace(/[,;:\s]+$/, '').replace(/\.{2,}$/, '.');
-  // Target ~155 chars but allow up to 170 to end on a complete sentence.
+  // Target ≤158 chars after HTML escaping (squirrel core/meta-description threshold).
+  // Use escapeAttr length so quotes/ampersands don't push the rendered attribute over.
   // Never emit a literal "..." — it looks broken in SERPs.
-  if (description.length > 170) {
-    const window = description.substring(0, 170);
+  if (escapeAttr(description).length > 158) {
+    const window = description.substring(0, 158);
     const lastPeriod = window.lastIndexOf('. ');
     const lastExcl = window.lastIndexOf('! ');
     const lastQuest = window.lastIndexOf('? ');
-    const sentenceCut = Math.max(lastPeriod, lastExcl, lastQuest);
-    if (sentenceCut >= 80) {
-      // Cut at a sentence boundary (keep the terminator)
-      description = description.substring(0, sentenceCut + 1);
+    const lastDash = window.lastIndexOf('— ');
+    const lastSemi = window.lastIndexOf('; ');
+    const sentenceCut = Math.max(lastPeriod, lastExcl, lastQuest, lastDash, lastSemi);
+    if (sentenceCut >= 50) {
+      // Cut at a sentence/clause boundary. Keep terminator if it's . ! ? ; ;
+      // strip trailing — for em-dash cuts.
+      let cut = description.substring(0, sentenceCut + 1);
+      cut = cut.replace(/\s*—\s*$/, '').replace(/[,;:\s]+$/, '');
+      // Ensure the cut ends with sentence punctuation
+      if (!/[.!?]$/.test(cut)) cut += '.';
+      description = cut;
     } else {
       // No good sentence boundary — fall back to word boundary within 155 chars, no ellipsis
       const wordWindow = description.substring(0, 155);
       const lastSpace = wordWindow.lastIndexOf(' ');
       description = (lastSpace > 0 ? wordWindow.substring(0, lastSpace) : wordWindow).replace(/[,;:\s]+$/, '');
+      if (!/[.!?]$/.test(description)) description += '.';
     }
   }
 
@@ -3077,6 +3088,7 @@ function generateServicePage(service, translations, lang) {
     "name": ${JSON.stringify(pageH1)},
     "description": ${JSON.stringify(pageMetaDesc)},
     "url": "${canonicalUrl}",
+    "inLanguage": "${lang}",
     "lastReviewed": "${today}",
     "mainEntity": {
       "@type": "MedicalProcedure",
@@ -3429,7 +3441,7 @@ function generateAboutPage() {
   }
   </script>
 
-  <meta name="description" content="Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, sydäntutkimukset ja ISFM-kissaystävällinen klinikka.">
+  <meta name="description" content="Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Diagnostiikka, kirurgia, sydäntutkimukset, ISFM-kissaystävällinen klinikka.">
   <meta name="page-topic" content="About us">
   <link rel="canonical" href="${BASE_URL}/meista/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/meista/">
@@ -3729,7 +3741,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
 
           <h2>Saapumisohjeet</h2>
           <p><strong>Autolla:</strong> Klinikka sijaitsee Dragnäsbäckin kaupunginosassa, Gerbyntien ja Dragnäsbäckintien risteyksessä (Bockis-kurvi). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
-          <p><strong>Bussilla:</strong> Lähin bussipysäkki on Dragnäsbäckintien varrella, noin 200 metrin kävelymatkan päässä klinikasta. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta lysreisor.fi.</p>
+          <p><strong>Bussilla:</strong> Lähin bussipysäkki on Dragnäsbäckintien varrella, noin 200 metrin kävelymatkan päässä klinikasta. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta <a href="https://www.vaasa.fi/asu-ja-ela/liikenne-ja-kadut/joukkoliikenne/" target="_blank" rel="noopener">vaasa.fi/joukkoliikenne</a>.</p>
 
           <h2>Puhelin ja sähköposti</h2>
           <p>Puhelin: <a href="tel:+35863217300" onclick="gtag_report_conversion();"><strong>(06) 321 7300</strong></a><br>
