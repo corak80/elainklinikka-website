@@ -98,8 +98,62 @@
   },
   {
     "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Orthopaedics",
+    "serviceType": "Veterinary Orthopedics",
+    "url": "https://saarivet.fi/en/services/orthopedics/",
+    "areaServed": {"@type": "City", "name": "Vaasa"},
+    "provider": {
+      "@type": "VeterinaryCare",
+      "name": "Eläinklinikka Saari",
+      "url": "https://saarivet.fi",
+      "telephone": "+358-6-321-7300"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "302",
+      "highPrice": "2003",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://saarivet.fi/en/services/orthopedics/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does cruciate ligament surgery cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cruciate ligament repair using the lateral suture method costs €953 for cats and €1,203 for dogs. TTA surgery costs €1,703 (dogs under 20 kg) or €1,803 (dogs over 20 kg). The price includes anaesthesia, surgery, medication, and follow-up appointments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does fracture surgery cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fracture surgery costs between €1,203 and €2,003 depending on the fracture type, location, and fixation method (plates, screws, or external fixator). You receive an exact price estimate after radiographic and clinical examination."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do official radiographic examinations cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hip, elbow, and spine radiographs cost €302 (dogs under 40 kg or up to 3 spine images) or €362 (dogs over 40 kg or more spine images). The price includes light sedation and submission of the images to the Finnish Kennel Club assessor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get a price estimate before surgery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, the veterinarian always provides a written price estimate before orthopaedic surgery. The estimate covers anaesthesia, surgery, medication, and follow-up appointments. You receive the estimate before the surgical decision so you can plan the costs in advance."
+        }
+      },
       {
         "@type": "Question",
         "name": "How long is the recovery period after surgery?",

@@ -98,8 +98,62 @@
   },
   {
     "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Ortopedia",
+    "serviceType": "Veterinary Orthopedics",
+    "url": "https://saarivet.fi/palvelut/ortopedia/",
+    "areaServed": {"@type": "City", "name": "Vaasa"},
+    "provider": {
+      "@type": "VeterinaryCare",
+      "name": "Eläinklinikka Saari",
+      "url": "https://saarivet.fi",
+      "telephone": "+358-6-321-7300"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "302",
+      "highPrice": "2003",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "url": "https://saarivet.fi/palvelut/ortopedia/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Paljonko eturistisideleikkaus maksaa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lateral suture -menetelmällä eturistisiteen korjaus maksaa kissoille 953 € ja koirille 1 203 €. TTA-leikkaus maksaa 1 703 € (alle 20 kg koirille) tai 1 803 € (yli 20 kg koirille). Hinta sisältää anestesian, leikkauksen, lääkkeet ja kontrollikäynnit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Paljonko murtumaleikkaus maksaa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Murtumaleikkausten hinta vaihtelee 1 203–2 003 € välillä murtuman tyypistä, sijainnista ja kiinnitysmenetelmästä riippuen (levyt, ruuvit tai ulkoinen fiksaattori). Saat tarkan hinta-arvion röntgenkuvauksen ja kliinisen tutkimuksen jälkeen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Paljonko viralliset röntgentutkimukset maksavat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lonkka-, kyynär- ja selkäkuvat ovat 302 € (alle 40 kg koirille tai enintään 3 selkäkuvaa) tai 362 € (yli 40 kg koirille tai useammilla selkäkuvilla). Hinta sisältää kevyen rauhoituksen ja kuvien lähetyksen Suomen Kennelliiton arvostelijalle."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Voinko saada hinta-arvion ennen leikkausta?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kyllä, eläinlääkäri antaa aina kirjallisen hinta-arvion ennen ortopedista leikkausta. Arvio kattaa anestesian, leikkauksen, lääkkeet ja kontrollikäynnit. Saat hinta-arvion ennen leikkauspäätöstä, jotta voit suunnitella kustannukset etukäteen."
+        }
+      },
       {
         "@type": "Question",
         "name": "Kuinka pitkä on toipumisaika leikkauksen jälkeen?",

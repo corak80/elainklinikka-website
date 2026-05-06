@@ -2788,6 +2788,10 @@ const servicePages = [
       back: '\u2190 Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
       faq: [
+        { q: 'Vad kostar en korsbandsskadeoperation?', a: 'Korsbandsskadereparation med lateral suture-metoden kostar 953 € för katter och 1 203 € för hundar. TTA-operation kostar 1 703 € (hundar under 20 kg) eller 1 803 € (hundar över 20 kg). Priset inkluderar anestesi, operation, läkemedel och kontrollbesök.' },
+        { q: 'Vad kostar en frakturoperation?', a: 'Frakturoperationer kostar mellan 1 203–2 003 € beroende på frakturtyp, lokalisation och fixeringsmetod (plattor, skruvar eller extern fixator). Du får en exakt prisuppgift efter röntgenundersökning och klinisk undersökning.' },
+        { q: 'Vad kostar officiella röntgenundersökningar?', a: 'Höft-, armbågs- och ryggröntgen kostar 302 € (hundar under 40 kg eller högst 3 ryggbilder) eller 362 € (hundar över 40 kg eller fler ryggbilder). Priset inkluderar lätt sedering och översändning av bilderna till Finska Kennelklubbens granskare.' },
+        { q: 'Kan jag få en prisuppgift före operationen?', a: 'Ja, veterinären ger alltid en skriftlig prisuppgift före en ortopedisk operation. Uppgiften täcker anestesi, operation, läkemedel och kontrollbesök. Du får prisuppgiften före operationsbeslutet, så att du kan planera kostnaderna i förväg.' },
         { q: 'Hur lång är återhämtningsperioden efter operation?', a: 'Återhämtningsperioden beror på ingreppet. Efter korsbandsskadeoperation (TTA eller lateral suture) varar återhämtningen cirka 8–12 veckor, under vilken tid rörligheten begränsas gradvis. Frakturoperationers återhämtning tar vanligen 6–12 veckor. Rehabilitering och kontrollbesök är en väsentlig del av tillfrisknandet — de påskyndar läkningen och förbättrar slutresultatet.' },
         { q: 'Kan orsaken till hälta utredas utan operation?', a: 'Ja, de flesta orsaker till hälta kan utredas utan operation. Ortopedisk undersökning, röntgenbilder och vid behov ultraljud eller CT-undersökning ger en exakt diagnos. Alla orsaker till hälta kräver inte operation — till exempel lindrig artros och senproblem behandlas ofta konservativt med medicinering, vila och rehabilitering. Veterinären bedömer den bästa behandlingslinjen individuellt.' }
       ],
@@ -2810,6 +2814,10 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
       faq: [
+        { q: 'How much does cruciate ligament surgery cost?', a: 'Cruciate ligament repair using the lateral suture method costs €953 for cats and €1,203 for dogs. TTA surgery costs €1,703 (dogs under 20 kg) or €1,803 (dogs over 20 kg). The price includes anaesthesia, surgery, medication, and follow-up appointments.' },
+        { q: 'How much does fracture surgery cost?', a: 'Fracture surgery costs between €1,203 and €2,003 depending on the fracture type, location, and fixation method (plates, screws, or external fixator). You receive an exact price estimate after radiographic and clinical examination.' },
+        { q: 'How much do official radiographic examinations cost?', a: 'Hip, elbow, and spine radiographs cost €302 (dogs under 40 kg or up to 3 spine images) or €362 (dogs over 40 kg or more spine images). The price includes light sedation and submission of the images to the Finnish Kennel Club assessor.' },
+        { q: 'Can I get a price estimate before surgery?', a: 'Yes, the veterinarian always provides a written price estimate before orthopaedic surgery. The estimate covers anaesthesia, surgery, medication, and follow-up appointments. You receive the estimate before the surgical decision so you can plan the costs in advance.' },
         { q: 'How long is the recovery period after surgery?', a: 'The recovery period depends on the procedure. After cruciate ligament repair (TTA or lateral suture), recovery takes approximately 8–12 weeks, during which movement is gradually restricted. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery — they accelerate healing and improve the outcome.' },
         { q: 'Can the cause of lameness be determined without surgery?', a: 'Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery — for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.' }
       ],
@@ -2817,7 +2825,12 @@ const servicePages = [
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Orthopedics',
     procedureType: 'SurgicalProcedure',
+    offers: { lowPrice: '302', highPrice: '2003' },
     faq: [
+      { q: 'Paljonko eturistisideleikkaus maksaa?', a: 'Lateral suture -menetelmällä eturistisiteen korjaus maksaa kissoille 953 € ja koirille 1 203 €. TTA-leikkaus maksaa 1 703 € (alle 20 kg koirille) tai 1 803 € (yli 20 kg koirille). Hinta sisältää anestesian, leikkauksen, lääkkeet ja kontrollikäynnit.' },
+      { q: 'Paljonko murtumaleikkaus maksaa?', a: 'Murtumaleikkausten hinta vaihtelee 1 203–2 003 € välillä murtuman tyypistä, sijainnista ja kiinnitysmenetelmästä riippuen (levyt, ruuvit tai ulkoinen fiksaattori). Saat tarkan hinta-arvion röntgenkuvauksen ja kliinisen tutkimuksen jälkeen.' },
+      { q: 'Paljonko viralliset röntgentutkimukset maksavat?', a: 'Lonkka-, kyynär- ja selkäkuvat ovat 302 € (alle 40 kg koirille tai enintään 3 selkäkuvaa) tai 362 € (yli 40 kg koirille tai useammilla selkäkuvilla). Hinta sisältää kevyen rauhoituksen ja kuvien lähetyksen Suomen Kennelliiton arvostelijalle.' },
+      { q: 'Voinko saada hinta-arvion ennen leikkausta?', a: 'Kyllä, eläinlääkäri antaa aina kirjallisen hinta-arvion ennen ortopedista leikkausta. Arvio kattaa anestesian, leikkauksen, lääkkeet ja kontrollikäynnit. Saat hinta-arvion ennen leikkauspäätöstä, jotta voit suunnitella kustannukset etukäteen.' },
       { q: 'Kuinka pitkä on toipumisaika leikkauksen jälkeen?', a: 'Toipumisaika riippuu toimenpiteestä. Eturistisiteen korjausleikkauksen (TTA tai lateral suture) jälkeen toipuminen kestää noin 8–12 viikkoa, jonka aikana liikkumista rajoitetaan asteittain. Murtumaleikkausten toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista — ne nopeuttavat paranemista ja parantavat lopputulosta.' },
       { q: 'Voiko ontumisen syyn selvittää ilman leikkausta?', a: 'Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Ortopedinen tutkimus, röntgenkuvat ja tarvittaessa ultraääni tai CT-kuvaus antavat tarkan diagnoosin. Kaikki ontumisen syyt eivät vaadi leikkausta — esimerkiksi lievä nivelrikko ja jänneongelmat hoidetaan usein konservatiivisesti lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.' }
     ]
@@ -2936,6 +2949,18 @@ function generateServicePage(service, translations, lang) {
   lang = lang || 'fi';
   const t = (key) => translations[key]?.fi || '';
   const today = new Date().toISOString().split('T')[0];
+  // lastReviewed: prefer service.lastReviewed (manual per-service review date),
+  // fall back to git mtime of build-articles.js (when servicePages data last changed),
+  // fall back to today (initial bootstrap).
+  const lastReviewed = service.lastReviewed || (function () {
+    try {
+      return require('child_process')
+        .execSync('git log -1 --format=%cs -- build-articles.js', { cwd: ROOT, encoding: 'utf8' })
+        .trim() || today;
+    } catch (e) {
+      return today;
+    }
+  })();
 
   // Language-specific data
   const langData = lang === 'fi' ? null : service[lang];
@@ -3136,7 +3161,7 @@ function generateServicePage(service, translations, lang) {
     "description": ${JSON.stringify(pageMetaDesc)},
     "url": "${canonicalUrl}",
     "inLanguage": "${lang}",
-    "lastReviewed": "${today}",
+    "lastReviewed": "${lastReviewed}",
     "mainEntity": {
       "@type": "MedicalProcedure",
       "name": "${service.schemaService}",
