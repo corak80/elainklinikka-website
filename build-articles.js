@@ -675,17 +675,14 @@ function generateArticleBody(article, translations, specialContent, lang) {
     if (article.slug === 'siili' && suffix === 'nest.text') {
       const sc = specialContent.hedgehog;
       html += `\n          ${sc.nestInstructions}\n`;
-      // Hedgehog house image (fix path)
-      html += `\n          ${sc.hedgehogHouseImg.replace(/src="images\//g, 'src="../images/')}\n`;
-      // Nest links
+      // Use root-relative paths so the same markup works at /articles/ (1 deep)
+      // and /sv/artiklar/ or /en/articles/ (2 deep). Was `../images/` which 404'd on SV/EN.
+      html += `\n          ${sc.hedgehogHouseImg.replace(/src="images\//g, 'src="/images/')}\n`;
       html += `\n          ${sc.nestLinks}\n`;
-      // Nest CTA
       html += `\n          ${sc.nestCta}\n`;
-      // Injured section
       html += `\n          ${sc.injuredTitle}\n`;
       html += `          ${sc.injuredText}\n`;
-      // Size comparison image (fix path)
-      html += `\n          ${sc.hedgehogSizeImg.replace(/src="images\//g, 'src="../images/')}\n`;
+      html += `\n          ${sc.hedgehogSizeImg.replace(/src="images\//g, 'src="/images/')}\n`;
       // Ecology section
       html += `\n          ${sc.ecologyTitle}\n`;
       html += `          ${sc.ecologyText}\n`;
@@ -1125,23 +1122,86 @@ ${relatedHtml}
 }
 
 // ──────────────────────────────────────────────
-// 6. Generate article index page (artikkelit/index.html)
+// 6. Generate article index page (FI: /artikkelit/, SV: /sv/artiklar/, EN: /en/articles/)
 // ──────────────────────────────────────────────
-function generateArticleIndex(translations) {
-  const t = (key) => translations[key]?.fi || '';
-  const today = new Date().toISOString().split('T')[0];
+const ARTICLE_INDEX_I18N = {
+  fi: {
+    htmlLang: 'fi',
+    pageTitle: 'Artikkelit — Eläinklinikka Saari',
+    pageDesc: 'Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta. Eläinklinikka Saari, Vaasa.',
+    ogTitle: 'Artikkelit — Eläinklinikka Saari',
+    ogDesc: 'Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta.',
+    twDesc: 'Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset ja paljon muuta.',
+    h1: 'Artikkelit',
+    subtitle: 'Eläinlääketieteelliset artikkelit ammattilaisilta',
+    back: '← Takaisin etusivulle',
+    skipLink: 'Siirry sisältöön',
+    breadcrumbHome: 'Etusivu',
+    breadcrumbCurrent: 'Artikkelit',
+    schemaName: 'Artikkelit',
+    schemaDesc: 'Eläinlääketieteelliset artikkelit Eläinklinikka Saarelta',
+    categories: { dental: 'Hammashoito', surgery: 'Kirurgia ja anestesia', cardiology: 'Kardiologia', endoscopy: 'Tähystykset', health: 'Terveys ja sairaudet', emergency: 'Päivystys', wildlife: 'Wildlife', clinic: 'Klinikka' },
+    ogLocale: 'fi_FI',
+    footerBrand: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    footerQuickLinks: 'Pikalinkit',
+    footerAbout: 'Klinikka', footerServices: 'Palvelut', footerTeam: 'Henkilökunta', footerPrices: 'Hinnasto', footerAboutPage: 'Meistä', footerContact: 'Yhteystiedot', footerArticles: 'Artikkelit', footerMedia: 'Saari mediassa',
+    footerContactTitle: 'Yhteystiedot', footerFollow: 'Seuraa meitä', footerCopyright: 'Kaikki oikeudet pidätetään.', footerPrivacy: 'Tietosuoja',
+  },
+  sv: {
+    htmlLang: 'sv',
+    pageTitle: 'Artiklar — Djurklinik Saari',
+    pageDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi, vaccinationer och mycket mer. Djurklinik Saari, Vasa.',
+    ogTitle: 'Artiklar — Djurklinik Saari',
+    ogDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi, vaccinationer och mycket mer.',
+    twDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi och mycket mer.',
+    h1: 'Artiklar',
+    subtitle: 'Veterinärmedicinska artiklar från proffsen',
+    back: '← Tillbaka till startsidan',
+    skipLink: 'Hoppa till innehåll',
+    breadcrumbHome: 'Startsidan',
+    breadcrumbCurrent: 'Artiklar',
+    schemaName: 'Artiklar',
+    schemaDesc: 'Veterinärmedicinska artiklar från Djurklinik Saari',
+    categories: { dental: 'Tandvård', surgery: 'Kirurgi och anestesi', cardiology: 'Kardiologi', endoscopy: 'Endoskopi', health: 'Hälsa och sjukdomar', emergency: 'Akutvård', wildlife: 'Wildlife', clinic: 'Kliniken' },
+    ogLocale: 'sv_FI',
+    footerBrand: 'Finsk privat smådjursklinik i Dragnäsbäck, Vasa, vid Bockis-hörnet.',
+    footerQuickLinks: 'Snabblänkar',
+    footerAbout: 'Kliniken', footerServices: 'Tjänster', footerTeam: 'Personal', footerPrices: 'Prislista', footerAboutPage: 'Om oss', footerContact: 'Kontakt', footerArticles: 'Artiklar', footerMedia: 'Saari i media',
+    footerContactTitle: 'Kontakt', footerFollow: 'Följ oss', footerCopyright: 'Alla rättigheter förbehållna.', footerPrivacy: 'Integritetspolicy',
+  },
+  en: {
+    htmlLang: 'en',
+    pageTitle: 'Articles — Eläinklinikka Saari',
+    pageDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy, vaccinations and much more. Saari Animal Clinic, Vaasa.',
+    ogTitle: 'Articles — Eläinklinikka Saari',
+    ogDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy, vaccinations and much more.',
+    twDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy and much more.',
+    h1: 'Articles',
+    subtitle: 'Veterinary articles from the professionals',
+    back: '← Back to homepage',
+    skipLink: 'Skip to content',
+    breadcrumbHome: 'Home',
+    breadcrumbCurrent: 'Articles',
+    schemaName: 'Articles',
+    schemaDesc: 'Veterinary articles from Saari Animal Clinic',
+    categories: { dental: 'Dental Care', surgery: 'Surgery and Anaesthesia', cardiology: 'Cardiology', endoscopy: 'Endoscopy', health: 'Health and Disease', emergency: 'Emergency Care', wildlife: 'Wildlife', clinic: 'Clinic' },
+    ogLocale: 'en_GB',
+    footerBrand: 'Finnish private small animal clinic in Dragnäsbäck, Vaasa, at the Bockis corner.',
+    footerQuickLinks: 'Quick links',
+    footerAbout: 'Clinic', footerServices: 'Services', footerTeam: 'Staff', footerPrices: 'Prices', footerAboutPage: 'About', footerContact: 'Contact', footerArticles: 'Articles', footerMedia: 'Saari in the media',
+    footerContactTitle: 'Contact', footerFollow: 'Follow us', footerCopyright: 'All rights reserved.', footerPrivacy: 'Privacy Policy',
+  },
+};
 
-  // Group articles by category
-  const categoryLabels = {
-    dental: 'Hammashoito',
-    surgery: 'Kirurgia ja anestesia',
-    cardiology: 'Kardiologia',
-    endoscopy: 'Tähystykset',
-    health: 'Terveys ja sairaudet',
-    emergency: 'Päivystys',
-    wildlife: 'Wildlife',
-    clinic: 'Klinikka'
-  };
+function generateArticleIndex(translations, lang) {
+  lang = lang || 'fi';
+  const i18n = ARTICLE_INDEX_I18N[lang] || ARTICLE_INDEX_I18N.fi;
+  const t = (key) => (translations[key] && (translations[key][lang] || translations[key].fi)) || '';
+
+  // Article-link base differs by lang. Use root-relative so it works regardless of page depth.
+  const articleBase = lang === 'sv' ? '/sv/artiklar/' : lang === 'en' ? '/en/articles/' : '/articles/';
+  const indexPath = lang === 'sv' ? '/sv/artiklar/' : lang === 'en' ? '/en/articles/' : '/artikkelit/';
+  const homeUrl = lang === 'fi' ? '/' : (lang === 'sv' ? '/sv/' : '/en/');
 
   const categoryOrder = ['dental', 'surgery', 'cardiology', 'endoscopy', 'health', 'emergency', 'wildlife', 'clinic'];
   const grouped = {};
@@ -1154,12 +1214,13 @@ function generateArticleIndex(translations) {
   let cardsHtml = '';
   for (const cat of categoryOrder) {
     if (!grouped[cat]) continue;
-    cardsHtml += `\n        <h2>${categoryLabels[cat] || cat}</h2>\n        <div class="article-index-grid">\n`;
+    cardsHtml += `\n        <h2>${escapeHtml(i18n.categories[cat] || cat)}</h2>\n        <div class="article-index-grid">\n`;
     for (const article of grouped[cat]) {
       const title = t(article.titleKey);
       const intro = t(`${article.prefix}.intro`);
       const shortIntro = intro.length > 150 ? intro.substring(0, 147) + '...' : intro;
-      cardsHtml += `          <a href="../articles/${article.slug}.html" class="article-index-card">
+      const slug = articleSlug(article, lang);
+      cardsHtml += `          <a href="${articleBase}${slug}.html" class="article-index-card">
             <h3>${escapeHtml(title)}</h3>
             <p>${escapeHtml(shortIntro)}</p>
           </a>\n`;
@@ -1167,16 +1228,20 @@ function generateArticleIndex(translations) {
     cardsHtml += `        </div>\n`;
   }
 
+  const fiUrl = `${BASE_URL}/artikkelit/`;
+  const svUrl = `${BASE_URL}/sv/artiklar/`;
+  const enUrl = `${BASE_URL}/en/articles/`;
+  const canonicalUrl = `${BASE_URL}${indexPath}`;
+
   return `<!DOCTYPE html>
-<html lang="fi">
+<html lang="${i18n.htmlLang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
-  <title>Artikkelit — Eläinklinikka Saari</title>
+  <title>${escapeHtml(i18n.pageTitle)}</title>
 
-  <!-- Google Analytics: Consent Mode v2 -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -1208,31 +1273,34 @@ function generateArticleIndex(translations) {
   }
   </script>
 
-  <meta name="description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta. Eläinklinikka Saari, Vaasa.">
-  <link rel="canonical" href="${BASE_URL}/artikkelit/">
-  <link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/">
-  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/artikkelit/">
+  <meta name="description" content="${escapeAttr(i18n.pageDesc)}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${fiUrl}">
+  <link rel="alternate" hreflang="sv" href="${svUrl}">
+  <link rel="alternate" hreflang="en" href="${enUrl}">
+  <link rel="alternate" hreflang="x-default" href="${fiUrl}">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="${BASE_URL}/artikkelit/">
-  <meta property="og:title" content="Artikkelit — Eläinklinikka Saari">
-  <meta property="og:description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta.">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:title" content="${escapeAttr(i18n.ogTitle)}">
+  <meta property="og:description" content="${escapeAttr(i18n.ogDesc)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
-  <meta property="og:locale" content="fi_FI">
+  <meta property="og:locale" content="${i18n.ogLocale}">
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Artikkelit — Eläinklinikka Saari">
-  <meta name="twitter:description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset ja paljon muuta.">
+  <meta name="twitter:title" content="${escapeAttr(i18n.pageTitle)}">
+  <meta name="twitter:description" content="${escapeAttr(i18n.twDesc)}">
   <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Artikkelit",
-    "description": "Eläinlääketieteelliset artikkelit Eläinklinikka Saarelta",
-    "url": "${BASE_URL}/artikkelit/",
+    "name": ${JSON.stringify(i18n.schemaName)},
+    "description": ${JSON.stringify(i18n.schemaDesc)},
+    "url": "${canonicalUrl}",
+    "inLanguage": "${i18n.htmlLang}",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Eläinklinikka Saari",
@@ -1243,38 +1311,28 @@ function generateArticleIndex(translations) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Etusivu",
-        "item": "${BASE_URL}/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Artikkelit",
-        "item": "${BASE_URL}/artikkelit/"
-      }
+      {"@type": "ListItem", "position": 1, "name": ${JSON.stringify(i18n.breadcrumbHome)}, "item": "${BASE_URL}${homeUrl}"},
+      {"@type": "ListItem", "position": 2, "name": ${JSON.stringify(i18n.breadcrumbCurrent)}, "item": "${canonicalUrl}"}
     ]
   }]
   </script>
 
-  <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="preload" as="image" href="/images/logo.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/images/logo.png">
 </head>
 <body class="article-page">
-  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+  <a href="#main-content" class="skip-link">${escapeHtml(i18n.skipLink)}</a>
 
   <header class="header">
     <div class="container">
-      <a href="../" class="logo">
-        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      <a href="${homeUrl}" class="logo">
+        <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+      <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+        <img src="/images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
+${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUrl })}
     </div>
   </header>
 
@@ -1282,11 +1340,11 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
   <section class="section articles-section">
     <div class="container">
       <div class="section-header">
-        <h1>Artikkelit</h1>
-        <p>Eläinlääketieteelliset artikkelit ammattilaisilta</p>
+        <h1>${escapeHtml(i18n.h1)}</h1>
+        <p>${escapeHtml(i18n.subtitle)}</p>
       </div>
 ${cardsHtml}
-      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+      <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.back)}</a>
     </div>
   </section>
   </main>
@@ -1295,29 +1353,29 @@ ${cardsHtml}
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p>${escapeHtml(i18n.footerBrand)}</p>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading">Pikalinkit</strong>
-          <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
-          <a href="../#cat-friendly">Cat Friendly</a>
-          <a href="/hinnasto/">Hinnasto</a>
-          <a href="../#wildlife">Wildlife</a>
-          <a href="/meista/">Meistä</a>
-          <a href="/yhteystiedot/">Yhteystiedot</a>
-          <a href="/artikkelit/">Artikkelit</a>
-          <a href="/media/">Saari mediassa</a>
+          <strong class="footer-heading">${escapeHtml(i18n.footerQuickLinks)}</strong>
+          <a href="${homeUrl}#about">${escapeHtml(i18n.footerAbout)}</a>
+          <a href="${homeUrl}#services">${escapeHtml(i18n.footerServices)}</a>
+          <a href="${homeUrl}#team">${escapeHtml(i18n.footerTeam)}</a>
+          <a href="${homeUrl}#cat-friendly">Cat Friendly</a>
+          <a href="${PRICES_URLS[lang] || PRICES_URLS.fi}">${escapeHtml(i18n.footerPrices)}</a>
+          <a href="${homeUrl}#wildlife">Wildlife</a>
+          <a href="/meista/">${escapeHtml(i18n.footerAboutPage)}</a>
+          <a href="/yhteystiedot/">${escapeHtml(i18n.footerContact)}</a>
+          <a href="${indexPath}">${escapeHtml(i18n.footerArticles)}</a>
+          <a href="/media/">${escapeHtml(i18n.footerMedia)}</a>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading">Yhteystiedot</strong>
+          <strong class="footer-heading">${escapeHtml(i18n.footerContactTitle)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
           <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
-          <strong class="footer-heading">Seuraa meitä</strong>
+          <strong class="footer-heading">${escapeHtml(i18n.footerFollow)}</strong>
           <div class="footer-social">
             <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.5-3h-3v-2c0-.9.3-1.5 1.6-1.5H16.7V4.1C16.4 4.1 15.4 4 14.3 4c-2.3 0-3.8 1.4-3.8 3.9v2.6h-2.5v3h2.5V21h3z"/></svg>
@@ -1329,13 +1387,13 @@ ${cardsHtml}
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
-        <a href="/tietosuoja/">Tietosuoja</a>
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; ${escapeHtml(i18n.footerCopyright)}</span>
+        <a href="/tietosuoja/">${escapeHtml(i18n.footerPrivacy)}</a>
       </div>
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>`;
 }
@@ -4002,6 +4060,30 @@ ${palvelutHreflang}  </url>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/artiklar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/artikkelit/"/>
+  </url>
+  <url>
+    <loc>${BASE_URL}/sv/artiklar/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/artiklar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/artikkelit/"/>
+  </url>
+  <url>
+    <loc>${BASE_URL}/en/articles/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/artikkelit/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/artiklar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/articles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/artikkelit/"/>
   </url>
 `;
 
@@ -4183,9 +4265,8 @@ function escapeHtml(str) {
 }
 
 function getArticlesUrl(lang) {
-  // SV/EN article indexes don't exist yet — every nav previously pointed to /sv/artiklar/ and
-  // /en/articles/ which 404'd. Fall back to FI hub until trilingual indexes are built. Each
-  // article still has its own SV/EN URL via slugMap; only the index hub is FI-only.
+  if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
+  if (lang === 'en') return `${BASE_URL}/en/articles/`;
   return `${BASE_URL}/artikkelit/`;
 }
 
@@ -4333,14 +4414,19 @@ function main() {
     console.log(`  en/services/${service.slugEn}/index.html - ${service.en.h1}`);
   }
 
-  // Generate article index page
-  const artikkelitDir = path.join(ROOT, 'artikkelit');
-  if (!fs.existsSync(artikkelitDir)) {
-    fs.mkdirSync(artikkelitDir, { recursive: true });
+  // Generate trilingual article index pages (FI: /artikkelit/, SV: /sv/artiklar/, EN: /en/articles/)
+  console.log('\nBuilding article index pages...');
+  const indexTargets = [
+    { lang: 'fi', dir: path.join(ROOT, 'artikkelit'), label: 'artikkelit/index.html' },
+    { lang: 'sv', dir: path.join(ROOT, 'sv', 'artiklar'), label: 'sv/artiklar/index.html' },
+    { lang: 'en', dir: path.join(ROOT, 'en', 'articles'), label: 'en/articles/index.html' },
+  ];
+  for (const target of indexTargets) {
+    if (!fs.existsSync(target.dir)) fs.mkdirSync(target.dir, { recursive: true });
+    const indexPage = generateArticleIndex(translations, target.lang);
+    fs.writeFileSync(path.join(target.dir, 'index.html'), indexPage, 'utf-8');
+    console.log(`  Generated ${target.label}`);
   }
-  const indexPage = generateArticleIndex(translations);
-  fs.writeFileSync(path.join(artikkelitDir, 'index.html'), indexPage, 'utf-8');
-  console.log('  Generated artikkelit/index.html');
 
   // Generate about page
   console.log('\nBuilding about page...');

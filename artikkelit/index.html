@@ -7,7 +7,6 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Artikkelit — Eläinklinikka Saari</title>
 
-  <!-- Google Analytics: Consent Mode v2 -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -42,6 +41,8 @@
   <meta name="description" content="Eläinlääketieteelliset artikkelit: hammashoito, kirurgia, sydänsairaudet, tähystykset, rokotukset ja paljon muuta. Eläinklinikka Saari, Vaasa.">
   <link rel="canonical" href="https://saarivet.fi/artikkelit/">
   <link rel="alternate" hreflang="fi" href="https://saarivet.fi/artikkelit/">
+  <link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/">
+  <link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/">
   <link rel="alternate" hreflang="x-default" href="https://saarivet.fi/artikkelit/">
 
   <meta property="og:type" content="website">
@@ -64,6 +65,7 @@
     "name": "Artikkelit",
     "description": "Eläinlääketieteelliset artikkelit Eläinklinikka Saarelta",
     "url": "https://saarivet.fi/artikkelit/",
+    "inLanguage": "fi",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Eläinklinikka Saari",
@@ -74,46 +76,36 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Etusivu",
-        "item": "https://saarivet.fi/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Artikkelit",
-        "item": "https://saarivet.fi/artikkelit/"
-      }
+      {"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://saarivet.fi/"},
+      {"@type": "ListItem", "position": 2, "name": "Artikkelit", "item": "https://saarivet.fi/artikkelit/"}
     ]
   }]
   </script>
 
-  <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="preload" as="image" href="/images/logo.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/images/logo.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">Siirry sisältöön</a>
 
   <header class="header">
     <div class="container">
-      <a href="../" class="logo">
-        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      <a href="/" class="logo">
+        <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+      <a href="/#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+        <img src="/images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
       <nav class="nav">
         <div class="nav-links">
-          <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
-          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/#about">Klinikka</a>
+          <a href="/#services">Palvelut</a>
+          <a href="/#team">Henkilökunta</a>
+          <a href="/#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
-          <a href="../#wildlife">Wildlife</a>
-          <a href="../#contact">Yhteystiedot</a>
+          <a href="/#wildlife">Wildlife</a>
+          <a href="/#contact">Yhteystiedot</a>
           <a href="https://saarivet.fi/artikkelit/">Artikkelit</a>
           <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">Varaa aika</a>
         </div>
@@ -121,8 +113,8 @@
         <div class="nav-actions">
           <div class="lang-toggle">
             <a href="https://saarivet.fi/artikkelit/" class="active" aria-current="page">FI</a>
-            <a href="https://saarivet.fi/artikkelit/" class="">SV</a>
-            <a href="https://saarivet.fi/artikkelit/" class="">EN</a>
+            <a href="https://saarivet.fi/sv/artiklar/" class="">SV</a>
+            <a href="https://saarivet.fi/en/articles/" class="">EN</a>
           </div>
           <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="fbq('track','Schedule');">Varaa aika</a>
         </div>
@@ -146,19 +138,19 @@
 
         <h2>Hammashoito</h2>
         <div class="article-index-grid">
-          <a href="../articles/hampaiden-harjaus.html" class="article-index-card">
+          <a href="/articles/hampaiden-harjaus.html" class="article-index-card">
             <h3>Hampaiden harjaus — paras asia, jonka voit tehdä lemmikkisi hampaiden hyväksi</h3>
             <p>80 % koirista ja 70 % kissoista kärsii jonkinasteisesta hammassairaudesta jo kolmen vuoden ikäisinä. Hammassairaudet aiheuttavat kroonista kipua, i...</p>
           </a>
-          <a href="../articles/periovive.html" class="article-index-card">
+          <a href="/articles/periovive.html" class="article-index-card">
             <h3>PerioVive — hyaluronihappogeeli parodontiittisairauksien hoitoon</h3>
             <p>Parodontiitti (hampaan kiinnityskudostulehdus) on yleisin sairaus koirilla ja kissoilla — jopa 80 % yli kolmevuotiaista koirista kärsii jonkinastei...</p>
           </a>
-          <a href="../articles/puhkeamattomat-hampaat.html" class="article-index-card">
+          <a href="/articles/puhkeamattomat-hampaat.html" class="article-index-card">
             <h3>Puhkeamattomat hampaat ja hammasaihekysta — piilevä vaara leukaluussa</h3>
             <p>Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koir...</p>
           </a>
-          <a href="../articles/hammasresorptio.html" class="article-index-card">
+          <a href="/articles/hammasresorptio.html" class="article-index-card">
             <h3>Hammasresorptio — piilevä ja kivulias hammassairaus</h3>
             <p>Hammasresorptio on sairaus, jossa erikoistuneet solut (odontolastit) tuhoavat hampaan kovakudosta — kiillettä, dentiiniä ja hammassementtiä. Sairau...</p>
           </a>
@@ -166,23 +158,23 @@
 
         <h2>Kirurgia ja anestesia</h2>
         <div class="article-index-grid">
-          <a href="../articles/tta-leikkaus.html" class="article-index-card">
+          <a href="/articles/tta-leikkaus.html" class="article-index-card">
             <h3>TTA-leikkaus koirilla – eturistisiteen korjaus tibial tuberosity advancement -menetelmällä</h3>
             <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on yksi yleisimmistä ortopedisistä ongelmista koirilla. Vaurioitunut ristiside aiheuttaa po...</p>
           </a>
-          <a href="../articles/kipulääkeinfuusio.html" class="article-index-card">
+          <a href="/articles/kipulääkeinfuusio.html" class="article-index-card">
             <h3>Jatkuva kipulääkeinfuusio (CRI) — tasainen kivunhallinta leikkausten aikana</h3>
             <p>Kivun hallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikallamme käytämme jatkuvaa suonensisäistä kipulääkeinfuusiota (CRI) vakiome...</p>
           </a>
-          <a href="../articles/lateral-suture.html" class="article-index-card">
+          <a href="/articles/lateral-suture.html" class="article-index-card">
             <h3>Lateral suture — eturistisiteen korjaus synteettisellä tukimateriaalilla</h3>
             <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on koirien yleisin ortopedinen ongelma ja sitä esiintyy myös kissoilla. Lateral suture eli ...</p>
           </a>
-          <a href="../articles/hypotermia.html" class="article-index-card">
+          <a href="/articles/hypotermia.html" class="article-index-card">
             <h3>Hypotermian ehkäisy — miksi aktiivinen lämmitys pelastaa henkiä</h3>
             <p>Hypotermia on yleisin anestesiakomplikaatio: yli 80 % koirista sekä lähes kaikilla kissoilla laskee ruumiinlämpö anestesian aikana. Anestesia-ainee...</p>
           </a>
-          <a href="../articles/anestesiaturvallisuus.html" class="article-index-card">
+          <a href="/articles/anestesiaturvallisuus.html" class="article-index-card">
             <h3>Anestesiaturvallisuus — tilastot, riskit ja miten minimoimme ne</h3>
             <p>Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Monet omistajat pelkäävät nukutusta — ymmärrettävästi. To...</p>
           </a>
@@ -190,7 +182,7 @@
 
         <h2>Kardiologia</h2>
         <div class="article-index-grid">
-          <a href="../articles/avoin-valtimotiehyt-pda.html" class="article-index-card">
+          <a href="/articles/avoin-valtimotiehyt-pda.html" class="article-index-card">
             <h3>Avoin valtimotiehyt (PDA) koirilla — synnynnäinen sydänvika, joka on parannettavissa</h3>
             <p>Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Kyseessä on verisuoni, joka yhdistää aortan ja keuhkovaltimon...</p>
           </a>
@@ -198,11 +190,11 @@
 
         <h2>Tähystykset</h2>
         <div class="article-index-grid">
-          <a href="../articles/video-otoskopia.html" class="article-index-card">
+          <a href="/articles/video-otoskopia.html" class="article-index-card">
             <h3>Video-otoskopia – korvien tähystystutkimus koirilla ja kissoilla</h3>
             <p>Korvatulehdukset ovat yksi yleisimmistä syistä eläinlääkäri käynneille. Tavallisella otoskoopilla näkeminen rajoittuu korvakäytävän ulko-osiin, mut...</p>
           </a>
-          <a href="../articles/gastroskopia.html" class="article-index-card">
+          <a href="/articles/gastroskopia.html" class="article-index-card">
             <h3>Gastroskopia — vatsalaukun tähystys ja vierasesineiden poisto ilman leikkausta</h3>
             <p>Gastroskopia on tähystystutkimus, jossa taipuisa kameraendoskooppi viedään suun kautta ruokatorveen, vatsalaukkuun ja pohjukaissuoleen. Tutkimus ma...</p>
           </a>
@@ -210,35 +202,35 @@
 
         <h2>Terveys ja sairaudet</h2>
         <div class="article-index-grid">
-          <a href="../articles/ripuli.html" class="article-index-card">
+          <a href="/articles/ripuli.html" class="article-index-card">
             <h3>Ripuli koirilla ja kissoilla — syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan</h3>
             <p>Ripuli on yksi yleisimmistä syistä eläinlääkärikäyntiin. Lähes jokainen koira ja kissa kärsii ripulista jossain vaiheessa elämäänsä. Useimmiten kys...</p>
           </a>
-          <a href="../articles/viljaton-ruoka.html" class="article-index-card">
+          <a href="/articles/viljaton-ruoka.html" class="article-index-card">
             <h3>Viljaton ruoka koirille ja kissoille — onko se tarpeellista vai haitallista?</h3>
             <p>Viljaton lemmikkien ruokavalio on ollut valtava trendi viime vuosina. Markkinointi lupaa &quot;luonnollisempaa&quot; ruokavaliota, mutta vuonna 2018 Yhdysval...</p>
           </a>
-          <a href="../articles/ruoka-allergiat.html" class="article-index-card">
+          <a href="/articles/ruoka-allergiat.html" class="article-index-card">
             <h3>Ruoka-allergiat koirilla ja kissoilla — oireet, diagnoosi ja eliminaatiodieetti</h3>
             <p>Ruoka-aine allergia on yksi yleisimmistä kutinaa aiheuttavista sairauksista koirilla ja kissoilla. Tutkimusten mukaan 9–40 % kutisevista koirista j...</p>
           </a>
-          <a href="../articles/kilpirauhasen-liikatoiminta.html" class="article-index-card">
+          <a href="/articles/kilpirauhasen-liikatoiminta.html" class="article-index-card">
             <h3>Kilpirauhasen liikatoiminta kissalla — oireet, diagnoosi ja hoito</h3>
             <p>Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyvien kissojen yleisin hormonisairaus. Se todetaan noin 10 %:lla yli 10-vuotiaista kissoista. ...</p>
           </a>
-          <a href="../articles/munuaisten-vajaatoiminta.html" class="article-index-card">
+          <a href="/articles/munuaisten-vajaatoiminta.html" class="article-index-card">
             <h3>Munuaisten vajaatoiminta koirilla ja kissoilla — tunnista oireet ajoissa</h3>
             <p>Krooninen munuaissairaus (CKD) on yksi ikääntyvien kissojen ja koirien yleisimmistä sairauksista. Jopa 30–40 % yli 10-vuotiaista kissoista kärsii j...</p>
           </a>
-          <a href="../articles/kissaystävällinen-klinikka.html" class="article-index-card">
+          <a href="/articles/kissaystävällinen-klinikka.html" class="article-index-card">
             <h3>Stressitön eläinlääkärikäynti kissalle — näin autamme ja näin voit valmistautua</h3>
             <p>Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat l...</p>
           </a>
-          <a href="../articles/rokotukset.html" class="article-index-card">
+          <a href="/articles/rokotukset.html" class="article-index-card">
             <h3>Rokotukset Suomessa — koirien ja kissojen rokotusohjelma</h3>
             <p>Rokotukset ovat tehokkain tapa suojata lemmikkiä tartuntataudeilta. Suomessa Ruokavirasto antaa rokotussuosituksia, mutta ne eivät ole juridisesti ...</p>
           </a>
-          <a href="../articles/ibd-lymfooma.html" class="article-index-card">
+          <a href="/articles/ibd-lymfooma.html" class="article-index-card">
             <h3>IBD vai lymfooma? — eläinlääketieteen vaikein erotusdiagnoosi</h3>
             <p>Tulehduksellinen suolistosairaus (IBD) ja matala-asteinen suoliston lymfooma ovat eläinlääketieteen vaikeimpia erotusdiagnooseja — erityisesti kiss...</p>
           </a>
@@ -246,11 +238,11 @@
 
         <h2>Päivystys</h2>
         <div class="article-index-grid">
-          <a href="../articles/kyynpurema.html" class="article-index-card">
+          <a href="/articles/kyynpurema.html" class="article-index-card">
             <h3>Kyynpurema — Suomen ainoan myrkyllisen käärmeen purema lemmikille</h3>
             <p>Kyykäärme (Vipera berus) on Suomen ainoa myrkyllinen käärme. Kyynpuremat ovat yleisimpiä touko–syyskuussa, erityisesti keväällä, kun käärmeet ovat ...</p>
           </a>
-          <a href="../articles/kohtutulehdus.html" class="article-index-card">
+          <a href="/articles/kohtutulehdus.html" class="article-index-card">
             <h3>Kohtutulehdus (pyometra) — hengenvaarallinen sairaus, joka vaatii pikaista hoitoa</h3>
             <p>Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista sterilo...</p>
           </a>
@@ -258,7 +250,7 @@
 
         <h2>Wildlife</h2>
         <div class="article-index-grid">
-          <a href="../articles/siili.html" class="article-index-card">
+          <a href="/articles/siili.html" class="article-index-card">
             <h3>Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä, joka tarvitsee apuamme</h3>
             <p>Euroopan siili (Erinaceus europaeus) on yksi rakastetuimmista villieläimistämme — ja yksi nopeimmin katoavista lajeista. Lokakuussa 2024 IUCN nosti...</p>
           </a>
@@ -266,17 +258,17 @@
 
         <h2>Klinikka</h2>
         <div class="article-index-grid">
-          <a href="../articles/yksityinen-klinikka.html" class="article-index-card">
+          <a href="/articles/yksityinen-klinikka.html" class="article-index-card">
             <h3>Miksi yksityinen eläinklinikka on tärkeä valinta?</h3>
             <p>Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä...</p>
           </a>
-          <a href="../articles/klinikkaeläinhoitaja.html" class="article-index-card">
+          <a href="/articles/klinikkaeläinhoitaja.html" class="article-index-card">
             <h3>Klinikkaeläinhoitaja — potilasturvallisuuden kulmakivi</h3>
             <p>Eläinlääkäri ei voi samanaikaisesti leikata ja valvoa potilaan elintoimintoja. Koulutettu klinikkaeläinhoitaja on se henkilö, joka seuraa monitorej...</p>
           </a>
         </div>
 
-      <a href="../" class="btn btn-secondary articles-back">← Takaisin etusivulle</a>
+      <a href="/" class="btn btn-secondary articles-back">← Takaisin etusivulle</a>
     </div>
   </section>
   </main>
@@ -289,12 +281,12 @@
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
-          <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
-          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/#about">Klinikka</a>
+          <a href="/#services">Palvelut</a>
+          <a href="/#team">Henkilökunta</a>
+          <a href="/#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
-          <a href="../#wildlife">Wildlife</a>
+          <a href="/#wildlife">Wildlife</a>
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
@@ -325,6 +317,6 @@
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
