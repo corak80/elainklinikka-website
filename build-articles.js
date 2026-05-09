@@ -4183,8 +4183,9 @@ function escapeHtml(str) {
 }
 
 function getArticlesUrl(lang) {
-  if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
-  if (lang === 'en') return `${BASE_URL}/en/articles/`;
+  // SV/EN article indexes don't exist yet — every nav previously pointed to /sv/artiklar/ and
+  // /en/articles/ which 404'd. Fall back to FI hub until trilingual indexes are built. Each
+  // article still has its own SV/EN URL via slugMap; only the index hub is FI-only.
   return `${BASE_URL}/artikkelit/`;
 }
 

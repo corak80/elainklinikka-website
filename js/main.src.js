@@ -2425,7 +2425,20 @@ const serviceIcons = {
 };
 
 // --- Language System ---
-let currentLang = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('preferredLanguage') || 'fi';
+// Lang is determined by URL path / <html lang>, NOT localStorage. Each lang has its own URL,
+// so visiting /sv/ should always render SV regardless of a stale localStorage value from /en/.
+// Order: explicit ?lang= override > URL path prefix > <html lang> > localStorage > 'fi'.
+function detectLangFromPath() {
+  const p = window.location.pathname;
+  if (p === '/sv' || p.startsWith('/sv/')) return 'sv';
+  if (p === '/en' || p.startsWith('/en/')) return 'en';
+  return 'fi';
+}
+let currentLang = new URLSearchParams(window.location.search).get('lang')
+  || detectLangFromPath()
+  || (document.documentElement.lang || '').toLowerCase().slice(0, 2)
+  || localStorage.getItem('preferredLanguage')
+  || 'fi';
 
 function setLanguage(lang) {
   currentLang = lang;
