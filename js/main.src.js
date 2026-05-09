@@ -2673,7 +2673,7 @@ function initScrollAnimations() {
 function showMainPage() {
   const articlesSection = document.getElementById('articles');
   const privacySection = document.getElementById('privacy');
-  const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero');
+  const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
   articlesSection.style.display = 'none';
   privacySection.style.display = 'none';
   mainSections.forEach(el => el.style.display = '');
@@ -2682,7 +2682,7 @@ function showMainPage() {
 function toggleArticles() {
   const articlesSection = document.getElementById('articles');
   const privacySection = document.getElementById('privacy');
-  const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero');
+  const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
   const isShowing = articlesSection.style.display !== 'none';
 
   if (isShowing) {
@@ -2792,25 +2792,6 @@ function initArticleFilters() {
   });
 }
 
-function togglePrivacy() {
-  const privacySection = document.getElementById('privacy');
-  const articlesSection = document.getElementById('articles');
-  const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero');
-  const isShowing = privacySection.style.display !== 'none';
-
-  if (isShowing) {
-    privacySection.style.display = 'none';
-    mainSections.forEach(el => el.style.display = '');
-    history.pushState({ page: 'main' }, '', window.location.pathname);
-  } else {
-    mainSections.forEach(el => el.style.display = 'none');
-    articlesSection.style.display = 'none';
-    privacySection.style.display = '';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setLanguage(currentLang);
-    history.pushState({ page: 'privacy' }, '', window.location.pathname + '#privacy');
-  }
-}
 
 // --- Vet Profiles ---
 const vetProfiles = {
@@ -3188,7 +3169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (state && state.page === 'articles') {
       const articlesSection = document.getElementById('articles');
       const privacySection = document.getElementById('privacy');
-      const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero');
+      const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
       mainSections.forEach(el => el.style.display = 'none');
       privacySection.style.display = 'none';
       articlesSection.style.display = '';
@@ -3198,7 +3179,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (state && state.page === 'privacy') {
       const articlesSection = document.getElementById('articles');
       const privacySection = document.getElementById('privacy');
-      const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero');
+      const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
       mainSections.forEach(el => el.style.display = 'none');
       articlesSection.style.display = 'none';
       privacySection.style.display = '';
@@ -3214,8 +3195,6 @@ document.addEventListener('DOMContentLoaded', () => {
   history.replaceState({ page: 'main' }, '', window.location.pathname + window.location.hash);
   if (window.location.hash === '#articles') {
     toggleArticles();
-  } else if (window.location.hash === '#privacy') {
-    togglePrivacy();
   }
 
   // Initialize all features

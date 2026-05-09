@@ -296,7 +296,7 @@
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.getElementById('privacy').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
+      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
@@ -1535,60 +1535,6 @@
       </article>
 
       <a href="#" class="btn btn-secondary articles-back" onclick="toggleArticles(); return false;" data-i18n="articles.back">← Tillbaka till startsidan</a>
-    </div>
-  </section>
-
-  <!-- ===== Privacy Policy ===== -->
-  <section id="privacy" class="section articles-section" style="display:none;">
-    <div class="container">
-      <article class="article-card">
-        <h3 data-i18n="privacy.title">Integritetspolicy</h3>
-        <div class="article-content">
-          <h2 data-i18n="privacy.controller.title">Personuppgiftsansvarig</h2>
-          <p>Eläinklinikka Saari Oy<br>Y-tunnus: 0708667-9<br>Gerbyntie 18, 65230 Vaasa</p>
-
-          <h2 data-i18n="privacy.contact.title">Kontaktperson för registerfrågor</h2>
-          <p>Pamela Kvarngård<br>Puh: 06-3217300<br>info@saarivet.fi</p>
-
-          <h2 data-i18n="privacy.name.title">Registrets namn</h2>
-          <p data-i18n="privacy.name.text">Eläinklinikka Saari Oy:s kundregister</p>
-
-          <h2 data-i18n="privacy.purpose.title">Syfte med behandling av personuppgifter</h2>
-          <p data-i18n="privacy.purpose.text">Personuppgifter används för kommunikation, kundservice och upprätthållande av patientrelationer.</p>
-
-          <h2 data-i18n="privacy.basis.title">Rättslig grund för behandling</h2>
-          <p data-i18n="privacy.basis.text">Behandlingen av personuppgifter grundar sig på avtalsförhållande (tillhandahållande av veterinärtjänster) samt lagstadgade skyldigheter (lagen om veterinärvård, bokföringslagen). Vid delbetalning grundar sig behandlingen på berättigat intresse.</p>
-
-          <h2 data-i18n="privacy.data.title">Registrets datafält</h2>
-          <p data-i18n="privacy.data.text">Patientuppgifter och ägarens namn, telefonnummer, adress och e-postadress. Kundens personnummer registreras endast vid delbetalning. Patientens vårdhistorik: åtgärder, kundkommunikation och behandlingsplaner. Försäkringsnummer vid behov.</p>
-
-          <h2 data-i18n="privacy.sources.title">Datakällor</h2>
-          <p data-i18n="privacy.sources.text">Uppgifterna erhålls främst från kunderna. Patientjournaler kan innehålla information från andra kliniker om kunden har fått vård på annat håll eller överfört sin kundrelation.</p>
-
-          <h2 data-i18n="privacy.sharing.title">Utlämnande av uppgifter</h2>
-          <p data-i18n="privacy.sharing.text">Uppgifter lämnas ut enbart till specialister (veterinärer) vid konsultationsfall (namn, adress, patientuppgifter, fynd). I övrigt lämnas uppgifter inte ut till tredje part såvida kunden inte begär det.</p>
-
-          <h2 data-i18n="privacy.security.title">Dataskydd</h2>
-          <p data-i18n="privacy.security.text">Registret lagras i ett lösenordsskyddat kundhanteringssystem som är tillgängligt för Eläinklinikka Saari Oy:s behöriga personalmedlemmar.</p>
-
-          <h2 data-i18n="privacy.retention.title">Lagringstid för uppgifter</h2>
-          <p data-i18n="privacy.retention.text">Patientjournaler bevaras i minst 3 år från senaste besöket enligt veterinärlagstiftningen. Bokföringsmaterial bevaras i 6 år efter räkenskapsperiodens slut. Övriga personuppgifter raderas när kundrelationen upphör och det inte finns lagstadgad grund för lagring.</p>
-
-          <h2 data-i18n="privacy.rights.title">Den registrerades rättigheter</h2>
-          <p data-i18n="privacy.rights.text">Kunden har rätt att granska sina personuppgifter samt begära rättelse eller radering av felaktiga, onödiga, ofullständiga eller föråldrade uppgifter.</p>
-
-          <h2 data-i18n="privacy.rights.full.title">Detaljerade rättigheter (EU:s allmänna dataskyddsförordning)</h2>
-          <p data-i18n="privacy.rights.full.text">Den registrerade har rätt att: (1) få tillgång till sina uppgifter, (2) kräva rättelse av uppgifter, (3) kräva radering av uppgifter om det inte finns lagstadgad grund för lagring, (4) begränsa behandlingen av uppgifter, (5) överföra uppgifter till en annan personuppgiftsansvarig (dataportabilitet), (6) invända mot behandling av uppgifter. Förfrågningar ska riktas till kontaktpersonen för registerfrågor. Den registrerade har också rätt att lämna in klagomål till tillsynsmyndigheten: Dataombudsmannens byrå, tietosuoja.fi.</p>
-
-          <h2 data-i18n="privacy.digital.title">Digitala tjänster</h2>
-          <p data-i18n="privacy.digital.text">Webbplatsen använder Google Analytics för att analysera besökstrafiken. Analyticscookies aktiveras endast med användarens samtycke. Tidsbokning sker via ProvetCloud-systemet, vars dataskydd ansvaras av Finnish Net Solutions Oy. I WhatsApp-meddelandetjänsten behandlas meddelanden av en AI-baserad chatbot som stöd för kundservicen.</p>
-
-          <h2 data-i18n="privacy.credit.title">Kreditbeslut</h2>
-          <p data-i18n="privacy.credit.text">Lindorff Invest Oy fungerar som personuppgiftsansvarig vid behandling av betalningsansökningar. Personuppgifter är nödvändiga för ansökningsbehandling, kreditbeslut och kundrelationshantering. Automatiserade kreditbeslut kan bestridas; kunden kan begära manuell granskning genom att kontakta Lindorffs kundtjänst, tfn 02 2700 327. Mer information: lindorff.fi/tietosuoja.</p>
-        </div>
-      </article>
-
-      <a href="#" class="btn btn-secondary articles-back" onclick="togglePrivacy(); return false;" data-i18n="privacy.back">← Tillbaka till startsidan</a>
     </div>
   </section>
 

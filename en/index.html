@@ -296,7 +296,7 @@
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.getElementById('privacy').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
+      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
@@ -1535,60 +1535,6 @@
       </article>
 
       <a href="#" class="btn btn-secondary articles-back" onclick="toggleArticles(); return false;" data-i18n="articles.back">← Back to homepage</a>
-    </div>
-  </section>
-
-  <!-- ===== Privacy Policy ===== -->
-  <section id="privacy" class="section articles-section" style="display:none;">
-    <div class="container">
-      <article class="article-card">
-        <h3 data-i18n="privacy.title">Privacy Policy</h3>
-        <div class="article-content">
-          <h2 data-i18n="privacy.controller.title">Data Controller</h2>
-          <p>Eläinklinikka Saari Oy<br>Y-tunnus: 0708667-9<br>Gerbyntie 18, 65230 Vaasa</p>
-
-          <h2 data-i18n="privacy.contact.title">Contact Person for Registry Matters</h2>
-          <p>Pamela Kvarngård<br>Puh: 06-3217300<br>info@saarivet.fi</p>
-
-          <h2 data-i18n="privacy.name.title">Registry Name</h2>
-          <p data-i18n="privacy.name.text">Eläinklinikka Saari Oy Customer Registry</p>
-
-          <h2 data-i18n="privacy.purpose.title">Purpose of Personal Data Processing</h2>
-          <p data-i18n="privacy.purpose.text">Personal data is used for communication, customer service and maintaining patient relationships.</p>
-
-          <h2 data-i18n="privacy.basis.title">Legal Basis for Processing</h2>
-          <p data-i18n="privacy.basis.text">Processing of personal data is based on contractual relationship (provision of veterinary services) and legal obligations (Veterinary Care Act, Accounting Act). For installment payments, processing is based on legitimate interest.</p>
-
-          <h2 data-i18n="privacy.data.title">Registry Data Fields</h2>
-          <p data-i18n="privacy.data.text">Patient information and owner's name, phone number, address and email. Customer's social security number only if using installment payment. Patient treatment history: procedures, customer communications and treatment plans. Insurance number when applicable.</p>
-
-          <h2 data-i18n="privacy.sources.title">Data Sources</h2>
-          <p data-i18n="privacy.sources.text">Information comes primarily from customers. Patient records may include information from other clinics if the customer received treatment elsewhere or transferred their account.</p>
-
-          <h2 data-i18n="privacy.sharing.title">Data Sharing</h2>
-          <p data-i18n="privacy.sharing.text">Information is shared only with specialists (veterinarians) in consultation cases (name, address, patient data, findings). Otherwise, data is not disclosed to third parties unless the customer specifically requests it.</p>
-
-          <h2 data-i18n="privacy.security.title">Data Security</h2>
-          <p data-i18n="privacy.security.text">The registry is stored in a password-protected customer management system accessible to authorized staff members of Eläinklinikka Saari Oy.</p>
-
-          <h2 data-i18n="privacy.retention.title">Data Retention Period</h2>
-          <p data-i18n="privacy.retention.text">Patient records are retained for at least 3 years from the last visit as required by veterinary legislation. Accounting records are retained for 6 years after the end of the financial year. Other personal data is deleted when the customer relationship ends and there is no legal basis for retention.</p>
-
-          <h2 data-i18n="privacy.rights.title">Individual Rights</h2>
-          <p data-i18n="privacy.rights.text">Customers have the right to inspect their personal data and request correction or deletion of inaccurate, unnecessary, incomplete or outdated information.</p>
-
-          <h2 data-i18n="privacy.rights.full.title">Detailed Rights (EU General Data Protection Regulation)</h2>
-          <p data-i18n="privacy.rights.full.text">The data subject has the right to: (1) access their data, (2) request rectification, (3) request erasure unless there is a legal basis for retention, (4) restrict processing, (5) data portability, (6) object to processing. Requests should be addressed to the contact person for registry matters. The data subject also has the right to lodge a complaint with the supervisory authority: Office of the Data Protection Ombudsman, tietosuoja.fi.</p>
-
-          <h2 data-i18n="privacy.digital.title">Digital Services</h2>
-          <p data-i18n="privacy.digital.text">The website uses Google Analytics to analyze visitor traffic. Analytics cookies are only enabled with user consent. Appointments are booked through the ProvetCloud system, whose data protection is managed by Finnish Net Solutions Oy. In the WhatsApp messaging service, messages are processed by an AI-powered chatbot to support customer service.</p>
-
-          <h2 data-i18n="privacy.credit.title">Credit Processing</h2>
-          <p data-i18n="privacy.credit.text">Lindorff Invest Oy acts as data controller for payment application processing. Personal data is necessary for application handling, credit decisions and customer relationship management. Automated credit decisions can be contested; customers may request manual review by contacting Lindorff customer service at 02 2700 327. More information: lindorff.fi/tietosuoja.</p>
-        </div>
-      </article>
-
-      <a href="#" class="btn btn-secondary articles-back" onclick="togglePrivacy(); return false;" data-i18n="privacy.back">← Back to homepage</a>
     </div>
   </section>
 

@@ -296,7 +296,7 @@
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.getElementById('privacy').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles):not(#privacy), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
+      <a href="#" class="logo" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
@@ -1535,60 +1535,6 @@
       </article>
 
       <a href="#" class="btn btn-secondary articles-back" onclick="toggleArticles(); return false;" data-i18n="articles.back">← Takaisin etusivulle</a>
-    </div>
-  </section>
-
-  <!-- ===== Privacy Policy ===== -->
-  <section id="privacy" class="section articles-section" style="display:none;">
-    <div class="container">
-      <article class="article-card">
-        <h3 data-i18n="privacy.title">Tietosuojaseloste</h3>
-        <div class="article-content">
-          <h2 data-i18n="privacy.controller.title">Rekisterinpitäjä</h2>
-          <p>Eläinklinikka Saari Oy<br>Y-tunnus: 0708667-9<br>Gerbyntie 18, 65230 Vaasa</p>
-
-          <h2 data-i18n="privacy.contact.title">Rekisteriasioiden yhteyshenkilö</h2>
-          <p>Pamela Kvarngård<br>Puh: 06-3217300<br>info@saarivet.fi</p>
-
-          <h2 data-i18n="privacy.name.title">Rekisterin nimi</h2>
-          <p data-i18n="privacy.name.text">Eläinklinikka Saari Oy:n asiakasrekisteri</p>
-
-          <h2 data-i18n="privacy.purpose.title">Henkilötietojen käyttötarkoitus</h2>
-          <p data-i18n="privacy.purpose.text">Henkilötietoja käytetään viestintään, asiakaspalveluun ja potilassuhteen ylläpitoon.</p>
-
-          <h2 data-i18n="privacy.basis.title">Käsittelyn oikeusperuste</h2>
-          <p data-i18n="privacy.basis.text">Henkilötietojen käsittely perustuu sopimussuhteeseen (eläinlääkäripalveluiden tarjoaminen) sekä lakisääteisiin velvoitteisiin (eläinlääkintähuoltolaki, kirjanpitolaki). Erämaksun yhteydessä käsittely perustuu oikeutettuun etuun.</p>
-
-          <h2 data-i18n="privacy.data.title">Rekisterin tietokentät</h2>
-          <p data-i18n="privacy.data.text">Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.</p>
-
-          <h2 data-i18n="privacy.sources.title">Tietolähteet</h2>
-          <p data-i18n="privacy.sources.text">Tiedot saadaan pääasiassa asiakkailta. Potilasasiakirjat voivat sisältää tietoja muista klinikoista, mikäli asiakas on saanut hoitoa muualla tai siirtänyt asiakkuutensa.</p>
-
-          <h2 data-i18n="privacy.sharing.title">Tietojen luovutus</h2>
-          <p data-i18n="privacy.sharing.text">Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille ellei asiakas sitä edellytä.</p>
-
-          <h2 data-i18n="privacy.security.title">Tietojen suojaus</h2>
-          <p data-i18n="privacy.security.text">Rekisteri on talletettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.</p>
-
-          <h2 data-i18n="privacy.retention.title">Tietojen säilytysaika</h2>
-          <p data-i18n="privacy.retention.text">Potilasasiakirjoja säilytetään vähintään 3 vuotta viimeisestä hoitokäynnistä eläinlääkintälainsäädännön mukaisesti. Kirjanpitoaineistoa säilytetään 6 vuotta tilikauden päättymisestä. Muut henkilötiedot poistetaan, kun asiakassuhde päättyy eikä säilyttämiselle ole lakisääteistä perustetta.</p>
-
-          <h2 data-i18n="privacy.rights.title">Rekisteröidyn oikeudet</h2>
-          <p data-i18n="privacy.rights.text">Asiakkaalla on oikeus tarkistaa itseään koskevat tiedot sekä pyytää virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden tietojen korjaamista tai poistamista.</p>
-
-          <h2 data-i18n="privacy.rights.full.title">Tarkemmat oikeudet (EU:n yleinen tietosuoja-asetus)</h2>
-          <p data-i18n="privacy.rights.full.text">Rekisteröidyllä on oikeus: (1) saada pääsy omiin tietoihinsa, (2) vaatia tietojen oikaisua, (3) vaatia tietojen poistamista, ellei säilyttämiselle ole lakisääteistä perustetta, (4) rajoittaa tietojen käsittelyä, (5) siirtää tiedot toiselle rekisterinpitäjälle (tietojen siirrettävyys), (6) vastustaa tietojen käsittelyä. Pyynnöt tulee osoittaa rekisteriasioiden yhteyshenkilölle. Rekisteröidyllä on myös oikeus tehdä valitus valvontaviranomaiselle: Tietosuojavaltuutetun toimisto, tietosuoja.fi.</p>
-
-          <h2 data-i18n="privacy.digital.title">Digitaaliset palvelut</h2>
-          <p data-i18n="privacy.digital.text">Verkkosivusto käyttää Google Analytics -palvelua kävijäliikenteen analysointiin. Analytiikkaevästeet otetaan käyttöön vain käyttäjän suostumuksella. Ajanvaraus tapahtuu ProvetCloud-järjestelmän kautta, jonka tietosuojasta vastaa Finnish Net Solutions Oy. WhatsApp-viestipalvelussa viestejä käsittelee tekoälypohjainen chatbot asiakaspalvelun tueksi.</p>
-
-          <h2 data-i18n="privacy.credit.title">Luottopäätöksen käsittely</h2>
-          <p data-i18n="privacy.credit.text">Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.</p>
-        </div>
-      </article>
-
-      <a href="#" class="btn btn-secondary articles-back" onclick="togglePrivacy(); return false;" data-i18n="privacy.back">← Takaisin etusivulle</a>
     </div>
   </section>
 
