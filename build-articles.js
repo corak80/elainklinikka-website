@@ -788,7 +788,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const isoDatePublished = article.publishDate || '2026-01-01';
   const isoDateModified = today;
 
-  const ogLocales = { fi: 'fi_FI', sv: 'sv_SE', en: 'en_US' };
+  const ogLocales = { fi: 'fi_FI', sv: 'sv_FI', en: 'en_GB' };
   const ogLocale = ogLocales[lang] || 'fi_FI';
   const skipTexts = { fi: 'Siirry sisältöön', sv: 'Hoppa till innehållet', en: 'Skip to content' };
   const backTexts = { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' };
@@ -3006,7 +3006,7 @@ function generateServicePage(service, translations, lang) {
   const skipText = skipTexts[lang] || skipTexts.fi;
 
   // OG locale
-  const ogLocales = { fi: 'fi_FI', sv: 'sv_SE', en: 'en_US' };
+  const ogLocales = { fi: 'fi_FI', sv: 'sv_FI', en: 'en_GB' };
   const ogLocale = ogLocales[lang] || 'fi_FI';
 
   // URLs for all language versions
