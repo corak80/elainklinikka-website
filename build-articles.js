@@ -1203,29 +1203,45 @@ function generateArticleIndex(translations, lang) {
   const indexPath = lang === 'sv' ? '/sv/artiklar/' : lang === 'en' ? '/en/articles/' : '/artikkelit/';
   const homeUrl = lang === 'fi' ? '/' : (lang === 'sv' ? '/sv/' : '/en/');
 
-  const categoryOrder = ['dental', 'surgery', 'cardiology', 'endoscopy', 'health', 'emergency', 'wildlife', 'clinic'];
-  const grouped = {};
-  for (const article of articles) {
-    const cat = article.category || 'health';
-    if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push(article);
+  // Filter buttons match the homepage's #articles section. Order/keys mirror index.html nav.
+  const filterCats = [
+    { key: 'all', label: 'articles.filter.all' },
+    { key: 'health', label: 'articles.filter.health' },
+    { key: 'surgery', label: 'articles.filter.surgery' },
+    { key: 'dental', label: 'articles.filter.dental' },
+    { key: 'emergency', label: 'articles.filter.emergency' },
+    { key: 'clinic', label: 'articles.filter.clinic' },
+    { key: 'cardiology', label: 'articles.filter.cardiology' },
+    { key: 'endoscopy', label: 'articles.filter.endoscopy' },
+    { key: 'wildlife', label: 'articles.filter.wildlife' },
+  ];
+  let filtersHtml = '      <div class="article-search">\n        <label for="article-search-input" class="sr-only">' + escapeHtml(t('articles.search.placeholder') || 'Search') + '</label>\n        <input type="text" id="article-search-input" placeholder="' + escapeAttr(t('articles.search.placeholder')) + '" autocomplete="off">\n      </div>\n\n      <div class="article-filters">\n';
+  for (const f of filterCats) {
+    const active = f.key === 'all' ? ' active' : '';
+    filtersHtml += `        <button class="filter-btn${active}" data-filter="${f.key}">${escapeHtml(t(f.label))}</button>\n`;
   }
+  filtersHtml += '      </div>\n';
 
+  // Cards in flat order (sorted by publishDate desc — newest first, matches typical SEO best practice).
+  const sorted = [...articles].sort((a, b) => (b.publishDate || '').localeCompare(a.publishDate || ''));
   let cardsHtml = '';
-  for (const cat of categoryOrder) {
-    if (!grouped[cat]) continue;
-    cardsHtml += `\n        <h2>${escapeHtml(i18n.categories[cat] || cat)}</h2>\n        <div class="article-index-grid">\n`;
-    for (const article of grouped[cat]) {
-      const title = t(article.titleKey);
-      const intro = t(`${article.prefix}.intro`);
-      const shortIntro = intro.length > 150 ? intro.substring(0, 147) + '...' : intro;
-      const slug = articleSlug(article, lang);
-      cardsHtml += `          <a href="${articleBase}${slug}.html" class="article-index-card">
-            <h3>${escapeHtml(title)}</h3>
-            <p>${escapeHtml(shortIntro)}</p>
-          </a>\n`;
-    }
-    cardsHtml += `        </div>\n`;
+  for (const article of sorted) {
+    const title = t(article.titleKey);
+    const intro = t(`${article.prefix}.intro`);
+    const tag = t(article.tagKey);
+    const slug = articleSlug(article, lang);
+    const cat = article.category || 'health';
+    const year = article.date || '2026';
+    cardsHtml += `      <article class="article-card" data-category="${cat}">
+        <div class="article-header">
+          <span class="article-tag">${escapeHtml(tag)}</span>
+          <time>${escapeHtml(year)}</time>
+        </div>
+        <h3><a href="${articleBase}${slug}.html">${escapeHtml(title)}</a></h3>
+        <div class="article-content">
+          <p>${escapeHtml(intro)}</p>
+        </div>
+      </article>\n`;
   }
 
   const fiUrl = `${BASE_URL}/artikkelit/`;
@@ -1337,12 +1353,14 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUr
   </header>
 
   <main id="main-content">
-  <section class="section articles-section">
+  <section id="articles" class="section articles-section">
     <div class="container">
       <div class="section-header">
         <h1>${escapeHtml(i18n.h1)}</h1>
         <p>${escapeHtml(i18n.subtitle)}</p>
       </div>
+
+${filtersHtml}
 ${cardsHtml}
       <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.back)}</a>
     </div>

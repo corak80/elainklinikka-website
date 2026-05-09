@@ -190,13 +190,17 @@ function rewriteArticleUrls(html, lang) {
   if (lang === 'fi') return html;
   const baseMap = { sv: '/sv/artiklar/', en: '/en/articles/' };
   const base = baseMap[lang];
-  return html.replace(
+  // Rewrite individual article links: /articles/<slug>.html → /sv/artiklar/<slug>.html (or EN equivalent).
+  html = html.replace(
     /href="\/articles\/([^"]+)\.html"/g,
     (m, fiSlug) => {
       const localized = (ARTICLE_SLUG_MAP[fiSlug] && ARTICLE_SLUG_MAP[fiSlug][lang]) || fiSlug;
       return `href="${base}${localized}.html"`;
     }
   );
+  // Rewrite the article-index hub link: /artikkelit/ → /sv/artiklar/ or /en/articles/.
+  html = html.replace(/href="\/artikkelit\/"/g, `href="${base}"`);
+  return html;
 }
 
 function rewriteLangToggle(html, lang) {

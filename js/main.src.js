@@ -2680,6 +2680,9 @@ function showMainPage() {
 function toggleArticles() {
   const articlesSection = document.getElementById('articles');
   if (!articlesSection) return;
+  // On the standalone /artikkelit/ index page, the articles section IS the page (no hero/other sections).
+  // Toggling it would hide the whole page — bail.
+  if (!document.querySelector('#main-content > .hero')) return;
   const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
   const isShowing = articlesSection.style.display !== 'none';
 

@@ -129,144 +129,280 @@
   </header>
 
   <main id="main-content">
-  <section class="section articles-section">
+  <section id="articles" class="section articles-section">
     <div class="container">
       <div class="section-header">
         <h1>Artiklar</h1>
         <p>Veterinärmedicinska artiklar från proffsen</p>
       </div>
 
-        <h2>Tandvård</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/tandborstning.html" class="article-index-card">
-            <h3>Tandborstning — det bästa du kan göra för ditt husdjurs tänder</h3>
-            <p>80 % av hundarna och 70 % av katterna lider av någon grad av tandsjukdom redan vid tre års ålder. Tandsjukdomar orsakar kronisk smärta, infektioner...</p>
-          </a>
-          <a href="/sv/artiklar/periovive.html" class="article-index-card">
-            <h3>PerioVive — hyaluronsyragel för behandling av parodontal sjukdom</h3>
-            <p>Parodontal sjukdom (tandköttsinflammation) är den vanligaste sjukdomen hos hundar och katter — upp till 80 % av hundar över tre år lider av någon g...</p>
-          </a>
-          <a href="/sv/artiklar/icke-framvaxta-tander.html" class="article-index-card">
-            <h3>Icke-erupterade tänder och dentigena cystor — en dold fara i käkbenet</h3>
-            <p>En icke-erupterad tand är en tand som inte har kommit upp normalt i munhålan utan stannat kvar inuti käkbenet. Tillståndet är förvånansvärt vanligt...</p>
-          </a>
-          <a href="/sv/artiklar/tandresorption.html" class="article-index-card">
-            <h3>Tandresorption — en dold och smärtsam tandsjukdom</h3>
-            <p>Tandresorption är en sjukdom där specialiserade celler (odontoklaster) bryter ner tandens hårda vävnader — emalj, dentin och tandcement. Sjukdomen ...</p>
-          </a>
-        </div>
+      <div class="article-search">
+        <label for="article-search-input" class="sr-only">Sök i artiklar...</label>
+        <input type="text" id="article-search-input" placeholder="Sök i artiklar..." autocomplete="off">
+      </div>
 
-        <h2>Kirurgi och anestesi</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/tta-operation.html" class="article-index-card">
-            <h3>TTA-kirurgi hos hundar – korsbandsskadereparation med tibial tuberosity advancement-metoden</h3>
-            <p>Främre korsbandsskada (cranial cruciate ligament, CCL) är ett av de vanligaste ortopediska problemen hos hundar. Det skadade korsbandet orsakar ins...</p>
-          </a>
-          <a href="/sv/artiklar/smartlindringsinfusion.html" class="article-index-card">
-            <h3>Kontinuerlig smärtinfusion (CRI) — jämn smärtlindring under kirurgi</h3>
-            <p>Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På vår klinik använder vi kontinuerlig intravenös smärtinfusion (CRI) som standard...</p>
-          </a>
-          <a href="/sv/artiklar/lateral-suture.html" class="article-index-card">
-            <h3>Lateral sutur — korsbandsskadereparation med syntetiskt stödmaterial</h3>
-            <p>Främre korsbandsskada (cranial cruciate ligament, CCL) är det vanligaste ortopediska problemet hos hundar och förekommer även hos katter. Lateral s...</p>
-          </a>
-          <a href="/sv/artiklar/hypotermi.html" class="article-index-card">
-            <h3>Förebyggande av hypotermi — varför aktiv uppvärmning räddar liv</h3>
-            <p>Hypotermi är den vanligaste anestesikomplikationen: över 80 % av hundarna och nästan alla katter blir nedkylda under anestesi. Anestesimedel förlam...</p>
-          </a>
-          <a href="/sv/artiklar/anestesisakerhet.html" class="article-index-card">
-            <h3>Anestesisäkerhet — statistik, risker och hur vi minimerar dem</h3>
-            <p>Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare fruktar narkos — förståeligt. Den faktiska risken...</p>
-          </a>
-        </div>
+      <div class="article-filters">
+        <button class="filter-btn active" data-filter="all">Alla</button>
+        <button class="filter-btn" data-filter="health">Hälsa</button>
+        <button class="filter-btn" data-filter="surgery">Kirurgi</button>
+        <button class="filter-btn" data-filter="dental">Tandvård</button>
+        <button class="filter-btn" data-filter="emergency">Akutvård</button>
+        <button class="filter-btn" data-filter="clinic">Klinik</button>
+        <button class="filter-btn" data-filter="cardiology">Kardiologi</button>
+        <button class="filter-btn" data-filter="endoscopy">Endoskopi</button>
+        <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+      </div>
 
-        <h2>Kardiologi</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/oppen-ductus-arteriosus-pda.html" class="article-index-card">
-            <h3>Öppen ductus arteriosus (PDA) hos hundar — ett medfött hjärtfel som kan botas</h3>
-            <p>Öppen ductus arteriosus, eller PDA, är ett av de vanligaste medfödda hjärtfelen hos hundar. Det handlar om ett blodkärl som förbinder aorta och lun...</p>
-          </a>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Klinik</span>
+          <time>2026</time>
         </div>
-
-        <h2>Endoskopi</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/video-otoskopi.html" class="article-index-card">
-            <h3>Video-otoskopi – öronendoskopi hos hundar och katter</h3>
-            <p>Öroninflammationer är en av de vanligaste orsakerna till veterinärbesök. Med ett vanligt otoskop begränsas sikten till hörselgångens yttre delar, m...</p>
-          </a>
-          <a href="/sv/artiklar/gastroskopi.html" class="article-index-card">
-            <h3>Gastroskopi — magsäcksundersökning och avlägsnande av främmande föremål utan kirurgi</h3>
-            <p>Gastroskopi är en endoskopisk undersökning där ett flexibelt kameraendoskop förs genom munnen till matstrupen, magsäcken och tolvfingertarmen. Unde...</p>
-          </a>
+        <h3><a href="/sv/artiklar/klinikdjurskotare.html">Klinikdjurskötare — hörnstenen i patientsäkerhet</a></h3>
+        <div class="article-content">
+          <p>En veterinär kan inte samtidigt operera och övervaka patientens vitalfunktioner. En utbildad klinikdjurskötare är den person som övervakar monitorerna, reagerar på förändringar och tar hand om patienten före, under och efter operationen. Forskning visar att en utbildad skötares närvaro under anestesi är den enskilt viktigaste påverkbara faktorn för att minska dödligheten.</p>
         </div>
-
-        <h2>Hälsa och sjukdomar</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/diarre.html" class="article-index-card">
-            <h3>Diarré hos hundar och katter — orsaker, hembehandling och när du ska kontakta kliniken</h3>
-            <p>Diarré är en av de vanligaste orsakerna till veterinärbesök. Nästan varje hund och katt drabbas av diarré någon gång i livet. Oftast handlar det om...</p>
-          </a>
-          <a href="/sv/artiklar/spannmalsfri-mat.html" class="article-index-card">
-            <h3>Spannmålsfri mat för hundar och katter — är det nödvändigt eller skadligt?</h3>
-            <p>Spannmålsfri djurmat har varit en enorm trend de senaste åren. Marknadsföringen lovar en &quot;mer naturlig&quot; kost, men 2018 inledde amerikanska livsmede...</p>
-          </a>
-          <a href="/sv/artiklar/foderallergier.html" class="article-index-card">
-            <h3>Födoämnesallergi hos hundar och katter — symtom, diagnos och eliminationsdiet</h3>
-            <p>Födoämnesallergi är en av de vanligaste orsakerna till klåda hos hundar och katter. Enligt studier lider 9–40 % av kliande hundar och 12–21 % av kl...</p>
-          </a>
-          <a href="/sv/artiklar/hypertyreos-katt.html" class="article-index-card">
-            <h3>Sköldkörtelöverfunktion hos katter — symtom, diagnos och behandling</h3>
-            <p>Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos åldrande katter. Den diagnostiseras hos cirka 10 % av katter över 10 år...</p>
-          </a>
-          <a href="/sv/artiklar/njursvikt.html" class="article-index-card">
-            <h3>Njursvikt hos hundar och katter — känn igen symtomen i tid</h3>
-            <p>Kronisk njursjukdom (CKD) är en av de vanligaste sjukdomarna hos åldrande katter och hundar. Upp till 30–40 % av katter över 10 år lider av någon g...</p>
-          </a>
-          <a href="/sv/artiklar/kattvanlig-klinik.html" class="article-index-card">
-            <h3>Stressfritt veterinärbesök för katten — så hjälper vi och så kan du förbereda dig</h3>
-            <p>Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, närvaro av hundar och hantering av främlingar k...</p>
-          </a>
-          <a href="/sv/artiklar/vaccinationsguide.html" class="article-index-card">
-            <h3>Vaccinationer i Finland — vaccinationsprogram för hundar och katter</h3>
-            <p>Vaccinationer är det mest effektiva sättet att skydda husdjur mot smittsamma sjukdomar. I Finland ger Livsmedelsverket (Ruokavirasto) vaccinationsr...</p>
-          </a>
-          <a href="/sv/artiklar/ibd-lymfom.html" class="article-index-card">
-            <h3>IBD eller lymfom? — veterinärmedicinens svåraste differentialdiagnos</h3>
-            <p>Inflammatorisk tarmsjukdom (IBD) och låggradig intestinal lymfom är bland de svåraste differentialdiagnoserna inom veterinärmedicin — särskilt hos ...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesi</span>
+          <time>2026</time>
         </div>
-
-        <h2>Akutvård</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/huggormsbett.html" class="article-index-card">
-            <h3>Huggormsbett — bett av Finlands enda giftiga orm</h3>
-            <p>Huggormen (Vipera berus) är Finlands enda giftiga orm. Huggormsbett är vanligast från maj till september, särskilt på våren när ormarna just vaknat...</p>
-          </a>
-          <a href="/sv/artiklar/livmoderinflammation.html" class="article-index-card">
-            <h3>Livmoderinflammation (pyometra) — livshotande sjukdom som kräver snabb behandling</h3>
-            <p>Pyometra, det vill säga livmoderinflammation, är en allvarlig, livshotande infektion där livmodern fylls med var. Det är en av de vanligaste akutsi...</p>
-          </a>
+        <h3><a href="/sv/artiklar/hypotermi.html">Förebyggande av hypotermi — varför aktiv uppvärmning räddar liv</a></h3>
+        <div class="article-content">
+          <p>Hypotermi är den vanligaste anestesikomplikationen: över 80 % av hundarna och nästan alla katter blir nedkylda under anestesi. Anestesimedel förlamar temperaturregleringen, blodkärlen vidgas och små patienter förlorar värme snabbt. Konsekvenserna är allvarliga — långsammare läkemedelsmetabolism, förlängd återhämtning, koagulationsstörningar, hjärtarytmier och till och med trefaldig infektionsrisk.</p>
         </div>
-
-        <h2>Wildlife</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/igelkott.html" class="article-index-card">
-            <h3>Igelkotten i Europa och Finland — en hotad trädgårdsvän som behöver vår hjälp</h3>
-            <p>Den europeiska igelkotten (Erinaceus europaeus) är ett av våra mest älskade vilda djur — och ett av de snabbast minskande. I oktober 2024 uppgrader...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesi</span>
+          <time>2026</time>
         </div>
-
-        <h2>Kliniken</h2>
-        <div class="article-index-grid">
-          <a href="/sv/artiklar/privat-klinik.html" class="article-index-card">
-            <h3>Varför är en privat djurklinik ett viktigt val?</h3>
-            <p>Den finländska veterinärmarknaden har förändrats dramatiskt under det senaste årtiondet. Två utlandsägda kedjor — Evidensia och Vireä — kontrollera...</p>
-          </a>
-          <a href="/sv/artiklar/klinikdjurskotare.html" class="article-index-card">
-            <h3>Klinikdjurskötare — hörnstenen i patientsäkerhet</h3>
-            <p>En veterinär kan inte samtidigt operera och övervaka patientens vitalfunktioner. En utbildad klinikdjurskötare är den person som övervakar monitore...</p>
-          </a>
+        <h3><a href="/sv/artiklar/anestesisakerhet.html">Anestesisäkerhet — statistik, risker och hur vi minimerar dem</a></h3>
+        <div class="article-content">
+          <p>Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare fruktar narkos — förståeligt. Den faktiska risken är dock med modern övervakning och protokoll mycket låg. En världsomfattande studie (Redondo m.fl. 2024, 55 000 hundar) visade en anestesidödlighet på 0,17 % hos hundar och 0,24 % hos katter — hos friska patienter bara 0,05 % (1/1 849) hos hundar och 0,11 % (1/895) hos katter.</p>
         </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Hälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/vaccinationsguide.html">Vaccinationer i Finland — vaccinationsprogram för hundar och katter</a></h3>
+        <div class="article-content">
+          <p>Vaccinationer är det mest effektiva sättet att skydda husdjur mot smittsamma sjukdomar. I Finland ger Livsmedelsverket (Ruokavirasto) vaccinationsrekommendationer, men de är inte juridiskt bindande — veterinären gör alltid en individuell bedömning. Finlands vaccinationspraxis följer WSAVA:s internationella riktlinjer med hänsyn till landets låga sjukdomstryck.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Hälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/ibd-lymfom.html">IBD eller lymfom? — veterinärmedicinens svåraste differentialdiagnos</a></h3>
+        <div class="article-content">
+          <p>Inflammatorisk tarmsjukdom (IBD) och låggradig intestinal lymfom är bland de svåraste differentialdiagnoserna inom veterinärmedicin — särskilt hos katter. Båda orsakar kroniska kräkningar, diarré, viktminskning och aptitlöshet, och drabbar typiskt medelålders och äldre djur. Korrekt diagnos är avgörande, eftersom behandlingarna skiljer sig markant: IBD behandlas med immunsuppression, lymfom med kemoterapi.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Endoskopi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/gastroskopi.html">Gastroskopi — magsäcksundersökning och avlägsnande av främmande föremål utan kirurgi</a></h3>
+        <div class="article-content">
+          <p>Gastroskopi är en endoskopisk undersökning där ett flexibelt kameraendoskop förs genom munnen till matstrupen, magsäcken och tolvfingertarmen. Undersökningen möjliggör granskning av slemhinnorna i realtid på en monitor, provtagning av vävnadsprover och avlägsnande av främmande föremål — allt utan kirurgiskt snitt. Gastroskopi är en av de vanligaste endoskopiska procedurerna inom veterinärmedicin och är ett särskilt värdefullt verktyg för att utreda kroniska magsymtom och avlägsna främmande föremål.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Tandvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/tandresorption.html">Tandresorption — en dold och smärtsam tandsjukdom</a></h3>
+        <div class="article-content">
+          <p>Tandresorption är en sjukdom där specialiserade celler (odontoklaster) bryter ner tandens hårda vävnader — emalj, dentin och tandcement. Sjukdomen drabbar både katter och hundar och är mycket vanligare än många ägare tror. Hos katter är prevalensen 20–67 %, och bland katter över 5 år upp till 75 %. I en finsk studie med 8 115 katter var raskatter klart mer mottagliga (70 %) än blandraser (38 %). Hos hundar är prevalensen likaså betydande: vid fullständig tandröntgen hade upp till 54 % av hundarna tandresorption, och risken ökar särskilt vid 9–11 års ålder. Hos båda arterna är premolarerna (kindtänderna) de mest drabbade tänderna. Sjukdomen är särskilt lömsk eftersom både katter och hundar döljer munsmärta — många husdjur äter och beter sig &quot;normalt&quot; trots betydande kronisk smärta.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Katthälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/kattvanlig-klinik.html">Stressfritt veterinärbesök för katten — så hjälper vi och så kan du förbereda dig</a></h3>
+        <div class="article-content">
+          <p>Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, närvaro av hundar och hantering av främlingar kan utlösa en stark stressreaktion. Stress är inte bara obehagligt — det påverkar också undersökningsresultaten: en stressad katts blodsockervärde kan stiga med upp till 10 mmol/l (s.k. stresshyperglykemi) och blodtrycket kan höjas med 15–75 mmHg (&quot;vitrock hypertension&quot;), vilket försvårar diagnostiken. På Djurklinik Saari har vi satsat på kattens välbefinnande och erhållit den internationella ISFM-organisationens Cat Friendly Clinic Silver-certifiering.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Tandvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/icke-framvaxta-tander.html">Icke-erupterade tänder och dentigena cystor — en dold fara i käkbenet</a></h3>
+        <div class="article-content">
+          <p>En icke-erupterad tand är en tand som inte har kommit upp normalt i munhålan utan stannat kvar inuti käkbenet. Tillståndet är förvånansvärt vanligt, särskilt hos hundar — cirka 5–7 % av hundar drabbas, och hos brachycefala (trubbnosiga) raser är andelen ännu högre. Runt en icke-erupterad tand kan en dentigena cysta utvecklas — en vätskefylld struktur som växer långsamt och förstör käkbenet. Utan tandröntgen förblir tillståndet oupptäckt tills skadan redan är betydande. På vår klinik utför vi tandröntgenundersökningar och kirurgiska extraktioner av icke-erupterade tänder.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="wildlife">
+        <div class="article-header">
+          <span class="article-tag">Wildlife</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/igelkott.html">Igelkotten i Europa och Finland — en hotad trädgårdsvän som behöver vår hjälp</a></h3>
+        <div class="article-content">
+          <p>Den europeiska igelkotten (Erinaceus europaeus) är ett av våra mest älskade vilda djur — och ett av de snabbast minskande. I oktober 2024 uppgraderade IUCN igelkottens hotstatus till &quot;nära hotad&quot; (Near Threatened), eftersom populationerna har minskat med över 30 % på tio år i många europeiska länder. I Finland lever igelkotten vid den nordligaste gränsen av sitt utbredningsområde, vilket gör vår population särskilt sårbar. I denna artikel går vi igenom igelkottens situation, hoten och hur var och en kan hjälpa till.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Akutvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/livmoderinflammation.html">Livmoderinflammation (pyometra) — livshotande sjukdom som kräver snabb behandling</a></h3>
+        <div class="article-content">
+          <p>Pyometra, det vill säga livmoderinflammation, är en allvarlig, livshotande infektion där livmodern fylls med var. Det är en av de vanligaste akutsituationerna hos osteriliserade tikar — upp till 25 % av osteriliserade tikar drabbas av pyometra före 10 års ålder. Sjukdomen kräver vanligtvis akut kirurgisk behandling. Att känna igen symtomen kan rädda ditt husdjurs liv.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Ortopedi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/lateral-suture.html">Lateral sutur — korsbandsskadereparation med syntetiskt stödmaterial</a></h3>
+        <div class="article-content">
+          <p>Främre korsbandsskada (cranial cruciate ligament, CCL) är det vanligaste ortopediska problemet hos hundar och förekommer även hos katter. Lateral sutur, det vill säga extrakapsulär lateral suturering, är en effektiv och beprövad kirurgisk metod där knäleden stabiliseras med syntetiskt stödmaterial utanför leden. Metoden passar utmärkt för små hundar samt katter. På vår klinik utförs operationen av veterinär Pamela, som har bred erfarenhet av ortopediska ingrepp.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Husdjurshälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/njursvikt.html">Njursvikt hos hundar och katter — känn igen symtomen i tid</a></h3>
+        <div class="article-content">
+          <p>Kronisk njursjukdom (CKD) är en av de vanligaste sjukdomarna hos åldrande katter och hundar. Upp till 30–40 % av katter över 10 år lider av någon grad av njursvikt. Njurarna förlorar sin funktion långsamt och oåterkalleligt, men med tidig diagnos och rätt behandling kan livslängd och livskvalitet förbättras avsevärt.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Akutvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/huggormsbett.html">Huggormsbett — bett av Finlands enda giftiga orm</a></h3>
+        <div class="article-content">
+          <p>Huggormen (Vipera berus) är Finlands enda giftiga orm. Huggormsbett är vanligast från maj till september, särskilt på våren när ormarna just vaknat ur vinterdvalan och är tröga. Hundar löper störst risk på grund av sin nyfikenhet — de flesta bett drabbar nosen eller framtassarna. Ett huggormsbett är alltid ett akut fall till veterinären.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Husdjurshälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/foderallergier.html">Födoämnesallergi hos hundar och katter — symtom, diagnos och eliminationsdiet</a></h3>
+        <div class="article-content">
+          <p>Födoämnesallergi är en av de vanligaste orsakerna till klåda hos hundar och katter. Enligt studier lider 9–40 % av kliande hundar och 12–21 % av kliande katter av födoämnesallergi. Många ägare tror att spannmål är problemet, men forskning visar tydligt: de vanligaste allergenerna är animaliska proteiner — nötkött (34 %), mjölk (17 %) och kyckling (15 %). En korrekt diagnos kräver en eliminationsdiet, och vi hjälper dig med det.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Katthälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/hypertyreos-katt.html">Sköldkörtelöverfunktion hos katter — symtom, diagnos och behandling</a></h3>
+        <div class="article-content">
+          <p>Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos åldrande katter. Den diagnostiseras hos cirka 10 % av katter över 10 år. Sköldkörteln producerar för mycket sköldkörtelhormon (T4), vilket ökar ämnesomsättningen och belastar många organ — särskilt hjärtat och njurarna. Obehandlad leder sjukdomen till allvarliga komplikationer, men med rätt behandling är prognosen god.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Tandvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/periovive.html">PerioVive — hyaluronsyragel för behandling av parodontal sjukdom</a></h3>
+        <div class="article-content">
+          <p>Parodontal sjukdom (tandköttsinflammation) är den vanligaste sjukdomen hos hundar och katter — upp till 80 % av hundar över tre år lider av någon grad av tandköttssjukdom. Obehandlad leder den till förstörelse av tandens stödjevävnader, benförlust och slutligen tandförlust. PerioVive är en hyaluronsyragel utvecklad för veterinärmedicinskt bruk som ger nya möjligheter att behandla parodontal sjukdom i samband med tandbehandlingar.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Klinik</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/privat-klinik.html">Varför är en privat djurklinik ett viktigt val?</a></h3>
+        <div class="article-content">
+          <p>Den finländska veterinärmarknaden har förändrats dramatiskt under det senaste årtiondet. Två utlandsägda kedjor — Evidensia och Vireä — kontrollerar nu 50–70 % av marknaden. Djurklinik Saari är den enda privata smådjurskliniken i Vasa, och vi vill berätta varför det spelar roll.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Tandvård</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/tandborstning.html">Tandborstning — det bästa du kan göra för ditt husdjurs tänder</a></h3>
+        <div class="article-content">
+          <p>80 % av hundarna och 70 % av katterna lider av någon grad av tandsjukdom redan vid tre års ålder. Tandsjukdomar orsakar kronisk smärta, infektioner och kan till och med skada hjärtat, njurarna och levern. Daglig tandborstning är det mest effektiva sättet att förebygga dessa problem — och det är enklare än du tror.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Hälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/spannmalsfri-mat.html">Spannmålsfri mat för hundar och katter — är det nödvändigt eller skadligt?</a></h3>
+        <div class="article-content">
+          <p>Spannmålsfri djurmat har varit en enorm trend de senaste åren. Marknadsföringen lovar en &quot;mer naturlig&quot; kost, men 2018 inledde amerikanska livsmedelsverket FDA en undersökning som kopplade spannmålsfri kost till hjärtsjukdom hos hundar. I denna artikel reder vi ut vad forskningen säger — och vad veterinärer rekommenderar.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Hälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/diarre.html">Diarré hos hundar och katter — orsaker, hembehandling och när du ska kontakta kliniken</a></h3>
+        <div class="article-content">
+          <p>Diarré är en av de vanligaste orsakerna till veterinärbesök. Nästan varje hund och katt drabbas av diarré någon gång i livet. Oftast handlar det om ett lindrigt, självläkande besvär — men ibland kan diarré vara tecken på en allvarligare sjukdom. I denna artikel går vi igenom de vanligaste orsakerna, grunderna i hembehandling och situationer då du bör kontakta veterinären.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="cardiology">
+        <div class="article-header">
+          <span class="article-tag">Kardiologi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/oppen-ductus-arteriosus-pda.html">Öppen ductus arteriosus (PDA) hos hundar — ett medfött hjärtfel som kan botas</a></h3>
+        <div class="article-content">
+          <p>Öppen ductus arteriosus, eller PDA, är ett av de vanligaste medfödda hjärtfelen hos hundar. Det handlar om ett blodkärl som förbinder aorta och lungartären under fosterlivet, men som normalt stängs efter födseln. När det förblir öppet överbelastas hjärtat, och utan behandling dör 60–70 % av hundarna inom första levnadsåret av hjärtsvikt. Den goda nyheten: PDA är ett av få hjärtfel som kan botas helt om det upptäcks i tid.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Ortopedi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/tta-operation.html">TTA-kirurgi hos hundar – korsbandsskadereparation med tibial tuberosity advancement-metoden</a></h3>
+        <div class="article-content">
+          <p>Främre korsbandsskada (cranial cruciate ligament, CCL) är ett av de vanligaste ortopediska problemen hos hundar. Det skadade korsbandet orsakar instabilitet i knäleden, smärta, hälta och leder obehandlat till artros. TTA, tibial tuberosity advancement, är en modern kirurgisk metod som korrigerar knäledens biomekanik utan att ersätta korsbandet.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Endoskopi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/video-otoskopi.html">Video-otoskopi – öronendoskopi hos hundar och katter</a></h3>
+        <div class="article-content">
+          <p>Öroninflammationer är en av de vanligaste orsakerna till veterinärbesök. Med ett vanligt otoskop begränsas sikten till hörselgångens yttre delar, men video-otoskopi ger en helt ny nivå av diagnostik och behandling. Metoden innebär att ett tunt, styvt endoskop med en högupplöst kamera och starkt ljus förs in i hörselgången — bilden förstoras och framställs på en monitor i realtid.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesi</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/smartlindringsinfusion.html">Kontinuerlig smärtinfusion (CRI) — jämn smärtlindring under kirurgi</a></h3>
+        <div class="article-content">
+          <p>Smärthantering är en av de viktigaste aspekterna av djurkirurgi. På vår klinik använder vi kontinuerlig intravenös smärtinfusion (CRI) som standardmetod vid alla smärtsamma operationer — från mjukdelskirurgi till ortopediska ingrepp. CRI innebär att smärtstillande läkemedel administreras som en jämn ström intravenöst under hela operationen, istället för enskilda engångsdoser.</p>
+        </div>
+      </article>
 
       <a href="/sv/" class="btn btn-secondary articles-back">← Tillbaka till startsidan</a>
     </div>

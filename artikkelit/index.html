@@ -129,144 +129,280 @@
   </header>
 
   <main id="main-content">
-  <section class="section articles-section">
+  <section id="articles" class="section articles-section">
     <div class="container">
       <div class="section-header">
         <h1>Artikkelit</h1>
         <p>Eläinlääketieteelliset artikkelit ammattilaisilta</p>
       </div>
 
-        <h2>Hammashoito</h2>
-        <div class="article-index-grid">
-          <a href="/articles/hampaiden-harjaus.html" class="article-index-card">
-            <h3>Hampaiden harjaus — paras asia, jonka voit tehdä lemmikkisi hampaiden hyväksi</h3>
-            <p>80 % koirista ja 70 % kissoista kärsii jonkinasteisesta hammassairaudesta jo kolmen vuoden ikäisinä. Hammassairaudet aiheuttavat kroonista kipua, i...</p>
-          </a>
-          <a href="/articles/periovive.html" class="article-index-card">
-            <h3>PerioVive — hyaluronihappogeeli parodontiittisairauksien hoitoon</h3>
-            <p>Parodontiitti (hampaan kiinnityskudostulehdus) on yleisin sairaus koirilla ja kissoilla — jopa 80 % yli kolmevuotiaista koirista kärsii jonkinastei...</p>
-          </a>
-          <a href="/articles/puhkeamattomat-hampaat.html" class="article-index-card">
-            <h3>Puhkeamattomat hampaat ja hammasaihekysta — piilevä vaara leukaluussa</h3>
-            <p>Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koir...</p>
-          </a>
-          <a href="/articles/hammasresorptio.html" class="article-index-card">
-            <h3>Hammasresorptio — piilevä ja kivulias hammassairaus</h3>
-            <p>Hammasresorptio on sairaus, jossa erikoistuneet solut (odontolastit) tuhoavat hampaan kovakudosta — kiillettä, dentiiniä ja hammassementtiä. Sairau...</p>
-          </a>
-        </div>
+      <div class="article-search">
+        <label for="article-search-input" class="sr-only">Hae artikkeleista...</label>
+        <input type="text" id="article-search-input" placeholder="Hae artikkeleista..." autocomplete="off">
+      </div>
 
-        <h2>Kirurgia ja anestesia</h2>
-        <div class="article-index-grid">
-          <a href="/articles/tta-leikkaus.html" class="article-index-card">
-            <h3>TTA-leikkaus koirilla – eturistisiteen korjaus tibial tuberosity advancement -menetelmällä</h3>
-            <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on yksi yleisimmistä ortopedisistä ongelmista koirilla. Vaurioitunut ristiside aiheuttaa po...</p>
-          </a>
-          <a href="/articles/kipulääkeinfuusio.html" class="article-index-card">
-            <h3>Jatkuva kipulääkeinfuusio (CRI) — tasainen kivunhallinta leikkausten aikana</h3>
-            <p>Kivun hallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikallamme käytämme jatkuvaa suonensisäistä kipulääkeinfuusiota (CRI) vakiome...</p>
-          </a>
-          <a href="/articles/lateral-suture.html" class="article-index-card">
-            <h3>Lateral suture — eturistisiteen korjaus synteettisellä tukimateriaalilla</h3>
-            <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on koirien yleisin ortopedinen ongelma ja sitä esiintyy myös kissoilla. Lateral suture eli ...</p>
-          </a>
-          <a href="/articles/hypotermia.html" class="article-index-card">
-            <h3>Hypotermian ehkäisy — miksi aktiivinen lämmitys pelastaa henkiä</h3>
-            <p>Hypotermia on yleisin anestesiakomplikaatio: yli 80 % koirista sekä lähes kaikilla kissoilla laskee ruumiinlämpö anestesian aikana. Anestesia-ainee...</p>
-          </a>
-          <a href="/articles/anestesiaturvallisuus.html" class="article-index-card">
-            <h3>Anestesiaturvallisuus — tilastot, riskit ja miten minimoimme ne</h3>
-            <p>Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Monet omistajat pelkäävät nukutusta — ymmärrettävästi. To...</p>
-          </a>
-        </div>
+      <div class="article-filters">
+        <button class="filter-btn active" data-filter="all">Kaikki</button>
+        <button class="filter-btn" data-filter="health">Terveys</button>
+        <button class="filter-btn" data-filter="surgery">Kirurgia</button>
+        <button class="filter-btn" data-filter="dental">Hammashoito</button>
+        <button class="filter-btn" data-filter="emergency">Päivystys</button>
+        <button class="filter-btn" data-filter="clinic">Klinikka</button>
+        <button class="filter-btn" data-filter="cardiology">Kardiologia</button>
+        <button class="filter-btn" data-filter="endoscopy">Tähystys</button>
+        <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+      </div>
 
-        <h2>Kardiologia</h2>
-        <div class="article-index-grid">
-          <a href="/articles/avoin-valtimotiehyt-pda.html" class="article-index-card">
-            <h3>Avoin valtimotiehyt (PDA) koirilla — synnynnäinen sydänvika, joka on parannettavissa</h3>
-            <p>Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Kyseessä on verisuoni, joka yhdistää aortan ja keuhkovaltimon...</p>
-          </a>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Klinikka</span>
+          <time>2026</time>
         </div>
-
-        <h2>Tähystykset</h2>
-        <div class="article-index-grid">
-          <a href="/articles/video-otoskopia.html" class="article-index-card">
-            <h3>Video-otoskopia – korvien tähystystutkimus koirilla ja kissoilla</h3>
-            <p>Korvatulehdukset ovat yksi yleisimmistä syistä eläinlääkäri käynneille. Tavallisella otoskoopilla näkeminen rajoittuu korvakäytävän ulko-osiin, mut...</p>
-          </a>
-          <a href="/articles/gastroskopia.html" class="article-index-card">
-            <h3>Gastroskopia — vatsalaukun tähystys ja vierasesineiden poisto ilman leikkausta</h3>
-            <p>Gastroskopia on tähystystutkimus, jossa taipuisa kameraendoskooppi viedään suun kautta ruokatorveen, vatsalaukkuun ja pohjukaissuoleen. Tutkimus ma...</p>
-          </a>
+        <h3><a href="/articles/klinikkaeläinhoitaja.html">Klinikkaeläinhoitaja — potilasturvallisuuden kulmakivi</a></h3>
+        <div class="article-content">
+          <p>Eläinlääkäri ei voi samanaikaisesti leikata ja valvoa potilaan elintoimintoja. Koulutettu klinikkaeläinhoitaja on se henkilö, joka seuraa monitoreja, reagoi muutoksiin ja huolehtii potilaasta leikkausta ennen, sen aikana ja sen jälkeen. Tutkimusten mukaan koulutetun hoitajan läsnäolo anestesian aikana on tärkein yksittäinen muutettavissa oleva tekijä kuolleisuuden vähentämisessä.</p>
         </div>
-
-        <h2>Terveys ja sairaudet</h2>
-        <div class="article-index-grid">
-          <a href="/articles/ripuli.html" class="article-index-card">
-            <h3>Ripuli koirilla ja kissoilla — syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan</h3>
-            <p>Ripuli on yksi yleisimmistä syistä eläinlääkärikäyntiin. Lähes jokainen koira ja kissa kärsii ripulista jossain vaiheessa elämäänsä. Useimmiten kys...</p>
-          </a>
-          <a href="/articles/viljaton-ruoka.html" class="article-index-card">
-            <h3>Viljaton ruoka koirille ja kissoille — onko se tarpeellista vai haitallista?</h3>
-            <p>Viljaton lemmikkien ruokavalio on ollut valtava trendi viime vuosina. Markkinointi lupaa &quot;luonnollisempaa&quot; ruokavaliota, mutta vuonna 2018 Yhdysval...</p>
-          </a>
-          <a href="/articles/ruoka-allergiat.html" class="article-index-card">
-            <h3>Ruoka-allergiat koirilla ja kissoilla — oireet, diagnoosi ja eliminaatiodieetti</h3>
-            <p>Ruoka-aine allergia on yksi yleisimmistä kutinaa aiheuttavista sairauksista koirilla ja kissoilla. Tutkimusten mukaan 9–40 % kutisevista koirista j...</p>
-          </a>
-          <a href="/articles/kilpirauhasen-liikatoiminta.html" class="article-index-card">
-            <h3>Kilpirauhasen liikatoiminta kissalla — oireet, diagnoosi ja hoito</h3>
-            <p>Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyvien kissojen yleisin hormonisairaus. Se todetaan noin 10 %:lla yli 10-vuotiaista kissoista. ...</p>
-          </a>
-          <a href="/articles/munuaisten-vajaatoiminta.html" class="article-index-card">
-            <h3>Munuaisten vajaatoiminta koirilla ja kissoilla — tunnista oireet ajoissa</h3>
-            <p>Krooninen munuaissairaus (CKD) on yksi ikääntyvien kissojen ja koirien yleisimmistä sairauksista. Jopa 30–40 % yli 10-vuotiaista kissoista kärsii j...</p>
-          </a>
-          <a href="/articles/kissaystävällinen-klinikka.html" class="article-index-card">
-            <h3>Stressitön eläinlääkärikäynti kissalle — näin autamme ja näin voit valmistautua</h3>
-            <p>Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat l...</p>
-          </a>
-          <a href="/articles/rokotukset.html" class="article-index-card">
-            <h3>Rokotukset Suomessa — koirien ja kissojen rokotusohjelma</h3>
-            <p>Rokotukset ovat tehokkain tapa suojata lemmikkiä tartuntataudeilta. Suomessa Ruokavirasto antaa rokotussuosituksia, mutta ne eivät ole juridisesti ...</p>
-          </a>
-          <a href="/articles/ibd-lymfooma.html" class="article-index-card">
-            <h3>IBD vai lymfooma? — eläinlääketieteen vaikein erotusdiagnoosi</h3>
-            <p>Tulehduksellinen suolistosairaus (IBD) ja matala-asteinen suoliston lymfooma ovat eläinlääketieteen vaikeimpia erotusdiagnooseja — erityisesti kiss...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesia</span>
+          <time>2026</time>
         </div>
-
-        <h2>Päivystys</h2>
-        <div class="article-index-grid">
-          <a href="/articles/kyynpurema.html" class="article-index-card">
-            <h3>Kyynpurema — Suomen ainoan myrkyllisen käärmeen purema lemmikille</h3>
-            <p>Kyykäärme (Vipera berus) on Suomen ainoa myrkyllinen käärme. Kyynpuremat ovat yleisimpiä touko–syyskuussa, erityisesti keväällä, kun käärmeet ovat ...</p>
-          </a>
-          <a href="/articles/kohtutulehdus.html" class="article-index-card">
-            <h3>Kohtutulehdus (pyometra) — hengenvaarallinen sairaus, joka vaatii pikaista hoitoa</h3>
-            <p>Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista sterilo...</p>
-          </a>
+        <h3><a href="/articles/hypotermia.html">Hypotermian ehkäisy — miksi aktiivinen lämmitys pelastaa henkiä</a></h3>
+        <div class="article-content">
+          <p>Hypotermia on yleisin anestesiakomplikaatio: yli 80 % koirista sekä lähes kaikilla kissoilla laskee ruumiinlämpö anestesian aikana. Anestesia-aineet vaikuttavat lamaavasti lämmönsäätelyyn, verisuonet laajenevat ja etenkin pienet potilaat menettävät lämpöä nopeasti. Seuraukset voivat olla vakavia — hidastunut aineenvaihdunta, pidentynyt toipuminen, hyytymishäiriöt, sydämen rytmihäiriöt ja jopa kolminkertainen infektioriski.</p>
         </div>
-
-        <h2>Wildlife</h2>
-        <div class="article-index-grid">
-          <a href="/articles/siili.html" class="article-index-card">
-            <h3>Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä, joka tarvitsee apuamme</h3>
-            <p>Euroopan siili (Erinaceus europaeus) on yksi rakastetuimmista villieläimistämme — ja yksi nopeimmin katoavista lajeista. Lokakuussa 2024 IUCN nosti...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesia</span>
+          <time>2026</time>
         </div>
-
-        <h2>Klinikka</h2>
-        <div class="article-index-grid">
-          <a href="/articles/yksityinen-klinikka.html" class="article-index-card">
-            <h3>Miksi yksityinen eläinklinikka on tärkeä valinta?</h3>
-            <p>Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä...</p>
-          </a>
-          <a href="/articles/klinikkaeläinhoitaja.html" class="article-index-card">
-            <h3>Klinikkaeläinhoitaja — potilasturvallisuuden kulmakivi</h3>
-            <p>Eläinlääkäri ei voi samanaikaisesti leikata ja valvoa potilaan elintoimintoja. Koulutettu klinikkaeläinhoitaja on se henkilö, joka seuraa monitorej...</p>
-          </a>
+        <h3><a href="/articles/anestesiaturvallisuus.html">Anestesiaturvallisuus — tilastot, riskit ja miten minimoimme ne</a></h3>
+        <div class="article-content">
+          <p>Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Monet omistajat pelkäävät nukutusta — ymmärrettävästi. Todellinen riski on kuitenkin nykyaikaisella valvonnalla ja protokollilla erittäin matala. Maailmanlaajuinen tutkimus (Redondo ym. 2024, 55 000 koiraa) osoitti anestesiakuolleisuudeksi 0,17 % koirilla ja 0,24 % kissoilla — terveillä potilailla vain 0,05 % (1/1 849) koirilla ja 0,11 % (1/895) kissoilla.</p>
         </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/rokotukset.html">Rokotukset Suomessa — koirien ja kissojen rokotusohjelma</a></h3>
+        <div class="article-content">
+          <p>Rokotukset ovat tehokkain tapa suojata lemmikkiä tartuntataudeilta. Suomessa Ruokavirasto antaa rokotussuosituksia, mutta ne eivät ole juridisesti sitovia — eläinlääkäri tekee aina yksilöllisen arvion. Suomen rokotuskäytäntö seuraa WSAVA:n kansainvälisiä ohjeita maan matalan tautipaineen huomioiden.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/ibd-lymfooma.html">IBD vai lymfooma? — eläinlääketieteen vaikein erotusdiagnoosi</a></h3>
+        <div class="article-content">
+          <p>Tulehduksellinen suolistosairaus (IBD) ja matala-asteinen suoliston lymfooma ovat eläinlääketieteen vaikeimpia erotusdiagnooseja — erityisesti kissoilla. Molemmat aiheuttavat kroonista oksentelua, ripulia, laihtumista ja ruokahaluttomuutta, ja ne esiintyvät tyypillisesti keski-ikäisillä ja iäkkäillä eläimillä. Oikea diagnoosi on ratkaiseva, sillä hoidot eroavat merkittävästi: IBD:tä hoidetaan immunosuppressiolla, lymfoomaa kemoterapialla.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Tähystys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/gastroskopia.html">Gastroskopia — vatsalaukun tähystys ja vierasesineiden poisto ilman leikkausta</a></h3>
+        <div class="article-content">
+          <p>Gastroskopia on tähystystutkimus, jossa taipuisa kameraendoskooppi viedään suun kautta ruokatorveen, vatsalaukkuun ja pohjukaissuoleen. Tutkimus mahdollistaa limakalvojen tarkastelun reaaliajassa monitorilta, koepalojen oton ja vierasesineiden poiston — kaikki ilman kirurgista viiltoa. Gastroskopia on yksi yleisimmistä tähystystoimenpiteistä eläinlääketieteessä, ja se on erityisen arvokas työkalu kroonisten vatsaoireiden selvittämisessä ja vierasesineiden poistossa.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Hammashoito</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/hammasresorptio.html">Hammasresorptio — piilevä ja kivulias hammassairaus</a></h3>
+        <div class="article-content">
+          <p>Hammasresorptio on sairaus, jossa erikoistuneet solut (odontolastit) tuhoavat hampaan kovakudosta — kiillettä, dentiiniä ja hammassementtiä. Sairaus koskettaa sekä kissoja että koiria ja on paljon yleisempi kuin moni omistaja uskoo. Kissoilla esiintyvyys on 20–67 %, ja yli 5-vuotiailla jopa 75 %. Suomalaisessa 8 115 kissan tutkimuksessa rotukissat olivat selvästi alttiimpia (70 %) kuin sekarotuiset (38 %). Koirilla esiintyvyys on vastaavasti merkittävä: täyden suun röntgenkuvauksessa jopa 54 % koirista kärsi hammasresorptiosta, ja riski kasvaa erityisesti 9–11 vuoden iässä. Molemmilla lajeilla yleisimmin vaurioituvat hampaat ovat välihampaat (premolaarit). Sairaus on erityisen salakavala, koska sekä kissat että koirat peittävät suukipua — moni lemmikki syö ja käyttäytyy &quot;normaalisti&quot; vaikka kärsii merkittävästä kroonisesta kivusta.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Kissojen terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/kissaystävällinen-klinikka.html">Stressitön eläinlääkärikäynti kissalle — näin autamme ja näin voit valmistautua</a></h3>
+        <div class="article-content">
+          <p>Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja vieraiden ihmisten käsittely voivat laukaista voimakkaan stressireaktion. Stressi ei ole vain epämukavaa — se vaikuttaa myös tutkimustuloksiin: stressaantuneen kissan verensokeriarvo voi nousta jopa 10 mmol/l (ns. stressihyperglykemia), ja verenpaine voi kohota 15–75 mmHg, mikä vaikeuttaa diagnosointia. Eläinklinikka Saarella olemme panostaneet kissojen hyvinvointiin ja saaneet kansainvälisen ISFM-järjestön Cat Friendly Clinic Silver -sertifikaatin.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Hammashoito</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/puhkeamattomat-hampaat.html">Puhkeamattomat hampaat ja hammasaihekysta — piilevä vaara leukaluussa</a></h3>
+        <div class="article-content">
+          <p>Puhkeamaton hammas on hammas, joka ei ole noussut normaalisti suuonteloon vaan jäänyt leukaluun sisään. Tila on yllättävän yleinen erityisesti koirilla — noin 5–7 % koirista kärsii siitä, ja lyhytkuonoisilla roduilla osuus on vielä suurempi. Puhkeamattoman hampaan ympärille voi kehittyä kysta, nestettä täynnä oleva rakenne, joka kasvaa hitaasti ja tuhoaa leukaluuta. Ilman hammasröntgenkuvausta tilanne jää havaitsematta, kunnes vahinko on jo merkittävä. Klinikallamme suoritamme hammasröntgenkuvaukset ja puhkeamattomien hampaiden kirurgiset poistot.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="wildlife">
+        <div class="article-header">
+          <span class="article-tag">Wildlife</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/siili.html">Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä, joka tarvitsee apuamme</a></h3>
+        <div class="article-content">
+          <p>Euroopan siili (Erinaceus europaeus) on yksi rakastetuimmista villieläimistämme — ja yksi nopeimmin katoavista lajeista. Lokakuussa 2024 IUCN nosti siilin uhanalaisuusluokituksen luokasta &quot;elinvoimainen&quot; luokkaan &quot;silmälläpidettävä&quot;, koska kannat ovat romahtaneet yli 30 % kymmenessä vuodessa monissa Euroopan maissa. Suomessa siili elää levinneisyytensä pohjoisrajalla, mikä tekee kannastamme erityisen haavoittuvan. Tässä artikkelissa käymme läpi siilin tilanteen, uhat ja sen, miten jokainen voi auttaa.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Päivystys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/kohtutulehdus.html">Kohtutulehdus (pyometra) — hengenvaarallinen sairaus, joka vaatii pikaista hoitoa</a></h3>
+        <div class="article-content">
+          <p>Pyometra eli kohtutulehdus on vakava, henkeä uhkaava infektio, jossa kohtu täyttyy märkäeritteellä. Se on yksi yleisimmistä hätätilanteista steriloimattomilla narttukoirilla — jopa 25 % steriloimattomista narttukoirista sairastuu pyometraan ennen 10 vuoden ikää. Sairaus vaatii yleensä kiireellistä leikkaushoitoa. Oireiden tunnistaminen voi pelastaa lemmikkisi hengen.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Ortopedia</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/lateral-suture.html">Lateral suture — eturistisiteen korjaus synteettisellä tukimateriaalilla</a></h3>
+        <div class="article-content">
+          <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on koirien yleisin ortopedinen ongelma ja sitä esiintyy myös kissoilla. Lateral suture eli ekstrakapsulaari lateraalisuturaatio on tehokas ja pitkään käytetty kirurginen menetelmä, jossa polvinivel stabiloidaan synteettisellä tukimateriaalilla nivelen ulkopuolelta. Menetelmä sopii erinomaisesti pienille koirille sekä kissoille. Klinikallamme leikkauksen suorittaa eläinlääkäri Pamela, jolla on laaja kokemus ortopedisistä toimenpiteistä.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Lemmikkien terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/munuaisten-vajaatoiminta.html">Munuaisten vajaatoiminta koirilla ja kissoilla — tunnista oireet ajoissa</a></h3>
+        <div class="article-content">
+          <p>Krooninen munuaissairaus (CKD) on yksi ikääntyvien kissojen ja koirien yleisimmistä sairauksista. Jopa 30–40 % yli 10-vuotiaista kissoista kärsii jonkinasteisesta munuaisten vajaatoiminnasta. Munuaiset menettävät toimintakykyään hitaasti ja peruuttamattomasti, mutta varhaisella diagnoosilla ja oikealla hoidolla elinaikaa ja elämänlaatua voidaan parantaa merkittävästi.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Päivystys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/kyynpurema.html">Kyynpurema — Suomen ainoan myrkyllisen käärmeen purema lemmikille</a></h3>
+        <div class="article-content">
+          <p>Kyykäärme (Vipera berus) on Suomen ainoa myrkyllinen käärme. Kyynpuremat ovat yleisimpiä touko–syyskuussa, erityisesti keväällä, kun käärmeet ovat juuri heränneet talviuniltaan ja ovat hitaita. Koirat ovat suurimmassa vaarassa uteliaisuutensa vuoksi — useimmat puremat kohdistuvat kuonoon tai etutassuihin. Kyynpurema vaatii aina eläinlääkäripäivystykseen hakeutumista.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Lemmikkien terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/ruoka-allergiat.html">Ruoka-allergiat koirilla ja kissoilla — oireet, diagnoosi ja eliminaatiodieetti</a></h3>
+        <div class="article-content">
+          <p>Ruoka-aine allergia on yksi yleisimmistä kutinaa aiheuttavista sairauksista koirilla ja kissoilla. Tutkimusten mukaan 9–40 % kutisevista koirista ja 12–21 % kutisevista kissoista kärsii ruoka-aine allergiasta. Monet omistajat ajattelevat viljojen olevan ongelma, mutta tutkimukset osoittavat selvästi: yleisimmät allergeenit ovat eläinproteiineja — nauta (34 %), maito (17 %) ja kana (15 %). Oikea diagnoosi vaatii eliminaatiodieetin, ja me autamme siinä.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Kissaterveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/kilpirauhasen-liikatoiminta.html">Kilpirauhasen liikatoiminta kissalla — oireet, diagnoosi ja hoito</a></h3>
+        <div class="article-content">
+          <p>Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyvien kissojen yleisin hormonisairaus. Se todetaan noin 10 %:lla yli 10-vuotiaista kissoista. Kilpirauhanen tuottaa liikaa kilpirauhashormonia (T4), mikä kiihdyttää aineenvaihduntaa ja rasittaa monia elimiä — erityisesti sydäntä ja munuaisia. Hoitamattomana sairaus johtaa vakaviin komplikaatioihin, mutta oikein hoidettuna ennuste on hyvä.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Hammashoito</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/periovive.html">PerioVive — hyaluronihappogeeli parodontiittisairauksien hoitoon</a></h3>
+        <div class="article-content">
+          <p>Parodontiitti (hampaan kiinnityskudostulehdus) on yleisin sairaus koirilla ja kissoilla — jopa 80 % yli kolmevuotiaista koirista kärsii jonkinasteisesta iensairaudesta. Hoitamattomana se johtaa hampaan kiinnityskudosten tuhoutumiseen, luukatoon ja lopulta hampaiden menetykseen. PerioVive on eläinlääketieteelliseen käyttöön kehitetty hyaluronihappogeeli, joka tuo uuden mahdollisuuden parodontiittisairauksien hoitoon hammastoimenpiteiden yhteydessä.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Klinikka</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/yksityinen-klinikka.html">Miksi yksityinen eläinklinikka on tärkeä valinta?</a></h3>
+        <div class="article-content">
+          <p>Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä — hallitsevat nyt 50–70 % markkinoista. Eläinklinikka Saari on Vaasan ainoa yksityinen pieneläinklinikka, ja haluamme kertoa, miksi se on merkityksellistä.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Hammashoito</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/hampaiden-harjaus.html">Hampaiden harjaus — paras asia, jonka voit tehdä lemmikkisi hampaiden hyväksi</a></h3>
+        <div class="article-content">
+          <p>80 % koirista ja 70 % kissoista kärsii jonkinasteisesta hammassairaudesta jo kolmen vuoden ikäisinä. Hammassairaudet aiheuttavat kroonista kipua, infektioita ja voivat vahingoittaa jopa sydäntä, munuaisia ja maksaa. Päivittäinen hampaiden harjaus on tehokkain keino ehkäistä näitä ongelmia — ja se on helpompaa kuin luulet.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/viljaton-ruoka.html">Viljaton ruoka koirille ja kissoille — onko se tarpeellista vai haitallista?</a></h3>
+        <div class="article-content">
+          <p>Viljaton lemmikkien ruokavalio on ollut valtava trendi viime vuosina. Markkinointi lupaa &quot;luonnollisempaa&quot; ruokavaliota, mutta vuonna 2018 Yhdysvaltain elintarvikevirasto FDA aloitti tutkimuksen, joka yhdisti viljattomat ruokavaliot koirien sydänsairauksiin. Tässä artikkelissa selvitämme, mitä tiede sanoo — ja mitä eläinlääkärit suosittelevat.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Terveys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/ripuli.html">Ripuli koirilla ja kissoilla — syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan</a></h3>
+        <div class="article-content">
+          <p>Ripuli on yksi yleisimmistä syistä eläinlääkärikäyntiin. Lähes jokainen koira ja kissa kärsii ripulista jossain vaiheessa elämäänsä. Useimmiten kyseessä on lievä, itsestään paraneva vaiva — mutta joskus ripuli voi olla merkki vakavammasta sairaudesta. Tässä artikkelissa käymme läpi yleisimmät syyt, kotihoidon perusteet ja tilanteet, joissa on syytä ottaa yhteyttä eläinlääkäriin.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="cardiology">
+        <div class="article-header">
+          <span class="article-tag">Kardiologia</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/avoin-valtimotiehyt-pda.html">Avoin valtimotiehyt (PDA) koirilla — synnynnäinen sydänvika, joka on parannettavissa</a></h3>
+        <div class="article-content">
+          <p>Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Kyseessä on verisuoni, joka yhdistää aortan ja keuhkovaltimon sikiökaudella, mutta jonka pitäisi sulkeutua syntymän jälkeen. Kun se jää auki, sydän kuormittuu ja ilman hoitoa 60–70 % koirista menehtyy ensimmäisen elinvuoden aikana sydämen vajaatoimintaan. Hyvä uutinen: PDA on yksi harvoista sydänsairauksista, joka voidaan parantaa kokonaan, kun se havaitaan ajoissa.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Ortopedia</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/tta-leikkaus.html">TTA-leikkaus koirilla – eturistisiteen korjaus tibial tuberosity advancement -menetelmällä</a></h3>
+        <div class="article-content">
+          <p>Eturistisiteen (cranial cruciate ligament, CCL) repeämä on yksi yleisimmistä ortopedisistä ongelmista koirilla. Vaurioitunut ristiside aiheuttaa polvinivelen epävakautta, kipua, ontumista ja johtaa hoitamattomana nivelrikkoon. TTA eli tibial tuberosity advancement on moderni kirurginen menetelmä, jolla polvinivelen biomekaniikka korjataan ilman ristisiteen korvaamista.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Tähystys</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/video-otoskopia.html">Video-otoskopia – korvien tähystystutkimus koirilla ja kissoilla</a></h3>
+        <div class="article-content">
+          <p>Korvatulehdukset ovat yksi yleisimmistä syistä eläinlääkäri käynneille. Tavallisella otoskoopilla näkeminen rajoittuu korvakäytävän ulko-osiin, mutta video-otoskopia tuo aivan uuden tason diagnostiikkaan ja hoitoon. Menetelmässä korvakäytävään viedään ohut, kiinteä tähystin, jonka kärjessä on teräväpiirtokamera ja kirkas valo — kuva heijastetaan suurennettuna monitorille reaaliajassa.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anestesia</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/articles/kipulääkeinfuusio.html">Jatkuva kipulääkeinfuusio (CRI) — tasainen kivunhallinta leikkausten aikana</a></h3>
+        <div class="article-content">
+          <p>Kivun hallinta on yksi tärkeimmistä osa-alueista eläinkirurgiassa. Klinikallamme käytämme jatkuvaa suonensisäistä kipulääkeinfuusiota (CRI) vakiomenetelmänä kaikissa kivuliaissa leikkauksissa — pehmytkudoskirurgiasta ortopedisiin toimenpiteisiin. CRI tarkoittaa, että kipulääkkeitä annostellaan tasaisena virtana suonensisäisesti koko leikkauksen ajan, sen sijaan että annettaisiin yksittäisiä kerta-annoksia.</p>
+        </div>
+      </article>
 
       <a href="/" class="btn btn-secondary articles-back">← Takaisin etusivulle</a>
     </div>

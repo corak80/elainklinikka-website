@@ -129,144 +129,280 @@
   </header>
 
   <main id="main-content">
-  <section class="section articles-section">
+  <section id="articles" class="section articles-section">
     <div class="container">
       <div class="section-header">
         <h1>Articles</h1>
         <p>Veterinary articles from the professionals</p>
       </div>
 
-        <h2>Dental Care</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/tooth-brushing.html" class="article-index-card">
-            <h3>Tooth Brushing — The Best Thing You Can Do for Your Pet's Teeth</h3>
-            <p>80% of dogs and 70% of cats suffer from some degree of dental disease by age three. Dental disease causes chronic pain, infections and can even dam...</p>
-          </a>
-          <a href="/en/articles/periovive.html" class="article-index-card">
-            <h3>PerioVive — Hyaluronic Acid Gel for Periodontal Disease Treatment</h3>
-            <p>Periodontal disease is the most common disease in dogs and cats — up to 80% of dogs over three years old suffer from some degree of gum disease. Le...</p>
-          </a>
-          <a href="/en/articles/unerupted-teeth.html" class="article-index-card">
-            <h3>Unerupted Teeth and Dentigerous Cysts — A Hidden Danger in the Jawbone</h3>
-            <p>An unerupted tooth is a tooth that has failed to emerge normally into the oral cavity and remains trapped inside the jawbone. The condition is surp...</p>
-          </a>
-          <a href="/en/articles/tooth-resorption.html" class="article-index-card">
-            <h3>Tooth Resorption — a Hidden and Painful Dental Disease</h3>
-            <p>Tooth resorption is a disease in which specialized cells (odontoclasts) destroy the hard tissues of the tooth — enamel, dentin, and cementum. The d...</p>
-          </a>
-        </div>
+      <div class="article-search">
+        <label for="article-search-input" class="sr-only">Search articles...</label>
+        <input type="text" id="article-search-input" placeholder="Search articles..." autocomplete="off">
+      </div>
 
-        <h2>Surgery and Anaesthesia</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/tta-surgery.html" class="article-index-card">
-            <h3>TTA Surgery in Dogs – Cranial Cruciate Ligament Repair with Tibial Tuberosity Advancement</h3>
-            <p>Cranial cruciate ligament (CCL) rupture is one of the most common orthopedic problems in dogs. A damaged cruciate ligament causes knee joint instab...</p>
-          </a>
-          <a href="/en/articles/pain-relief-infusion.html" class="article-index-card">
-            <h3>Continuous Rate Infusion (CRI) — Steady Pain Management During Surgery</h3>
-            <p>Pain management is one of the most important aspects of veterinary surgery. At our clinic, we use continuous rate infusion (CRI) as the standard me...</p>
-          </a>
-          <a href="/en/articles/lateral-suture.html" class="article-index-card">
-            <h3>Lateral Suture — Cruciate Ligament Repair with Synthetic Support Material</h3>
-            <p>Cranial cruciate ligament (CCL) rupture is the most common orthopedic problem in dogs and also occurs in cats. The lateral suture technique, also k...</p>
-          </a>
-          <a href="/en/articles/hypothermia.html" class="article-index-card">
-            <h3>Hypothermia Prevention — Why Active Warming Saves Lives</h3>
-            <p>Hypothermia is the most common anesthesia complication: over 80% of dogs and nearly all cats become hypothermic during anesthesia. Anesthetic agent...</p>
-          </a>
-          <a href="/en/articles/anaesthesia-safety.html" class="article-index-card">
-            <h3>Anesthesia Safety — Statistics, Risks, and How We Minimize Them</h3>
-            <p>Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners fear anesthesia — understandably so. However, th...</p>
-          </a>
-        </div>
+      <div class="article-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="health">Health</button>
+        <button class="filter-btn" data-filter="surgery">Surgery</button>
+        <button class="filter-btn" data-filter="dental">Dental</button>
+        <button class="filter-btn" data-filter="emergency">Emergency</button>
+        <button class="filter-btn" data-filter="clinic">Clinic</button>
+        <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+        <button class="filter-btn" data-filter="endoscopy">Endoscopy</button>
+        <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+      </div>
 
-        <h2>Cardiology</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/patent-ductus-arteriosus-pda.html" class="article-index-card">
-            <h3>Patent Ductus Arteriosus (PDA) in Dogs — A Congenital Heart Defect That Can Be Cured</h3>
-            <p>Patent ductus arteriosus, or PDA, is one of the most common congenital heart defects in dogs. It is a blood vessel that connects the aorta and pulm...</p>
-          </a>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Clinic</span>
+          <time>2026</time>
         </div>
-
-        <h2>Endoscopy</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/video-otoscopy.html" class="article-index-card">
-            <h3>Video-Otoscopy – Ear Endoscopy in Dogs and Cats</h3>
-            <p>Ear infections are one of the most common reasons for veterinary visits. With a traditional otoscope, visibility is limited to the outer parts of t...</p>
-          </a>
-          <a href="/en/articles/gastroscopy.html" class="article-index-card">
-            <h3>Gastroscopy — Stomach Examination and Foreign Body Removal Without Surgery</h3>
-            <p>Gastroscopy is an endoscopic procedure in which a flexible camera endoscope is passed through the mouth into the esophagus, stomach, and duodenum. ...</p>
-          </a>
+        <h3><a href="/en/articles/veterinary-nurse.html">Veterinary Nurse — The Cornerstone of Patient Safety</a></h3>
+        <div class="article-content">
+          <p>A veterinarian cannot simultaneously perform surgery and monitor the patient's vital functions. A trained veterinary nurse is the person who watches the monitors, responds to changes, and cares for the patient before, during, and after surgery. Research shows that the presence of a trained nurse during anesthesia is the single most important modifiable factor in reducing mortality.</p>
         </div>
-
-        <h2>Health and Disease</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/diarrhoea.html" class="article-index-card">
-            <h3>Diarrhea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic</h3>
-            <p>Diarrhea is one of the most common reasons for a veterinary visit. Nearly every dog and cat experiences diarrhea at some point. Most often it is a ...</p>
-          </a>
-          <a href="/en/articles/grain-free-food.html" class="article-index-card">
-            <h3>Grain-Free Food for Dogs and Cats — Is It Necessary or Harmful?</h3>
-            <p>Grain-free pet food has been a huge trend in recent years. Marketing promises a &quot;more natural&quot; diet, but in 2018 the U.S. Food and Drug Administrat...</p>
-          </a>
-          <a href="/en/articles/food-allergies.html" class="article-index-card">
-            <h3>Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet</h3>
-            <p>Food allergy is one of the most common causes of itching in dogs and cats. Studies show that 9–40% of itchy dogs and 12–21% of itchy cats suffer fr...</p>
-          </a>
-          <a href="/en/articles/hyperthyroidism.html" class="article-index-card">
-            <h3>Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment</h3>
-            <p>Hyperthyroidism is the most common hormonal disease in aging cats. It is diagnosed in approximately 10% of cats over 10 years of age. The thyroid g...</p>
-          </a>
-          <a href="/en/articles/kidney-disease.html" class="article-index-card">
-            <h3>Kidney Disease in Dogs and Cats — Recognizing the Symptoms Early</h3>
-            <p>Chronic kidney disease (CKD) is one of the most common diseases in aging cats and dogs. Up to 30–40% of cats over 10 years of age suffer from some ...</p>
-          </a>
-          <a href="/en/articles/cat-friendly-clinic.html" class="article-index-card">
-            <h3>A Stress-Free Vet Visit for Your Cat — How We Help and How You Can Prepare</h3>
-            <p>A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs, and handling by strangers can...</p>
-          </a>
-          <a href="/en/articles/vaccinations-guide.html" class="article-index-card">
-            <h3>Vaccinations in Finland — Vaccination Program for Dogs and Cats</h3>
-            <p>Vaccinations are the most effective way to protect pets from infectious diseases. In Finland, the Finnish Food Authority (Ruokavirasto) provides va...</p>
-          </a>
-          <a href="/en/articles/ibd-lymphoma.html" class="article-index-card">
-            <h3>IBD or Lymphoma? — The Most Difficult Differential Diagnosis in Veterinary Medicine</h3>
-            <p>Inflammatory bowel disease (IBD) and low-grade intestinal lymphoma are among the most difficult differential diagnoses in veterinary medicine — esp...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anesthesia</span>
+          <time>2026</time>
         </div>
-
-        <h2>Emergency Care</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/snake-bite.html" class="article-index-card">
-            <h3>Adder Bite — Finland's Only Venomous Snake Bite in Pets</h3>
-            <p>The European adder (Vipera berus) is Finland's only venomous snake. Adder bites are most common from May to September, especially in spring when th...</p>
-          </a>
-          <a href="/en/articles/pyometra.html" class="article-index-card">
-            <h3>Pyometra (Uterine Infection) — A Life-Threatening Condition Requiring Urgent Treatment</h3>
-            <p>Pyometra is a serious, life-threatening infection in which the uterus fills with pus. It is one of the most common emergencies in unspayed female d...</p>
-          </a>
+        <h3><a href="/en/articles/hypothermia.html">Hypothermia Prevention — Why Active Warming Saves Lives</a></h3>
+        <div class="article-content">
+          <p>Hypothermia is the most common anesthesia complication: over 80% of dogs and nearly all cats become hypothermic during anesthesia. Anesthetic agents impair thermoregulation, blood vessels dilate, and small patients lose heat rapidly. The consequences are serious — slower drug metabolism, prolonged recovery, coagulopathy, cardiac arrhythmias, and even a threefold increase in infection risk.</p>
         </div>
-
-        <h2>Wildlife</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/hedgehog.html" class="article-index-card">
-            <h3>The Hedgehog in Europe and Finland — An Endangered Garden Friend That Needs Our Help</h3>
-            <p>The European hedgehog (Erinaceus europaeus) is one of our most beloved wild animals — and one of the fastest declining. In October 2024, the IUCN u...</p>
-          </a>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anesthesia</span>
+          <time>2026</time>
         </div>
-
-        <h2>Clinic</h2>
-        <div class="article-index-grid">
-          <a href="/en/articles/independent-clinic.html" class="article-index-card">
-            <h3>Why Choosing an Independent Veterinary Clinic Matters</h3>
-            <p>The Finnish veterinary market has changed dramatically over the past decade. Two foreign-owned chains — Evidensia and Vireä — now control 50–70% of...</p>
-          </a>
-          <a href="/en/articles/veterinary-nurse.html" class="article-index-card">
-            <h3>Veterinary Nurse — The Cornerstone of Patient Safety</h3>
-            <p>A veterinarian cannot simultaneously perform surgery and monitor the patient's vital functions. A trained veterinary nurse is the person who watche...</p>
-          </a>
+        <h3><a href="/en/articles/anaesthesia-safety.html">Anesthesia Safety — Statistics, Risks, and How We Minimize Them</a></h3>
+        <div class="article-content">
+          <p>Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners fear anesthesia — understandably so. However, the actual risk with modern monitoring and protocols is very low. A worldwide study (Redondo et al. 2024, 55,000 dogs) showed anesthesia mortality of 0.17% in dogs and 0.24% in cats — in healthy patients only 0.05% (1 in 1,849) in dogs and 0.11% (1 in 895) in cats.</p>
         </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/vaccinations-guide.html">Vaccinations in Finland — Vaccination Program for Dogs and Cats</a></h3>
+        <div class="article-content">
+          <p>Vaccinations are the most effective way to protect pets from infectious diseases. In Finland, the Finnish Food Authority (Ruokavirasto) provides vaccination recommendations, but they are not legally binding — the veterinarian always makes an individual assessment. Finnish vaccination practice follows WSAVA international guidelines, taking into account the country's low disease pressure.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/ibd-lymphoma.html">IBD or Lymphoma? — The Most Difficult Differential Diagnosis in Veterinary Medicine</a></h3>
+        <div class="article-content">
+          <p>Inflammatory bowel disease (IBD) and low-grade intestinal lymphoma are among the most difficult differential diagnoses in veterinary medicine — especially in cats. Both cause chronic vomiting, diarrhea, weight loss, and loss of appetite, and typically occur in middle-aged and older animals. Accurate diagnosis is critical, as treatments differ significantly: IBD is treated with immunosuppression, lymphoma with chemotherapy.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Endoscopy</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/gastroscopy.html">Gastroscopy — Stomach Examination and Foreign Body Removal Without Surgery</a></h3>
+        <div class="article-content">
+          <p>Gastroscopy is an endoscopic procedure in which a flexible camera endoscope is passed through the mouth into the esophagus, stomach, and duodenum. The examination allows real-time viewing of the mucosal lining on a monitor, tissue biopsy collection, and foreign body removal — all without a surgical incision. Gastroscopy is one of the most common endoscopic procedures in veterinary medicine and is an especially valuable tool for investigating chronic gastrointestinal symptoms and removing foreign bodies.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Dental</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/tooth-resorption.html">Tooth Resorption — a Hidden and Painful Dental Disease</a></h3>
+        <div class="article-content">
+          <p>Tooth resorption is a disease in which specialized cells (odontoclasts) destroy the hard tissues of the tooth — enamel, dentin, and cementum. The disease affects both cats and dogs and is far more common than many owners realize. In cats, the prevalence is 20–67%, rising to as high as 75% in cats over 5 years old. In a Finnish study of 8,115 cats, purebred cats were clearly more susceptible (70%) than mixed-breed cats (38%). In dogs, the prevalence is similarly significant: full-mouth radiographs revealed tooth resorption in up to 54% of dogs, with the risk increasing particularly at 9–11 years of age. In both species, the premolars are the most commonly affected teeth. The disease is particularly insidious because both cats and dogs hide oral pain — many pets eat and behave &quot;normally&quot; despite significant chronic pain.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Cat Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/cat-friendly-clinic.html">A Stress-Free Vet Visit for Your Cat — How We Help and How You Can Prepare</a></h3>
+        <div class="article-content">
+          <p>A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs, and handling by strangers can trigger a strong stress response. Stress is not just uncomfortable — it also affects test results: a stressed cat's blood glucose can rise by up to 10 mmol/L (stress hyperglycemia), and blood pressure can increase by 15–75 mmHg (&quot;white coat hypertension&quot;), making diagnosis more difficult. At Eläinklinikka Saari, we have invested in feline wellbeing and earned the international ISFM Cat Friendly Clinic Silver certification.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Dental</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/unerupted-teeth.html">Unerupted Teeth and Dentigerous Cysts — A Hidden Danger in the Jawbone</a></h3>
+        <div class="article-content">
+          <p>An unerupted tooth is a tooth that has failed to emerge normally into the oral cavity and remains trapped inside the jawbone. The condition is surprisingly common, especially in dogs — approximately 5–7% of dogs are affected, and the proportion is even higher in brachycephalic (short-nosed) breeds. A dentigerous cyst can develop around an unerupted tooth — a fluid-filled structure that grows slowly and destroys the jawbone. Without dental X-rays, the condition goes undetected until significant damage has already occurred. At our clinic, we perform dental radiography and surgical extraction of unerupted teeth.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="wildlife">
+        <div class="article-header">
+          <span class="article-tag">Wildlife</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/hedgehog.html">The Hedgehog in Europe and Finland — An Endangered Garden Friend That Needs Our Help</a></h3>
+        <div class="article-content">
+          <p>The European hedgehog (Erinaceus europaeus) is one of our most beloved wild animals — and one of the fastest declining. In October 2024, the IUCN upgraded the hedgehog's threat status to Near Threatened, as populations have collapsed by over 30% in ten years across many European countries. In Finland, the hedgehog lives at the northernmost limit of its range, making our population particularly vulnerable. In this article, we cover the hedgehog's situation, the threats it faces, and how everyone can help.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Emergency</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/pyometra.html">Pyometra (Uterine Infection) — A Life-Threatening Condition Requiring Urgent Treatment</a></h3>
+        <div class="article-content">
+          <p>Pyometra is a serious, life-threatening infection in which the uterus fills with pus. It is one of the most common emergencies in unspayed female dogs — up to 25% of unspayed females develop pyometra before 10 years of age. The condition usually requires emergency surgery. Recognizing the symptoms can save your pet's life.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Orthopedics</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/lateral-suture.html">Lateral Suture — Cruciate Ligament Repair with Synthetic Support Material</a></h3>
+        <div class="article-content">
+          <p>Cranial cruciate ligament (CCL) rupture is the most common orthopedic problem in dogs and also occurs in cats. The lateral suture technique, also known as extracapsular lateral suture stabilization, is an effective and well-established surgical method where the knee joint is stabilized with synthetic support material placed outside the joint. The technique is excellent for small and medium-sized dogs and cats. At our clinic, the surgery is performed by veterinarian Pamela, who has extensive experience in orthopedic procedures.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Pet Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/kidney-disease.html">Kidney Disease in Dogs and Cats — Recognizing the Symptoms Early</a></h3>
+        <div class="article-content">
+          <p>Chronic kidney disease (CKD) is one of the most common diseases in aging cats and dogs. Up to 30–40% of cats over 10 years of age suffer from some degree of kidney failure. The kidneys lose function slowly and irreversibly, but with early diagnosis and proper treatment, life expectancy and quality of life can be significantly improved.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="emergency">
+        <div class="article-header">
+          <span class="article-tag">Emergency</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/snake-bite.html">Adder Bite — Finland's Only Venomous Snake Bite in Pets</a></h3>
+        <div class="article-content">
+          <p>The European adder (Vipera berus) is Finland's only venomous snake. Adder bites are most common from May to September, especially in spring when the snakes have just woken from hibernation and are sluggish. Dogs are at greatest risk due to their curiosity — most bites occur on the snout or front paws. An adder bite is always a veterinary emergency.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Pet Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/food-allergies.html">Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet</a></h3>
+        <div class="article-content">
+          <p>Food allergy is one of the most common causes of itching in dogs and cats. Studies show that 9–40% of itchy dogs and 12–21% of itchy cats suffer from food allergies. Many owners believe grains are the problem, but research clearly shows: the most common allergens are animal proteins — beef (34%), dairy (17%) and chicken (15%). A correct diagnosis requires an elimination diet, and we can help you with that.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Cat Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/hyperthyroidism.html">Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment</a></h3>
+        <div class="article-content">
+          <p>Hyperthyroidism is the most common hormonal disease in aging cats. It is diagnosed in approximately 10% of cats over 10 years of age. The thyroid gland produces excess thyroid hormone (T4), which accelerates metabolism and strains many organs — especially the heart and kidneys. Left untreated, the disease leads to serious complications, but with proper treatment the prognosis is good.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Dental</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/periovive.html">PerioVive — Hyaluronic Acid Gel for Periodontal Disease Treatment</a></h3>
+        <div class="article-content">
+          <p>Periodontal disease is the most common disease in dogs and cats — up to 80% of dogs over three years old suffer from some degree of gum disease. Left untreated, it leads to destruction of tooth support structures, bone loss and ultimately tooth loss. PerioVive is a hyaluronic acid gel developed for veterinary use that brings a new option for treating periodontal disease during dental procedures.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="clinic">
+        <div class="article-header">
+          <span class="article-tag">Clinic</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/independent-clinic.html">Why Choosing an Independent Veterinary Clinic Matters</a></h3>
+        <div class="article-content">
+          <p>The Finnish veterinary market has changed dramatically over the past decade. Two foreign-owned chains — Evidensia and Vireä — now control 50–70% of the market. Eläinklinikka Saari is the only private small animal clinic in Vaasa, and we want to explain why that matters.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="dental">
+        <div class="article-header">
+          <span class="article-tag">Dental</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/tooth-brushing.html">Tooth Brushing — The Best Thing You Can Do for Your Pet's Teeth</a></h3>
+        <div class="article-content">
+          <p>80% of dogs and 70% of cats suffer from some degree of dental disease by age three. Dental disease causes chronic pain, infections and can even damage the heart, kidneys and liver. Daily tooth brushing is the most effective way to prevent these problems — and it is easier than you think.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/grain-free-food.html">Grain-Free Food for Dogs and Cats — Is It Necessary or Harmful?</a></h3>
+        <div class="article-content">
+          <p>Grain-free pet food has been a huge trend in recent years. Marketing promises a &quot;more natural&quot; diet, but in 2018 the U.S. Food and Drug Administration (FDA) launched an investigation linking grain-free diets to heart disease in dogs. In this article we examine what the science says — and what veterinarians recommend.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag">Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/diarrhoea.html">Diarrhea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic</a></h3>
+        <div class="article-content">
+          <p>Diarrhea is one of the most common reasons for a veterinary visit. Nearly every dog and cat experiences diarrhea at some point. Most often it is a mild, self-resolving issue — but sometimes diarrhea can indicate a more serious condition. In this article we cover the most common causes, basics of home care and situations where you should contact the clinic.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="cardiology">
+        <div class="article-header">
+          <span class="article-tag">Cardiology</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/patent-ductus-arteriosus-pda.html">Patent Ductus Arteriosus (PDA) in Dogs — A Congenital Heart Defect That Can Be Cured</a></h3>
+        <div class="article-content">
+          <p>Patent ductus arteriosus, or PDA, is one of the most common congenital heart defects in dogs. It is a blood vessel that connects the aorta and pulmonary artery during fetal life but should close after birth. When it remains open, the heart becomes overloaded, and without treatment 60–70% of affected dogs die within the first year from heart failure. The good news: PDA is one of the few heart conditions that can be completely cured when detected early.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Orthopedics</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/tta-surgery.html">TTA Surgery in Dogs – Cranial Cruciate Ligament Repair with Tibial Tuberosity Advancement</a></h3>
+        <div class="article-content">
+          <p>Cranial cruciate ligament (CCL) rupture is one of the most common orthopedic problems in dogs. A damaged cruciate ligament causes knee joint instability, pain, limping, and leads to arthritis if left untreated. TTA, or tibial tuberosity advancement, is a modern surgical method that corrects knee joint biomechanics without replacing the ligament.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="endoscopy">
+        <div class="article-header">
+          <span class="article-tag">Endoscopy</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/video-otoscopy.html">Video-Otoscopy – Ear Endoscopy in Dogs and Cats</a></h3>
+        <div class="article-content">
+          <p>Ear infections are one of the most common reasons for veterinary visits. With a traditional otoscope, visibility is limited to the outer parts of the ear canal, but video-otoscopy brings an entirely new level of diagnostics and treatment. The method uses a thin, rigid endoscope with a high-definition camera and bright light inserted into the ear canal — the image is projected magnified onto a monitor in real time.</p>
+        </div>
+      </article>
+      <article class="article-card" data-category="surgery">
+        <div class="article-header">
+          <span class="article-tag">Anesthesia</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/pain-relief-infusion.html">Continuous Rate Infusion (CRI) — Steady Pain Management During Surgery</a></h3>
+        <div class="article-content">
+          <p>Pain management is one of the most important aspects of veterinary surgery. At our clinic, we use continuous rate infusion (CRI) as the standard method for all painful surgeries — from soft tissue to orthopedic procedures. CRI means that pain medications are delivered as a steady intravenous stream throughout surgery, rather than as single bolus doses.</p>
+        </div>
+      </article>
 
       <a href="/en/" class="btn btn-secondary articles-back">← Back to homepage</a>
     </div>
