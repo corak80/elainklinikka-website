@@ -2672,16 +2672,14 @@ function initScrollAnimations() {
 // --- Articles Toggle ---
 function showMainPage() {
   const articlesSection = document.getElementById('articles');
-  const privacySection = document.getElementById('privacy');
   const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
-  articlesSection.style.display = 'none';
-  privacySection.style.display = 'none';
+  if (articlesSection) articlesSection.style.display = 'none';
   mainSections.forEach(el => el.style.display = '');
 }
 
 function toggleArticles() {
   const articlesSection = document.getElementById('articles');
-  const privacySection = document.getElementById('privacy');
+  if (!articlesSection) return;
   const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
   const isShowing = articlesSection.style.display !== 'none';
 
@@ -2691,7 +2689,6 @@ function toggleArticles() {
     history.pushState({ page: 'main' }, '', window.location.pathname);
   } else {
     mainSections.forEach(el => el.style.display = 'none');
-    privacySection.style.display = 'none';
     articlesSection.style.display = '';
     filterArticles('all');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -3154,8 +3151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (link.getAttribute('onclick')) return; // skip the Articles link
     link.addEventListener('click', () => {
       const articlesSection = document.getElementById('articles');
-      const privacySection = document.getElementById('privacy');
-      const anyOverlay = (articlesSection && articlesSection.style.display !== 'none') || (privacySection && privacySection.style.display !== 'none');
+      const anyOverlay = articlesSection && articlesSection.style.display !== 'none';
       if (anyOverlay) {
         showMainPage();
         history.pushState({ page: 'main' }, '', window.location.pathname + link.getAttribute('href'));
@@ -3168,21 +3164,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const state = e.state;
     if (state && state.page === 'articles') {
       const articlesSection = document.getElementById('articles');
-      const privacySection = document.getElementById('privacy');
+      if (!articlesSection) { showMainPage(); return; }
       const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
       mainSections.forEach(el => el.style.display = 'none');
-      privacySection.style.display = 'none';
       articlesSection.style.display = '';
       filterArticles('all');
-      window.scrollTo({ top: 0 });
-      setLanguage(currentLang);
-    } else if (state && state.page === 'privacy') {
-      const articlesSection = document.getElementById('articles');
-      const privacySection = document.getElementById('privacy');
-      const mainSections = document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero');
-      mainSections.forEach(el => el.style.display = 'none');
-      articlesSection.style.display = 'none';
-      privacySection.style.display = '';
       window.scrollTo({ top: 0 });
       setLanguage(currentLang);
     } else {
