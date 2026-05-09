@@ -1508,6 +1508,7 @@ const servicePages = [
     },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Cardiology',
+    offers: { lowPrice: '37', highPrice: '476' },
     faq: [
       { q: 'Miten tiedän, onko lemmikkilläni sydänsairaus?', a: 'Oireita voivat olla yskiminen, rasituksen sietokyvyn heikkeneminen, tiheä hengitys tai pyörtyily. Monilla roduilla (Cavalier, Dobermann, Maine Coon) suosittelemme tutkimusta jo nuorella iällä, ennen kuin oireita ilmenee.' },
       { q: 'Paljonko sydämen ultraääni maksaa?', a: 'Sydäntutkimuksen hinta riippuu tutkimuksen laajuudesta. Ota yhteyttä klinikkaan saadaksesi tarkemman hinta-arvion. Puhelin (06) 321 7300.' },
@@ -1796,7 +1797,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['avoin-valtimotiehyt-pda', 'ibd-lymfooma', 'munuaisten-vajaatoiminta'],
-    schemaService: 'Veterinary Ultrasound'
+    schemaService: 'Veterinary Ultrasound',
+    offers: { lowPrice: '118', highPrice: '476' }
   },
   {
     slug: 'ihotaudit',
@@ -2099,7 +2101,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['anestesiaturvallisuus', 'tta-leikkaus', 'lateral-suture'],
-    schemaService: 'Official Veterinary Examinations'
+    schemaService: 'Official Veterinary Examinations',
+    offers: { lowPrice: '37', highPrice: '453' }
   },
   {
     slug: 'sterilisaatio',
@@ -2383,7 +2386,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
-    schemaService: 'Veterinary Radiology'
+    schemaService: 'Veterinary Radiology',
+    offers: { lowPrice: '59', highPrice: '453' }
   },
   {
     slug: 'eutanasia',
@@ -2488,7 +2492,8 @@ const servicePages = [
       relatedTitle: 'Related articles',
     },
     relatedArticles: ['rokotukset', 'yksityinen-klinikka'],
-    schemaService: 'EU Pet Passport Services'
+    schemaService: 'EU Pet Passport Services',
+    offers: { lowPrice: '38', highPrice: '81' }
   },
   {
     slug: 'verikokeet',
@@ -2759,7 +2764,8 @@ const servicePages = [
     },
     relatedArticles: ['kohtutulehdus', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Castration',
-    procedureType: 'SurgicalProcedure'
+    procedureType: 'SurgicalProcedure',
+    offers: { lowPrice: '108', highPrice: '553' }
   },
   {
     slug: 'ortopedia',
