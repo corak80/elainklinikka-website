@@ -62,7 +62,12 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-15',
     sections: ['intro', 'how.title', 'how.text', 'vs.title', 'vs.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'when.title', 'when.text'],
-    prefix: 'article.tta'
+    prefix: 'article.tta',
+    metaDesc: {
+      fi: 'Eturistisiteen repeämä on yksi yleisimmistä ortopedisistä vammoista koirilla. TTA-leikkaus korjaa polvinivelen biomekaniikan moderneilla titaani-implanteilla.',
+      sv: 'Främre korsbandsskada är en av de vanligaste ortopediska skadorna hos hundar. TTA-kirurgi korrigerar knäledens biomekanik med moderna titanimplantat.',
+      en: 'Cranial cruciate ligament rupture is one of the most common orthopedic injuries in dogs. TTA surgery restores knee biomechanics with titanium implants.'
+    }
   },
   {
     slug: 'video-otoskopia',
@@ -243,7 +248,8 @@ const articles = [
     publishDate: '2026-02-15',
     sections: ['intro', 'decline.title', 'decline.text', 'finland.title', 'finland.text', 'threats.title', 'threats.text', 'robots.title', 'robots.text', 'help.title', 'help.text', 'nest.title', 'nest.text'],
     prefix: 'article.hedgehog',
-    hasSpecialContent: true
+    hasSpecialContent: true,
+    skipBuild: true
   },
   {
     slug: 'kissaystävällinen-klinikka',
@@ -714,9 +720,9 @@ function generateArticlePage(article, translations, specialContent, lang) {
     }
   }
   const introKey = `${article.prefix}.intro`;
-  let description = t(introKey);
-  // If intro is too short, append first section text
-  if (description.length < 120) {
+  let description = (article.metaDesc && article.metaDesc[lang]) || t(introKey);
+  // If intro is too short, append first section text (skipped when metaDesc override is in use)
+  if (!(article.metaDesc && article.metaDesc[lang]) && description.length < 120) {
     for (const suffix of article.sections) {
       if (suffix !== 'intro' && suffix.endsWith('.text')) {
         const extra = t(`${article.prefix}.${suffix}`);
@@ -973,7 +979,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
@@ -1266,7 +1272,7 @@ function generateArticleIndex(translations) {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
@@ -3242,7 +3248,7 @@ function generateServicePage(service, translations, lang) {
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
     </div>
@@ -3380,7 +3386,7 @@ function generatePrivacyPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
@@ -3597,7 +3603,7 @@ function generateAboutPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
@@ -3815,7 +3821,7 @@ function generateContactPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.png" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
     </div>
@@ -4253,6 +4259,10 @@ function main() {
   if (!fs.existsSync(enDir)) fs.mkdirSync(enDir, { recursive: true });
 
   for (const article of articles) {
+    if (article.skipBuild) {
+      console.log(`  SKIP ${article.slug} (rendered files preserved — see article.skipBuild)`);
+      continue;
+    }
     // Finnish
     const titleFi = translations[article.titleKey]?.fi || article.slug;
     const htmlFi = generateArticlePage(article, translations, specialContent, 'fi');
