@@ -787,6 +787,8 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   const ogLocales = { fi: 'fi_FI', sv: 'sv_FI', en: 'en_GB' };
   const ogLocale = ogLocales[lang] || 'fi_FI';
+  const brandNames = { fi: 'Eläinklinikka Saari', sv: 'Djurklinik Saari', en: 'Saari Animal Clinic' };
+  const brandName = brandNames[lang] || brandNames.fi;
   const skipTexts = { fi: 'Siirry sisältöön', sv: 'Hoppa till innehållet', en: 'Skip to content' };
   const backTexts = { fi: '← Takaisin etusivulle', sv: '← Tillbaka till startsidan', en: '← Back to homepage' };
   const readAlsoTexts = { fi: 'Lue myös', sv: 'Läs också', en: 'Read also' };
@@ -895,7 +897,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta property="og:description" content="${escapeAttr(description)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="${ogLocale}">
-  <meta property="og:site_name" content="Eläinklinikka Saari">
+  <meta property="og:site_name" content="${brandName}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -1171,9 +1173,9 @@ const ARTICLE_INDEX_I18N = {
   },
   en: {
     htmlLang: 'en',
-    pageTitle: 'Articles | Eläinklinikka Saari',
+    pageTitle: 'Articles | Saari Animal Clinic',
     pageDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy, vaccinations and much more. Saari Animal Clinic, Vaasa.',
-    ogTitle: 'Articles | Eläinklinikka Saari',
+    ogTitle: 'Articles | Saari Animal Clinic',
     ogDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy, vaccinations and much more.',
     twDesc: 'Veterinary articles: dental care, surgery, cardiac disease, endoscopy and much more.',
     h1: 'Articles',
@@ -1196,6 +1198,8 @@ const ARTICLE_INDEX_I18N = {
 function generateArticleIndex(translations, lang) {
   lang = lang || 'fi';
   const i18n = ARTICLE_INDEX_I18N[lang] || ARTICLE_INDEX_I18N.fi;
+  const brandNames = { fi: 'Eläinklinikka Saari', sv: 'Djurklinik Saari', en: 'Saari Animal Clinic' };
+  const brandName = brandNames[lang] || brandNames.fi;
   const t = (key) => (translations[key] && (translations[key][lang] || translations[key].fi)) || '';
 
   // Article-link base differs by lang. Use root-relative so it works regardless of page depth.
@@ -1302,7 +1306,7 @@ function generateArticleIndex(translations, lang) {
   <meta property="og:description" content="${escapeAttr(i18n.ogDesc)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="${i18n.ogLocale}">
-  <meta property="og:site_name" content="Eläinklinikka Saari">
+  <meta property="og:site_name" content="${brandName}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeAttr(i18n.pageTitle)}">
@@ -1466,7 +1470,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Dental Care | Eläinklinikka Saari',
+      title: 'Dental Care | Saari Animal Clinic',
       h1: 'Dental Care',
       metaDesc: 'Dog and cat dental care in Vaasa. Scaling, dental X-rays, extractions. All procedures under general anaesthesia. Eläinklinikka Saari.',
       sections: [
@@ -1554,7 +1558,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Cardiac Examinations | Eläinklinikka Saari',
+      title: 'Cardiac Examinations | Saari Animal Clinic',
       h1: 'Cardiac Examinations',
       metaDesc: 'Cardiac ultrasound, ECG and Holter monitoring for dogs and cats in Vaasa. Official heart screenings. Early treatment extends lifespan. Eläinklinikka Saari.',
       sections: [
@@ -1640,7 +1644,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Surgery | Eläinklinikka Saari',
+      title: 'Surgery | Saari Animal Clinic',
       h1: 'Surgery',
       metaDesc: 'Veterinary surgery in Vaasa: soft tissue, orthopaedics, TTA, lateral suture, fracture repair. Safe anaesthesia. Eläinklinikka Saari.',
       sections: [
@@ -1714,7 +1718,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Endoscopy | Eläinklinikka Saari',
+      title: 'Endoscopy | Saari Animal Clinic',
       h1: 'Endoscopy',
       metaDesc: 'Endoscopy in Vaasa: gastroscopy, video otoscopy, rhinoscopy, cystoscopy, bronchoscopy. Minimally invasive diagnostics for pets. Eläinklinikka Saari.',
       sections: [
@@ -1782,7 +1786,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Vaccinations | Eläinklinikka Saari',
+      title: 'Vaccinations | Saari Animal Clinic',
       h1: 'Vaccinations',
       metaDesc: 'Dog and cat vaccinations in Vaasa. Puppy vaccination programme, booster vaccinations, rabies and travel documents. Book at Eläinklinikka Saari.',
       sections: [
@@ -1855,7 +1859,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Ultrasound | Eläinklinikka Saari',
+      title: 'Ultrasound | Saari Animal Clinic',
       h1: 'Ultrasound Examinations',
       metaDesc: 'Ultrasound examinations in Vaasa: abdominal ultrasound, cardiac ultrasound, pregnancy scanning. Quality diagnostics for pets. Eläinklinikka Saari.',
       sections: [
@@ -1910,7 +1914,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Dermatology | Eläinklinikka Saari',
+      title: 'Dermatology | Saari Animal Clinic',
       h1: 'Skin Diseases and Allergies',
       metaDesc: 'Dog and cat dermatology and allergies in Vaasa. Allergy testing, ear infections, itching, skin infections. Diagnosis and treatment. Eläinklinikka Saari.',
       sections: [
@@ -1978,7 +1982,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Senior Pet Check-up €299 | Eläinklinikka Saari',
+      title: 'Senior Pet Check-up €299 | Saari Animal Clinic',
       h1: 'Senior Pet Check-up €299',
       metaDesc: 'Senior Pet Check-up €299 — vet visit, blood sample and IDEXX laboratory panel in one price. Health check-up for ageing pets in Vaasa.',
       sections: [
@@ -2051,7 +2055,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Puppy Check-up and Microchip | Eläinklinikka Saari',
+      title: 'Puppy Check-up and Microchip | Saari Animal Clinic',
       h1: 'Puppy Check-up',
       metaDesc: 'Puppy and kitten health check in Vaasa. Health examination, microchipping, vaccination programme, deworming. Book at Eläinklinikka Saari.',
       sections: [
@@ -2105,7 +2109,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Acupuncture | Eläinklinikka Saari',
+      title: 'Acupuncture | Saari Animal Clinic',
       h1: 'Acupuncture',
       metaDesc: 'Veterinary acupuncture in Vaasa. Pain relief, musculoskeletal conditions, neurological symptoms. Specially trained veterinarian. Eläinklinikka Saari.',
       sections: [
@@ -2159,7 +2163,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Official Examinations | Eläinklinikka Saari',
+      title: 'Official Examinations | Saari Animal Clinic',
       h1: 'Official Examinations',
       metaDesc: 'Official hip, elbow, patella and cardiac examinations in Vaasa. Finnish Kennel Club approved examiner. Breeding evaluations. Eläinklinikka Saari.',
       sections: [
@@ -2217,7 +2221,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Spaying | Eläinklinikka Saari',
+      title: 'Spaying | Saari Animal Clinic',
       h1: 'Spaying',
       metaDesc: 'Spaying for female dogs, cats and rabbits in Vaasa. Ovariectomy and ovariohysterectomy under inhalation anaesthesia, comprehensive pain management. Eläinklinikka Saari.',
       sections: [
@@ -2283,7 +2287,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Internal Medicine | Eläinklinikka Saari',
+      title: 'Internal Medicine | Saari Animal Clinic',
       h1: 'Internal Medicine',
       metaDesc: 'Veterinary internal medicine in Vaasa: diabetes, Cushing\'s disease, pancreatitis, anaemia. Thorough diagnostics and treatment. Eläinklinikka Saari.',
       sections: [
@@ -2337,7 +2341,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Ophthalmology | Eläinklinikka Saari',
+      title: 'Ophthalmology | Saari Animal Clinic',
       h1: 'Ophthalmology',
       metaDesc: 'Veterinary ophthalmology in Vaasa: corneal ulcers, glaucoma, dry eye, cataracts, eyelid diseases. Examination and treatment. Eläinklinikka Saari.',
       sections: [
@@ -2389,7 +2393,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Laboratory | Eläinklinikka Saari',
+      title: 'Laboratory | Saari Animal Clinic',
       h1: 'Laboratory',
       metaDesc: 'In-house veterinary laboratory in Vaasa: blood tests, urinalysis, cytology, hormone testing. Results during your visit. Eläinklinikka Saari.',
       sections: [
@@ -2442,7 +2446,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'X-ray | Eläinklinikka Saari',
+      title: 'X-ray | Saari Animal Clinic',
       h1: 'X-ray',
       metaDesc: 'Digital X-ray and dental radiography for pets in Vaasa. High-quality imaging, rapid results. Official radiographic examinations. Eläinklinikka Saari.',
       sections: [
@@ -2495,7 +2499,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Euthanasia | Eläinklinikka Saari',
+      title: 'Euthanasia | Saari Animal Clinic',
       h1: 'Euthanasia — your pet\'s final journey',
       metaDesc: 'Peaceful and dignified pet euthanasia in Vaasa. Pain-free with sedation. Cremation and individual cremation options. Grief support. Eläinklinikka Saari.',
       sections: [
@@ -2548,7 +2552,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'EU Pet Passport | Eläinklinikka Saari',
+      title: 'EU Pet Passport | Saari Animal Clinic',
       h1: 'EU Pet Passport',
       metaDesc: 'EU pet passport and travel documents in Vaasa. Rabies vaccination, titre testing, health certificates. Travel safely with your pet. Eläinklinikka Saari.',
       sections: [
@@ -2603,7 +2607,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Blood Tests | Eläinklinikka Saari',
+      title: 'Blood Tests | Saari Animal Clinic',
       h1: 'Blood Tests',
       metaDesc: 'Pet blood tests in Vaasa. In-house laboratory with fast results during your visit. Haematology, clinical chemistry, hormones. Eläinklinikka Saari.',
       sections: [
@@ -2657,7 +2661,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Pregnancy Examination | Eläinklinikka Saari',
+      title: 'Pregnancy Examination | Saari Animal Clinic',
       h1: 'Pregnancy Examination',
       metaDesc: 'Pregnancy examination for dogs and cats in Vaasa. Ultrasound, X-ray, fetal monitoring, C-section planning. Book at Eläinklinikka Saari.',
       sections: [
@@ -2711,7 +2715,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Prescription Diets | Eläinklinikka Saari',
+      title: 'Prescription Diets | Saari Animal Clinic',
       h1: 'Prescription Diets',
       metaDesc: 'Prescription diets for pets in Vaasa. Royal Canin, Specific, Hill\'s. Joint disease, kidney disease, allergies, weight management. Eläinklinikka Saari.',
       sections: [
@@ -2765,7 +2769,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Wellness and Rehabilitation | Eläinklinikka Saari',
+      title: 'Wellness and Rehabilitation | Saari Animal Clinic',
       h1: 'Wellness and Rehabilitation',
       metaDesc: 'Veterinary rehabilitation in Vaasa. Mobility analysis, massage, electrotherapy, exercise programmes, post-surgical rehab. Eläinklinikka Saari.',
       sections: [
@@ -2819,7 +2823,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Castration | Eläinklinikka Saari',
+      title: 'Castration | Saari Animal Clinic',
       h1: 'Castration',
       metaDesc: 'Dog, cat and rabbit castration in Vaasa. Chemical castration with Suprelorin implant. Inhalation anaesthesia. Book at Eläinklinikka Saari.',
       sections: [
@@ -2883,7 +2887,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Orthopaedics | Eläinklinikka Saari',
+      title: 'Orthopaedics | Saari Animal Clinic',
       h1: 'Orthopaedics',
       metaDesc: 'Veterinary orthopaedics in Vaasa: cruciate ligament repair (TTA, lateral suture), fracture surgery, amputations, official X-rays. Eläinklinikka Saari.',
       sections: [
@@ -2955,7 +2959,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Anaesthesia | Eläinklinikka Saari',
+      title: 'Anaesthesia | Saari Animal Clinic',
       h1: 'Anaesthesia',
       metaDesc: 'Safe veterinary anaesthesia in Vaasa. Inhalation anaesthesia, continuous monitoring, two ventilators, balanced protocol. Eläinklinikka Saari.',
       sections: [
@@ -3009,7 +3013,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Hygiene | Eläinklinikka Saari',
+      title: 'Hygiene | Saari Animal Clinic',
       h1: 'Hygiene',
       metaDesc: 'High hygiene standards at the veterinary clinic in Vaasa. Surface disinfection, UV disinfection, ISFM cat-friendly standards. Eläinklinikka Saari.',
       sections: [
@@ -3082,6 +3086,10 @@ function generateServicePage(service, translations, lang) {
   // OG locale
   const ogLocales = { fi: 'fi_FI', sv: 'sv_FI', en: 'en_GB' };
   const ogLocale = ogLocales[lang] || 'fi_FI';
+
+  // Brand by language (used in og:title, twitter:title, og:site_name suffix)
+  const brandNames = { fi: 'Eläinklinikka Saari', sv: 'Djurklinik Saari', en: 'Saari Animal Clinic' };
+  const brandName = brandNames[lang] || brandNames.fi;
 
   // URLs for all language versions
   const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
@@ -3228,14 +3236,14 @@ function generateServicePage(service, translations, lang) {
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${canonicalUrl}">
-  <meta property="og:title" content="${escapeAttr(pageH1)} — Eläinklinikka Saari">
+  <meta property="og:title" content="${escapeAttr(pageH1)} | ${brandName}">
   <meta property="og:description" content="${escapeAttr(pageMetaDesc)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="${ogLocale}">
-  <meta property="og:site_name" content="Eläinklinikka Saari">
+  <meta property="og:site_name" content="${brandName}">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeAttr(pageH1)} — Eläinklinikka Saari">
+  <meta name="twitter:title" content="${escapeAttr(pageH1)} | ${brandName}">
   <meta name="twitter:description" content="${escapeAttr(pageMetaDesc)}">
   <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
 
@@ -3629,7 +3637,7 @@ function generateAboutPage() {
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/meista/">
-  <meta property="og:title" content="Tietoa klinikasta — Eläinklinikka Saari">
+  <meta property="og:title" content="Tietoa klinikasta | Eläinklinikka Saari">
   <meta property="og:description" content="Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, ISFM-kissaystävällinen klinikka.">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="fi_FI">
@@ -3843,7 +3851,7 @@ function generateContactPage() {
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/yhteystiedot/">
-  <meta property="og:title" content="Yhteystiedot — Eläinklinikka Saari">
+  <meta property="og:title" content="Yhteystiedot | Eläinklinikka Saari">
   <meta property="og:description" content="Eläinklinikka Saari, Gerbyntie 18, 65230 Vaasa. Puhelin (06) 321 7300. Ajanvaraus verkossa.">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="fi_FI">
