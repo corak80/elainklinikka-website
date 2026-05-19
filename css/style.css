@@ -1371,6 +1371,153 @@ a.service-card-link {
   flex-wrap: wrap;
 }
 
+/* --- Emergency page components (paivystys / jour / emergency) --- */
+.emergency-symptoms,
+.emergency-steps {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.emergency-symptoms li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+  color: var(--color-text-light);
+}
+
+.emergency-symptoms li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  top: -0.05em;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.emergency-symptoms li strong,
+.emergency-steps li strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.emergency-steps {
+  counter-reset: emergency-step;
+}
+
+.emergency-steps li {
+  counter-increment: emergency-step;
+  position: relative;
+  padding-left: 2.75rem;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.7;
+  color: var(--color-text-light);
+  min-height: 1.85rem;
+}
+
+.emergency-steps li::before {
+  content: counter(emergency-step);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 1.85rem;
+  height: 1.85rem;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.emergency-card {
+  max-width: 560px;
+  margin: var(--spacing-md) auto;
+  padding: var(--spacing-md) var(--spacing-md) var(--spacing-sm);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, #fff 100%);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: 0 4px 16px var(--color-shadow);
+}
+
+.emergency-card-label {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.emergency-card-number {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-text);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin-bottom: 0.4rem;
+  transition: color 0.2s ease;
+}
+
+.emergency-card-number:hover,
+.emergency-card-number:focus-visible {
+  color: var(--color-primary-dark);
+}
+
+.emergency-card-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: 0.5rem;
+}
+
+.emergency-card-coverage {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding-top: 0.5rem;
+}
+
+.emergency-hospital {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.emergency-hospital strong {
+  color: var(--color-text);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.emergency-hospital .hospital-meta {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: 1.55;
+}
+
+@media (max-width: 480px) {
+  .emergency-card-number {
+    font-size: 2rem;
+  }
+  .emergency-steps li {
+    padding-left: 2.5rem;
+  }
+}
+
 /* --- Related Services (article → service link) --- */
 .related-services {
   max-width: 800px;
