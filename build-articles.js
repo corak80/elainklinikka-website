@@ -3951,6 +3951,304 @@ ${reviewCards}
 }
 
 // ──────────────────────────────────────────────
+// 9y. Generate Booking page (/ajanvaraus/ /sv/tidsbokning/ /en/book-appointment/)
+// ──────────────────────────────────────────────
+function generateBookingPage(lang) {
+  const i18n = {
+    fi: {
+      htmlLang: 'fi', ogLocale: 'fi_FI',
+      pageTitle: 'Varaa aika | Eläinklinikka Saari',
+      h1: 'Varaa aika',
+      metaDesc: 'Ota yhteyttä Eläinklinikka Saareen Vaasaan: soitto (06) 321 7300, verkkoajanvaraus, WhatsApp tai sähköposti info@saarivet.fi. Aukioloajat ma–pe 9–17.',
+      brandName: 'Eläinklinikka Saari',
+      subtitle: 'Neljä tapaa ottaa yhteyttä Eläinklinikka Saareen Vaasaan',
+      methodsHeading: 'Neljä tapaa ottaa yhteyttä',
+      callTitle: 'Soita meille',
+      callMeta: 'Maanantai–perjantai 9–17',
+      callPhoneLabel: '(06) 321 7300',
+      onlineTitle: 'Varaa verkossa',
+      onlineMeta: '',
+      onlineCta: 'Avaa verkkoajanvaraus',
+      whatsappTitle: 'WhatsApp',
+      whatsappMeta: '24/7 AI-konsultaatio',
+      whatsappCta: 'Avaa WhatsApp-keskustelu',
+      emailTitle: 'Sähköposti',
+      emailMeta: 'Vastausaika n. 1 työpäivä',
+      emailAddress: 'info@saarivet.fi',
+      practicalInfo: 'Käytännön tietoa',
+      hoursHeading: 'Aukioloajat',
+      hoursWeekday: 'Maanantai – perjantai 9.00 – 17.00',
+      hoursClosed: 'Lauantaisin ja sunnuntaisin suljettu',
+      hoursWalkin: 'Drop-in rokotukset tiistaisin klo 15.30 – 16.00 (ilman ajanvarausta)',
+      acuteHeading: 'Akuutit ja päivystys',
+      acuteText: 'Varaamme päivittäin akuuttiaikoja kiireellisiä tapauksia varten. Soita ensin numeroon (06) 321 7300, niin saamme valmistauduttua. Iltaisin ja viikonloppuisin alueen päivystysnumero on 0600 399 299.',
+      acuteLink: 'Katso päivystysohjeet →',
+      bringHeading: 'Mitä ottaa mukaan vastaanotolle',
+      bringList: [
+        'Lemmikkipassi tai rokotuskortti',
+        'Aiemmat tutkimustulokset, jos olette käyneet toisella klinikalla',
+        'Tieto käytössä olevista lääkkeistä ja ruokavaliosta',
+        'Koira hihnassa tai turvavaljaissa, kissa kantokopassa',
+        'Halutessanne tarinanne lemmikin oireista — kuinka kauan, miten muuttunut',
+      ],
+      locationHeading: 'Sijainti',
+      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Dragnäsbäck)',
+      locationDirections: 'Avaa Google Mapsissa',
+      backToHome: '← Takaisin etusivulle',
+      skipLink: 'Siirry sisältöön',
+    },
+    sv: {
+      htmlLang: 'sv', ogLocale: 'sv_FI',
+      pageTitle: 'Boka tid | Djurklinik Saari',
+      h1: 'Boka tid',
+      metaDesc: 'Kontakta Djurklinik Saari i Vasa: telefon (06) 321 7300, onlinebokning, WhatsApp eller e-post info@saarivet.fi. Öppettider må–fre 9–17.',
+      brandName: 'Djurklinik Saari',
+      subtitle: 'Fyra sätt att kontakta Djurklinik Saari i Vasa',
+      methodsHeading: 'Fyra sätt att kontakta oss',
+      callTitle: 'Ring oss',
+      callMeta: 'Måndag–fredag 9–17',
+      callPhoneLabel: '(06) 321 7300',
+      onlineTitle: 'Boka online',
+      onlineMeta: '',
+      onlineCta: 'Öppna onlinebokningen',
+      whatsappTitle: 'WhatsApp',
+      whatsappMeta: '24/7 AI-konsultation',
+      whatsappCta: 'Öppna WhatsApp-chatten',
+      emailTitle: 'E-post',
+      emailMeta: 'Svar inom ca 1 arbetsdag',
+      emailAddress: 'info@saarivet.fi',
+      practicalInfo: 'Praktisk information',
+      hoursHeading: 'Öppettider',
+      hoursWeekday: 'Måndag – fredag 9.00 – 17.00',
+      hoursClosed: 'Lördag och söndag stängt',
+      hoursWalkin: 'Drop-in-vaccinationer tisdagar kl. 15.30 – 16.00 (ingen tidsbokning behövs)',
+      acuteHeading: 'Akut och jour',
+      acuteText: 'Vi reserverar dagligen akuttider för brådskande fall. Ring först (06) 321 7300 så hinner vi förbereda mottagningen. Kvällar och helger är regionens jourtelefon 0600 399 299.',
+      acuteLink: 'Se jouranvisningar →',
+      bringHeading: 'Vad ta med till besöket',
+      bringList: [
+        'Husdjurspass eller vaccinationskort',
+        'Tidigare undersökningsresultat om ni varit hos en annan klinik',
+        'Information om aktuella läkemedel och kost',
+        'Hund i koppel eller sele, katt i transportbur',
+        'Gärna en kort historia om symtomen — hur länge, hur de förändrats',
+      ],
+      locationHeading: 'Plats',
+      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockis-kurvan, Dragnäsbäck)',
+      locationDirections: 'Öppna i Google Maps',
+      backToHome: '← Tillbaka till startsidan',
+      skipLink: 'Hoppa till innehållet',
+    },
+    en: {
+      htmlLang: 'en', ogLocale: 'en_GB',
+      pageTitle: 'Book an appointment | Saari Animal Clinic',
+      h1: 'Book an appointment',
+      metaDesc: 'Contact Saari Animal Clinic in Vaasa: call (06) 321 7300, online booking, WhatsApp, or email info@saarivet.fi. Hours Mon–Fri 9–17.',
+      brandName: 'Saari Animal Clinic',
+      subtitle: 'Four ways to contact Saari Animal Clinic in Vaasa',
+      methodsHeading: 'Four ways to contact us',
+      callTitle: 'Call us',
+      callMeta: 'Monday–Friday 9–17',
+      callPhoneLabel: '(06) 321 7300',
+      onlineTitle: 'Book online',
+      onlineMeta: '',
+      onlineCta: 'Open online booking',
+      whatsappTitle: 'WhatsApp',
+      whatsappMeta: '24/7 AI consult',
+      whatsappCta: 'Open WhatsApp chat',
+      emailTitle: 'Email',
+      emailMeta: 'Reply within ~1 business day',
+      emailAddress: 'info@saarivet.fi',
+      practicalInfo: 'Practical information',
+      hoursHeading: 'Opening hours',
+      hoursWeekday: 'Monday – Friday 9:00 – 17:00',
+      hoursClosed: 'Closed Saturday and Sunday',
+      hoursWalkin: 'Walk-in vaccinations on Tuesdays 15:30 – 16:00 (no appointment needed)',
+      acuteHeading: 'Acute cases and after-hours',
+      acuteText: 'We reserve daily acute appointment slots for urgent cases. Call (06) 321 7300 first so we can prepare. Evenings and weekends: the regional emergency hotline is 0600 399 299.',
+      acuteLink: 'See emergency guidance →',
+      bringHeading: 'What to bring to your visit',
+      bringList: [
+        'Pet passport or vaccination card',
+        'Previous examination results if you have been to another clinic',
+        'Information about current medications and diet',
+        'Dog on a leash or harness, cat in a carrier',
+        'A short summary of symptoms — how long, how they have changed',
+      ],
+      locationHeading: 'Location',
+      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Dragnäsbäck)',
+      locationDirections: 'Open in Google Maps',
+      backToHome: '← Back to homepage',
+      skipLink: 'Skip to content',
+    },
+  }[lang];
+  if (!i18n) throw new Error(`Unknown lang: ${lang}`);
+
+  const urls = {
+    fi: `${BASE_URL}/ajanvaraus/`,
+    sv: `${BASE_URL}/sv/tidsbokning/`,
+    en: `${BASE_URL}/en/book-appointment/`,
+  };
+  const canonicalUrl = urls[lang];
+  const homeUrl = lang === 'fi' ? '/' : `/${lang}/`;
+  const assetPrefix = lang === 'fi' ? '../' : '../../';
+
+  const provetUrl = 'https://my.provet.com/elainklinikka-saari';
+  const whatsappUrl = 'https://wa.me/35863217300';
+  const mapsUrl = 'https://maps.google.com/?q=Gerbyntie+18+Vaasa';
+  const paivystysUrl = {
+    fi: '/palvelut/paivystys/',
+    sv: '/sv/tjanster/jour/',
+    en: '/en/services/emergency/',
+  }[lang];
+
+  // JSON-LD: ContactPage + VeterinaryCare with openingHoursSpecification
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: i18n.pageTitle,
+    description: i18n.metaDesc,
+    url: canonicalUrl,
+    inLanguage: lang,
+    isPartOf: { '@type': 'WebSite', name: i18n.brandName, url: BASE_URL },
+    about: {
+      '@type': 'VeterinaryCare',
+      name: i18n.brandName,
+      url: BASE_URL,
+      telephone: '+358-6-321-7300',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Gerbyntie 18',
+        postalCode: '65230',
+        addressLocality: 'Vaasa',
+        addressCountry: 'FI',
+      },
+      openingHoursSpecification: [
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '09:00', closes: '17:00' },
+      ],
+      potentialAction: {
+        '@type': 'ReserveAction',
+        target: provetUrl,
+        name: i18n.onlineCta,
+      },
+    },
+  };
+
+  const bringListHtml = i18n.bringList.map((item) => `        <li>${escapeHtml(item)}</li>`).join('\n');
+
+  return `<!DOCTYPE html>
+<html lang="${i18n.htmlLang}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <title>${escapeHtml(i18n.pageTitle)}</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'AW-816483191');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+
+  <meta name="description" content="${escapeAttr(i18n.metaDesc)}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${urls.fi}">
+  <link rel="alternate" hreflang="sv" href="${urls.sv}">
+  <link rel="alternate" hreflang="en" href="${urls.en}">
+  <link rel="alternate" hreflang="x-default" href="${urls.fi}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:title" content="${escapeAttr(i18n.pageTitle)}">
+  <meta property="og:description" content="${escapeAttr(i18n.metaDesc)}">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="${i18n.ogLocale}">
+  <meta property="og:site_name" content="${i18n.brandName}">
+
+  <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
+
+  <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+</head>
+<body class="article-page">
+
+  <a href="#main-content" class="skip-link">${escapeHtml(i18n.skipLink)}</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="${homeUrl}" class="logo">
+        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="${i18n.brandName}" width="240" height="240"></div>
+        <span class="logo-text">${i18n.brandName}</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="article-page">
+      <div class="container">
+        <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.backToHome)}</a>
+
+        <header class="booking-hero">
+          <h1>${escapeHtml(i18n.h1)}</h1>
+          <p class="booking-subtitle">${escapeHtml(i18n.subtitle)}</p>
+        </header>
+
+        <a class="booking-primary" href="tel:+35863217300" onclick="gtag_report_conversion();">
+          <span class="booking-primary-icon">📞</span>
+          <span class="booking-primary-eyebrow">${escapeHtml(i18n.callTitle)}</span>
+          <span class="booking-primary-number">${escapeHtml(i18n.callPhoneLabel)}</span>
+          <span class="booking-primary-meta">${escapeHtml(i18n.callMeta)}</span>
+        </a>
+
+        <section class="booking-secondary" aria-label="${escapeAttr(i18n.methodsHeading)}">
+          <a class="booking-method booking-method--online" href="${provetUrl}" target="_blank" rel="noopener" onclick="if(typeof fbq==='function')fbq('track','Schedule');">
+            <span class="booking-method-icon">🌐</span>
+            <span class="booking-method-title">${escapeHtml(i18n.onlineTitle)}</span>
+            <span class="booking-method-value">${escapeHtml(i18n.onlineCta)} →</span>
+${i18n.onlineMeta ? `            <span class="booking-method-meta">${escapeHtml(i18n.onlineMeta)}</span>` : ''}
+          </a>
+          <a class="booking-method booking-method--whatsapp" href="${whatsappUrl}" target="_blank" rel="noopener">
+            <span class="booking-method-icon">💬</span>
+            <span class="booking-method-title">${escapeHtml(i18n.whatsappTitle)}</span>
+            <span class="booking-method-value">${escapeHtml(i18n.whatsappCta)} →</span>
+            <span class="booking-method-meta">${escapeHtml(i18n.whatsappMeta)}</span>
+          </a>
+          <a class="booking-method booking-method--email" href="mailto:info@saarivet.fi">
+            <span class="booking-method-icon">✉️</span>
+            <span class="booking-method-title">${escapeHtml(i18n.emailTitle)}</span>
+            <span class="booking-method-value">${escapeHtml(i18n.emailAddress)}</span>
+            <span class="booking-method-meta">${escapeHtml(i18n.emailMeta)}</span>
+          </a>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="${assetPrefix}js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
 // 9a. Generate About page (/meista/)
 // ──────────────────────────────────────────────
 function generateAboutPage() {
@@ -4557,6 +4855,34 @@ ${reviewsHreflang}  </url>
 ${reviewsHreflang}  </url>
 `;
 
+  // Booking pages (FI/SV/EN, hreflang-linked)
+  const bookingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/ajanvaraus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/tidsbokning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/book-appointment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/ajanvaraus/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/ajanvaraus/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+${bookingHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/tidsbokning/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${bookingHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/book-appointment/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${bookingHreflang}  </url>
+`;
+
   // City-targeted landing pages (FI + SV + EN, hreflang-linked)
   const landingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/elainlaakari-vaasa/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-vasa/"/>
@@ -4886,6 +5212,20 @@ function main() {
   for (const t of reviewsTargets) {
     if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
     const html = generateReviewsPage(t.lang);
+    fs.writeFileSync(path.join(t.dir, 'index.html'), html, 'utf-8');
+    console.log(`  Generated ${t.label}`);
+  }
+
+  // Generate booking pages (FI, SV, EN)
+  console.log('\nBuilding booking pages...');
+  const bookingTargets = [
+    { lang: 'fi', dir: path.join(ROOT, 'ajanvaraus'), label: 'ajanvaraus/index.html' },
+    { lang: 'sv', dir: path.join(ROOT, 'sv', 'tidsbokning'), label: 'sv/tidsbokning/index.html' },
+    { lang: 'en', dir: path.join(ROOT, 'en', 'book-appointment'), label: 'en/book-appointment/index.html' },
+  ];
+  for (const t of bookingTargets) {
+    if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
+    const html = generateBookingPage(t.lang);
     fs.writeFileSync(path.join(t.dir, 'index.html'), html, 'utf-8');
     console.log(`  Generated ${t.label}`);
   }
