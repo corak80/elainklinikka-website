@@ -187,6 +187,7 @@ const translations = {
   },
 
   // Individual services
+  'service.emergency': { fi: 'Päivystys', sv: 'Jour', en: 'Emergency' },
   'service.acupuncture': { fi: 'Akupunktio', sv: 'Akupunktur', en: 'Acupuncture' },
   'service.bloodtests': { fi: 'Verikokeet', sv: 'Blodprov', en: 'Blood Tests' },
   'service.dermatology': { fi: 'Ihotaudit ja allergiat', sv: 'Dermatologi och allergier', en: 'Dermatology & Allergies' },
@@ -217,6 +218,11 @@ const translations = {
   'service.hygiene': { fi: 'Hygienia', sv: 'Hygien', en: 'Hygiene' },
 
   // Service descriptions
+  'service.desc.emergency': {
+    fi: 'Päivittäin varatut akuuttiajat arkisin 9–17. Iltaisin ja viikonloppuisin Pohjoisen päivystysalueen numero 0600 399 299. Hätätilanteen ensiapu ja toimintaohjeet.',
+    sv: 'Dagliga akuttider vardagar 9–17. Kvällar och helger Norra jourområdets nummer 0600 399 299. Råd om första hjälpen vid nödsituationer.',
+    en: 'Daily reserved acute slots weekdays 9–17. Evenings and weekends: regional hotline 0600 399 299. First aid guidance for emergencies.'
+  },
   'service.desc.acupuncture': {
     fi: 'Akupunktiota käytetään kivunlievennykseen ja joidenkin tautien hoitoon. Akupunktiota klinikalla tekee Assaf, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa.',
     sv: 'Akupunktur används till smärtlindring och för behandling av vissa sjukdomar. Behandlingen utförs av Assaf, som har vidareutbildning inom akupunktur för hundar och hästar.',
