@@ -3666,20 +3666,35 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
 // 9z. Generate Reviews page (/arvostelut/ /sv/omdomen/ /en/reviews/)
 // ──────────────────────────────────────────────
 const REVIEWS = [
-  { author: 'Kent M',                       lang: 'en', date: '2025-08-20', rating: 5, source: 'Google', body: 'Great and very friendly service' },
-  { author: 'Noora Kokkinen',               lang: 'fi', date: '2025-04-15', rating: 5, source: 'Google', body: 'Ihana eläinlääkäriasema. Leena eläinlääkärille ja hoitajalle iso kimppu ruusuja hyvästä ja eläinlähtöisestä palvelusta. Asiakkaana 1-vuotias uroskoira, jolle jäi hyvä mieli vaikka tutkimukset vähän jännittivät. Lisätty (15.4.2025) Kävimme taas lääkärissä. Tällä kertaa Eläinlääkäri Pamela tutki. Erittäin osaava ja kaikki selvisi mitä pitikin. Kiitos taas hyvästä eläinlääkäri kokemuksesta! Teillä on kiva käydä. :)' },
-  { author: 'Cay-Håkan Englund',            lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google', body: 'Mycket bra service.' },
-  { author: 'Tea Antila',                   lang: 'fi', date: '2025-05-20', rating: 5, source: 'Google', body: 'Erittäin ystävällinen henkilökunta, koira tuli kuntoon 💙' },
-  { author: 'Anki Westergård',              lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google', body: 'Vill tacka för den bästa vården! Vår katt Asla som varit sjuk länge och som inte fått rätt behandling på en annan veterinärklinik fick äntligen hjälp (Assaf🙏). Ni har verkligen fått oss som trogna stamkunder hädanefter!' },
-  { author: 'Mugi Badam',                   lang: 'en', date: '2025-05-20', rating: 5, source: 'Google', body: 'They are very professional and provides expert service. Very polite customer service. Also they have cooperation with Nordic wild animal rescue center, so i found one injured bird and transferred the bird to them. Very good people. I am planning to vaccinate my cat there soon.' },
-  { author: 'Nadja Weckström',              lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Gått hos Saari i flera år. Fått högklassig service; god information och kommunikation från både receptionister, skötare och veterinärer. Har några gånger "fått något litet extra" inkluderat i besöket/priset som jag inte förväntat mig. Priserna rimliga jämfört med andra kliniker i samma stad.' },
-  { author: 'Lise-lott Björkskog',          lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Bra information före och efter djurets operation, trevlig personal rekomenderar varmt' },
-  { author: 'Julia Nevalampi',              lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Ihanan sujuvaa ja empaattista palvelua!' },
-  { author: 'Ilkka Stolt',                  lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Todella hyvää palvelua, sekä yhteydenpitoa. Kissani leikattiin ja klinikalta soitettiin väliaikatietoja, sekä lähtiessä selkeät hoito-ohjeet. Ystävällistä asiakaspalvelua.' },
-  { author: 'Je We',                        lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Erittäin hyvää ja asiantuntevaa palvelua. Aito auttamisen halu.' },
-  { author: 'Petra Katarina Ingvesback',    lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Bra och professionell behandling åt katten. Service också på svenska.' },
-  { author: 'Keijo Ruuhinen',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google', body: 'Hyvää palvelua ja kun oli eläimellä hätä päästiin nopeasti lääkäriin ja siellä on laitteet monenlaisiin tutkimuksiin, joten saatiin oikea hoito.' },
-  { author: 'Egill Eberhard',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google', body: 'Mukava henkilökunta ja lääkäri vastasi kaikkiin kysymyksiini. Voisi tarkentaa reittiohjeita Google Mapsissa kun saapuu kävellen kliniikalle.' },
+  { author: 'Kati Konttinen',               lang: 'fi', date: '2025-12-12', rating: 5, source: 'Facebook', body: 'Kiitos Eläinklinikka Saari, että rohkeasti toimitte eläinten parhaaksi. Kiitos että lisäätte ihmisten tietoisuutta liittyen lemmikin oikeanlaiseen suunhoitoon. Eläin ansaitsee arvokkaan elämän ja kivuttoman suun. Arvostan suuresti toimintaanne.' },
+  { author: 'Anna Hoxell',                  lang: 'fi', date: '2025-12-08', rating: 5, source: 'Facebook', body: 'Ihmiset ja eläimet kohdataan suurella sydämellä ja ammattitaidolla.' },
+  { author: 'Katja Patrikainen',            lang: 'fi', date: '2025-12-06', rating: 5, source: 'Facebook', body: 'Tämä klinikka toimii rohkeasti eläinten parhaaksi.' },
+  { author: 'Johanna Katariina Väisänen',   lang: 'fi', date: '2025-12-06', rating: 5, source: 'Facebook', body: 'Eläinten puolella. Hyvää, asiallista tiedottamista.' },
+  { author: 'Annina Vahekoski',             lang: 'fi', date: '2025-12-05', rating: 5, source: 'Facebook', body: 'Osaavaa ja ammattilaista palvelua.' },
+  { author: 'Tea Vehmaa',                   lang: 'fi', date: '2025-12-05', rating: 5, source: 'Facebook', body: 'Alansa ammattilaisia ja täältä saa hyvää hoitoa 💖' },
+  { author: 'Saija Koivula',                lang: 'fi', date: '2025-12-05', rating: 5, source: 'Facebook', body: 'Eläinlääketieteen ammattilaisia, vain hyvää sanottavaa.' },
+  { author: 'Roosa Huttunen',               lang: 'fi', date: '2025-12-05', rating: 5, source: 'Facebook', body: 'Oikealla asialla, eläinten hyvinvoinnin puolesta.' },
+  { author: 'Julia Kärnä',                  lang: 'fi', date: '2025-12-05', rating: 5, source: 'Facebook', body: 'Ammattilaiset hoitamassa ❤' },
+  { author: 'Leena Koivisto',               lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'He auttoivat asiassani neuvoen puhelimessa vaikka heidän ei olisi tarvinnut koska en kuulunut heidän alueeseen. Muissa ikävissäkin merkeissä on täällä tullut käytyä ja siitäkin käynnistä jäi positiivinen mielikuva.' },
+  { author: 'Meri-Tuuli Sjölund',           lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'Erittäin asiantuntevaa ja ystävällistä 🌺 Aina saanut koirillemme hyvän hoidon.' },
+  { author: 'Marja Hassi',                  lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'Erittäin hyvä ja avoin tiedonjako koirien ja kissojen hammashoidosta, 10 pistettä ja papukaijan merkki, arvostan! Kannattaa suositella ja käyttää eläinlääkäriä, joka tietää mistä puhuu. 💖👍' },
+  { author: 'Tanja Hakkarainen',            lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'Suoraselkäistä toimintaa kollegoilta eläinten hyvinvoinnin eteen.' },
+  { author: 'Susanna Santapakka',           lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'Loistavaa palvelua jo vuosia.' },
+  { author: 'Katja Peltokoski',             lang: 'fi', date: '2025-12-04', rating: 5, source: 'Facebook', body: 'Asiantunteva eläinklinikka.' },
+  { author: 'Kent M',                       lang: 'en', date: '2025-08-20', rating: 5, source: 'Google',   body: 'Great and very friendly service' },
+  { author: 'Tea Antila',                   lang: 'fi', date: '2025-05-20', rating: 5, source: 'Google',   body: 'Erittäin ystävällinen henkilökunta, koira tuli kuntoon 💙' },
+  { author: 'Cay-Håkan Englund',            lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google',   body: 'Mycket bra service.' },
+  { author: 'Anki Westergård',              lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google',   body: 'Vill tacka för den bästa vården! Vår katt Asla som varit sjuk länge och som inte fått rätt behandling på en annan veterinärklinik fick äntligen hjälp (Assaf🙏). Ni har verkligen fått oss som trogna stamkunder hädanefter!' },
+  { author: 'Mugi Badam',                   lang: 'en', date: '2025-05-20', rating: 5, source: 'Google',   body: 'They are very professional and provides expert service. Very polite customer service. Also they have cooperation with Nordic wild animal rescue center, so i found one injured bird and transferred the bird to them. Very good people. I am planning to vaccinate my cat there soon.' },
+  { author: 'Noora Kokkinen',               lang: 'fi', date: '2025-04-15', rating: 5, source: 'Google',   body: 'Ihana eläinlääkäriasema. Leena eläinlääkärille ja hoitajalle iso kimppu ruusuja hyvästä ja eläinlähtöisestä palvelusta. Asiakkaana 1-vuotias uroskoira, jolle jäi hyvä mieli vaikka tutkimukset vähän jännittivät. Lisätty (15.4.2025) Kävimme taas lääkärissä. Tällä kertaa Eläinlääkäri Pamela tutki. Erittäin osaava ja kaikki selvisi mitä pitikin. Kiitos taas hyvästä eläinlääkäri kokemuksesta! Teillä on kiva käydä. :)' },
+  { author: 'Nadja Weckström',              lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Gått hos Saari i flera år. Fått högklassig service; god information och kommunikation från både receptionister, skötare och veterinärer. Har några gånger "fått något litet extra" inkluderat i besöket/priset som jag inte förväntat mig. Priserna rimliga jämfört med andra kliniker i samma stad.' },
+  { author: 'Lise-lott Björkskog',          lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Bra information före och efter djurets operation, trevlig personal rekomenderar varmt' },
+  { author: 'Julia Nevalampi',              lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Ihanan sujuvaa ja empaattista palvelua!' },
+  { author: 'Ilkka Stolt',                  lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Todella hyvää palvelua, sekä yhteydenpitoa. Kissani leikattiin ja klinikalta soitettiin väliaikatietoja, sekä lähtiessä selkeät hoito-ohjeet. Ystävällistä asiakaspalvelua.' },
+  { author: 'Je We',                        lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Erittäin hyvää ja asiantuntevaa palvelua. Aito auttamisen halu.' },
+  { author: 'Petra Katarina Ingvesback',    lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google',   body: 'Bra och professionell behandling åt katten. Service också på svenska.' },
+  { author: 'Keijo Ruuhinen',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google',   body: 'Hyvää palvelua ja kun oli eläimellä hätä päästiin nopeasti lääkäriin ja siellä on laitteet monenlaisiin tutkimuksiin, joten saatiin oikea hoito.' },
+  { author: 'Egill Eberhard',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google',   body: 'Mukava henkilökunta ja lääkäri vastasi kaikkiin kysymyksiini. Voisi tarkentaa reittiohjeita Google Mapsissa kun saapuu kävellen kliniikalle.' },
 ];
 
 function generateReviewsPage(lang) {
@@ -3691,7 +3706,8 @@ function generateReviewsPage(lang) {
       metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat.',
       brandName: 'Eläinklinikka Saari',
       reviewsOnGoogle: 'arvostelua Googlessa',
-      featuredNote: 'Alla 14 valittua arvostelua. Lue kaikki 281 Googlessa.',
+      reviewsOnFacebook: '+ 73 suositusta Facebookissa (98 % suosittelee)',
+      featuredNote: 'Alla 29 valittua arvostelua Googlesta ja Facebookista. Lue kaikki Googlessa.',
       ctaHeading: 'Onko sinulla kokemus jaettavana?',
       ctaText: 'Lue kaikki arvostelumme Googlessa tai kirjoita oma — autat muita lemmikinomistajia löytämään luotettavan klinikan.',
       ctaReadAll: 'Lue kaikki Googlessa',
@@ -3706,7 +3722,8 @@ function generateReviewsPage(lang) {
       metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 281 omdömen. Läs vad våra kunder säger.',
       brandName: 'Djurklinik Saari',
       reviewsOnGoogle: 'omdömen på Google',
-      featuredNote: 'Nedan 14 utvalda omdömen. Läs alla 281 på Google.',
+      reviewsOnFacebook: '+ 73 rekommendationer på Facebook (98 % rekommenderar)',
+      featuredNote: 'Nedan 29 utvalda omdömen från Google och Facebook. Läs alla på Google.',
       ctaHeading: 'Har du en erfarenhet att dela?',
       ctaText: 'Läs alla våra omdömen på Google eller skriv ett eget — hjälper andra djurägare att hitta en pålitlig klinik.',
       ctaReadAll: 'Läs alla på Google',
@@ -3721,7 +3738,8 @@ function generateReviewsPage(lang) {
       metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 281 reviews. Read what our customers say.',
       brandName: 'Saari Animal Clinic',
       reviewsOnGoogle: 'reviews on Google',
-      featuredNote: 'Below: 14 featured reviews. Read all 281 on Google.',
+      reviewsOnFacebook: '+ 73 recommendations on Facebook (98% recommend)',
+      featuredNote: 'Below: 29 featured reviews from Google and Facebook. Read all on Google.',
       ctaHeading: 'Have an experience to share?',
       ctaText: 'Read all our reviews on Google or write your own — you help other pet owners find a trustworthy clinic.',
       ctaReadAll: 'Read all on Google',
@@ -3778,7 +3796,7 @@ function generateReviewsPage(lang) {
             <div class="review-card-avatar" style="background:${colour};" aria-hidden="true">${initial}</div>
             <div class="review-card-identity">
               <span class="review-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">${escapedAuthor}</span></span>
-              <span class="review-card-source"><span class="review-card-source-icon" aria-hidden="true"></span>${escapeHtml(r.source)}</span>
+              <span class="review-card-source"><span class="review-card-source-icon review-card-source-icon--${r.source.toLowerCase()}" aria-hidden="true"></span>${escapeHtml(r.source)}</span>
             </div>
           </div>
           <div class="review-card-stars-row">
@@ -3913,6 +3931,9 @@ function generateReviewsPage(lang) {
             </div>
             <div class="reviews-aggregate-meta">
               <span itemprop="reviewCount">${GOOGLE_TOTAL_REVIEWS}</span> ${escapeHtml(i18n.reviewsOnGoogle)}
+            </div>
+            <div class="reviews-aggregate-meta reviews-aggregate-meta--secondary">
+              ${escapeHtml(i18n.reviewsOnFacebook)}
             </div>
             <a class="reviews-aggregate-cta" href="${googleReviewsUrl}" target="_blank" rel="noopener">${escapeHtml(i18n.ctaReadAll)} →</a>
             <meta itemprop="bestRating" content="5">

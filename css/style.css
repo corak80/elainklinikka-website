@@ -1814,6 +1814,12 @@ a.service-card-link {
   color: var(--color-text-light);
 }
 
+.reviews-aggregate-meta--secondary {
+  font-size: 0.78rem;
+  opacity: 0.85;
+  margin-top: 0.1rem;
+}
+
 .reviews-aggregate-cta {
   display: inline-block;
   margin-top: 0.4rem;
@@ -1906,17 +1912,34 @@ a.service-card-link {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: conic-gradient(from -45deg, #4285F4 0deg 90deg, #34A853 90deg 180deg, #FBBC05 180deg 270deg, #EA4335 270deg 360deg);
   border-radius: 50%;
   position: relative;
 }
 
-.review-card-source-icon::after {
+.review-card-source-icon--google {
+  background: conic-gradient(from -45deg, #4285F4 0deg 90deg, #34A853 90deg 180deg, #FBBC05 180deg 270deg, #EA4335 270deg 360deg);
+}
+
+.review-card-source-icon--google::after {
   content: "";
   position: absolute;
   inset: 25%;
   background: #fff;
   border-radius: 50%;
+}
+
+.review-card-source-icon--facebook {
+  background: #1877F2;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.review-card-source-icon--facebook::after {
+  content: "f";
 }
 
 .review-card-stars-row {
