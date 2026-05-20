@@ -4212,7 +4212,7 @@ function generateBookingPage(lang) {
         </a>
 
         <section class="booking-secondary" aria-label="${escapeAttr(i18n.methodsHeading)}">
-          <a class="booking-method booking-method--online" href="${provetUrl}" target="_blank" rel="noopener" onclick="if(typeof fbq==='function')fbq('track','Schedule');">
+          <a class="booking-method booking-method--online" href="${provetUrl}" target="_blank" rel="noopener" onclick="if(typeof gtag_report_conversion==='function')gtag_report_conversion();if(typeof fbq==='function')fbq('track','Schedule');">
             <span class="booking-method-icon">🌐</span>
             <span class="booking-method-title">${escapeHtml(i18n.onlineTitle)}</span>
             <span class="booking-method-value">${escapeHtml(i18n.onlineCta)} →</span>

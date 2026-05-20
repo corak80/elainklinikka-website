@@ -734,6 +734,7 @@ const translations = {
   'footer.rights': { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' },
   'footer.about': { fi: 'Meistä', sv: 'Om oss', en: 'About Us' },
   'footer.contactpage': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
+  'footer.booking': { fi: 'Ajanvaraus', sv: 'Tidsbokning', en: 'Book appointment' },
   'footer.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
   'footer.media': { fi: 'Saari mediassa', sv: 'Saari i media', en: 'Saari in the news' },
   'footer.businessid': { fi: 'Y-tunnus', sv: 'FO-nummer', en: 'Business ID' },
