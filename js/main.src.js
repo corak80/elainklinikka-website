@@ -191,6 +191,9 @@ const translations = {
   'hero.rating.label': { fi: '281 Google-arvostelua', sv: '281 omdömen på Google', en: '281 Google reviews' },
   'hero.rating.shortlabel': { fi: '281 arvostelua', sv: '281 omdömen', en: '281 reviews' },
 
+  // About section eyebrow
+  'about.eyebrow': { fi: 'Vuodesta 1989', sv: 'Sedan 1989', en: 'Since 1989' },
+
   // Individual services
   'service.emergency': { fi: 'Päivystys', sv: 'Jour', en: 'Emergency' },
   'service.acupuncture': { fi: 'Akupunktio', sv: 'Akupunktur', en: 'Acupuncture' },
