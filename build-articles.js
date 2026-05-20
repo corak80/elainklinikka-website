@@ -999,7 +999,7 @@ ${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
 ${articleBody}        </div>${relatedServicesHtml}
       </article>
 ${relatedHtml}
-      <a href="${homeUrl}" class="btn btn-secondary articles-back">${backTexts[lang]}</a>
+      <div class="page-back-wrapper"><a href="${homeUrl}" class="page-back-link">${(backTexts[lang] || '').replace(/^← /, '').replace(/^← /, '')}</a></div>
     </div>
   </section>
   </main>
@@ -1366,7 +1366,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUr
 
 ${filtersHtml}
 ${cardsHtml}
-      <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.back)}</a>
+      <div class="page-back-wrapper"><a href="${homeUrl}" class="page-back-link">${escapeHtml((i18n.back || '').replace(/^← /, '').replace(/^← /, ''))}</a></div>
     </div>
   </section>
   </main>
@@ -3443,7 +3443,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
 
       <p class="service-clinic-link"><a href="${landing.url}">${escapeHtml(landing.anchor)} →</a></p>
 ${relatedHtml}
-      <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(backText)}</a>
+      <div class="page-back-wrapper"><a href="${homeUrl}" class="page-back-link">${escapeHtml((backText || '').replace(/^← /, '').replace(/^← /, ''))}</a></div>
     </div>
   </section>
   </main>
@@ -3608,7 +3608,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         </div>
       </article>
 
-      <a href="../" class="btn btn-secondary articles-back">← Takaisin etusivulle</a>
+      <div class="page-back-wrapper"><a href="../" class="page-back-link">Takaisin etusivulle</a></div>
     </div>
   </section>
   </main>
@@ -3900,7 +3900,9 @@ function generateReviewsPage(lang) {
   <main id="main-content">
     <article class="article-page">
       <div class="container">
-        <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.backToHome)}</a>
+        <div class="page-back-wrapper">
+          <a href="${homeUrl}" class="page-back-link">${escapeHtml(i18n.backToHome.replace(/^← /, ''))}</a>
+        </div>
 
         <section class="reviews-hero">
           <h1>${escapeHtml(i18n.h1)}</h1>
@@ -4410,7 +4412,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         </div>
       </div>
 
-      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+      <div class="page-back-wrapper"><a href="../" class="page-back-link">Takaisin etusivulle</a></div>
     </div>
   </section>
   </main>
@@ -4632,7 +4634,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         </div>
       </div>
 
-      <a href="../" class="btn btn-secondary articles-back">\u2190 Takaisin etusivulle</a>
+      <div class="page-back-wrapper"><a href="../" class="page-back-link">Takaisin etusivulle</a></div>
     </div>
   </section>
   </main>
