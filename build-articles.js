@@ -4197,10 +4197,12 @@ function generateBookingPage(lang) {
   <main id="main-content">
     <article class="article-page">
       <div class="container">
-        <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.backToHome)}</a>
+        <div class="page-back-wrapper">
+          <a href="${homeUrl}" class="page-back-link">${escapeHtml(i18n.backToHome.replace(/^← /, ''))}</a>
+        </div>
 
         <header class="booking-hero">
-          <h1>${escapeHtml(i18n.h1)}</h1>
+          <h1 class="sr-only">${escapeHtml(i18n.h1)}</h1>
           <p class="booking-subtitle">${escapeHtml(i18n.subtitle)}</p>
         </header>
 
