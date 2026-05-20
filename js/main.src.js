@@ -77,9 +77,9 @@ const translations = {
   },
   'hero.title2': { fi: 'Saari', sv: 'Saari', en: 'Saari' },
   'hero.title3': {
-    fi: '— Eläinlääkäri Vaasassa',
-    sv: '— Veterinär i Vasa',
-    en: '— Veterinarian in Vaasa'
+    fi: 'Eläinlääkäri Vaasassa',
+    sv: 'Veterinär i Vasa',
+    en: 'Veterinarian in Vaasa'
   },
   'hero.subtitle': {
     fi: 'Ammattitaitoista ja lämmintä eläinlääkäripalvelua Vaasassa vuodesta 1989',
@@ -185,6 +185,11 @@ const translations = {
     sv: 'Vi erbjuder mångsidiga veterinärtjänster för ditt husdjur',
     en: 'We offer comprehensive veterinary services for your pet'
   },
+
+  // Hero rating badge
+  'hero.rating.score': { fi: '4,6', sv: '4,6', en: '4.6' },
+  'hero.rating.label': { fi: '281 Google-arvostelua', sv: '281 omdömen på Google', en: '281 Google reviews' },
+  'hero.rating.shortlabel': { fi: '281 arvostelua', sv: '281 omdömen', en: '281 reviews' },
 
   // Individual services
   'service.emergency': { fi: 'Päivystys', sv: 'Jour', en: 'Emergency' },

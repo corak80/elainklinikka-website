@@ -3663,6 +3663,294 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
 }
 
 // ──────────────────────────────────────────────
+// 9z. Generate Reviews page (/arvostelut/ /sv/omdomen/ /en/reviews/)
+// ──────────────────────────────────────────────
+const REVIEWS = [
+  { author: 'Kent M',                       lang: 'en', date: '2025-08-20', rating: 5, source: 'Google', body: 'Great and very friendly service' },
+  { author: 'Noora Kokkinen',               lang: 'fi', date: '2025-04-15', rating: 5, source: 'Google', body: 'Ihana eläinlääkäriasema. Leena eläinlääkärille ja hoitajalle iso kimppu ruusuja hyvästä ja eläinlähtöisestä palvelusta. Asiakkaana 1-vuotias uroskoira, jolle jäi hyvä mieli vaikka tutkimukset vähän jännittivät. Lisätty (15.4.2025) Kävimme taas lääkärissä. Tällä kertaa Eläinlääkäri Pamela tutki. Erittäin osaava ja kaikki selvisi mitä pitikin. Kiitos taas hyvästä eläinlääkäri kokemuksesta! Teillä on kiva käydä. :)' },
+  { author: 'Cay-Håkan Englund',            lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google', body: 'Mycket bra service.' },
+  { author: 'Tea Antila',                   lang: 'fi', date: '2025-05-20', rating: 5, source: 'Google', body: 'Erittäin ystävällinen henkilökunta, koira tuli kuntoon 💙' },
+  { author: 'Anki Westergård',              lang: 'sv', date: '2025-05-20', rating: 5, source: 'Google', body: 'Vill tacka för den bästa vården! Vår katt Asla som varit sjuk länge och som inte fått rätt behandling på en annan veterinärklinik fick äntligen hjälp (Assaf🙏). Ni har verkligen fått oss som trogna stamkunder hädanefter!' },
+  { author: 'Mugi Badam',                   lang: 'en', date: '2025-05-20', rating: 5, source: 'Google', body: 'They are very professional and provides expert service. Very polite customer service. Also they have cooperation with Nordic wild animal rescue center, so i found one injured bird and transferred the bird to them. Very good people. I am planning to vaccinate my cat there soon.' },
+  { author: 'Nadja Weckström',              lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Gått hos Saari i flera år. Fått högklassig service; god information och kommunikation från både receptionister, skötare och veterinärer. Har några gånger "fått något litet extra" inkluderat i besöket/priset som jag inte förväntat mig. Priserna rimliga jämfört med andra kliniker i samma stad.' },
+  { author: 'Lise-lott Björkskog',          lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Bra information före och efter djurets operation, trevlig personal rekomenderar varmt' },
+  { author: 'Julia Nevalampi',              lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Ihanan sujuvaa ja empaattista palvelua!' },
+  { author: 'Ilkka Stolt',                  lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Todella hyvää palvelua, sekä yhteydenpitoa. Kissani leikattiin ja klinikalta soitettiin väliaikatietoja, sekä lähtiessä selkeät hoito-ohjeet. Ystävällistä asiakaspalvelua.' },
+  { author: 'Je We',                        lang: 'fi', date: '2024-05-20', rating: 5, source: 'Google', body: 'Erittäin hyvää ja asiantuntevaa palvelua. Aito auttamisen halu.' },
+  { author: 'Petra Katarina Ingvesback',    lang: 'sv', date: '2024-05-20', rating: 5, source: 'Google', body: 'Bra och professionell behandling åt katten. Service också på svenska.' },
+  { author: 'Keijo Ruuhinen',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google', body: 'Hyvää palvelua ja kun oli eläimellä hätä päästiin nopeasti lääkäriin ja siellä on laitteet monenlaisiin tutkimuksiin, joten saatiin oikea hoito.' },
+  { author: 'Egill Eberhard',               lang: 'fi', date: '2023-05-20', rating: 5, source: 'Google', body: 'Mukava henkilökunta ja lääkäri vastasi kaikkiin kysymyksiini. Voisi tarkentaa reittiohjeita Google Mapsissa kun saapuu kävellen kliniikalle.' },
+];
+
+function generateReviewsPage(lang) {
+  const i18n = {
+    fi: {
+      htmlLang: 'fi', ogLocale: 'fi_FI',
+      pageTitle: 'Asiakkaiden arvostelut | Eläinklinikka Saari',
+      h1: 'Asiakkaiden arvostelut',
+      metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat.',
+      brandName: 'Eläinklinikka Saari',
+      reviewsOnGoogle: 'arvostelua Googlessa',
+      featuredNote: 'Alla 14 valittua arvostelua. Lue kaikki 281 Googlessa.',
+      ctaHeading: 'Onko sinulla kokemus jaettavana?',
+      ctaText: 'Lue kaikki arvostelumme Googlessa tai kirjoita oma — autat muita lemmikinomistajia löytämään luotettavan klinikan.',
+      ctaReadAll: 'Lue kaikki Googlessa',
+      backToHome: '← Takaisin etusivulle',
+      skipLink: 'Siirry sisältöön',
+      footnote: 'Arvostelut on koottu Google-asiakasarvosteluista ja näytetään tällä sivulla sellaisina kuin asiakkaamme ovat ne kirjoittaneet. Klikkaa Google-linkkiä yltä nähdäksesi kaikki ja jättääksesi oman arviosi.',
+    },
+    sv: {
+      htmlLang: 'sv', ogLocale: 'sv_FI',
+      pageTitle: 'Kundernas omdömen | Djurklinik Saari',
+      h1: 'Kundernas omdömen',
+      metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 281 omdömen. Läs vad våra kunder säger.',
+      brandName: 'Djurklinik Saari',
+      reviewsOnGoogle: 'omdömen på Google',
+      featuredNote: 'Nedan 14 utvalda omdömen. Läs alla 281 på Google.',
+      ctaHeading: 'Har du en erfarenhet att dela?',
+      ctaText: 'Läs alla våra omdömen på Google eller skriv ett eget — hjälper andra djurägare att hitta en pålitlig klinik.',
+      ctaReadAll: 'Läs alla på Google',
+      backToHome: '← Tillbaka till startsidan',
+      skipLink: 'Hoppa till innehållet',
+      footnote: 'Omdömena är hämtade från Googles kundomdömen och visas på denna sida i den form våra kunder skrivit dem. Klicka på Google-länken ovan för att se alla och lämna ditt eget.',
+    },
+    en: {
+      htmlLang: 'en', ogLocale: 'en_GB',
+      pageTitle: 'Customer reviews | Saari Animal Clinic',
+      h1: 'Customer reviews',
+      metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 281 reviews. Read what our customers say.',
+      brandName: 'Saari Animal Clinic',
+      reviewsOnGoogle: 'reviews on Google',
+      featuredNote: 'Below: 14 featured reviews. Read all 281 on Google.',
+      ctaHeading: 'Have an experience to share?',
+      ctaText: 'Read all our reviews on Google or write your own — you help other pet owners find a trustworthy clinic.',
+      ctaReadAll: 'Read all on Google',
+      backToHome: '← Back to homepage',
+      skipLink: 'Skip to content',
+      footnote: 'Reviews are taken from Google Customer Reviews and shown on this page exactly as our customers wrote them. Click the Google link above to see all and leave your own.',
+    },
+  }[lang] || null;
+  if (!i18n) throw new Error(`Unknown lang: ${lang}`);
+
+  // Real Google Business Profile totals (verified from GBP dashboard)
+  const GOOGLE_TOTAL_REVIEWS = 281;
+  const GOOGLE_AVG_RATING = 4.6;
+
+  const urls = {
+    fi: `${BASE_URL}/arvostelut/`,
+    sv: `${BASE_URL}/sv/omdomen/`,
+    en: `${BASE_URL}/en/reviews/`,
+  };
+  const canonicalUrl = urls[lang];
+  const homeUrl = lang === 'fi' ? '/' : `/${lang}/`;
+  // Asset prefix: /arvostelut/ is one level deep (FI); /sv/omdomen/ and /en/reviews/ are two levels deep
+  const assetPrefix = lang === 'fi' ? '../' : '../../';
+  // Google Business Profile reviews — direct deep-link to the reviews tab for Eläinklinikka Saari
+  const googleReviewsUrl = 'https://www.google.com/search?q=El%C3%A4inklinikka+Saari+Oy+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2tzQzMDM1BgJDA0sTYwsjY-MNjIyvGOVdcw4vyczLzsnMy8zOTlQITkwsylTwr1QISi3LTC0vXsRKSAUAybtVjF4AAAA&tbm=lcl&rldimm=7960653333109438233#lkt=LocalPoiReviews';
+
+  // Star characters
+  const star = '★';
+  const stars5 = star.repeat(5);
+
+  // Avatar palette — pick a colour per review based on first-letter hash for visual variety
+  const AVATAR_PALETTE = ['#E58DB4', '#7BA7BC', '#A082C9', '#E3A857', '#5FA88A', '#D08CA8', '#6B8BB5', '#C77B7B'];
+  const initialOf = (name) => {
+    const m = (name || '').trim().match(/[A-Za-zÀ-ɏА-я]/);
+    return m ? m[0].toUpperCase() : '?';
+  };
+  const avatarColourFor = (name) => {
+    let h = 0;
+    for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) | 0;
+    return AVATAR_PALETTE[Math.abs(h) % AVATAR_PALETTE.length];
+  };
+
+  // Render review cards
+  const reviewCards = REVIEWS.map((r) => {
+    const yearLabel = r.date.slice(0, 4);
+    const escapedBody = escapeHtml(r.body);
+    const escapedAuthor = escapeHtml(r.author);
+    const dateAttr = r.date;
+    const initial = initialOf(r.author);
+    const colour = avatarColourFor(r.author);
+    return `        <article class="review-card" itemscope itemtype="https://schema.org/Review">
+          <meta itemprop="itemReviewed" content="${i18n.brandName}">
+          <div class="review-card-header">
+            <div class="review-card-avatar" style="background:${colour};" aria-hidden="true">${initial}</div>
+            <div class="review-card-identity">
+              <span class="review-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">${escapedAuthor}</span></span>
+              <span class="review-card-source"><span class="review-card-source-icon" aria-hidden="true"></span>${escapeHtml(r.source)}</span>
+            </div>
+          </div>
+          <div class="review-card-stars-row">
+            <span class="review-card-stars" aria-label="${r.rating} / 5">${star.repeat(r.rating)}</span>
+            <span class="review-card-date"><time datetime="${dateAttr}" itemprop="datePublished">${yearLabel}</time></span>
+          </div>
+          <div class="review-card-body" itemprop="reviewBody">${escapedBody}</div>
+          <meta itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" content="${r.rating}">
+        </article>`;
+  }).join('\n');
+
+  // Build JSON-LD structured data (Review array + AggregateRating embedded in VeterinaryCare)
+  // AggregateRating reflects the FULL Google Business Profile (281 reviews @ 4.6 avg);
+  // individual Review entries are the 14 we're displaying on this page.
+  const featuredCount = REVIEWS.length;
+  const reviewJsonLd = REVIEWS.map((r) => ({
+    '@type': 'Review',
+    author: { '@type': 'Person', name: r.author },
+    reviewBody: r.body,
+    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+    datePublished: r.date,
+    publisher: { '@type': 'Organization', name: r.source },
+  }));
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: i18n.pageTitle,
+    description: i18n.metaDesc,
+    url: canonicalUrl,
+    inLanguage: lang,
+    isPartOf: { '@type': 'WebSite', name: i18n.brandName, url: BASE_URL },
+    about: {
+      '@type': 'VeterinaryCare',
+      name: i18n.brandName,
+      url: BASE_URL,
+      telephone: '+358-6-321-7300',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Gerbyntie 18',
+        postalCode: '65230',
+        addressLocality: 'Vaasa',
+        addressCountry: 'FI',
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: GOOGLE_AVG_RATING,
+        reviewCount: GOOGLE_TOTAL_REVIEWS,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      review: reviewJsonLd,
+    },
+  };
+
+  // Star bar with partial fill — accurately shows 4.6/5
+  const fillPct = (GOOGLE_AVG_RATING / 5) * 100;
+  const starBarHtml = `<span class="reviews-aggregate-starbar" aria-label="${GOOGLE_AVG_RATING} / 5"><span class="reviews-aggregate-starbar-bg">${stars5}</span><span class="reviews-aggregate-starbar-fg" style="width:${fillPct.toFixed(2)}%;">${stars5}</span></span>`;
+  // Locale-formatted rating: 4,6 for FI/SV, 4.6 for EN
+  const ratingDisplay = (lang === 'en') ? GOOGLE_AVG_RATING.toFixed(1) : GOOGLE_AVG_RATING.toFixed(1).replace('.', ',');
+
+  return `<!DOCTYPE html>
+<html lang="${i18n.htmlLang}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <title>${escapeHtml(i18n.pageTitle)}</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-92LHP2TK6N');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+
+  <meta name="description" content="${escapeAttr(i18n.metaDesc)}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <link rel="alternate" hreflang="fi" href="${urls.fi}">
+  <link rel="alternate" hreflang="sv" href="${urls.sv}">
+  <link rel="alternate" hreflang="en" href="${urls.en}">
+  <link rel="alternate" hreflang="x-default" href="${urls.fi}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:title" content="${escapeAttr(i18n.pageTitle)}">
+  <meta property="og:description" content="${escapeAttr(i18n.metaDesc)}">
+  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:locale" content="${i18n.ogLocale}">
+  <meta property="og:site_name" content="${i18n.brandName}">
+
+  <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
+
+  <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+</head>
+<body class="article-page">
+
+  <a href="#main-content" class="skip-link">${escapeHtml(i18n.skipLink)}</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="${homeUrl}" class="logo">
+        <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="${i18n.brandName}" width="240" height="240"></div>
+        <span class="logo-text">${i18n.brandName}</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="article-page">
+      <div class="container">
+        <a href="${homeUrl}" class="btn btn-secondary articles-back">${escapeHtml(i18n.backToHome)}</a>
+
+        <section class="reviews-hero">
+          <h1>${escapeHtml(i18n.h1)}</h1>
+          <div class="reviews-aggregate" itemscope itemtype="https://schema.org/AggregateRating">
+            <div class="reviews-aggregate-rating">
+              <span class="reviews-aggregate-score" itemprop="ratingValue">${ratingDisplay}</span>
+              ${starBarHtml}
+            </div>
+            <div class="reviews-aggregate-meta">
+              <span itemprop="reviewCount">${GOOGLE_TOTAL_REVIEWS}</span> ${escapeHtml(i18n.reviewsOnGoogle)}
+            </div>
+            <a class="reviews-aggregate-cta" href="${googleReviewsUrl}" target="_blank" rel="noopener">${escapeHtml(i18n.ctaReadAll)} →</a>
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="worstRating" content="1">
+          </div>
+        </section>
+
+        <p class="reviews-featured-note">${escapeHtml(i18n.featuredNote)}</p>
+
+        <section class="reviews-grid">
+${reviewCards}
+        </section>
+
+        <section class="reviews-cta-block">
+          <h2>${escapeHtml(i18n.ctaHeading)}</h2>
+          <p>${escapeHtml(i18n.ctaText)}</p>
+          <div class="reviews-cta-buttons">
+            <a class="btn btn-primary" href="${googleReviewsUrl}" target="_blank" rel="noopener">${escapeHtml(i18n.ctaReadAll)}</a>
+          </div>
+          <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--color-text-muted); max-width: 540px; margin-left: auto; margin-right: auto;">${escapeHtml(i18n.footnote)}</p>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9</span>
+        <a href="${assetPrefix}tietosuoja/">Tietosuoja</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="${assetPrefix}js/main.js"></script>
+</body>
+</html>`;
+}
+
+// ──────────────────────────────────────────────
 // 9a. Generate About page (/meista/)
 // ──────────────────────────────────────────────
 function generateAboutPage() {
@@ -4241,6 +4529,34 @@ ${pricesHreflang}  </url>
 ${pricesHreflang}  </url>
 `;
 
+  // Reviews pages (FI/SV/EN, hreflang-linked)
+  const reviewsHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/arvostelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/omdomen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/arvostelut/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/arvostelut/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${reviewsHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/omdomen/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${reviewsHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/reviews/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${reviewsHreflang}  </url>
+`;
+
   // City-targeted landing pages (FI + SV + EN, hreflang-linked)
   const landingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/elainlaakari-vaasa/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-vasa/"/>
@@ -4559,6 +4875,20 @@ function main() {
   const privacyPage = generatePrivacyPage();
   fs.writeFileSync(path.join(privacyDir, 'index.html'), privacyPage, 'utf-8');
   console.log('  Generated tietosuoja/index.html');
+
+  // Generate reviews pages (FI, SV, EN)
+  console.log('\nBuilding reviews pages...');
+  const reviewsTargets = [
+    { lang: 'fi', dir: path.join(ROOT, 'arvostelut'), label: 'arvostelut/index.html' },
+    { lang: 'sv', dir: path.join(ROOT, 'sv', 'omdomen'), label: 'sv/omdomen/index.html' },
+    { lang: 'en', dir: path.join(ROOT, 'en', 'reviews'), label: 'en/reviews/index.html' },
+  ];
+  for (const t of reviewsTargets) {
+    if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
+    const html = generateReviewsPage(t.lang);
+    fs.writeFileSync(path.join(t.dir, 'index.html'), html, 'utf-8');
+    console.log(`  Generated ${t.label}`);
+  }
 
   // Generate sitemap
   console.log('\nGenerating sitemap.xml...');

@@ -139,6 +139,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/hinnasto/"/>
   </url>
   <url>
+    <loc>https://saarivet.fi/arvostelut/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/arvostelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/omdomen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/arvostelut/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/sv/omdomen/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/arvostelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/omdomen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/arvostelut/"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/en/reviews/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/arvostelut/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/omdomen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/arvostelut/"/>
+  </url>
+  <url>
     <loc>https://saarivet.fi/media/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
