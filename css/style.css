@@ -1962,16 +1962,25 @@ a.service-card-link {
   font-style: italic;
 }
 
-.review-card-body::before {
-  content: "\201C";
+.review-card-body::before,
+.review-card-body::after {
   display: inline-block;
   font-family: Georgia, "Times New Roman", serif;
   color: var(--color-primary);
   font-size: 2rem;
   line-height: 0;
-  margin-right: 0.2rem;
   vertical-align: -0.18em;
   font-weight: 700;
+}
+
+.review-card-body::before {
+  content: "\201C";
+  margin-right: 0.2rem;
+}
+
+.review-card-body::after {
+  content: "\201D";
+  margin-left: 0.15rem;
 }
 
 /* Hero rating badge — linked from homepage */
