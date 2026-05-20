@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://178-156-228-28.sslip.io; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Senioritutkimus 299 € | Eläinklinikka Saari</title>
 
   <script>
@@ -37,6 +37,45 @@
     return false;
   }
   </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2008398676469644');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'Senior Pet Check-up',
+    content_category: 'senior_package',
+    content_ids: ['senior_299'],
+    value: 299,
+    currency: 'EUR'
+  });
+  function trackBooking() {
+    var eventId = 'sched_'+Date.now()+'_'+Math.floor(Math.random()*1e9);
+    if (window.fbq) fbq('track', 'Schedule', {value:299, currency:'EUR'}, {eventID: eventId});
+    try {
+      var body = JSON.stringify({
+        event_name: 'Schedule',
+        event_id: eventId,
+        event_source_url: location.href,
+        custom_data: {content_name:'Senior Pet Check-up', content_category:'senior_package', value:299, currency:'EUR'}
+      });
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon('https://178-156-228-28.sslip.io/capi/event', new Blob([body], {type:'application/json'}));
+      } else {
+        fetch('https://178-156-228-28.sslip.io/capi/event', {method:'POST', headers:{'Content-Type':'application/json'}, body:body, keepalive:true});
+      }
+    } catch(e) {}
+  }
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2008398676469644&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 
   <meta name="description" content="Senioritutkimus 299 € — eläinlääkärin käynti, verinäyte ja kattava IDEXX-laboratoriopaneeli. Ikääntyvän lemmikin terveystarkastus Vaasassa.">
   <link rel="canonical" href="https://saarivet.fi/palvelut/senioritarkastus/">
@@ -177,7 +216,7 @@
           <a href="../../#wildlife">Wildlife</a>
           <a href="../../#contact">Yhteystiedot</a>
           <a href="https://saarivet.fi/artikkelit/">Artikkelit</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">Varaa aika</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta mobile-cta" onclick="trackBooking();">Varaa aika</a>
         </div>
 
         <div class="nav-actions">
@@ -186,7 +225,7 @@
             <a href="https://saarivet.fi/sv/tjanster/seniorundersokning/" class="">SV</a>
             <a href="https://saarivet.fi/en/services/senior-check-up/" class="">EN</a>
           </div>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="fbq('track','Schedule');">Varaa aika</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="trackBooking();">Varaa aika</a>
         </div>
 
         <button class="mobile-menu-btn" aria-label="Menu">
