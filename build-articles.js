@@ -3790,21 +3790,19 @@ function generateReviewsPage(lang) {
     const dateAttr = r.date;
     const initial = initialOf(r.author);
     const colour = avatarColourFor(r.author);
-    return `        <article class="review-card" itemscope itemtype="https://schema.org/Review">
-          <meta itemprop="itemReviewed" content="${i18n.brandName}">
+    return `        <article class="review-card">
           <div class="review-card-header">
             <div class="review-card-avatar" style="background:${colour};" aria-hidden="true">${initial}</div>
             <div class="review-card-identity">
-              <span class="review-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">${escapedAuthor}</span></span>
+              <span class="review-card-author">${escapedAuthor}</span>
               <span class="review-card-source"><span class="review-card-source-icon review-card-source-icon--${r.source.toLowerCase()}" aria-hidden="true"></span>${escapeHtml(r.source)}</span>
             </div>
           </div>
           <div class="review-card-stars-row">
             <span class="review-card-stars" aria-label="${r.rating} / 5">${star.repeat(r.rating)}</span>
-            <span class="review-card-date"><time datetime="${dateAttr}" itemprop="datePublished">${yearLabel}</time></span>
+            <span class="review-card-date"><time datetime="${dateAttr}">${yearLabel}</time></span>
           </div>
-          <div class="review-card-body" itemprop="reviewBody">${escapedBody}</div>
-          <meta itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" content="${r.rating}">
+          <div class="review-card-body">${escapedBody}</div>
         </article>`;
   }).join('\n');
 
@@ -3814,6 +3812,7 @@ function generateReviewsPage(lang) {
   const featuredCount = REVIEWS.length;
   const reviewJsonLd = REVIEWS.map((r) => ({
     '@type': 'Review',
+    itemReviewed: { '@type': 'VeterinaryCare', name: i18n.brandName, url: BASE_URL },
     author: { '@type': 'Person', name: r.author },
     reviewBody: r.body,
     reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
@@ -3924,20 +3923,18 @@ function generateReviewsPage(lang) {
 
         <section class="reviews-hero">
           <h1>${escapeHtml(i18n.h1)}</h1>
-          <div class="reviews-aggregate" itemscope itemtype="https://schema.org/AggregateRating">
+          <div class="reviews-aggregate">
             <div class="reviews-aggregate-rating">
-              <span class="reviews-aggregate-score" itemprop="ratingValue">${ratingDisplay}</span>
+              <span class="reviews-aggregate-score">${ratingDisplay}</span>
               ${starBarHtml}
             </div>
             <div class="reviews-aggregate-meta">
-              <span itemprop="reviewCount">${GOOGLE_TOTAL_REVIEWS}</span> ${escapeHtml(i18n.reviewsOnGoogle)}
+              ${GOOGLE_TOTAL_REVIEWS} ${escapeHtml(i18n.reviewsOnGoogle)}
             </div>
             <div class="reviews-aggregate-meta reviews-aggregate-meta--secondary">
               ${escapeHtml(i18n.reviewsOnFacebook)}
             </div>
             <a class="reviews-aggregate-cta" href="${googleReviewsUrl}" target="_blank" rel="noopener">${escapeHtml(i18n.ctaReadAll)} →</a>
-            <meta itemprop="bestRating" content="5">
-            <meta itemprop="worstRating" content="1">
           </div>
         </section>
 
