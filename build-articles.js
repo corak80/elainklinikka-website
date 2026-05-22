@@ -977,7 +977,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
       <a href="${homeUrl}" class="logo">
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+      <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 
@@ -1016,7 +1016,6 @@ ${relatedHtml}
           <a href="${homeUrl}#about" data-i18n="nav.about">${escapeHtml(fnav.about)}</a>
           <a href="${homeUrl}#services" data-i18n="nav.services">${escapeHtml(fnav.services)}</a>
           <a href="${homeUrl}#team" data-i18n="nav.team">${escapeHtml(fnav.team)}</a>
-          <a href="${homeUrl}#cat-friendly" data-i18n="nav.catfriendly">${escapeHtml(fnav.catfriendly)}</a>
           <a href="${pricesUrl}" data-i18n="nav.prices">${escapeHtml(fnav.prices)}</a>
           <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">${escapeHtml(fnav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
@@ -1349,8 +1348,8 @@ function generateArticleIndex(translations, lang) {
       <a href="${homeUrl}" class="logo">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="/images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+      <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
+        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUrl })}
     </div>
@@ -3413,7 +3412,7 @@ function generateServicePage(service, translations, lang) {
       <a href="${homeUrl}" class="logo">
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="${homeUrl}#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+      <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
@@ -3459,7 +3458,6 @@ ${relatedHtml}
           <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
           <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
-          <a href="${homeUrl}#cat-friendly">${escapeHtml(nav.catfriendly)}</a>
           <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
@@ -3551,7 +3549,7 @@ function generatePrivacyPage() {
       <a href="../" class="logo">
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+      <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
@@ -4376,7 +4374,7 @@ function generateAboutPage() {
       <a href="../" class="logo">
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+      <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
@@ -4594,7 +4592,7 @@ function generateContactPage() {
       <a href="../" class="logo">
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
-      <a href="../#cat-friendly" class="cfc-header-logo" aria-label="Silver accredited Cat Friendly Clinic 2026">
+      <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
@@ -5054,7 +5052,6 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
           <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
           <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
-          <a href="${homeUrl}#cat-friendly">${escapeHtml(nav.catfriendly)}</a>
           <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>

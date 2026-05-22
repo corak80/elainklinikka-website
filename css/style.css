@@ -87,7 +87,7 @@
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
   --max-width: 1200px;
-  --header-height: 190px;
+  --header-height: 96px;
   --transition: 0.3s ease;
 }
 
@@ -235,16 +235,18 @@ ul {
   left: 0;
   right: 0;
   height: var(--header-height);
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   z-index: 1000;
-  transition: box-shadow var(--transition);
+  transition: box-shadow var(--transition), height var(--transition), background var(--transition);
 }
 
 .header.scrolled {
-  box-shadow: 0 2px 20px var(--color-shadow);
+  height: 76px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 8px 28px -16px rgba(0, 0, 0, 0.18);
 }
 
 .header .container {
@@ -319,16 +321,23 @@ body.article-page #main-content > .section {
   font-weight: 700;
   color: var(--color-text);
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .logo-icon {
-  height: 120px;
+  height: 72px;
   width: auto;
+  transition: height var(--transition);
 }
 
 .logo-icon img {
   height: 100%;
   width: auto;
+  display: block;
+}
+
+.header.scrolled .logo-icon {
+  height: 56px;
 }
 
 .nav {
@@ -344,24 +353,27 @@ body.article-page #main-content > .section {
 }
 
 .nav-links a {
-  font-size: var(--font-size-sm);
+  font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-text-light);
+  letter-spacing: 0.005em;
+  color: var(--color-text);
   text-decoration: none;
   transition: color var(--transition);
-  padding: 0.25rem 0;
+  padding: 0.3rem 0;
   position: relative;
 }
 
 .nav-links a::after {
   content: '';
   position: absolute;
-  bottom: -2px;
-  left: 0;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 2px;
+  border-radius: 2px;
   background: var(--color-primary);
-  transition: width var(--transition);
+  transition: width 220ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .nav-links a:hover,
@@ -3087,44 +3099,57 @@ a.service-card-link {
 /* --- Cat Friendly Clinic Header Logo --- */
 .logo { flex-shrink: 0; }
 
-/* Keep CFC logo adjacent to main logo regardless of nav width — nav is pushed to the right */
+/* Push the nav to the right so the credential pill sits next to the logo */
 .header .container > .nav { margin-left: auto; }
 
-.cfc-header-logo {
-  display: flex;
+/* Cat Friendly Clinic — official ISFM accreditation badge, refined sizing
+   (was 108px, drowning the header — now matches logo proportions) */
+.header-credential {
+  display: inline-flex;
   align-items: center;
-  height: 108px;
+  height: 64px;
   flex-shrink: 0;
-  margin-left: var(--spacing-md);
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+  opacity: 0.95;
 }
 
-.cfc-header-logo img {
+.header-credential img {
   height: 100%;
   width: auto;
   display: block;
 }
 
-@media (max-width: 1280px) {
-  .cfc-header-logo {
+.header-credential:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.header.scrolled .header-credential {
+  height: 52px;
+}
+
+/* Below 1100px: nav is tight, hide badge to keep nav readable */
+@media (max-width: 1100px) {
+  .header-credential {
     display: none;
   }
 }
 
-/* Mobile: nav collapses, freeing room for CFC logo alongside main logo */
+/* Tablet portrait: nav collapses to hamburger, badge comes back at small size */
 @media (max-width: 768px) {
-  .cfc-header-logo {
-    display: flex;
-    height: 65px;
-    margin-left: var(--spacing-sm);
+  .header-credential {
+    display: inline-flex;
+    height: 44px;
+    margin-left: 0.75rem;
   }
+  .header.scrolled .header-credential { height: 40px; }
 }
 
-/* Phones: shrink CFC badge + tighten lang toggle so hamburger menu fits */
-@media (max-width: 640px) {
-  .cfc-header-logo {
-    height: 42px;
-    margin-left: var(--spacing-xs);
-  }
+/* Phones: hide again, header gets crowded with hamburger + lang */
+@media (max-width: 540px) {
+  .header-credential { display: none; }
   .header .container {
     padding: 0 var(--spacing-sm);
   }
