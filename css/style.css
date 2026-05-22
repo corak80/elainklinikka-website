@@ -2605,9 +2605,11 @@ a.service-card-link {
   }
 
   .logo-icon {
-    height: 110px;
-    overflow: visible;
-    transform: translateY(2px);
+    height: 60px;
+  }
+
+  .header.scrolled .logo-icon {
+    height: 52px;
   }
 
   .nav-links {
@@ -3130,26 +3132,30 @@ a.service-card-link {
   height: 52px;
 }
 
-/* Below 1100px: nav is tight, hide badge to keep nav readable */
+/* Below 1100px: nav is tight, hide badge to keep nav links readable */
 @media (max-width: 1100px) {
   .header-credential {
     display: none;
   }
 }
 
-/* Tablet portrait: nav collapses to hamburger, badge comes back at small size */
+/* Tablet portrait: nav collapses to hamburger, badge reappears at small size */
 @media (max-width: 768px) {
   .header-credential {
     display: inline-flex;
-    height: 44px;
+    height: 48px;
     margin-left: 0.75rem;
   }
-  .header.scrolled .header-credential { height: 40px; }
+  .header.scrolled .header-credential { height: 42px; }
 }
 
-/* Phones: hide again, header gets crowded with hamburger + lang */
+/* Phones: keep the badge visible, just smaller */
 @media (max-width: 540px) {
-  .header-credential { display: none; }
+  .header-credential {
+    height: 36px;
+    margin-left: 0.5rem;
+  }
+  .header.scrolled .header-credential { height: 32px; }
   .header .container {
     padding: 0 var(--spacing-sm);
   }
