@@ -2799,9 +2799,7 @@ a.service-card-link {
 
 @media (max-width: 480px) {
   .logo-icon {
-    height: 95px;
-    overflow: visible;
-    transform: translateY(2px);
+    height: 50px;
   }
 
   .hero h1 {
