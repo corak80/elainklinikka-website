@@ -1349,7 +1349,7 @@ function generateArticleIndex(translations, lang) {
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="/images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUrl })}
     </div>
@@ -1937,6 +1937,7 @@ const servicePages = [
     slug: 'senioritarkastus',
     slugSv: 'seniorundersokning',
     slugEn: 'senior-check-up',
+    skipBuild: true,
     title: 'Senioritutkimus 299 € | Eläinklinikka Saari',
     h1: 'Senioritutkimus 299 €',
     metaDesc: 'Senioritutkimus 299 € — eläinlääkärin käynti, verinäyte ja kattava IDEXX-laboratoriopaneeli. Ikääntyvän lemmikin terveystarkastus Vaasassa.',
@@ -3422,6 +3423,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
   <main id="main-content">
   <section class="section articles-section">
     <div class="container">
+      <div class="page-back-wrapper page-back-wrapper--top"><a href="${homeUrl}" class="page-back-link">${escapeHtml((backText || '').replace(/^← /, '').replace(/^← /, ''))}</a></div>
       <article class="article-card">
         <div class="article-header">
           <span class="service-icon-large">${service.icon}</span>
@@ -3808,9 +3810,10 @@ function generateReviewsPage(lang) {
   // AggregateRating reflects the FULL Google Business Profile (281 reviews @ 4.6 avg);
   // individual Review entries are the 14 we're displaying on this page.
   const featuredCount = REVIEWS.length;
+  // Reviews are nested under VeterinaryCare.review — Google rejects a
+  // nested itemReviewed there (directional conflict, GSC 5/23/26).
   const reviewJsonLd = REVIEWS.map((r) => ({
     '@type': 'Review',
-    itemReviewed: { '@type': 'VeterinaryCare', name: i18n.brandName, url: BASE_URL },
     author: { '@type': 'Person', name: r.author },
     reviewBody: r.body,
     reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
