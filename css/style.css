@@ -313,6 +313,12 @@ body.article-page #main-content > .section {
   transform: translateX(-2px);
 }
 
+/* Top variant: align to the right edge of the 800px article-card */
+.page-back-wrapper--top {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-md);
+}
+
 .logo {
   display: flex;
   align-items: center;
