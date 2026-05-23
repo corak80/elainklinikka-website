@@ -3039,10 +3039,10 @@ const servicePages = [
     slugEn: 'emergency',
     title: 'Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari',
     h1: 'Päivystävä eläinlääkäri Vaasassa',
-    metaDesc: 'Päivittäin varatut akuuttiajat Eläinklinikka Saarella arkisin 9–17. Yöt ja viikonloput: alueen päivystysnumero 0600 399 299. Ohjeet ensiapuun ja hätätilanteisiin.',
+    metaDesc: 'Päivittäin varatut akuuttiajat Eläinklinikka Saarella arkisin 7:45–17. Yöt ja viikonloput: alueen päivystysnumero 0600 399 299. Ohjeet ensiapuun ja hätätilanteisiin.',
     icon: '🚨',
     sections: [
-      { heading: 'Päivittäiset akuuttiajat arkisin 9–17', text: 'Varaamme joka arkipäivälle akuuttiaikoja kiireellisiä tapauksia varten. Soita numeroon (06) 321 7300 — vaikka päivän kalenteri näyttäisi täydeltä, akuuttiaikoja voi silti olla saatavilla. Puhelimessa arvioimme tilanteen, annamme ensiapuohjeita matkan ajaksi ja valmistaudumme vastaanottoon.' },
+      { heading: 'Päivittäiset akuuttiajat arkisin 7:45–17', text: 'Varaamme joka arkipäivälle akuuttiaikoja kiireellisiä tapauksia varten. Soita numeroon (06) 321 7300 — vaikka päivän kalenteri näyttäisi täydeltä, akuuttiaikoja voi silti olla saatavilla. Puhelimessa arvioimme tilanteen, annamme ensiapuohjeita matkan ajaksi ja valmistaudumme vastaanottoon.' },
       { heading: 'Milloin on hätätilanne?', text: '<ul class="emergency-symptoms"><li><strong>Voimakas läähätys tai hengenahdistus</strong> — sinertävät tai vaaleat limakalvot, kissa hengittää suu auki (kissalla harvinainen, aina varoitusmerkki). Tavallinen läähätys kuumalla, urheilusuorituksen tai jännittävän tilanteen jälkeen ei ole sama asia.</li><li><strong>Tajuttomuus tai krampit</strong></li><li><strong>Voimakas verenvuoto tai laaja haava</strong></li><li><strong>Liikennevahinko, putoaminen tai muu vastaava vakava trauma</strong></li><li><strong>Virtsaamisvaikeudet tai virtsan tulon estyminen</strong> — kiireellisin urokskissalla: virtsaputken tukos on hengenvaarallinen jo tuntien sisällä, soita heti. Myös koirilla tämä on hätätilanne (virtsakivet, eturauhassairaudet). Mikä tahansa lemmikki, joka ponnistelusta huolimatta ei saa virtsattua, tarvitsee välittömän arvioinnin.</li><li><strong>Koira, jolla on turvonnut vatsa ja joka yrittää oksentaa tuloksetta</strong> — mahalaukun kiertymä on hengenvaarallinen</li><li><strong>Myrkyllisen aineen syöminen</strong> — suklaa, ksylitoli, jäänestoaine (etyleeniglykoli), viinirypäleet, sipuli, ihmislääkkeet</li><li><strong>Kyynpurema</strong> — Suomen ainoa luonnonvarainen myrkkykäärme. Kanna lemmikkisi, älä anna sen kävellä. Tarvitsee aina eläinlääkärin arvion.</li><li><strong>Voimakas oksentelu tai ripuli, joka on jatkunut yli vuorokauden</strong> — pennuilla, kissanpennuilla, vanhuksilla sekä pienillä roduilla vielä nopeammin. Verinen oksennus tai uloste vaatii välittömän arvion.</li><li><strong>Silmävamma tai äkillinen sokeus</strong></li><li><strong>Hallitsematon kipu</strong></li><li><strong>Tiine narttu, joka ponnistaa voimakkaasti yli 30 minuuttia ilman tulosta</strong>, tai jolla on yli 2 tunnin tauko pentujen välillä, tai jolla on vihertävää tai veristä vuotoa ilman pentua</li></ul>' },
       { heading: 'Miten toimit hätätilanteessa', text: '<ol class="emergency-steps"><li><strong>Soita ensin.</strong> Virka-aikana (06) 321 7300, virka-ajan ulkopuolella alueen päivystysnumero 0600 399 299 (katso seuraava osio). Näin ehdimme valmistautua ja voimme antaa ensiapuohjeita matkan ajaksi.</li><li><strong>Pidä lemmikki lämpimänä ja rauhallisena.</strong> Kuljeta loukkaantunutta lemmikkiä tasaisella alustalla. Suurille koirille käytä lautaa, auton tavaratilan pohjaa tai jämäkkää pahvilaatikkoa; kissoille ja pienille koirille kantokoria. Tue päätä ja takapäätä samanaikaisesti. Syliin nostaminen voi pahentaa selkä- tai nivelvammoja.</li><li><strong>Myrkytysepäilyssä ota mukaan pakkaus tai epäilty aine.</strong> Älä yritä oksennuttaa kotona ilman, että olet ensin soittanut meille. Joissakin myrkytyksissä (syövyttävät aineet, terävät esineet) se on vaarallista. Älä koskaan käytä suolaa oksennuttamiseen, se on hengenvaarallista erityisesti kissoille.</li><li><strong>Älä anna ihmislääkkeitä.</strong> Parasetamoli on kissalle tappavaa ja koiralle myrkyllistä väärässä annostuksessa. Ibuprofeeni, diklofenaakki ja aspiriini vaurioittavat ruoansulatuskanavaa ja munuaisia koirilla ja kissoilla.</li><li><strong>Tunnista sokin oireet:</strong> kylmät korvat ja tassut, vaaleat ikenet, nopea pinnallinen hengitys, äkillinen voimattomuus. Peittele lemmikki, älä juota, lähde heti matkaan, soita matkalla. Sokki vaatii välitöntä nestehoitoa eläinlääkärin valvonnassa.</li></ol>' },
       { heading: 'Iltaisin ja viikonloppuisin — Pohjoinen päivystysalue', text: '<p>Eläinklinikka Saari on suljettu iltaisin ja viikonloppuisin, emmekä vastaa puhelimeen virka-ajan ulkopuolella. Vaasan alueella, johon kuuluvat <strong>Vaasa, Mustasaari, Laihia, Vähäkyrö ja Vöyri</strong>, on yhteinen päivystysnumero ilta-, yö- ja viikonloppuaikoihin.</p><aside class="emergency-card" role="note"><div class="emergency-card-label">Alueen päivystysnumero</div><a class="emergency-card-number" href="tel:+358600399299">0600&nbsp;399&nbsp;299</a><div class="emergency-card-hours"><span>Arki-iltaisin 16.00 – 08.00</span><span>Viikonloput pe 16.00 – ma 08.00</span></div><div class="emergency-card-coverage">Vaasa · Mustasaari · Laihia · Vähäkyrö · Vöyri</div></aside><p>Päivystävä eläinlääkäri arvioi tilanteen puhelimessa ja ohjaa oikeaan paikkaan. Puhelumaksu noudattaa alueen päivystystaksaa (noin 1,53 €/min päiväsaikaan, 3,55 €/min yöllä klo 22–08). Käynti- ja toimenpidemaksuihin lisätään päivystyskorotus alueen ohjeistuksen mukaan, tarkka summa selviää puhelussa.</p><div class="emergency-hospital"><strong>Laajempaa aukiolopaikkaa tarvitseville</strong><div class="hospital-meta"><strong>Evidensia Seinäjoen Eläinsairaala</strong> · Ravitie 8 B, Seinäjoki · noin 1 t 15 min Vaasasta · ma–la 8–21, su 9.30–18 · triage 0600 41 8823. Käytännössä lähin valinta iltakäynneille klo 21 asti.</div></div><div class="emergency-hospital"><strong>24/7 sairaalahoitoa (yöpyminen sairaalassa)</strong><div class="hospital-meta"><strong>Eläinklinikka Syke (Evidensia)</strong> · Itäkeskuksenkaari 8, Pori · noin 2 tuntia, ~195 km<br><strong>Eläinsairaala Veter (Evidensia)</strong> · Peltokatu 16, Tampere · noin 3 tuntia (seuraava 24/7-vaihtoehto Porin jälkeen). Soita aina ensin vahvistaaksesi, että teidät otetaan vastaan.</div></div>' },
@@ -3051,9 +3051,9 @@ const servicePages = [
     sv: {
       title: 'Akut veterinär Vasa | Djurklinik Saari',
       h1: 'Akut veterinär i Vasa',
-      metaDesc: 'Dagliga akuttider på Djurklinik Saari vardagar 9–17. Kvällar och helger: regionens jourtelefon 0600 399 299. Råd om första hjälpen vid nödsituationer.',
+      metaDesc: 'Dagliga akuttider på Djurklinik Saari vardagar 7:45–17. Kvällar och helger: regionens jourtelefon 0600 399 299. Råd om första hjälpen vid nödsituationer.',
       sections: [
-        { heading: 'Dagliga akuttider — vardagar 9–17', text: 'Vi reserverar akuttider varje vardag för brådskande fall. Ring (06) 321 7300 — även om dagens kalender ser full ut kan en akuttid ändå finnas tillgänglig. Per telefon bedömer vi situationen, ger råd om första hjälpen för resan och förbereder mottagningen.' },
+        { heading: 'Dagliga akuttider — vardagar 7:45–17', text: 'Vi reserverar akuttider varje vardag för brådskande fall. Ring (06) 321 7300 — även om dagens kalender ser full ut kan en akuttid ändå finnas tillgänglig. Per telefon bedömer vi situationen, ger råd om första hjälpen för resan och förbereder mottagningen.' },
         { heading: 'När är det en nödsituation?', text: '<ul class="emergency-symptoms"><li><strong>Svår andnöd</strong> — ansträngd andning, blåaktigt eller blekt tandkött, katt som andas med öppen mun (mycket ovanligt hos katt, alltid larmsignal). Vanlig flämtning hos en stressad eller varm hund är inte samma sak.</li><li><strong>Medvetslöshet eller kramper</strong></li><li><strong>Kraftig blödning eller större sår</strong></li><li><strong>Trafikolycka, fall eller annat allvarligt trauma</strong></li><li><strong>Svårigheter att urinera eller fullständigt urinstopp</strong> — mest brådskande hos hankatter: urinrörsstopp är livshotande inom timmar, sök vård genast. Också en äkta nödsituation hos hundar (urinstenar, prostatasjukdom). Alla djur som krystar upprepade gånger utan att kissa behöver omedelbar bedömning.</li><li><strong>Hund med uppsvälld buk och misslyckade kräkförsök</strong> — magomvridning (GDV) är livshotande</li><li><strong>Intag av giftiga ämnen</strong> — choklad, xylitol, glykol (frostskyddsmedel), vindruvor, lök, humanläkemedel</li><li><strong>Huggormsbett</strong> — Finlands enda vilt levande giftiga orm. Bär djuret, låt det inte gå själv. Kräver alltid veterinärbedömning.</li><li><strong>Kraftiga kräkningar eller diarré över ett dygn</strong> — eller tidigare hos valpar, kattungar, små raser och kroniskt sjuka djur. Blod i kräkning eller avföring kräver omedelbar bedömning.</li><li><strong>Ögonskada eller plötslig blindhet</strong></li><li><strong>Okontrollerad smärta</strong></li><li><strong>Dräktig tik som krystar aktivt i mer än 30 minuter utan att en valp föds</strong>, eller över 2 timmar mellan valpar, eller grönaktig/blodig flytning före första valpen</li></ul>' },
         { heading: 'Så agerar du i en nödsituation', text: '<ol class="emergency-steps"><li><strong>Ring först.</strong> Under arbetstid (06) 321 7300, utanför arbetstid regionens jourtelefon 0600 399 299 (se nästa avsnitt). Då hinner vi förbereda oss och kan ge råd om första hjälpen för resan.</li><li><strong>Håll djuret varmt och lugnt.</strong> Vid transport av traumapatienter ska du använda ett plant underlag — bräda, bakluckans golv eller en stadig kartong för stora hundar; transportbur för katt eller liten hund. Stöd huvud och bakdel samtidigt. Att lyfta djuret i famnen kan förvärra rygg- eller ledskador.</li><li><strong>Vid misstänkt förgiftning ska du ta med förpackningen eller ett prov.</strong> Försök inte framkalla kräkning hemma innan du har talat med oss — vid vissa förgiftningar (frätande ämnen, vassa föremål) är det farligt. Använd aldrig salt — det är livsfarligt särskilt för katter.</li><li><strong>Ge inte humanläkemedel.</strong> Paracetamol är dödligt för katt och giftigt för hund i fel dos. Ibuprofen, diklofenak och aspirin skadar mag-tarmkanalen och njurarna hos båda.</li><li><strong>Känn igen chocktecken:</strong> kalla öron och tassar, blekt tandkött, snabb ytlig andning, plötslig matthet. Håll djuret varmt, ge inte vatten, åk genast iväg och ring under resan — chock kräver omedelbar vätskebehandling under veterinärvård.</li></ol>' },
         { heading: 'Kvällar och helger — Norra jourområdet', text: '<p>Djurklinik Saari är stängd kvällar och helger, och vår telefon besvaras inte utanför arbetstid. För Vasaregionen — som omfattar <strong>Vasa, Korsholm, Laihela, Lillkyro och Vörå</strong> — finns en gemensam jourtelefon för kvällar, nätter och helger.</p><aside class="emergency-card" role="note"><div class="emergency-card-label">Regionens jourtelefon</div><a class="emergency-card-number" href="tel:+358600399299">0600&nbsp;399&nbsp;299</a><div class="emergency-card-hours"><span>Vardagskvällar 16.00 – 08.00</span><span>Helger fre 16.00 – mån 08.00</span></div><div class="emergency-card-coverage">Vasa · Korsholm · Laihela · Lillkyro · Vörå</div></aside><p>En jourveterinär bedömer ärendet per telefon och hänvisar er vidare till rätt ställe. Samtalsavgift enligt regionens jourtaxa (omkring 1,53 €/min dagtid, 3,55 €/min nattetid kl. 22–08). Besöks- och åtgärdsavgifter är 50–100 % högre enligt regionens jourtaxa — exakt summa framgår i samtalet.</p><div class="emergency-hospital"><strong>För längre öppettider och sjukhusvård</strong><div class="hospital-meta"><strong>Evidensia Seinäjoen Eläinsairaala</strong> · Ravitie 8 B, Seinäjoki · ca 1 tim 15 min från Vasa · må–lö 8–21, sö 9.30–18 · triage 0600 41 8823. I praktiken det närmaste valet för kvällsbesök fram till kl. 21.</div></div><div class="emergency-hospital"><strong>24/7 sjukhusvård (övernattning på sjukhus)</strong><div class="hospital-meta"><strong>Eläinklinikka Syke (Evidensia)</strong> · Itäkeskuksenkaari 8, Björneborg · ca 2 timmar, ~195 km<br><strong>Eläinsairaala Veter (Evidensia)</strong> · Peltokatu 16, Tammerfors · ca 3 timmar (nästa 24/7-alternativ efter Björneborg). Ring alltid först för att bekräfta att de tar emot er.</div></div>' },
@@ -3066,7 +3066,7 @@ const servicePages = [
       back: '← Tillbaka till startsidan',
       relatedTitle: 'Relaterade artiklar',
       faq: [
-        { q: 'Kan jag komma utan tidsbokning vid en akut situation?', a: 'Under arbetstid (vardagar 9–17) ja — vi reserverar dagligen akuttider just för detta. Ring alltid (06) 321 7300 först så att vi kan förbereda mottagningen och ge råd om första hjälpen per telefon.' },
+        { q: 'Kan jag komma utan tidsbokning vid en akut situation?', a: 'Under arbetstid (vardagar 7:45–17) ja — vi reserverar dagligen akuttider just för detta. Ring alltid (06) 321 7300 först så att vi kan förbereda mottagningen och ge råd om första hjälpen per telefon.' },
         { q: 'Vad gör jag om det är en nödsituation utanför arbetstid?', a: 'Ring den regionala jourtelefonen 0600 399 299. Den täcker Vasa, Korsholm, Laihela, Lillkyro och Vörå vardagskvällar 16–08 och helger fredag 16 – måndag 08.' },
         { q: 'Var finns närmaste 24/7-djursjukhus?', a: 'Eläinklinikka Syke (Evidensia) i Björneborg, cirka 2 timmar från Vasa. För fall som kräver övernattning på sjukhus kan jourtelefonen vägleda om ni ska åka dit eller till ett närmare alternativ med längre öppettider (Evidensia Seinäjoen Eläinsairaala, cirka 1 tim 15 min bort, öppet till 21.00 må–lö).' },
         { q: 'Vad gör jag om mitt djur ätit något giftigt?', a: 'Under arbetstid ringer du oss på (06) 321 7300 och tar med förpackningen eller ett prov. Utanför arbetstid ringer du 0600 399 299. Försök inte framkalla kräkning hemma innan du har talat med en veterinär — vid vissa förgiftningar förvärrar det situationen. Använd aldrig salt — det är livsfarligt för katter.' },
@@ -3077,9 +3077,9 @@ const servicePages = [
     en: {
       title: 'Emergency Veterinarian Vaasa | Saari Animal Clinic',
       h1: 'Emergency Veterinarian in Vaasa',
-      metaDesc: 'Daily reserved acute appointment slots at Saari Animal Clinic weekdays 9–17. Evenings and weekends: regional emergency hotline 0600 399 299. First aid guidance and what to do in a critical situation.',
+      metaDesc: 'Daily reserved acute appointment slots at Saari Animal Clinic weekdays 7:45–17. Evenings and weekends: regional emergency hotline 0600 399 299. First aid guidance and what to do in a critical situation.',
       sections: [
-        { heading: 'Daily acute slots — weekdays 9–17', text: 'We reserve daily acute appointment slots every weekday for urgent cases. Call (06) 321 7300 — even when the regular schedule looks full, an acute slot may still be available. We assess the situation by phone, give first-aid guidance for the journey, and prepare the clinic for your arrival.' },
+        { heading: 'Daily acute slots — weekdays 7:45–17', text: 'We reserve daily acute appointment slots every weekday for urgent cases. Call (06) 321 7300 — even when the regular schedule looks full, an acute slot may still be available. We assess the situation by phone, give first-aid guidance for the journey, and prepare the clinic for your arrival.' },
         { heading: 'When is it an emergency?', text: '<ul class="emergency-symptoms"><li><strong>Severe breathing difficulty</strong> — laboured breathing, bluish or very pale gums, cats breathing through the mouth (rare in cats and always a danger sign). Normal panting in a hot or stressed dog is not the same thing.</li><li><strong>Unconsciousness or seizures</strong></li><li><strong>Heavy bleeding or a large wound</strong></li><li><strong>Traffic accident, fall, or other serious trauma</strong></li><li><strong>Difficulty or inability to urinate</strong> — most urgent in male cats: urethral blockage is life-threatening within hours, call the same day, do not wait until morning. Also a true emergency in dogs (urethral stones, prostate disease). Any pet straining repeatedly without producing urine needs to be seen immediately.</li><li><strong>A dog with a swollen abdomen attempting to vomit unsuccessfully</strong> — gastric torsion (GDV) is life-threatening</li><li><strong>Ingestion of toxic substances</strong> — chocolate, xylitol, antifreeze (ethylene glycol), grapes, onion, human medications</li><li><strong>Adder bite</strong> — Finland\'s only wild venomous snake. Carry your pet; do not let it walk. Always requires veterinary assessment.</li><li><strong>Severe vomiting or diarrhoea lasting over 24 hours</strong> — or sooner for puppies, kittens, small breeds, and chronically ill pets. Blood in vomit or stool requires immediate assessment.</li><li><strong>Eye injury or sudden blindness</strong></li><li><strong>Uncontrolled pain</strong></li><li><strong>A pregnant female actively straining for over 30 minutes without producing a puppy</strong>, or over 2 hours between puppies, or greenish/bloody discharge before the first puppy</li></ul>' },
         { heading: 'What to do in an emergency', text: '<ol class="emergency-steps"><li><strong>Call first.</strong> During business hours: (06) 321 7300. Outside business hours: the regional hotline 0600 399 299 (see next section). We can prepare and give first-aid advice for the journey.</li><li><strong>Keep your pet warm and calm.</strong> When transporting trauma patients, use a flat surface — a board, the boot floor, or a stiff cardboard box for large dogs; a carrier for cats and small dogs. Support head and rear together. Lifting in your arms can worsen spinal or joint injuries.</li><li><strong>With suspected poisoning, bring the packaging or a sample</strong> of any vomit. Do not attempt to induce vomiting at home before consulting us — in some poisonings (corrosive substances, sharp objects) it is dangerous. Never use salt to induce vomiting — it is life-threatening, especially for cats.</li><li><strong>Do not give human medications.</strong> Paracetamol is fatal to cats and toxic to dogs at the wrong dose. Ibuprofen, diclofenac and aspirin damage the gastrointestinal tract and kidneys in both species.</li><li><strong>Recognise shock:</strong> cold ears and paws, pale gums, rapid shallow breathing, sudden weakness. Keep your pet warm, do not give water, leave for the clinic immediately and call en route — shock requires immediate fluid therapy under veterinary care.</li></ol>' },
         { heading: 'Evenings and weekends — Northern Emergency Area', text: '<p>Saari Animal Clinic is closed evenings and weekends, and our office number rings unanswered outside business hours. For the Vaasa region — covering <strong>Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri</strong> — there is a regional after-hours veterinary emergency hotline.</p><aside class="emergency-card" role="note"><div class="emergency-card-label">Regional after-hours hotline</div><a class="emergency-card-number" href="tel:+358600399299">0600&nbsp;399&nbsp;299</a><div class="emergency-card-hours"><span>Weekday evenings 16:00 – 08:00</span><span>Weekends Fri 16:00 – Mon 08:00</span></div><div class="emergency-card-coverage">Vaasa · Mustasaari · Laihia · Vähäkyrö · Vöyri</div></aside><p>A veterinarian on duty assesses your case by phone and refers you to the right place. Standard regional after-hours call charges apply (around 1.53 €/min daytime, 3.55 €/min nights from 22:00–08:00); emergency consultation fees are 50–100 % higher per regional rules — the exact amount is confirmed during the call.</p><div class="emergency-hospital"><strong>For extended-hours hospital care</strong><div class="hospital-meta"><strong>Evidensia Seinäjoen Eläinsairaala</strong> · Ravitie 8 B, Seinäjoki · about 1 h 15 min from Vaasa · Mon–Sat 8–21, Sun 9:30–18 · triage 0600 41 8823. In practice the closest option for evening cases until 21:00.</div></div><div class="emergency-hospital"><strong>For 24/7 inpatient care (overnight hospitalisation)</strong><div class="hospital-meta"><strong>Eläinklinikka Syke (Evidensia)</strong> · Itäkeskuksenkaari 8, Pori · about 2 hours, ~195 km<br><strong>Eläinsairaala Veter (Evidensia)</strong> · Peltokatu 16, Tampere · about 3 hours (next 24/7 option after Pori). Always call first to confirm they can take you.</div></div>' },
@@ -3092,7 +3092,7 @@ const servicePages = [
       back: '← Back to homepage',
       relatedTitle: 'Related articles',
       faq: [
-        { q: 'Can I come without an appointment in an emergency?', a: 'During business hours (weekdays 9–17), yes — we reserve daily acute appointment slots specifically for this. Always call (06) 321 7300 first so we can prepare and give first-aid guidance.' },
+        { q: 'Can I come without an appointment in an emergency?', a: 'During business hours (weekdays 7:45–17), yes — we reserve daily acute appointment slots specifically for this. Always call (06) 321 7300 first so we can prepare and give first-aid guidance.' },
         { q: 'What if it\'s an emergency outside business hours?', a: 'Call the regional emergency hotline 0600 399 299. It covers Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri, weekday evenings 16:00–08:00 and weekends Friday 16:00 – Monday 08:00.' },
         { q: 'Where is the nearest 24/7 small-animal hospital?', a: 'Eläinklinikka Syke (Evidensia) in Pori, about 2 hours from Vaasa. For cases that need overnight hospitalisation, the regional hotline can advise whether to head there or to a closer extended-hours option (Evidensia Seinäjoen Eläinsairaala, about 1 h 15 min away, open until 21:00 Mon–Sat).' },
         { q: 'What do I do if my pet ate something toxic?', a: 'During business hours, call us at (06) 321 7300 and bring the packaging or a sample. Outside business hours, call 0600 399 299. Do not induce vomiting at home before consulting a vet — in some poisonings it makes the situation worse. Never use salt — it is life-threatening for cats.' },
@@ -3103,7 +3103,7 @@ const servicePages = [
     relatedArticles: ['kyynpurema', 'kohtutulehdus', 'anestesiaturvallisuus'],
     schemaService: 'Emergency Veterinary Care',
     faq: [
-      { q: 'Voinko tulla ilman ajanvarausta hätätilanteessa?', a: 'Virka-aikana (arkisin 9–17) kyllä — varaamme päivittäin akuuttiaikoja juuri tätä varten. Soita aina ensin numeroon (06) 321 7300, jotta voimme valmistautua ja antaa ensiapuohjeita puhelimessa.' },
+      { q: 'Voinko tulla ilman ajanvarausta hätätilanteessa?', a: 'Virka-aikana (arkisin 7:45–17) kyllä — varaamme päivittäin akuuttiaikoja juuri tätä varten. Soita aina ensin numeroon (06) 321 7300, jotta voimme valmistautua ja antaa ensiapuohjeita puhelimessa.' },
       { q: 'Entä jos hätätilanne on virka-ajan ulkopuolella?', a: 'Soita alueen päivystysnumeroon 0600 399 299. Se palvelee Vaasaa, Mustasaarta, Laihiaa, Vähääkyröä ja Vöyriä arki-iltaisin 16–08 ja viikonloppuisin perjantai 16 – maanantai 08.' },
       { q: 'Missä on lähin 24/7 pieneläinpäivystys?', a: 'Eläinklinikka Syke (Evidensia) Porissa, noin 2 tunnin ajomatkan päässä Vaasasta. Tapauksissa, joissa potilas tarvitsee sairaalahoitoa yön yli, alueen päivystysnumero osaa neuvoa joko Poriin tai lähempänä olevaan laajemman aukiolon vaihtoehtoon (Evidensia Seinäjoen Eläinsairaala, noin 1 t 15 min päässä, auki klo 21:een asti ma–la).' },
       { q: 'Mitä teen, jos lemmikkini on syönyt jotain myrkyllistä?', a: 'Virka-aikana soita meille numeroon (06) 321 7300 ja ota mukaan pakkaus tai näyte. Virka-ajan ulkopuolella soita 0600 399 299. Älä yritä oksennuttaa kotona ilman, että olet ensin soittanut meille — joissakin myrkytyksissä se pahentaa tilannetta. Älä koskaan käytä suolaa oksennuttamiseen — se on hengenvaarallista erityisesti kissalle.' },
@@ -3980,12 +3980,12 @@ function generateBookingPage(lang) {
       htmlLang: 'fi', ogLocale: 'fi_FI',
       pageTitle: 'Varaa aika | Eläinklinikka Saari',
       h1: 'Varaa aika',
-      metaDesc: 'Ota yhteyttä Eläinklinikka Saareen Vaasaan: soitto (06) 321 7300, verkkoajanvaraus, WhatsApp tai sähköposti info@saarivet.fi. Aukioloajat ma–pe 9–17.',
+      metaDesc: 'Ota yhteyttä Eläinklinikka Saareen Vaasaan: soitto (06) 321 7300, verkkoajanvaraus, WhatsApp tai sähköposti info@saarivet.fi. Aukioloajat ma–pe 7:45–17.',
       brandName: 'Eläinklinikka Saari',
       subtitle: 'Neljä tapaa ottaa yhteyttä Eläinklinikka Saareen Vaasaan',
       methodsHeading: 'Neljä tapaa ottaa yhteyttä',
       callTitle: 'Soita meille',
-      callMeta: 'Maanantai–perjantai 9–17',
+      callMeta: 'Maanantai–perjantai 7:45–17',
       callPhoneLabel: '(06) 321 7300',
       onlineTitle: 'Varaa verkossa',
       onlineMeta: '',
@@ -3998,7 +3998,7 @@ function generateBookingPage(lang) {
       emailAddress: 'info@saarivet.fi',
       practicalInfo: 'Käytännön tietoa',
       hoursHeading: 'Aukioloajat',
-      hoursWeekday: 'Maanantai – perjantai 9.00 – 17.00',
+      hoursWeekday: 'Maanantai – perjantai 7.45 – 17.00',
       hoursClosed: 'Lauantaisin ja sunnuntaisin suljettu',
       hoursWalkin: 'Drop-in rokotukset tiistaisin klo 15.30 – 16.00 (ilman ajanvarausta)',
       acuteHeading: 'Akuutit ja päivystys',
@@ -4022,12 +4022,12 @@ function generateBookingPage(lang) {
       htmlLang: 'sv', ogLocale: 'sv_FI',
       pageTitle: 'Boka tid | Djurklinik Saari',
       h1: 'Boka tid',
-      metaDesc: 'Kontakta Djurklinik Saari i Vasa: telefon (06) 321 7300, onlinebokning, WhatsApp eller e-post info@saarivet.fi. Öppettider må–fre 9–17.',
+      metaDesc: 'Kontakta Djurklinik Saari i Vasa: telefon (06) 321 7300, onlinebokning, WhatsApp eller e-post info@saarivet.fi. Öppettider må–fre 7:45–17.',
       brandName: 'Djurklinik Saari',
       subtitle: 'Fyra sätt att kontakta Djurklinik Saari i Vasa',
       methodsHeading: 'Fyra sätt att kontakta oss',
       callTitle: 'Ring oss',
-      callMeta: 'Måndag–fredag 9–17',
+      callMeta: 'Måndag–fredag 7:45–17',
       callPhoneLabel: '(06) 321 7300',
       onlineTitle: 'Boka online',
       onlineMeta: '',
@@ -4040,7 +4040,7 @@ function generateBookingPage(lang) {
       emailAddress: 'info@saarivet.fi',
       practicalInfo: 'Praktisk information',
       hoursHeading: 'Öppettider',
-      hoursWeekday: 'Måndag – fredag 9.00 – 17.00',
+      hoursWeekday: 'Måndag – fredag 7.45 – 17.00',
       hoursClosed: 'Lördag och söndag stängt',
       hoursWalkin: 'Drop-in-vaccinationer tisdagar kl. 15.30 – 16.00 (ingen tidsbokning behövs)',
       acuteHeading: 'Akut och jour',
@@ -4064,12 +4064,12 @@ function generateBookingPage(lang) {
       htmlLang: 'en', ogLocale: 'en_GB',
       pageTitle: 'Book an appointment | Saari Animal Clinic',
       h1: 'Book an appointment',
-      metaDesc: 'Contact Saari Animal Clinic in Vaasa: call (06) 321 7300, online booking, WhatsApp, or email info@saarivet.fi. Hours Mon–Fri 9–17.',
+      metaDesc: 'Contact Saari Animal Clinic in Vaasa: call (06) 321 7300, online booking, WhatsApp, or email info@saarivet.fi. Hours Mon–Fri 7:45–17.',
       brandName: 'Saari Animal Clinic',
       subtitle: 'Four ways to contact Saari Animal Clinic in Vaasa',
       methodsHeading: 'Four ways to contact us',
       callTitle: 'Call us',
-      callMeta: 'Monday–Friday 9–17',
+      callMeta: 'Monday–Friday 7:45–17',
       callPhoneLabel: '(06) 321 7300',
       onlineTitle: 'Book online',
       onlineMeta: '',
@@ -4082,7 +4082,7 @@ function generateBookingPage(lang) {
       emailAddress: 'info@saarivet.fi',
       practicalInfo: 'Practical information',
       hoursHeading: 'Opening hours',
-      hoursWeekday: 'Monday – Friday 9:00 – 17:00',
+      hoursWeekday: 'Monday – Friday 7:45 – 17:00',
       hoursClosed: 'Closed Saturday and Sunday',
       hoursWalkin: 'Walk-in vaccinations on Tuesdays 15:30 – 16:00 (no appointment needed)',
       acuteHeading: 'Acute cases and after-hours',
@@ -4145,7 +4145,7 @@ function generateBookingPage(lang) {
         addressCountry: 'FI',
       },
       openingHoursSpecification: [
-        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '09:00', closes: '17:00' },
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '07:45', closes: '17:00' },
       ],
       potentialAction: {
         '@type': 'ReserveAction',
@@ -4350,7 +4350,7 @@ function generateAboutPage() {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
+        "opens": "07:45",
         "closes": "17:00"
       }
     ]
@@ -4563,7 +4563,7 @@ function generateContactPage() {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
+        "opens": "07:45",
         "closes": "17:00"
       }
     ],
@@ -4624,13 +4624,13 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <p>Puhelimeen vastataan arkisin aukioloaikojen puitteissa. Kiireettömissä asioissa voit myös lähettää sähköpostia tai WhatsApp-viestin, niin vastaamme mahdollisimman pian.</p>
 
           <h2>Aukioloajat</h2>
-          <p>Ma–Pe: 9:00–16:00<br>
+          <p>Ma–Pe: 7:45–17:00<br>
           La–Su: Suljettu</p>
           <p>Vastaanotto toimii ajanvarauksella. Suosittelemme varaamaan ajan etukäteen, jotta voimme varata riittävästi aikaa lemmikkisi hoitoon. Päivystystilanteissa soita numeroon (06) 321 7300, niin opastamme sinut oikean päivystävän klinikan puoleen.</p>
 
           <h2>Ajanvaraus</h2>
           <p>Voit varata ajan kahdella tavalla:</p>
-          <p><strong>Puhelimitse:</strong> Soita <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a> arkisin klo 9–16. Vastaanottomme henkilökunta auttaa löytämään sopivan ajan.</p>
+          <p><strong>Puhelimitse:</strong> Soita <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a> arkisin klo 7:45–17. Vastaanottomme henkilökunta auttaa löytämään sopivan ajan.</p>
           <p><strong>Verkkoajanvaraus:</strong> Varaa aika ympäri vuorokauden verkkoajanvarausjärjestelmässämme osoitteessa <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener">my.provet.com/elainklinikka-saari</a>. Verkkoajanvaraus on nopea ja helppokäyttöinen.</p>
 
           <h2>Mitä ottaa mukaan vastaanotolle</h2>

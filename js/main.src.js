@@ -227,9 +227,9 @@ const translations = {
 
   // Service descriptions
   'service.desc.emergency': {
-    fi: 'Päivittäin varatut akuuttiajat arkisin 9–17. Iltaisin ja viikonloppuisin Pohjoisen päivystysalueen numero 0600 399 299. Hätätilanteen ensiapu ja toimintaohjeet.',
-    sv: 'Dagliga akuttider vardagar 9–17. Kvällar och helger Norra jourområdets nummer 0600 399 299. Råd om första hjälpen vid nödsituationer.',
-    en: 'Daily reserved acute slots weekdays 9–17. Evenings and weekends: regional hotline 0600 399 299. First aid guidance for emergencies.'
+    fi: 'Päivittäin varatut akuuttiajat arkisin 7:45–17. Iltaisin ja viikonloppuisin Pohjoisen päivystysalueen numero 0600 399 299. Hätätilanteen ensiapu ja toimintaohjeet.',
+    sv: 'Dagliga akuttider vardagar 7:45–17. Kvällar och helger Norra jourområdets nummer 0600 399 299. Råd om första hjälpen vid nödsituationer.',
+    en: 'Daily reserved acute slots weekdays 7:45–17. Evenings and weekends: regional hotline 0600 399 299. First aid guidance for emergencies.'
   },
   'service.desc.acupuncture': {
     fi: 'Akupunktiota käytetään kivunlievennykseen ja joidenkin tautien hoitoon. Akupunktiota klinikalla tekee Assaf, joka on jatkokouluttautunut koirien ja hevosten akupunktiossa.',
@@ -716,7 +716,7 @@ const translations = {
   'contact.email.label': { fi: 'Sähköposti', sv: 'E-post', en: 'Email' },
   'contact.hours.label': { fi: 'Aukioloajat', sv: 'Öppettider', en: 'Opening Hours' },
   'contact.hours.weekdays': { fi: 'Ma–Pe', sv: 'Mån–Fre', en: 'Mon–Fri' },
-  'contact.hours.weekdays.time': { fi: '9:00–17:00', sv: '9:00–17:00', en: '9:00 AM–5:00 PM' },
+  'contact.hours.weekdays.time': { fi: '7:45–17:00', sv: '7:45–17:00', en: '7:45 AM–5:00 PM' },
   'contact.hours.weekends': { fi: 'La–Su', sv: 'Lör–Sön', en: 'Sat–Sun' },
   'contact.hours.weekends.time': { fi: 'Suljettu', sv: 'Stängt', en: 'Closed' },
   'contact.book': { fi: 'Varaa aika verkossa', sv: 'Boka tid online', en: 'Book Online' },
