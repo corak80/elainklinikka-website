@@ -118,9 +118,9 @@ const translations = {
     en: 'For us, patient welfare and client satisfaction are our top priorities. We strive to create a warm and trusting relationship with both you and your pet.'
   },
   'about.text2': {
-    fi: 'Ammattitaitoinen hoitotiimimme tarjoaa sinulle kokenutta ja asiantuntevaa palvelua aina eläimesi parhaaksi.',
-    sv: 'Vårt professionella vårdteam erbjuder dig erfaren och kunnig service – alltid för ditt djurs bästa.',
-    en: 'Our professional care team offers experienced and knowledgeable service, always in the best interest of your pet.'
+    fi: 'Ammattitaitoinen hoitotiimimme tarjoaa sinulle kokenutta ja asiantuntevaa palvelua aina eläimesi parhaaksi. Aukioloaikoina otamme vastaan myös kiireelliset tapaukset — <a href="/palvelut/paivystys/">lue päivystysohjeet</a>.',
+    sv: 'Vårt professionella vårdteam erbjuder dig erfaren och kunnig service – alltid för ditt djurs bästa. Under öppettiderna tar vi även emot brådskande fall — <a href="/sv/tjanster/jour/">se jouranvisningarna</a>.',
+    en: 'Our professional care team offers experienced and knowledgeable service, always in the best interest of your pet. During opening hours we also reserve slots for urgent cases — <a href="/en/services/emergency/">see emergency instructions</a>.'
   },
   'about.catfriendly.title': {
     fi: 'ISFM-sertifioitu kissaystävällinen klinikka',
