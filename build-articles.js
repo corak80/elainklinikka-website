@@ -4906,6 +4906,34 @@ ${bookingHreflang}  </url>
 ${bookingHreflang}  </url>
 `;
 
+  // Wildlife pages (FI + SV + EN, hreflang-linked)
+  const wildlifeHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/villielaimet/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/vilda-djur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/wildlife/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/villielaimet/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/villielaimet/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${wildlifeHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/vilda-djur/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${wildlifeHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/wildlife/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${wildlifeHreflang}  </url>
+`;
+
   // City-targeted landing pages (FI + SV + EN, hreflang-linked)
   const landingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/elainlaakari-vaasa/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-vasa/"/>
