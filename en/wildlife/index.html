@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <title>Wildlife care | Saari Animal Clinic</title>
+
+  <meta name="description" content="Saari Animal Clinic treats injured wildlife in Vaasa, Finland in partnership with Nordic Wildlife Care — free of charge. Read rescue stories of hedgehogs, swans, eagles and other wild patients.">
+  <link rel="canonical" href="https://saarivet.fi/en/wildlife/">
+  <link rel="alternate" hreflang="fi" href="https://saarivet.fi/villielaimet/">
+  <link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/vilda-djur/">
+  <link rel="alternate" hreflang="en" href="https://saarivet.fi/en/wildlife/">
+  <link rel="alternate" hreflang="x-default" href="https://saarivet.fi/villielaimet/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saarivet.fi/en/wildlife/">
+  <meta property="og:title" content="Wildlife care | Saari Animal Clinic">
+  <meta property="og:description" content="We treat injured wildlife in Vaasa free of charge. Rescue stories of hedgehogs, swans, eagles and other wild patients.">
+  <meta property="og:image" content="https://saarivet.fi/images/wildlife/joutsen-poliisi.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Saari Animal Clinic">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wildlife care | Saari Animal Clinic">
+  <meta name="twitter:description" content="We treat injured wildlife in Vaasa free of charge. Rescue stories of hedgehogs, eagles and other wild patients.">
+  <meta name="twitter:image" content="https://saarivet.fi/images/wildlife/joutsen-poliisi.jpg">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Wildlife care",
+    "description": "Saari Animal Clinic treats injured wildlife in Vaasa, Finland in partnership with Nordic Wildlife Care — free of charge.",
+    "url": "https://saarivet.fi/en/wildlife/",
+    "inLanguage": "en",
+    "isPartOf": { "@type": "WebSite", "name": "Saari Animal Clinic", "url": "https://saarivet.fi" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://saarivet.fi/en/" },
+      { "@type": "ListItem", "position": 2, "name": "Wildlife", "item": "https://saarivet.fi/en/wildlife/" }
+    ]
+  }]
+  </script>
+
+  <link rel="preload" as="image" href="../../images/logo.png">
+  <link rel="preload" as="image" href="../../images/wildlife/joutsen-poliisi.jpg">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" type="image/png" href="../../images/logo.png">
+
+  <style>
+    :root {
+      --wl-forest: #1f3a2f;
+      --wl-forest-dark: #142621;
+      --wl-moss: #4a6a52;
+      --wl-sage: #c9d6c2;
+      --wl-cream: #f6f1e7;
+      --wl-paper: #fbf8f1;
+      --wl-rust: #b85c2f;
+      --wl-ink: #1a1a2e;
+      --wl-display: 'Iowan Old Style', 'Apple Garamond', 'Baskerville', 'Hoefler Text', 'Georgia', serif;
+    }
+    body.wildlife-page { background: var(--wl-paper); color: var(--wl-ink); }
+    body.wildlife-page main { background: var(--wl-paper); }
+    body.wildlife-page .header { background: var(--wl-paper); }
+    .wl-hero { position: relative; padding: 0; margin: 0; overflow: hidden; background: var(--wl-forest-dark); isolation: isolate; }
+    .wl-hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; min-height: 78vh; max-width: 1400px; margin: 0 auto; }
+    .wl-hero-text { padding: 7rem 4.5rem 6rem 4.5rem; color: var(--wl-cream); display: flex; flex-direction: column; justify-content: center; position: relative; background: var(--wl-forest-dark); }
+    .wl-hero-eyebrow { font-family: var(--font-family); font-size: 0.78rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--wl-sage); margin-bottom: 1.5rem; display: inline-flex; align-items: center; gap: 0.85rem; font-weight: 500; }
+    .wl-hero-eyebrow::before { content: ""; width: 2.4rem; height: 1px; background: var(--wl-sage); display: inline-block; }
+    .wl-hero-text h1 { font-family: var(--wl-display); font-weight: 400; font-size: clamp(2.6rem, 5.5vw, 4.6rem); line-height: 1.02; letter-spacing: -0.015em; margin: 0 0 2rem 0; color: var(--wl-cream); }
+    .wl-hero-text h1 em { font-style: italic; color: #e8c79c; font-weight: 400; }
+    .wl-hero-lead { font-size: 1.15rem; line-height: 1.65; max-width: 38ch; color: rgba(246, 241, 231, 0.86); margin: 0 0 2.5rem 0; }
+    .wl-hero-meta { display: flex; gap: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(201, 214, 194, 0.18); max-width: 32rem; }
+    .wl-hero-meta div { color: var(--wl-sage); }
+    .wl-hero-meta .num { font-family: var(--wl-display); font-size: 2.2rem; line-height: 1; color: #e8c79c; display: block; margin-bottom: 0.35rem; font-weight: 400; }
+    .wl-hero-meta .lbl { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500; }
+    .wl-hero-image { position: relative; overflow: hidden; background: var(--wl-forest); }
+    .wl-hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.92) contrast(1.04); }
+    .wl-hero-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(20,38,33,0.35) 0%, rgba(20,38,33,0) 45%); pointer-events: none; }
+    .wl-hero-caption { position: absolute; bottom: 1.4rem; right: 1.4rem; background: rgba(20, 38, 33, 0.78); color: var(--wl-cream); padding: 0.5rem 0.9rem; font-size: 0.72rem; letter-spacing: 0.06em; font-family: var(--font-family); border-radius: 999px; backdrop-filter: blur(8px); }
+    .wl-section { padding: 6rem 0; position: relative; }
+    .wl-section--cream { background: var(--wl-cream); }
+    .wl-section--forest { background: var(--wl-forest); color: var(--wl-cream); }
+    .wl-container { max-width: 1240px; margin: 0 auto; padding: 0 2rem; }
+    .wl-eyebrow { font-family: var(--font-family); font-size: 0.75rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--wl-moss); font-weight: 600; margin-bottom: 1.1rem; display: inline-flex; align-items: center; gap: 0.75rem; }
+    .wl-section--forest .wl-eyebrow { color: var(--wl-sage); }
+    .wl-eyebrow::before { content: ""; width: 1.6rem; height: 1px; background: currentColor; opacity: 0.7; }
+    .wl-h2 { font-family: var(--wl-display); font-weight: 400; font-size: clamp(2rem, 3.6vw, 3.1rem); line-height: 1.08; letter-spacing: -0.012em; margin: 0 0 1.5rem 0; color: var(--wl-forest-dark); max-width: 22ch; }
+    .wl-section--forest .wl-h2 { color: var(--wl-cream); }
+    .wl-h2 em { font-style: italic; color: var(--wl-rust); }
+    .wl-section--forest .wl-h2 em { color: #e8c79c; }
+    .wl-intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    .wl-intro-text p { font-size: 1.08rem; line-height: 1.78; color: #2a2a3a; margin: 0 0 1.4rem 0; }
+    .wl-intro-text p:first-of-type::first-letter { font-family: var(--wl-display); font-size: 4.6rem; float: left; line-height: 0.86; padding: 0.4rem 0.7rem 0 0; color: var(--wl-forest); font-weight: 400; }
+    .wl-intro-pull { font-family: var(--wl-display); font-style: italic; font-size: 1.45rem; line-height: 1.42; color: var(--wl-forest); padding: 1.5rem 0 1.5rem 1.8rem; border-left: 2px solid var(--wl-rust); margin: 2rem 0; }
+    .wl-intro-image { position: relative; padding-top: 4rem; }
+    .wl-intro-image img { width: 100%; border-radius: 4px; display: block; box-shadow: 0 30px 60px -25px rgba(20, 38, 33, 0.45); }
+    .wl-intro-image figcaption { font-family: var(--wl-display); font-style: italic; font-size: 0.92rem; color: var(--wl-moss); margin-top: 1rem; max-width: 32ch; }
+    .wl-stats { background: var(--wl-forest); color: var(--wl-cream); padding: 3.5rem 0; }
+    .wl-stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+    .wl-stat { text-align: center; padding: 0 1rem; border-right: 1px solid rgba(201, 214, 194, 0.18); }
+    .wl-stat:last-child { border-right: none; }
+    .wl-stat .n { font-family: var(--wl-display); font-size: clamp(2.4rem, 4.2vw, 3.6rem); line-height: 1; color: #e8c79c; display: block; margin-bottom: 0.6rem; font-weight: 400; }
+    .wl-stat .t { font-size: 0.74rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--wl-sage); font-weight: 500; }
+    .wl-stories-head { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 4rem; }
+    .wl-stories-head p { font-size: 1.05rem; line-height: 1.65; color: var(--wl-moss); max-width: 42ch; margin: 0; }
+    .wl-stories { display: grid; grid-template-columns: repeat(12, 1fr); gap: 2rem 2.2rem; }
+    .wl-card { position: relative; grid-column: span 4; background: var(--wl-paper); transition: transform 0.45s cubic-bezier(.2,.7,.2,1); }
+    .wl-card:hover { transform: translateY(-6px); }
+    .wl-card--xl { grid-column: span 8; }
+    .wl-card--lg { grid-column: span 6; }
+    .wl-card--md { grid-column: span 6; }
+    .wl-card-image { position: relative; overflow: hidden; aspect-ratio: 4/3; background: var(--wl-sage); }
+    .wl-card--xl .wl-card-image { aspect-ratio: 3/2; }
+    .wl-card-image img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+    .wl-card[data-crop="muovinaru"]   .wl-card-image img { object-position: 42% 22%; }
+    .wl-card[data-crop="piikikas"]    .wl-card-image img { object-position: center 14%; }
+    .wl-card[data-crop="simo"]        .wl-card-image img { object-position: 35% 38%; }
+    .wl-card[data-crop="hiirenloukku"].wl-card-image img { object-position: 30% center; }
+    .wl-card[data-crop="hampaat"]     .wl-card-image img { object-position: 38% 42%; }
+    .wl-card[data-crop="joutsen"]     .wl-card-image img { object-position: 70% 45%; }
+    .wl-card[data-crop="merikotka"]   .wl-card-image img { object-position: center 28%; }
+    .wl-card[data-crop="mauri"]       .wl-card-image img { object-position: 32% 30%; }
+    .wl-card[data-crop="janis"]       .wl-card-image img { object-position: 55% 55%; }
+    .wl-card[data-crop="lepakko"]     .wl-card-image img { object-position: center 72%; }
+    .wl-card[data-crop="lepakko"]     .wl-card-image { aspect-ratio: 4/5; }
+    .wl-card:hover .wl-card-image img { transform: scale(1.04); }
+    .wl-card-rank { position: absolute; top: 1.2rem; left: 1.2rem; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: rgba(251, 248, 241, 0.92); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: center; font-family: var(--wl-display); font-style: italic; font-size: 1.1rem; color: var(--wl-forest-dark); font-weight: 400; }
+    .wl-card-tag { position: absolute; top: 1.2rem; right: 1.2rem; background: var(--wl-forest-dark); color: var(--wl-cream); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; padding: 0.4rem 0.75rem; font-weight: 500; }
+    .wl-card-body { padding: 1.4rem 0.2rem 0.2rem 0.2rem; }
+    .wl-card-meta { display: flex; gap: 1rem; align-items: center; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wl-moss); margin-bottom: 0.9rem; font-weight: 500; }
+    .wl-card-meta .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--wl-moss); opacity: 0.5; }
+    .wl-card h3 { font-family: var(--wl-display); font-weight: 400; font-size: 1.55rem; line-height: 1.18; color: var(--wl-forest-dark); margin: 0 0 0.85rem 0; letter-spacing: -0.005em; }
+    .wl-card--xl h3 { font-size: 2.1rem; }
+    .wl-card--lg h3 { font-size: 1.75rem; }
+    .wl-card p { font-size: 0.98rem; line-height: 1.62; color: #3a3a48; margin: 0 0 1rem 0; }
+    .wl-card-link { font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--wl-rust); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; transition: gap 0.3s ease; }
+    .wl-card-link:hover { gap: 0.85rem; }
+    .wl-card-link::after { content: "→"; font-size: 1rem; letter-spacing: 0; }
+    .wl-threats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 3rem; }
+    .wl-threat { padding: 2rem 1.6rem; border-top: 2px solid var(--wl-rust); background: rgba(251, 248, 241, 0.6); }
+    .wl-threat-icon { font-size: 2rem; margin-bottom: 1rem; display: block; filter: grayscale(0.2); }
+    .wl-threat h4 { font-family: var(--wl-display); font-size: 1.25rem; font-weight: 400; margin: 0 0 0.75rem 0; color: var(--wl-forest-dark); }
+    .wl-threat p { font-size: 0.92rem; line-height: 1.6; color: #3a3a48; margin: 0; }
+    .wl-emergency { background: var(--wl-forest); color: var(--wl-cream); padding: 5rem 0; position: relative; overflow: hidden; }
+    .wl-emergency::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 15% 30%, rgba(184, 92, 47, 0.18), transparent 50%), radial-gradient(circle at 85% 70%, rgba(74, 106, 82, 0.4), transparent 55%); pointer-events: none; }
+    .wl-emergency-inner { position: relative; max-width: 1100px; margin: 0 auto; padding: 0 2rem; display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center; }
+    .wl-emergency h2 { font-family: var(--wl-display); font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1.05; margin: 0 0 1.5rem 0; color: var(--wl-cream); font-weight: 400; }
+    .wl-emergency h2 em { font-style: italic; color: #e8c79c; }
+    .wl-emergency p { font-size: 1.08rem; line-height: 1.7; color: rgba(246, 241, 231, 0.86); margin-bottom: 1rem; }
+    .wl-emergency-call { display: inline-flex; align-items: center; gap: 0.8rem; background: var(--wl-rust); color: var(--wl-cream); padding: 1.1rem 1.8rem; font-size: 1.05rem; font-weight: 600; text-decoration: none; letter-spacing: 0.02em; margin-top: 1.5rem; transition: background 0.3s ease, transform 0.3s ease; border-radius: 2px; }
+    .wl-emergency-call:hover { background: #d27143; transform: translateY(-2px); }
+    .wl-emergency-call::before { content: "☎"; font-size: 1.3rem; }
+    .wl-steps { list-style: none; padding: 0; margin: 0; counter-reset: step; }
+    .wl-steps li { counter-increment: step; padding: 1rem 0 1rem 3.5rem; position: relative; border-bottom: 1px solid rgba(201, 214, 194, 0.2); font-size: 1rem; line-height: 1.55; color: rgba(246, 241, 231, 0.92); }
+    .wl-steps li:last-child { border-bottom: none; }
+    .wl-steps li::before { content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: 1rem; font-family: var(--wl-display); font-style: italic; font-size: 1.5rem; color: #e8c79c; line-height: 1; font-weight: 400; }
+    .wl-donate { background: var(--wl-cream); padding: 5rem 0; text-align: center; }
+    .wl-donate-inner { max-width: 720px; margin: 0 auto; padding: 0 2rem; }
+    .wl-donate h2 { font-family: var(--wl-display); font-size: clamp(1.9rem, 3.2vw, 2.6rem); line-height: 1.1; margin: 0 0 1.2rem 0; color: var(--wl-forest-dark); font-weight: 400; }
+    .wl-donate p { font-size: 1.05rem; line-height: 1.65; color: #3a3a48; margin-bottom: 2rem; }
+    .wl-donate-link { display: inline-block; padding: 0.95rem 1.8rem; background: var(--wl-forest); color: var(--wl-cream); text-decoration: none; font-size: 0.95rem; letter-spacing: 0.04em; font-weight: 500; border-radius: 2px; transition: background 0.3s ease; }
+    .wl-donate-link:hover { background: var(--wl-forest-dark); }
+    .wl-more { background: var(--wl-paper); padding: 5rem 0 7rem; }
+    .wl-more-head { text-align: center; margin-bottom: 3rem; }
+    .wl-more-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.6rem; max-width: 980px; margin: 0 auto; }
+    .wl-article-card { display: block; padding: 2rem 1.8rem; background: var(--wl-cream); text-decoration: none; color: var(--wl-forest-dark); border-radius: 4px; transition: background 0.3s ease, transform 0.3s ease; border-left: 3px solid var(--wl-rust); }
+    .wl-article-card:hover { background: #efe7d4; transform: translateY(-3px); }
+    .wl-article-card .tag { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--wl-rust); font-weight: 600; margin-bottom: 0.6rem; display: block; }
+    .wl-article-card h3 { font-family: var(--wl-display); font-size: 1.3rem; font-weight: 400; margin: 0 0 0.7rem 0; line-height: 1.22; }
+    .wl-article-card p { font-size: 0.92rem; line-height: 1.55; color: #3a3a48; margin: 0; }
+    .wl-divider { display: flex; align-items: center; justify-content: center; gap: 1.2rem; margin: 0 auto; padding: 3rem 0 1rem; color: var(--wl-moss); opacity: 0.55; }
+    .wl-divider span { height: 1px; background: currentColor; flex: 0 1 8rem; }
+    .wl-divider svg { width: 22px; height: 22px; }
+    @media (max-width: 900px) {
+      .wl-hero-grid { grid-template-columns: 1fr; min-height: auto; }
+      .wl-hero-text { padding: 4rem 2rem 3.5rem 2rem; }
+      .wl-hero-image { aspect-ratio: 16/10; }
+      .wl-intro-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-intro-image { padding-top: 0; }
+      .wl-stats-grid { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+      .wl-stat { border-right: none; }
+      .wl-stories-head { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2.5rem; }
+      .wl-stories { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-card, .wl-card--xl, .wl-card--lg, .wl-card--md { grid-column: span 1; }
+      .wl-threats { grid-template-columns: 1fr 1fr; }
+      .wl-emergency-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-section { padding: 4rem 0; }
+    }
+    @media (max-width: 600px) {
+      .wl-threats { grid-template-columns: 1fr; }
+      .wl-hero-meta { flex-wrap: wrap; gap: 1.5rem; }
+    }
+    @keyframes wl-rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .wl-hero-text > * { animation: wl-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .wl-hero-eyebrow { animation-delay: 0.05s; }
+    .wl-hero-text h1 { animation-delay: 0.2s; }
+    .wl-hero-lead { animation-delay: 0.4s; }
+    .wl-hero-meta { animation-delay: 0.55s; }
+    @media (prefers-reduced-motion: reduce) {
+      .wl-hero-text > * { animation: none; }
+      .wl-card:hover { transform: none; }
+      .wl-card:hover .wl-card-image img { transform: none; }
+    }
+  </style>
+</head>
+<body class="wildlife-page">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../../images/logo.png" alt="Saari Animal Clinic" width="240" height="240"></div>
+      </a>
+      <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
+        <img src="../../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+      </a>
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="../#about">Clinic</a>
+          <a href="../#services">Services</a>
+          <a href="../#team">Team</a>
+          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/en/pricelist/">Pricing</a>
+          <a href="/en/wildlife/" class="active" aria-current="page">Wildlife</a>
+          <a href="../#contact">Contact</a>
+          <a href="/en/articles/">Articles</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta mobile-cta">Book online</a>
+        </div>
+        <div class="nav-actions">
+          <div class="lang-toggle">
+            <a href="/villielaimet/">FI</a>
+            <a href="/sv/vilda-djur/">SV</a>
+            <a href="/en/wildlife/" class="active" aria-current="page">EN</a>
+          </div>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only">Book online</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="wl-hero">
+      <div class="wl-hero-grid">
+        <div class="wl-hero-text">
+          <span class="wl-hero-eyebrow">Wildlife department</span>
+          <h1>Small patient,<br>wild <em>life</em>.</h1>
+          <p class="wl-hero-lead">
+            We treat injured wild animals in Ostrobothnia — hedgehogs, eagles, swans, bats, squirrels.
+            In partnership with Nordic Wildlife Care, on a volunteer basis and free of charge.
+          </p>
+          <div class="wl-hero-meta">
+            <div><span class="num">100%</span><span class="lbl">Free of charge</span></div>
+            <div><span class="num">10+</span><span class="lbl">Species / year</span></div>
+            <div><span class="num">36 yrs</span><span class="lbl">In Vaasa</span></div>
+          </div>
+        </div>
+        <div class="wl-hero-image">
+          <img src="../../images/wildlife/joutsen-poliisi.jpg" alt="Young swan on the Saari Animal Clinic exam table, brought in by police" width="960" height="960">
+          <span class="wl-hero-caption">Young swan · brought by police · October 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="wl-section">
+      <div class="wl-container wl-intro-grid">
+        <div class="wl-intro-text">
+          <span class="wl-eyebrow">What we do</span>
+          <h2 class="wl-h2">Emergency care for every <em>wild neighbour</em>.</h2>
+          <p>
+            Saari Animal Clinic works with Nordic Wildlife Care to care for injured
+            and weakened wild animals. Our volunteer work is free for the clinic —
+            we believe every wild animal deserves a chance to return to nature.
+          </p>
+          <p>
+            We provide diagnostics and emergency care: imaging, surgery, pain
+            management and supportive care. Once stabilised, patients move on to
+            rehabilitation at Nordic Wildlife Care, and the goal is always to
+            release them back into the wild.
+          </p>
+          <div class="wl-intro-pull">
+            "Wild patients always hold a special place in our hearts. We wish every
+            little fighter a quick recovery and many safe adventures back in the wild."
+          </div>
+          <p>
+            The species we treat range from hedgehogs, bats and squirrels to swans
+            and white-tailed eagles — and every story reminds us how human activity
+            touches wild life right outside our doors.
+          </p>
+        </div>
+        <figure class="wl-intro-image">
+          <img src="../../images/wildlife-bat.webp" alt="A bat patient at Saari Animal Clinic" width="776" height="486" loading="lazy">
+          <figcaption>A little bat got warmth and rest — within hours, ready to return to the night sky.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wl-stats">
+      <div class="wl-stats-grid">
+        <div class="wl-stat"><span class="n">10+</span><span class="t">Species treated</span></div>
+        <div class="wl-stat"><span class="n">100+</span><span class="t">Cases / year</span></div>
+        <div class="wl-stat"><span class="n">0 €</span><span class="t">To the finder</span></div>
+        <div class="wl-stat"><span class="n">2011→</span><span class="t">Wildlife care</span></div>
+      </div>
+    </section>
+
+    <section class="wl-section wl-section--cream">
+      <div class="wl-container">
+        <div class="wl-stories-head">
+          <div>
+            <span class="wl-eyebrow">Patient stories</span>
+            <h2 class="wl-h2">Ten <em>rescues</em>.</h2>
+          </div>
+          <p>
+            Every year more than a hundred wild patients are brought to our clinic.
+            Here are ten stories that moved the most readers on Facebook — all carrying
+            the same message: a small act can save a wild life.
+          </p>
+        </div>
+
+        <div class="wl-stories">
+
+          <article class="wl-card wl-card--xl" data-crop="muovinaru">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/muovinaru.jpg" alt="Hedgehog with plastic string tightly wound around its legs — rescued at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-tag">Hedgehog</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>September 2025</span><span class="dot"></span>
+                <span>4,902 reactions</span><span class="dot"></span>
+                <span>322 shares</span>
+              </div>
+              <h3>Plastic string around the legs — even the smallest litter kills</h3>
+              <p>
+                A hedgehog was brought to the clinic with plastic string tightly wound
+                around the legs. Thankfully help came in time — but it reminded us
+                how dangerous even the smallest piece of litter can be to wildlife.
+                Plastic strapping, netting and other waste can cause serious injuries,
+                suffering or death.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1390215316437561" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="piikikas">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/piikikas-taistelija.jpg" alt="Hedgehog with fishing line around the neck — rescued at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№2</span>
+              <span class="wl-card-tag">Hedgehog</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>May 2025</span><span class="dot"></span>
+                <span>3,079 reactions</span>
+              </div>
+              <h3>Spiky little fighter — fishing line around the neck</h3>
+              <p>
+                A small hedgehog in clear distress. A piece of fishing line — most
+                likely from fishing tackle — had tightened around the neck, causing
+                pain and breathing difficulty. We carefully removed it. After a few
+                days of rest, back to the wild.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1274361724689588" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="simo">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/simo-kotiin.jpg" alt="Simo the hedgehog being released back to nature" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№3</span>
+              <span class="wl-card-tag">Hedgehog</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>August 2025</span><span class="dot"></span>
+                <span>2,671 reactions</span>
+              </div>
+              <h3>Simo the hedgehog goes home</h3>
+              <p>
+                Little Simo spent weeks with us, recovering from a hind-leg injury.
+                A quiet but stubborn patient — and we all grew attached. Today he is
+                well enough to return where he belongs — to the forest.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1363858202406606" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--lg" data-crop="hiirenloukku">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/hiirenloukku.jpg" alt="Hedgehog whose front paw was caught in a mouse trap — Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№4</span>
+              <span class="wl-card-tag">Hedgehog</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>April 2026</span><span class="dot"></span>
+                <span>2,093 reactions</span><span class="dot"></span>
+                <span>185 shares</span>
+              </div>
+              <h3>A small life, a big reminder — mouse trap</h3>
+              <p>
+                This wild hedgehog's front paw had been caught in a mouse trap. One
+                toe was completely severed, another dislocated, the whole paw swollen
+                and infected. For a hedgehog, front paws are vital — without the
+                ability to dig there is no chance of survival. Traps left outside
+                are a silent danger to wildlife.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1615332800592477" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="hampaat">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/hampaanpoisto.jpg" alt="The first hedgehog tooth extraction at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№5</span>
+              <span class="wl-card-tag">Hedgehog</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>May 2026</span><span class="dot"></span>
+                <span>2,071 reactions</span>
+              </div>
+              <h3>Tiny patient, big procedure — hedgehog tooth extraction</h3>
+              <p>
+                A hedgehog was brought to us from Seinäjoki after dental trauma. Two
+                upper teeth had been broken down to the root. Probably our smallest
+                dental procedure ever — and our first hedgehog tooth extraction.
+                Recovery went well.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1648474820611608" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--lg" data-crop="joutsen">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/joutsen-poliisi.jpg" alt="Young swan at Saari Animal Clinic — brought in by the police" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№6</span>
+              <span class="wl-card-tag">Swan</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>October 2025</span><span class="dot"></span>
+                <span>1,741 reactions</span>
+              </div>
+              <h3>A special guest — swan brought by the police</h3>
+              <p>
+                A young swan brought in by the police for a checkup. A thorough exam
+                revealed no injuries — a healthy and alert bird. Just in case, the
+                swan went to observation at Nordic Wildlife Care before being released.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1428297509296008" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="merikotka">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/merikotka.jpg" alt="White-tailed eagle on the Saari Animal Clinic exam table" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№7</span>
+              <span class="wl-card-tag">White-tailed eagle</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>May 2025</span><span class="dot"></span>
+                <span>1,618 reactions</span><span class="dot"></span>
+                <span>310 shares</span>
+              </div>
+              <h3>Sea eagle rescue attempt — the mark of a wind turbine</h3>
+              <p>
+                A magnificent white-tailed eagle was found near a wind farm, its wing
+                completely shattered. Recovery was no longer possible, and with heavy
+                hearts we made the humane decision. A symbol of power and freedom —
+                a reminder of the invisible threats of the built environment.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1269481341844293" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="mauri">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/mauri-orava.jpg" alt="Mauri the squirrel at Saari Animal Clinic before release" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№8</span>
+              <span class="wl-card-tag">Squirrel</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>August 2025</span><span class="dot"></span>
+                <span>1,589 reactions</span>
+              </div>
+              <h3>Mauri the squirrel returns to his forest</h3>
+              <p>
+                Mauri spent over a month with us. His right knee was injured, but his
+                small size made surgery impossible — rest and care were enough. We
+                released him exactly where he was originally found.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1365705935555166" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="janis">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/janiksenpoikanen.jpg" alt="Baby hare at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№9</span>
+              <span class="wl-card-tag">Hare</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>April 2026</span><span class="dot"></span>
+                <span>1,223 reactions</span><span class="dot"></span>
+                <span>215 shares</span>
+              </div>
+              <h3>A small visitor — baby hare</h3>
+              <p>
+                A baby hare found alone, healthy and well. An important reminder: the
+                mother hare deliberately leaves her young alone so as not to attract
+                predators to the nest. A baby hare lying still is rarely abandoned —
+                the best help is often to leave it be.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1597583262367431" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="lepakko">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/lepakko.jpg" alt="Small bat at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№10</span>
+              <span class="wl-card-tag">Bat</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>October 2025</span><span class="dot"></span>
+                <span>763 reactions</span>
+              </div>
+              <h3>A little night visitor — bat from the city centre</h3>
+              <p>
+                A small bat was found in central Vaasa, weak and unable to fly. Warmth,
+                calm and rest — within hours, alert and ready to fly again. Released
+                at the same spot where it was found.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1436967581762334" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="wl-divider" aria-hidden="true">
+          <span></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+            <circle cx="12" cy="14" r="2.2"/><circle cx="6.5" cy="9" r="1.3"/><circle cx="17.5" cy="9" r="1.3"/>
+            <circle cx="9" cy="5" r="1.1"/><circle cx="15" cy="5" r="1.1"/>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="wl-section">
+      <div class="wl-container">
+        <div class="wl-stories-head">
+          <div>
+            <span class="wl-eyebrow">What threatens our wildlife</span>
+            <h2 class="wl-h2">Most threats are <em>homemade</em>.</h2>
+          </div>
+          <p>
+            Most of our wild patients' injuries come from human activity — where the
+            garden meets the wild. A small change in routine can save a life.
+          </p>
+        </div>
+
+        <div class="wl-threats">
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🤖</span>
+            <h4>Robot lawnmowers</h4>
+            <p>
+              A nocturnal robot and a nocturnal hedgehog don't mix. Run robot mowers
+              only in daylight — a hedgehog's defence (rolling into a ball) is no
+              protection against the blades.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🪤</span>
+            <h4>Traps and poisons</h4>
+            <p>
+              Outdoor mouse traps catch a hedgehog's paw just as easily as a mouse.
+              Rodenticides end up in the food chain of predators and hedgehogs. Use
+              poison-free, enclosed alternatives.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🧵</span>
+            <h4>Plastic strings and nets</h4>
+            <p>
+              Fishing line, bale twine and plastic netting tighten around wildlife.
+              Cut strings into pieces before disposal and always pack out your
+              fishing waste.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🚗</span>
+            <h4>Traffic and construction</h4>
+            <p>
+              Road traffic kills hundreds of thousands of hedgehogs in Europe every
+              year. Wind power and solid fences create their own problems. Even a
+              small hedgehog hole in the fence (13×13 cm) helps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wl-emergency" id="injured-animal">
+      <div class="wl-emergency-inner">
+        <div>
+          <span class="wl-eyebrow">Found an injured wild animal?</span>
+          <h2>Stay <em>calm</em> — and call us.</h2>
+          <p>
+            Contact the clinic before bringing the animal in, so we can prepare. If
+            needed, we'll direct you to Nordic Wildlife Care's rehabilitation centre
+            instead.
+          </p>
+          <a href="tel:+35863217300" class="wl-emergency-call">Call (06) 321 7300</a>
+        </div>
+        <ol class="wl-steps">
+          <li>Keep your distance — don't chase or pick up with bare hands. Use thick gloves or a towel.</li>
+          <li>Place the animal in a cardboard box with air holes and soft cloth at the bottom. Keep the box dark and quiet.</li>
+          <li>Do not feed or give water — the wrong food or fluids can kill faster than the original injury.</li>
+          <li>Call the clinic and briefly describe the species, location and nature of the injury. You'll get detailed next-step instructions.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="wl-donate">
+      <div class="wl-donate-inner">
+        <span class="wl-eyebrow">Support wildlife care</span>
+        <h2>Nordic Wildlife Care looks after patients <em>after the clinic</em>.</h2>
+        <p>
+          Our clinic provides emergency care on a volunteer basis, but rehabilitation,
+          food and release happen through Nordic Wildlife Care. Their work depends on
+          donations — every euro goes directly to wildlife care.
+        </p>
+        <a class="wl-donate-link" href="https://nordicwildlifecare.fi/" target="_blank" rel="noopener">Donate to Nordic Wildlife Care →</a>
+      </div>
+    </section>
+
+    <section class="wl-more">
+      <div class="wl-container">
+        <div class="wl-more-head">
+          <span class="wl-eyebrow">Read more</span>
+          <h2 class="wl-h2" style="margin-left:auto;margin-right:auto;text-align:center;">Dive <em>deeper</em>.</h2>
+        </div>
+        <div class="wl-more-grid">
+          <a class="wl-article-card" href="/articles/siili.html">
+            <span class="tag">Article · 2026</span>
+            <h3>The hedgehog in Europe and Finland — an endangered garden friend</h3>
+            <p>Population decline, threats, robot mowers and concrete ways to help hedgehogs — including building a winter nest.</p>
+          </a>
+          <a class="wl-article-card" href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">
+            <span class="tag">Facebook</span>
+            <h3>Follow patient stories in real time</h3>
+            <p>Every new wildlife case, rescue and release is published first on our Facebook page — over 8,000 followers.</p>
+          </a>
+          <a class="wl-article-card" href="https://www.facebook.com/villielainhoitola/" target="_blank" rel="noopener">
+            <span class="tag">Partner</span>
+            <h3>Wildlife rehab — rehabilitation and release</h3>
+            <p>Our partner who looks after wildlife patients after the clinic — rehabilitates, feeds and releases them back to the wild. Follow their work on Facebook.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>An independent Finnish small-animal clinic in Dragnäsbäck, Vaasa.</p>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Quick links</strong>
+          <a href="../#about">Clinic</a>
+          <a href="../#services">Services</a>
+          <a href="../#team">Team</a>
+          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/en/pricelist/">Pricing</a>
+          <a href="/en/wildlife/">Wildlife</a>
+          <a href="/en/veterinarian-vaasa/">About us</a>
+          <a href="/en/book-appointment/">Book online</a>
+          <a href="/en/articles/">Articles</a>
+          <a href="/en/media/">Saari in the media</a>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Contact</strong>
+          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Follow us</strong>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.5-3h-3v-2c0-.9.3-1.5 1.6-1.5H16.7V4.1C16.4 4.1 15.4 4 14.3 4c-2.3 0-3.8 1.4-3.8 3.9v2.6h-2.5v3h2.5V21h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Saari Animal Clinic Ltd &middot; Business ID: 0708667-9 &middot; All rights reserved.</span>
+        <a href="/en/tietosuoja/">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <title>Luonnonvaraisten eläinten hoito | Eläinklinikka Saari</title>
+
+  <meta name="description" content="Eläinklinikka Saari hoitaa loukkaantuneita villieläimiä Vaasassa yhteistyössä Nordic Wildlife Caren kanssa — maksutta. Lue siilien, joutsenten, kotkien ja muiden luonnonvaraisten potilaidemme tarinoita.">
+  <link rel="canonical" href="https://saarivet.fi/villielaimet/">
+  <link rel="alternate" hreflang="fi" href="https://saarivet.fi/villielaimet/">
+  <link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/vilda-djur/">
+  <link rel="alternate" hreflang="en" href="https://saarivet.fi/en/wildlife/">
+  <link rel="alternate" hreflang="x-default" href="https://saarivet.fi/villielaimet/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saarivet.fi/villielaimet/">
+  <meta property="og:title" content="Luonnonvaraisten eläinten hoito | Eläinklinikka Saari">
+  <meta property="og:description" content="Hoidamme loukkaantuneita villieläimiä Vaasassa maksutta. Siilien, joutsenten, kotkien ja muiden potilaidemme pelastustarinoita.">
+  <meta property="og:image" content="https://saarivet.fi/images/wildlife/joutsen-poliisi.jpg">
+  <meta property="og:locale" content="fi_FI">
+  <meta property="og:site_name" content="Eläinklinikka Saari">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luonnonvaraisten eläinten hoito | Eläinklinikka Saari">
+  <meta name="twitter:description" content="Hoidamme loukkaantuneita villieläimiä Vaasassa maksutta. Pelastustarinoita siileistä, kotkista ja muista luonnonvaraisista potilaista.">
+  <meta name="twitter:image" content="https://saarivet.fi/images/wildlife/joutsen-poliisi.jpg">
+
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Luonnonvaraisten eläinten hoito",
+    "description": "Eläinklinikka Saari hoitaa loukkaantuneita villieläimiä Vaasassa yhteistyössä Nordic Wildlife Caren kanssa — maksutta.",
+    "url": "https://saarivet.fi/villielaimet/",
+    "inLanguage": "fi",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Eläinklinikka Saari",
+      "url": "https://saarivet.fi"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://saarivet.fi/" },
+      { "@type": "ListItem", "position": 2, "name": "Luonnonvaraiset eläimet", "item": "https://saarivet.fi/villielaimet/" }
+    ]
+  }]
+  </script>
+
+  <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="preload" as="image" href="../images/wildlife/joutsen-poliisi.jpg">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png">
+
+  <style>
+    /* =========================================================
+       /villielaimet/ — Wildlife page (editorial / nature-led)
+       ========================================================= */
+    :root {
+      --wl-forest: #1f3a2f;
+      --wl-forest-dark: #142621;
+      --wl-moss: #4a6a52;
+      --wl-sage: #c9d6c2;
+      --wl-cream: #f6f1e7;
+      --wl-paper: #fbf8f1;
+      --wl-rust: #b85c2f;
+      --wl-ink: #1a1a2e;
+      --wl-display: 'Iowan Old Style', 'Apple Garamond', 'Baskerville', 'Hoefler Text', 'Georgia', serif;
+    }
+
+    body.wildlife-page { background: var(--wl-paper); color: var(--wl-ink); }
+    body.wildlife-page main { background: var(--wl-paper); }
+    body.wildlife-page .header { background: var(--wl-paper); }
+
+    /* ---------- Hero ---------- */
+    .wl-hero {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      background: var(--wl-forest-dark);
+      isolation: isolate;
+    }
+    .wl-hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      min-height: 78vh;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .wl-hero-text {
+      padding: 7rem 4.5rem 6rem 4.5rem;
+      color: var(--wl-cream);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      background: var(--wl-forest-dark);
+    }
+    .wl-hero-eyebrow {
+      font-family: var(--font-family);
+      font-size: 0.78rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--wl-sage);
+      margin-bottom: 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.85rem;
+      font-weight: 500;
+    }
+    .wl-hero-eyebrow::before {
+      content: "";
+      width: 2.4rem;
+      height: 1px;
+      background: var(--wl-sage);
+      display: inline-block;
+    }
+    .wl-hero-text h1 {
+      font-family: var(--wl-display);
+      font-weight: 400;
+      font-size: clamp(2.6rem, 5.5vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -0.015em;
+      margin: 0 0 2rem 0;
+      color: var(--wl-cream);
+    }
+    .wl-hero-text h1 em {
+      font-style: italic;
+      color: #e8c79c;
+      font-weight: 400;
+    }
+    .wl-hero-lead {
+      font-size: 1.15rem;
+      line-height: 1.65;
+      max-width: 38ch;
+      color: rgba(246, 241, 231, 0.86);
+      margin: 0 0 2.5rem 0;
+    }
+    .wl-hero-meta {
+      display: flex;
+      gap: 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(201, 214, 194, 0.18);
+      max-width: 32rem;
+    }
+    .wl-hero-meta div { color: var(--wl-sage); }
+    .wl-hero-meta .num {
+      font-family: var(--wl-display);
+      font-size: 2.2rem;
+      line-height: 1;
+      color: #e8c79c;
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: 400;
+    }
+    .wl-hero-meta .lbl {
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .wl-hero-image {
+      position: relative;
+      overflow: hidden;
+      background: var(--wl-forest);
+    }
+    .wl-hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: saturate(0.92) contrast(1.04);
+    }
+    .wl-hero-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(20,38,33,0.35) 0%, rgba(20,38,33,0) 45%);
+      pointer-events: none;
+    }
+    .wl-hero-caption {
+      position: absolute;
+      bottom: 1.4rem;
+      right: 1.4rem;
+      background: rgba(20, 38, 33, 0.78);
+      color: var(--wl-cream);
+      padding: 0.5rem 0.9rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      font-family: var(--font-family);
+      border-radius: 999px;
+      backdrop-filter: blur(8px);
+    }
+
+    /* ---------- Section base ---------- */
+    .wl-section {
+      padding: 6rem 0;
+      position: relative;
+    }
+    .wl-section--cream { background: var(--wl-cream); }
+    .wl-section--forest { background: var(--wl-forest); color: var(--wl-cream); }
+    .wl-container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .wl-eyebrow {
+      font-family: var(--font-family);
+      font-size: 0.75rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--wl-moss);
+      font-weight: 600;
+      margin-bottom: 1.1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .wl-section--forest .wl-eyebrow { color: var(--wl-sage); }
+    .wl-eyebrow::before {
+      content: "";
+      width: 1.6rem;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.7;
+    }
+    .wl-h2 {
+      font-family: var(--wl-display);
+      font-weight: 400;
+      font-size: clamp(2rem, 3.6vw, 3.1rem);
+      line-height: 1.08;
+      letter-spacing: -0.012em;
+      margin: 0 0 1.5rem 0;
+      color: var(--wl-forest-dark);
+      max-width: 22ch;
+    }
+    .wl-section--forest .wl-h2 { color: var(--wl-cream); }
+    .wl-h2 em { font-style: italic; color: var(--wl-rust); }
+    .wl-section--forest .wl-h2 em { color: #e8c79c; }
+
+    /* ---------- Intro ---------- */
+    .wl-intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .wl-intro-text p {
+      font-size: 1.08rem;
+      line-height: 1.78;
+      color: #2a2a3a;
+      margin: 0 0 1.4rem 0;
+    }
+    .wl-intro-text p:first-of-type::first-letter {
+      font-family: var(--wl-display);
+      font-size: 4.6rem;
+      float: left;
+      line-height: 0.86;
+      padding: 0.4rem 0.7rem 0 0;
+      color: var(--wl-forest);
+      font-weight: 400;
+    }
+    .wl-intro-pull {
+      font-family: var(--wl-display);
+      font-style: italic;
+      font-size: 1.45rem;
+      line-height: 1.42;
+      color: var(--wl-forest);
+      padding: 1.5rem 0 1.5rem 1.8rem;
+      border-left: 2px solid var(--wl-rust);
+      margin: 2rem 0;
+    }
+    .wl-intro-image {
+      position: relative;
+      padding-top: 4rem;
+    }
+    .wl-intro-image img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+      box-shadow: 0 30px 60px -25px rgba(20, 38, 33, 0.45);
+    }
+    .wl-intro-image figcaption {
+      font-family: var(--wl-display);
+      font-style: italic;
+      font-size: 0.92rem;
+      color: var(--wl-moss);
+      margin-top: 1rem;
+      max-width: 32ch;
+    }
+
+    /* ---------- Stats band ---------- */
+    .wl-stats {
+      background: var(--wl-forest);
+      color: var(--wl-cream);
+      padding: 3.5rem 0;
+    }
+    .wl-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .wl-stat {
+      text-align: center;
+      padding: 0 1rem;
+      border-right: 1px solid rgba(201, 214, 194, 0.18);
+    }
+    .wl-stat:last-child { border-right: none; }
+    .wl-stat .n {
+      font-family: var(--wl-display);
+      font-size: clamp(2.4rem, 4.2vw, 3.6rem);
+      line-height: 1;
+      color: #e8c79c;
+      display: block;
+      margin-bottom: 0.6rem;
+      font-weight: 400;
+    }
+    .wl-stat .t {
+      font-size: 0.74rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--wl-sage);
+      font-weight: 500;
+    }
+
+    /* ---------- Stories grid ---------- */
+    .wl-stories-head {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: end;
+      margin-bottom: 4rem;
+    }
+    .wl-stories-head p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--wl-moss);
+      max-width: 42ch;
+      margin: 0;
+    }
+    .wl-stories {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem 2.2rem;
+    }
+    .wl-card {
+      position: relative;
+      grid-column: span 4;
+      background: var(--wl-paper);
+      transition: transform 0.45s cubic-bezier(.2,.7,.2,1);
+    }
+    .wl-card:hover { transform: translateY(-6px); }
+
+    /* Bigger feature cards for top-engagement */
+    .wl-card--xl { grid-column: span 8; }
+    .wl-card--lg { grid-column: span 6; }
+    .wl-card--md { grid-column: span 6; }
+
+    .wl-card-image {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      background: var(--wl-sage);
+    }
+    .wl-card--xl .wl-card-image { aspect-ratio: 3/2; }
+    .wl-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 28%;
+      transition: transform 1.2s cubic-bezier(.2,.7,.2,1);
+    }
+    /* Per-photo crop fine-tuning — keep subject's face/head in frame */
+    .wl-card[data-crop="muovinaru"]   .wl-card-image img { object-position: 42% 22%; }
+    .wl-card[data-crop="piikikas"]    .wl-card-image img { object-position: center 14%; }
+    .wl-card[data-crop="simo"]        .wl-card-image img { object-position: 35% 38%; }
+    .wl-card[data-crop="hiirenloukku"].wl-card-image img { object-position: 30% center; }
+    .wl-card[data-crop="hampaat"]     .wl-card-image img { object-position: 38% 42%; }
+    .wl-card[data-crop="joutsen"]     .wl-card-image img { object-position: 70% 45%; }
+    .wl-card[data-crop="merikotka"]   .wl-card-image img { object-position: center 28%; }
+    .wl-card[data-crop="mauri"]       .wl-card-image img { object-position: 32% 30%; }
+    .wl-card[data-crop="janis"]       .wl-card-image img { object-position: 55% 55%; }
+    .wl-card[data-crop="lepakko"]     .wl-card-image img { object-position: center 72%; }
+    /* Bat photo is unusually tall — give the card a portrait crop window */
+    .wl-card[data-crop="lepakko"]     .wl-card-image { aspect-ratio: 4/5; }
+    .wl-card:hover .wl-card-image img { transform: scale(1.04); }
+    .wl-card-rank {
+      position: absolute;
+      top: 1.2rem;
+      left: 1.2rem;
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 50%;
+      background: rgba(251, 248, 241, 0.92);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--wl-display);
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--wl-forest-dark);
+      font-weight: 400;
+    }
+    .wl-card-tag {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.2rem;
+      background: var(--wl-forest-dark);
+      color: var(--wl-cream);
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 0.4rem 0.75rem;
+      font-weight: 500;
+    }
+    .wl-card-body { padding: 1.4rem 0.2rem 0.2rem 0.2rem; }
+    .wl-card-meta {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--wl-moss);
+      margin-bottom: 0.9rem;
+      font-weight: 500;
+    }
+    .wl-card-meta .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--wl-moss); opacity: 0.5; }
+    .wl-card h3 {
+      font-family: var(--wl-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.18;
+      color: var(--wl-forest-dark);
+      margin: 0 0 0.85rem 0;
+      letter-spacing: -0.005em;
+    }
+    .wl-card--xl h3 { font-size: 2.1rem; }
+    .wl-card--lg h3 { font-size: 1.75rem; }
+    .wl-card p {
+      font-size: 0.98rem;
+      line-height: 1.62;
+      color: #3a3a48;
+      margin: 0 0 1rem 0;
+    }
+    .wl-card-link {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--wl-rust);
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: gap 0.3s ease;
+    }
+    .wl-card-link:hover { gap: 0.85rem; }
+    .wl-card-link::after { content: "→"; font-size: 1rem; letter-spacing: 0; }
+
+    /* ---------- Threats ---------- */
+    .wl-threats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    .wl-threat {
+      padding: 2rem 1.6rem;
+      border-top: 2px solid var(--wl-rust);
+      background: rgba(251, 248, 241, 0.6);
+    }
+    .wl-threat-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: block;
+      filter: grayscale(0.2);
+    }
+    .wl-threat h4 {
+      font-family: var(--wl-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin: 0 0 0.75rem 0;
+      color: var(--wl-forest-dark);
+    }
+    .wl-threat p {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: #3a3a48;
+      margin: 0;
+    }
+
+    /* ---------- Found injured CTA ---------- */
+    .wl-emergency {
+      background: var(--wl-forest);
+      color: var(--wl-cream);
+      padding: 5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .wl-emergency::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 15% 30%, rgba(184, 92, 47, 0.18), transparent 50%),
+        radial-gradient(circle at 85% 70%, rgba(74, 106, 82, 0.4), transparent 55%);
+      pointer-events: none;
+    }
+    .wl-emergency-inner {
+      position: relative;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .wl-emergency h2 {
+      font-family: var(--wl-display);
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      line-height: 1.05;
+      margin: 0 0 1.5rem 0;
+      color: var(--wl-cream);
+      font-weight: 400;
+    }
+    .wl-emergency h2 em { font-style: italic; color: #e8c79c; }
+    .wl-emergency p {
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: rgba(246, 241, 231, 0.86);
+      margin-bottom: 1rem;
+    }
+    .wl-emergency-call {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+      background: var(--wl-rust);
+      color: var(--wl-cream);
+      padding: 1.1rem 1.8rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      margin-top: 1.5rem;
+      transition: background 0.3s ease, transform 0.3s ease;
+      border-radius: 2px;
+    }
+    .wl-emergency-call:hover {
+      background: #d27143;
+      transform: translateY(-2px);
+    }
+    .wl-emergency-call::before {
+      content: "☎";
+      font-size: 1.3rem;
+    }
+    .wl-steps {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      counter-reset: step;
+    }
+    .wl-steps li {
+      counter-increment: step;
+      padding: 1rem 0 1rem 3.5rem;
+      position: relative;
+      border-bottom: 1px solid rgba(201, 214, 194, 0.2);
+      font-size: 1rem;
+      line-height: 1.55;
+      color: rgba(246, 241, 231, 0.92);
+    }
+    .wl-steps li:last-child { border-bottom: none; }
+    .wl-steps li::before {
+      content: counter(step, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 1rem;
+      font-family: var(--wl-display);
+      font-style: italic;
+      font-size: 1.5rem;
+      color: #e8c79c;
+      line-height: 1;
+      font-weight: 400;
+    }
+
+    /* ---------- Donate ---------- */
+    .wl-donate {
+      background: var(--wl-cream);
+      padding: 5rem 0;
+      text-align: center;
+    }
+    .wl-donate-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .wl-donate h2 {
+      font-family: var(--wl-display);
+      font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+      line-height: 1.1;
+      margin: 0 0 1.2rem 0;
+      color: var(--wl-forest-dark);
+      font-weight: 400;
+    }
+    .wl-donate p {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: #3a3a48;
+      margin-bottom: 2rem;
+    }
+    .wl-donate-link {
+      display: inline-block;
+      padding: 0.95rem 1.8rem;
+      background: var(--wl-forest);
+      color: var(--wl-cream);
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      font-weight: 500;
+      border-radius: 2px;
+      transition: background 0.3s ease;
+    }
+    .wl-donate-link:hover { background: var(--wl-forest-dark); }
+
+    /* ---------- Read more articles ---------- */
+    .wl-more {
+      background: var(--wl-paper);
+      padding: 5rem 0 7rem;
+    }
+    .wl-more-head { text-align: center; margin-bottom: 3rem; }
+    .wl-more-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.6rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .wl-article-card {
+      display: block;
+      padding: 2rem 1.8rem;
+      background: var(--wl-cream);
+      text-decoration: none;
+      color: var(--wl-forest-dark);
+      border-radius: 4px;
+      transition: background 0.3s ease, transform 0.3s ease;
+      border-left: 3px solid var(--wl-rust);
+    }
+    .wl-article-card:hover {
+      background: #efe7d4;
+      transform: translateY(-3px);
+    }
+    .wl-article-card .tag {
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--wl-rust);
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+    .wl-article-card h3 {
+      font-family: var(--wl-display);
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin: 0 0 0.7rem 0;
+      line-height: 1.22;
+    }
+    .wl-article-card p {
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: #3a3a48;
+      margin: 0;
+    }
+
+    /* ---------- Decorative divider ---------- */
+    .wl-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+      margin: 0 auto;
+      padding: 3rem 0 1rem;
+      color: var(--wl-moss);
+      opacity: 0.55;
+    }
+    .wl-divider span { height: 1px; background: currentColor; flex: 0 1 8rem; }
+    .wl-divider svg { width: 22px; height: 22px; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .wl-hero-grid { grid-template-columns: 1fr; min-height: auto; }
+      .wl-hero-text { padding: 4rem 2rem 3.5rem 2rem; }
+      .wl-hero-image { aspect-ratio: 16/10; }
+      .wl-intro-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-intro-image { padding-top: 0; }
+      .wl-stats-grid { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+      .wl-stat { border-right: none; }
+      .wl-stories-head { grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2.5rem; }
+      .wl-stories { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-card, .wl-card--xl, .wl-card--lg, .wl-card--md { grid-column: span 1; }
+      .wl-threats { grid-template-columns: 1fr 1fr; }
+      .wl-emergency-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .wl-section { padding: 4rem 0; }
+    }
+    @media (max-width: 600px) {
+      .wl-threats { grid-template-columns: 1fr; }
+      .wl-hero-meta { flex-wrap: wrap; gap: 1.5rem; }
+    }
+
+    /* ---------- Fade-in on load ---------- */
+    @keyframes wl-rise {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .wl-hero-text > * { animation: wl-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .wl-hero-eyebrow { animation-delay: 0.05s; }
+    .wl-hero-text h1 { animation-delay: 0.2s; }
+    .wl-hero-lead { animation-delay: 0.4s; }
+    .wl-hero-meta { animation-delay: 0.55s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .wl-hero-text > * { animation: none; }
+      .wl-card:hover { transform: none; }
+      .wl-card:hover .wl-card-image img { transform: none; }
+    }
+  </style>
+</head>
+<body class="wildlife-page">
+  <a href="#main-content" class="skip-link">Siirry sisältöön</a>
+
+  <header class="header">
+    <div class="container">
+      <a href="../" class="logo">
+        <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
+      </a>
+      <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
+        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+      </a>
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/hinnasto/">Hinnasto</a>
+          <a href="/villielaimet/" class="active" aria-current="page">Wildlife</a>
+          <a href="../#contact">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta mobile-cta">Varaa aika</a>
+        </div>
+        <div class="nav-actions">
+          <div class="lang-toggle">
+            <a href="/villielaimet/" class="active" aria-current="page">FI</a>
+            <a href="/sv/vilda-djur/">SV</a>
+            <a href="/en/wildlife/">EN</a>
+          </div>
+          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only">Varaa aika</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section class="wl-hero">
+      <div class="wl-hero-grid">
+        <div class="wl-hero-text">
+          <span class="wl-hero-eyebrow">Luonnonvaraisten eläinten osasto</span>
+          <h1>Pieni potilas,<br>villi <em>elämä</em>.</h1>
+          <p class="wl-hero-lead">
+            Hoidamme loukkaantuneita villieläimiä Pohjanmaalla — siilejä, kotkia, joutsenia, lepakoita, oravia.
+            Yhteistyössä Nordic Wildlife Caren kanssa, vapaaehtoisesti ja maksutta.
+          </p>
+          <div class="wl-hero-meta">
+            <div><span class="num">100%</span><span class="lbl">Maksuton hoito</span></div>
+            <div><span class="num">10+</span><span class="lbl">Lajia vuodessa</span></div>
+            <div><span class="num">36v</span><span class="lbl">Vaasassa</span></div>
+          </div>
+        </div>
+        <div class="wl-hero-image">
+          <img src="../images/wildlife/joutsen-poliisi.jpg" alt="Nuori joutsen Eläinklinikka Saaren tutkimuspöydällä — poliisi toi hänet hoitoon" width="960" height="960">
+          <span class="wl-hero-caption">Nuori joutsen · poliisin tuoma · lokakuu 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INTRO ===== -->
+    <section class="wl-section">
+      <div class="wl-container wl-intro-grid">
+        <div class="wl-intro-text">
+          <span class="wl-eyebrow">Mitä teemme</span>
+          <h2 class="wl-h2">Ensihoito jokaiselle <em>villille naapurille</em>.</h2>
+          <p>
+            Eläinklinikka Saari tekee yhteistyötä Nordic Wildlife Caren kanssa loukkaantuneiden
+            ja heikkojen villieläinten hoidossa. Vapaaehtoistyömme on klinikalle maksutonta —
+            uskomme, että jokainen villieläin ansaitsee mahdollisuuden palata luontoon.
+          </p>
+          <p>
+            Tarjoamme diagnostiikka- ja akuuttihoitopalveluja: kuvantamista, leikkauksia,
+            kivunhoitoa ja tukitoimia. Stabiloinnin jälkeen potilaat siirtyvät
+            kuntoutukseen Nordic Wildlife Careen, ja tavoitteena on aina vapauttaa ne
+            takaisin luonnonvaraiseen elämään.
+          </p>
+          <div class="wl-intro-pull">
+            “Villieläinpotilaat ovat meille aina erityisen tärkeitä. Toivotamme jokaiselle
+            selviytyjälle hyvää toipumista ja paljon turvallisia seikkailuja luonnossa.”
+          </div>
+          <p>
+            Hoidettavat lajit vaihtelevat siileistä, lepakoista ja oravista joutseniin ja
+            merikotkiin asti — ja jokainen tarina on muistutus siitä, miten ihmisen toiminta
+            koskettaa villiä elämää aivan kotipihoillamme.
+          </p>
+        </div>
+        <figure class="wl-intro-image">
+          <img src="../images/wildlife-bat.webp" alt="Lepakkopotilas Eläinklinikka Saarella" width="776" height="486" loading="lazy">
+          <figcaption>Pikkulepakko sai lämpöä ja lepoa — muutamassa tunnissa valmis takaisin yötaivaalle.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="wl-stats">
+      <div class="wl-stats-grid">
+        <div class="wl-stat"><span class="n">10+</span><span class="t">Lajia hoidossa</span></div>
+        <div class="wl-stat"><span class="n">100+</span><span class="t">Tapausta / vuosi</span></div>
+        <div class="wl-stat"><span class="n">0 €</span><span class="t">Omistajalle</span></div>
+        <div class="wl-stat"><span class="n">2011→</span><span class="t">Villieläinten hoito</span></div>
+      </div>
+    </section>
+
+    <!-- ===== STORIES ===== -->
+    <section class="wl-section wl-section--cream">
+      <div class="wl-container">
+        <div class="wl-stories-head">
+          <div>
+            <span class="wl-eyebrow">Potilastarinoita</span>
+            <h2 class="wl-h2">Kymmenen <em>pelastusta</em>.</h2>
+          </div>
+          <p>
+            Joka vuosi klinikallemme tuodaan yli sata luonnonvaraista potilasta. Tässä kymmenen
+            tarinaa, jotka ovat liikuttaneet eniten lukijoita Facebookissa — niiden takana on
+            sama viesti: pieni teko voi pelastaa villin elämän.
+          </p>
+        </div>
+
+        <div class="wl-stories">
+
+          <!-- 1. Plastic string (#1 by engagement, feature card) -->
+          <article class="wl-card wl-card--xl" data-crop="muovinaru">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/muovinaru.jpg" alt="Siili, jonka jaloissa oli tiukasti muovinaru — pelastettu Eläinklinikka Saari" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-tag">Siili</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Syyskuu 2025</span><span class="dot"></span>
+                <span>4 902 reaktiota</span><span class="dot"></span>
+                <span>322 jakoa</span>
+              </div>
+              <h3>Muovinaru jaloissa — pienikin roska tappaa</h3>
+              <p>
+                Klinikalle tuotiin siili, jonka jaloissa oli tiukasti muovinaru. Onneksi
+                hän sai apua ajoissa — mutta tämä muistutti meitä siitä, kuinka vaarallista
+                jopa pienin roskanpala voi olla villieläimille. Muovinauhat, verkot ja muut
+                jätteet voivat aiheuttaa vakavia vammoja, kärsimystä tai kuoleman.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1390215316437561" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 2. Plastic ring around neck -->
+          <article class="wl-card wl-card--md" data-crop="piikikas">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/piikikas-taistelija.jpg" alt="Siili jolla siima kaulan ympärillä — Eläinklinikka Saari pelasti" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№2</span>
+              <span class="wl-card-tag">Siili</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Toukokuu 2025</span><span class="dot"></span>
+                <span>3 079 reaktiota</span>
+              </div>
+              <h3>Piikikäs taistelija — siima kaulan ympärillä</h3>
+              <p>
+                Pieni siili, selvästi hädässä. Kaulan ympärille oli kiristynyt siiman pätkä,
+                luultavasti kalastusvälineistä. Siima aiheutti kipua ja hengitysvaikeuksia.
+                Poistimme sen varovasti — muutaman levon päivän jälkeen takaisin luontoon.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1274361724689588" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 3. Simo goes home -->
+          <article class="wl-card wl-card--md" data-crop="simo">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/simo-kotiin.jpg" alt="Siili-Simo vapautetaan luontoon" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№3</span>
+              <span class="wl-card-tag">Siili</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Elokuu 2025</span><span class="dot"></span>
+                <span>2 671 reaktiota</span>
+              </div>
+              <h3>Siili-Simo pääsee kotiin</h3>
+              <p>
+                Pieni Simo on ollut meillä viikkojen ajan, toipumassa takajalan vammasta.
+                Hiljainen mutta sitkeä potilas, ja kaikki ehdimme kiintyä häneen kovasti.
+                Tänään hän on tarpeeksi terve palatakseen sinne, minne kuuluukin — metsään.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1363858202406606" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 4. Mouse trap -->
+          <article class="wl-card wl-card--lg" data-crop="hiirenloukku">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/hiirenloukku.jpg" alt="Siili jonka etutassu jäi hiirenloukkuun — Eläinklinikka Saari" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№4</span>
+              <span class="wl-card-tag">Siili</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Huhtikuu 2026</span><span class="dot"></span>
+                <span>2 093 reaktiota</span><span class="dot"></span>
+                <span>185 jakoa</span>
+              </div>
+              <h3>Pieni elämä, suuri muistutus — hiirenloukku</h3>
+              <p>
+                Tämän villin siilin etutassu oli jäänyt hiirenloukkuun. Yksi varvas oli irronnut,
+                toinen sijoiltaan, koko tassu turvonnut ja tulehtunut. Siilille etutassut ovat
+                elintärkeät — ilman kykyä kaivaa ei selviytymisen mahdollisuutta. Ulos asetetut
+                loukut ovat villieläimille hiljainen vaara.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1615332800592477" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 5. Tooth extraction (most recent) -->
+          <article class="wl-card wl-card--md" data-crop="hampaat">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/hampaanpoisto.jpg" alt="Ensimmäinen siilin hampaanpoisto Eläinklinikka Saarella" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№5</span>
+              <span class="wl-card-tag">Siili</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Toukokuu 2026</span><span class="dot"></span>
+                <span>2 071 reaktiota</span>
+              </div>
+              <h3>Pieni potilas, suuri toimenpide — siilin hampaanpoisto</h3>
+              <p>
+                Siili tuotiin Seinäjoelta hammastapaturman vuoksi. Kaksi yläleuan hammasta oli
+                katkennut juuriin asti. Todennäköisesti kaikkien aikojen pienin hammastoimenpide
+                — ja klinikamme ensimmäinen siilin hampaanpoisto. Toipuminen sujui hyvin.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1648474820611608" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 6. Swan from police -->
+          <article class="wl-card wl-card--lg" data-crop="joutsen">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/joutsen-poliisi.jpg" alt="Nuori joutsen poliisin tuomana Eläinklinikka Saarelle" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№6</span>
+              <span class="wl-card-tag">Joutsen</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Lokakuu 2025</span><span class="dot"></span>
+                <span>1 741 reaktiota</span>
+              </div>
+              <h3>Erityinen vieras — poliisin tuoma joutsen</h3>
+              <p>
+                Nuori joutsen, jonka poliisi toi meille tarkastukseen. Perusteellinen tutkimus
+                ei paljastanut vammoja — terve ja virkeä lintu. Varmuuden vuoksi joutsen siirtyi
+                vielä tarkkailuun Nordic Wildlife Careen ennen paluuta luontoon.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1428297509296008" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 7. Sea eagle -->
+          <article class="wl-card wl-card--md" data-crop="merikotka">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/merikotka.jpg" alt="Merikotka Eläinklinikka Saaren tutkimuspöydällä" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№7</span>
+              <span class="wl-card-tag">Merikotka</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Toukokuu 2025</span><span class="dot"></span>
+                <span>1 618 reaktiota</span><span class="dot"></span>
+                <span>310 jakoa</span>
+              </div>
+              <h3>Merikotkan pelastusyritys — tuulivoimalan jälki</h3>
+              <p>
+                Upea merikotka löydettiin läheltä tuulivoimapuistoa, siipi täysin murskaantunut.
+                Toipuminen ei ollut enää mahdollista, ja raskaalla sydämellä teimme inhimillisen
+                päätöksen. Voiman ja vapauden symboli — muistutus rakennetun ympäristön
+                näkymättömistä uhista.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1269481341844293" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 8. Mauri the squirrel -->
+          <article class="wl-card wl-card--md" data-crop="mauri">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/mauri-orava.jpg" alt="Mauri-orava Eläinklinikka Saarella ennen vapautusta" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№8</span>
+              <span class="wl-card-tag">Orava</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Elokuu 2025</span><span class="dot"></span>
+                <span>1 589 reaktiota</span>
+              </div>
+              <h3>Mauri-orava palaa kotimetsään</h3>
+              <p>
+                Mauri vietti klinikallamme yli kuukauden. Oikea polvi loukkaantunut, mutta
+                pieni koko teki leikkauksesta mahdotonta — lepo ja hoito riittivät. Vapautimme
+                hänet täsmälleen siihen paikkaan, mistä hänet alun perin löydettiin.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1365705935555166" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 9. Baby hare -->
+          <article class="wl-card wl-card--md" data-crop="janis">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/janiksenpoikanen.jpg" alt="Jäniksenpoikanen Eläinklinikka Saarella" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№9</span>
+              <span class="wl-card-tag">Jänis</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Huhtikuu 2026</span><span class="dot"></span>
+                <span>1 223 reaktiota</span><span class="dot"></span>
+                <span>215 jakoa</span>
+              </div>
+              <h3>Pieni vieras — jäniksenpoikanen</h3>
+              <p>
+                Yksin löydetty jäniksenpoikanen, terve ja hyväkuntoinen. Tärkeä muistutus:
+                emo jättää poikasensa yksin tarkoituksellisesti, jotta ei houkuttele petoja
+                pesälle. Paikallaan oleva pikkujänis on harvoin hylätty — paras apu on usein
+                jättää se rauhaan.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1597583262367431" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 10. Bat -->
+          <article class="wl-card wl-card--md" data-crop="lepakko">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/lepakko.jpg" alt="Pikkulepakko Eläinklinikka Saarella" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№10</span>
+              <span class="wl-card-tag">Lepakko</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Lokakuu 2025</span><span class="dot"></span>
+                <span>763 reaktiota</span>
+              </div>
+              <h3>Pieni yövieras — lepakko keskustasta</h3>
+              <p>
+                Pikkulepakko löydettiin Vaasan keskustasta, heikkona eikä lentokykyisenä.
+                Lämpöä, rauhaa ja lepoa — muutamassa tunnissa virkistynyt ja lentokykyinen.
+                Vapautettu samaan paikkaan, mistä hänet löydettiin.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1436967581762334" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="wl-divider" aria-hidden="true">
+          <span></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+            <circle cx="12" cy="14" r="2.2"/>
+            <circle cx="6.5" cy="9" r="1.3"/>
+            <circle cx="17.5" cy="9" r="1.3"/>
+            <circle cx="9" cy="5" r="1.1"/>
+            <circle cx="15" cy="5" r="1.1"/>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THREATS ===== -->
+    <section class="wl-section">
+      <div class="wl-container">
+        <div class="wl-stories-head">
+          <div>
+            <span class="wl-eyebrow">Mikä uhkaa villieläimiämme</span>
+            <h2 class="wl-h2">Useimmat uhat ovat <em>kotitekoisia</em>.</h2>
+          </div>
+          <p>
+            Suurin osa luonnonvaraisten potilaidemme vammoista syntyy ihmisen toiminnasta —
+            siellä, missä piha ja luonto kohtaavat. Pieni muutos rutiineissa voi pelastaa
+            hengen.
+          </p>
+        </div>
+
+        <div class="wl-threats">
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🤖</span>
+            <h4>Robottiruohonleikkurit</h4>
+            <p>
+              Yöllä toimiva leikkuri ja yöllä liikkuva siili eivät sovi yhteen. Käytä
+              robottileikkuria vain päivänvalossa — siilin puolustusmekanismi (palloksi
+              käpertyminen) ei suojaa teriltä.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🪤</span>
+            <h4>Loukut ja myrkyt</h4>
+            <p>
+              Ulos asetetut hiirenloukut sieppaavat siilin tassun yhtä helposti kuin hiiren.
+              Jyrsijämyrkyt päätyvät petojen ja siilien ravintoketjuun. Käytä myrkyttömiä,
+              suojattuja vaihtoehtoja.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🧵</span>
+            <h4>Muovinarut ja verkot</h4>
+            <p>
+              Kalastussiima, paalinarut ja muoviverkot kiristyvät villieläinten ympärille.
+              Leikkaa narut palasiksi ennen roskiin viemistä ja kerää kalastusroskat aina
+              mukaan.
+            </p>
+          </div>
+          <div class="wl-threat">
+            <span class="wl-threat-icon">🚗</span>
+            <h4>Liikenne ja rakentaminen</h4>
+            <p>
+              Tieliikenne tappaa Euroopassa satoja tuhansia siilejä vuosittain. Tuulivoima
+              ja umpinaiset aidat aiheuttavat omat ongelmansa. Pienikin siiliaukko aidassa
+              (13×13 cm) auttaa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EMERGENCY CTA ===== -->
+    <section class="wl-emergency" id="loukkaantunut">
+      <div class="wl-emergency-inner">
+        <div>
+          <span class="wl-eyebrow">Löysitkö loukkaantuneen villieläimen?</span>
+          <h2>Toimi <em>rauhallisesti</em> — ja soita meille.</h2>
+          <p>
+            Ota klinikkaan yhteyttä ennen kuin tuot eläimen paikalle, jotta voimme valmistautua.
+            Tarvittaessa neuvomme suoraan Nordic Wildlife Caren kuntoutuskeskukseen.
+          </p>
+          <a href="tel:+35863217300" class="wl-emergency-call">Soita (06) 321 7300</a>
+        </div>
+        <ol class="wl-steps">
+          <li>Pidä etäisyyttä — älä jahtaa tai nosta paljain käsin. Käytä paksuja hanskoja tai pyyhettä.</li>
+          <li>Sijoita eläin pahvilaatikkoon, jossa on ilmareiät ja pehmeää kangasta pohjalla. Pidä laatikko pimeänä ja hiljaisena.</li>
+          <li>Älä syötä tai juota — väärä ravinto tai juottaminen voi tappaa nopeammin kuin alkuperäinen vamma.</li>
+          <li>Soita klinikalle ja kerro lyhyesti laji, paikka ja vamman luonne. Saat tarkemmat ohjeet seuraavasta vaiheesta.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== DONATE ===== -->
+    <section class="wl-donate">
+      <div class="wl-donate-inner">
+        <span class="wl-eyebrow">Tue villieläinhoitoa</span>
+        <h2>Nordic Wildlife Care huolehtii potilaista <em>klinikan jälkeen</em>.</h2>
+        <p>
+          Klinikkamme antaa ensihoidon vapaaehtoisesti, mutta kuntoutus, ruoka ja vapauttaminen
+          tapahtuvat Nordic Wildlife Caren kautta. Heidän työnsä on lahjoitusten varassa —
+          jokainen euro menee suoraan villieläinten hoitoon.
+        </p>
+        <a class="wl-donate-link" href="https://nordicwildlifecare.fi/" target="_blank" rel="noopener">Lahjoita Nordic Wildlife Carelle →</a>
+      </div>
+    </section>
+
+    <!-- ===== READ MORE / ARTICLES ===== -->
+    <section class="wl-more">
+      <div class="wl-container">
+        <div class="wl-more-head">
+          <span class="wl-eyebrow">Lue lisää</span>
+          <h2 class="wl-h2" style="margin-left:auto;margin-right:auto;text-align:center;">Syvenny <em>aiheeseen</em>.</h2>
+        </div>
+        <div class="wl-more-grid">
+          <a class="wl-article-card" href="/articles/siili.html">
+            <span class="tag">Artikkeli · 2026</span>
+            <h3>Siili Euroopassa ja Suomessa — uhanalainen puutarhan ystävä</h3>
+            <p>Kannan romahdus, uhat, robottiruohonleikkurit ja konkreettiset keinot auttaa siilejä — kuten talvipesän rakentaminen.</p>
+          </a>
+          <a class="wl-article-card" href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener">
+            <span class="tag">Facebook</span>
+            <h3>Seuraa potilaiden tarinoita reaaliajassa</h3>
+            <p>Kaikki uudet villieläintapaukset, pelastukset ja vapautukset julkaistaan ensin Facebookissamme — yli 8 000 seuraajaa.</p>
+          </a>
+          <a class="wl-article-card" href="https://www.facebook.com/villielainhoitola/" target="_blank" rel="noopener">
+            <span class="tag">Yhteistyökumppani</span>
+            <h3>Villieläinhoitola — kuntoutus ja vapauttaminen</h3>
+            <p>Kumppanimme, joka huolehtii villieläinpotilaista klinikan jälkeen — kuntouttaa, ruokkii ja vapauttaa takaisin luontoon. Seuraa heidän työtään Facebookissa.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Pikalinkit</strong>
+          <a href="../#about">Klinikka</a>
+          <a href="../#services">Palvelut</a>
+          <a href="../#team">Henkilökunta</a>
+          <a href="../#cat-friendly">Cat Friendly</a>
+          <a href="/hinnasto/">Hinnasto</a>
+          <a href="/villielaimet/">Wildlife</a>
+          <a href="/meista/">Meistä</a>
+          <a href="/yhteystiedot/">Yhteystiedot</a>
+          <a href="/artikkelit/">Artikkelit</a>
+          <a href="/media/">Saari mediassa</a>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Yhteystiedot</strong>
+          <a href="tel:+35863217300">(06) 321 7300</a>
+          <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
+          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+        </div>
+        <div class="footer-col">
+          <strong class="footer-heading">Seuraa meitä</strong>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/SaariKlinikka" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.5-3h-3v-2c0-.9.3-1.5 1.6-1.5H16.7V4.1C16.4 4.1 15.4 4 14.3 4c-2.3 0-3.8 1.4-3.8 3.9v2.6h-2.5v3h2.5V21h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/elainklinikkasaari" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Eläinklinikka Saari Oy &middot; Y-tunnus: 0708667-9 &middot; Kaikki oikeudet pidätetään.</span>
+        <a href="/tietosuoja/">Tietosuoja</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
