@@ -664,6 +664,11 @@ const translations = {
     sv: 'Viltdjursbild',
     en: 'Wildlife photo'
   },
+  'wildlife.morelink': {
+    fi: 'Lue villieläinpotilaiden tarinoita →',
+    sv: 'Läs vilda patienters berättelser →',
+    en: 'Read wildlife patient stories →'
+  },
 
   // Testimonials
   'testimonials.title': { fi: 'Asiakaspalaute', sv: 'Kundrecensioner', en: 'Testimonials' },
