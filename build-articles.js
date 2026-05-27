@@ -798,7 +798,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   // Footer text (localized per language so Google doesn't collapse EN/SV pages
   // as duplicates of the FI version — JS-based i18n runs too late for that check).
   const footerDesc = {
-    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.',
     sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
@@ -1143,7 +1143,7 @@ const ARTICLE_INDEX_I18N = {
     schemaDesc: 'Eläinlääketieteelliset artikkelit Eläinklinikka Saarelta',
     categories: { dental: 'Hammashoito', surgery: 'Kirurgia ja anestesia', cardiology: 'Kardiologia', endoscopy: 'Tähystykset', health: 'Terveys ja sairaudet', emergency: 'Päivystys', wildlife: 'Wildlife', clinic: 'Klinikka' },
     ogLocale: 'fi_FI',
-    footerBrand: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    footerBrand: 'Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.',
     footerQuickLinks: 'Pikalinkit',
     footerAbout: 'Klinikka', footerServices: 'Palvelut', footerTeam: 'Henkilökunta', footerPrices: 'Hinnasto', footerAboutPage: 'Meistä', footerContact: 'Yhteystiedot', footerArticles: 'Artikkelit', footerMedia: 'Saari mediassa',
     footerContactTitle: 'Yhteystiedot', footerFollow: 'Seuraa meitä', footerCopyright: 'Kaikki oikeudet pidätetään.', footerPrivacy: 'Tietosuoja',
@@ -3186,7 +3186,7 @@ function generateServicePage(service, translations, lang) {
 
   // Footer text
   const footerDesc = {
-    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.',
+    fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.',
     sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
@@ -3617,7 +3617,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.</p>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
@@ -4440,7 +4440,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.</p>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
@@ -4662,7 +4662,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <p>Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa.</p>
+          <p>Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.</p>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
