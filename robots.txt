@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
 
 Sitemap: https://saarivet.fi/sitemap.xml
