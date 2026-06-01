@@ -773,7 +773,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const enUrl = `${BASE_URL}/en/articles/${articleSlug(article, 'en')}.html`;
   const canonicalUrl = lang === 'fi' ? fiUrl : (lang === 'sv' ? svUrl : enUrl);
   const assetPrefix = lang === 'fi' ? '../' : '../../../';
-  const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
+  const homeUrl = lang === 'fi' ? '/' : `/${lang}/`;
   const pricesUrl = PRICES_URLS[lang] || PRICES_URLS.fi;
 
   const articleBody = generateArticleBody(article, translations, specialContent, lang);
@@ -3177,7 +3177,7 @@ function generateServicePage(service, translations, lang) {
 
   // Asset path: FI pages are at /palvelut/slug/, SV/EN at /sv/tjanster/slug/ or /en/services/slug/
   const assetPrefix = lang === 'fi' ? '../../' : '../../../';
-  const homeUrl = lang === 'fi' ? assetPrefix : assetPrefix + '?lang=' + lang;
+  const homeUrl = lang === 'fi' ? '/' : `/${lang}/`;
   const pricesUrl = PRICES_URLS[lang] || PRICES_URLS.fi;
 
   // Breadcrumb labels
