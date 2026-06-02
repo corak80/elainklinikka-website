@@ -2817,7 +2817,7 @@ function initArticleFilters() {
 const vetProfiles = {
   leena: {
     name: 'Leena Sandström',
-    image: 'images/leena.webp',
+    image: '/images/leena.webp',
     bio: {
       fi: 'Valmistuin eläinlääkäriksi vuonna 1997 ja olen työskennellyt pieneläinlääkärinä lähes koko ammattiurani ajan.\n\nOlen perehtynyt sydänsairauksiin ja suorittanut eurooppalaisen ESAVS:n Certificate in Small Animal Veterinary Practice / Cardiology \u2013 tutkinnon. Minulla on oikeudet suorittaa Suomen Kennelliiton virallisia sydäntutkimuksia (auskultaatio-, ultraääni- ja EKG-tutkimukset). Vatsaontelon ultraäänitutkimusten suorittamista olen opetellut suomalaisilla kursseilla (Fennovet) ja Euroopassa (ESAVS).\n\nAmmatilliset kiinnostuksen kohteeni painottuu koirien ja kissojen sydänsairauksiin ja sisätauteihin.\n\nHuolellisen tutkimuksen ja ajan tasalla olevan tiedon avulla pyrin varmistamaan, että lemmikkisi saa asianmukaisen hoidon.',
       sv: 'Jag blev veterinär 1997 och har arbetat som smådjursveterinär nästan hela min yrkeskarriär.\n\nJag har inriktat mig på hjärtsjukdomar och har genomfört det europeiska ESAVS Certificate in Small Animal Veterinary Practice / Cardiology. Jag har rätt att utföra Finska Kennelklubbens officiella hjärtundersökningar (auskultation, ultraljud och EKG-undersökningar). Jag har lärt mig att utföra ultraljudsundersökningar av bukhålan på finska kurser (Fennovet) och i Europa (ESAVS).\n\nMina professionella intresseområden fokuserar på hjärtsjukdomar och inre sjukdomar hos hundar och katter.\n\nGenom noggrann undersökning och uppdaterad kunskap strävar jag efter att säkerställa att ditt husdjur får saklig behandling.',
@@ -2841,7 +2841,7 @@ const vetProfiles = {
   },
   pamela: {
     name: 'Pamela Kvarngård',
-    image: 'images/pamela.webp',
+    image: '/images/pamela.webp',
     bio: {
       fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2013 lähtien, ja nykyään työni painottuu erityisesti ortopedisten potilaiden hoitoon. Olen jatkokouluttautunut muun muassa ortopedisessa kirurgiassa (AOVET, ESAVS etc.) sekä hammassairauksissa (Accesia Academy).\n\nMinulle on tärkeää pysyä ajan tasalla uusista tutkimuksista, hoitomenetelmistä ja tekniikoista \u2013 jatkuva kouluttautuminen on olennainen osa parhaan mahdollisen hoidon tarjoamista.\n\nKeskeisiä ammatillisia kiinnostuksen kohteitani ovat ortopedia, pehmytosakirurgia ja hammashoidot. Koen erityisen palkitsevaksi auttaa eläimiä palauttamaan mukavuutensa, liikkuvuutensa ja hyvän elämänlaadun, ja tämä motivoi minua työssäni joka päivä.',
       sv: 'Jag har arbetat som smådjursveterinär sedan 2013, och idag ligger mitt fokus framför allt på att behandla ortopediska patienter. Jag har vidareutbildning inom bland annat ortopedisk kirurgi (AOVET, ESAVS etc.) samt tandvård (Accesia Academy).\n\nDet är viktigt för mig att hålla mig uppdaterad kring nya forskningsrön, tekniker och behandlingsmetoder \u2013 kontinuerlig fortbildning är en central del av att kunna erbjuda bästa möjliga vård.\n\nMina främsta professionella intressen är ortopedi, mjukdelskirurgi och tandvård. Jag upplever det som särskilt givande att hjälpa djur att återfå komfort, rörlighet och livskvalitet, och det motiverar mig varje dag i mitt arbete.',
@@ -2865,7 +2865,7 @@ const vetProfiles = {
   },
   assaf: {
     name: 'Assaf Wydra',
-    image: 'images/assaf.webp',
+    image: '/images/assaf.webp',
     bio: {
       fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2011 lähtien, ja nykyisin työni painottuu pääasiassa hammashoitoihin, tähystystutkimuksiin sekä luonnonvaraisten eläinten hoitoon. Olen suorittanut lisäkoulutusta eläinlääketieteellisessä hammashoidossa (Accesia Academy) sekä tähystystutkimuksissa ja villieläinten hoidossa.\n\nUuden teknologian seuraaminen ja hyödyntäminen on olennainen osa ammatillista kehittymistäni ja auttaa minua tarjoamaan potilailleni mahdollisimman korkeatasoista hoitoa.\n\nAmmatillisia mielenkiinnon kohteitani ovat erityisesti hammashoito, endoskopia sekä uusien teknologisten innovaatioiden käytännön soveltaminen kliinisessä työssä. Klinikkatyön lisäksi teen aktiivisesti vapaaehtoista pro bono -työtä luonnonvaraisten eläinten parissa, minkä koen erittäin merkitykselliseksi ja tärkeäksi osaksi eläinlääkärin rooliani.',
       sv: 'Jag har arbetat som smådjursveterinär sedan 2011, och idag fokuserar mitt arbete främst på tandvård, endoskopiska undersökningar samt vård av vilda djur. Jag har genomgått vidareutbildning inom veterinär tandvård (Accesia Academy) samt inom endoskopiska undersökningar och vård av vilda djur.\n\nAtt följa och ta i bruk ny teknologi är en viktig del av min professionella utveckling och hjälper mig att erbjuda vård av högsta möjliga kvalitet till mina patienter.\n\nMina huvudsakliga professionella intresseområden är tandvård, endoskopi samt den praktiska tillämpningen av nya teknologiska innovationer i kliniskt arbete. Utöver mitt arbete på kliniken är jag aktivt engagerad i frivilligt pro bono-arbete med vård av vilda djur, vilket jag upplever som mycket meningsfullt och som en viktig del av min roll som veterinär.',
@@ -2889,7 +2889,7 @@ const vetProfiles = {
   },
   nina: {
     name: 'Nina Haglund',
-    image: 'images/nina.webp',
+    image: '/images/nina.webp',
     bio: {
       fi: 'Olen työskennellyt eläinlääkärinä vuodesta 2016/2017 ja vuodesta 2020 alkaen ollut osa Eläinklinikka Saaren tiimiä. Minulle on tärkeää yhdistää rauhallinen ja empaattinen kohtaaminen potilasturvallisuutta korostavaan työskentelytapaan ja vahvaan kliiniseen osaamiseen \u2013 haluan, että sekä eläimet että omistajat tuntevat olonsa turvalliseksi vastaanotollani.\n\nEnnen eläinlääkäriuraa valmistuin farmaseutiksi, mikä antaa vahvan pohjan farmakologian ja lääkehoitojen ymmärtämiselle. Olen täydentänyt osaamistani hammassairauksien jatkokoulutuksella (Accesia Academy) sekä pehmytosakirurgian opinnoilla (ESAVS).\n\nAmmatilliset kiinnostuksenkohteeni painottuvat erityisesti kirurgiaan, hammashoitoihin ja dermatologiaan. Työssäni minua motivoi jatkuva kehittyminen \u2013 ja ennen kaikkea se, että voin olla tukena eläinten hyvinvoinnille joka päivä.',
       sv: 'Jag har arbetat som veterinär sedan 2016/2017 och sedan år 2020 har jag varit en del av Djurklinik Saaris team. För mig är det viktigt att kombinera ett lugnt och empatiskt bemötande med ett arbetssätt som betonar patientsäkerhet och stark klinisk kompetens \u2013 jag vill att både djuren och deras ägare ska känna sig trygga hos mig.\n\nFöre min veterinärkarriär tog jag examen som farmaceut, vilket ger mig en bra grund inom farmakologi och läkemedelsbehandlingar. Jag har även vidareutbildat mig inom tandsjukdomar (Accesia Academy) och mjukvävnadskirurgi (ESAVS).\n\nMina professionella intresseområden ligger särskilt inom kirurgi, tandvård och dermatologi. Det som motiverar mig i arbetet är möjligheten att ständigt utvecklas \u2013 och framför allt att kunna bidra till djurens välmående varje dag.',
@@ -2913,7 +2913,7 @@ const vetProfiles = {
   },
   merja: {
     name: 'Merja Autio',
-    image: 'images/merja.webp',
+    image: '/images/merja.webp',
     bio: {
       fi: 'Valmistuin kesällä 2025 Eesti Maaülikoolista Tartosta ja olen työskennellyt eläinlääkärinä vuodesta 2024. Olen ollut osana Eläinklinikka Saaren tiimiä huhtikuusta 2025 lähtien. Erityisiä mielenkiinnon kohteitani ovat pehmytkudoskirurgia sekä eksoottiset eläimet, ja tavoitteenani on kouluttautua näillä osa-alueilla lisää tulevaisuudessa.\n\nMinulle on tärkeää rauhallinen ja yksilöllinen kohtaaminen sekä eläimen luotettava ja näyttöön perustuva hoito. Koen työni merkitykselliseksi ja arvostan sen vaihtelevuutta ja ammatillista haastavuutta.',
       sv: 'Jag tog veterinärexamen sommaren 2025 vid Eesti Maaülikool i Tartu och har arbetat som veterinär sedan 2024. Jag har varit en del av Eläinklinikka Saaris team sedan april 2025. Mina särskilda intresseområden är mjukdelskirurgi och exotiska djur, och mitt mål är att vidareutbilda mig inom dessa områden även i framtiden.\n\nFör mig är ett lugnt och individuellt bemötande samt tillförlitlig och evidensbaserad vård av djuret mycket viktigt. Jag upplever mitt arbete som meningsfullt och uppskattar dess variation och professionella utmaningar.',
@@ -2962,7 +2962,7 @@ function closeVetProfile() {
 const nurseProfiles = {
   sanna: {
     name: 'Sanna Koskiluhta',
-    image: 'images/sanna.webp',
+    image: '/images/sanna.webp',
     role: 'role.manager',
     bio: {
       fi: 'Olen valmistunut eläintenhoitajaksi Ylä-Savon ammattiopistosta vuonna 2009 ja työskennellyt Eläinklinikka Saarella siitä lähtien. Olen täydentänyt osaamistani useilla lisäkoulutuksilla, erityisesti ravitsemuksen ja anestesiavalvonnan parissa. Työssäni pidän eniten sen monipuolisuudesta.\n\nEläinten hoidon ja asiakaspalvelun lisäksi vastaan tilauksista sekä työvuorosuunnittelusta.',
@@ -2982,7 +2982,7 @@ const nurseProfiles = {
   },
   jenni: {
     name: 'Jenni Ruotsala',
-    image: 'images/jenni.webp',
+    image: '/images/jenni.webp',
     role: 'role.headtech',
     bio: {
       fi: 'Olen valmistunut eläintenhoitajaksi vuonna 2010 ja aloittanut työni klinikalla vuonna 2014. Vuonna 2018 valmistuin klinikkaeläinhoitajaksi ja suoritin hammashoidon lisäkoulutuksen ulkomailla (Accesia Academy). Vuosina 2024\u20132025 syvensin osaamistani anestesiologiassa, josta minulla on erikoisammattitutkinto.\n\nAmmatillisia mielenkiinnon kohteitani ovat erityisesti anestesia sekä laboratoriotyö. Työssäni parasta on sen vaihtelevuus \u2013 yksikään päivä ei ole samanlainen.',
@@ -3002,7 +3002,7 @@ const nurseProfiles = {
   },
   meri: {
     name: 'Meri Vilén',
-    image: 'images/meri.webp',
+    image: '/images/meri.webp',
     role: 'role.tech',
     bio: {
       fi: 'Valmistuin klinikkaeläinhoitajaksi vuonna 2023, ja lisäksi minulla on hevostenhoitajan tutkinto. Eläimet ovat olleet tärkeä osa elämääni lapsuudesta asti, ja erityisesti kissat ovat minulle lähellä sydäntä.',
@@ -3022,7 +3022,7 @@ const nurseProfiles = {
   },
   susanna: {
     name: 'Susanna Seljas',
-    image: 'images/susanna.webp',
+    image: '/images/susanna.webp',
     role: 'role.tech',
     bio: {
       fi: 'Eläimet ovat aina olleet lähellä sydäntäni, minkä vuoksi päätin tehdä niistä itselleni ammatin. Valmistuin klinikkaeläinhoitajaksi vuonna 2023, ja minulla on myös eläintenhoitajan ammattitutkinto. Klinikkatyössä parasta on sen vaihtelevuus sekä jatkuvat mahdollisuudet oppia ja kehittyä.',
@@ -3042,7 +3042,7 @@ const nurseProfiles = {
   },
   emilia: {
     name: 'Emilia Svahn',
-    image: 'images/emilia.webp',
+    image: '/images/emilia.webp',
     role: 'role.tech',
     bio: {
       fi: 'Olen useiden vuosien ajan opiskellut ja työskennellyt eläinten parissa, mikä on ollut intohimoni jo pitkään. Vuonna 2023 valmistuin eläintenhoitajaksi, mikä antoi minulle vahvan perustan eläinten hyvinvoinnista ja hoidosta. Tiesin jo silloin, että haluan syventää osaamistani, ja vuonna 2024 kouluttauduin klinikkaeläintenhoitajaksi.\n\nTyöni aikana olen löytänyt erityisen kiinnostuksen anestesiaan. Pidän siitä, että voin seurata koko anestesiaprosessia \u2013 valmisteluista ja monitoroinnista aina heräämiseen saakka. Nautin myös siitä, että saan olla mukana kirurgisissa toimenpiteissä, joissa tiimityö ja tarkkuus ovat ratkaisevia.\n\nPidän erittäin paljon myös hammashoitoon liittyvistä tehtävistä. On palkitsevaa voida edistää eläinten pitkäaikaista terveyttä ja elämänlaatua hyvän suunhoidon kautta.\n\nEläinten kanssa työskentely ja niiden hoidossa mukana oleminen tuovat minulle suurta iloa ja ylpeyttä. Jokainen päivä antaa minulle mahdollisuuden kehittyä, oppia lisää ja jatkaa arvokkaan työn tekemistä eläinten ja niiden omistajien hyväksi.',
@@ -3062,7 +3062,7 @@ const nurseProfiles = {
   },
   jennifer: {
     name: 'Jennifer Couloigner',
-    image: 'images/jennifer.webp',
+    image: '/images/jennifer.webp',
     role: 'role.nurse_student',
     bio: {
       fi: 'Olen vuonna 2024 valmistunut eläintenhoitajaksi, ja jatkan parhaillaan opintojani klinikkaeläinhoitajaksi tavoitteena valmistua vuonna 2026. Erityisiä mielenkiinnon kohteitani ovat anestesiavalvonta, leikkaukset sekä eksoottiset potilaat.\n\nPidän alassani erityisesti jatkuvan oppimisen mahdollisuuksista sekä siitä, että saan kohdata niin eläimiä kuin heidän omistajiaan. Tavoitteenani on kehittää osaamistani kokonaisvaltaisesti ja tarjota eläinlähtöistä hoitoa jokaiselle potilaalle.',
@@ -3082,7 +3082,7 @@ const nurseProfiles = {
   },
   josefiina: {
     name: 'Josefiina Saarimäki',
-    image: 'images/josefiina.webp',
+    image: '/images/josefiina.webp',
     role: 'role.practical',
     bio: {
       fi: 'Olen koulutukseltani lähihoitaja, joka on aina haaveillut työskentelystä eläinten parissa. Erityisesti klinikalla, jossa on monipuolinen ja vaihteleva työympäristö. Pidän laboratoriossa ja leikkaussalissa työskentelystä. Tavoitteenani on jatkossa kouluttautua klinikkaeläinhoitajaksi ja laajentaa osaamistani, jotta voin tulevaisuudessa olla paremmin mukana edistämässä eläinten hyvinvointia.',
@@ -3102,7 +3102,7 @@ const nurseProfiles = {
   },
   tiina: {
     name: 'Tiina McBreen',
-    image: 'images/tiina.webp',
+    image: '/images/tiina.webp',
     role: 'role.practical',
     bio: {
       fi: 'Olen koulutukseltani lähihoitaja, ja lähitulevaisuudessa suunnitelmissani on opiskella klinikkaeläinhoitajaksi. Eläimet ovat aina olleet minulle suuri osa elämää, ja niiden kanssa työskentely on ollut haaveena pienestä pitäen. Olen tehnyt vapaaehtoistyötä pitkään kodittomien eläinten parissa.\n\nKlinikalla työskentely on monipuolista ja vaihtelevaa mikä tekee työstä erityisen mielenkiintoista. Erilaiset leikkaukset, ortopedia ja traumaperäiset vaivat kiinnostavat minua erityisen paljon.',
