@@ -3222,13 +3222,20 @@ function initPawTrail() {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   if (window.matchMedia('(pointer: coarse)').matches) return;
 
+  const style = document.createElement('style');
+  style.textContent =
+    '@keyframes pawFade { from { opacity: 0.7; transform: var(--paw-rot) scale(0.5); }' +
+    ' to { opacity: 0; transform: var(--paw-rot) scale(1.1); } }' +
+    '.paw-print { position: absolute; color: var(--color-primary, #E58DB4);' +
+    ' animation: pawFade 1.1s ease-out forwards; will-change: opacity, transform; pointer-events: none; }';
+  document.head.appendChild(style);
+
   const layer = document.createElement('div');
   layer.setAttribute('aria-hidden', 'true');
   layer.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:9998;overflow:hidden';
   document.body.appendChild(layer);
 
   const PAW_SVG = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="11" cy="4" r="2"/><circle cx="4" cy="9" r="2"/><circle cx="18" cy="9" r="2"/><ellipse cx="11" cy="16" rx="5" ry="4"/></svg>';
-  const COLOR = 'var(--color-primary, #E58DB4)';
   let last = null;
 
   window.addEventListener('mousemove', (e) => {
@@ -3240,18 +3247,14 @@ function initPawTrail() {
     const angle = Math.atan2(dy, dx) * (180 / Math.PI);
     last = { x: e.clientX, y: e.clientY, t: now };
 
-    const paw = document.createElement('div');
     const wobble = (Math.random() - 0.5) * 24;
+    const paw = document.createElement('div');
+    paw.className = 'paw-print';
     paw.innerHTML = PAW_SVG;
-    paw.style.cssText =
-      'position:absolute;left:' + (e.clientX - 10) + 'px;top:' + (e.clientY - 10) + 'px;' +
-      'color:' + COLOR + ';opacity:0.65;transform:rotate(' + (angle + 90 + wobble) + 'deg) scale(0.5);' +
-      'transition:opacity 1.1s ease-out, transform 1.1s ease-out;will-change:opacity,transform';
+    paw.style.left = (e.clientX - 10) + 'px';
+    paw.style.top = (e.clientY - 10) + 'px';
+    paw.style.setProperty('--paw-rot', 'rotate(' + (angle + 90 + wobble) + 'deg)');
     layer.appendChild(paw);
-    requestAnimationFrame(() => {
-      paw.style.opacity = '0';
-      paw.style.transform = 'rotate(' + (angle + 90 + wobble) + 'deg) scale(1)';
-    });
     setTimeout(() => paw.remove(), 1200);
   }, { passive: true });
 }
