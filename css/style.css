@@ -962,6 +962,10 @@ a.service-card-link {
   gap: var(--spacing-md);
 }
 
+.team-grid-vets {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .team-card {
   background: white;
   border-radius: var(--radius-md);
