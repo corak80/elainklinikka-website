@@ -3220,7 +3220,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- Paw cursor trail ---
 function initPawTrail() {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if (window.matchMedia('(pointer: coarse)').matches) return;
+  // Skip only if no fine pointer is available (true touch-only devices).
+  // Hybrid laptops with touchscreens still report (any-pointer: fine) from the trackpad.
+  if (window.matchMedia('(any-pointer: fine)').matches === false) return;
 
   const style = document.createElement('style');
   style.textContent =
