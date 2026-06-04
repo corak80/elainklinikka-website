@@ -3237,7 +3237,7 @@ function initPawTrail() {
   layer.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:9998;overflow:hidden';
   document.body.appendChild(layer);
 
-  const PAW_SVG = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="11" cy="4" r="2"/><circle cx="4" cy="9" r="2"/><circle cx="18" cy="9" r="2"/><ellipse cx="11" cy="16" rx="5" ry="4"/></svg>';
+  const PAW_SVG = '<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><circle cx="11" cy="4" r="2"/><circle cx="4" cy="9" r="2"/><circle cx="18" cy="9" r="2"/><ellipse cx="11" cy="16" rx="5" ry="4"/></svg>';
   let last = null;
 
   window.addEventListener('mousemove', (e) => {
@@ -3253,8 +3253,8 @@ function initPawTrail() {
     const paw = document.createElement('div');
     paw.className = 'paw-print';
     paw.innerHTML = PAW_SVG;
-    paw.style.left = (e.clientX - 10) + 'px';
-    paw.style.top = (e.clientY - 10) + 'px';
+    paw.style.left = (e.clientX - 20) + 'px';
+    paw.style.top = (e.clientY - 20) + 'px';
     paw.style.setProperty('--paw-rot', 'rotate(' + (angle + 90 + wobble) + 'deg)');
     layer.appendChild(paw);
     setTimeout(() => paw.remove(), 1200);
