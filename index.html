@@ -306,7 +306,6 @@
 .hero h1,.hero .h1-tagline,.hero .subtitle,.hero-actions,.hero-badges{opacity:0;transform:translateY(22px);animation:heroRise 1s cubic-bezier(.2,.7,.2,1) forwards}
 .hero h1{animation-delay:.2s}.hero .h1-tagline{animation-delay:.34s}.hero .subtitle{animation-delay:.48s}.hero-actions{animation-delay:.62s}.hero-badges{animation-delay:.78s}
 @keyframes heroRise{to{opacity:1;transform:none}}
-@media(max-width:768px){.hero-bg{display:none}}
 @media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
 </style>
 </head>
@@ -363,7 +362,7 @@
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" autoplay muted loop playsinline preload="none" poster="/media/clinic-poster.jpg" data-src="/media/clinic.mp4" aria-hidden="true"></video>
+    <video class="hero-bg" id="heroVid" autoplay muted loop playsinline preload="auto" poster="/media/clinic-poster.jpg" aria-hidden="true"><source src="/media/clinic.mp4" type="video/mp4"></video>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
@@ -446,7 +445,7 @@
           </div>
         </div>
         <div class="about-image">
-          <img src="/images/clinic-about.jpg" alt="Eläinklinikan henkilökunta tutkimassa potilasta" width="1200" height="800" loading="lazy">
+          <img src="/images/team-hero.webp" alt="Eläinklinikka Saari -tiimi" width="1600" height="1067" loading="lazy">
         </div>
       </div>
     </div>
@@ -1646,6 +1645,6 @@
       document.getElementById('cookie-consent').style.display = 'none';
     }
   </script>
-<script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches||window.innerWidth<768)return;var s=document.createElement('source');s.src=v.getAttribute('data-src');s.type='video/mp4';v.appendChild(s);v.load();var p=v.play();if(p&&p.catch)p.catch(function(){});})();</script>
+<script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};go();v.addEventListener('canplay',go,{once:true});document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});})();</script>
 </body>
 </html>
