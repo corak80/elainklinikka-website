@@ -288,6 +288,27 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/logo.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style id="cine-hero">
+.hero{position:relative;padding:9rem 1rem 5rem!important;background:#14122a url('/media/clinic-poster.jpg') center 42%/cover!important;text-align:center;overflow:hidden;min-height:92vh;display:flex;align-items:center}
+.hero .container{position:relative;z-index:3}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;z-index:0}
+.hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(18,16,40,.62) 0%,rgba(18,16,40,.26) 32%,rgba(18,16,40,.34) 60%,rgba(18,16,40,.84) 100%)}
+.hero-rose{position:absolute;inset:0;z-index:1;pointer-events:none;mix-blend-mode:soft-light;background:radial-gradient(110% 75% at 50% 100%,rgba(229,141,180,.55),transparent 60%)}
+.hero h1{color:#fff!important;text-shadow:0 3px 34px rgba(0,0,0,.55)}
+.hero h1 .accent{color:var(--color-primary)!important;text-shadow:0 3px 30px rgba(229,141,180,.5)}
+.hero .h1-tagline{color:#fff!important;border-bottom-color:var(--color-primary)!important;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+.hero .subtitle{color:#f3ecf1!important;text-shadow:0 1px 16px rgba(0,0,0,.6)}
+.hero-photo{display:none!important}
+.hero .btn-outline{color:#fff!important;border-color:rgba(255,255,255,.6)!important;background:rgba(255,255,255,.13)!important;backdrop-filter:blur(6px)}
+.hero-badge,.hero-badge-rating-text,.hero-badge span,.hero-badge strong{color:#fff!important}
+.hero-badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);padding:.5rem .85rem;border-radius:12px}
+.hero-badge--rating{text-decoration:none}
+.hero h1,.hero .h1-tagline,.hero .subtitle,.hero-actions,.hero-badges{opacity:0;transform:translateY(22px);animation:heroRise 1s cubic-bezier(.2,.7,.2,1) forwards}
+.hero h1{animation-delay:.2s}.hero .h1-tagline{animation-delay:.34s}.hero .subtitle{animation-delay:.48s}.hero-actions{animation-delay:.62s}.hero-badges{animation-delay:.78s}
+@keyframes heroRise{to{opacity:1;transform:none}}
+@media(max-width:768px){.hero-bg{display:none}}
+@media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
+</style>
 </head>
 <body>
 
@@ -342,6 +363,9 @@
 
   <!-- ===== Hero ===== -->
   <section class="hero">
+    <video class="hero-bg" id="heroVid" autoplay muted loop playsinline preload="none" poster="/media/clinic-poster.jpg" data-src="/media/clinic.mp4" aria-hidden="true"></video>
+    <div class="hero-scrim"></div>
+    <div class="hero-rose"></div>
     <div class="container">
       <h1>
         <span data-i18n="hero.title1">Animal Clinic</span>
@@ -1622,5 +1646,6 @@
       document.getElementById('cookie-consent').style.display = 'none';
     }
   </script>
+<script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches||window.innerWidth<768)return;var s=document.createElement('source');s.src=v.getAttribute('data-src');s.type='video/mp4';v.appendChild(s);v.load();var p=v.play();if(p&&p.catch)p.catch(function(){});})();</script>
 </body>
 </html>
