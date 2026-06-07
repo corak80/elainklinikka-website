@@ -302,7 +302,7 @@
 .hero .btn-outline{color:#fff!important;border-color:rgba(255,255,255,.6)!important;background:rgba(255,255,255,.13)!important;backdrop-filter:blur(6px)}
 .hero-badge,.hero-badge-rating-text,.hero-badge span,.hero-badge strong{color:#fff!important}
 .hero-badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);padding:.5rem .85rem;border-radius:12px}
-.hero-badge--rating{text-decoration:none}
+a.hero-badge{text-decoration:none}
 .hero h1,.hero .h1-tagline,.hero .subtitle,.hero-actions,.hero-badges{opacity:0;transform:translateY(22px);animation:heroRise 1s cubic-bezier(.2,.7,.2,1) forwards}
 .hero h1{animation-delay:.2s}.hero .h1-tagline{animation-delay:.34s}.hero .subtitle{animation-delay:.48s}.hero-actions{animation-delay:.62s}.hero-badges{animation-delay:.78s}
 @keyframes heroRise{to{opacity:1;transform:none}}
@@ -382,18 +382,18 @@
           <span class="hero-badge-starbar" aria-hidden="true"><span class="hero-badge-starbar-bg">★★★★★</span><span class="hero-badge-starbar-fg">★★★★★</span></span>
           <span class="hero-badge-rating-text"><strong data-i18n="hero.rating.score">4,6</strong> · <span data-i18n="hero.rating.shortlabel">281 omdömen</span></span>
         </a>
-        <div class="hero-badge">
+        <a href="#cat-friendly" class="hero-badge" aria-label="Kissaystävällinen klinikka">
           <div class="badge-icon">🐱</div>
           <span data-i18n="hero.badge.catfriendly">Kattvänlig klinik</span>
-        </div>
-        <div class="hero-badge">
+        </a>
+        <a href="#about" class="hero-badge" aria-label="Perustettu 1989">
           <div class="badge-icon">🏥</div>
           <span data-i18n="hero.badge.since">Grundad 1989</span>
-        </div>
-        <div class="hero-badge">
+        </a>
+        <a href="#team" class="hero-badge" aria-label="13 ammattilaista">
           <div class="badge-icon">👥</div>
           <span data-i18n="hero.badge.team">13 medarbetare</span>
-        </div>
+        </a>
       </div>
       <div class="hero-photo">
         <img src="/images/team-hero.webp" alt="Eläinklinikka Saari team" width="1600" height="1067" loading="lazy">
