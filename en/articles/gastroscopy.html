@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Gastroscopy | Eläinklinikka Saari</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
@@ -85,7 +85,7 @@
     "description": "Gastroscopy is an endoscopic procedure in which a flexible camera endoscope is passed through the mouth into the esophagus, stomach, and duodenum.",
     "image": "https://saarivet.fi/images/clinic-about.jpg",
     "datePublished": "2026-02-25",
-    "dateModified": "2026-06-01",
+    "dateModified": "2026-06-07",
     "author": {
       "@type": "Person",
       "name": "Assaf Wydra",
@@ -335,7 +335,7 @@
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">
     <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">We use cookies to analyze site traffic with Google Analytics. Cookies are only used if you accept them.</p>
+      <p id="cookie-consent-text">We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.</p>
       <div class="cookie-consent-buttons">
         <button id="cookie-accept" onclick="acceptCookies()">Accept</button>
         <button id="cookie-decline" onclick="declineCookies()">Decline</button>
@@ -353,14 +353,15 @@
           'ad_user_data': 'granted',
           'ad_personalization': 'granted'
         });
+        loadClarity();
       } else if (consent !== 'declined') {
         document.getElementById('cookie-consent').style.display = 'flex';
       }
 
       var cookieTexts = {
-        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen analysointiin Google Analyticsin avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken med Google Analytics. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-        en: { text: 'We use cookies to analyze site traffic with Google Analytics. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
+        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
+        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
+        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
       };
 
       function updateCookieText() {
@@ -382,6 +383,15 @@
       };
     })();
 
+    function loadClarity() {
+      if (window.clarity) return;
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "x3bktm0h06");
+    }
+
     function acceptCookies() {
       localStorage.setItem('cookie_consent', 'accepted');
       document.getElementById('cookie-consent').style.display = 'none';
@@ -391,6 +401,7 @@
         'ad_user_data': 'granted',
         'ad_personalization': 'granted'
       });
+      loadClarity();
     }
 
     function declineCookies() {
