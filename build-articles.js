@@ -47,6 +47,97 @@ function generateRedirectStub(targetUrl) {
 </html>`;
 }
 
+// Shared cookie consent banner — emitted on every page so first-time visitors
+// landing on any URL can grant/deny consent. Loader for Clarity runs only
+// after consent is accepted (mirrors GA4 consent-mode v2 flow).
+function renderCookieBanner(lang) {
+  const cookieBanner = {
+    fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
+    sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
+    en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
+  };
+  const cb = cookieBanner[lang] || cookieBanner.fi;
+  return `
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" style="display:none;">
+    <div class="cookie-consent-inner">
+      <p id="cookie-consent-text">${escapeHtml(cb.text)}</p>
+      <div class="cookie-consent-buttons">
+        <button id="cookie-accept" onclick="acceptCookies()">${escapeHtml(cb.accept)}</button>
+        <button id="cookie-decline" onclick="declineCookies()">${escapeHtml(cb.decline)}</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var consent = localStorage.getItem('cookie_consent');
+      if (consent === 'accepted') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted',
+          'ad_storage': 'granted',
+          'ad_user_data': 'granted',
+          'ad_personalization': 'granted'
+        });
+        loadClarity();
+      } else if (consent !== 'declined') {
+        document.getElementById('cookie-consent').style.display = 'flex';
+      }
+
+      var cookieTexts = {
+        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
+        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
+        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
+      };
+
+      function updateCookieText() {
+        var lang = localStorage.getItem('preferredLanguage') || 'fi';
+        var t = cookieTexts[lang] || cookieTexts.fi;
+        var el = document.getElementById('cookie-consent-text');
+        if (el) el.textContent = t.text;
+        var acceptBtn = document.getElementById('cookie-accept');
+        if (acceptBtn) acceptBtn.textContent = t.accept;
+        var declineBtn = document.getElementById('cookie-decline');
+        if (declineBtn) declineBtn.textContent = t.decline;
+      }
+      updateCookieText();
+
+      var origSetLang = window.setLanguage;
+      window.setLanguage = function(lang) {
+        if (origSetLang) origSetLang(lang);
+        updateCookieText();
+      };
+    })();
+
+    function loadClarity() {
+      if (window.clarity) return;
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "x3bktm0h06");
+    }
+
+    function acceptCookies() {
+      localStorage.setItem('cookie_consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+      loadClarity();
+    }
+
+    function declineCookies() {
+      localStorage.setItem('cookie_consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+  </script>
+`;
+}
+
 // ──────────────────────────────────────────────
 // 1. Article Registry
 // ──────────────────────────────────────────────
@@ -819,14 +910,6 @@ function generateArticlePage(article, translations, specialContent, lang) {
   };
   const fnav = footerNavLabels[lang] || footerNavLabels.fi;
 
-  // Cookie consent banner (localized at build time for the page's language).
-  const cookieBanner = {
-    fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-    sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-    en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-  };
-  const cb = cookieBanner[lang] || cookieBanner.fi;
-
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -1051,84 +1134,7 @@ ${relatedHtml}
   <script src="${assetPrefix}js/main.js"></script>
   ${lang !== 'fi' ? `<script>if(typeof setLanguage==='function')setLanguage('${lang}');</script>` : ''}
 
-  <!-- Cookie Consent Banner -->
-  <div id="cookie-consent" style="display:none;">
-    <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">${escapeHtml(cb.text)}</p>
-      <div class="cookie-consent-buttons">
-        <button id="cookie-accept" onclick="acceptCookies()">${escapeHtml(cb.accept)}</button>
-        <button id="cookie-decline" onclick="declineCookies()">${escapeHtml(cb.decline)}</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    (function() {
-      var consent = localStorage.getItem('cookie_consent');
-      if (consent === 'accepted') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'granted',
-          'ad_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted'
-        });
-        loadClarity();
-      } else if (consent !== 'declined') {
-        document.getElementById('cookie-consent').style.display = 'flex';
-      }
-
-      var cookieTexts = {
-        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-      };
-
-      function updateCookieText() {
-        var lang = localStorage.getItem('preferredLanguage') || 'fi';
-        var t = cookieTexts[lang] || cookieTexts.fi;
-        var el = document.getElementById('cookie-consent-text');
-        if (el) el.textContent = t.text;
-        var acceptBtn = document.getElementById('cookie-accept');
-        if (acceptBtn) acceptBtn.textContent = t.accept;
-        var declineBtn = document.getElementById('cookie-decline');
-        if (declineBtn) declineBtn.textContent = t.decline;
-      }
-      updateCookieText();
-
-      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };
-    })();
-
-    function loadClarity() {
-      if (window.clarity) return;
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "x3bktm0h06");
-    }
-
-    function acceptCookies() {
-      localStorage.setItem('cookie_consent', 'accepted');
-      document.getElementById('cookie-consent').style.display = 'none';
-      gtag('consent', 'update', {
-        'analytics_storage': 'granted',
-        'ad_storage': 'granted',
-        'ad_user_data': 'granted',
-        'ad_personalization': 'granted'
-      });
-      loadClarity();
-    }
-
-    function declineCookies() {
-      localStorage.setItem('cookie_consent', 'declined');
-      document.getElementById('cookie-consent').style.display = 'none';
-    }
-  </script>
-
+${renderCookieBanner(lang)}
 </body>
 </html>`;
 }
@@ -1426,6 +1432,7 @@ ${cardsHtml}
   </footer>
 
   <script src="/js/main.js"></script>
+${renderCookieBanner(lang)}
 </body>
 </html>`;
 }
@@ -3504,6 +3511,7 @@ ${relatedHtml}
   </footer>
 
   <script src="${assetPrefix}js/main.js"></script>
+${renderCookieBanner(lang)}
 </body>
 </html>`;
 }
@@ -3675,6 +3683,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
   </footer>
 
   <script src="../js/main.js"></script>
+${renderCookieBanner('fi')}
 </body>
 </html>`;
 }
@@ -3984,6 +3993,7 @@ ${reviewCards}
   </footer>
 
   <script src="${assetPrefix}js/main.js"></script>
+${renderCookieBanner(lang)}
 </body>
 </html>`;
 }
@@ -4284,6 +4294,7 @@ ${i18n.onlineMeta ? `            <span class="booking-method-meta">${escapeHtml(
   </footer>
 
   <script src="${assetPrefix}js/main.js"></script>
+${renderCookieBanner(lang)}
 </body>
 </html>`;
 }
@@ -4498,6 +4509,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
   </footer>
 
   <script src="../js/main.js"></script>
+${renderCookieBanner('fi')}
 </body>
 </html>`;
 }
@@ -4720,6 +4732,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
   </footer>
 
   <script src="../js/main.js"></script>
+${renderCookieBanner('fi')}
 </body>
 </html>`;
 }
