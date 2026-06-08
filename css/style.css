@@ -692,6 +692,12 @@ body.article-page #main-content > .section {
   display: block;
 }
 
+.hero-photo > a,
+.about-image > a {
+  display: block;
+  text-decoration: none;
+}
+
 /* --- About Section --- */
 /* Section eyebrow — small uppercase label above H2 with decorative line */
 .section-eyebrow {
