@@ -485,6 +485,17 @@ body.article-page #main-content > .section {
   margin-top: var(--header-height);
 }
 
+.notice-banner a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.notice-banner a:hover span,
+.notice-banner a:focus-visible span {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .notice-banner span {
   display: inline-flex;
   align-items: center;
