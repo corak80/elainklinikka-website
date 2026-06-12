@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/hinnasto/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/hinnasto/"/>
@@ -120,7 +120,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/sv/prislista/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/hinnasto/"/>
@@ -260,7 +260,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/elainlaakari-vaasa/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/elainlaakari-vaasa/"/>
@@ -280,7 +280,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/en/veterinarian-vaasa/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/elainlaakari-vaasa/"/>
@@ -1070,7 +1070,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/palvelut/paivystys/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/paivystys/"/>
@@ -1080,7 +1080,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/sv/tjanster/jour/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/paivystys/"/>
@@ -1090,7 +1090,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/en/services/emergency/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/palvelut/paivystys/"/>
