@@ -757,6 +757,11 @@ body.article-page #main-content > .section {
   margin-top: 2rem;
 }
 
+a.about-feature {
+  text-decoration: none;
+  color: inherit;
+}
+
 .about-feature {
   display: flex;
   align-items: flex-start;
