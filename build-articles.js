@@ -3456,7 +3456,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
         <p>${escapeHtml(cta.text)}</p>
         <div class="service-cta-buttons">
           <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">${escapeHtml(cta.call)}</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">${escapeHtml(cta.book)}</a>
+          <a href="https://my.provet.com/elainklinikka-saari" rel="noopener" class="btn btn-outline">${escapeHtml(cta.book)}</a>
         </div>
       </div>
 
@@ -4455,7 +4455,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         <p>Soita meille tai varaa aika verkosta.</p>
         <div class="service-cta-buttons">
           <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
+          <a href="https://my.provet.com/elainklinikka-saari" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
         </div>
       </div>
 
@@ -4660,7 +4660,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <h2>Ajanvaraus</h2>
           <p>Voit varata ajan kahdella tavalla:</p>
           <p><strong>Puhelimitse:</strong> Soita <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a> arkisin klo 7:45–17. Vastaanottomme henkilökunta auttaa löytämään sopivan ajan.</p>
-          <p><strong>Verkkoajanvaraus:</strong> Varaa aika ympäri vuorokauden verkkoajanvarausjärjestelmässämme osoitteessa <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener">my.provet.com/elainklinikka-saari</a>. Verkkoajanvaraus on nopea ja helppokäyttöinen.</p>
+          <p><strong>Verkkoajanvaraus:</strong> Varaa aika ympäri vuorokauden verkkoajanvarausjärjestelmässämme osoitteessa <a href="https://my.provet.com/elainklinikka-saari" rel="noopener">my.provet.com/elainklinikka-saari</a>. Verkkoajanvaraus on nopea ja helppokäyttöinen.</p>
 
           <h2>Mitä ottaa mukaan vastaanotolle</h2>
           <p>Ota vastaanotolle mukaan lemmikin mahdolliset aiemmat hoitotiedot tai epikriisit, voimassa oleva lääkitys sekä rokotuskortti. Jos lemmikillä on vakuutus, ota mukaan vakuutustodistus — teemme suorakorvauksen Lähitapiolan, Agrian ja Pohjolan vakuutuksille. Kissapotilaat tulisi tuoda kuljetuskopassa ja koirat talutushihnassa.</p>
@@ -4678,7 +4678,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         <p>Soita meille tai varaa aika verkosta.</p>
         <div class="service-cta-buttons">
           <a href="tel:+35863217300" class="btn btn-primary" onclick="gtag_report_conversion();">Soita (06) 321 7300</a>
-          <a href="https://my.provet.com/elainklinikka-saari" target="_blank" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
+          <a href="https://my.provet.com/elainklinikka-saari" rel="noopener" class="btn btn-outline">Varaa verkossa</a>
         </div>
       </div>
 
