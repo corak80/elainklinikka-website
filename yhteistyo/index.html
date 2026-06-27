@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  OFFLINE DRAFT — Eläinklinikka Saari · Yhteistyö / Samarbete / Partnerships
+  Community-work hub page. Trilingual (FI / SV / EN). Standalone, self-contained.
+  Sister to the VESY and Kissatalo partner pages. Brand-matched to saarivet.fi
+  (Inter + Fraunces, primary #E58DB4).
+
+  PURPOSE: replaces the header "Wildlife" link. Header label becomes
+  "Yhteistyö / Samarbete / Partnerships" → this page, which explains why
+  community work matters to the clinic and links out to the three partners.
+
+  CARD LINKS (intended saarivet.fi paths — adjust when deployed):
+    • Wildlife  → /villielaimet/   (already live on saarivet.fi)
+    • Kissatalo → /kissatalo/       (offline draft at ~/kissatalo-preview)
+    • VESY      → /vesy/            (currently at dashboard.saarivet.fi/vesy/)
+
+  Not deployed (noindex). Swap card photos for clinic-shot images before going live
+  if you'd rather not reuse the partner-page imagery.
+  ============================================================
+-->
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yhteistyö eläinten hyväksi · Eläinklinikka Saari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#E58DB4;
+    --pink-dark:#c97a9d;
+    --pink-light:#fdf2f7;
+    --amber:#e0a458;
+    --amber-dark:#c4863a;
+    --amber-light:#fbf2e3;
+    --cream:#fbf7f3;
+    --ink:#1a1a2e;
+    --ink-soft:#4a4a5e;
+    --muted:#8a8a99;
+    --border:#ece6e0;
+    --white:#fff;
+    --shadow:0 18px 50px rgba(40,20,30,.10);
+    --shadow-sm:0 6px 22px rgba(40,20,30,.07);
+    --serif:'Fraunces',Georgia,'Times New Roman',serif;
+    --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --max:1140px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  body{font-family:var(--sans);color:var(--ink);line-height:1.65;background:var(--cream);overflow-x:hidden}
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit}
+
+  /* ---------- header ---------- */
+  header.bar{position:sticky;top:0;z-index:50;background:rgba(251,247,243,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+  .bar-inner{max-width:var(--max);margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+  .brand{display:flex;align-items:center;gap:.7rem;font-weight:700;letter-spacing:-.01em;font-size:.98rem}
+  .brand img{height:42px;width:auto;display:block;flex:none}
+  .brand .tag{display:block;font-weight:500;color:var(--muted);font-size:.72rem;letter-spacing:.02em;line-height:1.2}
+  .langs{display:flex;gap:.25rem;background:var(--white);border:1px solid var(--border);border-radius:999px;padding:.25rem}
+  .langs button{border:0;background:transparent;cursor:pointer;font-family:inherit;font-weight:600;font-size:.8rem;color:var(--muted);padding:.35rem .8rem;border-radius:999px;transition:.2s}
+  .langs button:hover{color:var(--ink)}
+  .langs button.active{background:var(--ink);color:#fff}
+
+  /* ---------- layout ---------- */
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+  section{position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--pink-dark);margin-bottom:1rem}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--pink);border-radius:2px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:-.015em;line-height:1.08}
+  h2{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:1rem}
+  .lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink-soft);max-width:62ch}
+
+  /* ---------- hero ---------- */
+  .hero{padding:clamp(3.5rem,9vw,6.5rem) 0 clamp(2.5rem,6vw,4rem);background:radial-gradient(1100px 460px at 78% -8%,rgba(229,141,180,.22),transparent 60%),radial-gradient(900px 520px at -6% 18%,rgba(224,164,88,.18),transparent 60%);overflow:hidden}
+  .hero h1{font-size:clamp(2.4rem,5.4vw,4rem);margin-bottom:1.4rem;max-width:18ch}
+  .hero h1 em{font-style:italic;color:var(--pink-dark)}
+
+  /* ---------- generic section ---------- */
+  .sec{padding:clamp(3rem,7vw,5.5rem) 0}
+  .sec-alt{background:var(--white)}
+  .body-copy{max-width:64ch}
+  .body-copy p{margin-bottom:1rem;color:var(--ink-soft);font-size:1.06rem}
+  .body-copy p strong{color:var(--ink)}
+
+  /* ---------- partner cards ---------- */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.5rem}
+  .pcard{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--border);border-radius:22px;overflow:hidden;box-shadow:var(--shadow-sm);transition:.28s;text-decoration:none;color:inherit}
+  .pcard:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:var(--pink)}
+  .pcard-img{aspect-ratio:3/2;background:linear-gradient(150deg,var(--amber-light),var(--pink-light));overflow:hidden}
+  .pcard-img img{width:100%;height:100%;object-fit:cover}
+  .pcard-body{padding:1.5rem 1.5rem 1.7rem;display:flex;flex-direction:column;flex:1}
+  .pcard .kicker{font-weight:700;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dark);margin-bottom:.5rem}
+  .pcard h3{font-size:1.3rem;margin-bottom:.6rem}
+  .pcard p{font-size:.96rem;color:var(--ink-soft);margin-bottom:1.1rem}
+  .pcard .more{margin-top:auto;font-weight:700;font-size:.95rem;color:var(--pink-dark)}
+  .pcard:hover .more{color:var(--ink)}
+
+  /* ---------- highlight strip ---------- */
+  .highlight{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;border-radius:30px;padding:clamp(2.2rem,5vw,3.4rem);box-shadow:var(--shadow);position:relative;overflow:hidden;text-align:center}
+  .highlight::after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.12)}
+  .highlight h2{color:#fff;position:relative}
+  .highlight p{color:rgba(255,255,255,.92);font-size:1.12rem;max-width:60ch;margin:0 auto;position:relative}
+
+  /* ---------- footer ---------- */
+  .foot{background:var(--ink);color:#fff;padding:clamp(2.5rem,6vw,3.6rem) 0}
+  .foot .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;justify-content:space-between}
+  .foot a.back{color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;opacity:.85}
+  .foot a.back:hover{opacity:1}
+  .foot-note{max-width:var(--max);margin:1.6rem auto 0;padding:1.3rem 1.5rem 0;border-top:1px solid rgba(255,255,255,.12);color:#9a9ab0;font-size:.82rem;line-height:1.6}
+
+  /* ---------- i18n visibility ---------- */
+  [data-lang]{display:none}
+  [data-lang].show{display:revert}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0;transform:translateY(22px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:880px){.cards{grid-template-columns:1fr;max-width:440px;margin-left:auto;margin-right:auto}}
+  @media(max-width:520px){.brand .tag{display:none}.bar-inner{padding:.7rem 1rem}}
+  @media(prefers-reduced-motion:reduce){.reveal{transition:none;opacity:1;transform:none}}
+</style>
+<noscript>
+  <!-- No-JS fallback: reveal all content, show Finnish only, hide the JS-dependent switcher. -->
+  <style>
+    .reveal{opacity:1 !important;transform:none !important}
+    [data-lang]{display:none !important}
+    [data-lang="fi"]{display:revert !important}
+    .langs{display:none !important}
+  </style>
+</noscript>
+</head>
+<body>
+
+<!-- ====================== HEADER ====================== -->
+<header class="bar">
+  <div class="bar-inner">
+    <div class="brand">
+      <img src="assets/saari-logo.png" alt="Eläinklinikka Saari">
+      <span class="tag show" data-lang="fi">Yhteistyö eläinten hyväksi</span>
+      <span class="tag" data-lang="sv">I samarbete för djuren</span>
+      <span class="tag" data-lang="en">In partnership for animals</span>
+    </div>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-set="fi" class="active">FI</button>
+      <button type="button" data-set="sv">SV</button>
+      <button type="button" data-set="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero">
+  <div class="wrap reveal in">
+    <span class="eyebrow">
+      <span class="show" data-lang="fi">Yhteistyö</span>
+      <span data-lang="sv">Samarbete</span>
+      <span data-lang="en">Partnerships</span>
+    </span>
+
+    <h1 class="show" data-lang="fi">Yhdessä eläinten <em>puolesta</em></h1>
+    <h1 data-lang="sv">Tillsammans <em>för djuren</em></h1>
+    <h1 data-lang="en">Together <em>for the animals</em></h1>
+
+    <p class="lead show" data-lang="fi">Eläinklinikka Saari ei hoida vain lemmikkejä. Teemme yhteistyötä paikallisten eläinsuojelutoimijoiden kanssa – villieläinhoitolan, Vaasan Kissatalon ja Vaasanseudun eläinsuojeluyhdistyksen – jotta myös kodittomat ja loukkaantuneet eläimet saavat tarvitsemansa hoidon.</p>
+    <p class="lead" data-lang="sv">Eläinklinikka Saari vårdar inte bara sällskapsdjur. Vi samarbetar med lokala djurskyddsaktörer – en viltvårdsstation, Katthuset i Vasa och Vasanejdens djurskyddsförening – så att även hemlösa och skadade djur får den vård de behöver.</p>
+    <p class="lead" data-lang="en">Eläinklinikka Saari doesn't only care for pets. We work with local animal-welfare organisations – a wildlife rehabilitation centre, Vaasa Cat House and the Vaasa Region Animal Protection Association – so that homeless and injured animals also get the care they need.</p>
+  </div>
+</section>
+
+<!-- ====================== WHY IT MATTERS ====================== -->
+<section class="sec sec-alt">
+  <div class="wrap reveal">
+    <span class="eyebrow">
+      <span class="show" data-lang="fi">Miksi teemme tätä</span>
+      <span data-lang="sv">Varför vi gör det</span>
+      <span data-lang="en">Why we do it</span>
+    </span>
+
+    <h2 class="show" data-lang="fi">Vastuu eläimistä ei lopu klinikan ovelle</h2>
+    <h2 data-lang="sv">Ansvaret för djuren slutar inte vid klinikens dörr</h2>
+    <h2 data-lang="en">Caring for animals doesn't end at the clinic door</h2>
+
+    <div class="body-copy show" data-lang="fi">
+      <p>Olemme pieni klinikka, mutta uskomme, että <strong>jokainen eläin ansaitsee hoitoa</strong> – myös ne, joilla ei ole omistajaa maksamassa laskua. Siksi tuemme paikallista eläinsuojelutyötä omalla osaamisellamme.</p>
+      <p>Hoidamme loukkaantuneita villieläimiä vapaaehtoisesti ja tarjoamme erityishinnat kodittomille kissoille, jotka odottavat uutta kotia. Tämä työ ei näy hinnastossamme, mutta se on osa sitä, keitä olemme.</p>
+    </div>
+    <div class="body-copy" data-lang="sv">
+      <p>Vi är en liten klinik, men vi tror att <strong>varje djur förtjänar vård</strong> – även de som inte har en ägare som betalar räkningen. Därför stöder vi det lokala djurskyddsarbetet med vårt eget kunnande.</p>
+      <p>Vi vårdar skadade vilda djur frivilligt och erbjuder specialpriser för hemlösa katter som väntar på ett nytt hem. Det här arbetet syns inte i vår prislista, men det är en del av vilka vi är.</p>
+    </div>
+    <div class="body-copy" data-lang="en">
+      <p>We're a small clinic, but we believe <strong>every animal deserves care</strong> – including those with no owner to pay the bill. That's why we support local animal-welfare work with our own expertise.</p>
+      <p>We treat injured wild animals on a voluntary basis and offer special prices for homeless cats waiting for a new home. This work doesn't show up in our price list, but it's part of who we are.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== THE THREE PARTNERS ====================== -->
+<section class="sec">
+  <div class="wrap">
+    <div class="reveal" style="max-width:60ch">
+      <span class="eyebrow">
+        <span class="show" data-lang="fi">Kumppanimme</span>
+        <span data-lang="sv">Våra partner</span>
+        <span data-lang="en">Our partners</span>
+      </span>
+      <h2 class="show" data-lang="fi">Kolme tapaa auttaa eläimiä</h2>
+      <h2 data-lang="sv">Tre sätt att hjälpa djur</h2>
+      <h2 data-lang="en">Three ways we help animals</h2>
+    </div>
+
+    <div class="cards">
+      <!-- Wildlife -->
+      <a class="pcard reveal" href="/villielaimet/">
+        <div class="pcard-img"><img src="assets/wildlife-bat.png" alt="Loukkaantunut lepakko hoidossa — Eläinklinikka Saari" loading="lazy" decoding="async"></div>
+        <div class="pcard-body">
+          <span class="kicker">Nordic Wildlife Care</span>
+          <h3 class="show" data-lang="fi">Villieläimet</h3>
+          <h3 data-lang="sv">Vilda djur</h3>
+          <h3 data-lang="en">Wildlife</h3>
+          <p class="show" data-lang="fi">Hoidamme loukkaantuneita villieläimiä yhteistyössä Nordic Wildlife Caren kanssa – maksutta. Eläimet saavat ensiavun klinikalla ennen siirtoa kuntoutukseen ja vapauttamista takaisin luontoon.</p>
+          <p data-lang="sv">Vi vårdar skadade vilda djur i samarbete med Nordic Wildlife Care – utan kostnad. Djuren får första hjälpen på kliniken innan de flyttas till rehabilitering och släpps fria igen.</p>
+          <p data-lang="en">We treat injured wild animals together with Nordic Wildlife Care – free of charge. They receive first aid at the clinic before moving to rehabilitation and release back into the wild.</p>
+          <span class="more">
+            <span class="show" data-lang="fi">Lue lisää →</span>
+            <span data-lang="sv">Läs mer →</span>
+            <span data-lang="en">Read more →</span>
+          </span>
+        </div>
+      </a>
+
+      <!-- Kissatalo -->
+      <a class="pcard reveal" href="/kissatalo/">
+        <div class="pcard-img"><img src="assets/kissatalo-cat.jpg" alt="Kissa — Vaasan Kissatalo" loading="lazy" decoding="async"></div>
+        <div class="pcard-body">
+          <span class="kicker">Vaasan Kissatalo</span>
+          <h3 class="show" data-lang="fi">Vaasan Kissatalo</h3>
+          <h3 data-lang="sv">Katthuset i Vasa</h3>
+          <h3 data-lang="en">Vaasa Cat House</h3>
+          <p class="show" data-lang="fi">Tarjoamme erityishinnat Vaasan Kissatalon hoidossa oleville kodittomille kissoille, jotta jokainen pelastettu kissa saa hoidon ja löytää lopulta oman kodin.</p>
+          <p data-lang="sv">Vi erbjuder specialpriser för de hemlösa katter som Katthuset i Vasa tar hand om, så att varje räddad katt får vård och till slut hittar ett eget hem.</p>
+          <p data-lang="en">We offer special prices for the homeless cats in the care of Vaasa Cat House, so every rescued cat gets the treatment it needs and finally finds a home.</p>
+          <span class="more">
+            <span class="show" data-lang="fi">Lue lisää →</span>
+            <span data-lang="sv">Läs mer →</span>
+            <span data-lang="en">Read more →</span>
+          </span>
+        </div>
+      </a>
+
+      <!-- VESY -->
+      <a class="pcard reveal" href="/vesy/">
+        <div class="pcard-img"><img src="assets/vesy-cat.jpg" alt="Kissa — Vaasanseudun eläinsuojeluyhdistys (VESY)" loading="lazy" decoding="async"></div>
+        <div class="pcard-body">
+          <span class="kicker">VESY</span>
+          <h3 class="show" data-lang="fi">Vaasanseudun eläinsuojeluyhdistys</h3>
+          <h3 data-lang="sv">Vasanejdens djurskyddsförening</h3>
+          <h3 data-lang="en">Vaasa Region Animal Protection</h3>
+          <p class="show" data-lang="fi">Tuemme Vaasanseudun eläinsuojeluyhdistyksen (VESY) tärkeää työtä kodittomien ja huonosti kohdeltujen eläinten auttamiseksi Vaasan seudulla.</p>
+          <p data-lang="sv">Vi stöder Vasanejdens djurskyddsförenings (VESY) viktiga arbete för hemlösa och illa behandlade djur i Vasanejden.</p>
+          <p data-lang="en">We support the important work of the Vaasa Region Animal Protection Association (VESY) for homeless and mistreated animals across the Vaasa region.</p>
+          <span class="more">
+            <span class="show" data-lang="fi">Lue lisää →</span>
+            <span data-lang="sv">Läs mer →</span>
+            <span data-lang="en">Read more →</span>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CLOSING HIGHLIGHT ====================== -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap reveal">
+    <div class="highlight">
+      <h2 class="show" data-lang="fi">Pieni klinikka, iso sydän eläimille</h2>
+      <h2 data-lang="sv">En liten klinik med ett stort hjärta för djuren</h2>
+      <h2 data-lang="en">A small clinic with a big heart for animals</h2>
+      <p class="show" data-lang="fi">Kiitos, että autat meitä auttamaan. Jokainen lemmikkikäynti klinikallamme tukee myös kodittomien ja villieläinten hoitoa.</p>
+      <p data-lang="sv">Tack för att du hjälper oss att hjälpa. Varje besök med ditt sällskapsdjur stöder också vården av hemlösa djur och vilda djur.</p>
+      <p data-lang="en">Thank you for helping us help. Every visit with your pet also supports the care of homeless and wild animals.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="foot">
+  <div class="wrap">
+    <a class="back" href="https://saarivet.fi">← saarivet.fi</a>
+    <span style="color:#9a9ab0;font-size:.85rem">Eläinklinikka Saari · Vaasa</span>
+  </div>
+  <div class="foot-note">
+    <span class="show" data-lang="fi">Eläinklinikka Saari tekee yhteistyötä paikallisten eläinsuojelutoimijoiden kanssa vapaaehtoisesti ja erityishinnoin. Tämä sivu kertoo yhteistyöstämme villieläinhoitolan, Vaasan Kissatalon ja Vaasanseudun eläinsuojeluyhdistyksen kanssa.</span>
+    <span data-lang="sv">Eläinklinikka Saari samarbetar med lokala djurskyddsaktörer frivilligt och med specialpriser. Den här sidan berättar om vårt samarbete med viltvårdsstationen, Katthuset i Vasa och Vasanejdens djurskyddsförening.</span>
+    <span data-lang="en">Eläinklinikka Saari partners with local animal-welfare organisations on a voluntary basis and with special prices. This page describes our cooperation with the wildlife rehabilitation centre, Vaasa Cat House and the Vaasa Region Animal Protection Association.</span>
+  </div>
+</footer>
+
+<script>
+  // ---- language switch ----
+  const buttons = document.querySelectorAll('.langs button');
+  function setLang(lang){
+    document.documentElement.lang = lang;
+    try{localStorage.setItem('preferredLanguage',lang)}catch(e){}
+    document.querySelectorAll('[data-lang]').forEach(el=>{
+      el.classList.toggle('show', el.getAttribute('data-lang')===lang);
+    });
+    buttons.forEach(b=>b.classList.toggle('active', b.dataset.set===lang));
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.set)));
+  var _sv=(function(){try{return localStorage.getItem('preferredLanguage')}catch(e){return null}})();
+  setLang((_sv==='sv'||_sv==='en'||_sv==='fi')?_sv:'fi');
+
+  // ---- scroll reveal (degrades gracefully if unsupported) ----
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{threshold:.15});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

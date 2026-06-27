@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  OFFLINE DRAFT — Eläinklinikka Saari × Vaasanseudun eläinsuojeluyhdistys (VESY)
+  Trilingual partnership page (FI / SV / EN). Standalone, self-contained.
+  Not deployed. Brand-matched to saarivet.fi (Inter, primary #E58DB4).
+
+  REVIEW NOTES for Assaf:
+   • Discount specifics are written qualitatively ("special prices"). If you want
+     a concrete figure (e.g. "-20 %"), tell me and I'll insert it in all 3 langs.
+   • Donation details (IBAN FI30 4958 0010 0876 11, MobilePay 72083) are public
+     on sey.fi/vaasa — confirm still current before going live.
+   • Photo slots are placeholders — drop in real images from VESY/clinic.
+   • Deliberately omits the 2025 financial/embezzlement news — not appropriate here.
+  ============================================================
+-->
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaasanseudun eläinsuojeluyhdistys × Eläinklinikka Saari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#E58DB4;
+    --pink-dark:#c97a9d;
+    --pink-light:#fdf2f7;
+    --sage:#7ba894;
+    --sage-dark:#5c8a76;
+    --sage-light:#eef5f1;
+    --cream:#fbf7f3;
+    --ink:#1a1a2e;
+    --ink-soft:#4a4a5e;
+    --muted:#8a8a99;
+    --border:#ece6e0;
+    --white:#fff;
+    --shadow:0 18px 50px rgba(40,20,30,.10);
+    --shadow-sm:0 6px 22px rgba(40,20,30,.07);
+    --serif:'Fraunces',Georgia,'Times New Roman',serif;
+    --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --max:1140px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  body{
+    font-family:var(--sans);color:var(--ink);line-height:1.65;background:var(--cream);
+    overflow-x:hidden;
+  }
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit}
+
+  /* ---------- header ---------- */
+  header.bar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,247,243,.82);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
+  }
+  .bar-inner{
+    max-width:var(--max);margin:0 auto;padding:.85rem 1.5rem;
+    display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  }
+  .brand{display:flex;align-items:center;gap:.7rem;font-weight:700;letter-spacing:-.01em;font-size:.98rem}
+  .brand img{height:42px;width:auto;display:block;flex:none}
+  .brand .tag{display:block;font-weight:500;color:var(--muted);font-size:.72rem;letter-spacing:.02em;line-height:1.2}
+  .langs{display:flex;gap:.25rem;background:var(--white);border:1px solid var(--border);
+    border-radius:999px;padding:.25rem}
+  .langs button{
+    border:0;background:transparent;cursor:pointer;font-family:inherit;font-weight:600;
+    font-size:.8rem;color:var(--muted);padding:.35rem .8rem;border-radius:999px;transition:.2s;
+  }
+  .langs button:hover{color:var(--ink)}
+  .langs button.active{background:var(--ink);color:#fff}
+
+  /* ---------- layout ---------- */
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+  section{position:relative}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;font-weight:700;font-size:.74rem;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--pink-dark);margin-bottom:1rem;
+  }
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--pink);border-radius:2px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:-.015em;line-height:1.08}
+  h2{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:1rem}
+  .lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink-soft);max-width:60ch}
+
+  /* ---------- hero ---------- */
+  .hero{
+    padding:clamp(3.5rem,9vw,7rem) 0 clamp(3rem,7vw,5.5rem);
+    background:
+      radial-gradient(1100px 460px at 78% -8%,rgba(229,141,180,.22),transparent 60%),
+      radial-gradient(900px 520px at -6% 18%,rgba(123,168,148,.20),transparent 60%);
+    overflow:hidden;
+  }
+  .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+  .hero h1{font-size:clamp(2.4rem,5.4vw,4rem);margin-bottom:1.4rem}
+  .hero h1 em{font-style:italic;color:var(--pink-dark)}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+  .btn{
+    display:inline-flex;align-items:center;gap:.5rem;font-weight:600;font-size:.95rem;
+    padding:.85rem 1.5rem;border-radius:999px;text-decoration:none;transition:.25s;cursor:pointer;border:0;
+    font-family:inherit;
+  }
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-primary:hover{background:#000;transform:translateY(-2px)}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  .btn-ghost:hover{background:var(--ink);color:#fff}
+
+  .hero-card{
+    background:var(--white);border-radius:26px;box-shadow:var(--shadow);overflow:hidden;
+    border:1px solid var(--border);
+  }
+  .hero-photo{
+    aspect-ratio:4/3;background:
+      linear-gradient(135deg,var(--pink-light),var(--sage-light));
+    display:grid;place-items:center;color:var(--sage-dark);text-align:center;padding:1.5rem;
+    font-size:.82rem;font-weight:600;letter-spacing:.02em;position:relative;
+  }
+  .hero-photo .big{font-size:2.6rem;margin-bottom:.5rem;filter:saturate(.9)}
+  .hero-photo img,.photo-slot img{width:100%;height:100%;object-fit:cover;border-radius:inherit}
+  .hero-photo.has-img,.photo-slot.has-img{padding:0;overflow:hidden}
+  .hero-card-body{padding:1.7rem 1.5rem;display:flex;align-items:center;justify-content:center;gap:1.4rem}
+  .hero-card-body .x{font-family:var(--serif);font-size:1.7rem;color:var(--pink);font-style:italic;flex:none}
+  .partner{flex:1;display:flex;justify-content:center}
+  .partner img{height:98px;width:auto;object-fit:contain}
+  .partner.vesy img{height:104px}
+
+  /* ---------- stats band ---------- */
+  .band{background:var(--ink);color:#fff;padding:clamp(2.5rem,5vw,3.5rem) 0}
+  .band .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;text-align:center}
+  .stat .n{font-family:var(--serif);font-size:clamp(2.2rem,4vw,3.2rem);font-weight:600;
+    background:linear-gradient(120deg,#fff,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .l{color:#c9c9d6;font-size:.9rem;margin-top:.3rem}
+
+  /* ---------- generic section ---------- */
+  .sec{padding:clamp(3.5rem,8vw,6rem) 0}
+  .sec-alt{background:var(--white)}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+  .photo-slot{
+    border-radius:22px;aspect-ratio:5/4;display:grid;place-items:center;text-align:center;
+    background:linear-gradient(150deg,var(--sage-light),var(--pink-light));color:var(--sage-dark);
+    font-weight:600;font-size:.85rem;padding:1.5rem;border:1px solid var(--border);
+  }
+  .photo-slot .big{font-size:2.4rem;margin-bottom:.5rem}
+  .body-copy p{margin-bottom:1rem;color:var(--ink-soft);font-size:1.04rem}
+  .body-copy p strong{color:var(--ink)}
+
+  .ticks{list-style:none;margin:1.4rem 0 0;display:grid;gap:.7rem}
+  .ticks li{display:flex;gap:.7rem;align-items:flex-start;font-size:1rem;color:var(--ink-soft)}
+  .ticks li::before{content:"";flex:none;width:22px;height:22px;border-radius:50%;margin-top:.15rem;
+    background:var(--sage-light);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235c8a76' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:center}
+
+  /* ---------- partnership highlight ---------- */
+  .highlight{
+    background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;
+    border-radius:30px;padding:clamp(2.2rem,5vw,3.5rem);box-shadow:var(--shadow);
+    position:relative;overflow:hidden;
+  }
+  .highlight::after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;
+    border-radius:50%;background:rgba(255,255,255,.12)}
+  .highlight .eyebrow{color:#fff}
+  .highlight .eyebrow::before{background:#fff}
+  .highlight h2{color:#fff;position:relative}
+  .highlight p{color:rgba(255,255,255,.92);font-size:1.1rem;max-width:62ch;position:relative}
+  .highlight .pill{display:inline-block;margin-top:1.5rem;background:#fff;color:var(--pink-dark);
+    font-weight:700;padding:.7rem 1.3rem;border-radius:999px;font-size:.95rem;position:relative}
+
+  /* ---------- help cards ---------- */
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:2.5rem}
+  .card{
+    background:var(--white);border:1px solid var(--border);border-radius:20px;padding:1.6rem 1.4rem;
+    transition:.28s;box-shadow:var(--shadow-sm);
+  }
+  .card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--pink)}
+  .card .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;font-size:1.4rem;
+    background:var(--pink-light);margin-bottom:1rem}
+  .card h3{font-size:1.15rem;margin-bottom:.5rem}
+  .card p{font-size:.92rem;color:var(--ink-soft)}
+
+  /* ---------- donate ---------- */
+  .donate{
+    background:var(--sage-light);border:1px solid #dceadf;border-radius:24px;
+    padding:clamp(1.8rem,4vw,2.6rem);display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;
+  }
+  .donate h3{font-size:1.6rem;margin-bottom:.6rem;color:var(--sage-dark)}
+  .donate p{color:var(--ink-soft)}
+  .pay{background:var(--white);border-radius:16px;padding:1.3rem 1.4rem;box-shadow:var(--shadow-sm)}
+  .pay-row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+    padding:.6rem 0;border-bottom:1px dashed var(--border)}
+  .pay-row:last-child{border-bottom:0}
+  .pay-row .k{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+  .pay-row .v{font-weight:700;font-size:1.02rem;font-variant-numeric:tabular-nums}
+
+  /* ---------- contact / footer ---------- */
+  .contact{background:var(--ink);color:#fff;padding:clamp(3rem,7vw,5rem) 0}
+  .contact h2{color:#fff}
+  .contact .lead{color:#c9c9d6}
+  .clinks{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+  .clink{display:inline-flex;align-items:center;gap:.55rem;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);color:#fff;text-decoration:none;font-weight:600;font-size:.92rem;
+    padding:.7rem 1.2rem;border-radius:999px;transition:.2s}
+  .clink:hover{background:#fff;color:var(--ink)}
+  .foot-note{max-width:var(--max);margin:2.5rem auto 0;padding:1.5rem 1.5rem 0;border-top:1px solid rgba(255,255,255,.12);
+    color:#9a9ab0;font-size:.82rem;line-height:1.6}
+
+  /* ---------- i18n visibility ---------- */
+  [data-lang]{display:none}
+  [data-lang].show{display:revert}
+  .show-inline{display:inline}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0;transform:translateY(22px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:880px){
+    .hero .wrap,.split,.donate{grid-template-columns:1fr}
+    .hero-card{order:-1;max-width:440px}
+    .band .wrap{grid-template-columns:1fr;gap:1.6rem}
+    .cards{grid-template-columns:1fr 1fr}
+  }
+  @media(max-width:520px){
+    .cards{grid-template-columns:1fr}
+    .brand small{display:none}
+    .bar-inner{padding:.7rem 1rem}
+  }
+  @media(prefers-reduced-motion:reduce){.reveal{transition:none;opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- ====================== HEADER ====================== -->
+<header class="bar">
+  <div class="bar-inner">
+    <div class="brand">
+      <img src="assets/saari-logo.png" alt="Eläinklinikka Saari">
+      <span class="tag" data-lang="fi" class="show">Yhteistyössä eläinten hyväksi</span>
+      <span class="tag" data-lang="sv">I samarbete för djuren</span>
+      <span class="tag" data-lang="en">In partnership for animals</span>
+    </div>
+    <div class="langs" role="group" aria-label="Language">
+      <button data-set="fi" class="active">FI</button>
+      <button data-set="sv">SV</button>
+      <button data-set="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="reveal in">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Yhteistyökumppani</span>
+        <span data-lang="sv">Samarbetspartner</span>
+        <span data-lang="en">In partnership</span>
+      </span>
+
+      <h1 data-lang="fi" class="show">Yhdessä <em>Vaasan seudun</em> eläinten puolesta</h1>
+      <h1 data-lang="sv">Tillsammans för djuren i <em>Vasanejden</em></h1>
+      <h1 data-lang="en">Together for the animals of the <em>Vaasa region</em></h1>
+
+      <p class="lead" data-lang="fi" class="show">Eläinklinikka Saari on Vaasanseudun eläinsuojeluyhdistyksen (VESY) yhteistyökumppani. Tarjoamme erityishinnat yhdistyksen hoidossa oleville pelastetuille ja sijaiskodeissa asuville eläimille – jotta jokainen apua tarvitseva eläin saa hoidon, jonka se ansaitsee.</p>
+      <p class="lead" data-lang="sv">Eläinklinikka Saari är samarbetspartner till Vasanejdens djurskyddsförening (VESY). Vi erbjuder specialpriser för räddade djur och djur i jourhem som föreningen tar hand om – så att varje djur i nöd får den vård det förtjänar.</p>
+      <p class="lead" data-lang="en">Eläinklinikka Saari is a partner of the Vaasa Region Animal Protection Association (VESY). We offer special prices for the rescued and fostered animals in the association's care – so that every animal in need receives the care it deserves.</p>
+
+      <div class="hero-cta">
+        <a href="#help" class="btn btn-primary">
+          <span data-lang="fi" class="show">Näin voit auttaa</span>
+          <span data-lang="sv">Så kan du hjälpa</span>
+          <span data-lang="en">How you can help</span>
+        </a>
+        <a href="#about" class="btn btn-ghost">
+          <span data-lang="fi" class="show">Tutustu VESYyn</span>
+          <span data-lang="sv">Lär känna VESY</span>
+          <span data-lang="en">Meet VESY</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal in">
+      <div class="hero-photo has-img">
+        <img src="assets/vesy-cat.jpg" alt="Kissa — Vaasanseudun eläinsuojeluyhdistys">
+      </div>
+      <div class="hero-card-body">
+        <div class="partner"><img src="assets/saari-logo-square.png" alt="Eläinklinikka Saari"></div>
+        <span class="x">×</span>
+        <div class="partner vesy"><img src="assets/vesy-logo.png" alt="Vaasanseudun eläinsuojeluyhdistys (VESY)"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== STATS BAND ====================== -->
+<section class="band">
+  <div class="wrap">
+    <div class="stat reveal">
+      <div class="n">1961</div>
+      <div class="l" data-lang="fi" class="show">Toiminut vuodesta</div>
+      <div class="l" data-lang="sv">Verksam sedan</div>
+      <div class="l" data-lang="en">Active since</div>
+    </div>
+    <div class="stat reveal">
+      <div class="n">100&nbsp;%</div>
+      <div class="l" data-lang="fi" class="show">Vapaaehtoisvoimin ja lahjoituksin</div>
+      <div class="l" data-lang="sv">Med frivilliga och donationer</div>
+      <div class="l" data-lang="en">Run by volunteers & donations</div>
+    </div>
+    <div class="stat reveal">
+      <div class="n">SEY</div>
+      <div class="l" data-lang="fi" class="show">SEY:n jäsenyhdistys</div>
+      <div class="l" data-lang="sv">Medlemsförening i SEY (finska djurskyddet)</div>
+      <div class="l" data-lang="en">Member of SEY, Finland's animal welfare federation</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== ABOUT VESY ====================== -->
+<section class="sec sec-alt" id="about">
+  <div class="wrap split">
+    <div class="photo-slot has-img reveal">
+      <img src="assets/vesy-kittens.jpg" alt="Pelastettuja kissanpentuja — VESY">
+    </div>
+    <div class="body-copy reveal">
+      <img src="assets/vesy-logo.png" alt="VESY" style="height:96px;width:auto;margin-bottom:1.3rem">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Keitä he ovat</span>
+        <span data-lang="sv">Vilka de är</span>
+        <span data-lang="en">Who they are</span>
+      </span>
+
+      <h2 data-lang="fi" class="show">Vaasanseudun eläinsuojeluyhdistys</h2>
+      <h2 data-lang="sv">Vasanejdens djurskyddsförening</h2>
+      <h2 data-lang="en">Vaasa Region Animal Protection Association</h2>
+
+      <div data-lang="fi" class="show">
+        <p><strong>Jo vuodesta 1961</strong> VESY on tehnyt työtä Vaasan seudun eläinten hyväksi. Yhdistys toimii täysin vapaaehtoisvoimin ja lahjoitusten varassa.</p>
+        <p>Työ on käytännönläheistä ja lähellä ihmistä: sijaiskoteja koditta jääneille ja löytöeläimille, loukkaantuneiden luonnonvaraisten eläinten kuljetusta asianmukaiseen hoitoon, neuvontaa sekä apua vähävaraisten omistajien lemmikeille hätätilanteissa.</p>
+        <ul class="ticks">
+          <li>Sijaiskotitoiminta kodittomille ja löytöeläimille</li>
+          <li>Loukkaantuneiden luonnonvaraisten eläinten kuljetus asianmukaiseen hoitoon</li>
+          <li>Apua vähävaraisten omistajien lemmikeille hätätilanteissa</li>
+          <li>Leikkaus- ja kastraatiokampanjat</li>
+          <li>Neuvontaa ja valistustyötä sekä kouluvierailut</li>
+        </ul>
+      </div>
+
+      <div data-lang="sv">
+        <p><strong>Ända sedan 1961</strong> har VESY arbetat för djuren i Vasanejden. Föreningen drivs helt av frivilliga och med hjälp av donationer, och är därmed beroende av donationer för sin verksamhet.</p>
+        <p>Arbetet är konkret och nära människan: jourhem för hemlösa och upphittade djur, transport av skadade vilda djur till lämplig vård, rådgivning samt hjälp till mindre bemedlade ägares husdjur i nödsituationer.</p>
+        <ul class="ticks">
+          <li>Jourhem för hemlösa och upphittade djur</li>
+          <li>Transport av skadade vilda djur till lämplig vård</li>
+          <li>Hjälp till mindre bemedlade ägares husdjur i nöd</li>
+          <li>Kastrations- och operationskampanjer</li>
+          <li>Rådgivning, upplysning och skolbesök</li>
+        </ul>
+      </div>
+
+      <div data-lang="en">
+        <p><strong>Since 1961</strong>, VESY has worked for the animals of the Vaasa region. The association runs entirely on volunteers and donations.</p>
+        <p>The work is hands-on and close to people: foster homes for stray and homeless animals, transport of injured wildlife to appropriate care, advice, and emergency help for the pets of low-income owners.</p>
+        <ul class="ticks">
+          <li>Foster homes for stray and homeless animals</li>
+          <li>Transport of injured wildlife to appropriate care</li>
+          <li>Emergency help for low-income owners' pets</li>
+          <li>Neutering and spay campaigns</li>
+          <li>Advice, public awareness and school visits</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== PARTNERSHIP HIGHLIGHT ====================== -->
+<section class="sec">
+  <div class="wrap reveal">
+    <div class="highlight">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Yhteistyömme</span>
+        <span data-lang="sv">Vårt samarbete</span>
+        <span data-lang="en">Our partnership</span>
+      </span>
+
+      <h2 data-lang="fi" class="show">Erityishinnat eläinsuojelun hoidossa oleville eläimille</h2>
+      <h2 data-lang="sv">Specialpriser för djur i djurskyddets vård</h2>
+      <h2 data-lang="en">Special prices for animals in the association's care</h2>
+
+      <p data-lang="fi" class="show">Eläinklinikka Saari tukee VESYn työtä tarjoamalla erityishinnat yhdistyksen hoidossa oleville pelastetuille ja sijaiskotieläimille. Näin lahjoitusvarat riittävät pidemmälle ja yhä useampi apua tarvitseva eläin pääsee eläinlääkärin hoitoon – rokotuksiin, mikrosirutukseen, leikkauksiin ja sairaanhoitoon.</p>
+      <p data-lang="sv">Eläinklinikka Saari stöder VESY:s arbete genom att erbjuda specialpriser för räddade djur och jourhemsdjur i föreningens vård. På så sätt räcker donationerna längre, och allt fler djur i nöd kommer till veterinär – för vaccinationer, chipmärkning, operationer och sjukvård.</p>
+      <p data-lang="en">Eläinklinikka Saari supports VESY's work by offering special prices for the rescued and fostered animals in the association's care. This makes every donated euro go further, so that more animals in need can reach a veterinarian – for vaccinations, microchipping, surgery and medical care.</p>
+
+      <span class="pill">
+        <span data-lang="fi" class="show">🐾 Pieni klinikka, iso sydän eläimille</span>
+        <span data-lang="sv">🐾 En liten klinik med ett stort hjärta för djuren</span>
+        <span data-lang="en">🐾 A small clinic with a big heart for animals</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== HOW YOU CAN HELP ====================== -->
+<section class="sec sec-alt" id="help">
+  <div class="wrap">
+    <div class="reveal" style="text-align:center;max-width:60ch;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center">
+        <span data-lang="fi" class="show">Näin voit auttaa</span>
+        <span data-lang="sv">Så kan du hjälpa</span>
+        <span data-lang="en">How you can help</span>
+      </span>
+      <h2 data-lang="fi" class="show">Pienikin teko muuttaa eläimen elämän</h2>
+      <h2 data-lang="sv">Också en liten gärning förändrar ett djurs liv</h2>
+      <h2 data-lang="en">Even a small act changes an animal's life</h2>
+      <p class="lead" style="margin:0 auto" data-lang="fi" class="show">VESY toimii vapaaehtoisten ja tukijoiden varassa. Tässä muutama tapa olla mukana.</p>
+      <p class="lead" style="margin:0 auto" data-lang="sv">VESY är beroende av frivilliga och understödjare. Här är några sätt att vara med.</p>
+      <p class="lead" style="margin:0 auto" data-lang="en">VESY depends on volunteers and supporters. Here are a few ways to take part.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card reveal">
+        <div class="ic">🏡</div>
+        <h3 data-lang="fi" class="show">Adoptoi tai ryhdy sijaiskodiksi</h3>
+        <h3 data-lang="sv">Adoptera eller bli jourhem</h3>
+        <h3 data-lang="en">Adopt or become a foster home</h3>
+        <p data-lang="fi" class="show">Anna kodittomalle eläimelle uusi alku. Kodinhakuiset eläimet löytyvät VESYn Facebook-sivulta.</p>
+        <p data-lang="sv">Ge ett hemlöst djur en ny start. Djur som söker hem hittas på VESY:s Facebook-sida.</p>
+        <p data-lang="en">Give a homeless animal a fresh start. Animals seeking homes are posted on VESY's Facebook page.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">🙌</div>
+        <h3 data-lang="fi" class="show">Tule vapaaehtoiseksi</h3>
+        <h3 data-lang="sv">Bli frivillig</h3>
+        <h3 data-lang="en">Volunteer</h3>
+        <p data-lang="fi" class="show">Tapahtumat, eläinten kuljetus, löytöeläinten etsintä, valistustyö – jokaiselle löytyy tapa auttaa.</p>
+        <p data-lang="sv">Evenemang, djurtransport, sökande efter försvunna djur, upplysning – det finns en uppgift för alla.</p>
+        <p data-lang="en">Events, animal transport, searching for lost pets, awareness work – there's a way for everyone to help.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">💚</div>
+        <h3 data-lang="fi" class="show">Lahjoita</h3>
+        <h3 data-lang="sv">Donera</h3>
+        <h3 data-lang="en">Donate</h3>
+        <p data-lang="fi" class="show">Lahjoitukset kattavat eläinlääkärikuluja, lääkkeitä, sijaiskotihoitoa ja leikkauskampanjoita.</p>
+        <p data-lang="sv">Donationer täcker veterinärkostnader, mediciner, jourhemsvård och kastrationskampanjer.</p>
+        <p data-lang="en">Donations cover veterinary costs, medicines, foster care and neutering campaigns.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">🎫</div>
+        <h3 data-lang="fi" class="show">Liity jäseneksi</h3>
+        <h3 data-lang="sv">Bli medlem</h3>
+        <h3 data-lang="en">Become a member</h3>
+        <p data-lang="fi" class="show">Jäsenenä tuet paikallista eläinsuojelua ja saat SEY:n Eläinten ystävä -lehden.</p>
+        <p data-lang="sv">Som medlem stöder du lokalt djurskydd och får SEY:s tidning Eläinten ystävä.</p>
+        <p data-lang="en">As a member you support local animal welfare and receive SEY's magazine, "Eläinten ystävä".</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== DONATE DETAILS ====================== -->
+<section class="sec">
+  <div class="wrap reveal">
+    <div class="donate">
+      <div>
+        <h3 data-lang="fi" class="show">Tue VESYn työtä lahjoituksella</h3>
+        <h3 data-lang="sv">Stöd VESY:s arbete med en donation</h3>
+        <h3 data-lang="en">Support VESY's work with a donation</h3>
+        <p data-lang="fi" class="show">Jokainen euro menee suoraan Vaasan seudun eläinten hyväksi. Lahjoittaa voit tilisiirrolla tai MobilePaylla. Yhdistyksellä on Poliisihallituksen myöntämä rahankeräyslupa.</p>
+        <p data-lang="sv">Varje euro går direkt till djuren i Vasanejden. Du kan donera via banköverföring eller MobilePay. Föreningen har ett penninginsamlingstillstånd beviljat av Polisstyrelsen.</p>
+        <p data-lang="en">Every euro goes directly to the animals of the Vaasa region. You can donate by bank transfer or MobilePay. The association holds a fundraising permit issued by the Finnish Police Board.</p>
+      </div>
+      <div class="pay">
+        <div class="pay-row">
+          <span class="k">IBAN</span>
+          <span class="v">FI30 4958 0010 0876 11</span>
+        </div>
+        <div class="pay-row">
+          <span class="k">MobilePay</span>
+          <span class="v">72083</span>
+        </div>
+        <div class="pay-row">
+          <span class="k">
+            <span data-lang="fi" class="show">Saaja</span>
+            <span data-lang="sv">Mottagare</span>
+            <span data-lang="en">Recipient</span>
+          </span>
+          <span class="v" style="font-size:.86rem;text-align:right">Vaasanseudun<br>eläinsuojeluyhdistys ry</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CONTACT VESY ====================== -->
+<section class="contact" id="contact">
+  <div class="wrap reveal">
+    <span class="eyebrow" style="color:var(--pink)">
+      <span data-lang="fi" class="show">Ota yhteyttä</span>
+      <span data-lang="sv">Ta kontakt</span>
+      <span data-lang="en">Get in touch</span>
+    </span>
+    <h2 data-lang="fi" class="show">Tutustu VESYyn ja löydä uusi ystävä</h2>
+    <h2 data-lang="sv">Lär känna VESY och hitta en ny vän</h2>
+    <h2 data-lang="en">Meet VESY and find a new friend</h2>
+
+    <p class="lead" data-lang="fi" class="show">Kodinhakuiset eläimet, ajankohtaiset kuulumiset ja yhteydenotot hoituvat parhaiten yhdistyksen omien kanavien kautta.</p>
+    <p class="lead" data-lang="sv">Djur som söker hem, aktuella nyheter och kontakt sköts bäst via föreningens egna kanaler.</p>
+    <p class="lead" data-lang="en">Animals seeking homes, the latest news and enquiries are best handled through the association's own channels.</p>
+
+    <div class="clinks">
+      <a class="clink" href="https://sey.fi/vaasa" target="_blank" rel="noopener">🌐 sey.fi/vaasa</a>
+      <a class="clink" href="https://www.facebook.com/VaasanseudunElainsuojeluyhdistys" target="_blank" rel="noopener">📘 Facebook</a>
+      <a class="clink" href="mailto:vesyvaasa@hotmail.com">✉️ vesyvaasa@hotmail.com</a>
+    </div>
+
+    <div class="foot-note">
+      <span data-lang="fi" class="show">Eläinklinikka Saari on ylpeä saadessaan tukea Vaasanseudun eläinsuojeluyhdistyksen tärkeää työtä. Vaasanseudun eläinsuojeluyhdistys ry on rekisteröity, voittoa tavoittelematon eläinsuojeluyhdistys ja SEY:n jäsenyhdistys, joka toimii vapaaehtoisvoimin ja lahjoitusten varassa – tämä sivu kertoo yhteistyöstämme.</span>
+      <span data-lang="sv">Eläinklinikka Saari är stolt över att få stödja Vasanejdens djurskyddsförenings viktiga arbete. Vasanejdens djurskyddsförening rf är en registrerad, ideell djurskyddsförening och medlemsförening i SEY, som drivs av frivilliga och med hjälp av donationer – den här sidan berättar om vårt samarbete.</span>
+      <span data-lang="en">Eläinklinikka Saari is proud to support the important work of the Vaasa Region Animal Protection Association. VESY is a registered non-profit animal-welfare association and a member of SEY, run by volunteers and donations – this page describes our partnership.</span>
+    </div>
+    <div class="foot-note" style="margin-top:.55rem;opacity:.8;font-size:.92em">
+      <span data-lang="fi" class="show">Lupanumero: RA/2022/655</span>
+      <span data-lang="sv">Tillståndsnummer: RA/2022/655</span>
+      <span data-lang="en">Permit number: RA/2022/655</span>
+    </div>
+  </div>
+</section>
+
+<script>
+  // ---- language switch ----
+  const buttons = document.querySelectorAll('.langs button');
+  function setLang(lang){
+    document.documentElement.lang = lang;
+    try{localStorage.setItem('preferredLanguage',lang)}catch(e){}
+    document.querySelectorAll('[data-lang]').forEach(el=>{
+      el.classList.toggle('show', el.getAttribute('data-lang')===lang);
+    });
+    buttons.forEach(b=>b.classList.toggle('active', b.dataset.set===lang));
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.set)));
+  var _sv=(function(){try{return localStorage.getItem('preferredLanguage')}catch(e){return null}})();
+  setLang((_sv==='sv'||_sv==='en'||_sv==='fi')?_sv:'fi');
+
+  // ---- scroll reveal ----
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
