@@ -11,7 +11,7 @@ const translations = {
   'nav.team': { fi: 'Henkilökunta', sv: 'Personal', en: 'Staff' },
   'nav.prices': { fi: 'Hinnasto', sv: 'Prislista', en: 'Prices' },
   'nav.wildlife': { fi: 'Wildlife', sv: 'Wildlife', en: 'Wildlife' },
-  'nav.partnerships': { fi: 'Yhteistyö', sv: 'Yhteistyö', en: 'Yhteistyö' },
+  'nav.partnerships': { fi: 'Yhteistyö', sv: 'Samarbete', en: 'Partnerships' },
   'nav.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
   'nav.catfriendly': { fi: 'Cat Friendly', sv: 'Cat Friendly', en: 'Cat Friendly' },
   'nav.book': { fi: 'Varaa aika', sv: 'Boka tid', en: 'Book Now' },
