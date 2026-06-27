@@ -63,6 +63,10 @@
   .langs button{border:0;background:transparent;cursor:pointer;font-family:inherit;font-weight:600;font-size:.8rem;color:var(--muted);padding:.35rem .8rem;border-radius:999px;transition:.2s}
   .langs button:hover{color:var(--ink)}
   .langs button.active{background:var(--ink);color:#fff}
+  a.brand{text-decoration:none}
+  .bar-right{display:flex;align-items:center;gap:.7rem}
+  .backbtn{display:inline-flex;align-items:center;gap:.35rem;font-weight:600;font-size:.82rem;color:var(--ink-soft);text-decoration:none;padding:.42rem .85rem;border:1px solid var(--border);border-radius:999px;background:var(--white);transition:.2s;white-space:nowrap}
+  .backbtn:hover{color:var(--ink);border-color:var(--pink)}
 
   /* ---------- layout ---------- */
   .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
@@ -139,17 +143,17 @@
 <!-- ====================== HEADER ====================== -->
 <header class="bar">
   <div class="bar-inner">
-    <div class="brand">
+    <a class="brand" href="https://saarivet.fi/">
       <img src="assets/saari-logo.png" alt="Eläinklinikka Saari">
       <span class="tag show" data-lang="fi">Yhteistyö eläinten hyväksi</span>
       <span class="tag" data-lang="sv">I samarbete för djuren</span>
       <span class="tag" data-lang="en">In partnership for animals</span>
-    </div>
-    <div class="langs" role="group" aria-label="Language">
+    </a>
+    <div class="bar-right"><a class="backbtn" href="https://saarivet.fi/"><span class="show" data-lang="fi">← Takaisin</span><span data-lang="sv">← Tillbaka</span><span data-lang="en">← Back</span></a><div class="langs" role="group" aria-label="Language">
       <button type="button" data-set="fi" class="active">FI</button>
       <button type="button" data-set="sv">SV</button>
       <button type="button" data-set="en">EN</button>
-    </div>
+    </div></div>
   </div>
 </header>
 
