@@ -2971,6 +2971,8 @@ a.service-card-link {
   .mobile-menu,
   .paw-print,
   .article-print-btn,
+  .page-back-wrapper,
+  .page-back-link,
   .related-services {
     display: none !important;
   }
