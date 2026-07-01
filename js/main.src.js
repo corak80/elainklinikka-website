@@ -2797,15 +2797,29 @@ function printArticle(article) {
   article.classList.remove('printing');
 }
 
-// Open the full standalone article and auto-print it. Used by listing/teaser
-// cards whose inline .article-content is only an excerpt (the "short version"),
-// so we print the complete article instead of the teaser. Navigating in the same
-// tab (rather than a background tab) keeps the page focused, so window.print()
-// isn't suppressed by the browser.
+// Print the full article from a listing/teaser card (whose inline content is only
+// an excerpt) WITHOUT navigating away: load the complete article into a hidden,
+// off-screen iframe that auto-prints itself (?print=1), so the print dialog opens
+// while the user stays on the listing.
 function printFullArticle(href) {
   if (!href) return;
-  const url = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
-  window.location.href = url;
+  const prev = document.getElementById('article-print-frame');
+  if (prev) prev.remove();
+  const frame = document.createElement('iframe');
+  frame.id = 'article-print-frame';
+  frame.setAttribute('aria-hidden', 'true');
+  frame.style.cssText = 'position:fixed;left:-9999px;top:0;width:820px;height:1160px;border:0;';
+  frame.src = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
+  document.body.appendChild(frame);
+  frame.addEventListener('load', () => {
+    // The loaded article prints itself (?print=1). Clean up the frame afterwards.
+    try {
+      frame.contentWindow.addEventListener('afterprint', () => {
+        setTimeout(() => { const f = document.getElementById('article-print-frame'); if (f) f.remove(); }, 300);
+      });
+    } catch (e) {}
+    setTimeout(() => { const f = document.getElementById('article-print-frame'); if (f) f.remove(); }, 120000);
+  });
 }
 
 function makePrintButton() {
