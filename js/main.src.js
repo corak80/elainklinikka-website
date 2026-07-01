@@ -2778,12 +2778,71 @@ function applyArticleFilters(searchQuery) {
   }
 }
 
-function printArticle(btn) {
-  const article = btn.closest('.article-card');
+function printArticle(article) {
   if (!article) return;
   article.classList.add('printing');
   window.print();
   article.classList.remove('printing');
+}
+
+// Open the full standalone article and auto-print it. Used by listing/teaser
+// cards whose inline .article-content is only an excerpt (the "short version"),
+// so we print the complete article instead of the teaser.
+function printFullArticle(href) {
+  if (!href) return;
+  const url = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
+  window.open(url, '_blank');
+}
+
+function makePrintButton() {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'article-print-btn';
+  const label = (translations['articles.print'] && translations['articles.print'][currentLang]) || 'Tulosta';
+  btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg><span data-i18n="articles.print">' + label + '</span>';
+  return btn;
+}
+
+function initPrintButtons() {
+  // 1) Listing cards (homepage #articles section, /artikkelit index): the title
+  //    links to the full article. The card may only hold an excerpt, so route the
+  //    print through the full standalone page to guarantee the whole article prints.
+  document.querySelectorAll('#articles .article-card[data-category] .article-header').forEach(header => {
+    if (header.querySelector('.article-print-btn')) return;
+    const card = header.closest('.article-card');
+    const link = card && card.querySelector('h3 a[href], h2 a[href]');
+    const btn = makePrintButton();
+    if (link) {
+      btn.addEventListener('click', () => printFullArticle(link.getAttribute('href')));
+    } else {
+      btn.addEventListener('click', () => printArticle(card));
+    }
+    header.appendChild(btn);
+  });
+
+  // 2) Standalone article page: the open article itself (h1 title, no link, not in
+  //    the #articles listing). Add a button that prints the whole open article.
+  document.querySelectorAll('#main-content .articles-section .article-card .article-header').forEach(header => {
+    if (header.closest('#articles')) return;      // handled as a listing card above
+    if (header.querySelector('.article-print-btn')) return;
+    const card = header.closest('.article-card');
+    if (!card || !card.querySelector('h1')) return; // only the main open article, not related cards
+    const btn = makePrintButton();
+    btn.addEventListener('click', () => printArticle(card));
+    header.appendChild(btn);
+  });
+
+  // 3) Auto-print when arriving from a teaser's print button (?print=1).
+  const wantsPrint = new URLSearchParams(window.location.search).get('print') === '1';
+  if (wantsPrint) {
+    const card = document.querySelector('#main-content .articles-section .article-card') ||
+                 document.querySelector('.article-card');
+    if (card) {
+      window.addEventListener('load', () => {
+        setTimeout(() => printArticle(card), 400);
+      });
+    }
+  }
 }
 
 function initArticleFilters() {
@@ -2803,14 +2862,8 @@ function initArticleFilters() {
     });
   }
 
-  // Inject print buttons into article headers
-  document.querySelectorAll('#articles .article-card[data-category] .article-header').forEach(header => {
-    const btn = document.createElement('button');
-    btn.className = 'article-print-btn';
-    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg><span data-i18n="articles.print">Tulosta</span>';
-    btn.addEventListener('click', () => printArticle(btn));
-    header.appendChild(btn);
-  });
+  // Inject print buttons (listing cards + standalone article pages)
+  initPrintButtons();
 }
 
 
