@@ -2798,28 +2798,45 @@ function printArticle(article) {
 }
 
 // Print the full article from a listing/teaser card (whose inline content is only
-// an excerpt) WITHOUT navigating away: load the complete article into a hidden,
-// off-screen iframe that auto-prints itself (?print=1), so the print dialog opens
-// while the user stays on the listing.
+// an excerpt) WITHOUT navigating away. The site's CSP is `frame-ancestors 'none'`
+// so an iframe won't render; instead we fetch the full article HTML (allowed by
+// connect-src 'self'), inject its .article-card into the current page, and print.
 function printFullArticle(href) {
   if (!href) return;
-  const prev = document.getElementById('article-print-frame');
-  if (prev) prev.remove();
-  const frame = document.createElement('iframe');
-  frame.id = 'article-print-frame';
-  frame.setAttribute('aria-hidden', 'true');
-  frame.style.cssText = 'position:fixed;left:-9999px;top:0;width:820px;height:1160px;border:0;';
-  frame.src = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
-  document.body.appendChild(frame);
-  frame.addEventListener('load', () => {
-    // The loaded article prints itself (?print=1). Clean up the frame afterwards.
-    try {
-      frame.contentWindow.addEventListener('afterprint', () => {
-        setTimeout(() => { const f = document.getElementById('article-print-frame'); if (f) f.remove(); }, 300);
-      });
-    } catch (e) {}
-    setTimeout(() => { const f = document.getElementById('article-print-frame'); if (f) f.remove(); }, 120000);
-  });
+  fetch(href, { credentials: 'same-origin' })
+    .then(res => res.text())
+    .then(html => {
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const card = doc.querySelector('#main-content .articles-section .article-card') ||
+                   doc.querySelector('.article-card');
+      if (!card) throw new Error('article not found');
+
+      const old = document.getElementById('print-injected');
+      if (old) old.remove();
+      const holder = document.createElement('div');
+      holder.id = 'print-injected';
+      const imported = document.importNode(card, true);
+      // Drop anything that shouldn't print (related links, back buttons, buttons).
+      imported.querySelectorAll('.article-print-btn, .related-services').forEach(el => el.remove());
+      holder.appendChild(imported);
+      document.body.appendChild(holder);
+      ensurePrintLogo(imported);
+      document.body.classList.add('print-full-article');
+
+      const cleanup = () => {
+        document.body.classList.remove('print-full-article');
+        const h = document.getElementById('print-injected');
+        if (h) h.remove();
+        window.removeEventListener('afterprint', cleanup);
+      };
+      window.addEventListener('afterprint', cleanup);
+      setTimeout(() => window.print(), 60);
+      setTimeout(cleanup, 120000);
+    })
+    .catch(() => {
+      // Fallback: navigate to the full article and let it auto-print.
+      window.location.href = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
+    });
 }
 
 function makePrintButton() {

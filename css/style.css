@@ -2954,7 +2954,20 @@ a.service-card-link {
   display: none;
 }
 
+/* Full-article print holder fetched from a listing card — hidden on screen */
+#print-injected {
+  display: none;
+}
+
 @media print {
+  /* When printing a fetched full article from a listing, show only that. */
+  body.print-full-article > *:not(#print-injected) {
+    display: none !important;
+  }
+  body.print-full-article #print-injected {
+    display: block !important;
+  }
+
   /* Hide all site chrome and non-article content with display:none so no blank
      pages are reserved (visibility:hidden keeps the layout space → extra pages). */
   .header,
