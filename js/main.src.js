@@ -2801,42 +2801,69 @@ function printArticle(article) {
 // an excerpt) WITHOUT navigating away. The site's CSP is `frame-ancestors 'none'`
 // so an iframe won't render; instead we fetch the full article HTML (allowed by
 // connect-src 'self'), inject its .article-card into the current page, and print.
-function printFullArticle(href) {
-  if (!href) return;
+//
+// Key constraint: window.print() must be called SYNCHRONOUSLY inside the click
+// handler — Chrome ignores print() invoked from an async callback / setTimeout /
+// load handler. So we PREFETCH the article HTML ahead of time and, on click, do
+// the inject + print with no async gap.
+const _articleHtmlCache = {};
+
+function prefetchArticleHtml(href) {
+  if (!href || _articleHtmlCache[href] !== undefined) return;
+  _articleHtmlCache[href] = null; // in-flight marker
   fetch(href, { credentials: 'same-origin' })
     .then(res => res.text())
-    .then(html => {
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const card = doc.querySelector('#main-content .articles-section .article-card') ||
-                   doc.querySelector('.article-card');
-      if (!card) throw new Error('article not found');
+    .then(html => { _articleHtmlCache[href] = html; })
+    .catch(() => { delete _articleHtmlCache[href]; });
+}
 
-      const old = document.getElementById('print-injected');
-      if (old) old.remove();
-      const holder = document.createElement('div');
-      holder.id = 'print-injected';
-      const imported = document.importNode(card, true);
-      // Drop anything that shouldn't print (related links, back buttons, buttons).
-      imported.querySelectorAll('.article-print-btn, .related-services').forEach(el => el.remove());
-      holder.appendChild(imported);
-      document.body.appendChild(holder);
-      ensurePrintLogo(imported);
-      document.body.classList.add('print-full-article');
+// Build the hidden print holder from article HTML and return it (synchronous).
+function buildPrintHolder(html) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const card = doc.querySelector('#main-content .articles-section .article-card') ||
+               doc.querySelector('.article-card');
+  if (!card) return null;
+  const old = document.getElementById('print-injected');
+  if (old) old.remove();
+  const holder = document.createElement('div');
+  holder.id = 'print-injected';
+  const imported = document.importNode(card, true);
+  imported.querySelectorAll('.article-print-btn, .related-services').forEach(el => el.remove());
+  holder.appendChild(imported);
+  document.body.appendChild(holder);
+  ensurePrintLogo(imported);
+  return holder;
+}
 
-      const cleanup = () => {
-        document.body.classList.remove('print-full-article');
-        const h = document.getElementById('print-injected');
-        if (h) h.remove();
-        window.removeEventListener('afterprint', cleanup);
-      };
-      window.addEventListener('afterprint', cleanup);
-      setTimeout(() => window.print(), 60);
-      setTimeout(cleanup, 120000);
-    })
-    .catch(() => {
-      // Fallback: navigate to the full article and let it auto-print.
-      window.location.href = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
-    });
+// Print an already-built holder. Called synchronously within the click.
+function printHolder() {
+  document.body.classList.add('print-full-article');
+  const cleanup = () => {
+    document.body.classList.remove('print-full-article');
+    const h = document.getElementById('print-injected');
+    if (h) h.remove();
+    window.removeEventListener('afterprint', cleanup);
+  };
+  window.addEventListener('afterprint', cleanup);
+  window.print();          // synchronous — must stay in the click's call stack
+  setTimeout(cleanup, 1000);
+}
+
+function printFullArticle(href) {
+  if (!href) return;
+  const cached = _articleHtmlCache[href];
+  if (cached) {
+    // Synchronous path — preserves the click's user activation.
+    const holder = buildPrintHolder(cached);
+    if (holder) { printHolder(); return; }
+  }
+  // Not prefetched yet: fetch, then navigate to the article which prints itself.
+  // (A fresh async print() call would be ignored by Chrome, so we hand off.)
+  fetch(href, { credentials: 'same-origin' })
+    .then(res => res.text())
+    .then(html => { _articleHtmlCache[href] = html; })
+    .catch(() => {});
+  window.location.href = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
 }
 
 function makePrintButton() {
@@ -2849,16 +2876,28 @@ function makePrintButton() {
 }
 
 function initPrintButtons() {
+  // Preload the print logo so it's decoded before a synchronous print.
+  try { const li = new Image(); li.src = '/images/logo-horizontal.png'; } catch (e) {}
+
   // 1) Listing cards (homepage #articles section, /artikkelit index): the title
-  //    links to the full article. The card may only hold an excerpt, so route the
-  //    print through the full standalone page to guarantee the whole article prints.
-  document.querySelectorAll('#articles .article-card[data-category] .article-header').forEach(header => {
+  //    links to the full article. The card may only hold an excerpt, so we fetch
+  //    the full article and print it in place. We PREFETCH the HTML (on load and
+  //    on hover/press) so the click can inject + print synchronously.
+  document.querySelectorAll('#articles .article-card[data-category] .article-header').forEach((header, i) => {
     if (header.querySelector('.article-print-btn')) return;
     const card = header.closest('.article-card');
     const link = card && card.querySelector('h3 a[href], h2 a[href]');
     const btn = makePrintButton();
     if (link) {
-      btn.addEventListener('click', () => printFullArticle(link.getAttribute('href')));
+      const href = link.getAttribute('href');
+      const warm = () => prefetchArticleHtml(href);
+      btn.addEventListener('pointerenter', warm);
+      btn.addEventListener('pointerdown', warm);
+      btn.addEventListener('focus', warm);
+      btn.addEventListener('touchstart', warm, { passive: true });
+      btn.addEventListener('click', () => printFullArticle(href));
+      // Warm the cache after load (staggered) so the very first click is instant.
+      setTimeout(warm, 250 + i * 150);
     } else {
       btn.addEventListener('click', () => printArticle(card));
     }
