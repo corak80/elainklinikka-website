@@ -2949,41 +2949,93 @@ a.service-card-link {
 .animate-in:nth-child(6) { animation-delay: 0.5s; }
 
 /* --- Print Styles --- */
+/* Logo shown only in the printout (injected at the top of the article by JS) */
+.print-logo {
+  display: none;
+}
+
 @media print {
-  body * {
-    visibility: hidden;
+  /* Hide all site chrome and non-article content with display:none so no blank
+     pages are reserved (visibility:hidden keeps the layout space → extra pages). */
+  .header,
+  .footer,
+  .related-articles,
+  .articles-back,
+  .article-filters,
+  .article-search,
+  .notice-banner,
+  #cookie-consent,
+  .cookie-consent,
+  .lang-toggle,
+  .header-credential,
+  .mobile-menu,
+  .paw-print,
+  .article-print-btn,
+  .related-services {
+    display: none !important;
   }
-  .article-card.printing,
-  .article-card.printing * {
-    visibility: visible;
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    height: auto !important;
   }
-  .article-card.printing {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    max-width: 100%;
-    box-shadow: none;
-    border: none;
-    padding: 1cm;
-    margin: 0;
+  #main-content,
+  .articles-section,
+  .articles-section .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
   }
-  .article-card.printing .article-print-btn {
-    display: none;
+
+  .article-card {
+    position: static !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 1cm 1cm !important;
+    border: none !important;
+    box-shadow: none !important;
   }
-  .article-card.printing .article-content {
+  .article-card + .article-card {
+    border-top: none !important;
+    padding-top: 0 !important;
+  }
+  .article-content {
     display: block !important;
     max-height: none !important;
   }
-  .article-card.printing h3 {
-    font-size: 1.3rem;
+
+  .print-logo {
+    display: block !important;
+    height: 55px !important;
+    width: auto !important;
+    margin: 0 auto 0.7cm !important;
   }
-  .article-card.printing h2 {
-    font-size: 1rem;
+
+  .article-card h1,
+  .article-card h3 {
+    font-size: 1.4rem !important;
+    color: #000 !important;
   }
-  .article-card.printing p {
-    font-size: 0.9rem;
-    line-height: 1.6;
+  .article-card h2 {
+    font-size: 1.05rem !important;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .article-content p,
+  .article-content li {
+    font-size: 0.92rem !important;
+    line-height: 1.55 !important;
+    color: #000 !important;
+  }
+  .article-byline {
+    color: #333 !important;
+  }
+  img, figure {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 }
 

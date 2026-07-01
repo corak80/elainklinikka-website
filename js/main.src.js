@@ -2778,8 +2778,20 @@ function applyArticleFilters(searchQuery) {
   }
 }
 
+// Add the clinic logo to the top of the article for the printout (hidden on
+// screen via CSS, shown only in @media print).
+function ensurePrintLogo(article) {
+  if (!article || article.querySelector('.print-logo')) return;
+  const logo = document.createElement('img');
+  logo.className = 'print-logo';
+  logo.src = '/images/logo-horizontal.png';
+  logo.alt = 'Eläinklinikka Saari';
+  article.insertBefore(logo, article.firstChild);
+}
+
 function printArticle(article) {
   if (!article) return;
+  ensurePrintLogo(article);
   article.classList.add('printing');
   window.print();
   article.classList.remove('printing');
@@ -2787,11 +2799,13 @@ function printArticle(article) {
 
 // Open the full standalone article and auto-print it. Used by listing/teaser
 // cards whose inline .article-content is only an excerpt (the "short version"),
-// so we print the complete article instead of the teaser.
+// so we print the complete article instead of the teaser. Navigating in the same
+// tab (rather than a background tab) keeps the page focused, so window.print()
+// isn't suppressed by the browser.
 function printFullArticle(href) {
   if (!href) return;
   const url = href + (href.indexOf('?') === -1 ? '?' : '&') + 'print=1';
-  window.open(url, '_blank');
+  window.location.href = url;
 }
 
 function makePrintButton() {
@@ -2827,6 +2841,7 @@ function initPrintButtons() {
     if (header.querySelector('.article-print-btn')) return;
     const card = header.closest('.article-card');
     if (!card || !card.querySelector('h1')) return; // only the main open article, not related cards
+    ensurePrintLogo(card);
     const btn = makePrintButton();
     btn.addEventListener('click', () => printArticle(card));
     header.appendChild(btn);
@@ -2838,9 +2853,11 @@ function initPrintButtons() {
     const card = document.querySelector('#main-content .articles-section .article-card') ||
                  document.querySelector('.article-card');
     if (card) {
-      window.addEventListener('load', () => {
-        setTimeout(() => printArticle(card), 400);
-      });
+      // Strip ?print=1 so a manual refresh doesn't re-open the print dialog.
+      try { history.replaceState(null, '', window.location.pathname + window.location.hash); } catch (e) {}
+      const fire = () => setTimeout(() => printArticle(card), 300);
+      if (document.readyState === 'complete') fire();
+      else window.addEventListener('load', fire);
     }
   }
 }
