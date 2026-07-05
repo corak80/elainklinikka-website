@@ -740,6 +740,7 @@ const translations = {
   'footer.rights': { fi: 'Kaikki oikeudet pidätetään.', sv: 'Alla rättigheter förbehållna.', en: 'All rights reserved.' },
   'footer.about': { fi: 'Meistä', sv: 'Om oss', en: 'About Us' },
   'footer.contactpage': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
+  'footer.reviews': { fi: 'Arvostelut', sv: 'Omdömen', en: 'Reviews' },
   'footer.booking': { fi: 'Ajanvaraus', sv: 'Tidsbokning', en: 'Book appointment' },
   'footer.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
   'footer.media': { fi: 'Saari mediassa', sv: 'Saari i media', en: 'Saari in the news' },
@@ -3204,16 +3205,16 @@ const nurseProfiles = {
   jennifer: {
     name: 'Jennifer Couloigner',
     image: '/images/jennifer.webp',
-    role: 'role.nurse_student',
+    role: 'role.tech',
     bio: {
-      fi: 'Olen vuonna 2024 valmistunut eläintenhoitajaksi, ja jatkan parhaillaan opintojani klinikkaeläinhoitajaksi tavoitteena valmistua vuonna 2026. Erityisiä mielenkiinnon kohteitani ovat anestesiavalvonta, leikkaukset sekä eksoottiset potilaat.\n\nPidän alassani erityisesti jatkuvan oppimisen mahdollisuuksista sekä siitä, että saan kohdata niin eläimiä kuin heidän omistajiaan. Tavoitteenani on kehittää osaamistani kokonaisvaltaisesti ja tarjota eläinlähtöistä hoitoa jokaiselle potilaalle.',
-      sv: 'Jag tog examen som djurskötare år 2024 och fortsätter nu mina studier för att bli klinikdjurskötare, med målet att ta examen år 2026. Mina främsta intresseområden är anestesiövervakning, kirurgiska ingrepp och arbete med exotiska djurpatienter.\n\nDet jag uppskattar mest inom detta område är möjligheten till kontinuerligt lärande samt att få möta både djur och deras ägare. Mitt mål är att utveckla mina färdigheter på ett heltäckande sätt och ge högkvalitativ, djurcentrerad vård till varje patient.',
-      en: 'I graduated as a veterinary nurse in 2024 and I am currently continuing my studies to become a veterinary technician, with the goal of graduating in 2026. My key areas of interest include anesthesia monitoring, surgical procedures, and exotic patients.\n\nWhat I appreciate most in this field is the opportunity for continuous learning, as well as meeting both animals and their owners. My aim is to develop my skills comprehensively and provide animal-centered care for every patient.'
+      fi: 'Olen valmistunut kesällä 2026 klinikkaeläinhoitajaksi, sitä ennen olen kouluttautunut eläintenhoitajaksi. Erityisiä mielenkiinnon kohteitani ovat anestesiavalvonta, leikkaukset sekä eksoottiset potilaat.\n\nPidän alassani erityisesti jatkuvan oppimisen mahdollisuuksista sekä siitä, että saan kohdata niin eläimiä kuin heidän omistajiaan. Tavoitteenani on kehittää osaamistani kokonaisvaltaisesti ja tarjota eläinlähtöistä hoitoa jokaiselle potilaalle.',
+      sv: 'Jag tog examen som klinikdjurskötare sommaren 2026, innan dess utbildade jag mig till djurskötare. Mina främsta intresseområden är anestesiövervakning, kirurgiska ingrepp och arbete med exotiska djurpatienter.\n\nDet jag uppskattar mest inom detta område är möjligheten till kontinuerligt lärande samt att få möta både djur och deras ägare. Mitt mål är att utveckla mina färdigheter på ett heltäckande sätt och ge högkvalitativ, djurcentrerad vård till varje patient.',
+      en: 'I graduated as a veterinary technician in summer 2026; before that I trained as an animal caretaker. My key areas of interest include anesthesia monitoring, surgical procedures, and exotic patients.\n\nWhat I appreciate most in this field is the opportunity for continuous learning, as well as meeting both animals and their owners. My aim is to develop my skills comprehensively and provide animal-centered care for every patient.'
     },
     background: {
-      fi: 'Eläintenhoitaja 2024. Opiskelee klinikkaeläinhoitajaksi, valmistuu 2026.',
-      sv: 'Djurskötare 2024. Studerar till klinikdjurskötare, examen 2026.',
-      en: 'Animal caretaker 2024. Studying to become veterinary technician, graduating 2026.'
+      fi: 'Eläintenhoitaja 2024, klinikkaeläinhoitaja 2026.',
+      sv: 'Djurskötare 2024, klinikdjurskötare 2026.',
+      en: 'Animal caretaker 2024, veterinary technician 2026.'
     },
     interests: {
       fi: 'Anestesiavalvonta, leikkaukset ja eksoottiset potilaat',

@@ -1257,7 +1257,7 @@ function generateArticleIndex(translations, lang) {
           <span class="article-tag">${escapeHtml(tag)}</span>
           <time>${escapeHtml(year)}</time>
         </div>
-        <h3><a href="${articleBase}${slug}.html">${escapeHtml(title)}</a></h3>
+        <h2><a href="${articleBase}${slug}.html">${escapeHtml(title)}</a></h2>
         <div class="article-content">
           <p>${escapeHtml(intro)}</p>
         </div>

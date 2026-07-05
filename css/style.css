@@ -1576,7 +1576,9 @@ a.service-card-link {
   color: var(--color-primary);
 }
 
-.article-card h3 {
+.article-card h3,
+
+.article-card > h2 {
   font-size: 1.5rem;
   margin-bottom: var(--spacing-md);
   color: var(--color-text);
@@ -2811,7 +2813,9 @@ a.service-card-link {
     padding: var(--spacing-md);
   }
 
-  .article-card h3 {
+  .article-card h3,
+
+  .article-card > h2 {
     font-size: 1.2rem;
   }
 
@@ -2912,7 +2916,9 @@ a.service-card-link {
     padding: var(--spacing-sm);
   }
 
-  .article-card h3 {
+  .article-card h3,
+
+  .article-card > h2 {
     font-size: 1.1rem;
   }
 }
@@ -3030,7 +3036,8 @@ a.service-card-link {
   }
 
   .article-card h1,
-  .article-card h3 {
+  .article-card h3,
+  .article-card > h2 {
     font-size: 1.4rem !important;
     color: #000 !important;
   }
@@ -3156,12 +3163,14 @@ a.service-card-link {
 }
 
 /* --- Article Title Links --- */
-.article-card h3 a {
+.article-card h3 a,
+.article-card > h2 a {
   color: inherit;
   text-decoration: none;
 }
 
-.article-card h3 a:hover {
+.article-card h3 a:hover,
+.article-card > h2 a:hover {
   color: var(--accent);
 }
 

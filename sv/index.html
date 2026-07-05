@@ -49,7 +49,7 @@
   fbq('init', '2008398676469644');
   fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
+  <noscript><img alt="" height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=2008398676469644&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
@@ -284,6 +284,8 @@
 
   <link rel="preload" as="image" href="/images/team-hero.webp">
   <link rel="preload" as="image" href="/images/logo.png">
+  <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
+  <link rel="preload" as="image" href="/media/clinic-poster.jpg">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/logo.png">
@@ -308,6 +310,22 @@ a.hero-badge{text-decoration:none}
 @keyframes heroRise{to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
 </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Djurklinik Saari – klinikvideo",
+    "description": "En kort presentationsvideo av Djurklinik Saaris lokaler och vardag i Vasa.",
+    "thumbnailUrl": "https://saarivet.fi/media/clinic-poster.jpg",
+    "contentUrl": "https://saarivet.fi/media/clinic.mp4",
+    "uploadDate": "2026-06-06",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Eläinklinikka Saari",
+      "logo": { "@type": "ImageObject", "url": "https://saarivet.fi/images/logo.png" }
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -378,20 +396,20 @@ a.hero-badge{text-decoration:none}
         <a href="/sv/tjanster/seniorundersokning/" data-href-fi="/palvelut/senioritarkastus/" data-href-sv="/sv/tjanster/seniorundersokning/" data-href-en="/en/services/senior-check-up/" class="btn btn-outline btn-lg" data-i18n="hero.senior">Seniorpaket 299 €</a>
       </div>
       <div class="hero-badges">
-        <a href="/sv/omdomen/" data-href-fi="/arvostelut/" data-href-sv="/sv/omdomen/" data-href-en="/en/reviews/" class="hero-badge hero-badge--rating" aria-label="Asiakasarvostelut">
+        <a href="/sv/omdomen/" data-href-fi="/arvostelut/" data-href-sv="/sv/omdomen/" data-href-en="/en/reviews/" class="hero-badge hero-badge--rating">
           <span class="hero-badge-starbar" aria-hidden="true"><span class="hero-badge-starbar-bg">★★★★★</span><span class="hero-badge-starbar-fg">★★★★★</span></span>
           <span class="hero-badge-rating-text"><strong data-i18n="hero.rating.score">4,6</strong> · <span data-i18n="hero.rating.shortlabel">281 omdömen</span></span>
         </a>
-        <a href="#cat-friendly" class="hero-badge" aria-label="Kissaystävällinen klinikka">
-          <div class="badge-icon">🐱</div>
+        <a href="#cat-friendly" class="hero-badge">
+          <div class="badge-icon" aria-hidden="true">🐱</div>
           <span data-i18n="hero.badge.catfriendly">Kattvänlig klinik</span>
         </a>
-        <a href="#about" class="hero-badge" aria-label="Perustettu 1989">
-          <div class="badge-icon">🏥</div>
+        <a href="#about" class="hero-badge">
+          <div class="badge-icon" aria-hidden="true">🏥</div>
           <span data-i18n="hero.badge.since">Grundad 1989</span>
         </a>
-        <a href="#team" class="hero-badge" aria-label="13 ammattilaista">
-          <div class="badge-icon">👥</div>
+        <a href="#team" class="hero-badge">
+          <div class="badge-icon" aria-hidden="true">👥</div>
           <span data-i18n="hero.badge.team">13 medarbetare</span>
         </a>
       </div>
@@ -675,7 +693,7 @@ a.hero-badge{text-decoration:none}
         <div class="team-card team-card-clickable" onclick="openNurseProfile('jennifer')">
           <div class="team-avatar"><img src="/images/jennifer.webp" alt="Jennifer Couloigner" width="2000" height="2000" loading="lazy"></div>
           <h3>Jennifer Couloigner</h3>
-          <p class="role" data-i18n="role.nurse_student">Djurskötare / studerande</p>
+          <p class="role" data-i18n="role.tech">Klinikdjurskötare</p>
           <p class="bio" data-i18n="bio.jennifer">Anestesiövervakning, kirurgi och exotiska patienter. Studerar till klinikdjurskötare.</p>
         </div>
         <div class="team-card team-card-clickable" onclick="openNurseProfile('josefiina')">
@@ -1550,6 +1568,7 @@ a.hero-badge{text-decoration:none}
           <a href="/yhteystiedot/" data-i18n="footer.contactpage">Kontakt</a>
           <a href="/sv/tidsbokning/" data-href-fi="/ajanvaraus/" data-href-sv="/sv/tidsbokning/" data-href-en="/en/book-appointment/" data-i18n="footer.booking">Tidsbokning</a>
           <a href="/sv/artiklar/" data-i18n="footer.articles">Artiklar</a>
+          <a href="/sv/omdomen/" data-href-fi="/arvostelut/" data-href-sv="/sv/omdomen/" data-href-en="/en/reviews/" data-i18n="footer.reviews">Omdömen</a>
           <a href="/sv/media/" data-i18n="footer.media" data-href-fi="/media/" data-href-sv="/sv/media/" data-href-en="/en/media/">Saari i media</a>
         </div>
         <div class="footer-col">
