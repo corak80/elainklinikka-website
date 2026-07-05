@@ -1,0 +1,15 @@
+# Deploy (cutover day — this REPLACES the routes of the old saarivet-redirects Worker;
+# afterwards delete the saarivet-redirects Worker or remove its routes in the dashboard):
+#   cd ~/elainklinikka-website/redirects
+#   npx wrangler deploy --config wrangler-saarivet.toml
+name = "saarivet-redirect"
+main = "saarivet-worker.js"
+compatibility_date = "2026-06-01"
+
+[[routes]]
+pattern = "saarivet.fi/*"
+zone_name = "saarivet.fi"
+
+[[routes]]
+pattern = "www.saarivet.fi/*"
+zone_name = "saarivet.fi"

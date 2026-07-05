@@ -1,0 +1,14 @@
+# Deploy (cutover day, after the elainklinikkasaari.fi zone is active on Cloudflare):
+#   cd ~/elainklinikka-website/redirects
+#   npx wrangler deploy --config wrangler-elainklinikkasaari.toml
+name = "elainklinikkasaari-slugs"
+main = "elainklinikkasaari-worker.js"
+compatibility_date = "2026-06-01"
+
+[[routes]]
+pattern = "elainklinikkasaari.fi/*"
+zone_name = "elainklinikkasaari.fi"
+
+[[routes]]
+pattern = "www.elainklinikkasaari.fi/*"
+zone_name = "elainklinikkasaari.fi"
