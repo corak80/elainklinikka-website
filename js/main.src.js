@@ -2655,6 +2655,15 @@ function initPriceAccordion() {
       }
     });
   });
+
+  // Deep link: /hinnasto/#category-id opens and scrolls to that category
+  if (location.hash) {
+    const target = document.getElementById(location.hash.slice(1));
+    if (target && target.classList.contains('price-category')) {
+      target.classList.add('open');
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+    }
+  }
 }
 
 // --- Active Nav Highlight ---
