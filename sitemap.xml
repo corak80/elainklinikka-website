@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/artikkelit/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/artikkelit/"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/artikkelit/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/artikkelit/"/>
@@ -1550,7 +1550,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/articles/siili.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
@@ -1560,7 +1560,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/sv/artiklar/igelkott.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
@@ -1570,7 +1570,7 @@
   </url>
   <url>
     <loc>https://saarivet.fi/en/articles/hedgehog.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siili.html"/>
