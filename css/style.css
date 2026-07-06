@@ -3059,6 +3059,22 @@ a.service-card-link {
     break-inside: avoid;
     page-break-inside: avoid;
   }
+  /* Cap inline article photos when printing. Without a height limit, a tall
+     (portrait) image renders larger than the printable area, so page-break
+     avoidance bumps it to a fresh page and leaves the previous one blank. */
+  .article-content img {
+    max-width: 100% !important;
+    max-height: 10cm !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0.3cm auto !important;
+    display: block;
+  }
+  /* Keep each photo together with its caption on one page. */
+  .article-content > div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
 
 /* Cookie Consent Banner */
