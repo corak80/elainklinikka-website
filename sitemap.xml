@@ -11,6 +11,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/"/>
   </url>
   <url>
+    <loc>https://saarivet.fi/kennelkuvat/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://saarivet.fi/sv/</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>

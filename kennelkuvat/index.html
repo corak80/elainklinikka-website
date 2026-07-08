@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viralliset kennelliittokuvaukset — rotu &amp; ikä -työkalu | Eläinklinikka Saari</title>
+<meta name="description" content="Valitse rotu ja koiran syntymäaika — näet heti mitkä viralliset röntgenkuvaukset (lonkat, kyynärpäät, selkä) Kennelliiton PEVISA-ohjelma vaatii, ikärajat, kuvausasennot ja tulostettavan muistilistan.">
+<link rel="canonical" href="https://saarivet.fi/kennelkuvat/">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:title" content="Viralliset kennelliittokuvaukset — rotu & ikä -työkalu">
+<meta property="og:description" content="Mitkä viralliset röntgenkuvat koirasi tarvitsee jalostusta varten? Rotu + syntymäaika = kuvauslista, ikärajat ja asento-ohjeet.">
+<meta property="og:url" content="https://saarivet.fi/kennelkuvat/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080c11; --panel:#0e141c; --panel2:#121a24; --line:#22303e; --line2:#2f4254;
+  --ink:#dbe7f0; --ink-dim:#8ba3b5; --ink-faint:#5d7386;
+  --glow:#8fe3ff; --glow-dim:#4db8d8; --accent:#ffc46b; --ok:#7fe0a8; --warn:#ffb35c;
+  --film:#0a1018; --bone:#bfe9f7;
+  --radius:14px;
+  --sans:"IBM Plex Sans",sans-serif; --mono:"IBM Plex Mono",monospace; --disp:"Bricolage Grotesque",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;
+  background-image:radial-gradient(1200px 600px at 70% -10%, rgba(77,184,216,.08), transparent 60%),
+                   radial-gradient(800px 500px at -10% 30%, rgba(255,196,107,.04), transparent 55%);}
+a{color:var(--glow)}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+
+/* ── header ── */
+header.site{padding:26px 0 0}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:.85rem}
+.topbar a{color:var(--ink-dim);text-decoration:none;letter-spacing:.04em}
+.topbar a:hover{color:var(--glow)}
+.topbar .clinic{font-family:var(--mono);font-size:.78rem;color:var(--ink-faint)}
+.hero{padding:44px 0 8px;position:relative}
+.hero .kicker{font-family:var(--mono);color:var(--glow-dim);font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-family:var(--disp);font-weight:700;font-size:clamp(2rem,5.4vw,3.4rem);line-height:1.04;letter-spacing:-.01em;max-width:16em}
+.hero h1 .x{color:var(--glow);text-shadow:0 0 26px rgba(143,227,255,.45)}
+.hero p.lead{margin-top:18px;max-width:44em;color:var(--ink-dim);font-size:1.02rem}
+.hero p.lead b{color:var(--ink)}
+
+/* ── console/form ── */
+.console{margin:34px 0 10px;background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-radius:var(--radius);padding:22px;display:grid;grid-template-columns:1.5fr 1fr auto;gap:16px;align-items:end;
+  box-shadow:0 20px 50px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.04)}
+.field label{display:block;font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:8px}
+.field input{width:100%;background:var(--film);border:1px solid var(--line2);border-radius:9px;color:var(--ink);
+  font-family:var(--sans);font-size:1.02rem;padding:12px 14px;outline:none;transition:border-color .15s, box-shadow .15s}
+.field input:focus{border-color:var(--glow-dim);box-shadow:0 0 0 3px rgba(77,184,216,.15)}
+.field input::placeholder{color:var(--ink-faint)}
+input[type=date]{color-scheme:dark}
+.breedbox{position:relative}
+.suggest{position:absolute;z-index:30;top:calc(100% + 6px);left:0;right:0;background:var(--panel2);border:1px solid var(--line2);
+  border-radius:10px;max-height:290px;overflow:auto;display:none;box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.suggest.open{display:block}
+.suggest button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--ink);padding:10px 14px;font:inherit;font-size:.95rem;cursor:pointer}
+.suggest button .np{color:var(--ink-faint);font-size:.78rem;font-family:var(--mono)}
+.suggest button:hover,.suggest button.active{background:rgba(77,184,216,.12)}
+.btn{appearance:none;border:0;cursor:pointer;font-family:var(--disp);font-weight:600;font-size:1rem;border-radius:10px;padding:13px 22px;transition:transform .12s, box-shadow .12s}
+.btn.primary{background:var(--glow);color:#04222e;box-shadow:0 6px 22px rgba(143,227,255,.28)}
+.btn.primary:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(143,227,255,.38)}
+.btn.ghost{background:transparent;color:var(--ink-dim);border:1px solid var(--line2)}
+.btn.ghost:hover{color:var(--glow);border-color:var(--glow-dim)}
+.hint{font-size:.82rem;color:var(--ink-faint);margin:10px 4px 0;font-family:var(--mono)}
+
+/* ── result header ── */
+#result{display:none;margin-top:26px}
+.rhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;justify-content:space-between;border-bottom:1px dashed var(--line2);padding-bottom:16px;margin-bottom:8px}
+.rhead h2{font-family:var(--disp);font-size:clamp(1.5rem,3.4vw,2.2rem);font-weight:700}
+.rhead .meta{font-family:var(--mono);color:var(--ink-dim);font-size:.85rem}
+.actions{display:flex;gap:10px}
+.summary{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
+.chip{font-family:var(--mono);font-size:.8rem;border:1px solid var(--line2);border-radius:999px;padding:6px 14px;color:var(--ink-dim);background:rgba(255,255,255,.02)}
+.chip.req{border-color:rgba(143,227,255,.4);color:var(--glow)}
+.banner{margin:14px 0;padding:14px 18px;border-radius:10px;font-size:.95rem;border:1px solid var(--line2);background:var(--panel)}
+.banner.info{border-color:rgba(143,227,255,.3)}
+.banner.none{border-color:rgba(127,224,168,.35)}
+
+/* ── study cards (film) ── */
+.films{display:grid;gap:22px;margin:22px 0}
+.film{background:linear-gradient(180deg,#0d141d,#0a1017);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.film .tab{display:flex;align-items:center;gap:14px;padding:15px 22px;border-bottom:1px solid var(--line);background:rgba(255,255,255,.02)}
+.film .tab .code{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;color:var(--glow-dim);border:1px solid var(--line2);border-radius:6px;padding:4px 9px}
+.film .tab h3{font-family:var(--disp);font-weight:700;font-size:1.3rem;flex:1}
+.status{font-family:var(--mono);font-size:.78rem;padding:6px 12px;border-radius:999px;white-space:nowrap}
+.status.ok{color:#0a2b18;background:var(--ok)}
+.status.wait{color:#3a2404;background:var(--warn)}
+.status.na{color:var(--ink-dim);border:1px solid var(--line2)}
+.film .body{display:grid;grid-template-columns:300px 1fr;gap:0}
+.viewport{background:
+   repeating-linear-gradient(0deg, rgba(143,227,255,.03) 0 1px, transparent 1px 28px),
+   repeating-linear-gradient(90deg, rgba(143,227,255,.03) 0 1px, transparent 1px 28px),
+   radial-gradient(340px 300px at 50% 42%, rgba(77,184,216,.13), transparent 70%),
+   var(--film);
+  border-right:1px solid var(--line);padding:18px 12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.viewport svg{width:100%;max-width:270px;height:auto}
+.viewport .cap{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);text-align:center}
+.film .info{padding:20px 24px 24px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px 22px;margin-bottom:16px}
+.kv{border-left:2px solid var(--line2);padding-left:12px}
+.kv .k{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+.kv .v{font-size:.98rem;margin-top:2px}
+.kv .v.mono{font-family:var(--mono);font-size:.9rem}
+.film h4{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--glow-dim);margin:16px 0 8px}
+.film ul{list-style:none}
+.film ul li{padding:4px 0 4px 22px;position:relative;color:var(--ink-dim);font-size:.94rem}
+.film ul li::before{content:"";position:absolute;left:2px;top:.85em;width:10px;height:1px;background:var(--glow-dim)}
+.film ul li b{color:var(--ink)}
+details.scale{margin-top:14px;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+details.scale summary{cursor:pointer;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;padding:10px 14px;color:var(--ink-dim);background:rgba(255,255,255,.02)}
+details.scale summary:hover{color:var(--glow)}
+details.scale .sc{padding:10px 16px 14px;font-size:.88rem}
+details.scale table{width:100%;border-collapse:collapse}
+details.scale td{padding:5px 10px 5px 0;vertical-align:top;color:var(--ink-dim);border-bottom:1px solid var(--line)}
+details.scale td:first-child{font-family:var(--mono);color:var(--glow);white-space:nowrap;width:5em}
+details.scale tr:last-child td{border-bottom:0}
+
+/* ── extras / checklist ── */
+.extras{margin:8px 0 26px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px}
+.extras h3{font-family:var(--disp);font-size:1.15rem;margin-bottom:10px}
+.extras ul{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:4px 26px}
+.extras li{padding:5px 0 5px 22px;position:relative;color:var(--ink-dim);font-size:.93rem}
+.extras li::before{content:"+";position:absolute;left:2px;color:var(--accent);font-family:var(--mono)}
+.extras li b{color:var(--ink)}
+.checklist{margin:26px 0;background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px}
+.checklist h3{font-family:var(--disp);font-size:1.45rem;margin-bottom:4px}
+.checklist .sub{font-family:var(--mono);font-size:.78rem;color:var(--ink-faint);margin-bottom:16px;letter-spacing:.08em}
+.checklist ol{list-style:none;counter-reset:c;columns:2;column-gap:44px}
+.checklist ol li{counter-increment:c;padding:8px 0 8px 40px;position:relative;color:var(--ink-dim);font-size:.94rem;break-inside:avoid}
+.checklist ol li::before{content:counter(c,decimal-leading-zero);position:absolute;left:0;top:9px;font-family:var(--mono);font-size:.78rem;color:var(--glow);border:1px solid var(--line2);border-radius:6px;padding:2px 6px}
+.checklist ol li b{color:var(--ink)}
+.limits{margin-top:16px;font-size:.85rem;color:var(--ink-faint);border-top:1px dashed var(--line2);padding-top:12px}
+
+/* ── booking / footer ── */
+.book{margin:34px 0;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;background:
+  radial-gradient(600px 220px at 15% 0%, rgba(143,227,255,.1), transparent 60%),var(--panel2);
+  border:1px solid rgba(143,227,255,.25);border-radius:var(--radius);padding:26px 30px}
+.book h3{font-family:var(--disp);font-size:1.5rem}
+.book p{color:var(--ink-dim);margin-top:6px;max-width:38em}
+.book .tel{font-family:var(--mono);font-size:1.25rem;color:var(--glow);text-decoration:none;white-space:nowrap}
+.book .tel:hover{text-shadow:0 0 18px rgba(143,227,255,.6)}
+footer.site{margin:44px 0 36px;border-top:1px solid var(--line);padding-top:22px;font-size:.83rem;color:var(--ink-faint)}
+footer.site .src{font-family:var(--mono);font-size:.75rem;line-height:1.8}
+footer.site a{color:var(--ink-dim)}
+footer.site .disc{margin-top:14px;max-width:60em}
+
+@media(max-width:860px){
+  .console{grid-template-columns:1fr}
+  .film .body{grid-template-columns:1fr}
+  .viewport{border-right:0;border-bottom:1px solid var(--line);padding:24px}
+  .checklist ol{columns:1}
+  .book{grid-template-columns:1fr}
+}
+
+/* ── PRINT: white paper document ── */
+@media print{
+  :root{--film:#fff;--bone:#1a2c38}
+  body{background:#fff !important;color:#111;font-size:11.5pt}
+  .topbar,.hero p.lead,.console,.hint,.actions,.book,.suggest{display:none !important}
+  .hero{padding:0}
+  .hero .kicker{color:#555}
+  .hero h1{font-size:20pt;color:#000}
+  .hero h1 .x{color:#000;text-shadow:none}
+  #result{display:block !important;margin-top:8pt}
+  .rhead{border-color:#999}
+  .rhead h2{color:#000}
+  .rhead .meta,.chip{color:#333;border-color:#aaa}
+  .chip.req{color:#000;border-color:#000}
+  .banner{border-color:#999;background:#fff;color:#222}
+  .film{background:#fff;border:1.2pt solid #333;box-shadow:none;break-inside:avoid;margin-bottom:10pt}
+  .film .tab{background:#fff;border-color:#333}
+  .film .tab h3{color:#000}
+  .film .tab .code{color:#333;border-color:#666}
+  .status.ok{background:#fff;color:#000;border:1pt solid #000}
+  .status.wait{background:#fff;color:#000;border:1pt dashed #000}
+  .viewport{background:#fff;border-color:#ccc}
+  .viewport .cap{color:#444}
+  .film .info{color:#222}
+  .kv .k,.film h4{color:#555}
+  .kv .v,.film ul li,.film ul li b{color:#111}
+  .film ul li::before{background:#555}
+  details.scale{display:none}
+  .extras,.checklist{background:#fff;border:1pt solid #333;color:#111;break-inside:avoid}
+  .extras li,.checklist ol li{color:#222}
+  .extras li b,.checklist ol li b{color:#000}
+  .checklist ol li::before{color:#000;border-color:#666}
+  .limits{color:#444;border-color:#999}
+  footer.site{color:#444;border-color:#999}
+  footer.site a{color:#444;text-decoration:none}
+  a[href]::after{content:""}
+}
+</style>
+</head>
+<body>
+
+<header class="site wrap">
+  <div class="topbar">
+    <a href="https://saarivet.fi/">&larr; saarivet.fi</a>
+    <span class="clinic">ELÄINKLINIKKA SAARI · VAASA · 06&nbsp;3217&nbsp;300</span>
+  </div>
+  <div class="hero">
+    <div class="kicker">Kennelliiton viralliset terveyskuvaukset · PEVISA 2026</div>
+    <h1>Mitkä <span class="x">viralliset röntgenkuvat</span> koirasi tarvitsee?</h1>
+    <p class="lead">Valitse rotu ja syötä koiran syntymäaika — saat heti listan <b>PEVISA-ohjelman vaatimista virallisista kuvauksista</b> (lonkat, kyynärpäät, selkä), rotukohtaiset ikärajat, kuvausasennot ja tulostettavan muistilistan kuvauskäyntiä varten.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="console" aria-label="Hakutyökalu">
+    <div class="field breedbox">
+      <label for="breed">Rotu</label>
+      <input id="breed" type="text" placeholder="Ala kirjoittaa… esim. labradorinnoutaja" autocomplete="off" spellcheck="false">
+      <div class="suggest" id="suggest" role="listbox"></div>
+    </div>
+    <div class="field">
+      <label for="dob">Koiran syntymäaika <span style="text-transform:none;letter-spacing:0">(valinnainen)</span></label>
+      <input id="dob" type="date">
+    </div>
+    <button class="btn primary" id="go">Näytä kuvaukset</button>
+  </section>
+  <p class="hint">Tietolähde: Kennelliiton PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026 sekä viralliset kuvausohjeet. Jos rotua ei löydy listalta, sillä ei todennäköisesti ole PEVISA-ohjelmaa — valitse silloin ”Muu rotu”.</p>
+
+  <section id="result" aria-live="polite"></section>
+
+  <section class="book" id="book">
+    <div>
+      <h3>Varaa aika virallisiin kuvauksiin Vaasassa</h3>
+      <p>Eläinklinikka Saari ottaa kaikki Kennelliiton viralliset lonkka-, kyynär- ja selkäkuvaukset digitaalisesti ja lähettää kuvat suoraan Kennelliittoon DICOM-muodossa. Kuvaus tehdään rauhoituksessa — varaa koko aamupäivä.</p>
+    </div>
+    <a class="tel" href="tel:+35863217300">06&nbsp;3217&nbsp;300</a>
+  </section>
+</main>
+
+<footer class="site wrap">
+  <div class="src">
+    Lähteet:
+    <a href="https://www.kennelliitto.fi/pevisa-ja-rotukohtaiset-erityisehdot" rel="noopener">PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/lonkkanivelen-kasvuhairioohje-0" rel="noopener">Lonkkanivelen kasvuhäiriöohje (voimassa 21.11.2025 alkaen)</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/kyynarnivelen-kasvuhairioiden-ohje" rel="noopener">Kyynärnivelen kasvuhäiriöiden ohje</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/selan-muutosten-rontgenkuvaus-ja-luokitusohje" rel="noopener">Selkäohje</a>
+  </div>
+  <p class="disc">Tämä työkalu on Eläinklinikka Saaren kokoama apuväline (tiedot koottu 8.7.2026). PEVISA-ehdot muuttuvat vuosittain ja rotukohtaisia siirtymäsäännöksiä voi olla — varmista aina ajantasaiset vaatimukset Kennelliitosta ja rotujärjestöstäsi ennen astutusta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä. Silmä-, sydän-, polvi- ja luonnevaatimukset eivät ole röntgentutkimuksia; ne näytetään muistutuksena.</p>
+</footer>
+
+<script>
+/* ══════════ DATA — PEVISA 2026 (Kennelliitto) ══════════
+   h:[minAgeKk, rajaArvo]  e:[minAgeKk, rajaArvo]  k:rajaArvo|1(=tutkimus)  s:{t:[lausunnot], a:alaikäräjäOverride, o:huom}
+   x:[muut ei-rtg-vaatimukset]  oc:olkanivel-OC  note:rotuhuomio  np:ei PEVISA-ohjelmaa */
+const BREEDS=[
+{n:"Abruzzese maremmano",h:[18,"C"],e:[18,"1"]},
+{n:"Airedalenterrieri",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Akita",h:[18,"C"],x:["Silmätutkimus (voimassa 36 kk)"]},
+{n:"Alaskan klee kai",k:1,x:["Silmätutkimus"]},
+{n:"Alaskanmalamuutti",h:[18,"B"],e:[18,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Amerikanakita",h:[18,null],e:[18,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Amerikancockerspanieli",h:[12,"C"],k:"1",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Amerikankarvatonterrieri",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Amerikanrottaterrieri",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Amerikanstaffordshirenterrieri",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"Lonkkien vaihtoehtona yhdistelmän lonkkaindeksien keskiarvo ≥ 101."},
+{n:"Apinapinseri",h:[12,null],e:[12,null]},
+{n:"Appenzellinpaimenkoira",h:[12,"C"],e:[12,"1"],k:"1"},
+{n:"Australiankarjakoira",h:[12,null],e:[12,"1"],s:{t:["LTV","SP"],o:"Selkälausunnot vaaditaan ennen toista pentuetta. LTV 1–4 → kumppanin oltava LTV0."},x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / PEKO-T / VIRTA"]},
+{n:"Australiankelpie",h:[12,"C"],s:{t:["LTV"]},note:"C-lonkkainen paritettava A-tuloksen saaneen kanssa."},
+{n:"Australianpaimenkoira",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Barbet",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Beaucenpaimenkoira",h:[18,"C"],e:[18,null],s:{t:["LTV","VA"]}},
+{n:"Bedlingtoninterrieri",x:["Silmätutkimus (voimassa 12 kk)","COMMD-1-geenitesti (kuparitoksikoosi)"],np:0},
+{n:"Belgianpaimenkoirat (kaikki muunnokset)",h:[12,"B"],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Bernhardinkoirat",h:[18,"C"],e:[18,"1"],s:{t:["LTV","SP","VA"],o:"Raja-arvo SP1: tuloksen SP1 saanut paritettava SP0-koiran kanssa."}},
+{n:"Berninpaimenkoira",h:[18,"C"],e:[18,"1"],note:"C-lonkkainen paritettava A/B-tuloksen kanssa, kyynärtulos 1 paritettava 0-tuloksen kanssa."},
+{n:"Bichon frisé",k:"1",x:["Silmätutkimus (voimassa 12 kk)"],note:"Ikä astutushetkellä vähintään 18 kk."},
+{n:"Biewerterrieri",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Bokseri",h:[12,"C"],s:{t:["SP"],o:"Raja-arvo SP3: SP3-tuloksen saanut paritettava SP0/SP1-koiran kanssa."},x:["Sydämen auskultaatio (alle 1-v. tulos voimassa 12 kk, muutoin 24 kk)"],note:"Lonkkien vaihtoehtona vanhempien lonkkaindeksien keskiarvo ≥ 101. Uroksen ikä vähintään 24 kk."},
+{n:"Bordeauxindoggi",h:[18,null],e:[18,"1"]},
+{n:"Bordercollie",h:[12,"C"],oc:1,x:["Silmätutkimus (voimassa 24 kk)"],note:"C-lonkkainen saa yhdistää vain A-tuloksen saaneen kanssa."},
+{n:"Bostoninterrieri",k:"2",x:["Silmätutkimus (voimassa 12 kk)","Hyväksytty BOAS-testi (alaikäraja 18 kk)","HSF4-geenitesti (juveniili kaihi)"]},
+{n:"Bouvier",h:[18,"C"],e:[18,"1"],x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / PK / PEKO / virkakoira"]},
+{n:"Bretoni",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)","Kanakoirakoetulos ennen toista astutusta"]},
+{n:"Brienpaimenkoira",h:[12,"C"],x:["Silmätutkimus (voimassa 36 kk)"]},
+{n:"Broholminkoira",h:[18,null],e:[18,null],s:{t:["SP"]},x:["Sydämen auskultaatio","Luonnetesti / MH / jalostustarkastus / virkakoira"]},
+{n:"Bullmastiffi",h:[18,null],e:[18,"1"],x:["CMR1- ja MFE-geenitestit"]},
+{n:"Bullterrieri",x:["Sydämen ultraäänitutkimus (alaikäraja 18 kk)","LAD-geenitesti"],np:0},
+{n:"Cane corso",h:[18,"C"],e:[18,"1"],s:{t:["LTV","SP","VA"]},x:["DSRA-geenitesti (väh. toisella vanhemmista)"]},
+{n:"Cavalier kingcharlesinspanieli",k:1,x:["Silmätutkimus (voimassa 36 kk)","Sydämen auskultaatio (alaikäraja 24 kk, voimassa 12 kk)","Syringomyelia-MRI (alaikäraja 24 kk)"]},
+{n:"Ceskoslovensky vlciak",h:[12,null],e:[12,null],s:{t:["LTV"]},note:"Ikä astutushetkellä vähintään 18 kk. DNA-tunniste vaaditaan."},
+{n:"Chesapeakelahdennoutaja",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 24 kk."},
+{n:"Chihuahua (pitkä- ja lyhytkarvainen)",k:"2",x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (voimassa 24 kk)"]},
+{n:"Chow chow",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Clumberinspanieli",h:[12,null],e:[12,"2"],x:["Silmätutkimus (voimassa 24 kk)","PDP1-geenitesti (toisella vanhemmista)"]},
+{n:"Cockerspanieli",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Continental bulldog",h:[12,"C"],e:[12,"1"],x:["Hyväksytty BOAS-testi","DVL2-geenitesti"]},
+{n:"Coton de tuléar",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Dalmatiankoira",h:[12,"C"]},
+{n:"Dobermanni",h:[12,"C"],x:["Sydämen UÄ + EKG (voimassa 12 kk)","Seerumin ALAT-arvo (voimassa 24 kk)"]},
+{n:"Dogo argentino",h:[18,null],e:[18,null],s:{t:["LTV","SP","VA"],a:24,o:"Selkälausunnon alaikäraja 24 kk."},note:"Kahta D-lonkkaista ei saa yhdistää."},
+{n:"Englanninbulldoggi",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)","Hyväksytty BOAS-testi"],note:"PEVISA 1.7.2026 alkaen (kyynärvaatimus uusi)."},
+{n:"Englanninsetteri",h:[12,"B"],e:[12,null],x:["NCL- ja rcd4-PRA-geenitestit (väh. toisella vanhemmista)"]},
+{n:"Englanninspringerspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Espanjanmastiffi",h:[18,null],e:[18,"1"]},
+{n:"Espanjanvesikoira",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Estrelanvuoristokoirat",h:[18,"C"],e:[18,"1"]},
+{n:"Eurasier",h:[12,null],x:["Silmätutkimus (voimassa 36 kk)"],note:"C-lonkkainen paritettava A/B-tuloksen kanssa."},
+{n:"Fieldspanieli",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Glen of imaalinterrieri",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Gordoninsetteri",h:[12,"B"],x:["rcd4-PRA-geenitesti (väh. toisella vanhemmista)"]},
+{n:"Griffonit (belge, bruxellois, petit brabancon)",k:"2",x:["Hyväksytty BOAS-testi (toisella vanhemmista)"]},
+{n:"Havannankoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Hollanninpaimenkoirat",h:[12,null],e:[12,null],s:{t:["LTV","SP"]},x:["Silmätutkimus","Luonnetesti / MH / PK-tulos"]},
+{n:"Hovawart",h:[12,"C"],note:"C-lonkkainen paritettava A-lonkkaisen kanssa, yhdistelmän indeksien keskiarvo ≥ 96."},
+{n:"Irlanninsusikoira",x:["Silmätutkimus (voimassa 24 kk)","Sydämen UÄ + EKG (1.7.2026 alkaen alaikäraja 24 kk, voimassa 12 kk)"],np:0},
+{n:"Islanninlammaskoira",h:[12,"C"],k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Isomünsterinseisoja",h:[12,"B"],e:[12,null],x:["Vähintään KAER 3 -koetulos"]},
+{n:"Isosveitsinpaimenkoira",h:[18,"C"],e:[18,"1"],oc:1},
+{n:"Italianseisoja",h:[12,null],e:[12,null]},
+{n:"Italianvinttikoira",k:1,x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Itäeuroopanpaimenkoira",h:[18,"C"],e:[18,"2"],s:{t:["LTV","VA"],a:18,o:"Selkälausunnon alaikäraja 18 kk."}},
+{n:"Jackrussellinterrieri",k:1,x:["Silmätutkimus (voimassa 12 kk)"],note:"Ikä astutushetkellä vähintään 24 kk."},
+{n:"Jakutianlaika",h:[12,"C"],x:["Silmätutkimus + gonioskopia (voimassa 24 kk)"]},
+{n:"Japanese chin",k:"2",x:["Silmätutkimus (voimassa 36 kk)","Sydämen auskultaatio (voimassa 36 kk)"]},
+{n:"Kanariandoggi",h:[18,null],e:[18,null],s:{t:["LTV","SP","VA"],a:24,o:"Selkälausunnon alaikäraja 24 kk."},x:["Luonnetesti / MH / jalostustarkastus / virkakoira"]},
+{n:"Karjalankarhukoira",h:[12,null],x:["Silmätutkimus (voimassa 36 kk alle 6-v.)"],note:"D-lonkkainen paritettava A-tuloksen saaneen kanssa."},
+{n:"Karkeakarvainen saksanseisoja",h:[12,"B"]},
+{n:"Karkeakarvainen unkarinvizsla",h:[12,"C"]},
+{n:"Kaukasiankoira",h:[18,null],e:[18,null]},
+{n:"Keskiaasiankoira",h:[12,null],e:[12,null]},
+{n:"Kiharakarvainen noutaja",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Kiinanpalatsikoira (pekingeesi)",k:1,x:["Silmätutkimus (voimassa 36 kk)","BOAS-testi (raja-arvo 2)"]},
+{n:"Kingcharlesinspanieli",k:1,x:["Silmätutkimus (voimassa 36 kk)","Hyväksytty BOAS-testi","Sydämen auskultaatio (alaikäraja 24 kk, voimassa 12 kk)"]},
+{n:"Kultainennoutaja",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"C-lonkkainen vain A:n kanssa tai indeksien keskiarvo ≥ 101; kyynär 1 vain 0:n kanssa tai indeksit ≥ 101."},
+{n:"Kuvasz",h:[18,"C"],x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Kääpiöbullterrieri",x:["Sydämen ultraäänitutkimus (alaikäraja 18 kk)","LAD-, LP- ja PLL-geenitestit"],np:0},
+{n:"Kääpiöpinseri",k:"1",x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Kääpiösnautserit (kaikki värit)",x:["Silmätutkimus (voimassa 12 kk)"],np:0,note:"Nartun ikä astutushetkellä vähintään 18 kk, uroksen 12 kk."},
+{n:"Labradorinnoutaja",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Lagotto romagnolo",h:[12,"C"],x:["Silmätutkimus (voimassa 12 kk)"],note:"C-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101."},
+{n:"Lancashirenkarjakoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Landseer",h:[18,"C"],e:[18,"1"]},
+{n:"Lapinporokoira",x:["Silmätutkimus ennen kolmatta astutusta (voimassa 24 kk)"],np:0,note:"Ikä astutushetkellä vähintään 22 kk."},
+{n:"Leonberginkoira",h:[18,"C"],e:[18,null],x:["Silmätutkimus (post. pol. KAT)"]},
+{n:"Lyhytkarvainen saksanseisoja",h:[12,"B"],e:[12,"0"]},
+{n:"Lyhytkarvainen unkarinvizsla",h:[12,"C"]},
+{n:"Maltankoira",k:"2"},
+{n:"Manchesterinterrieri",x:["Silmätutkimus (voimassa 36 kk)","Sydämen auskultaatio (voimassa 36 kk)"],np:0,note:"PEVISA 1.7.2026 alkaen."},
+{n:"Mastiffi",h:[18,"C"],e:[18,"1"]},
+{n:"Medimurjenkoira",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Mopsi",k:"2",x:["Silmätutkimus (voimassa 24 kk)","BOAS-testi (raja-arvo 2)"]},
+{n:"Mudi",h:[12,"C"],k:1,x:["Silmätutkimus"]},
+{n:"Musta tanskanpystykorva",h:[12,"B"],k:1},
+{n:"Mäyräkoirat (kaikki muunnokset)",k:"1",s:{t:["IDD"],o:"IDD-lausunto (kalkkeutuneet välilevyt) — mäyräkoirat kuuluvat Listaan 1, myös kaularanka kuvataan."},x:["Silmätutkimus (voimassa 24 kk)"],note:"Polvivaatimus koskee kääpiö- ja kaniinimäyräkoiria."},
+{n:"Newfoundlandinkoira",h:[18,null],e:[18,null],x:["Sydämen UÄ + EKG tai auskultaatio laajan tutkimuksen jälkeen"]},
+{n:"Novascotiannoutaja",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 24 kk."},
+{n:"Owczarek podhalanski",h:[18,null],e:[18,"1"]},
+{n:"Papillon ja phalène",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Partacollie",h:[12,"C"],e:[12,null]},
+{n:"Perunkarvattomat koirat",h:[12,"C"],k:"2",x:["Silmätutkimus (voimassa 24 kk)"],note:"Ison kokomuunnoksen lonkkakuvauksen alaikäraja 18 kk. Yhdistelmän polvitulosten summa enintään 2."},
+{n:"Pieniamerikanpaimenkoira",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 12 kk)"],note:"Nartun ikä vähintään 22 kk, uroksen 18 kk."},
+{n:"Pienimünsterinseisoja",h:[12,"B"],x:["Vähintään KAER 3 -koetulos ennen toista astutusta"]},
+{n:"Pinseri",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Pitkäkarvainen collie",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus"]},
+{n:"Sileäkarvainen collie",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus"],note:"C-lonkkainen paritettava A-tuloksen saaneen kanssa."},
+{n:"Pitkäkarvainen saksanseisoja",h:[12,"B"],x:["Silmätutkimus (voimassa 36 kk)","Vähintään KAER 3 -koetulos"]},
+{n:"Pointteri",h:[12,"B"],e:[12,null]},
+{n:"Polski owczarek nizinny",h:[12,"C"]},
+{n:"Portugalinvesikoira",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen paritettava A/B/C-tuloksen kanssa."},
+{n:"Puolanmetsästysspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Pulit (kaikki värit)",h:[12,null],x:["Silmätutkimus (voimassa 36 kk)"],note:"Ikä astutushetkellä vähintään 18 kk."},
+{n:"Pumi",h:[12,null],x:["Silmätutkimus (voimassa 36 kk)"]},
+{n:"Punainen irlanninsetteri",h:[12,"B"],note:"Vaihtoehtona lonkkaindeksi ≥ 102."},
+{n:"Pyreneittenkoira",h:[18,null],e:[18,null]},
+{n:"Pyreneittenmastiffi",h:[18,null],e:[18,null]},
+{n:"Ranskanbulldoggi",k:"1",s:{t:["LTV","SP","VA","IDD"],o:"Lista 1 + korkkiruuvihäntäinen rotu: kuvataan myös kaularanka ja VD-kuvat rinta- ja lannerangasta. VA4-tuloksen saanut paritettava VA0–VA2-koiran kanssa."},x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (voimassa 24 kk)","Hyväksytty BOAS-testi"]},
+{n:"Rhodesiankoira",h:[18,"C"],e:[18,"1"],s:{t:["LTV","SP","VA"]}},
+{n:"Rottweiler",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / virkakoira"],note:"Ikä astutushetkellä vähintään 24 kk."},
+{n:"Saarlooswolfhond",h:[12,null],e:[12,"2"],s:{t:["LTV"]},x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 18 kk. DNA-tunniste vaaditaan."},
+{n:"Saksanmetsästysterrieri",x:["Silmätutkimus (voimassa 24 kk)"],np:0},
+{n:"Saksanpaimenkoira",h:[12,"C"],e:[12,"1"],s:{t:["LTV"]},x:["Luonnetesti / MH / PK / SPL-tarkastus / virkakoira"],note:"C-lonkkainen vain A:n kanssa tai vanhempien lonkkaindeksien keskiarvo ≥ 101."},
+{n:"Saksanpystykorva, mittelspitz",h:[12,null]},
+{n:"Samojedinkoira",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Sarplaninac",h:[18,null],e:[18,null]},
+{n:"Shar pei",k:"1",x:["Silmätutkimus (voimassa 36 kk)","SPAID-geenitesti (väh. toisella vanhemmista)"]},
+{n:"Shetlanninlammaskoira",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Shiba",h:[12,null],e:[12,"1"],k:"2",x:["Silmätutkimus (voimassa 36 kk)"],note:"Nartun ikä vähintään 24 kk, uroksen 18 kk."},
+{n:"Shih tzu",k:"2",x:["Silmätutkimus","BOAS-testi (raja-arvo 2)"]},
+{n:"Sileäkarvainen noutaja",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Skyenterrieri",e:[12,null],k:1,note:"Kyynärnivelistä matalaraajaisten rotujen inkongruenssilausunto (INC)."},
+{n:"Slovakiancuvac",h:[18,"C"],e:[18,"1"]},
+{n:"Spinone",h:[12,"C"],e:[12,null],x:["Koetulos ennen toista astutusta"]},
+{n:"Stabijhoun",h:[12,"C"],e:[12,"1"]},
+{n:"Staffordshirenbullterrieri",h:[12,null],e:[12,null],x:["Silmätutkimus"]},
+{n:"Suomenajokoira",h:[12,null],e:[12,null]},
+{n:"Suomenlapinkoira",h:[12,"C"],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 22 kk. C-lonkkainen vain A:n kanssa tai indeksien keskiarvo ≥ 101."},
+{n:"Suomenpystykorva",k:"1",x:["Silmätutkimus (ennen toista astutusta)"],np:0,note:"Polvi- ja silmälausunto vaaditaan ennen toista astutusta."},
+{n:"Suursnautseri",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Tanskalais-ruotsalainen pihakoira",h:[12,"C"],k:"1",x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Tanskandoggit (kaikki värit)",h:[18,null],e:[18,null],x:["Sydämen UÄ + EKG (1.7.2026 alkaen alaikäraja 24 kk, voimassa 12 kk)"]},
+{n:"Tiibetinmastiffi",h:[18,null],e:[18,"1"],x:["Silmätutkimus (voimassa 36 kk)"]},
+{n:"Tiibetinspanieli",k:"2",x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Tiibetinterrieri",h:[12,null],e:[12,null],k:1,x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Tsekinpaimenkoira",h:[12,"C"],e:[12,"1"],s:{t:["LTV","VA"]},x:["Luonnetesti / MH / paimennuskoe / PK / virkakoira"]},
+{n:"Valkoinen ruotsinhirvikoira",h:[12,null],note:"Nartun ikä astutushetkellä vähintään 24 kk."},
+{n:"Valkoinenpaimenkoira",h:[18,"C"],e:[18,"1"],s:{t:["LTV"]},x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / PK / IPOR-A / virkakoira"]},
+{n:"Vanhaenglanninlammaskoira",h:[12,"C"],e:[12,null],x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Venäjänajokoira",h:[12,null],e:[12,null]},
+{n:"Venäjänbolonka",k:"2",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Venäjänmustaterrieri",h:[18,"C"],e:[18,"1"]},
+{n:"Venäjänspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen paritettava A-tuloksen saaneen kanssa."},
+{n:"Venäjäntoyt",k:1,x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (24 kk)"]},
+{n:"Viiriäiskoira",h:[12,"B"],e:[12,"0"],x:["Silmätutkimus (voimassa 48 kk)"],note:"Uusintayhdistelmät kielletty."},
+{n:"Volpino italiano",k:"1",x:["Silmätutkimus (voimassa 24 kk)"],note:"Nartun ikä vähintään 24 kk, uroksen 18 kk."},
+{n:"Walesinspringerspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Weimarinseisojat",h:[12,"C"],x:["Vähintään KAER 3 -koetulos"]},
+{n:"Welsh corgit (cardigan & pembroke)",h:[12,null],e:[12,null],s:{t:["LTV","SP","VA","IDD"],o:"Lista 1: myös kaularanka kuvataan. Kyynäristä inkongruenssi- tai dysplasialausunto."},x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101. Uusintayhdistelmät kielletty."},
+{n:"Whippet",s:{t:["LTV","VA"]},x:["Silmätutkimus (voimassa 24 kk)","Laaja sydäntutkimus (voimassa 24 kk)"],np:0,note:"PEVISA voimaan 1.1.2027. Ikä astutushetkellä vähintään 24 kk."},
+{n:"Yorkshirenterrieri",k:"2"},
+/* yleisiä rotuja ilman PEVISA-kuvausvaatimuksia */
+{n:"Siperianhusky",np:1},{n:"Pomeranian (kääpiöpystykorva)",np:1},{n:"Villakoirat (kaikki koot)",np:1},
+{n:"Borderterrieri",np:1},{n:"Kooikerhondje",np:1},{n:"Beagle",np:1},{n:"Länsiylämaanterrieri",np:1},
+{n:"Cairnterrieri",np:1},{n:"Kleinspitz",np:1},{n:"Bostoninbulldoggi",np:1},
+{n:"Muu rotu (ei PEVISA-ohjelmaa)",np:1,other:1}
+];
+
+/* ══════════ study card templates ══════════ */
+const SVG_HIP=`<svg viewBox="0 0 300 340" fill="none" aria-hidden="true">
+<defs><filter id="gl"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g stroke="var(--bone)" stroke-width="1.6" filter="url(#gl)">
+<line x1="150" y1="12" x2="150" y2="330" stroke-dasharray="3 6" stroke-width=".7" opacity=".5"/>
+<rect x="138" y="14" width="24" height="18" rx="4"/><rect x="136" y="36" width="28" height="20" rx="4"/>
+<path d="M150 60 l-16 8 -6 26 8 18 14 6 14 -6 8 -18 -6 -26 z" opacity=".9"/>
+<path d="M118 84 C96 96 88 118 92 140 C95 156 106 166 118 170 L128 158 C118 150 112 138 114 124 C116 110 124 98 134 92 Z"/>
+<path d="M182 84 C204 96 212 118 208 140 C205 156 194 166 182 170 L172 158 C182 150 188 138 186 124 C184 110 176 98 166 92 Z"/>
+<circle cx="116" cy="152" r="13"/><circle cx="184" cy="152" r="13"/>
+<path d="M104 164 C96 176 96 190 102 198 L112 192 C108 184 108 174 112 168 Z" opacity=".8"/>
+<path d="M196 164 C204 176 204 190 198 198 L188 192 C192 184 192 174 188 168 Z" opacity=".8"/>
+<ellipse cx="131" cy="182" rx="9" ry="12" opacity=".65"/><ellipse cx="169" cy="182" rx="9" ry="12" opacity=".65"/>
+<path d="M110 165 L104 310"/><path d="M122 168 L120 310"/><path d="M190 165 L196 310"/><path d="M178 168 L180 310"/>
+<ellipse cx="112" cy="316" rx="11" ry="8"/><ellipse cx="188" cy="316" rx="11" ry="8"/>
+<ellipse cx="112" cy="252" rx="6" ry="9" stroke-width="2.2"/><ellipse cx="188" cy="252" rx="6" ry="9" stroke-width="2.2"/>
+</g>
+<g font-family="var(--mono)" font-size="8.5" fill="var(--ink-dim)">
+<text x="8" y="46">L6–L7</text><line x1="34" y1="43" x2="134" y2="43" stroke="var(--ink-faint)" stroke-width=".5" stroke-dasharray="2 3"/>
+<text x="222" y="80">ristiluu</text><line x1="219" y1="77" x2="176" y2="77" stroke="var(--ink-faint)" stroke-width=".5" stroke-dasharray="2 3"/>
+<text x="216" y="152">lonkkanivel</text><line x1="213" y1="149" x2="197" y2="151" stroke="var(--ink-faint)" stroke-width=".5"/>
+<text x="8" y="255">polvilumpio</text><text x="8" y="266">keskellä</text><line x1="62" y1="252" x2="105" y2="252" stroke="var(--ink-faint)" stroke-width=".5" stroke-dasharray="2 3"/>
+<text x="206" y="290">reisiluut</text><text x="206" y="301">yhdensuunt.</text>
+</g></svg>`;
+const SVG_ELBOW=`<svg viewBox="0 0 300 340" fill="none" aria-hidden="true">
+<g stroke="var(--bone)" stroke-width="1.6" filter="url(#gl2)">
+<defs><filter id="gl2"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></defs>
+<path d="M60 40 C80 60 110 95 128 128 L142 120 C126 88 98 52 76 30 Z"/>
+<path d="M128 128 C120 142 122 158 134 166 C148 175 166 170 174 156 C180 145 178 132 168 124 C156 114 138 116 128 128 Z" stroke-width="2"/>
+<circle cx="151" cy="145" r="16" opacity=".85"/><circle cx="151" cy="145" r="10" opacity=".5"/>
+<path d="M168 124 C178 108 190 104 198 110 L192 126 C186 122 178 126 174 134 Z" stroke-width="1.8"/>
+<path d="M174 156 C200 180 232 220 252 258 L238 266 C220 232 192 196 166 172 Z"/>
+<path d="M160 170 C188 198 216 236 234 272 L224 278 C206 244 180 208 154 182 Z" opacity=".7"/>
+<path d="M150 128 A40 40 0 0 1 172 118" stroke="var(--accent)" stroke-width="1" stroke-dasharray="3 3"/>
+</g>
+<g font-family="var(--mono)" font-size="8.5" fill="var(--ink-dim)">
+<text x="36" y="26">olkaluu</text>
+<text x="206" y="98">processus</text><text x="206" y="109">anconaeus</text><line x1="204" y1="102" x2="192" y2="112" stroke="var(--ink-faint)" stroke-width=".5"/>
+<text x="52" y="160">condylukset</text><text x="52" y="171">päällekkäin</text><line x1="112" y1="160" x2="136" y2="150" stroke="var(--ink-faint)" stroke-width=".5" stroke-dasharray="2 3"/>
+<text x="196" y="140" fill="var(--accent)">~45°</text>
+<text x="150" y="300">värttinä- ja kyynärluu</text>
+</g></svg>`;
+const SVG_SPINE=`<svg viewBox="0 0 300 340" fill="none" aria-hidden="true">
+<g stroke="var(--bone)" stroke-width="1.5" filter="url(#gl3)">
+<defs><filter id="gl3"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></defs>
+<g opacity=".95">
+<rect x="18" y="120" width="24" height="26" rx="5"/><rect x="46" y="118" width="24" height="28" rx="5"/>
+<rect x="74" y="116" width="24" height="30" rx="5"/><rect x="102" y="114" width="25" height="32" rx="5"/>
+<rect x="131" y="113" width="26" height="33" rx="5"/><rect x="161" y="113" width="26" height="33" rx="5"/>
+<rect x="191" y="115" width="25" height="31" rx="5"/>
+<path d="M220 118 L252 126 L258 146 L222 146 Z"/>
+<path d="M252 130 C268 140 276 160 274 180 L262 176 C262 162 258 148 248 140 Z" opacity=".8"/>
+<line x1="30" y1="120" x2="24" y2="98"/><line x1="58" y1="118" x2="54" y2="94"/><line x1="86" y1="116" x2="84" y2="90"/>
+<line x1="114" y1="114" x2="114" y2="88"/><line x1="144" y1="113" x2="145" y2="86"/><line x1="174" y1="113" x2="176" y2="88"/><line x1="203" y1="115" x2="206" y2="92"/>
+</g>
+<g opacity=".55">
+<ellipse cx="44" cy="133" rx="2.5" ry="8"/><ellipse cx="72" cy="131" rx="2.5" ry="8"/><ellipse cx="100" cy="130" rx="2.5" ry="9"/>
+<ellipse cx="129" cy="129" rx="2.5" ry="9"/><ellipse cx="159" cy="129" rx="2.5" ry="9"/><ellipse cx="189" cy="130" rx="2.5" ry="9"/><ellipse cx="218" cy="131" rx="2.5" ry="9"/>
+</g>
+<g transform="translate(60,215)">
+<rect x="0" y="0" width="180" height="86" rx="8" stroke="var(--line2)" stroke-width="1" fill="rgba(255,255,255,.02)"/>
+<rect x="66" y="12" width="20" height="16" rx="3"/><rect x="64" y="32" width="24" height="18" rx="3"/>
+<path d="M76 54 l-12 5 -4 16 6 8 10 3 10 -3 6 -8 -4 -16 z" opacity=".85"/>
+<path d="M56 60 C46 66 42 76 44 84" opacity=".7"/><path d="M96 60 C106 66 110 76 108 84" opacity=".7"/>
+</g>
+</g>
+<g font-family="var(--mono)" font-size="8.5" fill="var(--ink-dim)">
+<text x="18" y="76">Th13</text><text x="100" y="72">lanneranka L1–L7</text><text x="222" y="108">ristiluu</text>
+<text x="16" y="170">sivukuvat: rinta- ja lanneranka + ristiluu</text>
+<text x="150" y="208">+ VD-kuva lanne-ristiluualueesta</text><line x1="146" y1="205" x2="130" y2="222" stroke="var(--ink-faint)" stroke-width=".5"/>
+</g></svg>`;
+const SVG_SHOULDER=`<svg viewBox="0 0 300 340" fill="none" aria-hidden="true">
+<g stroke="var(--bone)" stroke-width="1.6" filter="url(#gl4)">
+<defs><filter id="gl4"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></defs>
+<path d="M96 30 C70 60 58 100 64 136 L82 132 C78 102 88 68 108 44 Z"/>
+<path d="M64 136 C62 152 70 166 84 170 L92 156 C84 152 80 144 82 136 Z" stroke-width="2"/>
+<circle cx="104" cy="158" r="22"/><circle cx="104" cy="158" r="13" opacity=".5" stroke-dasharray="3 3" stroke="var(--accent)"/>
+<path d="M112 178 C130 214 150 262 160 304 L144 310 C136 268 118 222 100 188 Z"/>
+</g>
+<g font-family="var(--mono)" font-size="8.5" fill="var(--ink-dim)">
+<text x="150" y="60">lapaluu</text>
+<text x="150" y="150">olkaluun pää —</text><text x="150" y="161">OC-muutokset</text><text x="150" y="172">kaudaalipinnassa</text>
+<line x1="147" y1="158" x2="122" y2="162" stroke="var(--ink-faint)" stroke-width=".5"/>
+<text x="184" y="300">olkaluu</text>
+</g></svg>`;
+
+const STUDIES={
+hip:{code:"HD",title:"Lonkkakuvaus",cap:"VD-kuva · suora veto · selällään",svg:SVG_HIP,
+ scale:{name:"FCI:n arvosteluasteikko (lonkat)",rows:[["A","Ei muutoksia"],["B","Lähes normaali / rajatapaus"],["C","Lievä dysplasia"],["D","Kohtalainen (keskivaikea) dysplasia"],["E","Vaikea dysplasia"]]},
+ redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
+ pos:["Koira <b>selällään</b> selkätuen/vaahtomuovikourun varassa, rauhoitettuna","<b>Reisiluut vedetään suoriksi</b> röntgenpöydän suuntaisesti ja keskenään yhdensuuntaisiksi","<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät","Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan","Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta"]},
+elbow:{code:"ED",title:"Kyynärnivelkuvaus",cap:"ML-kuva · ~45° koukistus · molemmat nivelet",svg:SVG_ELBOW,
+ scale:{name:"IEWG:n arvosteluasteikko (kyynärnivelet)",rows:[["0","Ei muutoksia"],["1","Lievät nivelrikkomuutokset (≤ 2 mm)"],["2","Kohtalaiset muutokset (≤ 5 mm) ja/tai muutoksia varislisäkkeessä, lievä epämuotoisuus"],["3","Voimakkaat muutokset / kiinnittymätön processus anconaeus"]]},
+ redo:"Uusintakuvaus aikaisintaan 6 kk kuluttua",
+ pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>","Olkaluun mediaalisen ja lateraalisen nivelnastan (condylus) oltava <b>päällekkäin</b>","<b>Processus anconaeuksen</b> ja kyynärluun nivelpinnan näyttävä lähes kraniaalikärkeen asti","Kuvataan suoraan kasetille <b>ilman hilaa</b> ja rajataan tiiviisti — yli-/alivalotus estää arvostelun"]},
+spine:{code:"SELKÄ",title:"Selkäkuvaus",cap:"Sivukuvat + VD lanne-ristiluu",svg:SVG_SPINE,
+ scale:null,
+ redo:"LTV-, VA- ja IDD-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)",
+ pos:["<b>Sivukuvat</b> rinta- ja lannerangasta sekä ristiluusta, rauhoituksessa","Lisäksi <b>selällään otettu VD-kuva lanne-ristiluualueesta</b> (LTV-arvostelu)","Lista 1:n rodut (kondrodystrofiset, mm. mäyräkoirat, ranskanbulldoggi, corgit): myös <b>kaularanka</b> kuvataan (IDD)","Korkkiruuvihäntäiset rodut (Lista 2): lisäksi VD-kuvat rinta- ja lannerangasta","Nikamat numeroitava luotettavasti — Th1–Th13, L1–L7 ja ristiluu kokonaan kuviin"]},
+oc:{code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat olkanivelet",svg:SVG_SHOULDER,
+ scale:{name:"OC-lausunto",rows:[["Ei todettu","Ei osteokondroosimuutoksia"],["Tulkinnanvarainen","Rajatapaus (yleinen jalostuksen raja-arvo)"],["Todettu","Osteokondroosimuutos olkaluun päässä"]]},
+ redo:"",
+ pos:["<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa","Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä","OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>"]}
+};
+const SPINE_SCALES=[
+ {name:"LTV — välimuotoinen lanne-ristinikama (alaikäraja 12 kk)",rows:[["LTV0","Ei muutoksia"],["LTV1","Jakautunut ristiluun keskiharjanne (S1–S2) tai muu lievä poikkeama"],["LTV2","Symmetrinen välimuotoinen lanne-ristinikama"],["LTV3","Epäsymmetrinen lanne-ristinikama"],["LTV4","6 tai 8 lannenikamaa"]]},
+ {name:"VA — nikamien epämuotoisuus (alaikäraja 12 kk)",rows:[["VA0","Ei muutoksia"],["VA1","1–2 epämuodostunutta nikamaa"],["VA2","3–4 epämuodostunutta nikamaa"],["VA3","5–9 epämuodostunutta nikamaa"],["VA4","≥ 10 epämuodostunutta nikamaa"]]},
+ {name:"SP — spondyloosi (alaikäraja 24 kk)",rows:[["SP0","Ei muutoksia"],["SP1","Lievä: pieniä piikkejä enintään 4 nikamavälissä"],["SP2","Selkeä: silloittuma tai suuria saarekkeita enintään 2 nikamavälissä"],["SP3","Keskivaikea: silloittumia/suuria saarekkeita 3–7 nikamavälissä"],["SP4","Vaikea: edellisiä vakavammat muutokset"]]},
+ {name:"IDD — kalkkeutuneet välilevyt (alaikäraja 24 kk, vain Lista 1:n rodut)",rows:[["IDD0","Ei muutoksia"],["IDD1","1–2 kalkkeutunutta välilevyä"],["IDD2","3–4 kalkkeutunutta välilevyä"],["IDD3","≥ 5 kalkkeutunutta välilevyä"]]}
+];
+
+/* ══════════ helpers ══════════ */
+const $=s=>document.querySelector(s);
+const fmt=d=>d.toLocaleDateString("fi-FI",{day:"numeric",month:"numeric",year:"numeric"});
+function addMonths(date,m){const d=new Date(date);const day=d.getDate();d.setMonth(d.getMonth()+m);if(d.getDate()<day)d.setDate(0);return d}
+function ageStr(dob){const now=new Date();let m=(now.getFullYear()-dob.getFullYear())*12+(now.getMonth()-dob.getMonth());if(now.getDate()<dob.getDate())m--;const y=Math.floor(m/12);return (y?y+" v ":"")+(m%12)+" kk"}
+function statusFor(dob,minAge){
+  if(!dob)return {cls:"na",txt:"alaikäraja "+minAge+" kk"};
+  const ready=addMonths(dob,minAge),now=new Date();
+  return now>=ready?{cls:"ok",txt:"✓ Voidaan kuvata nyt"}:{cls:"wait",txt:"Aikaisintaan "+fmt(ready)};
+}
+function scaleHTML(sc){if(!sc)return"";return `<details class="scale"><summary>${sc.name}</summary><div class="sc"><table>${sc.rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join("")}</table></div></details>`}
+
+function filmHTML(st,minAge,limit,dob,extraNote,spineTypes){
+  const s=statusFor(dob,minAge);
+  const kvs=[
+    `<div class="kv"><div class="k">Alaikäraja</div><div class="v mono">${minAge} kk${dob?" · täyttyy "+fmt(addMonths(dob,minAge)):""}</div></div>`,
+    limit?`<div class="kv"><div class="k">Jalostuksen raja-arvo</div><div class="v mono">${limit}</div></div>`:"",
+    st.redo?`<div class="kv"><div class="k">Voimassaolo</div><div class="v" style="font-size:.86rem">${st.redo}</div></div>`:""
+  ].join("");
+  let scales=spineTypes?SPINE_SCALES.filter(x=>spineTypes.some(t=>x.name.startsWith(t))).map(scaleHTML).join(""):scaleHTML(st.scale);
+  return `<article class="film">
+    <div class="tab"><span class="code">${st.code}${spineTypes?" · "+spineTypes.join(" + "):""}</span><h3>${st.title}</h3><span class="status ${s.cls}">${s.txt}</span></div>
+    <div class="body">
+      <div class="viewport">${st.svg}<div class="cap">${st.cap}</div></div>
+      <div class="info">
+        <div class="grid2">${kvs}</div>
+        ${extraNote?`<p style="color:var(--accent);font-size:.9rem;margin-bottom:6px">⚠ ${extraNote}</p>`:""}
+        <h4>Kuvausasento &amp; laatuvaatimukset</h4>
+        <ul>${st.pos.map(p=>`<li>${p}</li>`).join("")}</ul>
+        ${scales}
+      </div>
+    </div></article>`;
+}
+
+/* ══════════ render ══════════ */
+function render(breed,dob){
+  const R=$("#result");R.style.display="block";
+  const dogAge=dob?` · ikä nyt ${ageStr(dob)}`:"";
+  let films=[],chips=[],extras=[];
+  if(breed.h){const a=breed.h[0];chips.push(`<span class="chip req">LONKAT ≥ ${a} kk</span>`);films.push(filmHTML(STUDIES.hip,a,breed.h[1]?`Hyväksytty tulos: ${breed.h[1]} tai parempi`:null,dob))}
+  if(breed.e){const a=breed.e[0];chips.push(`<span class="chip req">KYYNÄRPÄÄT ≥ ${a} kk</span>`);films.push(filmHTML(STUDIES.elbow,a,breed.e[1]!=null?`Hyväksytty tulos: ${breed.e[1]} tai parempi`:null,dob))}
+  if(breed.s){const types=breed.s.t;const needSP=types.includes("SP")||types.includes("IDD");const a=breed.s.a||(needSP?24:12);
+    chips.push(`<span class="chip req">SELKÄ (${types.join("+")}) ≥ ${a} kk</span>`);
+    films.push(filmHTML(STUDIES.spine,a,null,dob,breed.s.o||null,types))}
+  if(breed.oc){chips.push(`<span class="chip req">OLKANIVELET ≥ 12 kk</span>`);films.push(filmHTML(STUDIES.oc,12,null,dob))}
+  if(breed.k){extras.push(`<li><b>Polvilumpioluksaatiotutkimus</b> — eläinlääkärin käsin tekemä tutkimus (ei röntgen), alaikäraja 12 kk; alle 3-vuotiaan tulos voimassa 2 vuotta${breed.k!==1?`, raja-arvo ${breed.k}`:""}</li>`)}
+  (breed.x||[]).forEach(x=>extras.push(`<li>${x}</li>`));
+
+  const hasXray=films.length>0;
+  let banner="";
+  if(breed.other){banner=`<div class="banner info">Rodulla ei ole PEVISA-ohjelmaa, joten pentujen rekisteröinti ei edellytä kuvauksia. <b>Vapaaehtoiset viralliset lausunnot</b> ovat silti mahdollisia ja suositeltavia jalostuskoirille — samat ikärajat: lonkat ja kyynärpäät 12 kk, selkä LTV/VA 12 kk ja SP/IDD 24 kk. Tarkista myös rotujärjestösi jalostussuositukset (JTO).</div>`}
+  else if(breed.np===1){banner=`<div class="banner none"><b>${breed.n}</b> — ei PEVISA-ohjelmaa 2026. Rekisteröinti ei edellytä terveystutkimuksia, mutta vapaaehtoiset viralliset kuvaukset (lonkat, kyynärpäät, selkä) ovat suositeltavia jalostuskoirille. Tarkista rotujärjestön jalostussuositukset.</div>`}
+  else if(!hasXray){banner=`<div class="banner info">Rodun PEVISA-ohjelma ei vaadi röntgenkuvauksia — alla luetellut muut tutkimukset vaaditaan ennen astutusta.</div>`}
+  if(breed.note)banner+=`<div class="banner info">ℹ ${breed.note}</div>`;
+
+  R.innerHTML=`
+   <div class="rhead">
+     <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${dob?` · syntynyt ${fmt(dob)}${dogAge}`:""}</div></div>
+     <div class="actions"><button class="btn ghost" onclick="window.print()">🖨 Tulosta muistilista</button></div>
+   </div>
+   <div class="summary">${chips.join("")||'<span class="chip">Ei pakollisia röntgenkuvauksia</span>'}</div>
+   ${banner}
+   <div class="films">${films.join("")}</div>
+   ${extras.length?`<div class="extras"><h3>Muut vaatimukset ennen astutusta (ei röntgentutkimuksia)</h3><ul>${extras.join("")}</ul></div>`:""}
+   ${hasXray?checklistHTML(breed,dob):""}`;
+  R.scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function checklistHTML(breed,dob){
+  return `<div class="checklist">
+   <h3>Muistilista kuvauskäynnille</h3>
+   <div class="sub">ELÄINKLINIKKA SAARI · TULOSTA JA OTA MUKAAN · ${breed.n.toUpperCase()}</div>
+   <ol>
+    <li><b>Tilaa ja maksa lausunto etukäteen</b> Kennelliiton Omakoira-palvelussa — kuvauspaikalle tarvitaan voimassa oleva röntgenlähete</li>
+    <li><b>Tarkista ikärajat</b> — koiran on oltava täyttänyt alaikäraja kuvauspäivänä (katso kortit yllä)</li>
+    <li><b>Mikrosiru</b> — tunnistusmerkintä tarkistetaan aina kuvauksen yhteydessä; ota rekisteritodistus tai rekisterinumero mukaan</li>
+    <li><b>Ruokapaasto rauhoitusta varten</b> — ei ruokaa kuvauspäivän aamuna (vesi sallittu); noudata klinikan ohjetta</li>
+    <li><b>Rauhoitus on pakollinen</b> virallisissa kuvauksissa — varaa koko aamupäivä ja rauhallinen kotiinkuljetus, koira toipuu loppupäivän</li>
+    <li><b>Kerro aiemmista leikkauksista ja tapaturmista</b> — lausuntoon vaikuttava leikkaus on ilmoitettava ja sairaskertomus liitetään lähetteeseen</li>
+    <li><b>Nartuilla</b> vältä kuvausta juoksun tai imetyksen aikana — hormonaalinen nivelten löysyys voi heikentää tulosta</li>
+    <li><b>Kuvat lähtevät suoraan Kennelliittoon</b> DICOM-muodossa — lausunto valmistuu tyypillisesti noin viikossa ja tallentuu KoiraNettiin</li>
+   </ol>
+   <div class="limits"><b>Yleiset jalostuskäytön raja-arvot</b> (ellei rodun PEVISA tiukempi): lonkat D · kyynärpäät 2 · kyynärnivelen inkongruenssi 2 · polvilumpioluksaatio 3 · spondyloosi SP3. Tutkimusten oltava voimassa astutushetkellä.</div>
+  </div>`;
+}
+
+/* ══════════ autocomplete + wiring ══════════ */
+const input=$("#breed"),sug=$("#suggest"),dobEl=$("#dob");let selected=null,activeIdx=-1;
+function openSug(list){
+  sug.innerHTML=list.slice(0,14).map((b,i)=>`<button type="button" data-i="${BREEDS.indexOf(b)}">${b.n}${b.np===1?' <span class="np">ei PEVISA-ohjelmaa</span>':""}</button>`).join("");
+  sug.classList.toggle("open",list.length>0);activeIdx=-1;
+}
+input.addEventListener("input",()=>{selected=null;const q=input.value.trim().toLowerCase();
+  if(q.length<1){sug.classList.remove("open");return}
+  openSug(BREEDS.filter(b=>b.n.toLowerCase().includes(q)));
+});
+input.addEventListener("keydown",e=>{
+  const btns=[...sug.querySelectorAll("button")];
+  if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();if(!btns.length)return;
+    activeIdx=(activeIdx+(e.key==="ArrowDown"?1:-1)+btns.length)%btns.length;
+    btns.forEach((b,i)=>b.classList.toggle("active",i===activeIdx));btns[activeIdx].scrollIntoView({block:"nearest"})}
+  else if(e.key==="Enter"){e.preventDefault();
+    if(activeIdx>=0&&btns[activeIdx])pick(+btns[activeIdx].dataset.i);
+    else if(btns.length)pick(+btns[0].dataset.i);
+    else go()}
+  else if(e.key==="Escape")sug.classList.remove("open");
+});
+sug.addEventListener("mousedown",e=>{const b=e.target.closest("button");if(b)pick(+b.dataset.i)});
+document.addEventListener("click",e=>{if(!e.target.closest(".breedbox"))sug.classList.remove("open")});
+function pick(i){selected=BREEDS[i];input.value=selected.n;sug.classList.remove("open");go()}
+function go(){
+  if(!selected){const q=input.value.trim().toLowerCase();
+    selected=BREEDS.find(b=>b.n.toLowerCase()===q)||BREEDS.find(b=>b.n.toLowerCase().includes(q))||null;
+    if(!selected){input.focus();return}}
+  input.value=selected.n;
+  const dob=dobEl.value?new Date(dobEl.value+"T12:00:00"):null;
+  render(selected,dob);
+  const p=new URLSearchParams();p.set("rotu",selected.n);if(dobEl.value)p.set("syntynyt",dobEl.value);
+  history.replaceState(null,"","?"+p.toString());
+}
+$("#go").addEventListener("click",go);
+dobEl.addEventListener("change",()=>{if(selected)go()});
+/* deep-link */
+(function(){const p=new URLSearchParams(location.search);const r=p.get("rotu");
+  if(r){const b=BREEDS.find(x=>x.n.toLowerCase()===r.toLowerCase());
+    if(b){selected=b;input.value=b.n;if(p.get("syntynyt"))dobEl.value=p.get("syntynyt");go()}}})();
+</script>
+</body>
+</html>
