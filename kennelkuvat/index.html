@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Viralliset kennelliittokuvaukset — rotu &amp; ikä -työkalu | Eläinklinikka Saari</title>
-<meta name="description" content="Valitse rotu ja koiran syntymäaika — näet heti mitkä viralliset röntgenkuvaukset (lonkat, kyynärpäät, selkä) Kennelliiton PEVISA-ohjelma vaatii, ikärajat, kuvausasennot ja tulostettavan muistilistan.">
+<meta name="description" content="Klinikan sisäinen kuvausopas eläinlääkärille: rotu + ikä → vaadittavat viralliset röntgenkuvaukset, ikärajat, kuvausasennot, pakolliset merkinnät ja hylkäyssyyt. FI/EN.">
+<meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://saarivet.fi/kennelkuvat/">
 <link rel="icon" href="/favicon.ico">
 <meta property="og:title" content="Viralliset kennelliittokuvaukset — rotu & ikä -työkalu">
@@ -36,7 +37,12 @@ header.site{padding:26px 0 0}
 .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:.85rem}
 .topbar a{color:var(--ink-dim);text-decoration:none;letter-spacing:.04em}
 .topbar a:hover{color:var(--glow)}
+.topbar .right{display:flex;align-items:center;gap:16px}
 .topbar .clinic{font-family:var(--mono);font-size:.78rem;color:var(--ink-faint)}
+.langtoggle{display:inline-flex;border:1px solid var(--line2);border-radius:999px;overflow:hidden;font-family:var(--mono);font-size:.72rem}
+.langtoggle button{background:none;border:0;color:var(--ink-faint);padding:5px 11px;cursor:pointer;letter-spacing:.1em;font:inherit;transition:background .15s,color .15s}
+.langtoggle button.on{background:var(--glow);color:#04222e}
+.langtoggle button:not(.on):hover{color:var(--glow)}
 .hero{padding:44px 0 8px;position:relative}
 .hero .kicker{font-family:var(--mono);color:var(--glow-dim);font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px}
 .hero h1{font-family:var(--disp);font-weight:700;font-size:clamp(2rem,5.4vw,3.4rem);line-height:1.04;letter-spacing:-.01em;max-width:16em}
@@ -111,10 +117,16 @@ input[type=date]{color-scheme:dark}
 .kv .v{font-size:.98rem;margin-top:2px}
 .kv .v.mono{font-family:var(--mono);font-size:.9rem}
 .film h4{font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--glow-dim);margin:16px 0 8px}
+.film h4.warn{color:var(--warn)}
+.film h4.marks{color:var(--accent)}
 .film ul{list-style:none}
 .film ul li{padding:4px 0 4px 22px;position:relative;color:var(--ink-dim);font-size:.94rem}
 .film ul li::before{content:"";position:absolute;left:2px;top:.85em;width:10px;height:1px;background:var(--glow-dim)}
 .film ul li b{color:var(--ink)}
+.film ul li i{color:var(--ink-faint);font-style:italic}
+.film ul.marks li::before{content:"✓";background:none;width:auto;top:.15em;color:var(--accent);font-family:var(--mono);font-size:.8rem}
+.film ul.reject li::before{content:"✕";background:none;width:auto;top:.15em;color:var(--warn);font-family:var(--mono);font-size:.8rem}
+.mono-inline{font-family:var(--mono);font-size:.86rem}
 details.scale{margin-top:14px;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 details.scale summary{cursor:pointer;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;padding:10px 14px;color:var(--ink-dim);background:rgba(255,255,255,.02)}
 details.scale summary:hover{color:var(--glow)}
@@ -192,7 +204,11 @@ footer.site .disc{margin-top:14px;max-width:60em}
   .kv .k,.film h4{color:#555}
   .kv .v,.film ul li,.film ul li b{color:#111}
   .film ul li::before{background:#555}
+  .film h4.warn,.film h4.marks{color:#555}
+  .film ul.marks li::before{content:"✓";background:none;color:#000}
+  .film ul.reject li::before{content:"✕";background:none;color:#000}
   details.scale{display:none}
+  .langtoggle{display:none}
   .extras,.checklist{background:#fff;border:1pt solid #333;color:#111;break-inside:avoid}
   .extras li,.checklist ol li{color:#222}
   .extras li b,.checklist ol li b{color:#000}
@@ -209,50 +225,48 @@ footer.site .disc{margin-top:14px;max-width:60em}
 <header class="site wrap">
   <div class="topbar">
     <a href="https://saarivet.fi/">&larr; saarivet.fi</a>
-    <span class="clinic">ELÄINKLINIKKA SAARI · VAASA · 06&nbsp;3217&nbsp;300</span>
+    <div class="right">
+      <span class="clinic">ELÄINKLINIKKA SAARI · VAASA</span>
+      <div class="langtoggle" role="group" aria-label="Language">
+        <button type="button" data-lang="fi">FI</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
   </div>
   <div class="hero">
-    <div class="kicker">Kennelliiton viralliset terveyskuvaukset · PEVISA 2026</div>
-    <h1>Mitkä <span class="x">viralliset röntgenkuvat</span> koirasi tarvitsee?</h1>
-    <p class="lead">Valitse rotu ja syötä koiran syntymäaika — saat heti listan <b>PEVISA-ohjelman vaatimista virallisista kuvauksista</b> (lonkat, kyynärpäät, selkä), rotukohtaiset ikärajat, kuvausasennot ja tulostettavan muistilistan kuvauskäyntiä varten.</p>
+    <div class="kicker" id="t-kicker"></div>
+    <h1 id="t-h1"></h1>
+    <p class="lead" id="t-lead"></p>
   </div>
 </header>
 
 <main class="wrap">
-  <section class="console" aria-label="Hakutyökalu">
+  <section class="console" aria-label="Search">
     <div class="field breedbox">
-      <label for="breed">Rotu</label>
-      <input id="breed" type="text" placeholder="Ala kirjoittaa… esim. labradorinnoutaja" autocomplete="off" spellcheck="false">
+      <label for="breed" id="t-rotu"></label>
+      <input id="breed" type="text" autocomplete="off" spellcheck="false">
       <div class="suggest" id="suggest" role="listbox"></div>
     </div>
     <div class="field">
-      <label for="dob">Koiran syntymäaika <span style="text-transform:none;letter-spacing:0">(valinnainen)</span></label>
+      <label for="dob"><span id="t-dob"></span> <span id="t-dobopt" style="text-transform:none;letter-spacing:0"></span></label>
       <input id="dob" type="date">
     </div>
-    <button class="btn primary" id="go">Näytä kuvaukset</button>
+    <button class="btn primary" id="go"></button>
   </section>
-  <p class="hint">Tietolähde: Kennelliiton PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026 sekä viralliset kuvausohjeet. Jos rotua ei löydy listalta, sillä ei todennäköisesti ole PEVISA-ohjelmaa — valitse silloin ”Muu rotu”.</p>
+  <p class="hint" id="t-hint"></p>
 
   <section id="result" aria-live="polite"></section>
-
-  <section class="book" id="book">
-    <div>
-      <h3>Varaa aika virallisiin kuvauksiin Vaasassa</h3>
-      <p>Eläinklinikka Saari ottaa kaikki Kennelliiton viralliset lonkka-, kyynär- ja selkäkuvaukset digitaalisesti ja lähettää kuvat suoraan Kennelliittoon DICOM-muodossa. Kuvaus tehdään rauhoituksessa — varaa koko aamupäivä.</p>
-    </div>
-    <a class="tel" href="tel:+35863217300">06&nbsp;3217&nbsp;300</a>
-  </section>
 </main>
 
 <footer class="site wrap">
   <div class="src">
-    Lähteet:
-    <a href="https://www.kennelliitto.fi/pevisa-ja-rotukohtaiset-erityisehdot" rel="noopener">PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026</a> ·
-    <a href="https://www.kennelliitto.fi/lomakkeet/lonkkanivelen-kasvuhairioohje-0" rel="noopener">Lonkkanivelen kasvuhäiriöohje (voimassa 21.11.2025 alkaen)</a> ·
+    <span id="t-src"></span>
+    <a href="https://www.kennelliitto.fi/pevisa-ja-rotukohtaiset-erityisehdot" rel="noopener">PEVISA 2026</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/lonkkanivelen-kasvuhairioohje-0" rel="noopener">Lonkkanivelen kasvuhäiriöohje</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/kyynarnivelen-kasvuhairioiden-ohje" rel="noopener">Kyynärnivelen kasvuhäiriöiden ohje</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/selan-muutosten-rontgenkuvaus-ja-luokitusohje" rel="noopener">Selkäohje</a>
   </div>
-  <p class="disc">Röntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. Tämä työkalu on Eläinklinikka Saaren kokoama apuväline (tiedot koottu 8.7.2026). PEVISA-ehdot muuttuvat vuosittain ja rotukohtaisia siirtymäsäännöksiä voi olla — varmista aina ajantasaiset vaatimukset Kennelliitosta ja rotujärjestöstäsi ennen astutusta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä. Silmä-, sydän-, polvi- ja luonnevaatimukset eivät ole röntgentutkimuksia; ne näytetään muistutuksena.</p>
+  <p class="disc" id="t-disc"></p>
 </footer>
 
 <script>
@@ -432,27 +446,229 @@ const BREEDS=[
 {n:"Muu rotu (ei PEVISA-ohjelmaa)",np:1,other:1}
 ];
 
+/* ══════════ i18n ══════════ */
+let lang = (localStorage.getItem("kk_lang")||"fi");
+/* TR: Finnish source string → English. FI mode returns the source unchanged. */
+const TR={
+// ── study titles / caps ──
+"Lonkkakuvaus":"Hip radiograph","VD-kuva · suora veto · selällään":"VD view · hip-extended · dorsal recumbency",
+"Kyynärnivelkuvaus":"Elbow radiograph","ML-kuva · ~45° koukistus · molemmat nivelet":"ML view · ~45° flexion · both joints",
+"Selkäkuvaus":"Spine radiograph","Sivukuva rinta- ja lannerangasta":"Lateral view, thoracic & lumbar spine",
+"Olkanivelkuvaus (osteokondroosi)":"Shoulder radiograph (osteochondrosis)","ML-kuva · molemmat olkanivelet":"ML view · both shoulders",
+"SELKÄ":"SPINE",
+// ── redo / validity ──
+"Uusintakuvaus aikaisintaan 12 kk kuluttua":"Re-imaging no sooner than 12 mo later",
+"Uusintakuvaus aikaisintaan 6 kk kuluttua":"Re-imaging no sooner than 6 mo later",
+"LTV-, VA- ja IDD-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)":"LTV, VA and IDD statements are issued only once · SP can be repeated (re-image no sooner than 6 mo)",
+// ── hip positioning ──
+"Koira <b>selällään</b> selkätuen/vaahtomuovikourun varassa, rauhoitettuna":"Dog in <b>dorsal recumbency</b> on a back support / foam trough, sedated",
+"<b>Reisiluut vedetään suoriksi</b> röntgenpöydän suuntaisesti ja keskenään yhdensuuntaisiksi":"<b>Femurs extended straight</b>, parallel to the table and to each other",
+"<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät":"<b>Patellae centred</b> over the femurs — patellae must be visible on the image",
+"Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan":"Central beam at hip-joint level; include the <b>whole sacrum</b> and 1–2 lumbar vertebrae",
+"Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta":"Pelvis must be symmetric — a mispositioned image is left ungraded",
+// ── elbow positioning ──
+"<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa":"<b>Both elbows</b> imaged in the same session, under sedation",
+"Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>":"Lateral view of the joint in <b>~45° flexion</b>",
+"Olkaluun mediaalisen ja lateraalisen nivelnastan (condylus) oltava <b>päällekkäin</b>":"The medial and lateral humeral condyles must be <b>superimposed</b>",
+"<b>Processus anconaeuksen</b> ja kyynärluun nivelpinnan näyttävä lähes kraniaalikärkeen asti":"The <b>anconeal process</b> and ulnar articular surface must show almost to the cranial tip",
+"Kuvataan suoraan kasetille <b>ilman hilaa</b> ja rajataan tiiviisti — yli-/alivalotus estää arvostelun":"Image directly on the cassette <b>without a grid</b>, tightly collimated — over/under-exposure prevents grading",
+// ── spine positioning ──
+"<b>Sivukuvat</b> rinta- ja lannerangasta sekä ristiluusta, rauhoituksessa":"<b>Lateral views</b> of thoracic and lumbar spine plus sacrum, under sedation",
+"Lisäksi <b>selällään otettu VD-kuva lanne-ristiluualueesta</b> (LTV-arvostelu)":"Plus a <b>VD view of the lumbosacral area in dorsal recumbency</b> (for LTV grading)",
+"Lista 1:n rodut (kondrodystrofiset, mm. mäyräkoirat, ranskanbulldoggi, corgit): myös <b>kaularanka</b> kuvataan (IDD)":"List 1 breeds (chondrodystrophic — e.g. dachshunds, French bulldog, corgis): image the <b>cervical spine</b> too (IDD)",
+"Korkkiruuvihäntäiset rodut (Lista 2): lisäksi VD-kuvat rinta- ja lannerangasta":"Screw-tailed breeds (List 2): additionally VD views of thoracic & lumbar spine",
+"Nikamat numeroitava luotettavasti — Th1–Th13, L1–L7 ja ristiluu kokonaan kuviin":"Vertebrae must be reliably countable — include Th1–Th13, L1–L7 and the whole sacrum",
+// ── shoulder positioning ──
+"<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa":"<b>Both shoulders</b> imaged laterally, under sedation",
+"Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä":"The limb is drawn forward so the shoulder is projected clear of the ribcage",
+"OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>":"OC lesions typically appear on the <b>caudal surface of the humeral head</b>",
+// ── mandatory marks ──
+"Päivämäärä":"Date","Koiran rekisterinumero (tai TM-numero)":"Dog's registration number (or microchip no.)",
+"Puolimerkki (sin/dex tai L/R)":"Side marker (sin/dex or L/R)","<i>Selässä puolimerkkiä ei vaadita — VD-kuva</i>":"<i>No side marker required for spine — VD view</i>",
+// ── reject reasons ──
+"Epäsymmetrinen lantio tai kierto — reisiluut eri asennossa":"Asymmetric pelvis or rotation — femurs in different positions",
+"Reisiluut eivät yhdensuuntaiset / eivät suorassa vedossa":"Femurs not parallel / not in straight extension",
+"Polvilumpiot pois reisiluun keskeltä (rotaatio)":"Patellae off the femoral midline (rotation)",
+"Ristiluu tai lonkkanivelet eivät kokonaan kuvassa":"Sacrum or hip joints not fully in the image",
+"Yli- tai alivalotus / rakeisuus estää arvostelun":"Over/under-exposure or graininess prevents grading",
+"Ylikoukistus → rotaatio → condylukset eivät päällekkäin":"Over-flexion → rotation → condyles not superimposed",
+"Processus anconaeus ei näy kraniaalikärkeen asti":"Anconeal process not shown to the cranial tip",
+"Hila käytössä (pitää olla no-grid table top)":"Grid used (must be no-grid table-top technique)",
+"Yli-/alivalotus tai rakeisuus estää arvostelun":"Over/under-exposure or graininess prevents grading",
+"Tulkinnanvarainen kuva — voidaan pyytää lisäkuvia eri asennossa":"Ambiguous image — additional views in other positions may be requested",
+"Ranka ei suorassa / kierto sivukuvassa — nikamavälit päällekkäin":"Spine not straight / rotation on the lateral — disc spaces overlap",
+"Nikamia ei voi numeroida luotettavasti":"Vertebrae cannot be reliably counted",
+"Ristiluu tai lanne-ristiluualue ei kokonaan kuvassa":"Sacrum or lumbosacral area not fully in the image",
+"Puutteellinen laatu → jätetään arvostelematta paitsi vaikeat muutokset":"Insufficient quality → left ungraded except for severe changes",
+"Olkanivel ei erotu vapaana — projisoituu rintakehän päälle":"Shoulder not projected clear — overlaps the ribcage",
+"Rotaatio peittää olkaluun pään kaudaalipinnan":"Rotation obscures the caudal surface of the humeral head",
+"Yli-/alivalotus estää arvostelun":"Over/under-exposure prevents grading",
+// ── grading scales ──
+"FCI:n arvosteluasteikko (lonkat)":"FCI grading scale (hips)",
+"IEWG:n arvosteluasteikko (kyynärnivelet)":"IEWG grading scale (elbows)","OC-lausunto":"OC statement",
+"Ei muutoksia":"No changes","Lähes normaali / rajatapaus":"Near normal / borderline","Lievä dysplasia":"Mild dysplasia",
+"Kohtalainen (keskivaikea) dysplasia":"Moderate dysplasia","Vaikea dysplasia":"Severe dysplasia",
+"Lievät nivelrikkomuutokset (≤ 2 mm)":"Mild osteoarthritic changes (≤ 2 mm)",
+"Kohtalaiset muutokset (≤ 5 mm) ja/tai muutoksia varislisäkkeessä, lievä epämuotoisuus":"Moderate changes (≤ 5 mm) and/or coronoid changes, mild deformity",
+"Voimakkaat muutokset / kiinnittymätön processus anconaeus":"Marked changes / ununited anconeal process",
+"Ei osteokondroosimuutoksia":"No osteochondrosis lesions","Rajatapaus (yleinen jalostuksen raja-arvo)":"Borderline (general breeding limit)",
+"Osteokondroosimuutos olkaluun päässä":"Osteochondrosis lesion on the humeral head",
+"LTV — välimuotoinen lanne-ristinikama (alaikäraja 12 kk)":"LTV — lumbosacral transitional vertebra (min age 12 mo)",
+"Jakautunut ristiluun keskiharjanne (S1–S2) tai muu lievä poikkeama":"Split sacral median crest (S1–S2) or other minor deviation",
+"Symmetrinen välimuotoinen lanne-ristinikama":"Symmetric transitional lumbosacral vertebra",
+"Epäsymmetrinen lanne-ristinikama":"Asymmetric lumbosacral vertebra","6 tai 8 lannenikamaa":"6 or 8 lumbar vertebrae",
+"VA — nikamien epämuotoisuus (alaikäraja 12 kk)":"VA — vertebral anomaly (min age 12 mo)",
+"1–2 epämuodostunutta nikamaa":"1–2 malformed vertebrae","3–4 epämuodostunutta nikamaa":"3–4 malformed vertebrae",
+"5–9 epämuodostunutta nikamaa":"5–9 malformed vertebrae","≥ 10 epämuodostunutta nikamaa":"≥ 10 malformed vertebrae",
+"SP — spondyloosi (alaikäraja 24 kk)":"SP — spondylosis (min age 24 mo)",
+"Lievä: pieniä piikkejä enintään 4 nikamavälissä":"Mild: small spurs in at most 4 intervertebral spaces",
+"Selkeä: silloittuma tai suuria saarekkeita enintään 2 nikamavälissä":"Clear: bridging or large islands in at most 2 spaces",
+"Keskivaikea: silloittumia/suuria saarekkeita 3–7 nikamavälissä":"Moderate: bridging/large islands in 3–7 spaces",
+"Vaikea: edellisiä vakavammat muutokset":"Severe: changes more advanced than the above",
+"IDD — kalkkeutuneet välilevyt (alaikäraja 24 kk, vain Lista 1:n rodut)":"IDD — calcified discs (min age 24 mo, List 1 breeds only)",
+"1–2 kalkkeutunutta välilevyä":"1–2 calcified discs","3–4 kalkkeutunutta välilevyä":"3–4 calcified discs","≥ 5 kalkkeutunutta välilevyä":"≥ 5 calcified discs",
+// ── breed reminders (x) ──
+"BOAS-testi (raja-arvo 2)":"BOAS test (limit grade 2)","CMR1- ja MFE-geenitestit":"CMR1 and MFE gene tests",
+"COMMD-1-geenitesti (kuparitoksikoosi)":"COMMD-1 gene test (copper toxicosis)","DSRA-geenitesti (väh. toisella vanhemmista)":"DSRA gene test (at least one parent)",
+"DVL2-geenitesti":"DVL2 gene test","HSF4-geenitesti (juveniili kaihi)":"HSF4 gene test (juvenile cataract)",
+"Hyväksytty BOAS-testi":"Passed BOAS test","Hyväksytty BOAS-testi (alaikäraja 18 kk)":"Passed BOAS test (min age 18 mo)",
+"Hyväksytty BOAS-testi (toisella vanhemmista)":"Passed BOAS test (one parent)","Kanakoirakoetulos ennen toista astutusta":"Pointing-dog field-trial result before 2nd mating",
+"Koetulos ennen toista astutusta":"Field-trial result before 2nd mating","LAD-, LP- ja PLL-geenitestit":"LAD, LP and PLL gene tests","LAD-geenitesti":"LAD gene test",
+"Laaja sydäntutkimus (voimassa 24 kk)":"Full cardiac exam (valid 24 mo)","Luonnetesti / MH / PEKO-T / VIRTA":"Temperament test / MH / PEKO-T / VIRTA",
+"Luonnetesti / MH / PK / IPOR-A / virkakoira":"Temperament test / MH / working trial / IPOR-A / service dog",
+"Luonnetesti / MH / PK / PEKO / virkakoira":"Temperament test / MH / working trial / PEKO / service dog",
+"Luonnetesti / MH / PK / SPL-tarkastus / virkakoira":"Temperament test / MH / working trial / SPL inspection / service dog",
+"Luonnetesti / MH / PK-tulos":"Temperament test / MH / working-trial result","Luonnetesti / MH / jalostustarkastus / virkakoira":"Temperament test / MH / breeding inspection / service dog",
+"Luonnetesti / MH / paimennuskoe / PK / virkakoira":"Temperament test / MH / herding trial / working trial / service dog","Luonnetesti / MH / virkakoira":"Temperament test / MH / service dog",
+"NCL- ja rcd4-PRA-geenitestit (väh. toisella vanhemmista)":"NCL and rcd4-PRA gene tests (at least one parent)","PDP1-geenitesti (toisella vanhemmista)":"PDP1 gene test (one parent)",
+"SPAID-geenitesti (väh. toisella vanhemmista)":"SPAID gene test (at least one parent)","Seerumin ALAT-arvo (voimassa 24 kk)":"Serum ALT value (valid 24 mo)",
+"Silmätutkimus":"Eye examination","Silmätutkimus (ennen toista astutusta)":"Eye exam (before 2nd mating)","Silmätutkimus (post. pol. KAT)":"Eye exam (posterior polar cataract)",
+"Silmätutkimus (voimassa 12 kk)":"Eye exam (valid 12 mo)","Silmätutkimus (voimassa 24 kk)":"Eye exam (valid 24 mo)",
+"Silmätutkimus (voimassa 36 kk alle 6-v.)":"Eye exam (valid 36 mo if under 6 y)","Silmätutkimus (voimassa 36 kk)":"Eye exam (valid 36 mo)","Silmätutkimus (voimassa 48 kk)":"Eye exam (valid 48 mo)",
+"Silmätutkimus + gonioskopia (voimassa 24 kk)":"Eye exam + gonioscopy (valid 24 mo)","Silmätutkimus ennen kolmatta astutusta (voimassa 24 kk)":"Eye exam before 3rd mating (valid 24 mo)",
+"Sydämen UÄ + EKG (1.7.2026 alkaen alaikäraja 24 kk, voimassa 12 kk)":"Cardiac ultrasound + ECG (from 1 Jul 2026 min age 24 mo, valid 12 mo)","Sydämen UÄ + EKG (voimassa 12 kk)":"Cardiac ultrasound + ECG (valid 12 mo)",
+"Sydämen UÄ + EKG tai auskultaatio laajan tutkimuksen jälkeen":"Cardiac ultrasound + ECG, or auscultation after a full exam","Sydämen auskultaatio":"Cardiac auscultation","Sydämen auskultaatio (24 kk)":"Cardiac auscultation (24 mo)",
+"Sydämen auskultaatio (alaikäraja 24 kk, voimassa 12 kk)":"Cardiac auscultation (min age 24 mo, valid 12 mo)","Sydämen auskultaatio (alle 1-v. tulos voimassa 12 kk, muutoin 24 kk)":"Cardiac auscultation (result under 1 y valid 12 mo, otherwise 24 mo)",
+"Sydämen auskultaatio (voimassa 24 kk)":"Cardiac auscultation (valid 24 mo)","Sydämen auskultaatio (voimassa 36 kk)":"Cardiac auscultation (valid 36 mo)",
+"Sydämen ultraäänitutkimus (alaikäraja 18 kk)":"Cardiac ultrasound (min age 18 mo)","Syringomyelia-MRI (alaikäraja 24 kk)":"Syringomyelia MRI (min age 24 mo)",
+"Vähintään KAER 3 -koetulos":"At least a KAER 3 trial result","Vähintään KAER 3 -koetulos ennen toista astutusta":"At least a KAER 3 trial result before 2nd mating","rcd4-PRA-geenitesti (väh. toisella vanhemmista)":"rcd4-PRA gene test (at least one parent)",
+// ── breed notes / overrides ──
+"C-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101.":"Grade C hips only with an A/B partner, or combined index mean ≥ 101.",
+"C-lonkkainen paritettava A-lonkkaisen kanssa, yhdistelmän indeksien keskiarvo ≥ 96.":"Grade C hips must be paired with an A-hip partner; combined index mean ≥ 96.",
+"C-lonkkainen paritettava A-tuloksen saaneen kanssa.":"Grade C hips must be paired with an A-grade partner.",
+"C-lonkkainen paritettava A/B-tuloksen kanssa, kyynärtulos 1 paritettava 0-tuloksen kanssa.":"Grade C hips must be paired with an A/B partner; elbow grade 1 with a grade-0 partner.",
+"C-lonkkainen paritettava A/B-tuloksen kanssa.":"Grade C hips must be paired with an A/B partner.",
+"C-lonkkainen saa yhdistää vain A-tuloksen saaneen kanssa.":"Grade C hips may only be combined with an A-grade partner.",
+"C-lonkkainen vain A:n kanssa tai indeksien keskiarvo ≥ 101; kyynär 1 vain 0:n kanssa tai indeksit ≥ 101.":"Grade C hips only with A, or index mean ≥ 101; elbow 1 only with 0, or indices ≥ 101.",
+"C-lonkkainen vain A:n kanssa tai vanhempien lonkkaindeksien keskiarvo ≥ 101.":"Grade C hips only with A, or parents' hip-index mean ≥ 101.",
+"D-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101. Uusintayhdistelmät kielletty.":"Grade D hips with an A/B partner, or index mean ≥ 101. Repeat matings prohibited.",
+"D-lonkkainen paritettava A-tuloksen saaneen kanssa.":"Grade D hips must be paired with an A-grade partner.",
+"D-lonkkainen paritettava A/B/C-tuloksen kanssa.":"Grade D hips must be paired with an A/B/C partner.",
+"IDD-lausunto (kalkkeutuneet välilevyt) — mäyräkoirat kuuluvat Listaan 1, myös kaularanka kuvataan.":"IDD statement (calcified discs) — dachshunds are List 1; the cervical spine is imaged too.",
+"Ikä astutushetkellä vähintään 18 kk.":"Minimum age at mating 18 mo.","Ikä astutushetkellä vähintään 18 kk. DNA-tunniste vaaditaan.":"Minimum age at mating 18 mo. DNA identity required.",
+"Ikä astutushetkellä vähintään 22 kk.":"Minimum age at mating 22 mo.","Ikä astutushetkellä vähintään 22 kk. C-lonkkainen vain A:n kanssa tai indeksien keskiarvo ≥ 101.":"Minimum age at mating 22 mo. Grade C hips only with A, or index mean ≥ 101.",
+"Ikä astutushetkellä vähintään 24 kk.":"Minimum age at mating 24 mo.",
+"Ison kokomuunnoksen lonkkakuvauksen alaikäraja 18 kk. Yhdistelmän polvitulosten summa enintään 2.":"Hip-imaging min age 18 mo for the large variety. Combined patella scores ≤ 2.",
+"Kahta D-lonkkaista ei saa yhdistää.":"Two grade-D-hip dogs may not be combined.",
+"Kyynärnivelistä matalaraajaisten rotujen inkongruenssilausunto (INC).":"Elbows: incongruity statement (INC) for short-legged breeds.",
+"Lista 1 + korkkiruuvihäntäinen rotu: kuvataan myös kaularanka ja VD-kuvat rinta- ja lannerangasta. VA4-tuloksen saanut paritettava VA0–VA2-koiran kanssa.":"List 1 + screw-tailed breed: also image the cervical spine and VD views of the thoracic & lumbar spine. A VA4 dog must be paired with a VA0–VA2 dog.",
+"Lista 1: myös kaularanka kuvataan. Kyynäristä inkongruenssi- tai dysplasialausunto.":"List 1: cervical spine also imaged. Elbows: incongruity or dysplasia statement.",
+"Lonkkien vaihtoehtona vanhempien lonkkaindeksien keskiarvo ≥ 101. Uroksen ikä vähintään 24 kk.":"Hip alternative: parents' hip-index mean ≥ 101. Male at least 24 mo.",
+"Lonkkien vaihtoehtona yhdistelmän lonkkaindeksien keskiarvo ≥ 101.":"Hip alternative: combined hip-index mean ≥ 101.",
+"Nartun ikä astutushetkellä vähintään 18 kk, uroksen 12 kk.":"Bitch at least 18 mo at mating, male 12 mo.",
+"Nartun ikä astutushetkellä vähintään 24 kk.":"Bitch at least 24 mo at mating.",
+"Nartun ikä vähintään 22 kk, uroksen 18 kk.":"Bitch at least 22 mo, male 18 mo.","Nartun ikä vähintään 24 kk, uroksen 18 kk.":"Bitch at least 24 mo, male 18 mo.",
+"PEVISA 1.7.2026 alkaen (kyynärvaatimus uusi).":"PEVISA from 1 Jul 2026 (elbow requirement is new).","PEVISA 1.7.2026 alkaen.":"PEVISA from 1 Jul 2026.",
+"PEVISA voimaan 1.1.2027. Ikä astutushetkellä vähintään 24 kk.":"PEVISA effective 1 Jan 2027. Minimum age at mating 24 mo.",
+"Polvi- ja silmälausunto vaaditaan ennen toista astutusta.":"Patella and eye statements required before the 2nd mating.",
+"Polvivaatimus koskee kääpiö- ja kaniinimäyräkoiria.":"Patella requirement applies to miniature and rabbit dachshunds.",
+"Raja-arvo SP1: tuloksen SP1 saanut paritettava SP0-koiran kanssa.":"Limit SP1: an SP1 dog must be paired with an SP0 dog.",
+"Raja-arvo SP3: SP3-tuloksen saanut paritettava SP0/SP1-koiran kanssa.":"Limit SP3: an SP3 dog must be paired with an SP0/SP1 dog.",
+"Selkälausunnon alaikäraja 18 kk.":"Spine statement min age 18 mo.","Selkälausunnon alaikäraja 24 kk.":"Spine statement min age 24 mo.",
+"Selkälausunnot vaaditaan ennen toista pentuetta. LTV 1–4 → kumppanin oltava LTV0.":"Spine statements required before the 2nd litter. LTV 1–4 → partner must be LTV0.",
+"Uusintayhdistelmät kielletty.":"Repeat matings prohibited.","Vaihtoehtona lonkkaindeksi ≥ 102.":"Alternative: hip index ≥ 102."
+};
+function tr(s){ if(lang==="fi"||s==null) return s; return TR[s]!==undefined?TR[s]:s; }
+/* U: UI chrome strings, per language (dynamic templates as functions). */
+const U={
+ kicker:{fi:"Kennelliiton kuvausopas · eläinlääkärin työkalu · PEVISA 2026",en:"Kennelliitto imaging guide · veterinary tool · PEVISA 2026"},
+ h1:{fi:'<span class="x">Viralliset kuvaukset</span> — mitä kuvata, miten ja mitä kuvassa pitää näkyä',en:'<span class="x">Official radiographs</span> — what to image, how, and what must be on the film'},
+ lead:{fi:'Valitse rotu ja koiran syntymäaika — näet mitkä viralliset röntgenkuvaukset rotu vaatii, alaikärajat ja raja-arvot, <b>kuvausasennot, pakolliset kuvamerkinnät ja yleisimmät hylkäyssyyt</b> sekä lausuntomenettelyn. Klinikan sisäinen kuvausopas.',en:'Pick a breed and the dog\'s date of birth — see which official radiographs the breed requires, minimum ages and breeding limits, <b>positioning, mandatory film markings and the most common rejection reasons</b>, plus the statement procedure. Internal clinic imaging guide.'},
+ rotu:{fi:"Rotu",en:"Breed"}, dob:{fi:"Koiran syntymäaika",en:"Dog's date of birth"}, dobOpt:{fi:"(valinnainen)",en:"(optional)"},
+ go:{fi:"Näytä kuvaukset",en:"Show radiographs"}, placeholder:{fi:"Ala kirjoittaa… esim. labradorinnoutaja",en:"Start typing… e.g. labradorinnoutaja"},
+ hint:{fi:"Tietolähde: Kennelliiton PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026 sekä viralliset kuvausohjeet. Jos rotua ei löydy listalta, sillä ei todennäköisesti ole PEVISA-ohjelmaa — valitse silloin ”Muu rotu”. Rotujen nimet ovat suomeksi (Kennelliiton viralliset nimet).",en:"Source: Kennelliitto PEVISA programmes and breed-specific conditions 2026, and the official imaging guidelines. If a breed isn't listed it probably has no PEVISA programme — pick “Muu rotu” (other breed). Breed names are in Finnish (Kennelliitto's official names)."},
+ print:{fi:"🖨 Tulosta kuvausopas",en:"🖨 Print imaging sheet"},
+ posH:{fi:"Kuvausasento & laatuvaatimukset",en:"Positioning & quality requirements"},
+ marksH:{fi:"Pakolliset merkinnät kuvassa",en:"Mandatory markings on the film"},
+ rejectH:{fi:"Yleiset hylkäyssyyt (jätetään arvostelematta)",en:"Common rejection reasons (left ungraded)"},
+ kvAge:{fi:"Alaikäraja",en:"Minimum age"}, kvAgeUnit:{fi:"kk",en:"mo"}, kvLimit:{fi:"Jalostuksen raja-arvo",en:"Breeding limit"}, kvValid:{fi:"Voimassaolo",en:"Validity / re-imaging"},
+ fills:{fi:"täyttyy",en:"reached"}, statusNow:{fi:"✓ Voidaan kuvata nyt",en:"✓ Can be imaged now"}, statusFrom:{fi:"Aikaisintaan",en:"From"}, statusAge:{fi:"alaikäraja",en:"min age"},
+ accepted:{fi:"Hyväksytty tulos:",en:"Accepted result:"}, orBetter:{fi:"tai parempi",en:"or better"},
+ chipHip:{fi:"LONKAT",en:"HIPS"}, chipElbow:{fi:"KYYNÄRPÄÄT",en:"ELBOWS"}, chipSpine:{fi:"SELKÄ",en:"SPINE"}, chipShoulder:{fi:"OLKANIVELET",en:"SHOULDERS"}, chipNone:{fi:"Ei pakollisia röntgenkuvauksia",en:"No mandatory radiographs"},
+ real:{fi:"Aito röntgenkuva · Eläinklinikka Saari",en:"Real radiograph · Eläinklinikka Saari"},
+ metaBorn:{fi:"syntynyt",en:"born"}, metaAge:{fi:"ikä nyt",en:"age now"},
+ extrasH:{fi:"Muut vaatimukset ennen astutusta (ei röntgentutkimuksia)",en:"Other requirements before mating (non-radiographic)"},
+ patella:{fi:"<b>Polvilumpioluksaatiotutkimus</b> — eläinlääkärin käsin tekemä tutkimus (ei röntgen), alaikäraja 12 kk; alle 3-vuotiaan tulos voimassa 2 vuotta",en:"<b>Patellar luxation exam</b> — manual exam by a vet (not radiographic), min age 12 mo; a result under 3 y is valid 2 years"},
+ limitLabel:{fi:"raja-arvo",en:"limit"},
+ bNoProg:{fi:'Rodulla ei ole PEVISA-ohjelmaa, joten pentujen rekisteröinti ei edellytä kuvauksia. <b>Vapaaehtoiset viralliset lausunnot</b> ovat silti mahdollisia ja suositeltavia jalostuskoirille — samat ikärajat: lonkat ja kyynärpäät 12 kk, selkä LTV/VA 12 kk ja SP/IDD 24 kk.',en:'This breed has no PEVISA programme, so litter registration doesn\'t require radiographs. <b>Voluntary official statements</b> are still possible and recommended for breeding dogs — same age limits: hips and elbows 12 mo, spine LTV/VA 12 mo and SP/IDD 24 mo.'},
+ bNp:{fi:"ei PEVISA-ohjelmaa 2026. Rekisteröinti ei edellytä terveystutkimuksia, mutta vapaaehtoiset viralliset kuvaukset (lonkat, kyynärpäät, selkä) ovat suositeltavia jalostuskoirille.",en:"has no PEVISA programme in 2026. Registration doesn't require health screening, but voluntary official radiographs (hips, elbows, spine) are recommended for breeding dogs."},
+ bNoXray:{fi:"Rodun PEVISA-ohjelma ei vaadi röntgenkuvauksia — alla luetellut muut tutkimukset vaaditaan ennen astutusta.",en:"This breed's PEVISA programme requires no radiographs — the other exams listed below are required before mating."},
+ clTitle:{fi:"Kuvauskäynti — eläinlääkärin muistilista",en:"Imaging visit — veterinarian's checklist"},
+ clSub:{fi:"ELÄINKLINIKKA SAARI · KLINIKAN SISÄINEN KUVAUSOPAS",en:"ELÄINKLINIKKA SAARI · INTERNAL CLINIC IMAGING GUIDE"},
+ clItems:{fi:[
+   "<b>Tarkista voimassa oleva röntgenlähete</b> — omistaja tilaa ja maksaa lausunnon etukäteen Kennelliiton Omakoira-palvelussa",
+   "<b>Tarkista tunnistusmerkintä (mikrosiru)</b> kuvauksen yhteydessä ja merkitse tarkastetuksi lähetteeseen",
+   "<b>Varmista alaikäraja täyttyy kuvauspäivänä</b> — katso rotukohtaiset rajat korteista yllä",
+   "<b>Rauhoita riittävästi</b> ohjeenmukaisen asennon saavuttamiseksi; merkitse käytetyt valmisteet ja annokset lähetteeseen",
+   "<b>Pakolliset kuvamerkinnät</b> muuttumattomalla merkinnällä: päivämäärä, rekisterinumero (tai TM-numero) ja puolimerkki (ei selässä)",
+   "<b>Kysy aiemmat leikkaukset ja tapaturmat</b> — lausuntoon vaikuttava leikkaus ilmoitettava, sairaskertomus liitteeksi",
+   "<b>Vältä nartuilla juoksun/imetyksen aikaa</b> — hormonaalinen nivelten löysyys voi heikentää tulosta",
+   "<b>Lähetä kuvat DICOM-muodossa Kennelliiton vastaanottojärjestelmään</b> — lausunto valmistuu tyypillisesti n. viikossa ja tallentuu KoiraNettiin"
+ ],en:[
+   "<b>Check the valid imaging referral</b> — the owner orders and pays for the statement in advance via Kennelliitto's Omakoira service",
+   "<b>Verify the microchip identity</b> at imaging and mark it as checked on the referral",
+   "<b>Confirm the minimum age is met on the imaging day</b> — see the breed-specific limits on the cards above",
+   "<b>Sedate sufficiently</b> to achieve the guideline positioning; record the agents and doses used on the referral",
+   "<b>Mandatory film markings</b> with a non-alterable marker: date, registration number (or microchip no.) and side marker (not for spine)",
+   "<b>Ask about prior surgery and trauma</b> — surgery affecting the statement must be declared, attach the clinical record",
+   "<b>Avoid imaging bitches in heat / lactation</b> — hormonal joint laxity can worsen the result",
+   "<b>Submit images in DICOM to Kennelliitto's receiving system</b> — the statement is usually ready in ~a week and stored in KoiraNet"
+ ]},
+ clLimits:{fi:"<b>Yleiset jalostuskäytön raja-arvot</b> (ellei rodun PEVISA tiukempi): lonkat D · kyynärpäät 2 · kyynärnivelen inkongruenssi 2 · polvilumpioluksaatio 3 · spondyloosi SP3. Tutkimusten oltava voimassa astutushetkellä.",en:"<b>General breeding limits</b> (unless the breed's PEVISA is stricter): hips D · elbows 2 · elbow incongruity 2 · patellar luxation 3 · spondylosis SP3. Statements must be valid at mating."},
+ discl:{fi:"Röntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. Tämä on klinikan sisäinen työkalu (tiedot koottu 8.7.2026). PEVISA-ehdot muuttuvat vuosittain — varmista aina ajantasaiset vaatimukset Kennelliitosta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä.",en:"The radiographs are genuine images taken on Eläinklinikka Saari's own equipment, with patient data removed. This is an internal clinic tool (data compiled 8 Jul 2026). PEVISA conditions change yearly — always confirm current requirements with Kennelliitto. Age limits refer to the dog's age at imaging."},
+ srcLabel:{fi:"Lähteet:",en:"Sources:"}
+};
+function uu(k){return U[k]?U[k][lang]:k}
+
 /* ══════════ study card templates ══════════
    Real radiographs from Eläinklinikka Saari's own PACS, anonymized (patient IDs removed). */
-function xr(src,alt){return `<div class="xr"><img src="img/${src}" alt="${alt}" loading="lazy" width="1080" height="800"></div><div class="real">Aito röntgenkuva · Eläinklinikka Saari</div>`}
+function xr(src,alt){return `<div class="xr"><img src="img/${src}" alt="${alt}" loading="lazy" width="1080" height="800"></div>`}
 
 const STUDIES={
 hip:{code:"HD",title:"Lonkkakuvaus",cap:"VD-kuva · suora veto · selällään",svg:xr("hip.jpg","Koiran lonkkien virallinen VD-röntgenkuva, reisiluut yhdensuuntaisina"),
  scale:{name:"FCI:n arvosteluasteikko (lonkat)",rows:[["A","Ei muutoksia"],["B","Lähes normaali / rajatapaus"],["C","Lievä dysplasia"],["D","Kohtalainen (keskivaikea) dysplasia"],["E","Vaikea dysplasia"]]},
  redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
- pos:["Koira <b>selällään</b> selkätuen/vaahtomuovikourun varassa, rauhoitettuna","<b>Reisiluut vedetään suoriksi</b> röntgenpöydän suuntaisesti ja keskenään yhdensuuntaisiksi","<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät","Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan","Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta"]},
+ pos:["Koira <b>selällään</b> selkätuen/vaahtomuovikourun varassa, rauhoitettuna","<b>Reisiluut vedetään suoriksi</b> röntgenpöydän suuntaisesti ja keskenään yhdensuuntaisiksi","<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät","Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan","Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
+ reject:["Epäsymmetrinen lantio tai kierto — reisiluut eri asennossa","Reisiluut eivät yhdensuuntaiset / eivät suorassa vedossa","Polvilumpiot pois reisiluun keskeltä (rotaatio)","Ristiluu tai lonkkanivelet eivät kokonaan kuvassa","Yli- tai alivalotus / rakeisuus estää arvostelun"]},
 elbow:{code:"ED",title:"Kyynärnivelkuvaus",cap:"ML-kuva · ~45° koukistus · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen virallinen ML-röntgenkuva noin 45 asteen koukistuksessa"),
  scale:{name:"IEWG:n arvosteluasteikko (kyynärnivelet)",rows:[["0","Ei muutoksia"],["1","Lievät nivelrikkomuutokset (≤ 2 mm)"],["2","Kohtalaiset muutokset (≤ 5 mm) ja/tai muutoksia varislisäkkeessä, lievä epämuotoisuus"],["3","Voimakkaat muutokset / kiinnittymätön processus anconaeus"]]},
  redo:"Uusintakuvaus aikaisintaan 6 kk kuluttua",
- pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>","Olkaluun mediaalisen ja lateraalisen nivelnastan (condylus) oltava <b>päällekkäin</b>","<b>Processus anconaeuksen</b> ja kyynärluun nivelpinnan näyttävä lähes kraniaalikärkeen asti","Kuvataan suoraan kasetille <b>ilman hilaa</b> ja rajataan tiiviisti — yli-/alivalotus estää arvostelun"]},
+ pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>","Olkaluun mediaalisen ja lateraalisen nivelnastan (condylus) oltava <b>päällekkäin</b>","<b>Processus anconaeuksen</b> ja kyynärluun nivelpinnan näyttävä lähes kraniaalikärkeen asti","Kuvataan suoraan kasetille <b>ilman hilaa</b> ja rajataan tiiviisti — yli-/alivalotus estää arvostelun"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
+ reject:["Ylikoukistus → rotaatio → condylukset eivät päällekkäin","Processus anconaeus ei näy kraniaalikärkeen asti","Hila käytössä (pitää olla no-grid table top)","Yli-/alivalotus tai rakeisuus estää arvostelun","Tulkinnanvarainen kuva — voidaan pyytää lisäkuvia eri asennossa"]},
 spine:{code:"SELKÄ",title:"Selkäkuvaus",cap:"Sivukuva rinta- ja lannerangasta",svg:xr("spine.jpg","Koiran selkärangan virallinen sivuröntgenkuva rinta- ja lannerangasta"),
  scale:null,
  redo:"LTV-, VA- ja IDD-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)",
- pos:["<b>Sivukuvat</b> rinta- ja lannerangasta sekä ristiluusta, rauhoituksessa","Lisäksi <b>selällään otettu VD-kuva lanne-ristiluualueesta</b> (LTV-arvostelu)","Lista 1:n rodut (kondrodystrofiset, mm. mäyräkoirat, ranskanbulldoggi, corgit): myös <b>kaularanka</b> kuvataan (IDD)","Korkkiruuvihäntäiset rodut (Lista 2): lisäksi VD-kuvat rinta- ja lannerangasta","Nikamat numeroitava luotettavasti — Th1–Th13, L1–L7 ja ristiluu kokonaan kuviin"]},
+ pos:["<b>Sivukuvat</b> rinta- ja lannerangasta sekä ristiluusta, rauhoituksessa","Lisäksi <b>selällään otettu VD-kuva lanne-ristiluualueesta</b> (LTV-arvostelu)","Lista 1:n rodut (kondrodystrofiset, mm. mäyräkoirat, ranskanbulldoggi, corgit): myös <b>kaularanka</b> kuvataan (IDD)","Korkkiruuvihäntäiset rodut (Lista 2): lisäksi VD-kuvat rinta- ja lannerangasta","Nikamat numeroitava luotettavasti — Th1–Th13, L1–L7 ja ristiluu kokonaan kuviin"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","<i>Selässä puolimerkkiä ei vaadita — VD-kuva</i>"],
+ reject:["Ranka ei suorassa / kierto sivukuvassa — nikamavälit päällekkäin","Nikamia ei voi numeroida luotettavasti","Ristiluu tai lanne-ristiluualue ei kokonaan kuvassa","Puutteellinen laatu → jätetään arvostelematta paitsi vaikeat muutokset"]},
 oc:{code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat olkanivelet",svg:xr("shoulder.jpg","Koiran olkanivelen virallinen ML-röntgenkuva osteokondroosin arviointia varten"),
  scale:{name:"OC-lausunto",rows:[["Ei todettu","Ei osteokondroosimuutoksia"],["Tulkinnanvarainen","Rajatapaus (yleinen jalostuksen raja-arvo)"],["Todettu","Osteokondroosimuutos olkaluun päässä"]]},
  redo:"",
- pos:["<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa","Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä","OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>"]}
+ pos:["<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa","Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä","OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
+ reject:["Olkanivel ei erotu vapaana — projisoituu rintakehän päälle","Rotaatio peittää olkaluun pään kaudaalipinnan","Yli-/alivalotus estää arvostelun"]}
 };
 const SPINE_SCALES=[
  {name:"LTV — välimuotoinen lanne-ristinikama (alaikäraja 12 kk)",rows:[["LTV0","Ei muutoksia"],["LTV1","Jakautunut ristiluun keskiharjanne (S1–S2) tai muu lievä poikkeama"],["LTV2","Symmetrinen välimuotoinen lanne-ristinikama"],["LTV3","Epäsymmetrinen lanne-ristinikama"],["LTV4","6 tai 8 lannenikamaa"]]},
@@ -463,33 +679,37 @@ const SPINE_SCALES=[
 
 /* ══════════ helpers ══════════ */
 const $=s=>document.querySelector(s);
-const fmt=d=>d.toLocaleDateString("fi-FI",{day:"numeric",month:"numeric",year:"numeric"});
+const fmt=d=>d.toLocaleDateString(lang==="fi"?"fi-FI":"en-GB",{day:"numeric",month:"numeric",year:"numeric"});
 function addMonths(date,m){const d=new Date(date);const day=d.getDate();d.setMonth(d.getMonth()+m);if(d.getDate()<day)d.setDate(0);return d}
-function ageStr(dob){const now=new Date();let m=(now.getFullYear()-dob.getFullYear())*12+(now.getMonth()-dob.getMonth());if(now.getDate()<dob.getDate())m--;const y=Math.floor(m/12);return (y?y+" v ":"")+(m%12)+" kk"}
+function ageStr(dob){const now=new Date();let m=(now.getFullYear()-dob.getFullYear())*12+(now.getMonth()-dob.getMonth());if(now.getDate()<dob.getDate())m--;const y=Math.floor(m/12);const yl=lang==="fi"?"v":"y",ml=uu("kvAgeUnit");return (y?y+" "+yl+" ":"")+(m%12)+" "+ml}
 function statusFor(dob,minAge){
-  if(!dob)return {cls:"na",txt:"alaikäraja "+minAge+" kk"};
+  if(!dob)return {cls:"na",txt:uu("statusAge")+" "+minAge+" "+uu("kvAgeUnit")};
   const ready=addMonths(dob,minAge),now=new Date();
-  return now>=ready?{cls:"ok",txt:"✓ Voidaan kuvata nyt"}:{cls:"wait",txt:"Aikaisintaan "+fmt(ready)};
+  return now>=ready?{cls:"ok",txt:uu("statusNow")}:{cls:"wait",txt:uu("statusFrom")+" "+fmt(ready)};
 }
-function scaleHTML(sc){if(!sc)return"";return `<details class="scale"><summary>${sc.name}</summary><div class="sc"><table>${sc.rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join("")}</table></div></details>`}
+function scaleHTML(sc){if(!sc)return"";return `<details class="scale"><summary>${tr(sc.name)}</summary><div class="sc"><table>${sc.rows.map(r=>`<tr><td>${r[0]}</td><td>${tr(r[1])}</td></tr>`).join("")}</table></div></details>`}
 
 function filmHTML(st,minAge,limit,dob,extraNote,spineTypes){
   const s=statusFor(dob,minAge);
   const kvs=[
-    `<div class="kv"><div class="k">Alaikäraja</div><div class="v mono">${minAge} kk${dob?" · täyttyy "+fmt(addMonths(dob,minAge)):""}</div></div>`,
-    limit?`<div class="kv"><div class="k">Jalostuksen raja-arvo</div><div class="v mono">${limit}</div></div>`:"",
-    st.redo?`<div class="kv"><div class="k">Voimassaolo</div><div class="v" style="font-size:.86rem">${st.redo}</div></div>`:""
+    `<div class="kv"><div class="k">${uu("kvAge")}</div><div class="v mono">${minAge} ${uu("kvAgeUnit")}${dob?" · "+uu("fills")+" "+fmt(addMonths(dob,minAge)):""}</div></div>`,
+    limit?`<div class="kv"><div class="k">${uu("kvLimit")}</div><div class="v mono">${limit}</div></div>`:"",
+    st.redo?`<div class="kv"><div class="k">${uu("kvValid")}</div><div class="v" style="font-size:.86rem">${tr(st.redo)}</div></div>`:""
   ].join("");
   let scales=spineTypes?SPINE_SCALES.filter(x=>spineTypes.some(t=>x.name.startsWith(t))).map(scaleHTML).join(""):scaleHTML(st.scale);
+  const marks=st.marks?`<h4 class="marks">${uu("marksH")}</h4><ul class="marks">${st.marks.map(m=>`<li>${tr(m)}</li>`).join("")}</ul>`:"";
+  const reject=st.reject?`<h4 class="warn">${uu("rejectH")}</h4><ul class="reject">${st.reject.map(r=>`<li>${tr(r)}</li>`).join("")}</ul>`:"";
   return `<article class="film">
-    <div class="tab"><span class="code">${st.code}${spineTypes?" · "+spineTypes.join(" + "):""}</span><h3>${st.title}</h3><span class="status ${s.cls}">${s.txt}</span></div>
+    <div class="tab"><span class="code">${tr(st.code)}${spineTypes?" · "+spineTypes.join(" + "):""}</span><h3>${tr(st.title)}</h3><span class="status ${s.cls}">${s.txt}</span></div>
     <div class="body">
-      <div class="viewport">${st.svg}<div class="cap">${st.cap}</div></div>
+      <div class="viewport">${st.svg}<div class="real">${uu("real")}</div><div class="cap">${tr(st.cap)}</div></div>
       <div class="info">
         <div class="grid2">${kvs}</div>
-        ${extraNote?`<p style="color:var(--accent);font-size:.9rem;margin-bottom:6px">⚠ ${extraNote}</p>`:""}
-        <h4>Kuvausasento &amp; laatuvaatimukset</h4>
-        <ul>${st.pos.map(p=>`<li>${p}</li>`).join("")}</ul>
+        ${extraNote?`<p style="color:var(--accent);font-size:.9rem;margin-bottom:6px">⚠ ${tr(extraNote)}</p>`:""}
+        <h4>${uu("posH")}</h4>
+        <ul>${st.pos.map(p=>`<li>${tr(p)}</li>`).join("")}</ul>
+        ${marks}
+        ${reject}
         ${scales}
       </div>
     </div></article>`;
@@ -498,59 +718,52 @@ function filmHTML(st,minAge,limit,dob,extraNote,spineTypes){
 /* ══════════ render ══════════ */
 function render(breed,dob){
   const R=$("#result");R.style.display="block";
-  const dogAge=dob?` · ikä nyt ${ageStr(dob)}`:"";
+  const dogAge=dob?` · ${uu("metaAge")} ${ageStr(dob)}`:"";
+  const ge=" ≥ ",U2=uu("kvAgeUnit");
   let films=[],chips=[],extras=[];
-  if(breed.h){const a=breed.h[0];chips.push(`<span class="chip req">LONKAT ≥ ${a} kk</span>`);films.push(filmHTML(STUDIES.hip,a,breed.h[1]?`Hyväksytty tulos: ${breed.h[1]} tai parempi`:null,dob))}
-  if(breed.e){const a=breed.e[0];chips.push(`<span class="chip req">KYYNÄRPÄÄT ≥ ${a} kk</span>`);films.push(filmHTML(STUDIES.elbow,a,breed.e[1]!=null?`Hyväksytty tulos: ${breed.e[1]} tai parempi`:null,dob))}
+  if(breed.h){const a=breed.h[0];chips.push(`<span class="chip req">${uu("chipHip")}${ge}${a} ${U2}</span>`);films.push(filmHTML(STUDIES.hip,a,breed.h[1]?`${uu("accepted")} ${breed.h[1]} ${uu("orBetter")}`:null,dob))}
+  if(breed.e){const a=breed.e[0];chips.push(`<span class="chip req">${uu("chipElbow")}${ge}${a} ${U2}</span>`);films.push(filmHTML(STUDIES.elbow,a,breed.e[1]!=null?`${uu("accepted")} ${breed.e[1]} ${uu("orBetter")}`:null,dob))}
   if(breed.s){const types=breed.s.t;const needSP=types.includes("SP")||types.includes("IDD");const a=breed.s.a||(needSP?24:12);
-    chips.push(`<span class="chip req">SELKÄ (${types.join("+")}) ≥ ${a} kk</span>`);
+    chips.push(`<span class="chip req">${uu("chipSpine")} (${types.join("+")})${ge}${a} ${U2}</span>`);
     films.push(filmHTML(STUDIES.spine,a,null,dob,breed.s.o||null,types))}
-  if(breed.oc){chips.push(`<span class="chip req">OLKANIVELET ≥ 12 kk</span>`);films.push(filmHTML(STUDIES.oc,12,null,dob))}
-  if(breed.k){extras.push(`<li><b>Polvilumpioluksaatiotutkimus</b> — eläinlääkärin käsin tekemä tutkimus (ei röntgen), alaikäraja 12 kk; alle 3-vuotiaan tulos voimassa 2 vuotta${breed.k!==1?`, raja-arvo ${breed.k}`:""}</li>`)}
-  (breed.x||[]).forEach(x=>extras.push(`<li>${x}</li>`));
+  if(breed.oc){chips.push(`<span class="chip req">${uu("chipShoulder")}${ge}12 ${U2}</span>`);films.push(filmHTML(STUDIES.oc,12,null,dob))}
+  if(breed.k){extras.push(`<li>${uu("patella")}${breed.k!==1?`, ${uu("limitLabel")} ${breed.k}`:""}</li>`)}
+  (breed.x||[]).forEach(x=>extras.push(`<li>${tr(x)}</li>`));
 
   const hasXray=films.length>0;
   let banner="";
-  if(breed.other){banner=`<div class="banner info">Rodulla ei ole PEVISA-ohjelmaa, joten pentujen rekisteröinti ei edellytä kuvauksia. <b>Vapaaehtoiset viralliset lausunnot</b> ovat silti mahdollisia ja suositeltavia jalostuskoirille — samat ikärajat: lonkat ja kyynärpäät 12 kk, selkä LTV/VA 12 kk ja SP/IDD 24 kk. Tarkista myös rotujärjestösi jalostussuositukset (JTO).</div>`}
-  else if(breed.np===1){banner=`<div class="banner none"><b>${breed.n}</b> — ei PEVISA-ohjelmaa 2026. Rekisteröinti ei edellytä terveystutkimuksia, mutta vapaaehtoiset viralliset kuvaukset (lonkat, kyynärpäät, selkä) ovat suositeltavia jalostuskoirille. Tarkista rotujärjestön jalostussuositukset.</div>`}
-  else if(!hasXray){banner=`<div class="banner info">Rodun PEVISA-ohjelma ei vaadi röntgenkuvauksia — alla luetellut muut tutkimukset vaaditaan ennen astutusta.</div>`}
-  if(breed.note)banner+=`<div class="banner info">ℹ ${breed.note}</div>`;
+  if(breed.other){banner=`<div class="banner info">${uu("bNoProg")}</div>`}
+  else if(breed.np===1){banner=`<div class="banner none"><b>${breed.n}</b> — ${uu("bNp")}</div>`}
+  else if(!hasXray){banner=`<div class="banner info">${uu("bNoXray")}</div>`}
+  if(breed.note)banner+=`<div class="banner info">ℹ ${tr(breed.note)}</div>`;
 
   R.innerHTML=`
    <div class="rhead">
-     <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${dob?` · syntynyt ${fmt(dob)}${dogAge}`:""}</div></div>
-     <div class="actions"><button class="btn ghost" onclick="window.print()">🖨 Tulosta muistilista</button></div>
+     <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${dob?` · ${uu("metaBorn")} ${fmt(dob)}${dogAge}`:""}</div></div>
+     <div class="actions"><button class="btn ghost" onclick="window.print()">${uu("print")}</button></div>
    </div>
-   <div class="summary">${chips.join("")||'<span class="chip">Ei pakollisia röntgenkuvauksia</span>'}</div>
+   <div class="summary">${chips.join("")||`<span class="chip">${uu("chipNone")}</span>`}</div>
    ${banner}
    <div class="films">${films.join("")}</div>
-   ${extras.length?`<div class="extras"><h3>Muut vaatimukset ennen astutusta (ei röntgentutkimuksia)</h3><ul>${extras.join("")}</ul></div>`:""}
+   ${extras.length?`<div class="extras"><h3>${uu("extrasH")}</h3><ul>${extras.join("")}</ul></div>`:""}
    ${hasXray?checklistHTML(breed,dob):""}`;
   R.scrollIntoView({behavior:"smooth",block:"start"});
 }
 
 function checklistHTML(breed,dob){
   return `<div class="checklist">
-   <h3>Muistilista kuvauskäynnille</h3>
-   <div class="sub">ELÄINKLINIKKA SAARI · TULOSTA JA OTA MUKAAN · ${breed.n.toUpperCase()}</div>
-   <ol>
-    <li><b>Tilaa ja maksa lausunto etukäteen</b> Kennelliiton Omakoira-palvelussa — kuvauspaikalle tarvitaan voimassa oleva röntgenlähete</li>
-    <li><b>Tarkista ikärajat</b> — koiran on oltava täyttänyt alaikäraja kuvauspäivänä (katso kortit yllä)</li>
-    <li><b>Mikrosiru</b> — tunnistusmerkintä tarkistetaan aina kuvauksen yhteydessä; ota rekisteritodistus tai rekisterinumero mukaan</li>
-    <li><b>Ruokapaasto rauhoitusta varten</b> — ei ruokaa kuvauspäivän aamuna (vesi sallittu); noudata klinikan ohjetta</li>
-    <li><b>Rauhoitus on pakollinen</b> virallisissa kuvauksissa — varaa koko aamupäivä ja rauhallinen kotiinkuljetus, koira toipuu loppupäivän</li>
-    <li><b>Kerro aiemmista leikkauksista ja tapaturmista</b> — lausuntoon vaikuttava leikkaus on ilmoitettava ja sairaskertomus liitetään lähetteeseen</li>
-    <li><b>Nartuilla</b> vältä kuvausta juoksun tai imetyksen aikana — hormonaalinen nivelten löysyys voi heikentää tulosta</li>
-    <li><b>Kuvat lähtevät suoraan Kennelliittoon</b> DICOM-muodossa — lausunto valmistuu tyypillisesti noin viikossa ja tallentuu KoiraNettiin</li>
-   </ol>
-   <div class="limits"><b>Yleiset jalostuskäytön raja-arvot</b> (ellei rodun PEVISA tiukempi): lonkat D · kyynärpäät 2 · kyynärnivelen inkongruenssi 2 · polvilumpioluksaatio 3 · spondyloosi SP3. Tutkimusten oltava voimassa astutushetkellä.</div>
+   <h3>${uu("clTitle")}</h3>
+   <div class="sub">${uu("clSub")} · ${breed.n.toUpperCase()}</div>
+   <ol>${uu("clItems").map(i=>`<li>${i}</li>`).join("")}</ol>
+   <div class="limits">${uu("clLimits")}</div>
   </div>`;
 }
 
 /* ══════════ autocomplete + wiring ══════════ */
 const input=$("#breed"),sug=$("#suggest"),dobEl=$("#dob");let selected=null,activeIdx=-1;
 function openSug(list){
-  sug.innerHTML=list.slice(0,14).map((b,i)=>`<button type="button" data-i="${BREEDS.indexOf(b)}">${b.n}${b.np===1?' <span class="np">ei PEVISA-ohjelmaa</span>':""}</button>`).join("");
+  const npl=lang==="fi"?"ei PEVISA-ohjelmaa":"no PEVISA programme";
+  sug.innerHTML=list.slice(0,14).map((b,i)=>`<button type="button" data-i="${BREEDS.indexOf(b)}">${b.n}${b.np===1?` <span class="np">${npl}</span>`:""}</button>`).join("");
   sug.classList.toggle("open",list.length>0);activeIdx=-1;
 }
 input.addEventListener("input",()=>{selected=null;const q=input.value.trim().toLowerCase();
@@ -583,6 +796,32 @@ function go(){
 }
 $("#go").addEventListener("click",go);
 dobEl.addEventListener("change",()=>{if(selected)go()});
+
+/* ══════════ language ══════════ */
+function applyChrome(){
+  document.documentElement.lang=lang;
+  $("#t-kicker").textContent=uu("kicker");
+  $("#t-h1").innerHTML=uu("h1");
+  $("#t-lead").innerHTML=uu("lead");
+  $("#t-rotu").textContent=uu("rotu");
+  $("#t-dob").textContent=uu("dob");
+  $("#t-dobopt").textContent=uu("dobOpt");
+  $("#go").textContent=uu("go");
+  $("#breed").placeholder=uu("placeholder");
+  $("#t-hint").textContent=uu("hint");
+  $("#t-src").textContent=uu("srcLabel")+" ";
+  $("#t-disc").textContent=uu("discl");
+  document.querySelectorAll(".langtoggle button").forEach(b=>b.classList.toggle("on",b.dataset.lang===lang));
+}
+function setLang(l){
+  if(l===lang)return;
+  lang=l;localStorage.setItem("kk_lang",l);
+  applyChrome();
+  if(selected){const dob=dobEl.value?new Date(dobEl.value+"T12:00:00"):null;render(selected,dob);}
+}
+document.querySelectorAll(".langtoggle button").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+applyChrome();
+
 /* deep-link */
 (function(){const p=new URLSearchParams(location.search);const r=p.get("rotu");
   if(r){const b=BREEDS.find(x=>x.n.toLowerCase()===r.toLowerCase());
