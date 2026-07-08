@@ -266,6 +266,7 @@ footer.site .disc{margin-top:14px;max-width:60em}
     <a href="https://www.kennelliitto.fi/lomakkeet/kyynarnivelen-kasvuhairioiden-ohje" rel="noopener">Kyynärnivelen kasvuhäiriöiden ohje</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/selan-muutosten-rontgenkuvaus-ja-luokitusohje" rel="noopener">Selkäohje</a>
   </div>
+  <p class="disc" id="t-otherimg" style="margin-bottom:12px"></p>
   <p class="disc" id="t-disc"></p>
 </footer>
 
@@ -295,7 +296,7 @@ const BREEDS=[
 {n:"Belgianpaimenkoirat (kaikki muunnokset)",h:[12,"B"],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Bernhardinkoirat",h:[18,"C"],e:[18,"1"],s:{t:["LTV","SP","VA"],o:"Raja-arvo SP1: tuloksen SP1 saanut paritettava SP0-koiran kanssa."}},
 {n:"Berninpaimenkoira",h:[18,"C"],e:[18,"1"],note:"C-lonkkainen paritettava A/B-tuloksen kanssa, kyynärtulos 1 paritettava 0-tuloksen kanssa."},
-{n:"Bichon frisé",k:"1",x:["Silmätutkimus (voimassa 12 kk)"],note:"Ikä astutushetkellä vähintään 18 kk."},
+{n:"Bichon frisé",k:"1",x:["Silmätutkimus (voimassa 12 kk)"],note:"Ikä astutushetkellä vähintään 18 kk.",inc:1},
 {n:"Biewerterrieri",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Bokseri",h:[12,"C"],s:{t:["SP"],o:"Raja-arvo SP3: SP3-tuloksen saanut paritettava SP0/SP1-koiran kanssa."},x:["Sydämen auskultaatio (alle 1-v. tulos voimassa 12 kk, muutoin 24 kk)"],note:"Lonkkien vaihtoehtona vanhempien lonkkaindeksien keskiarvo ≥ 101. Uroksen ikä vähintään 24 kk."},
 {n:"Bordeauxindoggi",h:[18,null],e:[18,"1"]},
@@ -314,9 +315,9 @@ const BREEDS=[
 {n:"Chihuahua (pitkä- ja lyhytkarvainen)",k:"2",x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (voimassa 24 kk)"]},
 {n:"Chow chow",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Clumberinspanieli",h:[12,null],e:[12,"2"],x:["Silmätutkimus (voimassa 24 kk)","PDP1-geenitesti (toisella vanhemmista)"]},
-{n:"Cockerspanieli",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Cockerspanieli",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"],note:"Kyynärnivelestä voidaan antaa ED-dysplasialausunnon lisäksi INC-inkongruenssilausunto (koiralla oltava ensin ED-lausunto). Ei PEVISA-pakko."},
 {n:"Continental bulldog",h:[12,"C"],e:[12,"1"],x:["Hyväksytty BOAS-testi","DVL2-geenitesti"]},
-{n:"Coton de tuléar",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Coton de tuléar",k:1,x:["Silmätutkimus (voimassa 24 kk)"],inc:1},
 {n:"Dalmatiankoira",h:[12,"C"]},
 {n:"Dobermanni",h:[12,"C"],x:["Sydämen UÄ + EKG (voimassa 12 kk)","Seerumin ALAT-arvo (voimassa 24 kk)"]},
 {n:"Dogo argentino",h:[18,null],e:[18,null],s:{t:["LTV","SP","VA"],a:24,o:"Selkälausunnon alaikäraja 24 kk."},note:"Kahta D-lonkkaista ei saa yhdistää."},
@@ -328,10 +329,10 @@ const BREEDS=[
 {n:"Estrelanvuoristokoirat",h:[18,"C"],e:[18,"1"]},
 {n:"Eurasier",h:[12,null],x:["Silmätutkimus (voimassa 36 kk)"],note:"C-lonkkainen paritettava A/B-tuloksen kanssa."},
 {n:"Fieldspanieli",h:[12,"C"],x:["Silmätutkimus (voimassa 24 kk)"]},
-{n:"Glen of imaalinterrieri",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Glen of imaalinterrieri",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"],inc:1},
 {n:"Gordoninsetteri",h:[12,"B"],x:["rcd4-PRA-geenitesti (väh. toisella vanhemmista)"]},
 {n:"Griffonit (belge, bruxellois, petit brabancon)",k:"2",x:["Hyväksytty BOAS-testi (toisella vanhemmista)"]},
-{n:"Havannankoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Havannankoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"],inc:1},
 {n:"Hollanninpaimenkoirat",h:[12,null],e:[12,null],s:{t:["LTV","SP"]},x:["Silmätutkimus","Luonnetesti / MH / PK-tulos"]},
 {n:"Hovawart",h:[12,"C"],note:"C-lonkkainen paritettava A-lonkkaisen kanssa, yhdistelmän indeksien keskiarvo ≥ 96."},
 {n:"Irlanninsusikoira",x:["Silmätutkimus (voimassa 24 kk)","Sydämen UÄ + EKG (1.7.2026 alkaen alaikäraja 24 kk, voimassa 12 kk)"],np:0},
@@ -351,7 +352,7 @@ const BREEDS=[
 {n:"Kaukasiankoira",h:[18,null],e:[18,null]},
 {n:"Keskiaasiankoira",h:[12,null],e:[12,null]},
 {n:"Kiharakarvainen noutaja",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
-{n:"Kiinanpalatsikoira (pekingeesi)",k:1,x:["Silmätutkimus (voimassa 36 kk)","BOAS-testi (raja-arvo 2)"]},
+{n:"Kiinanpalatsikoira (pekingeesi)",k:1,x:["Silmätutkimus (voimassa 36 kk)","BOAS-testi (raja-arvo 2)"],inc:1},
 {n:"Kingcharlesinspanieli",k:1,x:["Silmätutkimus (voimassa 36 kk)","Hyväksytty BOAS-testi","Sydämen auskultaatio (alaikäraja 24 kk, voimassa 12 kk)"]},
 {n:"Kultainennoutaja",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"C-lonkkainen vain A:n kanssa tai indeksien keskiarvo ≥ 101; kyynär 1 vain 0:n kanssa tai indeksit ≥ 101."},
 {n:"Kuvasz",h:[18,"C"],x:["Silmätutkimus (voimassa 12 kk)"]},
@@ -360,20 +361,20 @@ const BREEDS=[
 {n:"Kääpiösnautserit (kaikki värit)",x:["Silmätutkimus (voimassa 12 kk)"],np:0,note:"Nartun ikä astutushetkellä vähintään 18 kk, uroksen 12 kk."},
 {n:"Labradorinnoutaja",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Lagotto romagnolo",h:[12,"C"],x:["Silmätutkimus (voimassa 12 kk)"],note:"C-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101."},
-{n:"Lancashirenkarjakoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Lancashirenkarjakoira",k:"1",x:["Silmätutkimus (voimassa 12 kk)"],inc:1},
 {n:"Landseer",h:[18,"C"],e:[18,"1"]},
 {n:"Lapinporokoira",x:["Silmätutkimus ennen kolmatta astutusta (voimassa 24 kk)"],np:0,note:"Ikä astutushetkellä vähintään 22 kk."},
 {n:"Leonberginkoira",h:[18,"C"],e:[18,null],x:["Silmätutkimus (post. pol. KAT)"]},
 {n:"Lyhytkarvainen saksanseisoja",h:[12,"B"],e:[12,"0"]},
 {n:"Lyhytkarvainen unkarinvizsla",h:[12,"C"]},
-{n:"Maltankoira",k:"2"},
+{n:"Maltankoira",k:"2",inc:1},
 {n:"Manchesterinterrieri",x:["Silmätutkimus (voimassa 36 kk)","Sydämen auskultaatio (voimassa 36 kk)"],np:0,note:"PEVISA 1.7.2026 alkaen."},
 {n:"Mastiffi",h:[18,"C"],e:[18,"1"]},
-{n:"Medimurjenkoira",k:1,x:["Silmätutkimus (voimassa 24 kk)"]},
-{n:"Mopsi",k:"2",x:["Silmätutkimus (voimassa 24 kk)","BOAS-testi (raja-arvo 2)"]},
+{n:"Medimurjenkoira",k:1,x:["Silmätutkimus (voimassa 24 kk)"],inc:1},
+{n:"Mopsi",k:"2",x:["Silmätutkimus (voimassa 24 kk)","BOAS-testi (raja-arvo 2)"],inc:1},
 {n:"Mudi",h:[12,"C"],k:1,x:["Silmätutkimus"]},
 {n:"Musta tanskanpystykorva",h:[12,"B"],k:1},
-{n:"Mäyräkoirat (kaikki muunnokset)",k:"1",s:{t:["IDD"],o:"IDD-lausunto (kalkkeutuneet välilevyt) — mäyräkoirat kuuluvat Listaan 1, myös kaularanka kuvataan."},x:["Silmätutkimus (voimassa 24 kk)"],note:"Polvivaatimus koskee kääpiö- ja kaniinimäyräkoiria."},
+{n:"Mäyräkoirat (kaikki muunnokset)",k:"1",s:{t:["IDD"],o:"IDD-lausunto (kalkkeutuneet välilevyt) — mäyräkoirat kuuluvat Listaan 1, myös kaularanka kuvataan."},x:["Silmätutkimus (voimassa 24 kk)"],note:"Polvivaatimus koskee kääpiö- ja kaniinimäyräkoiria.",inc:1},
 {n:"Newfoundlandinkoira",h:[18,null],e:[18,null],x:["Sydämen UÄ + EKG tai auskultaatio laajan tutkimuksen jälkeen"]},
 {n:"Novascotiannoutaja",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 24 kk."},
 {n:"Owczarek podhalanski",h:[18,null],e:[18,"1"]},
@@ -395,7 +396,7 @@ const BREEDS=[
 {n:"Punainen irlanninsetteri",h:[12,"B"],note:"Vaihtoehtona lonkkaindeksi ≥ 102."},
 {n:"Pyreneittenkoira",h:[18,null],e:[18,null]},
 {n:"Pyreneittenmastiffi",h:[18,null],e:[18,null]},
-{n:"Ranskanbulldoggi",k:"1",s:{t:["LTV","SP","VA","IDD"],o:"Lista 1 + korkkiruuvihäntäinen rotu: kuvataan myös kaularanka ja VD-kuvat rinta- ja lannerangasta. VA4-tuloksen saanut paritettava VA0–VA2-koiran kanssa."},x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (voimassa 24 kk)","Hyväksytty BOAS-testi"]},
+{n:"Ranskanbulldoggi",k:"1",s:{t:["LTV","SP","VA","IDD"],o:"Lista 1 + korkkiruuvihäntäinen rotu: kuvataan myös kaularanka ja VD-kuvat rinta- ja lannerangasta. VA4-tuloksen saanut paritettava VA0–VA2-koiran kanssa."},x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (voimassa 24 kk)","Hyväksytty BOAS-testi"],inc:1},
 {n:"Rhodesiankoira",h:[18,"C"],e:[18,"1"],s:{t:["LTV","SP","VA"]}},
 {n:"Rottweiler",h:[12,"C"],e:[12,"1"],x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / virkakoira"],note:"Ikä astutushetkellä vähintään 24 kk."},
 {n:"Saarlooswolfhond",h:[12,null],e:[12,"2"],s:{t:["LTV"]},x:["Silmätutkimus (voimassa 24 kk)"],note:"Ikä astutushetkellä vähintään 18 kk. DNA-tunniste vaaditaan."},
@@ -407,9 +408,9 @@ const BREEDS=[
 {n:"Shar pei",k:"1",x:["Silmätutkimus (voimassa 36 kk)","SPAID-geenitesti (väh. toisella vanhemmista)"]},
 {n:"Shetlanninlammaskoira",h:[12,null],e:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Shiba",h:[12,null],e:[12,"1"],k:"2",x:["Silmätutkimus (voimassa 36 kk)"],note:"Nartun ikä vähintään 24 kk, uroksen 18 kk."},
-{n:"Shih tzu",k:"2",x:["Silmätutkimus","BOAS-testi (raja-arvo 2)"]},
+{n:"Shih tzu",k:"2",x:["Silmätutkimus","BOAS-testi (raja-arvo 2)"],inc:1},
 {n:"Sileäkarvainen noutaja",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
-{n:"Skyenterrieri",e:[12,null],k:1,note:"Kyynärnivelistä matalaraajaisten rotujen inkongruenssilausunto (INC)."},
+{n:"Skyenterrieri",e:[12,null],k:1,note:"Kyynärnivelistä matalaraajaisten rotujen inkongruenssilausunto (INC).",inc:1},
 {n:"Slovakiancuvac",h:[18,"C"],e:[18,"1"]},
 {n:"Spinone",h:[12,"C"],e:[12,null],x:["Koetulos ennen toista astutusta"]},
 {n:"Stabijhoun",h:[12,"C"],e:[12,"1"]},
@@ -421,14 +422,14 @@ const BREEDS=[
 {n:"Tanskalais-ruotsalainen pihakoira",h:[12,"C"],k:"1",x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Tanskandoggit (kaikki värit)",h:[18,null],e:[18,null],x:["Sydämen UÄ + EKG (1.7.2026 alkaen alaikäraja 24 kk, voimassa 12 kk)"]},
 {n:"Tiibetinmastiffi",h:[18,null],e:[18,"1"],x:["Silmätutkimus (voimassa 36 kk)"]},
-{n:"Tiibetinspanieli",k:"2",x:["Silmätutkimus (voimassa 24 kk)"]},
+{n:"Tiibetinspanieli",k:"2",x:["Silmätutkimus (voimassa 24 kk)"],inc:1},
 {n:"Tiibetinterrieri",h:[12,null],e:[12,null],k:1,x:["Silmätutkimus (voimassa 12 kk)"]},
 {n:"Tsekinpaimenkoira",h:[12,"C"],e:[12,"1"],s:{t:["LTV","VA"]},x:["Luonnetesti / MH / paimennuskoe / PK / virkakoira"]},
 {n:"Valkoinen ruotsinhirvikoira",h:[12,null],note:"Nartun ikä astutushetkellä vähintään 24 kk."},
 {n:"Valkoinenpaimenkoira",h:[18,"C"],e:[18,"1"],s:{t:["LTV"]},x:["Silmätutkimus (voimassa 24 kk)","Luonnetesti / MH / PK / IPOR-A / virkakoira"]},
 {n:"Vanhaenglanninlammaskoira",h:[12,"C"],e:[12,null],x:["Silmätutkimus (voimassa 12 kk)"]},
 {n:"Venäjänajokoira",h:[12,null],e:[12,null]},
-{n:"Venäjänbolonka",k:"2",x:["Silmätutkimus (voimassa 12 kk)"]},
+{n:"Venäjänbolonka",k:"2",x:["Silmätutkimus (voimassa 12 kk)"],inc:1},
 {n:"Venäjänmustaterrieri",h:[18,"C"],e:[18,"1"]},
 {n:"Venäjänspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen paritettava A-tuloksen saaneen kanssa."},
 {n:"Venäjäntoyt",k:1,x:["Silmätutkimus (voimassa 24 kk)","Sydämen auskultaatio (24 kk)"]},
@@ -436,13 +437,20 @@ const BREEDS=[
 {n:"Volpino italiano",k:"1",x:["Silmätutkimus (voimassa 24 kk)"],note:"Nartun ikä vähintään 24 kk, uroksen 18 kk."},
 {n:"Walesinspringerspanieli",h:[12,null],x:["Silmätutkimus (voimassa 24 kk)"]},
 {n:"Weimarinseisojat",h:[12,"C"],x:["Vähintään KAER 3 -koetulos"]},
-{n:"Welsh corgit (cardigan & pembroke)",h:[12,null],e:[12,null],s:{t:["LTV","SP","VA","IDD"],o:"Lista 1: myös kaularanka kuvataan. Kyynäristä inkongruenssi- tai dysplasialausunto."},x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101. Uusintayhdistelmät kielletty."},
+{n:"Welsh corgit (cardigan & pembroke)",h:[12,null],e:[12,null],s:{t:["LTV","SP","VA","IDD"],o:"Lista 1: myös kaularanka kuvataan. Kyynäristä inkongruenssi- tai dysplasialausunto."},x:["Silmätutkimus (voimassa 24 kk)"],note:"D-lonkkainen A/B:n kanssa tai indeksien keskiarvo ≥ 101. Uusintayhdistelmät kielletty.",inc:1},
 {n:"Whippet",s:{t:["LTV","VA"]},x:["Silmätutkimus (voimassa 24 kk)","Laaja sydäntutkimus (voimassa 24 kk)"],np:0,note:"PEVISA voimaan 1.1.2027. Ikä astutushetkellä vähintään 24 kk."},
 {n:"Yorkshirenterrieri",k:"2"},
+/* INC-lausuntorodut ilman muuta PEVISA-kuvausvaatimusta (Kennelliiton INC-rotulista 24.9.2025) */
+{n:"Alppienajokoira",inc:1},{n:"Basset artésien normand",inc:1},{n:"Bretagnenbassetti",inc:1},
+{n:"Gascognenbassetti",inc:1},{n:"Grand basset griffon vendéen",inc:1},{n:"Petit basset griffon vendéen",inc:1},
+{n:"Cairnterrieri",inc:1},{n:"Ceskyterrieri",inc:1},{n:"Dandiedinmontinterrieri",inc:1},{n:"Dreeveri",inc:1},
+{n:"Lhasa apso",inc:1},{n:"Länsigöötanmaanpystykorva",inc:1},{n:"Norfolkinterrieri",inc:1},{n:"Norwichinterrieri",inc:1},
+{n:"Portugalinpodengo, pieni",inc:1},{n:"Sealyhaminterrieri",inc:1},{n:"Skotlanninterrieri",inc:1},
+{n:"Länsiylämaanterrieri (valkoinen)",inc:1},
 /* yleisiä rotuja ilman PEVISA-kuvausvaatimuksia */
 {n:"Siperianhusky",np:1},{n:"Pomeranian (kääpiöpystykorva)",np:1},{n:"Villakoirat (kaikki koot)",np:1},
-{n:"Borderterrieri",np:1},{n:"Kooikerhondje",np:1},{n:"Beagle",np:1},{n:"Länsiylämaanterrieri",np:1},
-{n:"Cairnterrieri",np:1},{n:"Kleinspitz",np:1},{n:"Bostoninbulldoggi",np:1},
+{n:"Borderterrieri",np:1},{n:"Kooikerhondje",np:1},{n:"Beagle",np:1},
+{n:"Kleinspitz",np:1},{n:"Bostoninbulldoggi",np:1},
 {n:"Muu rotu (ei PEVISA-ohjelmaa)",np:1,other:1}
 ];
 
@@ -466,6 +474,17 @@ const TR={
 "<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät":"<b>Patellae centred</b> over the femurs — patellae must be visible on the image",
 "Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan":"Central beam at hip-joint level; include the <b>whole sacrum</b> and 1–2 lumbar vertebrae",
 "Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta":"Pelvis must be symmetric — a mispositioned image is left ungraded",
+// ── hip positioning (detailed) ──
+"Koira <b>selällään suoraan selkärangan varaan</b> (V-kouru/vaahtomuovituki), täysin rauhoitettuna/nukutettuna — lihasjännitys vääristää tulosta":"Dog in <b>dorsal recumbency, spine straight</b> (V-trough/foam support), fully sedated/anaesthetised — muscle tension distorts the result",
+"<b>Takaraajat vedetään taakse suoriksi ja sisäkierretään</b> niin, että reisiluut ovat yhdensuuntaiset keskenään ja röntgenpöydän tason suuntaiset":"<b>Hindlimbs extended caudally and internally rotated</b> so the femurs are parallel to each other and to the table plane",
+"<b>Polvilumpiot keskellä reisiluun telaa</b> (sulci) — oikea sisäkierto varmistettu, kun polvilumpio projisoituu reisiluun keskelle":"<b>Patellae centred over the femoral trochlea</b> (sulci) — correct internal rotation is confirmed when the patella projects over the femoral midline",
+"<b>Symmetria:</b> oikean ja vasemman <b>peittinaukot (foramen obturatum) yhtä suuret ja samanmuotoiset</b>, suoliluun siivet symmetriset, ristiluun okahaarakkeet keskilinjassa":"<b>Symmetry:</b> right and left <b>obturator foramina equal in size and shape</b>, iliac wings symmetric, sacral spinous processes on the midline",
+"Keskisäde lonkkaniveliin; kuvassa näyttävä <b>ristiluu kokonaan, 1–2 lannenikamaa</b> ja <b>polvinivelet</b> (reisiluun pituus arvioitavissa)":"Central beam on the hip joints; the image must show the <b>whole sacrum, 1–2 lumbar vertebrae</b> and the <b>stifles</b> (femoral length assessable)",
+"<b>Kierto:</b> peittinaukot eri kokoiset/-muotoiset tai ristiluun okahaarakkeet sivussa keskilinjasta":"<b>Rotation:</b> obturator foramina unequal in size/shape, or sacral spinous processes off the midline",
+"<b>Reisiluut vinossa</b> (ei yhdensuuntaiset) tai riittämättömästi sisäkierretyt — polvilumpiot reisiluun reunalla":"<b>Femurs oblique</b> (not parallel) or insufficiently internally rotated — patellae at the femoral edge",
+"Riittämätön rauhoitus → lihasjännitys pitää lonkat tiukalla (näennäisen hyvä asema peittää löysyyttä)":"Insufficient sedation → muscle tension holds the hips tight (a falsely good position masks laxity)",
+"Ristiluu, lonkkanivelet tai polvet eivät kokonaan kuvassa":"Sacrum, hip joints or stifles not fully in the image",
+"Yli-/alivalotus tai rakeisuus estää nivelraon ja reunojen arvioinnin":"Over/under-exposure or graininess prevents assessment of the joint space and margins",
 // ── elbow positioning ──
 "<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa":"<b>Both elbows</b> imaged in the same session, under sedation",
 "Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>":"Lateral view of the joint in <b>~45° flexion</b>",
@@ -527,6 +546,21 @@ const TR={
 "Vaikea: edellisiä vakavammat muutokset":"Severe: changes more advanced than the above",
 "IDD — kalkkeutuneet välilevyt (alaikäraja 24 kk, vain Lista 1:n rodut)":"IDD — calcified discs (min age 24 mo, List 1 breeds only)",
 "1–2 kalkkeutunutta välilevyä":"1–2 calcified discs","3–4 kalkkeutunutta välilevyä":"3–4 calcified discs","≥ 5 kalkkeutunutta välilevyä":"≥ 5 calcified discs",
+// ── INC (elbow incongruity) ──
+"Kyynärnivelen INC-kuvaus (inkongruenssi)":"Elbow INC radiograph (incongruity)",
+"ML-kuva · neutraaliasento ≥ 90° · molemmat nivelet":"ML view · neutral position ≥ 90° · both joints",
+"Eturaajat <b>mediolateraaliprojektiossa</b>, kyynärnivel <b>neutraalissa asennossa</b> (avautumiskulma ≥ 90°)":"Front legs in <b>mediolateral projection</b>, elbow in <b>neutral position</b> (opening angle ≥ 90°)",
+"Olkaluun nivelnastat mahdollisimman <b>päällekkäin</b> niin, että nivelrako erottuu":"Humeral condyles as <b>superimposed</b> as possible so the joint space is visible",
+"Kyynärnivel ja kyynärvarsi <b>kokonaan</b> kuvassa":"Elbow and forearm <b>fully</b> in the image",
+"Rajaus tiivis; yli-/alivalotus tai rakeisuus estää arvostelun":"Tightly collimated; over/under-exposure or graininess prevents grading",
+"Nivelnastat eivät päällekkäin — nivelrako ei erotu":"Condyles not superimposed — joint space not visible",
+"Kyynärnivel ei neutraalissa asennossa (kulma < 90°) / ylikoukistus":"Elbow not in neutral position (angle < 90°) / over-flexion",
+"Kyynärnivel tai kyynärvarsi ei kokonaan kuvassa":"Elbow or forearm not fully in the image",
+"INC-arvosteluasteikko (kyynärnivelen inkongruenssi)":"INC grading scale (elbow incongruity)",
+"Normaali: nivelrako kapea ja tasainen, ei porrasta, ei nivelrikkoa":"Normal: joint space narrow and even, no step, no osteoarthritis",
+"Lievä: pieni porras tai ≤ 2 mm rako, ei nivelrikkoa":"Mild: small step or ≤ 2 mm gap, no osteoarthritis",
+"Kohtalainen: porras tai 2–3 mm rako":"Moderate: step, or 2–3 mm gap",
+"Vaikea: ≥ 3 mm rako tai porras / selvästi epämuotoinen nivel":"Severe: ≥ 3 mm gap or step / clearly deformed joint",
 // ── breed reminders (x) ──
 "BOAS-testi (raja-arvo 2)":"BOAS test (limit grade 2)","CMR1- ja MFE-geenitestit":"CMR1 and MFE gene tests",
 "COMMD-1-geenitesti (kuparitoksikoosi)":"COMMD-1 gene test (copper toxicosis)","DSRA-geenitesti (väh. toisella vanhemmista)":"DSRA gene test (at least one parent)",
@@ -586,7 +620,8 @@ const TR={
 "Raja-arvo SP3: SP3-tuloksen saanut paritettava SP0/SP1-koiran kanssa.":"Limit SP3: an SP3 dog must be paired with an SP0/SP1 dog.",
 "Selkälausunnon alaikäraja 18 kk.":"Spine statement min age 18 mo.","Selkälausunnon alaikäraja 24 kk.":"Spine statement min age 24 mo.",
 "Selkälausunnot vaaditaan ennen toista pentuetta. LTV 1–4 → kumppanin oltava LTV0.":"Spine statements required before the 2nd litter. LTV 1–4 → partner must be LTV0.",
-"Uusintayhdistelmät kielletty.":"Repeat matings prohibited.","Vaihtoehtona lonkkaindeksi ≥ 102.":"Alternative: hip index ≥ 102."
+"Uusintayhdistelmät kielletty.":"Repeat matings prohibited.","Vaihtoehtona lonkkaindeksi ≥ 102.":"Alternative: hip index ≥ 102.",
+"Kyynärnivelestä voidaan antaa ED-dysplasialausunnon lisäksi INC-inkongruenssilausunto (koiralla oltava ensin ED-lausunto). Ei PEVISA-pakko.":"The elbow can receive an INC incongruity statement in addition to the ED dysplasia statement (the dog must have an ED statement first). Not PEVISA-required."
 };
 function tr(s){ if(lang==="fi"||s==null) return s; return TR[s]!==undefined?TR[s]:s; }
 /* U: UI chrome strings, per language (dynamic templates as functions). */
@@ -635,8 +670,12 @@ const U={
    "<b>Submit images in DICOM to Kennelliitto's receiving system</b> — the statement is usually ready in ~a week and stored in KoiraNet"
  ]},
  clLimits:{fi:"<b>Yleiset jalostuskäytön raja-arvot</b> (ellei rodun PEVISA tiukempi): lonkat D · kyynärpäät 2 · kyynärnivelen inkongruenssi 2 · polvilumpioluksaatio 3 · spondyloosi SP3. Tutkimusten oltava voimassa astutushetkellä.",en:"<b>General breeding limits</b> (unless the breed's PEVISA is stricter): hips D · elbows 2 · elbow incongruity 2 · patellar luxation 3 · spondylosis SP3. Statements must be valid at mating."},
- discl:{fi:"Röntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. Tämä on klinikan sisäinen työkalu (tiedot koottu 8.7.2026). PEVISA-ehdot muuttuvat vuosittain — varmista aina ajantasaiset vaatimukset Kennelliitosta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä.",en:"The radiographs are genuine images taken on Eläinklinikka Saari's own equipment, with patient data removed. This is an internal clinic tool (data compiled 8 Jul 2026). PEVISA conditions change yearly — always confirm current requirements with Kennelliitto. Age limits refer to the dog's age at imaging."},
- srcLabel:{fi:"Lähteet:",en:"Sources:"}
+ discl:{fi:"Röntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. Tämä on klinikan sisäinen työkalu (tiedot koottu 8.7.2026, INC-rotulista 24.9.2025). PEVISA-ehdot ja INC-rotulista muuttuvat — varmista aina ajantasaiset vaatimukset Kennelliitosta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä.",en:"The radiographs are genuine images taken on Eläinklinikka Saari's own equipment, with patient data removed. This is an internal clinic tool (data compiled 8 Jul 2026, INC breed list 24 Sep 2025). PEVISA conditions and the INC list change — always confirm current requirements with Kennelliitto. Age limits refer to the dog's age at imaging."},
+ otherImg:{fi:"<b>Muut viralliset kuvantamislausunnot:</b> Kyynär- ja olkanivelistä voidaan antaa lausunto myös <b>TT-kuvauksesta (CT)</b> — joko ensisijaisena tai ED/OC-röntgenlausuntoa tarkentavana (tehtävä 3 kk kuluessa ensikuvauksesta); TT-lausunto on lopullinen eikä siitä voi valittaa. <b>Syringomyelia (SM/Chiari)</b> tutkitaan <b>magneettikuvauksella (MRI)</b> mm. cavalier kingcharlesinspanieleilla ja griffoneilla (alaikäraja oireettomalla 18 kk).",en:"<b>Other official imaging statements:</b> Elbows and shoulders can also be assessed by <b>CT (TT-kuvaus)</b> — either as the primary method or to clarify an ED/OC radiograph result (must be done within 3 months of the first imaging); a CT statement is final and cannot be appealed. <b>Syringomyelia (SM/Chiari)</b> is screened by <b>MRI</b> in e.g. Cavalier King Charles Spaniels and Griffons (min age 18 mo if asymptomatic)."},
+ srcLabel:{fi:"Lähteet:",en:"Sources:"},
+ incVol:{fi:"vapaaehtoinen",en:"voluntary"},
+ incMandNote:{fi:"Matalaraajainen rotu — kyynärnivel arvostellaan INC-inkongruenssimenetelmällä (ei IEWG-ED-asteikolla). Jalostuksen raja-arvo INC2.",en:"Short-legged breed — the elbow is graded by the INC incongruity method (not the IEWG ED scale). Breeding limit INC2."},
+ incBanner:{fi:"Rotu kuuluu matalaraajaisten rotujen <b>INC-lausuntorotuihin</b> (Kennelliiton inkongruenssiohje): kyynärnivel arvostellaan inkongruenssimenetelmällä. PEVISA <b>ei vaadi</b> kyynärkuvausta tälle rodulle — INC-lausunto on vapaaehtoinen mutta saatavilla.",en:"This breed is on the short-legged breeds' <b>INC-statement list</b> (Kennelliitto incongruity guideline): the elbow is graded by the incongruity method. PEVISA <b>does not require</b> elbow imaging for this breed — an INC statement is voluntary but available."}
 };
 function uu(k){return U[k]?U[k][lang]:k}
 
@@ -648,9 +687,9 @@ const STUDIES={
 hip:{code:"HD",title:"Lonkkakuvaus",cap:"VD-kuva · suora veto · selällään",svg:xr("hip.jpg","Koiran lonkkien virallinen VD-röntgenkuva, reisiluut yhdensuuntaisina"),
  scale:{name:"FCI:n arvosteluasteikko (lonkat)",rows:[["A","Ei muutoksia"],["B","Lähes normaali / rajatapaus"],["C","Lievä dysplasia"],["D","Kohtalainen (keskivaikea) dysplasia"],["E","Vaikea dysplasia"]]},
  redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
- pos:["Koira <b>selällään</b> selkätuen/vaahtomuovikourun varassa, rauhoitettuna","<b>Reisiluut vedetään suoriksi</b> röntgenpöydän suuntaisesti ja keskenään yhdensuuntaisiksi","<b>Polvilumpioiden</b> oltava keskellä reisiluita — kuvassa polvilumpiot näkyvät","Keskisäde lonkkanivelten korkeudelle; <b>ristiluu kokonaan</b> ja 1–2 lannenikamaa mukaan kuvaan","Lantion oltava symmetrinen — virheasennossa otettu kuva jätetään arvostelematta"],
+ pos:["Koira <b>selällään suoraan selkärangan varaan</b> (V-kouru/vaahtomuovituki), täysin rauhoitettuna/nukutettuna — lihasjännitys vääristää tulosta","<b>Takaraajat vedetään taakse suoriksi ja sisäkierretään</b> niin, että reisiluut ovat yhdensuuntaiset keskenään ja röntgenpöydän tason suuntaiset","<b>Polvilumpiot keskellä reisiluun telaa</b> (sulci) — oikea sisäkierto varmistettu, kun polvilumpio projisoituu reisiluun keskelle","<b>Symmetria:</b> oikean ja vasemman <b>peittinaukot (foramen obturatum) yhtä suuret ja samanmuotoiset</b>, suoliluun siivet symmetriset, ristiluun okahaarakkeet keskilinjassa","Keskisäde lonkkaniveliin; kuvassa näyttävä <b>ristiluu kokonaan, 1–2 lannenikamaa</b> ja <b>polvinivelet</b> (reisiluun pituus arvioitavissa)"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
- reject:["Epäsymmetrinen lantio tai kierto — reisiluut eri asennossa","Reisiluut eivät yhdensuuntaiset / eivät suorassa vedossa","Polvilumpiot pois reisiluun keskeltä (rotaatio)","Ristiluu tai lonkkanivelet eivät kokonaan kuvassa","Yli- tai alivalotus / rakeisuus estää arvostelun"]},
+ reject:["<b>Kierto:</b> peittinaukot eri kokoiset/-muotoiset tai ristiluun okahaarakkeet sivussa keskilinjasta","<b>Reisiluut vinossa</b> (ei yhdensuuntaiset) tai riittämättömästi sisäkierretyt — polvilumpiot reisiluun reunalla","Riittämätön rauhoitus → lihasjännitys pitää lonkat tiukalla (näennäisen hyvä asema peittää löysyyttä)","Ristiluu, lonkkanivelet tai polvet eivät kokonaan kuvassa","Yli-/alivalotus tai rakeisuus estää nivelraon ja reunojen arvioinnin"]},
 elbow:{code:"ED",title:"Kyynärnivelkuvaus",cap:"ML-kuva · ~45° koukistus · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen virallinen ML-röntgenkuva noin 45 asteen koukistuksessa"),
  scale:{name:"IEWG:n arvosteluasteikko (kyynärnivelet)",rows:[["0","Ei muutoksia"],["1","Lievät nivelrikkomuutokset (≤ 2 mm)"],["2","Kohtalaiset muutokset (≤ 5 mm) ja/tai muutoksia varislisäkkeessä, lievä epämuotoisuus"],["3","Voimakkaat muutokset / kiinnittymätön processus anconaeus"]]},
  redo:"Uusintakuvaus aikaisintaan 6 kk kuluttua",
@@ -668,7 +707,13 @@ oc:{code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat 
  redo:"",
  pos:["<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa","Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä","OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
- reject:["Olkanivel ei erotu vapaana — projisoituu rintakehän päälle","Rotaatio peittää olkaluun pään kaudaalipinnan","Yli-/alivalotus estää arvostelun"]}
+ reject:["Olkanivel ei erotu vapaana — projisoituu rintakehän päälle","Rotaatio peittää olkaluun pään kaudaalipinnan","Yli-/alivalotus estää arvostelun"]},
+inc:{code:"INC",title:"Kyynärnivelen INC-kuvaus (inkongruenssi)",cap:"ML-kuva · neutraaliasento ≥ 90° · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen mediolateraalinen röntgenkuva inkongruenssin arviointia varten"),
+ scale:{name:"INC-arvosteluasteikko (kyynärnivelen inkongruenssi)",rows:[["INC0","Normaali: nivelrako kapea ja tasainen, ei porrasta, ei nivelrikkoa"],["INC1","Lievä: pieni porras tai ≤ 2 mm rako, ei nivelrikkoa"],["INC2","Kohtalainen: porras tai 2–3 mm rako"],["INC3","Vaikea: ≥ 3 mm rako tai porras / selvästi epämuotoinen nivel"]]},
+ redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
+ pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Eturaajat <b>mediolateraaliprojektiossa</b>, kyynärnivel <b>neutraalissa asennossa</b> (avautumiskulma ≥ 90°)","Olkaluun nivelnastat mahdollisimman <b>päällekkäin</b> niin, että nivelrako erottuu","Kyynärnivel ja kyynärvarsi <b>kokonaan</b> kuvassa","Rajaus tiivis; yli-/alivalotus tai rakeisuus estää arvostelun"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
+ reject:["Nivelnastat eivät päällekkäin — nivelrako ei erotu","Kyynärnivel ei neutraalissa asennossa (kulma < 90°) / ylikoukistus","Kyynärnivel tai kyynärvarsi ei kokonaan kuvassa","Yli-/alivalotus tai rakeisuus estää arvostelun"]}
 };
 const SPINE_SCALES=[
  {name:"LTV — välimuotoinen lanne-ristinikama (alaikäraja 12 kk)",rows:[["LTV0","Ei muutoksia"],["LTV1","Jakautunut ristiluun keskiharjanne (S1–S2) tai muu lievä poikkeama"],["LTV2","Symmetrinen välimuotoinen lanne-ristinikama"],["LTV3","Epäsymmetrinen lanne-ristinikama"],["LTV4","6 tai 8 lannenikamaa"]]},
@@ -722,7 +767,10 @@ function render(breed,dob){
   const ge=" ≥ ",U2=uu("kvAgeUnit");
   let films=[],chips=[],extras=[];
   if(breed.h){const a=breed.h[0];chips.push(`<span class="chip req">${uu("chipHip")}${ge}${a} ${U2}</span>`);films.push(filmHTML(STUDIES.hip,a,breed.h[1]?`${uu("accepted")} ${breed.h[1]} ${uu("orBetter")}`:null,dob))}
-  if(breed.e){const a=breed.e[0];chips.push(`<span class="chip req">${uu("chipElbow")}${ge}${a} ${U2}</span>`);films.push(filmHTML(STUDIES.elbow,a,breed.e[1]!=null?`${uu("accepted")} ${breed.e[1]} ${uu("orBetter")}`:null,dob))}
+  if(breed.e&&!breed.inc){const a=breed.e[0];chips.push(`<span class="chip req">${uu("chipElbow")}${ge}${a} ${U2}</span>`);films.push(filmHTML(STUDIES.elbow,a,breed.e[1]!=null?`${uu("accepted")} ${breed.e[1]} ${uu("orBetter")}`:null,dob))}
+  if(breed.inc){const mand=!!breed.e,a=mand?breed.e[0]:12;
+    chips.push(mand?`<span class="chip req">${uu("chipElbow")} INC${ge}${a} ${U2}</span>`:`<span class="chip">${uu("chipElbow")} INC · ${uu("incVol")}</span>`);
+    films.push(filmHTML(STUDIES.inc,a,mand&&breed.e[1]!=null?`${uu("accepted")} ${breed.e[1]} ${uu("orBetter")}`:null,dob,mand?uu("incMandNote"):null))}
   if(breed.s){const types=breed.s.t;const needSP=types.includes("SP")||types.includes("IDD");const a=breed.s.a||(needSP?24:12);
     chips.push(`<span class="chip req">${uu("chipSpine")} (${types.join("+")})${ge}${a} ${U2}</span>`);
     films.push(filmHTML(STUDIES.spine,a,null,dob,breed.s.o||null,types))}
@@ -735,6 +783,7 @@ function render(breed,dob){
   if(breed.other){banner=`<div class="banner info">${uu("bNoProg")}</div>`}
   else if(breed.np===1){banner=`<div class="banner none"><b>${breed.n}</b> — ${uu("bNp")}</div>`}
   else if(!hasXray){banner=`<div class="banner info">${uu("bNoXray")}</div>`}
+  if(breed.inc&&!breed.e)banner+=`<div class="banner info">${uu("incBanner")}</div>`;
   if(breed.note)banner+=`<div class="banner info">ℹ ${tr(breed.note)}</div>`;
 
   R.innerHTML=`
@@ -810,6 +859,7 @@ function applyChrome(){
   $("#breed").placeholder=uu("placeholder");
   $("#t-hint").textContent=uu("hint");
   $("#t-src").textContent=uu("srcLabel")+" ";
+  $("#t-otherimg").innerHTML=uu("otherImg");
   $("#t-disc").textContent=uu("discl");
   document.querySelectorAll(".langtoggle button").forEach(b=>b.classList.toggle("on",b.dataset.lang===lang));
 }
