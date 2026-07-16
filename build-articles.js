@@ -961,7 +961,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   fbq('init', '2008398676469644');
   fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
+  <noscript><img alt="" height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=2008398676469644&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
@@ -3236,9 +3236,10 @@ function generateServicePage(service, translations, lang) {
     // emit it as-is; otherwise wrap in <p> for backwards compatibility with services
     // that store plain inline text + <strong>.
     const isBlock = /^\s*<(p|ul|ol|div|h[1-6])\b/i.test(section.text);
+    const sectionHtml = linkifyPhones(section.text);
     sectionsHtml += `
           <h2>${escapeHtml(section.heading)}</h2>
-          ${isBlock ? section.text : `<p>${section.text}</p>`}`;
+          ${isBlock ? sectionHtml : `<p>${sectionHtml}</p>`}`;
   }
 
   // Build related articles — translate titles/tags/intros per page language
@@ -4655,7 +4656,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <h2>Aukioloajat</h2>
           <p>Ma–Pe: 7:45–17:00<br>
           La–Su: Suljettu</p>
-          <p>Vastaanotto toimii ajanvarauksella. Suosittelemme varaamaan ajan etukäteen, jotta voimme varata riittävästi aikaa lemmikkisi hoitoon. Päivystystilanteissa soita numeroon (06) 321 7300, niin opastamme sinut oikean päivystävän klinikan puoleen.</p>
+          <p>Vastaanotto toimii ajanvarauksella. Suosittelemme varaamaan ajan etukäteen, jotta voimme varata riittävästi aikaa lemmikkisi hoitoon. Päivystystilanteissa soita numeroon <a href="tel:+35863217300">(06) 321 7300</a>, niin opastamme sinut oikean päivystävän klinikan puoleen.</p>
 
           <h2>Ajanvaraus</h2>
           <p>Voit varata ajan kahdella tavalla:</p>
@@ -4666,7 +4667,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <p>Ota vastaanotolle mukaan lemmikin mahdolliset aiemmat hoitotiedot tai epikriisit, voimassa oleva lääkitys sekä rokotuskortti. Jos lemmikillä on vakuutus, ota mukaan vakuutustodistus — teemme suorakorvauksen Lähitapiolan, Agrian ja Pohjolan vakuutuksille. Kissapotilaat tulisi tuoda kuljetuskopassa ja koirat talutushihnassa.</p>
 
           <h2>Hätätilanteet</h2>
-          <p>Klinikkamme ei tarjoa ympärivuorokautista päivystystä. Hätätilanteissa aukioloaikojen ulkopuolella soita klinikan numeroon (06) 321 7300, jossa puhelinvastaaja ohjaa lähimpään päivystävään klinikkaan. Akuuteissa hengenvaarallisissa tilanteissa ota välittömästi yhteyttä päivystävään eläinlääkäriin.</p>
+          <p>Klinikkamme ei tarjoa ympärivuorokautista päivystystä. Hätätilanteissa aukioloaikojen ulkopuolella soita klinikan numeroon <a href="tel:+35863217300">(06) 321 7300</a>, jossa puhelinvastaaja ohjaa lähimpään päivystävään klinikkaan. Akuuteissa hengenvaarallisissa tilanteissa ota välittömästi yhteyttä päivystävään eläinlääkäriin.</p>
 
           <h2>Sijainti kartalla</h2>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.5!2d21.5967!3d63.0883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d6007bf4e31b1%3A0x3e189f57a09e4f42!2sGerbyntie%2018%2C%2065230%20Vaasa!5e0!3m2!1sfi!2sfi!4v1700000000000" width="100%" height="350" style="border:0;border-radius:var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eläinklinikka Saari kartalla"></iframe>
@@ -5089,6 +5090,25 @@ function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+// Wrap the clinic and emergency phone numbers in tel: links in visible HTML.
+// Numbers already inside an <a>…</a> are left alone, so existing links and
+// CTA buttons never get double-wrapped. Apply only to rendered HTML, never to
+// JSON-LD schema strings (those must stay plain text).
+const PHONE_PATTERNS = [
+  { re: /\(06\) 321 7300/g, tel: '+35863217300' },
+  { re: /\b06 321 7300/g, tel: '+35863217300' },
+  { re: /\b0600 399 299/g, tel: '+358600399299' },
+];
+function linkifyPhones(html) {
+  return html.split(/(<a\b[\s\S]*?<\/a>)/).map((part, i) => {
+    if (i % 2 === 1) return part; // inside an existing anchor
+    return PHONE_PATTERNS.reduce(
+      (s, p) => s.replace(p.re, (m) => `<a href="tel:${p.tel}">${m}</a>`),
+      part
+    );
+  }).join('');
+}
+
 function getArticlesUrl(lang) {
   if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
   if (lang === 'en') return `${BASE_URL}/en/articles/`;
@@ -5117,7 +5137,7 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>
           <a href="${articlesUrl}">${escapeHtml(nav.articles)}</a>
-          <a href="${bookingUrl}" target="_blank" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
+          <a href="${bookingUrl}" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
         </div>
 
         <div class="nav-actions">
@@ -5126,7 +5146,7 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
             <a href="${svUrl}" class="${lang === 'sv' ? 'active' : ''}"${lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
             <a href="${enUrl}" class="${lang === 'en' ? 'active' : ''}"${lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
           </div>
-          <a href="${bookingUrl}" target="_blank" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
+          <a href="${bookingUrl}" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
         </div>
 
         <button class="mobile-menu-btn" aria-label="Menu">
