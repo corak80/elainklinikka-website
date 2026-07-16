@@ -343,6 +343,25 @@ const articles = [
     skipBuild: true
   },
   {
+    // Hand-authored trilingual article (published 10-07-2026, files maintained
+    // directly like siili above). publishDate is a sort key only — it keeps the
+    // index card next to the related siili article, matching the hand placement.
+    // Card texts are inline (manual) because js/main.src.js has no keys for it.
+    slug: 'siilinpoikanen',
+    slugSv: 'igelkottsunge',
+    slugEn: 'found-a-baby-hedgehog',
+    category: 'wildlife',
+    date: '2026',
+    publishDate: '2026-02-16',
+    prefix: 'article.hedgehogbaby',
+    skipBuild: true,
+    manual: {
+      fi: { tag: 'Wildlife', title: 'Löysitkö siilinpoikasen? Näin autat oikein', intro: 'Joka kesä joku löytää pihalta tai polulta pienen siilin, joka vaeltaa yksin keskellä päivää – ja ensimmäinen ajatus on ottaa se syliin ja auttaa. Joskus se pelastaa hengen. Yhtä usein se tekee terveestä poikasesta vahingossa orvon, vaikka emo oli vain muutaman metrin päässä. Tämä opas auttaa erottamaan nämä tilanteet toisistaan ja kertoo tarkalleen, mitä tehdä – suomalaisittain ja Suomen lain mukaan.' },
+      sv: { tag: 'Wildlife', title: 'Hittat en igelkottsunge i Vasa? Så här gör du rätt', intro: 'Varje sommar hittar någon en pytteliten igelkott ensam på gården, på en stig eller ute mitt på ljusa dagen – och den första ingivelsen är att lyfta upp den för att hjälpa. Ibland räddar den ingivelsen ett liv. Lika ofta gör den av misstag en frisk unge föräldralös, en unge vars mamma bara var någon meter bort. Den här guiden hjälper dig att se skillnaden, och visar exakt vad du ska göra – på finländskt vis och inom ramen för den finländska lagen.' },
+      en: { tag: 'Wildlife', title: 'Found a Baby Hedgehog? What to Do — A Finnish Guide', intro: 'Every summer, people find a tiny hedgehog alone in the garden, on a path, or out in daylight — and their first instinct is to scoop it up and help. Sometimes that instinct saves a life. Just as often, it accidentally orphans a healthy baby whose mother was only metres away. This guide helps you tell the difference, and shows exactly what to do — the Finnish way, and within Finnish law.' },
+    },
+  },
+  {
     slug: 'kissaystävällinen-klinikka',
     slugSv: 'kattvanlig-klinik',
     slugEn: 'cat-friendly-clinic',
@@ -1103,7 +1122,8 @@ ${relatedHtml}
           <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">${escapeHtml(fnav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
-          <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${ARTICLES_FOOTER_URLS[lang] || ARTICLES_FOOTER_URLS.fi}">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
         </div>
         <div class="footer-col">
@@ -1167,9 +1187,9 @@ const ARTICLE_INDEX_I18N = {
   },
   sv: {
     htmlLang: 'sv',
-    pageTitle: 'Artiklar | Djurklinik Saari',
+    pageTitle: 'Veterinärmedicinska artiklar | Djurklinik Saari',
     pageDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi, vaccinationer och mycket mer. Djurklinik Saari, Vasa.',
-    ogTitle: 'Artiklar | Djurklinik Saari',
+    ogTitle: 'Veterinärmedicinska artiklar | Djurklinik Saari',
     ogDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi, vaccinationer och mycket mer.',
     twDesc: 'Veterinärmedicinska artiklar: tandvård, kirurgi, hjärtsjukdomar, endoskopi och mycket mer.',
     h1: 'Artiklar',
@@ -1246,9 +1266,10 @@ function generateArticleIndex(translations, lang) {
   const sorted = [...articles].sort((a, b) => (b.publishDate || '').localeCompare(a.publishDate || ''));
   let cardsHtml = '';
   for (const article of sorted) {
-    const title = t(article.titleKey);
-    const intro = t(`${article.prefix}.intro`);
-    const tag = t(article.tagKey);
+    const m = article.manual && (article.manual[lang] || article.manual.fi);
+    const title = m ? m.title : t(article.titleKey);
+    const intro = m ? m.intro : t(`${article.prefix}.intro`);
+    const tag = m ? m.tag : t(article.tagKey);
     const slug = articleSlug(article, lang);
     const cat = article.category || 'health';
     const year = article.date || '2026';
@@ -1404,6 +1425,7 @@ ${cardsHtml}
           <a href="/meista/">${escapeHtml(i18n.footerAboutPage)}</a>
           <a href="/yhteystiedot/">${escapeHtml(i18n.footerContact)}</a>
           <a href="${indexPath}">${escapeHtml(i18n.footerArticles)}</a>
+          <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="/media/">${escapeHtml(i18n.footerMedia)}</a>
         </div>
         <div class="footer-col">
@@ -1459,7 +1481,8 @@ const servicePages = [
       { heading: 'Toipuminen hammashoidosta', text: 'Kotiutus tapahtuu yleensä saman päivän aikana ja lemmikki voidaan noutaa iltapäivällä. Suosittelemme pehmeää ruokaa 1–3 vuorokauden ajan, erityisesti jos hampaita on poistettu. Kivunlievitykseen annetaan kotiin tarvittaessa tulehduskipulääkitystä ja käyttöohjeet. Useimmat lemmikit palaavat normaaliin ruokailuun ja leikkimieleen 24–48 tunnin kuluessa. Jos toimenpiteen aikana on poistettu hampaita tai tehty ientoimenpiteitä, kontrollikäynti varataan 5 päivän päähän suun paranemisen varmistamiseksi.' },
     ],
     sv: {
-      title: 'Tandvård | Djurklinik Saari',
+      title: 'Tandvård för hund och katt i Vasa | Djurklinik Saari',
+      ogTitle: 'Tandvård för hund och katt i Vasa | Djurklinik Saari',
       h1: 'Tandvård',
       metaDesc: 'Tandvård för hund och katt i Vasa. Tandstensborttagning, dentalröntgen, tandextraktioner. Alla ingrepp under generell anestesi. Eläinklinikka Saari.',
       sections: [
@@ -1633,7 +1656,8 @@ const servicePages = [
       { heading: 'Varaa aika konsultaatioon', text: 'Jos lemmikkisi tarvitsee kirurgista arviota, varaa aika konsultaatioon. Tutkimme potilaan, arvioimme toimenpiteiden tarpeen ja suunnittelemme parhaan hoitolinjan yhdessä omistajan kanssa. Hoidot annetaan samalla klinikalla tuttujen eläinlääkäreiden toimesta — lemmikin ei tarvitse matkustaa muualle.' },
     ],
     sv: {
-      title: 'Kirurgi | Djurklinik Saari',
+      title: 'Veterinärkirurgi i Vasa | Djurklinik Saari',
+      ogTitle: 'Veterinärkirurgi i Vasa | Djurklinik Saari',
       h1: 'Kirurgi',
       metaDesc: 'Veterinärkirurgi i Vasa: mjukdelskirurgi, ortopedi, TTA, lateral suture, frakturoperationer. Säker anestesi och smärtlindring. Eläinklinikka Saari.',
       sections: [
@@ -1661,7 +1685,8 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Surgery | Saari Animal Clinic',
+      title: 'Veterinary Surgery in Vaasa | Saari Animal Clinic',
+      ogTitle: 'Veterinary Surgery in Vaasa | Saari Animal Clinic',
       h1: 'Surgery',
       metaDesc: 'Veterinary surgery in Vaasa: soft tissue, orthopaedics, TTA, lateral suture, fracture repair. Safe anaesthesia. Eläinklinikka Saari.',
       sections: [
@@ -1717,7 +1742,8 @@ const servicePages = [
       { heading: 'Usein kysyttyä tähystyksistä', text: '<strong>Onko tähystys kivuliasta?</strong> Tähystystutkimukset tehdään yleisanestesiassa, joten lemmikki ei tunne kipua toimenpiteen aikana. Toimenpiteen jälkeen potilas voi tuntea lievää vatsavaivaa, mutta toipuminen on yleensä nopeaa — useimmat potilaat kotiutetaan saman päivän aikana. <strong>Kuinka nopeasti tulokset saadaan?</strong> Tähystyksen aikana otetut löydökset ja kuvat arvioidaan heti toimenpiteen jälkeen. Jos koepalojen näytteitä lähetetään patologin tutkittavaksi, vastaukset saadaan yleensä 5–10 arkipäivässä. Eläinlääkäri käy tulokset läpi omistajan kanssa ja laatii hoitosuunnitelman.' },
     ],
     sv: {
-      title: 'Endoskopi | Djurklinik Saari',
+      title: 'Endoskopi för husdjur i Vasa | Djurklinik Saari',
+      ogTitle: 'Endoskopi för husdjur i Vasa | Djurklinik Saari',
       h1: 'Endoskopi',
       metaDesc: 'Endoskopi i Vasa: gastroskopi, video-otoskopi, rinoskopi, cystoskopi, bronkoskopi. Minimalt invasiv diagnostik för husdjur. Eläinklinikka Saari.',
       sections: [
@@ -1858,7 +1884,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä ultraäänitutkimuksista', text: '<strong>Tarvitaanko ultraäänitutkimukseen rauhoitusta?</strong> Valtaosa ultraäänitutkimuksista tehdään hereillä olevalle potilaalle ilman rauhoitusta. Tutkimus on kivuton — ainoa valmistelu on tutkimusalueen karvojen ajelu ja ultraäänigeeelin levittäminen iholle. Erityisen levottomille tai jännittyneille potilaille voidaan antaa kevyt rauhoitus. <strong>Kauanko ultraäänitutkimus kestää?</strong> Vatsan ultraäänitutkimus kestää yleensä 20–40 minuuttia riippuen löydöksistä ja tutkimuksen laajuudesta. Sydämen ultraääni vie noin 15–30 minuuttia. Tiineystutkimus on nopein ja kestää yleensä 10–15 minuuttia. Tulokset kerrotaan omistajalle heti tutkimuksen jälkeen.' },
     ],
     sv: {
-      title: 'Ultraljud | Djurklinik Saari',
+      title: 'Ultraljud för husdjur i Vasa | Djurklinik Saari',
       h1: 'Ultraljudsundersökningar',
       metaDesc: 'Ultraljudsundersökningar i Vasa: bukens ultraljud, hjärtultraljud, dräktighetsundersökning. Högkvalitativ diagnostik för husdjur. Eläinklinikka Saari.',
       sections: [
@@ -2109,7 +2135,8 @@ const servicePages = [
       { heading: 'Usein kysyttyä akupunktiosta', text: '<strong>Kuinka monta hoitokertaa tarvitaan?</strong> Tyypillisesti akupunktion vaikutus nähdään 3–4 hoitokerran jälkeen. Akuuteissa kiputiloissa helpotus voi tulla jo ensimmäisen hoidon jälkeen. Kroonisissa tiloissa, kuten nivelrikossa, hoitoja annetaan aluksi viikoittain ja ylläpitovaiheessa 2–6 viikon välein. Hoitosuunnitelma laaditaan yksilöllisesti potilaan vasteen mukaan. <strong>Onko akupunktio kivuliasta?</strong> Akupunktio on useimmille eläimille lähes kivuton kokemus. Neulat ovat erittäin ohuita ja niiden asettaminen aiheuttaa korkeintaan lievän tuntemuksen. Useimmat potilaat rentoutuvat hoidon aikana selvästi — monet jopa nukahtavat. Akupunktio ei vaadi rauhoitusta eikä anestesiaa, ja normaaliin arkeen voi palata heti hoidon jälkeen.' },
     ],
     sv: {
-      title: 'Akupunktur | Djurklinik Saari',
+      title: 'Akupunktur för husdjur i Vasa | Djurklinik Saari',
+      ogTitle: 'Akupunktur för husdjur i Vasa | Djurklinik Saari',
       h1: 'Akupunktur',
       metaDesc: 'Veterinärakupunktur i Vasa. Smärtlindring, muskuloskeletala besvär, neurologiska symtom. Vidareutbildad veterinär. Eläinklinikka Saari.',
       sections: [
@@ -2208,7 +2235,7 @@ const servicePages = [
     slugEn: 'spay-and-neuter',
     title: 'Sterilisaatio | Eläinklinikka Saari',
     h1: 'Sterilisaatio',
-    metaDesc: 'Naaraskoiran, naaraskissan ja naaraskanin sterilisaatio Vaasassa. Ovariektomia ja ovariohysterektomia inhalaatioanestesiassa, kattava kivunlievitys. Eläinklinikka Saari.',
+    metaDesc: 'Naaraskoiran, naaraskissan ja naaraskanin sterilisaatio Vaasassa. Ovariektomia ja ovariohysterektomia inhalaatioanestesiassa, kattava kivunlievitys.',
     icon: '🏥',
     sections: [
       { heading: 'Miksi naaraseläin sterilisoidaan?', text: 'Sterilisaatiossa poistetaan munasarjat (ovariektomia) tai munasarjat ja kohtu (ovariohysterektomia). Toimenpide eliminoi hormonaaliset sairaudet kokonaan ja estää tehokkaasti kohtutulehduksen (pyometran) sekä nisäkasvaimet — etenkin jos sterilisaatio tehdään ennen ensimmäistä juoksuaikaa. Sterilisaatio myös rauhoittaa kiimakäyttäytymistä ja estää epätoivotut tiineydet. Naaraskanilla sterilisaatio on usein myös terveydellisesti perusteltua, sillä kohdun kasvainten riski on iän myötä korkea.' },
@@ -2239,9 +2266,10 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Spaying | Saari Animal Clinic',
+      title: 'Spaying and Neutering in Vaasa | Saari Animal Clinic',
+      ogTitle: 'Spaying and Neutering in Vaasa | Saari Animal Clinic',
       h1: 'Spaying',
-      metaDesc: 'Spaying for female dogs, cats and rabbits in Vaasa. Ovariectomy and ovariohysterectomy under inhalation anaesthesia, comprehensive pain management. Eläinklinikka Saari.',
+      metaDesc: 'Spaying for female dogs, cats and rabbits in Vaasa. Ovariectomy and ovariohysterectomy under inhalation anaesthesia, comprehensive pain management.',
       sections: [
         { heading: 'Why spay a female pet?', text: 'Spaying removes the ovaries (ovariectomy) or the ovaries and uterus (ovariohysterectomy). The procedure completely eliminates hormonal diseases and effectively prevents pyometra (uterine infection) and mammary tumours — especially when performed before the first heat. Spaying also calms heat behaviour and prevents unwanted pregnancies. In female rabbits, spaying is often medically indicated because the risk of uterine cancer increases significantly with age.' },
         { heading: 'The procedure at our clinic', text: 'Spaying is performed under inhalation anaesthesia with comprehensive pain management. We monitor the patient continuously throughout the procedure: heart rate, blood pressure, oxygen saturation, and temperature. We use modern, tissue-sparing surgical techniques and careful haemostasis. Patients are typically discharged the same day with pain medication and a recovery suit or cone.' },
@@ -2434,7 +2462,8 @@ const servicePages = [
     slug: 'rontgen',
     slugSv: 'rontgen',
     slugEn: 'x-ray',
-    title: 'Röntgen | Eläinklinikka Saari',
+    title: 'Röntgen eläimille Vaasassa | Eläinklinikka Saari',
+    ogTitle: 'Röntgen eläimille Vaasassa | Eläinklinikka Saari',
     h1: 'Röntgen',
     metaDesc: 'Digitaalinen röntgen ja hammasröntgen eläimille Vaasassa. Korkealaatuiset kuvat, nopeat tulokset. Viralliset röntgentutkimukset. Eläinklinikka Saari.',
     icon: '☢️',
@@ -3057,7 +3086,7 @@ const servicePages = [
     slugEn: 'emergency',
     title: 'Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari',
     h1: 'Päivystävä eläinlääkäri Vaasassa',
-    metaDesc: 'Päivittäin varatut akuuttiajat Eläinklinikka Saarella arkisin 7:45–17. Yöt ja viikonloput: alueen päivystysnumero 0600 399 299. Ohjeet ensiapuun ja hätätilanteisiin.',
+    metaDesc: 'Päivittäin varatut akuuttiajat Eläinklinikka Saarella arkisin 7:45–17. Yöt ja viikonloput: alueen päivystysnumero 0600 399 299. Ohjeet hätätilanteisiin.',
     icon: '🚨',
     sections: [
       { heading: 'Päivittäiset akuuttiajat arkisin 7:45–17', text: 'Varaamme joka arkipäivälle akuuttiaikoja kiireellisiä tapauksia varten. Soita numeroon (06) 321 7300 — vaikka päivän kalenteri näyttäisi täydeltä, akuuttiaikoja voi silti olla saatavilla. Puhelimessa arvioimme tilanteen, annamme ensiapuohjeita matkan ajaksi ja valmistaudumme vastaanottoon.' },
@@ -3069,7 +3098,7 @@ const servicePages = [
     sv: {
       title: 'Akut veterinär Vasa | Djurklinik Saari',
       h1: 'Akut veterinär i Vasa',
-      metaDesc: 'Dagliga akuttider på Djurklinik Saari vardagar 7:45–17. Kvällar och helger: regionens jourtelefon 0600 399 299. Råd om första hjälpen vid nödsituationer.',
+      metaDesc: 'Dagliga akuttider på Djurklinik Saari vardagar 7:45–17. Kvällar och helger: regionens jourtelefon 0600 399 299. Råd vid nödsituationer.',
       sections: [
         { heading: 'Dagliga akuttider — vardagar 7:45–17', text: 'Vi reserverar akuttider varje vardag för brådskande fall. Ring (06) 321 7300 — även om dagens kalender ser full ut kan en akuttid ändå finnas tillgänglig. Per telefon bedömer vi situationen, ger råd om första hjälpen för resan och förbereder mottagningen.' },
         { heading: 'När är det en nödsituation?', text: '<ul class="emergency-symptoms"><li><strong>Svår andnöd</strong> — ansträngd andning, blåaktigt eller blekt tandkött, katt som andas med öppen mun (mycket ovanligt hos katt, alltid larmsignal). Vanlig flämtning hos en stressad eller varm hund är inte samma sak.</li><li><strong>Medvetslöshet eller kramper</strong></li><li><strong>Kraftig blödning eller större sår</strong></li><li><strong>Trafikolycka, fall eller annat allvarligt trauma</strong></li><li><strong>Svårigheter att urinera eller fullständigt urinstopp</strong> — mest brådskande hos hankatter: urinrörsstopp är livshotande inom timmar, sök vård genast. Också en äkta nödsituation hos hundar (urinstenar, prostatasjukdom). Alla djur som krystar upprepade gånger utan att kissa behöver omedelbar bedömning.</li><li><strong>Hund med uppsvälld buk och misslyckade kräkförsök</strong> — magomvridning (GDV) är livshotande</li><li><strong>Intag av giftiga ämnen</strong> — choklad, xylitol, glykol (frostskyddsmedel), vindruvor, lök, humanläkemedel</li><li><strong>Huggormsbett</strong> — Finlands enda vilt levande giftiga orm. Bär djuret, låt det inte gå själv. Kräver alltid veterinärbedömning.</li><li><strong>Kraftiga kräkningar eller diarré över ett dygn</strong> — eller tidigare hos valpar, kattungar, små raser och kroniskt sjuka djur. Blod i kräkning eller avföring kräver omedelbar bedömning.</li><li><strong>Ögonskada eller plötslig blindhet</strong></li><li><strong>Okontrollerad smärta</strong></li><li><strong>Dräktig tik som krystar aktivt i mer än 30 minuter utan att en valp föds</strong>, eller över 2 timmar mellan valpar, eller grönaktig/blodig flytning före första valpen</li></ul>' },
@@ -3095,7 +3124,7 @@ const servicePages = [
     en: {
       title: 'Emergency Veterinarian Vaasa | Saari Animal Clinic',
       h1: 'Emergency Veterinarian in Vaasa',
-      metaDesc: 'Daily reserved acute appointment slots at Saari Animal Clinic weekdays 7:45–17. Evenings and weekends: regional emergency hotline 0600 399 299. First aid guidance and what to do in a critical situation.',
+      metaDesc: 'Daily reserved acute appointment slots at Saari Animal Clinic weekdays 7:45–17. Evenings and weekends: regional emergency hotline 0600 399 299.',
       sections: [
         { heading: 'Daily acute slots — weekdays 7:45–17', text: 'We reserve daily acute appointment slots every weekday for urgent cases. Call (06) 321 7300 — even when the regular schedule looks full, an acute slot may still be available. We assess the situation by phone, give first-aid guidance for the journey, and prepare the clinic for your arrival.' },
         { heading: 'When is it an emergency?', text: '<ul class="emergency-symptoms"><li><strong>Severe breathing difficulty</strong> — laboured breathing, bluish or very pale gums, cats breathing through the mouth (rare in cats and always a danger sign). Normal panting in a hot or stressed dog is not the same thing.</li><li><strong>Unconsciousness or seizures</strong></li><li><strong>Heavy bleeding or a large wound</strong></li><li><strong>Traffic accident, fall, or other serious trauma</strong></li><li><strong>Difficulty or inability to urinate</strong> — most urgent in male cats: urethral blockage is life-threatening within hours, call the same day, do not wait until morning. Also a true emergency in dogs (urethral stones, prostate disease). Any pet straining repeatedly without producing urine needs to be seen immediately.</li><li><strong>A dog with a swollen abdomen attempting to vomit unsuccessfully</strong> — gastric torsion (GDV) is life-threatening</li><li><strong>Ingestion of toxic substances</strong> — chocolate, xylitol, antifreeze (ethylene glycol), grapes, onion, human medications</li><li><strong>Adder bite</strong> — Finland\'s only wild venomous snake. Carry your pet; do not let it walk. Always requires veterinary assessment.</li><li><strong>Severe vomiting or diarrhoea lasting over 24 hours</strong> — or sooner for puppies, kittens, small breeds, and chronically ill pets. Blood in vomit or stool requires immediate assessment.</li><li><strong>Eye injury or sudden blindness</strong></li><li><strong>Uncontrolled pain</strong></li><li><strong>A pregnant female actively straining for over 30 minutes without producing a puppy</strong>, or over 2 hours between puppies, or greenish/bloody discharge before the first puppy</li></ul>' },
@@ -3186,6 +3215,10 @@ function generateServicePage(service, translations, lang) {
   // Brand by language (used in og:title, twitter:title, og:site_name suffix)
   const brandNames = { fi: 'Eläinklinikka Saari', sv: 'Djurklinik Saari', en: 'Saari Animal Clinic' };
   const brandName = brandNames[lang] || brandNames.fi;
+
+  // og/twitter title: historical default is "H1 | brand"; ogTitle overrides where the
+  // SEO title pass also updated the social title.
+  const pageOgTitle = (lang === 'fi' ? service.ogTitle : (langData && langData.ogTitle)) || `${pageH1} | ${brandName}`;
 
   // URLs for all language versions
   const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
@@ -3333,14 +3366,14 @@ function generateServicePage(service, translations, lang) {
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="${canonicalUrl}">
-  <meta property="og:title" content="${escapeAttr(pageH1)} | ${brandName}">
+  <meta property="og:title" content="${escapeAttr(pageOgTitle)}">
   <meta property="og:description" content="${escapeAttr(pageMetaDesc)}">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="${ogLocale}">
   <meta property="og:site_name" content="${brandName}">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeAttr(pageH1)} | ${brandName}">
+  <meta name="twitter:title" content="${escapeAttr(pageOgTitle)}">
   <meta name="twitter:description" content="${escapeAttr(pageMetaDesc)}">
   <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
 
@@ -3483,7 +3516,8 @@ ${relatedHtml}
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
           <a href="/yhteystiedot/">${escapeHtml(footerContactPage[lang] || footerContactPage.fi)}</a>
-          <a href="/artikkelit/">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${ARTICLES_FOOTER_URLS[lang] || ARTICLES_FOOTER_URLS.fi}">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
+          <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
         </div>
         <div class="footer-col">
@@ -3544,7 +3578,7 @@ function generatePrivacyPage() {
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
 
-  <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus.">
+  <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus asiakas- ja potilasrekisterissä.">
   <meta name="page-topic" content="Privacy Policy">
   <link rel="canonical" href="${BASE_URL}/tietosuoja/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/tietosuoja/">
@@ -3656,6 +3690,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
@@ -3730,7 +3765,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'fi', ogLocale: 'fi_FI',
       pageTitle: 'Asiakkaiden arvostelut | Eläinklinikka Saari',
       h1: 'Asiakkaiden arvostelut',
-      metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat.',
+      metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat eläinlääkäreistämme ja palvelustamme Vaasassa.',
       brandName: 'Eläinklinikka Saari',
       reviewsOnGoogle: 'arvostelua Googlessa',
       reviewsOnFacebook: '+ 73 suositusta Facebookissa (98 % suosittelee)',
@@ -3746,7 +3781,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'sv', ogLocale: 'sv_FI',
       pageTitle: 'Kundernas omdömen | Djurklinik Saari',
       h1: 'Kundernas omdömen',
-      metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 281 omdömen. Läs vad våra kunder säger.',
+      metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 281 omdömen. Läs vad våra kunder säger om våra veterinärer och vår service i Vasa.',
       brandName: 'Djurklinik Saari',
       reviewsOnGoogle: 'omdömen på Google',
       reviewsOnFacebook: '+ 73 rekommendationer på Facebook (98 % rekommenderar)',
@@ -3762,7 +3797,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'en', ogLocale: 'en_GB',
       pageTitle: 'Customer reviews | Saari Animal Clinic',
       h1: 'Customer reviews',
-      metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 281 reviews. Read what our customers say.',
+      metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 281 reviews. Read what our customers say about our veterinarians and service in Vaasa.',
       brandName: 'Saari Animal Clinic',
       reviewsOnGoogle: 'reviews on Google',
       reviewsOnFacebook: '+ 73 recommendations on Facebook (98% recommend)',
@@ -4048,7 +4083,7 @@ function generateBookingPage(lang) {
     },
     sv: {
       htmlLang: 'sv', ogLocale: 'sv_FI',
-      pageTitle: 'Boka tid | Djurklinik Saari',
+      pageTitle: 'Boka tid till veterinär i Vasa | Djurklinik Saari',
       h1: 'Boka tid',
       metaDesc: 'Kontakta Djurklinik Saari i Vasa: telefon (06) 321 7300, onlinebokning, WhatsApp eller e-post info@saarivet.fi. Öppettider må–fre 7:45–17.',
       brandName: 'Djurklinik Saari',
@@ -4263,7 +4298,7 @@ function generateBookingPage(lang) {
         </a>
 
         <section class="booking-secondary" aria-label="${escapeAttr(i18n.methodsHeading)}">
-          <a class="booking-method booking-method--online" href="${provetUrl}" target="_blank" rel="noopener" onclick="if(typeof gtag_report_conversion==='function')gtag_report_conversion();if(typeof fbq==='function')fbq('track','Schedule');">
+          <a class="booking-method booking-method--online" href="${provetUrl}" rel="noopener" onclick="if(typeof gtag_report_conversion==='function')gtag_report_conversion();if(typeof fbq==='function')fbq('track','Schedule');">
             <span class="booking-method-icon">🌐</span>
             <span class="booking-method-title">${escapeHtml(i18n.onlineTitle)}</span>
             <span class="booking-method-value">${escapeHtml(i18n.onlineCta)} →</span>
@@ -4482,6 +4517,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
@@ -4640,8 +4676,8 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
         <div class="article-content">
           <h2>Osoite ja sijainti</h2>
           <p><strong>Eläinklinikka Saari</strong><br>
-          Gerbyntie 18<br>
-          65230 Vaasa<br>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr" target="_blank" rel="noopener">Gerbyntie 18<br>
+          65230 Vaasa</a><br>
           (Dragnäsbäck, Bockis-kurvissa)</p>
 
           <h2>Saapumisohjeet</h2>
@@ -4705,6 +4741,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <a href="/meista/">Meistä</a>
           <a href="/yhteystiedot/">Yhteystiedot</a>
           <a href="/artikkelit/">Artikkelit</a>
+          <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
         </div>
         <div class="footer-col">
@@ -5078,6 +5115,27 @@ ${links}  </url>
 `;
   }
 
+  // Standalone partnership pages (own design, not generated by this script).
+  xml += `  <url>
+    <loc>${BASE_URL}/yhteistyo/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${BASE_URL}/kissatalo/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>${BASE_URL}/vesy/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+`;
+
   xml += `</urlset>
 `;
   return xml;
@@ -5088,6 +5146,23 @@ ${links}  </url>
 // ──────────────────────────────────────────────
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Write a generated file, but if the existing file differs ONLY in build-stamped
+// dates (dateModified / lastReviewed / sitemap lastmod), keep it untouched.
+// This keeps rebuild dates honest: a page's dateModified only moves when its
+// content actually changes, and `git status` stays clean after a no-op rebuild.
+function normalizeVolatileDates(s) {
+  return s
+    .replace(/("(?:dateModified|lastReviewed)":\s*")\d{4}-\d{2}-\d{2}(")/g, '$1DATE$2')
+    .replace(/(<lastmod>)\d{4}-\d{2}-\d{2}(<\/lastmod>)/g, '$1DATE$2');
+}
+function writeGenerated(file, content) {
+  try {
+    const existing = fs.readFileSync(file, 'utf-8');
+    if (normalizeVolatileDates(existing) === normalizeVolatileDates(content)) return;
+  } catch (e) { /* new file */ }
+  fs.writeFileSync(file, content, 'utf-8');
 }
 
 // Wrap the clinic and emergency phone numbers in tel: links in visible HTML.
@@ -5108,6 +5183,11 @@ function linkifyPhones(html) {
     );
   }).join('');
 }
+
+// Footer quicklink targets shared by every page footer.
+const ARTICLES_FOOTER_URLS = { fi: '/artikkelit/', sv: '/sv/artiklar/', en: '/en/articles/' };
+const REVIEWS_URLS = { fi: '/arvostelut/', sv: '/sv/omdomen/', en: '/en/reviews/' };
+const REVIEWS_LABELS = { fi: 'Arvostelut', sv: 'Omdömen', en: 'Reviews' };
 
 function getArticlesUrl(lang) {
   if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
@@ -5198,14 +5278,14 @@ function main() {
     // Finnish
     const titleFi = translations[article.titleKey]?.fi || article.slug;
     const htmlFi = generateArticlePage(article, translations, specialContent, 'fi');
-    fs.writeFileSync(path.join(ARTICLES_DIR, `${article.slug}.html`), htmlFi, 'utf-8');
+    writeGenerated(path.join(ARTICLES_DIR, `${article.slug}.html`), htmlFi);
     count++;
     console.log(`  [${count}/${articles.length}] ${article.slug}.html - ${titleFi.substring(0, 60)}...`);
 
     // Swedish
     const htmlSv = generateArticlePage(article, translations, specialContent, 'sv');
     const svSlug = articleSlug(article, 'sv');
-    fs.writeFileSync(path.join(svDir, `${svSlug}.html`), htmlSv, 'utf-8');
+    writeGenerated(path.join(svDir, `${svSlug}.html`), htmlSv);
     if (svSlug !== article.slug) {
       const oldSvPath = path.join(svDir, `${article.slug}.html`);
       const newSvUrl = `${BASE_URL}/sv/artiklar/${svSlug}.html`;
@@ -5215,7 +5295,7 @@ function main() {
     // English
     const htmlEn = generateArticlePage(article, translations, specialContent, 'en');
     const enSlug = articleSlug(article, 'en');
-    fs.writeFileSync(path.join(enDir, `${enSlug}.html`), htmlEn, 'utf-8');
+    writeGenerated(path.join(enDir, `${enSlug}.html`), htmlEn);
     if (enSlug !== article.slug) {
       const oldEnPath = path.join(enDir, `${article.slug}.html`);
       const newEnUrl = `${BASE_URL}/en/articles/${enSlug}.html`;
@@ -5236,7 +5316,7 @@ function main() {
       fs.mkdirSync(serviceDir, { recursive: true });
     }
     const htmlFi = generateServicePage(service, translations, 'fi');
-    fs.writeFileSync(path.join(serviceDir, 'index.html'), htmlFi, 'utf-8');
+    writeGenerated(path.join(serviceDir, 'index.html'), htmlFi);
     console.log(`  palvelut/${service.slug}/index.html - ${service.h1}`);
 
     // Swedish
@@ -5245,7 +5325,7 @@ function main() {
       fs.mkdirSync(svDir, { recursive: true });
     }
     const htmlSv = generateServicePage(service, translations, 'sv');
-    fs.writeFileSync(path.join(svDir, 'index.html'), htmlSv, 'utf-8');
+    writeGenerated(path.join(svDir, 'index.html'), htmlSv);
     console.log(`  sv/tjanster/${service.slugSv}/index.html - ${service.sv.h1}`);
 
     // English
@@ -5254,7 +5334,7 @@ function main() {
       fs.mkdirSync(enDir, { recursive: true });
     }
     const htmlEn = generateServicePage(service, translations, 'en');
-    fs.writeFileSync(path.join(enDir, 'index.html'), htmlEn, 'utf-8');
+    writeGenerated(path.join(enDir, 'index.html'), htmlEn);
     console.log(`  en/services/${service.slugEn}/index.html - ${service.en.h1}`);
   }
 
@@ -5268,7 +5348,7 @@ function main() {
   for (const target of indexTargets) {
     if (!fs.existsSync(target.dir)) fs.mkdirSync(target.dir, { recursive: true });
     const indexPage = generateArticleIndex(translations, target.lang);
-    fs.writeFileSync(path.join(target.dir, 'index.html'), indexPage, 'utf-8');
+    writeGenerated(path.join(target.dir, 'index.html'), indexPage);
     console.log(`  Generated ${target.label}`);
   }
 
@@ -5279,7 +5359,7 @@ function main() {
     fs.mkdirSync(aboutDir, { recursive: true });
   }
   const aboutPage = generateAboutPage();
-  fs.writeFileSync(path.join(aboutDir, 'index.html'), aboutPage, 'utf-8');
+  writeGenerated(path.join(aboutDir, 'index.html'), aboutPage);
   console.log('  Generated meista/index.html');
 
   // Generate contact page
@@ -5289,7 +5369,7 @@ function main() {
     fs.mkdirSync(contactDir, { recursive: true });
   }
   const contactPage = generateContactPage();
-  fs.writeFileSync(path.join(contactDir, 'index.html'), contactPage, 'utf-8');
+  writeGenerated(path.join(contactDir, 'index.html'), contactPage);
   console.log('  Generated yhteystiedot/index.html');
 
   // Generate privacy policy page
@@ -5299,7 +5379,7 @@ function main() {
     fs.mkdirSync(privacyDir, { recursive: true });
   }
   const privacyPage = generatePrivacyPage();
-  fs.writeFileSync(path.join(privacyDir, 'index.html'), privacyPage, 'utf-8');
+  writeGenerated(path.join(privacyDir, 'index.html'), privacyPage);
   console.log('  Generated tietosuoja/index.html');
 
   // Generate reviews pages (FI, SV, EN)
@@ -5312,7 +5392,7 @@ function main() {
   for (const t of reviewsTargets) {
     if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
     const html = generateReviewsPage(t.lang);
-    fs.writeFileSync(path.join(t.dir, 'index.html'), html, 'utf-8');
+    writeGenerated(path.join(t.dir, 'index.html'), html);
     console.log(`  Generated ${t.label}`);
   }
 
@@ -5326,14 +5406,14 @@ function main() {
   for (const t of bookingTargets) {
     if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
     const html = generateBookingPage(t.lang);
-    fs.writeFileSync(path.join(t.dir, 'index.html'), html, 'utf-8');
+    writeGenerated(path.join(t.dir, 'index.html'), html);
     console.log(`  Generated ${t.label}`);
   }
 
   // Generate sitemap
   console.log('\nGenerating sitemap.xml...');
   const sitemap = generateSitemap();
-  fs.writeFileSync(SITEMAP_PATH, sitemap, 'utf-8');
+  writeGenerated(SITEMAP_PATH, sitemap);
   console.log(`  Sitemap updated with ${articles.length + servicePages.length + 3} URLs`);
 
   console.log(`\nDone! Generated ${count} article pages in articles/`);

@@ -1579,6 +1579,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siili.html"/>
   </url>
   <url>
+    <loc>https://saarivet.fi/articles/siilinpoikanen.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/sv/artiklar/igelkottsunge.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+  </url>
+  <url>
+    <loc>https://saarivet.fi/en/articles/found-a-baby-hedgehog.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
+  </url>
+  <url>
     <loc>https://saarivet.fi/articles/kissaystävällinen-klinikka.html</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -1865,29 +1895,5 @@
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://saarivet.fi/articles/siilinpoikanen.html</loc>
-    <lastmod>2026-07-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
-  </url>
-  <url>
-    <loc>https://saarivet.fi/sv/artiklar/igelkottsunge.html</loc>
-    <lastmod>2026-07-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
-  </url>
-  <url>
-    <loc>https://saarivet.fi/en/articles/found-a-baby-hedgehog.html</loc>
-    <lastmod>2026-07-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/artiklar/igelkottsunge.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://saarivet.fi/en/articles/found-a-baby-hedgehog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://saarivet.fi/articles/siilinpoikanen.html"/>
   </url>
 </urlset>
