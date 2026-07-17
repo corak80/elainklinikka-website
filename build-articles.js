@@ -1068,7 +1068,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
-  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">${skipTexts[lang]}</a>
@@ -1376,7 +1376,7 @@ function generateArticleIndex(translations, lang) {
 
   <link rel="preload" as="image" href="/images/logo.png">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link rel="icon" type="image/png" href="/images/favicon-icon.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">${escapeHtml(i18n.skipLink)}</a>
@@ -3455,7 +3455,7 @@ function generateServicePage(service, translations, lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
-  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">${escapeHtml(skipText)}</a>
@@ -3594,7 +3594,7 @@ function generatePrivacyPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
 
@@ -3962,7 +3962,7 @@ function generateReviewsPage(lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
-  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
 
@@ -4263,7 +4263,7 @@ function generateBookingPage(lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
-  <link rel="icon" type="image/png" href="${assetPrefix}images/logo.png">
+  <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
 
@@ -4431,7 +4431,7 @@ function generateAboutPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">Siirry sisältöön</a>
@@ -4651,7 +4651,7 @@ function generateContactPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../images/logo.png">
+  <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
   <a href="#main-content" class="skip-link">Siirry sisältöön</a>
