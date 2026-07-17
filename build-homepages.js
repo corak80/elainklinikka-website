@@ -51,7 +51,7 @@ const pageMeta = {
     ogLocale: 'fi_FI',
     twitterDescription: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989',
     keywords: 'eläinlääkäri, Vaasa, eläinklinikka, pieneläinklinikka, eläinlääkäriasema, koira, kissa, hammashoito, kirurgia, sydäntutkimus, ultraääni, rokotus, veterinär, djurklinik, smådjursklinik',
-    canonical: 'https://saarivet.fi/',
+    canonical: 'https://elainklinikkasaari.fi/',
     skipLink: 'Siirry sisältöön',
     jobTitle: 'Eläinlääkäri',
   },
@@ -64,7 +64,7 @@ const pageMeta = {
     ogLocale: 'sv_FI',
     twitterDescription: 'Smådjursklinik och veterinär i Vasa sedan 1989',
     keywords: 'veterinär, Vasa, djurklinik, smådjursklinik, veterinärstation, hund, katt, tandvård, kirurgi, hjärtundersökning, ultraljud, vaccination, eläinlääkäri',
-    canonical: 'https://saarivet.fi/sv/',
+    canonical: 'https://elainklinikkasaari.fi/sv/',
     skipLink: 'Hoppa till innehåll',
     jobTitle: 'Veterinär',
   },
@@ -77,7 +77,7 @@ const pageMeta = {
     ogLocale: 'en_GB',
     twitterDescription: 'Small animal clinic and veterinarian in Vaasa since 1989',
     keywords: 'veterinarian, Vaasa, animal clinic, small animal clinic, veterinary clinic, dog, cat, dental care, surgery, cardiac examination, ultrasound, vaccination',
-    canonical: 'https://saarivet.fi/en/',
+    canonical: 'https://elainklinikkasaari.fi/en/',
     skipLink: 'Skip to content',
     jobTitle: 'Veterinarian',
   },
@@ -283,10 +283,10 @@ function rewriteHead(html, lang) {
   html = html.replace(/\s*<link rel="alternate" hreflang="[^"]+" href="[^"]+">/g, '');
   // Then insert after canonical
   const hreflangBlock = [
-    `  <link rel="alternate" hreflang="fi" href="https://saarivet.fi/">`,
-    `  <link rel="alternate" hreflang="sv" href="https://saarivet.fi/sv/">`,
-    `  <link rel="alternate" hreflang="en" href="https://saarivet.fi/en/">`,
-    `  <link rel="alternate" hreflang="x-default" href="https://saarivet.fi/">`,
+    `  <link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/">`,
+    `  <link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/">`,
+    `  <link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/">`,
+    `  <link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/">`,
   ].join('\n');
   html = html.replace(
     /(<link rel="canonical" href="[^"]+">)/,
@@ -356,7 +356,7 @@ function rewriteJsonLd(html, lang) {
         "worksFor": {
           "@type": "VeterinaryCare",
           "name": "Eläinklinikka Saari",
-          "url": "https://saarivet.fi"
+          "url": "https://elainklinikkasaari.fi"
         }`;
   // For each vet, insert worksFor after jobTitle if not already there
   Object.keys(personDescriptions).forEach((name) => {

@@ -4,10 +4,10 @@
  * of the source HTML file backing each URL.
  *
  * URL → file mapping:
- *   https://saarivet.fi/          → index.html
- *   https://saarivet.fi/foo/      → foo/index.html
- *   https://saarivet.fi/foo/bar/  → foo/bar/index.html
- *   https://saarivet.fi/x.html    → x.html
+ *   https://elainklinikkasaari.fi/          → index.html
+ *   https://elainklinikkasaari.fi/foo/      → foo/index.html
+ *   https://elainklinikkasaari.fi/foo/bar/  → foo/bar/index.html
+ *   https://elainklinikkasaari.fi/x.html    → x.html
  *
  * Date source per URL (in order of preference):
  *   1) If the file has uncommitted modifications      → today (YYYY-MM-DD, local time)
@@ -26,7 +26,7 @@ const { execSync } = require('child_process');
 
 const ROOT = '/Users/assafwydra/elainklinikka-website';
 const SITEMAP = path.join(ROOT, 'sitemap.xml');
-const HOST = 'https://saarivet.fi';
+const HOST = 'https://elainklinikkasaari.fi';
 
 function today() {
   const d = new Date();

@@ -4,4 +4,4 @@ Disallow: /cdn-cgi/
 Disallow: /docs/
 Disallow: /tools/
 
-Sitemap: https://saarivet.fi/sitemap.xml
+Sitemap: https://elainklinikkasaari.fi/sitemap.xml
