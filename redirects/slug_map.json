@@ -19,7 +19,6 @@
     "/klinikka/": "/meista/",
     "/henkilokunta/": "/meista/",
     "/ajankohtaista/": "/artikkelit/",
-    "/ajanvaraus/": "/yhteystiedot/",
     "/wildlife/": "/yhteystiedot/"
   },
   "sv": {
@@ -35,7 +34,6 @@
     "/sv/klinik/": "/sv/",
     "/sv/personal/": "/sv/",
     "/sv/aktuellt/": "/sv/artiklar/",
-    "/sv/tidsbokning/": "/sv/",
     "/sv/wildlife-sv/": "/sv/",
     "/sv/framsida/": "/sv/"
   },
