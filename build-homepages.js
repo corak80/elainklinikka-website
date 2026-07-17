@@ -203,6 +203,39 @@ function rewriteArticleUrls(html, lang) {
   return html;
 }
 
+// VideoObject JSON-LD name/description per language (FI values live in index.html).
+const VIDEO_META = {
+  sv: {
+    name: 'Djurklinik Saari – klinikvideo',
+    description: 'En kort presentationsvideo av Djurklinik Saaris lokaler och vardag i Vasa.',
+  },
+  en: {
+    name: 'Saari Animal Clinic – clinic video',
+    description: "A short introduction video of Saari Animal Clinic's facilities and daily life in Vaasa.",
+  },
+};
+
+function rewriteVideoJsonLd(html, lang) {
+  const v = VIDEO_META[lang];
+  if (!v) return html;
+  return html.replace(
+    /("@type":\s*"VideoObject",\s*"name":\s*")[^"]+(",\s*"description":\s*")[^"]+(")/,
+    (m, p1, p2, p3) => p1 + v.name + p2 + v.description + p3
+  );
+}
+
+// Notice-banner link → localized vaccination page (the <a> has no data-href-* attrs).
+const NOTICE_HREF = { sv: '/sv/tjanster/vaccinationer/', en: '/en/services/vaccinations/' };
+
+function rewriteNoticeBannerHref(html, lang) {
+  const target = NOTICE_HREF[lang];
+  if (!target) return html;
+  return html.replace(
+    /(<a href=")\/palvelut\/rokotukset\/("><span>💉)/,
+    `$1${target}$2`
+  );
+}
+
 function rewriteLangToggle(html, lang) {
   // The lang-toggle has <button data-lang="fi" class="active">FI</button> etc.
   // Move "active" class to the right button.
@@ -363,6 +396,8 @@ for (const lang of ['sv', 'en']) {
   html = applyDataI18nPlaceholder(html, lang);
   html = applyDataHrefs(html, lang);
   html = rewriteArticleUrls(html, lang);
+  html = rewriteVideoJsonLd(html, lang);
+  html = rewriteNoticeBannerHref(html, lang);
   html = rewriteLangToggle(html, lang);
   html = rewriteHead(html, lang);
   html = rewriteJsonLd(html, lang);
