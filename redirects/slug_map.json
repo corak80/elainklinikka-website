@@ -24,6 +24,7 @@
   "sv": {
     "/sv/ruokatilaus-sv-translation/": "/sv/tjanster/foderforsaljning/",
     "/sv/dataskyddsregister/": "/tietosuoja/",
+    "/sv/tietosuoja/": "/tietosuoja/",
     "/sv/tjanster/valpgranskning/": "/sv/tjanster/valpundersokning/",
     "/sv/tjanster/halsogranskning/": "/sv/tjanster/",
     "/sv/tjanster/draktighetsdiagnos/": "/sv/tjanster/draktighetsundersokning/",
@@ -40,6 +41,7 @@
   "en": {
     "/en/ruokatilaus-en/": "/en/services/prescription-diets/",
     "/en/privacy-policy/": "/tietosuoja/",
+    "/en/tietosuoja/": "/tietosuoja/",
     "/en/services/puppy-kitten-exams/": "/en/services/puppy-check-up/",
     "/en/services/health-checks/": "/en/services/",
     "/en/services/pregnancy-examinations/": "/en/services/pregnancy-examination/",
