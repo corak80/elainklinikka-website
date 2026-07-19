@@ -109,9 +109,9 @@ const translations = {
   // About
   'about.title': { fi: 'Tietoa klinikasta', sv: 'Om kliniken', en: 'About the Clinic' },
   'about.subtitle': {
-    fi: 'Vaasan ainoa yksityinen ketjuihin kuulumaton pieneläinklinikka \u2013 vuodesta 1989',
-    sv: 'Vasas enda privata kedjefria smådjursklinik \u2013 sedan 1989',
-    en: 'Vaasa\'s only private independent small animal clinic \u2013 since 1989'
+    fi: 'Vaasan ainoa perheomisteinen ketjuihin kuulumaton pieneläinklinikka \u2013 vuodesta 1989',
+    sv: 'Vasas enda familjeägda kedjefria smådjursklinik \u2013 sedan 1989',
+    en: 'Vaasa\'s only family-owned independent small animal clinic \u2013 since 1989'
   },
   'about.text1': {
     fi: 'Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat kaikkein tärkeintä. Haluamme luoda lämpimän ja luottamuksellisen suhteen niin sinuun kuin lemmikkiisikin.',
@@ -729,9 +729,9 @@ const translations = {
 
   // Footer
   'footer.description': {
-    fi: 'Vaasan ainoa yksityinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 — viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
-    sv: 'Vasas enda privata smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till din tjänst.',
-    en: 'The only private small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight technicians at your service.'
+    fi: 'Vaasan ainoa perheomisteinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 — viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
+    sv: 'Vasas enda familjeägda smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till din tjänst.',
+    en: 'The only family-owned small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight technicians at your service.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
@@ -1329,9 +1329,9 @@ const translations = {
     en: 'Why Choosing an Independent Veterinary Clinic Matters'
   },
   'article.independent.intro': {
-    fi: 'Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä — hallitsevat nyt 50–70 % markkinoista. Eläinklinikka Saari on Vaasan ainoa yksityinen pieneläinklinikka, ja haluamme kertoa, miksi se on merkityksellistä.',
-    sv: 'Den finländska veterinärmarknaden har förändrats dramatiskt under det senaste årtiondet. Två utlandsägda kedjor — Evidensia och Vireä — kontrollerar nu 50–70 % av marknaden. Djurklinik Saari är den enda privata smådjurskliniken i Vasa, och vi vill berätta varför det spelar roll.',
-    en: 'The Finnish veterinary market has changed dramatically over the past decade. Two foreign-owned chains — Evidensia and Vireä — now control 50–70% of the market. Eläinklinikka Saari is the only private small animal clinic in Vaasa, and we want to explain why that matters.'
+    fi: 'Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosikymmenen aikana. Kaksi ulkomaalaisomisteista ketjua — Evidensia ja Vireä — hallitsevat nyt 50–70 % markkinoista. Eläinklinikka Saari on Vaasan ainoa perheomisteinen pieneläinklinikka, ja haluamme kertoa, miksi se on merkityksellistä.',
+    sv: 'Den finländska veterinärmarknaden har förändrats dramatiskt under det senaste årtiondet. Två utlandsägda kedjor — Evidensia och Vireä — kontrollerar nu 50–70 % av marknaden. Djurklinik Saari är den enda familjeägda smådjurskliniken i Vasa, och vi vill berätta varför det spelar roll.',
+    en: 'The Finnish veterinary market has changed dramatically over the past decade. Two foreign-owned chains — Evidensia and Vireä — now control 50–70% of the market. Eläinklinikka Saari is the only family-owned small animal clinic in Vaasa, and we want to explain why that matters.'
   },
   'article.independent.chains.title': {
     fi: 'Ketjut Suomessa',
