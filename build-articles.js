@@ -1067,6 +1067,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
+  <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
@@ -1375,6 +1376,7 @@ function generateArticleIndex(translations, lang) {
   </script>
 
   <link rel="preload" as="image" href="/images/logo.png">
+  <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
 </head>
@@ -3454,6 +3456,7 @@ function generateServicePage(service, translations, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
+  <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="${assetPrefix}css/style.css">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
@@ -3593,6 +3596,7 @@ function generatePrivacyPage() {
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
   <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
@@ -4430,6 +4434,7 @@ function generateAboutPage() {
   </script>
 
   <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
@@ -4650,6 +4655,7 @@ function generateContactPage() {
   </script>
 
   <link rel="preload" as="image" href="../images/logo.png">
+  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
