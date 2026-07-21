@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  Eläinklinikka Saari × Siili-Saari — Siilihoito & vapaaehtoiseksi
+  Trilingual (FI / SV / EN). Standalone, self-contained page.
+  Campaign landing page: what caring for a hedgehog really means + volunteer sign-up.
+  Brand-matched to elainklinikkasaari.fi (Inter + Fraunces, primary #E58DB4);
+  warm hedgehog-brown secondary accent. Fonts self-hosted (GDPR — no CDN).
+  Volunteer form POSTs to clinic-tv /api/volunteer-signup → emails assaf.vidra@gmail.com.
+  ============================================================
+-->
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tänä vuonna siilejä hoidetaan enemmän kuin koskaan. Lue, mitä siilistä huolehtiminen oikeasti tarkoittaa, ja ilmoittaudu vapaaehtoiseksi Eläinklinikka Saaren siilihoitoon.">
+<link rel="canonical" href="https://elainklinikkasaari.fi/siilihoito/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elainklinikkasaari.fi/siilihoito/">
+<meta property="og:title" content="Mitä siilistä huolehtiminen oikeasti tarkoittaa — ja miten voit auttaa">
+<meta property="og:description" content="Tänä vuonna siilejä on hoidossa enemmän kuin koskaan. Lue, mitä hoito vaatii, ja ilmoittaudu vapaaehtoiseksi.">
+<meta property="og:image" content="https://elainklinikkasaari.fi/siilihoito/assets/hoglet-hero.jpg">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:site_name" content="Eläinklinikka Saari">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mitä siilistä huolehtiminen oikeasti tarkoittaa">
+<meta name="twitter:description" content="Tänä vuonna siilejä on hoidossa enemmän kuin koskaan. Lue, mitä hoito vaatii, ja ilmoittaudu vapaaehtoiseksi.">
+<meta name="twitter:image" content="https://elainklinikkasaari.fi/siilihoito/assets/hoglet-hero.jpg">
+<title>Siilihoito & vapaaehtoiseksi — Eläinklinikka Saari</title>
+
+<style>
+  /* ---------- self-hosted fonts (GDPR: no Google Fonts CDN) ---------- */
+  @font-face{font-family:'Fraunces';font-style:normal;font-weight:400 700;font-display:swap;
+    src:url('assets/fonts/fraunces-latin.woff2') format('woff2')}
+  @font-face{font-family:'Fraunces';font-style:italic;font-weight:400 700;font-display:swap;
+    src:url('assets/fonts/fraunces-latin-italic.woff2') format('woff2')}
+  @font-face{font-family:'Inter';font-style:normal;font-weight:400 800;font-display:swap;
+    src:url('assets/fonts/inter-latin.woff2') format('woff2');
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Inter';font-style:normal;font-weight:400 800;font-display:swap;
+    src:url('assets/fonts/inter-latin-ext.woff2') format('woff2');
+    unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
+  :root{
+    --pink:#E58DB4;
+    --pink-dark:#c97a9d;
+    --pink-light:#fdf2f7;
+    --brown:#a06b43;
+    --brown-dark:#7c5232;
+    --brown-light:#f4ece1;
+    --cream:#fbf7f3;
+    --ink:#1a1a2e;
+    --ink-soft:#4a4a5e;
+    --muted:#8a8a99;
+    --border:#ece6e0;
+    --white:#fff;
+    --shadow:0 18px 50px rgba(40,20,30,.10);
+    --shadow-sm:0 6px 22px rgba(40,20,30,.07);
+    --serif:'Fraunces',Georgia,'Times New Roman',serif;
+    --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --max:1140px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  body{font-family:var(--sans);color:var(--ink);line-height:1.65;background:var(--cream);overflow-x:hidden}
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit}
+
+  /* ---------- header ---------- */
+  header.bar{position:sticky;top:0;z-index:50;background:rgba(251,247,243,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+  .bar-inner{max-width:var(--max);margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+  .brand{display:flex;align-items:center;gap:.7rem;font-weight:700;letter-spacing:-.01em;font-size:.98rem}
+  .brand img{height:42px;width:auto;display:block;flex:none}
+  .brand .tag{display:none;font-weight:500;color:var(--muted);font-size:.72rem;letter-spacing:.02em;line-height:1.2}
+  .brand .tag.show{display:block}
+  a.brand{text-decoration:none}
+  .bar-right{display:flex;align-items:center;gap:.7rem}
+  .backbtn{display:inline-flex;align-items:center;gap:.35rem;font-weight:600;font-size:.82rem;color:var(--ink-soft);text-decoration:none;padding:.42rem .85rem;border:1px solid var(--border);border-radius:999px;background:var(--white);transition:.2s;white-space:nowrap}
+  .backbtn:hover{color:var(--ink);border-color:var(--pink)}
+  .langs{display:flex;gap:.25rem;background:var(--white);border:1px solid var(--border);border-radius:999px;padding:.25rem}
+  .langs button{border:0;background:transparent;cursor:pointer;font-family:inherit;font-weight:600;font-size:.8rem;color:var(--muted);padding:.35rem .8rem;border-radius:999px;transition:.2s}
+  .langs button:hover{color:var(--ink)}
+  .langs button.active{background:var(--ink);color:#fff}
+
+  /* ---------- layout ---------- */
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+  section{position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown-dark);margin-bottom:1rem}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--brown);border-radius:2px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:-.015em;line-height:1.08}
+  h2{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:1rem}
+  .lead{font-size:clamp(1.05rem,1.6vw,1.25rem);color:var(--ink-soft);max-width:60ch}
+
+  /* ---------- hero ---------- */
+  .hero{padding:clamp(3.5rem,9vw,7rem) 0 clamp(3rem,7vw,5.5rem);
+    background:radial-gradient(1100px 460px at 78% -8%,rgba(229,141,180,.20),transparent 60%),radial-gradient(900px 520px at -6% 18%,rgba(160,107,67,.18),transparent 60%);overflow:hidden}
+  .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+  .hero h1{font-size:clamp(2.4rem,5.4vw,3.9rem);margin-bottom:1.4rem}
+  .hero h1 em{font-style:italic;color:var(--brown-dark)}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:600;font-size:.95rem;padding:.85rem 1.5rem;border-radius:999px;text-decoration:none;transition:.25s;cursor:pointer;border:0;font-family:inherit}
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-primary:hover{background:#000;transform:translateY(-2px)}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  .btn-ghost:hover{background:var(--ink);color:#fff}
+
+  .hero-card{background:var(--white);border-radius:26px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--border)}
+  .hero-photo{overflow:hidden}
+  .hero-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 32%}
+  .hero-cap{padding:1rem 1.4rem;display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--ink-soft);font-weight:500}
+  .hero-cap .dot{width:9px;height:9px;border-radius:50%;background:var(--brown);flex:none}
+
+  /* ---------- stats band ---------- */
+  .band{background:var(--ink);color:#fff;padding:clamp(2.5rem,5vw,3.5rem) 0}
+  .band .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;text-align:center}
+  .stat .n{font-family:var(--serif);font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:600;background:linear-gradient(120deg,#fff,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .l{color:#c9c9d6;font-size:.9rem;margin-top:.3rem}
+
+  /* ---------- generic section ---------- */
+  .sec{padding:clamp(3.5rem,8vw,6rem) 0}
+  .sec-alt{background:var(--white)}
+  .sec-head{max-width:60ch}
+  .body-copy p{margin-bottom:1rem;color:var(--ink-soft);font-size:1.06rem}
+  .body-copy p strong{color:var(--ink)}
+
+  /* honest-realities grid */
+  .reals{list-style:none;margin:2.2rem 0 0;display:grid;grid-template-columns:1fr 1fr;gap:1.1rem}
+  .real{display:flex;gap:.9rem;align-items:flex-start;background:var(--cream);border:1px solid var(--border);border-radius:16px;padding:1.1rem 1.2rem}
+  .real .ic{flex:none;width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font-size:1.25rem;background:var(--brown-light)}
+  .real h3{font-family:var(--sans);font-weight:700;font-size:1rem;margin-bottom:.15rem;letter-spacing:0}
+  .real p{font-size:.92rem;color:var(--ink-soft);line-height:1.55}
+
+  /* ---------- highlight (why help now) ---------- */
+  .highlight{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;border-radius:30px;padding:clamp(2.2rem,5vw,3.5rem);box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .highlight::after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.12)}
+  .highlight .eyebrow{color:#fff}
+  .highlight .eyebrow::before{background:#fff}
+  .highlight h2{color:#fff;position:relative}
+  .highlight p{color:rgba(255,255,255,.94);font-size:1.12rem;max-width:64ch;position:relative}
+
+  /* ---------- help cards ---------- */
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:2.5rem}
+  .card{background:var(--white);border:1px solid var(--border);border-radius:20px;padding:1.6rem 1.4rem;transition:.28s;box-shadow:var(--shadow-sm)}
+  .card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--brown)}
+  .card .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;font-size:1.4rem;background:var(--brown-light);margin-bottom:1rem}
+  .card h3{font-size:1.15rem;margin-bottom:.5rem}
+  .card p{font-size:.92rem;color:var(--ink-soft)}
+  .cta-center{text-align:center;margin-top:2.6rem}
+
+  /* ---------- form ---------- */
+  .formsec{background:var(--brown-light)}
+  .formcard{background:var(--white);border:1px solid var(--border);border-radius:26px;box-shadow:var(--shadow);padding:clamp(1.6rem,4vw,2.8rem);max-width:760px;margin:2.2rem auto 0}
+  .field{margin-bottom:1.2rem}
+  .field > label.lbl{display:block;font-weight:600;font-size:.9rem;margin-bottom:.4rem;color:var(--ink)}
+  .field .req{color:var(--pink-dark)}
+  .field input[type=text],.field input[type=email],.field input[type=tel],.field textarea{
+    width:100%;font-family:inherit;font-size:1rem;color:var(--ink);background:var(--cream);
+    border:1px solid var(--border);border-radius:12px;padding:.75rem .9rem;transition:.2s}
+  .field input:focus,.field textarea:focus{outline:0;border-color:var(--brown);background:#fff;box-shadow:0 0 0 3px rgba(160,107,67,.14)}
+  .field textarea{min-height:120px;resize:vertical}
+  .checks{display:flex;flex-wrap:wrap;gap:.6rem}
+  .check{display:inline-flex;align-items:center;gap:.5rem;background:var(--cream);border:1px solid var(--border);border-radius:999px;padding:.5rem .95rem;cursor:pointer;font-size:.92rem;transition:.2s;user-select:none}
+  .check:hover{border-color:var(--brown)}
+  .check input{accent-color:var(--brown);width:16px;height:16px;cursor:pointer}
+  .check:has(input:checked){background:#fff;border-color:var(--brown);box-shadow:0 0 0 2px rgba(160,107,67,.16)}
+  .consent{display:flex;gap:.6rem;align-items:flex-start;font-size:.9rem;color:var(--ink-soft);margin:.4rem 0 1.4rem}
+  .consent input{accent-color:var(--brown);width:18px;height:18px;margin-top:.15rem;flex:none;cursor:pointer}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .submit{width:100%;justify-content:center;font-size:1rem;padding:.95rem 1.5rem}
+  .submit[disabled]{opacity:.6;cursor:not-allowed;transform:none}
+  .form-status{margin-top:1.1rem;border-radius:12px;padding:.9rem 1.1rem;font-weight:600;font-size:.95rem;display:none}
+  .form-status.ok{display:block;background:#e9f6ec;color:#1f7a3d;border:1px solid #bfe6cb}
+  .form-status.err{display:block;background:#fdecec;color:#b1382f;border:1px solid #f3c4c0}
+
+  /* ---------- contact / footer ---------- */
+  .contact{background:var(--ink);color:#fff;padding:clamp(3rem,7vw,5rem) 0}
+  .contact h2{color:#fff}
+  .contact .lead{color:#c9c9d6}
+  .clinks{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+  .clink{display:inline-flex;align-items:center;gap:.55rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#fff;text-decoration:none;font-weight:600;font-size:.92rem;padding:.7rem 1.2rem;border-radius:999px;transition:.2s}
+  .clink:hover{background:#fff;color:var(--ink)}
+  .foot-note{max-width:var(--max);margin:2.5rem auto 0;padding:1.5rem 1.5rem 0;border-top:1px solid rgba(255,255,255,.12);color:#9a9ab0;font-size:.82rem;line-height:1.6}
+
+  /* ---------- i18n visibility ---------- */
+  [data-lang]{display:none}
+  [data-lang].show{display:revert}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0;transform:translateY(22px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:880px){
+    .hero .wrap{grid-template-columns:1fr}
+    .hero-card{order:-1;max-width:420px}
+    .band .wrap{grid-template-columns:1fr;gap:1.6rem}
+    .cards{grid-template-columns:1fr 1fr}
+    .reals{grid-template-columns:1fr}
+  }
+  @media(max-width:520px){
+    .cards{grid-template-columns:1fr}
+    .bar-inner{padding:.7rem 1rem}
+    .backbtn{display:none}
+  }
+  @media(prefers-reduced-motion:reduce){.reveal{transition:none;opacity:1;transform:none}}
+</style>
+<noscript>
+  <style>
+    .reveal{opacity:1 !important;transform:none !important}
+    [data-lang]{display:none !important}
+    [data-lang="fi"]{display:revert !important}
+    .langs{display:none !important}
+  </style>
+</noscript>
+</head>
+<body>
+
+<!-- ====================== HEADER ====================== -->
+<header class="bar">
+  <div class="bar-inner">
+    <a class="brand" href="https://elainklinikkasaari.fi/">
+      <img src="assets/saari-logo.png" alt="Eläinklinikka Saari">
+      <span class="tag show" data-lang="fi">Villieläinten hyväksi</span>
+      <span class="tag" data-lang="sv">För de vilda djuren</span>
+      <span class="tag" data-lang="en">For wild animals</span>
+    </a>
+    <div class="bar-right">
+      <a class="backbtn" href="https://elainklinikkasaari.fi/">
+        <span class="show" data-lang="fi">← Etusivu</span>
+        <span data-lang="sv">← Hem</span>
+        <span data-lang="en">← Home</span>
+      </a>
+      <div class="langs" role="group" aria-label="Language">
+        <button data-set="fi" class="active">FI</button>
+        <button data-set="sv">SV</button>
+        <button data-set="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="reveal in">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Siilihoito · Eläinklinikka Saari</span>
+        <span data-lang="sv">Igelkottsvård · Djurklinik Saari</span>
+        <span data-lang="en">Hedgehog care · Eläinklinikka Saari</span>
+      </span>
+
+      <h1 data-lang="fi" class="show">Mitä siilistä huolehtiminen <em>oikeasti</em> tarkoittaa</h1>
+      <h1 data-lang="sv">Vad det <em>verkligen</em> innebär att sköta en igelkott</h1>
+      <h1 data-lang="en">What caring for a hedgehog <em>really</em> means</h1>
+
+      <p class="lead show" data-lang="fi">Tänä vuonna hoitoon tulee enemmän siilejä kuin koskaan. Selviämme vielä – mutta pian tarvitsemme apuasi. Kerromme rehellisesti, mitä hoito vaatii, ja miten voit tulla mukaan.</p>
+      <p class="lead" data-lang="sv">I år kommer fler igelkottar in för vård än någonsin. Vi klarar oss ännu – men snart behöver vi din hjälp. Vi berättar ärligt vad vården kräver och hur du kan vara med.</p>
+      <p class="lead" data-lang="en">This year we're taking in more hedgehogs than ever. We're managing for now — but soon we'll need your help. Here's an honest look at what the work involves and how you can join in.</p>
+
+      <div class="hero-cta">
+        <a href="#ilmoittaudu" class="btn btn-primary">
+          <span data-lang="fi" class="show">Haluan auttaa</span>
+          <span data-lang="sv">Jag vill hjälpa</span>
+          <span data-lang="en">I want to help</span>
+        </a>
+        <a href="#hoito" class="btn btn-ghost">
+          <span data-lang="fi" class="show">Mitä hoito vaatii</span>
+          <span data-lang="sv">Vad vården kräver</span>
+          <span data-lang="en">What the care involves</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal in">
+      <div class="hero-photo">
+        <img src="assets/hoglet-hero.jpg" alt="Hoidossa oleva siilinpoikanen kämmenellä — Eläinklinikka Saari">
+      </div>
+      <div class="hero-cap">
+        <span class="dot"></span>
+        <span data-lang="fi" class="show">Hoidossamme oleva siilinpoikanen</span>
+        <span data-lang="sv">En igelkottsunge i vår vård</span>
+        <span data-lang="en">A hoglet in our care</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== STATS BAND ====================== -->
+<section class="band">
+  <div class="wrap">
+    <div class="stat reveal">
+      <div class="n">~600 g</div>
+      <div class="l show" data-lang="fi">Vähimmäispaino turvalliseen talviuneen</div>
+      <div class="l" data-lang="sv">Minimivikt för säker vinterdvala</div>
+      <div class="l" data-lang="en">Minimum weight for safe hibernation</div>
+    </div>
+    <div class="stat reveal">
+      <div class="n">
+        <span data-lang="fi" class="show">syys–marras</span>
+        <span data-lang="sv">sep–nov</span>
+        <span data-lang="en">Sep–Nov</span>
+      </div>
+      <div class="l show" data-lang="fi">Kiireisin siilikausi</div>
+      <div class="l" data-lang="sv">Den mest hektiska igelkottssäsongen</div>
+      <div class="l" data-lang="en">The busiest hedgehog season</div>
+    </div>
+    <div class="stat reveal">
+      <div class="n">
+        <span data-lang="fi" class="show">Takaisin luontoon</span>
+        <span data-lang="sv">Tillbaka till naturen</span>
+        <span data-lang="en">Back to the wild</span>
+      </div>
+      <div class="l show" data-lang="fi">Jokaisen hoidon päämäärä</div>
+      <div class="l" data-lang="sv">Målet med varje vård</div>
+      <div class="l" data-lang="en">The goal of every case</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== WHAT CARING REALLY MEANS ====================== -->
+<section class="sec sec-alt" id="hoito">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Rehellisesti</span>
+        <span data-lang="sv">Ärligt talat</span>
+        <span data-lang="en">Honestly</span>
+      </span>
+      <h2 data-lang="fi" class="show">Mitä siilistä huolehtiminen vaatii</h2>
+      <h2 data-lang="sv">Vad det kräver att sköta en igelkott</h2>
+      <h2 data-lang="en">What caring for a hedgehog takes</h2>
+      <div class="body-copy">
+        <p data-lang="fi" class="show">Siili ei ole lemmikki. Se on luonnonvarainen, rauhoitettu eläin, jonka ainoa päämäärä on palata terveenä takaisin luontoon. Hoitaminen on palkitsevaa, mutta myös sitovaa ja joskus raskasta työtä. Kerromme rehellisesti, mitä se vaatii – jotta tiedät, mihin ryhdyt.</p>
+        <p data-lang="sv">En igelkott är inget husdjur. Den är ett vilt, fridlyst djur vars enda mål är att återvända friskt till naturen. Att sköta en igelkott är givande, men också bindande och ibland tungt arbete. Vi berättar ärligt vad det kräver – så att du vet vad du ger dig in på.</p>
+        <p data-lang="en">A hedgehog is not a pet. It is a wild, protected animal whose only goal is to return healthy to the wild. Caring for one is rewarding, but it is also demanding and sometimes hard work. We want to be honest about what it takes — so you know what you're taking on.</p>
+      </div>
+    </div>
+
+    <ul class="reals">
+      <li class="real reveal">
+        <span class="ic">🍽️</span>
+        <div>
+          <h3 data-lang="fi" class="show">Ruokinta</h3>
+          <h3 data-lang="sv">Utfodring</h3>
+          <h3 data-lang="en">Feeding</h3>
+          <p data-lang="fi" class="show">Pienimmät poikaset syövät muutaman tunnin välein, myös öisin. Ruokavalio on tarkka: kissanruokaa, ei koskaan maitoa tai leipää.</p>
+          <p data-lang="sv">De minsta ungarna äter med några timmars mellanrum, även nattetid. Kosten är strikt: kattmat, aldrig mjölk eller bröd.</p>
+          <p data-lang="en">The youngest hoglets eat every few hours, through the night too. The diet is strict: cat food, never milk or bread.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">🌡️</span>
+        <div>
+          <h3 data-lang="fi" class="show">Lämpö</h3>
+          <h3 data-lang="sv">Värme</h3>
+          <h3 data-lang="en">Warmth</h3>
+          <p data-lang="fi" class="show">Heikko tai kylmettynyt siili tarvitsee lisälämpöä ympäri vuorokauden, ennen kuin se jaksaa syödä ja toipua.</p>
+          <p data-lang="sv">En svag eller nedkyld igelkott behöver extra värme dygnet runt innan den orkar äta och tillfriskna.</p>
+          <p data-lang="en">A weak or chilled hedgehog needs added heat around the clock before it can eat and recover.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">🧽</span>
+        <div>
+          <h3 data-lang="fi" class="show">Puhtaus</h3>
+          <h3 data-lang="sv">Renlighet</h3>
+          <h3 data-lang="en">Cleaning</h3>
+          <p data-lang="fi" class="show">Häkki siivotaan päivittäin. Siilit ovat sotkuisia, ja puhtaus on osa niiden toipumista.</p>
+          <p data-lang="sv">Buren städas dagligen. Igelkottar är kladdiga, och renlighet är en del av tillfrisknandet.</p>
+          <p data-lang="en">The enclosure is cleaned every day. Hedgehogs are messy, and hygiene is part of their recovery.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">⚖️</span>
+        <div>
+          <h3 data-lang="fi" class="show">Punnitus</h3>
+          <h3 data-lang="sv">Vägning</h3>
+          <h3 data-lang="en">Weighing</h3>
+          <p data-lang="fi" class="show">Paino tarkistetaan joka päivä, jotta tiedämme, että toipuminen etenee oikeaan suuntaan.</p>
+          <p data-lang="sv">Vikten kontrolleras varje dag så att vi vet att tillfrisknandet går åt rätt håll.</p>
+          <p data-lang="en">Weight is checked daily so we know recovery is heading in the right direction.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">💊</span>
+        <div>
+          <h3 data-lang="fi" class="show">Lääkitys</h3>
+          <h3 data-lang="sv">Medicinering</h3>
+          <h3 data-lang="en">Medical care</h3>
+          <p data-lang="fi" class="show">Lähes jokaisella siilillä on loisia (punkkeja, kirppuja, suoli- ja keuhkomatoja), haavoja tai muita vaivoja, jotka vaativat eläinlääkärin hoitoa.</p>
+          <p data-lang="sv">Nästan varje igelkott har parasiter (fästingar, loppor, tarm- och lungmask), sår eller andra åkommor som kräver veterinärvård.</p>
+          <p data-lang="en">Almost every hedgehog carries parasites (ticks, fleas, intestinal and lungworm), wounds or other problems that need veterinary treatment.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">❄️</span>
+        <div>
+          <h3 data-lang="fi" class="show">Talvehtiminen</h3>
+          <h3 data-lang="sv">Övervintring</h3>
+          <h3 data-lang="en">Overwintering</h3>
+          <p data-lang="fi" class="show">Liian kevyt siili (alle n. 600 g) ei voi vaipua turvalliseen talviuneen. Sitä ruokitaan ja lämmitetään läpi koko talven – usean kuukauden sitoumus.</p>
+          <p data-lang="sv">En för lätt igelkott (under ca 600 g) kan inte gå i säker vinterdvala. Den utfodras och värms hela vintern – ett åtagande på flera månader.</p>
+          <p data-lang="en">A hedgehog that's too light (under ~600 g) can't hibernate safely. It's fed and kept warm all winter — a commitment of several months.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">🤫</span>
+        <div>
+          <h3 data-lang="fi" class="show">Rauha</h3>
+          <h3 data-lang="sv">Lugn</h3>
+          <h3 data-lang="en">Quiet</h3>
+          <p data-lang="fi" class="show">Siili tarvitsee hiljaisen, rauhallisen tilan erillään lemmikeistä ja lapsista. Se on villieläin, ei seuraeläin.</p>
+          <p data-lang="sv">Igelkotten behöver en tyst, lugn plats avskild från husdjur och barn. Den är ett vilddjur, inte ett sällskapsdjur.</p>
+          <p data-lang="en">A hedgehog needs a quiet, calm space away from pets and children. It's a wild animal, not a companion animal.</p>
+        </div>
+      </li>
+      <li class="real reveal">
+        <span class="ic">💛</span>
+        <div>
+          <h3 data-lang="fi" class="show">Luopuminen</h3>
+          <h3 data-lang="sv">Att släppa taget</h3>
+          <h3 data-lang="en">Letting go</h3>
+          <p data-lang="fi" class="show">Teemme kaiken, jotta siili pääsee vapaaksi. Kaikki eivät kuitenkaan selviä, ja sekin on osa työtä.</p>
+          <p data-lang="sv">Vi gör allt för att igelkotten ska bli fri igen. Alla klarar sig ändå inte, och även det hör till arbetet.</p>
+          <p data-lang="en">We do everything to get a hedgehog back to the wild. Not all of them make it, and that too is part of the work.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ====================== WHY WE NEED HELP NOW ====================== -->
+<section class="sec">
+  <div class="wrap reveal">
+    <div class="highlight">
+      <span class="eyebrow">
+        <span data-lang="fi" class="show">Miksi juuri nyt</span>
+        <span data-lang="sv">Varför just nu</span>
+        <span data-lang="en">Why right now</span>
+      </span>
+      <h2 data-lang="fi" class="show">Siilejä on hoidossa enemmän kuin koskaan</h2>
+      <h2 data-lang="sv">Fler igelkottar i vård än någonsin</h2>
+      <h2 data-lang="en">More hedgehogs in care than ever</h2>
+      <p data-lang="fi" class="show">Tänä vuonna löydettyjä ja hoitoon tuotuja siilejä on enemmän kuin koskaan aiemmin. Tällä hetkellä pärjäämme, mutta määrä kasvaa jatkuvasti. Jotta jokainen siili saa tarvitsemansa hoidon, tarvitsemme lisää käsiä – ihmisiä, jotka voivat auttaa hoidossa, kuljetuksissa, hoitopaikkoina tai tukemalla toimintaa.</p>
+      <p data-lang="sv">I år har fler igelkottar hittats och förts till vård än någonsin tidigare. Just nu klarar vi oss, men antalet växer hela tiden. För att varje igelkott ska få den vård den behöver, behöver vi fler händer – människor som kan hjälpa med vården, transporterna, som jourhem eller genom att stödja verksamheten.</p>
+      <p data-lang="en">This year more hedgehogs have been found and brought in for care than ever before. Right now we're coping, but the numbers keep growing. For every hedgehog to get the care it needs, we need more hands — people who can help with care, transport, as foster homes, or by supporting the work.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== WAYS TO HELP ====================== -->
+<section class="sec sec-alt">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;max-width:60ch;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center">
+        <span data-lang="fi" class="show">Miten voit auttaa</span>
+        <span data-lang="sv">Hur du kan hjälpa</span>
+        <span data-lang="en">How you can help</span>
+      </span>
+      <h2 data-lang="fi" class="show">Neljä tapaa olla mukana</h2>
+      <h2 data-lang="sv">Fyra sätt att vara med</h2>
+      <h2 data-lang="en">Four ways to take part</h2>
+      <p class="lead show" style="margin:0 auto" data-lang="fi">Aiempaa kokemusta siileistä ei tarvita – kaikki apu on arvokasta.</p>
+      <p class="lead" style="margin:0 auto" data-lang="sv">Tidigare erfarenhet av igelkottar behövs inte – all hjälp är värdefull.</p>
+      <p class="lead" style="margin:0 auto" data-lang="en">No previous hedgehog experience needed — all help is valuable.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card reveal">
+        <div class="ic">🏡</div>
+        <h3 data-lang="fi" class="show">Hoitokotina</h3>
+        <h3 data-lang="sv">Som jourhem</h3>
+        <h3 data-lang="en">As a foster home</h3>
+        <p data-lang="fi" class="show">Tarjoat siilille rauhallisen tilan ja hoidat sitä ohjeidemme mukaan. Me tuemme ja neuvomme koko ajan.</p>
+        <p data-lang="sv">Du erbjuder igelkotten en lugn plats och sköter den enligt våra anvisningar. Vi stöder och vägleder hela tiden.</p>
+        <p data-lang="en">You give a hedgehog a calm space and care for it following our guidance. We support and advise you all the way.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">🚗</div>
+        <h3 data-lang="fi" class="show">Kuljettajana</h3>
+        <h3 data-lang="sv">Som chaufför</h3>
+        <h3 data-lang="en">As a driver</h3>
+        <p data-lang="fi" class="show">Haet löydettyjä siilejä ja viet niitä hoitoon. Pienikin ajomatka voi pelastaa yhden siilin.</p>
+        <p data-lang="sv">Du hämtar hittade igelkottar och kör dem till vård. Även en kort körning kan rädda en igelkott.</p>
+        <p data-lang="en">You pick up found hedgehogs and bring them in for care. Even a short drive can save a hedgehog.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">🧤</div>
+        <h3 data-lang="fi" class="show">Hoitajana</h3>
+        <h3 data-lang="sv">Som skötare</h3>
+        <h3 data-lang="en">As a carer</h3>
+        <p data-lang="fi" class="show">Autat ruokinnassa ja siivouksessa hoitopaikalla. Säännölliset kädet keventävät kaikkien taakkaa.</p>
+        <p data-lang="sv">Du hjälper till med utfodring och städning på vårdplatsen. Regelbundna händer lättar allas börda.</p>
+        <p data-lang="en">You help with feeding and cleaning at the care site. Regular hands lighten the load for everyone.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic">💛</div>
+        <h3 data-lang="fi" class="show">Tukijana</h3>
+        <h3 data-lang="sv">Som stödperson</h3>
+        <h3 data-lang="en">As a supporter</h3>
+        <p data-lang="fi" class="show">Taloudellinen tuki auttaa kattamaan ruoan, tarvikkeet ja lääkkeet, joita hoito vaatii.</p>
+        <p data-lang="sv">Ekonomiskt stöd hjälper till att täcka mat, förnödenheter och mediciner som vården kräver.</p>
+        <p data-lang="en">Financial support helps cover the food, supplies and medicines the care requires.</p>
+      </div>
+    </div>
+
+    <div class="cta-center reveal">
+      <a href="#ilmoittaudu" class="btn btn-primary">
+        <span data-lang="fi" class="show">Haluan auttaa</span>
+        <span data-lang="sv">Jag vill hjälpa</span>
+        <span data-lang="en">I want to help</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== VOLUNTEER FORM ====================== -->
+<section class="sec formsec" id="ilmoittaudu">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;max-width:60ch;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center">
+        <span data-lang="fi" class="show">Ilmoittaudu</span>
+        <span data-lang="sv">Anmäl dig</span>
+        <span data-lang="en">Sign up</span>
+      </span>
+      <h2 data-lang="fi" class="show">Ilmoittaudu vapaaehtoiseksi</h2>
+      <h2 data-lang="sv">Anmäl dig som frivillig</h2>
+      <h2 data-lang="en">Sign up as a volunteer</h2>
+      <p class="lead show" style="margin:0 auto" data-lang="fi">Kerro itsestäsi, niin otamme sinuun yhteyttä. Kaikki kokemus on arvokasta.</p>
+      <p class="lead" style="margin:0 auto" data-lang="sv">Berätta om dig själv, så kontaktar vi dig. All erfarenhet är värdefull.</p>
+      <p class="lead" style="margin:0 auto" data-lang="en">Tell us about yourself and we'll get in touch. All experience is valuable.</p>
+    </div>
+
+    <form class="formcard reveal" id="volform" novalidate>
+      <!-- honeypot: hidden from users, bots fill it -->
+      <div class="hp" aria-hidden="true">
+        <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <input type="hidden" name="lang" id="formlang" value="fi">
+
+      <div class="field">
+        <label class="lbl" for="f-name">
+          <span data-lang="fi" class="show">Nimi <span class="req">*</span></span>
+          <span data-lang="sv">Namn <span class="req">*</span></span>
+          <span data-lang="en">Name <span class="req">*</span></span>
+        </label>
+        <input type="text" id="f-name" name="name" required maxlength="120" autocomplete="name">
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="f-email">
+          <span data-lang="fi" class="show">Sähköposti <span class="req">*</span></span>
+          <span data-lang="sv">E-post <span class="req">*</span></span>
+          <span data-lang="en">Email <span class="req">*</span></span>
+        </label>
+        <input type="email" id="f-email" name="email" required maxlength="180" autocomplete="email">
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="f-phone">
+          <span data-lang="fi" class="show">Puhelin</span>
+          <span data-lang="sv">Telefon</span>
+          <span data-lang="en">Phone</span>
+        </label>
+        <input type="tel" id="f-phone" name="phone" maxlength="40" autocomplete="tel">
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="f-city">
+          <span data-lang="fi" class="show">Paikkakunta <span class="req">*</span></span>
+          <span data-lang="sv">Ort <span class="req">*</span></span>
+          <span data-lang="en">City or area <span class="req">*</span></span>
+        </label>
+        <input type="text" id="f-city" name="city" required maxlength="120">
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="f-exp">
+          <span data-lang="fi" class="show">Kokemus eläimistä (vapaaehtoinen)</span>
+          <span data-lang="sv">Erfarenhet av djur (frivilligt)</span>
+          <span data-lang="en">Experience with animals (optional)</span>
+        </label>
+        <input type="text" id="f-exp" name="experience" maxlength="300">
+      </div>
+
+      <div class="field">
+        <label class="lbl">
+          <span data-lang="fi" class="show">Milloin voit auttaa?</span>
+          <span data-lang="sv">När kan du hjälpa?</span>
+          <span data-lang="en">When can you help?</span>
+        </label>
+        <div class="checks">
+          <label class="check"><input type="checkbox" name="availability" value="weekdays"><span data-lang="fi" class="show">Arkisin</span><span data-lang="sv">Vardagar</span><span data-lang="en">Weekdays</span></label>
+          <label class="check"><input type="checkbox" name="availability" value="weekends"><span data-lang="fi" class="show">Viikonloppuisin</span><span data-lang="sv">Helger</span><span data-lang="en">Weekends</span></label>
+          <label class="check"><input type="checkbox" name="availability" value="oncall"><span data-lang="fi" class="show">Tarvittaessa</span><span data-lang="sv">Vid behov</span><span data-lang="en">On call</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="lbl">
+          <span data-lang="fi" class="show">Miten voisit auttaa?</span>
+          <span data-lang="sv">Hur kan du hjälpa?</span>
+          <span data-lang="en">How could you help?</span>
+        </label>
+        <div class="checks">
+          <label class="check"><input type="checkbox" name="help" value="foster"><span data-lang="fi" class="show">Hoitokotina</span><span data-lang="sv">Som jourhem</span><span data-lang="en">As a foster home</span></label>
+          <label class="check"><input type="checkbox" name="help" value="transport"><span data-lang="fi" class="show">Kuljetuksissa</span><span data-lang="sv">Med transport</span><span data-lang="en">With transport</span></label>
+          <label class="check"><input type="checkbox" name="help" value="handson"><span data-lang="fi" class="show">Hoitotyössä</span><span data-lang="sv">Med skötsel</span><span data-lang="en">With hands-on care</span></label>
+          <label class="check"><input type="checkbox" name="help" value="financial"><span data-lang="fi" class="show">Taloudellisella tuella</span><span data-lang="sv">Med ekonomiskt stöd</span><span data-lang="en">With financial support</span></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="f-msg">
+          <span data-lang="fi" class="show">Kerro lisää itsestäsi ja miksi haluat auttaa <span class="req">*</span></span>
+          <span data-lang="sv">Berätta mer om dig själv och varför du vill hjälpa <span class="req">*</span></span>
+          <span data-lang="en">Tell us more about yourself and why you want to help <span class="req">*</span></span>
+        </label>
+        <textarea id="f-msg" name="motivation" required maxlength="2000"></textarea>
+      </div>
+
+      <label class="consent">
+        <input type="checkbox" name="consent" required>
+        <span>
+          <span data-lang="fi" class="show">Annan luvan tallentaa yhteystietoni, jotta Eläinklinikka Saari voi ottaa minuun yhteyttä vapaaehtoistoimintaan liittyen.</span>
+          <span data-lang="sv">Jag ger tillstånd att spara mina kontaktuppgifter så att Djurklinik Saari kan kontakta mig gällande frivilligverksamheten.</span>
+          <span data-lang="en">I consent to my contact details being stored so that Eläinklinikka Saari can contact me about volunteering.</span>
+        </span>
+      </label>
+
+      <button type="submit" class="btn btn-primary submit" id="volsubmit">
+        <span data-lang="fi" class="show">Lähetä ilmoittautuminen</span>
+        <span data-lang="sv">Skicka anmälan</span>
+        <span data-lang="en">Send my sign-up</span>
+      </button>
+
+      <div class="form-status" id="formstatus" role="status" aria-live="polite">
+        <span class="msg-ok" hidden>
+          <span data-lang="fi" class="show">Kiitos! Olemme vastaanottaneet ilmoittautumisesi ja otamme sinuun yhteyttä pian.</span>
+          <span data-lang="sv">Tack! Vi har tagit emot din anmälan och kontaktar dig snart.</span>
+          <span data-lang="en">Thank you! We've received your sign-up and will be in touch soon.</span>
+        </span>
+        <span class="msg-err" hidden>
+          <span data-lang="fi" class="show">Lähetys epäonnistui. Yritä uudelleen tai lähetä sähköpostia osoitteeseen info@saarivet.fi.</span>
+          <span data-lang="sv">Något gick fel. Försök igen eller mejla info@saarivet.fi.</span>
+          <span data-lang="en">Something went wrong. Please try again or email info@saarivet.fi.</span>
+        </span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ====================== CONTACT / FOOTER ====================== -->
+<section class="contact">
+  <div class="wrap reveal">
+    <span class="eyebrow" style="color:var(--pink)">
+      <span data-lang="fi" class="show">Löysitkö siilen?</span>
+      <span data-lang="sv">Hittade du en igelkott?</span>
+      <span data-lang="en">Found a hedgehog?</span>
+    </span>
+    <h2 data-lang="fi" class="show">Ota yhteyttä, niin autamme</h2>
+    <h2 data-lang="sv">Ta kontakt, så hjälper vi</h2>
+    <h2 data-lang="en">Get in touch and we'll help</h2>
+
+    <p class="lead show" data-lang="fi">Jos löydät avuttoman, loukkaantuneen tai päiväsaikaan yksin liikkuvan siilen, ota yhteyttä klinikkaamme. Älä anna siilelle maitoa. Pidä se lämpimänä ja rauhallisessa paikassa, kunnes saat ohjeita.</p>
+    <p class="lead" data-lang="sv">Om du hittar en hjälplös, skadad eller en igelkott som rör sig ensam mitt på dagen, kontakta vår klinik. Ge inte igelkotten mjölk. Håll den varm och på en lugn plats tills du får anvisningar.</p>
+    <p class="lead" data-lang="en">If you find a helpless or injured hedgehog, or one moving alone in daylight, contact our clinic. Do not give it milk. Keep it warm and in a quiet place until you get instructions.</p>
+
+    <div class="clinks">
+      <a class="clink" href="https://elainklinikkasaari.fi/">🌐 elainklinikkasaari.fi</a>
+      <a class="clink" href="https://siilisaari.fi" target="_blank" rel="noopener">🦔 siilisaari.fi</a>
+      <a class="clink" href="mailto:info@saarivet.fi">✉️ info@saarivet.fi</a>
+    </div>
+
+    <div class="foot-note">
+      <span data-lang="fi" class="show">Siili-Saari on Eläinklinikka Saaren yhteydessä toimiva villieläinten hoitopiste. Autamme apua tarvitsevia luonnonvaraisia siilejä ja työskentelemme sen eteen, että jokainen niistä pääsee terveenä takaisin luontoon. Tämä sivu kertoo siilihoidosta ja vapaaehtoistoiminnasta – yhteystietosi käytetään vain sinuun yhteydenottoon vapaaehtoisuuteen liittyen.</span>
+      <span data-lang="sv">Siili-Saari är en vårdpunkt för vilda djur i anslutning till Djurklinik Saari. Vi hjälper vilda igelkottar i nöd och arbetar för att var och en av dem ska komma friska tillbaka till naturen. Den här sidan handlar om igelkottsvård och frivilligverksamhet – dina kontaktuppgifter används endast för att kontakta dig gällande frivilligarbetet.</span>
+      <span data-lang="en">Siili-Saari is a wildlife care point connected to Eläinklinikka Saari. We help wild hedgehogs in need and work to return every one of them healthy to the wild. This page is about hedgehog care and volunteering — your contact details are used only to contact you about volunteering.</span>
+    </div>
+  </div>
+</section>
+
+<script>
+  // ---- language switch ----
+  const buttons = document.querySelectorAll('.langs button');
+  const formLang = document.getElementById('formlang');
+  function setLang(lang){
+    document.documentElement.lang = lang;
+    try{localStorage.setItem('preferredLanguage',lang)}catch(e){}
+    document.querySelectorAll('[data-lang]').forEach(el=>{
+      el.classList.toggle('show', el.getAttribute('data-lang')===lang);
+    });
+    buttons.forEach(b=>b.classList.toggle('active', b.dataset.set===lang));
+    if(formLang) formLang.value = lang;
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.set)));
+  var _sv=(function(){try{return localStorage.getItem('preferredLanguage')}catch(e){return null}})();
+  setLang((_sv==='sv'||_sv==='en'||_sv==='fi')?_sv:'fi');
+
+  // ---- scroll reveal ----
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // ---- volunteer form submit ----
+  // clinic-tv endpoint — served under /tv/* (the public proxy only routes /tv to clinic-tv):
+  const ENDPOINT = 'https://dashboard.saarivet.fi/tv/api/volunteer-signup';
+  const form = document.getElementById('volform');
+  const statusBox = document.getElementById('formstatus');
+  const okMsg = statusBox.querySelector('.msg-ok');
+  const errMsg = statusBox.querySelector('.msg-err');
+  const submitBtn = document.getElementById('volsubmit');
+
+  function showStatus(kind){
+    statusBox.className = 'form-status ' + kind;
+    okMsg.hidden = kind !== 'ok';
+    errMsg.hidden = kind !== 'err';
+  }
+
+  form.addEventListener('submit', async (ev)=>{
+    ev.preventDefault();
+    // honeypot: silently pretend success if a bot filled it
+    if(form.website.value){ showStatus('ok'); form.reset(); return; }
+    if(!form.checkValidity()){ form.reportValidity(); return; }
+
+    const data = {
+      name: form.name.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      city: form.city.value.trim(),
+      experience: form.experience.value.trim(),
+      availability: [...form.querySelectorAll('input[name=availability]:checked')].map(c=>c.value),
+      help: [...form.querySelectorAll('input[name=help]:checked')].map(c=>c.value),
+      motivation: form.motivation.value.trim(),
+      consent: form.consent.checked,
+      lang: formLang.value,
+      website: form.website.value
+    };
+
+    submitBtn.disabled = true;
+    try{
+      const res = await fetch(ENDPOINT, {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(data)
+      });
+      if(res.ok){ showStatus('ok'); form.reset(); setLang(document.documentElement.lang); }
+      else { showStatus('err'); }
+    }catch(e){ showStatus('err'); }
+    finally{ submitBtn.disabled = false; }
+  });
+</script>
+</body>
+</html>
