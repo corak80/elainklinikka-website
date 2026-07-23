@@ -3687,7 +3687,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
+          <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
@@ -4515,7 +4515,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
+          <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>
@@ -4740,7 +4740,7 @@ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
           <a href="../#services">Palvelut</a>
-          <a href="../#team">Henkilökunta</a>
+          <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
           <a href="../#wildlife">Wildlife</a>

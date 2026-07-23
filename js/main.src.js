@@ -375,6 +375,7 @@ const translations = {
 
   // Team
   'team.title': { fi: 'Henkilökuntamme', sv: 'Vår personal', en: 'Our Team' },
+  'team.more': { fi: 'Tutustu koko henkilökuntaan', sv: 'Bekanta dig med hela personalen', en: 'Meet the whole team' },
   'team.subtitle': {
     fi: 'Ammattitaitoinen hoitotiimimme palveluksessasi',
     sv: 'Vårt professionella vårdteam till din tjänst',
