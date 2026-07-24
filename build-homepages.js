@@ -57,8 +57,8 @@ const pageMeta = {
   },
   sv: {
     htmlLang: 'sv',
-    title: 'Veterinär Vasa — Djurklinik Saari, mån–fre 7:45–17',
-    description: 'Smådjursklinik och veterinär i Vasa sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!',
+    title: 'Veterinär & Smådjursklinik i Vasa — Djurklinik Saari',
+    description: 'Smådjursklinik och veterinär i Vasa (Vaasa) sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!',
     ogTitle: 'Djurklinik Saari – Smådjursklinik och veterinär i Vasa',
     ogDescription: 'Smådjursklinik och veterinär i Vasa sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter.',
     ogLocale: 'sv_FI',

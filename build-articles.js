@@ -822,8 +822,13 @@ function generateArticlePage(article, translations, specialContent, lang) {
     const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
     if (dashMatch && (dashMatch[1] + suffix).length <= 60) {
       pageTitle = dashMatch[1] + suffix;
+    } else if (dashMatch && dashMatch[1].length <= 60) {
+      pageTitle = dashMatch[1];
+    } else if (title.length <= 60) {
+      pageTitle = title;
     } else {
-      pageTitle = title.length <= 60 ? title : title.substring(0, 57) + '...';
+      const cut = title.substring(0, 60);
+      pageTitle = cut.substring(0, cut.lastIndexOf(' '));
     }
   }
   const introKey = `${article.prefix}.intro`;
@@ -1420,7 +1425,7 @@ ${cardsHtml}
           <strong class="footer-heading">${escapeHtml(i18n.footerQuickLinks)}</strong>
           <a href="${homeUrl}#about">${escapeHtml(i18n.footerAbout)}</a>
           <a href="${homeUrl}#services">${escapeHtml(i18n.footerServices)}</a>
-          <a href="${homeUrl}#team">${escapeHtml(i18n.footerTeam)}</a>
+          <a href="${lang === 'fi' ? '/henkilokunta/' : `${homeUrl}#team`}">${escapeHtml(i18n.footerTeam)}</a>
           <a href="${homeUrl}#cat-friendly">Cat Friendly</a>
           <a href="${PRICES_URLS[lang] || PRICES_URLS.fi}">${escapeHtml(i18n.footerPrices)}</a>
           <a href="${homeUrl}#wildlife">Wildlife</a>
@@ -2477,7 +2482,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä röntgenistä', text: '<strong>Tarvitaanko rauhoitusta röntgeniin?</strong> Useimmissa tapauksissa röntgenkuvaus onnistuu ilman rauhoitusta. Potilaan asentoa ohjataan kevyesti ja kuvaus kestää vain sekunteja. Rauhoitusta tarvitaan, jos potilas on kovin levoton tai kivulias, tai kun kyseessä ovat viralliset jalostusröntgenkuvat, jotka vaativat tarkan asennon. Rauhoitus on turvallinen ja potilas toipuu nopeasti. <strong>Onko röntgensäteily vaarallista?</strong> Röntgenkuvaus on turvallinen diagnostinen tutkimus. Yksittäisen kuvan säteilyannos on erittäin pieni eikä aiheuta terveysriskiä. Digitaalinen röntgen vähentää tarvittavaa säteilyannosta entisestään perinteiseen filmitekniikkaan verrattuna. Hoitohenkilökunta käyttää suojavarusteita ja noudattaa säteilyturvallisuusohjeita.' },
     ],
     sv: {
-      title: 'Röntgen | Djurklinik Saari',
+      title: 'Röntgen i Vasa | Djurklinik Saari',
       h1: 'Röntgen',
       metaDesc: 'Digital röntgen och dentalröntgen för djur i Vasa. Högkvalitativa bilder, snabba resultat. Officiella röntgenundersökningar. Eläinklinikka Saari.',
       sections: [
@@ -2495,7 +2500,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'X-ray | Saari Animal Clinic',
+      title: 'X-ray in Vaasa | Saari Animal Clinic',
       h1: 'X-ray',
       metaDesc: 'Digital X-ray and dental radiography for pets in Vaasa. High-quality imaging, rapid results. Official radiographic examinations. Eläinklinikka Saari.',
       sections: [
@@ -2531,7 +2536,7 @@ const servicePages = [
       { heading: 'Surutyö', text: 'Lemmikin menetys on aitoa surua, ja se on luonnollista. Jokainen suree omalla tavallaan ja omassa tahdissaan. Muistot, joita olet jakanut lemmikkisi kanssa, ovat arvokkaita ja pysyviä. Lapsillekin on tärkeää antaa mahdollisuus surra ja käsitellä menetystä. Jos tunnet tarvitsevasi tukea, älä epäröi keskustella kanssamme tai hakea apua. Lemmikin antama rakkaus ei katoa — se jää sydämeen.' },
     ],
     sv: {
-      title: 'Eutanasi | Djurklinik Saari',
+      title: 'Eutanasi i Vasa | Djurklinik Saari',
       h1: 'Eutanasi — husdjurets sista resa',
       metaDesc: 'Lugn och värdig avskildning för ditt husdjur i Vasa. Smärtfri eutanasi med sedering. Kremering och individuell kremering. Eläinklinikka Saari.',
       sections: [
@@ -2638,7 +2643,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä verikokeista', text: '<strong>Pitääkö lemmikin olla ravinnotta?</strong> Useimpien verikokeiden kohdalla paastoa ei vaadita — voit syöttää lemmikkiäsi normaalisti ennen käyntiä. Paastoa suositellaan ainoastaan rasva-arvojen (triglyseridi, kolesteroli) tutkimisessa — tällöin 8–12 tunnin paasto riittää. Vettä saa ja pitää tarjota normaalisti. Eläinlääkäri kertoo ajanvarauksen yhteydessä, jos paasto on tarpeen. <strong>Kuinka nopeasti tulokset saadaan?</strong> Klinikkamme omassa laboratoriossa suurin osa tuloksista valmistuu 15–30 minuutissa, joten saat vastaukset yleensä jo käynnin aikana. Tämä mahdollistaa hoidon aloittamisen heti. Harvinaisemmat tutkimukset, kuten hormonitasot ja erikoisvärjäykset, lähetetään ulkopuoliseen laboratorioon, jolloin vastaus saadaan 1–5 arkipäivässä.' },
     ],
     sv: {
-      title: 'Blodprov | Djurklinik Saari',
+      title: 'Blodprov i Vasa | Djurklinik Saari',
       h1: 'Blodprov',
       metaDesc: 'Blodprov för husdjur i Vasa. Eget laboratorium med snabba resultat under besöket. Hematologi, klinisk kemi, hormoner. Eläinklinikka Saari.',
       sections: [
@@ -2854,7 +2859,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä kastraatiosta', text: '<strong>Muuttuuko koiran käytös kastraation jälkeen?</strong> Kastraatio voi vähentää hormonaalista käytöstä kuten merkkailua, kiertelyä ja muita koiraita kohtaan osoitettua aggressiivisuutta. Vaikutus käytökseen riippuu kuitenkin yksilöstä — opitut käytösmallit eivät välttämättä muutu pelkän kastraation myötä. Kemiallinen kastraatio on hyvä tapa kokeilla vaikutusta ennen pysyvää päätöstä. Perusluonne ja opittu käytös säilyvät ennallaan. <strong>Voiko kastraation peruuttaa?</strong> Kirurginen kastraatio on pysyvä toimenpide, jota ei voi peruuttaa. Sen vuoksi tarjoamme kemiallista kastraatiota Suprelorin-implantilla, jonka vaikutus kestää 6 tai 12 kuukautta ja häviää sen jälkeen kokonaan. Kemiallinen kastraatio on erinomainen tapa kokeilla, miten kastraatio vaikuttaa koiran käytökseen ja terveyteen ennen lopullista päätöstä.' },
     ],
     sv: {
-      title: 'Kastrering | Djurklinik Saari',
+      title: 'Kastrering i Vasa | Djurklinik Saari',
       h1: 'Kastrering',
       metaDesc: 'Kastrering av hund, katt och kanin i Vasa. Kemisk kastrering med Suprelorin-implantat. Inhalationsanestesi. Eläinklinikka Saari.',
       sections: [
@@ -2910,7 +2915,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä ortopediasta', text: '<strong>Kuinka pitkä on toipumisaika leikkauksen jälkeen?</strong> Toipumisaika riippuu toimenpiteestä. Eturistisiteen korjausleikkauksen (TTA tai lateral suture) jälkeen toipuminen kestää noin 8–12 viikkoa, jonka aikana liikkumista rajoitetaan asteittain. Murtumaleikkausten toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista — ne nopeuttavat paranemista ja parantavat lopputulosta. <strong>Voiko ontumisen syyn selvittää ilman leikkausta?</strong> Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Ortopedinen tutkimus, röntgenkuvat ja tarvittaessa ultraääni tai CT-kuvaus antavat tarkan diagnoosin. Kaikki ontumisen syyt eivät vaadi leikkausta — esimerkiksi lievä nivelrikko ja jänneongelmat hoidetaan usein konservatiivisesti lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.' },
     ],
     sv: {
-      title: 'Ortopedi | Djurklinik Saari',
+      title: 'Ortopedi i Vasa | Djurklinik Saari',
       h1: 'Ortopedi',
       metaDesc: 'Ortopedi i Vasa: korsbandsskada (TTA, lateral suture), frakturoperationer, amputationer, officiella röntgenundersökningar. Eläinklinikka Saari.',
       sections: [
@@ -2990,7 +2995,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä anestesiasta', text: '<strong>Onko anestesia turvallista?</strong> Moderni inhalaatioanestesia on erittäin turvallinen. Anestesiariski terveellä potilaalla on alle 0,1 %. Riskiä pienennetään huolellisella esitarkastuksella, verikokeilla, yksilöllisellä anestesiaprotokollalla ja jatkuvalla monitoroinnilla. Klinikallamme jokaista potilasta valvoo kokenut hoitaja, joka seuraa sydämen sykettä, verenpainetta, happisaturaatiota, kapnografiaa ja lämpötilaa reaaliajassa. <strong>Kuinka pitkään toipuminen kestää?</strong> Inhalaatioanestesiasta herääminen on nopeaa — useimmat potilaat ovat hereillä 10–30 minuutin kuluessa toimenpiteen päättymisestä. Potilas voi olla tokkurainen muutaman tunnin ajan, mutta palautuu yleensä normaaliksi saman päivän aikana. Kotiutus tapahtuu yleensä iltapäivällä, kun potilas kävelee itsenäisesti ja voi normaalisti. Kipulääkitys jatkuu kotona eläinlääkärin ohjeen mukaan.' },
     ],
     sv: {
-      title: 'Anestesi | Djurklinik Saari',
+      title: 'Anestesi i Vasa | Djurklinik Saari',
       h1: 'Anestesi',
       metaDesc: 'Säker veterinäranestesi i Vasa. Inhalationsanestesi, kontinuerlig övervakning, två ventilatorer, balanserat protokoll. Eläinklinikka Saari.',
       sections: [
@@ -3044,7 +3049,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä hygieniasta', text: '<strong>Kuinka usein tilat desinfioidaan?</strong> Jokaisen potilaan jälkeen desinfioimme kaikki tutkimuspöydät ja kosketuspinnat. Lattiat desinfioidaan kahdesti päivässä ja tehokkaammin aina tarpeen mukaan. UV-desinfiointi suoritetaan säännöllisesti kaikissa tiloissa. Kankaat — pyyhkeet, peitot ja koiranpedit — pestään jokaisen käytön jälkeen. Näin estämme tartuntojen leviämisen potilaiden välillä. <strong>Käytetäänkö antibakteerisia aineita?</strong> Käytämme tehokkaita desinfektioaineita, jotka tuhoavat bakteerit, virukset ja sienet. Desinfektioaineet valitaan niiden laaja-alaisuuden ja turvallisuuden perusteella — ne ovat tehokkaita mutta eivät aiheuta haittaa potilaille. Lisäksi käytämme UV-valoa pintojen desinfointiin, mikä täydentää kemiallista puhdistusta. Kertakäyttöisiä materiaaleja käytetään aina kun mahdollista.' },
     ],
     sv: {
-      title: 'Hygien | Djurklinik Saari',
+      title: 'Hygien i Vasa | Djurklinik Saari',
       h1: 'Hygien',
       metaDesc: 'Hög hygiensstandard på djurkliniken i Vasa. Ytdesinfektion, UV-desinfektion, ISFM kattvänliga standarder. Eläinklinikka Saari.',
       sections: [
@@ -3062,7 +3067,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Hygiene | Saari Animal Clinic',
+      title: 'Hygiene in Vaasa | Saari Animal Clinic',
       h1: 'Hygiene',
       metaDesc: 'High hygiene standards at the veterinary clinic in Vaasa. Surface disinfection, UV disinfection, ISFM cat-friendly standards. Eläinklinikka Saari.',
       sections: [
@@ -3514,7 +3519,7 @@ ${relatedHtml}
           <strong class="footer-heading">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
           <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
-          <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
+          <a href="${lang === 'fi' ? '/henkilokunta/' : `${homeUrl}#team`}">${escapeHtml(nav.team)}</a>
           <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="/meista/">${escapeHtml(footerAbout[lang] || footerAbout.fi)}</a>
@@ -4896,6 +4901,22 @@ ${palvelutHreflang}  </url>
   </url>
 `;
 
+  xml += `  <url>
+    <loc>${BASE_URL}/henkilokunta/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+
+  xml += `  <url>
+    <loc>${BASE_URL}/siilihoito/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+`;
+
   // Pricelist pages (FI/SV/EN, hreflang-linked)
   const pricesHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/hinnasto/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/prislista/"/>
@@ -5218,7 +5239,7 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
         <div class="nav-links">
           <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
           <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
-          <a href="${homeUrl}#team">${escapeHtml(nav.team)}</a>
+          <a href="${lang === 'fi' ? '/henkilokunta/' : `${homeUrl}#team`}">${escapeHtml(nav.team)}</a>
           <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>
