@@ -17,7 +17,6 @@
     "/palvelut/ruokamyynti/": "/palvelut/rehumyynti/",
     "/palvelut/kuntoutus-ja-hyvinvointi/": "/palvelut/kuntoutus/",
     "/klinikka/": "/meista/",
-    "/henkilokunta/": "/meista/",
     "/ajankohtaista/": "/artikkelit/",
     "/wildlife/": "/yhteystiedot/"
   },
