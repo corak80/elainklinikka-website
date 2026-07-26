@@ -21,6 +21,23 @@
     gtag('config', 'AW-816483191');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call / booking conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'transport_type': 'beacon', 'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta name="description" content="Contact Saari Animal Clinic in Vaasa: call (06) 321 7300, online booking, WhatsApp, or email info@saarivet.fi. Hours Mon–Fri 7:45–17.">
   <link rel="canonical" href="https://elainklinikkasaari.fi/en/book-appointment/">

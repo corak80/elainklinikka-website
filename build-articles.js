@@ -970,7 +970,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
       'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
-      'event_callback': callback
+      'transport_type': 'beacon', 'event_callback': callback
     });
     return false;
   }
@@ -1330,7 +1330,7 @@ function generateArticleIndex(translations, lang) {
       'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
-      'event_callback': callback
+      'transport_type': 'beacon', 'event_callback': callback
     });
     return false;
   }
@@ -3358,7 +3358,7 @@ function generateServicePage(service, translations, lang) {
       'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
-      'event_callback': callback
+      'transport_type': 'beacon', 'event_callback': callback
     });
     return false;
   }
@@ -3951,6 +3951,23 @@ function generateReviewsPage(lang) {
     gtag('config', 'G-92LHP2TK6N');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call / booking conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'transport_type': 'beacon', 'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta name="description" content="${escapeAttr(i18n.metaDesc)}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -4252,6 +4269,23 @@ function generateBookingPage(lang) {
     gtag('config', 'AW-816483191');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call / booking conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'transport_type': 'beacon', 'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta name="description" content="${escapeAttr(i18n.metaDesc)}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -4383,7 +4417,7 @@ function generateAboutPage() {
       'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
-      'event_callback': callback
+      'transport_type': 'beacon', 'event_callback': callback
     });
     return false;
   }
@@ -4600,7 +4634,7 @@ function generateContactPage() {
       'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
       'value': 1.0,
       'currency': 'EUR',
-      'event_callback': callback
+      'transport_type': 'beacon', 'event_callback': callback
     });
     return false;
   }
