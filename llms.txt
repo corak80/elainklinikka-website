@@ -1,0 +1,45 @@
+# Eläinklinikka Saari
+
+> Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It treats dogs and cats and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
+
+## Core content
+
+- [Home — clinic overview](https://elainklinikkasaari.fi/): What the clinic does, who works there, since 1989.
+- [Services (all)](https://elainklinikkasaari.fi/palvelut/): Full list of veterinary services for dogs and cats.
+- [Book an appointment](https://elainklinikkasaari.fi/ajanvaraus/): How to book, phone and online booking.
+- [Contact & location](https://elainklinikkasaari.fi/yhteystiedot/): Address (Gerbyntie 18, 65230 Vaasa), phone, opening hours, map.
+- [Prices](https://elainklinikkasaari.fi/hinnasto/): Price list for common services.
+- [Staff & veterinarians](https://elainklinikkasaari.fi/henkilokunta/): Vets and nurses, their credentials and specialities.
+- [About the clinic](https://elainklinikkasaari.fi/meista/): History since 1989, values, family ownership.
+- [Reviews](https://elainklinikkasaari.fi/arvostelut/): Customer reviews and ratings.
+- [Emergency care (päivystys)](https://elainklinikkasaari.fi/palvelut/paivystys/): After-hours emergency guidance for the Vaasa / Ostrobothnia region.
+
+## Key services
+
+- [Dental care](https://elainklinikkasaari.fi/palvelut/hammashoito/): Dental treatment for dogs and cats, incl. resorption and extractions.
+- [Cardiac examinations](https://elainklinikkasaari.fi/palvelut/sydantutkimukset/): Heart ultrasound; Finnish Kennel Club authorised heart examiner.
+- [Surgery](https://elainklinikkasaari.fi/palvelut/kirurgia/): Orthopedic and soft-tissue surgery.
+- [Ultrasound](https://elainklinikkasaari.fi/palvelut/ultraaani/): Diagnostic ultrasound imaging.
+- [Endoscopy](https://elainklinikkasaari.fi/palvelut/tahystykset/): Gastroscopy and endoscopic diagnostics.
+- [Vaccinations](https://elainklinikkasaari.fi/palvelut/rokotukset/): Dog and cat vaccination programs.
+- [Sterilisation & castration](https://elainklinikkasaari.fi/palvelut/sterilisaatio/): Neutering for dogs and cats.
+- [Official examinations](https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/): Kennel Club health examinations (heart, eyes, joints).
+- [Acupuncture & rehabilitation](https://elainklinikkasaari.fi/palvelut/akupunktio/): Veterinary acupuncture and physical rehabilitation.
+- [Wildlife care](https://elainklinikkasaari.fi/villielaimet/): Treatment of injured wild animals.
+
+## Articles
+
+- [All articles (health & care)](https://elainklinikkasaari.fi/artikkelit/): Veterinary articles on dental, cardiology, anesthesia, surgery and pet care, written by the clinic's veterinarians.
+
+## Languages
+
+- Finnish (canonical): https://elainklinikkasaari.fi/
+- Swedish: https://elainklinikkasaari.fi/sv/
+- English: https://elainklinikkasaari.fi/en/
+
+## Contact
+
+- Address: Gerbyntie 18, 65230 Vaasa, Finland
+- Phone: +358 6 321 7300
+- Hours: Mon–Fri 07:45–17:00
+- [Privacy policy](https://elainklinikkasaari.fi/tietosuoja/)
