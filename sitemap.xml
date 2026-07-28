@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elainklinikkasaari.fi/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/"/>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/"/>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/"/>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/artikkelit/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -92,31 +92,37 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/tietosuoja/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/meista/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://elainklinikkasaari.fi/henkilokunta/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/yhteystiedot/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/henkilokunta/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/siilihoito/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/hinnasto/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -126,7 +132,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/prislista/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -136,7 +142,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/pricelist/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -146,7 +152,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/arvostelut/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/arvostelut/"/>
@@ -156,7 +162,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/omdomen/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/arvostelut/"/>
@@ -166,7 +172,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/reviews/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/arvostelut/"/>
@@ -176,7 +182,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/ajanvaraus/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/ajanvaraus/"/>
@@ -186,7 +192,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tidsbokning/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/ajanvaraus/"/>
@@ -196,7 +202,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/book-appointment/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/ajanvaraus/"/>
@@ -206,7 +212,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/villielaimet/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/villielaimet/"/>
@@ -216,7 +222,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/vilda-djur/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/villielaimet/"/>
@@ -226,7 +232,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/wildlife/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/villielaimet/"/>
@@ -236,7 +242,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/media/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/media/"/>
@@ -246,7 +252,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/media/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/media/"/>
@@ -256,7 +262,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/media/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/media/"/>
@@ -266,7 +272,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/elainlaakari-vaasa/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -276,7 +282,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/veterinar-vasa/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -286,7 +292,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/veterinarian-vaasa/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -296,7 +302,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/hammashoito/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -306,7 +312,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/tandvard/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -316,7 +322,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/dental-care/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -326,7 +332,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/sydantutkimukset/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sydantutkimukset/"/>
@@ -336,7 +342,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/hjartundersokningar/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sydantutkimukset/"/>
@@ -346,7 +352,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/cardiac-examinations/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sydantutkimukset/"/>
@@ -356,7 +362,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/kirurgia/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kirurgia/"/>
@@ -366,7 +372,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/kirurgi/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kirurgia/"/>
@@ -376,7 +382,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/surgery/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kirurgia/"/>
@@ -386,7 +392,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/tahystykset/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tahystykset/"/>
@@ -396,7 +402,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/endoskopi/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tahystykset/"/>
@@ -406,7 +412,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/endoscopy/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tahystykset/"/>
@@ -416,7 +422,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/rokotukset/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rokotukset/"/>
@@ -426,7 +432,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/vaccinationer/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rokotukset/"/>
@@ -436,7 +442,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/vaccinations/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rokotukset/"/>
@@ -446,7 +452,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/ultraaani/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ultraaani/"/>
@@ -456,7 +462,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/ultraljud/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ultraaani/"/>
@@ -466,7 +472,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/ultrasound/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ultraaani/"/>
@@ -476,7 +482,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/ihotaudit/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ihotaudit/"/>
@@ -486,7 +492,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/hudsjukdomar/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ihotaudit/"/>
@@ -496,7 +502,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/dermatology/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ihotaudit/"/>
@@ -506,7 +512,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/senioritarkastus/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/senioritarkastus/"/>
@@ -516,7 +522,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/seniorundersokning/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/senioritarkastus/"/>
@@ -526,7 +532,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/senior-check-up/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/senioritarkastus/"/>
@@ -536,7 +542,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/pentutarkastus/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/pentutarkastus/"/>
@@ -546,7 +552,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/valpundersokning/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/pentutarkastus/"/>
@@ -556,7 +562,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/puppy-check-up/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/pentutarkastus/"/>
@@ -566,7 +572,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/akupunktio/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/akupunktio/"/>
@@ -576,7 +582,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/akupunktur/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/akupunktio/"/>
@@ -586,7 +592,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/acupuncture/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/akupunktio/"/>
@@ -596,7 +602,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/"/>
@@ -606,7 +612,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/officiella-undersokningar/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/"/>
@@ -616,7 +622,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/official-examinations/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/"/>
@@ -626,7 +632,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/sterilisaatio/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sterilisaatio/"/>
@@ -636,7 +642,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/sterilisering/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sterilisaatio/"/>
@@ -646,7 +652,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/spay-and-neuter/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sterilisaatio/"/>
@@ -656,7 +662,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/sisataudit/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sisataudit/"/>
@@ -666,7 +672,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/internmedicin/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sisataudit/"/>
@@ -676,7 +682,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/internal-medicine/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/sisataudit/"/>
@@ -686,7 +692,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/silmataudit/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/silmataudit/"/>
@@ -696,7 +702,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/ogonsjukdomar/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/silmataudit/"/>
@@ -706,7 +712,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/ophthalmology/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/silmataudit/"/>
@@ -716,7 +722,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/laboratorio/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/laboratorio/"/>
@@ -726,7 +732,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/laboratorium/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/laboratorio/"/>
@@ -736,7 +742,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/laboratory/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/laboratorio/"/>
@@ -746,7 +752,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/rontgen/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rontgen/"/>
@@ -756,7 +762,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/rontgen/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rontgen/"/>
@@ -766,7 +772,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/x-ray/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rontgen/"/>
@@ -776,7 +782,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/eutanasia/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eutanasia/"/>
@@ -786,7 +792,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/eutanasi/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eutanasia/"/>
@@ -796,7 +802,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/euthanasia/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eutanasia/"/>
@@ -806,7 +812,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/"/>
@@ -816,7 +822,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/eu-sallskapsdjurspass/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/"/>
@@ -826,7 +832,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/eu-pet-passport/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/"/>
@@ -836,7 +842,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/verikokeet/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/verikokeet/"/>
@@ -846,7 +852,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/blodprov/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/verikokeet/"/>
@@ -856,7 +862,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/blood-tests/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/verikokeet/"/>
@@ -866,7 +872,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/tiineystutkimus/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tiineystutkimus/"/>
@@ -876,7 +882,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/draktighetsundersokning/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tiineystutkimus/"/>
@@ -886,7 +892,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/pregnancy-examination/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/tiineystutkimus/"/>
@@ -896,7 +902,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/rehumyynti/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rehumyynti/"/>
@@ -906,7 +912,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/foderforsaljning/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rehumyynti/"/>
@@ -916,7 +922,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/prescription-diets/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/rehumyynti/"/>
@@ -926,7 +932,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/kuntoutus/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kuntoutus/"/>
@@ -936,7 +942,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/rehabilitering/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kuntoutus/"/>
@@ -946,7 +952,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/rehabilitation/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kuntoutus/"/>
@@ -956,7 +962,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/kastraatio/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kastraatio/"/>
@@ -966,7 +972,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/kastrering/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kastraatio/"/>
@@ -976,7 +982,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/castration/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/kastraatio/"/>
@@ -986,7 +992,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/ortopedia/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ortopedia/"/>
@@ -996,7 +1002,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/ortopedi/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ortopedia/"/>
@@ -1006,7 +1012,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/orthopedics/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/ortopedia/"/>
@@ -1016,7 +1022,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/anestesia/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/anestesia/"/>
@@ -1026,7 +1032,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/anestesi/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/anestesia/"/>
@@ -1036,7 +1042,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/anesthesia/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/anestesia/"/>
@@ -1046,7 +1052,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/hygienia/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hygienia/"/>
@@ -1056,7 +1062,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/hygien/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hygienia/"/>
@@ -1066,7 +1072,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/hygiene/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hygienia/"/>
@@ -1076,7 +1082,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/paivystys/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/paivystys/"/>
@@ -1086,7 +1092,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/jour/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/paivystys/"/>
@@ -1096,7 +1102,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/emergency/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/paivystys/"/>
@@ -1106,7 +1112,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/tta-leikkaus.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/tta-leikkaus.html"/>
@@ -1116,7 +1122,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/tta-operation.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/tta-leikkaus.html"/>
@@ -1126,7 +1132,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/tta-surgery.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/tta-leikkaus.html"/>
@@ -1136,7 +1142,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/video-otoskopia.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/video-otoskopia.html"/>
@@ -1146,7 +1152,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/video-otoskopi.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/video-otoskopia.html"/>
@@ -1156,7 +1162,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/video-otoscopy.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/video-otoskopia.html"/>
@@ -1166,7 +1172,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/kipulääkeinfuusio.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kipulääkeinfuusio.html"/>
@@ -1176,7 +1182,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/smartlindringsinfusion.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kipulääkeinfuusio.html"/>
@@ -1186,7 +1192,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/pain-relief-infusion.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kipulääkeinfuusio.html"/>
@@ -1196,7 +1202,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/ripuli.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ripuli.html"/>
@@ -1206,7 +1212,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/diarre.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ripuli.html"/>
@@ -1216,7 +1222,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/diarrhoea.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ripuli.html"/>
@@ -1226,7 +1232,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html"/>
@@ -1236,7 +1242,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html"/>
@@ -1246,7 +1252,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/patent-ductus-arteriosus-pda.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html"/>
@@ -1256,7 +1262,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html"/>
@@ -1266,7 +1272,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/tandborstning.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html"/>
@@ -1276,7 +1282,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/tooth-brushing.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html"/>
@@ -1286,7 +1292,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/viljaton-ruoka.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/viljaton-ruoka.html"/>
@@ -1296,7 +1302,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/spannmalsfri-mat.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/viljaton-ruoka.html"/>
@@ -1306,7 +1312,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/grain-free-food.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/viljaton-ruoka.html"/>
@@ -1316,7 +1322,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/periovive.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/periovive.html"/>
@@ -1326,7 +1332,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/periovive.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/periovive.html"/>
@@ -1336,7 +1342,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/periovive.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/periovive.html"/>
@@ -1346,7 +1352,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html"/>
@@ -1356,7 +1362,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/privat-klinik.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html"/>
@@ -1366,7 +1372,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/independent-clinic.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html"/>
@@ -1376,7 +1382,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/ruoka-allergiat.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ruoka-allergiat.html"/>
@@ -1386,7 +1392,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/foderallergier.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ruoka-allergiat.html"/>
@@ -1396,7 +1402,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/food-allergies.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ruoka-allergiat.html"/>
@@ -1406,7 +1412,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html"/>
@@ -1416,7 +1422,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/hypertyreos-katt.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html"/>
@@ -1426,7 +1432,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/hyperthyroidism.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html"/>
@@ -1436,7 +1442,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html"/>
@@ -1446,7 +1452,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/njursvikt.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html"/>
@@ -1456,7 +1462,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/kidney-disease.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html"/>
@@ -1466,7 +1472,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/kyynpurema.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kyynpurema.html"/>
@@ -1476,7 +1482,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/huggormsbett.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kyynpurema.html"/>
@@ -1486,7 +1492,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/snake-bite.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kyynpurema.html"/>
@@ -1496,7 +1502,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/kohtutulehdus.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kohtutulehdus.html"/>
@@ -1506,7 +1512,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/livmoderinflammation.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kohtutulehdus.html"/>
@@ -1516,7 +1522,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/pyometra.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kohtutulehdus.html"/>
@@ -1526,7 +1532,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/lateral-suture.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/lateral-suture.html"/>
@@ -1536,7 +1542,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/lateral-suture.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/lateral-suture.html"/>
@@ -1546,7 +1552,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/lateral-suture.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/lateral-suture.html"/>
@@ -1556,7 +1562,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/siili.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siili.html"/>
@@ -1566,7 +1572,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/igelkott.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siili.html"/>
@@ -1576,7 +1582,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/hedgehog.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siili.html"/>
@@ -1586,7 +1592,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/siilinpoikanen.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siilinpoikanen.html"/>
@@ -1596,7 +1602,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/igelkottsunge.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siilinpoikanen.html"/>
@@ -1606,7 +1612,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/found-a-baby-hedgehog.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/siilinpoikanen.html"/>
@@ -1616,7 +1622,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/kissaystävällinen-klinikka.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kissaystävällinen-klinikka.html"/>
@@ -1626,7 +1632,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/kattvanlig-klinik.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kissaystävällinen-klinikka.html"/>
@@ -1636,7 +1642,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/cat-friendly-clinic.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/kissaystävällinen-klinikka.html"/>
@@ -1646,7 +1652,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html"/>
@@ -1656,7 +1662,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/icke-framvaxta-tander.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html"/>
@@ -1666,7 +1672,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/unerupted-teeth.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html"/>
@@ -1676,7 +1682,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/gastroskopia.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/gastroskopia.html"/>
@@ -1686,7 +1692,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/gastroskopi.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/gastroskopia.html"/>
@@ -1696,7 +1702,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/gastroscopy.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/gastroskopia.html"/>
@@ -1706,7 +1712,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/hammasresorptio.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>
@@ -1716,7 +1722,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/tandresorption.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>
@@ -1726,7 +1732,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/tooth-resorption.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>
@@ -1736,7 +1742,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/rokotukset.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
@@ -1746,7 +1752,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/vaccinationsguide.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
@@ -1756,7 +1762,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/vaccinations-guide.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
@@ -1765,8 +1771,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/deworming.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/deworming.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/deworming.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/deworming.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html"/>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/articles/ibd-lymfooma.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ibd-lymfooma.html"/>
@@ -1776,7 +1812,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/ibd-lymfom.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ibd-lymfooma.html"/>
@@ -1786,7 +1822,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/ibd-lymphoma.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/ibd-lymfooma.html"/>
@@ -1796,7 +1832,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/hypotermia.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hypotermia.html"/>
@@ -1806,7 +1842,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/hypotermi.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hypotermia.html"/>
@@ -1816,7 +1852,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/hypothermia.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hypotermia.html"/>
@@ -1826,7 +1862,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html"/>
@@ -1836,7 +1872,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/anestesisakerhet.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html"/>
@@ -1846,7 +1882,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/anaesthesia-safety.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html"/>
@@ -1856,7 +1892,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/klinikkaeläinhoitaja.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/klinikkaeläinhoitaja.html"/>
@@ -1866,7 +1902,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/klinikdjurskotare.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/klinikkaeläinhoitaja.html"/>
@@ -1876,7 +1912,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/veterinary-nurse.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/klinikkaeläinhoitaja.html"/>
@@ -1886,26 +1922,20 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/yhteistyo/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/kissatalo/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/vesy/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://elainklinikkasaari.fi/siilihoito/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>

@@ -66,7 +66,7 @@ const SLUG_MAP = {
   "/en/home/": "/en/",
   "/en/contact/": "/en/",
   "/sample-page/": "/",
-  "/uudet-pienelainten-madotussuositukset/": "/artikkelit/",
+  "/uudet-pienelainten-madotussuositukset/": "/articles/koiran-ja-kissan-madotus.html",
   "/sv/nytt-pa-kliniken-fysioterapi/": "/sv/artiklar/",
   "/en/new-in-the-clinic-physiotherapy/": "/en/articles/",
   "/koira/": "/",

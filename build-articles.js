@@ -423,6 +423,19 @@ const articles = [
     htmlSections: ['dogs.text', 'cats.text', 'schedule.text', 'travel.text']
   },
   {
+    slug: 'koiran-ja-kissan-madotus',
+    slugSv: 'avmaskning',
+    slugEn: 'deworming',
+    titleKey: 'article.deworming.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '2026',
+    publishDate: '2026-07-28',
+    sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'risk.title', 'risk.text', 'parasites.title', 'parasites.text', 'travel.title', 'travel.text', 'cta'],
+    prefix: 'article.deworming',
+    htmlSections: ['dogs.text', 'cats.text', 'risk.text', 'parasites.text', 'travel.text']
+  },
+  {
     slug: 'ibd-lymfooma',
     slugSv: 'ibd-lymfom',
     slugEn: 'ibd-lymphoma',
@@ -546,6 +559,7 @@ const relatedArticles = {
   'gastroskopia': ['video-otoskopia', 'ripuli', 'ibd-lymfooma'],
   'hammasresorptio': ['puhkeamattomat-hampaat', 'hampaiden-harjaus', 'periovive'],
   'rokotukset': ['kissaystävällinen-klinikka', 'kyynpurema', 'yksityinen-klinikka'],
+  'koiran-ja-kissan-madotus': ['rokotukset', 'ripuli', 'ruoka-allergiat'],
   'ibd-lymfooma': ['gastroskopia', 'ruoka-allergiat', 'anestesiaturvallisuus'],
   'hypotermia': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'avoin-valtimotiehyt-pda'],
   'anestesiaturvallisuus': ['kipulääkeinfuusio', 'hypotermia', 'klinikkaeläinhoitaja'],
@@ -572,6 +586,7 @@ const articleToServices = {
   'gastroskopia': ['tahystykset', 'sisataudit'],
   'hammasresorptio': ['hammashoito'],
   'rokotukset': ['rokotukset'],
+  'koiran-ja-kissan-madotus': ['sisataudit', 'rokotukset'],
   'ibd-lymfooma': ['sisataudit', 'tahystykset'],
   'hypotermia': ['anestesia', 'kirurgia'],
   'anestesiaturvallisuus': ['anestesia', 'kirurgia'],

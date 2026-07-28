@@ -20,6 +20,23 @@
     gtag('config', 'G-92LHP2TK6N');
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <!-- Google Ads: Click to call / booking conversion -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-816483191/jzTzCJrAgJwcEPeWqoUD',
+      'value': 1.0,
+      'currency': 'EUR',
+      'transport_type': 'beacon', 'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta name="description" content="Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat eläinlääkäreistämme ja palvelustamme Vaasassa.">
   <link rel="canonical" href="https://elainklinikkasaari.fi/arvostelut/">
