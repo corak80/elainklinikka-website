@@ -580,7 +580,7 @@ const translations = {
   'price.official.hip.small': { fi: 'Lonkkakuvat <20kg', sv: 'Höftröntgen <20kg', en: 'Hip X-ray <20kg' },
   'price.official.hip.medium': { fi: 'Lonkkakuvat 20–40kg', sv: 'Höftröntgen 20–40kg', en: 'Hip X-ray 20–40kg' },
   'price.official.hip.large': { fi: 'Lonkkakuvat >40kg', sv: 'Höftröntgen >40kg', en: 'Hip X-ray >40kg' },
-  'price.official.elbow': { fi: 'Kyynärnivelkuvat', sv: 'Armbågsröntgen', en: 'Elbow X-ray' },
+  'price.official.elbow': { fi: 'Kyynärnivelkuvat lonkkakuvien yhteydessä', sv: 'Armbågsröntgen i samband med höftröntgen', en: 'Elbow X-ray with hip X-rays' },
   'price.official.spine': { fi: 'Selkäkuvat', sv: 'Ryggröntgen', en: 'Spine X-ray' },
   'price.official.package.small': { fi: 'Lonkka-, kyynär- ja selkäkuvat <40kg / maks. 3 selkäkuvaa', sv: 'Höft-, armbågs- och ryggröntgen <40kg / max 3 ryggbilder', en: 'Hip, elbow and spine X-rays <40kg / max 3 spine images' },
   'price.official.package.large': { fi: 'Lonkka-, kyynär- ja selkäkuvat >40kg / monta selkäkuvaa', sv: 'Höft-, armbågs- och ryggröntgen >40kg / flera ryggbilder', en: 'Hip, elbow and spine X-rays >40kg / multiple spine images' },
