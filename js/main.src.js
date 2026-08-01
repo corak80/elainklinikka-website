@@ -3055,10 +3055,26 @@ function applyServiceFilter(animate) {
 function initServiceFilters() {
   const buttons = document.querySelectorAll('.service-filter-btn');
   if (!buttons.length) return;
+  const filters = document.querySelector('#services .service-filters');
+  const header = document.querySelector('.header') || document.querySelector('header');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       currentServiceFilter = btn.dataset.scatFilter;
       applyServiceFilter(true);
+      // On mobile, scroll so the (compact) filter bar pins just under the
+      // header and the results fill the view below it — clear tap feedback.
+      if (window.innerWidth <= 700 && filters) {
+        const headerH = header ? header.offsetHeight : 64;
+        const y = Math.max(0, window.scrollY + filters.getBoundingClientRect().top - headerH - 12);
+        if (Math.abs(y - window.scrollY) > 8) {
+          const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+          window.scrollTo({ top: y, left: 0, behavior: behavior });
+          // Fallback: force the jump if smooth scroll gets no-op'd.
+          setTimeout(function () {
+            if (Math.abs(window.scrollY - y) > 40) window.scrollTo(0, y);
+          }, 450);
+        }
+      }
     });
   });
   applyServiceFilter(false);
