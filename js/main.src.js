@@ -3055,28 +3055,10 @@ function applyServiceFilter(animate) {
 function initServiceFilters() {
   const buttons = document.querySelectorAll('.service-filter-btn');
   if (!buttons.length) return;
-  const grid = document.querySelector('#services .services-grid');
-  const header = document.querySelector('.header') || document.querySelector('header');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       currentServiceFilter = btn.dataset.scatFilter;
       applyServiceFilter(true);
-      // If the results are below the fold (mobile), scroll them into view so
-      // the user sees what changed instead of a "dead" tap.
-      if (grid) {
-        const firstCard = grid.querySelector('.service-card:not(.filter-hidden)');
-        if (firstCard && firstCard.getBoundingClientRect().top > window.innerHeight - 80) {
-          const headerH = header ? header.offsetHeight : 70;
-          const y = window.scrollY + grid.getBoundingClientRect().top - headerH - 90;
-          const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-          window.scrollTo({ top: y, left: 0, behavior: smooth ? 'smooth' : 'auto' });
-          // Fallback: if smooth scroll doesn't advance (some contexts no-op it),
-          // force an instant jump so results always come into view.
-          setTimeout(function () {
-            if (Math.abs(window.scrollY - y) > 40) window.scrollTo(0, y);
-          }, 500);
-        }
-      }
     });
   });
   applyServiceFilter(false);
