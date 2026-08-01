@@ -334,7 +334,7 @@ a.hero-badge{text-decoration:none}
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="/en/" class="logo" aria-label="Eläinklinikka Saari" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
+      <a href="/" class="logo" aria-label="Eläinklinikka Saari" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
@@ -476,112 +476,139 @@ a.hero-badge{text-decoration:none}
         <h2 data-i18n="services.title">Our Services</h2>
         <p data-i18n="services.subtitle">We offer comprehensive veterinary services for your pet</p>
       </div>
+      <div class="service-filters" role="tablist" aria-label="Palvelukategoriat">
+        <button type="button" class="service-filter-btn active" role="tab" aria-selected="true" data-scat-filter="checkups">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.checkups">Health & Prevention</span>
+          <span class="sf-count"><span class="sf-num">5</span> <span data-i18n="service.count.suffix">services</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="diagnostics">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.diagnostics">Diagnostics & Imaging</span>
+          <span class="sf-count"><span class="sf-num">8</span> <span data-i18n="service.count.suffix">services</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="surgery">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.12 15.88"/><path d="M14.47 14.48 20 20"/><path d="M8.12 8.12 12 12"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.surgery">Surgery & Anesthesia</span>
+          <span class="sf-count"><span class="sf-num">6</span> <span data-i18n="service.count.suffix">services</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="specialties">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.specialties">Skin, Eyes & Wellness</span>
+          <span class="sf-count"><span class="sf-num">4</span> <span data-i18n="service.count.suffix">services</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="other">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.other">Emergency & Other</span>
+          <span class="sf-count"><span class="sf-num">4</span> <span data-i18n="service.count.suffix">services</span></span>
+        </button>
+      </div>
       <div class="services-grid">
-        <a href="/en/services/emergency/" data-href-fi="/palvelut/paivystys/" data-href-sv="/sv/tjanster/jour/" data-href-en="/en/services/emergency/" class="service-card service-card-link">
+        <a href="/en/services/emergency/" data-href-fi="/palvelut/paivystys/" data-href-sv="/sv/tjanster/jour/" data-href-en="/en/services/emergency/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🚨</div><h3 data-i18n="service.emergency">Emergency</h3></div>
           <div class="service-desc" data-i18n="service.desc.emergency">Daily reserved acute slots weekdays 7:45–17. Evenings and weekends: regional hotline 0600 399 299. First aid guidance for emergencies.</div>
         </a>
-        <a href="/en/services/acupuncture/" data-href-fi="/palvelut/akupunktio/" data-href-sv="/sv/tjanster/akupunktur/" data-href-en="/en/services/acupuncture/" class="service-card service-card-link">
+        <a href="/en/services/acupuncture/" data-href-fi="/palvelut/akupunktio/" data-href-sv="/sv/tjanster/akupunktur/" data-href-en="/en/services/acupuncture/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🪡</div><h3 data-i18n="service.acupuncture">Acupuncture</h3></div>
           <div class="service-desc" data-i18n="service.desc.acupuncture">Acupuncture is used for pain relief and for the treatment of some diseases. Administered by Assaf, who has completed further training in canine and equine acupuncture.</div>
         </a>
-        <a href="/en/services/blood-tests/" data-href-fi="/palvelut/verikokeet/" data-href-sv="/sv/tjanster/blodprov/" data-href-en="/en/services/blood-tests/" class="service-card service-card-link">
+        <a href="/en/services/blood-tests/" data-href-fi="/palvelut/verikokeet/" data-href-sv="/sv/tjanster/blodprov/" data-href-en="/en/services/blood-tests/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🩸</div><h3 data-i18n="service.bloodtests">Blood Tests</h3></div>
           <div class="service-desc" data-i18n="service.desc.bloodtests">Most samples are examined in our own laboratory, so you can get results during the same visit.</div>
         </a>
-        <a href="/en/services/dermatology/" data-href-fi="/palvelut/ihotaudit/" data-href-sv="/sv/tjanster/hudsjukdomar/" data-href-en="/en/services/dermatology/" class="service-card service-card-link">
+        <a href="/en/services/dermatology/" data-href-fi="/palvelut/ihotaudit/" data-href-sv="/sv/tjanster/hudsjukdomar/" data-href-en="/en/services/dermatology/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🔬</div><h3 data-i18n="service.dermatology">Dermatology & Allergies</h3></div>
           <div class="service-desc" data-i18n="service.desc.dermatology">Skin diseases are one of the most common reasons to seek veterinary care. About one in ten dogs in Finland has allergies, which often cause skin and ear infections. Typical symptoms include paw licking, ear scratching, and face rubbing. When allergy is suspected, we first try to rule out food as a cause, and if necessary, collect allergy blood samples.</div>
         </a>
-        <a href="/en/services/pregnancy-examination/" data-href-fi="/palvelut/tiineystutkimus/" data-href-sv="/sv/tjanster/draktighetsundersokning/" data-href-en="/en/services/pregnancy-examination/" class="service-card service-card-link">
+        <a href="/en/services/pregnancy-examination/" data-href-fi="/palvelut/tiineystutkimus/" data-href-sv="/sv/tjanster/draktighetsundersokning/" data-href-en="/en/services/pregnancy-examination/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🤰</div><h3 data-i18n="service.pregnancy">Pregnancy Diagnosis</h3></div>
           <div class="service-desc" data-i18n="service.desc.pregnancy">Ultrasound can confirm pregnancy from approximately day 24. X-ray examination can provide a more accurate estimate of the number of puppies from approximately day 50.</div>
         </a>
-        <a href="/en/services/endoscopy/" data-href-fi="/palvelut/tahystykset/" data-href-sv="/sv/tjanster/endoskopi/" data-href-en="/en/services/endoscopy/" class="service-card service-card-link">
+        <a href="/en/services/endoscopy/" data-href-fi="/palvelut/tahystykset/" data-href-sv="/sv/tjanster/endoskopi/" data-href-en="/en/services/endoscopy/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📷</div><h3 data-i18n="service.endoscopy">Endoscopy</h3></div>
           <div class="service-desc" data-i18n="service.desc.endoscopy">We perform video-otoscopy (ear canal examination and flushing), rhinoscopy (nasal cavity examination), gastroscopy (gastrointestinal examination), cystoscopy (urinary tract examination) and bronchoscopy (airway examination).</div>
         </a>
-        <a href="/en/services/prescription-diets/" data-href-fi="/palvelut/rehumyynti/" data-href-sv="/sv/tjanster/foderforsaljning/" data-href-en="/en/services/prescription-diets/" class="service-card service-card-link">
+        <a href="/en/services/prescription-diets/" data-href-fi="/palvelut/rehumyynti/" data-href-sv="/sv/tjanster/foderforsaljning/" data-href-en="/en/services/prescription-diets/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🍖</div><h3 data-i18n="service.food">Therapeutic Diets</h3></div>
           <div class="service-desc" data-i18n="service.desc.food">We carry special therapeutic diets used as part of the treatment for various conditions. Recommended for osteoarthritis, renal failure, gastrointestinal diseases, food allergies, urinary tract diseases, and weight management. Brands: Royal Canin, Specific, Hill's.</div>
         </a>
-        <a href="/en/services/rehabilitation/" data-href-fi="/palvelut/kuntoutus/" data-href-sv="/sv/tjanster/rehabilitering/" data-href-en="/en/services/rehabilitation/" class="service-card service-card-link">
+        <a href="/en/services/rehabilitation/" data-href-fi="/palvelut/kuntoutus/" data-href-sv="/sv/tjanster/rehabilitering/" data-href-en="/en/services/rehabilitation/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💪</div><h3 data-i18n="service.wellness">Wellness & Rehabilitation</h3></div>
           <div class="service-desc" data-i18n="service.desc.wellness">Wellness and rehabilitation services to assess and improve your pet's mobility and function. Common reasons include reduced mobility, pain following trauma, and post-surgical recovery. Services: gait analysis, deep massage, electrotherapy, customized training programs.</div>
         </a>
-        <a href="/en/services/senior-check-up/" data-href-fi="/palvelut/senioritarkastus/" data-href-sv="/sv/tjanster/seniorundersokning/" data-href-en="/en/services/senior-check-up/" class="service-card service-card-link">
+        <a href="/en/services/senior-check-up/" data-href-fi="/palvelut/senioritarkastus/" data-href-sv="/sv/tjanster/seniorundersokning/" data-href-en="/en/services/senior-check-up/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🩺</div><h3 data-i18n="service.healthcheck">Health Examinations</h3></div>
           <div class="service-desc" data-i18n="service.desc.healthcheck">During health checks we can detect changes that may cause health problems in the long run. The vet performs a full clinical examination, listens to the heart and lungs and, if necessary, takes blood samples.</div>
         </a>
-        <a href="/en/services/cardiac-examinations/" data-href-fi="/palvelut/sydantutkimukset/" data-href-sv="/sv/tjanster/hjartundersokningar/" data-href-en="/en/services/cardiac-examinations/" class="service-card service-card-link">
+        <a href="/en/services/cardiac-examinations/" data-href-fi="/palvelut/sydantutkimukset/" data-href-sv="/sv/tjanster/hjartundersokningar/" data-href-en="/en/services/cardiac-examinations/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">❤️</div><h3 data-i18n="service.cardiology">Heart Diseases</h3></div>
           <div class="service-desc" data-i18n="service.desc.cardiology">Heart diseases are common, especially in certain breeds. Early treatment can extend your pet's lifespan and improve quality of life. We offer cardiac ultrasound, ECG and Holter monitoring. We also perform official heart ultrasound examinations for dogs. We are authorized to perform official heart auscultation examinations.</div>
         </a>
-        <a href="/en/services/castration/" data-href-fi="/palvelut/kastraatio/" data-href-sv="/sv/tjanster/kastrering/" data-href-en="/en/services/castration/" class="service-card service-card-link">
+        <a href="/en/services/castration/" data-href-fi="/palvelut/kastraatio/" data-href-sv="/sv/tjanster/kastrering/" data-href-en="/en/services/castration/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">✂️</div><h3 data-i18n="service.castration">Castration</h3></div>
           <div class="service-desc" data-i18n="service.desc.castration">We castrate cats, dogs and rabbits. Dog castration can prevent prostate problems and urine marking. Chemical castration with a hormonal implant is also available (6 or 12-month duration).</div>
         </a>
-        <a href="/en/services/surgery/" data-href-fi="/palvelut/kirurgia/" data-href-sv="/sv/tjanster/kirurgi/" data-href-en="/en/services/surgery/" class="service-card service-card-link">
+        <a href="/en/services/surgery/" data-href-fi="/palvelut/kirurgia/" data-href-sv="/sv/tjanster/kirurgi/" data-href-en="/en/services/surgery/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🔪</div><h3 data-i18n="service.surgery.soft">Soft Tissue Surgery</h3></div>
           <div class="service-desc" data-i18n="service.desc.surgery.soft">Spays, neuters, caesarean sections, tumor removals, foreign body extraction, bladder stone surgery, other abdominal surgeries, and eye and ear procedures.</div>
         </a>
-        <a href="/en/services/orthopedics/" data-href-fi="/palvelut/ortopedia/" data-href-sv="/sv/tjanster/ortopedi/" data-href-en="/en/services/orthopedics/" class="service-card service-card-link">
+        <a href="/en/services/orthopedics/" data-href-fi="/palvelut/ortopedia/" data-href-sv="/sv/tjanster/ortopedi/" data-href-en="/en/services/orthopedics/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🦴</div><h3 data-i18n="service.surgery.ortho">Orthopedic Surgery</h3></div>
           <div class="service-desc" data-i18n="service.desc.surgery.ortho">The clinic has a dedicated orthopedic surgery room with a higher level of sterility. We have been performing knee surgeries since 2017. Cruciate ligament repair with two methods: lateral suture technique stabilizes the joint with synthetic support material, and TTA (tibial tuberosity advancement) alters knee biomechanics by advancing the tibial tuberosity forward. Also patellar luxation surgery, fracture repairs, amputations and femoral head ostectomy for chronic luxation or Legg-Perthes disease.</div>
         </a>
-        <a href="/en/services/laboratory/" data-href-fi="/palvelut/laboratorio/" data-href-sv="/sv/tjanster/laboratorium/" data-href-en="/en/services/laboratory/" class="service-card service-card-link">
+        <a href="/en/services/laboratory/" data-href-fi="/palvelut/laboratorio/" data-href-sv="/sv/tjanster/laboratorium/" data-href-en="/en/services/laboratory/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🧪</div><h3 data-i18n="service.laboratory">Laboratory</h3></div>
           <div class="service-desc" data-i18n="service.desc.laboratory">Well-equipped in-house laboratory: blood samples, urine samples, blood smears, skin and ear samples. Most results available during your visit. Analyses: hematology, clinical chemistry, electrolytes, hormones, urine cultures, cytology.</div>
         </a>
-        <a href="/en/services/official-examinations/" data-href-fi="/palvelut/viralliset-tutkimukset/" data-href-sv="/sv/tjanster/officiella-undersokningar/" data-href-en="/en/services/official-examinations/" class="service-card service-card-link">
+        <a href="/en/services/official-examinations/" data-href-fi="/palvelut/viralliset-tutkimukset/" data-href-sv="/sv/tjanster/officiella-undersokningar/" data-href-en="/en/services/official-examinations/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📋</div><h3 data-i18n="service.official">Official Examinations</h3></div>
           <div class="service-desc" data-i18n="service.desc.official">Official hip, elbow and back X-rays. Official knee examinations. Official heart auscultations. Official heart ultrasound examinations for dogs.</div>
         </a>
-        <a href="/en/services/x-ray/" data-href-fi="/palvelut/rontgen/" data-href-sv="/sv/tjanster/rontgen/" data-href-en="/en/services/x-ray/" class="service-card service-card-link">
+        <a href="/en/services/x-ray/" data-href-fi="/palvelut/rontgen/" data-href-sv="/sv/tjanster/rontgen/" data-href-en="/en/services/x-ray/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">☢️</div><h3 data-i18n="service.xray">X-ray</h3></div>
           <div class="service-desc" data-i18n="service.desc.xray">Digital X-ray. Recommended for limping, respiratory or cardiac symptoms, acute vomiting, urinary problems, tumor suspicion, and official screening X-rays.</div>
         </a>
-        <a href="/en/services/euthanasia/" data-href-fi="/palvelut/eutanasia/" data-href-sv="/sv/tjanster/eutanasi/" data-href-en="/en/services/euthanasia/" class="service-card service-card-link">
+        <a href="/en/services/euthanasia/" data-href-fi="/palvelut/eutanasia/" data-href-sv="/sv/tjanster/eutanasi/" data-href-en="/en/services/euthanasia/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🕊️</div><h3 data-i18n="service.euthanasia">Final Farewell – Euthanasia</h3></div>
           <div class="service-desc" data-i18n="service.desc.euthanasia">We strive to make the final farewell peaceful and unhurried. Your pet first receives a sedative with pain relief, followed by an anesthetic. Options: home burial, cremation, or individual cremation with urn.</div>
         </a>
-        <a href="/en/services/spay-and-neuter/" data-href-fi="/palvelut/sterilisaatio/" data-href-sv="/sv/tjanster/sterilisering/" data-href-en="/en/services/spay-and-neuter/" class="service-card service-card-link">
+        <a href="/en/services/spay-and-neuter/" data-href-fi="/palvelut/sterilisaatio/" data-href-sv="/sv/tjanster/sterilisering/" data-href-en="/en/services/spay-and-neuter/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🏥</div><h3 data-i18n="service.sterilization">Sterilization</h3></div>
           <div class="service-desc" data-i18n="service.desc.sterilization">A common procedure for dogs, cats and rabbits. Sterilization helps prevent hormonal diseases including mammary tumors and uterine infections. Inhalation anesthesia with comprehensive pain management.</div>
         </a>
-        <a href="/en/services/dental-care/" data-href-fi="/palvelut/hammashoito/" data-href-sv="/sv/tjanster/tandvard/" data-href-en="/en/services/dental-care/" class="service-card service-card-link">
+        <a href="/en/services/dental-care/" data-href-fi="/palvelut/hammashoito/" data-href-sv="/sv/tjanster/tandvard/" data-href-en="/en/services/dental-care/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🦷</div><h3 data-i18n="service.dental">Dental Care</h3></div>
           <div class="service-desc" data-i18n="service.desc.dental">Dental disorders are very common — by age 3, most dogs and cats have some dental inflammation. Services: tartar removal with ultrasound, dental X-rays, surgical tooth extractions, deciduous teeth removals, and removal of unerupted teeth and cysts. All procedures under general anesthesia with inhalation anesthesia, intravenous fluids and comprehensive pain management.</div>
         </a>
-        <a href="/en/services/ultrasound/" data-href-fi="/palvelut/ultraaani/" data-href-sv="/sv/tjanster/ultraljud/" data-href-en="/en/services/ultrasound/" class="service-card service-card-link">
+        <a href="/en/services/ultrasound/" data-href-fi="/palvelut/ultraaani/" data-href-sv="/sv/tjanster/ultraljud/" data-href-en="/en/services/ultrasound/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📡</div><h3 data-i18n="service.ultrasound">Ultrasound</h3></div>
           <div class="service-desc" data-i18n="service.desc.ultrasound">High-quality ultrasound: abdominal examinations, uterine examinations, liver, kidney and other organ examinations, and heart ultrasound.</div>
         </a>
-        <a href="/en/services/vaccinations/" data-href-fi="/palvelut/rokotukset/" data-href-sv="/sv/tjanster/vaccinationer/" data-href-en="/en/services/vaccinations/" class="service-card service-card-link">
+        <a href="/en/services/vaccinations/" data-href-fi="/palvelut/rokotukset/" data-href-sv="/sv/tjanster/vaccinationer/" data-href-en="/en/services/vaccinations/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💉</div><h3 data-i18n="service.vaccinations">Vaccinations</h3></div>
           <div class="service-desc" data-i18n="service.desc.vaccinations">Vaccinations are an important part of preventive healthcare. Puppies are usually vaccinated at 12 and 16 weeks of age, kittens likewise. Adults are vaccinated every 1–3 years.</div>
         </a>
-        <a href="/en/services/puppy-check-up/" data-href-fi="/palvelut/pentutarkastus/" data-href-sv="/sv/tjanster/valpundersokning/" data-href-en="/en/services/puppy-check-up/" class="service-card service-card-link">
+        <a href="/en/services/puppy-check-up/" data-href-fi="/palvelut/pentutarkastus/" data-href-sv="/sv/tjanster/valpundersokning/" data-href-en="/en/services/puppy-check-up/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🐕</div><h3 data-i18n="service.puppy">Puppy Examinations</h3></div>
           <div class="service-desc" data-i18n="service.desc.puppy">The veterinarian examines the puppy thoroughly from head to toe and issues a health certificate. A microchip can be implanted during the visit.</div>
         </a>
-        <a href="/en/services/internal-medicine/" data-href-fi="/palvelut/sisataudit/" data-href-sv="/sv/tjanster/internmedicin/" data-href-en="/en/services/internal-medicine/" class="service-card service-card-link">
+        <a href="/en/services/internal-medicine/" data-href-fi="/palvelut/sisataudit/" data-href-sv="/sv/tjanster/internmedicin/" data-href-en="/en/services/internal-medicine/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💊</div><h3 data-i18n="service.internalmedicine">Internal Medicine</h3></div>
           <div class="service-desc" data-i18n="service.desc.internalmedicine">Internal medicine covers a wide range of animal diseases: diabetes, Cushing's disease, pancreatitis, anaemia, autoimmune diseases. Thorough diagnostics and treatment planning.</div>
         </a>
-        <a href="/en/services/ophthalmology/" data-href-fi="/palvelut/silmataudit/" data-href-sv="/sv/tjanster/ogonsjukdomar/" data-href-en="/en/services/ophthalmology/" class="service-card service-card-link">
+        <a href="/en/services/ophthalmology/" data-href-fi="/palvelut/silmataudit/" data-href-sv="/sv/tjanster/ogonsjukdomar/" data-href-en="/en/services/ophthalmology/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">👁️</div><h3 data-i18n="service.ophthalmology">Ophthalmology</h3></div>
           <div class="service-desc" data-i18n="service.desc.ophthalmology">Eye diseases are common in pets. Corneal ulcers, glaucoma, dry eye, cataracts, eyelid diseases. Examination and treatment during the same visit.</div>
         </a>
-        <a href="/en/services/eu-pet-passport/" data-href-fi="/palvelut/eu-lemmikkipassi/" data-href-sv="/sv/tjanster/eu-sallskapsdjurspass/" data-href-en="/en/services/eu-pet-passport/" class="service-card service-card-link">
+        <a href="/en/services/eu-pet-passport/" data-href-fi="/palvelut/eu-lemmikkipassi/" data-href-sv="/sv/tjanster/eu-sallskapsdjurspass/" data-href-en="/en/services/eu-pet-passport/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🛂</div><h3 data-i18n="service.eupetpassport">EU Pet Passport</h3></div>
           <div class="service-desc" data-i18n="service.desc.eupetpassport">EU pet passports, rabies vaccination, titre testing and health certificates. All travel documents under one roof.</div>
         </a>
-        <a href="/en/services/anesthesia/" data-href-fi="/palvelut/anestesia/" data-href-sv="/sv/tjanster/anestesi/" data-href-en="/en/services/anesthesia/" class="service-card service-card-link">
+        <a href="/en/services/anesthesia/" data-href-fi="/palvelut/anestesia/" data-href-sv="/sv/tjanster/anestesi/" data-href-en="/en/services/anesthesia/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">😴</div><h3 data-i18n="service.anesthesia">Anesthesia</h3></div>
           <div class="service-desc" data-i18n="service.desc.anesthesia">Anesthesia is close to our hearts. We continuously update our education, refresh our protocols and monitor patients closely throughout every procedure. The clinic has advanced monitoring equipment, four anesthesia machines and two ventilators to ensure safe anesthesia.</div>
         </a>
-        <a href="/en/services/hygiene/" data-href-fi="/palvelut/hygienia/" data-href-sv="/sv/tjanster/hygien/" data-href-en="/en/services/hygiene/" class="service-card service-card-link">
+        <a href="/en/services/hygiene/" data-href-fi="/palvelut/hygienia/" data-href-sv="/sv/tjanster/hygien/" data-href-en="/en/services/hygiene/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🧼</div><h3 data-i18n="service.hygiene">Hygiene</h3></div>
           <div class="service-desc" data-i18n="service.desc.hygiene">A high level of hygiene is of utmost importance to us. Examination tables are disinfected between patients and blankets and pads are washed after every use. We use UV light to disinfect clinic areas and filters with inhalation anesthesia. Floors are disinfected twice daily.</div>
         </a>
@@ -708,6 +735,10 @@ a.hero-badge{text-decoration:none}
           <p class="role" data-i18n="role.practical">Practical Nurse</p>
           <p class="bio" data-i18n="bio.tiina">Surgery, orthopedics and trauma care. Long experience in animal volunteer work.</p>
         </div>
+      </div>
+
+      <div class="text-center mt-2">
+        <a href="/henkilokunta/" class="btn btn-outline" data-i18n="team.more">Meet the whole team</a>
       </div>
 
       <!-- Nurse Profile Modal -->
@@ -1442,6 +1473,35 @@ a.hero-badge{text-decoration:none}
 
           <h4 data-i18n="article.vaccination.travel.title">Travelling with Your Pet</h4>
           <p data-i18n="article.vaccination.travel.text" data-i18n-html>For travel within the EU, you need a <strong>microchip</strong> (before rabies vaccination), a valid <strong>rabies vaccination</strong> (at least 21 days before travel), and an <strong>EU pet passport</strong>. Dogs additionally require <strong>echinococcus treatment</strong> 1–5 days before returning to Finland. Alternatively, the 28-day rule can be used: two treatments no more than 28 days apart before travel and a third after arrival in Finland. Pets arriving from high-risk countries (e.g., Russia, Turkey) require a rabies antibody titer test at an EU-approved laboratory. Book an appointment for vaccinations and travel documents — we issue EU pet passports at our clinic.</p>
+        </div>
+      </article>
+
+      <!-- Article 26: Deworming (madotus) -->
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.filter.health">Health</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/en/articles/koiran-ja-kissan-madotus.html" data-i18n="article.deworming.title">How Often Should You Deworm Your Dog and Cat? A Risk-Based Deworming Guide</a></h3>
+        <div class="article-content">
+          <p data-i18n="article.deworming.intro">In Finland, deworming is approached differently today than before. We have moved away from routine, one-size-fits-all deworming repeated several times a year, towards risk-based parasite control that relies on a fecal test: we don't medicate unnecessarily, but treat at the right time and for the right reason. A healthy, low-risk adult pet does not need regular deworming several times a year, whereas puppies, kittens and pets in risk groups benefit from regular treatment. The best measure of need is a fecal test, not the calendar.</p>
+
+          <h4 data-i18n="article.deworming.dogs.title">Deworming Dogs: From Puppy to Adult</h4>
+          <p data-i18n="article.deworming.dogs.text" data-i18n-html><strong>Puppies:</strong> the first deworming is done already at <strong>2 weeks of age</strong>, because roundworms can pass to puppies in the womb and through nursing. It is then repeated <strong>every 2 weeks until weaning</strong> and after that <strong>once a month until 6 months of age</strong>. The mother is always dewormed at the same time as the litter.<br><br><strong>Adults:</strong> for an ordinary, low-risk family dog, deworming <strong>1–2 times a year</strong> is often enough, preferably based on a fecal test. For higher-risk dogs – such as hunting, travelling and kennel dogs, dogs that roam freely outdoors, and those that eat feces or soil – deworming can be done <strong>up to 4 times a year</strong>. During the hunting season, treatment against tapeworm may be given <strong>monthly</strong> if needed.</p>
+
+          <h4 data-i18n="article.deworming.cats.title">Deworming Cats: From Kitten to Adult</h4>
+          <p data-i18n="article.deworming.cats.text" data-i18n-html><strong>Kittens:</strong> the first deworming is done at <strong>3 weeks of age</strong>, after which it is repeated <strong>every 2 weeks until two weeks after weaning</strong>. After that, deworming is done <strong>monthly until 6 months of age</strong>.<br><br><strong>Adults:</strong> an indoor cat usually manages with deworming <strong>1–2 times a year</strong>, preferably based on a fecal test. A cat that goes outdoors and catches rodents belongs to the risk group and is dewormed <strong>4 times a year</strong>, while a cat that hunts actively needs treatment <strong>monthly</strong>, since mice and other rodents spread tapeworm.</p>
+
+          <h4 data-i18n="article.deworming.risk.title">Who Needs Deworming — and When Is a Fecal Test Enough?</h4>
+          <p data-i18n="article.deworming.risk.text" data-i18n-html>The need for deworming is always assessed <strong>individually, based on the pet's lifestyle</strong>. The risk is higher if the animal is <strong>under 1 year old</strong>, roams freely outdoors, hunts or catches prey, or eats feces, raw meat or rodents.<br><br>Unnecessary medication is best avoided. For a low-risk adult pet we first recommend a <strong>fecal test</strong>: if the sample is clean, no deworming is needed at all. For adults, a <strong>fecal test once a year</strong> is usually enough – this way we treat at the right time, not just in case.</p>
+
+          <h4 data-i18n="article.deworming.parasites.title">The Most Common Intestinal Parasites in Finland</h4>
+          <p data-i18n="article.deworming.parasites.text" data-i18n-html><strong>Roundworms (Toxocara):</strong> the most common parasite in puppies and kittens. Roundworms are <strong>zoonotic</strong>, meaning they can also infect humans, which is especially important to keep in mind in families with children.<br><br><strong>Tapeworms:</strong> occur mainly in animals that eat rodents or raw meat.<br><br><strong>Giardia:</strong> a protozoan that causes diarrhea and spreads through water and environments contaminated with feces.<br><br><strong>Echinococcus:</strong> this tapeworm <strong>does not occur in Finland</strong>, and the import requirements exist precisely to keep it that way.</p>
+
+          <h4 data-i18n="article.deworming.travel.title">Travel and Mandatory Echinococcus Treatment</h4>
+          <p data-i18n="article.deworming.travel.text" data-i18n-html>When a dog returns to Finland from abroad, <strong>echinococcus treatment is required by law</strong>. The treatment uses <strong>praziquantel</strong> (or an equally effective product), given <strong>1–5 days (24–120 hours) before arrival in Finland</strong>.<br><br>Frequently travelling dogs have their own <strong>28-day rule</strong>: two initial treatments, after which treatment is repeated at <strong>intervals of no more than 28 days</strong>, with the final dose given in Finland after the trip. You can read more about travel requirements and the EU pet passport in our <a href="/en/articles/vaccinations-guide.html">vaccination article</a>.</p>
+
+          <p data-i18n="article.deworming.cta">Not sure whether your dog or cat needs deworming? Book a fecal test or a deworming appointment with us at Eläinklinikka Saari, and we'll help you find the right rhythm for your own pet.</p>
         </div>
       </article>
 

@@ -187,6 +187,14 @@ const translations = {
     en: 'We offer comprehensive veterinary services for your pet'
   },
 
+  // Service category tabs
+  'service.cat.checkups': { fi: 'Terveys ja ennaltaehkäisy', sv: 'Hälsa och förebyggande', en: 'Health & Prevention' },
+  'service.cat.diagnostics': { fi: 'Diagnostiikka ja kuvantaminen', sv: 'Diagnostik och bilddiagnostik', en: 'Diagnostics & Imaging' },
+  'service.cat.surgery': { fi: 'Kirurgia ja anestesia', sv: 'Kirurgi och anestesi', en: 'Surgery & Anesthesia' },
+  'service.cat.specialties': { fi: 'Iho, silmät ja hyvinvointi', sv: 'Hud, ögon och välmående', en: 'Skin, Eyes & Wellness' },
+  'service.cat.other': { fi: 'Päivystys ja muut palvelut', sv: 'Jour och övriga tjänster', en: 'Emergency & Other' },
+  'service.count.suffix': { fi: 'palvelua', sv: 'tjänster', en: 'services' },
+
   // Hero rating badge
   'hero.rating.score': { fi: '4,6', sv: '4,6', en: '4.6' },
   'hero.rating.label': { fi: '281 Google-arvostelua', sv: '281 omdömen på Google', en: '281 Google reviews' },
@@ -3010,6 +3018,36 @@ function initPrintButtons() {
   }
 }
 
+// ===== Services category tabs =====
+let currentServiceFilter = 'checkups';
+
+function applyServiceFilter() {
+  const cards = document.querySelectorAll('#services .service-card[data-scat]');
+  const buttons = document.querySelectorAll('.service-filter-btn');
+  if (!cards.length) return;
+
+  buttons.forEach(btn => {
+    const on = btn.dataset.scatFilter === currentServiceFilter;
+    btn.classList.toggle('active', on);
+    btn.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  cards.forEach(card => {
+    card.classList.toggle('filter-hidden', card.dataset.scat !== currentServiceFilter);
+  });
+}
+
+function initServiceFilters() {
+  const buttons = document.querySelectorAll('.service-filter-btn');
+  if (!buttons.length) return;
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentServiceFilter = btn.dataset.scatFilter;
+      applyServiceFilter();
+    });
+  });
+  applyServiceFilter();
+}
+
 function initArticleFilters() {
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -3433,6 +3471,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initActiveNav();
   initScrollAnimations();
   initArticleFilters();
+  initServiceFilters();
   initPawTrail();
 });
 

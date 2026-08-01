@@ -334,7 +334,7 @@ a.hero-badge{text-decoration:none}
   <!-- ===== Header ===== -->
   <header class="header">
     <div class="container">
-      <a href="/sv/" class="logo" aria-label="Eläinklinikka Saari" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
+      <a href="/" class="logo" aria-label="Eläinklinikka Saari" onclick="event.preventDefault(); document.getElementById('articles').style.display='none'; document.querySelectorAll('#main-content > .notice-banner, #main-content > section:not(#articles), #main-content > .hero').forEach(el=>el.style.display=''); window.scrollTo({top:0,behavior:'smooth'});">
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
@@ -476,112 +476,139 @@ a.hero-badge{text-decoration:none}
         <h2 data-i18n="services.title">Våra tjänster</h2>
         <p data-i18n="services.subtitle">Vi erbjuder mångsidiga veterinärtjänster för ditt husdjur</p>
       </div>
+      <div class="service-filters" role="tablist" aria-label="Palvelukategoriat">
+        <button type="button" class="service-filter-btn active" role="tab" aria-selected="true" data-scat-filter="checkups">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.checkups">Hälsa och förebyggande</span>
+          <span class="sf-count"><span class="sf-num">5</span> <span data-i18n="service.count.suffix">tjänster</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="diagnostics">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.diagnostics">Diagnostik och bilddiagnostik</span>
+          <span class="sf-count"><span class="sf-num">8</span> <span data-i18n="service.count.suffix">tjänster</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="surgery">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.12 15.88"/><path d="M14.47 14.48 20 20"/><path d="M8.12 8.12 12 12"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.surgery">Kirurgi och anestesi</span>
+          <span class="sf-count"><span class="sf-num">6</span> <span data-i18n="service.count.suffix">tjänster</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="specialties">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.962 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.specialties">Hud, ögon och välmående</span>
+          <span class="sf-count"><span class="sf-num">4</span> <span data-i18n="service.count.suffix">tjänster</span></span>
+        </button>
+        <button type="button" class="service-filter-btn" role="tab" aria-selected="false" data-scat-filter="other">
+          <span class="sf-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
+          <span class="sf-label" data-i18n="service.cat.other">Jour och övriga tjänster</span>
+          <span class="sf-count"><span class="sf-num">4</span> <span data-i18n="service.count.suffix">tjänster</span></span>
+        </button>
+      </div>
       <div class="services-grid">
-        <a href="/sv/tjanster/jour/" data-href-fi="/palvelut/paivystys/" data-href-sv="/sv/tjanster/jour/" data-href-en="/en/services/emergency/" class="service-card service-card-link">
+        <a href="/sv/tjanster/jour/" data-href-fi="/palvelut/paivystys/" data-href-sv="/sv/tjanster/jour/" data-href-en="/en/services/emergency/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🚨</div><h3 data-i18n="service.emergency">Jour</h3></div>
           <div class="service-desc" data-i18n="service.desc.emergency">Dagliga akuttider vardagar 7:45–17. Kvällar och helger Norra jourområdets nummer 0600 399 299. Råd om första hjälpen vid nödsituationer.</div>
         </a>
-        <a href="/sv/tjanster/akupunktur/" data-href-fi="/palvelut/akupunktio/" data-href-sv="/sv/tjanster/akupunktur/" data-href-en="/en/services/acupuncture/" class="service-card service-card-link">
+        <a href="/sv/tjanster/akupunktur/" data-href-fi="/palvelut/akupunktio/" data-href-sv="/sv/tjanster/akupunktur/" data-href-en="/en/services/acupuncture/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🪡</div><h3 data-i18n="service.acupuncture">Akupunktur</h3></div>
           <div class="service-desc" data-i18n="service.desc.acupuncture">Akupunktur används till smärtlindring och för behandling av vissa sjukdomar. Behandlingen utförs av Assaf, som har vidareutbildning inom akupunktur för hundar och hästar.</div>
         </a>
-        <a href="/sv/tjanster/blodprov/" data-href-fi="/palvelut/verikokeet/" data-href-sv="/sv/tjanster/blodprov/" data-href-en="/en/services/blood-tests/" class="service-card service-card-link">
+        <a href="/sv/tjanster/blodprov/" data-href-fi="/palvelut/verikokeet/" data-href-sv="/sv/tjanster/blodprov/" data-href-en="/en/services/blood-tests/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🩸</div><h3 data-i18n="service.bloodtests">Blodprov</h3></div>
           <div class="service-desc" data-i18n="service.desc.bloodtests">De flesta prover undersöks i vårt eget laboratorium, så vi får svaret redan under besöket.</div>
         </a>
-        <a href="/sv/tjanster/hudsjukdomar/" data-href-fi="/palvelut/ihotaudit/" data-href-sv="/sv/tjanster/hudsjukdomar/" data-href-en="/en/services/dermatology/" class="service-card service-card-link">
+        <a href="/sv/tjanster/hudsjukdomar/" data-href-fi="/palvelut/ihotaudit/" data-href-sv="/sv/tjanster/hudsjukdomar/" data-href-en="/en/services/dermatology/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🔬</div><h3 data-i18n="service.dermatology">Dermatologi och allergier</h3></div>
           <div class="service-desc" data-i18n="service.desc.dermatology">Dermatologiska sjukdomar är en av de vanligaste orsakerna att uppsöka veterinär. Allergier drabbar ungefär en av tio hundar i Finland och visar sig ofta genom hud- och öroninflammation. Typiska symtom inkluderar tasslickande, öronkliande och ansiktsgnuggning. Vid allergimisstanke försöker vi först utesluta foderallergier, och vid behov tas allergiblodprover.</div>
         </a>
-        <a href="/sv/tjanster/draktighetsundersokning/" data-href-fi="/palvelut/tiineystutkimus/" data-href-sv="/sv/tjanster/draktighetsundersokning/" data-href-en="/en/services/pregnancy-examination/" class="service-card service-card-link">
+        <a href="/sv/tjanster/draktighetsundersokning/" data-href-fi="/palvelut/tiineystutkimus/" data-href-sv="/sv/tjanster/draktighetsundersokning/" data-href-en="/en/services/pregnancy-examination/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🤰</div><h3 data-i18n="service.pregnancy">Dräktighetsdiagnos</h3></div>
           <div class="service-desc" data-i18n="service.desc.pregnancy">Ultraljudsundersökning kan upptäcka dräktighet från dag 24. Röntgenundersökning kan ge en mer exakt bedömning av antalet valpar, från dag 50 och framåt.</div>
         </a>
-        <a href="/sv/tjanster/endoskopi/" data-href-fi="/palvelut/tahystykset/" data-href-sv="/sv/tjanster/endoskopi/" data-href-en="/en/services/endoscopy/" class="service-card service-card-link">
+        <a href="/sv/tjanster/endoskopi/" data-href-fi="/palvelut/tahystykset/" data-href-sv="/sv/tjanster/endoskopi/" data-href-en="/en/services/endoscopy/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📷</div><h3 data-i18n="service.endoscopy">Endoskopi</h3></div>
           <div class="service-desc" data-i18n="service.desc.endoscopy">Vi utför video-otoskopi (öronundersökning och spolning), rhinoskopi (näshåleundersökning), gastroskopi (mag-tarmundersökning), cystoskopi (urinvägsundersökning) och bronkoskopi (luftvägsundersökning).</div>
         </a>
-        <a href="/sv/tjanster/foderforsaljning/" data-href-fi="/palvelut/rehumyynti/" data-href-sv="/sv/tjanster/foderforsaljning/" data-href-en="/en/services/prescription-diets/" class="service-card service-card-link">
+        <a href="/sv/tjanster/foderforsaljning/" data-href-fi="/palvelut/rehumyynti/" data-href-sv="/sv/tjanster/foderforsaljning/" data-href-en="/en/services/prescription-diets/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🍖</div><h3 data-i18n="service.food">Foderförsäljning</h3></div>
           <div class="service-desc" data-i18n="service.desc.food">På kliniken hittar du olika specialfoder som används som stöd under sjukdom. Rekommenderas vid bland annat artros, njursvikt, mag-tarmproblem, urinvägssjukdomar, foderallergier och viktkontroll. Märken: Royal Canin, Specific, Hill's.</div>
         </a>
-        <a href="/sv/tjanster/rehabilitering/" data-href-fi="/palvelut/kuntoutus/" data-href-sv="/sv/tjanster/rehabilitering/" data-href-en="/en/services/rehabilitation/" class="service-card service-card-link">
+        <a href="/sv/tjanster/rehabilitering/" data-href-fi="/palvelut/kuntoutus/" data-href-sv="/sv/tjanster/rehabilitering/" data-href-en="/en/services/rehabilitation/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💪</div><h3 data-i18n="service.wellness">Friskvård och rehabilitering</h3></div>
           <div class="service-desc" data-i18n="service.desc.wellness">Med hjälp av friskvård och rehabilitering analyseras och förbättras djurets förmåga till rörelse. De vanligaste orsakerna är funktionsstörningar, nedsatt prestationsförmåga, smärta efter trauma samt rehabilitering efter operationer. Tjänster: rörelseanalys, djupgående massage, elektroterapi, träningsprogram.</div>
         </a>
-        <a href="/sv/tjanster/seniorundersokning/" data-href-fi="/palvelut/senioritarkastus/" data-href-sv="/sv/tjanster/seniorundersokning/" data-href-en="/en/services/senior-check-up/" class="service-card service-card-link">
+        <a href="/sv/tjanster/seniorundersokning/" data-href-fi="/palvelut/senioritarkastus/" data-href-sv="/sv/tjanster/seniorundersokning/" data-href-en="/en/services/senior-check-up/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🩺</div><h3 data-i18n="service.healthcheck">Hälsokontroll</h3></div>
           <div class="service-desc" data-i18n="service.desc.healthcheck">Under hälsoundersökningen kan man upptäcka förändringar som i det långa loppet kan förorsaka hälsoproblem. Veterinären gör en klinisk undersökning, lyssnar på hjärtat och lungorna och vid behov tas blodprover.</div>
         </a>
-        <a href="/sv/tjanster/hjartundersokningar/" data-href-fi="/palvelut/sydantutkimukset/" data-href-sv="/sv/tjanster/hjartundersokningar/" data-href-en="/en/services/cardiac-examinations/" class="service-card service-card-link">
+        <a href="/sv/tjanster/hjartundersokningar/" data-href-fi="/palvelut/sydantutkimukset/" data-href-sv="/sv/tjanster/hjartundersokningar/" data-href-en="/en/services/cardiac-examinations/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">❤️</div><h3 data-i18n="service.cardiology">Hjärtsjukdomar</h3></div>
           <div class="service-desc" data-i18n="service.desc.cardiology">Hjärtsjukdomar är vanliga särskilt hos vissa raser. Tidig behandling kan förlänga livslängden och förbättra livskvaliteten. Kliniken erbjuder hjärtultraljud, EKG och Holter-monitorering. Vi utför även officiella hjärtultraljudsundersökningar för hundar. Vi har officiella rättigheter för hjärtauskultation.</div>
         </a>
-        <a href="/sv/tjanster/kastrering/" data-href-fi="/palvelut/kastraatio/" data-href-sv="/sv/tjanster/kastrering/" data-href-en="/en/services/castration/" class="service-card service-card-link">
+        <a href="/sv/tjanster/kastrering/" data-href-fi="/palvelut/kastraatio/" data-href-sv="/sv/tjanster/kastrering/" data-href-en="/en/services/castration/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">✂️</div><h3 data-i18n="service.castration">Kastrering</h3></div>
           <div class="service-desc" data-i18n="service.desc.castration">Vi kastrerar katter, hundar och kaniner. Kastrering av hund kan motverka prostataproblem och urinmarkering. Kemisk kastrering med hormonimplantat finns också tillgängligt (6 eller 12 månaders effektivitet).</div>
         </a>
-        <a href="/sv/tjanster/kirurgi/" data-href-fi="/palvelut/kirurgia/" data-href-sv="/sv/tjanster/kirurgi/" data-href-en="/en/services/surgery/" class="service-card service-card-link">
+        <a href="/sv/tjanster/kirurgi/" data-href-fi="/palvelut/kirurgia/" data-href-sv="/sv/tjanster/kirurgi/" data-href-en="/en/services/surgery/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🔪</div><h3 data-i18n="service.surgery.soft">Mjukdelskirurgi</h3></div>
           <div class="service-desc" data-i18n="service.desc.surgery.soft">Sterilisering, kastrering, kejsarsnitt, tumöroperationer, främmandekroppsoperationer, urinstenar, övriga bukoperationer samt ögon- och öronkirurgi.</div>
         </a>
-        <a href="/sv/tjanster/ortopedi/" data-href-fi="/palvelut/ortopedia/" data-href-sv="/sv/tjanster/ortopedi/" data-href-en="/en/services/orthopedics/" class="service-card service-card-link">
+        <a href="/sv/tjanster/ortopedi/" data-href-fi="/palvelut/ortopedia/" data-href-sv="/sv/tjanster/ortopedi/" data-href-en="/en/services/orthopedics/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🦴</div><h3 data-i18n="service.surgery.ortho">Ortopedisk kirurgi</h3></div>
           <div class="service-desc" data-i18n="service.desc.surgery.ortho">Kliniken har ett dedikerat ortopediskt operationsrum med högre sterilitetsnivå. Vi har utfört knäoperationer sedan 2017. Idag erbjuds korsbandsskadeoperationer med två metoder: lateral sutur-teknik stabiliserar leden med syntetiskt stödmaterial, och TTA (tibial tuberosity advancement) förändrar knäets biomekanik genom att flytta skenbenets utskott framåt. Dessutom patellaluxationsoperationer, frakturkirurgi, amputationer samt lårbenshuvudresektion vid t.ex. kronisk luxation eller Legg-Perthes sjukdom.</div>
         </a>
-        <a href="/sv/tjanster/laboratorium/" data-href-fi="/palvelut/laboratorio/" data-href-sv="/sv/tjanster/laboratorium/" data-href-en="/en/services/laboratory/" class="service-card service-card-link">
+        <a href="/sv/tjanster/laboratorium/" data-href-fi="/palvelut/laboratorio/" data-href-sv="/sv/tjanster/laboratorium/" data-href-en="/en/services/laboratory/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🧪</div><h3 data-i18n="service.laboratory">Laboratorium</h3></div>
           <div class="service-desc" data-i18n="service.desc.laboratory">Välutrustat eget laboratorium: blodprover, urinprover, blodutstryk, hud- och öronprover. De flesta resultat redan under besöket. Analyser: hematologi, klinisk kemi, elektrolyter, hormoner, urinodlingar, cytologi.</div>
         </a>
-        <a href="/sv/tjanster/officiella-undersokningar/" data-href-fi="/palvelut/viralliset-tutkimukset/" data-href-sv="/sv/tjanster/officiella-undersokningar/" data-href-en="/en/services/official-examinations/" class="service-card service-card-link">
+        <a href="/sv/tjanster/officiella-undersokningar/" data-href-fi="/palvelut/viralliset-tutkimukset/" data-href-sv="/sv/tjanster/officiella-undersokningar/" data-href-en="/en/services/official-examinations/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📋</div><h3 data-i18n="service.official">Officiella undersökningar</h3></div>
           <div class="service-desc" data-i18n="service.desc.official">Officiella röntgenbilder (höfter, armbågar, rygg). Officiella knäundersökningar. Officiella hjärtauskultationer. Officiella hjärtultraljudsundersökningar för hundar.</div>
         </a>
-        <a href="/sv/tjanster/rontgen/" data-href-fi="/palvelut/rontgen/" data-href-sv="/sv/tjanster/rontgen/" data-href-en="/en/services/x-ray/" class="service-card service-card-link">
+        <a href="/sv/tjanster/rontgen/" data-href-fi="/palvelut/rontgen/" data-href-sv="/sv/tjanster/rontgen/" data-href-en="/en/services/x-ray/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">☢️</div><h3 data-i18n="service.xray">Röntgen</h3></div>
           <div class="service-desc" data-i18n="service.desc.xray">Digital röntgen. Rekommenderas vid hälta, lung- och hjärtsymtom, akut kräkning, urinproblem, misstänkta tumörer och officiella röntgenbilder.</div>
         </a>
-        <a href="/sv/tjanster/eutanasi/" data-href-fi="/palvelut/eutanasia/" data-href-sv="/sv/tjanster/eutanasi/" data-href-en="/en/services/euthanasia/" class="service-card service-card-link">
+        <a href="/sv/tjanster/eutanasi/" data-href-fi="/palvelut/eutanasia/" data-href-sv="/sv/tjanster/eutanasi/" data-href-en="/en/services/euthanasia/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🕊️</div><h3 data-i18n="service.euthanasia">Sista farväl – eutanasi</h3></div>
           <div class="service-desc" data-i18n="service.desc.euthanasia">Vi strävar efter att farvälet ska vara lugnt och utan brådska. Djuret får först ett lugnande medel med smärtlindring, sedan sömnmedel. Alternativ: hembegravning, kremering eller individuell kremering med urna.</div>
         </a>
-        <a href="/sv/tjanster/sterilisering/" data-href-fi="/palvelut/sterilisaatio/" data-href-sv="/sv/tjanster/sterilisering/" data-href-en="/en/services/spay-and-neuter/" class="service-card service-card-link">
+        <a href="/sv/tjanster/sterilisering/" data-href-fi="/palvelut/sterilisaatio/" data-href-sv="/sv/tjanster/sterilisering/" data-href-en="/en/services/spay-and-neuter/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🏥</div><h3 data-i18n="service.sterilization">Sterilisering</h3></div>
           <div class="service-desc" data-i18n="service.desc.sterilization">Ett vanligt ingrepp på hundar, katter och kaniner. Sterilisering kan motverka hormonala sjukdomar som juvertumörer och livmoderinflammation. Inhalationsanestesi och omfattande smärthantering.</div>
         </a>
-        <a href="/sv/tjanster/tandvard/" data-href-fi="/palvelut/hammashoito/" data-href-sv="/sv/tjanster/tandvard/" data-href-en="/en/services/dental-care/" class="service-card service-card-link">
+        <a href="/sv/tjanster/tandvard/" data-href-fi="/palvelut/hammashoito/" data-href-sv="/sv/tjanster/tandvard/" data-href-en="/en/services/dental-care/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🦷</div><h3 data-i18n="service.dental">Tandvård</h3></div>
           <div class="service-desc" data-i18n="service.desc.dental">Tandsjukdomar är mycket vanliga — vid 3 års ålder har de flesta hundar och katter inflammation i munnen. Tjänster: tandstensavlägsnande med ultraljud, tandröntgen, kirurgiska tandutdragningar, mjölktandsborttagning samt borttagning av icke-erupterade tänder och cystor. Alla ingrepp under generell anestesi med inhalationsanestesi, intravenöst dropp och omfattande smärthantering.</div>
         </a>
-        <a href="/sv/tjanster/ultraljud/" data-href-fi="/palvelut/ultraaani/" data-href-sv="/sv/tjanster/ultraljud/" data-href-en="/en/services/ultrasound/" class="service-card service-card-link">
+        <a href="/sv/tjanster/ultraljud/" data-href-fi="/palvelut/ultraaani/" data-href-sv="/sv/tjanster/ultraljud/" data-href-en="/en/services/ultrasound/" data-scat="diagnostics" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">📡</div><h3 data-i18n="service.ultrasound">Ultraljud</h3></div>
           <div class="service-desc" data-i18n="service.desc.ultrasound">Högklassigt ultraljud: abdominella undersökningar, livmoderundersökningar, lever-, njur- och andra organundersökningar samt hjärtultraljud.</div>
         </a>
-        <a href="/sv/tjanster/vaccinationer/" data-href-fi="/palvelut/rokotukset/" data-href-sv="/sv/tjanster/vaccinationer/" data-href-en="/en/services/vaccinations/" class="service-card service-card-link">
+        <a href="/sv/tjanster/vaccinationer/" data-href-fi="/palvelut/rokotukset/" data-href-sv="/sv/tjanster/vaccinationer/" data-href-en="/en/services/vaccinations/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💉</div><h3 data-i18n="service.vaccinations">Vaccinationer</h3></div>
           <div class="service-desc" data-i18n="service.desc.vaccinations">Vaccinationer är en viktig del av förebyggande hälsovård. Valpar vaccineras oftast vid 12 och 16 veckors ålder, kattungar likaså. Vuxna djur vaccineras med 1–3 års intervall.</div>
         </a>
-        <a href="/sv/tjanster/valpundersokning/" data-href-fi="/palvelut/pentutarkastus/" data-href-sv="/sv/tjanster/valpundersokning/" data-href-en="/en/services/puppy-check-up/" class="service-card service-card-link">
+        <a href="/sv/tjanster/valpundersokning/" data-href-fi="/palvelut/pentutarkastus/" data-href-sv="/sv/tjanster/valpundersokning/" data-href-en="/en/services/puppy-check-up/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🐕</div><h3 data-i18n="service.puppy">Valpkontroll</h3></div>
           <div class="service-desc" data-i18n="service.desc.puppy">Vid valpkontrollen undersöker veterinären valpen från topp till tå och utfärdar ett hälsointyg. I samband med undersökningen kan man sätta mikrochip.</div>
         </a>
-        <a href="/sv/tjanster/internmedicin/" data-href-fi="/palvelut/sisataudit/" data-href-sv="/sv/tjanster/internmedicin/" data-href-en="/en/services/internal-medicine/" class="service-card service-card-link">
+        <a href="/sv/tjanster/internmedicin/" data-href-fi="/palvelut/sisataudit/" data-href-sv="/sv/tjanster/internmedicin/" data-href-en="/en/services/internal-medicine/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">💊</div><h3 data-i18n="service.internalmedicine">Internmedicin</h3></div>
           <div class="service-desc" data-i18n="service.desc.internalmedicine">Internmedicin omfattar ett brett spektrum av sjukdomar hos djur: diabetes, Cushings sjukdom, pankreatit, anemi, autoimmunsjukdomar. Grundlig diagnostik och behandlingsplan.</div>
         </a>
-        <a href="/sv/tjanster/ogonsjukdomar/" data-href-fi="/palvelut/silmataudit/" data-href-sv="/sv/tjanster/ogonsjukdomar/" data-href-en="/en/services/ophthalmology/" class="service-card service-card-link">
+        <a href="/sv/tjanster/ogonsjukdomar/" data-href-fi="/palvelut/silmataudit/" data-href-sv="/sv/tjanster/ogonsjukdomar/" data-href-en="/en/services/ophthalmology/" data-scat="specialties" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">👁️</div><h3 data-i18n="service.ophthalmology">Ögonsjukdomar</h3></div>
           <div class="service-desc" data-i18n="service.desc.ophthalmology">Ögonsjukdomar är vanliga hos husdjur. Hornhinnesår, glaukom, torra ögon, katarakt, ögonlockssjukdomar. Undersökning och behandling vid samma besök.</div>
         </a>
-        <a href="/sv/tjanster/eu-sallskapsdjurspass/" data-href-fi="/palvelut/eu-lemmikkipassi/" data-href-sv="/sv/tjanster/eu-sallskapsdjurspass/" data-href-en="/en/services/eu-pet-passport/" class="service-card service-card-link">
+        <a href="/sv/tjanster/eu-sallskapsdjurspass/" data-href-fi="/palvelut/eu-lemmikkipassi/" data-href-sv="/sv/tjanster/eu-sallskapsdjurspass/" data-href-en="/en/services/eu-pet-passport/" data-scat="checkups" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🛂</div><h3 data-i18n="service.eupetpassport">EU-sällskapsdjurspass</h3></div>
           <div class="service-desc" data-i18n="service.desc.eupetpassport">EU-sällskapsdjurspass, rabiesvaccination, titerundersökning och hälsointyg. Alla resedokument under samma tak.</div>
         </a>
-        <a href="/sv/tjanster/anestesi/" data-href-fi="/palvelut/anestesia/" data-href-sv="/sv/tjanster/anestesi/" data-href-en="/en/services/anesthesia/" class="service-card service-card-link">
+        <a href="/sv/tjanster/anestesi/" data-href-fi="/palvelut/anestesia/" data-href-sv="/sv/tjanster/anestesi/" data-href-en="/en/services/anesthesia/" data-scat="surgery" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">😴</div><h3 data-i18n="service.anesthesia">Anestesi</h3></div>
           <div class="service-desc" data-i18n="service.desc.anesthesia">Anestesi ligger oss varmt om hjärtat. Vi uppdaterar kontinuerligt vår utbildning, förnyar våra protokoll och övervakar patienterna noggrant under hela ingreppet. Kliniken har avancerad övervakningsutrustning, fyra anestesimaskiner och två ventilatorer för att säkerställa säker anestesi.</div>
         </a>
-        <a href="/sv/tjanster/hygien/" data-href-fi="/palvelut/hygienia/" data-href-sv="/sv/tjanster/hygien/" data-href-en="/en/services/hygiene/" class="service-card service-card-link">
+        <a href="/sv/tjanster/hygien/" data-href-fi="/palvelut/hygienia/" data-href-sv="/sv/tjanster/hygien/" data-href-en="/en/services/hygiene/" data-scat="other" class="service-card service-card-link">
           <div class="service-header"><div class="service-icon">🧼</div><h3 data-i18n="service.hygiene">Hygien</h3></div>
           <div class="service-desc" data-i18n="service.desc.hygiene">Hög hygiennivå är av största vikt för oss. Undersökningsborden desinficeras mellan patienter och filtar och underlag tvättas efter varje användning. Vi använder UV-ljus för desinfektion av klinikens utrymmen och filter vid inhalationsanestesi. Golven desinficeras två gånger om dagen.</div>
         </a>
@@ -708,6 +735,10 @@ a.hero-badge{text-decoration:none}
           <p class="role" data-i18n="role.practical">Närvårdare</p>
           <p class="bio" data-i18n="bio.tiina">Kirurgi, ortopedi och traumavård. Lång erfarenhet av frivilligarbete med djur.</p>
         </div>
+      </div>
+
+      <div class="text-center mt-2">
+        <a href="/henkilokunta/" class="btn btn-outline" data-i18n="team.more">Bekanta dig med hela personalen</a>
       </div>
 
       <!-- Nurse Profile Modal -->
@@ -1442,6 +1473,35 @@ a.hero-badge{text-decoration:none}
 
           <h4 data-i18n="article.vaccination.travel.title">Resa med husdjur</h4>
           <p data-i18n="article.vaccination.travel.text" data-i18n-html>För resor inom EU krävs <strong>mikrochip</strong> (före rabiesvaccination), giltig <strong>rabiesvaccination</strong> (minst 21 dagar före resan) och <strong>EU-sällskapsdjurspass</strong>. För hundar krävs dessutom <strong>ekinokockbehandling</strong> 1–5 dagar före återkomst till Finland. Alternativt kan 28-dagarsregeln användas: två behandlingar med högst 28 dagars mellanrum före resan och en tredje efter ankomst till Finland. Från högriskländer (t.ex. Ryssland, Turkiet) krävs ett rabiesantikroppstest vid ett EU-godkänt laboratorium. Boka tid för vaccinationer och resedokument — vi utfärdar EU-sällskapsdjurspass på vår klinik.</p>
+        </div>
+      </article>
+
+      <!-- Article 26: Deworming (madotus) -->
+      <article class="article-card" data-category="health">
+        <div class="article-header">
+          <span class="article-tag" data-i18n="articles.filter.health">Hälsa</span>
+          <time>2026</time>
+        </div>
+        <h3><a href="/sv/artiklar/koiran-ja-kissan-madotus.html" data-i18n="article.deworming.title">Hur ofta ska hunden och katten avmaskas? En riskbaserad avmaskningsguide</a></h3>
+        <div class="article-content">
+          <p data-i18n="article.deworming.intro">I Finland har vi gått ifrån den gamla vanan att avmaska alla djur rutinmässigt flera gånger om året. I dag följer vi ett riskbaserat tänkande som stöder sig på avföringsprov: vi medicinerar inte i onödan, utan behandlar vid rätt tidpunkt. En vuxen familjehund eller innekatt med låg risk behöver sällan regelbunden avmaskning, medan valpar, kattungar och djur i riskgrupp nog behöver avmaskas med jämna mellanrum. På den här sidan går vi lugnt igenom vad just ditt djur behöver.</p>
+
+          <h4 data-i18n="article.deworming.dogs.title">Avmaskning av hund – valp och vuxen</h4>
+          <p data-i18n="article.deworming.dogs.text" data-i18n-html><strong>Valpar:</strong> Den första avmaskningen görs redan vid <strong>2 veckors ålder</strong>, därefter <strong>varannan vecka fram till avvänjningen</strong> och sedan <strong>en gång i månaden tills valpen är 6 månader</strong>. Tiken avmaskas samtidigt som kullen, eftersom parasiterna kan överföras redan i livmodern och via mjölken.<br><br><strong>Vuxen hund:</strong> För en familjehund med låg risk räcker det oftast med avmaskning <strong>1–2 gånger om året</strong>, helst utgående från ett avföringsprov. Hundar med högre risk – jakt-, rese- och kennelhundar, hundar som rör sig fritt utomhus eller som äter avföring och jord – kan behöva avmaskas <strong>upp till 4 gånger om året</strong>. Under jaktsäsongen ges vid behov en behandling <strong>en gång i månaden mot bandmask</strong>.</p>
+
+          <h4 data-i18n="article.deworming.cats.title">Avmaskning av katt – kattunge och vuxen</h4>
+          <p data-i18n="article.deworming.cats.text" data-i18n-html><strong>Kattungar:</strong> Den första avmaskningen görs vid <strong>3 veckors ålder</strong>, därefter <strong>varannan vecka fram till två veckor efter avvänjningen</strong> och sedan <strong>en gång i månaden tills kattungen är 6 månader</strong>.<br><br><strong>Vuxen katt:</strong> En innekatt klarar sig oftast med avmaskning <strong>1–2 gånger om året</strong>, helst utgående från ett avföringsprov. En katt som rör sig ute och fångar gnagare hör till riskgruppen och avmaskas <strong>4 gånger om året</strong>, medan en katt som jagar aktivt behöver behandling <strong>en gång i månaden</strong>, eftersom gnagare sprider bandmask.</p>
+
+          <h4 data-i18n="article.deworming.risk.title">Riskgrupper och avföringsprov</h4>
+          <p data-i18n="article.deworming.risk.text" data-i18n-html>Behovet av avmaskning bedöms alltid <strong>individuellt utgående från djurets levnadssätt</strong>. Till <strong>högre risk</strong> hör djur som är <strong>under 1 år</strong>, som rör sig <strong>fritt utomhus</strong>, som <strong>jagar och fångar byten</strong> eller som äter <strong>avföring, rått kött eller gnagare</strong>.<br><br>För att undvika onödig medicinering rekommenderar vi att man för en vuxen hund eller katt med låg risk först lämnar in ett <strong>avföringsprov</strong> – är provet rent behövs ingen avmaskning. För vuxna djur räcker det oftast med ett <strong>avföringsprov en gång om året</strong>.</p>
+
+          <h4 data-i18n="article.deworming.parasites.title">Vanliga inälvsparasiter i Finland</h4>
+          <p data-i18n="article.deworming.parasites.text" data-i18n-html><strong>Spolmask (Toxocara):</strong> den vanligaste parasiten hos valpar och kattungar. Spolmasken är <strong>zoonotisk</strong>, alltså kan den smitta människor, vilket är särskilt viktigt att komma ihåg i familjer med barn.<br><br><strong>Bandmask:</strong> förekommer främst hos djur som äter gnagare eller rått kött.<br><br><strong>Giardia:</strong> en encellig tarmparasit som orsakar diarré och sprids via vatten och miljö som förorenats av avföring.<br><br><strong>Echinococcus (rävens dvärgbandmask):</strong> förekommer <strong>inte i Finland</strong>, och det är importbestämmelserna som håller den borta.</p>
+
+          <h4 data-i18n="article.deworming.travel.title">Resor med hund – lagstadgad avmaskning</h4>
+          <p data-i18n="article.deworming.travel.text" data-i18n-html><strong>Reser du utomlands med hunden?</strong> När en hund återvänder till Finland krävs enligt lag en behandling mot <strong>echinococcus (rävens dvärgbandmask)</strong>. Behandlingen ges med <strong>prazikvantel</strong> (eller ett lika effektivt preparat) <strong>1–5 dygn (24–120 timmar) före ankomsten till Finland</strong>.<br><br>För dig som reser ofta gäller <strong>28-dygnsregeln</strong>: två inledande behandlingar, därefter upprepning med <strong>högst 28 dygns mellanrum</strong>, och en sista dos i Finland efter resan. Fullständig information om resor och EU-pass hittar du i <a href="/sv/artiklar/vaccinationsguide.html">vår vaccinationsartikel</a>.</p>
+
+          <p data-i18n="article.deworming.cta">Är du osäker på om just din hund eller katt behöver avmaskas? Boka gärna ett avföringsprov eller en avmaskning hos oss på Eläinklinikka Saari, så hjälper vi dig att hitta rätt rytm för just ditt djur.</p>
         </div>
       </article>
 
