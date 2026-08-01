@@ -3021,7 +3021,7 @@ function initPrintButtons() {
 // ===== Services category tabs =====
 let currentServiceFilter = 'checkups';
 
-function applyServiceFilter() {
+function applyServiceFilter(animate) {
   const cards = document.querySelectorAll('#services .service-card[data-scat]');
   const buttons = document.querySelectorAll('.service-filter-btn');
   if (!cards.length) return;
@@ -3031,21 +3031,55 @@ function applyServiceFilter() {
     btn.classList.toggle('active', on);
     btn.setAttribute('aria-selected', on ? 'true' : 'false');
   });
+  // Pass 1: set visibility and clear any prior animation.
   cards.forEach(card => {
     card.classList.toggle('filter-hidden', card.dataset.scat !== currentServiceFilter);
+    card.classList.remove('sf-enter');
+    card.style.animationDelay = '';
   });
+  // Pass 2: staggered fade-in on the now-visible cards, so the change is
+  // clearly visible (avoids "dead" taps on mobile where results are below fold).
+  if (animate) {
+    void cards[0].offsetWidth; // force reflow so the animation restarts
+    let i = 0;
+    cards.forEach(card => {
+      if (card.dataset.scat === currentServiceFilter) {
+        card.style.animationDelay = (i * 40) + 'ms';
+        card.classList.add('sf-enter');
+        i++;
+      }
+    });
+  }
 }
 
 function initServiceFilters() {
   const buttons = document.querySelectorAll('.service-filter-btn');
   if (!buttons.length) return;
+  const grid = document.querySelector('#services .services-grid');
+  const header = document.querySelector('.header') || document.querySelector('header');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       currentServiceFilter = btn.dataset.scatFilter;
-      applyServiceFilter();
+      applyServiceFilter(true);
+      // If the results are below the fold (mobile), scroll them into view so
+      // the user sees what changed instead of a "dead" tap.
+      if (grid) {
+        const firstCard = grid.querySelector('.service-card:not(.filter-hidden)');
+        if (firstCard && firstCard.getBoundingClientRect().top > window.innerHeight - 80) {
+          const headerH = header ? header.offsetHeight : 70;
+          const y = window.scrollY + grid.getBoundingClientRect().top - headerH - 90;
+          const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          window.scrollTo({ top: y, left: 0, behavior: smooth ? 'smooth' : 'auto' });
+          // Fallback: if smooth scroll doesn't advance (some contexts no-op it),
+          // force an instant jump so results always come into view.
+          setTimeout(function () {
+            if (Math.abs(window.scrollY - y) > 40) window.scrollTo(0, y);
+          }, 500);
+        }
+      }
     });
   });
-  applyServiceFilter();
+  applyServiceFilter(false);
 }
 
 function initArticleFilters() {
