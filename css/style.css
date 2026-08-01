@@ -1580,28 +1580,7 @@ a.service-card-link {
   outline-offset: 2px;
 }
 @media (max-width: 700px) {
-  /* Compact tiles on mobile so the results grid stays visible without scrolling. */
-  .service-filters {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    margin-bottom: var(--spacing-lg);
-  }
-  .service-filter-btn {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.7rem 0.7rem;
-    text-align: left;
-  }
-  .service-filter-btn .sf-ico {
-    width: 34px;
-    height: 34px;
-    border-radius: 10px;
-    flex: none;
-  }
-  .service-filter-btn .sf-ico svg { width: 18px; height: 18px; }
-  .service-filter-btn .sf-label { font-size: 0.8rem; line-height: 1.2; }
-  .service-filter-btn .sf-count { display: none; }
+  .service-filters { grid-template-columns: repeat(2, 1fr); }
 }
 /* entrance animation on category switch — gives a visible "changed" cue */
 .service-card.sf-enter {

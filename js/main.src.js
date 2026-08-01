@@ -3055,17 +3055,17 @@ function applyServiceFilter(animate) {
 function initServiceFilters() {
   const buttons = document.querySelectorAll('.service-filter-btn');
   if (!buttons.length) return;
-  const filters = document.querySelector('#services .service-filters');
+  const grid = document.querySelector('#services .services-grid');
   const header = document.querySelector('.header') || document.querySelector('header');
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       currentServiceFilter = btn.dataset.scatFilter;
       applyServiceFilter(true);
-      // On mobile, scroll so the (compact) filter bar pins just under the
-      // header and the results fill the view below it — clear tap feedback.
-      if (window.innerWidth <= 700 && filters) {
+      // On mobile the big tiles push the results below the fold, so scroll
+      // down to bring the results grid just under the header — clear tap feedback.
+      if (window.innerWidth <= 700 && grid) {
         const headerH = header ? header.offsetHeight : 64;
-        const y = Math.max(0, window.scrollY + filters.getBoundingClientRect().top - headerH - 12);
+        const y = Math.max(0, window.scrollY + grid.getBoundingClientRect().top - headerH - 12);
         if (Math.abs(y - window.scrollY) > 8) {
           const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
           window.scrollTo({ top: y, left: 0, behavior: behavior });
