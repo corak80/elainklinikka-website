@@ -3019,7 +3019,8 @@ function initPrintButtons() {
 }
 
 // ===== Services category tabs =====
-let currentServiceFilter = 'checkups';
+// null = nothing selected yet: no cards shown until a category is tapped.
+let currentServiceFilter = null;
 
 function applyServiceFilter(animate) {
   const cards = document.querySelectorAll('#services .service-card[data-scat]');
