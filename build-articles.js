@@ -223,7 +223,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'challenge.title', 'challenge.text'],
-    prefix: 'article.brushing'
+    prefix: 'article.brushing',
+    sources: [
+      { text: 'Niemiec B. ym. (2020): WSAVA Global Dental Guidelines. Journal of Small Animal Practice 61(7):E36–E161.', url: 'https://wsava.org/global-guidelines/dental-guidelines/', label: 'wsava.org' },
+      { text: 'American Veterinary Dental College (AVDC): Home dental care and owner resources.', url: 'https://avdc.org/animal-owner-resources/', label: 'avdc.org' },
+      { text: 'Veterinary Oral Health Council (VOHC): Accepted Products.', url: 'https://vohc.org/accepted-products/', label: 'vohc.org' },
+      { text: 'Harvey C.E. ym. (2015): Effect of frequency of brushing teeth on plaque and calculus accumulation and gingivitis in dogs. Journal of Veterinary Dentistry 32(1):16–21.', url: 'https://pubmed.ncbi.nlm.nih.gov/26197686/', label: 'pubmed.ncbi.nlm.nih.gov' }
+    ]
   },
   {
     slug: 'viljaton-ruoka',
@@ -509,7 +515,13 @@ const articles = [
     publishDate: '2026-03-01',
     sections: ['intro', 'challenge.title', 'challenge.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'why.title', 'why.text'],
     prefix: 'article.ibdlymphoma',
-    htmlSections: ['diagnosis.text', 'treatment.text']
+    htmlSections: ['diagnosis.text', 'treatment.text'],
+    sources: [
+      { text: 'Marsilio S. ym. (2023): ACVIM consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats. Journal of Veterinary Internal Medicine 37(3):794–816.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10229359/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Paulin M.V. ym. (2018): Feline low-grade alimentary lymphoma — an emerging entity and a potential animal model for human disease. BMC Veterinary Research 14:306.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6180644/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Pope K.V. ym. (2015): Outcome and toxicity assessment of feline small cell lymphoma — 56 cases. Veterinary Medicine and Science 1(2):51–62.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5645816/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Marsilio S. ym. (2019): Histopathology, immunohistochemistry and molecular clonality testing of small intestinal biopsy specimens from clinically healthy client-owned cats. Journal of Veterinary Internal Medicine 33(2):551–558.', url: 'https://doi.org/10.1111/jvim.15455', label: 'doi.org' }
+    ]
   },
   {
     slug: 'hypotermia',
