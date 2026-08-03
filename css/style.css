@@ -2617,9 +2617,21 @@ a.service-card-link {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
   gap: var(--spacing-2xl);
   margin-bottom: var(--spacing-2xl);
+}
+
+/* Quick Links: lay the long link list out in two columns so the footer
+   isn't a tall single stack. The heading spans both columns. */
+.footer-grid > .footer-col:nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--spacing-lg);
+  align-content: start;
+}
+.footer-grid > .footer-col:nth-child(2) .footer-heading {
+  grid-column: 1 / -1;
 }
 
 .footer-brand .logo {
@@ -2708,6 +2720,11 @@ a.service-card-link {
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  /* Tablet: Quick Links sits in a half-width cell — one column avoids cramping. */
+  .footer-grid > .footer-col:nth-child(2) {
+    grid-template-columns: 1fr;
   }
 
   .hero h1 {
@@ -2877,6 +2894,11 @@ a.service-card-link {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+  }
+
+  /* Mobile: Quick Links spans full width — two columns keeps it compact. */
+  .footer-grid > .footer-col:nth-child(2) {
+    grid-template-columns: 1fr 1fr;
   }
 
   .footer-bottom {
