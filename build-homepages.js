@@ -203,26 +203,8 @@ function rewriteArticleUrls(html, lang) {
   return html;
 }
 
-// VideoObject JSON-LD name/description per language (FI values live in index.html).
-const VIDEO_META = {
-  sv: {
-    name: 'Djurklinik Saari – klinikvideo',
-    description: 'En kort presentationsvideo av Djurklinik Saaris lokaler och vardag i Vasa.',
-  },
-  en: {
-    name: 'Saari Animal Clinic – clinic video',
-    description: "A short introduction video of Saari Animal Clinic's facilities and daily life in Vaasa.",
-  },
-};
-
-function rewriteVideoJsonLd(html, lang) {
-  const v = VIDEO_META[lang];
-  if (!v) return html;
-  return html.replace(
-    /("@type":\s*"VideoObject",\s*"name":\s*")[^"]+(",\s*"description":\s*")[^"]+(")/,
-    (m, p1, p2, p3) => p1 + v.name + p2 + v.description + p3
-  );
-}
+// (Removed) VideoObject JSON-LD per language: the hero clip is a decorative background video,
+// not watch-page content, so it carries no VideoObject schema in any language.
 
 // --- FAQPage JSON-LD (GEO/AEO phase 2) ---
 // Homepage FAQ Q/A pairs. Single source of truth = the translations table (js/main.src.js),
@@ -446,7 +428,6 @@ for (const lang of ['sv', 'en']) {
   html = applyDataI18nPlaceholder(html, lang);
   html = applyDataHrefs(html, lang);
   html = rewriteArticleUrls(html, lang);
-  html = rewriteVideoJsonLd(html, lang);
   html = rewriteNoticeBannerHref(html, lang);
   html = rewriteLangToggle(html, lang);
   html = rewriteHead(html, lang);

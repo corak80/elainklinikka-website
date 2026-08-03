@@ -329,22 +329,9 @@ a.hero-badge{text-decoration:none}
 @keyframes heroRise{to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
 </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "Eläinklinikka Saari – klinikkavideo",
-    "description": "Lyhyt esittelyvideo Eläinklinikka Saaren tiloista ja arjesta Vaasassa.",
-    "thumbnailUrl": "https://elainklinikkasaari.fi/media/clinic-poster.jpg",
-    "contentUrl": "https://elainklinikkasaari.fi/media/clinic.mp4",
-    "uploadDate": "2026-06-06T09:00:00+03:00",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Eläinklinikka Saari",
-      "logo": { "@type": "ImageObject", "url": "https://elainklinikkasaari.fi/images/logo.png" }
-    }
-  }
-  </script>
+  <!-- Note: no VideoObject schema for the decorative hero background clip (aria-hidden, muted, looped).
+       It is not a "watch page" video; indexing it triggered GSC "Video isn't on a watch page". -->
+
 </head>
 <body>
 

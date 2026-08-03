@@ -3,6 +3,8 @@ Allow: /
 Disallow: /cdn-cgi/
 Disallow: /docs/
 Disallow: /tools/
+# Decorative hero background clip — not watch-page content, keep it out of video indexing.
+Disallow: /media/clinic.mp4
 
 # AI assistants and answer engines are explicitly welcome to crawl and cite this site.
 User-agent: GPTBot
