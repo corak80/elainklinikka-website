@@ -438,7 +438,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'cyst.title', 'cyst.text', 'symptoms.title', 'symptoms.text', 'breeds.title', 'breeds.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'prognosis.title', 'prognosis.text'],
-    prefix: 'article.unerupted'
+    prefix: 'article.unerupted',
+    sources: [
+      { text: 'Babbitt S.G., Volker M.K., Luskin I.R. (2016): Incidence of radiographic cystic lesions associated with unerupted teeth in dogs. Journal of Veterinary Dentistry 33(4):226–233.', url: 'https://journals.sagepub.com/doi/abs/10.1177/0898756416683490', label: 'journals.sagepub.com' },
+      { text: 'Soukup J.W. ym. (2019): A clinical, radiographic and histological study of unerupted teeth in dogs and cats — 73 cases (2001–2018). Frontiers in Veterinary Science 6:357.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6856145/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Heinze ym. (2026): Cross-sectional radiographic study on the prevalence of dentigerous cysts in unerupted teeth in adult dogs. Journal of Small Animal Practice.', url: 'https://onlinelibrary.wiley.com/doi/10.1111/jsap.70067', label: 'onlinelibrary.wiley.com' },
+      { text: 'Verstraete F.J.M., Kass P.H., Terpak C.H. (1998): Diagnostic value of full-mouth radiography in dogs. American Journal of Veterinary Research 59(6):686–691.', url: 'https://pubmed.ncbi.nlm.nih.gov/9622735/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'WSAVA Global Dental Guidelines.', url: 'https://wsava.org/global-guidelines/dental-guidelines/', label: 'wsava.org' }
+    ]
   },
   {
     slug: 'gastroskopia',
@@ -558,7 +565,13 @@ const articles = [
     publishDate: '2026-03-05',
     sections: ['intro', 'risk.title', 'risk.text', 'monitoring.title', 'monitoring.text', 'balanced.title', 'balanced.text', 'vatinoxan.title', 'vatinoxan.text', 'preop.title', 'preop.text'],
     prefix: 'article.anesthesia',
-    htmlSections: ['risk.text']
+    htmlSections: ['risk.text'],
+    sources: [
+      { text: 'Grubb T. ym. (2020): 2020 AAHA Anesthesia and Monitoring Guidelines for Dogs and Cats. Journal of the American Animal Hospital Association 56(2):59–82.', url: 'https://pubmed.ncbi.nlm.nih.gov/32078360/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Brodbelt D.C. ym. (2008): The risk of death — the Confidential Enquiry into Perioperative Small Animal Fatalities (CEPSAF). Veterinary Anaesthesia and Analgesia 35(5):365–373.', url: 'https://pubmed.ncbi.nlm.nih.gov/18466167/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Brodbelt D.C. ym. (2007): Risk factors for anaesthetic-related death in cats — results from CEPSAF. British Journal of Anaesthesia 99(5):617–623.', url: 'https://pubmed.ncbi.nlm.nih.gov/17881744/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs — a worldwide analysis and risk assessment. Veterinary Record.', url: 'https://bvajournals.onlinelibrary.wiley.com/doi/10.1002/vetr.3604', label: 'bvajournals.onlinelibrary.wiley.com' }
+    ]
   },
   {
     slug: 'klinikkaeläinhoitaja',
