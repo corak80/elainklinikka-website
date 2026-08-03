@@ -115,6 +115,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/henkilokunta/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/personal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/staff/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/henkilokunta/"/>
   </url>
   <url>
@@ -124,6 +125,17 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/henkilokunta/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/personal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/staff/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/henkilokunta/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/staff/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/henkilokunta/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/personal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/staff/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/henkilokunta/"/>
   </url>
   <url>

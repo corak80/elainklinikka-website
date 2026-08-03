@@ -5069,9 +5069,10 @@ ${palvelutHreflang}  </url>
   </url>
 `;
 
-  // Staff pages (FI/SV, hreflang-linked; no standalone EN page)
+  // Staff pages (FI/SV/EN, hreflang-linked)
   const staffHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/henkilokunta/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/personal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/staff/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/henkilokunta/"/>
 `;
   xml += `  <url>
@@ -5083,6 +5084,13 @@ ${staffHreflang}  </url>
 `;
   xml += `  <url>
     <loc>${BASE_URL}/sv/personal/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+${staffHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/staff/</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

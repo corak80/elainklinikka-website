@@ -38,7 +38,6 @@ const SLUG_MAP = {
   "/sv/tjanster/hjartsjukdomar/": "/sv/tjanster/hjartundersokningar/",
   "/sv/tjanster/friskvard-och-rehabilitering/": "/sv/tjanster/rehabilitering/",
   "/sv/klinik/": "/sv/",
-  "/sv/personal/": "/sv/",
   "/sv/aktuellt/": "/sv/artiklar/",
   "/sv/wildlife-sv/": "/sv/",
   "/sv/framsida/": "/sv/",
