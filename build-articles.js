@@ -194,7 +194,12 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-20',
     sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
-    prefix: 'article.diarrhea'
+    prefix: 'article.diarrhea',
+    sources: [
+      { text: 'Jessen L.R. ym. (2024): ENOVAT guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal.', url: 'https://www.sciencedirect.com/science/article/pii/S1090023324001473', label: 'sciencedirect.com' },
+      { text: 'WSAVA Global Gastrointestinal Guidelines.', url: 'https://wsava.org/global-guidelines/gastrointestinal-guidelines/', label: 'wsava.org' },
+      { text: 'Merck Veterinary Manual: Feline Hepatic Lipidosis.', url: 'https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-hepatic-lipidosis', label: 'merckvetmanual.com' }
+    ]
   },
   {
     slug: 'avoin-valtimotiehyt-pda',
@@ -334,7 +339,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-10',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'danger.title', 'danger.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
-    prefix: 'article.pyometra'
+    prefix: 'article.pyometra',
+    sources: [
+      { text: 'Hagman R. (2018): Pyometra in Small Animals. Veterinary Clinics of North America: Small Animal Practice 48(4):639–661.', url: 'https://www.vetsmall.theclinics.com/article/S0195-5616(18)30026-3/fulltext', label: 'theclinics.com' },
+      { text: 'Jitpean S. ym. (2014): Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Veterinary Research 10:6.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3892096/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Merck Veterinary Manual: Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals.', url: 'https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/cystic-endometrial-hyperplasia-pyometra-complex-in-small-animals', label: 'merckvetmanual.com' },
+      { text: 'Cornell University Riney Canine Health Center: Pyometra.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/pyometra', label: 'vet.cornell.edu' }
+    ]
   },
   {
     slug: 'lateral-suture',
