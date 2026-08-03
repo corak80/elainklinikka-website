@@ -230,7 +230,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'fda.title', 'fda.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
-    prefix: 'article.grainfree'
+    prefix: 'article.grainfree',
+    sources: [
+      { text: 'U.S. Food and Drug Administration (FDA): Investigation into potential link between certain diets and canine dilated cardiomyopathy (DCM) — Questions &amp; Answers.', url: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs', label: 'fda.gov' },
+      { text: 'Axelsson E. ym. (2013): The genomic signature of dog domestication reveals adaptation to a starch-rich diet. Nature 495:360–364.', url: 'https://www.nature.com/articles/nature11837', label: 'nature.com' },
+      { text: 'Mueller R.S., Olivry T., Prélaud P. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://doi.org/10.1186/s12917-016-0633-8', label: 'doi.org' },
+      { text: 'de-Oliveira L.D. ym. (2008): Effects of six carbohydrate sources on cat diet digestibility and postprandial glucose and insulin response. Journal of Animal Science 86(9):2237–2246.', url: 'https://doi.org/10.2527/jas.2007-0354', label: 'doi.org' },
+      { text: 'WSAVA Global Nutrition Committee: Guidelines on Selecting Pet Foods.', url: 'https://wsava.org/global-guidelines/global-nutrition-guidelines/', label: 'wsava.org' }
+    ]
   },
   {
     slug: 'periovive',
@@ -812,6 +819,17 @@ function generateArticleBody(article, translations, specialContent, lang) {
       html += `\n          ${sc.ecologyTitle}\n`;
       html += `          ${sc.ecologyText}\n`;
     }
+  }
+
+  // Sources / references section (GEO/AEO: verifiable external citations)
+  if (article.sources && article.sources.length) {
+    const srcHeading = { fi: 'Lähteet', sv: 'Källor', en: 'Sources' }[lang] || 'Lähteet';
+    html += `\n          <h2 data-i18n="article.sources.heading">${srcHeading}</h2>\n`;
+    html += `          <ol class="article-sources">\n`;
+    for (const s of article.sources) {
+      html += `            <li>${s.text} <a href="${s.url}" target="_blank" rel="noopener nofollow">${s.label || s.url}</a></li>\n`;
+    }
+    html += `          </ol>\n`;
   }
 
   return html;
