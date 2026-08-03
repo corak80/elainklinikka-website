@@ -2722,9 +2722,10 @@ a.service-card-link {
     grid-template-columns: 1fr 1fr;
   }
 
-  /* Tablet: Quick Links sits in a half-width cell — one column avoids cramping. */
+  /* Tablet: Quick Links keeps two columns — the half-width cell still fits
+     both, and it balances the row height against the short brand text. */
   .footer-grid > .footer-col:nth-child(2) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .hero h1 {
