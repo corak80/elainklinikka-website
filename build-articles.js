@@ -3751,7 +3751,7 @@ function generatePrivacyPage() {
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
+ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/tietosuoja/', svUrl: BASE_URL + '/sv/', enUrl: BASE_URL + '/en/' })}
     </div>
   </header>
 
@@ -4622,7 +4622,7 @@ function generateAboutPage() {
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
+ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/meista/', svUrl: BASE_URL + '/sv/#about', enUrl: BASE_URL + '/en/#about' })}
     </div>
   </header>
 
@@ -4843,7 +4843,7 @@ function generateContactPage() {
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
-${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: getArticlesUrl('fi'), svUrl: getArticlesUrl('sv'), enUrl: getArticlesUrl('en') })}
+ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/yhteystiedot/', svUrl: BASE_URL + '/sv/#contact', enUrl: BASE_URL + '/en/#contact' })}
     </div>
   </header>
 
