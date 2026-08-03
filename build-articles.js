@@ -334,7 +334,12 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'firstaid.title', 'firstaid.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
-    prefix: 'article.snake'
+    prefix: 'article.snake',
+    sources: [
+      { text: 'Merck Veterinary Manual: Snakebites in Animals.', url: 'https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Brandeker E. ym. (2015): The effect of a single dose of prednisolone in dogs envenomated by Vipera berus — a randomized, double-blind, placebo-controlled clinical trial. BMC Veterinary Research 11:44.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4349773/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Sutton N.M. ym. (2010): Clinical and biochemical changes in 53 Swedish dogs bitten by the European adder (Vipera berus). Acta Veterinaria Scandinavica 52:26.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2873270/', label: 'ncbi.nlm.nih.gov' }
+    ]
   },
   {
     slug: 'kohtutulehdus',
@@ -485,7 +490,13 @@ const articles = [
     publishDate: '2026-07-28',
     sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'risk.title', 'risk.text', 'parasites.title', 'parasites.text', 'travel.title', 'travel.text', 'cta'],
     prefix: 'article.deworming',
-    htmlSections: ['dogs.text', 'cats.text', 'risk.text', 'parasites.text', 'travel.text']
+    htmlSections: ['dogs.text', 'cats.text', 'risk.text', 'parasites.text', 'travel.text'],
+    sources: [
+      { text: 'ESCCAP: Guideline 01 — Worm Control in Dogs and Cats (European Scientific Counsel Companion Animal Parasites).', url: 'https://www.esccap.org/guidelines/gl1/', label: 'esccap.org' },
+      { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
+      { text: 'CAPC (Companion Animal Parasite Council): Ascarid (roundworm) guidelines.', url: 'https://capcvet.org/guidelines/ascarid/', label: 'capcvet.org' }
+    ]
   },
   {
     slug: 'ibd-lymfooma',
