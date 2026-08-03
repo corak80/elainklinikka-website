@@ -224,6 +224,51 @@ function rewriteVideoJsonLd(html, lang) {
   );
 }
 
+// --- FAQPage JSON-LD (GEO/AEO phase 2) ---
+// Homepage FAQ Q/A pairs. Single source of truth = the translations table (js/main.src.js),
+// which also drives the visible FAQ text via data-i18n. Regenerated per language so the
+// FAQPage schema always matches the visible copy (incl. FI, rewritten in place before write).
+const FAQ_HOME_KEYS = [
+  ['faq.home.q1', 'faq.home.a1'],
+  ['faq.home.q2', 'faq.home.a2'],
+  ['faq.home.q3', 'faq.home.a3'],
+  ['faq.home.q4', 'faq.home.a4'],
+  ['faq.home.q5', 'faq.home.a5'],
+  ['faq.home.q6', 'faq.home.a6'],
+];
+
+function jsonLdString(s) {
+  // Escape for embedding inside a JSON string literal.
+  return s.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+function buildFaqJsonLd(lang) {
+  const items = FAQ_HOME_KEYS.map(([qk, ak]) => {
+    const q = translations[qk] && translations[qk][lang];
+    const a = translations[ak] && translations[ak][lang];
+    if (!q || !a) throw new Error(`Missing FAQ translation for ${qk}/${ak} (${lang})`);
+    return `      { "@type": "Question", "name": "${jsonLdString(q)}", "acceptedAnswer": { "@type": "Answer", "text": "${jsonLdString(a)}" } }`;
+  }).join(',\n');
+  return `  <!-- FAQ-SCHEMA-START -->
+  <script type="application/ld+json" id="faq-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+${items}
+    ]
+  }
+  </script>
+  <!-- FAQ-SCHEMA-END -->`;
+}
+
+function rewriteFaqJsonLd(html, lang) {
+  return html.replace(
+    /  <!-- FAQ-SCHEMA-START -->[\s\S]*?  <!-- FAQ-SCHEMA-END -->/,
+    () => buildFaqJsonLd(lang)
+  );
+}
+
 // Notice-banner link → localized vaccination page (the <a> has no data-href-* attrs).
 const NOTICE_HREF = { sv: '/sv/tjanster/vaccinationer/', en: '/en/services/vaccinations/' };
 
@@ -387,8 +432,9 @@ const fiHtml = fs.readFileSync(FI_HOME, 'utf8');
 // Apply worksFor to FI homepage too (for H2 enrichment) — write back
 let fiRewritten = fiHtml;
 fiRewritten = rewriteJsonLd(fiRewritten, 'fi');
+fiRewritten = rewriteFaqJsonLd(fiRewritten, 'fi');
 fs.writeFileSync(FI_HOME, fiRewritten, 'utf8');
-console.log('FI homepage: added worksFor to Person entries');
+console.log('FI homepage: added worksFor to Person entries + FAQ schema');
 
 for (const lang of ['sv', 'en']) {
   let html = fiRewritten;
@@ -401,6 +447,7 @@ for (const lang of ['sv', 'en']) {
   html = rewriteLangToggle(html, lang);
   html = rewriteHead(html, lang);
   html = rewriteJsonLd(html, lang);
+  html = rewriteFaqJsonLd(html, lang);
 
   const outPath = path.join(ROOT, lang, 'index.html');
   fs.writeFileSync(outPath, html, 'utf8');

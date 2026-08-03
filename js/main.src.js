@@ -2495,6 +2495,69 @@ const translations = {
     en: 'Our head veterinary nurse Jenni Ruotsala has worked at our clinic since 2014. She holds all three levels of Finnish veterinary nurse qualifications: basic qualification (2010), vocational qualification (2018), and advanced vocational qualification with anesthesia focus (2025) — the highest professional qualification available in Finland. Additionally, Jenni has completed dental training in Sweden at Accesia Academy.'
   },
 
+  // --- FAQ (GEO/AEO phase 2) — homepage FAQ; drives both visible text and FAQPage JSON-LD ---
+  'faq.title': { fi: 'Usein kysytyt kysymykset', sv: 'Vanliga frågor', en: 'Frequently asked questions' },
+  'faq.home.q1': {
+    fi: 'Missä Eläinklinikka Saari sijaitsee?',
+    sv: 'Var ligger Djurklinik Saari?',
+    en: 'Where is Eläinklinikka Saari located?'
+  },
+  'faq.home.a1': {
+    fi: 'Sijaitsemme osoitteessa Gerbyntie 18, 65230 Vaasa, Gerbyn kaupunginosassa. Meille on hyvät kulkuyhteydet myös lähikunnista.',
+    sv: 'Djurklinik Saari ligger på Gerbyvägen 18, 65230 Vasa, i stadsdelen Gerby. Det är lätt att nå oss även från grannkommunerna.',
+    en: 'We are at Gerbyntie 18, 65230 Vaasa, in the Gerby district. We are easy to reach from the surrounding municipalities too.'
+  },
+  'faq.home.q2': {
+    fi: 'Mitkä ovat Eläinklinikka Saaren aukioloajat?',
+    sv: 'Vilka öppettider har Djurklinik Saari?',
+    en: "What are Eläinklinikka Saari's opening hours?"
+  },
+  'faq.home.a2': {
+    fi: 'Klinikka on avoinna maanantaista perjantaihin klo 7:45–17. Viikonloppuisin klinikka on suljettu. Varaamme päivittäin akuuttiaikoja kiireellisiä tapauksia varten.',
+    sv: 'Kliniken är öppen måndag–fredag kl. 7:45–17 och stängd på veckoslut. Vi reserverar dagligen akuttider för brådskande fall.',
+    en: 'The clinic is open Monday to Friday 7:45–17 and closed at weekends. We reserve acute slots every day for urgent cases.'
+  },
+  'faq.home.q3': {
+    fi: 'Onko teillä päivystystä iltaisin ja viikonloppuisin?',
+    sv: 'Har ni jour på kvällar och veckoslut?',
+    en: 'Do you have emergency service in the evenings and at weekends?'
+  },
+  'faq.home.a3': {
+    fi: 'Iltaisin ja viikonloppuisin ota yhteyttä Pohjoisen päivystysalueen numeroon 0600 399 299. Arkisin klo 7:45–17 meillä on päivittäin akuuttiaikoja.',
+    sv: 'På kvällar och veckoslut ringer du Norra jourområdet på 0600 399 299. Vardagar kl. 7:45–17 har vi dagligen akuttider.',
+    en: 'In the evenings and at weekends, call the Northern emergency-area number 0600 399 299. On weekdays 7:45–17 we have acute slots available daily.'
+  },
+  'faq.home.q4': {
+    fi: 'Mitä eläimiä hoidatte?',
+    sv: 'Vilka djur behandlar ni?',
+    en: 'Which animals do you treat?'
+  },
+  'faq.home.a4': {
+    fi: 'Hoidamme koiria, kissoja sekä muita pieneläimiä, kuten kaneja ja jyrsijöitä. Olemme virallisesti Cat Friendly -sertifioitu klinikka.',
+    sv: 'Vi behandlar hundar, katter och smådjur som kaniner och gnagare. Vi är en officiellt Cat Friendly-certifierad klinik.',
+    en: 'We treat dogs, cats and other small pets such as rabbits and rodents. We are an officially Cat Friendly certified clinic.'
+  },
+  'faq.home.q5': {
+    fi: 'Miten varaan ajan eläinlääkärille?',
+    sv: 'Hur bokar jag tid hos veterinären?',
+    en: 'How do I book an appointment with the vet?'
+  },
+  'faq.home.a5': {
+    fi: 'Voit varata ajan verkossa tai soittamalla numeroon 06 321 7300. Lähetettä ei tarvita.',
+    sv: 'Du kan boka tid via vår webbtidsbokning eller genom att ringa oss på 06 321 7300. Ingen remiss behövs.',
+    en: 'You can book online or by calling 06 321 7300. No referral is needed.'
+  },
+  'faq.home.q6': {
+    fi: 'Millä kielillä palvelette?',
+    sv: 'På vilka språk betjänar ni?',
+    en: 'What languages do you serve in?'
+  },
+  'faq.home.a6': {
+    fi: 'Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.',
+    sv: 'Vi betjänar på finska, svenska och engelska.',
+    en: 'We serve in Finnish, Swedish and English.'
+  }
+
 };
 
 // --- Service icons mapping ---
