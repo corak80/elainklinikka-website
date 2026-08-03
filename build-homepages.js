@@ -431,10 +431,14 @@ const fiHtml = fs.readFileSync(FI_HOME, 'utf8');
 
 // Apply worksFor to FI homepage too (for H2 enrichment) — write back
 let fiRewritten = fiHtml;
+// Re-sync FI inline text from the translations table so embedded article copies
+// on the homepage stay consistent with the source articles (otherwise they drift
+// stale when an article's translation is edited).
+fiRewritten = applyDataI18n(fiRewritten, 'fi');
 fiRewritten = rewriteJsonLd(fiRewritten, 'fi');
 fiRewritten = rewriteFaqJsonLd(fiRewritten, 'fi');
 fs.writeFileSync(FI_HOME, fiRewritten, 'utf8');
-console.log('FI homepage: added worksFor to Person entries + FAQ schema');
+console.log('FI homepage: re-synced FI data-i18n + worksFor + FAQ schema');
 
 for (const lang of ['sv', 'en']) {
   let html = fiRewritten;

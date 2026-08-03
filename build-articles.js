@@ -278,7 +278,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
-    prefix: 'article.food'
+    prefix: 'article.food',
+    sources: [
+      { text: 'Mueller R.S., Olivry T., Prélaud P. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4710035/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S., Prélaud P. (2015): Critically appraised topic on adverse food reactions (1): duration of elimination diets. BMC Veterinary Research 11:225.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4551374/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2017): Critically appraised topic (4): can we diagnose adverse food reactions in dogs and cats with in vivo or in vitro tests? BMC Veterinary Research 13:275.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5577833/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2018): Critically appraised topic (5): discrepancies between ingredients and labeling in commercial pet foods. BMC Veterinary Research 14:24.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5778722/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2020): Critically appraised topic (9): time to flare of cutaneous signs after a dietary challenge. BMC Veterinary Research 16:158.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7247231/', label: 'ncbi.nlm.nih.gov' }
+    ]
   },
   {
     slug: 'kilpirauhasen-liikatoiminta',
@@ -438,7 +445,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-25',
     sections: ['intro', 'types.title', 'types.text', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'after.title', 'after.text'],
-    prefix: 'article.resorption'
+    prefix: 'article.resorption',
+    sources: [
+      { text: 'American Veterinary Dental College (AVDC): Tooth Resorption — nomenclature, stages and types.', url: 'https://avdc.org/avdc-nomenclature/', label: 'avdc.org' },
+      { text: 'Whyte A. ym. (2024): A large case-control study indicates a breed-specific predisposition to feline tooth resorption. Journal of Veterinary Dentistry.', url: 'https://pubmed.ncbi.nlm.nih.gov/38740176/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Peralta S. ym. (2010): Radiographic evaluation of the types of tooth resorption in dogs. American Journal of Veterinary Research 71(7):784–793.', url: 'https://pubmed.ncbi.nlm.nih.gov/20594081/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Cornell Feline Health Center: Tooth Resorption.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/tooth-resorption', label: 'vet.cornell.edu' },
+      { text: 'Merck Veterinary Manual: Tooth Resorption in Small Animals.', url: 'https://www.msdvetmanual.com/digestive-system/dentistry-in-small-animals/tooth-resorption-in-small-animals', label: 'msdvetmanual.com' }
+    ]
   },
   {
     slug: 'rokotukset',
