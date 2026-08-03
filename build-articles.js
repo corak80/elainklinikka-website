@@ -285,7 +285,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text'],
-    prefix: 'article.hyperthyroid'
+    prefix: 'article.hyperthyroid',
+    sources: [
+      { text: 'Carney H.C. ym. (2016): 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. Journal of Feline Medicine and Surgery 18(5):400–416.', url: 'https://doi.org/10.1177/1098612X16643252', label: 'doi.org' },
+      { text: 'Peterson M.E. (2012): Hyperthyroidism in cats. Journal of Feline Medicine and Surgery 14(11):804–818.', url: 'https://doi.org/10.1177/1098612X12464462', label: 'doi.org' },
+      { text: 'Cornell Feline Health Center: Hyperthyroidism in Cats.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats', label: 'vet.cornell.edu' },
+      { text: 'International Cat Care: Hyperthyroidism in cats.', url: 'https://icatcare.org/articles/hyperthyroidism-in-cats', label: 'icatcare.org' }
+    ]
   },
   {
     slug: 'munuaisten-vajaatoiminta',
@@ -297,7 +303,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'stages.title', 'stages.text', 'symptoms.title', 'symptoms.text', 'treatment.title', 'treatment.text'],
-    prefix: 'article.kidney'
+    prefix: 'article.kidney',
+    sources: [
+      { text: 'International Renal Interest Society (IRIS): IRIS Staging of CKD and treatment recommendations.', url: 'https://www.iris-kidney.com/iris-guidelines-1', label: 'iris-kidney.com' },
+      { text: 'Sparkes A.H. ym. (2016): ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease. Journal of Feline Medicine and Surgery 18(3):219–239.', url: 'https://doi.org/10.1177/1098612X16631234', label: 'doi.org' },
+      { text: 'IDEXX: SDMA and IRIS — early detection and staging of chronic kidney disease.', url: 'https://www.idexx.com/en/veterinary/reference-laboratories/sdma/sdma-iris/', label: 'idexx.com' },
+      { text: 'Elliott J. ym. (2000): Survival of cats with naturally occurring chronic renal failure — effect of dietary management. Journal of Small Animal Practice 41(6):235–242.', url: 'https://doi.org/10.1111/j.1748-5827.2000.tb03932.x', label: 'doi.org' },
+      { text: 'Ross S.J. ym. (2006): Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats. Journal of the American Veterinary Medical Association 229(6):949–957.', url: 'https://avmajournals.avma.org/view/journals/javma/229/6/javma.229.6.949.xml', label: 'avma.org' }
+    ]
   },
   {
     slug: 'kyynpurema',
@@ -427,7 +440,14 @@ const articles = [
     publishDate: '2026-03-01',
     sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'schedule.title', 'schedule.text', 'rabies.title', 'rabies.text', 'travel.title', 'travel.text'],
     prefix: 'article.vaccination',
-    htmlSections: ['dogs.text', 'cats.text', 'schedule.text', 'travel.text']
+    htmlSections: ['dogs.text', 'cats.text', 'schedule.text', 'travel.text'],
+    sources: [
+      { text: 'Squires R.A. ym. (2024): WSAVA guidelines for the vaccination of dogs and cats. Journal of Small Animal Practice 65(5):277–316.', url: 'https://wsava.org/global-guidelines/vaccination-guidelines/', label: 'wsava.org' },
+      { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen (mikrosiru, rabiesrokotus, 21 vrk, lemmikkipassi).', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä (1–5 vrk, vain koirat).', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Koirien maahantuontiin liittyvät riskit (rabiesrokotus metsästys- ja palveluskoirille).', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/lemmikkielaimet/koirat/koirien-maahantuontiin-liittyvat-riskit/', label: 'ruokavirasto.fi' },
+      { text: 'European Commission: EU rules on travelling with pets (EU pet passport, Regulation 576/2013).', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' }
+    ]
   },
   {
     slug: 'koiran-ja-kissan-madotus',
