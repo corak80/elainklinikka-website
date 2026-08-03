@@ -211,7 +211,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-20',
     sections: ['intro', 'what.title', 'what.text', 'breeds.title', 'breeds.text', 'signs.title', 'signs.text', 'treatment.title', 'treatment.text', 'clinic.title', 'clinic.text', 'prognosis.title', 'prognosis.text', 'message.title', 'message.text'],
-    prefix: 'article.pda'
+    prefix: 'article.pda',
+    sources: [
+      { text: 'Merck Veterinary Manual: Cardiac Shunts in Animals (congenital anomalies of the cardiovascular system).', url: 'https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system/cardiac-shunts-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Eyster G.E. ym. (1976): Patent ductus arteriosus in the dog — characteristics of occurrence and results of surgery in 100 consecutive cases. Journal of the American Veterinary Medical Association 168(5):435–438.', url: 'https://pubmed.ncbi.nlm.nih.gov/1254517/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Singh M.K. ym. (2012): Occlusion devices and approaches in canine patent ductus arteriosus — comparison of outcomes. Journal of Veterinary Internal Medicine 26(1):85–92.', url: 'https://onlinelibrary.wiley.com/doi/10.1111/j.1939-1676.2011.00859.x', label: 'onlinelibrary.wiley.com' },
+      { text: 'VCA Animal Hospitals: Patent Ductus Arteriosus in Dogs.', url: 'https://vcahospitals.com/know-your-pet/patent-ductus-arteriosus-in-dogs', label: 'vcahospitals.com' }
+    ]
   },
   {
     slug: 'hampaiden-harjaus',
@@ -533,7 +539,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-03-05',
     sections: ['intro', 'risks.title', 'risks.text', 'warming.title', 'warming.text', 'recovery.title', 'recovery.text', 'safety.title', 'safety.text'],
-    prefix: 'article.hypothermia'
+    prefix: 'article.hypothermia',
+    sources: [
+      { text: 'Today\'s Veterinary Practice: Hypothermia in the Veterinary Operating Room.', url: 'https://todaysveterinarypractice.com/anesthesiology/hypothermia-in-the-veterinary-operating-room/', label: 'todaysveterinarypractice.com' },
+      { text: 'Grubb T. ym. (2020): 2020 AAHA Anesthesia and Monitoring Guidelines for Dogs and Cats. Journal of the American Animal Hospital Association 56(2):59–82.', url: 'https://pubmed.ncbi.nlm.nih.gov/32078360/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Kurz A., Sessler D.I., Lenhardt R. (1996): Perioperative normothermia to reduce the incidence of surgical-wound infection. New England Journal of Medicine 334(19):1209–1215.', url: 'https://pubmed.ncbi.nlm.nih.gov/8786768/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Merck Veterinary Manual: Normal Rectal Temperature Ranges.', url: 'https://www.msdvetmanual.com/multimedia/table/normal-rectal-temperature-ranges', label: 'msdvetmanual.com' }
+    ]
   },
   {
     slug: 'anestesiaturvallisuus',
