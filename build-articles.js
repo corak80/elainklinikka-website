@@ -394,6 +394,14 @@ const articles = [
     publishDate: '2026-02-15',
     sections: ['intro', 'decline.title', 'decline.text', 'finland.title', 'finland.text', 'threats.title', 'threats.text', 'robots.title', 'robots.text', 'help.title', 'help.text', 'nest.title', 'nest.text'],
     prefix: 'article.hedgehog',
+    sources: [
+      { text: 'IUCN Red List (2024): Erinaceus europaeus (European hedgehog) — assessed as Near Threatened.', url: 'https://www.iucnredlist.org/species/29650/219171469', label: 'iucnredlist.org' },
+      { text: 'Rasmussen S.L. ym. (2024): Testing the impact of robotic lawn mowers on European hedgehogs. Animals 14(1):122.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10777904/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'Wembridge D. ym. (2022): The State of Britain\'s Hedgehogs 2022 (British Hedgehog Preservation Society & PTES).', url: 'https://www.hedgehogstreet.org/wp-content/uploads/2022/02/SoBH-2022-Final.pdf', label: 'hedgehogstreet.org' },
+      { text: 'Elmeros M. ym. (2024): Pesticides in the population of European hedgehogs (Erinaceus europaeus) in Denmark. Science of the Total Environment.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11341479/', label: 'ncbi.nlm.nih.gov' },
+      { text: 'British Hedgehog Preservation Society: hedgehog basics, feeding and hibernation-weight guidance.', url: 'https://www.britishhedgehogs.org.uk/the-basic-facts-2/', label: 'britishhedgehogs.org.uk' },
+      { text: 'Schaus J. ym. (2020): Impacts and potential mitigation of road mortality for hedgehogs in Europe. Animals 10(9):1523.', url: 'https://www.mdpi.com/2076-2615/10/9/1523', label: 'mdpi.com' }
+    ],
     hasSpecialContent: true,
     skipBuild: true
   },
