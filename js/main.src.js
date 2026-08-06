@@ -1616,6 +1616,69 @@ const translations = {
     en: 'Keep your dog on a leash in areas where adders are found (rocky areas, open terrain, forest edges). Adders are most active on warm mornings and afternoons. Check the terrain before letting your dog off the leash. Every adder bite is individual — even a previously bitten dog needs immediate veterinary care.'
   },
 
+  // Article: Poisoning (myrkytys) — native-panel final
+  'article.poison.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
+  "article.poison.title": {
+    fi: "Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti",
+    sv: "Förgiftning hos hund och katt — symtom, första hjälpen och när du bör agera genast",
+    en: "Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away"
+  },
+  "article.poison.intro": {
+    fi: "Myrkytykset ovat eläinlääkäripäivystyksen tavallisimpia syitä. Useimmiten koira tai kissa saa myrkytyksen syömällä jotain, joka on ihmiselle harmitonta mutta lemmikille myrkyllistä – vaikkapa suklaata, ksylitolia, viinirypäleitä tai ihmisen lääkkeitä. Oireiden voimakkuus riippuu aineesta, määrästä ja eläimen koosta. Myrkytysepäily kannattaa aina viedä heti eläinlääkärin arvioitavaksi, vaikka lemmikki vaikuttaisi vielä täysin terveeltä – monessa myrkytyksessä hoito tehoaa parhaiten jo ennen oireiden alkua.",
+    sv: "Förgiftningar hör till de vanligaste orsakerna till akuta veterinärbesök. Oftast förgiftas hunden eller katten av något som är ofarligt för oss människor men giftigt för djur — choklad, xylitol, vindruvor eller våra egna mediciner. Hur allvarligt det blir beror på ämnet, mängden och djurets storlek. Misstänker du förgiftning ska du genast ringa veterinär, också om djuret ännu verkar må bra — vid många förgiftningar biter behandlingen bäst innan symtomen hunnit bryta ut.",
+    en: "Poisoning is one of the most common reasons pets are rushed in as an emergency. More often than not, a dog or cat is poisoned by eating something that is perfectly harmless to us but toxic to them, such as chocolate, xylitol, grapes or human medicines. How ill the animal becomes depends on the substance, the amount swallowed and the animal's size. A suspected poisoning is always worth an immediate call to your vet, even if your pet still seems perfectly well, because for many poisons treatment works best before any signs appear."
+  },
+  "article.poison.common.title": {
+    fi: "Yleisimmät myrkyt",
+    sv: "Vanligaste gifterna",
+    en: "Common poisons"
+  },
+  "article.poison.common.text": {
+    fi: "Tavallisimpia lemmikeille vaarallisia aineita ovat suklaa ja kaakao (teobromiini) sekä ksylitoli, jota on purukumeissa ja leivonnaisissa. Ksylitoli on koiralle erittäin vaarallista: se romahduttaa verensokerin ja voi vaurioittaa maksaa. Vaarallisia ovat myös viinirypäleet ja rusinat (munuaisvaurio koiralla), sipuli ja valkosipuli (punasoluvaurio), jyrsijämyrkyt (sisäiset verenvuodot) sekä pakkasneste eli etyleeniglykoli, joka maistuu makealta ja on kissalle hengenvaarallista jo pieninä määrinä. Myös ihmisen kipulääkkeet ovat riski – ibuprofeeni ja parasetamoli, joista parasetamoli voi tappaa kissan jo yhdestä tabletista. Kissoille erityisen kohtalokkaita ovat liljat: jo siitepöly tai pieni pala lehteä voi aiheuttaa tappavan munuaisvaurion.",
+    sv: "De ämnen som oftast ställer till skada är choklad och kakao (teobromin) samt xylitol, ett sötningsmedel i tuggummi och bakverk som är mycket farligt för hundar och ger blodsockerfall och leverskada. Också vindruvor och russin (njurskada hos hund), lök och vitlök (skadar de röda blodkropparna) och råttgift (ger inre blödningar) är farliga. Kylarvätska, alltså etylenglykol, smakar sött och är livshotande för katter redan i små mängder. Av de smärtstillande medlen för människor är både ibuprofen och paracetamol farliga — för en katt kan en enda paracetamoltablett vara dödlig. Särskilt lömska för katter är liljorna: redan pollen eller en liten bit av ett blad kan orsaka en dödlig njurskada.",
+    en: "The substances that most often cause trouble are chocolate and cocoa (theobromine); xylitol, the sweetener in chewing gum and baked goods, which is very dangerous to dogs and causes a sudden drop in blood sugar along with liver damage; grapes and raisins, which can damage the kidneys in dogs; and onion and garlic, which harm the red blood cells. Rodenticides cause internal bleeding, and antifreeze (ethylene glycol) is sweet-tasting and life-threatening to cats in even tiny amounts. Human painkillers are another common culprit: ibuprofen is hazardous, and paracetamol can kill a cat with a single tablet. Lilies are especially dangerous to cats, as even the pollen or a small piece of leaf can cause fatal kidney damage."
+  },
+  "article.poison.symptoms.title": {
+    fi: "Oireet",
+    sv: "Symtom",
+    en: "Symptoms"
+  },
+  "article.poison.symptoms.text": {
+    fi: "Oireet riippuvat aineesta. Yleisimpiä ovat oksentelu, ripuli, kuolaaminen, vatsakipu, ruokahaluttomuus ja väsymys. Hermosto-oireita voivat olla vapina, kouristukset, tasapainovaikeudet, levottomuus tai lamaantuminen. Vakavassa myrkytyksessä hengitys voi tihentyä, syke kiihtyä ja limakalvot vaaleta tai kellastua, ja oksennuksessa tai ulosteessa voi näkyä verta – pahimmillaan eläin menettää tajuntansa. Kaikki myrkyt eivät oireile heti: jyrsijämyrkyn aiheuttama verenvuoto voi alkaa vasta päivien kuluttua, ja pakkasneste voi ensin aiheuttaa humalaisen, horjuvan olon, jonka jälkeen eläin näyttää toipuvan ennen vakavaa munuaisvauriota. Siksi epäilyyn on syytä reagoida heti, ei vasta oireiden ilmaannuttua.",
+    sv: "Symtomen växlar beroende på ämnet. Vanligast är kräkningar, diarré, dregling, buksmärta, aptitlöshet och slöhet. Nervsymtom kan visa sig som darrningar, kramper, balanssvårigheter, oro eller förlamning. Vid en svår förgiftning kan djuret få snabb andning, hjärtklappning, bleka eller gulaktiga slemhinnor, blod i kräkningar eller avföring, och till slut bli medvetslöst. Alla gifter ger sig inte till känna med en gång: en blödning av råttgift kan visa sig först efter flera dygn, och kylarvätska kan först göra djuret berusat och ostadigt, varefter det tycks kvickna till innan en allvarlig njurskada utvecklas. Just därför ska man reagera redan på misstanken, inte vänta tills symtomen syns.",
+    en: "The signs vary from one poison to the next. The most common are vomiting, diarrhoea, drooling, tummy pain, loss of appetite and lethargy. Neurological signs may include tremors, seizures, loss of balance, restlessness or collapse. In severe cases you may see rapid breathing, a racing heart, pale or yellowish gums, blood in the vomit or stools, and loss of consciousness. Not every poison shows itself straight away: bleeding from rodenticides may only start after several days, and antifreeze can first cause a drunken, unsteady state within hours, then seem to improve before serious kidney damage sets in. That is exactly why you should act on suspicion at once, rather than waiting for symptoms."
+  },
+  "article.poison.firstaid.title": {
+    fi: "Ensiapu",
+    sv: "Första hjälpen",
+    en: "First aid"
+  },
+  "article.poison.firstaid.text": {
+    fi: "Ota heti yhteyttä eläinlääkäriin ja kerro, mitä ainetta lemmikki on saanut, kuinka paljon ja milloin. Ota myrkyn pakkaus tai valokuva siitä mukaan klinikalle. Älä oksennuta eläintä omin päin äläkä turvaudu kotikonsteihin, kuten maitoon, suolaan tai öljyyn – väärin ajoitettu oksennus voi pahentaa tilannetta, ja syövyttävät tai öljypohjaiset aineet vahingoittavat lisää noustessaan takaisin ylös. Jos myrkkyä on iholla tai turkissa, huuhtele se pois runsaalla haalealla vedellä. Pidä eläin lämpimänä ja rauhallisena matkan ajan. Eläinlääkäri arvioi, onko oksennuttaminen turvallista – se auttaa vain ensimmäisten tuntien aikana.",
+    sv: "Ring veterinären genast och berätta vad djuret fått i sig, hur mycket och när. Ta med förpackningen eller ett foto av giftet till kliniken. Framkalla inte kräkning på egen hand och ge inga huskurer som mjölk, salt eller olja — kräkning vid fel tidpunkt kan förvärra läget, och frätande eller oljiga ämnen skadar en gång till på vägen upp. Har djuret fått gift på huden eller i pälsen, skölj rikligt med ljummet vatten. Håll djuret varmt och lugnt under färden. Det är veterinären som avgör om det är tryggt att framkalla kräkning — det hjälper bara under de första timmarna.",
+    en: "Ring your vet straight away and tell them what your pet has swallowed, how much and when. Bring the packaging, or a photo of it, to the clinic. Do not try to make your pet sick yourself, and do not give home remedies such as milk, salt or oil; badly timed vomiting can do more harm than good, and corrosive or oily substances cause further damage on the way back up. If there is poison on the skin or coat, rinse it off with plenty of lukewarm water. Keep your pet warm and calm on the journey in. Your vet will decide whether making your pet sick is safe, as it only helps within the first few hours."
+  },
+  "article.poison.treatment.title": {
+    fi: "Eläinlääkärin hoito",
+    sv: "Veterinärbehandling",
+    en: "Veterinary treatment"
+  },
+  "article.poison.treatment.text": {
+    fi: "Hoito riippuu myrkystä ja siitä, kuinka kauan altistuksesta on kulunut. Varhaisessa vaiheessa eläinlääkäri voi aiheuttaa hallitun oksennuksen ja antaa lääkehiiltä, joka sitoo myrkkyä suolistossa. Tukihoitoon kuuluvat suonensisäinen nestehoito, pahoinvointi- ja kouristuslääkitys sekä elintoimintojen tarkka seuranta. Osalle myrkyistä on vasta-aine: pakkasnestemyrkytykseen fomepitsoli ja jyrsijämyrkkyyn K-vitamiini. Vaikeissa tapauksissa eläin tarvitsee sairaalahoitoa sekä munuaisten ja maksan toiminnan seurantaa verikokein. Mitä nopeammin hoito päästään aloittamaan, sitä parempi ennuste on.",
+    sv: "Behandlingen rättar sig efter giftet och efter hur lång tid som gått sedan djuret fick i sig det. I ett tidigt skede kan veterinären framkalla en kontrollerad kräkning och ge medicinskt kol, som binder giftet i tarmen. Den understödjande vården omfattar dropp, medel mot illamående och kramper samt övervakning av de livsviktiga funktionerna. Mot vissa gifter finns motgift: fomepizol vid kylarvätska och K-vitamin vid råttgift. I svåra fall behöver djuret vårdas på kliniken och njur- och leverfunktionen följas med blodprov. Ju snabbare behandlingen kommer i gång, desto bättre är prognosen.",
+    en: "Treatment depends on the poison and how long ago it was swallowed. Early on, your vet may bring on controlled vomiting and give activated charcoal to bind the poison in the gut. Supportive care includes intravenous fluids, anti-sickness and anti-seizure medication, and close monitoring of the vital signs. A few poisons have a specific antidote: fomepizole for antifreeze and vitamin K for rodenticides. Severe cases need admission to hospital, along with blood tests to keep an eye on kidney and liver function. The sooner treatment starts, the better the outlook."
+  },
+  "article.poison.prevention.title": {
+    fi: "Ehkäisy",
+    sv: "Förebyggande",
+    en: "Prevention"
+  },
+  "article.poison.prevention.text": {
+    fi: "Säilytä lääkkeet, makeiset, ksylitolituotteet, siivousaineet ja pakkasneste eläinten ulottumattomissa. Älä anna lemmikille ihmisen ruokaa tai lääkkeitä kysymättä ensin eläinlääkäriltä. Pidä koira kytkettynä siellä, missä voi olla jyrsijämyrkkyä tai roskia. Älä pidä liljoja kodissa, jossa asuu kissa, ja tarkista myös muiden huonekasviesi myrkyllisyys. Tallenna Eläinklinikka Saaren numero (06) 321 7300 ja alueen päivystysnumero 0600 399 299 puhelimeesi jo etukäteen, niin apu löytyy nopeasti hätätilanteessa.",
+    sv: "Förvara läkemedel, godis, xylitolprodukter, rengöringsmedel och kylarvätska utom räckhåll för djuren. Ge inte husdjuret människomat eller mediciner utan att först höra med veterinären. Håll hunden kopplad där det kan finnas råttgift eller skräp. Ha inga liljor hemma om du har katt, och ta reda på om dina krukväxter är giftiga. Spara Djurklinik Saaris nummer (06) 321 7300 och områdets journummer 0600 399 299 i telefonen på förhand, så finns hjälpen snabbt till hands om olyckan är framme.",
+    en: "Keep medicines, sweets, xylitol products, cleaning agents and antifreeze well out of your pet's reach. Never give human food or medicine without checking with your vet first. Keep your dog on the lead anywhere rodenticide or rubbish might be lying about. Do not keep lilies in a home with a cat, and check whether your houseplants are toxic. Save Saari Animal Clinic's number, (06) 321 7300, and the regional out-of-hours emergency number, 0600 399 299, in your phone now, so that help is close at hand should the worst happen."
+  },
+
   // Article 14: Pyometra
   'article.pyometra.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   'article.pyometra.title': {
