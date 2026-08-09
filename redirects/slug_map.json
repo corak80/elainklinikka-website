@@ -58,8 +58,7 @@
     "/en/news/": "/en/articles/",
     "/en/ajanvaraus-en/": "/en/",
     "/en/wildlife-en/": "/en/",
-    "/en/home/": "/en/",
-    "/en/contact/": "/en/"
+    "/en/home/": "/en/"
   },
   "posts": {
     "/sample-page/": "/",
