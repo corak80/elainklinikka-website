@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
+# Let Google crawl Cloudflare's email-protection endpoint so it sees the 404 and drops the stale "indexed though blocked" URL.
+Allow: /cdn-cgi/l/email-protection
 Disallow: /docs/
 Disallow: /tools/
 # Decorative hero background clip — not watch-page content, keep it out of video indexing.
