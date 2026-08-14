@@ -300,6 +300,56 @@
             <li>British Hedgehog Preservation Society: hedgehog basics, feeding and hibernation-weight guidance. <a href="https://www.britishhedgehogs.org.uk/the-basic-facts-2/" target="_blank" rel="noopener nofollow">britishhedgehogs.org.uk</a></li>
             <li>Schaus J. ym. (2020): Impacts and potential mitigation of road mortality for hedgehogs in Europe. Animals 10(9):1523. <a href="https://www.mdpi.com/2076-2615/10/9/1523" target="_blank" rel="noopener nofollow">mdpi.com</a></li>
           </ol>
+
+          <h2 data-i18n="article.hedgehog.register.title">Pesärekisteri — onko sinulla vapaa pesä kotona?</h2>
+          <p data-i18n="article.hedgehog.register.text">Tänä syksynä odotamme klinikalle tavallista enemmän siilejä, ja osa niistä on valmiina vapautettavaksi vasta myöhään syksyllä — liian myöhään rakentaakseen tai löytääkseen oman talvipesän ennen pakkasten tuloa. Siksi perustamme pesärekisterin: listan ihmisistä, joiden pihalla on valmis, vapaa pesä. Kun siili on valmis vapautettavaksi, voimme sijoittaa sen lähelläsi olevaan turvalliseen pesään.</p>
+          <p data-i18n="article.hedgehog.register.text2">Jos olet jo rakentanut yllä olevien ohjeiden mukaisen pesän — tai sinulla on muuten sopiva, rauhallinen ja suojainen paikka pihallasi — ilmoittaudu alla olevalla lomakkeella. Pesän ei tarvitse olla vapaa juuri nyt; riittää, että se on valmis jossain vaiheessa syksyä.</p>
+
+          <form class="formcard" id="nestregform" novalidate>
+            <!-- honeypot: hidden from users, bots fill it -->
+            <div class="hp" aria-hidden="true">
+              <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            </div>
+
+            <div class="field">
+              <label class="lbl" for="nr-name">Nimi <span class="req">*</span></label>
+              <input type="text" id="nr-name" name="name" required maxlength="120" autocomplete="name">
+            </div>
+
+            <div class="field">
+              <label class="lbl" for="nr-email">Sähköposti <span class="req">*</span></label>
+              <input type="email" id="nr-email" name="email" required maxlength="180" autocomplete="email">
+            </div>
+
+            <div class="field">
+              <label class="lbl" for="nr-phone">Puhelin</label>
+              <input type="tel" id="nr-phone" name="phone" maxlength="40" autocomplete="tel">
+            </div>
+
+            <div class="field">
+              <label class="lbl" for="nr-address">Osoite <span class="req">*</span></label>
+              <input type="text" id="nr-address" name="address" required maxlength="300" autocomplete="street-address">
+              <p style="font-size:var(--font-size-sm);color:var(--color-text-light);margin:0.4rem 0 0">Käytämme osoitetta vain sopivan, lähellä olevan pesän löytämiseen — emme julkaise sitä.</p>
+            </div>
+
+            <div class="field">
+              <label class="lbl" for="nr-message">Vapaa viesti</label>
+              <textarea id="nr-message" name="message" maxlength="2000"></textarea>
+              <p style="font-size:var(--font-size-sm);color:var(--color-text-light);margin:0.4rem 0 0">Kerro esim. missä pesä sijaitsee pihalla, milloin se on valmis, tai muuta hyödyllistä.</p>
+            </div>
+
+            <label class="consent">
+              <input type="checkbox" name="consent" required>
+              <span>Annan luvan tallentaa yhteystietoni pesärekisteriin, jotta Eläinklinikka Saari / Siili-Saari voi ottaa minuun yhteyttä sopivan siilin löytyessä. Lue <a href="/tietosuoja/" target="_blank" rel="noopener">tietosuojaseloste</a>.</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary submit" id="nestregsubmit">Lähetä ilmoitus</button>
+
+            <div class="form-status" id="nestregstatus" role="status" aria-live="polite">
+              <span class="msg-ok" hidden>Kiitos! Ilmoituksesi on nyt pesärekisterissä. Otamme yhteyttä, jos löydämme sopivan siilin pesällesi.</span>
+              <span class="msg-err" hidden>Lähetys epäonnistui. Yritä uudelleen tai lähetä sähköpostia osoitteeseen info@saarivet.fi.</span>
+            </div>
+          </form>
         </div>
       </article>
 
@@ -451,6 +501,53 @@
       localStorage.setItem('cookie_consent', 'declined');
       document.getElementById('cookie-consent').style.display = 'none';
     }
+  </script>
+
+  <script>
+    (function(){
+      const ENDPOINT = 'https://dashboard.saarivet.fi/tv/api/nesting-register';
+      const form = document.getElementById('nestregform');
+      if (!form) return;
+      const statusBox = document.getElementById('nestregstatus');
+      const okMsg = statusBox.querySelector('.msg-ok');
+      const errMsg = statusBox.querySelector('.msg-err');
+      const submitBtn = document.getElementById('nestregsubmit');
+
+      function showStatus(kind){
+        statusBox.className = 'form-status ' + kind;
+        okMsg.hidden = kind !== 'ok';
+        errMsg.hidden = kind !== 'err';
+      }
+
+      form.addEventListener('submit', async (ev) => {
+        ev.preventDefault();
+        if (form.website.value) { showStatus('ok'); form.reset(); return; }
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+
+        const data = {
+          name: form.name.value.trim(),
+          email: form.email.value.trim(),
+          phone: form.phone.value.trim(),
+          address: form.address.value.trim(),
+          message: form.message.value.trim(),
+          consent: form.consent.checked,
+          lang: 'fi',
+          source: 'clinic',
+          website: form.website.value
+        };
+
+        submitBtn.disabled = true;
+        try {
+          const res = await fetch(ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+          });
+          if (res.ok) { showStatus('ok'); form.reset(); } else { showStatus('err'); }
+        } catch (e) { showStatus('err'); }
+        finally { submitBtn.disabled = false; }
+      });
+    })();
   </script>
 
 </body>

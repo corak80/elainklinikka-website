@@ -3492,3 +3492,90 @@ a.service-card-link {
     font-size: var(--font-size-base);
   }
 }
+
+/* --- Sign-up form (nesting register, and reusable for future forms) --- */
+.formcard {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+}
+.formcard .hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.formcard .field {
+  margin-bottom: var(--spacing-md);
+}
+.formcard .lbl {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.4rem;
+}
+.formcard .lbl .req {
+  color: var(--color-primary);
+}
+.formcard input[type="text"],
+.formcard input[type="email"],
+.formcard input[type="tel"],
+.formcard textarea {
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background: #fff;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem 0.9rem;
+  transition: border-color var(--transition);
+}
+.formcard input:focus,
+.formcard textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+.formcard textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.formcard .consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: var(--spacing-md) 0;
+  cursor: pointer;
+}
+.formcard .consent input {
+  margin-top: 0.2rem;
+  flex: none;
+}
+.formcard .consent a {
+  color: var(--color-primary);
+}
+.formcard .submit {
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family);
+}
+.formcard .submit:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.form-status {
+  margin-top: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+}
+.form-status .msg-ok {
+  color: #2e7d4f;
+}
+.form-status .msg-err {
+  color: #b1382f;
+}

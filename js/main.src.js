@@ -1931,6 +1931,21 @@ const translations = {
     sv: 'Igelkotten är ett nattdjur som rör sig 1–2 km per natt i jakt på föda. En vuxen igelkott väger 600–1 100 g och har cirka 5 000–6 000 taggar. Födan består av skalbaggar, larver, sniglar, snäckor, maskar och insekter — igelkotten är trädgårdsmästarens bästa vän. Vinterdvalan varar i Finland ungefär från oktober till april: kroppstemperaturen sjunker från 35 grader till så lågt som 1–4 grader och hjärtfrekvensen sjunker från 190 till cirka 20 slag per minut. Fortplantningstiden är april–september och honan föder i genomsnitt 4–5 ungar. Igelkottens genomsnittliga livslängd i det vilda är 2–3 år. I Finland behöver igelkotten en vikt på minst cirka 450–600 gram för att överleva vinterdvalan.',
     en: 'The hedgehog is a nocturnal animal that travels 1–2 km per night foraging for food. An adult hedgehog weighs 600–1,100 g and has approximately 5,000–6,000 spines. Its diet consists of beetles, larvae, slugs, snails, worms and insects — the hedgehog is the gardener\'s best friend. Hibernation in Finland lasts approximately from October to April: body temperature drops from 35°C to as low as 1–4°C and heart rate falls from 190 to about 20 beats per minute. The breeding season is April–September and the female gives birth to an average of 4–5 hoglets. The average lifespan of a hedgehog in the wild is 2–3 years. In Finland, a hedgehog needs a weight of at least approximately 450–600 grams to survive hibernation.'
   },
+  'article.hedgehog.register.title': {
+    fi: 'Pesärekisteri — onko sinulla vapaa pesä kotona?',
+    sv: 'Boregister — har du ett ledigt bo hemma?',
+    en: 'Nesting register — do you have a free nest at home?'
+  },
+  'article.hedgehog.register.text': {
+    fi: 'Tänä syksynä odotamme klinikalle tavallista enemmän siilejä, ja osa niistä on valmiina vapautettavaksi vasta myöhään syksyllä — liian myöhään rakentaakseen tai löytääkseen oman talvipesän ennen pakkasten tuloa. Siksi perustamme pesärekisterin: listan ihmisistä, joiden pihalla on valmis, vapaa pesä. Kun siili on valmis vapautettavaksi, voimme sijoittaa sen lähelläsi olevaan turvalliseen pesään.',
+    sv: 'I höst väntar vi oss fler igelkottar på kliniken än vanligt, och en del av dem blir redo att släppas ut sent på hösten — för sent för att hinna bygga eller hitta ett eget vinterbo innan frosten kommer. Därför startar vi ett boregister: en lista över personer som har ett färdigt, ledigt bo på sin gård. När en igelkott är redo att släppas ut kan vi placera den i ett tryggt bo nära dig.',
+    en: 'This autumn we\'re expecting more hedgehogs at the clinic than usual, and some of them won\'t be ready for release until late in the season — too late to build or find their own winter nest before the frost arrives. That\'s why we\'re starting a nesting register: a list of people who have a ready, free nest in their garden. When a hedgehog is ready for release, we can place it in a safe nest near you.'
+  },
+  'article.hedgehog.register.text2': {
+    fi: 'Jos olet jo rakentanut yllä olevien ohjeiden mukaisen pesän — tai sinulla on muuten sopiva, rauhallinen ja suojainen paikka pihallasi — ilmoittaudu alla olevalla lomakkeella. Pesän ei tarvitse olla vapaa juuri nyt; riittää, että se on valmis jossain vaiheessa syksyä.',
+    sv: 'Om du redan har byggt ett bo enligt instruktionerna ovan — eller har en annan lämplig, lugn och skyddad plats på din gård — anmäl dig med formuläret nedan. Boet behöver inte vara ledigt just nu; det räcker att det är klart någon gång under hösten.',
+    en: 'If you\'ve already built a nest using the instructions above — or you have another suitable, quiet, sheltered spot in your garden — register using the form below. The nest doesn\'t need to be free right now; it just needs to be ready at some point this autumn.'
+  },
 
   // Cat Stress & Cat Friendly Clinic Article
   'article.catstress.tag': { fi: 'Kissojen terveys', sv: 'Katthälsa', en: 'Cat Health' },
