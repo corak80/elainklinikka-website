@@ -19,6 +19,21 @@ const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://elainklinikkasaari.fi';
 const PRICES_URLS = { fi: '/hinnasto/', sv: '/sv/prislista/', en: '/en/pricelist/' };
 
+// Cache-busting suffix for /css/style.css and /js/main.js, e.g. "?v=20260803c".
+// The homepage is hand-maintained, so index.html is the single source of truth:
+// bump the ?v= there and every generated page follows on the next build. Without
+// this, generated pages request the unversioned URL — which both serves stale
+// CSS/JS after a deploy and caches main.js twice under two different keys.
+const ASSET_VERSION = (() => {
+  const m = fs.readFileSync(INDEX_PATH, 'utf8').match(/js\/main\.js\?v=([A-Za-z0-9._-]+)/);
+  if (!m) {
+    console.warn('  WARN: no ?v= found on main.js in index.html — generated pages will be unversioned');
+    return '';
+  }
+  return m[1];
+})();
+const ASSET_Q = ASSET_VERSION ? `?v=${ASSET_VERSION}` : '';
+
 // Returns the localized slug for an article in the given language.
 // Falls back to the Finnish slug if no localized slug is defined.
 function articleSlug(article, lang) {
@@ -1228,7 +1243,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -1312,7 +1327,7 @@ ${relatedHtml}
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
   ${lang !== 'fi' ? `<script>if(typeof setLanguage==='function')setLanguage('${lang}');</script>` : ''}
 
 ${renderCookieBanner(lang)}
@@ -1537,7 +1552,7 @@ function generateArticleIndex(translations, lang) {
 
   <link rel="preload" as="image" href="/images/logo.png">
   <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -1615,7 +1630,7 @@ ${cardsHtml}
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -3617,7 +3632,7 @@ function generateServicePage(service, translations, lang) {
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -3708,7 +3723,7 @@ ${relatedHtml}
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -3757,7 +3772,7 @@ function generatePrivacyPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -3882,7 +3897,7 @@ function generatePrivacyPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -4142,7 +4157,7 @@ function generateReviewsPage(lang) {
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4209,7 +4224,7 @@ ${reviewCards}
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -4460,7 +4475,7 @@ function generateBookingPage(lang) {
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4527,7 +4542,7 @@ ${i18n.onlineMeta ? `            <span class="booking-method-meta">${escapeHtml(
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -4629,7 +4644,7 @@ function generateAboutPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4744,7 +4759,7 @@ function generateAboutPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -4799,6 +4814,8 @@ function generateContactPage() {
   <meta name="page-topic" content="Contact">
   <link rel="canonical" href="${BASE_URL}/yhteystiedot/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/yhteystiedot/">
+  <link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/kontakt/">
+  <link rel="alternate" hreflang="en" href="${BASE_URL}/en/contact/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/yhteystiedot/">
 
   <meta property="og:type" content="website">
@@ -4850,7 +4867,7 @@ function generateContactPage() {
 
   <link rel="preload" as="image" href="../images/logo.png">
   <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4864,7 +4881,7 @@ function generateContactPage() {
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
       </a>
- ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/yhteystiedot/', svUrl: BASE_URL + '/sv/#contact', enUrl: BASE_URL + '/en/#contact' })}
+ ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/yhteystiedot/', svUrl: BASE_URL + '/sv/kontakt/', enUrl: BASE_URL + '/en/contact/' })}
     </div>
   </header>
 
@@ -4969,7 +4986,7 @@ function generateContactPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js${ASSET_Q}"></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -5082,12 +5099,34 @@ ${palvelutHreflang}  </url>
   </url>
 `;
 
+  // Contact pages (FI/SV/EN, hreflang-linked). SV/EN are hand-authored at
+  // sv/kontakt/ and en/contact/ — the build does not render them, but it must
+  // still list them here and emit the hreflang cluster on all three.
+  const contactHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/yhteystiedot/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/yhteystiedot/"/>
+`;
   xml += `  <url>
     <loc>${BASE_URL}/yhteystiedot/</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
+${contactHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/kontakt/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${contactHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/contact/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${contactHreflang}  </url>
 `;
 
   // Staff pages (FI/SV/EN, hreflang-linked)
