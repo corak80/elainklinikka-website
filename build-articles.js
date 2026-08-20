@@ -5432,12 +5432,30 @@ function normalizeVolatileDates(s) {
     .replace(/("(?:dateModified|lastReviewed)":\s*")\d{4}-\d{2}-\d{2}(")/g, '$1DATE$2')
     .replace(/(<lastmod>)\d{4}-\d{2}-\d{2}(<\/lastmod>)/g, '$1DATE$2');
 }
+// Counts pages actually rewritten this run. The sitemap needs it: its own diff
+// is frequently date-only (so the guard above would skip it) even when real page
+// content changed, which would leave <lastmod> stale while the pages' own
+// dateModified moved forward — search engines see the sitemap claiming a page is
+// older than the page says it is. See writeSitemap below.
+let pagesWritten = 0;
 function writeGenerated(file, content) {
   try {
     const existing = fs.readFileSync(file, 'utf-8');
-    if (normalizeVolatileDates(existing) === normalizeVolatileDates(content)) return;
+    if (normalizeVolatileDates(existing) === normalizeVolatileDates(content)) return false;
   } catch (e) { /* new file */ }
   fs.writeFileSync(file, content, 'utf-8');
+  pagesWritten++;
+  return true;
+}
+
+// Write the sitemap, bypassing the date-only skip when pages changed this run so
+// <lastmod> stays consistent with the dateModified now on those pages.
+function writeSitemap(file, content) {
+  if (pagesWritten > 0) {
+    fs.writeFileSync(file, content, 'utf-8');
+    return true;
+  }
+  return writeGenerated(file, content);
 }
 
 // Wrap the clinic and emergency phone numbers in tel: links in visible HTML.
@@ -5688,7 +5706,7 @@ function main() {
   // Generate sitemap
   console.log('\nGenerating sitemap.xml...');
   const sitemap = generateSitemap();
-  writeGenerated(SITEMAP_PATH, sitemap);
+  writeSitemap(SITEMAP_PATH, sitemap);
   console.log(`  Sitemap updated with ${articles.length + servicePages.length + 3} URLs`);
 
   console.log(`\nDone! Generated ${count} article pages in articles/`);
