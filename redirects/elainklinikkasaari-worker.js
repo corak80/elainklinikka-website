@@ -25,6 +25,7 @@ const SLUG_MAP = {
   "/palvelut/ruokamyynti/": "/palvelut/rehumyynti/",
   "/palvelut/kuntoutus-ja-hyvinvointi/": "/palvelut/kuntoutus/",
   "/klinikka/": "/meista/",
+  "/personal/": "/sv/personal/",
   "/ajankohtaista/": "/artikkelit/",
   "/wildlife/": "/yhteystiedot/",
   "/sv/ruokatilaus-sv-translation/": "/sv/tjanster/foderforsaljning/",
