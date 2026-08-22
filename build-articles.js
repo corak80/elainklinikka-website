@@ -1124,10 +1124,10 @@ function generateArticlePage(article, translations, specialContent, lang) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -1485,10 +1485,10 @@ function generateArticleIndex(translations, lang) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -3513,10 +3513,10 @@ function generateServicePage(service, translations, lang) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -3752,9 +3752,9 @@ function generatePrivacyPage() {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
 
   <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus asiakas- ja potilasrekisterissä.">
   <meta name="page-topic" content="Privacy Policy">
@@ -4118,9 +4118,9 @@ function generateReviewsPage(lang) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call / booking conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -4435,10 +4435,10 @@ function generateBookingPage(lang) {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call / booking conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -4572,10 +4572,10 @@ function generateAboutPage() {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -4789,10 +4789,10 @@ function generateContactPage() {
       'ad_personalization': 'denied'
     });
     gtag('js', new Date());
-    gtag('config', 'G-92LHP2TK6N');
+    gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-92LHP2TK6N"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
