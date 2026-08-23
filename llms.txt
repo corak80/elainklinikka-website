@@ -9,6 +9,7 @@
 - [Book an appointment](https://elainklinikkasaari.fi/ajanvaraus/): How to book, phone and online booking.
 - [Contact & location](https://elainklinikkasaari.fi/yhteystiedot/): Address (Gerbyntie 18, 65230 Vaasa), phone, opening hours, map.
 - [Prices](https://elainklinikkasaari.fi/hinnasto/): Price list for common services.
+- [Prices, machine-readable](https://elainklinikkasaari.fi/pricing.md): Full price list in plain Markdown (EUR, VAT incl.) for AI agents and assistants.
 - [Staff & veterinarians](https://elainklinikkasaari.fi/henkilokunta/): Vets and nurses, their credentials and specialities.
 - [About the clinic](https://elainklinikkasaari.fi/meista/): History since 1989, values, family ownership.
 - [Reviews](https://elainklinikkasaari.fi/arvostelut/): Customer reviews and ratings.
