@@ -169,6 +169,13 @@ const articles = [
     publishDate: '2026-01-15',
     sections: ['intro', 'how.title', 'how.text', 'vs.title', 'vs.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'when.title', 'when.text'],
     prefix: 'article.tta',
+    sources: [
+      { text: 'Apelt D. ym. (2007): Effect of tibial tuberosity advancement on cranial tibial subluxation in canine cranial cruciate-deficient stifle joints: an in vitro experimental study. Veterinary Surgery 36:170–177.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00250.x', label: 'doi.org' },
+      { text: 'Lafaver S. ym. (2007): Tibial tuberosity advancement for stabilization of the canine cranial cruciate ligament-deficient stifle joint: surgical technique, early results, and complications in 101 dogs. Veterinary Surgery 36:573–586.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00307.x', label: 'doi.org' },
+      { text: 'Hoffmann D.E. ym. (2006): Tibial tuberosity advancement in 65 canine stifles. Veterinary and Comparative Orthopaedics and Traumatology 19:219–227.', url: 'https://doi.org/10.1055/s-0038-1633004', label: 'doi.org' },
+      { text: 'Aragosa F. ym. (2022): Tibial Tuberosity Advancement Techniques (TTAT): A Systematic Review. Animals 12:2114.', url: 'https://doi.org/10.3390/ani12162114', label: 'doi.org' },
+      { text: 'Proot J. &amp; Corr S. (2013): Clinical audit for the tibial tuberosity advancement procedure. Veterinary and Comparative Orthopaedics and Traumatology 26:280–284.', url: 'https://doi.org/10.3415/vcot-12-04-0052', label: 'doi.org' }
+    ],
     metaDesc: {
       fi: 'Eturistisiteen repeämä on yksi yleisimmistä ortopedisistä vammoista koirilla. TTA-leikkaus korjaa polvinivelen biomekaniikan moderneilla titaani-implanteilla.',
       sv: 'Främre korsbandsskada är en av de vanligaste ortopediska skadorna hos hundar. TTA-kirurgi korrigerar knäledens biomekanik med moderna titanimplantat.',
@@ -185,7 +192,13 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-15',
     sections: ['intro', 'advantages.title', 'advantages.text', 'when.title', 'when.text', 'procedure.title', 'procedure.text', 'chronic.title', 'chronic.text', 'contact.title', 'contact.text'],
-    prefix: 'article.otoscopy'
+    prefix: 'article.otoscopy',
+    sources: [
+      { text: 'Hoff S. (2025): Otitis Externa in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-externa/otitis-externa-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Hoff S. (2025): Otitis Media and Interna in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-media-and-interna/otitis-media-and-interna-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Cole L.K. (2004): Otoscopic evaluation of the ear canal. Veterinary Clinics of North America: Small Animal Practice 34:397–410.', url: 'https://pubmed.ncbi.nlm.nih.gov/15062615/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11:2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' }
+    ]
   },
   {
     slug: 'kipulääkeinfuusio',
@@ -197,7 +210,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-15',
     sections: ['intro', 'what.title', 'what.text', 'why.title', 'why.text', 'benefits.title', 'benefits.text', 'use.title', 'use.text', 'windup.title', 'windup.text'],
-    prefix: 'article.mlk'
+    prefix: 'article.mlk',
+    sources: [
+      { text: 'Muir W.W. ym. (2003): Effects of morphine, lidocaine, ketamine, and morphine-lidocaine-ketamine drug combination on minimum alveolar concentration in dogs anesthetized with isoflurane. American Journal of Veterinary Research 64:1155–1160.', url: 'https://pubmed.ncbi.nlm.nih.gov/13677395/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Mathews K. ym. (2014): Guidelines for Recognition, Assessment and Treatment of Pain. WSAVA Global Pain Council. Journal of Small Animal Practice 55:E10–E68.', url: 'https://onlinelibrary.wiley.com/doi/full/10.1111/jsap.12200', label: 'onlinelibrary.wiley.com' },
+      { text: 'Woolf C.J. (2011): Central sensitization: implications for the diagnosis and treatment of pain. Pain 152:S2–S15.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3268359/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Guedes A. (2012): Pain Management: Constant-Rate Infusion. Clinician’s Brief, March 2012.', url: 'https://www.cliniciansbrief.com/article/pain-management-constant-rate-infusion', label: 'cliniciansbrief.com' },
+      { text: 'WSAVA Global Pain Council: Guidelines for Recognition, Assessment and Treatment of Pain.', url: 'https://wsava.org/global-guidelines/global-pain-council-guidelines/', label: 'wsava.org' }
+    ]
   },
   {
     slug: 'ripuli',
@@ -415,7 +435,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-10',
     sections: ['intro', 'how.title', 'how.text', 'who.title', 'who.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'vs.title', 'vs.text', 'signs.title', 'signs.text', 'price.title', 'price.text'],
-    prefix: 'article.ccl'
+    prefix: 'article.ccl',
+    sources: [
+      { text: 'Casale S.A. &amp; McCarthy R.J. (2009): Complications associated with lateral fabellotibial suture surgery for cranial cruciate ligament injury in dogs: 363 cases. Journal of the American Veterinary Medical Association 234:229–235.', url: 'https://doi.org/10.2460/javma.234.2.229', label: 'doi.org' },
+      { text: 'Marsolais G.S. ym. (2002): Effects of postoperative rehabilitation on limb function after cranial cruciate ligament repair in dogs. Journal of the American Veterinary Medical Association 220:1325–1330.', url: 'https://doi.org/10.2460/javma.2002.220.1325', label: 'doi.org' },
+      { text: 'Harasen G.L. (2005): Feline cranial cruciate rupture: 17 cases and a review of the literature. Veterinary and Comparative Orthopaedics and Traumatology 18:254–257.', url: 'https://doi.org/10.1055/s-0038-1632963', label: 'doi.org' },
+      { text: 'RCVS Knowledge, Canine Cruciate Registry: Extracapsular Lateral Suture Stabilisation (ELSS).', url: 'https://www.rcvsknowledge.org/canine-cruciate-registry/dog-owners/common-surgical-procedures/extracapsular-lateral-suture-stabilisation-elss/', label: 'rcvsknowledge.org' },
+      { text: 'American College of Veterinary Surgeons (ACVS): Cranial Cruciate Ligament Disease.', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' }
+    ]
   },
   {
     slug: 'siili',
@@ -499,7 +526,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-02-25',
     sections: ['intro', 'foreign.title', 'foreign.text', 'diagnosis.title', 'diagnosis.text', 'procedure.title', 'procedure.text', 'advantages.title', 'advantages.text', 'contact.title', 'contact.text'],
-    prefix: 'article.gastroscopy'
+    prefix: 'article.gastroscopy',
+    sources: [
+      { text: 'Maggi G. ym. (2023): Endoscopic Retrieval of Esophageal and Gastric Foreign Bodies in Cats and Dogs: A Retrospective Study of 92 Cases. Veterinary Sciences 10:560.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10538072/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Metzker Poggiani F. ym. (2020): Endoscopic Removal of Foreign Body in Upper Gastrointestinal Tract in Dogs: Success Rate and Complications. Acta Scientiae Veterinariae 48:1732.', url: 'https://seer.ufrgs.br/ActaScientiaeVeterinariae/article/view/100574', label: 'seer.ufrgs.br' },
+      { text: 'Irom S. ym. (2014): Gastrointestinal perforation associated with endoscopy in cats and dogs. Journal of the American Animal Hospital Association 50:322–329.', url: 'https://pubmed.ncbi.nlm.nih.gov/25028434/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Di Palma C. ym. (2022): Endoscopic and Surgical Removal of Gastrointestinal Foreign Bodies in Dogs: An Analysis of 72 Cases. Animals 12:1376.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9179859/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Washabau R.J. ym. (2010): Endoscopic, Biopsy, and Histopathologic Guidelines for the Evaluation of Gastrointestinal Inflammation in Companion Animals. Journal of Veterinary Internal Medicine 24:10–26.', url: 'https://academic.oup.com/jvim/article/24/1/10/8447486', label: 'academic.oup.com' }
+    ]
   },
   {
     slug: 'hammasresorptio',
