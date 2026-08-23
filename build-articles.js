@@ -301,7 +301,14 @@ const articles = [
     date: '2026',
     publishDate: '2026-01-30',
     sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
-    prefix: 'article.periovive'
+    prefix: 'article.periovive',
+    sources: [
+      { text: 'Tella E.A. ym. (2023): Evaluation of hyaluronic acid gel with or without acellular dermal matrix allograft in the treatment of class II furcation defects in dogs. Saudi Dental Journal 35:845–853.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10658385/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Eliezer M. ym. (2019): Hyaluronic acid as adjunctive to non-surgical and surgical periodontal therapy: a systematic review and meta-analysis. Clinical Oral Investigations 23:3423–3435.', url: 'https://pubmed.ncbi.nlm.nih.gov/31338632/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Bhati A. ym. (2022): Role of hyaluronic acid in periodontal therapy (Review). Biomedical Reports 17:91.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9535241/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Shirakata Y. ym. (2022): Cross-linked hyaluronic acid gel with or without a collagen matrix in the treatment of class III furcation defects in dogs. Journal of Clinical Periodontology 49:1079–1089.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9796036/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Cornell University College of Veterinary Medicine, Riney Canine Health Center: Periodontal disease.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/health-topics/canine-health-information/periodontal-disease', label: 'vet.cornell.edu' }
+    ]
   },
   {
     slug: 'yksityinen-klinikka',
