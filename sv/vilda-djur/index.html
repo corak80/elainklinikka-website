@@ -151,6 +151,7 @@
     .wl-card-image { position: relative; overflow: hidden; aspect-ratio: 4/3; background: var(--wl-sage); }
     .wl-card--xl .wl-card-image { aspect-ratio: 3/2; }
     .wl-card-image img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+    .wl-card[data-crop="kettu"]       .wl-card-image img { object-position: center 15%; }
     .wl-card[data-crop="muovinaru"]   .wl-card-image img { object-position: 42% 22%; }
     .wl-card[data-crop="piikikas"]    .wl-card-image img { object-position: center 14%; }
     .wl-card[data-crop="simo"]        .wl-card-image img { object-position: 35% 38%; }
@@ -346,10 +347,10 @@
         <div class="wl-stories-head">
           <div>
             <span class="wl-eyebrow">Patientberättelser</span>
-            <h2 class="wl-h2">Tio <em>berättelser</em>.</h2>
+            <h2 class="wl-h2">Elva <em>berättelser</em>.</h2>
           </div>
           <p>
-            Varje år tas över hundra vilda patienter in till vår klinik. Här är tio
+            Varje år tas över hundra vilda patienter in till vår klinik. Här är elva
             berättelser som rört flest läsare på Facebook — bakom dem alla finns
             samma budskap: En liten gest kan rädda ett vilt liv.
           </p>
@@ -357,10 +358,34 @@
 
         <div class="wl-stories">
 
-          <article class="wl-card wl-card--xl" data-crop="muovinaru">
+          <!-- 1. Fox with old fracture (#1 by engagement, feature card) -->
+          <article class="wl-card wl-card--xl" data-crop="kettu">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/kettu.jpg" alt="Skötare håller en ung räv i famnen på Djurklinik Saari" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-tag">Räv</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Augusti 2026</span><span class="dot"></span>
+                <span>9 748 reaktioner</span><span class="dot"></span>
+                <span>32 delningar</span>
+              </div>
+              <h3>Liten överlevare — en ung räv och en gammal fraktur</h3>
+              <p>
+                En ung räv kom till oss i en rävfälla, haltande på bakre högra benet. Efter
+                sedering och röntgen hittades en fraktur — lyckligtvis gammal, redan läkande
+                och stabil. Smärtlindring, vila och vård hos Nordic Wildlife Care; om några
+                veckor är räven fri i skogen igen. Den hann stjäla hela klinikens hjärta.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1743786551080434" target="_blank" rel="noopener">Läs berättelsen på Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="muovinaru">
             <div class="wl-card-image">
               <img src="../../images/wildlife/muovinaru.jpg" alt="Igelkott med plasttråd hårt åtdragen kring benen — räddad på Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-rank">№2</span>
               <span class="wl-card-tag">Igelkott</span>
             </div>
             <div class="wl-card-body">
@@ -383,7 +408,7 @@
           <article class="wl-card wl-card--md" data-crop="piikikas">
             <div class="wl-card-image">
               <img src="../../images/wildlife/piikikas-taistelija.jpg" alt="Igelkott med fiskelina kring halsen — räddad på Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№2</span>
+              <span class="wl-card-rank">№3</span>
               <span class="wl-card-tag">Igelkott</span>
             </div>
             <div class="wl-card-body">
@@ -405,7 +430,7 @@
           <article class="wl-card wl-card--md" data-crop="simo">
             <div class="wl-card-image">
               <img src="../../images/wildlife/simo-kotiin.jpg" alt="Igelkotten Simo släpps ut i naturen" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№3</span>
+              <span class="wl-card-rank">№4</span>
               <span class="wl-card-tag">Igelkott</span>
             </div>
             <div class="wl-card-body">
@@ -427,7 +452,7 @@
           <article class="wl-card wl-card--lg" data-crop="hiirenloukku">
             <div class="wl-card-image">
               <img src="../../images/wildlife/hiirenloukku.jpg" alt="Igelkott vars framtass fastnat i råttfälla — Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№4</span>
+              <span class="wl-card-rank">№5</span>
               <span class="wl-card-tag">Igelkott</span>
             </div>
             <div class="wl-card-body">
@@ -451,7 +476,7 @@
           <article class="wl-card wl-card--md" data-crop="hampaat">
             <div class="wl-card-image">
               <img src="../../images/wildlife/hampaanpoisto.jpg" alt="Första tandextraktionen på en igelkott — Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№5</span>
+              <span class="wl-card-rank">№6</span>
               <span class="wl-card-tag">Igelkott</span>
             </div>
             <div class="wl-card-body">
@@ -473,7 +498,7 @@
           <article class="wl-card wl-card--lg" data-crop="joutsen">
             <div class="wl-card-image">
               <img src="../../images/wildlife/joutsen-poliisi.jpg" alt="Ung svan på Djurklinik Saari — hämtad av polisen" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№6</span>
+              <span class="wl-card-rank">№7</span>
               <span class="wl-card-tag">Svan</span>
             </div>
             <div class="wl-card-body">
@@ -495,7 +520,7 @@
           <article class="wl-card wl-card--md" data-crop="merikotka">
             <div class="wl-card-image">
               <img src="../../images/wildlife/merikotka.jpg" alt="Havsörn på Djurklinik Saaris undersökningsbord" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№7</span>
+              <span class="wl-card-rank">№8</span>
               <span class="wl-card-tag">Havsörn</span>
             </div>
             <div class="wl-card-body">
@@ -518,7 +543,7 @@
           <article class="wl-card wl-card--md" data-crop="mauri">
             <div class="wl-card-image">
               <img src="../../images/wildlife/mauri-orava.jpg" alt="Ekorren Mauri på Djurklinik Saari före frigivning" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№8</span>
+              <span class="wl-card-rank">№9</span>
               <span class="wl-card-tag">Ekorre</span>
             </div>
             <div class="wl-card-body">
@@ -539,7 +564,7 @@
           <article class="wl-card wl-card--md" data-crop="janis">
             <div class="wl-card-image">
               <img src="../../images/wildlife/janiksenpoikanen.jpg" alt="Liten harunge på Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№9</span>
+              <span class="wl-card-rank">№10</span>
               <span class="wl-card-tag">Hare</span>
             </div>
             <div class="wl-card-body">
@@ -562,7 +587,7 @@
           <article class="wl-card wl-card--md" data-crop="lepakko">
             <div class="wl-card-image">
               <img src="../../images/wildlife/lepakko.jpg" alt="Liten fladdermus på Djurklinik Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№10</span>
+              <span class="wl-card-rank">№11</span>
               <span class="wl-card-tag">Fladdermus</span>
             </div>
             <div class="wl-card-body">

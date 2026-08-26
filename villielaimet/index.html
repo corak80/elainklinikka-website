@@ -414,6 +414,7 @@
       transition: transform 1.2s cubic-bezier(.2,.7,.2,1);
     }
     /* Per-photo crop fine-tuning — keep subject's face/head in frame */
+    .wl-card[data-crop="kettu"]       .wl-card-image img { object-position: center 15%; }
     .wl-card[data-crop="muovinaru"]   .wl-card-image img { object-position: 42% 22%; }
     .wl-card[data-crop="piikikas"]    .wl-card-image img { object-position: center 14%; }
     .wl-card[data-crop="simo"]        .wl-card-image img { object-position: 35% 38%; }
@@ -881,10 +882,10 @@
         <div class="wl-stories-head">
           <div>
             <span class="wl-eyebrow">Potilastarinoita</span>
-            <h2 class="wl-h2">Kymmenen <em>tarinaa</em>.</h2>
+            <h2 class="wl-h2">Yksitoista <em>tarinaa</em>.</h2>
           </div>
           <p>
-            Joka vuosi klinikallemme tuodaan yli sata luonnonvaraista potilasta. Tässä kymmenen
+            Joka vuosi klinikallemme tuodaan yli sata luonnonvaraista potilasta. Tässä yksitoista
             tarinaa, jotka ovat liikuttaneet eniten lukijoita Facebookissa — niiden takana on
             sama viesti: pieni teko voi pelastaa villin elämän.
           </p>
@@ -892,11 +893,35 @@
 
         <div class="wl-stories">
 
-          <!-- 1. Plastic string (#1 by engagement, feature card) -->
-          <article class="wl-card wl-card--xl" data-crop="muovinaru">
+          <!-- 1. Fox with old fracture (#1 by engagement, feature card) -->
+          <article class="wl-card wl-card--xl" data-crop="kettu">
+            <div class="wl-card-image">
+              <img src="../images/wildlife/kettu.jpg" alt="Hoitaja pitää nuorta kettua sylissään Eläinklinikka Saarella" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-tag">Kettu</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>Elokuu 2026</span><span class="dot"></span>
+                <span>9 748 reaktiota</span><span class="dot"></span>
+                <span>32 jakoa</span>
+              </div>
+              <h3>Pieni selviytyjä — nuori kettu ja vanha murtuma</h3>
+              <p>
+                Nuori kettu tuotiin meille kettuloukussa ontuen oikeaa takajalkaa. Rauhoituksen
+                ja röntgenkuvan jälkeen löytyi murtuma — onneksi vanha, jo itsekseen parantumassa
+                ja vakaa. Kipulääkitystä, lepoa ja Nordic Wildlife Caren hoitoa; muutaman viikon
+                kuluttua kettu on taas vapaa metsässä. Ehti varastaa koko klinikan sydämen.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1743786551080434" target="_blank" rel="noopener">Lue tarina Facebookissa</a>
+            </div>
+          </article>
+
+          <!-- 2. Plastic string -->
+          <article class="wl-card wl-card--md" data-crop="muovinaru">
             <div class="wl-card-image">
               <img src="../images/wildlife/muovinaru.jpg" alt="Siili, jonka jaloissa oli tiukasti muovinaru — pelastettu Eläinklinikka Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-rank">№2</span>
               <span class="wl-card-tag">Siili</span>
             </div>
             <div class="wl-card-body">
@@ -920,7 +945,7 @@
           <article class="wl-card wl-card--md" data-crop="piikikas">
             <div class="wl-card-image">
               <img src="../images/wildlife/piikikas-taistelija.jpg" alt="Siili jolla siima kaulan ympärillä — Eläinklinikka Saari pelasti" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№2</span>
+              <span class="wl-card-rank">№3</span>
               <span class="wl-card-tag">Siili</span>
             </div>
             <div class="wl-card-body">
@@ -940,7 +965,7 @@
           <article class="wl-card wl-card--md" data-crop="simo">
             <div class="wl-card-image">
               <img src="../images/wildlife/simo-kotiin.jpg" alt="Siili-Simo vapautetaan luontoon" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№3</span>
+              <span class="wl-card-rank">№4</span>
               <span class="wl-card-tag">Siili</span>
             </div>
             <div class="wl-card-body">
@@ -962,7 +987,7 @@
           <article class="wl-card wl-card--lg" data-crop="hiirenloukku">
             <div class="wl-card-image">
               <img src="../images/wildlife/hiirenloukku.jpg" alt="Siili jonka etutassu jäi hiirenloukkuun — Eläinklinikka Saari" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№4</span>
+              <span class="wl-card-rank">№5</span>
               <span class="wl-card-tag">Siili</span>
             </div>
             <div class="wl-card-body">
@@ -985,7 +1010,7 @@
           <article class="wl-card wl-card--md" data-crop="hampaat">
             <div class="wl-card-image">
               <img src="../images/wildlife/hampaanpoisto.jpg" alt="Ensimmäinen siilin hampaanpoisto Eläinklinikka Saarella" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№5</span>
+              <span class="wl-card-rank">№6</span>
               <span class="wl-card-tag">Siili</span>
             </div>
             <div class="wl-card-body">
@@ -1007,7 +1032,7 @@
           <article class="wl-card wl-card--lg" data-crop="joutsen">
             <div class="wl-card-image">
               <img src="../images/wildlife/joutsen-poliisi.jpg" alt="Nuori joutsen poliisin tuomana Eläinklinikka Saarelle" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№6</span>
+              <span class="wl-card-rank">№7</span>
               <span class="wl-card-tag">Joutsen</span>
             </div>
             <div class="wl-card-body">
@@ -1029,7 +1054,7 @@
           <article class="wl-card wl-card--md" data-crop="merikotka">
             <div class="wl-card-image">
               <img src="../images/wildlife/merikotka.jpg" alt="Merikotka Eläinklinikka Saaren tutkimuspöydällä" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№7</span>
+              <span class="wl-card-rank">№8</span>
               <span class="wl-card-tag">Merikotka</span>
             </div>
             <div class="wl-card-body">
@@ -1051,7 +1076,7 @@
           <article class="wl-card wl-card--md" data-crop="mauri">
             <div class="wl-card-image">
               <img src="../images/wildlife/mauri-orava.jpg" alt="Mauri-orava Eläinklinikka Saarella ennen vapautusta" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№8</span>
+              <span class="wl-card-rank">№9</span>
               <span class="wl-card-tag">Orava</span>
             </div>
             <div class="wl-card-body">
@@ -1071,7 +1096,7 @@
           <article class="wl-card wl-card--md" data-crop="janis">
             <div class="wl-card-image">
               <img src="../images/wildlife/janiksenpoikanen.jpg" alt="Jäniksenpoikanen Eläinklinikka Saarella" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№9</span>
+              <span class="wl-card-rank">№10</span>
               <span class="wl-card-tag">Jänis</span>
             </div>
             <div class="wl-card-body">
@@ -1095,7 +1120,7 @@
           <article class="wl-card wl-card--md" data-crop="lepakko">
             <div class="wl-card-image">
               <img src="../images/wildlife/lepakko.jpg" alt="Pikkulepakko Eläinklinikka Saarella" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№10</span>
+              <span class="wl-card-rank">№11</span>
               <span class="wl-card-tag">Lepakko</span>
             </div>
             <div class="wl-card-body">

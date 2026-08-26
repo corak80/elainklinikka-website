@@ -151,6 +151,7 @@
     .wl-card-image { position: relative; overflow: hidden; aspect-ratio: 4/3; background: var(--wl-sage); }
     .wl-card--xl .wl-card-image { aspect-ratio: 3/2; }
     .wl-card-image img { width: 100%; height: 100%; object-fit: cover; object-position: center 28%; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+    .wl-card[data-crop="kettu"]       .wl-card-image img { object-position: center 15%; }
     .wl-card[data-crop="muovinaru"]   .wl-card-image img { object-position: 42% 22%; }
     .wl-card[data-crop="piikikas"]    .wl-card-image img { object-position: center 14%; }
     .wl-card[data-crop="simo"]        .wl-card-image img { object-position: 35% 38%; }
@@ -349,21 +350,46 @@
         <div class="wl-stories-head">
           <div>
             <span class="wl-eyebrow">Patient stories</span>
-            <h2 class="wl-h2">Ten <em>rescues</em>.</h2>
+            <h2 class="wl-h2">Eleven <em>rescues</em>.</h2>
           </div>
           <p>
             Every year more than a hundred wild patients are brought to our clinic.
-            Here are ten stories that moved the most readers on Facebook — all carrying
+            Here are eleven stories that moved the most readers on Facebook — all carrying
             the same message: a small act can save a wild life.
           </p>
         </div>
 
         <div class="wl-stories">
 
-          <article class="wl-card wl-card--xl" data-crop="muovinaru">
+          <!-- 1. Fox with old fracture (#1 by engagement, feature card) -->
+          <article class="wl-card wl-card--xl" data-crop="kettu">
+            <div class="wl-card-image">
+              <img src="../../images/wildlife/kettu.jpg" alt="A nurse holding a young fox at Saari Animal Clinic" width="960" height="720" loading="lazy">
+              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-tag">Fox</span>
+            </div>
+            <div class="wl-card-body">
+              <div class="wl-card-meta">
+                <span>August 2026</span><span class="dot"></span>
+                <span>9,748 reactions</span><span class="dot"></span>
+                <span>32 shares</span>
+              </div>
+              <h3>Little survivor — a young fox and an old fracture</h3>
+              <p>
+                A young fox arrived in a fox trap, limping on its right hind leg. Sedation and
+                an X-ray revealed a fracture — thankfully an old one, already healing on its
+                own and stable. Pain relief, rest and care at Nordic Wildlife Care; in a few
+                weeks the fox will be free in the forest again. It managed to steal the whole
+                clinic's heart.
+              </p>
+              <a class="wl-card-link" href="https://www.facebook.com/1609699507822473/posts/1743786551080434" target="_blank" rel="noopener">Read the story on Facebook</a>
+            </div>
+          </article>
+
+          <article class="wl-card wl-card--md" data-crop="muovinaru">
             <div class="wl-card-image">
               <img src="../../images/wildlife/muovinaru.jpg" alt="Hedgehog with plastic string tightly wound around its legs — rescued at Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№1</span>
+              <span class="wl-card-rank">№2</span>
               <span class="wl-card-tag">Hedgehog</span>
             </div>
             <div class="wl-card-body">
@@ -387,7 +413,7 @@
           <article class="wl-card wl-card--md" data-crop="piikikas">
             <div class="wl-card-image">
               <img src="../../images/wildlife/piikikas-taistelija.jpg" alt="Hedgehog with fishing line around the neck — rescued at Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№2</span>
+              <span class="wl-card-rank">№3</span>
               <span class="wl-card-tag">Hedgehog</span>
             </div>
             <div class="wl-card-body">
@@ -409,7 +435,7 @@
           <article class="wl-card wl-card--md" data-crop="simo">
             <div class="wl-card-image">
               <img src="../../images/wildlife/simo-kotiin.jpg" alt="Simo the hedgehog being released back to nature" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№3</span>
+              <span class="wl-card-rank">№4</span>
               <span class="wl-card-tag">Hedgehog</span>
             </div>
             <div class="wl-card-body">
@@ -430,7 +456,7 @@
           <article class="wl-card wl-card--lg" data-crop="hiirenloukku">
             <div class="wl-card-image">
               <img src="../../images/wildlife/hiirenloukku.jpg" alt="Hedgehog whose front paw was caught in a mouse trap — Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№4</span>
+              <span class="wl-card-rank">№5</span>
               <span class="wl-card-tag">Hedgehog</span>
             </div>
             <div class="wl-card-body">
@@ -454,7 +480,7 @@
           <article class="wl-card wl-card--md" data-crop="hampaat">
             <div class="wl-card-image">
               <img src="../../images/wildlife/hampaanpoisto.jpg" alt="The first hedgehog tooth extraction at Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№5</span>
+              <span class="wl-card-rank">№6</span>
               <span class="wl-card-tag">Hedgehog</span>
             </div>
             <div class="wl-card-body">
@@ -476,7 +502,7 @@
           <article class="wl-card wl-card--lg" data-crop="joutsen">
             <div class="wl-card-image">
               <img src="../../images/wildlife/joutsen-poliisi.jpg" alt="Young swan at Saari Animal Clinic — brought in by the police" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№6</span>
+              <span class="wl-card-rank">№7</span>
               <span class="wl-card-tag">Swan</span>
             </div>
             <div class="wl-card-body">
@@ -497,7 +523,7 @@
           <article class="wl-card wl-card--md" data-crop="merikotka">
             <div class="wl-card-image">
               <img src="../../images/wildlife/merikotka.jpg" alt="White-tailed eagle on the Saari Animal Clinic exam table" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№7</span>
+              <span class="wl-card-rank">№8</span>
               <span class="wl-card-tag">White-tailed eagle</span>
             </div>
             <div class="wl-card-body">
@@ -520,7 +546,7 @@
           <article class="wl-card wl-card--md" data-crop="mauri">
             <div class="wl-card-image">
               <img src="../../images/wildlife/mauri-orava.jpg" alt="Mauri the squirrel at Saari Animal Clinic before release" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№8</span>
+              <span class="wl-card-rank">№9</span>
               <span class="wl-card-tag">Squirrel</span>
             </div>
             <div class="wl-card-body">
@@ -541,7 +567,7 @@
           <article class="wl-card wl-card--md" data-crop="janis">
             <div class="wl-card-image">
               <img src="../../images/wildlife/janiksenpoikanen.jpg" alt="Baby hare at Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№9</span>
+              <span class="wl-card-rank">№10</span>
               <span class="wl-card-tag">Hare</span>
             </div>
             <div class="wl-card-body">
@@ -564,7 +590,7 @@
           <article class="wl-card wl-card--md" data-crop="lepakko">
             <div class="wl-card-image">
               <img src="../../images/wildlife/lepakko.jpg" alt="Small bat at Saari Animal Clinic" width="960" height="720" loading="lazy">
-              <span class="wl-card-rank">№10</span>
+              <span class="wl-card-rank">№11</span>
               <span class="wl-card-tag">Bat</span>
             </div>
             <div class="wl-card-body">
