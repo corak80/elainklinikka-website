@@ -431,6 +431,11 @@ const translations = {
     sv: 'Mjukdelskirurgi och exotiska djur. Examen 2025 från Eesti Maaülikool.',
     en: 'Soft tissue surgery and exotic animals. Graduated 2025 from Eesti Maaülikool.'
   },
+  'bio.hanna': {
+    fi: 'Sisätaudit, dermatologia ja pehmytkudoskirurgia. Eksoottiset nisäkkäät ja pelkopotilaat.',
+    sv: 'Invärtesmedicin, dermatologi och mjukdelskirurgi. Exotiska däggdjur och rädda patienter.',
+    en: 'Internal medicine, dermatology and soft-tissue surgery. Exotic mammals and fearful patients.'
+  },
   'bio.sanna': {
     fi: 'Ravitsemus ja anestesiavalvonta. Hallinto, tilaukset ja työvuorosuunnittelu.',
     sv: 'Nutrition och anestesiövervakning. Administration, beställningar och schemaplanering.',
@@ -3365,6 +3370,30 @@ const vetProfiles = {
       fi: 'Pehmytkudoskirurgia, eksoottiset eläimet',
       sv: 'Mjukdelskirurgi, exotiska djur',
       en: 'Soft tissue surgery, exotic animals'
+    }
+  },
+  hanna: {
+    name: 'Hanna Takkinen',
+    image: '/images/hanna.webp',
+    bio: {
+      fi: 'Eläinlääkäriurani alkoi vuonna 2024, ja valmistuin eläinlääkäriksi Eesti Maaülikoolista kesällä 2025. Olen työskennellyt eläinlääkärin sijaisena pieneläinklinikalla Oulussa sekä kunnaneläinlääkärin sijaisena Pohjois-Pohjanmaalla, ja sen jälkeen lähes vuoden päivystävänä eläinlääkärinä Seinäjoen eläinsairaalassa. Eläinklinikka Saaren tiimiin liityin elokuussa 2026.\n\nAmmatillisia kiinnostuksen kohteitani ovat erityisesti sisätaudit, dermatologia, pehmytkudoskirurgia sekä eksoottiset nisäkkäät. Minulle on tärkeää suunnitella hoito yhdessä omistajan kanssa niin, että se sopii mahdollisimman hyvin lemmikin ja perheen arkeen.\n\nPidän erityisesti myös arkojen ja pelokkaiden lemmikkien kohtaamisesta, ja minulle on palkitsevaa löytää yhdessä omistajan kanssa keinoja tehdä vastaanottokäynnistä lemmikille mahdollisimman turvallinen ja rauhallinen.',
+      sv: 'Veterinärkarriären inledde jag 2024, och jag utexaminerades till veterinär från Eesti Maaülikool sommaren 2025. Jag har arbetat som vikarierande veterinär på en smådjursklinik i Uleåborg och som vikarierande kommunalveterinär i Norra Österbotten, och därefter i nästan ett år som jourveterinär på djursjukhuset i Seinäjoki. Till Djurklinik Saaris team kom jag i augusti 2026.\n\nMina yrkesmässiga intresseområden är särskilt invärtesmedicin, dermatologi, mjukdelskirurgi samt exotiska däggdjur. För mig är det viktigt att planera vården tillsammans med djurägaren så att den passar husdjurets och familjens vardag så bra som möjligt.\n\nJag tycker särskilt mycket om att möta skygga och rädda djur, och det är givande att tillsammans med ägaren hitta sätt att göra mottagningsbesöket så tryggt och lugnt som möjligt för husdjuret.',
+      en: 'My veterinary career began in 2024, and I graduated as a veterinarian from Eesti Maaülikool in the summer of 2025. I have worked as a locum veterinarian at a small-animal clinic in Oulu and as a locum municipal veterinarian in North Ostrobothnia, and after that for almost a year as an emergency veterinarian at the Seinäjoki animal hospital. I joined the Eläinklinikka Saari team in August 2026.\n\nMy professional interests are especially internal medicine, dermatology, soft-tissue surgery and exotic mammals. It is important to me to plan treatment together with the owner so that it fits the everyday life of the pet and the family as well as possible.\n\nI also particularly enjoy meeting shy and fearful pets, and I find it rewarding to work together with the owner to find ways of making the visit as safe and calm as possible for the animal.'
+    },
+    experience: {
+      fi: 'Eläinlääkärinä vuodesta 2024. Sijaisuuksia pieneläinklinikalla Oulussa ja kunnaneläinlääkärinä Pohjois-Pohjanmaalla sekä lähes vuosi päivystävänä eläinlääkärinä Seinäjoen eläinsairaalassa. Saaren klinikalla elokuusta 2026.',
+      sv: 'Veterinär sedan 2024. Vikariat på smådjursklinik i Uleåborg och som kommunalveterinär i Norra Österbotten samt nästan ett år som jourveterinär på djursjukhuset i Seinäjoki. På Saari kliniken sedan augusti 2026.',
+      en: 'Veterinarian since 2024. Locum work at a small-animal clinic in Oulu and as a municipal veterinarian in North Ostrobothnia, plus almost a year as an emergency veterinarian at the Seinäjoki animal hospital. At Saari Clinic since August 2026.'
+    },
+    training: {
+      fi: 'Eläinlääketieteen tutkinto, Eesti Maaülikool, 2025.',
+      sv: 'Veterinärmedicin examen, Eesti Maaülikool, 2025.',
+      en: 'Veterinary Medicine degree, Eesti Maaülikool, 2025.'
+    },
+    focus: {
+      fi: 'Pelkopotilaiden kohtaaminen, eksoottiset nisäkkäät, pehmytkudoskirurgia, akuutit kirurgiset ja tähystystoimenpiteet',
+      sv: 'Bemötande av rädda patienter, exotiska däggdjur, mjukdelskirurgi, akuta kirurgiska och endoskopiska ingrepp',
+      en: 'Handling fearful patients, exotic mammals, soft-tissue surgery, acute surgical and endoscopic procedures'
     }
   }
 };

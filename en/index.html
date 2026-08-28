@@ -242,6 +242,28 @@
           "name": "Eesti Maaülikool",
           "address": {"@type": "PostalAddress", "addressLocality": "Tartu", "addressCountry": "EE"}
         }
+      },
+      {
+        "@type": "Person",
+        "name": "Hanna Takkinen",
+        "jobTitle": "Veterinarian",
+        "worksFor": {
+          "@type": "VeterinaryCare",
+          "name": "Eläinklinikka Saari",
+          "url": "https://elainklinikkasaari.fi"
+        },
+        "image": "https://elainklinikkasaari.fi/images/hanna.webp",
+        "url": "https://elainklinikkasaari.fi/henkilokunta/",
+        "description": "Veterinarian since 2024, at Eläinklinikka Saari since August 2026. Special interests: internal medicine, dermatology, soft-tissue surgery and exotic mammals.",
+        "knowsAbout": ["Internal Medicine", "Veterinary Dermatology", "Soft Tissue Surgery", "Exotic Animal Medicine"],
+        "hasCredential": [
+          {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Doctor of Veterinary Medicine"}
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Eesti Maaülikool",
+          "address": {"@type": "PostalAddress", "addressLocality": "Tartu", "addressCountry": "EE"}
+        }
       }
     ],
     "knowsAbout": ["Veterinary Dentistry", "Veterinary Cardiology", "Veterinary Surgery", "Veterinary Dermatology", "Veterinary Ophthalmology", "Veterinary Internal Medicine", "Veterinary Orthopedics", "Veterinary Anesthesiology"],
@@ -305,7 +327,7 @@
   <link rel="preload" as="image" href="/images/logo.png">
   <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
   <link rel="preload" as="image" href="/media/clinic-poster.jpg">
-  <link rel="stylesheet" href="/css/style.css?v=20260823a">
+  <link rel="stylesheet" href="/css/style.css?v=20260828a">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -661,6 +683,12 @@ a.hero-badge{text-decoration:none}
           <h3>Merja Autio</h3>
           <p class="role" data-i18n="role.vet">Veterinarian</p>
           <p class="bio" data-i18n="bio.merja">Soft tissue surgery and exotic animals. Graduated 2025 from Eesti Maaülikool.</p>
+        </div>
+        <div class="team-card team-card-clickable" onclick="openVetProfile('hanna')">
+          <div class="team-avatar"><img src="/images/hanna.webp" alt="Hanna Takkinen" width="800" height="800" loading="lazy"></div>
+          <h3>Hanna Takkinen</h3>
+          <p class="role" data-i18n="role.vet">Veterinarian</p>
+          <p class="bio" data-i18n="bio.hanna">Internal medicine, dermatology and soft-tissue surgery. Exotic mammals and fearful patients.</p>
         </div>
       </div>
 
@@ -1713,7 +1741,7 @@ a.hero-badge{text-decoration:none}
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20260823a"></script>
+  <script src="/js/main.js?v=20260828a"></script>
 
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">

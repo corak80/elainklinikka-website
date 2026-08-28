@@ -110,6 +110,11 @@ const personDescriptions = {
     sv: 'Veterinär sedan 2024. Särskilda intressen: mjukdelskirurgi och exotiska djur.',
     en: 'Veterinarian since 2024. Special interests: soft tissue surgery and exotic animals.',
   },
+  'Hanna Takkinen': {
+    fi: 'Eläinlääkäri vuodesta 2024, Eläinklinikka Saaressa elokuusta 2026. Erityiset kiinnostuksen kohteet: sisätaudit, dermatologia, pehmytkudoskirurgia ja eksoottiset nisäkkäät.',
+    sv: 'Veterinär sedan 2024, vid Djurklinik Saari sedan augusti 2026. Särskilda intressen: invärtesmedicin, dermatologi, mjukdelskirurgi och exotiska däggdjur.',
+    en: 'Veterinarian since 2024, at Eläinklinikka Saari since August 2026. Special interests: internal medicine, dermatology, soft-tissue surgery and exotic mammals.',
+  },
 };
 
 // --- 4. Helper functions ---
