@@ -391,14 +391,17 @@ const articles = [
     category: 'health',
     date: '2026',
     publishDate: '2026-02-05',
-    sections: ['intro', 'stages.title', 'stages.text', 'symptoms.title', 'symptoms.text', 'treatment.title', 'treatment.text'],
+    sections: ["intro", "symptoms.title", "symptoms.text", "causes.title", "causes.text", "diagnosis.title", "diagnosis.text", "stages.title", "stages.text", "treatment.title", "treatment.text", "diet.title", "diet.text", "prognosis.title", "prognosis.text", "endstage.title", "endstage.text", "monitoring.title", "monitoring.text", "prevention.title", "prevention.text", "contact.title", "contact.text"],
     prefix: 'article.kidney',
     sources: [
       { text: 'International Renal Interest Society (IRIS): IRIS Staging of CKD and treatment recommendations.', url: 'https://www.iris-kidney.com/iris-guidelines-1', label: 'iris-kidney.com' },
       { text: 'Sparkes A.H. ym. (2016): ISFM Consensus Guidelines on the Diagnosis and Management of Feline Chronic Kidney Disease. Journal of Feline Medicine and Surgery 18(3):219–239.', url: 'https://doi.org/10.1177/1098612X16631234', label: 'doi.org' },
       { text: 'IDEXX: SDMA and IRIS — early detection and staging of chronic kidney disease.', url: 'https://www.idexx.com/en/veterinary/reference-laboratories/sdma/sdma-iris/', label: 'idexx.com' },
       { text: 'Elliott J. ym. (2000): Survival of cats with naturally occurring chronic renal failure — effect of dietary management. Journal of Small Animal Practice 41(6):235–242.', url: 'https://doi.org/10.1111/j.1748-5827.2000.tb03932.x', label: 'doi.org' },
-      { text: 'Ross S.J. ym. (2006): Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats. Journal of the American Veterinary Medical Association 229(6):949–957.', url: 'https://avmajournals.avma.org/view/journals/javma/229/6/javma.229.6.949.xml', label: 'avma.org' }
+      { text: 'Ross S.J. ym. (2006): Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats. Journal of the American Veterinary Medical Association 229(6):949–957.', url: 'https://avmajournals.avma.org/view/journals/javma/229/6/javma.229.6.949.xml', label: 'avma.org' },
+      { text: "Boyd L.M. ym. (2008): Survival in cats with naturally occurring chronic kidney disease (2000–2002). Journal of Veterinary Internal Medicine 22(5):1111–1117.", url: 'https://doi.org/10.1111/j.1939-1676.2008.0163.x', label: 'doi.org' },
+      { text: "O'Neill D.G. ym. (2013): Chronic kidney disease in dogs in UK veterinary practices: prevalence, risk factors, and survival. Journal of Veterinary Internal Medicine 27(4):814–821.", url: 'https://doi.org/10.1111/jvim.12090', label: 'doi.org' },
+      { text: "Jacob F. ym. (2002): Clinical evaluation of dietary modification for treatment of spontaneous chronic renal failure in dogs. Journal of the American Veterinary Medical Association 220(8):1163–1170.", url: 'https://doi.org/10.2460/javma.2002.220.1163', label: 'doi.org' }
     ]
   },
   {
@@ -446,13 +449,15 @@ const articles = [
     category: 'emergency',
     date: '2026',
     publishDate: '2026-02-10',
-    sections: ['intro', 'symptoms.title', 'symptoms.text', 'danger.title', 'danger.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
+    sections: ["intro", "symptoms.title", "symptoms.text", "onset.title", "onset.text", "causes.title", "causes.text", "selfheal.title", "selfheal.text", "diagnosis.title", "diagnosis.text", "treatment.title", "treatment.text", "cost.title", "cost.text", "recovery.title", "recovery.text", "cat.title", "cat.text", "prevention.title", "prevention.text", "contact.title", "contact.text"],
     prefix: 'article.pyometra',
     sources: [
       { text: 'Hagman R. (2018): Pyometra in Small Animals. Veterinary Clinics of North America: Small Animal Practice 48(4):639–661.', url: 'https://www.vetsmall.theclinics.com/article/S0195-5616(18)30026-3/fulltext', label: 'theclinics.com' },
       { text: 'Jitpean S. ym. (2014): Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Veterinary Research 10:6.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3892096/', label: 'ncbi.nlm.nih.gov' },
       { text: 'Merck Veterinary Manual: Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals.', url: 'https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/cystic-endometrial-hyperplasia-pyometra-complex-in-small-animals', label: 'merckvetmanual.com' },
-      { text: 'Cornell University Riney Canine Health Center: Pyometra.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/pyometra', label: 'vet.cornell.edu' }
+      { text: 'Cornell University Riney Canine Health Center: Pyometra.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/pyometra', label: 'vet.cornell.edu' },
+      { text: "Egenvall A. ym. (2001): Breed risk of pyometra in insured dogs in Sweden. Journal of Veterinary Internal Medicine 15(6):530–538.", url: 'https://doi.org/10.1111/j.1939-1676.2001.tb01587.x', label: 'doi.org' },
+      { text: "Jitpean S. ym. (2012): Breed variations in the incidence of pyometra and mammary tumours in Swedish dogs. Reproduction in Domestic Animals 47(Suppl 6):347–350.", url: 'https://doi.org/10.1111/rda.12103', label: 'doi.org' }
     ]
   },
   {
@@ -613,9 +618,8 @@ const articles = [
     category: 'health',
     date: '2026',
     publishDate: '2026-07-28',
-    sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'risk.title', 'risk.text', 'parasites.title', 'parasites.text', 'travel.title', 'travel.text', 'cta'],
+    sections: ["intro", "catoften.title", "catoften.text", "kitten.title", "kitten.text", "indoor.title", "indoor.text", "catsigns.title", "catsigns.text", "dogoften.title", "dogoften.text", "puppy.title", "puppy.text", "fecal.title", "fecal.text", "parasites.title", "parasites.text", "product.title", "product.text", "vaccine.title", "vaccine.text", "travel.title", "travel.text", "cta"],
     prefix: 'article.deworming',
-    htmlSections: ['dogs.text', 'cats.text', 'risk.text', 'parasites.text', 'travel.text'],
     sources: [
       { text: 'ESCCAP: Guideline 01 — Worm Control in Dogs and Cats (European Scientific Counsel Companion Animal Parasites).', url: 'https://www.esccap.org/guidelines/gl1/', label: 'esccap.org' },
       { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
