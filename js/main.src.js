@@ -101,9 +101,9 @@ const translations = {
     en: 'Est. 1989'
   },
   'hero.badge.team': {
-    fi: '13 ammattilaista',
-    sv: '13 medarbetare',
-    en: '13 Professionals'
+    fi: '14 ammattilaista',
+    sv: '14 medarbetare',
+    en: '14 Professionals'
   },
 
   // About
