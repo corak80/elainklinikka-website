@@ -2866,16 +2866,8 @@ function initSmoothScroll() {
 function initPriceAccordion() {
   document.querySelectorAll('.price-category-header').forEach(header => {
     header.addEventListener('click', () => {
-      const category = header.parentElement;
-      const wasOpen = category.classList.contains('open');
-
-      // Close all
-      document.querySelectorAll('.price-category').forEach(c => c.classList.remove('open'));
-
-      // Toggle current
-      if (!wasOpen) {
-        category.classList.add('open');
-      }
+      // All groups are open by default (prices visible + indexable); click toggles just this one
+      header.parentElement.classList.toggle('open');
     });
   });
 
