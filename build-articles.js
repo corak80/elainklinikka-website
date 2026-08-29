@@ -201,6 +201,29 @@ const articles = [
     ]
   },
   {
+    slug: 'koiran-korvatulehdus',
+    slugSv: 'oroninflammation-hund',
+    slugEn: 'dog-ear-infection',
+    titleKey: 'article.earinfection.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '2026',
+    publishDate: '2026-08-29',
+    sections: ["intro", "symptoms.title", "symptoms.text", "causes.title", "causes.text", "self.title", "self.text", "visit.title", "visit.text", "video.title", "video.text", "cost.title", "cost.text", "recurrent.title", "recurrent.text", "home.title", "home.text", "cat.title", "cat.text", "contact.title", "contact.text"],
+    htmlSections: ["video.text", "cost.text", "recurrent.text", "contact.text"],
+    prefix: 'article.earinfection',
+    metaDesc: {
+      fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi tulehdus ei parane itsestään, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
+      sv: 'Öroninflammation hos hund: symtom, orsaker, behandling och pris. Varför den inte läker själv, när öronspolning (449–489 €) behövs och hur du förebygger återfall.',
+      en: 'Ear infections in dogs: symptoms, causes, treatment and cost. Why they do not heal on their own, when an ear flush (€449–489) is needed and how to prevent recurrence.'
+    },
+    sources: [
+      { text: 'Hoff S. (2025): Otitis Externa in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-externa/otitis-externa-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Hoff S. (2025): Otitis Media and Interna in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-media-and-interna/otitis-media-and-interna-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11:2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' }
+    ]
+  },
+  {
     slug: 'kipulääkeinfuusio',
     slugSv: 'smartlindringsinfusion',
     slugEn: 'pain-relief-infusion',
@@ -723,7 +746,8 @@ function loadTranslations() {
 const relatedArticles = {
   'tta-leikkaus': ['lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'lateral-suture': ['tta-leikkaus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
-  'video-otoskopia': ['gastroskopia', 'ruoka-allergiat', 'anestesiaturvallisuus'],
+  'video-otoskopia': ['koiran-korvatulehdus', 'ruoka-allergiat', 'anestesiaturvallisuus'],
+  'koiran-korvatulehdus': ['video-otoskopia', 'ruoka-allergiat', 'ripuli'],
   'kipulääkeinfuusio': ['anestesiaturvallisuus', 'hypotermia', 'tta-leikkaus'],
   'ripuli': ['ruoka-allergiat', 'viljaton-ruoka', 'gastroskopia'],
   'avoin-valtimotiehyt-pda': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'hypotermia'],
@@ -754,6 +778,7 @@ const relatedArticles = {
 const articleToServices = {
   'tta-leikkaus': ['ortopedia', 'kirurgia'],
   'video-otoskopia': ['tahystykset', 'ihotaudit'],
+  'koiran-korvatulehdus': ['ihotaudit', 'tahystykset'],
   'kipulääkeinfuusio': ['anestesia', 'kirurgia'],
   'ripuli': ['sisataudit'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
@@ -792,7 +817,7 @@ const serviceMeta = {
                       pathFi: '/palvelut/sydantutkimukset/', pathSv: '/sv/tjanster/hjartundersokningar/',  pathEn: '/en/services/cardiac-examinations/' },
   hammashoito:      { fi: 'Hammashoito',          sv: 'Tandvård',           en: 'Dental Care',
                       pathFi: '/palvelut/hammashoito/',     pathSv: '/sv/tjanster/tandvard/',              pathEn: '/en/services/dental-care/' },
-  ihotaudit:        { fi: 'Ihotaudit ja allergiat', sv: 'Dermatologi och allergier', en: 'Dermatology & Allergies',
+  ihotaudit:        { fi: 'Ihotaudit, allergiat ja korvatulehdukset', sv: 'Hudsjukdomar, allergier och öroninflammationer', en: 'Skin diseases, allergies and ear infections',
                       pathFi: '/palvelut/ihotaudit/',       pathSv: '/sv/tjanster/hudsjukdomar/',          pathEn: '/en/services/dermatology/' },
   rehumyynti:       { fi: 'Rehumyynti',           sv: 'Foderförsäljning',   en: 'Therapeutic Diets',
                       pathFi: '/palvelut/rehumyynti/',      pathSv: '/sv/tjanster/foderforsaljning/',      pathEn: '/en/services/prescription-diets/' },
@@ -2204,25 +2229,27 @@ const servicePages = [
     slug: 'ihotaudit',
     slugSv: 'hudsjukdomar',
     slugEn: 'dermatology',
-    title: 'Ihotaudit ja allergiat | Eläinklinikka Saari',
-    h1: 'Ihotaudit ja allergiat',
+    title: 'Ihotaudit, allergiat ja korvatulehdukset | Eläinklinikka Saari',
+    ogTitle: 'Ihotaudit, allergiat ja korvatulehdukset | Eläinklinikka Saari',
+    h1: 'Ihotaudit, allergiat ja korvatulehdukset',
     metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
     icon: '🔬',
     sections: [
       { heading: 'Yleisimmät iho-ongelmat', text: 'Ihotaudit ovat yksi yleisimmistä syistä hakeutua eläinlääkäriin. Joka kymmenennellä suomalaisella koiralla on allergioita, jotka usein oireilevat ihotulehduksina ja korvatulehduksina. Tyypillisiä oireita ovat tassujen nuoleminen, korvien raapiminen, kasvojen hankaaminen, vatsan alueen punoitus ja toistuva korvatulehdus.' },
       { heading: 'Allergian tutkiminen', text: 'Allergiaa epäiltäessä pyritään ensin poissulkemaan ruoka-aineet eliminaatiodieetillä. Jos ruoka-allergia suljetaan pois, kyseessä voi olla atooppinen ihottuma (ympäristöallergia). Tarvittaessa otetaan allergiaverinäytteet, joilla voidaan tunnistaa allergiaa aiheuttavat aineet. Iho- ja korvanäytteitä tutkitaan klinikan omassa laboratoriossa.' },
-      { heading: 'Korvatulehdukset', text: 'Toistuvat korvatulehdukset liittyvät usein taustalla olevaan allergiaan. Klinikallamme on käytössä video-otoskopia, jolla korvaonteloa voidaan tutkia ja puhdistaa suurennetulla videokuvalla. Näkyvyys on moninkertainen perinteiseen tutkimukseen verrattuna, mikä mahdollistaa tehokkaamman hoidon.' },
+      { heading: 'Korvatulehdukset', text: 'Koiran korvatulehdus on yksi yleisimmistä syistä käyntiin: pään ravistelu, korvien raapiminen, paha haju ja erite. Vastaanotolla korva tutkitaan otoskoopilla ja eritteestä otetaan näyte mikroskooppiin, jotta hoito osuu oikeaan — hiiva, bakteeri vai korvapunkki. Toistuvat korvatulehdukset liittyvät useimmiten taustalla olevaan allergiaan, joka selvitetään. Kroonisiin ja tukkeutuneisiin korviin klinikallamme on käytössä video-otoskopia ja korvahuuhtelu nukutuksessa (449–489 €). Lue lisää: <a href="/articles/koiran-korvatulehdus.html">Koiran korvatulehdus — oireet, syyt, hoito ja hinta</a>.' },
       { heading: 'Hoitovaihtoehdot', text: 'Ihotautien hoito räätälöidään yksilöllisesti. Hoitoon voi kuulua eliminaatiodieetit, allergiaspesifinen immunoterapia (siedätyshoito), paikallishoidot, lääkitys ja ruokavaliomuutokset. Tavoitteena on löytää syy, ei vain lievittää oireita.' },
       { heading: 'Usein kysyttyä ihotaudeista', text: '<strong>Voiko allergiasta parantua?</strong> Allergia on krooninen sairaus, josta ei yleensä parannuta kokonaan. Hyvällä hoidolla oireet saadaan kuitenkin hallintaan ja lemmikin elämänlaatu pysyy hyvänä. Siedätyshoito (immunoterapia) voi vähentää allergian voimakkuutta merkittävästi — jopa 60–70 % potilaista hyötyy siedätyshoidosta. Hoito on pitkäkestoinen, mutta voi vähentää lääkityksen tarvetta pysyvästi. <strong>Kuinka nopeasti hoitovaste näkyy?</strong> Ihotautien hoitovaste riippuu diagnoosista. Bakteeri-ihotulehdus vastaa yleensä antibioottikuuriin 2–4 viikossa. Eliminaatiodieetti vaatii 6–8 viikon tiukan noudattamisen ennen kuin tuloksia voidaan arvioida. Siedätyshoito on hitain — ensimmäiset tulokset näkyvät usein vasta 6–12 kuukauden kuluessa.' },
     ],
     sv: {
-      title: 'Hudsjukdomar och allergier | Djurklinik Saari',
-      h1: 'Hudsjukdomar och allergier',
+      title: 'Hudsjukdomar, allergier och öroninflammationer | Djurklinik Saari',
+      ogTitle: 'Hudsjukdomar, allergier och öroninflammationer | Djurklinik Saari',
+      h1: 'Hudsjukdomar, allergier och öroninflammationer',
       metaDesc: 'Hudsjukdomar och allergier hos hund och katt i Vasa. Allergitester, öroninflammationer, klåda, hudinfektioner. Diagnos och behandling. Eläinklinikka Saari.',
       sections: [
         { heading: 'De vanligaste hudproblemen', text: 'Hudsjukdomar är en av de vanligaste orsakerna till veterinärbesök. Var tionde finsk hund har allergier som ofta yttrar sig som hudinfektioner och öroninflammationer. Typiska symtom är slickande av tassar, klösande av öron, gnuggande av ansiktet, rodnad på buken och återkommande öroninflammation.' },
         { heading: 'Allergiutredning', text: 'Vid misstanke om allergi försöker man först utesluta livsmedel med eliminationsdiet. Om födoämnesallergi utesluts kan det vara atopisk dermatit (miljöallergi). Vid behov tas allergiblodprov för att identifiera allergiframkallande ämnen. Hud- och öronprov undersöks i klinikens eget laboratorium.' },
-        { heading: 'Öroninflammationer', text: 'Återkommande öroninflammationer hänger ofta samman med en underliggande allergi. Vår klinik använder video-otoskopi, som gör det möjligt att undersöka och rengöra hörselgången med förstorad videobild. Sikten är mångdubbelt bättre jämfört med traditionell undersökning, vilket möjliggör effektivare behandling.' },
+        { heading: 'Öroninflammationer', text: 'Öroninflammation hos hund är en av de vanligaste orsakerna till besök: huvudskakningar, klåda i öronen, dålig lukt och sekret. På mottagningen undersöks örat med otoskop och ett prov från sekretet undersöks i mikroskop så att behandlingen träffar rätt — jäst, bakterier eller öronskabb. Återkommande öroninflammationer hänger oftast samman med en underliggande allergi, som utreds. För kroniska och igensatta öron har vi video-otoskopi och öronspolning under narkos (449–489 €). Läs mer: <a href="/sv/artiklar/oroninflammation-hund.html">Öroninflammation hos hund — symtom, orsaker, behandling och pris</a>.' },
         { heading: 'Behandlingsalternativ', text: 'Behandlingen av hudsjukdomar skräddarsys individuellt. Behandlingen kan inkludera eliminationsdieter, allergenspecifik immunterapi (hyposensibilisering), lokalbehandlingar, medicinering och kostförändringar. Målet är att hitta orsaken, inte bara lindra symtomen.' },
         { heading: 'Vanliga frågor om hudsjukdomar', text: '<strong>Kan man bli av med allergi?</strong> Allergi är en kronisk sjukdom som vanligen inte kan botas helt. Med god behandling kan symtomen dock kontrolleras och husdjurets livskvalitet förbli god. Hyposensibilisering (immunterapi) kan minska allergins intensitet avsevärt — upp till 60–70 % av patienterna drar nytta av behandlingen. Behandlingen är långvarig men kan minska behovet av medicinering permanent. <strong>Hur snabbt syns behandlingsresultat?</strong> Behandlingssvaret vid hudsjukdomar beror på diagnosen. Bakteriell hudinfektion svarar vanligen på antibiotikakur inom 2–4 veckor. Eliminationsdiet kräver 6–8 veckors strikt efterlevnad innan resultat kan bedömas. Hyposensibilisering är långsammast — de första resultaten syns ofta först efter 6–12 månader.' },
       ],
@@ -2234,13 +2261,14 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Dermatology | Saari Animal Clinic',
-      h1: 'Skin Diseases and Allergies',
+      title: 'Skin Diseases, Allergies and Ear Infections | Saari Animal Clinic',
+      ogTitle: 'Skin Diseases, Allergies and Ear Infections | Saari Animal Clinic',
+      h1: 'Skin Diseases, Allergies and Ear Infections',
       metaDesc: 'Dog and cat dermatology and allergies in Vaasa. Allergy testing, ear infections, itching, skin infections. Diagnosis and treatment. Eläinklinikka Saari.',
       sections: [
         { heading: 'The most common skin problems', text: 'Skin diseases are one of the most common reasons for veterinary visits. One in ten Finnish dogs has allergies, which often manifest as skin infections and ear infections. Typical symptoms include paw licking, ear scratching, face rubbing, redness on the belly, and recurrent ear infections.' },
         { heading: 'Allergy investigation', text: 'When allergy is suspected, food allergens are first ruled out with an elimination diet. If food allergy is excluded, atopic dermatitis (environmental allergy) may be the cause. Allergy blood tests can be taken to identify allergens if needed. Skin and ear samples are examined in the clinic\'s own laboratory.' },
-        { heading: 'Ear infections', text: 'Recurrent ear infections are often linked to an underlying allergy. Our clinic uses video otoscopy, which enables examination and cleaning of the ear canal with magnified video imaging. Visibility is many times greater compared to traditional examination, enabling more effective treatment.' },
+        { heading: 'Ear infections', text: 'A dog ear infection is one of the most common reasons for a visit: head shaking, ear scratching, bad smell and discharge. At the appointment the ear is examined with an otoscope and a sample of the discharge is checked under the microscope so that treatment hits the right target — yeast, bacteria or ear mites. Recurrent ear infections are most often linked to an underlying allergy, which we work up. For chronic and blocked ears we offer video-otoscopy and ear flushing under anaesthesia (€449–489). Read more: <a href="/en/articles/dog-ear-infection.html">Ear Infections in Dogs — Symptoms, Causes, Treatment and Cost</a>.' },
         { heading: 'Treatment options', text: 'Treatment of skin diseases is individually tailored. Treatment may include elimination diets, allergen-specific immunotherapy (desensitisation), topical treatments, medication, and dietary changes. The goal is to find the cause, not just relieve symptoms.' },
         { heading: 'Frequently asked questions about skin diseases', text: '<strong>Can allergies be cured?</strong> Allergy is a chronic condition that usually cannot be completely cured. However, with good management, symptoms can be controlled and your pet\'s quality of life maintained. Allergen-specific immunotherapy (desensitisation) can significantly reduce the severity of allergies — up to 60–70% of patients benefit from the treatment. The treatment is long-term but can permanently reduce the need for medication. <strong>How quickly do treatment results appear?</strong> Treatment response for skin diseases depends on the diagnosis. Bacterial skin infections typically respond to antibiotic treatment within 2–4 weeks. An elimination diet requires 6–8 weeks of strict adherence before results can be assessed. Immunotherapy is the slowest — initial results often appear only after 6–12 months.' },
       ],
@@ -2251,7 +2279,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['ruoka-allergiat', 'video-otoskopia', 'viljaton-ruoka'],
+    relatedArticles: ['koiran-korvatulehdus', 'ruoka-allergiat', 'video-otoskopia'],
     schemaService: 'Veterinary Dermatology'
   },
   {

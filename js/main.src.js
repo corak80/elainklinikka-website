@@ -940,6 +940,118 @@ const translations = {
     en: 'If your pet scratches its ears repeatedly, there is a bad smell or discharge from the ears, the head is tilted, or ear infections keep returning despite treatment — video-otoscopy may be the key to solving the problem. Book an appointment for examination, and we will investigate the situation and plan an effective treatment strategy.'
   },
 
+  // Ear infection article (koiran-korvatulehdus)
+  "article.earinfection.title": {
+    fi: "Koiran korvatulehdus – oireet, syyt, hoito ja hinta",
+    sv: "Öroninflammation hos hund – symtom, orsaker, behandling och pris",
+    en: "Ear Infections in Dogs — Symptoms, Causes, Treatment and Cost"
+  },
+  "article.earinfection.intro": {
+    fi: "Koiran korvatulehdus (otitis externa) on yksi yleisimmistä syistä tulla eläinlääkäriin. Koira ravistelee päätään, raapii korviaan, ja korvasta haisee tai vuotaa eritettä. Korvatulehdus ei parane itsestään, mutta kunnolla tutkittuna ja hoidettuna se paranee yleensä parissa viikossa – ja toistuvan tulehduksen taustalta löytyy lähes aina syy, jota voidaan hoitaa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saaressa ja miten tulehduksen uusiutumista voi ehkäistä.",
+    sv: "Öroninflammation hos hund (otitis externa) är en av de vanligaste orsakerna till ett veterinärbesök. Hunden skakar på huvudet, kliar sig i öronen och örat luktar illa eller rinner. En öroninflammation läker inte av sig själv, men ordentligt undersökt och behandlad går den oftast över på ett par veckor – och bakom en öroninflammation som återkommer finns nästan alltid en orsak som går att behandla. Här berättar vi hur du känner igen en öroninflammation, vad som händer hos veterinären, vad behandlingen kostar på Djurklinik Saari och hur du förebygger att den kommer tillbaka.",
+    en: "An ear infection in dogs (otitis externa) is one of the most common reasons for a vet visit. The dog shakes its head, scratches its ears, and the ear smells bad or discharges. An ear infection does not heal on its own, but properly examined and treated it usually clears within a couple of weeks — and behind a recurring infection there is almost always a cause that can be treated. This article explains how to recognise an ear infection, what happens at the vet, what treatment costs at Saari Animal Clinic, and how to prevent it from coming back."
+  },
+  "article.earinfection.symptoms.title": {
+    fi: "Mitkä ovat koiran korvatulehduksen oireet?",
+    sv: "Vilka är symtomen på öroninflammation hos hund?",
+    en: "What are the symptoms of an ear infection in dogs?"
+  },
+  "article.earinfection.symptoms.text": {
+    fi: "Tyypillisimmät merkit ovat pään ravistelu, korvien raapiminen ja hankaaminen lattiaa tai huonekaluja vasten, paha haju korvasta, kellertävä, ruskea tai tumma erite, korvakäytävän ja korvalehden punoitus sekä arkuus – koira saattaa vinkaista tai vetää päänsä pois, kun korvaan kosketaan. Pitkittyneessä tulehduksessa korvakäytävän iho paksuuntuu, ja käytävä voi mennä lähes umpeen. Jos koira kallistaa päätään, kävelee horjuen tai sen silmät nykivät edestakaisin, tulehdus on voinut levitä välikorvaan tai sisäkorvaan – silloin eläinlääkäriin on lähdettävä heti.",
+    sv: "De typiska tecknen är att hunden skakar på huvudet, kliar sig i öronen och gnider dem mot golvet eller möblerna, att det luktar illa från örat, att det kommer gulaktig, brun eller mörk flytning, att hörselgången och öronlappen är röda och att örat ömmar – hunden kan gnälla till eller dra undan huvudet när man rör vid örat. Vid en långvarig inflammation blir huden i hörselgången förtjockad och gången kan vara nästan igenväxt. Om hunden håller huvudet på sned, går ostadigt eller ögonen darrar (nystagmus) kan inflammationen ha spridit sig till mellan- eller innerörat – uppsök veterinär genast.",
+    en: "The most typical signs are head shaking, scratching and rubbing the ears on the floor or furniture, a bad smell from the ear, yellowish, brown or dark discharge, redness of the ear canal and ear flap, and tenderness — the dog may yelp or pull its head away when the ear is touched. In a prolonged infection the skin of the ear canal thickens and the canal can be almost closed. If the dog tilts its head, walks unsteadily or its eyes flicker, the infection may have spread to the middle or inner ear — see a vet immediately."
+  },
+  "article.earinfection.causes.title": {
+    fi: "Mistä koiran korvatulehdus johtuu?",
+    sv: "Varför får hundar öroninflammation?",
+    en: "Why do dogs get ear infections?"
+  },
+  "article.earinfection.causes.text": {
+    fi: "Korvatulehdus on lähes aina seurausta jostakin muusta. Yleisin taustasyy on allergia – ruoka- tai ympäristöallergia näkyy usein ensimmäisenä juuri korvissa. Muita syitä ovat korvapunkit, vierasesine korvakäytävässä (esimerkiksi heinänkorsi tai vihne), ihon talirauhasten toimintahäiriöt ja hormonaaliset sairaudet, kuten kilpirauhasen vajaatoiminta. Altistavia tekijöitä ovat luppakorvat, karvaiset ja ahtaat korvakäytävät (esimerkiksi cockerspanieli, kultainennoutaja, villakoira ja ranskanbulldoggi) sekä kosteus – uiminen ja peseminen. Kostea, lämmin ja tulehtunut korvakäytävä on ihanteellinen kasvualusta hiivalle (Malassezia) ja bakteereille, jotka pahentavat ja pitkittävät tulehdusta.",
+    sv: "En öroninflammation är nästan alltid en följd av något annat. Den vanligaste bakomliggande orsaken är allergi – foder- eller miljöallergi visar sig ofta först i öronen. Andra orsaker är öronskabb, en främmande kropp i hörselgången (till exempel ett gräsax), störningar i hudens talgkörtlar och hormonella sjukdomar som hypotyreos, alltså underfunktion i sköldkörteln. Hängande öron, håriga och trånga hörselgångar (till exempel cocker spaniel, golden retriever, pudel och fransk bulldogg) och fukt – simning och bad – ökar risken. En fuktig, varm och inflammerad hörselgång är en idealisk grogrund för jästsvamp (Malassezia) och bakterier, som förvärrar inflammationen och håller den vid liv.",
+    en: "An ear infection is almost always the result of something else. The most common underlying cause is allergy — food or environmental allergy often shows first in the ears. Other causes are ear mites, a foreign body in the ear canal (a grass awn, for example), skin oil-gland disorders and hormonal diseases such as hypothyroidism. Predisposing factors are floppy ears, hairy and narrow ear canals (Cocker Spaniel, Golden Retriever, Poodle, French Bulldog, for example) and moisture — swimming and bathing. A moist, warm, inflamed ear canal is an ideal breeding ground for yeast (Malassezia) and bacteria, which worsen and perpetuate the infection."
+  },
+  "article.earinfection.self.title": {
+    fi: "Paraneeko koiran korvatulehdus itsestään?",
+    sv: "Läker öroninflammation hos hund av sig själv?",
+    en: "Does a dog ear infection heal on its own?"
+  },
+  "article.earinfection.self.text": {
+    fi: "Käytännössä ei koskaan. Hoitamaton korvatulehdus kroonistuu: korvakäytävän iho paksuuntuu ja arpeutuu, tulehdus voi levitä välikorvaan, ja pahimmillaan korvakäytävä kasvaa umpeen niin, että ainoa hoito on leikkaus. Älä myöskään aloita korvatippoja omin päin kotona: väärä lääke (antibiootti hiivatulehdukseen tai pelkkä kortisoni bakteeritulehdukseen) ei tehoa, ja osa korvatipoista vaurioittaa sisäkorvaa, jos tärykalvo on puhjennut – sen voi tarkistaa vain otoskoopilla. Reseptivapaata ”korvatulehduslääkettä” ei ole olemassa; apteekin korvanpuhdistusaineet sopivat vain terveen korvan puhdistukseen. Jos koira ravistelee päätään tai korva haisee, varaa aika eläinlääkärille – mitä aikaisemmin tulehdus hoidetaan, sitä nopeammin ja edullisemmin se paranee.",
+    sv: "Praktiskt taget aldrig. En obehandlad öroninflammation blir kronisk: huden i hörselgången förtjockas och ärras, inflammationen kan sprida sig till mellanörat och i värsta fall växer hörselgången igen så att operation är den enda behandlingen. Börja inte heller med örondroppar på egen hand hemma: fel medicin (antibiotika mot en jästsvampinfektion, eller enbart kortison mot en bakteriell) hjälper inte, och en del örondroppar skadar innerörat om trumhinnan har spruckit – och det kan bara kontrolleras med otoskop. Det finns ingen receptfri ”medicin mot öroninflammation”; apotekets öronrengöringsmedel är bara till för att sköta ett friskt öra. Skakar hunden på huvudet eller luktar örat, boka tid hos veterinären – ju tidigare inflammationen behandlas, desto snabbare och billigare läker den.",
+    en: "Practically never. An untreated ear infection becomes chronic: the skin of the ear canal thickens and scars, the infection can spread to the middle ear, and at worst the canal closes so that surgery is the only treatment. Do not start ear drops on your own at home either: the wrong medicine (antibiotics for a yeast infection, or steroid alone for a bacterial one) will not work, and some ear drops damage the inner ear if the eardrum is ruptured — which can only be checked with an otoscope. There are no over-the-counter \"ear infection medicines\"; pharmacy ear cleaners are only suitable for maintaining a healthy ear. If your dog is shaking its head or the ear smells, book a vet appointment — the earlier the infection is treated, the faster and cheaper it heals."
+  },
+  "article.earinfection.visit.title": {
+    fi: "Miten koiran korvatulehdus tutkitaan ja hoidetaan eläinlääkärissä?",
+    sv: "Hur undersöks och behandlas öroninflammation hos veterinären?",
+    en: "How is an ear infection examined and treated at the vet?"
+  },
+  "article.earinfection.visit.text": {
+    fi: "Vastaanotolla korvakäytävä ja tärykalvo tutkitaan otoskoopilla. Korvaeritteestä otetaan näyte, joka katsotaan mikroskoopilla saman tien klinikallamme: siitä nähdään, onko kyseessä hiiva, bakteeri, korvapunkki vai näiden yhdistelmä – ja hoito valitaan löydöksen mukaan, ei arvaamalla. Korva puhdistetaan, ja kotiin annetaan korvatipat, joissa on tarpeen mukaan sienilääkettä, antibioottia ja tulehdusta rauhoittavaa kortisonia. Hoito kestää yleensä 1–2 viikkoa, ja jälkitarkastuksessa varmistamme otoskoopilla ja tarvittaessa uudella näytteellä, että tulehdus on parantunut – oireiden häviäminen ei vielä tarkoita, että korva on terve. Jos korva on hyvin kipeä, tutkimus ja puhdistus voidaan tehdä kevyessä rauhoituksessa.",
+    sv: "På mottagningen undersöker vi hörselgången och trumhinnan med otoskop. Ett prov av flytningen från örat tittar vi på i mikroskop på en gång, här på kliniken: det visar om det handlar om jästsvamp, bakterier, öronskabb eller en kombination – och behandlingen väljs enligt fyndet, inte på gissning. Örat rengörs och hunden får med sig örondroppar hem som efter behov innehåller svampmedel, antibiotika och inflammationsdämpande kortison. Behandlingen tar oftast 1–2 veckor, och vid kontrollbesöket bekräftar vi med otoskop och vid behov ett nytt prov att inflammationen är borta – att symtomen försvinner betyder ännu inte att örat är friskt. Om örat är mycket ömt kan undersökningen och rengöringen göras under lätt sedering.",
+    en: "At the appointment the ear canal and eardrum are examined with an otoscope. A sample of the ear discharge is examined under the microscope right away at our clinic: this shows whether it is yeast, bacteria, ear mites or a combination — and treatment is chosen according to the finding, not by guessing. The ear is cleaned and ear drops are sent home, containing antifungal, antibiotic and anti-inflammatory steroid components as needed. Treatment usually lasts 1–2 weeks, and at the re-check we confirm with the otoscope and, if needed, a new sample that the infection has cleared — the disappearance of symptoms does not yet mean the ear is healthy. If the ear is very painful, the examination and cleaning can be done under light sedation."
+  },
+  "article.earinfection.video.title": {
+    fi: "Milloin koira tarvitsee korvahuuhtelun tai video-otoskopian?",
+    sv: "När behövs video-otoskopi och öronspolning?",
+    en: "When are video-otoscopy and an ear flush needed?"
+  },
+  "article.earinfection.video.text": {
+    fi: "Jos tulehdus on krooninen tai uusiutuu hoidosta huolimatta, korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin, tarvitaan perusteellisempi tutkimus. Eläinklinikka Saaressa se tehdään video-otoskoopilla nukutuksessa: ohut kamera näyttää koko korvakäytävän ja tärykalvon suurennettuna näytöllä, korvakäytävä huuhdellaan puhtaaksi eritteestä ja biofilmistä, ja samalla voidaan ottaa näytteitä ja poistaa vierasesineitä. Puhdas korvakäytävä on edellytys sille, että lääke ylipäätään tehoaa. Lue lisää artikkelistamme <a href=\"/articles/video-otoskopia.html\">Video-otoskopia – korvan tähystys</a>.",
+    sv: "Om inflammationen är kronisk eller återkommer trots behandling, om hörselgången är igensatt av flytning eller om trumhinnan inte går att se behövs en grundligare undersökning. På Djurklinik Saari gör vi den med video-otoskop under narkos: en tunn kamera visar en förstorad bild av hela hörselgången och trumhinnan på en skärm, hörselgången spolas ren från flytning och biofilm, och samtidigt kan vi ta prover och avlägsna främmande kroppar. En ren hörselgång är en förutsättning för att medicinen över huvud taget ska verka. Läs mer i vår artikel <a href=\"/sv/artiklar/video-otoskopi.html\">Video-otoskopi – öronendoskopi</a>.",
+    en: "If the infection is chronic or keeps returning despite treatment, the ear canal is blocked with discharge, or the eardrum cannot be seen, a more thorough examination is needed. At Saari Animal Clinic this is done with a video-otoscope under anaesthesia: a thin camera shows a magnified image of the whole ear canal and eardrum on a monitor, the canal is flushed clean of discharge and biofilm, and samples can be taken and foreign bodies removed at the same time. A clean ear canal is a prerequisite for the medication to work at all. Read more in our article <a href=\"/en/articles/video-otoscopy.html\">Video-Otoscopy — Ear Endoscopy</a>."
+  },
+  "article.earinfection.cost.title": {
+    fi: "Paljonko koiran korvatulehduksen hoito maksaa?",
+    sv: "Vad kostar det att behandla öroninflammation hos hund?",
+    en: "How much does treating a dog ear infection cost?"
+  },
+  "article.earinfection.cost.text": {
+    fi: "Korvatulehduskäynti Eläinklinikka Saaressa: korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, 99,79 € + käyntimaksu 38 € = yhteensä 137,79 €. Korvatipat ja muut kotiin annettavat lääkkeet veloitetaan erikseen. Video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 €. Jälkitarkastus veloitetaan vastaanottokäynnin hinnan mukaan. Kaikki hinnat löytyvät <a href=\"/hinnasto/\">hinnastostamme</a>. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajoissa hoidettu korvatulehdus tulee aina edullisemmaksi kuin kroonistunut.",
+    sv: "Ett besök för öroninflammation på Djurklinik Saari: öronundersökning inklusive provtagning och mikroskopi 99,79 € + besöksavgift 38 €, alltså sammanlagt 137,79 €. Örondroppar och eventuella andra mediciner som hunden får med sig hem tillkommer. Video-otoskopisk öronspolning under narkos kostar 449–489 €. Kontrollbesöket debiteras enligt prislistan för mottagningsbesök. Alla priser hittar du i vår <a href=\"/sv/prislista/\">prislista</a>. Vi har direktersättning för kunder hos LähiTapiola, Agria och Pohjola. En öroninflammation som behandlas i tid blir alltid billigare än en kronisk.",
+    en: "An ear-infection visit at Saari Animal Clinic: ear examination including sampling and microscopy €99.79 + visit fee €38, i.e. €137.79 in total. Ear drops and any other medicines sent home are extra. A video-otoscopic ear flush under anaesthesia costs €449–489. The re-check is charged according to the consultation price list. All prices are in our <a href=\"/en/pricelist/\">price list</a>. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. An ear infection treated early is always cheaper than a chronic one."
+  },
+  "article.earinfection.recurrent.title": {
+    fi: "Miksi koiran korvatulehdus uusiutuu jatkuvasti?",
+    sv: "Varför kommer hundens öroninflammation tillbaka?",
+    en: "Why does a dog's ear infection keep coming back?"
+  },
+  "article.earinfection.recurrent.text": {
+    fi: "Kun korvatulehdus palaa kerta toisensa jälkeen, korvatipat hoitavat vain seurausta. Taustalla on useimmiten allergia, ja silloin oikea hoito on allergiaselvitys: eliminaatiodieetti ruoka-allergian poissulkemiseksi sekä tarvittaessa allergiaverikokeet ja siedätyshoito. Muita syitä ovat hormonaaliset sairaudet, korvakäytävän rakenteelliset muutokset ja liian aikaisin lopetettu hoito. Kerromme toistuvien korvatulehdusten selvittelystä sivullamme <a href=\"/palvelut/ihotaudit/\">Ihotaudit, allergiat ja korvatulehdukset</a>.",
+    sv: "När en öroninflammation återkommer gång på gång behandlar örondropparna bara följden. Den bakomliggande orsaken är oftast allergi, och då är rätt behandling en allergiutredning: en eliminationsdiet för att utesluta foderallergi och vid behov allergiblodprov och immunterapi. Andra orsaker är hormonella sjukdomar, strukturella förändringar i hörselgången och en behandling som avslutats för tidigt. Hur vi utreder återkommande öroninflammationer beskriver vi på sidan <a href=\"/sv/tjanster/hudsjukdomar/\">Hudsjukdomar, allergier och öroninflammationer</a>.",
+    en: "When an ear infection keeps returning, ear drops are only treating the consequence. The underlying cause is most often allergy, and then the right treatment is an allergy work-up: an elimination diet to rule out food allergy, and allergy blood tests and immunotherapy if needed. Other causes are hormonal diseases, structural changes in the ear canal and treatment that was stopped too early. We describe the work-up of recurrent infections on our <a href=\"/en/services/dermatology/\">Skin diseases, allergies and ear infections</a> page."
+  },
+  "article.earinfection.home.title": {
+    fi: "Miten hoidan koiran korvia kotona?",
+    sv: "Hur sköter jag hundens öron hemma?",
+    en: "How do I care for my dog's ears at home?"
+  },
+  "article.earinfection.home.text": {
+    fi: "Tervettä korvaa ei tarvitse puhdistaa säännöllisesti – liika puhdistaminen vain ärsyttää sitä. Uimisen tai pesun jälkeen kuivaa korvat ja puhdista ne tarvittaessa eläinlääkärin suosittelemalla korvanpuhdistusaineella: täytä korvakäytävä, hiero korvan tyveä ja anna koiran ravistella ylimääräinen aine pois. Älä koskaan työnnä vanupuikkoa korvakäytävään – se painaa lian syvemmälle ja voi vaurioittaa tärykalvoa. Karvaisten korvakäytävien karvat voi nyppiä tai leikata trimmauksen yhteydessä. Tarkista korvat kerran viikossa: haju, punoitus tai erite on merkki siitä, että korva kannattaa näyttää eläinlääkärille.",
+    sv: "Ett friskt öra behöver inte rengöras regelbundet – för mycket rengöring irriterar det. Torka öronen efter simning och bad och rengör dem vid behov med ett öronrengöringsmedel som veterinären rekommenderat: fyll hörselgången, massera öronbasen och låt hunden skaka ut överskottet. Peta aldrig in en bomullspinne i hörselgången – den trycker smutsen djupare in och kan skada trumhinnan. Hår i håriga hörselgångar kan plockas eller klippas i samband med pälsvården. Kontrollera öronen varje vecka: lukt, rodnad eller flytning är ett tecken på att veterinären bör ta en titt.",
+    en: "A healthy ear does not need regular cleaning — over-cleaning irritates it. After swimming or bathing, dry the ears and, if needed, clean them with an ear cleaner recommended by your vet: fill the canal, massage the base of the ear, and let the dog shake out the excess. Never push a cotton bud into the ear canal — it pushes debris deeper and can damage the eardrum. Hair in hairy ear canals can be plucked or trimmed during grooming. Check the ears weekly: smell, redness or discharge is a sign that the vet should take a look."
+  },
+  "article.earinfection.cat.title": {
+    fi: "Miten kissan korvatulehdus tunnistetaan ja hoidetaan?",
+    sv: "Får katter öroninflammation?",
+    en: "What about ear infections in cats?"
+  },
+  "article.earinfection.cat.text": {
+    fi: "Kissalla korvatulehdukset ovat harvinaisempia kuin koiralla, ja yleisin syy on korvapunkki (Otodectes cynotis) – etenkin pennuilla ja monen kissan talouksissa. Tyypillinen merkki on tumma, kahvinporoja muistuttava lika korvassa ja voimakas kutina. Korvapunkki hoituu tehokkaasti loislääkkeellä, ja kaikki talouden kissat ja koirat hoidetaan samalla kertaa. Aikuisen kissan toistuvan korvatulehduksen taustalla voi olla allergia tai korvakäytävän polyyppi, joten myös kissan korva kannattaa aina tutkituttaa.",
+    sv: "Hos katt är öroninflammation ovanligare än hos hund, och den vanligaste orsaken är öronskabb (Otodectes cynotis) – särskilt hos kattungar och i hushåll med flera katter. Det typiska tecknet är mörkt, kaffesumpsliknande smuts i örat och kraftig klåda. Öronskabb behandlas effektivt med ett antiparasitmedel, och alla katter och hundar i hushållet behandlas samtidigt. Bakom en återkommande öroninflammation hos en vuxen katt kan det finnas allergi eller en polyp i hörselgången, så även kattens öra ska alltid undersökas.",
+    en: "In cats, ear infections are less common than in dogs, and the most frequent cause is ear mites (Otodectes cynotis) — especially in kittens and multi-cat households. The typical sign is dark, coffee-ground-like debris and intense itching. Ear mites are treated effectively with an antiparasitic, and all cats and dogs in the household are treated at the same time. Behind a recurring ear infection in an adult cat there may be allergy or an ear-canal polyp, so a cat's ear should always be examined too."
+  },
+  "article.earinfection.contact.title": {
+    fi: "Milloin koiran korvatulehduksen kanssa pitää mennä eläinlääkäriin?",
+    sv: "När ska man till veterinär med hundens öra?",
+    en: "When does a dog ear infection need a vet?"
+  },
+  "article.earinfection.contact.text": {
+    fi: "Aina, kun koira ravistelee päätään tai raapii korviaan toistuvasti, korva haisee tai erittää, tai korva on punoittava ja arka. Kiireellisesti, jos koira kallistaa päätään, kävelee horjuen tai on selvästi kivulias. Eläinklinikka Saari Vaasassa tutkii korvat otoskoopilla ja mikroskoopilla samalla käynnillä, ja kroonisia tapauksia varten meillä on video-otoskopia ja korvahuuhtelu. Varaa aika soittamalla (06) 321 7300 tai <a href=\"/ajanvaraus/\">nettiajanvarauksen</a> kautta.",
+    sv: "Alltid när hunden skakar på huvudet eller kliar sig i öronen gång på gång, när örat luktar eller rinner, eller när det är rött och ömt. Genast om hunden håller huvudet på sned, går ostadigt eller har tydligt ont. På Djurklinik Saari i Vasa undersöker vi öronen med otoskop och mikroskop vid samma besök, och för kroniska fall har vi video-otoskopi och öronspolning. Boka tid genom att ringa (06) 321 7300 eller via <a href=\"/sv/tidsbokning/\">tidsbokningen på nätet</a>.",
+    en: "Always when the dog shakes its head or scratches its ears repeatedly, the ear smells or discharges, or the ear is red and tender. Urgently if the dog tilts its head, walks unsteadily or is clearly in pain. Saari Animal Clinic in Vaasa examines the ears with an otoscope and microscope at the same visit, and for chronic cases we have video-otoscopy and ear flushing. Book an appointment by calling (06) 321 7300 or via <a href=\"/en/book-appointment/\">online booking</a>."
+  },
+
   // MLK Anesthesia Article
   'articles.tag.anesthesia': { fi: 'Anestesia', sv: 'Anestesi', en: 'Anesthesia' },
   'article.mlk.title': {
@@ -2729,6 +2841,7 @@ function setLanguage(lang) {
   const articleSlugMap = {
     'tta-leikkaus': { sv: 'tta-operation', en: 'tta-surgery' },
     'video-otoskopia': { sv: 'video-otoskopi', en: 'video-otoscopy' },
+    'koiran-korvatulehdus': { sv: 'oroninflammation-hund', en: 'dog-ear-infection' },
     'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
     'ripuli': { sv: 'diarre', en: 'diarrhoea' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },

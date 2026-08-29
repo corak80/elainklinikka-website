@@ -1219,6 +1219,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/video-otoskopia.html"/>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html"/>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/articles/kipulääkeinfuusio.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>

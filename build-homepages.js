@@ -166,6 +166,7 @@ function applyDataHrefs(html, lang) {
 const ARTICLE_SLUG_MAP = {
   'tta-leikkaus': { sv: 'tta-operation', en: 'tta-surgery' },
   'video-otoskopia': { sv: 'video-otoskopi', en: 'video-otoscopy' },
+  'koiran-korvatulehdus': { sv: 'oroninflammation-hund', en: 'dog-ear-infection' },
   'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
   'ripuli': { sv: 'diarre', en: 'diarrhoea' },
   'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
