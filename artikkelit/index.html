@@ -494,7 +494,7 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20260902a"></script>
+  <script src="/js/main.js?v=20260902a" defer></script>
 
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">
@@ -540,11 +540,13 @@
       }
       updateCookieText();
 
-      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };
+      document.addEventListener('DOMContentLoaded', function() {
+        var origSetLang = window.setLanguage;
+        window.setLanguage = function(lang) {
+          if (origSetLang) origSetLang(lang);
+          updateCookieText();
+        };
+      });
     })();
 
     function loadClarity() {

@@ -323,7 +323,6 @@
   }
   </script>
 
-  <link rel="preload" as="image" href="/images/team-hero.webp">
   <link rel="preload" as="image" href="/images/logo.png">
   <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
   <link rel="preload" as="image" href="/media/clinic-poster.jpg">
@@ -408,7 +407,7 @@ a.hero-badge{text-decoration:none}
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" autoplay muted loop playsinline preload="auto" poster="/media/clinic-poster.jpg" aria-hidden="true"><source src="/media/clinic.mp4" type="video/mp4"></video>
+    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" poster="/media/clinic-poster.jpg" aria-hidden="true" data-src="/media/clinic.mp4"></video>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
@@ -1741,7 +1740,7 @@ a.hero-badge{text-decoration:none}
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20260902a"></script>
+  <script src="/js/main.js?v=20260902a" defer></script>
 
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent" style="display:none;">
@@ -1787,11 +1786,13 @@ a.hero-badge{text-decoration:none}
       }
       updateCookieText();
 
-      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };
+      document.addEventListener('DOMContentLoaded', function() {
+        var origSetLang = window.setLanguage;
+        window.setLanguage = function(lang) {
+          if (origSetLang) origSetLang(lang);
+          updateCookieText();
+        };
+      });
     })();
 
     function loadClarity() {
@@ -1819,6 +1820,6 @@ a.hero-badge{text-decoration:none}
       document.getElementById('cookie-consent').style.display = 'none';
     }
   </script>
-<script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};go();v.addEventListener('canplay',go,{once:true});document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});})();</script>
+<script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=navigator.connection;if(c&&c.saveData)return;if(Math.min(screen.width,innerWidth)<720)return;var started=false;var start=function(){if(started)return;started=true;v.src=v.getAttribute('data-src');v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};v.addEventListener('canplay',go,{once:true});v.load();document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});};if(document.readyState==='complete')start();else addEventListener('load',start);})();</script>
 </body>
 </html>
