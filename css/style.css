@@ -3192,8 +3192,7 @@ a.service-card-link {
   right: 0;
   bottom: 0;
   z-index: 10000;
-  background: rgba(26, 26, 46, 0.5);
-  backdrop-filter: blur(6px);
+  background: rgba(26, 26, 46, 0.62);
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
