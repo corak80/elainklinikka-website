@@ -4037,3 +4037,43 @@ function initPawTrail() {
     setTimeout(() => paw.remove(), 1200);
   }, { passive: true });
 }
+
+/* ============================================
+   Google Ads: online booking conversion
+   Fires "Online booking (Provet)" (AW-816483191/ypOwCNyBpOwcEPeWqoUD)
+   on any click through to the Provet booking system.
+   Delegated so every booking link on every page is covered.
+   Phone links keep their own click-to-call conversion.
+   ============================================ */
+(function () {
+  const BOOKING_SEND_TO = 'AW-816483191/ypOwCNyBpOwcEPeWqoUD';
+
+  document.addEventListener('click', function (e) {
+    const link = e.target && e.target.closest
+      ? e.target.closest('a[href*="my.provet.com"]')
+      : null;
+    if (!link || typeof gtag !== 'function') return;
+
+    // Let the browser handle modified clicks and new-tab links itself.
+    if (e.defaultPrevented || e.button !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (link.target && link.target !== '' && link.target !== '_self') {
+      gtag('event', 'conversion', { send_to: BOOKING_SEND_TO });
+      return;
+    }
+
+    // Same-tab navigation: delay it just long enough for the hit to leave,
+    // with a timeout so the user is never blocked if the callback misfires.
+    const url = link.href;
+    let navigated = false;
+    const go = function () {
+      if (navigated) return;
+      navigated = true;
+      window.location = url;
+    };
+
+    e.preventDefault();
+    setTimeout(go, 800);
+    gtag('event', 'conversion', { send_to: BOOKING_SEND_TO, event_callback: go });
+  });
+})();
