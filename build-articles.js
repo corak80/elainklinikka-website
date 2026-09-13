@@ -4538,7 +4538,7 @@ function generateBookingPage(lang) {
         'Halutessanne tarinanne lemmikin oireista — kuinka kauan, miten muuttunut',
       ],
       locationHeading: 'Sijainti',
-      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Dragnäsbäck)',
+      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Vetokannas)',
       locationDirections: 'Avaa Google Mapsissa',
       backToHome: '← Takaisin etusivulle',
       skipLink: 'Siirry sisältöön',
@@ -4859,7 +4859,7 @@ function generateAboutPage() {
   }
   </script>
 
-  <meta name="description" content="Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Diagnostiikka, kirurgia, sydäntutkimukset, ISFM-kissaystävällinen klinikka.">
+  <meta name="description" content="Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasan Vetokannaksella. Diagnostiikka, kirurgia, sydäntutkimukset, ISFM-kissaystävällinen klinikka.">
   <meta name="page-topic" content="About us">
   <link rel="canonical" href="${BASE_URL}/meista/">
   <link rel="alternate" hreflang="fi" href="${BASE_URL}/meista/">
@@ -4868,7 +4868,7 @@ function generateAboutPage() {
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/meista/">
   <meta property="og:title" content="Tietoa klinikasta | Eläinklinikka Saari">
-  <meta property="og:description" content="Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä. Laaja diagnostiikka, moderni kirurgia, ISFM-kissaystävällinen klinikka.">
+  <meta property="og:description" content="Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella. Laaja diagnostiikka, moderni kirurgia, ISFM-kissaystävällinen klinikka.">
   <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
   <meta property="og:locale" content="fi_FI">
   <meta property="og:site_name" content="Eläinklinikka Saari">
@@ -4878,7 +4878,7 @@ function generateAboutPage() {
     "@context": "https://schema.org",
     "@type": "VeterinaryCare",
     "name": "Eläinklinikka Saari",
-    "description": "Suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä",
+    "description": "Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella",
     "url": "${BASE_URL}",
     "telephone": "+358-6-321-7300",
     "email": "info@saarivet.fi",
@@ -4935,7 +4935,7 @@ function generateAboutPage() {
         <h1>Tietoa klinikasta</h1>
         <div class="article-content">
           <h2>Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasassa</h2>
-          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Dragnäsbäckissä, Bockis-kulmauksessa. Klinikka on perustettu vuonna 1989, ja olemme palvelleet vaasalaisia lemmikkien omistajia yli 35 vuoden ajan. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
+          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella, Bockis-kulmauksessa. Klinikka on perustettu vuonna 1989, ja olemme palvelleet vaasalaisia lemmikkien omistajia yli 35 vuoden ajan. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
           <p>Ammattitaitoinen hoitotiimimme koostuu 14 ammattilaisesta — kokeneista eläinlääkäreistä ja eläintenhoitajista — jotka tarjoavat asiantuntevaa palvelua aina eläimenne parhaaksi. Klinikkamme on ISFM-sertifioitu kissaystävällinen klinikka (International Society of Feline Medicine), mikä tarkoittaa erityistä huomiota kissapotilaiden hyvinvointiin ja stressin vähentämiseen vastaanottotilanteissa.</p>
 
           <h2>Erikoisalat ja osaaminen</h2>
@@ -4962,7 +4962,7 @@ function generateAboutPage() {
           </div>
 
           <h2>Sijainti</h2>
-          <p>Gerbyntie 18, 65230 Vaasa (Dragnäsbäck, Bockis-kurvissa). Ilmainen pysäköinti klinikan edessä. Klinikka sijaitsee keskeisellä paikalla ja on helposti saavutettavissa sekä autolla että julkisilla liikennevälineillä.</p>
+          <p>Gerbyntie 18, 65230 Vaasa (Vetokannas, Bockis-kurvissa). Ilmainen pysäköinti klinikan edessä. Klinikka sijaitsee keskeisellä paikalla ja on helposti saavutettavissa sekä autolla että julkisilla liikennevälineillä.</p>
         </div>
       </article>
 
@@ -5161,11 +5161,11 @@ function generateContactPage() {
           <p><strong>Eläinklinikka Saari</strong><br>
           <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr" target="_blank" rel="noopener">Gerbyntie 18<br>
           65230 Vaasa</a><br>
-          (Dragnäsbäck, Bockis-kurvissa)</p>
+          (Vetokannas, Bockis-kurvissa)</p>
 
           <h2>Saapumisohjeet</h2>
-          <p><strong>Autolla:</strong> Klinikka sijaitsee Dragnäsbäckin kaupunginosassa, Gerbyntien ja Dragnäsbäckintien risteyksessä (Bockis-kurvi). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
-          <p><strong>Bussilla:</strong> Lähin bussipysäkki on Dragnäsbäckintien varrella, noin 200 metrin kävelymatkan päässä klinikasta. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta <a href="https://www.vaasa.fi/asu-ja-ela/liikenne-ja-kadut/joukkoliikenne/" target="_blank" rel="noopener">vaasa.fi/joukkoliikenne</a>.</p>
+          <p><strong>Autolla:</strong> Klinikka sijaitsee Vetokannaksen kaupunginosassa (ruots. Dragnäsbäck), Gerbyntien ja Pohjolankadun risteyksessä (Bockis-kurvi). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
+          <p><strong>Bussilla:</strong> Lähimmät bussipysäkit ovat Gerbyntiellä aivan klinikan kohdalla, alle 100 metrin päässä. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta <a href="https://www.vaasa.fi/asu-ja-ela/liikenne-ja-kadut/joukkoliikenne/" target="_blank" rel="noopener">vaasa.fi/joukkoliikenne</a>.</p>
 
           <h2>Puhelin ja sähköposti</h2>
           <p>Puhelin: <a href="tel:+35863217300" onclick="gtag_report_conversion();"><strong>(06) 321 7300</strong></a><br>
