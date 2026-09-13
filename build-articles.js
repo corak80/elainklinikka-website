@@ -1376,7 +1376,7 @@ ${relatedHtml}
           <strong class="footer-heading" data-i18n="footer.contact">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.follow">${escapeHtml(footerFollow[lang] || footerFollow.fi)}</strong>
@@ -1679,7 +1679,7 @@ ${cardsHtml}
           <strong class="footer-heading">${escapeHtml(i18n.footerContactTitle)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(i18n.footerFollow)}</strong>
@@ -3968,7 +3968,7 @@ ${service.slug !== 'paivystys' ? `      <p class="service-clinic-link"><a href="
           <strong class="footer-heading">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerFollow[lang] || footerFollow.fi)}</strong>
@@ -4142,7 +4142,7 @@ function generatePrivacyPage() {
           <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Seuraa meitä</strong>
@@ -4641,7 +4641,7 @@ function generateBookingPage(lang) {
 
   const provetUrl = 'https://my.provet.com/elainklinikka-saari';
   const whatsappUrl = 'https://wa.me/35863217300';
-  const mapsUrl = 'https://maps.google.com/?q=Gerbyntie+18+Vaasa';
+  const mapsUrl = 'https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr';
   const paivystysUrl = {
     fi: '/palvelut/paivystys/',
     sv: '/sv/tjanster/jour/',
@@ -5004,7 +5004,7 @@ function generateAboutPage() {
           <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Seuraa meitä</strong>
@@ -5231,7 +5231,7 @@ function generateContactPage() {
           <strong class="footer-heading">Yhteystiedot</strong>
           <a href="tel:+35863217300" onclick="gtag_report_conversion();">(06) 321 7300</a>
           <a href="mailto:info@saarivet.fi">info@saarivet.fi</a>
-          <a href="https://maps.google.com/?q=Gerbyntie+18+Vaasa">Gerbyntie 18, Vaasa</a>
+          <a href="https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr">Gerbyntie 18, Vaasa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Seuraa meitä</strong>
