@@ -462,9 +462,9 @@ const translations = {
     en: 'Anesthesia, surgical procedures and dental care.'
   },
   'bio.jennifer': {
-    fi: 'Anestesiavalvonta, kirurgia ja eksoottiset potilaat. Opiskelee klinikkaeläinhoitajaksi.',
-    sv: 'Anestesiövervakning, kirurgi och exotiska patienter. Studerar till klinikdjurskötare.',
-    en: 'Anesthesia monitoring, surgery and exotic patients. Studying to become a veterinary technician.'
+    fi: 'Anestesiavalvonta, kirurgia ja eksoottiset potilaat. Valmistunut klinikkaeläinhoitajaksi kesällä 2026.',
+    sv: 'Anestesiövervakning, kirurgi och exotiska patienter. Utexaminerad klinikdjurskötare sommaren 2026.',
+    en: 'Anesthesia monitoring, surgery and exotic patients. Qualified as a veterinary technician in summer 2026.'
   },
   'bio.josefiina': {
     fi: 'Laboratorio- ja leikkaussalityö. Tavoitteena klinikkaeläinhoitajan koulutus.',
