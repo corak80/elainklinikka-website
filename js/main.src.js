@@ -412,9 +412,9 @@ const translations = {
     en: 'Heart diseases and internal medicine. ESAVS Cardiology Certificate. Authorized heart examiner for the Finnish Kennel Club.'
   },
   'bio.pamela': {
-    fi: 'Ortopedia, pehmytkudoskirurgia ja hammashoito. Jatkokoulutus AOVET, ESAVS ja Accesia Academy.',
-    sv: 'Ortopedi, mjukdelskirurgi och tandvård. Vidareutbildning AOVET, ESAVS och Accesia Academy.',
-    en: 'Orthopedics, soft tissue surgery and dentistry. Further training AOVET, ESAVS and Accesia Academy.'
+    fi: 'Ortopedia, pehmytkudoskirurgia ja hammashoito. Jatkokoulutus AOVET, ESAVS ja Accesia Academy. Klinikan kissavastaava (Cat Advocate).',
+    sv: 'Ortopedi, mjukdelskirurgi och tandvård. Vidareutbildning AOVET, ESAVS och Accesia Academy. Klinikens kattansvariga (Cat Advocate).',
+    en: 'Orthopedics, soft tissue surgery and dentistry. Further training AOVET, ESAVS and Accesia Academy. The clinic\'s Cat Advocate.'
   },
   'bio.assaf': {
     fi: 'Hammashoito, tähystystutkimukset ja luonnonvaraisten eläinten hoito. Accesia Academy.',
@@ -2253,7 +2253,7 @@ const translations = {
   },
   'article.catstress.clinic.text': {
     fi: 'ISFM:n (International Society of Feline Medicine) Cat Friendly Clinic -ohjelma on kansainvälinen sertifiointijärjestelmä, joka asettaa standardit kissojen hoidolle eläinklinikoilla. Silver-taso edellyttää mm. erillistä odotustilaa kissoille erillään koirista, Feliway-feromonihaihduttimien käyttöä kaikissa tiloissa, nimettyä "kissavastaavaa" (Cat Advocate) henkilökunnasta, kissaystävällisiä käsittelytekniikoita (scruff-free — emme koskaan nosta kissaa niskasta), henkilökunnan koulutusta stressin tunnistamiseen sekä rauhallista ympäristöä hoitotiloissa piiloutumispaikkoineen ja näköestein. Sertifikaatti uusitaan kolmen vuoden välein.',
-    sv: 'ISFM:s (International Society of Feline Medicine) Cat Friendly Clinic-program är ett internationellt certifieringssystem som sätter standarder för kattvård på veterinärkliniker. Silver-nivån kräver bl.a. separat väntrum för katter skilt från hundar, Feliway-feromondiffusorer i alla utrymmen, en utsedd "katt ansvarig" (Cat Advocate) bland personalen, kattvänliga hanteringstekniker (scruff-free — vi lyfter aldrig katten i nackskinnet), personalutbildning i stress igenkänning samt en lugn miljö på vårdavdelningen med gömställen och syn barriärer. Certifikatet förnyas vart tredje år.',
+    sv: 'ISFM:s (International Society of Feline Medicine) Cat Friendly Clinic-program är ett internationellt certifieringssystem som sätter standarder för kattvård på veterinärkliniker. Silver-nivån kräver bl.a. separat väntrum för katter skilt från hundar, Feliway-feromondiffusorer i alla utrymmen, en utsedd "kattansvarig" (Cat Advocate) bland personalen, kattvänliga hanteringstekniker (scruff-free — vi lyfter aldrig katten i nackskinnet), personalutbildning i stressigenkänning samt en lugn miljö på vårdavdelningen med gömställen och synbarriärer. Certifikatet förnyas vart tredje år.',
     en: 'The ISFM (International Society of Feline Medicine) Cat Friendly Clinic program is an international certification system that sets standards for cat care at veterinary clinics. The Silver level requires a separate waiting area for cats away from dogs, Feliway pheromone diffusers in all areas, a designated Cat Advocate among the staff, cat-friendly handling techniques (scruff-free — we never lift a cat by the scruff), staff training in stress recognition, and a calm environment in hospitalization areas with hiding spots and visual barriers. The certificate is renewed every three years.'
   },
   'article.catstress.tips.title': {
@@ -3595,9 +3595,9 @@ const vetProfiles = {
     name: 'Pamela Kvarngård',
     image: '/images/pamela.webp',
     bio: {
-      fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2013 lähtien, ja nykyään työni painottuu erityisesti ortopedisten potilaiden hoitoon. Olen jatkokouluttautunut muun muassa ortopedisessa kirurgiassa (AOVET, ESAVS etc.) sekä hammassairauksissa (Accesia Academy).\n\nMinulle on tärkeää pysyä ajan tasalla uusista tutkimuksista, hoitomenetelmistä ja tekniikoista \u2013 jatkuva kouluttautuminen on olennainen osa parhaan mahdollisen hoidon tarjoamista.\n\nKeskeisiä ammatillisia kiinnostuksen kohteitani ovat ortopedia, pehmytosakirurgia ja hammashoidot. Koen erityisen palkitsevaksi auttaa eläimiä palauttamaan mukavuutensa, liikkuvuutensa ja hyvän elämänlaadun, ja tämä motivoi minua työssäni joka päivä.',
-      sv: 'Jag har arbetat som smådjursveterinär sedan 2013, och idag ligger mitt fokus framför allt på att behandla ortopediska patienter. Jag har vidareutbildning inom bland annat ortopedisk kirurgi (AOVET, ESAVS etc.) samt tandvård (Accesia Academy).\n\nDet är viktigt för mig att hålla mig uppdaterad kring nya forskningsrön, tekniker och behandlingsmetoder \u2013 kontinuerlig fortbildning är en central del av att kunna erbjuda bästa möjliga vård.\n\nMina främsta professionella intressen är ortopedi, mjukdelskirurgi och tandvård. Jag upplever det som särskilt givande att hjälpa djur att återfå komfort, rörlighet och livskvalitet, och det motiverar mig varje dag i mitt arbete.',
-      en: 'I have been working as a small animal veterinarian since 2013, and today my work focuses largely on treating orthopedic patients. I have completed further education in orthopedic surgery (AOVET, ESAVS etc) as well as in dentistry (Accesia Academy).\n\nI prioritise staying up to date with new research, techniques, and treatment options\u2014continuously educating myself is an important part of offering the best possible care.\n\nMy main professional interests lie in orthopedics, soft tissue surgery, and dentistry. I find it especially rewarding to help animals regain comfort, mobility, and quality of life, and this motivates me every day in my work.'
+      fi: 'Olen työskennellyt pieneläinlääkärinä vuodesta 2013 lähtien, ja nykyään työni painottuu erityisesti ortopedisten potilaiden hoitoon. Olen jatkokouluttautunut muun muassa ortopedisessa kirurgiassa (AOVET, ESAVS etc.) sekä hammassairauksissa (Accesia Academy).\n\nMinulle on tärkeää pysyä ajan tasalla uusista tutkimuksista, hoitomenetelmistä ja tekniikoista \u2013 jatkuva kouluttautuminen on olennainen osa parhaan mahdollisen hoidon tarjoamista.\n\nKeskeisiä ammatillisia kiinnostuksen kohteitani ovat ortopedia, pehmytosakirurgia ja hammashoidot. Koen erityisen palkitsevaksi auttaa eläimiä palauttamaan mukavuutensa, liikkuvuutensa ja hyvän elämänlaadun, ja tämä motivoi minua työssäni joka päivä.\n\nToimin klinikkamme kissavastaavana (Cat Advocate) osana Cat Friendly Clinic -ohjelmaa. Huolehdin siitä, että kissapotilaidemme käynnit ovat mahdollisimman rauhallisia ja stressittömiä.',
+      sv: 'Jag har arbetat som smådjursveterinär sedan 2013, och idag ligger mitt fokus framför allt på att behandla ortopediska patienter. Jag har vidareutbildning inom bland annat ortopedisk kirurgi (AOVET, ESAVS etc.) samt tandvård (Accesia Academy).\n\nDet är viktigt för mig att hålla mig uppdaterad kring nya forskningsrön, tekniker och behandlingsmetoder \u2013 kontinuerlig fortbildning är en central del av att kunna erbjuda bästa möjliga vård.\n\nMina främsta professionella intressen är ortopedi, mjukdelskirurgi och tandvård. Jag upplever det som särskilt givande att hjälpa djur att återfå komfort, rörlighet och livskvalitet, och det motiverar mig varje dag i mitt arbete.\n\nJag är klinikens kattansvariga (Cat Advocate) inom Cat Friendly Clinic-programmet. Jag ser till att våra kattpatienters besök blir så lugna och stressfria som möjligt.',
+      en: 'I have been working as a small animal veterinarian since 2013, and today my work focuses largely on treating orthopedic patients. I have completed further education in orthopedic surgery (AOVET, ESAVS etc) as well as in dentistry (Accesia Academy).\n\nI prioritise staying up to date with new research, techniques, and treatment options\u2014continuously educating myself is an important part of offering the best possible care.\n\nMy main professional interests lie in orthopedics, soft tissue surgery, and dentistry. I find it especially rewarding to help animals regain comfort, mobility, and quality of life, and this motivates me every day in my work.\n\nI am the clinic\'s Cat Advocate within the Cat Friendly Clinic program, making sure our feline patients\' visits are as calm and stress-free as possible.'
     },
     experience: {
       fi: 'Pieneläinlääkärinä vuodesta 2013.',
@@ -3610,9 +3610,9 @@ const vetProfiles = {
       en: 'AOVET and ESAVS orthopedic surgery. Accesia Academy dentistry.'
     },
     focus: {
-      fi: 'Ortopedia, pehmytkudoskirurgia, hammashoito',
-      sv: 'Ortopedi, mjukdelskirurgi, tandvård',
-      en: 'Orthopedics, soft tissue surgery, dentistry'
+      fi: 'Ortopedia, pehmytkudoskirurgia, hammashoito, kissaystävällinen hoito',
+      sv: 'Ortopedi, mjukdelskirurgi, tandvård, kattvänlig vård',
+      en: 'Orthopedics, soft tissue surgery, dentistry, cat-friendly care'
     }
   },
   assaf: {
