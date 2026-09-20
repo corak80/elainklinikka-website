@@ -356,7 +356,7 @@ const articles = [
     titleKey: 'article.food.title',
     tagKey: 'article.food.tag',
     category: 'health',
-    date: '2026',
+    date: '20.9.2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.food',
