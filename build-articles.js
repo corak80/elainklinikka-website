@@ -344,7 +344,7 @@ const articles = [
     titleKey: 'article.independent.title',
     tagKey: 'article.independent.tag',
     category: 'clinic',
-    date: '2026',
+    date: '20.9.2026',
     publishDate: '2026-01-30',
     sections: ['intro', 'chains.title', 'chains.text', 'prices.title', 'prices.text', 'quality.title', 'quality.text', 'international.title', 'international.text', 'choice.title', 'choice.text'],
     prefix: 'article.independent'
@@ -531,7 +531,7 @@ const articles = [
     titleKey: 'article.catstress.title',
     tagKey: 'article.catstress.tag',
     category: 'health',
-    date: '2026',
+    date: '20.9.2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'signs.title', 'signs.text', 'feliway.title', 'feliway.text', 'clinic.title', 'clinic.text', 'tips.title', 'tips.text'],
     prefix: 'article.catstress'
@@ -694,7 +694,7 @@ const articles = [
     titleKey: 'article.vetnurse.title',
     tagKey: 'articles.filter.clinic',
     category: 'clinic',
-    date: '2026',
+    date: '20.9.2026',
     publishDate: '2026-03-10',
     sections: ['intro', 'role.title', 'role.text', 'evidence.title', 'evidence.text', 'education.title', 'education.text', 'jenni.title', 'jenni.text'],
     prefix: 'article.vetnurse'
