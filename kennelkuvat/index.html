@@ -135,6 +135,24 @@ details.scale table{width:100%;border-collapse:collapse}
 details.scale td{padding:5px 10px 5px 0;vertical-align:top;color:var(--ink-dim);border-bottom:1px solid var(--line)}
 details.scale td:first-child{font-family:var(--mono);color:var(--glow);white-space:nowrap;width:5em}
 details.scale tr:last-child td{border-bottom:0}
+/* Kennelliitto guideline image gallery (used with permission, 22.9.2026) */
+details.kl summary{color:var(--glow-dim)}
+.klg{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding:12px 14px 6px}
+.klg button{all:unset;cursor:pointer;display:block;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:#000}
+.klg button:hover,.klg button:focus-visible{border-color:var(--glow)}
+.klg img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top}
+.klg .klc{font-size:.72rem;line-height:1.3;color:var(--ink-dim);padding:6px 8px;background:rgba(255,255,255,.02)}
+.klsrc{font-size:.72rem;color:var(--ink-faint);padding:6px 14px 12px;line-height:1.4}
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(96vw,1400px);width:auto}
+dialog.lb::backdrop{background:rgba(0,0,0,.88)}
+dialog.lb .lbin{position:relative;background:#000;border:1px solid var(--line2);border-radius:10px;overflow:hidden}
+dialog.lb img{display:block;max-width:min(96vw,1400px);max-height:82vh;width:auto;height:auto;margin:0 auto}
+dialog.lb .lbcap{color:var(--ink);font-size:.9rem;padding:10px 16px 4px;text-align:center}
+dialog.lb .lbsrc{color:var(--ink-faint);font-size:.72rem;padding:0 16px 12px;text-align:center}
+dialog.lb .lbnav{all:unset;cursor:pointer;position:absolute;top:44%;font-size:2rem;color:#fff;padding:14px;opacity:.7}
+dialog.lb .lbnav:hover{opacity:1}
+dialog.lb .lbprev{left:0}dialog.lb .lbnext{right:0}
+dialog.lb .lbx{all:unset;cursor:pointer;position:absolute;top:6px;right:12px;font-size:1.4rem;color:#fff;opacity:.7}
 
 /* ── extras / checklist ── */
 .extras{margin:8px 0 26px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px}
@@ -208,6 +226,7 @@ footer.site .disc{margin-top:14px;max-width:60em}
   .film ul.marks li::before{content:"✓";background:none;color:#000}
   .film ul.reject li::before{content:"✕";background:none;color:#000}
   details.scale{display:none}
+  dialog.lb{display:none}
   .langtoggle{display:none}
   .extras,.checklist{background:#fff;border:1pt solid #333;color:#111;break-inside:avoid}
   .extras li,.checklist ol li{color:#222}
@@ -258,11 +277,24 @@ footer.site .disc{margin-top:14px;max-width:60em}
   <section id="result" aria-live="polite"></section>
 </main>
 
+<dialog id="lb" class="lb" aria-label="Kennelliiton ohjekuva">
+  <div class="lbin">
+    <img src="" alt="">
+    <div class="lbcap"></div><div class="lbsrc"></div>
+    <button type="button" class="lbnav lbprev" onclick="lbStep(-1)" aria-label="Edellinen">‹</button>
+    <button type="button" class="lbnav lbnext" onclick="lbStep(1)" aria-label="Seuraava">›</button>
+    <button type="button" class="lbx" onclick="document.getElementById('lb').close()" aria-label="Sulje">×</button>
+  </div>
+</dialog>
+
 <footer class="site wrap">
   <div class="src">
     <span id="t-src"></span>
     <a href="https://www.kennelliitto.fi/pevisa-ja-rotukohtaiset-erityisehdot" rel="noopener">PEVISA 2026</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/lonkkanivelen-kasvuhairioohje-0" rel="noopener">Lonkkanivelen kasvuhäiriöohje</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/lonkkaniveldysplasian-tutkimusohje-elainlaakareille" rel="noopener">Lonkkaniveldysplasian tutkimusohje eläinlääkäreille</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/kyynarnivelten-kuvausohje-inkongruenssilausuntoa-varten" rel="noopener">INC-kuvausohje</a> ·
+    <a href="https://www.kennelliitto.fi/lomakkeet/olkanivelen-rontgenkuvausohje-osteokondroosin-varalta" rel="noopener">OC-kuvausohje</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/kyynarnivelen-kasvuhairioiden-ohje" rel="noopener">Kyynärnivelen kasvuhäiriöiden ohje</a> ·
     <a href="https://www.kennelliitto.fi/lomakkeet/selan-muutosten-rontgenkuvaus-ja-luokitusohje" rel="noopener">Selkäohje</a>
   </div>
@@ -670,9 +702,12 @@ const U={
    "<b>Submit images in DICOM to Kennelliitto's receiving system</b> – the statement is usually ready in ~a week and stored in KoiraNet"
  ]},
  clLimits:{fi:"<b>Yleiset jalostuskäytön raja-arvot</b> (ellei rodun PEVISA tiukempi): lonkat D · kyynärpäät 2 · kyynärnivelen inkongruenssi 2 · polvilumpioluksaatio 3 · spondyloosi SP3. Tutkimusten oltava voimassa astutushetkellä.",en:"<b>General breeding limits</b> (unless the breed's PEVISA is stricter): hips D · elbows 2 · elbow incongruity 2 · patellar luxation 3 · spondylosis SP3. Statements must be valid at mating."},
- discl:{fi:"Röntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. Tämä on klinikan sisäinen työkalu (tiedot koottu 8.7.2026, INC-rotulista 24.9.2025). PEVISA-ehdot ja INC-rotulista muuttuvat – varmista aina ajantasaiset vaatimukset Kennelliitosta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä.",en:"The radiographs are genuine images taken on Eläinklinikka Saari's own equipment, with patient data removed. This is an internal clinic tool (data compiled 8 Jul 2026, INC breed list 24 Sep 2025). PEVISA conditions and the INC list change – always confirm current requirements with Kennelliitto. Age limits refer to the dog's age at imaging."},
+ discl:{fi:"Korttien pääröntgenkuvat ovat Eläinklinikka Saaren omilla laitteilla ottamia aitoja kuvia, joista potilastiedot on poistettu. \"Kennelliiton ohjekuvat\" -galleriat ovat Suomen Kennelliiton virallisista eläinlääkäriohjeista ja niitä käytetään Kennelliiton luvalla (22.9.2026) lähde merkittynä, vain ei-kaupalliseen koulutuskäyttöön. Tämä on klinikan sisäinen työkalu (tiedot koottu 8.7.2026, INC-rotulista 24.9.2025). PEVISA-ehdot ja INC-rotulista muuttuvat – varmista aina ajantasaiset vaatimukset Kennelliitosta. Ikärajat tarkoittavat koiran ikää kuvaushetkellä.",en:"The main radiograph on each card is a genuine image taken on Eläinklinikka Saari's own equipment, with patient data removed. The \"Kennelliitto guideline images\" galleries come from the Finnish Kennel Club's official veterinary guidelines and are used with the Kennel Club's permission (22 Sep 2026), source credited, for non-commercial training use only. This is an internal clinic tool (data compiled 8 Jul 2026, INC breed list 24 Sep 2025). PEVISA conditions and the INC list change – always confirm current requirements with Kennelliitto. Age limits refer to the dog's age at imaging."},
  otherImg:{fi:"<b>Muut viralliset kuvantamislausunnot:</b> Kyynär- ja olkanivelistä voidaan antaa lausunto myös <b>TT-kuvauksesta (CT)</b> – joko ensisijaisena tai ED/OC-röntgenlausuntoa tarkentavana (tehtävä 3 kk kuluessa ensikuvauksesta); TT-lausunto on lopullinen eikä siitä voi valittaa. <b>Syringomyelia (SM/Chiari)</b> tutkitaan <b>magneettikuvauksella (MRI)</b> mm. cavalier kingcharlesinspanieleilla ja griffoneilla (alaikäraja oireettomalla 18 kk).",en:"<b>Other official imaging statements:</b> Elbows and shoulders can also be assessed by <b>CT (TT-kuvaus)</b> – either as the primary method or to clarify an ED/OC radiograph result (must be done within 3 months of the first imaging); a CT statement is final and cannot be appealed. <b>Syringomyelia (SM/Chiari)</b> is screened by <b>MRI</b> in e.g. Cavalier King Charles Spaniels and Griffons (min age 18 mo if asymptomatic)."},
  srcLabel:{fi:"Lähteet:",en:"Sources:"},
+ klH:{fi:"Kennelliiton ohjekuvat",en:"Kennelliitto guideline images"},
+ klSrc:{fi:"Lähde:",en:"Source:"},
+ klPerm:{fi:"Kuvat Suomen Kennelliiton luvalla (22.9.2026), vain koulutuskäyttöön.",en:"Images used with permission of the Finnish Kennel Club (22 Sep 2026), training use only."},
  incVol:{fi:"vapaaehtoinen",en:"voluntary"},
  incMandNote:{fi:"Matalaraajainen rotu – kyynärnivel arvostellaan INC-inkongruenssimenetelmällä (ei IEWG-ED-asteikolla). Jalostuksen raja-arvo INC2.",en:"Short-legged breed – the elbow is graded by the INC incongruity method (not the IEWG ED scale). Breeding limit INC2."},
  incBanner:{fi:"Rotu kuuluu matalaraajaisten rotujen <b>INC-lausuntorotuihin</b> (Kennelliiton inkongruenssiohje): kyynärnivel arvostellaan inkongruenssimenetelmällä. PEVISA <b>ei vaadi</b> kyynärkuvausta tälle rodulle – INC-lausunto on vapaaehtoinen mutta saatavilla.",en:"This breed is on the short-legged breeds' <b>INC-statement list</b> (Kennelliitto incongruity guideline): the elbow is graded by the incongruity method. PEVISA <b>does not require</b> elbow imaging for this breed – an INC statement is voluntary but available."}
@@ -683,32 +718,87 @@ function uu(k){return U[k]?U[k][lang]:k}
    Real radiographs from Eläinklinikka Saari's own PACS, anonymized (patient IDs removed). */
 function xr(src,alt){return `<div class="xr"><img src="img/${src}" alt="${alt}" loading="lazy" width="1080" height="800"></div>`}
 
+/* ══════════ Kennelliitto guideline images ══════════
+   Radiographs/slides from the official Kennelliitto vet guidelines, used with the Kennel Club's
+   written permission (viestinta@kennelliitto.fi, 22.9.2026): source credited on every image,
+   non-commercial training use only. Colour positioning photos are NOT included (photographer
+   permission pending). Hip slides = pages 16–29 of "Lonkkaniveldysplasian tutkimusohje eläinlääkäreille". */
+const KL_HIP_SRC={fi:"Suomen Kennelliitto ry / Luusto- ja nivelsairauksien työryhmä: Lonkkaniveldysplasian tutkimusohje eläinlääkäreille (teksti perustuu Svenska Kennelklubbenin materiaaliin; luokkien esimerkkikuvat FCI:n Kööpenhaminan lonkkadysplasiakokouksesta 2006).",en:"Finnish Kennel Club / Skeletal and joint disease working group: Hip dysplasia examination guideline for veterinarians (text based on Svenska Kennelklubben material; grade examples from the FCI Copenhagen hip dysplasia meeting 2006)."};
+const KL_HIP=[
+ ["kl-hip-16.jpg","Oikea kuvausasento – suora lantio, reisiluut yhdensuuntaiset, patellat keskellä","Correct positioning – straight pelvis, femurs parallel, patellae centred"],
+ ["kl-hip-17.jpg","Virheellinen takajalkojen asento · reisiluut eivät yhdensuuntaiset","Incorrect hind-limb position · femurs not parallel"],
+ ["kl-hip-18.jpg","Ulospäin käännetyt reisiluut – sama koira, parempi kuva paljastaa löysyyden","Externally rotated femurs – same dog, a better image reveals the laxity"],
+ ["kl-hip-19.jpg","Nostetut takajalat/lantio · lantion takaosa kallistunut alaspäin","Raised hind limbs/pelvis · caudal pelvis tilted downwards"],
+ ["kl-hip-20.jpg","Vino asento – tavallisin syy kuvien hylkäämiseen","Tilted position – the most common reason for rejection"],
+ ["kl-hip-21.jpg","Kierron merkit: foramen obturatum ja solisluu · suoliluun siivekkeet ja lonkkamalja","Signs of rotation: obturator foramina · iliac wings and acetabulum"],
+ ["kl-hip-22.jpg","Mikä kuvassa on väärin? – vino asento, tunnistusmerkintä lantion päällä","What is wrong here? – tilted position, ID marker over the pelvis"],
+ ["kl-hip-23.jpg","Kuvausarvot · kuvaus- ja muokkaustekniikka – esimerkit huonosta laadusta","Exposure · imaging and processing technique – poor-quality examples"],
+ ["kl-hip-24.jpg","Taustakohina – lonkkamaljan dorsaalireuna ei erotu (alivalotus)","Background noise – dorsal acetabular rim not visible (under-exposure)"],
+ ["kl-hip-25.jpg","Arvostelu – mitä kuvissa arvostellaan","Grading – what is assessed in the images"],
+ ["kl-hip-26.jpg","Esimerkkikuvia: A normaali · B lähes normaali · C lievä · D kohtalainen","Example images: A normal · B near-normal · C mild · D moderate"],
+ ["kl-hip-27.jpg","Esimerkkikuvia: D · D (E) nivelrikko · E vaikea","Example images: D · D (E) with osteoarthritis · E severe"],
+ ["kl-hip-28.jpg","Ei lausuntoa – esim. tapaturmainen murtuma haittaa arviointia","No statement – e.g. a fracture prevents assessment"],
+ ["kl-hip-29.jpg","Välimuotoinen lanne-ristinikama (LTV) lonkkakuvassa","Lumbosacral transitional vertebra (LTV) seen on the hip view"]
+];
+const KL={
+ hip:{src:KL_HIP_SRC,items:KL_HIP},
+ spine:{src:KL_HIP_SRC,items:[KL_HIP[13]]},
+ inc:{src:{fi:"Suomen Kennelliitto: Kyynärnivelten kuvausohje inkongruenssilausuntoa varten.",en:"Finnish Kennel Club: Elbow imaging guideline for the incongruity statement."},items:[
+  ["kl-inc-2.jpg","Kuva 2 – Oikeassa asennossa otettu inkongruenssikuva","Fig. 2 – Incongruity view taken in the correct position"],
+  ["kl-inc-3.jpg","Kuva 3 – Liiallisessa fleksiossa otettu inkongruenssikuva","Fig. 3 – Incongruity view taken in excessive flexion"],
+  ["kl-inc-4.jpg","Kuva 4 – Kiertynyt inkongruenssikuva","Fig. 4 – Rotated incongruity view"]]},
+ oc:{src:{fi:"Suomen Kennelliitto: Olkanivelen röntgenkuvausohje osteokondroosin varalta.",en:"Finnish Kennel Club: Shoulder radiography guideline for osteochondrosis."},items:[
+  ["kl-oc-2.jpg","Kuva 2 – Osteokondroosimuutos olkaluun pään kaudaalipinnassa","Fig. 2 – Osteochondrosis lesion on the caudal humeral head"]]}
+};
+function klHTML(key){
+  const g=KL[key];if(!g)return"";
+  const L=lang==="fi"?1:2;
+  return `<details class="scale kl"><summary>${uu("klH")} (${g.items.length})</summary>
+   <div class="klg">${g.items.map((it,i)=>`<button type="button" onclick="lbOpen('${key}',${i})"><img src="img/kl/${it[0]}" alt="${it[L]}" loading="lazy"><div class="klc">${it[L]}</div></button>`).join("")}</div>
+   <div class="klsrc">${uu("klSrc")} ${g.src[lang]} ${uu("klPerm")}</div></details>`;
+}
+let lbKey=null,lbIdx=0;
+function lbShow(){
+  const g=KL[lbKey],it=g.items[lbIdx],L=lang==="fi"?1:2,d=$("#lb");
+  d.querySelector("img").src="img/kl/"+it[0];d.querySelector("img").alt=it[L];
+  d.querySelector(".lbcap").textContent=`${lbIdx+1}/${g.items.length} · ${it[L]}`;
+  d.querySelector(".lbsrc").textContent=`${uu("klSrc")} ${g.src[lang]}`;
+  d.querySelectorAll(".lbnav").forEach(b=>b.style.visibility=g.items.length>1?"visible":"hidden");
+}
+function lbOpen(key,i){lbKey=key;lbIdx=i;lbShow();$("#lb").showModal()}
+function lbStep(n){const g=KL[lbKey];lbIdx=(lbIdx+n+g.items.length)%g.items.length;lbShow()}
+document.addEventListener("DOMContentLoaded",()=>{
+  const d=$("#lb");
+  d.addEventListener("click",e=>{if(e.target===d)d.close()});
+  d.addEventListener("keydown",e=>{if(e.key==="ArrowRight")lbStep(1);else if(e.key==="ArrowLeft")lbStep(-1)});
+});
+
 const STUDIES={
-hip:{code:"HD",title:"Lonkkakuvaus",cap:"VD-kuva · suora veto · selällään",svg:xr("hip.jpg","Koiran lonkkien virallinen VD-röntgenkuva, reisiluut yhdensuuntaisina"),
+hip:{gal:"hip",code:"HD",title:"Lonkkakuvaus",cap:"VD-kuva · suora veto · selällään",svg:xr("hip.jpg","Koiran lonkkien virallinen VD-röntgenkuva, reisiluut yhdensuuntaisina"),
  scale:{name:"FCI:n arvosteluasteikko (lonkat)",rows:[["A","Ei muutoksia"],["B","Lähes normaali / rajatapaus"],["C","Lievä dysplasia"],["D","Kohtalainen (keskivaikea) dysplasia"],["E","Vaikea dysplasia"]]},
  redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
  pos:["Koira <b>selällään suoraan selkärangan varaan</b> (V-kouru/vaahtomuovituki), täysin rauhoitettuna/nukutettuna – lihasjännitys vääristää tulosta","<b>Takaraajat vedetään taakse suoriksi ja sisäkierretään</b> niin, että reisiluut ovat yhdensuuntaiset keskenään ja röntgenpöydän tason suuntaiset","<b>Polvilumpiot keskellä reisiluun telaa</b> (sulci) – oikea sisäkierto varmistettu, kun polvilumpio projisoituu reisiluun keskelle","<b>Symmetria:</b> oikean ja vasemman <b>peittinaukot (foramen obturatum) yhtä suuret ja samanmuotoiset</b>, suoliluun siivet symmetriset, ristiluun okahaarakkeet keskilinjassa","Keskisäde lonkkaniveliin; kuvassa näyttävä <b>ristiluu kokonaan, 1–2 lannenikamaa</b> ja <b>polvinivelet</b> (reisiluun pituus arvioitavissa)"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
  reject:["<b>Kierto:</b> peittinaukot eri kokoiset/-muotoiset tai ristiluun okahaarakkeet sivussa keskilinjasta","<b>Reisiluut vinossa</b> (ei yhdensuuntaiset) tai riittämättömästi sisäkierretyt – polvilumpiot reisiluun reunalla","Riittämätön rauhoitus → lihasjännitys pitää lonkat tiukalla (näennäisen hyvä asema peittää löysyyttä)","Ristiluu, lonkkanivelet tai polvet eivät kokonaan kuvassa","Yli-/alivalotus tai rakeisuus estää nivelraon ja reunojen arvioinnin"]},
-elbow:{code:"ED",title:"Kyynärnivelkuvaus",cap:"ML-kuva · ~45° koukistus · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen virallinen ML-röntgenkuva noin 45 asteen koukistuksessa"),
+elbow:{gal:"elbow",code:"ED",title:"Kyynärnivelkuvaus",cap:"ML-kuva · ~45° koukistus · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen virallinen ML-röntgenkuva noin 45 asteen koukistuksessa"),
  scale:{name:"IEWG:n arvosteluasteikko (kyynärnivelet)",rows:[["0","Ei muutoksia"],["1","Lievät nivelrikkomuutokset (≤ 2 mm)"],["2","Kohtalaiset muutokset (≤ 5 mm) ja/tai muutoksia varislisäkkeessä, lievä epämuotoisuus"],["3","Voimakkaat muutokset / kiinnittymätön processus anconaeus"]]},
  redo:"Uusintakuvaus aikaisintaan 6 kk kuluttua",
  pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Lateraalikuva nivelestä <b>noin 45° koukistuksessa</b>","Olkaluun mediaalisen ja lateraalisen nivelnastan (condylus) oltava <b>päällekkäin</b>","<b>Processus anconaeuksen</b> ja kyynärluun nivelpinnan näyttävä lähes kraniaalikärkeen asti","Kuvataan suoraan kasetille <b>ilman hilaa</b> ja rajataan tiiviisti – yli-/alivalotus estää arvostelun"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
  reject:["Ylikoukistus → rotaatio → condylukset eivät päällekkäin","Processus anconaeus ei näy kraniaalikärkeen asti","Hila käytössä (pitää olla no-grid table top)","Yli-/alivalotus tai rakeisuus estää arvostelun","Tulkinnanvarainen kuva – voidaan pyytää lisäkuvia eri asennossa"]},
-spine:{code:"SELKÄ",title:"Selkäkuvaus",cap:"Sivukuva rinta- ja lannerangasta",svg:xr("spine.jpg","Koiran selkärangan virallinen sivuröntgenkuva rinta- ja lannerangasta"),
+spine:{gal:"spine",code:"SELKÄ",title:"Selkäkuvaus",cap:"Sivukuva rinta- ja lannerangasta",svg:xr("spine.jpg","Koiran selkärangan virallinen sivuröntgenkuva rinta- ja lannerangasta"),
  scale:null,
  redo:"LTV-, VA- ja IDD-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)",
  pos:["<b>Sivukuvat</b> rinta- ja lannerangasta sekä ristiluusta, rauhoituksessa","Lisäksi <b>selällään otettu VD-kuva lanne-ristiluualueesta</b> (LTV-arvostelu)","Lista 1:n rodut (kondrodystrofiset, mm. mäyräkoirat, ranskanbulldoggi, corgit): myös <b>kaularanka</b> kuvataan (IDD)","Korkkiruuvihäntäiset rodut (Lista 2): lisäksi VD-kuvat rinta- ja lannerangasta","Nikamat numeroitava luotettavasti – Th1–Th13, L1–L7 ja ristiluu kokonaan kuviin"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","<i>Selässä puolimerkkiä ei vaadita – VD-kuva</i>"],
  reject:["Ranka ei suorassa / kierto sivukuvassa – nikamavälit päällekkäin","Nikamia ei voi numeroida luotettavasti","Ristiluu tai lanne-ristiluualue ei kokonaan kuvassa","Puutteellinen laatu → jätetään arvostelematta paitsi vaikeat muutokset"]},
-oc:{code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat olkanivelet",svg:xr("shoulder.jpg","Koiran olkanivelen virallinen ML-röntgenkuva osteokondroosin arviointia varten"),
+oc:{gal:"oc",code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat olkanivelet",svg:xr("shoulder.jpg","Koiran olkanivelen virallinen ML-röntgenkuva osteokondroosin arviointia varten"),
  scale:{name:"OC-lausunto",rows:[["Ei todettu","Ei osteokondroosimuutoksia"],["Tulkinnanvarainen","Rajatapaus (yleinen jalostuksen raja-arvo)"],["Todettu","Osteokondroosimuutos olkaluun päässä"]]},
  redo:"",
  pos:["<b>Molemmat olkanivelet</b> kuvataan lateraalisesti, rauhoituksessa","Raaja vedetään eteen niin, että olkanivel erottuu vapaana rintakehän päältä","OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>"],
  marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki (sin/dex tai L/R)"],
  reject:["Olkanivel ei erotu vapaana – projisoituu rintakehän päälle","Rotaatio peittää olkaluun pään kaudaalipinnan","Yli-/alivalotus estää arvostelun"]},
-inc:{code:"INC",title:"Kyynärnivelen INC-kuvaus (inkongruenssi)",cap:"ML-kuva · neutraaliasento ≥ 90° · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen mediolateraalinen röntgenkuva inkongruenssin arviointia varten"),
+inc:{gal:"inc",code:"INC",title:"Kyynärnivelen INC-kuvaus (inkongruenssi)",cap:"ML-kuva · neutraaliasento ≥ 90° · molemmat nivelet",svg:xr("elbow.jpg","Koiran kyynärnivelen mediolateraalinen röntgenkuva inkongruenssin arviointia varten"),
  scale:{name:"INC-arvosteluasteikko (kyynärnivelen inkongruenssi)",rows:[["INC0","Normaali: nivelrako kapea ja tasainen, ei porrasta, ei nivelrikkoa"],["INC1","Lievä: pieni porras tai ≤ 2 mm rako, ei nivelrikkoa"],["INC2","Kohtalainen: porras tai 2–3 mm rako"],["INC3","Vaikea: ≥ 3 mm rako tai porras / selvästi epämuotoinen nivel"]]},
  redo:"Uusintakuvaus aikaisintaan 12 kk kuluttua",
  pos:["<b>Molemmat kyynärnivelet</b> kuvataan samalla käynnillä, rauhoituksessa","Eturaajat <b>mediolateraaliprojektiossa</b>, kyynärnivel <b>neutraalissa asennossa</b> (avautumiskulma ≥ 90°)","Olkaluun nivelnastat mahdollisimman <b>päällekkäin</b> niin, että nivelrako erottuu","Kyynärnivel ja kyynärvarsi <b>kokonaan</b> kuvassa","Rajaus tiivis; yli-/alivalotus tai rakeisuus estää arvostelun"],
@@ -756,6 +846,7 @@ function filmHTML(st,minAge,limit,dob,extraNote,spineTypes){
         ${marks}
         ${reject}
         ${scales}
+        ${klHTML(st.gal)}
       </div>
     </div></article>`;
 }
