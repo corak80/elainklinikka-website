@@ -80,7 +80,8 @@ input[type=date]{color-scheme:dark}
 .rhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;justify-content:space-between;border-bottom:1px dashed var(--line2);padding-bottom:16px;margin-bottom:8px}
 .rhead h2{font-family:var(--disp);font-size:clamp(1.5rem,3.4vw,2.2rem);font-weight:700}
 .rhead .meta{font-family:var(--mono);color:var(--ink-dim);font-size:.85rem}
-.actions{display:flex;gap:10px}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.endactions{justify-content:center;margin:8px 0 30px}
 .summary{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
 .chip{font-family:var(--mono);font-size:.8rem;border:1px solid var(--line2);border-radius:999px;padding:6px 14px;color:var(--ink-dim);background:rgba(255,255,255,.02)}
 .chip.req{border-color:rgba(143,227,255,.4);color:var(--glow)}
@@ -900,7 +901,7 @@ const U={
  rotu:{fi:"Rotu",en:"Breed"}, dob:{fi:"Koiran syntymäaika",en:"Dog's date of birth"}, dobOpt:{fi:"(valinnainen)",en:"(optional)"},
  go:{fi:"Näytä kuvaukset",en:"Show radiographs"}, placeholder:{fi:"Ala kirjoittaa… esim. labradorinnoutaja",en:"Start typing… e.g. labradorinnoutaja"},
  hint:{fi:"Tietolähde: Kennelliiton PEVISA-ohjelmat ja rotukohtaiset erityisehdot 2026 sekä viralliset kuvausohjeet. Jos rotua ei löydy listalta, sillä ei todennäköisesti ole PEVISA-ohjelmaa – valitse silloin ”Muu rotu”. Rotujen nimet ovat suomeksi (Kennelliiton viralliset nimet).",en:"Source: Kennelliitto PEVISA programmes and breed-specific conditions 2026, and the official imaging guidelines. If a breed isn't listed it probably has no PEVISA programme – pick “Muu rotu” (other breed). Breed names are in Finnish (Kennelliitto's official names)."},
- print:{fi:"🖨 Tulosta kuvausopas",en:"🖨 Print imaging sheet"},
+ print:{fi:"🖨 Tulosta kuvausopas",en:"🖨 Print imaging sheet"}, newSearch:{fi:"← Uusi haku",en:"← New search"},
  posH:{fi:"Kuvausasento & laatuvaatimukset",en:"Positioning & quality requirements"},
  marksH:{fi:"Pakolliset merkinnät kuvassa",en:"Mandatory markings on the film"},
  rejectH:{fi:"Yleiset hylkäyssyyt (jätetään arvostelematta)",en:"Common rejection reasons (left ungraded)"},
@@ -1351,13 +1352,14 @@ function render(breed,dob){
   R.innerHTML=`
    <div class="rhead">
      <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${SYNC_DAY?` · ${uu("syncShort")} ${fmtIso(SYNC_DAY)}`:""}${dob?` · ${uu("metaBorn")} ${fmt(dob)}${dogAge}`:""}</div></div>
-     <div class="actions"><button class="btn ghost" onclick="window.print()">${uu("print")}</button></div>
+     <div class="actions"><button class="btn ghost" onclick="resetTool()">${uu("newSearch")}</button><button class="btn ghost" onclick="window.print()">${uu("print")}</button></div>
    </div>
    <div class="summary">${chips.join("")||`<span class="chip">${uu("chipNone")}</span>`}</div>
    ${banner}
    <div class="films">${films.join("")}</div>
    ${extras.length?`<div class="extras"><h3>${uu("extrasH")}</h3><ul>${extras.join("")}</ul>${examKeys(breed).length?`<h4 class="exh">${uu("exH")}</h4>${examKeys(breed).map(k=>examHTML(k,breed)).join("")}<p class="scfoot">${uu("exCommon")}</p>`:""}</div>`:""}
-   ${hasXray?checklistHTML(breed,dob):""}`;
+   ${hasXray?checklistHTML(breed,dob):""}
+   <div class="actions endactions"><button class="btn primary" onclick="resetTool()">${uu("newSearch")}</button></div>`;
   R.scrollIntoView({behavior:"smooth",block:"start"});
 }
 
@@ -1418,6 +1420,12 @@ function go(){
   history.replaceState(null,"","?"+p.toString());
 }
 $("#go").addEventListener("click",go);
+function resetTool(){
+  selected=null;input.value="";dobEl.value="";sug.classList.remove("open");
+  const R=$("#result");R.style.display="none";R.innerHTML="";
+  history.replaceState(null,"",location.pathname);
+  window.scrollTo({top:0,behavior:"smooth"});setTimeout(()=>input.focus({preventScroll:true}),350);
+}
 dobEl.addEventListener("change",()=>{if(selected)go()});
 
 /* ══════════ language ══════════ */
