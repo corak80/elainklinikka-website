@@ -2909,9 +2909,9 @@ const translations = {
     en: 'Where is Eläinklinikka Saari located?'
   },
   'faq.home.a1': {
-    fi: 'Sijaitsemme osoitteessa Gerbyntie 18, 65230 Vaasa, Gerbyn kaupunginosassa. Meille on hyvät kulkuyhteydet myös lähikunnista.',
-    sv: 'Djurklinik Saari ligger på Gerbyvägen 18, 65230 Vasa, i stadsdelen Gerby. Det är lätt att nå oss även från grannkommunerna.',
-    en: 'We are at Gerbyntie 18, 65230 Vaasa, in the Gerby district. We are easy to reach from the surrounding municipalities too.'
+    fi: 'Sijaitsemme osoitteessa Gerbyntie 18, 65230 Vaasa, Vetokannaksen kaupunginosassa Bockis-kurvissa. Meille on hyvät kulkuyhteydet myös lähikunnista.',
+    sv: 'Djurklinik Saari ligger på Gerbyvägen 18, 65230 Vasa, i stadsdelen Dragnäsbäck vid Bockiskurvan. Det är lätt att nå oss även från grannkommunerna.',
+    en: 'We are at Gerbyntie 18, 65230 Vaasa, in the Dragnäsbäck district at the Bockis bend. We are easy to reach from the surrounding municipalities too.'
   },
   'faq.home.q2': {
     fi: 'Mitkä ovat Eläinklinikka Saaren aukioloajat?',
