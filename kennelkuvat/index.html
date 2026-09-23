@@ -73,6 +73,7 @@ input[type=date]{color-scheme:dark}
 .btn.ghost{background:transparent;color:var(--ink-dim);border:1px solid var(--line2)}
 .btn.ghost:hover{color:var(--glow);border-color:var(--glow-dim)}
 .hint{font-size:.82rem;color:var(--ink-faint);margin:10px 4px 0;font-family:var(--mono)}
+.hint.sync{color:var(--accent);margin-top:6px}
 
 /* ── result header ── */
 #result{display:none;margin-top:26px}
@@ -307,6 +308,7 @@ footer.site .disc{margin-top:14px;max-width:60em}
     <button class="btn primary" id="go"></button>
   </section>
   <p class="hint" id="t-hint"></p>
+  <p class="hint sync" id="t-sync"></p>
 
   <section id="result" aria-live="polite"></section>
 </main>
@@ -902,7 +904,7 @@ const U={
  posH:{fi:"Kuvausasento & laatuvaatimukset",en:"Positioning & quality requirements"},
  marksH:{fi:"Pakolliset merkinnät kuvassa",en:"Mandatory markings on the film"},
  rejectH:{fi:"Yleiset hylkäyssyyt (jätetään arvostelematta)",en:"Common rejection reasons (left ungraded)"},
- kvSpineList:{fi:"Selkäohjeen lista",en:"Spine guideline list"}, kvAppeal:{fi:"Valitus",en:"Appeal"}, exWho:{fi:"Kuka saa tutkia",en:"Who may examine"}, exProc:{fi:"Tutkimus",en:"Procedure"}, exSubmit:{fi:"Lausunto",en:"Statement"}, exH:{fi:"Viralliset tutkimusohjeet (Kennelliitto)",en:"Official exam guidelines (Kennelliitto)"}, exCommon:{fi:"Tunnistusmerkintä tarkistetaan tutkimushetkellä; lausunto toimitetaan viivytyksettä Kennelliittoon; tulosten oltava virallisia ja voimassa astutushetkellä.",en:"Microchip checked at the exam; statement sent to Kennelliitto without delay; results must be official and valid at mating."}, importNote:{fi:"Tuontikoiriin ei sovelleta rotukohtaista alaikärajaa – 12 kk riittää.",en:"The breed-specific minimum age does not apply to imported dogs – 12 mo is enough."}, kvAge:{fi:"Alaikäraja",en:"Minimum age"}, kvAgeUnit:{fi:"kk",en:"mo"}, kvLimit:{fi:"Jalostuksen raja-arvo",en:"Breeding limit"}, kvValid:{fi:"Voimassaolo",en:"Validity / re-imaging"},
+ kvSpineList:{fi:"Selkäohjeen lista",en:"Spine guideline list"}, kvAppeal:{fi:"Valitus",en:"Appeal"}, syncLong:{fi:"Tarkistettu Kennelliiton voimassa olevia ohjeita ja PEVISA-taulukkoa vastaan",en:"Verified against Kennelliitto's current guidelines and PEVISA table on"}, syncShort:{fi:"tarkistettu",en:"verified"}, exWho:{fi:"Kuka saa tutkia",en:"Who may examine"}, exProc:{fi:"Tutkimus",en:"Procedure"}, exSubmit:{fi:"Lausunto",en:"Statement"}, exH:{fi:"Viralliset tutkimusohjeet (Kennelliitto)",en:"Official exam guidelines (Kennelliitto)"}, exCommon:{fi:"Tunnistusmerkintä tarkistetaan tutkimushetkellä; lausunto toimitetaan viivytyksettä Kennelliittoon; tulosten oltava virallisia ja voimassa astutushetkellä.",en:"Microchip checked at the exam; statement sent to Kennelliitto without delay; results must be official and valid at mating."}, importNote:{fi:"Tuontikoiriin ei sovelleta rotukohtaista alaikärajaa – 12 kk riittää.",en:"The breed-specific minimum age does not apply to imported dogs – 12 mo is enough."}, kvAge:{fi:"Alaikäraja",en:"Minimum age"}, kvAgeUnit:{fi:"kk",en:"mo"}, kvLimit:{fi:"Jalostuksen raja-arvo",en:"Breeding limit"}, kvValid:{fi:"Voimassaolo",en:"Validity / re-imaging"},
  fills:{fi:"täyttyy",en:"reached"}, statusNow:{fi:"✓ Voidaan kuvata nyt",en:"✓ Can be imaged now"}, statusFrom:{fi:"Aikaisintaan",en:"From"}, statusAge:{fi:"alaikäraja",en:"min age"},
  accepted:{fi:"Hyväksytty tulos:",en:"Accepted result:"}, orBetter:{fi:"tai parempi",en:"or better"},
  chipHip:{fi:"LONKAT",en:"HIPS"}, chipElbow:{fi:"KYYNÄRPÄÄT",en:"ELBOWS"}, chipSpine:{fi:"SELKÄ",en:"SPINE"}, chipShoulder:{fi:"OLKANIVELET",en:"SHOULDERS"}, chipNone:{fi:"Ei pakollisia röntgenkuvauksia",en:"No mandatory radiographs"},
@@ -1348,7 +1350,7 @@ function render(breed,dob){
 
   R.innerHTML=`
    <div class="rhead">
-     <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${dob?` · ${uu("metaBorn")} ${fmt(dob)}${dogAge}`:""}</div></div>
+     <div><h2>${breed.n}</h2><div class="meta">PEVISA 2026${SYNC_DAY?` · ${uu("syncShort")} ${fmtIso(SYNC_DAY)}`:""}${dob?` · ${uu("metaBorn")} ${fmt(dob)}${dogAge}`:""}</div></div>
      <div class="actions"><button class="btn ghost" onclick="window.print()">${uu("print")}</button></div>
    </div>
    <div class="summary">${chips.join("")||`<span class="chip">${uu("chipNone")}</span>`}</div>
@@ -1419,6 +1421,11 @@ $("#go").addEventListener("click",go);
 dobEl.addEventListener("change",()=>{if(selected)go()});
 
 /* ══════════ language ══════════ */
+/* last verified date – written weekly by ~/kennelkuvat_watch/kl_watch.py into sync.json */
+let SYNC_DAY="2026-09-23";
+function fmtIso(d){const [y,m,dd]=d.split("-").map(Number);return lang==="fi"?`${dd}.${m}.${y}`:new Date(y,m-1,dd).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
+function showSync(){const el=$("#t-sync");if(el)el.textContent=`✓ ${uu("syncLong")} ${fmtIso(SYNC_DAY)}`}
+fetch("sync.json?t="+Date.now()).then(r=>r.ok?r.json():null).then(j=>{if(j&&/^\d{4}-\d{2}-\d{2}$/.test(j.verified||"")){SYNC_DAY=j.verified;showSync();if(selected)go()}}).catch(()=>{});
 function applyChrome(){
   document.documentElement.lang=lang;
   $("#t-kicker").textContent=uu("kicker");
@@ -1430,6 +1437,7 @@ function applyChrome(){
   $("#go").textContent=uu("go");
   $("#breed").placeholder=uu("placeholder");
   $("#t-hint").textContent=uu("hint");
+  showSync();
   $("#t-src").textContent=uu("srcLabel")+" ";
   $("#t-otherimg").innerHTML=uu("otherImg");
   $("#t-disc").textContent=uu("discl");
