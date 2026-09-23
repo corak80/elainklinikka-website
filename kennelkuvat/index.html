@@ -516,6 +516,8 @@ const TR={
 "Lista 2 – korkkiruuvihäntäiset":"List 2 – screw-tailed breeds",
 " (ei isovillakoira)":" (not standard poodles)",
 "Muut rodut – ei Listalla 1 eikä 2":"Other breeds – not on List 1 or 2",
+"LTV- ja VA-lausunnon voi saada vain kerran · IDD vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)":"LTV and VA statements can be given only once · IDD only once · SP can be repeated (re-image no sooner than 6 mo)",
+"LTV- ja VA-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)":"LTV and VA statements can be given only once · SP can be repeated (re-image no sooner than 6 mo)",
 "<b>Vapaaehtoinen selkäkuvaus</b> – rotu kuuluu Selkäohjeen listaan:":"<b>Voluntary spine imaging</b> – the breed is on a spine guideline list:",
 "<b>Lista 1 – vähintään 6 kuvaa</b> (≥ 24 kk): <b>sivukuvat kaula-, rinta- ja lannerangasta sekä molemmista liitoskohdista</b> (kaula–rinta = ”hiihtokuva”, rinta–lanne) + <b>VD-kuva lanne-ristiluualueesta</b> (tai lonkkakuva, jossa ristiluu ja viimeinen lannenikama näkyvät)":"<b>List 1 – at least 6 films</b> (≥ 24 mo): <b>laterals of the cervical, thoracic and lumbar spine plus both junctions</b> (cervicothoracic = “ski view”, thoracolumbar) + <b>VD of the lumbosacral area</b> (or a hip film showing the sacrum and last lumbar vertebra)",
 "”Hiihtokuva”: koira kyljellään, toinen eturaaja eteen ja toinen taakse, kohdistus kaula- ja rintarangan liitokseen":"“Ski view”: lateral recumbency, one forelimb pulled forward and the other back, centred on the cervicothoracic junction",
@@ -577,7 +579,7 @@ const TR={
 "OC-muutokset näkyvät tyypillisesti <b>olkaluun pään kaudaalipinnassa</b>":"OC lesions typically appear on the <b>caudal surface of the humeral head</b>",
 // ── mandatory marks ──
 "Päivämäärä":"Date","Koiran rekisterinumero (tai TM-numero)":"Dog's registration number (or microchip no.)",
-"Puolimerkki (sin/dex tai L/R)":"Side marker (sin/dex or L/R)","<i>Selässä puolimerkkiä ei vaadita – VD-kuva</i>":"<i>No side marker required for spine – VD view</i>",
+"Puolimerkki (sin/dex tai L/R)":"Side marker (sin/dex or L/R)","Puolimerkki VD-kuviin (sin/dex tai L/R)":"Side marker on VD films (sin/dex or L/R)",
 // ── reject reasons ──
 "Epäsymmetrinen lantio tai kierto – reisiluut eri asennossa":"Asymmetric pelvis or rotation – femurs in different positions",
 "Reisiluut eivät yhdensuuntaiset / eivät suorassa vedossa":"Femurs not parallel / not in straight extension",
@@ -729,7 +731,7 @@ const U={
    "<b>Tarkista tunnistusmerkintä (mikrosiru)</b> kuvauksen yhteydessä ja merkitse tarkastetuksi lähetteeseen",
    "<b>Varmista alaikäraja täyttyy kuvauspäivänä</b> – katso rotukohtaiset rajat korteista yllä",
    "<b>Rauhoita riittävästi</b> ohjeenmukaisen asennon saavuttamiseksi; merkitse käytetyt valmisteet ja annokset lähetteeseen",
-   "<b>Pakolliset kuvamerkinnät</b> muuttumattomalla merkinnällä: päivämäärä, rekisterinumero (tai TM-numero) ja puolimerkki (ei selässä)",
+   "<b>Pakolliset kuvamerkinnät</b> muuttumattomalla merkinnällä: päivämäärä, rekisterinumero (tai TM-numero) ja puolimerkki (selässä VD-kuviin)",
    "<b>Kysy aiemmat leikkaukset ja tapaturmat</b> – lausuntoon vaikuttava leikkaus ilmoitettava, sairaskertomus liitteeksi",
    "<b>Vältä nartuilla juoksun/imetyksen aikaa</b> – hormonaalinen nivelten löysyys voi heikentää tulosta",
    "<b>Lähetä kuvat DICOM-muodossa Kennelliiton vastaanottojärjestelmään</b> – lausunto valmistuu tyypillisesti n. viikossa ja tallentuu KoiraNettiin"
@@ -738,7 +740,7 @@ const U={
    "<b>Verify the microchip identity</b> at imaging and mark it as checked on the referral",
    "<b>Confirm the minimum age is met on the imaging day</b> – see the breed-specific limits on the cards above",
    "<b>Sedate sufficiently</b> to achieve the guideline positioning; record the agents and doses used on the referral",
-   "<b>Mandatory film markings</b> with a non-alterable marker: date, registration number (or microchip no.) and side marker (not for spine)",
+   "<b>Mandatory film markings</b> with a non-alterable marker: date, registration number (or microchip no.) and side marker (spine: on VD films)",
    "<b>Ask about prior surgery and trauma</b> – surgery affecting the statement must be declared, attach the clinical record",
    "<b>Avoid imaging bitches in heat / lactation</b> – hormonal joint laxity can worsen the result",
    "<b>Submit images in DICOM to Kennelliitto's receiving system</b> – the statement is usually ready in ~a week and stored in KoiraNet"
@@ -844,7 +846,7 @@ spine:{gal:"spine",code:"SELKÄ",title:"Selkäkuvaus",cap:"Sivukuva rinta- ja la
  scale:null,
  redo:"LTV-, VA- ja IDD-lausunnon voi saada vain kerran · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)",
  pos:[] /* built per breed by spineStudy() */,
- marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","<i>Selässä puolimerkkiä ei vaadita – VD-kuva</i>"],
+ marks:["Päivämäärä","Koiran rekisterinumero (tai TM-numero)","Puolimerkki VD-kuviin (sin/dex tai L/R)"],
  reject:["Ranka ei suorassa / kierto sivukuvassa – nikamavälit päällekkäin","Nikamia ei voi numeroida luotettavasti","Ristiluu tai lanne-ristiluualue ei kokonaan kuvassa","Puutteellinen laatu → jätetään arvostelematta paitsi vaikeat muutokset"]},
 oc:{gal:"oc",code:"OC",title:"Olkanivelkuvaus (osteokondroosi)",cap:"ML-kuva · molemmat olkanivelet",svg:xr("kl/kl-oc-2.jpg","Kennelliiton ohjekuva: olkanivelen ML-röntgenkuva, osteokondroosimuutos olkaluun päässä","oc"),
  scale:{name:"OC-lausunto",rows:[["Ei todettu","Ei osteokondroosimuutoksia"],["Tulkinnanvarainen","Rajatapaus (yleinen jalostuksen raja-arvo)"],["Todettu","Osteokondroosimuutos olkaluun päässä"]]},
@@ -902,7 +904,8 @@ function spineStudy(breed){
     if(g.l1==="vol")pos.push("<b>IDD vapaaehtoinen</b> (Lista 1, 10/2026 alkaen): jos ≥ 24 kk koiralle halutaan IDD-lausunto, ota Lista 1:n kuvasarja – kaula-, hiihto-, rinta-, rinta–lanne- ja lannerankakuva + VD lanne-ristiluualueesta"+(breed.n.toLowerCase().startsWith("villakoira")?" (ei isovillakoira)":""));
   }
   pos.push(SP_COUNT);
-  return Object.assign({},STUDIES.spine,{pos,grp:spineGroupLabel(g)});
+  const redo="LTV- ja VA-lausunnon voi saada vain kerran"+(g.l1?" · IDD vain kerran":"")+" · SP uusittavissa (uusintakuvaus aikaisintaan 6 kk)";
+  return Object.assign({},STUDIES.spine,{pos,redo,grp:spineGroupLabel(g)});
 }
 function spineVolReminder(breed){
   const g=spineGroup(breed);if(!g.l1&&!g.l2)return null;
@@ -990,12 +993,23 @@ function render(breed,dob){
   R.scrollIntoView({behavior:"smooth",block:"start"});
 }
 
+/* breeding limits for THIS breed's studies only: the breed's own PEVISA limit, else the general Kennelliitto limit */
+function limitsHTML(breed){
+  const L=[],fi=lang==="fi";
+  if(breed.h)L.push((fi?"lonkat ":"hips ")+(breed.h[1]||"D"));
+  if(breed.e&&!breed.inc)L.push((fi?"kyynärpäät ":"elbows ")+(breed.e[1]!=null?breed.e[1]:"2"));
+  if(breed.inc&&breed.e)L.push((fi?"kyynärnivelen inkongruenssi ":"elbow incongruity ")+"INC2");
+  if(breed.k)L.push((fi?"polvilumpioluksaatio ":"patellar luxation ")+(breed.k!==1?breed.k:"3"));
+  if(breed.s&&breed.s.t.includes("SP")){const m=/SP(\d)/.exec(breed.s.o||"");L.push((fi?"spondyloosi ":"spondylosis ")+"SP"+(m?m[1]:"3"))}
+  if(!L.length)return "";
+  return `<div class="limits">${fi?"<b>Jalostuskäytön raja-arvot tälle rodulle</b>":"<b>Breeding limits for this breed</b>"}: ${L.join(" · ")}. ${fi?"Tutkimusten oltava voimassa astutushetkellä.":"Statements must be valid at mating."}</div>`;
+}
 function checklistHTML(breed,dob){
   return `<div class="checklist">
    <h3>${uu("clTitle")}</h3>
    <div class="sub">${uu("clSub")} · ${breed.n.toUpperCase()}</div>
-   <ol>${uu("clItems").map(i=>`<li>${i}</li>`).join("")}</ol>
-   <div class="limits">${uu("clLimits")}</div>
+   <ol>${uu("clItems").filter((_,i)=>i!==6||breed.h).map(i=>`<li>${i}</li>`).join("")}</ol>
+   ${limitsHTML(breed)}
   </div>`;
 }
 
