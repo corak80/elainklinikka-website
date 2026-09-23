@@ -1718,11 +1718,12 @@ const servicePages = [
     slug: 'hammashoito',
     slugSv: 'tandvard',
     slugEn: 'dental-care',
-    title: "Hammaskiven poisto Vaasassa | Eläinklinikka Saari",
-    ogTitle: "Hammaskiven poisto Vaasassa | Eläinklinikka Saari",
+    title: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
+    ogTitle: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     h1: "Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa",
     metaDesc: "Koiran hammaskiven poisto Vaasassa 303–353 €, kissan 263 €, hammasröntgen 59–99 €. Hampaiden poistot hinta-arviolla. Aina yleisanestesiassa.",
     icon: '🦷',
+    lead: 'Koiran hammaskiven poisto maksaa Eläinklinikka Saarella Vaasassa 303 € (alle 20 kg) tai 353 € (yli 20 kg), kissan 263 €. Hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Hammasröntgen (59–99 €) kuvataan samalla, ja mahdollisista hampaiden poistoista saat hinta-arvion ennen toimenpidettä.',
     sections: [
       { heading: "Miksi hammashoito on tärkeää?", text: "Hammassairaudet ovat eläinten yleisimpiä terveysongelmia. Jo kolmen vuoden iässä valtaosalla koirista ja kissoista on hammaskiveä ja ientulehdusta. Hoitamattomana hammasvauriot etenevät äänettömästi — eläimet peittävät kipua vaistomaisesti, joten omistaja huomaa ongelman usein vasta kun se on edennyt pitkälle. Säännöllinen hammaskiven poisto ja hammashoito pidentävät lemmikin elinikää ja parantavat elämänlaatua merkittävästi." },
       { heading: "Hammashoidon hinnat", text: "<div class=\"prices-container\"><div class=\"price-category open\"><div class=\"price-category-body\"><div class=\"price-row\"><span class=\"price-name\">Hampaiden tarkistus hereillä (hoitotarpeen arviointi)</span> <span class=\"price-value\">32 €</span></div><div class=\"price-row\"><span class=\"price-name\">Hammaskiven poisto, kissa</span> <span class=\"price-value\">263 €</span></div><div class=\"price-row\"><span class=\"price-name\">Hammaskiven poisto, koira alle 20 kg</span> <span class=\"price-value\">303 €</span></div><div class=\"price-row\"><span class=\"price-name\">Hammaskiven poisto, koira yli 20 kg</span> <span class=\"price-value\">353 €</span></div><div class=\"price-row\"><span class=\"price-name\">Lisämaksu, koira yli 40 kg</span> <span class=\"price-value\">50 €</span></div><div class=\"price-row\"><span class=\"price-name\">Hammasröntgen hammashoidon yhteydessä</span> <span class=\"price-value\">59–99 €</span></div><div class=\"price-row\"><span class=\"price-name\">Maitohampaan poisto, 1–2 hammasta</span> <span class=\"price-value\">453 €</span></div><div class=\"price-row\"><span class=\"price-name\">Maitohampaan poisto, 3–4 hammasta</span> <span class=\"price-value\">533 €</span></div><div class=\"price-row\"><span class=\"price-name\">Pysyvän hampaan poisto</span> <span class=\"price-value\">hinta-arvio tutkimuksen jälkeen</span></div></div></div></div><p>Hammaskiven poiston hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Pysyvien hampaiden poistoille ei ole kiinteää hintaa: hinta määräytyy kliinisen tutkimuksen ja röntgenkuvien perusteella, ja siihen vaikuttavat poistettavien hampaiden määrä, juurten määrä ja kunto sekä toimenpiteeseen kuluva aika. Saat hinta-arvion ennen toimenpidettä. Kaikki hinnat löydät <a href=\"/hinnasto/#hammashoito\">hinnastostamme</a>. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.</p>" },
@@ -1738,6 +1739,7 @@ const servicePages = [
     sv: {
       title: "Tandstensborttagning hund & katt i Vasa | Djurklinik Saari",
       ogTitle: "Tandstensborttagning hund & katt i Vasa | Djurklinik Saari",
+      lead: "Tandstensborttagning för hund kostar hos Djurklinik Saari i Vasa 303 € (under 20 kg) eller 353 € (över 20 kg), för katt 263 €. Priset omfattar narkos, tandstensborttagning med ultraljud, munundersökning och tandkarta. Tandröntgen (59–99 €) tas samtidigt, och för eventuella tandextraktioner får du en prisuppskattning före ingreppet.",
       h1: "Tandstensborttagning, tandrengöring och tandvård för hund och katt i Vasa",
       metaDesc: "Tandstensborttagning för hund i Vasa 303–353 €, katt 263 €, dentalröntgen 59–99 €. Tandutdragning enligt kostnadsförslag. Alltid under narkos.",
       sections: [
@@ -1774,6 +1776,7 @@ const servicePages = [
     en: {
       title: "Dog and Cat Teeth Cleaning in Vaasa | Saari Animal Clinic",
       ogTitle: "Dog and Cat Teeth Cleaning in Vaasa | Saari Animal Clinic",
+      lead: "Dog teeth cleaning at Saari Animal Clinic in Vaasa costs €303 (under 20 kg) or €353 (over 20 kg); for cats €263. The price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Dental X-rays (€59–99) are taken at the same time, and you get a cost estimate for any extractions before the procedure.",
       h1: "Teeth cleaning, extractions and dental care for dogs and cats in Vaasa",
       metaDesc: "Dog teeth cleaning (scaling) in Vaasa €303–353, cat €263, dental X-rays €59–99. Extractions by estimate. Always under anaesthesia, all teeth X-rayed.",
       sections: [
@@ -3629,6 +3632,7 @@ function generateServicePage(service, translations, lang) {
   const pageH1 = lang === 'fi' ? service.h1 : (langData ? langData.h1 : service.h1);
   const pageMetaDesc = lang === 'fi' ? service.metaDesc : (langData ? langData.metaDesc : service.metaDesc);
   const pageSections = lang === 'fi' ? service.sections : (langData ? langData.sections : service.sections);
+  const pageLead = lang === 'fi' ? service.lead : (langData && langData.lead);
 
   // CTA text
   const ctaTexts = {
@@ -3716,7 +3720,8 @@ function generateServicePage(service, translations, lang) {
   const relatedTitle = (lang !== 'fi' && langData) ? langData.relatedTitle : { fi: 'Aiheeseen liittyvät artikkelit', sv: 'Relaterade artiklar', en: 'Related articles' }[lang] || 'Aiheeseen liittyvät artikkelit';
 
   // Build body sections
-  let sectionsHtml = '';
+  let sectionsHtml = pageLead ? `
+          <p class="service-lead">${escapeHtml(pageLead)}</p>` : '';
   for (const section of pageSections) {
     // If section.text already starts with a block element (<p>, <ul>, <ol>, <div>),
     // emit it as-is; otherwise wrap in <p> for backwards compatibility with services
