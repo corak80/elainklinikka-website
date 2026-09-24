@@ -375,13 +375,19 @@ const articles = [
     titleKey: 'article.hyperthyroid.title',
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
-    date: '2026',
+    date: '24.9.2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text'],
     prefix: 'article.hyperthyroid',
     sources: [
       { text: 'Carney H.C. ym. (2016): 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. Journal of Feline Medicine and Surgery 18(5):400–416.', url: 'https://doi.org/10.1177/1098612X16643252', label: 'doi.org' },
-      { text: 'Peterson M.E. (2012): Hyperthyroidism in cats. Journal of Feline Medicine and Surgery 14(11):804–818.', url: 'https://doi.org/10.1177/1098612X12464462', label: 'doi.org' },
+      { text: 'Peterson M.E. (2013): More than just T4: Diagnostic testing for hyperthyroidism in cats. Journal of Feline Medicine and Surgery 15(9):765–777.', url: 'https://doi.org/10.1177/1098612X13500426', label: 'doi.org' },
+      { text: 'Peterson M.E. (2012): Hyperthyroidism in cats: what’s causing this epidemic of thyroid disease and can we prevent it? Journal of Feline Medicine and Surgery 14(11):804–818.', url: 'https://doi.org/10.1177/1098612X12464462', label: 'doi.org' },
+      { text: 'Peterson M.E., Varela F.V., Rishniw M., Polzin D.J. (2018): Evaluation of Serum Symmetric Dimethylarginine Concentration as a Marker for Masked Chronic Kidney Disease in Cats With Hyperthyroidism. Journal of Veterinary Internal Medicine 32(1):295–304.', url: 'https://doi.org/10.1111/jvim.15036', label: 'doi.org' },
+      { text: 'Stammeleer L. ym. (2024): Blood pressure in hyperthyroid cats before and after radioiodine treatment. Journal of Veterinary Internal Medicine 38(3):1359–1369.', url: 'https://doi.org/10.1111/jvim.17032', label: 'doi.org' },
+      { text: 'Acierno M.J. ym. (2018): ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats. Journal of Veterinary Internal Medicine 32(6):1803–1822.', url: 'https://doi.org/10.1111/jvim.15331', label: 'doi.org' },
+      { text: 'Fimea: Felimazole Vet 2,5 mg päällystetyt tabletit kissalle, valmisteyhteenveto.', url: 'https://spc.fimea.fi/indox/nam/html/nam/vetspc/2/25351742.pdf', label: 'fimea.fi' },
+      { text: 'Pharmaca Fennica: Apelka vet 5 mg/ml oraaliliuos kissoille, pakkausseloste.', url: 'https://pharmacafennica.fi/637F44AE-DFB5-4A49-9145-990E5CC5CA79/pil/176563/fi', label: 'pharmacafennica.fi' },
       { text: 'Cornell Feline Health Center: Hyperthyroidism in Cats.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats', label: 'vet.cornell.edu' },
       { text: 'International Cat Care: Hyperthyroidism in cats.', url: 'https://icatcare.org/articles/hyperthyroidism-in-cats', label: 'icatcare.org' }
     ]
