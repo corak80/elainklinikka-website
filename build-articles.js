@@ -18,6 +18,9 @@ const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.src.js');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://elainklinikkasaari.fi';
 const PRICES_URLS = { fi: '/hinnasto/', sv: '/sv/prislista/', en: '/en/pricelist/' };
+const SHOP_URLS = { fi: 'https://kauppa.elainklinikkasaari.fi/', sv: 'https://kauppa.elainklinikkasaari.fi/?lang=sv', en: 'https://kauppa.elainklinikkasaari.fi/' };
+const SHOP_LABELS = { fi: 'Verkkokauppa', sv: 'Webbutik', en: 'Online shop' };
+const SHOP_CART_SVG = '<svg class="nav-shop-ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>';
 
 // Cache-busting suffix for /css/style.css and /js/main.js, e.g. "?v=20260803c".
 // The homepage is hand-maintained, so index.html is the single source of truth:
@@ -1381,6 +1384,7 @@ ${relatedHtml}
           <a href="${ARTICLES_FOOTER_URLS[lang] || ARTICLES_FOOTER_URLS.fi}">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
           <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
+          <a href="${SHOP_URLS[lang] || SHOP_URLS.fi}">${escapeHtml(SHOP_LABELS[lang] || SHOP_LABELS.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.contact">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
@@ -1684,6 +1688,7 @@ ${cardsHtml}
           <a href="${indexPath}">${escapeHtml(i18n.footerArticles)}</a>
           <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="/media/">${escapeHtml(i18n.footerMedia)}</a>
+          <a href="${SHOP_URLS[lang] || SHOP_URLS.fi}">${escapeHtml(SHOP_LABELS[lang] || SHOP_LABELS.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(i18n.footerContactTitle)}</strong>
@@ -3984,6 +3989,7 @@ ${service.slug !== 'paivystys' ? `      <p class="service-clinic-link"><a href="
           <a href="${ARTICLES_FOOTER_URLS[lang] || ARTICLES_FOOTER_URLS.fi}">${escapeHtml(footerArticles[lang] || footerArticles.fi)}</a>
           <a href="${REVIEWS_URLS[lang] || REVIEWS_URLS.fi}">${escapeHtml(REVIEWS_LABELS[lang] || REVIEWS_LABELS.fi)}</a>
           <a href="${mediaUrl[lang] || mediaUrl.fi}">${escapeHtml(footerMedia[lang] || footerMedia.fi)}</a>
+          <a href="${SHOP_URLS[lang] || SHOP_URLS.fi}">${escapeHtml(SHOP_LABELS[lang] || SHOP_LABELS.fi)}</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerContact[lang] || footerContact.fi)}</strong>
@@ -4158,6 +4164,7 @@ function generatePrivacyPage() {
           <a href="/artikkelit/">Artikkelit</a>
           <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
+          <a href="https://kauppa.elainklinikkasaari.fi/">Verkkokauppa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -5020,6 +5027,7 @@ function generateAboutPage() {
           <a href="/artikkelit/">Artikkelit</a>
           <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
+          <a href="https://kauppa.elainklinikkasaari.fi/">Verkkokauppa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -5247,6 +5255,7 @@ function generateContactPage() {
           <a href="/artikkelit/">Artikkelit</a>
           <a href="/arvostelut/">Arvostelut</a>
           <a href="/media/">Saari mediassa</a>
+          <a href="https://kauppa.elainklinikkasaari.fi/">Verkkokauppa</a>
         </div>
         <div class="footer-col">
           <strong class="footer-heading">Yhteystiedot</strong>
@@ -5797,6 +5806,7 @@ function renderHeaderNav({ lang, homeUrl, articlesUrl, fiUrl, svUrl, enUrl }) {
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
           <a href="${homeUrl}#contact">${escapeHtml(nav.contact)}</a>
           <a href="${articlesUrl}">${escapeHtml(nav.articles)}</a>
+          <a href="${SHOP_URLS[lang] || SHOP_URLS.fi}" class="nav-shop">${SHOP_CART_SVG}<span>${escapeHtml(SHOP_LABELS[lang] || SHOP_LABELS.fi)}</span></a>
           <a href="${bookingUrl}" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">${escapeHtml(nav.book)}</a>
         </div>
 

@@ -792,6 +792,14 @@ const translations = {
 
   // Navigation - Articles
   'nav.articles': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },
+  'nav.shop': { fi: 'Verkkokauppa', sv: 'Webbutik', en: 'Online shop' },
+  'shop.eyebrow': { fi: 'Verkkokauppa', sv: 'Webbutik', en: 'Online shop' },
+  'shop.title': { fi: 'Lemmikkiruokaa verkosta, nouto klinikalta', sv: 'Husdjursfoder från nätet, avhämtning på kliniken', en: 'Pet food online, collected at the clinic' },
+  'shop.lead': { fi: 'Tilaa Royal Canin -ruokia kissallesi tai koirallesi verkosta ja nouda ne vastaanotostamme. Eläinlääkäreidemme valitsema valikoima, ei trendiruokia.', sv: 'Beställ Royal Canin-foder för din katt eller hund på nätet och hämta det på vår reception. Ett sortiment utvalt av våra veterinärer, inget trendfoder.', en: 'Order Royal Canin food for your cat or dog online and collect it at our reception. A range chosen by our vets, no fad diets.' },
+  'shop.b1': { fi: 'Varastotuotteet noudettavissa 1–2 arkipäivässä', sv: 'Lagervaror kan hämtas inom 1–2 vardagar', en: 'In-stock items ready in 1–2 working days' },
+  'shop.b2': { fi: 'Tekstiviesti, kun tilauksesi on valmis', sv: 'Sms när din beställning är klar', en: 'Text message when your order is ready' },
+  'shop.b3': { fi: 'Maksu verkossa: kortti, MobilePay, Apple Pay, Google Pay', sv: 'Betalning på nätet: kort, MobilePay, Apple Pay, Google Pay', en: 'Online payment: card, MobilePay, Apple Pay, Google Pay' },
+  'shop.cta': { fi: 'Siirry verkkokauppaan', sv: 'Till webbutiken', en: 'Go to the online shop' },
 
   // Articles section
   'articles.title': { fi: 'Artikkelit', sv: 'Artiklar', en: 'Articles' },

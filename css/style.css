@@ -396,6 +396,55 @@ body.article-page #main-content > .section {
   display: none;
 }
 
+/* Webshop link (kauppa.elainklinikkasaari.fi), added 24-09-2026 */
+.nav-links a.nav-shop {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.nav-shop-ico {
+  flex: none;
+}
+
+.nav-links {
+  column-gap: 0.75rem;
+}
+
+/* Cart icon only (label kept for screen readers) on narrower desktops,
+   and at every desktop width on pages with a long menu (9+ links). */
+@media (min-width: 769px) {
+  .nav-links a {
+    white-space: nowrap;
+  }
+
+  .nav-links:has(> a:nth-child(10)) a.nav-shop span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1380px) {
+  .nav-links a.nav-shop span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .nav-links a.nav-shop::after {
+    display: none;
+  }
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
@@ -2761,6 +2810,7 @@ a.service-card-link {
   .nav-links.mobile-open {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     position: absolute;
     top: 100%;
     left: 0;
@@ -3577,4 +3627,99 @@ a.service-card-link {
 }
 .form-status .msg-err {
   color: #b1382f;
+}
+
+/* --- Webshop homepage section (24-09-2026) --- */
+.shop-card {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+  background: var(--color-primary-light);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.shop-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 0;
+}
+
+.shop-card-img img {
+  width: 34%;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.shop-card-img img:nth-child(2) {
+  width: 40%;
+  margin: 0 -6%;
+  position: relative;
+  z-index: 1;
+}
+
+.shop-card-img img:nth-child(3) {
+  width: 40%;
+}
+
+.shop-card-eyebrow {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.shop-card h2 {
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+  text-wrap: balance;
+}
+
+.shop-card-body p {
+  color: var(--color-text-light);
+  margin: 0 0 1rem;
+}
+
+.shop-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.shop-card-list li {
+  padding-left: 1.6rem;
+  position: relative;
+}
+
+.shop-card-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color-primary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center / 70% no-repeat;
+}
+
+@media (max-width: 768px) {
+  .shop-card {
+    grid-template-columns: 1fr;
+    padding: var(--spacing-lg) var(--spacing-md);
+    gap: var(--spacing-md);
+  }
+
+  .shop-card .btn {
+    width: 100%;
+    text-align: center;
+  }
 }
