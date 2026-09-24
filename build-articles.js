@@ -377,7 +377,7 @@ const articles = [
     category: 'health',
     date: '24.9.2026',
     publishDate: '2026-02-01',
-    sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text'],
+    sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text', 'treatment.med.title', 'treatment.med.text', 'treatment.safety.title', 'treatment.safety.text', 'treatment.surgery.title', 'treatment.surgery.text', 'treatment.radioiodine.title', 'treatment.radioiodine.text', 'treatment.diet.title', 'treatment.diet.text'],
     prefix: 'article.hyperthyroid',
     sources: [
       { text: 'Carney H.C. ym. (2016): 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. Journal of Feline Medicine and Surgery 18(5):400–416.', url: 'https://doi.org/10.1177/1098612X16643252', label: 'doi.org' },
