@@ -701,16 +701,23 @@ const articles = [
     titleKey: 'article.anesthesia.title',
     tagKey: 'article.anesthesia.tag',
     category: 'surgery',
-    date: '2026',
+    date: '24.9.2026',
     publishDate: '2026-03-05',
     sections: ['intro', 'risk.title', 'risk.text', 'monitoring.title', 'monitoring.text', 'balanced.title', 'balanced.text', 'vatinoxan.title', 'vatinoxan.text', 'preop.title', 'preop.text'],
     prefix: 'article.anesthesia',
     htmlSections: ['risk.text'],
     sources: [
+      { text: 'Brodbelt D.C. ym. (2008): The risk of death: the Confidential Enquiry into Perioperative Small Animal Fatalities. Veterinary Anaesthesia and Analgesia 35(5):365–373.', url: 'https://pubmed.ncbi.nlm.nih.gov/18466167/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Brodbelt D.C. ym. (2007): Risk factors for anaesthetic-related death in cats: results from the confidential enquiry into perioperative small animal fatalities (CEPSAF). British Journal of Anaesthesia 99(5):617–623.', url: 'https://pubmed.ncbi.nlm.nih.gov/17881744/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Brodbelt D.C. ym. (2008): Results of the confidential enquiry into perioperative small animal fatalities regarding risk factors for anesthetic-related death in dogs. JAVMA 233(7):1096–1104.', url: 'https://pubmed.ncbi.nlm.nih.gov/18828720/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs: A worldwide analysis and risk assessment. Veterinary Record 195(1):e3604.', url: 'https://pubmed.ncbi.nlm.nih.gov/37953683/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Grubb T. ym. (2020): 2020 AAHA Anesthesia and Monitoring Guidelines for Dogs and Cats. Journal of the American Animal Hospital Association 56(2):59–82.', url: 'https://pubmed.ncbi.nlm.nih.gov/32078360/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Brodbelt D.C. ym. (2008): The risk of death — the Confidential Enquiry into Perioperative Small Animal Fatalities (CEPSAF). Veterinary Anaesthesia and Analgesia 35(5):365–373.', url: 'https://pubmed.ncbi.nlm.nih.gov/18466167/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Brodbelt D.C. ym. (2007): Risk factors for anaesthetic-related death in cats — results from CEPSAF. British Journal of Anaesthesia 99(5):617–623.', url: 'https://pubmed.ncbi.nlm.nih.gov/17881744/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs — a worldwide analysis and risk assessment. Veterinary Record.', url: 'https://bvajournals.onlinelibrary.wiley.com/doi/10.1002/vetr.3604', label: 'bvajournals.onlinelibrary.wiley.com' }
+      { text: 'Gruenheid M. ym. (2018): Risk of anesthesia-related complications in brachycephalic dogs. JAVMA 253(3):301–306.', url: 'https://pubmed.ncbi.nlm.nih.gov/30020004/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Huuskonen V. (2024): Clinical justification for co-administering vatinoxan with (dex)medetomidine in dogs and sheep. Väitöskirja, Helsingin yliopisto.', url: 'http://hdl.handle.net/10138/586172', label: 'hdl.handle.net' },
+      { text: 'Mattila R. (2024): Nukutus on eläimelle isompi riski kuin ihmiselle. Yliopisto-lehti 9/2024, Helsingin yliopisto.', url: 'https://www.helsinki.fi/fi/uutiset/elaimet/nukutus-elaimelle-isompi-riski-kuin-ihmiselle', label: 'helsinki.fi' },
+      { text: 'Helsingin yliopisto (2022): Increasingly safe canine sedation – A new veterinary drug discovery goes global.', url: 'https://www.helsinki.fi/en/news/animals/increasingly-safe-canine-sedation-new-veterinary-drug-discovery-goes-global', label: 'helsinki.fi' },
+      { text: 'Union Product Database: Zenalpha 0,5 mg/ml + 10 mg/ml injektioneste, liuos, koirille.', url: 'https://medicines.health.europa.eu/veterinary/en/600000038535', label: 'medicines.health.europa.eu' },
+      { text: 'U.S. FDA: Freedom of Information Summary, NADA 141-551 Zenalpha.', url: 'https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/12187', label: 'animaldrugsatfda.fda.gov' }
     ]
   },
   {
