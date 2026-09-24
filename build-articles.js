@@ -626,17 +626,27 @@ const articles = [
     titleKey: 'article.vaccination.title',
     tagKey: 'article.vaccination.tag',
     category: 'health',
-    date: '2026',
+    date: '24.9.2026',
     publishDate: '2026-03-01',
     sections: ['intro', 'dogs.title', 'dogs.text', 'cats.title', 'cats.text', 'schedule.title', 'schedule.text', 'rabies.title', 'rabies.text', 'travel.title', 'travel.text'],
     prefix: 'article.vaccination',
     htmlSections: ['dogs.text', 'cats.text', 'schedule.text', 'travel.text'],
     sources: [
-      { text: 'Squires R.A. ym. (2024): WSAVA guidelines for the vaccination of dogs and cats. Journal of Small Animal Practice 65(5):277–316.', url: 'https://wsava.org/global-guidelines/vaccination-guidelines/', label: 'wsava.org' },
-      { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen (mikrosiru, rabiesrokotus, 21 vrk, lemmikkipassi).', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
-      { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä (1–5 vrk, vain koirat).', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
-      { text: 'Ruokavirasto: Koirien maahantuontiin liittyvät riskit (rabiesrokotus metsästys- ja palveluskoirille).', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/lemmikkielaimet/koirat/koirien-maahantuontiin-liittyvat-riskit/', label: 'ruokavirasto.fi' },
-      { text: 'European Commission: EU rules on travelling with pets (EU pet passport, Regulation 576/2013).', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' }
+      { text: 'Squires R.A. ym. (2024): 2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA). Journal of Small Animal Practice 65(5):277–316.', url: 'https://wsava.org/global-guidelines/vaccination-guidelines/', label: 'wsava.org' },
+      { text: 'Ruokavirasto: Koirien rokotteet.', url: 'https://www.ruokavirasto.fi/elaimet/elainlaakarit/palvelut-elainlaakareille/rokoteneuvonta/elainlajikohtaiset-rokotteet-ja-rokotussuosituksia/koirien-rokotteet/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Kissarokotteet.', url: 'https://www.ruokavirasto.fi/elaimet/elainlaakarit/palvelut-elainlaakareille/rokoteneuvonta/elainlajikohtaiset-rokotteet-ja-rokotussuosituksia/kissarokotteet/', label: 'ruokavirasto.fi' },
+      { text: 'Suomen Kissalääketieteen Seura Catus: Rokotussuositukset suomalaisille kissoille.', url: 'https://www.sep.fi/assets/files/materiaalit/catus_rokotussuositukset_2025.pdf', label: 'sep.fi' },
+      { text: 'Ruokavirasto: Raivotauti eli rabies.', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/usealle-elainlajille-yhteiset-taudit/raivotauti-eli-rabies/', label: 'ruokavirasto.fi' },
+      { text: 'Maa- ja metsätalousministeriön asetus b- ja c-luokan eläintautien vastustamisesta 327/2021, 46 §.', url: 'https://www.finlex.fi/fi/lainsaadanto/2021/327', label: 'finlex.fi' },
+      { text: 'Ruokavirasto: Leptospiroosi.', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/usealle-elainlajille-yhteiset-taudit/leptospiroosi/', label: 'ruokavirasto.fi' },
+      { text: 'Suomen Kennelliitto: Kennelliiton rokotusmääräykset (voimassa 1.6.2023 alkaen).', url: 'https://www.kennelliitto.fi/kennelliiton-rokotusmaaraykset', label: 'kennelliitto.fi' },
+      { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/tuonti-eun-ulkopuolelta/elaimet-ja-elainperaiset-tuotteet/elaimet-ja-sukusolut/koirat-kissat-ja-fretit/lemmikkielaimen-siirto/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto (2024): Venäjältä ja Valko-Venäjältä saapuvilta lemmikeiltä vaaditaan raivotaudin vasta-ainetesti 16.9. alkaen.', url: 'https://www.ruokavirasto.fi/elaimet/uutiset/uutiset/venajalta-ja-valko-venajalta-saapuvilta-lemmikeilta-vaaditaan-raivotaudin-vasta-ainetesti-16.9.-alkaen/', label: 'ruokavirasto.fi' },
+      { text: 'European Commission: Bringing a pet into the EU from a non-EU country (Delegated Regulation (EU) 2026/131).', url: 'https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en', label: 'food.ec.europa.eu' },
+      { text: 'European Commission: Listing of non-EU countries and territories.', url: 'https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/listing-territories-and-non-eu-countries_en', label: 'food.ec.europa.eu' },
+      { text: 'European Commission, Your Europe: Travelling with pets and other animals in the EU.', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' }
     ]
   },
   {
