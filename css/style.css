@@ -3720,6 +3720,7 @@ a.service-card-link {
 
   .shop-card .btn {
     width: 100%;
+    justify-content: center;
     text-align: center;
   }
 }
