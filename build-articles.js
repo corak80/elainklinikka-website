@@ -424,14 +424,21 @@ const articles = [
     titleKey: 'article.snake.title',
     tagKey: 'article.snake.tag',
     category: 'emergency',
-    date: '2026',
+    date: '24.9.2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'firstaid.title', 'firstaid.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.snake',
     sources: [
-      { text: 'Merck Veterinary Manual: Snakebites in Animals.', url: 'https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals', label: 'merckvetmanual.com' },
-      { text: 'Brandeker E. ym. (2015): The effect of a single dose of prednisolone in dogs envenomated by Vipera berus — a randomized, double-blind, placebo-controlled clinical trial. BMC Veterinary Research 11:44.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4349773/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Sutton N.M. ym. (2010): Clinical and biochemical changes in 53 Swedish dogs bitten by the European adder (Vipera berus). Acta Veterinaria Scandinavica 52:26.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2873270/', label: 'ncbi.nlm.nih.gov' }
+      { text: 'Lervik J.B., Lilliehöök I., Frendin J.H.M. (2010): Clinical and biochemical changes in 53 Swedish dogs bitten by the European adder – Vipera berus. Acta Veterinaria Scandinavica 52:26.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2873270/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Brandeker E. ym. (2015): The effect of a single dose of prednisolone in dogs envenomated by Vipera berus – a randomized, double-blind, placebo-controlled clinical trial. BMC Veterinary Research 11:44.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4349773/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Sutton N.M., Bates N., Campbell A. (2011): Canine adder bites in the UK: a retrospective study of cases reported to the Veterinary Poisons Information Service. Veterinary Record 169(23):607.', url: 'https://pubmed.ncbi.nlm.nih.gov/21868437/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Vestberg A.R., Tidholm A., Ljungvall I. (2017): Twenty-four-hour ambulatory electrocardiography characterization of heart rhythm in Vipera berus-envenomed dogs. Acta Veterinaria Scandinavica 59:28.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5415709/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Harjen H.J. ym. (2020): Ambulatory electrocardiography and serum cardiac troponin I measurement in 21 dogs envenomated by the European adder (Vipera berus). Journal of Veterinary Internal Medicine 34(4):1369–1378.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7379007/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Harjen H.J. ym. (2022): Persistent hypercoagulability in dogs envenomated by the European adder (Vipera berus berus). PLoS One 17(2):e0263238.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8856559/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Yle (2015): Kyypakkausta ei suositella koiralle kyyn puremaan – ampiaisen pistoon kylläkin.', url: 'https://yle.fi/a/3-8196816', label: 'yle.fi' },
+      { text: 'MTV Uutiset (2023): Eläinlääkäri neuvoo miten toimia, jos kyy puree koiraa.', url: 'https://www.mtvuutiset.fi/artikkeli/elainlaakari-neuvoo-miten-toimia-jos-kyy-puree-koiraa-ei-tulehduskipulaaketta-ja-kyypakkaus-vain-yhdessa-tapauksessa/8725898', label: 'mtvuutiset.fi' },
+      { text: 'Suomen Lajitietokeskus: Kyy (Vipera berus).', url: 'https://laji.fi/taxon/MX.37641', label: 'laji.fi' },
+      { text: 'Yle (2023): Kyykäärme rauhoitetaan ensimmäistä kertaa Suomessa – pihapiirissä tappaminen on edelleen sallittua, jos siirto ei onnistu.', url: 'https://yle.fi/a/74-20029021', label: 'yle.fi' }
     ]
   },
   {
