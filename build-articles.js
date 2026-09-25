@@ -663,15 +663,20 @@ const articles = [
     titleKey: 'article.deworming.title',
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-07-28',
-    sections: ["intro", "catoften.title", "catoften.text", "kitten.title", "kitten.text", "indoor.title", "indoor.text", "catsigns.title", "catsigns.text", "dogoften.title", "dogoften.text", "puppy.title", "puppy.text", "fecal.title", "fecal.text", "parasites.title", "parasites.text", "product.title", "product.text", "vaccine.title", "vaccine.text", "travel.title", "travel.text", "cta"],
+    sections: ['intro', 'catoften.title', 'catoften.text', 'kitten.title', 'kitten.text', 'indoor.title', 'indoor.text', 'catsigns.title', 'catsigns.text', 'dogoften.title', 'dogoften.text', 'puppy.title', 'puppy.text', 'fecal.title', 'fecal.text', 'parasites.title', 'parasites.text', 'product.title', 'product.text', 'vaccine.title', 'vaccine.text', 'travel.title', 'travel.text', 'cta'],
     prefix: 'article.deworming',
     sources: [
-      { text: 'ESCCAP: Guideline 01 — Worm Control in Dogs and Cats (European Scientific Counsel Companion Animal Parasites).', url: 'https://www.esccap.org/guidelines/gl1/', label: 'esccap.org' },
+      { text: 'ESCCAP: Worm Control in Dogs and Cats. ESCCAP Guideline 01, 7th edition, June 2025.', url: 'https://www.esccap.org/guidelines/gl1/', label: 'esccap.org' },
       { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
       { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
-      { text: 'CAPC (Companion Animal Parasite Council): Ascarid (roundworm) guidelines.', url: 'https://capcvet.org/guidelines/ascarid/', label: 'capcvet.org' }
+      { text: 'Ruokavirasto: Ekinokokit.', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/usealle-elainlajille-yhteiset-taudit/ekinokokit/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta.', url: 'https://www.ruokavirasto.fi/laboratoriopalvelut/ajankohtaista-laboratoriopalveluista/metsastaja--muista-torjua-hirviekinokokkitartunta/', label: 'ruokavirasto.fi' },
+      { text: 'Your Europe (European Union): Travelling with pets and other animals in the EU.', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' },
+      { text: 'GOV.UK: Bringing your pet dog to Great Britain – tapeworm treatment for dogs.', url: 'https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs', label: 'gov.uk' },
+      { text: 'Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52.', url: 'https://doi.org/10.1186/s13028-024-00776-4', label: 'doi.org' },
+      { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
     ]
   },
   {
