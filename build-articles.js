@@ -747,16 +747,26 @@ const articles = [
     titleKey: 'article.ibdlymphoma.title',
     tagKey: 'article.ibdlymphoma.tag',
     category: 'health',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-03-01',
     sections: ['intro', 'challenge.title', 'challenge.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'why.title', 'why.text'],
     prefix: 'article.ibdlymphoma',
     htmlSections: ['diagnosis.text', 'treatment.text'],
     sources: [
-      { text: 'Marsilio S. ym. (2023): ACVIM consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats. Journal of Veterinary Internal Medicine 37(3):794–816.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10229359/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Paulin M.V. ym. (2018): Feline low-grade alimentary lymphoma — an emerging entity and a potential animal model for human disease. BMC Veterinary Research 14:306.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6180644/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Pope K.V. ym. (2015): Outcome and toxicity assessment of feline small cell lymphoma — 56 cases. Veterinary Medicine and Science 1(2):51–62.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5645816/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Marsilio S. ym. (2019): Histopathology, immunohistochemistry and molecular clonality testing of small intestinal biopsy specimens from clinically healthy client-owned cats. Journal of Veterinary Internal Medicine 33(2):551–558.', url: 'https://doi.org/10.1111/jvim.15455', label: 'doi.org' }
+      { text: 'Marsilio S. ym. (2023): ACVIM consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats. Journal of Veterinary Internal Medicine 37(3):794–816.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10229359/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Paulin M.V. ym. (2018): Feline low-grade alimentary lymphoma: an emerging entity and a potential animal model for human disease. BMC Veterinary Research 14:306.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6180644/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Freiche V. ym. (2021): Histopathologic, phenotypic, and molecular criteria to discriminate low-grade intestinal T-cell lymphoma in cats from lymphoplasmacytic enteritis. Journal of Veterinary Internal Medicine 35(6):2673–2684.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8692189/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Marsilio S. ym. (2019): Results of histopathology, immunohistochemistry, and molecular clonality testing of small intestinal biopsy specimens from clinically healthy client-owned cats. Journal of Veterinary Internal Medicine 33(2):551–558.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6430868/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Willard M.D. ym. (2002): Interobserver variation among histopathologic evaluations of intestinal tissues from dogs and cats. Journal of the American Veterinary Medical Association 220(8):1177–1182.', url: 'https://pubmed.ncbi.nlm.nih.gov/11990964/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Barrs V.R., Beatty J.A. (2012): Feline alimentary lymphoma: 2. Further diagnostics, therapy and prognosis. Journal of Feline Medicine and Surgery 14(3):191–201.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10822435/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Makielski K. ym. (2019): Narrative review of therapies for chronic enteropathies in dogs and cats. Journal of Veterinary Internal Medicine 33(1):11–22.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6335544/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Pope K.V. ym. (2015): Outcome and toxicity assessment of feline small cell lymphoma: 56 cases (2000–2010). Veterinary Medicine and Science 1(2):51–62.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5645816/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Kiselow M.A. ym. (2008): Outcome of cats with low-grade lymphocytic lymphoma: 41 cases (1995–2005). Journal of the American Veterinary Medical Association 232(3):405–410.', url: 'https://pubmed.ncbi.nlm.nih.gov/18241108/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Lingard A.E. ym. (2009): Low-grade alimentary lymphoma: clinicopathological findings and response to treatment in 17 cases. Journal of Feline Medicine and Surgery 11(8):692–700.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11132580/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Stein T.J. ym. (2010): Treatment of feline gastrointestinal small-cell lymphoma with chlorambucil and glucocorticoids. Journal of the American Animal Hospital Association 46(6):413–417.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3092124/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Moore P.F. ym. (2012): Feline gastrointestinal lymphoma: mucosal architecture, immunophenotype, and molecular clonality. Veterinary Pathology 49(4):658–668.', url: 'https://pubmed.ncbi.nlm.nih.gov/21505197/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Collette S.A. ym. (2016): Treatment of feline intermediate- to high-grade lymphoma with a modified University of Wisconsin-Madison protocol: 119 cases (2004–2012). Veterinary and Comparative Oncology 14(Suppl 1):136–146.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5012421/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Health Products Regulatory Authority, Ireland (2023): Atopica 100 mg/ml oral solution for cats and dogs — summary of product characteristics, sections 3.3 and 3.5 (EU decentralised procedure IE/V/0881/001, which also covers the Finnish authorisation).', url: 'https://assets.hpra.ie/products/Animal/208/VPA22020_013_001-CRN00D3VZ-20_04_2023-SPC_04052023113737.pdf', label: 'assets.hpra.ie' }
     ]
   },
   {
