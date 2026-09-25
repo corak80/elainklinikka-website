@@ -28,6 +28,12 @@
 - [Acupuncture & rehabilitation](https://elainklinikkasaari.fi/palvelut/akupunktio/): Veterinary acupuncture and physical rehabilitation.
 - [Wildlife care](https://elainklinikkasaari.fi/villielaimet/): Treatment of injured wild animals.
 
+## Pet food shop
+
+- [Saari Kauppa, online food shop](https://kauppa.elainklinikkasaari.fi/): The clinic's online shop for Royal Canin everyday dry and wet food for dogs and cats (44 products). Order and pay online (card, MobilePay, Apple Pay, Google Pay) and collect at the clinic, Gerbyntie 18, Vaasa, Mon–Fri 07:45–17:00, after a text message. No home delivery. In Finnish and Swedish.
+- [Shop details for AI assistants](https://kauppa.elainklinikkasaari.fi/llms.txt): Full product list with current prices, pickup times and the vets' notes on each product.
+- [Prescription diets](https://elainklinikkasaari.fi/en/services/prescription-diets/): Veterinary diets (Royal Canin, Specific, Hill's) are sold at the clinic, not online.
+
 ## Articles
 
 - [All articles (health & care)](https://elainklinikkasaari.fi/artikkelit/): Veterinary articles on dental, cardiology, anesthesia, surgery and pet care, written by the clinic's veterinarians.

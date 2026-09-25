@@ -5,7 +5,7 @@ Machine-readable price list for Eläinklinikka Saari, a family-owned small-anima
 - All prices in EUR, VAT included (prices are total prices).
 - Surgery prices include medication, supplies and suture removal.
 - Human-readable price pages: Finnish https://elainklinikkasaari.fi/hinnasto/ · Swedish https://elainklinikkasaari.fi/sv/prislista/ · English https://elainklinikkasaari.fi/en/pricelist/
-- Last updated: 23-08-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
+- Last updated: 25-09-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
 
 ## Veterinary consultation (Eläinlääkärin vastaanotto)
 
@@ -138,6 +138,13 @@ Tooth extractions are done based on clinical examination and X-rays; price depen
 - Dog 20–40 kg: 173 €
 - Dog over 40 kg: 193 €
 - Rodents / rabbits: 88 €
+
+## Pet food (online shop)
+
+- Royal Canin everyday dry and wet food for dogs and cats is sold in the clinic's online shop, https://kauppa.elainklinikkasaari.fi/, with pickup at the clinic and no delivery costs.
+- Example prices on 25-09-2026: Royal Canin Sterilised (adult cat) 2 kg 23.00 €, 10 kg 81.50 €; Mini Adult (small dog) 2 kg 15.00 €; wet food 12 × 85 g from 10.50 €.
+- Full, current price list: https://kauppa.elainklinikkasaari.fi/llms.txt
+- Prescription diets are sold at the clinic, not online.
 
 ## Payment and policies
 
