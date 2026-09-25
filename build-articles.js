@@ -252,14 +252,20 @@ const articles = [
     titleKey: 'article.diarrhea.title',
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-01-20',
-    sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
+    sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'medicines.title', 'medicines.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     prefix: 'article.diarrhea',
     sources: [
-      { text: 'Jessen L.R. ym. (2024): ENOVAT guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal.', url: 'https://www.sciencedirect.com/science/article/pii/S1090023324001473', label: 'sciencedirect.com' },
-      { text: 'WSAVA Global Gastrointestinal Guidelines.', url: 'https://wsava.org/global-guidelines/gastrointestinal-guidelines/', label: 'wsava.org' },
-      { text: 'Merck Veterinary Manual: Feline Hepatic Lipidosis.', url: 'https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-hepatic-lipidosis', label: 'merckvetmanual.com' }
+      { text: 'Jessen LR, Werner M, Singleton D, et al. European Network for Optimization of Veterinary Antimicrobial Therapy (ENOVAT) guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal 2024;307:106208.', url: 'https://doi.org/10.1016/j.tvjl.2024.106208', label: 'doi.org' },
+      { text: 'Mohr AJ, Leisewitz AL, Jacobson LS, et al. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. Journal of Veterinary Internal Medicine 2003;17(6):791–798.', url: 'https://doi.org/10.1111/j.1939-1676.2003.tb02516.x', label: 'doi.org' },
+      { text: 'Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860.', url: 'https://doi.org/10.1111/j.1939-1676.2011.0738.x', label: 'doi.org' },
+      { text: 'Merck Veterinary Manual: Feline Hepatic Lipidosis.', url: 'https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-hepatic-lipidosis', label: 'merckvetmanual.com' },
+      { text: 'International Cat Care: Inappetence in cats.', url: 'https://icatcare.org/articles/inappetence-in-cats', label: 'icatcare.org' },
+      { text: 'Washington State University, WADDL: MDR1 in dogs.', url: 'https://waddl.vetmed.wsu.edu/mdr1-in-dogs/', label: 'waddl.vetmed.wsu.edu' },
+      { text: 'Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals.', url: 'https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-diarrhea-in-monogastric-animals', label: 'merckvetmanual.com' },
+      { text: 'CDC Healthy Pets: Dogs.', url: 'https://www.cdc.gov/healthy-pets/about/dogs.html', label: 'cdc.gov' },
+      { text: 'Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316.', url: 'https://doi.org/10.2460/javma.236.12.1308', label: 'doi.org' }
     ]
   },
   {
