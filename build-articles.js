@@ -233,16 +233,25 @@ const articles = [
     titleKey: 'article.mlk.title',
     tagKey: 'articles.tag.anesthesia',
     category: 'surgery',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-01-15',
-    sections: ['intro', 'what.title', 'what.text', 'why.title', 'why.text', 'benefits.title', 'benefits.text', 'use.title', 'use.text', 'windup.title', 'windup.text'],
+    sections: ['intro', 'what.title', 'what.text', 'why.title', 'why.text', 'inhalant.title', 'inhalant.text', 'benefits.title', 'benefits.text', 'use.title', 'use.text', 'windup.title', 'windup.text'],
     prefix: 'article.mlk',
     sources: [
-      { text: 'Muir W.W. ym. (2003): Effects of morphine, lidocaine, ketamine, and morphine-lidocaine-ketamine drug combination on minimum alveolar concentration in dogs anesthetized with isoflurane. American Journal of Veterinary Research 64:1155–1160.', url: 'https://pubmed.ncbi.nlm.nih.gov/13677395/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Mathews K. ym. (2014): Guidelines for Recognition, Assessment and Treatment of Pain. WSAVA Global Pain Council. Journal of Small Animal Practice 55:E10–E68.', url: 'https://onlinelibrary.wiley.com/doi/full/10.1111/jsap.12200', label: 'onlinelibrary.wiley.com' },
-      { text: 'Woolf C.J. (2011): Central sensitization: implications for the diagnosis and treatment of pain. Pain 152:S2–S15.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3268359/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Monteiro B.P. ym. (2023): 2022 WSAVA guidelines for the recognition, assessment and treatment of pain. Journal of Small Animal Practice 64(4):177–254.', url: 'https://doi.org/10.1111/jsap.13566', label: 'doi.org' },
+      { text: 'Steagall P.V. ym. (2022): 2022 ISFM Consensus Guidelines on the Management of Acute Pain in Cats. Journal of Feline Medicine and Surgery 24(1):4–30.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10845386/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Gruen M.E. ym. (2022): 2022 AAHA Pain Management Guidelines for Dogs and Cats. Journal of the American Animal Hospital Association 58(2):55–76.', url: 'https://pubmed.ncbi.nlm.nih.gov/35195712/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Guedes A. (2012): Pain Management: Constant-Rate Infusion. Clinician’s Brief, March 2012.', url: 'https://www.cliniciansbrief.com/article/pain-management-constant-rate-infusion', label: 'cliniciansbrief.com' },
-      { text: 'WSAVA Global Pain Council: Guidelines for Recognition, Assessment and Treatment of Pain.', url: 'https://wsava.org/global-guidelines/global-pain-council-guidelines/', label: 'wsava.org' }
+      { text: 'Muir W.W. ym. (2003): Effects of morphine, lidocaine, ketamine, and morphine-lidocaine-ketamine drug combination on minimum alveolar concentration in dogs anesthetized with isoflurane. American Journal of Veterinary Research 64(9):1155–1160.', url: 'https://pubmed.ncbi.nlm.nih.gov/13677395/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Pypendop B.H., Ilkiw J.E. (2005): Assessment of the hemodynamic effects of lidocaine administered IV in isoflurane-anesthetized cats. American Journal of Veterinary Research 66(4):661–668.', url: 'https://pubmed.ncbi.nlm.nih.gov/15900948/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Wagner A.E. ym. (2002): Use of low doses of ketamine administered by constant rate infusion as an adjunct for postoperative analgesia in dogs. Journal of the American Veterinary Medical Association 221(1):72–75.', url: 'https://pubmed.ncbi.nlm.nih.gov/12420827/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Marques É.J. ym. (2023): Influence of constant rate infusions of fentanyl alone or in combination with lidocaine and ketamine on the response to surgery and postoperative pain in isoflurane anesthetized dogs undergoing unilateral mastectomy: a randomized clinical trial. Topics in Companion Animal Medicine 52:100759.', url: 'https://pubmed.ncbi.nlm.nih.gov/36587868/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Becker W.M. ym. (2013): Prevalence of dysphoria after fentanyl in dogs undergoing stifle surgery. Veterinary Surgery 42(3):302–307.', url: 'https://pubmed.ncbi.nlm.nih.gov/23231071/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Woolf C.J. (2011): Central sensitization: implications for the diagnosis and treatment of pain. Pain 152(3 Suppl):S2–S15.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3268359/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Kronen P.W. ym. (2026): N-methyl-D-aspartate receptor antagonists for controlling pain in dogs. Journal of Small Animal Practice, online ahead of print (doi:10.1111/jsap.70205).', url: 'https://pubmed.ncbi.nlm.nih.gov/42767761/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'WSAVA Pain Committee (2024): Soft Tissue Surgery — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Soft-tissue-Surgery.pdf', label: 'wsava.org' },
+      { text: 'WSAVA Pain Committee (2024): Castration and Ovariohysterectomy/Ovariectomy: Dogs — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Castration-and-OVH-Dogs.pdf', label: 'wsava.org' },
+      { text: 'WSAVA Pain Committee (2024): Castration and Ovariohysterectomy/Ovariectomy: Cats — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Castration-and-OVH-cats.pdf', label: 'wsava.org' }
     ]
   },
   {
