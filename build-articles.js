@@ -512,17 +512,22 @@ const articles = [
     titleKey: 'article.pyometra.title',
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-02-10',
-    sections: ["intro", "symptoms.title", "symptoms.text", "onset.title", "onset.text", "causes.title", "causes.text", "selfheal.title", "selfheal.text", "diagnosis.title", "diagnosis.text", "treatment.title", "treatment.text", "cost.title", "cost.text", "recovery.title", "recovery.text", "cat.title", "cat.text", "prevention.title", "prevention.text", "contact.title", "contact.text"],
+    sections: ['intro', 'symptoms.title', 'symptoms.text', 'onset.title', 'onset.text', 'causes.title', 'causes.text', 'selfheal.title', 'selfheal.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'cost.title', 'cost.text', 'recovery.title', 'recovery.text', 'cat.title', 'cat.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     prefix: 'article.pyometra',
     sources: [
-      { text: 'Hagman R. (2018): Pyometra in Small Animals. Veterinary Clinics of North America: Small Animal Practice 48(4):639–661.', url: 'https://www.vetsmall.theclinics.com/article/S0195-5616(18)30026-3/fulltext', label: 'theclinics.com' },
-      { text: 'Jitpean S. ym. (2014): Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Veterinary Research 10:6.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3892096/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Merck Veterinary Manual: Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals.', url: 'https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/cystic-endometrial-hyperplasia-pyometra-complex-in-small-animals', label: 'merckvetmanual.com' },
-      { text: 'Cornell University Riney Canine Health Center: Pyometra.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/pyometra', label: 'vet.cornell.edu' },
-      { text: "Egenvall A. ym. (2001): Breed risk of pyometra in insured dogs in Sweden. Journal of Veterinary Internal Medicine 15(6):530–538.", url: 'https://doi.org/10.1111/j.1939-1676.2001.tb01587.x', label: 'doi.org' },
-      { text: "Jitpean S. ym. (2012): Breed variations in the incidence of pyometra and mammary tumours in Swedish dogs. Reproduction in Domestic Animals 47(Suppl 6):347–350.", url: 'https://doi.org/10.1111/rda.12103', label: 'doi.org' }
+      { text: 'Hagman R. (2018): Pyometra in Small Animals. Veterinary Clinics of North America: Small Animal Practice 48(4):639–661.', url: 'https://doi.org/10.1016/j.cvsm.2018.03.001', label: 'doi.org' },
+      { text: 'Hagman R. (2022): Pyometra in Small Animals 2.0. Veterinary Clinics of North America: Small Animal Practice 52(3):631–657.', url: 'https://doi.org/10.1016/j.cvsm.2022.01.004', label: 'doi.org' },
+      { text: 'Egenvall A. ym. (2001): Breed risk of pyometra in insured dogs in Sweden. Journal of Veterinary Internal Medicine 15(6):530–538.', url: 'https://pubmed.ncbi.nlm.nih.gov/11817057/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Jitpean S. ym. (2012): Breed variations in the incidence of pyometra and mammary tumours in Swedish dogs. Reproduction in Domestic Animals 47(Suppl 6):347–350.', url: 'https://pubmed.ncbi.nlm.nih.gov/23279535/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Niskanen M. & Thrusfield M.V. (1998): Associations between age, parity, hormonal therapy and breed, and pyometra in Finnish dogs. Veterinary Record 143(18):493–498.', url: 'https://pubmed.ncbi.nlm.nih.gov/9836400/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Jitpean S. ym. (2014): Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Veterinary Research 10:6.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3892096/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Jitpean S. ym. (2017): Closed cervix is associated with more severe illness in dogs with pyometra. BMC Veterinary Research 13(1):11.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5217653/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Hagman R. ym. (2014): Incidence of pyometra in Swedish insured cats. Theriogenology 82(1):114–120.', url: 'https://doi.org/10.1016/j.theriogenology.2014.03.007', label: 'doi.org' },
+      { text: 'Hollinshead F. & Krekeler N. (2016): Pyometra in the queen: To spay or not to spay? Journal of Feline Medicine and Surgery 18(1):21–33.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11148877/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Fieni F. ym. (2014): Medical treatment for pyometra in dogs. Reproduction in Domestic Animals 49(Suppl 2):28–32.', url: 'https://pubmed.ncbi.nlm.nih.gov/24947858/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Wallace G.B. & Casal M.L. (2018): A review of pyometra in small animal medicine: incidence, pathophysiology, clinical diagnosis, and medical management. Clinical Theriogenology 10(4):435–452.', url: 'https://cdn.ymaws.com/www.therio.org/resource/collection/70D14721-6863-458C-9317-D977EACB353A/2018_v4_005.pdf', label: 'cdn.ymaws.com' }
     ]
   },
   {
