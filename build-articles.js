@@ -594,14 +594,14 @@ const articles = [
     slugSv: 'igelkottsunge',
     slugEn: 'found-a-baby-hedgehog',
     category: 'wildlife',
-    date: '2026',
+    date: '25.9.2026',
     publishDate: '2026-02-16',
     prefix: 'article.hedgehogbaby',
     skipBuild: true,
     manual: {
-      fi: { tag: 'Wildlife', title: 'Löysitkö siilinpoikasen? Näin autat oikein', intro: 'Joka kesä joku löytää pihalta tai polulta pienen siilin, joka vaeltaa yksin keskellä päivää – ja ensimmäinen ajatus on ottaa se syliin ja auttaa. Joskus se pelastaa hengen. Yhtä usein se tekee terveestä poikasesta vahingossa orvon, vaikka emo oli vain muutaman metrin päässä. Tämä opas auttaa erottamaan nämä tilanteet toisistaan ja kertoo tarkalleen, mitä tehdä – suomalaisittain ja Suomen lain mukaan.' },
-      sv: { tag: 'Wildlife', title: 'Hittat en igelkottsunge i Vasa? Så här gör du rätt', intro: 'Varje sommar hittar någon en pytteliten igelkott ensam på gården, på en stig eller ute mitt på ljusa dagen – och den första ingivelsen är att lyfta upp den för att hjälpa. Ibland räddar den ingivelsen ett liv. Lika ofta gör den av misstag en frisk unge föräldralös, en unge vars mamma bara var någon meter bort. Den här guiden hjälper dig att se skillnaden, och visar exakt vad du ska göra – på finländskt vis och inom ramen för den finländska lagen.' },
-      en: { tag: 'Wildlife', title: 'Found a Baby Hedgehog? What to Do — A Finnish Guide', intro: 'Every summer, people find a tiny hedgehog alone in the garden, on a path, or out in daylight — and their first instinct is to scoop it up and help. Sometimes that instinct saves a life. Just as often, it accidentally orphans a healthy baby whose mother was only metres away. This guide helps you tell the difference, and shows exactly what to do — the Finnish way, and within Finnish law.' },
+      fi: { tag: 'Wildlife', title: 'Löysitkö siilinpoikasen? Näin autat oikein', intro: 'Joka kesä ihmiset löytävät pihalta tai polulta pienen siilin yksinään tai näkevät sellaisen liikkeellä päivänvalossa – ja ensimmäinen reaktio on nostaa se maasta ja auttaa. Joskus se pelastaa hengen. Joskus se taas tekee vahingossa orvon terveestä poikasesta, jonka emo oli vain muutaman metrin päässä. Tämä opas auttaa sinua erottamaan nämä tilanteet toisistaan ja kertoo tarkalleen, mitä tehdä – suomalaisittain ja Suomen lain mukaan.' },
+      sv: { tag: 'Wildlife', title: 'Hittat en igelkottsunge i Vasa? Så här gör du rätt', intro: 'Varje sommar hittar någon en pytteliten igelkott ensam på gården, på en stig eller ute i dagsljus – och den första ingivelsen är att lyfta upp den och hjälpa. Ibland räddar den ingivelsen ett liv. Ibland gör den av misstag en frisk unge föräldralös, trots att mamman bara var några meter bort. Den här guiden hjälper dig att se skillnaden och visar exakt vad du ska göra – på finländskt vis och inom ramen för finländsk lag.' },
+      en: { tag: 'Wildlife', title: 'Found a Baby Hedgehog? What to Do — A Finnish Guide', intro: 'Every summer, people find a tiny hedgehog alone in the garden, on a path or out in daylight — and their first instinct is to scoop it up and help. Sometimes that instinct saves a life. Sometimes it accidentally orphans a healthy baby whose mother was only metres away. This guide will help you tell the difference, and show you exactly what to do — the Finnish way, and within Finnish law.' },
     },
   },
   {
