@@ -13,7 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const ROOT = '/Users/assafwydra/elainklinikka-website';
+const ROOT = __dirname; // was a hardcoded absolute path: running from a git worktree wrote into the main checkout
 const FI_HOME = path.join(ROOT, 'index.html');
 const MAIN_JS = path.join(ROOT, 'js', 'main.src.js');
 
@@ -57,7 +57,7 @@ const pageMeta = {
   },
   sv: {
     htmlLang: 'sv',
-    title: 'Veterinär & Smådjursklinik i Vasa — Djurklinik Saari',
+    title: 'Veterinär & Smådjursklinik i Vasa – Djurklinik Saari',
     description: 'Smådjursklinik och veterinär i Vasa (Vaasa) sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!',
     ogTitle: 'Djurklinik Saari – Smådjursklinik och veterinär i Vasa',
     ogDescription: 'Smådjursklinik och veterinär i Vasa sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter.',

@@ -628,7 +628,12 @@ const articles = [
     date: '20.9.2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'signs.title', 'signs.text', 'feliway.title', 'feliway.text', 'clinic.title', 'clinic.text', 'tips.title', 'tips.text'],
-    prefix: 'article.catstress'
+    prefix: 'article.catstress',
+    landingLink: {
+      fi: { url: '/kissan-elainlaakari-vaasa/', anchor: 'Kissan eläinlääkäri Vaasassa – lue lisää kissojen hoidostamme' },
+      sv: { url: '/sv/kattveterinar-vasa/', anchor: 'Kattveterinär i Vasa – läs mer om vår kattvård' },
+      en: { url: '/en/cat-veterinarian-vaasa/', anchor: 'Cat vet in Vaasa – read more about our cat care' }
+    }
   },
   {
     slug: 'puhkeamattomat-hampaat',
@@ -1171,6 +1176,12 @@ function generateArticleBody(article, translations, specialContent, lang) {
       html += `\n          ${sc.ecologyTitle}\n`;
       html += `          ${sc.ecologyText}\n`;
     }
+  }
+
+  // Optional link to a landing page (e.g. the cat-friendly article → the cat-vet landing page)
+  if (article.landingLink && article.landingLink[lang]) {
+    const ll = article.landingLink[lang];
+    html += `\n          <p class="article-landing-link">🐈 <a href="${ll.url}">${ll.anchor}</a></p>\n`;
   }
 
   // Sources / references section (GEO/AEO: verifiable external citations)
