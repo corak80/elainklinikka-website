@@ -57,6 +57,11 @@ const translations = {
     sv: 'Mer information hittar du på:',
     en: 'To find out more visit:'
   },
+  'cfc.catpage': {
+    fi: 'Kissan eläinlääkäri Vaasassa: näin hoidamme kissoja →',
+    sv: 'Kattveterinär i Vasa: så tar vi hand om katter →',
+    en: 'Cat vet in Vaasa: how we care for cats →'
+  },
   'cfc.charity': {
     fi: 'International Cat Care on hyväntekeväisyysjärjestö, joka toimii sellaisen maailman puolesta, jossa kaikkia kissoja – omistettuja ja omistamattomia – kohdellaan huolenpidolla, myötätunnolla ja ymmärryksellä.',
     sv: 'International Cat Care är en välgörenhetsorganisation som arbetar för en värld där alla katter – med eller utan ägare – behandlas med omsorg, medkänsla och förståelse.',

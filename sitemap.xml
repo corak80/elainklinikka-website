@@ -349,6 +349,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/kattveterinar-vasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/kattveterinar-vasa/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/kattveterinar-vasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/kattveterinar-vasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/"/>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/palvelut/hammashoito/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>

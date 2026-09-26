@@ -5762,6 +5762,34 @@ ${landingHreflang}  </url>
 ${landingHreflang}  </url>
 `;
 
+  // Cat-vet landing pages (FI + SV + EN, hreflang-linked)
+  const catLandingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/kissan-elainlaakari-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/kattveterinar-vasa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/cat-veterinarian-vaasa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/kissan-elainlaakari-vaasa/"/>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/kissan-elainlaakari-vaasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${catLandingHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/sv/kattveterinar-vasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${catLandingHreflang}  </url>
+`;
+  xml += `  <url>
+    <loc>${BASE_URL}/en/cat-veterinarian-vaasa/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${catLandingHreflang}  </url>
+`;
+
   for (const service of servicePages) {
     const fiUrl = `${BASE_URL}/palvelut/${service.slug}/`;
     const svUrl = `${BASE_URL}/sv/tjanster/${service.slugSv}/`;
