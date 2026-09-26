@@ -336,9 +336,9 @@ const translations = {
     en: 'We strive to make the final farewell peaceful and unhurried. Your pet first receives a sedative with pain relief, followed by an anesthetic. Options: home burial, cremation, or individual cremation with urn.'
   },
   'service.desc.sterilization': {
-    fi: 'Yleinen toimenpide koirille, kissoille ja kaneille. Sterilisaatio auttaa ehkäisemään hormonaalisia sairauksia, kuten nisäkasvaimia ja kohtutulehdusta. Inhalaatioanestesia ja kattava kivunlievitys.',
-    sv: 'Ett vanligt ingrepp på hundar, katter och kaniner. Sterilisering kan motverka hormonala sjukdomar som juvertumörer och livmoderinflammation. Inhalationsanestesi och omfattande smärthantering.',
-    en: 'A common procedure for dogs, cats and rabbits. Sterilization helps prevent hormonal diseases including mammary tumors and uterine infections. Inhalation anesthesia with comprehensive pain management.'
+    fi: 'Yleinen toimenpide koirille, kissoille ja kaneille. Sterilisaatio auttaa ehkäisemään hormonaalisia sairauksia, kuten nisäkasvaimia ja kohtutulehdusta. Yleisanestesia ja kattava kivunlievitys.',
+    sv: 'Ett vanligt ingrepp på hundar, katter och kaniner. Sterilisering kan motverka hormonala sjukdomar som juvertumörer och livmoderinflammation. Generell anestesi och omfattande smärthantering.',
+    en: 'A common procedure for dogs, cats and rabbits. Sterilization helps prevent hormonal diseases including mammary tumors and uterine infections. General anesthesia with comprehensive pain management.'
   },
   'service.desc.dental': {
     fi: 'Hammassairaudet ovat erittäin yleisiä – jo kolmen vuoden iässä valtaosalla koirista ja kissoista on jonkinasteinen hammastulehdus. Palvelut: hammaskiven poisto ultraäänilaitteella, hammasröntgen, hampaiden kirurgiset poistot, maitohampaiden poistot sekä puhkeamattomien hampaiden ja kystojen poisto. Kaikki toimenpiteet yleisanestesiassa inhalaatioanestesialla, suonensisäisellä nesteytyksellä ja kattavalla kivunlievennyksellä.',
