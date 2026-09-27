@@ -374,16 +374,25 @@ const articles = [
     titleKey: 'article.periovive.title',
     tagKey: 'articles.filter.dental',
     category: 'dental',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-01-30',
-    sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
+    sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'limits.title', 'limits.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.periovive',
+    metaDesc: {
+      fi: 'PerioVive on hyaluronihappogeeli, jota käytetään koirien ja kissojen hammastoimenpiteissä lisähoitona. Mitä tutkimusnäyttö kertoo ja mitkä ovat rajoitukset.',
+      sv: 'PerioVive är en hyaluronsyragel som används som komplement vid tandingrepp på hundar och katter. Vad forskningen visar och vilka begränsningarna är.',
+      en: 'PerioVive is a hyaluronic acid gel used as an add-on during dental procedures in dogs and cats. What the evidence shows and what its limitations are.'
+    },
     sources: [
-      { text: 'Tella E.A. ym. (2023): Evaluation of hyaluronic acid gel with or without acellular dermal matrix allograft in the treatment of class II furcation defects in dogs. Saudi Dental Journal 35:845–853.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10658385/', label: 'pmc.ncbi.nlm.nih.gov' },
-      { text: 'Eliezer M. ym. (2019): Hyaluronic acid as adjunctive to non-surgical and surgical periodontal therapy: a systematic review and meta-analysis. Clinical Oral Investigations 23:3423–3435.', url: 'https://pubmed.ncbi.nlm.nih.gov/31338632/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Bhati A. ym. (2022): Role of hyaluronic acid in periodontal therapy (Review). Biomedical Reports 17:91.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9535241/', label: 'pmc.ncbi.nlm.nih.gov' },
-      { text: 'Shirakata Y. ym. (2022): Cross-linked hyaluronic acid gel with or without a collagen matrix in the treatment of class III furcation defects in dogs. Journal of Clinical Periodontology 49:1079–1089.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9796036/', label: 'pmc.ncbi.nlm.nih.gov' },
-      { text: 'Cornell University College of Veterinary Medicine, Riney Canine Health Center: Periodontal disease.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/health-topics/canine-health-information/periodontal-disease', label: 'vet.cornell.edu' }
+      { text: 'O’Neill D.G. ym. (2021): Epidemiology of periodontal disease in dogs in the UK primary-care veterinary setting. Journal of Small Animal Practice 62(12):1051–1061.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9291557/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'O’Neill D.G. ym. (2023): Periodontal disease in cats under primary veterinary care in the UK: frequency and risk factors. Journal of Feline Medicine and Surgery 25(3):1098612X231158154.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10812011/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Wallis C., Holcombe L.J. (2020): A review of the frequency and impact of periodontal disease in dogs. Journal of Small Animal Practice 61(9):529–540.', url: 'https://pubmed.ncbi.nlm.nih.gov/32955734/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Eliezer M. ym. (2019): Hyaluronic acid as adjunctive to non-surgical and surgical periodontal therapy: a systematic review and meta-analysis. Clinical Oral Investigations 23(9):3423–3435.', url: 'https://pubmed.ncbi.nlm.nih.gov/31338632/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Rotundo R. ym. (2026): Efficacy of adjunctive use of hyaluronic acid in surgical and nonsurgical periodontal treatment. A systematic review and meta-analysis. Periodontology 2000 (published online ahead of print, doi:10.1111/prd.70044).', url: 'https://pubmed.ncbi.nlm.nih.gov/41992778/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Tella E.A. ym. (2023): Evaluation of hyaluronic acid gel with or without acellular dermal matrix allograft in the treatment of class II furcation defects in dogs: a histologic and histomorphometric study. Saudi Dental Journal 35(7):845–853.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10658385/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Shirakata Y. ym. (2022): Cross-linked hyaluronic acid gel with or without a collagen matrix in the treatment of class III furcation defects: a histologic and histomorphometric study in dogs. Journal of Clinical Periodontology 49(10):1079–1089.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9796036/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Niemiec B. ym. (2020): World Small Animal Veterinary Association Global Dental Guidelines. Journal of Small Animal Practice 61(7):E36–E161.', url: 'https://wsava.org/wp-content/uploads/2020/01/Dental-Guidleines-for-endorsement_0.pdf', label: 'wsava.org' },
+      { text: 'PerioVive (2025): PerioVive — hyaluronic acid for veterinary dental applications. Manufacturer’s product fact sheet (veterinary medical device; product facts only).', url: 'https://cdn.shopify.com/s/files/1/1754/0763/files/factsheet_Vetman.pdf', label: 'cdn.shopify.com' }
     ]
   },
   {
