@@ -425,16 +425,26 @@ const articles = [
     titleKey: 'article.food.title',
     tagKey: 'article.food.tag',
     category: 'health',
-    date: '20.9.2026',
+    date: '27.9.2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.food',
+    metaDesc: {
+      fi: 'Ruoka-allergia koirilla ja kissoilla: oireet, yleisimmät allergeenit ja miten eliminaatiodieetti ja ruoka-altistus paljastavat sen. Verikokeet eivät riitä.',
+      sv: 'Födoämnesallergi hos hund och katt: symtom, vanligaste allergenerna och hur eliminationsdiet och provokation ställer diagnosen. Varför blodprov inte räcker.',
+      en: 'Food allergy in dogs and cats: symptoms, the most common allergens, and how an elimination diet and food challenge diagnose it. Why blood tests fall short.'
+    },
     sources: [
-      { text: 'Mueller R.S., Olivry T., Prélaud P. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4710035/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Olivry T., Mueller R.S., Prélaud P. (2015): Critically appraised topic on adverse food reactions (1): duration of elimination diets. BMC Veterinary Research 11:225.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4551374/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Olivry T., Mueller R.S. (2017): Critically appraised topic (4): can we diagnose adverse food reactions in dogs and cats with in vivo or in vitro tests? BMC Veterinary Research 13:275.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5577833/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Olivry T., Mueller R.S. (2018): Critically appraised topic (5): discrepancies between ingredients and labeling in commercial pet foods. BMC Veterinary Research 14:24.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5778722/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Olivry T., Mueller R.S. (2020): Critically appraised topic (9): time to flare of cutaneous signs after a dietary challenge. BMC Veterinary Research 16:158.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7247231/', label: 'ncbi.nlm.nih.gov' }
+      { text: 'Olivry T. ym. (2015): Critically appraised topic on adverse food reactions of companion animals (1): duration of elimination diets. BMC Veterinary Research 11:225.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4551374/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Mueller R.S. ym. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4710035/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2017): Critically appraised topic on adverse food reactions of companion animals (3): prevalence of cutaneous adverse food reactions in dogs and cats. BMC Veterinary Research 13:51.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5311844/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Mueller R.S., Olivry T. (2017): Critically appraised topic on adverse food reactions of companion animals (4): can we diagnose adverse food reactions in dogs and cats with in vivo or in vitro tests? BMC Veterinary Research 13:275.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5577833/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2018): Critically appraised topic on adverse food reactions of companion animals (5): discrepancies between ingredients and labeling in commercial pet foods. BMC Veterinary Research 14:24.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5778722/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Mueller R.S., Olivry T. (2018): Critically appraised topic on adverse food reactions of companion animals (6): prevalence of noncutaneous manifestations of adverse food reactions in dogs and cats. BMC Veterinary Research 14:341.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6233561/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2019): Critically appraised topic on adverse food reactions of companion animals (7): signalment and cutaneous manifestations of dogs and cats with adverse food reactions. BMC Veterinary Research 15:140.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6507158/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Olivry T., Mueller R.S. (2020): Critically appraised topic on adverse food reactions of companion animals (9): time to flare of cutaneous signs after a dietary challenge in dogs and cats with food allergies. BMC Veterinary Research 16:158.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7247231/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Pagani E. ym. (2018): Cross-contamination in canine and feline dietetic limited-antigen wet diets. BMC Veterinary Research 14:283.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6136174/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Hensel P. ym. (2015): Canine atopic dermatitis: detailed guidelines for diagnosis and allergen identification. BMC Veterinary Research 11:196.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4531508/', label: 'pmc.ncbi.nlm.nih.gov' }
     ]
   },
   {
