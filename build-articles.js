@@ -687,17 +687,31 @@ const articles = [
     titleKey: 'article.gastroscopy.title',
     tagKey: 'article.gastroscopy.tag',
     category: 'endoscopy',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-02-25',
-    sections: ['intro', 'foreign.title', 'foreign.text', 'diagnosis.title', 'diagnosis.text', 'procedure.title', 'procedure.text', 'advantages.title', 'advantages.text', 'contact.title', 'contact.text'],
+    sections: ['intro', 'foreign.title', 'foreign.text', 'urgent.title', 'urgent.text', 'diagnosis.title', 'diagnosis.text', 'limits.title', 'limits.text', 'procedure.title', 'procedure.text', 'advantages.title', 'advantages.text', 'contact.title', 'contact.text'],
+    htmlSections: ['urgent.text'],
     prefix: 'article.gastroscopy',
     sources: [
-      { text: 'Maggi G. ym. (2023): Endoscopic Retrieval of Esophageal and Gastric Foreign Bodies in Cats and Dogs: A Retrospective Study of 92 Cases. Veterinary Sciences 10:560.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10538072/', label: 'pmc.ncbi.nlm.nih.gov' },
-      { text: 'Metzker Poggiani F. ym. (2020): Endoscopic Removal of Foreign Body in Upper Gastrointestinal Tract in Dogs: Success Rate and Complications. Acta Scientiae Veterinariae 48:1732.', url: 'https://seer.ufrgs.br/ActaScientiaeVeterinariae/article/view/100574', label: 'seer.ufrgs.br' },
-      { text: 'Irom S. ym. (2014): Gastrointestinal perforation associated with endoscopy in cats and dogs. Journal of the American Animal Hospital Association 50:322–329.', url: 'https://pubmed.ncbi.nlm.nih.gov/25028434/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Di Palma C. ym. (2022): Endoscopic and Surgical Removal of Gastrointestinal Foreign Bodies in Dogs: An Analysis of 72 Cases. Animals 12:1376.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9179859/', label: 'pmc.ncbi.nlm.nih.gov' },
-      { text: 'Washabau R.J. ym. (2010): Endoscopic, Biopsy, and Histopathologic Guidelines for the Evaluation of Gastrointestinal Inflammation in Companion Animals. Journal of Veterinary Internal Medicine 24:10–26.', url: 'https://academic.oup.com/jvim/article/24/1/10/8447486', label: 'academic.oup.com' }
-    ]
+      { text: 'Maggi G. ym. (2023): Endoscopic Retrieval of Esophageal and Gastric Foreign Bodies in Cats and Dogs: A Retrospective Study of 92 Cases. Veterinary Sciences 10(9):560.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10538072/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Poggiani F.M. ym. (2020): Endoscopic Removal of Foreign Body in Upper Gastrointestinal Tract in Dogs: Success Rate and Complications. Acta Scientiae Veterinariae 48:1735.', url: 'https://seer.ufrgs.br/index.php/ActaScientiaeVeterinariae/article/view/100574', label: 'seer.ufrgs.br' },
+      { text: 'Gianella P. ym. (2009): Oesophageal and gastric endoscopic foreign body removal: complications and follow-up of 102 dogs. Journal of Small Animal Practice 50(12):649–654.', url: 'https://pubmed.ncbi.nlm.nih.gov/19954441/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Irom S. ym. (2014): Gastrointestinal perforation associated with endoscopy in cats and dogs. Journal of the American Animal Hospital Association 50(5):322–329.', url: 'https://pubmed.ncbi.nlm.nih.gov/25028434/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Evans S.E. ym. (2006): Comparison of endoscopic and full-thickness biopsy specimens for diagnosis of inflammatory bowel disease and alimentary tract lymphoma in cats. Journal of the American Veterinary Medical Association 229(9):1447–1450.', url: 'https://pubmed.ncbi.nlm.nih.gov/17078807/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Marsilio S. ym. (2023): ACVIM consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats. Journal of Veterinary Internal Medicine 37(3):794–816.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10229359/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Rychlik A., Kaczmar E. (2020): Endoscopic Biopsies and Histopathological Findings in Diagnosing Chronic Gastrointestinal Disorders in Dogs and Cats. Veterinary Medicine International 2020:8827538.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7568807/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Defarges A. (2024): Esophageal Foreign Bodies in Small Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophageal-foreign-bodies-in-small-animals', label: 'merckvetmanual.com' },
+      { text: 'Winkler K.P. (2025): Gastrointestinal Obstruction in Small Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/digestive-system/surgical-problems-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-obstruction-in-small-animals', label: 'merckvetmanual.com' },
+      { text: 'Gwaltney-Brant S.M. (2026): Household Hazards. Merck Veterinary Manual, Pet Owner Version.', url: 'https://www.merckvetmanual.com/special-pet-topics/poisoning/household-hazards', label: 'merckvetmanual.com' },
+      { text: 'Garneau M.S., McCarthy R.J. (2015): Multiple magnetic gastrointestinal foreign bodies in a dog. Journal of the American Veterinary Medical Association 246(5):537–539.', url: 'https://pubmed.ncbi.nlm.nih.gov/25671286/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Catwatch / Cornell Feline Health Center (2023): When Your Cat Eats String.', url: 'https://www.catwatchnewsletter.com/ask-dr-k/when-your-cat-eats-string/', label: 'catwatchnewsletter.com' },
+      { text: 'ASPCA Animal Poison Control Center (2019): Is It Ever Safe to Induce Vomiting?', url: 'https://www.aspca.org/news/it-ever-safe-induce-vomiting', label: 'aspca.org' }
+    ],
+    metaDesc: {
+      fi: 'Koiran ja kissan gastroskopia: miten tähystimellä poistetaan nielty esine ja otetaan koepaloja, mitä tehdä, jos lemmikki nielaisee jotain, sekä riskit.',
+      sv: 'Gastroskopi hos hund och katt: hur ett nedsvalt föremål avlägsnas och vävnadsprov tas med endoskop, vad du gör om djuret har svalt något samt riskerna.',
+      en: 'Gastroscopy in dogs and cats: how an endoscope removes swallowed objects and takes biopsies, what to do if your pet swallows something, and the risks.'
+    }
   },
   {
     slug: 'hammasresorptio',
