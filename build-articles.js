@@ -210,20 +210,27 @@ const articles = [
     titleKey: 'article.earinfection.title',
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-08-29',
-    sections: ["intro", "symptoms.title", "symptoms.text", "causes.title", "causes.text", "self.title", "self.text", "visit.title", "visit.text", "video.title", "video.text", "cost.title", "cost.text", "recurrent.title", "recurrent.text", "home.title", "home.text", "cat.title", "cat.text", "contact.title", "contact.text"],
+    sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'self.title', 'self.text', 'visit.title', 'visit.text', 'video.title', 'video.text', 'cost.title', 'cost.text', 'recurrent.title', 'recurrent.text', 'chronic.title', 'chronic.text', 'home.title', 'home.text', 'cat.title', 'cat.text', 'contact.title', 'contact.text'],
     htmlSections: ["video.text", "cost.text", "recurrent.text", "contact.text"],
     prefix: 'article.earinfection',
     metaDesc: {
-      fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi tulehdus ei parane itsestään, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
-      sv: 'Öroninflammation hos hund: symtom, orsaker, behandling och pris. Varför den inte läker själv, när öronspolning (449–489 €) behövs och hur du förebygger återfall.',
-      en: 'Ear infections in dogs: symptoms, causes, treatment and cost. Why they do not heal on their own, when an ear flush (€449–489) is needed and how to prevent recurrence.'
+      fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi ei kannata odottaa, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
+      sv: 'Öroninflammation hos hund: symtom, orsaker, behandling och pris. Varför du inte ska vänta, när öronspolning (449–489 €) behövs och hur du förebygger återfall.',
+      en: 'Ear infections in dogs: symptoms, causes, treatment and cost. Why you should not wait, when an ear flush (€449–489) is needed and how to prevent recurrence.'
     },
     sources: [
       { text: 'Hoff S. (2025): Otitis Externa in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-externa/otitis-externa-in-animals', label: 'merckvetmanual.com' },
       { text: 'Hoff S. (2025): Otitis Media and Interna in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-media-and-interna/otitis-media-and-interna-in-animals', label: 'merckvetmanual.com' },
-      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11:2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' }
+      { text: 'Nuttall T. (2023): Managing recurrent otitis externa in dogs: what have we learned and what can we do better? Journal of the American Veterinary Medical Association 261(S1):S10–S22.', url: 'https://pubmed.ncbi.nlm.nih.gov/37019436/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Saridomichelakis M.N. ym. (2007): Aetiology of canine otitis externa: a retrospective study of 100 cases. Veterinary Dermatology 18(5):341–347.', url: 'https://pubmed.ncbi.nlm.nih.gov/17845622/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'O’Neill D.G. ym. (2021): Frequency and predisposing factors for canine otitis externa in the UK – a primary veterinary care epidemiological view. Canine Medicine and Genetics 8:7.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8422687/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Ruokavirasto: Ulkokorvan tulehdus, koira – mikrobilääkkeiden käyttösuositukset.', url: 'https://www.ruokavirasto.fi/elaimet/elainten-laakitseminen/mikrobilaakehoidon-periaatteet/korva/ulkokorvan-tulehdus-koira/', label: 'ruokavirasto.fi' },
+      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11(11):2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Olivry T. ym. (2015): Critically appraised topic on adverse food reactions of companion animals (1): duration of elimination diets. BMC Veterinary Research 11:225.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4551374/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Mueller R.S., Olivry T. (2017): Critically appraised topic on adverse food reactions of companion animals (4): can we diagnose adverse food reactions in dogs and cats with in vivo or in vitro tests? BMC Veterinary Research 13:275.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5577833/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Companion Animal Parasite Council (2019): Otodectic Mite.', url: 'https://capcvet.org/guidelines/otodectic-mite/', label: 'capcvet.org' }
     ]
   },
   {
