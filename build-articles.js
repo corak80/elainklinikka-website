@@ -413,10 +413,23 @@ const articles = [
     titleKey: 'article.independent.title',
     tagKey: 'article.independent.tag',
     category: 'clinic',
-    date: '20.9.2026',
+    date: '27.9.2026',
     publishDate: '2026-01-30',
     sections: ['intro', 'chains.title', 'chains.text', 'prices.title', 'prices.text', 'quality.title', 'quality.text', 'international.title', 'international.text', 'choice.title', 'choice.text'],
-    prefix: 'article.independent'
+    prefix: 'article.independent',
+    metaDesc: {
+      fi: 'Miksi pysymme itsenäisenä perheyrityksenä Vaasassa – ja mitä kilpailuviranomaiset ovat selvittäneet eläinlääkäriketjujen omistuksesta ja hinnoista.',
+      sv: 'Varför vi förblir en självständig familjeklinik i Vasa – och vad konkurrensmyndigheter har kommit fram till om kedjeägande och priser inom veterinärvården.',
+      en: 'Why we chose to stay an independent, family-owned clinic in Vaasa — and what competition authorities have found about veterinary chain ownership and prices.'
+    },
+    sources: [
+      { text: 'Jankari A. ym. (2024): Selvitys pieneläinlääkäripalveluiden kilpailutilanteesta ja markkinoiden keskittymisen vaikutuksista. Kilpailu- ja kuluttajaviraston katsauksia 6/2024, 5.11.2024.', url: 'https://www.kkv.fi/uploads/sites/2/2024-6-katsaus-pienelainlaakarimarkkina.pdf', label: 'kkv.fi' },
+      { text: 'Tilastokeskus (2026): Kotitalouksien kulutusmenot (COICOP2018), vuosittain, 1990–2025*, taulukko 15ag; luokka 09.4.5 Eläinlääkintäpalvelut ja muut lemmikkieläinpalvelut. Päivitetty 18.9.2026.', url: 'https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ntp/15ag.px/', label: 'pxdata.stat.fi' },
+      { text: 'EQT (2021): IVC Evidensia expands partnership to drive next phase of accelerating growth. Tiedote, 9.2.2021.', url: 'https://eqtgroup.com/news/ivc-evidensia-expands-partnership-to-drive-next-phase-of-accelerating-growth-2021-02-09', label: 'eqtgroup.com' },
+      { text: 'Laakso L.-K. (2023): Työntekijät kertovat lähes monopoliaseman hankkineen Evidensian ongelmista. Yle, 14.7.2023.', url: 'https://yle.fi/a/74-20040808', label: 'yle.fi' },
+      { text: 'Competition and Markets Authority (2026): Veterinary services for household pets market investigation – Summary of final report, 24.3.2026.', url: 'https://assets.publishing.service.gov.uk/media/69c22ac8d588c92c483e4c01/Summary_of_final_report_24.3.26.pdf', label: 'assets.publishing.service.gov.uk' },
+      { text: 'Egenvall A. ym. (2025): Prices for veterinary care of dogs, cats, and horses in Sweden and Norway: comparisons between corporate chain, government-run, and independent clinics. Frontiers in Veterinary Science 12:1544996, 17.4.2025.', url: 'https://doi.org/10.3389/fvets.2025.1544996', label: 'doi.org' }
+    ]
   },
   {
     slug: 'ruoka-allergiat',
