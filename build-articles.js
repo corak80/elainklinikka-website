@@ -284,15 +284,23 @@ const articles = [
     titleKey: 'article.pda.title',
     tagKey: 'articles.filter.cardiology',
     category: 'cardiology',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-01-20',
-    sections: ['intro', 'what.title', 'what.text', 'breeds.title', 'breeds.text', 'signs.title', 'signs.text', 'treatment.title', 'treatment.text', 'clinic.title', 'clinic.text', 'prognosis.title', 'prognosis.text', 'message.title', 'message.text'],
+    sections: ['intro', 'what.title', 'what.text', 'breeds.title', 'breeds.text', 'signs.title', 'signs.text', 'reversed.title', 'reversed.text', 'treatment.title', 'treatment.text', 'clinic.title', 'clinic.text', 'prognosis.title', 'prognosis.text', 'message.title', 'message.text'],
+    htmlSections: ['reversed.text'],
     prefix: 'article.pda',
     sources: [
-      { text: 'Merck Veterinary Manual: Cardiac Shunts in Animals (congenital anomalies of the cardiovascular system).', url: 'https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system/cardiac-shunts-in-animals', label: 'merckvetmanual.com' },
-      { text: 'Eyster G.E. ym. (1976): Patent ductus arteriosus in the dog — characteristics of occurrence and results of surgery in 100 consecutive cases. Journal of the American Veterinary Medical Association 168(5):435–438.', url: 'https://pubmed.ncbi.nlm.nih.gov/1254517/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Singh M.K. ym. (2012): Occlusion devices and approaches in canine patent ductus arteriosus — comparison of outcomes. Journal of Veterinary Internal Medicine 26(1):85–92.', url: 'https://onlinelibrary.wiley.com/doi/10.1111/j.1939-1676.2011.00859.x', label: 'onlinelibrary.wiley.com' },
-      { text: 'VCA Animal Hospitals: Patent Ductus Arteriosus in Dogs.', url: 'https://vcahospitals.com/know-your-pet/patent-ductus-arteriosus-in-dogs', label: 'vcahospitals.com' }
+      { text: 'Merck Veterinary Manual: Cardiac Shunts in Animals (Patent Ductus Arteriosus).', url: 'https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system/cardiac-shunts-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Merck Veterinary Manual: Overview of Congenital and Inherited Anomalies of the Cardiovascular System in Animals.', url: 'https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system/overview-of-congenital-and-inherited-anomalies-of-the-cardiovascular-system-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Saunders AB, Gordon SG, Boggess MM, Miller MW (2014): Long-term outcome in dogs with patent ductus arteriosus: 520 cases (1994–2009). Journal of Veterinary Internal Medicine 28(2):401–410.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4857963/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Buchanan JW, Patterson DF (2003): Etiology of patent ductus arteriosus in dogs. Journal of Veterinary Internal Medicine 17(2):167–171.', url: 'https://pubmed.ncbi.nlm.nih.gov/12683616/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'den Toom ML, Meiling AE, Thomas RE, Leegwater PA, Heuven HC (2016): Epidemiology, presentation and population genetics of patent ductus arteriosus (PDA) in the Dutch Stabyhoun dog. BMC Veterinary Research 12:105.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4906750/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Goodrich KR, Kyles AE, Kass PH, Campbell F (2007): Retrospective comparison of surgical ligation and transarterial catheter occlusion for treatment of patent ductus arteriosus in two hundred and four dogs (1993–2003). Veterinary Surgery 36(1):43–49.', url: 'https://pubmed.ncbi.nlm.nih.gov/17214819/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Singh MK, Kittleson MD, Kass PH, Griffiths LG (2012): Occlusion devices and approaches in canine patent ductus arteriosus: comparison of outcomes. Journal of Veterinary Internal Medicine 26(1):85–92.', url: 'https://pubmed.ncbi.nlm.nih.gov/22211471/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Ciccozzi M, Stauthammer CD, Coats C, et al. (2025): Transcatheter Amplatz canine duct occluder placement for patent ductus arteriosus occlusion: a retrospective analysis of outcomes and complications in 200 dogs. Journal of Veterinary Cardiology 60:36–45.', url: 'https://pubmed.ncbi.nlm.nih.gov/40483776/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Bureau S, Monnet E, Orton EC (2005): Evaluation of survival rate and prognostic indicators for surgical treatment of left-to-right patent ductus arteriosus in dogs: 52 cases (1995–2003). Journal of the American Veterinary Medical Association 227(11):1794–1799.', url: 'https://pubmed.ncbi.nlm.nih.gov/16342529/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Stauthammer CD, Tobias AH, Leeder DB, Krüger MU (2013): Structural and functional cardiovascular changes and their consequences following interventional patent ductus arteriosus occlusion in dogs: 24 cases (2000–2006). Journal of the American Veterinary Medical Association 242(12):1722–1726.', url: 'https://pubmed.ncbi.nlm.nih.gov/23725436/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Reinero C, Visser LC, Kellihan HB, et al. (2020): ACVIM consensus statement guidelines for the diagnosis, classification, treatment, and monitoring of pulmonary hypertension in dogs. Journal of Veterinary Internal Medicine 34(2):549–573.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7097566/', label: 'pmc.ncbi.nlm.nih.gov' }
     ]
   },
   {
