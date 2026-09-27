@@ -168,21 +168,28 @@ const articles = [
     titleKey: 'article.tta.title',
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-01-15',
     sections: ['intro', 'how.title', 'how.text', 'vs.title', 'vs.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'when.title', 'when.text'],
     prefix: 'article.tta',
     sources: [
-      { text: 'Apelt D. ym. (2007): Effect of tibial tuberosity advancement on cranial tibial subluxation in canine cranial cruciate-deficient stifle joints: an in vitro experimental study. Veterinary Surgery 36:170–177.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00250.x', label: 'doi.org' },
-      { text: 'Lafaver S. ym. (2007): Tibial tuberosity advancement for stabilization of the canine cranial cruciate ligament-deficient stifle joint: surgical technique, early results, and complications in 101 dogs. Veterinary Surgery 36:573–586.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00307.x', label: 'doi.org' },
-      { text: 'Hoffmann D.E. ym. (2006): Tibial tuberosity advancement in 65 canine stifles. Veterinary and Comparative Orthopaedics and Traumatology 19:219–227.', url: 'https://doi.org/10.1055/s-0038-1633004', label: 'doi.org' },
-      { text: 'Aragosa F. ym. (2022): Tibial Tuberosity Advancement Techniques (TTAT): A Systematic Review. Animals 12:2114.', url: 'https://doi.org/10.3390/ani12162114', label: 'doi.org' },
-      { text: 'Proot J. &amp; Corr S. (2013): Clinical audit for the tibial tuberosity advancement procedure. Veterinary and Comparative Orthopaedics and Traumatology 26:280–284.', url: 'https://doi.org/10.3415/vcot-12-04-0052', label: 'doi.org' }
+      { text: 'American College of Veterinary Surgeons (ACVS). Cranial Cruciate Ligament Disease (animal-owner health topic).', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' },
+      { text: 'Apelt D, Kowaleski MP, Boudrieau RJ (2007). Effect of tibial tuberosity advancement on cranial tibial subluxation in canine cranial cruciate-deficient stifle joints: an in vitro experimental study. Vet Surg 36(2):170–177.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00250.x', label: 'doi.org' },
+      { text: 'Edwards GA, Hosgood G, Hancock RB, Stubbs WP, Jackson AH (2016). Major complications associated with fork-based and screw-based tibial tuberosity advancement implants: 438 cases. Can Vet J 57(4):415–420.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4790234/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Lafaver S, Miller NA, Stubbs WP, Taylor RA, Boudrieau RJ (2007). Tibial tuberosity advancement for stabilization of the canine cranial cruciate ligament-deficient stifle joint: surgical technique, early results, and complications in 101 dogs. Vet Surg 36(6):573–586.', url: 'https://doi.org/10.1111/j.1532-950X.2007.00307.x', label: 'doi.org' },
+      { text: 'Steinberg EJ, Prata RG, Palazzini K, Brown DC (2011). Tibial tuberosity advancement for treatment of CrCL injury: complications and owner satisfaction. J Am Anim Hosp Assoc 47(4):250–257.', url: 'https://doi.org/10.5326/JAAHA-MS-5574', label: 'doi.org' },
+      { text: 'Hoffmann DE, Miller JM, Ober CP, Lanz OI, Martin RA, Shires PK (2006). Tibial tuberosity advancement in 65 canine stifles. Vet Comp Orthop Traumatol 19(4):219–227.', url: 'https://doi.org/10.1055/s-0038-1633004', label: 'doi.org' },
+      { text: 'Stein S, Schmoekel H (2008). Short-term and eight to 12 months results of a tibial tuberosity advancement as treatment of canine cranial cruciate ligament damage. J Small Anim Pract 49(8):398–404.', url: 'https://doi.org/10.1111/j.1748-5827.2008.00592.x', label: 'doi.org' },
+      { text: 'MacDonald TL, Allen DA, Monteith GJ (2013). Clinical assessment following tibial tuberosity advancement in 28 stifles at 6 months and 1 year after surgery. Can Vet J 54(3):249–254.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3573630/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Costa M, Craig D, Cambridge T, Sebestyen P, Su Y, Fahie MA (2017). Major complications of tibial tuberosity advancement in 1613 dogs. Vet Surg 46(4):494–500.', url: 'https://doi.org/10.1111/vsu.12649', label: 'doi.org' },
+      { text: 'Hayes GM, Langley-Hobbs SJ, Jeffery ND (2010). Risk factors for medial meniscal injury in association with cranial cruciate ligament rupture. J Small Anim Pract 51(12):630–634.', url: 'https://doi.org/10.1111/j.1748-5827.2010.01003.x', label: 'doi.org' },
+      { text: 'Grierson J, Asher L, Grainger K (2011). An investigation into risk factors for bilateral canine cruciate ligament rupture. Vet Comp Orthop Traumatol 24(3):192–196.', url: 'https://doi.org/10.3415/VCOT-10-03-0030', label: 'doi.org' },
+      { text: 'Murphy CL, Niles J, Radasch RM (2024). The prevalence and risk factors of contralateral cranial cruciate ligament rupture in medium-to-large (≥15 kg) breed dogs 8 years of age or older. Vet Comp Orthop Traumatol 37(1):8–12.', url: 'https://doi.org/10.1055/s-0043-1771350', label: 'doi.org' }
     ],
     metaDesc: {
-      fi: 'Eturistisiteen repeämä on yksi yleisimmistä ortopedisistä vammoista koirilla. TTA-leikkaus korjaa polvinivelen biomekaniikan moderneilla titaani-implanteilla.',
-      sv: 'Främre korsbandsskada är en av de vanligaste ortopediska skadorna hos hundar. TTA-kirurgi korrigerar knäledens biomekanik med moderna titanimplantat.',
-      en: 'Cranial cruciate ligament rupture is one of the most common orthopedic injuries in dogs. TTA surgery restores knee biomechanics with titanium implants.'
+      fi: 'Eturistisidesairaus on koirien yleisimpiä takajalan ontumisen syitä. TTA-leikkaus vakauttaa polven muuttamalla siihen kohdistuvia voimia.',
+      sv: 'Sjukdom i främre korsbandet är en av de vanligaste orsakerna till bakbenshälta hos hund. En TTA-operation stabiliserar knät genom att ändra krafterna i leden.',
+      en: 'Cranial cruciate ligament disease is one of the most common causes of hind-leg lameness in dogs. TTA surgery stabilizes the knee by changing the forces on it.'
     }
   },
   {
