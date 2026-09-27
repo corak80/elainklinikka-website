@@ -199,15 +199,24 @@ const articles = [
     titleKey: 'article.otoscopy.title',
     tagKey: 'articles.tag.endoscopy',
     category: 'endoscopy',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-01-15',
-    sections: ['intro', 'advantages.title', 'advantages.text', 'when.title', 'when.text', 'procedure.title', 'procedure.text', 'chronic.title', 'chronic.text', 'contact.title', 'contact.text'],
+    sections: ['intro', 'advantages.title', 'advantages.text', 'when.title', 'when.text', 'procedure.title', 'procedure.text', 'aftercare.title', 'aftercare.text', 'chronic.title', 'chronic.text', 'cost.title', 'cost.text', 'contact.title', 'contact.text'],
+    htmlSections: ['cost.text', 'contact.text'],
     prefix: 'article.otoscopy',
+    metaDesc: {
+      fi: 'Video-otoskopia koirille ja kissoille Vaasassa: milloin korvan tähystys tarvitaan, miten huuhtelu tehdään, mahdolliset haitat ja hinta (449–489 €).',
+      sv: 'Video-otoskopi för hundar och katter i Vasa: när öronendoskopi behövs, hur öronspolningen går till, möjliga biverkningar och pris (449–489 €).',
+      en: 'Video-otoscopy for dogs and cats in Vaasa: when ear endoscopy is needed, how the ear flush is done, possible side effects and cost (€449–489).'
+    },
     sources: [
+      { text: 'Cole L.K. (2004): Otoscopic evaluation of the ear canal. Veterinary Clinics of North America: Small Animal Practice 34(2):397–410.', url: 'https://pubmed.ncbi.nlm.nih.gov/15062615/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Cole L., Nuttall T. (2021): When and how to do a myringotomy – a practical guide. Veterinary Dermatology 32(3):302–e82.', url: 'https://pubmed.ncbi.nlm.nih.gov/33955092/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Nuttall T. (2023): Managing recurrent otitis externa in dogs: what have we learned and what can we do better? Journal of the American Veterinary Medical Association 261(S1):S10–S22.', url: 'https://pubmed.ncbi.nlm.nih.gov/37019436/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Greci V. ym. (2014): Per-endoscopic trans-tympanic traction for the management of feline aural inflammatory polyps: a case review of 37 cats. Journal of Feline Medicine and Surgery 16(8):645–650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11164151/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11(11):2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Hoff S. (2025): Otitis Externa in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-externa/otitis-externa-in-animals', label: 'merckvetmanual.com' },
-      { text: 'Hoff S. (2025): Otitis Media and Interna in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-media-and-interna/otitis-media-and-interna-in-animals', label: 'merckvetmanual.com' },
-      { text: 'Cole L.K. (2004): Otoscopic evaluation of the ear canal. Veterinary Clinics of North America: Small Animal Practice 34:397–410.', url: 'https://pubmed.ncbi.nlm.nih.gov/15062615/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Secker B. ym. (2023): Pseudomonas spp. in Canine Otitis Externa. Microorganisms 11:2650.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10673570/', label: 'pmc.ncbi.nlm.nih.gov' }
+      { text: 'Hoff S. (2025): Otitis Media and Interna in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/ear-disorders/otitis-media-and-interna/otitis-media-and-interna-in-animals', label: 'merckvetmanual.com' }
     ]
   },
   {
