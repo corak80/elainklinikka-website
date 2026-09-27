@@ -333,15 +333,26 @@ const articles = [
     titleKey: 'article.brushing.title',
     tagKey: 'articles.filter.dental',
     category: 'dental',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-01-25',
-    sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'challenge.title', 'challenge.text'],
+    sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'products.title', 'products.text', 'challenge.title', 'challenge.text'],
     prefix: 'article.brushing',
     sources: [
-      { text: 'Niemiec B. ym. (2020): WSAVA Global Dental Guidelines. Journal of Small Animal Practice 61(7):E36–E161.', url: 'https://wsava.org/global-guidelines/dental-guidelines/', label: 'wsava.org' },
-      { text: 'American Veterinary Dental College (AVDC): Home dental care and owner resources.', url: 'https://avdc.org/animal-owner-resources/', label: 'avdc.org' },
-      { text: 'Veterinary Oral Health Council (VOHC): Accepted Products.', url: 'https://vohc.org/accepted-products/', label: 'vohc.org' },
-      { text: 'Harvey C.E. ym. (2015): Effect of frequency of brushing teeth on plaque and calculus accumulation and gingivitis in dogs. Journal of Veterinary Dentistry 32(1):16–21.', url: 'https://pubmed.ncbi.nlm.nih.gov/26197686/', label: 'pubmed.ncbi.nlm.nih.gov' }
+      { text: 'Niemiec B, Gawor J, Nemec A, Chandler M, Mestrinho LA, Steagall PV, Papadimitriou S, Ong BHE, Morgenegg G, McLeod K, Burley M (2026) World Small Animal Veterinary Association global dental guidelines. Journal of Small Animal Practice, published online 2 September 2026. doi:10.1111/jsap.70057', url: 'https://doi.org/10.1111/jsap.70057', label: 'doi.org' },
+      { text: 'WSAVA Global Dental Committee (2022) Introducing Toothbrushing — Client Handout.', url: 'https://wsava.org/wp-content/uploads/2022/06/GDC-Toothbrushing-Toolkit-1.pdf', label: 'wsava.org' },
+      { text: 'American Veterinary Dental College (2024) AVDC Position Statement on Anesthesia-Free Dentistry (AFD). Adopted April 2024.', url: 'https://avdc.org/download/30/position-statements/2876/dental-scaling-without-anesthesia.pdf', label: 'avdc.org' },
+      { text: 'American Veterinary Dental College (AVDC): Animal Owner Resources — Why does my pet have stinky breath?', url: 'https://avdc.org/animal-owner-resources/', label: 'avdc.org' },
+      { text: 'Veterinary Oral Health Council (VOHC): What does the VOHC do? / Keeping your Pets Healthy & Safe / How Can I Prevent Dental Disease in My Pet?', url: 'https://vohc.org/', label: 'vohc.org' },
+      { text: 'U.S. Food and Drug Administration (2025) Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update, content current as of 17 December 2025.', url: 'https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs', label: 'fda.gov' },
+      { text: 'Harvey C, Serfilippi L, Barnvos D (2015) Effect of frequency of brushing teeth on plaque and calculus accumulation, and gingivitis in dogs. Journal of Veterinary Dentistry 32(1):16–21. doi:10.1177/089875641503200102', url: 'https://doi.org/10.1177/089875641503200102', label: 'doi.org' },
+      { text: 'Gorrel C, Rawlings JM (1996) The role of tooth-brushing and diet in the maintenance of periodontal health in dogs. Journal of Veterinary Dentistry 13(4):139–143. doi:10.1177/089875649601300405', url: 'https://doi.org/10.1177/089875649601300405', label: 'doi.org' },
+      { text: 'Ingham KE, Gorrel C (2001) Effect of long-term intermittent periodontal care on canine periodontal disease. Journal of Small Animal Practice 42(2):67–70. doi:10.1111/j.1748-5827.2001.tb01994.x', url: 'https://doi.org/10.1111/j.1748-5827.2001.tb01994.x', label: 'doi.org' },
+      { text: 'Pavlica Z, Petelin M, Juntes P, Eržen D, Crossley DA, Skalerič U (2008) Periodontal disease burden and pathological changes in organs of dogs. Journal of Veterinary Dentistry 25(2):97–105. doi:10.1177/089875640802500210', url: 'https://doi.org/10.1177/089875640802500210', label: 'doi.org' },
+      { text: 'Wallis C, Holcombe LJ (2020) A review of the frequency and impact of periodontal disease in dogs. Journal of Small Animal Practice 61(9):529–540. doi:10.1111/jsap.13218', url: 'https://doi.org/10.1111/jsap.13218', label: 'doi.org' },
+      { text: 'Kortegaard HE, Eriksen T, Baelum V (2008) Periodontal disease in research beagle dogs — an epidemiological study. Journal of Small Animal Practice 49(12):610–616. doi:10.1111/j.1748-5827.2008.00609.x', url: 'https://doi.org/10.1111/j.1748-5827.2008.00609.x', label: 'doi.org' },
+      { text: 'Girard N, Servet E, Biourge V, Hennet P (2009) Periodontal health status in a colony of 109 cats. Journal of Veterinary Dentistry 26(3):147–155. doi:10.1177/089875640902600301', url: 'https://doi.org/10.1177/089875640902600301', label: 'doi.org' },
+      { text: 'Verstraete FJM, Kass PH, Terpak CH (1998) Diagnostic value of full-mouth radiography in dogs. American Journal of Veterinary Research 59(6):686–691. doi:10.2460/ajvr.1998.59.06.686', url: 'https://doi.org/10.2460/ajvr.1998.59.06.686', label: 'doi.org' },
+      { text: 'Verstraete FJM, Kass PH, Terpak CH (1998) Diagnostic value of full-mouth radiography in cats. American Journal of Veterinary Research 59(6):692–695. doi:10.2460/ajvr.1998.59.06.692', url: 'https://doi.org/10.2460/ajvr.1998.59.06.692', label: 'doi.org' }
     ]
   },
   {
