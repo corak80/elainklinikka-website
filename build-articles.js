@@ -552,16 +552,20 @@ const articles = [
     titleKey: 'article.ccl.title',
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-02-10',
-    sections: ['intro', 'how.title', 'how.text', 'who.title', 'who.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'vs.title', 'vs.text', 'signs.title', 'signs.text', 'price.title', 'price.text'],
+    sections: ['intro', 'how.title', 'how.text', 'who.title', 'who.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'room.title', 'room.text', 'vs.title', 'vs.text', 'signs.title', 'signs.text', 'price.title', 'price.text'],
     prefix: 'article.ccl',
     sources: [
-      { text: 'Casale S.A. &amp; McCarthy R.J. (2009): Complications associated with lateral fabellotibial suture surgery for cranial cruciate ligament injury in dogs: 363 cases. Journal of the American Veterinary Medical Association 234:229–235.', url: 'https://doi.org/10.2460/javma.234.2.229', label: 'doi.org' },
-      { text: 'Marsolais G.S. ym. (2002): Effects of postoperative rehabilitation on limb function after cranial cruciate ligament repair in dogs. Journal of the American Veterinary Medical Association 220:1325–1330.', url: 'https://doi.org/10.2460/javma.2002.220.1325', label: 'doi.org' },
-      { text: 'Harasen G.L. (2005): Feline cranial cruciate rupture: 17 cases and a review of the literature. Veterinary and Comparative Orthopaedics and Traumatology 18:254–257.', url: 'https://doi.org/10.1055/s-0038-1632963', label: 'doi.org' },
+      { text: 'Casale S.A. &amp; McCarthy R.J. (2009): Complications associated with lateral fabellotibial suture surgery for cranial cruciate ligament injury in dogs: 363 cases (1997–2005). Journal of the American Veterinary Medical Association 234(2):229–235.', url: 'https://doi.org/10.2460/javma.234.2.229', label: 'doi.org' },
+      { text: 'Marsolais G.S., Dvorak G. &amp; Conzemius M.G. (2002): Effects of postoperative rehabilitation on limb function after cranial cruciate ligament repair in dogs. Journal of the American Veterinary Medical Association 220(9):1325–1330.', url: 'https://doi.org/10.2460/javma.2002.220.1325', label: 'doi.org' },
       { text: 'RCVS Knowledge, Canine Cruciate Registry: Extracapsular Lateral Suture Stabilisation (ELSS).', url: 'https://www.rcvsknowledge.org/canine-cruciate-registry/dog-owners/common-surgical-procedures/extracapsular-lateral-suture-stabilisation-elss/', label: 'rcvsknowledge.org' },
-      { text: 'American College of Veterinary Surgeons (ACVS): Cranial Cruciate Ligament Disease.', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' }
+      { text: 'American College of Veterinary Surgeons (ACVS): Cranial Cruciate Ligament Disease.', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' },
+      { text: 'Boge G.S., Engdahl K., Moldal E.R. &amp; Bergström A. (2020): Cranial cruciate ligament disease in cats: an epidemiological retrospective study of 50 cats (2011–2016). Journal of Feline Medicine and Surgery 22(4):277–284.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10814672/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Montgomery P. (2025): In cats with cranial cruciate rupture are better long-term outcomes achieved by surgical or conservative management? Veterinary Evidence 10(2).', url: 'https://doi.org/10.18849/ve.v10i2.696', label: 'doi.org' },
+      { text: 'Krotscheck U., Nelson S.A., Todhunter R.J., Stone M. &amp; Zhang Z. (2016): Long term functional outcome of tibial tuberosity advancement vs. tibial plateau leveling osteotomy and extracapsular repair in a heterogeneous population of dogs. Veterinary Surgery 45(2):261–268.', url: 'https://pubmed.ncbi.nlm.nih.gov/26768085/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Buonanno M., Welch D., Shuryak I. &amp; Brenner D.J. (2020): Far-UVC light (222 nm) efficiently and safely inactivates airborne human coronaviruses. Scientific Reports 10:10285.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7314750/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Spagnolo A.M., Ottria G., Amicizia D., Perdelli F. &amp; Cristina M.L. (2013): Operating theatre quality and prevention of surgical site infections. Journal of Preventive Medicine and Hygiene 54(3):131–137.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4718372/', label: 'pmc.ncbi.nlm.nih.gov' }
     ]
   },
   {
