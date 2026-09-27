@@ -404,9 +404,9 @@ const translations = {
   'vet.focus': { fi: 'Painopistealueet', sv: 'Fokusområden', en: 'Special Interests' },
   'nurse.background': { fi: 'Tausta', sv: 'Bakgrund', en: 'Background' },
   'nurse.interests': { fi: 'Kiinnostuksen kohteet', sv: 'Intresseområden', en: 'Interests' },
-  'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Technician' },
-  'role.headtech': { fi: 'Johtava klinikkaeläinhoitaja', sv: 'Ledande klinikdjurskötare', en: 'Head Veterinary Technician' },
-  'role.tech': { fi: 'Klinikkaeläinhoitaja', sv: 'Klinikdjurskötare', en: 'Veterinary Technician' },
+  'role.manager': { fi: 'Klinikkamanageri, klinikkaeläinhoitaja', sv: 'Klinikföreståndare, klinikdjurskötare', en: 'Clinic Manager, Veterinary Nurse' },
+  'role.headtech': { fi: 'Johtava klinikkaeläinhoitaja', sv: 'Ledande klinikdjurskötare', en: 'Head Veterinary Nurse' },
+  'role.tech': { fi: 'Klinikkaeläinhoitaja', sv: 'Klinikdjurskötare', en: 'Veterinary Nurse' },
   'role.nurse_student': { fi: 'Eläinhoitaja / opiskelija', sv: 'Djurskötare / studerande', en: 'Veterinary Nurse / Student' },
   'role.practical': { fi: 'Lähihoitaja', sv: 'Närvårdare', en: 'Practical Nurse' },
 
@@ -469,7 +469,7 @@ const translations = {
   'bio.jennifer': {
     fi: 'Anestesiavalvonta, kirurgia ja eksoottiset potilaat. Valmistunut klinikkaeläinhoitajaksi kesällä 2026.',
     sv: 'Anestesiövervakning, kirurgi och exotiska patienter. Utexaminerad klinikdjurskötare sommaren 2026.',
-    en: 'Anesthesia monitoring, surgery and exotic patients. Qualified as a veterinary technician in summer 2026.'
+    en: 'Anesthesia monitoring, surgery and exotic patients. Qualified as a veterinary nurse in summer 2026.'
   },
   'bio.josefiina': {
     fi: 'Laboratorio- ja leikkaussalityö. Tavoitteena klinikkaeläinhoitajan koulutus.',
@@ -750,7 +750,7 @@ const translations = {
   'footer.description': {
     fi: 'Vaasan ainoa perheomisteinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 – viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
     sv: 'Vasas enda familjeägda smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till din tjänst.',
-    en: 'The only family-owned small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight technicians at your service.'
+    en: 'The only family-owned small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight veterinary nurses at your service.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
@@ -4001,7 +4001,7 @@ const nurseProfiles = {
     background: {
       fi: 'Johtava klinikkaeläinhoitaja. Klinikkaeläinhoitaja EAT, anestesia 2025. Accesia Academy hammashoito.',
       sv: 'Ledande klinikdjurskötare. Klinikdjurskötare EAT, anestesi 2025. Accesia Academy tandvård.',
-      en: 'Head veterinary technician. Veterinary technician EAT, anesthesia 2025. Accesia Academy dentistry.'
+      en: 'Head veterinary nurse. Veterinary nurse EAT, anesthesia 2025. Accesia Academy dentistry.'
     },
     interests: {
       fi: 'Anestesia ja laboratoriotyö',
@@ -4076,12 +4076,12 @@ const nurseProfiles = {
     bio: {
       fi: 'Olen valmistunut kesällä 2026 klinikkaeläinhoitajaksi, sitä ennen olen kouluttautunut eläintenhoitajaksi. Erityisiä mielenkiinnon kohteitani ovat anestesiavalvonta, leikkaukset sekä eksoottiset potilaat.\n\nPidän alassani erityisesti jatkuvan oppimisen mahdollisuuksista sekä siitä, että saan kohdata niin eläimiä kuin heidän omistajiaan. Tavoitteenani on kehittää osaamistani kokonaisvaltaisesti ja tarjota eläinlähtöistä hoitoa jokaiselle potilaalle.',
       sv: 'Jag tog examen som klinikdjurskötare sommaren 2026, innan dess utbildade jag mig till djurskötare. Mina främsta intresseområden är anestesiövervakning, kirurgiska ingrepp och arbete med exotiska djurpatienter.\n\nDet jag uppskattar mest inom detta område är möjligheten till kontinuerligt lärande samt att få möta både djur och deras ägare. Mitt mål är att utveckla mina färdigheter på ett heltäckande sätt och ge högkvalitativ, djurcentrerad vård till varje patient.',
-      en: 'I graduated as a veterinary technician in summer 2026; before that I trained as an animal caretaker. My key areas of interest include anesthesia monitoring, surgical procedures, and exotic patients.\n\nWhat I appreciate most in this field is the opportunity for continuous learning, as well as meeting both animals and their owners. My aim is to develop my skills comprehensively and provide animal-centered care for every patient.'
+      en: 'I graduated as a veterinary nurse in summer 2026; before that I trained as an animal caretaker. My key areas of interest include anesthesia monitoring, surgical procedures, and exotic patients.\n\nWhat I appreciate most in this field is the opportunity for continuous learning, as well as meeting both animals and their owners. My aim is to develop my skills comprehensively and provide animal-centered care for every patient.'
     },
     background: {
       fi: 'Eläintenhoitaja 2024, klinikkaeläinhoitaja 2026.',
       sv: 'Djurskötare 2024, klinikdjurskötare 2026.',
-      en: 'Animal caretaker 2024, veterinary technician 2026.'
+      en: 'Animal caretaker 2024, veterinary nurse 2026.'
     },
     interests: {
       fi: 'Anestesiavalvonta, leikkaukset ja eksoottiset potilaat',
