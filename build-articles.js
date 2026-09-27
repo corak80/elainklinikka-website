@@ -703,15 +703,32 @@ const articles = [
     titleKey: 'article.catstress.title',
     tagKey: 'article.catstress.tag',
     category: 'health',
-    date: '20.9.2026',
+    date: '27.9.2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'signs.title', 'signs.text', 'feliway.title', 'feliway.text', 'clinic.title', 'clinic.text', 'tips.title', 'tips.text'],
     prefix: 'article.catstress',
+    metaDesc: {
+      fi: 'Näin teemme kissan eläinlääkärikäynnistä rauhallisemman Silver-tason Cat Friendly Clinic -klinikallamme Vaasassa – ja näin valmistaudut käyntiin.',
+      sv: 'Så gör vi veterinärbesöket lugnare för katter på vår Cat Friendly Clinic på Silvernivå i Vasa – och så förbereder du din katt inför besöket.',
+      en: 'How we make vet visits calmer for cats at our Silver-level Cat Friendly Clinic in Vaasa, how stress affects test results, and how to prepare your cat.'
+    },
     landingLink: {
       fi: { url: '/kissan-elainlaakari-vaasa/', anchor: 'Kissan eläinlääkäri Vaasassa – lue lisää kissojen hoidostamme' },
       sv: { url: '/sv/kattveterinar-vasa/', anchor: 'Kattveterinär i Vasa – läs mer om vår kattvård' },
       en: { url: '/en/cat-veterinarian-vaasa/', anchor: 'Cat vet in Vaasa – read more about our cat care' }
-    }
+    },
+    sources: [
+      { text: 'Koomgun K. ym. (2025): Influence of hospital-induced stress on blood glucose concentrations, serum concentrations of cortisol, thyroxine and bile acids, and behaviour in cats. Journal of Feline Medicine and Surgery 27(4):1098612X251320254.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12035129/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Belew A.M. ym. (1999): Evaluation of the white-coat effect in cats. Journal of Veterinary Internal Medicine 13(2):134–142.', url: 'https://pubmed.ncbi.nlm.nih.gov/10225603/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Frank D. ym. (2010): Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. Journal of the American Veterinary Medical Association 236(12):1308–1316.', url: 'https://pubmed.ncbi.nlm.nih.gov/20550445/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Crump E. (2023): Effectiveness of F3 feline facial pheromone analogue for acute stress reduction within clinical veterinary practice. Veterinary Evidence 8(4).', url: 'https://veterinaryevidence.org/index.php/ve/article/view/669', label: 'veterinaryevidence.org' },
+      { text: 'Rodan I. ym. (2022): 2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines: Approach and Handling Techniques. Journal of Feline Medicine and Surgery 24(11):1093–1132.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10845437/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'International Cat Care: Stress in cats.', url: 'https://icatcare.org/articles/stress-in-cats', label: 'icatcare.org' },
+      { text: 'International Cat Care: Cat Friendly Clinic Foundation Criteria.', url: 'https://icatcare.org/resources/cat-friendly-clinic/cat-friendly-clinic-foundation-criteria.pdf', label: 'icatcare.org' },
+      { text: 'International Cat Care: Cat Friendly Clinic Silver & Gold Criteria.', url: 'https://icatcare.org/resources/cat-friendly-clinic/cat-friendly-clinic-silver-and-gold-criteria.pdf', label: 'icatcare.org' },
+      { text: 'International Cat Care (2025): New chapter for International Cat Care (ISFM renamed the iCatCare Veterinary Society).', url: 'https://icatcare.org/news/new-chapter-for-international-cat-care', label: 'icatcare.org' },
+      { text: 'FELIWAY UK: FELIWAY Classic Spray — directions for use.', url: 'https://www.feliway.co.uk/products/feliway-classic-spray', label: 'feliway.co.uk' }
+    ]
   },
   {
     slug: 'puhkeamattomat-hampaat',
