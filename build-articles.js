@@ -741,16 +741,21 @@ const articles = [
     titleKey: 'article.resorption.title',
     tagKey: 'article.resorption.tag',
     category: 'dental',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-02-25',
-    sections: ['intro', 'types.title', 'types.text', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'after.title', 'after.text'],
+    sections: ['intro', 'prevalence.title', 'prevalence.text', 'types.title', 'types.text', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'after.title', 'after.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.resorption',
     sources: [
-      { text: 'American Veterinary Dental College (AVDC): Tooth Resorption — nomenclature, stages and types.', url: 'https://avdc.org/avdc-nomenclature/', label: 'avdc.org' },
-      { text: 'Whyte A. ym. (2024): A large case-control study indicates a breed-specific predisposition to feline tooth resorption. Journal of Veterinary Dentistry.', url: 'https://pubmed.ncbi.nlm.nih.gov/38740176/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Niemiec B. ym. (2026): World Small Animal Veterinary Association global dental guidelines. Journal of Small Animal Practice, doi:10.1111/jsap.70057.', url: 'https://pubmed.ncbi.nlm.nih.gov/42687403/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Lobprise H. ym. (2025): 2025 FelineVMA feline oral health and dental care guidelines. Journal of Feline Medicine and Surgery 27(11).', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12665832/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Gorrel C. (2015): Tooth resorption in cats: pathophysiology and treatment options. Journal of Feline Medicine and Surgery 17(1):37–43.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11383098/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Vapalahti K. ym. (2024): A large case-control study indicates a breed-specific predisposition to feline tooth resorption. The Veterinary Journal 305:106133.', url: 'https://pubmed.ncbi.nlm.nih.gov/38740176/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Peralta S. ym. (2010): Radiographic evaluation of the types of tooth resorption in dogs. American Journal of Veterinary Research 71(7):784–793.', url: 'https://pubmed.ncbi.nlm.nih.gov/20594081/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Cornell Feline Health Center: Tooth Resorption.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/tooth-resorption', label: 'vet.cornell.edu' },
-      { text: 'Merck Veterinary Manual: Tooth Resorption in Small Animals.', url: 'https://www.msdvetmanual.com/digestive-system/dentistry-in-small-animals/tooth-resorption-in-small-animals', label: 'msdvetmanual.com' }
+      { text: 'Bae J. ym. (2025): Prevalence and classification of tooth resorption in small-breed dogs: a retrospective study using full-mouth intraoral radiographs. The Veterinary Journal 313:106377.', url: 'https://pubmed.ncbi.nlm.nih.gov/40374100/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Eriksson J. ym. (2024): Accuracy of three diagnostic tests to detect tooth resorption in unowned unsocialised cats in Denmark. Journal of Small Animal Practice 65(6):387–393.', url: 'https://pubmed.ncbi.nlm.nih.gov/38234230/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Lyon K.F. (1992): Subgingival odontoclastic resorptive lesions. Classification, treatment, and results in 58 cats. Veterinary Clinics of North America: Small Animal Practice 22(6):1417–1432.', url: 'https://pubmed.ncbi.nlm.nih.gov/1455580/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Mulherin B.L. (2024): Tooth Resorption in Small Animals. MSD Veterinary Manual.', url: 'https://www.msdvetmanual.com/digestive-system/dentistry-in-small-animals/tooth-resorption-in-small-animals', label: 'msdvetmanual.com' },
+      { text: 'American Veterinary Dental College (AVDC): Nomenclature — tooth resorption stages and types.', url: 'https://avdc.org/avdc-nomenclature/', label: 'avdc.org' }
     ]
   },
   {
