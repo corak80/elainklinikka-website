@@ -677,16 +677,19 @@ const articles = [
     titleKey: 'article.unerupted.title',
     tagKey: 'article.unerupted.tag',
     category: 'dental',
-    date: '2026',
+    date: '27.9.2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'cyst.title', 'cyst.text', 'symptoms.title', 'symptoms.text', 'breeds.title', 'breeds.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'prognosis.title', 'prognosis.text'],
     prefix: 'article.unerupted',
     sources: [
-      { text: 'Babbitt S.G., Volker M.K., Luskin I.R. (2016): Incidence of radiographic cystic lesions associated with unerupted teeth in dogs. Journal of Veterinary Dentistry 33(4):226–233.', url: 'https://journals.sagepub.com/doi/abs/10.1177/0898756416683490', label: 'journals.sagepub.com' },
-      { text: 'Soukup J.W. ym. (2019): A clinical, radiographic and histological study of unerupted teeth in dogs and cats — 73 cases (2001–2018). Frontiers in Veterinary Science 6:357.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6856145/', label: 'ncbi.nlm.nih.gov' },
-      { text: 'Heinze ym. (2026): Cross-sectional radiographic study on the prevalence of dentigerous cysts in unerupted teeth in adult dogs. Journal of Small Animal Practice.', url: 'https://onlinelibrary.wiley.com/doi/10.1111/jsap.70067', label: 'onlinelibrary.wiley.com' },
+      { text: 'Babbitt S.G., Krakowski Volker M., Luskin I.R. (2016): Incidence of radiographic cystic lesions associated with unerupted teeth in dogs. Journal of Veterinary Dentistry 33(4):226–233.', url: 'https://pubmed.ncbi.nlm.nih.gov/28218030/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Heinze C.S., Miles J.E., Gawor J., Kortegaard H.E. (2026): A cross-sectional radiographic study on the prevalence and distribution of dentigerous cysts in unerupted teeth in adult dogs. Journal of Small Animal Practice 67(5):422–431.', url: 'https://pubmed.ncbi.nlm.nih.gov/41888382/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Bellei E., Ferro S., Zini E., Gracis M. (2019): A clinical, radiographic and histological study of unerupted teeth in dogs and cats: 73 cases (2001–2018). Frontiers in Veterinary Science 6:357.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6856145/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Hutt J.P., Volker M.K., Sánchez M.D. (2022): Correlation between radiographic and histopathologic findings associated with unerupted teeth in dogs. Journal of Veterinary Dentistry 39(4):330–336.', url: 'https://pubmed.ncbi.nlm.nih.gov/35711165/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Vesterinen S., Lönnberg L., Junnila J.J.T., Luotonen N., Kuntsi H. (2024): Clinical and histopathological study of 279 dentigerous cysts in 192 dogs (2012–2022). Frontiers in Veterinary Science 11:1412089.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11156172/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Verstraete F.J.M., Kass P.H., Terpak C.H. (1998): Diagnostic value of full-mouth radiography in dogs. American Journal of Veterinary Research 59(6):686–691.', url: 'https://pubmed.ncbi.nlm.nih.gov/9622735/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'WSAVA Global Dental Guidelines.', url: 'https://wsava.org/global-guidelines/dental-guidelines/', label: 'wsava.org' }
+      { text: 'Niemiec B. et al. (2020): World Small Animal Veterinary Association Global Dental Guidelines. Journal of Small Animal Practice 61(7):E36–E161.', url: 'https://pubmed.ncbi.nlm.nih.gov/32715504/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Merck Veterinary Manual, Dog Owners: Dental Development of Dogs.', url: 'https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/dental-development-of-dogs', label: 'merckvetmanual.com' }
     ]
   },
   {
