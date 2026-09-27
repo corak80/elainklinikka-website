@@ -957,10 +957,26 @@ const articles = [
     titleKey: 'article.vetnurse.title',
     tagKey: 'articles.filter.clinic',
     category: 'clinic',
-    date: '20.9.2026',
+    date: '27.9.2026',
     publishDate: '2026-03-10',
     sections: ['intro', 'role.title', 'role.text', 'evidence.title', 'evidence.text', 'education.title', 'education.text', 'jenni.title', 'jenni.text'],
-    prefix: 'article.vetnurse'
+    prefix: 'article.vetnurse',
+    metaDesc: {
+      fi: 'Miksi koulutettu klinikkaeläinhoitaja valvoo anestesiaa, mitä tutkimukset kertovat anestesiakuolemista ja miten eläinhoitajat koulutetaan Suomessa.',
+      sv: 'Varför en utbildad klinikdjurskötare övervakar narkosen, vad forskningen säger om dödsfall vid anestesi och hur djurskötare utbildas i Finland.',
+      en: 'Why a trained veterinary nurse monitors every anaesthetic, what research shows about anaesthetic deaths, and how veterinary nurses train in Finland.'
+    },
+    sources: [
+      { text: 'Brodbelt D.C. ym. (2008): The risk of death: the Confidential Enquiry into Perioperative Small Animal Fatalities. Veterinary Anaesthesia and Analgesia 35(5):365–373.', url: 'https://doi.org/10.1111/j.1467-2995.2008.00397.x', label: 'doi.org' },
+      { text: 'Brodbelt D.C. ym. (2008): Results of the confidential enquiry into perioperative small animal fatalities regarding risk factors for anesthetic-related death in dogs. Journal of the American Veterinary Medical Association 233(7):1096–1104.', url: 'https://doi.org/10.2460/javma.233.7.1096', label: 'doi.org' },
+      { text: 'Brodbelt D.C. ym. (2007): Risk factors for anaesthetic-related death in cats: results from the confidential enquiry into perioperative small animal fatalities (CEPSAF). British Journal of Anaesthesia 99(5):617–623.', url: 'https://doi.org/10.1093/bja/aem229', label: 'doi.org' },
+      { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs: a worldwide analysis and risk assessment. Veterinary Record 195(1):e3604.', url: 'https://pubmed.ncbi.nlm.nih.gov/37953683/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in cats: a worldwide analysis and risk assessment. Veterinary Record 195(1):e4147.', url: 'https://pubmed.ncbi.nlm.nih.gov/38959210/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Morrison J.A. ym. (2022): Development and implementation of veterinary anesthesia medical quality standards for primary care. Veterinary Anaesthesia and Analgesia 49(3):233–242.', url: 'https://doi.org/10.1016/j.vaa.2022.01.009', label: 'doi.org' },
+      { text: 'Finnish National Agency for Education (2025): Vocational Qualification in Agriculture — qualification requirements, OPH-7411-2025 (in force from 1.8.2026). ePerusteet.', url: 'https://eperusteet.opintopolku.fi/#/fi/ammatillinen/9721543/tiedot', label: 'eperusteet.opintopolku.fi' },
+      { text: 'Finnish National Agency for Education (2025): Further vocational qualification in Animal Care — qualification requirements, OPH-2142-2025 (in force from 1.8.2025). ePerusteet.', url: 'https://eperusteet.opintopolku.fi/#/fi/ammatillinen/9049030/tiedot', label: 'eperusteet.opintopolku.fi' },
+      { text: 'Finnish National Agency for Education (2025): Specialist vocational qualification in Animal Care — qualification requirements, OPH-2143-2025 (in force from 1.8.2025). ePerusteet.', url: 'https://eperusteet.opintopolku.fi/#/fi/ammatillinen/9227100/tiedot', label: 'eperusteet.opintopolku.fi' }
+    ]
   }
 ];
 
