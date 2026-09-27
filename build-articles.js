@@ -362,20 +362,35 @@ const articles = [
     titleKey: 'article.grainfree.title',
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '20.9.2026',
+    date: '27.9.2026',
     publishDate: '2026-01-25',
-    sections: ['intro', 'fda.title', 'fda.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
+    sections: ['intro', 'fda.title', 'fda.text', 'trials.title', 'trials.text', 'observational.title', 'observational.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
     prefix: 'article.grainfree',
+    metaDesc: {
+      fi: 'Onko viljaton ruoka parempi koiralle tai kissalle? Mitä FDA:n selvitys ja tutkimukset kertovat viljattomista ruoista, palkokasveista ja DCM-sydänsairaudesta.',
+      sv: 'Är spannmålsfri mat bättre för hund och katt? Vad FDA:s utredning och studier visar om spannmålsfritt foder, baljväxter och hjärtsjukdomen DCM.',
+      en: 'Is grain-free food better for dogs and cats? What the FDA investigation and feeding studies show about grain-free diets, pulses and heart disease (DCM).'
+    },
     sources: [
-      { text: 'U.S. Food and Drug Administration (FDA): Investigation into potential link between certain diets and canine dilated cardiomyopathy (DCM) — Questions &amp; Answers.', url: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs', label: 'fda.gov' },
-      { text: 'Singh P. ym. (2023): Dietary inclusion of up to 45% whole pulse ingredients does not affect cardiac function in adult dogs. The Journal of Nutrition 153(5):1461–1475.', url: 'https://doi.org/10.1016/j.tjnut.2023.03.027', label: 'doi.org' },
+      { text: 'U.S. Food and Drug Administration (FDA): FDA Investigation into Potential Link between Certain Diets and Canine Dilated Cardiomyopathy (updated 27 June 2019; notice of 23 December 2022).', url: 'https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-investigation-potential-link-between-certain-diets-and-canine-dilated-cardiomyopathy', label: 'fda.gov' },
+      { text: 'U.S. Food and Drug Administration (FDA): Questions & Answers: FDA’s Work on Potential Causes of Non-Hereditary DCM in Dogs (updated 19 August 2024).', url: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs', label: 'fda.gov' },
+      { text: 'Singh P. ym. (2023): The Pulse of It: Dietary Inclusion of Up to 45% Whole Pulse Ingredients with Chicken Meal and Pea Starch in a Complete and Balanced Diet Does Not Affect Cardiac Function, Fasted Sulfur Amino Acid Status, or Other Gross Measures of Health in Adult Dogs. The Journal of Nutrition 153(5):1461–1475.', url: 'https://doi.org/10.1016/j.tjnut.2023.03.027', label: 'doi.org' },
       { text: 'Morris E.M. ym. (2025): Different carbohydrate sources in dog foods supported overall health and cardiac function: an 18-mo prospective study in healthy adult dogs. Journal of Animal Science 103:skaf225.', url: 'https://doi.org/10.1093/jas/skaf225', label: 'doi.org' },
+      { text: 'Pion P.D. (2026): Letter to editor regarding different carbohydrate sources in dog foods supported overall health and cardiac function: an 18-month prospective study in healthy adult dogs (co-signed by 102 veterinarians). Journal of Animal Science 104:skag028.', url: 'https://doi.org/10.1093/jas/skag028', label: 'doi.org' },
+      { text: 'Quilliam C. ym. (2023): Effects of a 28-day feeding trial of grain-containing versus pulse-based diets on cardiac function, taurine levels and digestibility in domestic dogs. PLOS ONE 18(5):e0285381; correction PLOS ONE 19(8):e0308509 (2024).', url: 'https://doi.org/10.1371/journal.pone.0285381', label: 'doi.org' },
       { text: 'Adin D. ym. (2021): Effect of type of diet on blood and plasma taurine concentrations, cardiac biomarkers, and echocardiograms in 4 dog breeds. Journal of Veterinary Internal Medicine 35(2):771–779.', url: 'https://doi.org/10.1111/jvim.16075', label: 'doi.org' },
       { text: 'Coppinger L.M. ym. (2024): Echocardiographic and electrocardiographic findings in Irish Wolfhounds eating high-pulse or low-pulse diets. Journal of Veterinary Internal Medicine 38(3):1300–1304.', url: 'https://doi.org/10.1111/jvim.17075', label: 'doi.org' },
-      { text: 'Axelsson E. ym. (2013): The genomic signature of dog domestication reveals adaptation to a starch-rich diet. Nature 495:360–364.', url: 'https://www.nature.com/articles/nature11837', label: 'nature.com' },
-      { text: 'Mueller R.S., Olivry T., Prélaud P. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://doi.org/10.1186/s12917-016-0633-8', label: 'doi.org' },
-      { text: 'de-Oliveira L.D. ym. (2008): Effects of six carbohydrate sources on cat diet digestibility and postprandial glucose and insulin response. Journal of Animal Science 86(9):2237–2246.', url: 'https://doi.org/10.2527/jas.2007-0354', label: 'doi.org' },
-      { text: 'WSAVA Global Nutrition Committee: Guidelines on Selecting Pet Foods.', url: 'https://wsava.org/global-guidelines/global-nutrition-guidelines/', label: 'wsava.org' }
+      { text: 'Owens E.J. ym. (2023): Comparison of echocardiographic measurements and cardiac biomarkers in healthy dogs eating nontraditional or traditional diets. Journal of Veterinary Internal Medicine 37(1):37–46.', url: 'https://doi.org/10.1111/jvim.16606', label: 'doi.org' },
+      { text: 'Freeman L. ym. (2022): Prospective study of dilated cardiomyopathy in dogs eating nontraditional or traditional diets and in dogs with subclinical cardiac abnormalities. Journal of Veterinary Internal Medicine 36(2):451–463.', url: 'https://doi.org/10.1111/jvim.16397', label: 'doi.org' },
+      { text: 'O’Brien J. ym. (2026): Multiple Modelling Methods Suggest That Grain-Free Diets Are Not Predictive of New Owner-Reported Cardiac Diagnoses Over Two Years in the Dog Aging Project, Despite Owner Misclassification of Diet. Veterinary Medicine and Science 12(5):e71213.', url: 'https://doi.org/10.1002/vms3.71213', label: 'doi.org' },
+      { text: 'Freeman L.M. (2023): Diet-associated dilated cardiomyopathy: The cause is not yet known but it hasn’t gone away. Petfoodology, Cummings School of Veterinary Medicine, Tufts University.', url: 'https://sites.tufts.edu/petfoodology/2023/02/07/diet-associated-dilated-cardiomyopathy-the-cause-is-not-yet-known-but-it-hasnt-gone-away/', label: 'sites.tufts.edu' },
+      { text: 'Arendt M. ym. (2016): Diet adaptation in dog reflects spread of prehistoric agriculture. Heredity 117(5):301–306.', url: 'https://doi.org/10.1038/hdy.2016.48', label: 'doi.org' },
+      { text: 'Murray S.M. ym. (1999): Evaluation of selected high-starch flours as ingredients in canine diets. Journal of Animal Science 77(8):2180–2186.', url: 'https://doi.org/10.2527/1999.7782180x', label: 'doi.org' },
+      { text: 'Mueller R.S. ym. (2016): Critically appraised topic on adverse food reactions of companion animals (2): common food allergen sources in dogs and cats. BMC Veterinary Research 12:9.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4710035/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Prantil L.R. ym. (2018): Comparison of carbohydrate content between grain-containing and grain-free dry cat diets and between reported and calculated carbohydrate values. Journal of Feline Medicine and Surgery 20(4):349–355.', url: 'https://doi.org/10.1177/1098612X17710842', label: 'doi.org' },
+      { text: 'Pion P.D. ym. (1987): Myocardial failure in cats associated with low plasma taurine: a reversible cardiomyopathy. Science 237(4816):764–768.', url: 'https://doi.org/10.1126/science.3616607', label: 'doi.org' },
+      { text: 'de-Oliveira L.D. ym. (2008): Effects of six carbohydrate sources on diet digestibility and postprandial glucose and insulin responses in cats. Journal of Animal Science 86(9):2237–2246.', url: 'https://doi.org/10.2527/jas.2007-0354', label: 'doi.org' },
+      { text: 'WSAVA Global Nutrition Committee (2021): Guidelines on Selecting Pet Foods.', url: 'https://wsava.org/wp-content/uploads/2021/04/Selecting-a-pet-food-for-your-pet-updated-2021_WSAVA-Global-Nutrition-Toolkit.pdf', label: 'wsava.org' }
     ]
   },
   {
