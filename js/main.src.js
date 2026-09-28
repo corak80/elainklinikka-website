@@ -432,9 +432,9 @@ const translations = {
     en: 'Surgery, dentistry and dermatology. Pharmacist degree, Accesia Academy and ESAVS.'
   },
   'bio.merja': {
-    fi: 'Pehmytkudoskirurgia ja eksoottiset eläimet. Valmistunut 2025 Eesti Maaülikoolista.',
-    sv: 'Mjukdelskirurgi och exotiska djur. Examen 2025 från Eesti Maaülikool.',
-    en: 'Soft tissue surgery and exotic animals. Graduated 2025 from Eesti Maaülikool.'
+    fi: 'Pehmytkudoskirurgia ja eksoottiset eläimet. Valmistunut 2025 Eesti Maaülikoolista. Accesia Academyn hammashoitokurssi 2026.',
+    sv: 'Mjukdelskirurgi och exotiska djur. Examen 2025 från Eesti Maaülikool. Tandvårdskurs vid Accesia Academy 2026.',
+    en: 'Soft tissue surgery and exotic animals. Graduated 2025 from Eesti Maaülikool. Accesia Academy dental course 2026.'
   },
   'bio.hanna': {
     fi: 'Sisätaudit, dermatologia ja pehmytkudoskirurgia. Eksoottiset nisäkkäät ja pelkopotilaat.',
@@ -3900,9 +3900,9 @@ const vetProfiles = {
     name: 'Merja Autio',
     image: '/images/merja.webp',
     bio: {
-      fi: 'Valmistuin kesällä 2025 Eesti Maaülikoolista Tartosta ja olen työskennellyt eläinlääkärinä vuodesta 2024. Olen ollut osana Eläinklinikka Saaren tiimiä huhtikuusta 2025 lähtien. Erityisiä mielenkiinnon kohteitani ovat pehmytkudoskirurgia sekä eksoottiset eläimet, ja tavoitteenani on kouluttautua näillä osa-alueilla lisää tulevaisuudessa.\n\nMinulle on tärkeää rauhallinen ja yksilöllinen kohtaaminen sekä eläimen luotettava ja näyttöön perustuva hoito. Koen työni merkitykselliseksi ja arvostan sen vaihtelevuutta ja ammatillista haastavuutta.',
-      sv: 'Jag tog veterinärexamen sommaren 2025 vid Eesti Maaülikool i Tartu och har arbetat som veterinär sedan 2024. Jag har varit en del av Eläinklinikka Saaris team sedan april 2025. Mina särskilda intresseområden är mjukdelskirurgi och exotiska djur, och mitt mål är att vidareutbilda mig inom dessa områden även i framtiden.\n\nFör mig är ett lugnt och individuellt bemötande samt tillförlitlig och evidensbaserad vård av djuret mycket viktigt. Jag upplever mitt arbete som meningsfullt och uppskattar dess variation och professionella utmaningar.',
-      en: 'I graduated in the summer of 2025 from Eesti Maaülikool in Tartu and have been working as a veterinarian since 2024. I have been part of the Eläinklinikka Saari team since April 2025. My particular areas of interest are soft tissue surgery and exotic animals, and I aim to pursue further training in these areas in the future.\n\nI value calm and individual interactions, as well as reliable, evidence-based care for each animal. I find my work meaningful and appreciate its variety and professional challenges.'
+      fi: 'Valmistuin kesällä 2025 Eesti Maaülikoolista Tartosta ja olen työskennellyt eläinlääkärinä vuodesta 2024. Olen ollut osana Eläinklinikka Saaren tiimiä huhtikuusta 2025 lähtien. Erityisiä mielenkiinnon kohteitani ovat pehmytkudoskirurgia sekä eksoottiset eläimet, ja tavoitteenani on kouluttautua näillä osa-alueilla lisää tulevaisuudessa. Lisäksi suoritin vuonna 2026 Accesia Academyn viisipäiväisen Dentistry I -kurssin Ruotsin Halmstadissa. Kurssilla perehdyin koirien ja kissojen hammasröntgenkuvaukseen, ientulehduksen ja parodontiitin hoitoon sekä hampaiden poistoon.\n\nMinulle on tärkeää rauhallinen ja yksilöllinen kohtaaminen sekä eläimen luotettava ja näyttöön perustuva hoito. Koen työni merkitykselliseksi ja arvostan sen vaihtelevuutta ja ammatillista haastavuutta.',
+      sv: 'Jag tog veterinärexamen sommaren 2025 vid Eesti Maaülikool i Tartu och har arbetat som veterinär sedan 2024. Jag har varit en del av Djurklinik Saaris team sedan april 2025. Mina särskilda intresseområden är mjukdelskirurgi och exotiska djur, och mitt mål är att vidareutbilda mig inom dessa områden även i framtiden. Dessutom gick jag år 2026 den fem dagar långa kursen Dentistry I vid Accesia Academy i Halmstad i Sverige. Kursen omfattade bland annat tandröntgen, tandutdragningar och behandling av tandlossning hos hund och katt.\n\nFör mig är ett lugnt och individuellt bemötande samt tillförlitlig och evidensbaserad vård av djuret mycket viktigt. Jag upplever mitt arbete som meningsfullt och uppskattar dess variation och professionella utmaningar.',
+      en: 'I graduated in the summer of 2025 from Eesti Maaülikool in Tartu and have been working as a veterinarian since 2024. I have been part of the Eläinklinikka Saari team since April 2025. My particular areas of interest are soft tissue surgery and exotic animals, and I aim to pursue further training in these areas in the future. In 2026 I also completed the five-day Dentistry I course at Accesia Academy in Halmstad, Sweden. It covered dental X-rays, the treatment of gum and periodontal disease, and tooth extractions in dogs and cats.\n\nI value calm and individual interactions, as well as reliable, evidence-based care for each animal. I find my work meaningful and appreciate its variety and professional challenges.'
     },
     experience: {
       fi: 'Eläinlääkärinä vuodesta 2024. Valmistunut Eesti Maaülikoolista 2025. Saaren klinikalla huhtikuusta 2025.',
@@ -3910,9 +3910,9 @@ const vetProfiles = {
       en: 'Veterinarian since 2024. Graduated from Eesti Maaülikool 2025. At Saari Clinic since April 2025.'
     },
     training: {
-      fi: 'Eläinlääketieteen tutkinto, Eesti Maaülikool, Tartu.',
-      sv: 'Veterinärmedicin examen, Eesti Maaülikool, Tartu.',
-      en: 'Veterinary Medicine degree, Eesti Maaülikool, Tartu.'
+      fi: 'Eläinlääketieteen tutkinto, Eesti Maaülikool, Tartu. Accesia Academy Dentistry I (hammashoito), 2026.',
+      sv: 'Veterinärexamen, Eesti Maaülikool, Tartu. Accesia Academy Dentistry I (tandvård), 2026.',
+      en: 'Veterinary Medicine degree, Eesti Maaülikool, Tartu. Accesia Academy Dentistry I, 2026.'
     },
     focus: {
       fi: 'Pehmytkudoskirurgia, eksoottiset eläimet',
@@ -3935,7 +3935,7 @@ const vetProfiles = {
     },
     training: {
       fi: 'Eläinlääketieteen tutkinto, Eesti Maaülikool, 2025.',
-      sv: 'Veterinärmedicin examen, Eesti Maaülikool, 2025.',
+      sv: 'Veterinärexamen, Eesti Maaülikool, 2025.',
       en: 'Veterinary Medicine degree, Eesti Maaülikool, 2025.'
     },
     focus: {
