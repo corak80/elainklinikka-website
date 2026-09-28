@@ -3862,9 +3862,9 @@ const vetProfiles = {
       en: 'Small animal veterinarian since 2011.'
     },
     training: {
-      fi: 'Accesia Academy hammashoito. Tähystys- ja luonnonvaraisten eläinten koulutus.',
-      sv: 'Accesia Academy tandvård. Endoskopi- och viltdjursutbildning.',
-      en: 'Accesia Academy dentistry. Endoscopy and wildlife training.'
+      fi: 'Accesia Academyn hammashoitokurssit (2019–2021), AO VET -murtumanhoitokoulutus (Oxford 2016), tähystyskoulutus (Fennovet 2017, CPD-Vet 2024), lintujen ja eksoottisten eläinten hoito ja kirurgia (VetPD 2017, Fennovet 2020), polvilumpioluksaatio­tarkastuskurssi (Helsingin yliopisto 2016), FECAVA-kongressi 2018, ISFM-kongressi 2014 ja iM3-hammashoitokurssi (Dublin 2026).',
+      sv: 'Tandvårdskurser vid Accesia Academy (2019–2021), AO VET-kurs i frakturbehandling (Oxford 2016), endoskopiutbildning (Fennovet 2017, CPD-Vet 2024), medicin och kirurgi hos fåglar och exotiska djur (VetPD 2017, Fennovet 2020), kurs i patellaundersökning (Helsingfors universitet 2016), kongresserna FECAVA 2018 och ISFM 2014 samt iM3-kurs i tandvård (Dublin 2026).',
+      en: 'Accesia Academy dentistry courses (2019–2021), AO VET fracture management (Oxford 2016), endoscopy training (Fennovet 2017, CPD-Vet 2024), avian and exotic animal medicine and surgery (VetPD 2017, Fennovet 2020), patellar luxation examination (University of Helsinki 2016), FECAVA 2018 and ISFM 2014 congresses, iM3 dental course (Dublin 2026).'
     },
     focus: {
       fi: 'Hammashoito, tähystystutkimukset, luonnonvaraisten eläinten hoito, teknologiset innovaatiot',
