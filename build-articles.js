@@ -1458,7 +1458,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   // as duplicates of the FI version — JS-based i18n runs too late for that check).
   const footerDesc = {
     fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella, pukinkulmassa.',
-    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
+    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockska hörnet.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
   const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
@@ -1753,7 +1753,7 @@ const ARTICLE_INDEX_I18N = {
     schemaDesc: 'Veterinärmedicinska artiklar från Djurklinik Saari',
     categories: { dental: 'Tandvård', surgery: 'Kirurgi och anestesi', cardiology: 'Kardiologi', endoscopy: 'Endoskopi', health: 'Hälsa och sjukdomar', emergency: 'Akutvård', wildlife: 'Wildlife', clinic: 'Kliniken' },
     ogLocale: 'sv_FI',
-    footerBrand: 'Finsk privat smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
+    footerBrand: 'Finsk privat smådjursklinik i Dragnäsbäck, Vasa, vid Bockska hörnet.',
     footerQuickLinks: 'Snabblänkar',
     footerAbout: 'Kliniken', footerServices: 'Tjänster', footerTeam: 'Personal', footerPrices: 'Prislista', footerAboutPage: 'Om oss', footerContact: 'Kontakt', footerArticles: 'Artiklar', footerMedia: 'Saari i media',
     footerContactTitle: 'Kontakt', footerFollow: 'Följ oss', footerCopyright: 'Alla rättigheter förbehållna.', footerPrivacy: 'Integritetspolicy',
@@ -4000,7 +4000,7 @@ function generateServicePage(service, translations, lang) {
   // Footer text
   const footerDesc = {
     fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella, pukinkulmassa.',
-    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
+    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockska hörnet.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
   const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
@@ -4902,7 +4902,7 @@ function generateBookingPage(lang) {
         'Gärna en kort historia om symtomen — hur länge, hur de förändrats',
       ],
       locationHeading: 'Plats',
-      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockshörnet, Dragnäsbäck)',
+      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockska hörnet, Dragnäsbäck)',
       locationDirections: 'Öppna i Google Maps',
       backToHome: '← Tillbaka till startsidan',
       skipLink: 'Hoppa till innehållet',

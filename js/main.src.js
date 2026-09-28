@@ -3143,7 +3143,7 @@ const translations = {
   },
   'faq.home.a1': {
     fi: 'Sijaitsemme osoitteessa Gerbyntie 18, 65230 Vaasa, Vetokannaksen kaupunginosassa pukinkulmassa. Meille on hyvät kulkuyhteydet myös lähikunnista.',
-    sv: 'Djurklinik Saari ligger på Gerbyvägen 18, 65230 Vasa, i stadsdelen Dragnäsbäck vid Bockshörnet. Det är lätt att nå oss även från grannkommunerna.',
+    sv: 'Djurklinik Saari ligger på Gerbyvägen 18, 65230 Vasa, i stadsdelen Dragnäsbäck vid Bockska hörnet. Det är lätt att nå oss även från grannkommunerna.',
     en: 'We are at Gerbyntie 18, 65230 Vaasa, in the Dragnäsbäck district at Pukinkulma. We are easy to reach from the surrounding municipalities too.'
   },
   'faq.home.q2': {
