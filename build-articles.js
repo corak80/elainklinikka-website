@@ -1458,7 +1458,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   // as duplicates of the FI version — JS-based i18n runs too late for that check).
   const footerDesc = {
     fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.',
-    sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
+    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
   const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
@@ -1753,7 +1753,7 @@ const ARTICLE_INDEX_I18N = {
     schemaDesc: 'Veterinärmedicinska artiklar från Djurklinik Saari',
     categories: { dental: 'Tandvård', surgery: 'Kirurgi och anestesi', cardiology: 'Kardiologi', endoscopy: 'Endoskopi', health: 'Hälsa och sjukdomar', emergency: 'Akutvård', wildlife: 'Wildlife', clinic: 'Kliniken' },
     ogLocale: 'sv_FI',
-    footerBrand: 'Finsk privat smådjursklinik i Dragnäsbäck, Vasa, vid Bockis-hörnet.',
+    footerBrand: 'Finsk privat smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
     footerQuickLinks: 'Snabblänkar',
     footerAbout: 'Kliniken', footerServices: 'Tjänster', footerTeam: 'Personal', footerPrices: 'Prislista', footerAboutPage: 'Om oss', footerContact: 'Kontakt', footerArticles: 'Artiklar', footerMedia: 'Saari i media',
     footerContactTitle: 'Kontakt', footerFollow: 'Följ oss', footerCopyright: 'Alla rättigheter förbehållna.', footerPrivacy: 'Integritetspolicy',
@@ -1775,7 +1775,7 @@ const ARTICLE_INDEX_I18N = {
     schemaDesc: 'Veterinary articles from Saari Animal Clinic',
     categories: { dental: 'Dental Care', surgery: 'Surgery and Anaesthesia', cardiology: 'Cardiology', endoscopy: 'Endoscopy', health: 'Health and Disease', emergency: 'Emergency Care', wildlife: 'Wildlife', clinic: 'Clinic' },
     ogLocale: 'en_GB',
-    footerBrand: 'Finnish private small animal clinic in Dragnäsbäck, Vaasa, at the Bockis corner.',
+    footerBrand: 'Finnish private small animal clinic in Dragnäsbäck, Vaasa, at Pukinkulma.',
     footerQuickLinks: 'Quick links',
     footerAbout: 'Clinic', footerServices: 'Services', footerTeam: 'Staff', footerPrices: 'Prices', footerAboutPage: 'About', footerContact: 'Contact', footerArticles: 'Articles', footerMedia: 'Saari in the media',
     footerContactTitle: 'Contact', footerFollow: 'Follow us', footerCopyright: 'All rights reserved.', footerPrivacy: 'Privacy Policy',
@@ -4000,7 +4000,7 @@ function generateServicePage(service, translations, lang) {
   // Footer text
   const footerDesc = {
     fi: 'Suomalainen yksityinen pieneläinklinikka Vaasan vetokannaksessa, pukinkulmassa.',
-    sv: 'Finsk privatägd smådjursklinik i Dragsnäsbäck, Vasa, vid Bockis-kurvan.',
+    sv: 'Finsk privatägd smådjursklinik i Dragnäsbäck, Vasa, vid Bockshörnet.',
     en: 'Finnish privately owned small animal clinic in Dragsnäsbäck, Vaasa.'
   };
   const footerQuicklinks = { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick links' };
@@ -4902,7 +4902,7 @@ function generateBookingPage(lang) {
         'Gärna en kort historia om symtomen — hur länge, hur de förändrats',
       ],
       locationHeading: 'Plats',
-      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockis-kurvan, Dragnäsbäck)',
+      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockshörnet, Dragnäsbäck)',
       locationDirections: 'Öppna i Google Maps',
       backToHome: '← Tillbaka till startsidan',
       skipLink: 'Hoppa till innehållet',
@@ -4944,7 +4944,7 @@ function generateBookingPage(lang) {
         'A short summary of symptoms — how long, how they have changed',
       ],
       locationHeading: 'Location',
-      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Dragnäsbäck)',
+      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Pukinkulma, Dragnäsbäck)',
       locationDirections: 'Open in Google Maps',
       backToHome: '← Back to homepage',
       skipLink: 'Skip to content',
