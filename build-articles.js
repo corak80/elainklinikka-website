@@ -4860,7 +4860,7 @@ function generateBookingPage(lang) {
         'Halutessanne tarinanne lemmikin oireista — kuinka kauan, miten muuttunut',
       ],
       locationHeading: 'Sijainti',
-      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Bockis-kurva, Vetokannas)',
+      locationAddress: 'Gerbyntie 18, 65230 Vaasa (pukinkulma, Vetokannas)',
       locationDirections: 'Avaa Google Mapsissa',
       backToHome: '← Takaisin etusivulle',
       skipLink: 'Siirry sisältöön',
@@ -5257,7 +5257,7 @@ function generateAboutPage() {
         <h1>Tietoa klinikasta</h1>
         <div class="article-content">
           <h2>Eläinklinikka Saari — yksityinen pieneläinklinikka Vaasassa</h2>
-          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella, Bockis-kulmauksessa. Klinikka on perustettu vuonna 1989, ja olemme palvelleet vaasalaisia lemmikkien omistajia yli 35 vuoden ajan. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
+          <p>Eläinklinikka Saari on suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella, pukinkulmassa. Klinikka on perustettu vuonna 1989, ja olemme palvelleet vaasalaisia lemmikkien omistajia yli 35 vuoden ajan. Meille tyytyväinen asiakas ja potilaan terveys ovat pääasia. Tavoitteenamme on lämmin ja luotettava suhde asiakkaan ja potilaan kanssa.</p>
           <p>Ammattitaitoinen hoitotiimimme koostuu 14 ammattilaisesta — kokeneista eläinlääkäreistä ja eläintenhoitajista — jotka tarjoavat asiantuntevaa palvelua aina eläimenne parhaaksi. Klinikkamme on ISFM-sertifioitu kissaystävällinen klinikka (International Society of Feline Medicine), mikä tarkoittaa erityistä huomiota kissapotilaiden hyvinvointiin ja stressin vähentämiseen vastaanottotilanteissa.</p>
 
           <h2>Erikoisalat ja osaaminen</h2>
@@ -5487,7 +5487,7 @@ function generateContactPage() {
           (Vetokannas, pukinkulmassa)</p>
 
           <h2>Saapumisohjeet</h2>
-          <p><strong>Autolla:</strong> Klinikka sijaitsee Vetokannaksen kaupunginosassa (ruots. Dragnäsbäck), Gerbyntien ja Pohjolankadun risteyksessä (Bockis-kurvi). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
+          <p><strong>Autolla:</strong> Klinikka sijaitsee Vetokannaksen kaupunginosassa (ruots. Dragnäsbäck), Gerbyntien ja Pohjolankadun risteyksessä (pukinkulma). Vaasan keskustasta ajoaika on noin 5 minuuttia. Aja Wolffintietä etelään ja käänny Gerbyntielle — klinikka on oikealla puolella. Ilmainen pysäköinti klinikan edessä olevalla parkkipaikalla, jossa on tilaa useille autoille.</p>
           <p><strong>Bussilla:</strong> Lähimmät bussipysäkit ovat Gerbyntiellä aivan klinikan kohdalla, alle 100 metrin päässä. Vaasan paikallisliikenteen linja 1 kulkee reitin varrella. Tarkista aikataulut osoitteesta <a href="https://www.vaasa.fi/asu-ja-ela/liikenne-ja-kadut/joukkoliikenne/" target="_blank" rel="noopener">vaasa.fi/joukkoliikenne</a>.</p>
 
           <h2>Puhelin ja sähköposti</h2>
