@@ -275,7 +275,12 @@ const articles = [
       { text: 'WSAVA Pain Committee (2024): Soft Tissue Surgery — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Soft-tissue-Surgery.pdf', label: 'wsava.org' },
       { text: 'WSAVA Pain Committee (2024): Castration and Ovariohysterectomy/Ovariectomy: Dogs — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Castration-and-OVH-Dogs.pdf', label: 'wsava.org' },
       { text: 'WSAVA Pain Committee (2024): Castration and Ovariohysterectomy/Ovariectomy: Cats — pain management protocol.', url: 'https://wsava.org/wp-content/uploads/2024/08/Castration-and-OVH-cats.pdf', label: 'wsava.org' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Jatkuva kipulääkeinfuusio (CRI): mikä on kivun wind-up-ilmiö, miten tasainen kipulääketiputus toimii leikkauksessa ja miten sitä käytetään turvallisesti.',
+      sv: 'Kontinuerlig smärtinfusion (CRI): så fungerar ett jämnt smärtlindrande dropp under operationen, vad smärtans wind-up är och hur metoden används säkert.',
+      en: 'Constant rate infusion (CRI): how a steady pain-relief drip works during surgery, what pain wind-up is and how we use it safely.'
+    }
   },
   {
     slug: 'ripuli',
@@ -298,7 +303,12 @@ const articles = [
       { text: 'Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals.', url: 'https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-diarrhea-in-monogastric-animals', label: 'merckvetmanual.com' },
       { text: 'CDC Healthy Pets: Dogs.', url: 'https://www.cdc.gov/healthy-pets/about/dogs.html', label: 'cdc.gov' },
       { text: 'Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316.', url: 'https://doi.org/10.2460/javma.236.12.1308', label: 'doi.org' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Ripuli koiralla ja kissalla: yleisimmät syyt, kotihoito, probiootit ja lääkkeet sekä oireet, joiden vuoksi kannattaa ottaa yhteyttä klinikkaan.',
+      sv: 'Diarré hos hund och katt: vanliga orsaker, hembehandling, probiotika och läkemedel samt tecknen på att det är dags att kontakta kliniken.',
+      en: 'Diarrhoea in dogs and cats: common causes, home care, probiotics and medicines, and the signs that mean you should contact the clinic.'
+    }
   },
   {
     slug: 'avoin-valtimotiehyt-pda',
@@ -324,7 +334,12 @@ const articles = [
       { text: 'Bureau S, Monnet E, Orton EC (2005): Evaluation of survival rate and prognostic indicators for surgical treatment of left-to-right patent ductus arteriosus in dogs: 52 cases (1995–2003). Journal of the American Veterinary Medical Association 227(11):1794–1799.', url: 'https://pubmed.ncbi.nlm.nih.gov/16342529/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Stauthammer CD, Tobias AH, Leeder DB, Krüger MU (2013): Structural and functional cardiovascular changes and their consequences following interventional patent ductus arteriosus occlusion in dogs: 24 cases (2000–2006). Journal of the American Veterinary Medical Association 242(12):1722–1726.', url: 'https://pubmed.ncbi.nlm.nih.gov/23725436/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Reinero C, Visser LC, Kellihan HB, et al. (2020): ACVIM consensus statement guidelines for the diagnosis, classification, treatment, and monitoring of pulmonary hypertension in dogs. Journal of Veterinary Internal Medicine 34(2):549–573.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7097566/', label: 'pmc.ncbi.nlm.nih.gov' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Koiran avoin valtimotiehyt (PDA): alttiit rodut, sivuääni pentutarkastuksessa, diagnoosi ja hoito. Kun tiehyt suljetaan ajoissa, koira yleensä paranee.',
+      sv: 'PDA hos hund: riskraser, blåsljudet som hörs vid ett rutinbesök med valpen, diagnos och behandling – och varför en tidig stängning i regel botar hunden.',
+      en: 'PDA in dogs: breeds at risk, the heart murmur found at a puppy check, diagnosis and treatment, and why early closure usually cures it.'
+    }
   },
   {
     slug: 'hampaiden-harjaus',
@@ -356,7 +371,8 @@ const articles = [
     ],
     metaDesc: {
       sv: 'Tandlossningssjukdom är ett av de vanligaste hälsoproblemen hos hundar och katter. Daglig tandborstning förebygger den bäst – så vänjer du ditt djur vid den.',
-      fi: 'Iensairaus on koirien ja kissojen yleisimpiä terveysongelmia. Päivittäinen harjaus ehkäisee sitä parhaiten kotona – näin totutat lemmikin harjaukseen.'
+      fi: 'Iensairaus on koirien ja kissojen yleisimpiä terveysongelmia. Päivittäinen harjaus ehkäisee sitä parhaiten kotona – näin totutat lemmikin harjaukseen.',
+      en: 'How to brush your dog’s or cat’s teeth, get your pet used to it and spot dental disease – and why chews and diets help less than brushing.'
     }
   },
   {
@@ -501,7 +517,11 @@ const articles = [
       { text: 'Pharmaca Fennica: Apelka vet 5 mg/ml oraaliliuos kissoille, pakkausseloste.', url: 'https://pharmacafennica.fi/637F44AE-DFB5-4A49-9145-990E5CC5CA79/pil/176563/fi', label: 'pharmacafennica.fi' },
       { text: 'Cornell Feline Health Center: Hyperthyroidism in Cats.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats', label: 'vet.cornell.edu' },
       { text: 'International Cat Care: Hyperthyroidism in cats.', url: 'https://icatcare.org/articles/hyperthyroidism-in-cats', label: 'icatcare.org' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Kilpirauhasen liikatoiminta kissalla: oireet, diagnoosi ja komplikaatiot sekä hoito – päivittäinen lääkitys, leikkaus, radiojodihoito tai dieettiruoka.',
+      sv: 'Sköldkörtelöverfunktion hos katt: symtom, diagnos, komplikationer och behandling – daglig medicinering, kirurgi, radiojodbehandling eller veterinärfoder.'
+    }
   },
   {
     slug: 'munuaisten-vajaatoiminta',
@@ -536,7 +556,15 @@ const articles = [
       { text: 'Finnish Medicines Agency Fimea (2024): Fortekor vet. 5 mg tabletit kissalle ja koiralle — package leaflet (dogs: congestive heart failure; cats: proteinuria associated with chronic kidney disease).', url: 'https://spc.fimea.fi/indox/nam/html/nam/vetpil/3/23632903.pdf', label: 'spc.fimea.fi' },
       { text: 'European Medicines Agency (EMA) (2018): Committee for Medicinal Products for Veterinary Use (CVMP) meeting of 13–15 March 2018 — Semintra (telmisartan): new 10 mg/ml strength and new indication, systemic hypertension in cats.', url: 'https://www.ema.europa.eu/en/news/committee-medicinal-products-veterinary-use-cvmp-meeting-13-15-march-2018', label: 'ema.europa.eu' },
       { text: 'European Union (2019): Regulation (EU) 2019/6 on veterinary medicinal products, Article 112 (use outside the terms of the marketing authorisation in non-food-producing species). Official Journal of the European Union L 4:43–167.', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0006', label: 'eur-lex.europa.eu' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Munuaisten vajaatoiminta koiralla ja kissalla: oireet, IRIS-vaiheet, hoito, munuaisruokavalio, loppuvaihe ja kuinka kauan munuaissairas lemmikki voi elää.',
+      sv: 'Njursvikt hos hund och katt: symtom, IRIS-stadier, behandling, njurdiet, slutstadiet och hur länge djuret kan leva med sjukdomen.',
+      en: 'Kidney failure in dogs and cats: symptoms, IRIS stages, treatment, kidney diet, the end stage and how long a pet can live with it.'
+    },
+    seoTitle: {
+      fi: 'Munuaisten vajaatoiminta koiralla ja kissalla – oireet'
+    }
   },
   {
     slug: 'kyynpurema',
@@ -600,7 +628,12 @@ const articles = [
       { text: 'Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille.', url: 'https://tukes.fi/-/alfakloraloosia-sisaltavia-jyrsijamyrkkyja-ei-saa-enaa-myyda-kuluttajille', label: 'tukes.fi' },
       { text: 'Tukes: Usein kysyttyä biosideista.', url: 'https://tukes.fi/tietoa-tukesista/usein-kysytyt-kysymykset/usein-kysyttya-biosideista', label: 'tukes.fi' },
       { text: 'HUS: Myrkytystietokeskus.', url: 'https://www.hus.fi/potilaalle/sairaalat-ja-toimipisteet/myrkytystietokeskus', label: 'hus.fi' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Koiran ja kissan myrkytys: vaaralliset ruoat ja lääkkeet, oireet, ensiapu ja miksi eläinlääkärille soitetaan heti, vaikka lemmikki vaikuttaisi terveeltä.',
+      sv: 'Förgiftning hos hund och katt: farlig mat och läkemedel, symtom, första hjälpen och varför du ska ringa veterinären genast, även om djuret verkar piggt.',
+      en: 'Poisoning in dogs and cats: dangerous foods and medicines, symptoms, first aid and why to call the vet at once, even if your pet seems well.'
+    }
   },
   {
     slug: 'kohtutulehdus',
@@ -625,7 +658,10 @@ const articles = [
       { text: 'Hollinshead F. & Krekeler N. (2016): Pyometra in the queen: To spay or not to spay? Journal of Feline Medicine and Surgery 18(1):21–33.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11148877/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Fieni F. ym. (2014): Medical treatment for pyometra in dogs. Reproduction in Domestic Animals 49(Suppl 2):28–32.', url: 'https://pubmed.ncbi.nlm.nih.gov/24947858/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Wallace G.B. & Casal M.L. (2018): A review of pyometra in small animal medicine: incidence, pathophysiology, clinical diagnosis, and medical management. Clinical Theriogenology 10(4):435–452.', url: 'https://cdn.ymaws.com/www.therio.org/resource/collection/70D14721-6863-458C-9317-D977EACB353A/2018_v4_005.pdf', label: 'cdn.ymaws.com' }
-    ]
+    ],
+    metaDesc: {
+      en: 'Pyometra in dogs: symptoms, how fast it progresses, why antibiotics alone are not enough, surgery, cost, recovery and prevention.'
+    }
   },
   {
     slug: 'lateral-suture',
@@ -648,7 +684,10 @@ const articles = [
       { text: 'Krotscheck U., Nelson S.A., Todhunter R.J., Stone M. &amp; Zhang Z. (2016): Long term functional outcome of tibial tuberosity advancement vs. tibial plateau leveling osteotomy and extracapsular repair in a heterogeneous population of dogs. Veterinary Surgery 45(2):261–268.', url: 'https://pubmed.ncbi.nlm.nih.gov/26768085/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Buonanno M., Welch D., Shuryak I. &amp; Brenner D.J. (2020): Far-UVC light (222 nm) efficiently and safely inactivates airborne human coronaviruses. Scientific Reports 10:10285.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7314750/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Spagnolo A.M., Ottria G., Amicizia D., Perdelli F. &amp; Cristina M.L. (2013): Operating theatre quality and prevention of surgical site infections. Journal of Preventive Medicine and Hygiene 54(3):131–137.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4718372/', label: 'pmc.ncbi.nlm.nih.gov' }
-    ]
+    ],
+    metaDesc: {
+      sv: 'Lateral sutur vid korsbandsruptur: hur metoden fungerar, vilka hundar och katter den passar för, återhämtning, risker, pris och en jämförelse med TTA.'
+    }
   },
   {
     slug: 'siili',
@@ -773,7 +812,10 @@ const articles = [
       { text: 'Verstraete F.J.M., Kass P.H., Terpak C.H. (1998): Diagnostic value of full-mouth radiography in dogs. American Journal of Veterinary Research 59(6):686–691.', url: 'https://pubmed.ncbi.nlm.nih.gov/9622735/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Niemiec B. et al. (2020): World Small Animal Veterinary Association Global Dental Guidelines. Journal of Small Animal Practice 61(7):E36–E161.', url: 'https://pubmed.ncbi.nlm.nih.gov/32715504/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Merck Veterinary Manual, Dog Owners: Dental Development of Dogs.', url: 'https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/dental-development-of-dogs', label: 'merckvetmanual.com' }
-    ]
+    ],
+    metaDesc: {
+      sv: 'Icke frambrutna tänder hos hund: hur en dold tand kan ge upphov till en cysta som förstör käkbenet, riskraser, tandröntgen och behandling.'
+    }
   },
   {
     slug: 'gastroskopia',
@@ -860,7 +902,11 @@ const articles = [
       { text: 'European Commission: Bringing a pet into the EU from a non-EU country (Delegated Regulation (EU) 2026/131).', url: 'https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en', label: 'food.ec.europa.eu' },
       { text: 'European Commission: Listing of non-EU countries and territories.', url: 'https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/listing-territories-and-non-eu-countries_en', label: 'food.ec.europa.eu' },
       { text: 'European Commission, Your Europe: Travelling with pets and other animals in the EU.', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' }
-    ]
+    ],
+    metaDesc: {
+      en: 'Dog and cat vaccinations in Finland: core vaccines, the puppy and kitten schedule, rabies rules and what you need to travel with a pet.',
+      sv: 'Vaccinationer för hund och katt i Finland: basvacciner, programmet för valpar och kattungar, rabiesregler och vad som krävs för att resa med husdjur.'
+    }
   },
   {
     slug: 'koiran-ja-kissan-madotus',
@@ -885,7 +931,8 @@ const articles = [
       { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
     ],
     metaDesc: {
-      fi: 'Koiran ja kissan madotus perustuu riskinarvioon. Katso ESCCAP-suositukset pennuille, aikuisille ja matkustaville lemmikeille sekä matotartunnan oireet.'
+      fi: 'Koiran ja kissan madotus perustuu riskinarvioon. Katso ESCCAP-suositukset pennuille, aikuisille ja matkustaville lemmikeille sekä matotartunnan oireet.',
+      en: 'How often to deworm a dog or cat: puppies, kittens, adults, indoor cats and travel – and when a faecal sample can replace deworming.'
     }
   },
   {
@@ -948,7 +995,12 @@ const articles = [
       { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs: A worldwide analysis and risk assessment. Veterinary Record 195(1):e3604.', url: 'https://pubmed.ncbi.nlm.nih.gov/37953683/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in cats: A worldwide analysis and risk assessment. Veterinary Record 195(1):e4147.', url: 'https://pubmed.ncbi.nlm.nih.gov/38959210/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Dunlop C.I. ym. (1989): Thermal burns in four dogs during anesthesia. Veterinary Surgery 18(3):242–246.', url: 'https://pubmed.ncbi.nlm.nih.gov/2773288/', label: 'pubmed.ncbi.nlm.nih.gov' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Miksi koira ja kissa jäähtyvät anestesiassa, miten hypotermia vaikuttaa toipumiseen ja miten aktiivinen lämmitys ja valvonta pitävät potilaan lämpimänä.',
+      sv: 'Varför hundar och katter förlorar värme under anestesi, hur hypotermi påverkar uppvaknandet och hur aktiv uppvärmning och övervakning håller djuren varma.',
+      en: 'Why dogs and cats lose heat under anesthesia, how hypothermia affects recovery, and how active warming and monitoring keep patients warm.'
+    }
   },
   {
     slug: 'anestesiaturvallisuus',
@@ -1374,19 +1426,30 @@ function generateArticlePage(article, translations, specialContent, lang) {
   const suffix = { fi: ' | Eläinklinikka Saari', sv: ' | Djurklinik Saari', en: ' | Saari Animal Clinic' }[lang] || ' | Eläinklinikka Saari';
   const fitLen = ' | Eläinklinikka Saari'.length;
   let pageTitle;
-  if (title.length + fitLen <= 60) {
+  if (article.seoTitle && article.seoTitle[lang]) {
+    // Hand-written <title> (used verbatim) when searchers phrase the topic differently from the H1.
+    pageTitle = article.seoTitle[lang];
+  } else if (title.length + fitLen <= 60) {
     pageTitle = title + suffix;
   } else {
     const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
+    // First clause of titles like "Poisoning in Dogs and Cats: Symptoms, …" or "How often …? Puppies, …"
+    const clauseMatch = title.match(/^(.+?)([:?])\s/);
+    const clause = clauseMatch && (clauseMatch[2] === '?' ? clauseMatch[1] + '?' : clauseMatch[1]);
     if (dashMatch && dashMatch[1].length + fitLen <= 60) {
       pageTitle = dashMatch[1] + suffix;
     } else if (dashMatch && dashMatch[1].length <= 60) {
       pageTitle = dashMatch[1];
     } else if (title.length <= 60) {
       pageTitle = title;
+    } else if (clause && clause.length + fitLen <= 60) {
+      pageTitle = clause + suffix;
+    } else if (clause && clause.length <= 60) {
+      pageTitle = clause;
     } else {
       const cut = title.substring(0, 60);
       pageTitle = cut.substring(0, cut.lastIndexOf(' '));
+      console.warn(`[meta] ${article.slug} (${lang}): <title> cut mid-phrase — add a seoTitle override`);
     }
   }
   const introKey = `${article.prefix}.intro`;
@@ -1415,8 +1478,9 @@ function generateArticlePage(article, translations, specialContent, lang) {
     const lastDash = window.lastIndexOf('— ');
     const lastSemi = window.lastIndexOf('; ');
     const sentenceCut = Math.max(lastPeriod, lastExcl, lastQuest, lastDash, lastSemi);
-    // Need at least 100 chars to avoid descriptions that are too short
-    if (sentenceCut >= 100) {
+    // Prefer a complete sentence, even a short one: a sentence cut off mid-way
+    // ("…97 %:lla.", "…such as.") reads as a broken claim in search results and AI summaries.
+    if (sentenceCut >= 50) {
       // Cut at a sentence/clause boundary. Keep terminator if it's . ! ? ; ;
       // strip trailing — for em-dash cuts.
       let cut = description.substring(0, sentenceCut + 1);
@@ -1424,7 +1488,11 @@ function generateArticlePage(article, translations, specialContent, lang) {
       // Ensure the cut ends with sentence punctuation
       if (!/[.!?]$/.test(cut)) cut += '.';
       description = cut;
+      if (description.length < 100) {
+        console.warn(`[meta] ${article.slug} (${lang}): description only ${description.length} chars — add a metaDesc override`);
+      }
     } else {
+      console.warn(`[meta] ${article.slug} (${lang}): description cut mid-sentence — add a metaDesc override`);
       // No good sentence boundary — fall back to word boundary, accounting for HTML escaping.
       // Shrink the cap until escapeAttr(cut).length <= 155.
       let cap = 155;
