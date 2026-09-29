@@ -353,7 +353,11 @@ const articles = [
       { text: 'Girard N, Servet E, Biourge V, Hennet P (2009) Periodontal health status in a colony of 109 cats. Journal of Veterinary Dentistry 26(3):147–155. doi:10.1177/089875640902600301', url: 'https://doi.org/10.1177/089875640902600301', label: 'doi.org' },
       { text: 'Verstraete FJM, Kass PH, Terpak CH (1998) Diagnostic value of full-mouth radiography in dogs. American Journal of Veterinary Research 59(6):686–691. doi:10.2460/ajvr.1998.59.06.686', url: 'https://doi.org/10.2460/ajvr.1998.59.06.686', label: 'doi.org' },
       { text: 'Verstraete FJM, Kass PH, Terpak CH (1998) Diagnostic value of full-mouth radiography in cats. American Journal of Veterinary Research 59(6):692–695. doi:10.2460/ajvr.1998.59.06.692', url: 'https://doi.org/10.2460/ajvr.1998.59.06.692', label: 'doi.org' }
-    ]
+    ],
+    metaDesc: {
+      sv: 'Tandlossningssjukdom är ett av de vanligaste hälsoproblemen hos hundar och katter. Daglig tandborstning förebygger den bäst – så vänjer du ditt djur vid den.',
+      fi: 'Iensairaus on koirien ja kissojen yleisimpiä terveysongelmia. Päivittäinen harjaus ehkäisee sitä parhaiten kotona – näin totutat lemmikin harjaukseen.'
+    }
   },
   {
     slug: 'viljaton-ruoka',
@@ -556,7 +560,11 @@ const articles = [
       { text: 'MTV Uutiset (2023): Eläinlääkäri neuvoo miten toimia, jos kyy puree koiraa.', url: 'https://www.mtvuutiset.fi/artikkeli/elainlaakari-neuvoo-miten-toimia-jos-kyy-puree-koiraa-ei-tulehduskipulaaketta-ja-kyypakkaus-vain-yhdessa-tapauksessa/8725898', label: 'mtvuutiset.fi' },
       { text: 'Suomen Lajitietokeskus: Kyy (Vipera berus).', url: 'https://laji.fi/taxon/MX.37641', label: 'laji.fi' },
       { text: 'Yle (2023): Kyykäärme rauhoitetaan ensimmäistä kertaa Suomessa – pihapiirissä tappaminen on edelleen sallittua, jos siirto ei onnistu.', url: 'https://yle.fi/a/74-20029021', label: 'yle.fi' }
-    ]
+    ],
+    metaDesc: {
+      sv: 'Huggormen är Finlands enda giftiga orm, och ett huggormsbett är alltid ett akut fall för veterinären. Så känner du igen symtomen och ger rätt första hjälp.',
+      fi: 'Kyy on Suomen ainoa myrkyllinen käärme, ja kyynpurema on lemmikille aina hätätilanne. Tunnista oireet, anna oikea ensiapu ja hakeudu heti eläinlääkäriin.'
+    }
   },
   {
     slug: 'myrkytys',
@@ -875,7 +883,10 @@ const articles = [
       { text: 'GOV.UK: Bringing your pet dog to Great Britain – tapeworm treatment for dogs.', url: 'https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs', label: 'gov.uk' },
       { text: 'Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52.', url: 'https://doi.org/10.1186/s13028-024-00776-4', label: 'doi.org' },
       { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
-    ]
+    ],
+    metaDesc: {
+      fi: 'Koiran ja kissan madotus perustuu riskinarvioon. Katso ESCCAP-suositukset pennuille, aikuisille ja matkustaville lemmikeille sekä matotartunnan oireet.'
+    }
   },
   {
     slug: 'ibd-lymfooma',
@@ -1358,13 +1369,16 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   const title = t(article.titleKey);
   const tag = t(article.tagKey);
-  const suffix = ' | Eläinklinikka Saari';
+  // Brand suffix in the page's own language. Length decisions use the FI
+  // suffix (the longest) so SV/EN titles keep the same shape as before.
+  const suffix = { fi: ' | Eläinklinikka Saari', sv: ' | Djurklinik Saari', en: ' | Saari Animal Clinic' }[lang] || ' | Eläinklinikka Saari';
+  const fitLen = ' | Eläinklinikka Saari'.length;
   let pageTitle;
-  if ((title + suffix).length <= 60) {
+  if (title.length + fitLen <= 60) {
     pageTitle = title + suffix;
   } else {
     const dashMatch = title.match(/^(.+?)\s*[—–]\s*/);
-    if (dashMatch && (dashMatch[1] + suffix).length <= 60) {
+    if (dashMatch && dashMatch[1].length + fitLen <= 60) {
       pageTitle = dashMatch[1] + suffix;
     } else if (dashMatch && dashMatch[1].length <= 60) {
       pageTitle = dashMatch[1];
@@ -1484,7 +1498,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
@@ -1702,7 +1716,7 @@ ${relatedHtml}
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}" defer></script>
   ${lang !== 'fi' ? `<script>if(typeof setLanguage==='function')setLanguage('${lang}');</script>` : ''}
 
 ${renderCookieBanner(lang)}
@@ -1847,7 +1861,7 @@ function generateArticleIndex(translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -2006,7 +2020,7 @@ ${cardsHtml}
     </div>
   </footer>
 
-  <script src="/js/main.js${ASSET_Q}"></script>
+  <script src="/js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -2020,7 +2034,7 @@ const servicePages = [
     slug: 'hammashoito',
     slugSv: 'tandvard',
     slugEn: 'dental-care',
-    title: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
+    title: "Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     ogTitle: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     h1: "Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa",
     metaDesc: "Koiran hammaskiven poisto Vaasassa 303–353 €, kissan 263 €, hammasröntgen 59–99 €. Hampaiden poistot hinta-arviolla. Aina yleisanestesiassa.",
@@ -2542,7 +2556,7 @@ const servicePages = [
     slug: 'ihotaudit',
     slugSv: 'hudsjukdomar',
     slugEn: 'dermatology',
-    title: 'Ihotaudit, allergiat ja korvatulehdukset | Eläinklinikka Saari',
+    title: 'Ihotaudit, allergiat ja korvatulehdus | Eläinklinikka Saari',
     ogTitle: 'Ihotaudit, allergiat ja korvatulehdukset | Eläinklinikka Saari',
     h1: 'Ihotaudit, allergiat ja korvatulehdukset',
     metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
@@ -2555,7 +2569,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä ihotaudeista', text: '<strong>Voiko allergiasta parantua?</strong> Allergia on krooninen sairaus, josta ei yleensä parannuta kokonaan. Hyvällä hoidolla oireet saadaan kuitenkin hallintaan ja lemmikin elämänlaatu pysyy hyvänä. Siedätyshoito (immunoterapia) voi vähentää allergian voimakkuutta merkittävästi — jopa 60–70 % potilaista hyötyy siedätyshoidosta. Hoito on pitkäkestoinen, mutta voi vähentää lääkityksen tarvetta pysyvästi. <strong>Kuinka nopeasti hoitovaste näkyy?</strong> Ihotautien hoitovaste riippuu diagnoosista. Bakteeri-ihotulehdus vastaa yleensä antibioottikuuriin 2–4 viikossa. Eliminaatiodieetti vaatii 6–8 viikon tiukan noudattamisen ennen kuin tuloksia voidaan arvioida. Siedätyshoito on hitain — ensimmäiset tulokset näkyvät usein vasta 6–12 kuukauden kuluessa.' },
     ],
     sv: {
-      title: 'Hudsjukdomar, allergier och öroninflammationer | Djurklinik Saari',
+      title: 'Hudsjukdomar, allergi, öroninflammation | Djurklinik Saari',
       ogTitle: 'Hudsjukdomar, allergier och öroninflammationer | Djurklinik Saari',
       h1: 'Hudsjukdomar, allergier och öroninflammationer',
       metaDesc: 'Hudsjukdomar och allergier hos hund och katt i Vasa. Allergitester, öroninflammationer, klåda, hudinfektioner. Diagnos och behandling. Eläinklinikka Saari.',
@@ -2574,7 +2588,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Skin Diseases, Allergies and Ear Infections | Saari Animal Clinic',
+      title: 'Skin Allergies and Ear Infections | Saari Animal Clinic',
       ogTitle: 'Skin Diseases, Allergies and Ear Infections | Saari Animal Clinic',
       h1: 'Skin Diseases, Allergies and Ear Infections',
       metaDesc: 'Dog and cat dermatology and allergies in Vaasa. Allergy testing, ear infections, itching, skin infections. Diagnosis and treatment. Eläinklinikka Saari.',
@@ -4086,7 +4100,7 @@ function generateServicePage(service, translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <script>
@@ -4310,7 +4324,7 @@ ${service.slug !== 'paivystys' ? `      <p class="service-clinic-link"><a href="
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -4326,7 +4340,7 @@ function generatePrivacyPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietosuojaseloste | Eläinklinikka Saari</title>
 
   <script>
@@ -4485,7 +4499,7 @@ function generatePrivacyPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js${ASSET_Q}"></script>
+  <script src="../js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -4693,7 +4707,7 @@ function generateReviewsPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -4812,7 +4826,7 @@ ${reviewCards}
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -5010,7 +5024,7 @@ function generateBookingPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -5130,7 +5144,7 @@ ${i18n.onlineMeta ? `            <span class="booking-method-meta">${escapeHtml(
     </div>
   </footer>
 
-  <script src="${assetPrefix}js/main.js${ASSET_Q}"></script>
+  <script src="${assetPrefix}js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner(lang)}
 </body>
 </html>`;
@@ -5147,7 +5161,7 @@ function generateAboutPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Tietoa klinikasta | Eläinklinikka Saari</title>
 
   <script>
@@ -5348,7 +5362,7 @@ function generateAboutPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js${ASSET_Q}"></script>
+  <script src="../js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -5365,7 +5379,7 @@ function generateContactPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Yhteystiedot | Eläinklinikka Saari</title>
 
   <script>
@@ -5576,7 +5590,7 @@ function generateContactPage() {
     </div>
   </footer>
 
-  <script src="../js/main.js${ASSET_Q}"></script>
+  <script src="../js/main.js${ASSET_Q}" defer></script>
 ${renderCookieBanner('fi')}
 </body>
 </html>`;
@@ -6031,6 +6045,8 @@ ${links}  </url>
 
   xml += `</urlset>
 `;
+  // Sitemap URLs must be percent-encoded (a few FI slugs contain ä).
+  xml = xml.replace(/(<loc>|href=")([^<"]+)/g, (m, p, u) => p + encodeURI(decodeURI(u)));
   return xml;
 }
 

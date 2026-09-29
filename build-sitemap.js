@@ -24,7 +24,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const ROOT = '/Users/assafwydra/elainklinikka-website';
+const ROOT = __dirname; // was a hardcoded absolute path: running from a git worktree wrote into the main checkout
 const SITEMAP = path.join(ROOT, 'sitemap.xml');
 const HOST = 'https://elainklinikkasaari.fi';
 
@@ -54,7 +54,7 @@ try {
 
 function urlToFile(url) {
   if (!url.startsWith(HOST)) return null;
-  let p = url.slice(HOST.length); // path part with leading /
+  let p = decodeURI(url.slice(HOST.length)); // path part with leading / (sitemap URLs are percent-encoded)
   if (p === '' || p === '/') return 'index.html';
   if (p.endsWith('/')) return p.slice(1) + 'index.html';
   if (p.endsWith('.html') || p.endsWith('.xml') || p.endsWith('.pdf')) return p.slice(1);

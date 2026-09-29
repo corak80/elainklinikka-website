@@ -44,7 +44,7 @@ console.log(`Loaded ${Object.keys(translations).length} translation keys`);
 const pageMeta = {
   fi: {
     htmlLang: 'fi',
-    title: 'Eläinklinikka Saari — Pieneläinklinikka Vaasassa 1989',
+    title: 'Eläinlääkäri Vaasa – Eläinklinikka Saari, vuodesta 1989',
     description: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille. Varaa aika!',
     ogTitle: 'Eläinklinikka Saari – Pieneläinklinikka ja eläinlääkäri Vaasassa',
     ogDescription: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille.',
@@ -190,6 +190,8 @@ const ARTICLE_SLUG_MAP = {
   'klinikkaeläinhoitaja': { sv: 'klinikdjurskotare', en: 'veterinary-nurse' },
   'periovive': { sv: 'periovive', en: 'periovive' },
   'lateral-suture': { sv: 'lateral-suture', en: 'lateral-suture' },
+  'koiran-ja-kissan-madotus': { sv: 'avmaskning', en: 'deworming' },
+  'siilinpoikanen': { sv: 'igelkottsunge', en: 'found-a-baby-hedgehog' },
 };
 
 function rewriteArticleUrls(html, lang) {
