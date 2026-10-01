@@ -27,6 +27,11 @@ const translations = {
     sv: 'Eftersom vi vill minimera stressen för katter som besöker oss är vår klinik en International Cat Care-ackrediterad Cat Friendly Clinic.',
     en: 'We want to minimise stress for cats visiting our clinic, so we are an International Cat Care Cat Friendly Clinic.'
   },
+  'cfc.first': {
+    fi: 'Vuonna 2020 meistä tuli Pohjanmaan ensimmäinen Cat Friendly Clinic. Lue juttu <a href="https://yle.fi/a/3-11306002" target="_blank" rel="noopener">Ylestä</a> tai <a href="https://www.vasabladet.fi/Artikel/Visa/359711" target="_blank" rel="noopener">Vasabladetista</a> (ruotsiksi).',
+    sv: 'År 2020 blev vi Österbottens första Cat Friendly Clinic. Läs mer i <a href="https://www.vasabladet.fi/Artikel/Visa/359711" target="_blank" rel="noopener">Vasabladet</a> och hos <a href="https://yle.fi/a/3-11306002" target="_blank" rel="noopener">Yle</a> (på finska).',
+    en: 'In 2020 we became the first Cat Friendly Clinic in Ostrobothnia, as reported by <a href="https://yle.fi/a/3-11306002" target="_blank" rel="noopener">Yle</a> (in Finnish) and <a href="https://www.vasabladet.fi/Artikel/Visa/359711" target="_blank" rel="noopener">Vasabladet</a> (in Swedish).'
+  },
   'cfc.promise.heading': {
     fi: 'LUPAAMME SINULLE:',
     sv: 'VI GARANTERAR ATT:',
