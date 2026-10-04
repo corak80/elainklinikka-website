@@ -224,9 +224,9 @@ const FIG_DOG_DENTIGEROUS_CYST_XRAY = {
     en: 'Dental X-ray of a dog’s lower jaw: an unerupted premolar buried in the bone behind the canine, with the dark area of a cyst around its crown'
   },
   caption: {
-    fi: 'Hammasröntgenkuva koiran alaleuasta: kulmahampaan taakse luun sisään on jäänyt puhkeamaton ensimmäinen välihammas, ja sen kruunun ympärillä näkyy hammasaihekystan aiheuttama tumma alue. Hammas ja kysta poistettiin leikkauksessa. Kuva: Eläinklinikka Saari.',
-    sv: 'Tandröntgenbild av en hunds underkäke: bakom hörntanden ligger en icke frambruten första premolar kvar i benet, och runt dess krona syns det mörka område som den dentigerösa cystan har orsakat. Tanden och cystan opererades bort. Bild: Djurklinik Saari.',
-    en: 'Dental X-ray of a dog’s lower jaw: behind the canine, an unerupted first premolar is buried in the bone, with the dark area of a dentigerous cyst around its crown. The tooth and the cyst were removed surgically. Image: Saari Animal Clinic.'
+    fi: 'Hammasröntgenkuva koiran alaleuasta: kulmahampaan taakse luun sisään on jäänyt puhkeamaton ensimmäinen välihammas (305), ja sen kruunun ympärillä näkyy hammasaihekystan aiheuttama tumma alue. Hammas ja kysta poistettiin leikkauksessa. Kuva: Eläinklinikka Saari.',
+    sv: 'Tandröntgenbild av en hunds underkäke: bakom hörntanden ligger en icke frambruten första premolar (305) kvar i benet, och runt dess krona syns det mörka område som den dentigerösa cystan har orsakat. Tanden och cystan opererades bort. Bild: Djurklinik Saari.',
+    en: 'Dental X-ray of a dog’s lower jaw: behind the canine, an unerupted first premolar (305) is buried in the bone, with the dark area of a dentigerous cyst around its crown. The tooth and the cyst were removed surgically. Image: Saari Animal Clinic.'
   }
 };
 
