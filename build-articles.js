@@ -202,6 +202,20 @@ const FIG_CAT_DENTAL_XRAY = {
   }
 };
 
+const FIG_CAT_RESORPTION_XRAY = {
+  src: '/images/cat-tooth-resorption-xray.webp', width: 700, height: 661, maxWidth: 520,
+  alt: {
+    fi: 'Hammasröntgenkuva kissan vasemmasta alaleuasta, jossa näkyy hammasresorptio alaleuan kolmannessa välihampaassa',
+    sv: 'Tandröntgenbild av en katts vänstra underkäke som visar tandresorption i den tredje premolaren i underkäken',
+    en: 'Dental radiograph of a cat’s left lower jaw showing tooth resorption in the mandibular third premolar'
+  },
+  caption: {
+    fi: 'Kissan vasemman alaleuan hammasröntgenkuva: alaleuan kolmannessa välihampaassa (307) on hammasresorptio. Hammas poistettiin. Kuva: Eläinklinikka Saari.',
+    sv: 'Tandröntgenbild av en katts vänstra underkäke: tandresorption i den tredje premolaren i underkäken (307). Tanden drogs ut. Bild: Djurklinik Saari.',
+    en: 'Dental radiograph of a cat’s left lower jaw: tooth resorption in the mandibular third premolar (307). The tooth was extracted. Image: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -904,6 +918,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-02-25',
     sections: ['intro', 'prevalence.title', 'prevalence.text', 'types.title', 'types.text', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'after.title', 'after.text', 'prevention.title', 'prevention.text'],
+    figures: { 'diagnosis.text': [FIG_CAT_RESORPTION_XRAY] },
     prefix: 'article.resorption',
     sources: [
       { text: 'Niemiec B. ym. (2026): World Small Animal Veterinary Association global dental guidelines. Journal of Small Animal Practice, doi:10.1111/jsap.70057.', url: 'https://pubmed.ncbi.nlm.nih.gov/42687403/', label: 'pubmed.ncbi.nlm.nih.gov' },
@@ -2164,7 +2179,7 @@ const servicePages = [
     slugSv: 'tandvard',
     slugEn: 'dental-care',
     // Photos after a section, keyed by section index (same order in FI/SV/EN)
-    figures: { 4: [FIG_CAT_DENTAL_XRAY] },
+    figures: { 4: [FIG_CAT_DENTAL_XRAY, FIG_CAT_RESORPTION_XRAY] },
     title: "Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     ogTitle: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     h1: "Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa",
