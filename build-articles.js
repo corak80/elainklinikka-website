@@ -216,6 +216,20 @@ const FIG_CAT_RESORPTION_XRAY = {
   }
 };
 
+const FIG_DOG_DENTIGEROUS_CYST_XRAY = {
+  src: '/images/dog-dentigerous-cyst-xray.webp', width: 1000, height: 798, maxWidth: 640,
+  alt: {
+    fi: 'Hammasröntgenkuva koiran alaleuasta: puhkeamaton välihammas luun sisällä kulmahampaan takana, kruunun ympärillä kystan aiheuttama tumma alue',
+    sv: 'Tandröntgenbild av en hunds underkäke: en icke frambruten premolar i benet bakom hörntanden, med cystans mörka område runt kronan',
+    en: 'Dental X-ray of a dog’s lower jaw: an unerupted premolar buried in the bone behind the canine, with the dark area of a cyst around its crown'
+  },
+  caption: {
+    fi: 'Hammasröntgenkuva koiran alaleuasta: kulmahampaan taakse luun sisään on jäänyt puhkeamaton ensimmäinen välihammas, ja sen kruunun ympärillä näkyy hammasaihekystan aiheuttama tumma alue. Hammas ja kysta poistettiin leikkauksessa. Kuva: Eläinklinikka Saari.',
+    sv: 'Tandröntgenbild av en hunds underkäke: bakom hörntanden ligger en icke frambruten första premolar kvar i benet, och runt dess krona syns det mörka område som den dentigerösa cystan har orsakat. Tanden och cystan opererades bort. Bild: Djurklinik Saari.',
+    en: 'Dental X-ray of a dog’s lower jaw: behind the canine, an unerupted first premolar is buried in the bone, with the dark area of a dentigerous cyst around its crown. The tooth and the cyst were removed surgically. Image: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -860,6 +874,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-02-20',
     sections: ['intro', 'cyst.title', 'cyst.text', 'symptoms.title', 'symptoms.text', 'breeds.title', 'breeds.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'prognosis.title', 'prognosis.text'],
+    figures: { 'diagnosis.text': [FIG_DOG_DENTIGEROUS_CYST_XRAY] },
     prefix: 'article.unerupted',
     sources: [
       { text: 'Babbitt S.G., Krakowski Volker M., Luskin I.R. (2016): Incidence of radiographic cystic lesions associated with unerupted teeth in dogs. Journal of Veterinary Dentistry 33(4):226–233.', url: 'https://pubmed.ncbi.nlm.nih.gov/28218030/', label: 'pubmed.ncbi.nlm.nih.gov' },
