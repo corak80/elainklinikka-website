@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://178-156-228-28.sslip.io https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://api.saarivet.fi https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
   <title>Senior Pet Check-up €299 | Saari Animal Clinic</title>
 
   <script>
@@ -65,9 +65,9 @@
         custom_data: {content_name:'Senior Pet Check-up', content_category:'senior_package', value:299, currency:'EUR'}
       });
       if (navigator.sendBeacon) {
-        navigator.sendBeacon('https://178-156-228-28.sslip.io/capi/event', new Blob([body], {type:'application/json'}));
+        navigator.sendBeacon('https://api.saarivet.fi/capi/event', new Blob([body], {type:'application/json'}));
       } else {
-        fetch('https://178-156-228-28.sslip.io/capi/event', {method:'POST', headers:{'Content-Type':'application/json'}, body:body, keepalive:true});
+        fetch('https://api.saarivet.fi/capi/event', {method:'POST', headers:{'Content-Type':'application/json'}, body:body, keepalive:true});
       }
     } catch(e) {}
   }
