@@ -188,6 +188,20 @@ const FIG_EAR_SKIN = {
   }
 };
 
+const FIG_CAT_DENTAL_XRAY = {
+  src: '/images/cat-dental-xray.webp', width: 1024, height: 768, maxWidth: 640,
+  alt: {
+    fi: 'Nukutettu kissa hoitopöydällä intubaatioputki suussa, hammasröntgenlaitteen putki suunnattuna sen suuhun',
+    sv: 'Sövd katt på behandlingsbordet med intubationstub i munnen och dentalröntgenapparatens rör riktat mot munnen',
+    en: 'Anaesthetised cat on the treatment table with an endotracheal tube in its mouth and the dental X-ray tube aimed at its mouth'
+  },
+  caption: {
+    fi: 'Kissan hammasröntgen yleisanestesiassa: intubaatioputki suojaa hengitystiet, ja röntgenputki on asetettu suun kohdalle. Kuva: Eläinklinikka Saari.',
+    sv: 'Dentalröntgen av en katt under narkos: en intubationstub skyddar luftvägarna och röntgenröret är placerat vid munnen. Foto: Djurklinik Saari.',
+    en: 'Dental X-ray of a cat under general anaesthesia: an endotracheal tube protects the airway and the X-ray tube is positioned at the mouth. Photo: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -2149,6 +2163,8 @@ const servicePages = [
     slug: 'hammashoito',
     slugSv: 'tandvard',
     slugEn: 'dental-care',
+    // Photos after a section, keyed by section index (same order in FI/SV/EN)
+    figures: { 4: [FIG_CAT_DENTAL_XRAY] },
     title: "Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     ogTitle: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     h1: "Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa",
@@ -4156,7 +4172,7 @@ function generateServicePage(service, translations, lang) {
   // Build body sections
   let sectionsHtml = pageLead ? `
           <p class="service-lead">${escapeHtml(pageLead)}</p>` : '';
-  for (const section of pageSections) {
+  for (const [sectionIndex, section] of pageSections.entries()) {
     // If section.text already starts with a block element (<p>, <ul>, <ol>, <div>),
     // emit it as-is; otherwise wrap in <p> for backwards compatibility with services
     // that store plain inline text + <strong>.
@@ -4165,6 +4181,9 @@ function generateServicePage(service, translations, lang) {
     sectionsHtml += `
           <h2>${escapeHtml(section.heading)}</h2>
           ${isBlock ? sectionHtml : `<p>${sectionHtml}</p>`}`;
+    for (const fig of (service.figures && service.figures[sectionIndex]) || []) {
+      sectionsHtml += renderArticleFigure(fig, lang).replace(/\n$/, '');
+    }
   }
 
   // Build related articles — translate titles/tags/intros per page language
