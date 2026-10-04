@@ -414,6 +414,16 @@ const FIG_FORCED_AIR_WARMING = {
   }
 };
 
+// Same X-ray, caption in the grain-free article's own terms (and no implied diet cause)
+const FIG_DCM_XRAY_GRAINFREE = {
+  ...FIG_DCM_XRAY,
+  caption: {
+    fi: 'Koiran rintakehän sivusuuntainen röntgenkuva: sydämen varjo on suurentunut koiralla, jolla on dilatoivan kardiomyopatian (DCM) kaltainen sydänmuutos. Röntgenkuva ei kerro muutoksen syytä – se selvitetään sydämen ultraäänitutkimuksella. Kuva: Eläinklinikka Saari.',
+    sv: 'Röntgenbild från sidan av bröstkorgen hos en hund med en hjärtförändring som liknar dilaterad kardiomyopati (DCM): hjärtskuggan är förstorad. Röntgenbilden visar inte orsaken – den utreds med hjärtultraljud. Bild: Djurklinik Saari.',
+    en: 'Side-view chest X-ray of a dog with a heart change resembling dilated cardiomyopathy (DCM phenotype): the heart shadow is enlarged. An X-ray does not show the cause – that is investigated with a heart ultrasound. Image: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -643,6 +653,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'fda.title', 'fda.text', 'trials.title', 'trials.text', 'observational.title', 'observational.text', 'myth.title', 'myth.text', 'cats.title', 'cats.text', 'advice.title', 'advice.text'],
+    figures: { 'fda.text': [FIG_DCM_XRAY_GRAINFREE] },
     prefix: 'article.grainfree',
     metaDesc: {
       fi: 'Onko viljaton ruoka parempi koiralle tai kissalle? Mitä FDA:n selvitys ja tutkimukset kertovat viljattomista ruoista, palkokasveista ja DCM-sydänsairaudesta.',
