@@ -230,6 +230,176 @@ const FIG_DOG_DENTIGEROUS_CYST_XRAY = {
   }
 };
 
+const FIG_EAR_DISCHARGE = {
+  src: '/images/dog-ear-infection-discharge.webp', width: 800, height: 800, maxWidth: 480,
+  alt: {
+    fi: "Koiran korvakäytävän suuaukko ulkokorvan tulehduksessa: punoittava, kostea iho ja tummanruskeaa rupeutunutta eritettä",
+    sv: "Hörselgångens mynning hos en hund med yttre öroninflammation: röd, fuktig hud och mörkbrun, skorpig flytning",
+    en: "Opening of a dog’s ear canal with otitis externa: red, moist skin and dark brown crusted discharge"
+  },
+  caption: {
+    fi: "Ulkokorvan tulehdus koiralla: korvakäytävän suuaukon ympärillä iho on punoittava ja kostea, ja siinä on tummanruskeaa rupeutunutta eritettä ja takkuista karvaa. Kuva: Eläinklinikka Saari.",
+    sv: "Yttre öroninflammation hos hund: huden runt hörselgångens mynning är röd och fuktig, med mörkbrun, skorpig flytning och tovigt hår. Foto: Djurklinik Saari.",
+    en: "Otitis externa in a dog: the skin around the ear canal opening is red and moist, with dark brown crusted discharge and matted hair. Photo: Saari Animal Clinic."
+  }
+};
+const FIG_PYOMETRA_UTERUS = {
+  src: '/images/dog-pyometra-uterus.webp', width: 800, height: 882, maxWidth: 480,
+  alt: {
+    fi: "Pyometraa sairastaneen koiran leikkauksessa poistettu, märän laajentama kohtu",
+    sv: "Bortopererad livmoder från en hund med pyometra, utspänd av var",
+    en: "Uterus removed at surgery from a dog with pyometra, distended with pus"
+  },
+  caption: {
+    fi: "Pyometraa sairastaneen koiran leikkauksessa poistettu kohtu: kohdun sarvet ovat voimakkaasti laajentuneet märän vuoksi, ja seinämä on ohut ja pingottunut. Kuva: Eläinklinikka Saari.",
+    sv: "Livmodern från en hund med pyometra, bortopererad: livmoderhornen är kraftigt utspända av var, och väggen är tunn och spänd. Foto: Djurklinik Saari.",
+    en: "The uterus of a dog with pyometra, removed at surgery: the uterine horns are markedly distended with pus, and the wall is thin and tense. Photo: Saari Animal Clinic."
+  }
+};
+const FIG_TTA_LATERAL = {
+  src: '/images/dog-tta-xray-lateral.webp', width: 700, height: 953, maxWidth: 420,
+  alt: {
+    fi: "Röntgenkuva koiran polvesta sivulta TTA-leikkauksen jälkeen: välikappale sekä levy ruuveineen",
+    sv: "Röntgenbild av en hunds knä från sidan efter TTA-operation: titanbur och platta med skruvar",
+    en: "Side-view X-ray of a dog’s knee after TTA surgery, showing the cage and the plate with screws"
+  },
+  caption: {
+    fi: "Koiran vasemman polven sivusuuntainen röntgenkuva TTA-leikkauksen jälkeen: sääriluun kyhmy on siirretty eteenpäin, välikappale pitää osteotomiaraon auki, ja haarukalla ja ruuveilla kiinnitetty levy pitää kyhmyn paikallaan. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild från sidan av en hunds vänstra knä efter TTA-operation: skenbensknölen har flyttats fram, en titanbur håller osteotomispalten öppen och en platta som hålls fast med en gaffel och skruvar fixerar knölen. Bild: Djurklinik Saari.",
+    en: "Side-view X-ray of a dog’s left knee after TTA surgery: the tibial tuberosity has been moved forward, a titanium cage holds the osteotomy gap open, and a plate secured with a fork and screws fixes the tuberosity in place. Image: Saari Animal Clinic."
+  }
+};
+const FIG_TTA_CAUDOCRANIAL = {
+  src: '/images/dog-tta-xray-caudocranial.webp', width: 600, height: 1076, maxWidth: 320,
+  alt: {
+    fi: "Röntgenkuva koiran polvesta takaa eteen TTA-leikkauksen jälkeen: välikappale ja levy ruuveineen",
+    sv: "Röntgenbild bakifrån av en hunds knä efter TTA-operation: titanbur och platta med skruvar",
+    en: "Back-to-front X-ray of a dog’s knee after TTA surgery, showing the cage and the plate with screws"
+  },
+  caption: {
+    fi: "Koiran vasemman polven röntgenkuva takaa eteen TTA-leikkauksen jälkeen: välikappale osteotomiaraossa ja ruuveilla kiinnitetty levy sääriluun harjanteen suuntaisesti. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild bakifrån av en hunds vänstra knä efter TTA-operation: titanburen i osteotomispalten och plattan som är fäst med skruvar längs skenbenskammen. Bild: Djurklinik Saari.",
+    en: "Back-to-front X-ray of a dog’s left knee after TTA surgery: the cage in the osteotomy gap and the plate fixed with screws along the tibial crest. Image: Saari Animal Clinic."
+  }
+};
+const FIG_LATERAL_SUTURE_DOG = {
+  src: '/images/dog-lateral-suture-xray.webp', width: 718, height: 508, maxWidth: 560,
+  alt: {
+    fi: "Röntgenkuva koiran polvesta sivulta lateral suture -leikkauksen jälkeen: metallinen puristusholkki sääriluun vieressä",
+    sv: "Röntgenbild av en hunds knä från sidan efter lateral sutur: klämhylsa av metall vid skenbenet",
+    en: "Side-view X-ray of a dog’s knee after lateral suture surgery, showing the metal crimp clamp next to the tibia"
+  },
+  caption: {
+    fi: "Koiran vasemman polven sivusuuntainen röntgenkuva lateral suture -leikkauksen jälkeen: lankaa lukitseva metallinen puristusholkki ja sääriluun yläosaan porattu tunneli. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild från sidan av en hunds vänstra knä efter lateral sutur: klämhylsan av metall som låser tråden och borrhålet i skenbenets övre del. Bild: Djurklinik Saari.",
+    en: "Side-view X-ray of a dog’s left knee after lateral suture surgery: the metal crimp clamp that locks the suture and the tunnel drilled in the top of the tibia. Image: Saari Animal Clinic."
+  }
+};
+const FIG_LATERAL_SUTURE_CAT = {
+  src: '/images/cat-lateral-suture-xray.webp', width: 820, height: 562, maxWidth: 560,
+  alt: {
+    fi: "Röntgenkuva kissan polvesta sivulta lateral suture -leikkauksen jälkeen: metalliset puristusholkit sääriluun vieressä",
+    sv: "Röntgenbild av en katts knä från sidan efter lateral sutur: klämhylsor av metall vid skenbenet",
+    en: "Side-view X-ray of a cat’s knee after lateral suture surgery, showing the metal crimp clamps next to the tibia"
+  },
+  caption: {
+    fi: "Kissan oikean polven sivusuuntainen röntgenkuva lateral suture -leikkauksen jälkeen: metalliset puristusholkit ja sääriluun yläosaan porattu tunneli. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild från sidan av en katts högra knä efter lateral sutur: klämhylsorna av metall och borrhålet i skenbenets övre del. Bild: Djurklinik Saari.",
+    en: "Side-view X-ray of a cat’s right knee after lateral suture surgery: the metal crimp clamps and the tunnel drilled in the top of the tibia. Image: Saari Animal Clinic."
+  }
+};
+const FIG_CKD_LEFT = {
+  src: '/images/cat-ckd-ultrasound-left-kidney.webp', width: 708, height: 642, maxWidth: 560,
+  alt: {
+    fi: "Ultraäänikuva kissan vasemmasta munuaisesta kroonisessa munuaisten vajaatoiminnassa",
+    sv: "Ultraljudsbild av vänster njure hos en katt med kronisk njursjukdom",
+    en: "Ultrasound image of the left kidney of a cat with chronic kidney disease"
+  },
+  caption: {
+    fi: "Kroonista munuaisten vajaatoimintaa sairastavan kissan vasemman munuaisen ultraäänikuva. Kuva: Eläinklinikka Saari.",
+    sv: "Ultraljudsbild av vänster njure hos en katt med kronisk njursjukdom. Bild: Djurklinik Saari.",
+    en: "Ultrasound image of the left kidney of a cat with chronic kidney disease. Image: Saari Animal Clinic."
+  }
+};
+const FIG_CKD_RIGHT_CYST = {
+  src: '/images/cat-ckd-ultrasound-right-kidney-cyst.webp', width: 708, height: 642, maxWidth: 560,
+  alt: {
+    fi: "Ultraäänikuva kissan oikeasta munuaisesta: kysta näkyy tummana, pyöreänä alueena",
+    sv: "Ultraljudsbild av en katts högra njure: en cysta syns som ett mörkt, runt område",
+    en: "Ultrasound image of a cat’s right kidney: a cyst shows as a dark, round area"
+  },
+  caption: {
+    fi: "Saman kissan oikea munuainen ultraäänikuvassa: kysta näkyy tummana, nesteen täyttämänä alueena. Kuva: Eläinklinikka Saari.",
+    sv: "Samma katts högra njure på ultraljud: en cysta syns som ett mörkt, vätskefyllt område. Bild: Djurklinik Saari.",
+    en: "The right kidney of the same cat on ultrasound: a cyst shows as a dark, fluid-filled area. Image: Saari Animal Clinic."
+  }
+};
+const FIG_MMVD_2D = {
+  src: '/images/dog-mmvd-echo-2d.webp', width: 770, height: 620, maxWidth: 560,
+  alt: {
+    fi: "Sydämen ultraäänikuva koirasta, jolla on mitraaliläppäsairaus: paksuuntuneet läppäliuskat ja laajentunut vasen eteinen",
+    sv: "Hjärtultraljud av en hund med mitralisklaffsjukdom: förtjockade klaffsegel och förstorat vänster förmak",
+    en: "Heart ultrasound of a dog with mitral valve disease: thickened valve leaflets and an enlarged left atrium"
+  },
+  caption: {
+    fi: "Sydämen ultraäänikuva 13-vuotiaasta koirasta, jolla on mitraaliläppäsairaus (MMVD, ACVIM-luokka C): mitraaliläpän liuskat ovat paksuuntuneet ja vasen eteinen on selvästi laajentunut. Kuva: Eläinklinikka Saari.",
+    sv: "Hjärtultraljud av en 13-årig hund med mitralisklaffsjukdom (MMVD, ACVIM-stadium C): mitralisklaffens segel är förtjockade och vänster förmak är kraftigt förstorat. Bild: Djurklinik Saari.",
+    en: "Heart ultrasound of a 13-year-old dog with mitral valve disease (MMVD, ACVIM stage C): the mitral valve leaflets are thickened and the left atrium is markedly enlarged. Image: Saari Animal Clinic."
+  }
+};
+const FIG_MMVD_DOPPLER = {
+  src: '/images/dog-mmvd-echo-colour-doppler.webp', width: 770, height: 615, maxWidth: 560,
+  alt: {
+    fi: "Väridopplerkuva koiran sydämestä: mitraaliläpän vuoto näkyy kirjavana suihkuna vasemmassa eteisessä",
+    sv: "Färgdopplerbild av en hunds hjärta: läckaget genom mitralisklaffen syns som en brokig stråle i vänster förmak",
+    en: "Colour Doppler image of a dog’s heart: the mitral valve leak shows as a mosaic jet in the left atrium"
+  },
+  caption: {
+    fi: "Väridopplerkuva 13-vuotiaan koiran sydämestä mitraaliläppäsairaudessa (MMVD): läpän vuoto näkyy kirjavana suihkuna, joka suuntautuu laajentuneeseen vasempaan eteiseen. Kuva: Eläinklinikka Saari.",
+    sv: "Färgdopplerbild av hjärtat hos en 13-årig hund med mitralisklaffsjukdom (MMVD): läckaget genom klaffen syns som en brokig stråle in i det förstorade vänstra förmaket. Bild: Djurklinik Saari.",
+    en: "Colour Doppler image of the heart of a 13-year-old dog with mitral valve disease (MMVD): the leak through the valve shows as a mosaic jet into the enlarged left atrium. Image: Saari Animal Clinic."
+  }
+};
+const FIG_DCM_XRAY = {
+  src: '/images/dog-dcm-chest-xray.webp', width: 1000, height: 581, maxWidth: 640,
+  alt: {
+    fi: "Koiran rintakehän röntgenkuva sivulta: suurentunut sydämen varjo",
+    sv: "Röntgenbild av en hunds bröstkorg från sidan: förstorad hjärtskugga",
+    en: "Side-view chest X-ray of a dog showing an enlarged heart shadow"
+  },
+  caption: {
+    fi: "Koiran rintakehän sivusuuntainen röntgenkuva: sydämen varjo on suurentunut koiralla, jolla on laajentuvan kardiomyopatian (DCM) kaltainen sydänmuutos. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild från sidan av bröstkorgen hos en hund med en hjärtförändring som liknar dilaterad kardiomyopati (DCM): hjärtskuggan är förstorad. Bild: Djurklinik Saari.",
+    en: "Side-view chest X-ray of a dog with a heart change resembling dilated cardiomyopathy (DCM phenotype): the heart shadow is enlarged. Image: Saari Animal Clinic."
+  }
+};
+const FIG_PATELLAR_LUXATION = {
+  src: '/images/dog-patellar-luxation-xray.webp', width: 700, height: 964, maxWidth: 420,
+  alt: {
+    fi: "Koiran lantion ja takajalkojen röntgenkuva: polvilumpio siirtynyt polven sisäsivulle",
+    sv: "Röntgenbild av en hunds bäcken och bakben: knäskålen har glidit mot knäts insida",
+    en: "X-ray of a dog’s pelvis and hind legs with the kneecap displaced towards the inside of the knee"
+  },
+  caption: {
+    fi: "Koiran lantion ja takajalkojen röntgenkuva: koiralla on molemminpuolinen mediaalinen patellaluksaatio. Vasen polvilumpio (kuvassa oikealla) on siirtynyt uurteestaan polven sisäsivulle (aste 3); oikean polven luksaatio on aste 2. Kuva: Eläinklinikka Saari.",
+    sv: "Röntgenbild av bäckenet och bakbenen hos en hund med medial patellaluxation i båda knäna. Den vänstra knäskålen (till höger i bilden) har glidit ur sin fåra mot knäts insida (grad 3); i höger knä är luxationen av grad 2. Bild: Djurklinik Saari.",
+    en: "X-ray of the pelvis and hind legs of a dog with medial patellar luxation in both knees. The left kneecap (on the right of the image) has slipped out of its groove towards the inside of the knee (grade 3); the right knee is grade 2. Image: Saari Animal Clinic."
+  }
+};
+const FIG_PERIODONTAL = {
+  src: '/images/dog-periodontal-disease.webp', width: 1000, height: 750, maxWidth: 640,
+  alt: {
+    fi: "Koiran suu sivulta: runsaasti hammaskiveä väli- ja poskihampaissa ja tulehtuneet ikenet",
+    sv: "En hunds mun från sidan: rikligt med tandsten på premolarer och molarer och inflammerat tandkött",
+    en: "Side view of a dog’s mouth with heavy tartar on the premolars and molars and inflamed gums"
+  },
+  caption: {
+    fi: "Parodontiitti aikuisella koiralla: väli- ja poskihampaissa on runsaasti hammaskiveä, ja ikenet ovat tulehtuneet ja paikoin vetäytyneet. Kuva: Eläinklinikka Saari.",
+    sv: "Parodontit hos en vuxen hund: rikligt med tandsten på premolarer och molarer, och tandköttet är inflammerat och har på sina ställen dragit sig tillbaka. Foto: Djurklinik Saari.",
+    en: "Periodontal disease in an adult dog: heavy tartar on the premolars and molars, and the gums are inflamed and receding in places. Photo: Saari Animal Clinic."
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -241,6 +411,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-01-15',
     sections: ['intro', 'how.title', 'how.text', 'vs.title', 'vs.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'when.title', 'when.text'],
+    figures: { 'how.text': [FIG_TTA_LATERAL], 'recovery.text': [FIG_TTA_CAUDOCRANIAL] },
     prefix: 'article.tta',
     sources: [
       { text: 'American College of Veterinary Surgeons (ACVS). Cranial Cruciate Ligament Disease (animal-owner health topic).', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' },
@@ -301,7 +472,7 @@ const articles = [
     publishDate: '2026-08-29',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'self.title', 'self.text', 'visit.title', 'visit.text', 'video.title', 'video.text', 'cost.title', 'cost.text', 'recurrent.title', 'recurrent.text', 'chronic.title', 'chronic.text', 'home.title', 'home.text', 'cat.title', 'cat.text', 'contact.title', 'contact.text'],
     htmlSections: ["video.text", "cost.text", "recurrent.text", "contact.text"],
-    figures: { 'symptoms.text': [FIG_EAR_SKIN], 'video.text': [FIG_EAR_OTOSCOPY] },
+    figures: { 'symptoms.text': [FIG_EAR_SKIN], 'causes.text': [FIG_EAR_DISCHARGE], 'video.text': [FIG_EAR_OTOSCOPY] },
     prefix: 'article.earinfection',
     metaDesc: {
       fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi ei kannata odottaa, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
@@ -423,6 +594,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-01-25',
     sections: ['intro', 'why.title', 'why.text', 'how.title', 'how.text', 'start.title', 'start.text', 'signs.title', 'signs.text', 'professional.title', 'professional.text', 'products.title', 'products.text', 'challenge.title', 'challenge.text'],
+    figures: { 'signs.text': [FIG_PERIODONTAL] },
     prefix: 'article.brushing',
     sources: [
       { text: 'Niemiec B, Gawor J, Nemec A, Chandler M, Mestrinho LA, Steagall PV, Papadimitriou S, Ong BHE, Morgenegg G, McLeod K, Burley M (2026) World Small Animal Veterinary Association global dental guidelines. Journal of Small Animal Practice, published online 2 September 2026. doi:10.1111/jsap.70057', url: 'https://doi.org/10.1111/jsap.70057', label: 'doi.org' },
@@ -605,6 +777,7 @@ const articles = [
     date: '25.9.2026',
     publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'diagnosis.title', 'diagnosis.text', 'stages.title', 'stages.text', 'treatment.title', 'treatment.text', 'hypertension.title', 'hypertension.text', 'diet.title', 'diet.text', 'prognosis.title', 'prognosis.text', 'endstage.title', 'endstage.text', 'monitoring.title', 'monitoring.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
+    figures: { 'diagnosis.text': [FIG_CKD_LEFT, FIG_CKD_RIGHT_CYST] },
     prefix: 'article.kidney',
     sources: [
       { text: 'International Renal Interest Society (IRIS) (2026): IRIS Staging of CKD (modified 2026) and Treatment Recommendations for CKD in Dogs and in Cats (2026).', url: 'https://www.iris-kidney.com/iris-guidelines-1', label: 'iris-kidney.com' },
@@ -717,6 +890,7 @@ const articles = [
     date: '25.9.2026',
     publishDate: '2026-02-10',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'onset.title', 'onset.text', 'causes.title', 'causes.text', 'selfheal.title', 'selfheal.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'cost.title', 'cost.text', 'recovery.title', 'recovery.text', 'cat.title', 'cat.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
+    figures: { 'treatment.text': [FIG_PYOMETRA_UTERUS] },
     prefix: 'article.pyometra',
     sources: [
       { text: 'Hagman R. (2018): Pyometra in Small Animals. Veterinary Clinics of North America: Small Animal Practice 48(4):639–661.', url: 'https://doi.org/10.1016/j.cvsm.2018.03.001', label: 'doi.org' },
@@ -745,6 +919,7 @@ const articles = [
     date: '27.9.2026',
     publishDate: '2026-02-10',
     sections: ['intro', 'how.title', 'how.text', 'who.title', 'who.text', 'recovery.title', 'recovery.text', 'risks.title', 'risks.text', 'room.title', 'room.text', 'vs.title', 'vs.text', 'signs.title', 'signs.text', 'price.title', 'price.text'],
+    figures: { 'how.text': [FIG_LATERAL_SUTURE_DOG], 'who.text': [FIG_LATERAL_SUTURE_CAT] },
     prefix: 'article.ccl',
     sources: [
       { text: 'Casale S.A. &amp; McCarthy R.J. (2009): Complications associated with lateral fabellotibial suture surgery for cranial cruciate ligament injury in dogs: 363 cases (1997–2005). Journal of the American Veterinary Medical Association 234(2):229–235.', url: 'https://doi.org/10.2460/javma.234.2.229', label: 'doi.org' },
@@ -2194,7 +2369,7 @@ const servicePages = [
     slugSv: 'tandvard',
     slugEn: 'dental-care',
     // Photos after a section, keyed by section index (same order in FI/SV/EN)
-    figures: { 4: [FIG_CAT_DENTAL_XRAY, FIG_CAT_RESORPTION_XRAY] },
+    figures: { 0: [FIG_PERIODONTAL], 4: [FIG_CAT_DENTAL_XRAY, FIG_CAT_RESORPTION_XRAY] },
     title: "Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     ogTitle: "Koiran ja kissan hammaskiven poisto Vaasassa | Eläinklinikka Saari",
     h1: "Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa",
@@ -2306,6 +2481,8 @@ const servicePages = [
   },
   {
     slug: 'sydantutkimukset',
+    // Photos after a section, keyed by section index (same order in FI/SV/EN)
+    figures: { 1: [FIG_MMVD_2D], 8: [FIG_MMVD_DOPPLER, FIG_DCM_XRAY] },
     slugSv: 'hjartundersokningar',
     slugEn: 'cardiac-examinations',
     title: "Koiran sydänultra Vaasassa | Eläinklinikka Saari",
@@ -3817,6 +3994,8 @@ const servicePages = [
   },
   {
     slug: 'ortopedia',
+    // Photos after a section, keyed by section index (same order in FI/SV/EN)
+    figures: { 2: [FIG_PATELLAR_LUXATION] },
     slugSv: 'ortopedi',
     slugEn: 'orthopedics',
     title: 'Ortopedia | Eläinklinikka Saari',
