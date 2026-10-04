@@ -160,6 +160,34 @@ function renderCookieBanner(lang) {
 // 1. Article Registry
 // ──────────────────────────────────────────────
 // Each article: slug (URL), titleKey, tagKey, category, date
+// Clinic photos shown inside articles (figures: { '<section suffix>': [FIG, …] } renders them after that section)
+const FIG_EAR_OTOSCOPY = {
+  src: '/images/dog-ear-infection-otoscopy.webp', width: 804, height: 768, maxWidth: 560,
+  alt: {
+    fi: 'Video-otoskooppikuva koiran korvakäytävästä: tumma erite ja karva tukkivat käytävän, seinämä on punoittava',
+    sv: 'Video-otoskopbild av en hunds hörselgång: mörk flytning och hår täpper till gången, väggen är rodnad',
+    en: 'Video-otoscope view of a dog’s ear canal blocked by dark discharge and hair, with a reddened wall'
+  },
+  caption: {
+    fi: 'Video-otoskoopilla otettu kuva koiran korvakäytävästä ulkokorvan tulehduksessa: käytävä on täynnä tummaa eritettä ja takkuista karvaa, ja sen seinämä on punoittava. Kuva: Eläinklinikka Saari.',
+    sv: 'Bild tagen med video-otoskop av hörselgången hos en hund med yttre öroninflammation: gången är full av mörk flytning och tovigt hår, och väggen är rodnad. Foto: Djurklinik Saari.',
+    en: 'Video-otoscope image of a dog’s ear canal with otitis externa: the canal is packed with dark discharge and matted hair, and its wall is reddened. Photo: Saari Animal Clinic.'
+  }
+};
+const FIG_EAR_SKIN = {
+  src: '/images/dog-ear-infection-skin.webp', width: 900, height: 1200, maxWidth: 420,
+  alt: {
+    fi: 'Koiran korvakäytävän suuaukko ulkokorvan tulehduksessa: punoittava, hilseilevä iho ja kellanruskeaa eritettä karvoissa',
+    sv: 'Hörselgångens mynning hos en hund med yttre öroninflammation: rodnad, fjällande hud och gulbrun flytning i pälsen',
+    en: 'Opening of a dog’s ear canal with otitis externa: red, scaly skin and yellow-brown discharge in the hair'
+  },
+  caption: {
+    fi: 'Ulkokorvan tulehdus koiralla: korvakäytävän suuaukon ympärillä iho on laajalti punoittava ja hilseilevä, ja karvoissa on kellanruskeaa vahamaista eritettä ja rupia. Kuva: Eläinklinikka Saari.',
+    sv: 'Yttre öroninflammation hos hund: huden runt hörselgångens mynning är rodnad och fjällande över ett stort område, och i pälsen finns gulbrun, vaxartad flytning och sårskorpor. Foto: Djurklinik Saari.',
+    en: 'Otitis externa in a dog: the skin around the opening of the ear canal is widely reddened and scaly, with yellow-brown waxy discharge and crusts in the hair. Photo: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -203,6 +231,7 @@ const articles = [
     publishDate: '2026-01-15',
     sections: ['intro', 'advantages.title', 'advantages.text', 'when.title', 'when.text', 'procedure.title', 'procedure.text', 'aftercare.title', 'aftercare.text', 'chronic.title', 'chronic.text', 'cost.title', 'cost.text', 'contact.title', 'contact.text'],
     htmlSections: ['cost.text', 'contact.text'],
+    figures: { 'advantages.text': [FIG_EAR_OTOSCOPY] },
     prefix: 'article.otoscopy',
     metaDesc: {
       fi: 'Video-otoskopia koirille ja kissoille Vaasassa: milloin korvan tähystys tarvitaan, miten huuhtelu tehdään, mahdolliset haitat ja hinta (449–489 €).',
@@ -230,6 +259,7 @@ const articles = [
     publishDate: '2026-08-29',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'self.title', 'self.text', 'visit.title', 'visit.text', 'video.title', 'video.text', 'cost.title', 'cost.text', 'recurrent.title', 'recurrent.text', 'chronic.title', 'chronic.text', 'home.title', 'home.text', 'cat.title', 'cat.text', 'contact.title', 'contact.text'],
     htmlSections: ["video.text", "cost.text", "recurrent.text", "contact.text"],
+    figures: { 'symptoms.text': [FIG_EAR_SKIN], 'video.text': [FIG_EAR_OTOSCOPY] },
     prefix: 'article.earinfection',
     metaDesc: {
       fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi ei kannata odottaa, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
@@ -1340,6 +1370,19 @@ function extractSpecialContent(indexHtml) {
   return specialContent;
 }
 
+// Photo + caption inside an article body (root-relative src works at every depth)
+function renderArticleFigure(fig, lang) {
+  const imgStyle = fig.maxWidth
+    ? `width:100%; max-width:${fig.maxWidth}px; height:auto; display:block; margin:0 auto; border-radius: var(--radius-lg);`
+    : 'width:100%; height:auto; display:block; border-radius: var(--radius-lg);';
+  return `
+          <figure style="margin: var(--spacing-lg) 0;">
+            <img src="${fig.src}" alt="${escapeAttr(fig.alt[lang] || fig.alt.fi)}" width="${fig.width}" height="${fig.height}" loading="lazy" decoding="async" style="${imgStyle}">
+            <figcaption style="text-align:center; margin-top:0.5rem; font-size:var(--font-size-sm); color:var(--color-text-light);">${fig.caption[lang] || fig.caption.fi}</figcaption>
+          </figure>
+`;
+}
+
 // ──────────────────────────────────────────────
 // 4. Generate article HTML content
 // ──────────────────────────────────────────────
@@ -1369,6 +1412,10 @@ function generateArticleBody(article, translations, specialContent, lang) {
       } else {
         html += `          <p data-i18n="${key}">${content}</p>\n`;
       }
+    }
+
+    for (const fig of (article.figures && article.figures[suffix]) || []) {
+      html += renderArticleFigure(fig, lang);
     }
 
     // Insert special hedgehog content after nest.text
