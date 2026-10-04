@@ -400,6 +400,20 @@ const FIG_PERIODONTAL = {
   }
 };
 
+const FIG_FORCED_AIR_WARMING = {
+  src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
+  alt: {
+    fi: 'Leikkaustiimi leikkaussalissa; etualalla lämpöpuhallin, jonka letku kulkee leikkausliinojen alle',
+    sv: 'Operationsteamet i operationssalen; i förgrunden en varmluftsvärmare vars slang går in under operationsdukarna',
+    en: 'Surgical team in the operating room; in the foreground a forced-air warmer whose hose runs under the surgical drapes'
+  },
+  caption: {
+    fi: 'Leikkaus käynnissä: etualalla olevan lämpöpuhaltimen letku johtaa lämmintä ilmaa leikkausliinojen alla olevaan lämpöpeittoon koko toimenpiteen ajan. Kuva: Eläinklinikka Saari.',
+    sv: 'Operation pågår: slangen från varmluftsvärmaren i förgrunden leder varm luft till värmefilten under operationsdukarna under hela ingreppet. Foto: Djurklinik Saari.',
+    en: 'Surgery in progress: the hose from the forced-air warmer in the foreground carries warm air to the warming blanket under the surgical drapes throughout the procedure. Photo: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -1223,6 +1237,7 @@ const articles = [
     date: '25.9.2026',
     publishDate: '2026-03-05',
     sections: ['intro', 'risks.title', 'risks.text', 'warming.title', 'warming.text', 'recovery.title', 'recovery.text', 'safety.title', 'safety.text'],
+    figures: { 'warming.text': [FIG_FORCED_AIR_WARMING] },
     prefix: 'article.hypothermia',
     sources: [
       { text: 'Clark-Price S. (2015): Inadvertent Perianesthetic Hypothermia in Small Animal Patients. Veterinary Clinics of North America: Small Animal Practice 45(5):983–994.', url: 'https://pubmed.ncbi.nlm.nih.gov/26014270/', label: 'pubmed.ncbi.nlm.nih.gov' },
