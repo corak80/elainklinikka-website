@@ -414,6 +414,20 @@ const FIG_JENNI = {
   }
 };
 
+const FIG_CLINIC_TEAM = {
+  src: '/images/team-hero-1200.webp', width: 1200, height: 801, maxWidth: 640,
+  alt: {
+    fi: 'Eläinklinikka Saaren tiimi ja viisi koiraa klinikan pihalla',
+    sv: 'Teamet på Djurklinik Saari med fem hundar på klinikens gård',
+    en: 'The Saari Animal Clinic team with five dogs outside the clinic'
+  },
+  caption: {
+    fi: 'Eläinklinikka Saaren tiimi klinikan pihalla Vaasassa. Kuva: Eläinklinikka Saari.',
+    sv: 'Teamet på Djurklinik Saari på klinikens gård i Vasa. Foto: Djurklinik Saari.',
+    en: 'The Saari Animal Clinic team outside the clinic in Vaasa. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -750,6 +764,7 @@ const articles = [
     publishDate: '2026-01-30',
     sections: ['intro', 'chains.title', 'chains.text', 'prices.title', 'prices.text', 'quality.title', 'quality.text', 'international.title', 'international.text', 'choice.title', 'choice.text'],
     prefix: 'article.independent',
+    figures: { 'choice.text': [FIG_CLINIC_TEAM] },
     metaDesc: {
       fi: 'Miksi pysymme itsenäisenä perheyrityksenä Vaasassa – ja mitä kilpailuviranomaiset ovat selvittäneet eläinlääkäriketjujen omistuksesta ja hinnoista.',
       sv: 'Varför vi förblir en självständig familjeklinik i Vasa – och vad konkurrensmyndigheter har kommit fram till om kedjeägande och priser inom veterinärvården.',
