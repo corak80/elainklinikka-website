@@ -424,6 +424,20 @@ const FIG_DCM_XRAY_GRAINFREE = {
   }
 };
 
+const FIG_DOG_SNAKE_BITE = {
+  src: '/images/dog-snake-bite-swelling.webp', width: 900, height: 974, maxWidth: 560,
+  alt: {
+    fi: 'Koiran kasvot kyyn pureman jälkeen: kuono ja silmän seutu ovat turvoksissa',
+    sv: 'En hunds ansikte efter ett huggormsbett: nosen och området runt ögat är svullna',
+    en: 'A dog’s face after an adder bite: the muzzle and the area around the eye are swollen'
+  },
+  caption: {
+    fi: 'Koira kyyn pureman jälkeen: turvotus on levinnyt kuonoon ja silmän ympärille, ja silmä on turvonnut lähes umpeen. Kuva: Eläinklinikka Saari.',
+    sv: 'Hund efter ett huggormsbett: svullnaden har spridit sig till nosen och runt ögat, och ögat är nästan igensvullet. Foto: Djurklinik Saari.',
+    en: 'A dog after an adder bite: the swelling has spread to the muzzle and around the eye, which is almost swollen shut. Photo: Saari Animal Clinic.'
+  }
+};
+
 const articles = [
   {
     slug: 'tta-leikkaus',
@@ -847,6 +861,7 @@ const articles = [
     publishDate: '2026-02-05',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'firstaid.title', 'firstaid.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
     prefix: 'article.snake',
+    figures: { 'symptoms.text': [FIG_DOG_SNAKE_BITE] },
     sources: [
       { text: 'Lervik J.B., Lilliehöök I., Frendin J.H.M. (2010): Clinical and biochemical changes in 53 Swedish dogs bitten by the European adder – Vipera berus. Acta Veterinaria Scandinavica 52:26.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2873270/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Brandeker E. ym. (2015): The effect of a single dose of prednisolone in dogs envenomated by Vipera berus – a randomized, double-blind, placebo-controlled clinical trial. BMC Veterinary Research 11:44.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4349773/', label: 'pmc.ncbi.nlm.nih.gov' },
