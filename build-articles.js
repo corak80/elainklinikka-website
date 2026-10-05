@@ -470,6 +470,20 @@ const FIG_CAT_EXAM_CARRIER = {
   }
 };
 
+const FIG_OR_MONITORING = {
+  src: '/images/operating-room-anaesthesia-monitoring.webp', width: 1000, height: 667, maxWidth: 640,
+  alt: {
+    fi: 'Leikkaussalissa nukutettu potilas leikkausliinojen alla; taustalla tippateline, infuusiopumppu ja potilasmonitori',
+    sv: 'En sövd patient under operationsdukar i operationssalen; i bakgrunden droppställning, infusionspump och patientmonitor',
+    en: 'An anaesthetised patient under surgical drapes in the operating room; in the background a drip stand, an infusion pump and a patient monitor'
+  },
+  caption: {
+    fi: 'Nukutettua potilasta valvotaan leikkaussalissa koko toimenpiteen ajan. Taustalla tippatelineessä infuusiopumppu ja potilasmonitori. Kuva: Eläinklinikka Saari.',
+    sv: 'En sövd patient övervakas i operationssalen under hela ingreppet. I bakgrunden en infusionspump och en patientmonitor på droppställningen. Foto: Djurklinik Saari.',
+    en: 'An anaesthetised patient is monitored in the operating room throughout the procedure. In the background, an infusion pump and a patient monitor on the drip stand. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -611,6 +625,7 @@ const articles = [
     publishDate: '2026-01-15',
     sections: ['intro', 'what.title', 'what.text', 'why.title', 'why.text', 'inhalant.title', 'inhalant.text', 'benefits.title', 'benefits.text', 'use.title', 'use.text', 'windup.title', 'windup.text'],
     prefix: 'article.mlk',
+    figures: { 'windup.text': [FIG_OR_MONITORING] },
     sources: [
       { text: 'Monteiro B.P. ym. (2023): 2022 WSAVA guidelines for the recognition, assessment and treatment of pain. Journal of Small Animal Practice 64(4):177–254.', url: 'https://doi.org/10.1111/jsap.13566', label: 'doi.org' },
       { text: 'Steagall P.V. ym. (2022): 2022 ISFM Consensus Guidelines on the Management of Acute Pain in Cats. Journal of Feline Medicine and Surgery 24(1):4–30.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10845386/', label: 'pmc.ncbi.nlm.nih.gov' },
