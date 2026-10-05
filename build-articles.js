@@ -442,6 +442,20 @@ const FIG_CAT_IBD_LYMPHOMA_US = {
   }
 };
 
+const FIG_GASTROSCOPY_NEEDLE = {
+  src: '/images/gastroscopy-needle-removal.webp', width: 472, height: 287, maxWidth: 472,
+  alt: {
+    fi: 'Tähystyskuva: pihdit pitävät kiinni neulan turkoosista nupista, ja neulan ohut varsi näkyy sen takana',
+    sv: 'Endoskopibild: en tång håller i en nåls turkosa knopp, och nålens tunna skaft syns bakom den',
+    en: 'Endoscopy image: forceps holding the turquoise head of a needle, with the thin shaft of the needle visible behind it'
+  },
+  caption: {
+    fi: 'Nielaistun neulan poisto gastroskopiassa: tähystimen läpi viedyt pihdit pitävät kiinni neulan turkoosista nupista, ja neulan ohut varsi näkyy sen takana. Neula vedettiin ulos suun kautta ilman leikkausta. Kuva: Eläinklinikka Saari.',
+    sv: 'En nedsväljd nål avlägsnas vid gastroskopi: tången som förts in genom endoskopet håller i nålens turkosa knopp, och nålens tunna skaft syns bakom den. Nålen drogs ut genom munnen utan operation. Bild: Djurklinik Saari.',
+    en: 'Removing a swallowed needle by gastroscopy: forceps passed through the endoscope hold the needle’s turquoise head, and its thin shaft is visible behind it. The needle was pulled out through the mouth without surgery. Image: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -1161,6 +1175,7 @@ const articles = [
     sections: ['intro', 'foreign.title', 'foreign.text', 'urgent.title', 'urgent.text', 'diagnosis.title', 'diagnosis.text', 'limits.title', 'limits.text', 'procedure.title', 'procedure.text', 'advantages.title', 'advantages.text', 'contact.title', 'contact.text'],
     htmlSections: ['urgent.text'],
     prefix: 'article.gastroscopy',
+    figures: { 'foreign.text': [FIG_GASTROSCOPY_NEEDLE] },
     sources: [
       { text: 'Maggi G. ym. (2023): Endoscopic Retrieval of Esophageal and Gastric Foreign Bodies in Cats and Dogs: A Retrospective Study of 92 Cases. Veterinary Sciences 10(9):560.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10538072/', label: 'pmc.ncbi.nlm.nih.gov' },
       { text: 'Poggiani F.M. ym. (2020): Endoscopic Removal of Foreign Body in Upper Gastrointestinal Tract in Dogs: Success Rate and Complications. Acta Scientiae Veterinariae 48:1735.', url: 'https://seer.ufrgs.br/index.php/ActaScientiaeVeterinariae/article/view/100574', label: 'seer.ufrgs.br' },
