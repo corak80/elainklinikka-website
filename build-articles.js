@@ -484,6 +484,16 @@ const FIG_OR_MONITORING = {
   }
 };
 
+// Same ear photo, caption in the food-allergy article's terms (no implied cause for this dog)
+const FIG_EAR_SKIN_ALLERGY = {
+  ...FIG_EAR_SKIN,
+  caption: {
+    fi: 'Ulkokorvan tulehdus koiralla: korvakäytävän suuaukon ympärillä iho on punoittava ja hilseilevä, ja karvoissa on kellanruskeaa eritettä. Toistuvat korvatulehdukset voivat olla ruoka-allergian oire, mutta niillä on myös monia muita syitä. Kuva: Eläinklinikka Saari.',
+    sv: 'Yttre öroninflammation hos hund: huden runt hörselgångens mynning är rodnad och fjällande, och i pälsen finns gulbrun flytning. Återkommande öroninflammationer kan vara ett symtom på foderallergi, men de har också många andra orsaker. Foto: Djurklinik Saari.',
+    en: 'Otitis externa in a dog: the skin around the opening of the ear canal is red and scaly, with yellow-brown discharge in the hair. Recurrent ear infections can be a sign of food allergy, but they also have many other causes. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -847,6 +857,7 @@ const articles = [
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'allergens.title', 'allergens.text', 'trial.title', 'trial.text', 'strict.title', 'strict.text', 'challenge.title', 'challenge.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.food',
+    figures: { 'symptoms.text': [FIG_EAR_SKIN_ALLERGY] },
     metaDesc: {
       fi: 'Ruoka-allergia koirilla ja kissoilla: oireet, yleisimmät allergeenit ja miten eliminaatiodieetti ja ruoka-altistus paljastavat sen. Verikokeet eivät riitä.',
       sv: 'Födoämnesallergi hos hund och katt: symtom, vanligaste allergenerna och hur eliminationsdiet och provokation ställer diagnosen. Varför blodprov inte räcker.',
