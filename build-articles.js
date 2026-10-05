@@ -400,6 +400,20 @@ const FIG_PERIODONTAL = {
   }
 };
 
+const FIG_JENNI = {
+  src: '/images/jenni.webp', width: 600, height: 600, maxWidth: 320,
+  alt: {
+    fi: 'Jenni Ruotsala tummansinisessä työasussa klinikan pihalla',
+    sv: 'Jenni Ruotsala i mörkblå arbetskläder på klinikens gård',
+    en: 'Jenni Ruotsala in dark blue scrubs outside the clinic'
+  },
+  caption: {
+    fi: 'Jenni Ruotsala, johtava klinikkaeläinhoitajamme. Kuva: Eläinklinikka Saari.',
+    sv: 'Jenni Ruotsala, vår ledande klinikdjurskötare. Foto: Djurklinik Saari.',
+    en: 'Jenni Ruotsala, our head veterinary nurse. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -1330,6 +1344,7 @@ const articles = [
     publishDate: '2026-03-10',
     sections: ['intro', 'role.title', 'role.text', 'evidence.title', 'evidence.text', 'education.title', 'education.text', 'jenni.title', 'jenni.text'],
     prefix: 'article.vetnurse',
+    figures: { 'jenni.title': [FIG_JENNI] },
     metaDesc: {
       fi: 'Miksi koulutettu klinikkaeläinhoitaja valvoo anestesiaa, mitä tutkimukset kertovat anestesiakuolemista ja miten eläinhoitajat koulutetaan Suomessa.',
       sv: 'Varför en utbildad klinikdjurskötare övervakar narkosen, vad forskningen säger om dödsfall vid anestesi och hur djurskötare utbildas i Finland.',
