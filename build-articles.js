@@ -456,6 +456,20 @@ const FIG_GASTROSCOPY_NEEDLE = {
   }
 };
 
+const FIG_CAT_EXAM_CARRIER = {
+  src: '/images/cat-exam-beside-carrier.webp', width: 1000, height: 667, maxWidth: 640,
+  alt: {
+    fi: 'Pitkäkarvainen kissa istuu tutkimuspöydällä kuljetuskoppansa vieressä, kun hoitaja kuuntelee sitä stetoskoopilla',
+    sv: 'En långhårig katt sitter på undersökningsbordet bredvid sin transportbur medan hjärtat avlyssnas med stetoskop',
+    en: 'A long-haired cat sitting on the examination table next to its carrier while being listened to with a stethoscope'
+  },
+  caption: {
+    fi: 'Kissan sydäntä kuunnellaan tutkimuspöydällä sen oman kuljetuskopan vieressä. Kuva: Eläinklinikka Saari.',
+    sv: 'Kattens hjärta avlyssnas på undersökningsbordet, bredvid dess egen transportbur. Foto: Djurklinik Saari.',
+    en: 'Listening to a cat’s heart on the examination table, right next to its own carrier. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -1114,6 +1128,7 @@ const articles = [
     publishDate: '2026-02-20',
     sections: ['intro', 'signs.title', 'signs.text', 'feliway.title', 'feliway.text', 'clinic.title', 'clinic.text', 'tips.title', 'tips.text'],
     prefix: 'article.catstress',
+    figures: { 'clinic.text': [FIG_CAT_EXAM_CARRIER] },
     metaDesc: {
       fi: 'Näin teemme kissan eläinlääkärikäynnistä rauhallisemman Silver-tason Cat Friendly Clinic -klinikallamme Vaasassa – ja näin valmistaudut käyntiin.',
       sv: 'Så gör vi veterinärbesöket lugnare för katter på vår Cat Friendly Clinic på Silvernivå i Vasa – och så förbereder du din katt inför besöket.',
