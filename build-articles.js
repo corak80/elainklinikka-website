@@ -428,6 +428,20 @@ const FIG_CLINIC_TEAM = {
   }
 };
 
+const FIG_CAT_IBD_LYMPHOMA_US = {
+  src: '/images/cat-ibd-lymphoma-intestine-ultrasound.webp', width: 780, height: 630, maxWidth: 560,
+  alt: {
+    fi: 'Ultraäänikuva kissan suolilenkeistä',
+    sv: 'Ultraljudsbild av tarmslingor hos en katt',
+    en: 'Ultrasound image of a cat’s intestinal loops'
+  },
+  caption: {
+    fi: 'Kissan suoliston ultraäänikuva. Tällä kissalla ultraäänessä nähdyt suolen seinämän muutokset herättivät epäilyn IBD:stä tai lymfoomasta – ultraäänellä niitä ei kuitenkaan voi erottaa toisistaan, vaan siihen tarvitaan suolen koepalat. Kuva: Eläinklinikka Saari.',
+    sv: 'Ultraljudsbild av tarmen hos en katt. Förändringarna i tarmväggen som sågs vid ultraljudet väckte misstanke om IBD eller lymfom – men ultraljud kan inte skilja dem åt, det kräver tarmbiopsier. Bild: Djurklinik Saari.',
+    en: 'Ultrasound image of a cat’s intestine. The changes in the intestinal wall seen on ultrasound raised the suspicion of IBD or lymphoma – but ultrasound cannot tell the two apart; that takes intestinal biopsies. Image: Saari Animal Clinic.'
+  }
+};
+
 const FIG_FORCED_AIR_WARMING = {
   src: '/images/surgery-forced-air-warming.webp', width: 1000, height: 750, maxWidth: 640,
   alt: {
@@ -1265,6 +1279,7 @@ const articles = [
     publishDate: '2026-03-01',
     sections: ['intro', 'challenge.title', 'challenge.text', 'diagnosis.title', 'diagnosis.text', 'treatment.title', 'treatment.text', 'why.title', 'why.text'],
     prefix: 'article.ibdlymphoma',
+    figures: { 'diagnosis.text': [FIG_CAT_IBD_LYMPHOMA_US] },
     htmlSections: ['diagnosis.text', 'treatment.text'],
     sources: [
       { text: 'Marsilio S. ym. (2023): ACVIM consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats. Journal of Veterinary Internal Medicine 37(3):794–816.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10229359/', label: 'pmc.ncbi.nlm.nih.gov' },
