@@ -707,6 +707,7 @@ const articles = [
     publishDate: '2026-01-30',
     sections: ['intro', 'what.title', 'what.text', 'how.title', 'how.text', 'evidence.title', 'evidence.text', 'limits.title', 'limits.text', 'when.title', 'when.text', 'clinic.title', 'clinic.text'],
     prefix: 'article.periovive',
+    figures: { 'intro': [FIG_PERIODONTAL] },
     metaDesc: {
       fi: 'PerioVive on hyaluronihappogeeli, jota käytetään koirien ja kissojen hammastoimenpiteissä lisähoitona. Mitä tutkimusnäyttö kertoo ja mitkä ovat rajoitukset.',
       sv: 'PerioVive är en hyaluronsyragel som används som komplement vid tandingrepp på hundar och katter. Vad forskningen visar och vilka begränsningarna är.',
