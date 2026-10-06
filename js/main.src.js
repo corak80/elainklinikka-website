@@ -753,9 +753,9 @@ const translations = {
 
   // Footer
   'footer.description': {
-    fi: 'Vaasan ainoa perheomisteinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 – viisi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
-    sv: 'Vasas enda familjeägda smådjursklinik. Högklassig veterinärvård sedan 1989 – fem veterinärer och åtta djurskötare till din tjänst.',
-    en: 'The only family-owned small animal clinic in Vaasa. High-quality veterinary care since 1989 – five veterinarians and eight veterinary nurses at your service.'
+    fi: 'Vaasan ainoa perheomisteinen pieneläinklinikka. Korkeatasoista eläinlääkäripalvelua vuodesta 1989 – kuusi eläinlääkäriä ja kahdeksan hoitajaa palveluksessasi.',
+    sv: 'Vasas enda familjeägda smådjursklinik. Högklassig veterinärvård sedan 1989 – sex veterinärer och åtta djurskötare till din tjänst.',
+    en: 'The only family-owned small animal clinic in Vaasa. High-quality veterinary care since 1989 – six veterinarians and eight veterinary nurses at your service.'
   },
   'footer.quicklinks': { fi: 'Pikalinkit', sv: 'Snabblänkar', en: 'Quick Links' },
   'footer.contact': { fi: 'Yhteystiedot', sv: 'Kontakt', en: 'Contact' },
