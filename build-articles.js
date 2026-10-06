@@ -484,6 +484,20 @@ const FIG_OR_MONITORING = {
   }
 };
 
+const FIG_ANAESTHESIA_MONITOR = {
+  src: '/images/anaesthesia-monitor-vital-signs.webp', width: 1000, height: 984, maxWidth: 560,
+  alt: {
+    fi: 'Anestesiamonitorin näyttö, jossa näkyvät EKG-käyrä, happikyllästeisyys, kapnografiakäyrä, ruumiinlämpö ja verenpaine; monitorin päällä hiilidioksidianalysaattori',
+    sv: 'Skärmen på en anestesimonitor med EKG-kurva, syremättnad, kapnografikurva, kroppstemperatur och blodtryck; ovanpå monitorn en koldioxidanalysator',
+    en: 'Anesthesia monitor screen showing the ECG trace, oxygen saturation, capnography trace, body temperature and blood pressure; a carbon dioxide analyzer sits on top of the monitor'
+  },
+  caption: {
+    fi: 'Potilasmonitori anestesian aikana: näytöllä näkyvät yhtä aikaa EKG ja syke, happikyllästeisyys, hengitystaajuus, uloshengitysilman hiilidioksidi (kapnografia), ruumiinlämpö ja verenpaine. Kuva: Eläinklinikka Saari.',
+    sv: 'Patientmonitorn under anestesin: på skärmen syns samtidigt EKG och hjärtfrekvens, syremättnad, andningsfrekvens, koldioxid i utandningsluften (kapnografi), kroppstemperatur och blodtryck. Foto: Djurklinik Saari.',
+    en: 'The patient monitor during anesthesia: the screen shows ECG and heart rate, oxygen saturation, respiratory rate, exhaled carbon dioxide (capnography), body temperature and blood pressure at the same time. Photo: Saari Animal Clinic.'
+  }
+};
+
 // Same ear photo, caption in the food-allergy article's terms (no implied cause for this dog)
 const FIG_EAR_SKIN_ALLERGY = {
   ...FIG_EAR_SKIN,
@@ -1405,6 +1419,7 @@ const articles = [
     sections: ['intro', 'risk.title', 'risk.text', 'monitoring.title', 'monitoring.text', 'balanced.title', 'balanced.text', 'vatinoxan.title', 'vatinoxan.text', 'preop.title', 'preop.text'],
     prefix: 'article.anesthesia',
     htmlSections: ['risk.text'],
+    figures: { 'monitoring.text': [FIG_ANAESTHESIA_MONITOR] },
     sources: [
       { text: 'Brodbelt D.C. ym. (2008): The risk of death: the Confidential Enquiry into Perioperative Small Animal Fatalities. Veterinary Anaesthesia and Analgesia 35(5):365–373.', url: 'https://pubmed.ncbi.nlm.nih.gov/18466167/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Brodbelt D.C. ym. (2007): Risk factors for anaesthetic-related death in cats: results from the confidential enquiry into perioperative small animal fatalities (CEPSAF). British Journal of Anaesthesia 99(5):617–623.', url: 'https://pubmed.ncbi.nlm.nih.gov/17881744/', label: 'pubmed.ncbi.nlm.nih.gov' },
