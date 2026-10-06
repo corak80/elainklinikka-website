@@ -1,3 +1,10 @@
 "
 tmp.*
 node_modules
+
+# impeccable design-skill scratch (screenshots, mocks)
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/
+.impeccable/questions/
+.impeccable/decision/.key
