@@ -42,6 +42,7 @@
   <link rel="canonical" href="https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/">
   <link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/">
   <link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/">
+  <link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/">
   <link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/">
 
   <meta property="og:type" content="website">
@@ -66,7 +67,7 @@
       "description": "Tandvård med tandröntgen, ultraljud, hjärtundersökningar, ortopedi och eget laboratorium i Vasa – ca en timme från Närpes och Kristinestad. Svenska och finska.",
       "url": "https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/",
       "inLanguage": "sv",
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-07",
       "isPartOf": {"@type": "WebSite", "name": "Eläinklinikka Saari", "url": "https://elainklinikkasaari.fi"},
       "about": {
         "@type": "VeterinaryCare",
@@ -132,6 +133,7 @@
           <div class="lang-toggle">
             <a href="https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/" class="">FI</a>
             <a href="https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/" class="active" aria-current="page">SV</a>
+            <a href="https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/" class="">EN</a>
           </div>
           <a href="https://my.provet.com/elainklinikka-saari" rel="noopener" class="btn btn-cta btn-sm desktop-only" onclick="window.fbq&amp;&amp;fbq('track','Schedule');">Boka tid</a>
         </div>
@@ -352,7 +354,9 @@
       if (push && window.history && history.replaceState) history.replaceState(null, '', '#drive-' + town);
     }
     chips.forEach(function (c) {
-      c.addEventListener('click', function (e) { e.preventDefault(); select(c.getAttribute('data-town'), true); });
+      // stopImmediatePropagation: main.js (deferred, so registered after us) adds a smooth-scroll
+      // handler to every a[href^="#"] that would scroll the page to the drive row — the chip must not move the page
+      c.addEventListener('click', function (e) { e.preventDefault(); e.stopImmediatePropagation(); select(c.getAttribute('data-town'), true); });
     });
     var hash = (window.location.hash || '').replace('#drive-', '').replace('#', '');
     if (ONCALL[hash]) select(hash, false);

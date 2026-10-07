@@ -1,0 +1,58 @@
+{
+  "title": "Vet for Kristinestad, Närpes and Kaskö pet owners – Vaasa",
+  "meta_description": "Dental care with X-rays, ultrasound, cardiac examinations, orthopaedic surgery and an in-house lab in Vaasa – about an hour from Närpes and Kristinestad. Service in English.",
+  "h1": "A vet for Kristinestad, Närpes and Kaskö – an hour's drive to Vaasa",
+  "intro": [
+    "Eläinklinikka Saari is an independent small-animal clinic in Vaasa, open since 1989. We are not part of a chain: six vets and eight veterinary nurses, and the vet who examines your pet also makes the treatment decisions. We serve in Finnish, Swedish and English.",
+    "Many of our patients already come from the southern coast. The drive is about an hour from Närpes and Kaskö and a little over an hour from Kristinestad – and for some things, it is worth it."
+  ],
+  "h2_worth": "When the drive to Vaasa is worth it",
+  "worth_intro": "Your local vet handles most of your pet's care close to home. We are the place for the things that need equipment or experience a one-vet practice rarely has in-house:",
+  "worth_items": [
+    {"strong": "Dental care under general anaesthesia, with dental X-rays.", "text": "Scaling, extractions and the resorptive lesions in cats that only show on an X-ray. Dental X-rays are taken during the same anaesthesia. <a href=\"/en/services/dental-care/\">Read more about dental care</a>."},
+    {"strong": "X-ray and ultrasound on the same visit.", "text": "Digital X-ray and abdominal ultrasound, read by the vet while you wait. <a href=\"/en/services/x-ray/\">X-ray</a> · <a href=\"/en/services/ultrasound/\">Ultrasound</a>."},
+    {"strong": "Cardiac examinations.", "text": "Echocardiography, ECG and blood pressure. Leena Sandström holds the ESAVS cardiology certificate and is authorised to perform the Finnish Kennel Club's official heart examinations. <a href=\"/en/services/cardiac-examinations/\">Cardiac examinations</a>."},
+    {"strong": "Orthopaedic surgery.", "text": "Cruciate ligament repair by TTA or lateral suture, fracture surgery. Pamela Kvarngård has trained in orthopaedic surgery in the AOVET and ESAVS programmes. <a href=\"/en/services/orthopedics/\">Orthopaedics</a>."},
+    {"strong": "Endoscopy.", "text": "Gastroscopy, video-otoscopy, rhinoscopy, cystoscopy and bronchoscopy – for swallowed objects, chronic ear and nose problems and biopsies without open surgery. <a href=\"/en/services/endoscopy/\">Endoscopy</a>."},
+    {"strong": "In-house laboratory.", "text": "Blood, urine and hormone results during the visit, so a decision can usually be made the same day. <a href=\"/en/services/laboratory/\">Laboratory</a>."},
+    {"strong": "Cats.", "text": "We are an ISFM Cat Friendly Clinic (Silver), with a separate waiting area, examination room and ward for cats. <a href=\"/en/cat-veterinarian-vaasa/\">Cat veterinarian in Vaasa</a>."}
+  ],
+  "worth_second_opinion": "We are also happy to give a second opinion on a diagnosis or a treatment plan you have already received.",
+  "h2_trip": "Making one trip count",
+  "trip_items": [
+    {"strong": "Tell us where you are coming from when you book.", "text": "We will plan the visit so that the examination, any imaging and the lab results fit into the same day."},
+    {"strong": "Bring what you have.", "text": "Previous records, lab results or X-rays from your own vet save time and repeat tests. Your vet can also send them to us directly."},
+    {"strong": "Free parking at the door,", "text": "with room for several cars."},
+    {"strong": "Insurance direct billing", "text": "with LähiTapiola, Agria and Pohjola – you pay only your own share at the clinic."},
+    {"strong": "Drive times:", "text": "Närpes about 1 h (82 km) · Kaskö about 1 h 05 min (94 km) · Kristinestad about 1 h 15 min (101 km) · Teuva about 1 h 10 min · Karijoki about 1 h 25 min · Isojoki about 1 h 45 min."}
+  ],
+  "h2_together": "Working together with your own vet",
+  "together": "You do not need a referral to come to us. After the visit we send our findings and recommendations to your vet, if you wish, so that follow-up checks, suture removal and repeat prescriptions can be handled close to home. Many of our southern-coast patients have one vet at home and come to Vaasa for the procedures.",
+  "h2_emergency": "Emergencies",
+  "emergency": "We are not an emergency clinic, and at 100 km we cannot be the right first call in a crisis. During opening hours (Mon–Fri 7:45–17:00), call us first on 06 321 7300 – we fit urgent cases into the day whenever we can, and we will tell you honestly if somewhere closer is the better choice. Outside opening hours, contact the on-call vet for your area: for Kristinestad, Närpes, Kaskö, Korsnäs and Malax the southern on-call district is 0600 399 199; Teuva, Karijoki and Isojoki have their own municipal on-call service. <a href=\"/en/services/emergency/\">Emergency information</a>.",
+  "h2_prices": "Prices",
+  "prices": [
+    {"name": "Consultation, 15 / 30 min", "value": "€74.45 / €104.80"},
+    {"name": "Dental scaling, dog under / over 20 kg", "value": "€303 / €353"},
+    {"name": "Dental scaling, cat", "value": "€263"},
+    {"name": "Dental X-ray with dental treatment", "value": "€59–99"},
+    {"name": "Cardiac ultrasound", "value": "€376–476"},
+    {"name": "Senior health check", "value": "€299"},
+    {"name": "Cruciate repair, lateral suture, cat / dog", "value": "€953 / €1,203"},
+    {"name": "Cruciate repair, TTA, under / over 20 kg", "value": "€1,703 / €1,803"}
+  ],
+  "prices_note": "Prices include VAT. <a href=\"/en/pricelist/\">Full price list</a>.",
+  "h2_faq": "Frequently asked questions",
+  "faq": [
+    {"q": "Do I need a referral from my own vet?", "a": "No. You can book directly online or by phone. If your vet has examined your pet already, bring the notes or ask them to send them to us."},
+    {"q": "Can everything be done on the same day?", "a": "Usually yes, if you tell us when booking what the visit is for. Examination, X-ray, ultrasound and blood tests can be done and read during one visit. Surgery and dental treatment under anaesthesia are normally booked as a separate day, and your pet goes home the same evening."},
+    {"q": "Can I come just for a second opinion?", "a": "Yes. Bring the existing results and we will go through them with you."},
+    {"q": "Do you serve in English?", "a": "Yes. We serve in Finnish, Swedish and English, and most of our vets consult in English."},
+    {"q": "What if my pet needs emergency care?", "a": "During opening hours, call us first. Outside opening hours, use your area's on-call vet – for the coastal municipalities 0600 399 199."}
+  ],
+  "cta_title": "Book an appointment",
+  "cta_text": "Call us or book online.",
+  "cta_call": "Call 06 321 7300",
+  "cta_book": "Book online",
+  "cta_address": "Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00"
+}

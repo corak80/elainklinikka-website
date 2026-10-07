@@ -1,0 +1,24 @@
+{
+  "choose_town": "Choose your town",
+  "drive_heading": "Drive time to Vaasa",
+  "towns": {
+    "kristiinankaupunki": {"chip": "Kristinestad", "from": "From Kristinestad"},
+    "kaskinen": {"chip": "Kaskö", "from": "From Kaskö"},
+    "narpio": {"chip": "Närpes", "from": "From Närpes"},
+    "teuva": {"chip": "Teuva", "from": "From Teuva"},
+    "karijoki": {"chip": "Karijoki", "from": "From Karijoki"},
+    "isojoki": {"chip": "Isojoki", "from": "From Isojoki"}
+  },
+  "about": "about",
+  "oncall_south": "Outside opening hours: southern on-call district 0600 399 199",
+  "oncall_municipal": "Outside opening hours: your municipality's on-call vet",
+  "hours": "Open Mon–Fri 7:45–17:00",
+  "price_dental": "Dental scaling €263–353",
+  "price_cardiac": "Cardiac ultrasound €376–476",
+  "price_ortho": "Cruciate repair €953–1,803",
+  "proof_caption_or": "In the operating room, anaesthesia is monitored throughout the procedure",
+  "proof_caption_us": "Ultrasound examinations are done and read during the same visit",
+  "back": "← Back to homepage",
+  "skip": "Skip to content",
+  "menu": "Menu"
+}

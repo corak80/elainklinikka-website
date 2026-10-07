@@ -61,7 +61,23 @@ const PAGES = {
     privacy: 'Integritetspolicy', mapsLabel: 'Gerbyntie 18, Vasa', badgeAlt: 'Silver accredited Cat Friendly Clinic 2026',
     ctaAddress: 'Gerbyvägen 18, 65230 Vasa',
   },
+  en: {
+    lang: 'en', locale: 'en_GB', path: '/en/veterinarian-kristinestad-narpes/', out: 'en/veterinarian-kristinestad-narpes/index.html',
+    order: ['kristiinankaupunki', 'narpio', 'kaskinen', 'teuva', 'karijoki', 'isojoki'],
+    home: '/en/', homeName: 'Home', brand: 'Eläinklinikka Saari',
+    nav: [['/en/#about', 'Clinic'], ['/en/#services', 'Services'], ['/en/#team', 'Staff'], ['/en/#cat-friendly', 'Cat Friendly'],
+          ['/en/pricelist/', 'Prices'], ['/en/#wildlife', 'Wildlife'], ['/en/#contact', 'Contact'], ['/artikkelit/', 'Articles']],
+    shop: ['https://kauppa.elainklinikkasaari.fi/', 'Online shop'], book: 'Book Now',
+    footerBrand: 'Finnish privately owned small animal clinic in Dragnäsbäck, Vaasa.',
+    footerLinks: [['/en/#about', 'Clinic'], ['/en/#services', 'Services'], ['/en/#team', 'Staff'], ['/en/#cat-friendly', 'Cat Friendly'],
+                  ['/en/pricelist/', 'Prices'], ['/en/#wildlife', 'Wildlife'], ['/meista/', 'About Us'], ['/yhteystiedot/', 'Contact'],
+                  ['/en/articles/', 'Articles'], ['/en/reviews/', 'Reviews'], ['https://kauppa.elainklinikkasaari.fi/', 'Online shop']],
+    footerHeads: ['Quick links', 'Contact', 'Follow us'], footerBottom: 'Business ID: 0708667-9 &middot; All rights reserved.',
+    privacy: 'Privacy Policy', mapsLabel: 'Gerbyntie 18, Vaasa', badgeAlt: 'Silver accredited Cat Friendly Clinic 2026',
+    ctaAddress: 'Gerbyntie 18, 65230 Vaasa',
+  },
 };
+const LANGS = ['fi', 'sv', 'en'];
 
 const MAPS = 'https://www.google.com/maps/place/El%C3%A4inklinikka+Saari+Oy/@63.1171801,21.6166625,460m/data=!3m1!1e3!4m15!1m8!3m7!1s0x467d61ab7b16cb15:0xb6114b98ae600fcb!2sGerbyntie+18,+65230+Vaasa!3b1!8m2!3d63.1171801!4d21.6192374!16s%2Fg%2F11w7r24yg_!3m5!1s0x467d61ab6b941cdd:0x6e79ec0774047719!8m2!3d63.1166737!4d21.618318!16s%2Fg%2F1tdl05nr';
 const CSP = `default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'`;
@@ -151,6 +167,7 @@ function render(cfg, d, ui) {
   <link rel="canonical" href="${url}">
   <link rel="alternate" hreflang="fi" href="${HOST}${PAGES.fi.path}">
   <link rel="alternate" hreflang="sv" href="${HOST}${PAGES.sv.path}">
+  <link rel="alternate" hreflang="en" href="${HOST}${PAGES.en.path}">
   <link rel="alternate" hreflang="x-default" href="${HOST}${PAGES.fi.path}">
 
   <meta property="og:type" content="website">
@@ -230,6 +247,7 @@ ${faqLd}
           <div class="lang-toggle">
             <a href="${HOST}${PAGES.fi.path}" class="${cfg.lang === 'fi' ? 'active' : ''}"${cfg.lang === 'fi' ? ' aria-current="page"' : ''}>FI</a>
             <a href="${HOST}${PAGES.sv.path}" class="${cfg.lang === 'sv' ? 'active' : ''}"${cfg.lang === 'sv' ? ' aria-current="page"' : ''}>SV</a>
+            <a href="${HOST}${PAGES.en.path}" class="${cfg.lang === 'en' ? 'active' : ''}"${cfg.lang === 'en' ? ' aria-current="page"' : ''}>EN</a>
           </div>
           ${book.replace('btn btn-cta mobile-cta', 'btn btn-cta btn-sm desktop-only')}
         </div>
@@ -403,7 +421,9 @@ ${faqLd}
       if (push && window.history && history.replaceState) history.replaceState(null, '', '#drive-' + town);
     }
     chips.forEach(function (c) {
-      c.addEventListener('click', function (e) { e.preventDefault(); select(c.getAttribute('data-town'), true); });
+      // stopImmediatePropagation: main.js (deferred, so registered after us) adds a smooth-scroll
+      // handler to every a[href^="#"] that would scroll the page to the drive row — the chip must not move the page
+      c.addEventListener('click', function (e) { e.preventDefault(); e.stopImmediatePropagation(); select(c.getAttribute('data-town'), true); });
     });
     var hash = (window.location.hash || '').replace('#drive-', '').replace('#', '');
     if (ONCALL[hash]) select(hash, false);
@@ -529,21 +549,25 @@ function ensureSitemap() {
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="${HOST}${PAGES.fi.path}"/>
     <xhtml:link rel="alternate" hreflang="sv" href="${HOST}${PAGES.sv.path}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${HOST}${PAGES.en.path}"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${HOST}${PAGES.fi.path}"/>
   </url>
 `;
-  let added = 0;
-  for (const cfg of [PAGES.fi, PAGES.sv]) {
-    if (xml.includes(`<loc>${HOST}${cfg.path}</loc>`)) continue;
-    xml = xml.replace('</urlset>', entry(cfg) + '</urlset>');
-    added++;
+  let added = 0, updated = 0;
+  for (const cfg of LANGS.map((l) => PAGES[l])) {
+    const loc = `<loc>${HOST}${cfg.path}</loc>`;
+    const block = new RegExp(`  <url>\\s*${loc.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}[\\s\\S]*?</url>\\n`);
+    const m = xml.match(block);
+    if (m && m[0].includes(`hreflang="en"`)) continue;
+    if (m) { xml = xml.replace(m[0], entry(cfg)); updated++; }
+    else { xml = xml.replace('</urlset>', entry(cfg) + '</urlset>'); added++; }
   }
-  if (added) fs.writeFileSync(p, xml);
-  return `sitemap: ${added} added`;
+  if (added || updated) fs.writeFileSync(p, xml);
+  return `sitemap: ${added} added, ${updated} updated`;
 }
 
 const results = [];
-for (const lang of ['fi', 'sv']) {
+for (const lang of LANGS) {
   const d = readJson(`${lang}.json`), ui = readJson(`${lang}_ui.json`);
   if (!d || !ui) { results.push(`${lang}: SKIPPED (missing ${lang}.json or ${lang}_ui.json)`); continue; }
   const cfg = PAGES[lang];
