@@ -65,7 +65,7 @@
  "h2_together": "Vi samarbetar med din egen veterinär",
  "together": "Du behöver ingen remiss för att komma till oss. Efter besöket skickar vi, om du vill, våra fynd och rekommendationer till din veterinär, så att efterkontroller, stygnborttagning och receptförnyelser kan skötas nära hemmet. Många av våra patienter från Sydösterbotten har sin egen veterinär på hemorten och kommer till Vasa för ingreppen.",
  "h2_emergency": "Akuta situationer",
- "emergency": "Vi är ingen jourklinik, och på 100 kilometers avstånd är vi inte rätt ställe att ringa först i en kris. Under öppettiderna (mån–fre 7.45–17.00) ringer du oss först på 06 321 7300 – vi passar in akuta fall i dagens schema så ofta vi bara kan, och vi säger ärligt ifrån om något närmare är ett bättre val. Utanför öppettiderna kontaktar du jourhavande veterinär för ditt område: för Kristinestad, Närpes, Kaskö, Korsnäs och Malax är det södra jourområdets nummer 0600 399 199; Östermark, Bötom och Storå har sin egen kommunala jour. <a href=\"/sv/tjanster/jour/\">Läs mer om jouren</a>.",
+ "emergency": "Vi är ingen jourklinik, och på 100 kilometers avstånd är vi inte rätt ställe att ringa först i en kris. Under öppettiderna (mån–fre 7.45–17.00) ringer du oss först på 06 321 7300 – vi passar in akuta fall i dagens schema så ofta vi bara kan, och vi säger ärligt ifrån om något närmare är ett bättre val. Utanför öppettiderna kontaktar du jourhavande veterinär för ditt område: för Kristinestad, Närpes, Kaskö, Korsnäs och Malax är det södra jourområdets nummer 0600 399 199; för Östermark, Bötom och Storå är det veterinärjouren i Kauhajoki, 0600 12202. <a href=\"/sv/tjanster/jour/\">Läs mer om jouren</a>.",
  "h2_prices": "Priser",
  "prices": [
   {
@@ -122,7 +122,7 @@
   },
   {
    "q": "Vad gör jag om mitt djur behöver akut vård?",
-   "a": "Under öppettiderna ringer du oss först. Utanför öppettiderna kontaktar du jourhavande veterinär för ditt område – för kustkommunerna 0600 399 199."
+   "a": "Under öppettiderna ringer du oss först. Utanför öppettiderna kontaktar du jourhavande veterinär för ditt område – för kustkommunerna 0600 399 199, för Östermark, Bötom och Storå 0600 12202."
   }
  ],
  "cta_title": "Boka tid",

@@ -11,7 +11,7 @@ Approved English master is below. Translate its MEANING into natural, idiomatic 
 - Never the words specialist / erikoiseläinlääkäri / erikoisala / specialist- (protected title in Finland). Use "focus areas", "experienced in", "trained in".
 - Founding year 1989. Six vets, eight veterinary nurses.
 - Rating/review counts: none on this page.
-- No phone numbers other than 06 321 7300 (clinic) and 0600 399 199 (southern on-call district). Write the clinic number as "06 321 7300" in running text.
+- No phone numbers other than 06 321 7300 (clinic), 0600 399 199 (southern on-call district) and 0600 12202 (Kauhajoki on-call for Teuva, Karijoki, Isojoki — verified kauhajoki.fi 07-10-2026). Write the clinic number as "06 321 7300" in running text.
 - Dashes: en dash – (never em dash —). Quotes: FI ”…”, SV ”…”.
 - Prices: "74,45 €", "1 703 €" (non-breaking space before € in HTML: `&nbsp;€`; thin/normal space as thousands separator written as `&nbsp;` too: `1&nbsp;703&nbsp;€`).
 - Place names FI: Kristiinankaupunki (-kaupungista, -kaupungin), Närpiö (Närpiöstä), Kaskinen (Kaskisista), Teuva (Teuvalta), Karijoki (Karijoelta), Isojoki (Isojoelta), Korsnäs, Maalahti, Suupohja (Suupohjan, Suupohjaan), Vaasa (Vaasaan, Vaasassa).

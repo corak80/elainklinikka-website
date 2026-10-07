@@ -65,7 +65,7 @@
  "h2_together": "Yhteistyössä oman eläinlääkärisi kanssa",
  "together": "Et tarvitse lähetettä tullaksesi meille. Käynnin jälkeen lähetämme löydökset ja suositukset halutessasi omalle eläinlääkärillesi, jotta jälkitarkastukset, ompeleiden poisto ja reseptien uusiminen voidaan hoitaa lähellä kotia. Monella etelästä tulevalla potilaallamme on oma eläinlääkäri kotipaikkakunnalla, ja Vaasaan tullaan toimenpiteitä varten.",
  "h2_emergency": "Hätätapaukset",
- "emergency": "Emme ole päivystysklinikka, eikä 100 kilometrin päässä olevalle klinikalle kannata soittaa ensimmäisenä hätätilanteessa. Aukioloaikoina (ma–pe 7.45–17.00) soita meille ensin numeroon 06 321 7300 – sovitamme kiireelliset tapaukset päivän ohjelmaan aina, kun se on mahdollista, ja sanomme suoraan, jos jokin lähempänä oleva vastaanotto on parempi vaihtoehto. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin: Kristiinankaupungissa, Närpiössä, Kaskisissa, Korsnäsissä ja Maalahdessa eteläisen päivystysalueen numero on 0600 399 199; Teuvalla, Karijoella ja Isojoella on oma kunnallinen päivystys. → <a href=\"/palvelut/paivystys/\">Päivystysohjeet</a>",
+ "emergency": "Emme ole päivystysklinikka, eikä 100 kilometrin päässä olevalle klinikalle kannata soittaa ensimmäisenä hätätilanteessa. Aukioloaikoina (ma–pe 7.45–17.00) soita meille ensin numeroon 06 321 7300 – sovitamme kiireelliset tapaukset päivän ohjelmaan aina, kun se on mahdollista, ja sanomme suoraan, jos jokin lähempänä oleva vastaanotto on parempi vaihtoehto. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin: Kristiinankaupungissa, Närpiössä, Kaskisissa, Korsnäsissä ja Maalahdessa eteläisen päivystysalueen numero on 0600 399 199; Teuvalla, Karijoella ja Isojoella päivystävät Kauhajoen eläinlääkärit, numero 0600 12202. → <a href=\"/palvelut/paivystys/\">Päivystysohjeet</a>",
  "h2_prices": "Hinnat",
  "prices": [
   {
@@ -122,7 +122,7 @@
   },
   {
    "q": "Entä jos lemmikkini tarvitsee kiireellistä hoitoa?",
-   "a": "Aukioloaikoina soita ensin meille. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin – rannikkokunnissa numero on 0600 399 199."
+   "a": "Aukioloaikoina soita ensin meille. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin – rannikkokunnissa numero on 0600 399 199, Teuvalla, Karijoella ja Isojoella 0600 12202."
   }
  ],
  "cta_title": "Varaa aika",
