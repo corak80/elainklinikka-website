@@ -302,7 +302,7 @@ ${faqLd}
           <figcaption>${ui.proof_caption_or}</figcaption>
         </figure>
         <figure>
-          <img src="/images/cat-ckd-ultrasound-left-kidney.webp" alt="${esc(plain(ui.proof_caption_us))}" width="708" height="642" loading="lazy" decoding="async">
+          <img src="/images/cat-dental-xray.webp" alt="${esc(plain(ui.proof_caption_us))}" width="1024" height="768" loading="lazy" decoding="async">
           <figcaption>${ui.proof_caption_us}</figcaption>
         </figure>
       </div>

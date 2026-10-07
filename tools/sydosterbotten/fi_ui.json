@@ -1,24 +1,42 @@
 {
- "choose_town": "Valitse kuntasi",
- "drive_heading": "Ajomatka Vaasaan",
- "towns": {
-  "kristiinankaupunki": {"chip": "Kristiinankaupunki", "from": "Kristiinankaupungista"},
-  "kaskinen": {"chip": "Kaskinen", "from": "Kaskisista"},
-  "narpio": {"chip": "Närpiö", "from": "Närpiöstä"},
-  "teuva": {"chip": "Teuva", "from": "Teuvalta"},
-  "karijoki": {"chip": "Karijoki", "from": "Karijoelta"},
-  "isojoki": {"chip": "Isojoki", "from": "Isojoelta"}
- },
- "about": "noin",
- "oncall_south": "Aukioloaikojen ulkopuolella: eteläisen päivystysalueen numero 0600 399 199",
- "oncall_municipal": "Aukioloaikojen ulkopuolella: oman kuntasi päivystävä eläinlääkäri",
- "hours": "Avoinna ma–pe 7.45–17.00",
- "price_dental": "Hammaskiven poisto 263–353&nbsp;€",
- "price_cardiac": "Sydämen ultraäänitutkimus 376–476&nbsp;€",
- "price_ortho": "Ristisideleikkaus 953–1&nbsp;803&nbsp;€",
- "proof_caption_or": "Leikkaussalissa nukutusta valvotaan koko toimenpiteen ajan",
- "proof_caption_us": "Ultraäänitutkimus tehdään ja tulkitaan samalla käynnillä",
- "back": "← Takaisin etusivulle",
- "skip": "Siirry sisältöön",
- "menu": "Valikko"
+  "choose_town": "Valitse kuntasi",
+  "drive_heading": "Ajomatka Vaasaan",
+  "towns": {
+    "kristiinankaupunki": {
+      "chip": "Kristiinankaupunki",
+      "from": "Kristiinankaupungista"
+    },
+    "kaskinen": {
+      "chip": "Kaskinen",
+      "from": "Kaskisista"
+    },
+    "narpio": {
+      "chip": "Närpiö",
+      "from": "Närpiöstä"
+    },
+    "teuva": {
+      "chip": "Teuva",
+      "from": "Teuvalta"
+    },
+    "karijoki": {
+      "chip": "Karijoki",
+      "from": "Karijoelta"
+    },
+    "isojoki": {
+      "chip": "Isojoki",
+      "from": "Isojoelta"
+    }
+  },
+  "about": "noin",
+  "oncall_south": "Aukioloaikojen ulkopuolella: eteläisen päivystysalueen numero 0600 399 199",
+  "oncall_municipal": "Aukioloaikojen ulkopuolella: oman kuntasi päivystävä eläinlääkäri",
+  "hours": "Avoinna ma–pe 7.45–17.00",
+  "price_dental": "Hammaskiven poisto 263–353&nbsp;€",
+  "price_cardiac": "Sydämen ultraäänitutkimus 376–476&nbsp;€",
+  "price_ortho": "Ristisideleikkaus 953–1&nbsp;803&nbsp;€",
+  "proof_caption_or": "Leikkaussalissa nukutusta valvotaan koko toimenpiteen ajan",
+  "proof_caption_us": "Hammasröntgenkuvat otetaan samassa nukutuksessa",
+  "back": "← Takaisin etusivulle",
+  "skip": "Siirry sisältöön",
+  "menu": "Valikko"
 }

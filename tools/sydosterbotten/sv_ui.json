@@ -1,24 +1,42 @@
 {
- "choose_town": "Välj din kommun",
- "drive_heading": "Körtid till Vasa",
- "towns": {
-  "kristiinankaupunki": {"chip": "Kristinestad", "from": "Från Kristinestad"},
-  "kaskinen": {"chip": "Kaskö", "from": "Från Kaskö"},
-  "narpio": {"chip": "Närpes", "from": "Från Närpes"},
-  "teuva": {"chip": "Östermark", "from": "Från Östermark"},
-  "karijoki": {"chip": "Bötom", "from": "Från Bötom"},
-  "isojoki": {"chip": "Storå", "from": "Från Storå"}
- },
- "about": "ca",
- "oncall_south": "Utanför öppettiderna: södra jourområdets nummer 0600 399 199",
- "oncall_municipal": "Utanför öppettiderna: jourhavande veterinär i din kommun",
- "hours": "Öppet mån–fre 7.45–17.00",
- "price_dental": "Tandstensborttagning 263–353&nbsp;€",
- "price_cardiac": "Hjärtultraljud 376–476&nbsp;€",
- "price_ortho": "Korsbandsoperation 953–1&nbsp;803&nbsp;€",
- "proof_caption_or": "I operationssalen övervakas narkosen under hela ingreppet",
- "proof_caption_us": "Ultraljudsundersökningen görs och tolkas under samma besök",
- "back": "← Tillbaka till startsidan",
- "skip": "Hoppa till innehållet",
- "menu": "Meny"
+  "choose_town": "Välj din kommun",
+  "drive_heading": "Körtid till Vasa",
+  "towns": {
+    "kristiinankaupunki": {
+      "chip": "Kristinestad",
+      "from": "Från Kristinestad"
+    },
+    "kaskinen": {
+      "chip": "Kaskö",
+      "from": "Från Kaskö"
+    },
+    "narpio": {
+      "chip": "Närpes",
+      "from": "Från Närpes"
+    },
+    "teuva": {
+      "chip": "Östermark",
+      "from": "Från Östermark"
+    },
+    "karijoki": {
+      "chip": "Bötom",
+      "from": "Från Bötom"
+    },
+    "isojoki": {
+      "chip": "Storå",
+      "from": "Från Storå"
+    }
+  },
+  "about": "ca",
+  "oncall_south": "Utanför öppettiderna: södra jourområdets nummer 0600 399 199",
+  "oncall_municipal": "Utanför öppettiderna: jourhavande veterinär i din kommun",
+  "hours": "Öppet mån–fre 7.45–17.00",
+  "price_dental": "Tandstensborttagning 263–353&nbsp;€",
+  "price_cardiac": "Hjärtultraljud 376–476&nbsp;€",
+  "price_ortho": "Korsbandsoperation 953–1&nbsp;803&nbsp;€",
+  "proof_caption_or": "I operationssalen övervakas narkosen under hela ingreppet",
+  "proof_caption_us": "Tandröntgen tas under samma narkos",
+  "back": "← Tillbaka till startsidan",
+  "skip": "Hoppa till innehållet",
+  "menu": "Meny"
 }
