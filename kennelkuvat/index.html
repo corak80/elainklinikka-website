@@ -1251,8 +1251,8 @@ boas:{
  who:{fi:"Kennelliiton nimeämä valvova eläinlääkäri",en:"A Kennelliitto-appointed supervising vet"},
  age:{fi:"Vähintään 18 kk",en:"At least 18 mo"},
  valid:{fi:"Alle 2-vuotiaana tehty voimassa 1 v; muuten pysyvä. Hylätyn voi uusia kerran, keskeytetyn kahdesti.",en:"Taken under 2 y: valid 1 y; otherwise permanent. A failed test may be retaken once, an interrupted one twice."},
- proc:{fi:["Ei saa osallistua: hengitysvaikeus, hengitystiet leikattu, sairas koira, narttu < 30 vrk ennen tai < 75 vrk synnytyksen jälkeen","Rokotukset + tunnistusmerkintä tarkistetaan juuri ennen kävelyä","Tila 15–25 °C (mitataan); rata 30–90 m; koira kytkettynä, kävelee/ravaa (ei laukkaa)","Ennen: yleistila, syke, rektaalilämpö, sierainten ahtauma (liite 1), CFR mitataan – dyspnea, syanoosi tai lämpö > 39,3 °C → hylätty ilman kävelyä","<b>1000 m / 12 min</b> (rotukohtaiset poikkeukset rotulistassa)","Heti jälkeen lämpö – > 39,5 °C → keskeytys + ensiapu, hylätty; BOAS-aste (liite 2)","Palautuminen 15 min samassa tilassa, vain vettä; sitten syke, lämpö, yleistila"],
-       en:["Excluded: breathing difficulty, airway surgery, ill dog, bitch <30 d before or <75 d after whelping","Vaccinations + microchip checked just before walking","Room 15–25 °C (measured); 30–90 m track; on lead, walk/trot (no gallop)","Before: general state, HR, rectal temp, nostril stenosis (App. 1), CFR measured – dyspnoea, cyanosis or temp >39.3 °C → fail without walking","<b>1000 m in 12 min</b> (breed exceptions in the breed list)","Temp immediately after – >39.5 °C → stop + first aid, fail; BOAS grade (App. 2)","Recovery 15 min in the same room, water only; then HR, temp, general state"]},
+ proc:{fi:["Ei saa osallistua: hengitysvaikeus, hengitystiet leikattu, sairas koira, narttu < 30 vrk ennen tai < 75 vrk synnytyksen jälkeen","Rokotukset + tunnistusmerkintä tarkistetaan juuri ennen kävelyä","Tila 15–25 °C (mitataan); rata 30–90 m; koira kytkettynä, kävelee/ravaa (ei laukkaa)","Ennen: yleistila, syke, rektaalilämpö, sierainten ahtauma (liite 1), CFR mitataan – dyspnea, syanoosi tai lämpö > 39,3 °C → hylätty ilman kävelyä","%WALK%","Heti jälkeen lämpö – > 39,5 °C → keskeytys + ensiapu, hylätty; BOAS-aste (liite 2)","Palautuminen 15 min samassa tilassa, vain vettä; sitten syke, lämpö, yleistila"],
+       en:["Excluded: breathing difficulty, airway surgery, ill dog, bitch <30 d before or <75 d after whelping","Vaccinations + microchip checked just before walking","Room 15–25 °C (measured); 30–90 m track; on lead, walk/trot (no gallop)","Before: general state, HR, rectal temp, nostril stenosis (App. 1), CFR measured – dyspnoea, cyanosis or temp >39.3 °C → fail without walking","%WALK%","Temp immediately after – >39.5 °C → stop + first aid, fail; BOAS grade (App. 2)","Recovery 15 min in the same room, water only; then HR, temp, general state"]},
  grades:{name:{fi:"BOAS-aste (liite 2)",en:"BOAS grade (App. 2)"},rows:[
   ["0",{fi:"Ei oireita – ei ylähengitysääniä levossa eikä liikunnan jälkeen",en:"No signs – no upper-airway noise at rest or after exercise"}],
   ["1",{fi:"Lievät – äänet levossa 0–1, liikunnan jälkeen 1–2; normaali hengitystyyppi",en:"Mild – noise at rest 0–1, after exercise 1–2; normal breathing pattern"}],
@@ -1289,6 +1289,12 @@ const DX_EN={"pariksi RD-terve": "pair with an RD-clear dog", "iiriksen koloboom
 
 const EYE_LEGEND={fi:"KAT = kaihi · PRA = etenevä verkkokalvon surkastuma · RD = verkkokalvon dysplasia (m = multifokaalinen, g = geografinen, t = totaalinen) · PHTVL/PHPV = sikiöaikaisen verisuoniston jäänne · LL = linssiluksaatio · PPM = persistoiva pupillikalvo · CEA = collien silmäanomalia · KER = krooninen pinnallinen keratiitti",
  en:"KAT = cataract · PRA = progressive retinal atrophy · RD = retinal dysplasia (m = multifocal, g = geographic, t = total) · PHTVL/PHPV = persistent hyaloid/hyperplastic vasculature · LL = lens luxation · PPM = persistent pupillary membrane · CEA = collie eye anomaly · KER = chronic superficial keratitis"};
+/* BOAS walk test: 1000 m within 12 min unless the breed has an exception (Kennelliitto BOAS-ohjeen rotulista 1.1.2023) */
+const BOAS_WALK={"bostoninterrieri":{min:11},"mopsi":{min:11},"ranskanbulldoggi":{min:11},"kiinanpalatsikoira":{m:800}};
+function boasWalk(breed){const n=breed.n.toLowerCase();const k=Object.keys(BOAS_WALK).find(x=>n.startsWith(x));
+  const w=Object.assign({m:1000,min:12},k?BOAS_WALK[k]:{}),fi=lang==="fi";
+  const walk=fi?`<b>${w.m} m / ${w.min} min</b>`:`<b>${w.m} m in ${w.min} min</b>`;
+  return k?walk+(fi?" – rodun poikkeus (BOAS-ohjeen rotulista); muilla roduilla 1000 m / 12 min":" – breed exception (BOAS breed list); other breeds 1000 m in 12 min"):walk}
 function eyeDx(breed){const n=breed.n.toLowerCase();const k=Object.keys(EYE_DX).find(x=>n.startsWith(x));if(!k)return null;
   let d=EYE_DX[k];if(lang!=="fi")Object.entries(DX_EN).forEach(([a,b])=>{d=d.split(a).join(b)});return d}
 /* which official non-imaging exams this breed's PEVISA requires – derived from k + x strings */
@@ -1310,7 +1316,7 @@ function examHTML(key,breed){
   return `<details class="scale exam"><summary>${g(E.title)}</summary><div class="sc">
     <div class="grid2">${kv(uu("exWho"),g(E.who))}${kv(uu("kvAge"),g(E.age))}${kv(uu("kvValid"),g(E.valid))}${E.limit?kv(uu("kvLimit"),g(E.limit)):""}</div>
     ${dx}
-    <h4>${uu("exProc")}</h4><ul>${(E.proc[L]||E.proc.fi).map(p=>`<li>${p}</li>`).join("")}</ul>
+    <h4>${uu("exProc")}</h4><ul>${(E.proc[L]||E.proc.fi).map(p=>`<li>${p==="%WALK%"?boasWalk(breed):p}</li>`).join("")}</ul>
     ${E.grades?`<h4>${g(E.grades.name)}</h4>${gr}`:""}
     ${E.extra?`<p class="scfoot">${g(E.extra)}</p>`:""}
     ${E.submit?`<p class="scfoot"><b>${uu("exSubmit")}:</b> ${g(E.submit)}</p>`:""}
