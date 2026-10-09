@@ -2106,4 +2106,64 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/"/>
   </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/articles/koira-ontuu.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-limping.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-limping.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/dog-limping.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-limping.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koira-ontuu.html"/>
+  </url>
 </urlset>

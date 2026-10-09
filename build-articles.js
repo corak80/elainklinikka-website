@@ -639,6 +639,67 @@ const articles = [
     ]
   },
   {
+    slug: 'seniorikissan-terveystarkastus',
+    slugSv: 'halsokontroll-seniorkatt',
+    slugEn: 'senior-cat-health-check',
+    titleKey: 'article.seniorcat.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '9.10.2026',
+    publishDate: '2026-10-09',
+    sections: ["intro", "why.title", "why.text", "age.title", "age.text", "diseases.title", "diseases.text", "signs.title", "signs.text", "included.title", "included.text", "bloodpressure.title", "bloodpressure.text", "urine.title", "urine.text", "calm.title", "calm.text", "cost.title", "cost.text", "contact.title", "contact.text"],
+    htmlSections: ["age.text", "diseases.text", "signs.text", "included.text", "urine.text", "calm.text", "cost.text", "contact.text"],
+    prefix: 'article.seniorcat',
+    metaDesc: {
+      fi: 'Kissan senioritutkimus auttaa löytämään munuais-, kilpirauhas-, verenpaine- ja hammasongelmat ajoissa. Sisältö, kuinka usein ja hinta Vaasassa: alkaen 299 €.',
+      sv: 'Med en hälsokontroll för seniorkatt kan njur-, sköldkörtel-, blodtrycks- och tandproblem upptäckas tidigt. Vad ingår, hur ofta och pris i Vasa: från 299 €.',
+      en: 'A senior cat health check helps find kidney, thyroid, blood pressure and dental problems early. What’s included, how often and the price in Vaasa: from €299.'
+    },
+    seoTitle: { fi: 'Seniorikissan terveystarkastus Vaasassa – sisältö ja hinta', sv: 'Hälsokontroll för seniorkatter i Vasa – innehåll och pris', en: 'Senior Cat Health Check in Vaasa – What’s Included, Cost' },
+    // Hand-designed page (impeccable, 2026-10): rendered files preserved; edit the HTML + css/js/article-designed.*
+    skipBuild: true,
+    sources: [
+      { text: 'Quimby J, Gowland S, Carney HC, ym. 2021 AAHA/AAFP Feline Life Stage Guidelines. J Feline Med Surg 2021;23(3):211–233.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10812130/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Ray M, Carney HC, Boynton B, ym. 2021 AAFP Feline Senior Care Guidelines. J Feline Med Surg 2021;23(7):613–638.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10812122/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Taylor SS, Sparkes AH, Briscoe K, ym. ISFM Consensus Guidelines on the Diagnosis and Management of Hypertension in Cats. J Feline Med Surg 2017;19(3):288–303.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11119534/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'International Renal Interest Society. IRIS Staging of CKD (modified 2026).', url: 'https://www.iris-kidney.com/s/IRIS_staging_guidelines-2026.pdf', label: 'iris-kidney.com' },
+      { text: 'Luis Fuentes V, Abbott J, Chetboul V, ym. ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats. J Vet Intern Med 2020;34(3):1062–1077.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7255676/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Rodan I, Dowgray N, Carney HC, ym. 2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines: Approach and Handling Techniques. J Feline Med Surg 2022;24(11):1093–1132.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10845437/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Merck Veterinary Manual. Toxicoses From Human Analgesics in Animals.', url: 'https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals', label: 'merckvetmanual.com' }
+    ]
+  },
+  {
+    slug: 'koira-ontuu',
+    slugSv: 'hunden-haltar',
+    slugEn: 'dog-limping',
+    titleKey: 'article.doglimp.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '9.10.2026',
+    publishDate: '2026-10-09',
+    sections: ["intro", "vet.title", "vet.text", "home.title", "home.text", "leg.title", "leg.text", "young.title", "young.text", "adult.title", "adult.text", "exam.title", "exam.text", "cruciate.title", "cruciate.text", "arthritis.title", "arthritis.text", "cost.title", "cost.text", "contact.title", "contact.text"],
+    htmlSections: ["vet.text", "young.text", "exam.text", "cruciate.text", "arthritis.text", "cost.text", "contact.text"],
+    prefix: 'article.doglimp',
+    metaDesc: {
+      fi: 'Koira ontuu? Milloin eläinlääkäriin vielä tänään, mitä tarkistaa kotona, kauanko voi odottaa ja syyt iän mukaan. Ontumatutkimus Eläinklinikka Saarella 163 €.',
+      sv: 'Haltar hunden? Varningstecken som kräver veterinär i dag, vad du kollar hemma, hur länge du kan vänta, orsaker efter ålder och pris – hältundersökning 163 €.',
+      en: 'Dog limping? Red flags that need a vet today, what to check at home, how long to wait, causes by age and cost — lameness exam €163 at Saari.'
+    },
+    seoTitle: { fi: 'Koira ontuu – milloin eläinlääkäriin? Syyt ja hinta', sv: 'Hunden haltar – när till veterinären? Orsaker och pris', en: 'Dog Limping: When to See a Vet, Causes and Cost' },
+    // Hand-designed page (impeccable, 2026-10): rendered files preserved; edit the HTML + css/js/article-designed.*
+    skipBuild: true,
+    sources: [
+      { text: 'Barnes K. (2026): Orthopedic Examination in Small Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/orthopedic-examination-in-small-animals', label: 'merckvetmanual.com' },
+      { text: 'American College of Veterinary Surgeons (ACVS): Cranial Cruciate Ligament Disease.', url: 'https://www.acvs.org/small-animal/cranial-cruciate-ligament-disease/', label: 'acvs.org' },
+      { text: 'Lafuente P. (2025): Elbow Dysplasia in Dogs. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/musculoskeletal-system/arthropathies-and-related-disorders-in-small-animals/elbow-dysplasia-in-dogs', label: 'merckvetmanual.com' },
+      { text: 'Chou P.-Y. (2025): Developmental Osteopathies in Dogs and Cats (panosteitis). Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/musculoskeletal-system/osteopathies-in-small-animals/developmental-osteopathies-in-dogs-and-cats', label: 'merckvetmanual.com' },
+      { text: 'Cachon T. ym. (2023): COAST Development Group’s international consensus guidelines for the treatment of canine osteoarthritis. Frontiers in Veterinary Science 10:1137888.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10436090/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Enomoto M. ym. (2024): Prevalence of radiographic appendicular osteoarthritis and associated clinical signs in young dogs. Scientific Reports 14:2827.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10838335/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Thomas W.B. (2021, updated 2025): Degenerative Diseases of the Spinal Column and Cord in Animals (intervertebral disk disease; cervical disk herniation with thoracic-limb lameness, nerve root signature). Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/degenerative-diseases-of-the-spinal-column-and-cord-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Hovda T. (2024, updated 2025): Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals', label: 'merckvetmanual.com' }
+    ]
+  },
+  {
     slug: 'kipulääkeinfuusio',
     slugSv: 'smartlindringsinfusion',
     slugEn: 'pain-relief-infusion',
@@ -1516,8 +1577,8 @@ function loadTranslations() {
 // 2b. Related articles map (manual cross-links for SEO)
 // ──────────────────────────────────────────────
 const relatedArticles = {
-  'tta-leikkaus': ['lateral-suture', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
-  'lateral-suture': ['tta-leikkaus', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
+  'tta-leikkaus': ['lateral-suture', 'anestesiaturvallisuus', 'koira-ontuu'],
+  'lateral-suture': ['tta-leikkaus', 'anestesiaturvallisuus', 'koira-ontuu'],
   'video-otoskopia': ['koiran-korvatulehdus', 'ruoka-allergiat', 'anestesiaturvallisuus'],
   'koiran-korvatulehdus': ['video-otoskopia', 'ruoka-allergiat', 'ripuli'],
   'kipulääkeinfuusio': ['anestesiaturvallisuus', 'hypotermia', 'tta-leikkaus'],
@@ -1528,9 +1589,9 @@ const relatedArticles = {
   'periovive': ['hampaiden-harjaus', 'hammasresorptio', 'puhkeamattomat-hampaat'],
   'yksityinen-klinikka': ['kissaystävällinen-klinikka', 'anestesiaturvallisuus', 'rokotukset'],
   'ruoka-allergiat': ['viljaton-ruoka', 'ripuli', 'ibd-lymfooma'],
-  'kilpirauhasen-liikatoiminta': ['munuaisten-vajaatoiminta', 'rokotukset', 'anestesiaturvallisuus'],
-  'munuaisten-vajaatoiminta': ['kilpirauhasen-liikatoiminta', 'rokotukset', 'ruoka-allergiat'],
-  'kyynpurema': ['myrkytys', 'kohtutulehdus', 'ripuli'],
+  'kilpirauhasen-liikatoiminta': ['munuaisten-vajaatoiminta', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
+  'munuaisten-vajaatoiminta': ['kilpirauhasen-liikatoiminta', 'rokotukset', 'seniorikissan-terveystarkastus'],
+  'kyynpurema': ['myrkytys', 'kohtutulehdus', 'koira-ontuu'],
   'myrkytys': ['kyynpurema', 'kohtutulehdus', 'ripuli'],
   'kohtutulehdus': ['kyynpurema', 'anestesiaturvallisuus', 'rokotukset'],
   'siili': ['kissaystävällinen-klinikka', 'yksityinen-klinikka'],
@@ -1544,6 +1605,8 @@ const relatedArticles = {
   'hypotermia': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'avoin-valtimotiehyt-pda'],
   'anestesiaturvallisuus': ['kipulääkeinfuusio', 'hypotermia', 'klinikkaeläinhoitaja'],
   'klinikkaeläinhoitaja': ['anestesiaturvallisuus', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
+  'seniorikissan-terveystarkastus': ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'kissaystävällinen-klinikka'],
+  'koira-ontuu': ['tta-leikkaus', 'lateral-suture', 'kipulääkeinfuusio'],
 };
 
 // Article slug (FI) → related service slug(s). Articles without a natural service parent are omitted.
@@ -1572,6 +1635,8 @@ const articleToServices = {
   'ibd-lymfooma': ['sisataudit', 'tahystykset'],
   'hypotermia': ['anestesia', 'kirurgia'],
   'anestesiaturvallisuus': ['anestesia', 'kirurgia'],
+  'seniorikissan-terveystarkastus': ['senioritarkastus', 'sisataudit'],
+  'koira-ontuu': ['ortopedia', 'kuntoutus'],
 };
 
 const serviceMeta = {
@@ -1599,6 +1664,10 @@ const serviceMeta = {
                       pathFi: '/palvelut/sterilisaatio/',   pathSv: '/sv/tjanster/sterilisering/',         pathEn: '/en/services/spay-and-neuter/' },
   rokotukset:       { fi: 'Rokotukset',           sv: 'Vaccinationer',      en: 'Vaccinations',
                       pathFi: '/palvelut/rokotukset/',      pathSv: '/sv/tjanster/vaccinationer/',         pathEn: '/en/services/vaccinations/' },
+  senioritarkastus: { fi: 'Senioritutkimus', sv: 'Seniorundersökning', en: 'Senior Pet Check-up',
+                      pathFi: '/palvelut/senioritarkastus/', pathSv: '/sv/tjanster/seniorundersokning/', pathEn: '/en/services/senior-check-up/' },
+  kuntoutus: { fi: 'Hyvinvointi ja kuntoutus', sv: 'Välbefinnande och rehabilitering', en: 'Wellness and Rehabilitation',
+                      pathFi: '/palvelut/kuntoutus/', pathSv: '/sv/tjanster/rehabilitering/', pathEn: '/en/services/rehabilitation/' },
 };
 
 function generateRelatedServicesHtml(articleSlugFi, lang) {
@@ -3182,7 +3251,7 @@ const servicePages = [
       { q: 'Is the package suitable if my pet is already sick?', a: 'Yes. The Geriatric Profile panel is also a good baseline for monitoring a known condition, and the fixed price makes the cost predictable. Let us know about your pet\'s current situation when booking so we can prepare properly.' }
       ],
     },
-    relatedArticles: ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
+    relatedArticles: ['seniorikissan-terveystarkastus', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
     schemaService: 'Senior Pet Health Screening',
     faq: [
     { q: 'Mitä 299 € sisältää?', a: 'Hinta kattaa eläinlääkärikäynnin, verinäytteen oton ja tulkinnan sekä IDEXX Geriatric Profile -laboratoriopaneelin (mukaan lukien verenkuva sekä munuais-, maksa-, sokeri-, rasva- ja kilpirauhasarvot). Koirille paneeli sisältää lisäksi haiman arvot ja CRP-tulehdusmarkkerin. <strong>309 €</strong> sisältää lisäksi verenpaineen mittauksen, jota suosittelemme erityisesti kissoille ja vanhemmille koirille.' },
@@ -3669,7 +3738,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
+    relatedArticles: ['koira-ontuu', 'tta-leikkaus', 'lateral-suture'],
     schemaService: 'Veterinary Radiology',
     offers: { lowPrice: '59', highPrice: '453' }
   },
@@ -4046,7 +4115,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['kipulääkeinfuusio', 'anestesiaturvallisuus'],
+    relatedArticles: ['koira-ontuu', 'kipulääkeinfuusio', 'anestesiaturvallisuus'],
     schemaService: 'Veterinary Rehabilitation'
   },
   {
@@ -4219,7 +4288,7 @@ const servicePages = [
         { q: 'Can the cause of lameness be determined without surgery?', a: 'Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery — for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.' }
       ],
     },
-    relatedArticles: ['tta-leikkaus', 'lateral-suture', 'anestesiaturvallisuus'],
+    relatedArticles: ['koira-ontuu', 'tta-leikkaus', 'lateral-suture'],
     schemaService: 'Veterinary Orthopedics',
     procedureType: 'SurgicalProcedure',
     offers: { lowPrice: '302', highPrice: '2003' },
@@ -4413,7 +4482,7 @@ const servicePages = [
         { q: 'Is there an extra fee for an emergency appointment at Saari?', a: 'No — an acute appointment during business hours costs the same as a regular consultation. Procedures and tests are charged per our regular price list. The regional after-hours hotline has its own per-minute charges and surcharged visit fees, which are set regionally.' }
       ],
     },
-    relatedArticles: ['kyynpurema', 'kohtutulehdus', 'anestesiaturvallisuus'],
+    relatedArticles: ['kyynpurema', 'koira-ontuu', 'kohtutulehdus'],
     schemaService: 'Emergency Veterinary Care',
     faq: [
       { q: 'Voinko tulla ilman ajanvarausta hätätilanteessa?', a: 'Virka-aikana (arkisin 7:45–17) kyllä — varaamme päivittäin akuuttiaikoja juuri tätä varten. Soita aina ensin numeroon (06) 321 7300, jotta voimme valmistautua ja antaa ensiapuohjeita puhelimessa.' },
