@@ -135,6 +135,9 @@
     }
     syncRows();
     if (mqWide.addEventListener) mqWide.addEventListener('change', syncRows);
+    // A printout must show every value, whatever the screen width.
+    window.addEventListener('beforeprint', function () { rows.forEach(function (d) { d.open = true; }); });
+    window.addEventListener('afterprint', syncRows);
     rows.forEach(function (d) {
       var values = d.querySelector('.cs-values');
       d.querySelector('summary').addEventListener('click', function (e) {

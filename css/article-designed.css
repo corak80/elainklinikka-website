@@ -614,6 +614,29 @@
 }
 
 @media print {
-  .dl-rail, .dl-bar, .cs-bar, .dl-backdrop { display: none !important; }
-  .cs-sheet { box-shadow: none; }
+  .dl-rail, .dl-bar, .cs-bar, .dl-backdrop, .cs-foot-actions { display: none !important; }
+
+  /* style.css keeps every direct child div of .article-content on one page (meant for a photo +
+     caption). Here those divs are the whole article (.dl-main) or the tall sheet, so let them
+     break and keep only the small blocks together. */
+  .article-designed .article-content > div { break-inside: auto !important; page-break-inside: auto !important; }
+  .dl-lane, .cs-head, .cs-bp, .cs-results, .cs-foot, .cs-rows > li, .ad-prices li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .article-designed .article-content h2 { margin-top: 0.7cm !important; }
+
+  /* Browsers drop backgrounds when printing: re-state anything that relied on a tinted or dark ground. */
+  .dl-lane { background: none !important; border: 1px solid #c9cad6; border-radius: 10px; padding: 0.35cm 0.45cm; }
+  .dl-lane > .dl-lane-chip { background: none !important; color: var(--lane) !important; border: 1px solid currentColor; }
+  .cs-sheet { box-shadow: none; border-color: #c9cad6; }
+  .cs-head, .cs-bp { background: none !important; }
+  .cs-foot { background: none !important; color: #000 !important; border-top: 2px solid #000; }
+  .cs-price dt, .cs-price dd { color: #000 !important; }
+  .cs-rows details > summary .cs-more, .cs-count { display: none !important; }
+  .cs-cols { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr) !important; }
+  .cs-col + .cs-col { border-top: 0 !important; border-left: 1px solid #c9cad6 !important; }
+  .article-designed .cs-col h3 { font-size: 0.72rem !important; }
+  .article-designed .cs-head h2 { margin-top: 0 !important; }
+  .article-designed .cs-rows > li { font-size: 0.85rem !important; padding: 0.25rem 0 !important; }
 }
