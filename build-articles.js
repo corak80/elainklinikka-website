@@ -2172,13 +2172,13 @@ function generateArticlePage(article, translations, specialContent, lang) {
         "@type": "ListItem",
         "position": 1,
         "name": "${breadcrumbHome[lang]}",
-        "item": "${BASE_URL}/"
+        "item": "${BASE_URL}${({ sv: '/sv/', en: '/en/' })[lang] || '/'}"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "${breadcrumbArticles[lang]}",
-        "item": "${BASE_URL}/artikkelit/"
+        "item": "${BASE_URL}${({ sv: '/sv/artiklar/', en: '/en/articles/' })[lang] || '/artikkelit/'}"
       },
       {
         "@type": "ListItem",
@@ -4644,12 +4644,9 @@ function generateServicePage(service, translations, lang) {
           </a>`;
     }
     if (cards) {
-      const relatedNote = lang === 'sv' ? '<p class="related-note">Artiklarna finns tillgängliga på finska.</p>'
-        : lang === 'en' ? '<p class="related-note">Articles are available in Finnish.</p>'
-        : '';
       relatedHtml = `
       <div class="related-articles">
-        <h2>${escapeHtml(relatedTitle)}</h2>${relatedNote}
+        <h2>${escapeHtml(relatedTitle)}</h2>
         <div class="related-articles-grid">${cards}
         </div>
       </div>`;
@@ -4752,7 +4749,7 @@ function generateServicePage(service, translations, lang) {
         "@type": "ListItem",
         "position": 1,
         "name": "${breadcrumbHome[lang] || 'Etusivu'}",
-        "item": "${BASE_URL}/"
+        "item": "${BASE_URL}${({ sv: '/sv/', en: '/en/' })[lang] || '/'}"
       },
       {
         "@type": "ListItem",

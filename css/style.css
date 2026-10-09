@@ -185,25 +185,25 @@ ul {
 
 .btn-cta {
   background: var(--color-cta);
-  color: white;
+  color: var(--color-text);
   box-shadow: 0 4px 14px rgba(229, 141, 180, 0.35);
 }
 
 .btn-cta:hover {
   background: var(--color-cta-hover);
-  color: white;
+  color: var(--color-text);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(229, 141, 180, 0.45);
 }
 
 .btn-primary {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-text);
 }
 
 .btn-primary:hover {
   background: var(--color-primary-dark);
-  color: white;
+  color: var(--color-text);
   transform: translateY(-2px);
 }
 
@@ -215,7 +215,7 @@ ul {
 
 .btn-outline:hover {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-text);
 }
 
 .btn-sm {
@@ -1523,7 +1523,7 @@ a.service-card-link {
 .filter-btn.active {
   background: var(--color-primary);
   border-color: var(--color-primary);
-  color: white;
+  color: var(--color-text);
 }
 
 .article-search {
@@ -1675,7 +1675,7 @@ a.service-card-link {
 
 .article-tag {
   background: var(--color-primary-light);
-  color: var(--color-primary-dark);
+  color: #9e3468;
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   font-size: 0.85rem;
@@ -1829,7 +1829,7 @@ a.service-card-link {
   width: 1.85rem;
   height: 1.85rem;
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-text);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -2738,7 +2738,7 @@ a.service-card-link {
 
 .footer-social a:hover {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-text);
 }
 
 .footer-bottom {
@@ -3310,7 +3310,7 @@ a.service-card-link {
 
 #cookie-accept {
   background: var(--color-primary, #E58DB4);
-  color: #fff;
+  color: var(--color-text);
   font-size: var(--font-size-base, 1rem);
   padding: 0.9rem 1.5rem;
   box-shadow: 0 4px 16px rgba(229, 141, 180, 0.35);
