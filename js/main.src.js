@@ -898,9 +898,14 @@ const translations = {
   // Video-otoscopy Article
   'articles.tag.endoscopy': { fi: 'Tähystys', sv: 'Endoskopi', en: 'Endoscopy' },
   'article.otoscopy.title': {
-    fi: 'Video-otoskopia – korvien tähystystutkimus koirilla ja kissoilla',
-    sv: 'Video-otoskopi – öronendoskopi hos hundar och katter',
-    en: 'Video-Otoscopy – Ear Endoscopy in Dogs and Cats'
+    fi: 'Koiran ja kissan korvahuuhtelu nukutuksessa (video-otoskopia)',
+    sv: 'Öronspolning i narkos (video-otoskopi) – hund och katt',
+    en: 'Ear Flushing Under Anesthesia (Video-Otoscopy) – Dogs and Cats'
+  },
+  'article.otoscopy.lead': {
+    fi: 'Korvahuuhtelu nukutuksessa on toimenpide, jossa koko korvakäytävä puhdistetaan video-otoskoopin avulla. Näin tärykalvon kunto voidaan tarkistaa ja korvalääke pääsee korvakäytävän iholle asti. Eläinklinikka Saaressa Vaasassa korvahuuhtelu maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys, mutta korvanäytteiden mikroskopointi veloitetaan erikseen.',
+    sv: 'Öronspolning i narkos innebär att hela hörselgången rengörs med hjälp av ett video-otoskop, så att trumhinnan kan undersökas och öronmedicinen når huden i hörselgången. Hos oss på Djurklinik Saari i Vasa kostar öronspolningen 449–489 €, beroende på om ditt djur väger under eller över 15 kg. Narkos och smärtlindring ingår i priset, men mikroskopi av öronproverna tillkommer.',
+    en: 'An ear flush under anesthesia cleans the whole ear canal with a video-otoscope, so the eardrum can be checked and ear medicine reaches the skin of the canal. At Saari Animal Clinic in Vaasa it costs €449–489 depending on your pet’s weight (under or over 15 kg). Anesthesia and pain relief are included; microscopy of the ear samples is charged separately.'
   },
   'article.otoscopy.intro': {
     fi: 'Korvatulehdus on yksi yleisimmistä syistä, joiden vuoksi koira tuodaan eläinlääkäriin. Useimpiin korvatutkimuksiin riittää tavallinen otoskooppi, mutta turvotus ja erite voivat peittää tärykalvon näkyvistä. Video-otoskopiassa ohut, kameralla varustettu tähystin näyttää korvakäytävän suurennettuna näytöllä.',
@@ -918,9 +923,9 @@ const translations = {
     en: 'Thanks to far better magnification and lighting than a hand-held otoscope provides, even small eardrum tears can often be seen once the canal is clean. Fine instruments pass through the scope, so examination, sampling and treatment happen under a single anesthetic.'
   },
   'article.otoscopy.when.title': {
-    fi: 'Milloin video-otoskopiaa suositellaan?',
-    sv: 'När rekommenderas video-otoskopi?',
-    en: 'When Is Video-Otoscopy Recommended?'
+    fi: 'Milloin koira tai kissa tarvitsee korvahuuhtelun nukutuksessa?',
+    sv: 'När behöver en hund eller katt öronspolning?',
+    en: 'When Does a Dog or Cat Need an Ear Flush?'
   },
   'article.otoscopy.when.text': {
     fi: 'Useimmat korvatulehdukset todetaan tavallisella vastaanottokäynnillä. Video-otoskopiaa suositellaan, kun tulehdus uusiutuu toistuvasti tai ei parane hoidosta huolimatta tai kun korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin. Lisäksi sitä suositellaan, kun epäillään vierasesinettä (esimerkiksi heinänvihnettä), kasvannaista, puhjennutta tärykalvoa tai välikorvatulehdusta. Kissoilta poistetaan video-otoskopian avulla myös tulehduksellisia polyyppejä – välikorvasta lähteviä hyvänlaatuisia kasvannaisia, jotka voivat ulottua korvakäytävään asti.',
@@ -928,9 +933,9 @@ const translations = {
     en: 'Most ear infections are diagnosed at an ordinary visit. Video-otoscopy is recommended when an infection keeps returning or resists treatment; the canal is blocked with discharge or the eardrum cannot be seen; or a foreign body (such as a grass awn), a growth, a ruptured eardrum or a middle-ear infection is suspected. In cats, it is also used to remove inflammatory polyps, benign middle-ear growths that can reach the ear canal.'
   },
   'article.otoscopy.procedure.title': {
-    fi: 'Miten toimenpide etenee?',
-    sv: 'Hur går ingreppet till?',
-    en: 'How Does the Procedure Work?'
+    fi: 'Miten korvahuuhtelu tehdään?',
+    sv: 'Hur går öronspolningen till?',
+    en: 'How Is the Ear Flush Done?'
   },
   'article.otoscopy.procedure.text': {
     fi: 'Jos korvakäytävä on pahasti turvoksissa, sitä voidaan joutua ensin hoitamaan tulehdusta hillitsevällä lääkkeellä 1–3 viikon ajan. Itse toimenpide tehdään yleisanestesiassa eli nukutuksessa, ja lemmikki saa kipulääkityksen. Hengitysputki suojaa hengitysteitä, sillä jos tärykalvossa on aukko, huuhteluneste voi valua sen kautta nieluun. Korvakäytävä huuhdellaan puhtaaksi. Näytteet tutkitaan mikroskoopilla klinikkamme omassa laboratoriossa ja lähetetään tarvittaessa bakteeriviljelyyn. Vierasesineet ja polyypit voidaan poistaa, ja kasvannaisista voidaan ottaa koepala. Jos tärykalvo on ehjä mutta välikorvan sairautta epäillään, eläinlääkäri voi tehdä tärykalvoon pienen aukon (myringotomia), jonka kautta välikorvasta otetaan näyte ja välikorva huuhdellaan. Aukko umpeutuu yleensä noin viidessä viikossa, jos korvaan ei tule infektiota.',
@@ -958,14 +963,14 @@ const translations = {
     en: 'In dogs, recurring ear infections almost always have an underlying cause, most often allergy. Repeated inflammation narrows the canal, microbes shelter in a slimy biofilm, hard-to-treat bacteria such as Pseudomonas become more common, and the middle ear is often infected too. A flush clears the biofilm so medication reaches the skin of the canal, but the underlying cause must still be found and controlled.'
   },
   'article.otoscopy.cost.title': {
-    fi: 'Paljonko video-otoskopia maksaa?',
-    sv: 'Vad kostar video-otoskopi?',
-    en: 'How Much Does Video-Otoscopy Cost?'
+    fi: 'Paljonko koiran korvahuuhtelu maksaa?',
+    sv: 'Vad kostar en öronspolning?',
+    en: 'How Much Does an Ear Flush Cost?'
   },
   'article.otoscopy.cost.text': {
-    fi: 'Eläinklinikka Saaressa video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Ulkopuolisessa laboratoriossa tehtävät tutkimukset (bakteeriviljely, koepalat) ja kotiin annettavat lääkkeet veloitetaan erikseen. Tavallinen korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, maksaa käyntimaksuineen 137,79 €. Muut hintamme löydät <a href="/hinnasto/">hinnastostamme</a>.',
-    sv: 'Hos oss på Djurklinik Saari kostar en video-otoskopisk öronspolning under narkos 449–489 €, beroende på om ditt djur väger under eller över 15 kg. Analyser på ett externt laboratorium (bakterieodling, vävnadsprov) och mediciner som djuret får med sig hem tillkommer. En vanlig öronundersökning med provtagning och mikroskopi kostar 137,79 € inklusive besöksavgift. Se vår <a href="/sv/prislista/">prislista</a>.',
-    en: 'At Saari Animal Clinic, a video-otoscopic ear flush under general anesthesia costs €449–489, depending on your pet’s weight (under or over 15 kg). Outside laboratory tests (bacterial culture, biopsies) and take-home medicines are extra. An ordinary ear examination with a sample checked under the microscope costs €137.79, including the visit fee. See our <a href="/en/pricelist/">price list</a>.'
+    fi: 'Eläinklinikka Saaressa video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys. Korvanäytteiden mikroskopointi, ulkopuolisessa laboratoriossa tehtävät tutkimukset (bakteeriviljely, koepalat) ja kotiin annettavat lääkkeet veloitetaan erikseen. Tavallinen korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, maksaa käyntimaksuineen 137,79 €. Muut hintamme löydät <a href="/hinnasto/">hinnastostamme</a>.',
+    sv: 'Hos oss på Djurklinik Saari kostar en öronspolning i narkos med video-otoskopi 449–489 €, beroende på om ditt djur väger under eller över 15 kg. Narkos och smärtlindring ingår i priset. Däremot tillkommer mikroskopi av öronproverna, analyser på ett externt laboratorium (bakterieodling, vävnadsprov) och mediciner som djuret får med sig hem. En vanlig öronundersökning med provtagning och mikroskopi kostar 137,79 € inklusive besöksavgift. Se vår <a href="/sv/prislista/">prislista</a>.',
+    en: 'At Saari Animal Clinic, an ear flush under general anesthesia with video-otoscopy costs €449–489, depending on your pet’s weight (under or over 15 kg). The price includes the anesthesia and pain relief. Microscopy of the ear samples, outside laboratory tests (bacterial culture, biopsies) and take-home medicines are charged separately. An ordinary ear examination with a sample checked under the microscope costs €137.79, including the visit fee. See our <a href="/en/pricelist/">price list</a>.'
   },
   'article.otoscopy.contact.title': {
     fi: 'Milloin kannattaa ottaa yhteyttä?',
@@ -1030,14 +1035,14 @@ const translations = {
     en: "At the appointment the ear canal and eardrum are examined with an otoscope. A sample of the ear discharge is checked under the microscope right away in our clinic’s own lab: it shows whether there is yeast, bacteria, ear mites or a combination, so treatment is based on the finding, not on guesswork. The ear is cleaned and ear drops are prescribed, with antifungal, antibiotic and anti-inflammatory steroid components as needed; not every ear needs an antibiotic. If the infection keeps coming back or rod-shaped bacteria are seen, a bacterial culture and antibiotic sensitivity test may be needed. The first re-check is usually after 1–2 weeks, with the otoscope and a new sample. Treatment continues until the ear is clear — the disappearance of symptoms does not yet mean the ear is healthy. If the ear is very painful, the examination and cleaning can be done under sedation."
   },
   "article.earinfection.video.title": {
-    fi: "Milloin koira tarvitsee video-otoskopian ja korvahuuhtelun?",
-    sv: "När behövs video-otoskopi och öronspolning?",
-    en: "When are video-otoscopy and an ear flush needed?"
+    fi: "Milloin koira tarvitsee korvahuuhtelun nukutuksessa?",
+    sv: "När behöver en hund öronspolning i narkos?",
+    en: "When does a dog need an ear flush under anaesthesia?"
   },
   "article.earinfection.video.text": {
-    fi: "Jos tulehdus on krooninen tai uusiutuu hoidosta huolimatta, korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin, tarvitaan perusteellisempi tutkimus. Eläinklinikka Saaressa se tehdään video-otoskoopilla yleisanestesiassa eli nukutuksessa: ohut kamera näyttää koko korvakäytävän ja tärykalvon suurennettuna näytöllä, korvakäytävä huuhdellaan puhtaaksi eritteestä ja bakteerien muodostamasta biofilmistä, ja samalla voidaan ottaa näytteitä ja poistaa vierasesineitä. Korvalääke tehoaa vain, jos se pääsee korvakäytävän iholle asti, joten puhdas korvakäytävä on välttämätön. Lue lisää artikkelistamme <a href=\"/articles/video-otoskopia.html\">Video-otoskopia – korvan tähystys</a>.",
-    sv: "Om inflammationen är kronisk eller återkommer trots behandling, om hörselgången är igensatt av flytning eller om trumhinnan inte går att se, behövs en grundligare undersökning. Hos oss på Djurklinik Saari görs den med video-otoskop under narkos: en tunn kamera visar en förstorad bild av hela hörselgången och trumhinnan på en skärm, hörselgången spolas ren från flytning och bakteriell biofilm, och samtidigt kan vi ta prover och avlägsna främmande kroppar. Öronmedicinen verkar bara när den når huden i hörselgången, så en ren hörselgång är en förutsättning. Läs mer i vår artikel <a href=\"/sv/artiklar/video-otoskopi.html\">Video-otoskopi – öronendoskopi</a>.",
-    en: "If the infection is chronic or keeps returning despite treatment, the ear canal is blocked with discharge, or the eardrum cannot be seen, a more thorough examination is needed. At Saari Animal Clinic this is done with a video-otoscope under general anaesthesia: a thin camera shows a magnified image of the whole ear canal and eardrum on a monitor, the canal is flushed clean of discharge and bacterial biofilm, and samples can be taken and foreign bodies removed at the same time. Ear medication works only when it reaches the skin of the ear canal, so a clean canal is essential. Read more in our article <a href=\"/en/articles/video-otoscopy.html\">Video-Otoscopy — Ear Endoscopy</a>."
+    fi: "Jos tulehdus on krooninen tai uusiutuu hoidosta huolimatta, korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin, tarvitaan perusteellisempi tutkimus. Eläinklinikka Saaressa se tehdään video-otoskoopilla yleisanestesiassa eli nukutuksessa: ohut kamera näyttää koko korvakäytävän ja tärykalvon suurennettuna näytöllä, korvakäytävä huuhdellaan puhtaaksi eritteestä ja bakteerien muodostamasta biofilmistä, ja samalla voidaan ottaa näytteitä ja poistaa vierasesineitä. Korvalääke tehoaa vain, jos se pääsee korvakäytävän iholle asti, joten puhdas korvakäytävä on välttämätön. Lue lisää artikkelistamme <a href=\"/articles/video-otoskopia.html\">Korvahuuhtelu nukutuksessa (video-otoskopia)</a>.",
+    sv: "Om inflammationen är kronisk eller återkommer trots behandling, om hörselgången är igensatt av flytning eller om trumhinnan inte går att se, behövs en grundligare undersökning. Hos oss på Djurklinik Saari görs den med video-otoskop under narkos: en tunn kamera visar en förstorad bild av hela hörselgången och trumhinnan på en skärm, hörselgången spolas ren från flytning och bakteriell biofilm, och samtidigt kan vi ta prover och avlägsna främmande kroppar. Öronmedicinen verkar bara när den når huden i hörselgången, så en ren hörselgång är en förutsättning. Läs mer i vår artikel <a href=\"/sv/artiklar/video-otoskopi.html\">Öronspolning i narkos (video-otoskopi)</a>.",
+    en: "If the infection is chronic or keeps returning despite treatment, the ear canal is blocked with discharge, or the eardrum cannot be seen, a more thorough examination is needed. At Saari Animal Clinic this is done with a video-otoscope under general anaesthesia: a thin camera shows a magnified image of the whole ear canal and eardrum on a monitor, the canal is flushed clean of discharge and bacterial biofilm, and samples can be taken and foreign bodies removed at the same time. Ear medication works only when it reaches the skin of the ear canal, so a clean canal is essential. Read more in our article <a href=\"/en/articles/video-otoscopy.html\">Ear flushing under anaesthesia (video-otoscopy)</a>."
   },
   "article.earinfection.cost.title": {
     fi: "Paljonko koiran korvatulehduksen hoito maksaa?",
@@ -1045,9 +1050,9 @@ const translations = {
     en: "How much does treating a dog ear infection cost?"
   },
   "article.earinfection.cost.text": {
-    fi: "Korvatulehduskäynti Eläinklinikka Saaressa: korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, 99,79 € + käyntimaksu 38 € = yhteensä 137,79 €. Korvatipat ja muut mahdolliset kotiin annettavat lääkkeet veloitetaan erikseen. Jälkitarkastus, joka sisältää uuden näytteen ja mikroskopoinnin, maksaa 77,88 € + käyntimaksu 38 € = yhteensä 115,88 €. Video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 €. Muut hintamme löydät <a href=\"/hinnasto/\">hinnastostamme</a>. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajoissa hoidettu korvatulehdus tulee yleensä paljon edullisemmaksi kuin kroonistunut.",
-    sv: "Ett besök för öroninflammation på Djurklinik Saari: öronundersökning inklusive provtagning och mikroskopi 99,79 € + besöksavgift 38 €, alltså sammanlagt 137,79 €. Örondroppar och eventuella andra mediciner som hunden får med sig hem tillkommer. Ett kontrollbesök inklusive nytt prov och mikroskopi kostar 77,88 € + besöksavgift 38 €, alltså sammanlagt 115,88 €. Video-otoskopisk öronspolning under narkos kostar 449–489 €. Våra övriga priser hittar du i <a href=\"/sv/prislista/\">prislistan</a>. Vi har direktersättning för kunder hos LokalTapiola, Agria och Pohjola. En öroninflammation som behandlas i tid blir i regel mycket billigare än en kronisk.",
-    en: "An ear-infection visit at Saari Animal Clinic: ear examination including sampling and microscopy €99.79 + visit fee €38, i.e. €137.79 in total. Ear drops and any other medicines sent home are extra. A re-check including a new sample and microscopy costs €77.88 + visit fee €38, i.e. €115.88 in total. A video-otoscopic ear flush under general anaesthesia costs €449–489. You will find our other prices in the <a href=\"/en/pricelist/\">price list</a>. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. An ear infection treated early is usually much cheaper than a chronic one."
+    fi: "Korvatulehduskäynti Eläinklinikka Saaressa: korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, 99,79 € + käyntimaksu 38 € = yhteensä 137,79 €. Korvatipat ja muut mahdolliset kotiin annettavat lääkkeet veloitetaan erikseen. Jälkitarkastus, joka sisältää uuden näytteen ja mikroskopoinnin, maksaa 77,88 € + käyntimaksu 38 € = yhteensä 115,88 €. Video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € (nukutus ja kipulääkitys sisältyvät hintaan, korvanäytteiden mikroskopointi ei). Muut hintamme löydät <a href=\"/hinnasto/\">hinnastostamme</a>. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajoissa hoidettu korvatulehdus tulee yleensä paljon edullisemmaksi kuin kroonistunut.",
+    sv: "Ett besök för öroninflammation på Djurklinik Saari: öronundersökning inklusive provtagning och mikroskopi 99,79 € + besöksavgift 38 €, alltså sammanlagt 137,79 €. Örondroppar och eventuella andra mediciner som hunden får med sig hem tillkommer. Ett kontrollbesök inklusive nytt prov och mikroskopi kostar 77,88 € + besöksavgift 38 €, alltså sammanlagt 115,88 €. En öronspolning i narkos med video-otoskopi kostar 449–489 € (narkos och smärtlindring ingår, men mikroskopi av öronproverna tillkommer). Våra övriga priser hittar du i <a href=\"/sv/prislista/\">prislistan</a>. Vi har direktersättning för kunder hos LokalTapiola, Agria och Pohjola. En öroninflammation som behandlas i tid blir i regel mycket billigare än en kronisk.",
+    en: "An ear-infection visit at Saari Animal Clinic: ear examination including sampling and microscopy €99.79 + visit fee €38, i.e. €137.79 in total. Ear drops and any other medicines sent home are extra. A re-check including a new sample and microscopy costs €77.88 + visit fee €38, i.e. €115.88 in total. A video-otoscopic ear flush under general anaesthesia costs €449–489 (anaesthesia and pain relief included; microscopy of the ear samples is extra). You will find our other prices in the <a href=\"/en/pricelist/\">price list</a>. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. An ear infection treated early is usually much cheaper than a chronic one."
   },
   "article.earinfection.recurrent.title": {
     fi: "Miksi koiran korvatulehdus uusiutuu jatkuvasti?",

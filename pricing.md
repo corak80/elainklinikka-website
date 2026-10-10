@@ -108,7 +108,7 @@ Tooth extractions are done based on clinical examination and X-rays; price depen
 
 ## Endoscopy (Tähystystoimenpiteet)
 
-- Ear flush, video-otoscopic: 449–489 €
+- Ear flush under anaesthesia (korvahuuhtelu / öronspolning), video-otoscopic: 449–489 € by weight (under/over 15 kg); anaesthesia and pain relief included, microscopy of ear samples charged separately
 - Rhinoscopy: 529–559 €
 - Gastrointestinal and airway endoscopy: contact clinic for quote
 

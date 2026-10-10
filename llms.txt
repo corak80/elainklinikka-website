@@ -21,7 +21,7 @@
 - [Cardiac examinations](https://elainklinikkasaari.fi/palvelut/sydantutkimukset/): Heart ultrasound; Finnish Kennel Club authorised heart examiner.
 - [Surgery](https://elainklinikkasaari.fi/palvelut/kirurgia/): Orthopedic and soft-tissue surgery.
 - [Ultrasound](https://elainklinikkasaari.fi/palvelut/ultraaani/): Diagnostic ultrasound imaging.
-- [Endoscopy](https://elainklinikkasaari.fi/palvelut/tahystykset/): Gastroscopy and endoscopic diagnostics.
+- [Endoscopy](https://elainklinikkasaari.fi/palvelut/tahystykset/): Gastroscopy, video-otoscopy and ear flushing under anaesthesia, rhinoscopy and other endoscopic diagnostics.
 - [Vaccinations](https://elainklinikkasaari.fi/palvelut/rokotukset/): Dog and cat vaccination programs.
 - [Sterilisation & castration](https://elainklinikkasaari.fi/palvelut/sterilisaatio/): Neutering for dogs and cats.
 - [Official examinations](https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/): Kennel Club health examinations (heart, eyes, joints).
@@ -39,6 +39,8 @@
 - [All articles (health & care)](https://elainklinikkasaari.fi/artikkelit/): Veterinary articles on dental, cardiology, anesthesia, surgery and pet care, written by the clinic's veterinarians.
 - [Dog limping — when to see a vet](https://elainklinikkasaari.fi/en/articles/dog-limping.html): When a limping dog needs a vet immediately, the same day, or 24–48 h of strict rest; what to check at home; causes by age; what a lameness examination includes; cruciate ligament surgery (TTA, lateral suture) and osteoarthritis care at the clinic; prices (lameness examination €163). Finnish: https://elainklinikkasaari.fi/articles/koira-ontuu.html · Swedish: https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html
 - [Senior cat health check](https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html): What the senior check-up includes (clinical examination, IDEXX Geriatric Profile blood panel incl. SDMA and T4, blood pressure in the awake cat), from about 7 years of age, warning signs owners miss, and price (€299, €309 with blood pressure). Finnish: https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html · Swedish: https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html
+- [Ear flushing under anaesthesia (video-otoscopy)](https://elainklinikkasaari.fi/en/articles/video-otoscopy.html): When a dog or cat needs an ear flush (Finnish: korvahuuhtelu, Swedish: öronspolning), how the video-otoscopic flush is done, side effects, and price: €449–489 by weight (under/over 15 kg), anaesthesia and pain relief included; microscopy of the ear samples, outside laboratory tests and take-home medicines are charged separately. Finnish: https://elainklinikkasaari.fi/articles/video-otoskopia.html · Swedish: https://elainklinikkasaari.fi/sv/artiklar/video-otoskopi.html
+- [Ear infections in dogs](https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html): Symptoms, causes, why it rarely heals on its own, examination and treatment, why it keeps coming back (usually allergy), home ear care, and cost (ear examination with sampling and microscopy €137.79 incl. visit fee; re-check €115.88). Finnish: https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html · Swedish: https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html
 
 ## Languages
 
