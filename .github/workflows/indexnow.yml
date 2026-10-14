@@ -1,0 +1,39 @@
+# IndexNow ping after every push to main (see .github/scripts/indexnow.js).
+# Manual run: Actions -> IndexNow -> Run workflow, with "since" = YYYY-MM-DD to ping every page
+# whose sitemap lastmod is on or after that date.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ['**.html', 'sitemap.xml']
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Ping every sitemap page with lastmod on or after this date (YYYY-MM-DD)'
+        required: true
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+      - name: Ping IndexNow
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          SINCE: ${{ inputs.since }}
+        run: |
+          if [ -n "$SINCE" ]; then
+            node .github/scripts/indexnow.js --since "$SINCE"
+          else
+            node .github/scripts/indexnow.js
+          fi
