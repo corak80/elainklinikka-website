@@ -1524,7 +1524,7 @@ const articles = [
       { text: 'Redondo J.I. ym. (2024): Anaesthetic mortality in dogs: A worldwide analysis and risk assessment. Veterinary Record 195(1):e3604.', url: 'https://pubmed.ncbi.nlm.nih.gov/37953683/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Grubb T. ym. (2020): 2020 AAHA Anesthesia and Monitoring Guidelines for Dogs and Cats. Journal of the American Animal Hospital Association 56(2):59–82.', url: 'https://pubmed.ncbi.nlm.nih.gov/32078360/', label: 'pubmed.ncbi.nlm.nih.gov' },
       { text: 'Gruenheid M. ym. (2018): Risk of anesthesia-related complications in brachycephalic dogs. JAVMA 253(3):301–306.', url: 'https://pubmed.ncbi.nlm.nih.gov/30020004/', label: 'pubmed.ncbi.nlm.nih.gov' },
-      { text: 'Huuskonen V. (2024): Clinical justification for co-administering vatinoxan with (dex)medetomidine in dogs and sheep. Väitöskirja, Helsingin yliopisto.', url: 'http://hdl.handle.net/10138/586172', label: 'hdl.handle.net' },
+      { text: 'Huuskonen V. (2024): Clinical justification for co-administering vatinoxan with (dex)medetomidine in dogs and sheep. Väitöskirja, Helsingin yliopisto.', url: 'https://hdl.handle.net/10138/586172', label: 'hdl.handle.net' },
       { text: 'Mattila R. (2024): Nukutus on eläimelle isompi riski kuin ihmiselle. Yliopisto-lehti 9/2024, Helsingin yliopisto.', url: 'https://www.helsinki.fi/fi/uutiset/elaimet/nukutus-elaimelle-isompi-riski-kuin-ihmiselle', label: 'helsinki.fi' },
       { text: 'Helsingin yliopisto (2022): Increasingly safe canine sedation – A new veterinary drug discovery goes global.', url: 'https://www.helsinki.fi/en/news/animals/increasingly-safe-canine-sedation-new-veterinary-drug-discovery-goes-global', label: 'helsinki.fi' },
       { text: 'Union Product Database: Zenalpha 0,5 mg/ml + 10 mg/ml injektioneste, liuos, koirille.', url: 'https://medicines.health.europa.eu/veterinary/en/600000038535', label: 'medicines.health.europa.eu' },
@@ -1959,6 +1959,29 @@ function generateArticlePage(article, translations, specialContent, lang) {
 
   const title = t(article.titleKey);
   const tag = t(article.tagKey);
+  // Share image: the article's first clinic photo (in section order) when it has one,
+  // else the generic clinic photo. Used for og:image, twitter:image and Article.image.
+  const heroFig = (() => {
+    if (!article.figures) return null;
+    for (const s of article.sections || []) {
+      if (article.figures[s] && article.figures[s][0]) return article.figures[s][0];
+    }
+    for (const k of Object.keys(article.figures)) {
+      if (article.figures[k] && article.figures[k][0]) return article.figures[k][0];
+    }
+    return null;
+  })();
+  const genericImage = `${BASE_URL}/images/clinic-about.jpg`;
+  const shareImage = heroFig ? `${BASE_URL}${heroFig.src}` : genericImage;
+  const shareImageMeta = heroFig
+    ? `\n  <meta property="og:image:width" content="${heroFig.width}">\n  <meta property="og:image:height" content="${heroFig.height}">`
+    : '';
+  const schemaImage = heroFig
+    ? JSON.stringify([{ '@type': 'ImageObject', url: shareImage, width: heroFig.width, height: heroFig.height }, genericImage])
+    : JSON.stringify(genericImage);
+  // Author identity (stable @id + URL on the staff page) — same rule as the name/jobTitle below.
+  const authorIsPamela = ['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey);
+  const authorId = `${BASE_URL}/henkilokunta/#${authorIsPamela ? 'pamela-kvarngard' : 'assaf-wydra'}`;
   // Brand suffix in the page's own language. Length decisions use the FI
   // suffix (the longest) so SV/EN titles keep the same shape as before.
   const suffix = { fi: ' | Eläinklinikka Saari', sv: ' | Djurklinik Saari', en: ' | Saari Animal Clinic' }[lang] || ' | Eläinklinikka Saari';
@@ -2104,7 +2127,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
@@ -2166,7 +2189,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta property="og:url" content="${canonicalUrl}">
   <meta property="og:title" content="${escapeAttr(title)}">
   <meta property="og:description" content="${escapeAttr(description)}">
-  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:image" content="${shareImage}">${shareImageMeta}
   <meta property="og:locale" content="${ogLocale}">
   <meta property="og:site_name" content="${brandName}">
 
@@ -2174,7 +2197,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeAttr(title)}">
   <meta name="twitter:description" content="${escapeAttr(description)}">
-  <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta name="twitter:image" content="${shareImage}">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -2183,21 +2206,25 @@ function generateArticlePage(article, translations, specialContent, lang) {
     "@type": "Article",
     "headline": ${JSON.stringify(title)},
     "description": ${JSON.stringify(description)},
-    "image": "${BASE_URL}/images/clinic-about.jpg",
+    "image": ${schemaImage},
     "datePublished": "${isoDatePublished}",
     "dateModified": "${isoDateModified}",
     "author": {
       "@type": "Person",
+      "@id": "${authorId}",
+      "url": "${authorId}",
       "name": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}",
       "jobTitle": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Eläinlääkäri' : 'Eläinlääkäri, toimitusjohtaja'}",
       "worksFor": {
         "@type": "VeterinaryCare",
+        "@id": "${BASE_URL}/#clinic",
         "name": "Eläinklinikka Saari",
         "url": "${BASE_URL}"
       }
     },
     "publisher": {
-      "@type": "Organization",
+      "@type": "VeterinaryCare",
+      "@id": "${BASE_URL}/#clinic",
       "name": "Eläinklinikka Saari",
       "logo": {
         "@type": "ImageObject",
@@ -2467,7 +2494,7 @@ function generateArticleIndex(translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -2547,6 +2574,7 @@ function generateArticleIndex(translations, lang) {
     "inLanguage": "${i18n.htmlLang}",
     "isPartOf": {
       "@type": "WebSite",
+      "@id": "${BASE_URL}/#website",
       "name": "Eläinklinikka Saari",
       "url": "${BASE_URL}"
     }
@@ -4581,6 +4609,19 @@ const servicePages = [
 ];
 
 function generateServicePage(service, translations, lang) {
+  // Share image: the service's first clinic photo (lowest section index) when it has one.
+  const heroFig = (() => {
+    if (!service.figures) return null;
+    const keys = Object.keys(service.figures).map(Number).sort((a, b) => a - b);
+    for (const k of keys) {
+      if (service.figures[k] && service.figures[k][0]) return service.figures[k][0];
+    }
+    return null;
+  })();
+  const shareImage = heroFig ? `${BASE_URL}${heroFig.src}` : `${BASE_URL}/images/clinic-about.jpg`;
+  const shareImageMeta = heroFig
+    ? `\n  <meta property="og:image:width" content="${heroFig.width}">\n  <meta property="og:image:height" content="${heroFig.height}">`
+    : '';
   lang = lang || 'fi';
   const t = (key) => translations[key]?.fi || '';
   const today = new Date().toISOString().split('T')[0];
@@ -4752,7 +4793,7 @@ function generateServicePage(service, translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
   <script>
@@ -4797,14 +4838,14 @@ function generateServicePage(service, translations, lang) {
   <meta property="og:url" content="${canonicalUrl}">
   <meta property="og:title" content="${escapeAttr(pageOgTitle)}">
   <meta property="og:description" content="${escapeAttr(pageMetaDesc)}">
-  <meta property="og:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta property="og:image" content="${shareImage}">${shareImageMeta}
   <meta property="og:locale" content="${ogLocale}">
   <meta property="og:site_name" content="${brandName}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeAttr(pageOgTitle)}">
   <meta name="twitter:description" content="${escapeAttr(pageMetaDesc)}">
-  <meta name="twitter:image" content="${BASE_URL}/images/clinic-about.jpg">
+  <meta name="twitter:image" content="${shareImage}">
 
   <script type="application/ld+json">
   [{
@@ -4822,6 +4863,7 @@ function generateServicePage(service, translations, lang) {
     },
     "isPartOf": {
       "@type": "WebSite",
+      "@id": "${BASE_URL}/#website",
       "name": "Eläinklinikka Saari",
       "url": "${BASE_URL}"
     }
@@ -4839,6 +4881,12 @@ function generateServicePage(service, translations, lang) {
       {
         "@type": "ListItem",
         "position": 2,
+        "name": "${({ fi: 'Palvelut', sv: 'Tjänster', en: 'Services' })[lang] || 'Palvelut'}",
+        "item": "${BASE_URL}${({ fi: '/palvelut/', sv: '/sv/tjanster/', en: '/en/services/' })[lang] || '/palvelut/'}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
         "name": ${JSON.stringify(pageH1)},
         "item": "${canonicalUrl}"
       }
@@ -4853,6 +4901,7 @@ function generateServicePage(service, translations, lang) {
     "areaServed": {"@type": "City", "name": "Vaasa"},
     "provider": {
       "@type": "VeterinaryCare",
+      "@id": "${BASE_URL}/#clinic",
       "name": "Eläinklinikka Saari",
       "url": "${BASE_URL}",
       "telephone": "+358-6-321-7300"
@@ -4991,7 +5040,7 @@ function generatePrivacyPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>Tietosuojaseloste | Eläinklinikka Saari</title>
 
   <script>
@@ -5357,7 +5406,7 @@ function generateReviewsPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -5674,7 +5723,7 @@ function generateBookingPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script>
@@ -5811,7 +5860,7 @@ function generateAboutPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>Tietoa klinikasta | Eläinklinikka Saari</title>
 
   <script>
@@ -5863,6 +5912,7 @@ function generateAboutPage() {
   [{
     "@context": "https://schema.org",
     "@type": "VeterinaryCare",
+    "@id": "${BASE_URL}/#clinic",
     "name": "Eläinklinikka Saari",
     "description": "Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella",
     "url": "${BASE_URL}",
@@ -6028,7 +6078,7 @@ function generateContactPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net; frame-ancestors 'none'">
   <title>Yhteystiedot | Eläinklinikka Saari</title>
 
   <script>
@@ -6082,6 +6132,7 @@ function generateContactPage() {
   [{
     "@context": "https://schema.org",
     "@type": "VeterinaryCare",
+    "@id": "${BASE_URL}/#clinic",
     "name": "Eläinklinikka Saari",
     "url": "${BASE_URL}",
     "telephone": "+358-6-321-7300",

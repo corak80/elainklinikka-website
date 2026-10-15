@@ -34,6 +34,12 @@
 - [Shop details for AI assistants](https://kauppa.elainklinikkasaari.fi/llms.txt): Full product list with current prices, pickup times and the vets' notes on each product.
 - [Prescription diets](https://elainklinikkasaari.fi/en/services/prescription-diets/): Veterinary diets (Royal Canin, Specific, Hill's) are sold at the clinic, not online.
 
+## Landing pages by audience
+
+- [Veterinarian in Vaasa](https://elainklinikkasaari.fi/en/veterinarian-vaasa/): How to reach the clinic in Vaasa (Gerbyntie 18, Vetokannas / Dragnäsbäck), opening hours, emergency guidance, what the clinic does. Finnish: https://elainklinikkasaari.fi/elainlaakari-vaasa/ · Swedish: https://elainklinikkasaari.fi/sv/veterinar-vasa/
+- [Cat veterinarian in Vaasa](https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/): ISFM Cat Friendly Clinic (Silver) with a cat-only waiting area, consulting room and ward; cat prices (vaccination €75, spay €208, senior check €299); blood pressure measured in awake cats. Finnish: https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/ · Swedish: https://elainklinikkasaari.fi/sv/kattveterinar-vasa/
+- [Veterinarian for Kristinestad, Närpes and Kaskö](https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/): About an hour's drive from the southern coast; dental care with X-rays, ultrasound, cardiac examinations, orthopaedic surgery and an in-house lab; on-call numbers for those towns. Finnish: https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/ · Swedish: https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/
+
 ## Articles
 
 - [All articles (health & care)](https://elainklinikkasaari.fi/artikkelit/): Veterinary articles on dental, cardiology, anesthesia, surgery and pet care, written by the clinic's veterinarians.
