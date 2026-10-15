@@ -1,0 +1,3 @@
+# GitHub Pages (Jekyll): serve the dot-directory with security.txt; everything else default.
+include:
+  - .well-known

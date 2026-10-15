@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elainklinikkasaari.fi/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/"/>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/"/>
@@ -164,13 +164,13 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/siilihoito/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/hinnasto/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -180,7 +180,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/prislista/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -190,7 +190,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/pricelist/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/media/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/media/"/>
@@ -320,7 +320,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/elainlaakari-vaasa/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -330,7 +330,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/veterinar-vasa/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -340,7 +340,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/veterinarian-vaasa/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-vaasa/"/>
@@ -2138,7 +2138,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/"/>

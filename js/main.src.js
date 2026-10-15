@@ -3416,9 +3416,9 @@ const translations = {
     en: 'How do I book an appointment with the vet?'
   },
   'faq.home.a5': {
-    fi: 'Voit varata ajan verkossa tai soittamalla numeroon 06 321 7300. Lähetettä ei tarvita.',
-    sv: 'Du kan boka tid via vår webbtidsbokning eller genom att ringa oss på 06 321 7300. Ingen remiss behövs.',
-    en: 'You can book online or by calling 06 321 7300. No referral is needed.'
+    fi: 'Voit varata ajan verkossa tai soittamalla numeroon (06) 321 7300. Lähetettä ei tarvita.',
+    sv: 'Du kan boka tid via vår webbtidsbokning eller genom att ringa oss på (06) 321 7300. Ingen remiss behövs.',
+    en: 'You can book online or by calling (06) 321 7300. No referral is needed.'
   },
   'faq.home.q6': {
     fi: 'Millä kielillä palvelette?',

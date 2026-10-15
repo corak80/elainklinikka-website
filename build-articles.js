@@ -95,7 +95,29 @@ function generateRedirectStub(targetUrl) {
 // Shared cookie consent banner — emitted on every page so first-time visitors
 // landing on any URL can grant/deny consent. Loader for Clarity runs only
 // after consent is accepted (mirrors GA4 consent-mode v2 flow).
-function renderCookieBanner(lang, { deferredHook = false } = {}) {
+// Inline scripts are minified with esbuild at build time (deterministic; cached per snippet).
+const { execFileSync } = require('child_process');
+const minifyCache = new Map();
+function minifyJs(code) {
+  if (minifyCache.has(code)) return minifyCache.get(code);
+  let out;
+  try {
+    out = execFileSync('npx', ['--yes', 'esbuild', '--minify', '--target=es2017'], {
+      input: code, encoding: 'utf8', stdio: ['pipe', 'pipe', 'inherit'],
+    }).trim();
+  } catch (e) {
+    console.warn('  WARN: esbuild unavailable — inline script left unminified');
+    out = code;
+  }
+  minifyCache.set(code, out);
+  return out;
+}
+
+function renderCookieBanner(lang, opts) {
+  return renderCookieBannerSource(lang, opts).replace(/<script>([\s\S]*?)<\/script>/, (m, js) => `<script>${minifyJs(js)}</script>`);
+}
+
+function renderCookieBannerSource(lang, { deferredHook = false } = {}) {
   // main.js is loaded with `defer`, so window.setLanguage does not exist yet when this
   // inline script runs. The article index pages register the hook on DOMContentLoaded
   // (deferredHook); the other generated pages keep the original form — their language
@@ -1893,13 +1915,13 @@ function extractSpecialContent(indexHtml) {
 }
 
 // Photo + caption inside an article body (root-relative src works at every depth)
-function renderArticleFigure(fig, lang) {
+function renderArticleFigure(fig, lang, { eager = false } = {}) {
   const imgStyle = fig.maxWidth
     ? `width:100%; max-width:${fig.maxWidth}px; height:auto; display:block; margin:0 auto; border-radius: var(--radius-lg);`
     : 'width:100%; height:auto; display:block; border-radius: var(--radius-lg);';
   return `
           <figure style="margin: var(--spacing-lg) 0;">
-            <img src="${fig.src}" alt="${escapeAttr(fig.alt[lang] || fig.alt.fi)}" width="${fig.width}" height="${fig.height}" loading="lazy" decoding="async" style="${imgStyle}">
+            <img src="${fig.src}" alt="${escapeAttr(fig.alt[lang] || fig.alt.fi)}" width="${fig.width}" height="${fig.height}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async" style="${imgStyle}">
             <figcaption style="text-align:center; margin-top:0.5rem; font-size:var(--font-size-sm); color:var(--color-text-light);">${fig.caption[lang] || fig.caption.fi}</figcaption>
           </figure>
 `;
@@ -1909,6 +1931,7 @@ function renderArticleFigure(fig, lang) {
 // 4. Generate article HTML content
 // ──────────────────────────────────────────────
 function generateArticleBody(article, translations, specialContent, lang) {
+  let figureRendered = false; // first figure eager, see renderArticleFigure
   lang = lang || 'fi';
   const t = (key) => {
     if (translations[key] && (translations[key][lang] || translations[key].fi)) return translations[key][lang] || translations[key].fi;
@@ -1937,7 +1960,8 @@ function generateArticleBody(article, translations, specialContent, lang) {
     }
 
     for (const fig of (article.figures && article.figures[suffix]) || []) {
-      html += renderArticleFigure(fig, lang);
+      html += renderArticleFigure(fig, lang, { eager: !figureRendered });
+      figureRendered = true;
     }
 
     // Insert special hedgehog content after nest.text
@@ -1969,8 +1993,22 @@ function generateArticleBody(article, translations, specialContent, lang) {
     const srcHeading = { fi: 'Lähteet', sv: 'Källor', en: 'Sources' }[lang] || 'Lähteet';
     html += `\n          <h2 data-i18n="article.sources.heading">${srcHeading}</h2>\n`;
     html += `          <ol class="article-sources">\n`;
+    // Identical link text must not lead to different URLs (a11y): when two citations share
+    // a site label, add the URL's last path segment ("pmc.ncbi.nlm.nih.gov/PMC4356678"),
+    // and number them if even that collides.
+    const labelCount = {};
+    for (const s of article.sources) labelCount[s.label || s.url] = (labelCount[s.label || s.url] || 0) + 1;
+    const used = {};
     for (const s of article.sources) {
-      html += `            <li>${s.text} <a href="${s.url}" target="_blank" rel="noopener nofollow">${s.label || s.url}</a></li>\n`;
+      let label = s.label || s.url;
+      if (labelCount[label] > 1) {
+        const segs = s.url.replace(/^https?:\/\/[^/]+/, '').replace(/[?#].*$/, '').split('/').filter(Boolean);
+        const seg = (segs[segs.length - 1] || '').slice(0, 40);
+        if (seg) label = `${label}/${seg}`;
+      }
+      used[label] = (used[label] || 0) + 1;
+      if (used[label] > 1) label = `${label} (${used[label]})`;
+      html += `            <li>${s.text} <a href="${s.url}" target="_blank" rel="noopener nofollow">${label}</a></li>\n`;
     }
     html += `          </ol>\n`;
   }
@@ -2639,7 +2677,7 @@ function generateArticleIndex(translations, lang) {
       <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
         <img src="/images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
-${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUrl })}
+${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
     </div>
   </header>
 
@@ -4644,6 +4682,7 @@ const servicePages = [
 ];
 
 function generateServicePage(service, translations, lang) {
+  let serviceFigureRendered = false; // first figure eager, see renderArticleFigure
   // Share image: the service's first clinic photo (lowest section index) when it has one.
   const heroFig = (() => {
     if (!service.figures) return null;
@@ -4779,7 +4818,8 @@ function generateServicePage(service, translations, lang) {
           <h2>${escapeHtml(section.heading)}</h2>
           ${isBlock ? sectionHtml : `<p>${sectionHtml}</p>`}`;
     for (const fig of (service.figures && service.figures[sectionIndex]) || []) {
-      sectionsHtml += renderArticleFigure(fig, lang).replace(/\n$/, '');
+      sectionsHtml += renderArticleFigure(fig, lang, { eager: !serviceFigureRendered }).replace(/\n$/, '');
+      serviceFigureRendered = true;
     }
   }
 
@@ -6867,9 +6907,11 @@ const REVIEWS_URLS = { fi: '/arvostelut/', sv: '/sv/omdomen/', en: '/en/reviews/
 const REVIEWS_LABELS = { fi: 'Arvostelut', sv: 'Omdömen', en: 'Reviews' };
 
 function getArticlesUrl(lang) {
-  if (lang === 'sv') return `${BASE_URL}/sv/artiklar/`;
-  if (lang === 'en') return `${BASE_URL}/en/articles/`;
-  return `${BASE_URL}/artikkelit/`;
+  // Root-relative on purpose: the footer links the same page root-relatively, and an
+  // identical link text pointing at "two" URLs (absolute vs relative) trips a11y checks.
+  if (lang === 'sv') return '/sv/artiklar/';
+  if (lang === 'en') return '/en/articles/';
+  return '/artikkelit/';
 }
 
 // Canonical nav labels used in every page's header (single source of truth).

@@ -106,7 +106,7 @@
     "url": "https://elainklinikkasaari.fi",
     "logo": "https://elainklinikkasaari.fi/images/logo.png",
     "image": "https://elainklinikkasaari.fi/images/clinic-about.jpg",
-    "telephone": "+358-6-3217300",
+    "telephone": "+358-6-321-7300",
     "email": "info@saarivet.fi",
     "address": {
       "@type": "PostalAddress",
@@ -454,7 +454,7 @@ a.hero-badge{text-decoration:none}
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" aria-hidden="true" data-src="/media/clinic.mp4"></video>
+    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" poster="/media/clinic-poster.jpg" aria-hidden="true" data-src="/media/clinic.mp4"></video>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
@@ -488,7 +488,7 @@ a.hero-badge{text-decoration:none}
         </a>
       </div>
       <div class="hero-photo">
-        <a href="#team" aria-label="Tutustu henkilökuntaan"><img src="/images/team-hero-1200.webp" srcset="/images/team-hero-800.webp 800w, /images/team-hero-1200.webp 1200w, /images/team-hero.webp 1600w" sizes="(max-width: 900px) 92vw, 560px" alt="Eläinklinikka Saari team" width="1600" height="1067" loading="lazy"></a>
+        <a href="#team" aria-label="Tutustu henkilökuntaan"><img src="/images/team-hero-1200.webp" srcset="/images/team-hero-800.webp 800w, /images/team-hero-1200.webp 1200w, /images/team-hero.webp 1600w" sizes="(max-width: 900px) 92vw, 560px" alt="Eläinklinikka Saari team" width="1600" height="1067" fetchpriority="high"></a>
       </div>
     </div>
   </section>
@@ -979,7 +979,7 @@ a.hero-badge{text-decoration:none}
       { "@type": "Question", "name": "Mitkä ovat Eläinklinikka Saaren aukioloajat?", "acceptedAnswer": { "@type": "Answer", "text": "Klinikka on avoinna maanantaista perjantaihin klo 7:45–17. Viikonloppuisin klinikka on suljettu. Varaamme päivittäin akuuttiaikoja kiireellisiä tapauksia varten." } },
       { "@type": "Question", "name": "Onko teillä päivystystä iltaisin ja viikonloppuisin?", "acceptedAnswer": { "@type": "Answer", "text": "Iltaisin ja viikonloppuisin ota yhteyttä Pohjoisen päivystysalueen numeroon 0600 399 299. Arkisin klo 7:45–17 meillä on päivittäin akuuttiaikoja." } },
       { "@type": "Question", "name": "Mitä eläimiä hoidatte?", "acceptedAnswer": { "@type": "Answer", "text": "Hoidamme koiria, kissoja sekä muita pieneläimiä, kuten kaneja ja jyrsijöitä. Olemme virallisesti Cat Friendly -sertifioitu klinikka." } },
-      { "@type": "Question", "name": "Miten varaan ajan eläinlääkärille?", "acceptedAnswer": { "@type": "Answer", "text": "Voit varata ajan verkossa tai soittamalla numeroon 06 321 7300. Lähetettä ei tarvita." } },
+      { "@type": "Question", "name": "Miten varaan ajan eläinlääkärille?", "acceptedAnswer": { "@type": "Answer", "text": "Voit varata ajan verkossa tai soittamalla numeroon (06) 321 7300. Lähetettä ei tarvita." } },
       { "@type": "Question", "name": "Millä kielillä palvelette?", "acceptedAnswer": { "@type": "Answer", "text": "Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi." } }
     ]
   }
@@ -1009,7 +1009,7 @@ a.hero-badge{text-decoration:none}
         </div>
         <div class="faq-item" style="padding:var(--spacing-md) 0;border-bottom:1px solid var(--color-border,#e6e6e6);">
           <h3 data-i18n="faq.home.q5" style="margin:0 0 .5rem;font-size:1.15rem;">Miten varaan ajan eläinlääkärille?</h3>
-          <p data-i18n="faq.home.a5" style="margin:0;">Voit varata ajan verkossa tai soittamalla numeroon 06 321 7300. Lähetettä ei tarvita.</p>
+          <p data-i18n="faq.home.a5" style="margin:0;">Voit varata ajan verkossa tai soittamalla numeroon (06) 321 7300. Lähetettä ei tarvita.</p>
         </div>
         <div class="faq-item" style="padding:var(--spacing-md) 0;">
           <h3 data-i18n="faq.home.q6" style="margin:0 0 .5rem;font-size:1.15rem;">Millä kielillä palvelette?</h3>
@@ -1083,73 +1083,7 @@ a.hero-badge{text-decoration:none}
     </div>
   </div>
 
-  <script>
-    (function() {
-      var consent = localStorage.getItem('cookie_consent');
-      if (consent === 'accepted') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'granted',
-          'ad_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted'
-        });
-        loadClarity();
-      } else if (consent !== 'declined') {
-        document.getElementById('cookie-consent').style.display = 'flex';
-      }
-
-      var cookieTexts = {
-        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-      };
-
-      function updateCookieText() {
-        var lang = localStorage.getItem('preferredLanguage') || 'fi';
-        var t = cookieTexts[lang] || cookieTexts.fi;
-        var el = document.getElementById('cookie-consent-text');
-        if (el) el.textContent = t.text;
-        var acceptBtn = document.getElementById('cookie-accept');
-        if (acceptBtn) acceptBtn.textContent = t.accept;
-        var declineBtn = document.getElementById('cookie-decline');
-        if (declineBtn) declineBtn.textContent = t.decline;
-      }
-      updateCookieText();
-
-      document.addEventListener('DOMContentLoaded', function() {
-        var origSetLang = window.setLanguage;
-        window.setLanguage = function(lang) {
-          if (origSetLang) origSetLang(lang);
-          updateCookieText();
-        };
-      });
-    })();
-
-    function loadClarity() {
-      if (window.clarity) return;
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "x3bktm0h06");
-    }
-    function acceptCookies() {
-      localStorage.setItem('cookie_consent', 'accepted');
-      document.getElementById('cookie-consent').style.display = 'none';
-      gtag('consent', 'update', {
-        'analytics_storage': 'granted',
-        'ad_storage': 'granted',
-        'ad_user_data': 'granted',
-        'ad_personalization': 'granted'
-      });
-      loadClarity();
-    }
-
-    function declineCookies() {
-      localStorage.setItem('cookie_consent', 'declined');
-      document.getElementById('cookie-consent').style.display = 'none';
-    }
-  </script>
+  <script>(function(){var e=localStorage.getItem("cookie_consent");e==="accepted"?(gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()):e!=="declined"&&(document.getElementById("cookie-consent").style.display="flex");var c={fi:{text:"K\xE4yt\xE4mme ev\xE4steit\xE4 sivuston k\xE4vij\xE4liikenteen ja k\xE4yt\xF6n analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Ev\xE4steit\xE4 k\xE4ytet\xE4\xE4n vain, jos hyv\xE4ksyt ne.",accept:"Hyv\xE4ksy",decline:"Hylk\xE4\xE4"},sv:{text:"Vi anv\xE4nder cookies f\xF6r att analysera webbplatstrafiken och anv\xE4ndningen med Google Analytics och Microsoft Clarity. Cookies anv\xE4nds bara om du godk\xE4nner dem.",accept:"Godk\xE4nn",decline:"Avvisa"},en:{text:"We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.",accept:"Accept",decline:"Decline"}};function t(){var n=localStorage.getItem("preferredLanguage")||"fi",a=c[n]||c.fi,o=document.getElementById("cookie-consent-text");o&&(o.textContent=a.text);var i=document.getElementById("cookie-accept");i&&(i.textContent=a.accept);var d=document.getElementById("cookie-decline");d&&(d.textContent=a.decline)}t(),document.addEventListener("DOMContentLoaded",function(){var n=window.setLanguage;window.setLanguage=function(a){n&&n(a),t()}})})();function loadClarity(){window.clarity||(function(e,c,t,n,a,o,i){e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},o=c.createElement(n),o.async=1,o.src="https://www.clarity.ms/tag/"+a,i=c.getElementsByTagName(n)[0],i.parentNode.insertBefore(o,i)})(window,document,"clarity","script","x3bktm0h06")}function acceptCookies(){localStorage.setItem("cookie_consent","accepted"),document.getElementById("cookie-consent").style.display="none",gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()}function declineCookies(){localStorage.setItem("cookie_consent","declined"),document.getElementById("cookie-consent").style.display="none"}</script>
 <script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=navigator.connection;if(c&&c.saveData)return;if(Math.min(screen.width,innerWidth)<720)return;var started=false;var start=function(){if(started)return;started=true;v.src=v.getAttribute('data-src');v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};v.addEventListener('canplay',go,{once:true});v.load();document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});};if(document.readyState==='complete')start();else addEventListener('load',start);})();</script>
 </body>
 </html>

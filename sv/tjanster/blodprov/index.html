@@ -128,7 +128,7 @@
           <a href="/sv/prislista/">Prislista</a>
           <a href="/sv/#wildlife">Wildlife</a>
           <a href="/sv/#contact">Kontakt</a>
-          <a href="https://elainklinikkasaari.fi/sv/artiklar/">Artiklar</a>
+          <a href="/sv/artiklar/">Artiklar</a>
           <a href="https://kauppa.elainklinikkasaari.fi/?lang=sv" class="nav-shop"><svg class="nav-shop-ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg><span>Webbutik</span></a>
           <a href="https://my.provet.com/elainklinikka-saari" rel="noopener" class="btn btn-cta mobile-cta" onclick="fbq('track','Schedule');">Boka tid</a>
         </div>
@@ -264,72 +264,7 @@
     </div>
   </div>
 
-  <script>
-    (function() {
-      var consent = localStorage.getItem('cookie_consent');
-      if (consent === 'accepted') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'granted',
-          'ad_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted'
-        });
-        loadClarity();
-      } else if (consent !== 'declined') {
-        document.getElementById('cookie-consent').style.display = 'flex';
-      }
-
-      var cookieTexts = {
-        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-      };
-
-      function updateCookieText() {
-        var lang = localStorage.getItem('preferredLanguage') || 'fi';
-        var t = cookieTexts[lang] || cookieTexts.fi;
-        var el = document.getElementById('cookie-consent-text');
-        if (el) el.textContent = t.text;
-        var acceptBtn = document.getElementById('cookie-accept');
-        if (acceptBtn) acceptBtn.textContent = t.accept;
-        var declineBtn = document.getElementById('cookie-decline');
-        if (declineBtn) declineBtn.textContent = t.decline;
-      }
-      updateCookieText();
-
-      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };
-    })();
-
-    function loadClarity() {
-      if (window.clarity) return;
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "x3bktm0h06");
-    }
-
-    function acceptCookies() {
-      localStorage.setItem('cookie_consent', 'accepted');
-      document.getElementById('cookie-consent').style.display = 'none';
-      gtag('consent', 'update', {
-        'analytics_storage': 'granted',
-        'ad_storage': 'granted',
-        'ad_user_data': 'granted',
-        'ad_personalization': 'granted'
-      });
-      loadClarity();
-    }
-
-    function declineCookies() {
-      localStorage.setItem('cookie_consent', 'declined');
-      document.getElementById('cookie-consent').style.display = 'none';
-    }
-  </script>
+  <script>(function(){var t=localStorage.getItem("cookie_consent");t==="accepted"?(gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()):t!=="declined"&&(document.getElementById("cookie-consent").style.display="flex");var o={fi:{text:"K\xE4yt\xE4mme ev\xE4steit\xE4 sivuston k\xE4vij\xE4liikenteen ja k\xE4yt\xF6n analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Ev\xE4steit\xE4 k\xE4ytet\xE4\xE4n vain, jos hyv\xE4ksyt ne.",accept:"Hyv\xE4ksy",decline:"Hylk\xE4\xE4"},sv:{text:"Vi anv\xE4nder cookies f\xF6r att analysera webbplatstrafiken och anv\xE4ndningen med Google Analytics och Microsoft Clarity. Cookies anv\xE4nds bara om du godk\xE4nner dem.",accept:"Godk\xE4nn",decline:"Avvisa"},en:{text:"We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.",accept:"Accept",decline:"Decline"}};function n(){var c=localStorage.getItem("preferredLanguage")||"fi",e=o[c]||o.fi,a=document.getElementById("cookie-consent-text");a&&(a.textContent=e.text);var s=document.getElementById("cookie-accept");s&&(s.textContent=e.accept);var d=document.getElementById("cookie-decline");d&&(d.textContent=e.decline)}n();var i=window.setLanguage;window.setLanguage=function(c){i&&i(c),n()}})();function loadClarity(){window.clarity||(function(t,o,n,i,c,e,a){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},e=o.createElement(i),e.async=1,e.src="https://www.clarity.ms/tag/"+c,a=o.getElementsByTagName(i)[0],a.parentNode.insertBefore(e,a)})(window,document,"clarity","script","x3bktm0h06")}function acceptCookies(){localStorage.setItem("cookie_consent","accepted"),document.getElementById("cookie-consent").style.display="none",gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()}function declineCookies(){localStorage.setItem("cookie_consent","declined"),document.getElementById("cookie-consent").style.display="none"}</script>
 
 </body>
 </html>
