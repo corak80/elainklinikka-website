@@ -22,20 +22,41 @@ const SHOP_URLS = { fi: 'https://kauppa.elainklinikkasaari.fi/', sv: 'https://ka
 const SHOP_LABELS = { fi: 'Verkkokauppa', sv: 'Webbutik', en: 'Online shop' };
 const SHOP_CART_SVG = '<svg class="nav-shop-ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>';
 
-// Cache-busting suffix for /css/style.css and /js/main.js, e.g. "?v=20260803c".
+// Cache-busting suffixes for /js/main.js and /css/style.css, e.g. "?v=20260803c".
 // The homepage is hand-maintained, so index.html is the single source of truth:
 // bump the ?v= there and every generated page follows on the next build. Without
 // this, generated pages request the unversioned URL — which both serves stale
 // CSS/JS after a deploy and caches main.js twice under two different keys.
-const ASSET_VERSION = (() => {
-  const m = fs.readFileSync(INDEX_PATH, 'utf8').match(/js\/main\.js\?v=([A-Za-z0-9._-]+)/);
+// The two files are versioned independently (CSS-only deploys bump only style.css).
+function assetVersion(file, pattern) {
+  const m = fs.readFileSync(INDEX_PATH, 'utf8').match(pattern);
   if (!m) {
-    console.warn('  WARN: no ?v= found on main.js in index.html — generated pages will be unversioned');
+    console.warn(`  WARN: no ?v= found on ${file} in index.html — generated pages will be unversioned`);
     return '';
   }
   return m[1];
-})();
+}
+const ASSET_VERSION = assetVersion('main.js', /js\/main\.js\?v=([A-Za-z0-9._-]+)/);
 const ASSET_Q = ASSET_VERSION ? `?v=${ASSET_VERSION}` : '';
+const CSS_VERSION = assetVersion('style.css', /css\/style\.css\?v=([A-Za-z0-9._-]+)/);
+const CSS_Q = CSS_VERSION ? `?v=${CSS_VERSION}` : '';
+
+// js/main.js is built from js/main.src.js by build-main-js.js, which drops the
+// `article.*` translation keys (the article bodies — they live in the static HTML).
+// A bundle that still carries them was built by hand with a bare `npx esbuild`;
+// warn so it is rebuilt before deploy instead of shipping 680 KB of dead weight.
+(() => {
+  const mainJs = path.join(ROOT, 'js', 'main.js');
+  if (fs.existsSync(mainJs) && fs.readFileSync(mainJs, 'utf8').includes('"article.')) {
+    console.warn('  WARN: js/main.js still contains article.* translations — run `node build-main-js.js`');
+  }
+})();
+
+// '27.9.2026' → '2026-09-27' for <time datetime="…">.
+function isoDate(dmy) {
+  const m = /^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(dmy || '');
+  return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : '';
+}
 
 // Returns the localized slug for an article in the given language.
 // Falls back to the Finnish slug if no localized slug is defined.
@@ -68,7 +89,24 @@ function generateRedirectStub(targetUrl) {
 // Shared cookie consent banner — emitted on every page so first-time visitors
 // landing on any URL can grant/deny consent. Loader for Clarity runs only
 // after consent is accepted (mirrors GA4 consent-mode v2 flow).
-function renderCookieBanner(lang) {
+function renderCookieBanner(lang, { deferredHook = false } = {}) {
+  // main.js is loaded with `defer`, so window.setLanguage does not exist yet when this
+  // inline script runs. The article index pages register the hook on DOMContentLoaded
+  // (deferredHook); the other generated pages keep the original form — their language
+  // toggle is a link to the translated URL, so the hook never fires there anyway.
+  const setLanguageHook = deferredHook
+    ? `      document.addEventListener('DOMContentLoaded', function() {
+        var origSetLang = window.setLanguage;
+        window.setLanguage = function(lang) {
+          if (origSetLang) origSetLang(lang);
+          updateCookieText();
+        };
+      });`
+    : `      var origSetLang = window.setLanguage;
+      window.setLanguage = function(lang) {
+        if (origSetLang) origSetLang(lang);
+        updateCookieText();
+      };`;
   const cookieBanner = {
     fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
     sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
@@ -120,11 +158,7 @@ function renderCookieBanner(lang) {
       }
       updateCookieText();
 
-      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };
+${setLanguageHook}
     })();
 
     function loadClarity() {
@@ -767,6 +801,7 @@ const articles = [
     slugSv: 'oppen-ductus-arteriosus-pda',
     slugEn: 'patent-ductus-arteriosus-pda',
     titleKey: 'article.pda.title',
+    seoTitle: { sv: 'Öppen ductus arteriosus (PDA) hos hundar' },
     tagKey: 'articles.filter.cardiology',
     category: 'cardiology',
     date: '27.9.2026',
@@ -1671,6 +1706,15 @@ const serviceMeta = {
                       pathFi: '/palvelut/kuntoutus/', pathSv: '/sv/tjanster/rehabilitering/', pathEn: '/en/services/rehabilitation/' },
 };
 
+// Typography (commit bdc958d7, 20-09-2026): Finnish and Swedish copy uses the en dash,
+// English keeps the em dash. The service / about / contact / reviews texts in this file
+// still carry em dashes, so those pages are converted on the way out. Article pages are
+// NOT converted: their body text comes from js/main.src.js (already en-dashed) and their
+// English-language source citations legitimately keep em dashes.
+function fiSvDashes(html, lang) {
+  return lang === 'en' ? html : html.replace(/—/g, '–');
+}
+
 function generateRelatedServicesHtml(articleSlugFi, lang) {
   lang = lang || 'fi';
   const services = articleToServices[articleSlugFi];
@@ -2192,8 +2236,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -2206,7 +2249,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="${assetPrefix}images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
 
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
@@ -2220,7 +2263,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
       <article class="article-card" data-category="${article.category}">
         <div class="article-header">
           <span class="article-tag">${tag}</span>
-${article.date ? `          <time>${article.date}</time>\n` : ''}        </div>
+${article.date ? `          <time datetime="${isoDate(article.date)}">${article.date}</time>\n` : ''}        </div>
         <h1>${title}</h1>
         <div class="article-byline">${lang === 'en' ? 'Veterinarian' : lang === 'sv' ? 'Veterinär' : 'Eläinlääkäri'} ${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>
         <div class="article-content">
@@ -2399,11 +2442,12 @@ function generateArticleIndex(translations, lang) {
     const tag = m ? m.tag : t(article.tagKey);
     const slug = articleSlug(article, lang);
     const cat = article.category || 'health';
-    const year = article.date || '2026';
+    // Cards show the article's review date when it has one (same as the article page), else the year.
+    const cardDate = article.date || '';
     cardsHtml += `      <article class="article-card" data-category="${cat}">
         <div class="article-header">
           <span class="article-tag">${escapeHtml(tag)}</span>
-          <time>${escapeHtml(year)}</time>
+          <time${cardDate ? ` datetime="${isoDate(cardDate)}"` : ''}>${escapeHtml(cardDate || '2026')}</time>
         </div>
         <h2><a href="${articleBase}${slug}.html">${escapeHtml(title)}</a></h2>
         <div class="article-content">
@@ -2438,8 +2482,24 @@ function generateArticleIndex(translations, lang) {
     gtag('js', new Date());
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
+    // fbq stub (buttons call it inline) + delayed tag loading: gtag.js loads
+    // on first interaction or shortly after load; queued calls replay intact.
+    if(!window.fbq){(function(f){var n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[]})(window);}
+    (function(){
+      var done=false;
+      function loadTags(){
+        if(done)return;done=true;
+        var s=document.createElement('script');s.async=true;
+        s.src='https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2';
+        document.head.appendChild(s);
+      }
+      ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){
+        addEventListener(ev,loadTags,{passive:true,once:true});
+      });
+      if(document.readyState==='complete'){setTimeout(loadTags,1200);}
+      else{addEventListener('load',function(){setTimeout(loadTags,1200);});}
+    })();
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -2502,8 +2562,7 @@ function generateArticleIndex(translations, lang) {
   </script>
 
   <link rel="preload" as="image" href="/images/logo.png">
-  <link rel="preload" as="image" href="/images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="/css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="/css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -2515,7 +2574,7 @@ function generateArticleIndex(translations, lang) {
         <div class="logo-icon"><img src="/images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="/images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="/images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: canonicalUrl, fiUrl, svUrl, enUrl })}
     </div>
@@ -2583,7 +2642,7 @@ ${cardsHtml}
   </footer>
 
   <script src="/js/main.js${ASSET_Q}" defer></script>
-${renderCookieBanner(lang)}
+${renderCookieBanner(lang, { deferredHook: true })}
 </body>
 </html>`;
 }
@@ -4824,8 +4883,7 @@ function generateServicePage(service, translations, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="preload" as="image" href="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4837,7 +4895,7 @@ function generateServicePage(service, translations, lang) {
         <div class="logo-icon"><img src="${assetPrefix}images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="${homeUrl}#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="${assetPrefix}images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="${assetPrefix}images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
 ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svUrl, enUrl })}
     </div>
@@ -4965,8 +5023,7 @@ function generatePrivacyPage() {
   <meta property="og:site_name" content="Eläinklinikka Saari">
 
   <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="../css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -4979,7 +5036,7 @@ function generatePrivacyPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
  ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/tietosuoja/', svUrl: BASE_URL + '/sv/', enUrl: BASE_URL + '/en/' })}
     </div>
@@ -5352,7 +5409,7 @@ function generateReviewsPage(lang) {
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -5670,7 +5727,7 @@ function generateBookingPage(lang) {
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -5706,7 +5763,7 @@ function generateBookingPage(lang) {
         </a>
 
         <section class="booking-secondary" aria-label="${escapeAttr(i18n.methodsHeading)}">
-          <a class="booking-method booking-method--online" href="${provetUrl}" rel="noopener" onclick="if(typeof gtag_report_conversion==='function')gtag_report_conversion();if(typeof fbq==='function')fbq('track','Schedule');">
+          <a class="booking-method booking-method--online" href="${provetUrl}" rel="noopener" onclick="if(typeof fbq==='function')fbq('track','Schedule');">
             <span class="booking-method-icon">🌐</span>
             <span class="booking-method-title">${escapeHtml(i18n.onlineTitle)}</span>
             <span class="booking-method-value">${escapeHtml(i18n.onlineCta)} →</span>
@@ -5838,8 +5895,7 @@ function generateAboutPage() {
   </script>
 
   <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="../css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -5851,7 +5907,7 @@ function generateAboutPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
  ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/meista/', svUrl: BASE_URL + '/sv/#about', enUrl: BASE_URL + '/en/#about' })}
     </div>
@@ -6062,8 +6118,7 @@ function generateContactPage() {
   </script>
 
   <link rel="preload" as="image" href="../images/logo.png">
-  <link rel="preload" as="image" href="../images/cat-friendly-clinic-silver-2026.webp">
-  <link rel="stylesheet" href="../css/style.css${ASSET_Q}">
+  <link rel="stylesheet" href="../css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="../images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -6075,7 +6130,7 @@ function generateContactPage() {
         <div class="logo-icon"><img src="../images/logo.png" alt="Eläinklinikka Saari" width="240" height="240"></div>
       </a>
       <a href="../#cat-friendly" class="header-credential" aria-label="Silver accredited Cat Friendly Clinic 2026">
-        <img src="../images/cat-friendly-clinic-silver-2026.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="1284" height="686">
+        <img src="../images/cat-friendly-badge-header.webp" alt="Silver accredited Cat Friendly Clinic 2026" width="240" height="128">
       </a>
  ${renderHeaderNav({ lang: 'fi', homeUrl: '../', articlesUrl: getArticlesUrl('fi'), fiUrl: BASE_URL + '/yhteystiedot/', svUrl: BASE_URL + '/sv/kontakt/', enUrl: BASE_URL + '/en/contact/' })}
     </div>
@@ -6636,6 +6691,22 @@ ${links}  </url>
   </url>
 `;
 
+  // Town landing pages for the southern coast (FI + SV + EN, hreflang-linked)
+  const townLandingHreflang = `    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/elainlaakari-kristiinankaupunki/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="${BASE_URL}/sv/veterinar-narpes-kristinestad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${BASE_URL}/en/veterinarian-kristinestad-narpes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/elainlaakari-kristiinankaupunki/"/>
+`;
+  for (const townUrl of ['/elainlaakari-kristiinankaupunki/', '/sv/veterinar-narpes-kristinestad/', '/en/veterinarian-kristinestad-narpes/']) {
+    xml += `  <url>
+    <loc>${BASE_URL}${townUrl}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+${townLandingHreflang}  </url>
+`;
+  }
+
   xml += `</urlset>
 `;
   // Sitemap URLs must be percent-encoded (a few FI slugs contain ä).
@@ -6836,7 +6907,7 @@ function main() {
     if (!fs.existsSync(serviceDir)) {
       fs.mkdirSync(serviceDir, { recursive: true });
     }
-    const htmlFi = generateServicePage(service, translations, 'fi');
+    const htmlFi = fiSvDashes(generateServicePage(service, translations, 'fi'), 'fi');
     writeGenerated(path.join(serviceDir, 'index.html'), htmlFi);
     console.log(`  palvelut/${service.slug}/index.html - ${service.h1}`);
 
@@ -6845,7 +6916,7 @@ function main() {
     if (!fs.existsSync(svDir)) {
       fs.mkdirSync(svDir, { recursive: true });
     }
-    const htmlSv = generateServicePage(service, translations, 'sv');
+    const htmlSv = fiSvDashes(generateServicePage(service, translations, 'sv'), 'sv');
     writeGenerated(path.join(svDir, 'index.html'), htmlSv);
     console.log(`  sv/tjanster/${service.slugSv}/index.html - ${service.sv.h1}`);
 
@@ -6879,7 +6950,7 @@ function main() {
   if (!fs.existsSync(aboutDir)) {
     fs.mkdirSync(aboutDir, { recursive: true });
   }
-  const aboutPage = generateAboutPage();
+  const aboutPage = fiSvDashes(generateAboutPage(), 'fi');
   writeGenerated(path.join(aboutDir, 'index.html'), aboutPage);
   console.log('  Generated meista/index.html');
 
@@ -6889,7 +6960,7 @@ function main() {
   if (!fs.existsSync(contactDir)) {
     fs.mkdirSync(contactDir, { recursive: true });
   }
-  const contactPage = generateContactPage();
+  const contactPage = fiSvDashes(generateContactPage(), 'fi');
   writeGenerated(path.join(contactDir, 'index.html'), contactPage);
   console.log('  Generated yhteystiedot/index.html');
 
@@ -6912,7 +6983,7 @@ function main() {
   ];
   for (const t of reviewsTargets) {
     if (!fs.existsSync(t.dir)) fs.mkdirSync(t.dir, { recursive: true });
-    const html = generateReviewsPage(t.lang);
+    const html = fiSvDashes(generateReviewsPage(t.lang), t.lang);
     writeGenerated(path.join(t.dir, 'index.html'), html);
     console.log(`  Generated ${t.label}`);
   }

@@ -2224,7 +2224,7 @@ const translations = {
   'article.poison.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   "article.poison.title": {
     fi: "Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti",
-    sv: "Förgiftning hos hund och katt — symtom, första hjälpen och när du bör agera genast",
+    sv: "Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast",
     en: "Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away"
   },
   "article.poison.intro": {
