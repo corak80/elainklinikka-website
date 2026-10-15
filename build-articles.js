@@ -586,6 +586,7 @@ const articles = [
     slugSv: 'tta-operation',
     slugEn: 'tta-surgery',
     titleKey: 'article.tta.title',
+    seoTitle: { en: 'TTA Surgery for Cruciate Ligament Disease in Dogs', fi: 'TTA-leikkaus koiran ristisidevammaan – toipuminen ja hinta', sv: 'TTA-operation vid korsbandsskada hos hund | Djurklinik Saari' },
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
     date: '27.9.2026',
@@ -608,9 +609,9 @@ const articles = [
       { text: 'Murphy CL, Niles J, Radasch RM (2024). The prevalence and risk factors of contralateral cranial cruciate ligament rupture in medium-to-large (≥15 kg) breed dogs 8 years of age or older. Vet Comp Orthop Traumatol 37(1):8–12.', url: 'https://doi.org/10.1055/s-0043-1771350', label: 'doi.org' }
     ],
     metaDesc: {
-      fi: 'Eturistisidesairaus on koirien yleisimpiä takajalan ontumisen syitä. TTA-leikkaus vakauttaa polven muuttamalla siihen kohdistuvia voimia.',
-      sv: 'Sjukdom i främre korsbandet är en av de vanligaste orsakerna till bakbenshälta hos hund. En TTA-operation stabiliserar knät genom att ändra krafterna i leden.',
-      en: 'Cranial cruciate ligament disease is one of the most common causes of hind-leg lameness in dogs. TTA surgery stabilizes the knee by changing the forces on it.'
+      fi: 'TTA-leikkaus koiran eturistisidesairauteen: miten se toimii, mille koirille se sopii, toipumisaika ja hinta Eläinklinikka Saarella Vaasassa.',
+      sv: 'TTA-operation vid korsbandssjukdom hos hund: hur den fungerar, vilka hundar den passar, återhämtning och pris på Djurklinik Saari i Vasa.',
+      en: 'TTA surgery for cruciate ligament disease in dogs: how it works, who it suits, recovery and cost at Saari Animal Clinic in Vaasa.'
     }
   },
   {
@@ -626,7 +627,7 @@ const articles = [
     htmlSections: ['cost.text', 'contact.text'],
     figures: { 'advantages.text': [FIG_EAR_OTOSCOPY] },
     prefix: 'article.otoscopy',
-    seoTitle: { fi: 'Koiran korvahuuhtelu nukutuksessa – video-otoskopia ja hinta', sv: 'Öronspolning i narkos (video-otoskopi) – hund och katt', en: 'Ear Flushing Under Anesthesia (Video-Otoscopy) – Dogs and Cats' },
+    seoTitle: { fi: 'Koiran ja kissan korvahuuhtelu nukutuksessa – hinta Vaasassa', sv: 'Öronspolning i narkos för hund och katt – pris i Vasa', en: 'Ear Flushing Under Anaesthesia for Dogs and Cats – Price' },
     metaDesc: {
       fi: 'Koiran ja kissan korvahuuhtelu nukutuksessa Vaasassa: milloin ja miten video-otoskopia tehdään, haitat ja hinta 449–489 € (nukutus ja kipulääkitys sisältyvät)',
       sv: 'Öronspolning i narkos för hund och katt i Vasa: när den behövs, hur spolningen går till, biverkningar och pris (449–489 €, narkos och smärtlindring ingår).',
@@ -647,6 +648,7 @@ const articles = [
     slugSv: 'oroninflammation-hund',
     slugEn: 'dog-ear-infection',
     titleKey: 'article.earinfection.title',
+    seoTitle: { en: 'Ear Infections in Dogs – Symptoms, Treatment and Cost', fi: 'Koiran korvatulehdus – oireet, hoito ja hinta Vaasassa', sv: 'Öroninflammation hos hund – symtom, behandling och pris' },
     tagKey: 'articles.filter.health',
     category: 'health',
     date: '10.10.2026',
@@ -833,6 +835,7 @@ const articles = [
     slugSv: 'tandborstning',
     slugEn: 'tooth-brushing',
     titleKey: 'article.brushing.title',
+    seoTitle: { en: 'Tooth Brushing for Dogs and Cats – How to Get Started', fi: 'Koiran ja kissan hampaiden harjaus – näin pääset alkuun', sv: 'Tandborstning för hund och katt – så kommer du igång' },
     tagKey: 'articles.filter.dental',
     category: 'dental',
     date: '27.9.2026',
@@ -907,6 +910,7 @@ const articles = [
     slugSv: 'periovive',
     slugEn: 'periovive',
     titleKey: 'article.periovive.title',
+    seoTitle: { en: 'PerioVive Gel for Periodontal Disease in Dogs and Cats', fi: 'PerioVive-geeli koiran ja kissan iensairauden hoidon tukena', sv: 'PerioVive-gel vid parodontal sjukdom hos hund och katt' },
     tagKey: 'articles.filter.dental',
     category: 'dental',
     date: '27.9.2026',
@@ -1011,8 +1015,9 @@ const articles = [
       { text: 'International Cat Care: Hyperthyroidism in cats.', url: 'https://icatcare.org/articles/hyperthyroidism-in-cats', label: 'icatcare.org' }
     ],
     metaDesc: {
-      fi: 'Kilpirauhasen liikatoiminta kissalla: oireet, diagnoosi ja komplikaatiot sekä hoito – päivittäinen lääkitys, leikkaus, radiojodihoito tai dieettiruoka.',
-      sv: 'Sköldkörtelöverfunktion hos katt: symtom, diagnos, komplikationer och behandling – daglig medicinering, kirurgi, radiojodbehandling eller veterinärfoder.'
+      fi: 'Kissan kilpirauhasen liikatoiminta: oireet, verikokeet, hoidot (lääkitys, dieettiruoka, leikkaus) ja seuranta. Vanhan kissan hoito Eläinklinikka Saarella.',
+      sv: 'Hypertyreos hos katt: symtom, blodprov, behandling (medicin, foder eller operation) och uppföljning – vård av äldre katter på Djurklinik Saari i Vasa.',
+      en: 'Hyperthyroidism in cats: symptoms, blood tests, treatment options (medication, diet, surgery) and follow-up — care for older cats at Saari in Vaasa.'
     }
   },
   {
@@ -1064,6 +1069,7 @@ const articles = [
     slugSv: 'huggormsbett',
     slugEn: 'snake-bite',
     titleKey: 'article.snake.title',
+    seoTitle: { en: 'Adder Bite in Dogs and Cats – Symptoms and First Aid', fi: 'Kyynpurema koiralla ja kissalla – oireet, ensiapu ja hoito', sv: 'Huggormsbett hos hund och katt – symtom och första hjälpen' },
     tagKey: 'article.snake.tag',
     category: 'emergency',
     date: '24.9.2026',
@@ -1084,8 +1090,9 @@ const articles = [
       { text: 'Yle (2023): Kyykäärme rauhoitetaan ensimmäistä kertaa Suomessa – pihapiirissä tappaminen on edelleen sallittua, jos siirto ei onnistu.', url: 'https://yle.fi/a/74-20029021', label: 'yle.fi' }
     ],
     metaDesc: {
-      sv: 'Huggormen är Finlands enda giftiga orm, och ett huggormsbett är alltid ett akut fall för veterinären. Så känner du igen symtomen och ger rätt första hjälp.',
-      fi: 'Kyy on Suomen ainoa myrkyllinen käärme, ja kyynpurema on lemmikille aina hätätilanne. Tunnista oireet, anna oikea ensiapu ja hakeudu heti eläinlääkäriin.'
+      sv: 'Huggormsbett hos hund och katt: symtom, vad du gör de första minuterna, varför du inte ska skära i eller suga på bettet och hur vi behandlar det i Vasa.',
+      fi: 'Kyynpurema koiralla ja kissalla: oireet, mitä tehdä heti, miksi haavaa ei saa viiltää tai imeä ja miten hoidamme puremat Eläinklinikka Saarella Vaasassa.',
+      en: 'Adder bite in dogs and cats: symptoms, what to do in the first minutes, why not to cut or suck the wound, and how we treat bites at Saari in Vaasa.'
     }
   },
   {
@@ -1134,6 +1141,7 @@ const articles = [
     slugSv: 'livmoderinflammation',
     slugEn: 'pyometra',
     titleKey: 'article.pyometra.title',
+    seoTitle: { en: 'Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery', fi: 'Koiran kohtutulehdus – oireet, leikkaus, hinta ja toipuminen', sv: 'Livmoderinflammation hos hund – symtom, operation och pris' },
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
     date: '25.9.2026',
@@ -1155,7 +1163,8 @@ const articles = [
       { text: 'Wallace G.B. & Casal M.L. (2018): A review of pyometra in small animal medicine: incidence, pathophysiology, clinical diagnosis, and medical management. Clinical Theriogenology 10(4):435–452.', url: 'https://cdn.ymaws.com/www.therio.org/resource/collection/70D14721-6863-458C-9317-D977EACB353A/2018_v4_005.pdf', label: 'cdn.ymaws.com' }
     ],
     metaDesc: {
-      en: 'Pyometra in dogs: symptoms, how fast it progresses, why antibiotics alone are not enough, surgery, cost, recovery and prevention.'
+      en: 'Pyometra in dogs: symptoms, how fast it progresses, why antibiotics alone are not enough, surgery, cost, recovery and prevention.',
+      sv: 'Livmoderinflammation (pyometra) hos hund: symtom, förlopp, varför antibiotika inte räcker samt operation, pris och återhämtning. Djurklinik Saari i Vasa.'
     }
   },
   {
@@ -1163,6 +1172,7 @@ const articles = [
     slugSv: 'lateral-suture',
     slugEn: 'lateral-suture',
     titleKey: 'article.ccl.title',
+    seoTitle: { en: 'Lateral Suture for Cruciate Ligament Rupture in Dogs', fi: 'Lateral suture – koiran ristisidevamman leikkaus Vaasassa', sv: 'Lateral sutur vid korsbandsskada hos hund | Djurklinik Saari' },
     tagKey: 'articles.tag.orthopedics',
     category: 'surgery',
     date: '27.9.2026',
@@ -1182,7 +1192,9 @@ const articles = [
       { text: 'Spagnolo A.M., Ottria G., Amicizia D., Perdelli F. &amp; Cristina M.L. (2013): Operating theatre quality and prevention of surgical site infections. Journal of Preventive Medicine and Hygiene 54(3):131–137.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4718372/', label: 'pmc.ncbi.nlm.nih.gov' }
     ],
     metaDesc: {
-      sv: 'Lateral sutur vid korsbandsruptur: hur metoden fungerar, vilka hundar och katter den passar för, återhämtning, risker, pris och en jämförelse med TTA.'
+      sv: 'Lateral sutur vid korsbandsskada: vilka hundar och katter metoden passar, hur operationen går till, återhämtningstid och pris på Djurklinik Saari i Vasa.',
+      en: 'Lateral suture repair for cruciate ligament rupture: which dogs and cats it suits, how the operation works, recovery time and cost at Saari in Vaasa.',
+      fi: 'Lateral suture -leikkaus ristisidevammaan: mille koirille ja kissoille se sopii, miten se tehdään, toipuminen ja hinta Eläinklinikka Saarella Vaasassa.'
     }
   },
   {
@@ -1190,6 +1202,7 @@ const articles = [
     slugSv: 'igelkott',
     slugEn: 'hedgehog',
     titleKey: 'article.hedgehog.title',
+    metaDesc: { en: 'The European hedgehog in Finland: how it lives, why its numbers are falling, and how you can help — garden tips and when to bring one to the vet.' },
     tagKey: 'article.hedgehog.tag',
     category: 'wildlife',
     date: '25.9.2026',
@@ -1312,7 +1325,9 @@ const articles = [
       { text: 'Merck Veterinary Manual, Dog Owners: Dental Development of Dogs.', url: 'https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/dental-development-of-dogs', label: 'merckvetmanual.com' }
     ],
     metaDesc: {
-      sv: 'Icke frambrutna tänder hos hund: hur en dold tand kan ge upphov till en cysta som förstör käkbenet, riskraser, tandröntgen och behandling.'
+      sv: 'Icke frambrutna tänder och dentigerösa cystor hos hund och katt: varför en saknad tand bör röntgas, hur cystor skadar käken och hur de behandlas i Vasa.',
+      en: 'Unerupted teeth and dentigerous cysts in dogs and cats: why a missing tooth needs an X-ray, how cysts damage the jaw, and treatment at Saari in Vaasa.',
+      fi: 'Koiran ja kissan puhkeamattomat hampaat: miksi puuttuva hammas on röntgenkuvattava, miten hammasaihekysta tuhoaa leukaa ja hoito Eläinklinikka Saarella.'
     }
   },
   {
@@ -1320,6 +1335,7 @@ const articles = [
     slugSv: 'gastroskopi',
     slugEn: 'gastroscopy',
     titleKey: 'article.gastroscopy.title',
+    seoTitle: { en: 'Gastroscopy for Dogs and Cats – Foreign Bodies and Biopsies', fi: 'Koiran ja kissan gastroskopia – vierasesineet ja koepalat', sv: 'Gastroskopi för hund och katt – svalda föremål och biopsier' },
     tagKey: 'article.gastroscopy.tag',
     category: 'endoscopy',
     date: '27.9.2026',
@@ -1354,6 +1370,8 @@ const articles = [
     slugSv: 'tandresorption',
     slugEn: 'tooth-resorption',
     titleKey: 'article.resorption.title',
+    metaDesc: { en: 'Tooth resorption in cats and dogs: why it hurts, how dental X-rays find it, and when the tooth must be removed. Diagnosis and treatment at Saari in Vaasa.', fi: 'Kissan ja koiran hammasresorptio: miksi se sattuu, miten hammasröntgen löytää sen ja milloin hammas on poistettava. Hoito Eläinklinikka Saarella Vaasassa.', sv: 'Tandresorption hos katt och hund: varför den gör ont, hur tandröntgen avslöjar den och när tanden måste tas bort. Diagnos och behandling i Vasa.' },
+    seoTitle: { en: 'Tooth Resorption in Cats and Dogs – A Hidden Painful Disease', fi: 'Kissan ja koiran hammasresorptio – piilevä, kivulias sairaus', sv: 'Tandresorption hos katt och hund – dold och smärtsam sjukdom' },
     tagKey: 'article.resorption.tag',
     category: 'dental',
     date: '27.9.2026',
@@ -1432,7 +1450,8 @@ const articles = [
     ],
     metaDesc: {
       fi: 'Koiran ja kissan madotus perustuu riskinarvioon. Katso ESCCAP-suositukset pennuille, aikuisille ja matkustaville lemmikeille sekä matotartunnan oireet.',
-      en: 'How often to deworm a dog or cat: puppies, kittens, adults, indoor cats and travel – and when a faecal sample can replace deworming.'
+      en: 'How often to deworm a dog or cat: puppies, kittens, adults, indoor cats and travel – and when a faecal sample can replace deworming.',
+      sv: 'Hur ofta ska hund och katt avmaskas? Valpar, kattungar, vuxna och resor – och när avföringsprov kan ersätta avmaskning. Råd från Djurklinik Saari i Vasa.'
     }
   },
   {
@@ -1440,6 +1459,8 @@ const articles = [
     slugSv: 'ibd-lymfom',
     slugEn: 'ibd-lymphoma',
     titleKey: 'article.ibdlymphoma.title',
+    metaDesc: { en: 'IBD or intestinal lymphoma in cats: why the two are hard to tell apart, which tests help (ultrasound, biopsies), and how each is treated at Saari in Vaasa.', fi: 'Kissan IBD vai suoliston lymfooma: miksi niitä on vaikea erottaa, mitä ultraääni ja koepalat kertovat ja miten kumpaakin hoidetaan Eläinklinikka Saarella.', sv: 'IBD eller tarmlymfom hos katt: varför de är svåra att skilja åt, vilka undersökningar som hjälper (ultraljud, biopsier) och hur vi behandlar dem i Vasa.' },
+    seoTitle: { en: 'IBD or Intestinal Lymphoma in Cats – Diagnosis Explained', fi: 'Kissan IBD vai suoliston lymfooma – näin diagnoosi tehdään', sv: 'IBD eller tarmlymfom hos katt – så ställs diagnosen' },
     tagKey: 'article.ibdlymphoma.tag',
     category: 'health',
     date: '25.9.2026',
@@ -1470,6 +1491,7 @@ const articles = [
     slugSv: 'hypotermi',
     slugEn: 'hypothermia',
     titleKey: 'article.hypothermia.title',
+    seoTitle: { en: 'Hypothermia Under Anaesthesia – Why We Warm Every Patient', fi: 'Hypotermia nukutuksessa – miksi lämmitämme jokaisen potilaan', sv: 'Hypotermi under narkos – därför värmer vi varje patient' },
     tagKey: 'article.hypothermia.tag',
     category: 'surgery',
     date: '25.9.2026',
@@ -1509,6 +1531,8 @@ const articles = [
     slugSv: 'anestesisakerhet',
     slugEn: 'anaesthesia-safety',
     titleKey: 'article.anesthesia.title',
+    metaDesc: { en: 'How safe is anaesthesia for dogs and cats? Real risk figures, what raises them, and how Saari Animal Clinic in Vaasa monitors and warms every patient.', fi: 'Kuinka turvallinen koiran ja kissan nukutus on? Riskiluvut, mikä nostaa riskiä ja miten Eläinklinikka Saari Vaasassa valvoo ja lämmittää jokaisen potilaan.', sv: 'Hur säker är narkos för hund och katt? Verkliga risksiffror, vad som höjer risken och hur Djurklinik Saari i Vasa övervakar och värmer varje patient.' },
+    seoTitle: { en: 'Anaesthesia Safety for Pets – Risks and How We Reduce Them', fi: 'Koiran ja kissan nukutus – riskit ja miten vähennämme niitä', sv: 'Anestesisäkerhet för husdjur – risker och hur vi minskar dem' },
     tagKey: 'article.anesthesia.tag',
     category: 'surgery',
     date: '24.9.2026',
@@ -1536,6 +1560,7 @@ const articles = [
     slugSv: 'klinikdjurskotare',
     slugEn: 'veterinary-nurse',
     titleKey: 'article.vetnurse.title',
+    seoTitle: { en: 'Why a Veterinary Nurse Monitors Every Anaesthetic', fi: 'Miksi klinikkaeläinhoitaja valvoo jokaista nukutusta', sv: 'Varför en klinikdjurskötare övervakar varje narkos' },
     tagKey: 'articles.filter.clinic',
     category: 'clinic',
     date: '27.9.2026',
@@ -4099,7 +4124,7 @@ const servicePages = [
     slug: 'rehumyynti',
     slugSv: 'foderforsaljning',
     slugEn: 'prescription-diets',
-    title: "Royal Canin -ruoat ja erikoisruokavaliot Vaasassa | Eläinklinikka Saari",
+    title: 'Royal Canin ja dieettiruoat Vaasassa | Eläinklinikka Saari',
     h1: "Royal Canin -ruoat ja erikoisruokavaliot",
     metaDesc: "Tilaa Royal Caninin kuiva- ja märkäruokia koirille ja kissoille verkosta. Nouda klinikalta Vaasassa, kun saat tekstiviestin. Erikoisruokavaliot klinikalla.",
     icon: '🍖',
@@ -4141,7 +4166,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: "Royal Canin pet food and prescription diets in Vaasa | Saari Animal Clinic",
+      title: 'Royal Canin and Vet Diets in Vaasa | Saari Animal Clinic',
       h1: "Royal Canin food and prescription diets",
       metaDesc: "Order Royal Canin dry and wet food for dogs and cats online and collect it at our clinic in Vaasa. SMS when ready. Prescription diets at the clinic.",
       sections: [
