@@ -58,6 +58,12 @@ function isoDate(dmy) {
   return m ? `${m[3]}-${m[2].padStart(2, '0')}-${m[1].padStart(2, '0')}` : '';
 }
 
+// Share card for a clinic photo: /images/og/<path-under-images-without-ext, "/" → "__">.jpg
+// (1200×630, rendered by build-share-cards.py — run it after this build when figures change).
+function shareCardUrl(src) {
+  return `${BASE_URL}/images/og/${src.replace(/^\/images\//, '').replace(/\.[a-z0-9]+$/i, '').replace(/\//g, '__')}.jpg`;
+}
+
 // Returns the localized slug for an article in the given language.
 // Falls back to the Finnish slug if no localized slug is defined.
 function articleSlug(article, lang) {
@@ -1997,12 +2003,16 @@ function generateArticlePage(article, translations, specialContent, lang) {
     return null;
   })();
   const genericImage = `${BASE_URL}/images/clinic-about.jpg`;
-  const shareImage = heroFig ? `${BASE_URL}${heroFig.src}` : genericImage;
+  const shareImage = heroFig ? shareCardUrl(heroFig.src) : genericImage;
   const shareImageMeta = heroFig
-    ? `\n  <meta property="og:image:width" content="${heroFig.width}">\n  <meta property="og:image:height" content="${heroFig.height}">`
+    ? `\n  <meta property="og:image:width" content="1200">\n  <meta property="og:image:height" content="630">`
     : '';
   const schemaImage = heroFig
-    ? JSON.stringify([{ '@type': 'ImageObject', url: shareImage, width: heroFig.width, height: heroFig.height }, genericImage])
+    ? JSON.stringify([
+        { '@type': 'ImageObject', url: shareImage, width: 1200, height: 630 },
+        { '@type': 'ImageObject', url: `${BASE_URL}${heroFig.src}`, width: heroFig.width, height: heroFig.height },
+        genericImage
+      ])
     : JSON.stringify(genericImage);
   // Author identity (stable @id + URL on the staff page) — same rule as the name/jobTitle below.
   const authorIsPamela = ['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey);
@@ -4643,9 +4653,9 @@ function generateServicePage(service, translations, lang) {
     }
     return null;
   })();
-  const shareImage = heroFig ? `${BASE_URL}${heroFig.src}` : `${BASE_URL}/images/clinic-about.jpg`;
+  const shareImage = heroFig ? shareCardUrl(heroFig.src) : `${BASE_URL}/images/clinic-about.jpg`;
   const shareImageMeta = heroFig
-    ? `\n  <meta property="og:image:width" content="${heroFig.width}">\n  <meta property="og:image:height" content="${heroFig.height}">`
+    ? `\n  <meta property="og:image:width" content="1200">\n  <meta property="og:image:height" content="630">`
     : '';
   lang = lang || 'fi';
   const t = (key) => translations[key]?.fi || '';
