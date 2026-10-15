@@ -2909,7 +2909,7 @@ const servicePages = [
     slug: 'kirurgia',
     slugSv: 'kirurgi',
     slugEn: 'surgery',
-    title: 'Kirurgia | Eläinklinikka Saari',
+    title: 'Eläinkirurgia Vaasassa | Eläinklinikka Saari',
     h1: 'Kirurgia',
     metaDesc: 'Eläinkirurgia Vaasassa: pehmytkudoskirurgia, ortopedia, TTA, lateral suture, murtumaleikkaukset. Turvallinen anestesia ja kivunlievitys.',
     icon: '🔪',
@@ -2997,7 +2997,7 @@ const servicePages = [
     slug: 'tahystykset',
     slugSv: 'endoskopi',
     slugEn: 'endoscopy',
-    title: 'Tähystystutkimukset | Eläinklinikka Saari',
+    title: 'Koiran ja kissan tähystys Vaasassa | Eläinklinikka Saari',
     h1: 'Tähystystutkimukset',
     metaDesc: 'Tähystystutkimukset Vaasassa: gastroskopia, video-otoskopia, rhinoskopia, kystoskopia, bronkoskopia. Eläinklinikka Saari.',
     icon: '📷',
@@ -3028,7 +3028,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Endoscopy | Saari Animal Clinic',
+      title: 'Endoscopy for Dogs and Cats in Vaasa | Saari Animal Clinic',
       h1: 'Endoscopy',
       metaDesc: 'Endoscopy in Vaasa: gastroscopy, video otoscopy, rhinoscopy, cystoscopy, bronchoscopy. Minimally invasive diagnostics for pets. Eläinklinikka Saari.',
       sections: [
@@ -3154,7 +3154,7 @@ const servicePages = [
     slug: 'ultraaani',
     slugSv: 'ultraljud',
     slugEn: 'ultrasound',
-    title: 'Ultraäänitutkimukset | Eläinklinikka Saari',
+    title: 'Koiran ja kissan ultraääni Vaasassa | Eläinklinikka Saari',
     h1: 'Ultraäänitutkimukset',
     metaDesc: 'Ultraäänitutkimukset Vaasassa: vatsan ultraääni, sydämen ultraääni, tiineystutkimus. Laadukas diagnostiikka lemmikeille. Eläinklinikka Saari.',
     icon: '📡',
@@ -3184,7 +3184,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Ultrasound | Saari Animal Clinic',
+      title: 'Ultrasound for Dogs and Cats in Vaasa | Saari Animal Clinic',
       h1: 'Ultrasound Examinations',
       metaDesc: 'Ultrasound examinations in Vaasa: abdominal ultrasound, cardiac ultrasound, pregnancy scanning. Quality diagnostics for pets. Eläinklinikka Saari.',
       sections: [
@@ -3209,7 +3209,7 @@ const servicePages = [
     slug: 'ihotaudit',
     slugSv: 'hudsjukdomar',
     slugEn: 'dermatology',
-    title: 'Ihotaudit, allergiat ja korvatulehdus | Eläinklinikka Saari',
+    title: 'Ihotaudit ja allergiat Vaasassa | Eläinklinikka Saari',
     ogTitle: 'Ihotaudit, allergiat ja korvatulehdukset | Eläinklinikka Saari',
     h1: 'Ihotaudit, allergiat ja korvatulehdukset',
     metaDesc: 'Koiran ja kissan ihotaudit ja allergiat Vaasassa. Allergiatestit, korvatulehdukset, kutina, ihotulehdukset. Diagnoosi ja hoito. Eläinklinikka Saari.',
@@ -3222,7 +3222,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä ihotaudeista', text: '<strong>Voiko allergiasta parantua?</strong> Allergia on krooninen sairaus, josta ei yleensä parannuta kokonaan. Hyvällä hoidolla oireet saadaan kuitenkin hallintaan ja lemmikin elämänlaatu pysyy hyvänä. Siedätyshoito (immunoterapia) voi vähentää allergian voimakkuutta merkittävästi — jopa 60–70 % potilaista hyötyy siedätyshoidosta. Hoito on pitkäkestoinen, mutta voi vähentää lääkityksen tarvetta pysyvästi. <strong>Kuinka nopeasti hoitovaste näkyy?</strong> Ihotautien hoitovaste riippuu diagnoosista. Bakteeri-ihotulehdus vastaa yleensä antibioottikuuriin 2–4 viikossa. Eliminaatiodieetti vaatii 6–8 viikon tiukan noudattamisen ennen kuin tuloksia voidaan arvioida. Siedätyshoito on hitain — ensimmäiset tulokset näkyvät usein vasta 6–12 kuukauden kuluessa.' },
     ],
     sv: {
-      title: 'Hudsjukdomar, allergi, öroninflammation | Djurklinik Saari',
+      title: 'Hud-, allergi- och öronproblem i Vasa | Djurklinik Saari',
       ogTitle: 'Hudsjukdomar, allergier och öroninflammationer | Djurklinik Saari',
       h1: 'Hudsjukdomar, allergier och öroninflammationer',
       metaDesc: 'Hudsjukdomar och allergier hos hund och katt i Vasa. Allergitester, öroninflammationer, klåda, hudinfektioner. Diagnos och behandling. Eläinklinikka Saari.',
@@ -3241,7 +3241,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Skin Allergies and Ear Infections | Saari Animal Clinic',
+      title: 'Skin, Allergy and Ear Care in Vaasa | Saari Animal Clinic',
       ogTitle: 'Skin Diseases, Allergies and Ear Infections | Saari Animal Clinic',
       h1: 'Skin Diseases, Allergies and Ear Infections',
       metaDesc: 'Dog and cat dermatology and allergies in Vaasa. Allergy testing, ear infections, itching, skin infections. Diagnosis and treatment. Eläinklinikka Saari.',
@@ -3267,7 +3267,7 @@ const servicePages = [
     slugSv: 'seniorundersokning',
     slugEn: 'senior-check-up',
     skipBuild: true,
-    title: 'Senioritutkimus 299 € | Eläinklinikka Saari',
+    title: 'Senioritutkimus Vaasassa 299 € | Eläinklinikka Saari',
     h1: 'Senioritutkimus 299 €',
     metaDesc: 'Senioritutkimus 299 € — eläinlääkärin käynti, verinäyte ja kattava IDEXX-laboratoriopaneeli. Ikääntyvän lemmikin terveystarkastus Vaasassa.',
     icon: '🩺',
@@ -3282,7 +3282,7 @@ const servicePages = [
     { heading: 'Yleisiä kysymyksiä senioritutkimuksesta', text: '<p><strong>Mitä 299 € sisältää?</strong><br> Hinta kattaa eläinlääkärikäynnin, verinäytteen oton ja tulkinnan sekä IDEXX Geriatric Profile -laboratoriopaneelin (mukaan lukien verenkuva sekä munuais-, maksa-, sokeri-, rasva- ja kilpirauhasarvot). Koirille paneeli sisältää lisäksi haiman arvot ja CRP-tulehdusmarkkerin. <strong>309 €</strong> sisältää lisäksi verenpaineen mittauksen, jota suosittelemme erityisesti kissoille ja vanhemmille koirille.</p> <p><strong>Pitääkö koiran tai kissan paastota ennen verikoetta?</strong><br> Kyllä, pyydämme paastottamaan eläintä noin 8–12 tuntia ennen näytteenottoa. Vettä saa juoda normaalisti, ja tavallinen lääkitys annetaan normaalisti, ellei toisin sovita. Aika kannattaa varata aamulle.</p> <p><strong>Kuinka kauan käynti kestää?</strong><br> Varaa noin 30–45 minuuttia klinikalla. Verinäytteen otto on nopea, mutta tutkimukseen ja keskusteluun varataan aikaa.</p> <p><strong>Mitä maksaa, jos tarvitaan lisätutkimuksia?</strong><br> 299 € kattaa peruskäynnin, verikokeen ja tulkinnan. Jos päätämme yhdessä, että tarvitaan lisätutkimuksia — kuten sydämen ultraääni, virtsanäyte tai hammaskuvantaminen — saat selkeän hinta-arvion ennen jatkoa. Mitään ei tehdä ilman suostumustasi.</p> <p><strong>Mitä tapahtuu, jos tuloksissa on poikkeamia?</strong><br> Eläinlääkäri käy löydökset läpi kanssasi sähköpostitse ja ehdottaa seuraavia askeleita — yleensä seurantaa, joskus lisätutkimuksia. Sinä päätät tahdin, me annamme suunnan.</p> <p><strong>Kuinka usein senioritutkimus tehdään?</strong><br> Terveille senioreille kerran vuodessa. Suurille koirille jo 5–6 vuoden iästä, pienemmille koirille ja kissoille noin 7 vuoden iästä. Kroonisissa sairauksissa tai lääkityksen yhteydessä useammin, usein puolivuosittain.</p>' }
     ],
     sv: {
-      title: 'Seniorundersökning 299 € | Djurklinik Saari',
+      title: 'Seniorundersökning i Vasa – 299 € | Djurklinik Saari',
       h1: 'Seniorundersökning 299 €',
       metaDesc: 'Seniorundersökning 299 € — veterinärbesök, blodprov och IDEXX-laboratoriepanel till ett pris. Hälsokontroll för äldre husdjur i Vasa.',
       sections: [
@@ -3311,7 +3311,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Senior Pet Check-up €299 | Saari Animal Clinic',
+      title: 'Senior Pet Check-up €299 in Vaasa | Saari Animal Clinic',
       h1: 'Senior Pet Check-up €299',
       metaDesc: 'Senior Pet Check-up €299 — vet visit, blood sample and IDEXX laboratory panel in one price. Health check-up for ageing pets in Vaasa.',
       sections: [
@@ -3354,7 +3354,7 @@ const servicePages = [
     slug: 'pentutarkastus',
     slugSv: 'valpundersokning',
     slugEn: 'puppy-check-up',
-    title: 'Pentutarkastus ja mikrosiru | Eläinklinikka Saari',
+    title: 'Pentutarkastus ja mikrosiru Vaasassa | Eläinklinikka Saari',
     h1: 'Pentutarkastus',
     metaDesc: 'Koiranpennun ja kissanpennun terveystarkastus Vaasassa. Pentutarkastus, mikrosiru, rokotusohjelma, madotus. Eläinklinikka Saari.',
     icon: '🐕',
@@ -3366,7 +3366,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä pentutarkastuksesta', text: '<strong>Missä iässä pentu tulee tarkastaa?</strong> Pentutarkastus suositellaan tehtäväksi mahdollisimman pian uuden pennun kotiutumisen jälkeen, yleensä 8–12 viikon iässä. Ensimmäinen käynti on tärkeä, jotta mahdolliset synnynnäiset viat (kuten sydänviat, napanuoran ongelmat tai purentavirheet) havaitaan ajoissa. Samalla aloitetaan rokotusohjelma ja siruttaminen. <strong>Mitä pentutarkastukseen kuuluu?</strong> Pentutarkastus sisältää kattavan kliinisen tutkimuksen: sydämen kuuntelu sivuäänien varalta, silmien, korvien ja suun tarkastus, imusolmukkeiden tunnustelu, navan tarkastus ja yleisen kehityksen arviointi. Eläinlääkäri tarkastaa myös purennan ja kivesten laskeutumisen urospennuilla. Tarkastuksen yhteydessä annetaan terveystodistus, keskustellaan ruokinnasta, madotuksesta ja rokotusaikataulusta.' },
     ],
     sv: {
-      title: 'Valpundersökning och mikrochip | Djurklinik Saari',
+      title: 'Valpundersökning och mikrochip i Vasa | Djurklinik Saari',
       h1: 'Valpundersökning',
       metaDesc: 'Hälsokontroll för hund- och kattungar i Vasa. Valpundersökning, mikrochip, vaccinationsprogram, avmaskning. Boka tid hos Eläinklinikka Saari.',
       sections: [
@@ -3384,7 +3384,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Puppy Check-up and Microchip | Saari Animal Clinic',
+      title: 'Puppy Check-up and Microchip in Vaasa | Saari Animal Clinic',
       h1: 'Puppy Check-up',
       metaDesc: 'Puppy and kitten health check in Vaasa. Health examination, microchipping, vaccination programme, deworming. Book at Eläinklinikka Saari.',
       sections: [
@@ -3408,7 +3408,7 @@ const servicePages = [
     slug: 'akupunktio',
     slugSv: 'akupunktur',
     slugEn: 'acupuncture',
-    title: 'Akupunktio | Eläinklinikka Saari',
+    title: 'Koiran ja kissan akupunktio Vaasassa | Eläinklinikka Saari',
     h1: 'Akupunktio',
     metaDesc: 'Eläinakupunktio Vaasassa. Kivunlievitys, tuki- ja liikuntaelinvaivat, neurologiset oireet. Jatkokouluttautunut eläinlääkäri. Eläinklinikka Saari.',
     icon: '🪡',
@@ -3439,7 +3439,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Acupuncture | Saari Animal Clinic',
+      title: 'Veterinary Acupuncture in Vaasa | Saari Animal Clinic',
       h1: 'Acupuncture',
       metaDesc: 'Veterinary acupuncture in Vaasa. Pain relief, musculoskeletal conditions, neurological symptoms. Specially trained veterinarian. Eläinklinikka Saari.',
       sections: [
@@ -3463,7 +3463,7 @@ const servicePages = [
     slug: 'viralliset-tutkimukset',
     slugSv: 'officiella-undersokningar',
     slugEn: 'official-examinations',
-    title: 'Viralliset tutkimukset | Eläinklinikka Saari',
+    title: 'Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari',
     h1: 'Viralliset tutkimukset',
     metaDesc: 'Viralliset lonkka-, kyynär-, polvi- ja sydäntutkimukset Vaasassa. Kennelliiton hyväksymä tutkija. Jalostustarkastukset. Eläinklinikka Saari.',
     icon: '📋',
@@ -3475,7 +3475,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä virallisista tutkimuksista', text: '<strong>Missä iässä viralliset tutkimukset tehdään?</strong> Viralliset lonkkaröntgenkuvat otetaan aikaisintaan 18 kuukauden iässä ja kyynärröntgenkuvat 12 kuukauden iässä. Polvitutkimukset voidaan tehdä 12 kuukauden iästä alkaen. Sydämen auskultaatio voidaan tehdä jo aikaisemmin, mutta jalostuskäyttöön hyväksytty tutkimus edellyttää yleensä vähintään 12 kuukauden ikää. On tärkeää tarkistaa rotukohtaiset vaatimukset Kennelliiton sivuilta. <strong>Kuinka kauan tulokset ovat voimassa?</strong> Viralliset röntgentutkimustulokset ovat voimassa koiran koko eliniän — niitä ei tarvitse uusia. Sydämen auskultaatiotulokset ovat voimassa rodusta riippuen 1–2 vuotta. Polvitutkimuksen tulos on pysyvä. Tulokset kirjataan Kennelliiton Jalostustietojärjestelmään, jossa ne ovat julkisesti nähtävissä.' },
     ],
     sv: {
-      title: 'Officiella undersökningar | Djurklinik Saari',
+      title: 'Officiella hälsoundersökningar i Vasa | Djurklinik Saari',
       h1: 'Officiella undersökningar',
       metaDesc: 'Officiella höft-, armbågs-, knä- och hjärtundersökningar i Vasa. Godkänd av Finska Kennelklubben. Avelskontroller. Eläinklinikka Saari.',
       sections: [
@@ -3493,7 +3493,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Official Examinations | Saari Animal Clinic',
+      title: 'Kennel Club Health Examinations, Vaasa | Saari Animal Clinic',
       h1: 'Official Examinations',
       metaDesc: 'Official hip, elbow, patella and cardiac examinations in Vaasa. Finnish Kennel Club approved examiner. Breeding evaluations. Eläinklinikka Saari.',
       sections: [
@@ -3619,7 +3619,7 @@ const servicePages = [
     slug: 'sisataudit',
     slugSv: 'internmedicin',
     slugEn: 'internal-medicine',
-    title: 'Sisätaudit | Eläinklinikka Saari',
+    title: 'Eläinten sisätaudit Vaasassa | Eläinklinikka Saari',
     h1: 'Sisätaudit',
     metaDesc: 'Eläinten sisätaudit Vaasassa: diabetes, Cushing, haimatulehdus, anemia. Perusteellinen diagnostiikka ja hoito. Eläinklinikka Saari.',
     icon: '💊',
@@ -3631,7 +3631,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä sisätaudeista', text: '<strong>Miten diabetes diagnosoidaan?</strong> Diabetes diagnosoidaan verinäytteestä mitatun korkean verensokerin ja virtsanäytteessä havaitun glukoosin perusteella. Fruktosamiiniarvo kertoo verensokerin tasosta pidemmällä aikavälillä. Diabeteksen hoito aloitetaan insuliinilla ja ruokavaliomuutoksilla, ja seurataan säännöllisin verikokeilla. Useimmat diabeetikkolemmikkit elävät hyvää elämää asianmukaisella hoidolla. <strong>Tarvitseeko lemmikki elinikäistä lääkitystä?</strong> Monet sisätaudit, kuten diabetes, kilpirauhasen vajaatoiminta ja Cushingin tauti, vaativat elinikäistä lääkitystä. Hoidon tavoitteena on pitää sairaus hallinnassa ja turvata hyvä elämänlaatu. Lääkityksen annosta säädetään säännöllisten kontrollikäyntien perusteella. Joissakin tapauksissa, kuten haimatulehduksessa, hoito voi olla tilapäistä ja lemmikki toipuu kokonaan.' },
     ],
     sv: {
-      title: 'Internmedicin | Djurklinik Saari',
+      title: 'Internmedicin för husdjur i Vasa | Djurklinik Saari',
       h1: 'Internmedicin',
       metaDesc: 'Internmedicin för husdjur i Vasa: diabetes, Cushings sjukdom, pankreatit, anemi. Grundlig diagnostik och behandling. Eläinklinikka Saari.',
       sections: [
@@ -3649,7 +3649,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Internal Medicine | Saari Animal Clinic',
+      title: 'Internal Medicine for Pets in Vaasa | Saari Animal Clinic',
       h1: 'Internal Medicine',
       metaDesc: 'Veterinary internal medicine in Vaasa: diabetes, Cushing\'s disease, pancreatitis, anaemia. Thorough diagnostics and treatment. Eläinklinikka Saari.',
       sections: [
@@ -3673,7 +3673,7 @@ const servicePages = [
     slug: 'silmataudit',
     slugSv: 'ogonsjukdomar',
     slugEn: 'ophthalmology',
-    title: 'Silmätaudit | Eläinklinikka Saari',
+    title: 'Koiran ja kissan silmätaudit Vaasassa | Eläinklinikka Saari',
     h1: 'Silmätaudit',
     metaDesc: 'Eläinten silmäsairaudet Vaasassa: sarveiskalvon haavaumat, glaukooma, kuivasilmäisyys, kaihi. Tutkimus ja hoito. Eläinklinikka Saari.',
     icon: '👁️',
@@ -3685,7 +3685,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä silmätaudeista', text: '<strong>Ovatko silmäsairaudet perinnöllisiä?</strong> Monet silmäsairaudet ovat perinnöllisiä tai rotutyypillisiä. Brakykefaalisilla (lyhytkuonoisilla) roduilla, kuten mopseilla ja englanninbulldogeilla, on alttius sarveiskalvon vaurioille ja kuivasilmäisyydelle. Cocker spanielilla ja pudeleilla esiintyy kaihia, ja collieilla verkkokalvosairauksia. Perinnöllisten silmäsairauksien seulonta on osa jalostustarkastuksia. <strong>Kuinka nopeasti hoitoon pitää hakeutua?</strong> Silmäoireissa nopeus on ratkaisevaa. Sarveiskalvon haavauma voi syventyä vuorokaudessa ilman hoitoa, ja glaukooma voi johtaa pysyvään sokeuteen tunneissa. Jos lemmikkisi siristää silmäänsä, silmä on punainen tai samentunut, tai pupillit ovat erikokoiset, hakeudu vastaanotolle saman päivän aikana. Silmäoireet eivät parane itsestään.' },
     ],
     sv: {
-      title: 'Ögonsjukdomar | Djurklinik Saari',
+      title: 'Ögonsjukdomar hos hund och katt i Vasa | Djurklinik Saari',
       h1: 'Ögonsjukdomar',
       metaDesc: 'Ögonsjukdomar hos husdjur i Vasa: hornhinnesår, glaukom, torra ögon, katarakt, ögonlockssjukdomar. Undersökning och behandling. Eläinklinikka Saari.',
       sections: [
@@ -3703,7 +3703,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Ophthalmology | Saari Animal Clinic',
+      title: 'Eye Diseases in Dogs and Cats, Vaasa | Saari Animal Clinic',
       h1: 'Ophthalmology',
       metaDesc: 'Veterinary ophthalmology in Vaasa: corneal ulcers, glaucoma, dry eye, cataracts, eyelid diseases. Examination and treatment. Eläinklinikka Saari.',
       sections: [
@@ -3727,7 +3727,7 @@ const servicePages = [
     slug: 'laboratorio',
     slugSv: 'laboratorium',
     slugEn: 'laboratory',
-    title: 'Laboratorio | Eläinklinikka Saari',
+    title: 'Eläinklinikan oma laboratorio Vaasassa | Eläinklinikka Saari',
     h1: 'Laboratorio',
     metaDesc: 'Eläinklinikan oma laboratorio Vaasassa: verikokeet, virtsanäytteet, sytologia, hormonitutkimukset. Tulokset jo käynnin aikana. Eläinklinikka Saari.',
     icon: '🧪',
@@ -3738,7 +3738,7 @@ const servicePages = [
       { heading: 'Näytteenotto ja tulokset', text: 'Näytteenotto on nopea ja turvallinen toimenpide. Verinäyte otetaan yleensä etujalasta tai kaulasta — eläimet sietävät sen hyvin. Virtsanäyte voidaan ottaa vapaasti lasketusta virtsasta, katetrilla tai kystostenteesillä (ultraääniohjauksessa neulalla virtsarakosta). Iho- ja korvanäytteitä tutkimme mikroskoopilla suoraan vastaanotolla. Tulosten pohjalta eläinlääkäri keskustelee löydöksistä ja suosittelee jatkohoitoa.' },
     ],
     sv: {
-      title: 'Laboratorium | Djurklinik Saari',
+      title: 'Djurklinikens eget laboratorium i Vasa | Djurklinik Saari',
       h1: 'Laboratorium',
       metaDesc: 'Djurklinikens eget laboratorium i Vasa: blodprov, urinprov, cytologi, hormonundersökningar. Resultat redan under besöket. Eläinklinikka Saari.',
       sections: [
@@ -3755,7 +3755,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Laboratory | Saari Animal Clinic',
+      title: 'In-House Veterinary Lab in Vaasa | Saari Animal Clinic',
       h1: 'Laboratory',
       metaDesc: 'In-house veterinary laboratory in Vaasa: blood tests, urinalysis, cytology, hormone testing. Results during your visit. Eläinklinikka Saari.',
       sections: [
@@ -3834,7 +3834,7 @@ const servicePages = [
     slug: 'eutanasia',
     slugSv: 'eutanasi',
     slugEn: 'euthanasia',
-    title: 'Eutanasia | Eläinklinikka Saari',
+    title: 'Eutanasia – lemmikin lopetus Vaasassa | Eläinklinikka Saari',
     h1: 'Eutanasia — lemmikin viimeinen matka',
     metaDesc: 'Lemmikin rauhallinen ja arvokas lopetus Vaasassa. Kivuton eutanasia rauhoituksella. Tuhkaus ja yksilötuhkaus. Surusta selviytyminen. Eläinklinikka Saari.',
     icon: '🕊️',
@@ -3862,7 +3862,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Euthanasia | Saari Animal Clinic',
+      title: 'Pet Euthanasia in Vaasa | Saari Animal Clinic',
       h1: 'Euthanasia — your pet\'s final journey',
       metaDesc: 'Peaceful and dignified pet euthanasia in Vaasa. Pain-free with sedation. Cremation and individual cremation options. Grief support. Eläinklinikka Saari.',
       sections: [
@@ -3885,7 +3885,7 @@ const servicePages = [
     slug: 'eu-lemmikkipassi',
     slugSv: 'eu-sallskapsdjurspass',
     slugEn: 'eu-pet-passport',
-    title: "EU-lemmikkipassi koiralle ja kissalle | Eläinklinikka Saari",
+    title: 'EU-lemmikkipassi Vaasassa | Eläinklinikka Saari',
     ogTitle: "EU-lemmikkipassi koiralle ja kissalle | Eläinklinikka Saari",
     h1: "EU-lemmikkipassi koiralle ja kissalle Vaasassa – hinta, voimassaolo ja hakeminen",
     metaDesc: "EU-lemmikkipassi Vaasassa 80,50 € (37,50 € muun käynnin yhteydessä), mikrosirutus 68 €. Passin saat samana päivänä. Voimassaolo, rabies 21 pv, kissan passi.",
@@ -3903,7 +3903,7 @@ const servicePages = [
       { heading: "Usein kysyttyä lemmikkipassista", text: "<p><strong>Paljonko koiran passi maksaa?</strong> EU-lemmikkipassi maksaa Eläinklinikka Saarella 80,50 € erillisellä käynnillä tai 37,50 € muun käynnin, esimerkiksi rokotuksen, yhteydessä. Mikrosirutus maksaa 68 € (32,40 € muun käynnin yhteydessä) ja koiran 4-rokotus + rabies 85 €.</p><p><strong>Paljonko kissan passi maksaa?</strong> Kissan EU-lemmikkipassi maksaa saman kuin koiran: 80,50 € erillisellä käynnillä tai 37,50 € muun käynnin yhteydessä. Kissan 3-rokotus + rabies maksaa 86 € ja mikrosirutus 68 €.</p><p><strong>Kuinka kauan koiran EU-passi on voimassa?</strong> Passi ei vanhene, vaan on voimassa koko lemmikin eliniän. Matkustuskelpoisuus riippuu passiin merkitystä rabiesrokotuksesta, joka on voimassa rokotteesta riippuen 1–3 vuotta ja on uusittava ennen edellisen umpeutumista.</p><p><strong>Kuinka nopeasti passin saa?</strong> Saat passin mukaasi samalla käynnillä. Jos rabiesrokotus annetaan ensimmäistä kertaa, matkustaa saa aikaisintaan 21 päivän kuluttua rokotuksesta – varaa aika viimeistään kuukautta ennen matkaa.</p><p><strong>Tarvitseeko lemmikillä olla mikrosiru?</strong> Kyllä. EU-lemmikkipassi edellyttää mikrosirua, ja sirun numero merkitään passiin. Jos lemmikillä ei ole sirua, asennamme sen samalla käynnillä (68 €, muun käynnin yhteydessä 32,40 €).</p><p><strong>Tarvitaanko rabiesrokotus?</strong> Kyllä. Rabiesrokotus on pakollinen kaikille EU-maiden välillä matkustaville koirille, kissoille ja freteille, ja se on annettava vähintään 21 päivää ennen matkaa. Rokotus voidaan antaa aikaisintaan 12 viikon iässä.</p><p><strong>Mitä Ruotsiin tai Norjaan matkustaminen vaatii?</strong> Ruotsiin riittää EU-lemmikkipassi, mikrosiru ja voimassa oleva rabiesrokotus. Palattaessa Ruotsista Suomeen koira on lääkittävä ekinokokkia vastaan 1–5 päivää ennen saapumista, tai koira on 28 päivän säännön piirissä (lääkitty vähintään kahdesti 1–28 päivän välein ja sen jälkeen enintään 28 päivän välein). Suoraan Suomesta Norjaan matkustava koira ei tarvitse lääkitystä; Ruotsin kautta Norjaan mentäessä lääkitys vaaditaan 1–5 päivää ennen rajaa tai 28 päivän sääntö.</p><p><strong>Kuinka aikaisin passia kannattaa hakea?</strong> Viimeistään kuukautta ennen EU:n sisäistä matkaa, jotta 21 päivän odotusaika ensimmäisestä rabiesrokotuksesta ehtii täyttyä. EU:n ulkopuolelle matkustettaessa aloita 4–6 kuukautta etukäteen, sillä tiitteritutkimus ja sen 3 kuukauden odotusaika vievät aikaa.</p><p><strong>Saanko EU-lemmikkipassin lemmikille, jonka olen tuonut EU:n ulkopuolelta?</strong> Kyllä, jos olet muuttanut Suomeen pysyvästi. Luemme mikrosirun, annamme Ruokaviraston suosituksen mukaisesti uuden rabiesrokotuksen Suomessa ja teemme passin samalla käynnillä. EU:n ulkopuolella annettuja rabiesrokotuksia ei enää siirretä Suomessa myönnettyyn passiin.</p>" },
     ],
     sv: {
-      title: "EU-pass för hund och katt | Djurklinik Saari",
+      title: 'EU-pass för hund och katt i Vasa | Djurklinik Saari',
       ogTitle: "EU-pass för hund och katt | Djurklinik Saari",
       h1: "EU-pass för hund och katt i Vasa – pris, giltighet och ansökan",
       metaDesc: "EU-sällskapsdjurspass i Vasa 80,50 € (37,50 € vid annat besök), mikrochipning 68 €. Passet får du samma dag. Giltighet, rabies 21 dagar, pass för katt.",
@@ -3938,7 +3938,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: "EU Pet Passport for Dogs and Cats | Saari Animal Clinic",
+      title: 'EU Pet Passport in Vaasa | Saari Animal Clinic',
       ogTitle: "EU Pet Passport for Dogs and Cats | Saari Animal Clinic",
       h1: "EU pet passport for dogs and cats in Vaasa – price, validity and how to get one",
       metaDesc: "EU pet passport in Vaasa €80.50 (€37.50 with another visit), microchipping €68. Passport issued the same day. Validity, 21-day rabies rule, cat passports.",
@@ -3991,7 +3991,7 @@ const servicePages = [
     slug: 'verikokeet',
     slugSv: 'blodprov',
     slugEn: 'blood-tests',
-    title: 'Verikokeet | Eläinklinikka Saari',
+    title: 'Koiran ja kissan verikokeet Vaasassa | Eläinklinikka Saari',
     h1: 'Verikokeet',
     metaDesc: 'Lemmikin verikokeet Vaasassa. Oma laboratorio, nopeat tulokset käynnin aikana. Hematologia, kliininen kemia, hormonit, virtsaviljely. Eläinklinikka Saari.',
     icon: '🩸',
@@ -4021,7 +4021,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Blood Tests | Saari Animal Clinic',
+      title: 'Blood Tests for Dogs and Cats in Vaasa | Saari Animal Clinic',
       h1: 'Blood Tests',
       metaDesc: 'Pet blood tests in Vaasa. In-house laboratory with fast results during your visit. Haematology, clinical chemistry, hormones. Eläinklinikka Saari.',
       sections: [
@@ -4045,7 +4045,7 @@ const servicePages = [
     slug: 'tiineystutkimus',
     slugSv: 'draktighetsundersokning',
     slugEn: 'pregnancy-examination',
-    title: 'Tiineystutkimus | Eläinklinikka Saari',
+    title: 'Lemmikin tiineystutkimus Vaasassa | Eläinklinikka Saari',
     h1: 'Tiineystutkimus',
     metaDesc: 'Tiineystutkimus koiralle ja kissalle Vaasassa. Ultraääni, röntgen, sikiöiden seuranta, keisarinleikkauksen suunnittelu. Eläinklinikka Saari.',
     icon: '🤰',
@@ -4057,7 +4057,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä tiineystutkimuksesta', text: '<strong>Milloin tiineys näkyy ultraäänellä?</strong> Tiineys voidaan todeta ultraäänellä luotettavasti noin raskauspäivästä 24–25 alkaen. Tällöin näkyvät sikiörakkulat ja sikiöiden sydämenlyönnit ovat havaittavissa. Liian aikainen tutkimus voi antaa väärän negatiivisen tuloksen. Jos astutuksesta on kulunut vähemmän kuin 24 päivää, suosittelemme odottamaan muutaman päivän ja varaamaan ajan sen jälkeen. <strong>Kuinka monta pentua voidaan laskea?</strong> Ultraäänellä voidaan arvioida pentujen lukumäärää, mutta tarkin tulos saadaan röntgentutkimuksella noin raskauspäivästä 50 alkaen, jolloin sikiöiden luusto on mineralisoitunut. Röntgenkuvasta voidaan laskea kallot ja selkärangat luotettavasti. Tarkka pentumäärä on tärkeä tieto synnytyksen seurannan kannalta — se kertoo, milloin kaikki pennut ovat syntyneet.' },
     ],
     sv: {
-      title: 'Dräktighetsundersökning | Djurklinik Saari',
+      title: 'Dräktighetsundersökning i Vasa | Djurklinik Saari',
       h1: 'Dräktighetsundersökning',
       metaDesc: 'Dräktighetsundersökning för hund och katt i Vasa. Ultraljud, röntgen, fosterövervakning, planering av kejsarsnitt. Eläinklinikka Saari.',
       sections: [
@@ -4075,7 +4075,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Pregnancy Examination | Saari Animal Clinic',
+      title: 'Pregnancy Examination for Pets, Vaasa | Saari Animal Clinic',
       h1: 'Pregnancy Examination',
       metaDesc: 'Pregnancy examination for dogs and cats in Vaasa. Ultrasound, X-ray, fetal monitoring, C-section planning. Book at Eläinklinikka Saari.',
       sections: [
@@ -4181,7 +4181,7 @@ const servicePages = [
     slug: 'kuntoutus',
     slugSv: 'rehabilitering',
     slugEn: 'rehabilitation',
-    title: 'Hyvinvointi ja kuntoutus | Eläinklinikka Saari',
+    title: 'Hyvinvointi ja kuntoutus Vaasassa | Eläinklinikka Saari',
     h1: 'Hyvinvointi ja kuntoutus',
     metaDesc: 'Eläinten kuntoutus Vaasassa. Liikkumisanalyysi, hieronta, elektroterapia, harjoitusohjelmat, leikkauksen jälkeinen kuntoutus. Eläinklinikka Saari.',
     icon: '💪',
@@ -4193,7 +4193,7 @@ const servicePages = [
       { heading: 'Usein kysyttyä kuntoutuksesta', text: '<strong>Kuinka nopeasti kuntoutus kannattaa aloittaa leikkauksen jälkeen?</strong> Kuntoutuksen aloitusajankohta riippuu toimenpiteestä ja potilaan tilasta. Yleensä kuntoutus aloitetaan 1–2 viikkoa leikkauksen jälkeen, kun haavan paraneminen on hyvässä vauhdissa. Eläinlääkäri arvioi optimaalisen aloitusajankohdan jälkitarkastuksessa. Liian aikainen aloitus voi rasittaa leikkausaluetta, mutta liian pitkä odottaminen hidastaa lihasvoiman ja liikkuvuuden palautumista. <strong>Sopiiko kuntoutus myös vanhoille lemmikeille?</strong> Kyllä, kuntoutus sopii erinomaisesti iäkkäille lemmikeille. Ikääntyneillä koirilla ja kissoilla kuntoutus auttaa erityisesti nivelrikon oireiden hallinnassa, lihasvoiman ylläpitämisessä ja liikkuvuuden parantamisessa. Hoito-ohjelma räätälöidään potilaan kunnon ja rajoitteiden mukaan — iäkkäille lemmikeille valitaan hellävaraisempia menetelmiä ja harjoituksia. Monet omistajat huomaavat, että säännöllinen kuntoutus parantaa merkittävästi ikääntyneen lemmikin elämänlaatua ja aktiivisuutta arjessa.' },
     ],
     sv: {
-      title: 'Välbefinnande och rehabilitering | Djurklinik Saari',
+      title: 'Välbefinnande och rehabilitering i Vasa | Djurklinik Saari',
       h1: 'Välbefinnande och rehabilitering',
       metaDesc: 'Djurrehabilitering i Vasa. Rörelseanalys, massage, elektroterapi, träningsprogram, postoperativ rehabilitering. Eläinklinikka Saari.',
       sections: [
@@ -4211,7 +4211,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Wellness and Rehabilitation | Saari Animal Clinic',
+      title: 'Wellness and Rehabilitation in Vaasa | Saari Animal Clinic',
       h1: 'Wellness and Rehabilitation',
       metaDesc: 'Veterinary rehabilitation in Vaasa. Mobility analysis, massage, electrotherapy, exercise programmes, post-surgical rehab. Eläinklinikka Saari.',
       sections: [
@@ -4338,7 +4338,7 @@ const servicePages = [
     figures: { 2: [FIG_PATELLAR_LUXATION] },
     slugSv: 'ortopedi',
     slugEn: 'orthopedics',
-    title: 'Ortopedia | Eläinklinikka Saari',
+    title: 'Ortopediset leikkaukset Vaasassa | Eläinklinikka Saari',
     h1: 'Ortopedia',
     metaDesc: 'Ortopedia Vaasassa: eturistisiteen korjaus (TTA, lateral suture), murtumaleikkaukset, amputaatiot, viralliset röntgentutkimukset. Eläinklinikka Saari.',
     icon: '🦴',
@@ -4376,7 +4376,7 @@ const servicePages = [
       ],
     },
     en: {
-      title: 'Orthopaedics | Saari Animal Clinic',
+      title: 'Orthopaedic Surgery for Pets in Vaasa | Saari Animal Clinic',
       h1: 'Orthopaedics',
       metaDesc: 'Veterinary orthopaedics in Vaasa: cruciate ligament repair (TTA, lateral suture), fracture surgery, amputations, official X-rays. Eläinklinikka Saari.',
       sections: [
@@ -4418,7 +4418,7 @@ const servicePages = [
     slug: 'anestesia',
     slugSv: 'anestesi',
     slugEn: 'anesthesia',
-    title: 'Anestesia | Eläinklinikka Saari',
+    title: 'Turvallinen eläinanestesia Vaasassa | Eläinklinikka Saari',
     h1: 'Anestesia',
     metaDesc: 'Turvallinen eläinanestesia Vaasassa. Inhalaatioanestesia, jatkuva valvonta, kaksi ventilaattoria, balansoitu protokolla. Eläinklinikka Saari.',
     icon: '😴',
@@ -4448,7 +4448,7 @@ const servicePages = [
       relatedTitle: 'Relaterade artiklar',
     },
     en: {
-      title: 'Anaesthesia | Saari Animal Clinic',
+      title: 'Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic',
       h1: 'Anaesthesia',
       metaDesc: 'Safe veterinary anaesthesia in Vaasa. Inhalation anaesthesia, continuous monitoring, two ventilators, balanced protocol. Eläinklinikka Saari.',
       sections: [
@@ -4472,7 +4472,7 @@ const servicePages = [
     slug: 'hygienia',
     slugSv: 'hygien',
     slugEn: 'hygiene',
-    title: 'Hygienia | Eläinklinikka Saari',
+    title: 'Eläinklinikan hygienia Vaasassa | Eläinklinikka Saari',
     h1: 'Hygienia',
     metaDesc: 'Korkea hygieniataso eläinklinikalla Vaasassa. Pintojen desinfiointi, UV-desinfiointi, ISFM-kissaystävälliset standardit. Eläinklinikka Saari.',
     icon: '🧼',
