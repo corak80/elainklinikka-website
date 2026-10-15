@@ -84,9 +84,9 @@ const translations = {
   'hero.title1': {
     fi: 'Eläinklinikka',
     sv: 'Djurklinik',
-    en: 'Animal Clinic'
+    en: 'Saari'
   },
-  'hero.title2': { fi: 'Saari', sv: 'Saari', en: 'Saari' },
+  'hero.title2': { fi: 'Saari', sv: 'Saari', en: 'Animal Clinic' },
   'hero.title3': {
     fi: 'Eläinlääkäri Vaasassa',
     sv: 'Veterinär i Vasa',

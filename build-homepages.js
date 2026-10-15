@@ -70,9 +70,9 @@ const pageMeta = {
   },
   en: {
     htmlLang: 'en',
-    title: 'Veterinarian in Vaasa — Saari Clinic, Mon–Fri 7:45–17',
+    title: 'Veterinarian in Vaasa — Saari Animal Clinic, Mon–Fri 7:45–17',
     description: 'Small animal clinic and veterinarian in Vaasa since 1989. Dental, surgery, cardiac examinations and ultrasound for dogs and cats. Book online.',
-    ogTitle: 'Eläinklinikka Saari – Small Animal Clinic and Veterinarian in Vaasa',
+    ogTitle: 'Saari Animal Clinic – Veterinarian in Vaasa since 1989',
     ogDescription: 'Small animal clinic and veterinarian in Vaasa since 1989. Dental care, surgery, cardiac examinations and ultrasound for dogs and cats.',
     ogLocale: 'en_GB',
     twitterDescription: 'Small animal clinic and veterinarian in Vaasa since 1989',

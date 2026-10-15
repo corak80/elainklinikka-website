@@ -5370,7 +5370,7 @@ function generateReviewsPage(lang) {
     description: i18n.metaDesc,
     url: canonicalUrl,
     inLanguage: lang,
-    isPartOf: { '@type': 'WebSite', name: i18n.brandName, url: BASE_URL },
+    isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
       '@type': 'VeterinaryCare',
       name: i18n.brandName,
@@ -5691,7 +5691,7 @@ function generateBookingPage(lang) {
     description: i18n.metaDesc,
     url: canonicalUrl,
     inLanguage: lang,
-    isPartOf: { '@type': 'WebSite', name: i18n.brandName, url: BASE_URL },
+    isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
       '@type': 'VeterinaryCare',
       name: i18n.brandName,
