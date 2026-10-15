@@ -2336,7 +2336,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
+${heroFig ? `  <link rel="preload" as="image" href="${heroFig.src}">\n` : ''}  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">
@@ -5007,7 +5007,7 @@ function generateServicePage(service, translations, lang) {
   </script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
-  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
+${heroFig ? `  <link rel="preload" as="image" href="${heroFig.src}">\n` : ''}  <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
   <link rel="icon" type="image/png" href="${assetPrefix}images/favicon-icon.png">
 </head>
 <body class="article-page">

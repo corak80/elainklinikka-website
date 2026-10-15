@@ -15,8 +15,9 @@
  * key. setLanguage() simply leaves an element alone when its key is missing.
  *
  * The bundle is produced with the same esbuild flags as before
- * (`--minify --target=es2020`), so the only difference from a plain
- * `npx esbuild js/main.src.js` is the smaller translations table.
+ * (`--minify --target=es2020`). Besides the smaller translations table, the code
+ * after it is wrapped in an IIFE so internal names get minified; the functions the
+ * pages call from inline handlers (EXPORTS below) are assigned to window.
  */
 const fs = require('fs');
 const os = require('os');
@@ -70,7 +71,15 @@ for (const [key, value] of Object.entries(full)) {
   }
 }
 
-const runtimeSrc = src.slice(0, objStart) + JSON.stringify(kept) + src.slice(objEnd);
+// Everything after the translations table is wrapped in an IIFE so esbuild can shorten the
+// internal function/variable names (the pages' inline handlers only call these by name):
+const EXPORTS = ['setLanguage', 'openVetProfile', 'closeVetProfile', 'openNurseProfile', 'closeNurseProfile'];
+const tail = src.slice(objEnd).replace(/^;/, '');
+for (const name of EXPORTS) {
+  if (!new RegExp(`^function ${name}\\(`, 'm').test(tail)) throw new Error(`exported function ${name} not found in main.src.js`);
+}
+const runtimeSrc = src.slice(0, objStart) + JSON.stringify(kept) + ';\n(function () {\n' + tail +
+  `\nObject.assign(window, { ${EXPORTS.join(', ')} });\n})();\n`;
 const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'saari-main-js-'));
 const tmpFile = path.join(tmpDir, 'main.runtime.src.js');
 fs.writeFileSync(tmpFile, runtimeSrc);
