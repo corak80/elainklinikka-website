@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Renders the watercolour leaf sprite sheet (images/leaves/leaves.webp).
+     Run: node tools/leaves/make_sprites.js  (headless Chrome + cwebp) -->
+<html><body>
+<script src="leaf_art.js"></script>
+<script>
+  var CELL = 128, COLS = 8, g = LeafArt.build('watercolour').gallery;
+  var rows = Math.ceil(g.length * 2 / COLS), sheet = document.createElement('canvas');
+  sheet.width = CELL * COLS; sheet.height = CELL * rows;
+  var x = sheet.getContext('2d'); x.imageSmoothingQuality = 'high';
+  g.forEach(function (p, i) {               // cell 2i = front, 2i+1 = back
+    [p.front, p.back].forEach(function (s, k) {
+      var n = i * 2 + k; x.drawImage(s, (n % COLS) * CELL, Math.floor(n / COLS) * CELL, CELL, CELL);
+    });
+  });
+  var pre = document.createElement('pre'); pre.id = 'out';
+  pre.textContent = JSON.stringify({ count: g.length, cell: CELL, cols: COLS, png: sheet.toDataURL('image/png') });
+  document.body.appendChild(pre);
+</script>
+</body></html>
