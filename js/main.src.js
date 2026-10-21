@@ -75,9 +75,9 @@ const translations = {
 
   // Notice banner
   'notice': {
-    fi: 'Drop-in rokotukset ilman ajanvarausta tiistaisin klo 15.30–16.00',
-    sv: 'Drop-in vaccinationer utan tidsbokning på tisdagar kl 15.30–16.00',
-    en: 'Drop-in vaccinations without appointment on Tuesdays 3:30–4:00 PM'
+    fi: 'Drop-in-rokotukset ilman ajanvarausta tiistaisin 15.30–16.00, 10 % edullisemmin',
+    sv: 'Drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00, 10 % rabatt',
+    en: 'Drop-in vaccinations without appointment on Tuesdays 3:30–4:00 PM, 10 % off'
   },
 
   // Hero
