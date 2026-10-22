@@ -2743,6 +2743,27 @@ a.service-card-link {
   color: var(--color-text);
 }
 
+/* Google "preferred source" badge — injected by main.js after .footer-social */
+.footer-col a.footer-google-source {
+  display: block;
+  width: 190px;
+  max-width: 100%;
+  margin-top: var(--spacing-md);
+  padding: 0;
+  border-radius: 8px;
+}
+
+.footer-google-source img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer-google-source:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: var(--spacing-lg);

@@ -3505,6 +3505,7 @@ function setLanguage(lang) {
 
   // Update HTML lang attribute
   document.documentElement.lang = lang;
+  updatePreferredSourceBadge(lang);
 
   // Update service card links for current language
   document.querySelectorAll('[data-href-fi]').forEach(el => {
@@ -4404,10 +4405,83 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+// --- Google "preferred source" badge (footer, under the social icons) ---
+// Google's official badge (images/google-preferred-source/, from Search Central) in the
+// page language. It is a plain link to Google's source-preferences page, opened in a new tab.
+// With cookie consent, Google's script is loaded as the badge nears the viewport; a click then
+// adds the clinic in Google's own popup and returns the visitor to the page. Without consent,
+// or when the script is blocked, the link does the job. The script must be loaded before the
+// click: its popup needs the click's user gesture. CSP: news.google.com in script-src + frame-src.
+const PREFERRED_SOURCE_URL = 'https://www.google.com/preferences/source?q=elainklinikkasaari.fi';
+const PREFERRED_SOURCE_SCRIPT = 'https://news.google.com/swg/js/v1/publisher.js';
+const PREFERRED_SOURCE_ALT = {
+  fi: 'Lisää ensisijaiseksi lähteeksi Googlessa',
+  sv: 'Lägg till som önskad källa på Google',
+  en: 'Add as a preferred source on Google'
+};
+let preferredSourceApi = null;
+
+function updatePreferredSourceBadge(lang) {
+  const img = document.querySelector('.footer-google-source img');
+  if (!img) return;
+  const l = PREFERRED_SOURCE_ALT[lang] ? lang : 'fi';
+  img.src = '/images/google-preferred-source/' + l + '-dark.png';
+  img.alt = PREFERRED_SOURCE_ALT[l];
+}
+
+function loadPreferredSourceScript() {
+  (self.PREFERRED_SOURCE = self.PREFERRED_SOURCE || []).push(api => {
+    api.init({}); // the popup and toast follow <html lang>; Google has no Finnish yet
+    preferredSourceApi = api;
+  });
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = PREFERRED_SOURCE_SCRIPT;
+  s.setAttribute('preferred-sources-control', 'manual');
+  document.head.appendChild(s);
+}
+
+function initPreferredSource() {
+  const social = document.querySelector('.footer-social');
+  if (!social) return;
+  const link = document.createElement('a');
+  link.className = 'footer-google-source';
+  link.href = PREFERRED_SOURCE_URL;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  const img = document.createElement('img');
+  img.width = 338;
+  img.height = 106;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  link.appendChild(img);
+  social.after(link);
+  updatePreferredSourceBadge(currentLang);
+
+  link.addEventListener('click', e => {
+    if (!preferredSourceApi || e.button !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    preferredSourceApi.addPreferredSource();
+  });
+
+  if (!('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver(entries => {
+    if (!entries.some(entry => entry.isIntersecting)) return;
+    let consent = null;
+    try { consent = localStorage.getItem('cookie_consent'); } catch (e) {}
+    if (consent !== 'accepted') return;
+    observer.disconnect();
+    loadPreferredSourceScript();
+  }, { rootMargin: '600px 0px' });
+  observer.observe(link);
+}
+
 // --- Init ---
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize language
   setLanguage(currentLang);
+  initPreferredSource();
 
   // Bind language toggle
   document.querySelectorAll('.lang-toggle button').forEach(btn => {
