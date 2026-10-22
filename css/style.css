@@ -2743,37 +2743,27 @@ a.service-card-link {
   color: var(--color-text);
 }
 
-/* Google "preferred source" badge — injected by main.js after .footer-social.
-   Fills its column up to 190px: a fixed width would widen the 1fr column and
-   squeeze Contact on desktop (2fr 2fr 1fr 1fr). */
+/* Google "preferred source" link — injected by main.js after .footer-social:
+   a footer link with a monochrome G, like the FB/IG glyphs above it. */
 .footer-col a.footer-google-source {
-  display: block;
-  width: 100%;
-  max-width: 190px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
   margin-top: var(--spacing-sm);
-  padding: 0;
+  max-width: 16rem;
+  line-height: 1.45;
   border-radius: var(--radius-sm);
-  transition: transform var(--transition);
 }
 
-.footer-google-source img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.footer-col a.footer-google-source:hover {
-  transform: translateY(-2px);
+.footer-google-icon {
+  flex: none;
+  display: flex;
+  padding-top: 0.15em;
 }
 
 .footer-google-source:focus-visible {
   outline: 3px solid var(--color-primary);
   outline-offset: 3px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .footer-col a.footer-google-source { transition: none; }
-  .footer-col a.footer-google-source:hover { transform: none; }
 }
 
 .footer-bottom {
