@@ -4405,9 +4405,10 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// --- Google "preferred source" link (footer, under the social icons) ---
-// Our own badge in the footer's style (Google allows custom badges) with Google's official
-// FI/SV/EN wording from its badge assets. It is a plain link to Google's source-preferences page,
+// --- Google "preferred source" button (footer, third round button after Facebook/Instagram) ---
+// Our own badge in the footer's style (Google allows custom badges): a G in the same circle as
+// the social icons, with Google's official FI/SV/EN wording from its badge assets as tooltip and
+// accessible name. It is a plain link to Google's source-preferences page,
 // opened in a new tab. With cookie consent, Google's script is loaded as the link nears the
 // viewport; a click then adds the clinic in Google's own popup and returns the visitor to the
 // page. Without consent, or when the script is blocked, the link does the job. The script must be
@@ -4420,13 +4421,15 @@ const PREFERRED_SOURCE_LABEL = {
   sv: 'Lägg till som önskad källa på Google',
   en: 'Add as a preferred source on Google'
 };
-const GOOGLE_G_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>';
+const GOOGLE_G_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>';
 let preferredSourceApi = null;
 
 function updatePreferredSourceBadge(lang) {
-  const label = document.querySelector('.footer-google-label');
-  if (!label) return;
-  label.textContent = PREFERRED_SOURCE_LABEL[lang] || PREFERRED_SOURCE_LABEL.fi;
+  const link = document.querySelector('.footer-google-source');
+  if (!link) return;
+  const label = PREFERRED_SOURCE_LABEL[lang] || PREFERRED_SOURCE_LABEL.fi;
+  link.setAttribute('aria-label', label);
+  link.title = label;
 }
 
 function loadPreferredSourceScript() {
@@ -4449,8 +4452,8 @@ function initPreferredSource() {
   link.href = PREFERRED_SOURCE_URL;
   link.target = '_blank';
   link.rel = 'noopener';
-  link.innerHTML = '<span class="footer-google-icon">' + GOOGLE_G_SVG + '</span><span class="footer-google-label"></span>';
-  social.after(link);
+  link.innerHTML = GOOGLE_G_SVG;
+  social.appendChild(link);
   updatePreferredSourceBadge(currentLang);
 
   link.addEventListener('click', e => {

@@ -2743,29 +2743,6 @@ a.service-card-link {
   color: var(--color-text);
 }
 
-/* Google "preferred source" link — injected by main.js after .footer-social:
-   a footer link with a monochrome G, like the FB/IG glyphs above it. */
-.footer-col a.footer-google-source {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  margin-top: var(--spacing-sm);
-  max-width: 16rem;
-  line-height: 1.45;
-  border-radius: var(--radius-sm);
-}
-
-.footer-google-icon {
-  flex: none;
-  display: flex;
-  padding-top: 0.15em;
-}
-
-.footer-google-source:focus-visible {
-  outline: 3px solid var(--color-primary);
-  outline-offset: 3px;
-}
-
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: var(--spacing-lg);
