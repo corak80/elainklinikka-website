@@ -2743,14 +2743,17 @@ a.service-card-link {
   color: var(--color-text);
 }
 
-/* Google "preferred source" badge — injected by main.js after .footer-social */
+/* Google "preferred source" badge — injected by main.js after .footer-social.
+   Fills its column up to 190px: a fixed width would widen the 1fr column and
+   squeeze Contact on desktop (2fr 2fr 1fr 1fr). */
 .footer-col a.footer-google-source {
   display: block;
-  width: 190px;
-  max-width: 100%;
-  margin-top: var(--spacing-md);
+  width: 100%;
+  max-width: 190px;
+  margin-top: var(--spacing-sm);
   padding: 0;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
+  transition: transform var(--transition);
 }
 
 .footer-google-source img {
@@ -2759,9 +2762,18 @@ a.service-card-link {
   height: auto;
 }
 
+.footer-col a.footer-google-source:hover {
+  transform: translateY(-2px);
+}
+
 .footer-google-source:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 3px solid var(--color-primary);
   outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-col a.footer-google-source { transition: none; }
+  .footer-col a.footer-google-source:hover { transform: none; }
 }
 
 .footer-bottom {

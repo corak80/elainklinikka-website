@@ -4462,7 +4462,11 @@ function initPreferredSource() {
     if (!preferredSourceApi || e.button !== 0) return;
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
-    preferredSourceApi.addPreferredSource();
+    try {
+      preferredSourceApi.addPreferredSource();
+    } catch (err) {
+      window.open(link.href, '_blank', 'noopener');
+    }
   });
 
   if (!('IntersectionObserver' in window)) return;
