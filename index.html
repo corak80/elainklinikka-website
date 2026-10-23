@@ -367,15 +367,15 @@
   </script>
 
   <link rel="preload" as="image" href="/images/logo.png">
-  <link rel="preload" as="image" href="/media/clinic-poster-mobile.jpg" media="(max-width: 719px)" fetchpriority="high">
-  <link rel="preload" as="image" href="/media/clinic-poster.jpg" media="(min-width: 720px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/media/hero-autumn-poster-mobile.jpg" media="(max-width: 719px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/media/hero-autumn-poster.jpg" media="(min-width: 720px)" fetchpriority="high">
   <link rel="preload" as="image" href="/images/team-hero-1200.webp">
   <link rel="stylesheet" href="/css/style.css?v=20261022d">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style id="cine-hero">
-.hero{position:relative;padding:9rem 1rem 5rem!important;background:#14122a url('/media/clinic-poster.jpg') center 42%/cover!important;text-align:center;overflow:hidden;min-height:92vh;display:flex;align-items:center}
+.hero{position:relative;padding:9rem 1rem 5rem!important;background:#14122a url('/media/hero-autumn-poster.jpg') center 42%/cover!important;text-align:center;overflow:hidden;min-height:92vh;display:flex;align-items:center}
 .hero .container{position:relative;z-index:3}
 .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;z-index:0}
 .hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(18,16,40,.62) 0%,rgba(18,16,40,.26) 32%,rgba(18,16,40,.34) 60%,rgba(18,16,40,.84) 100%)}
@@ -394,7 +394,7 @@ a.hero-badge{text-decoration:none}
 @keyframes heroRise{to{transform:none}}
 @media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
 
-@media(max-width:719px){.hero{background-image:url('/media/clinic-poster-mobile.jpg')!important}}
+@media(max-width:719px){.hero{background-image:url('/media/hero-autumn-poster-mobile.jpg')!important}}
 </style>
   <!-- Note: no VideoObject schema for the decorative hero background clip (aria-hidden, muted, looped).
        It is not a "watch page" video; indexing it triggered GSC "Video isn't on a watch page". -->
@@ -455,7 +455,7 @@ a.hero-badge{text-decoration:none}
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" poster="/media/clinic-poster.jpg" aria-hidden="true" data-src="/media/clinic.mp4"></video>
+    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" poster="/media/hero-autumn-poster.jpg" aria-hidden="true" data-src="/media/hero-autumn.mp4"></video>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
