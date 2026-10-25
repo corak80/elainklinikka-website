@@ -4075,9 +4075,9 @@ const vetProfiles = {
       en: 'Small animal veterinarian since 2013.'
     },
     training: {
-      fi: 'AOVET ja ESAVS ortopedinen kirurgia. Accesia Academy hammashoito.',
-      sv: 'AOVET och ESAVS ortopedisk kirurgi. Accesia Academy tandvård.',
-      en: 'AOVET and ESAVS orthopedic surgery. Accesia Academy dentistry.'
+      fi: 'AOVET ja ESAVS ortopedinen kirurgia. Accesia Academy hammashoito. ESAVS Orthopaedics I–III (Wien ja Cremona 2019; Wien 2026).',
+      sv: 'AOVET och ESAVS ortopedisk kirurgi. Accesia Academy tandvård. ESAVS Orthopaedics I–III (Wien, Cremona 2019; Wien 2026).',
+      en: 'AOVET and ESAVS orthopedic surgery. Accesia Academy dentistry. ESAVS Orthopaedics I–III (Vienna, Cremona 2019; Vienna 2026).'
     },
     focus: {
       fi: 'Ortopedia, pehmytkudoskirurgia, hammashoito, kissaystävällinen hoito',
@@ -4123,9 +4123,9 @@ const vetProfiles = {
       en: 'Veterinarian since 2016/2017, at Saari Clinic since 2020. Pharmacist degree.'
     },
     training: {
-      fi: 'Accesia Academy hammashoito. ESAVS pehmytkudoskirurgia. Farmaseutin tutkinto.',
-      sv: 'Accesia Academy tandvård. ESAVS mjukvävnadskirurgi. Farmaceutexamen.',
-      en: 'Accesia Academy dentistry. ESAVS soft tissue surgery. Pharmacist degree.'
+      fi: 'Accesia Academy hammashoito. ESAVS pehmytkudoskirurgia. Farmaseutin tutkinto. ESAVS Feline Medicine: Advanced Clinical Challenges (Palma de Mallorca 2026).',
+      sv: 'Accesia Academy tandvård. ESAVS mjukvävnadskirurgi. Farmaceutexamen. ESAVS Feline Medicine: Advanced Clinical Challenges (Palma de Mallorca 2026).',
+      en: 'Accesia Academy dentistry. ESAVS soft tissue surgery. Pharmacist degree. ESAVS Feline Medicine: Advanced Clinical Challenges (Palma de Mallorca 2026).'
     },
     focus: {
       fi: 'Kirurgia, hammashoito, dermatologia',
