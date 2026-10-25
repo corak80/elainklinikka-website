@@ -3741,6 +3741,9 @@ function toggleArticles() {
 
 // --- Article Category Filters & Search ---
 let currentArticleFilter = 'all';
+// An article's category label links to the article list as ?cat=<category>. Read it
+// now: the DOMContentLoaded handler's replaceState drops the query string.
+const initialArticleCat = new URLSearchParams(window.location.search).get('cat');
 
 function filterArticles(category) {
   currentArticleFilter = category;
@@ -4022,6 +4025,11 @@ function initArticleFilters() {
       applyArticleFilters();
     });
   });
+
+  if (initialArticleCat && [...document.querySelectorAll('.filter-btn')].some(b => b.dataset.filter === initialArticleCat)) {
+    currentArticleFilter = initialArticleCat;
+    applyArticleFilters();
+  }
 
   const searchInput = document.getElementById('article-search-input');
   if (searchInput) {

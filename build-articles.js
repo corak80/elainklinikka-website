@@ -2362,7 +2362,7 @@ ${renderHeaderNav({ lang, homeUrl, articlesUrl: getArticlesUrl(lang), fiUrl, svU
     <div class="container">
       <article class="article-card" data-category="${article.category}">
         <div class="article-header">
-          <span class="article-tag">${tag}</span>
+          <a class="article-tag" href="${getArticlesUrl(lang)}?cat=${article.category || 'health'}">${tag}</a>
 ${article.date ? `          <time datetime="${isoDate(article.date)}">${article.date}</time>\n` : ''}        </div>
         <h1>${title}</h1>
         <div class="article-byline">${lang === 'en' ? 'Veterinarian' : lang === 'sv' ? 'Veterinär' : 'Eläinlääkäri'} ${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}, Eläinklinikka Saari</div>

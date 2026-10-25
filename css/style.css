@@ -1684,6 +1684,12 @@ a.service-card-link {
   font-weight: 600;
 }
 
+a.article-tag:hover,
+a.article-tag:focus-visible {
+  background: var(--color-primary-text);
+  color: #fff;
+}
+
 .article-header time {
   color: var(--color-text-light);
   font-size: 0.85rem;
