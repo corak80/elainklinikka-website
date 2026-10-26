@@ -1289,15 +1289,14 @@ boas:{
 
 liver:{
  title:{fi:"Kliininen maksatutkimus (seerumin ALAT)",en:"Clinical liver examination (serum ALT)"},
- who:{fi:"Näytteenottaja/eläinlääkäri; laboratorio IDEXX (Vetlab) tai Movet",en:"Sampling vet; lab IDEXX (Vetlab) or Movet"},
+ who:{fi:"Näytteenottaja/eläinlääkäri; näyte IDEXX Movet- tai IDEXX Tampere -laboratorioon",en:"Sampling vet; sample to IDEXX Movet or IDEXX Tampere"},
  age:{fi:"Rotukohtainen (dobermanni vähintään 12 kk)",en:"Breed-specific (Dobermann at least 12 mo)"},
  valid:{fi:"Rotukohtainen (dobermanni 24 kk)",en:"Breed-specific (Dobermann 24 mo)"},
- proc:{fi:["Kennelliiton <b>Kliininen maksatutkimus -lomake</b> (v.2 09.2024): omistajan allekirjoitus, TM tarkistettu, näytteenottajan allekirjoitus + eläinlääkärinumero","Verinäyte (S-ALAT) tai maksabiopsia (kupari)","Jakelu: 1. Kennelliitto, 2. eläinlääkäri, 3. omistaja"],
-       en:["Kennelliitto <b>Clinical liver examination form</b> (v.2 09.2024): owner signature, microchip checked, sampler signature + vet number","Blood sample (S-ALT) or liver biopsy (copper)","Copies: 1. Kennelliitto, 2. vet, 3. owner"]},
- grades:{name:{fi:"Lomakkeen raja-arvot",en:"Form cut-offs"},rows:[
-  ["Normaali",{fi:"S-ALAT viitealueella (IDEXX/Vetlab 24–136, Movet 20–130 U/l); kupari < 440 ppm",en:"S-ALT within reference (IDEXX/Vetlab 24–136, Movet 20–130 U/l); copper <440 ppm"}],
-  ["Rajatapaus",{fi:"S-ALAT > 136 (IDEXX) / > 130 (Movet); kupari 440–1000 ppm",en:"S-ALT >136 (IDEXX) / >130 (Movet); copper 440–1000 ppm"}],
-  ["Kohonnut",{fi:"S-ALAT > 250 U/l; kupari > 1000 ppm",en:"S-ALT >250 U/l; copper >1000 ppm"}]]},
+ proc:{fi:["Kennelliiton <b>Kliininen maksatutkimus -lomake</b> (v.3 09.2026): mikrosiru tarkistettu, omistajan allekirjoitus, näytteenottopäivä, näytteenottajan allekirjoitus + eläinlääkärinumero","Näyte <b>IDEXX Movet</b> (tunnus 5017683, 71006 VASTAUSLÄHETYS) tai <b>IDEXX Tampere</b> (tunnus 5006249, 31006 VASTAUSLÄHETYS)","Verinäyte (S-ALAT) tai maksabiopsia (kupari)","Jakelu: 1. Kennelliitto, 2. eläinlääkäri, 3. omistaja"],
+       en:["Kennelliitto <b>Clinical liver examination form</b> (v.3 09.2026): microchip checked, owner signature, sample date, sampler signature + vet number","Sample to <b>IDEXX Movet</b> (code 5017683, 71006 VASTAUSLÄHETYS) or <b>IDEXX Tampere</b> (code 5006249, 31006 VASTAUSLÄHETYS)","Blood sample (S-ALT) or liver biopsy (copper)","Copies: 1. Kennelliitto, 2. vet, 3. owner"]},
+ grades:{name:{fi:"Tulos lomakkeella",en:"Result on the form"},rows:[
+  ["S-ALAT",{fi:"Viitearvojen sisällä / alapuolella / yläpuolella – laboratorion omat viitearvot (lomakkeella ei enää kiinteitä raja-arvoja)",en:"Within / below / above the reference range – the lab's own reference values (the form no longer prints fixed cut-offs)"}],
+  ["Cu (ppm)",{fi:"Maksabiopsia: Normaali < 440 · Rajatapaus 440–1000 · Kohonnut > 1000",en:"Liver biopsy: Normal <440 · Borderline 440–1000 · Raised >1000"}]]},
  submit:{fi:"Paperilomake Kennelliittoon laboratorion vahvistamana.",en:"Paper form to Kennelliitto, signed off by the lab."}},
 
 baer:{ /* no 2026 PEVISA breed requires it – show only as a voluntary info line / footer */
