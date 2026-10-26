@@ -5325,7 +5325,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'fi', ogLocale: 'fi_FI',
       pageTitle: 'Asiakkaiden arvostelut | Eläinklinikka Saari',
       h1: 'Asiakkaiden arvostelut',
-      metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 281 arvostelua. Lue mitä asiakkaamme sanovat eläinlääkäreistämme ja palvelustamme Vaasassa.',
+      metaDesc: 'Eläinklinikka Saari Googlessa: keskiarvo 4,6 / 5 ja 327 arvostelua. Lue mitä asiakkaamme sanovat eläinlääkäreistämme ja palvelustamme Vaasassa.',
       brandName: 'Eläinklinikka Saari',
       reviewsOnGoogle: 'arvostelua Googlessa',
       reviewsOnFacebook: '+ 73 suositusta Facebookissa (98 % suosittelee)',
@@ -5341,7 +5341,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'sv', ogLocale: 'sv_FI',
       pageTitle: 'Kundernas omdömen | Djurklinik Saari',
       h1: 'Kundernas omdömen',
-      metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 281 omdömen. Läs vad våra kunder säger om våra veterinärer och vår service i Vasa.',
+      metaDesc: 'Djurklinik Saari på Google: genomsnitt 4,6 / 5 och 327 omdömen. Läs vad våra kunder säger om våra veterinärer och vår service i Vasa.',
       brandName: 'Djurklinik Saari',
       reviewsOnGoogle: 'omdömen på Google',
       reviewsOnFacebook: '+ 73 rekommendationer på Facebook (98 % rekommenderar)',
@@ -5357,7 +5357,7 @@ function generateReviewsPage(lang) {
       htmlLang: 'en', ogLocale: 'en_GB',
       pageTitle: 'Customer reviews | Saari Animal Clinic',
       h1: 'Customer reviews',
-      metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 281 reviews. Read what our customers say about our veterinarians and service in Vaasa.',
+      metaDesc: 'Saari Animal Clinic on Google: average 4.6 / 5 from 327 reviews. Read what our customers say about our veterinarians and service in Vaasa.',
       brandName: 'Saari Animal Clinic',
       reviewsOnGoogle: 'reviews on Google',
       reviewsOnFacebook: '+ 73 recommendations on Facebook (98% recommend)',
@@ -5373,7 +5373,7 @@ function generateReviewsPage(lang) {
   if (!i18n) throw new Error(`Unknown lang: ${lang}`);
 
   // Real Google Business Profile totals (verified from GBP dashboard)
-  const GOOGLE_TOTAL_REVIEWS = 281;
+  const GOOGLE_TOTAL_REVIEWS = 327;
   const GOOGLE_AVG_RATING = 4.6;
 
   const urls = {
@@ -5429,7 +5429,7 @@ function generateReviewsPage(lang) {
   }).join('\n');
 
   // Build JSON-LD structured data (Review array + AggregateRating embedded in VeterinaryCare)
-  // AggregateRating reflects the FULL Google Business Profile (281 reviews @ 4.6 avg);
+  // AggregateRating reflects the FULL Google Business Profile (327 reviews @ 4.6 avg);
   // individual Review entries are the 14 we're displaying on this page.
   const featuredCount = REVIEWS.length;
   // Reviews are nested under VeterinaryCare.review — Google rejects a
