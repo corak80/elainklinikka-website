@@ -17,6 +17,8 @@ const INDEX_PATH = path.join(ROOT, 'index.html');
 const MAIN_JS_PATH = path.join(ROOT, 'js', 'main.src.js');
 const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const BASE_URL = 'https://elainklinikkasaari.fi';
+// Footer "Services" quick link targets the services hub, so every page links to it (the EN hub fell out of Google's index while only the hubs linked to each other).
+const SERVICES_HUB_URL = { fi: '/palvelut/', sv: '/sv/tjanster/', en: '/en/services/' };
 const PRICES_URLS = { fi: '/hinnasto/', sv: '/sv/prislista/', en: '/en/pricelist/' };
 const SHOP_URLS = { fi: 'https://kauppa.elainklinikkasaari.fi/', sv: 'https://kauppa.elainklinikkasaari.fi/?lang=sv', en: 'https://kauppa.elainklinikkasaari.fi/' };
 const SHOP_LABELS = { fi: 'Verkkokauppa', sv: 'Webbutik', en: 'Online shop' };
@@ -2385,7 +2387,7 @@ ${relatedHtml}
         <div class="footer-col">
           <strong class="footer-heading" data-i18n="footer.quicklinks">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
           <a href="${homeUrl}#about" data-i18n="nav.about">${escapeHtml(fnav.about)}</a>
-          <a href="${homeUrl}#services" data-i18n="nav.services">${escapeHtml(fnav.services)}</a>
+          <a href="${SERVICES_HUB_URL[lang] || SERVICES_HUB_URL.fi}" data-i18n="nav.services">${escapeHtml(fnav.services)}</a>
           <a href="${homeUrl}#team" data-i18n="nav.team">${escapeHtml(fnav.team)}</a>
           <a href="${pricesUrl}" data-i18n="nav.prices">${escapeHtml(fnav.prices)}</a>
           <a href="${homeUrl}#wildlife" data-i18n="nav.wildlife">${escapeHtml(fnav.wildlife)}</a>
@@ -2705,7 +2707,7 @@ ${cardsHtml}
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(i18n.footerQuickLinks)}</strong>
           <a href="${homeUrl}#about">${escapeHtml(i18n.footerAbout)}</a>
-          <a href="${homeUrl}#services">${escapeHtml(i18n.footerServices)}</a>
+          <a href="${SERVICES_HUB_URL[lang] || SERVICES_HUB_URL.fi}">${escapeHtml(i18n.footerServices)}</a>
           <a href="${lang === 'fi' ? '/henkilokunta/' : `${homeUrl}#team`}">${escapeHtml(i18n.footerTeam)}</a>
           <a href="${homeUrl}#cat-friendly">Cat Friendly</a>
           <a href="${PRICES_URLS[lang] || PRICES_URLS.fi}">${escapeHtml(i18n.footerPrices)}</a>
@@ -5066,7 +5068,7 @@ ${service.slug !== 'paivystys' ? `      <p class="service-clinic-link"><a href="
         <div class="footer-col">
           <strong class="footer-heading">${escapeHtml(footerQuicklinks[lang] || footerQuicklinks.fi)}</strong>
           <a href="${homeUrl}#about">${escapeHtml(nav.about)}</a>
-          <a href="${homeUrl}#services">${escapeHtml(nav.services)}</a>
+          <a href="${SERVICES_HUB_URL[lang] || SERVICES_HUB_URL.fi}">${escapeHtml(nav.services)}</a>
           <a href="${lang === 'fi' ? '/henkilokunta/' : `${homeUrl}#team`}">${escapeHtml(nav.team)}</a>
           <a href="${pricesUrl}">${escapeHtml(nav.prices)}</a>
           <a href="${homeUrl}#wildlife">${escapeHtml(nav.wildlife)}</a>
@@ -5239,7 +5241,7 @@ function generatePrivacyPage() {
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
+          <a href="/palvelut/">Palvelut</a>
           <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
@@ -6102,7 +6104,7 @@ function generateAboutPage() {
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
+          <a href="/palvelut/">Palvelut</a>
           <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
@@ -6330,7 +6332,7 @@ function generateContactPage() {
         <div class="footer-col">
           <strong class="footer-heading">Pikalinkit</strong>
           <a href="../#about">Klinikka</a>
-          <a href="../#services">Palvelut</a>
+          <a href="/palvelut/">Palvelut</a>
           <a href="/henkilokunta/">Henkilökunta</a>
           <a href="../#cat-friendly">Cat Friendly</a>
           <a href="/hinnasto/">Hinnasto</a>
