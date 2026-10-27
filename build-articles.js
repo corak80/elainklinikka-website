@@ -534,6 +534,34 @@ const FIG_CAT_EXAM_CARRIER = {
   }
 };
 
+const FIG_CAT_CKD_CHECKUP = {
+  src: '/images/cat-checkup-beside-carrier.webp', width: 1000, height: 667, maxWidth: 640,
+  alt: {
+    fi: 'Pitkäkarvainen kissa seisoo tutkimuspöydällä kuljetuslaatikkonsa vieressä, ja sitä silitetään hellästi',
+    sv: 'En långhårig katt står på undersökningsbordet bredvid sin transportbur och klappas varsamt',
+    en: 'A long-haired cat standing on the examination table next to its carrier, being gently stroked'
+  },
+  caption: {
+    fi: 'Säännöllinen terveystarkastus voi paljastaa munuaissairauden jo ennen kuin kissalla on oireita. Kuva: Eläinklinikka Saari.',
+    sv: 'En regelbunden hälsokontroll kan avslöja njursjukdom redan innan katten har några symtom. Foto: Djurklinik Saari.',
+    en: 'A regular check-up can reveal kidney disease before the cat shows any signs. Photo: Saari Animal Clinic.'
+  }
+};
+
+const FIG_CAT_CARRIER_OWN_PACE = {
+  src: '/images/cat-in-open-carrier.webp', width: 1000, height: 667, maxWidth: 640,
+  alt: {
+    fi: 'Kissa katsoo ulos tutkimuspöydällä olevasta avoimesta kuljetuslaatikostaan, ja kaksi ihmistä odottaa rauhassa sen vieressä',
+    sv: 'En katt tittar ut ur sin öppna transportbur på undersökningsbordet medan två personer väntar lugnt bredvid',
+    en: 'A cat looking out of its open carrier on the examination table while two people wait calmly beside it'
+  },
+  caption: {
+    fi: 'Kissasi saa tulla ulos kuljetuslaatikostaan omaan tahtiinsa – emme koskaan vedä sitä väkisin ulos. Kuva: Eläinklinikka Saari.',
+    sv: 'Din katt får komma ut ur transportburen i sin egen takt – vi drar aldrig ut den. Foto: Djurklinik Saari.',
+    en: 'Your cat can come out of its carrier in its own time — we never pull it out. Photo: Saari Animal Clinic.'
+  }
+};
+
 const FIG_OR_MONITORING = {
   src: '/images/operating-room-anaesthesia-monitoring.webp', width: 1000, height: 667, maxWidth: 640,
   alt: {
@@ -776,7 +804,7 @@ const articles = [
     date: '27.10.2026',
     publishDate: '2026-10-27',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'acute.title', 'acute.text', 'diagnosis.title', 'diagnosis.text', 'thyroid.title', 'thyroid.text', 'stages.title', 'stages.text', 'treatment.title', 'treatment.text', 'hypertension.title', 'hypertension.text', 'diet.title', 'diet.text', 'appetite.title', 'appetite.text', 'prognosis.title', 'prognosis.text', 'endstage.title', 'endstage.text', 'monitoring.title', 'monitoring.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
-    figures: { 'diagnosis.text': [FIG_CKD_LEFT, FIG_CKD_RIGHT_CYST] },
+    figures: { 'intro': [FIG_CAT_CKD_CHECKUP], 'diagnosis.text': [FIG_CKD_LEFT, FIG_CKD_RIGHT_CYST], 'monitoring.text': [FIG_CAT_CARRIER_OWN_PACE] },
     prefix: 'article.catkidney',
     landingLink: {
       fi: { url: '/kissan-elainlaakari-vaasa/', anchor: 'Kissan eläinlääkäri Vaasassa – lue lisää kissojen hoidostamme' },
