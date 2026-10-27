@@ -778,6 +778,11 @@ const articles = [
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'causes.title', 'causes.text', 'acute.title', 'acute.text', 'diagnosis.title', 'diagnosis.text', 'thyroid.title', 'thyroid.text', 'stages.title', 'stages.text', 'treatment.title', 'treatment.text', 'hypertension.title', 'hypertension.text', 'diet.title', 'diet.text', 'appetite.title', 'appetite.text', 'prognosis.title', 'prognosis.text', 'endstage.title', 'endstage.text', 'monitoring.title', 'monitoring.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     figures: { 'diagnosis.text': [FIG_CKD_LEFT, FIG_CKD_RIGHT_CYST] },
     prefix: 'article.catkidney',
+    landingLink: {
+      fi: { url: '/kissan-elainlaakari-vaasa/', anchor: 'Kissan eläinlääkäri Vaasassa – lue lisää kissojen hoidostamme' },
+      sv: { url: '/sv/kattveterinar-vasa/', anchor: 'Kattveterinär i Vasa – läs mer om vår kattvård' },
+      en: { url: '/en/cat-veterinarian-vaasa/', anchor: 'Cat vet in Vaasa – read more about our cat care' }
+    },
     sources: [
       { text: 'International Renal Interest Society (IRIS) (2026): IRIS Staging of CKD (modified 2026).', url: 'https://www.iris-kidney.com/s/IRIS_staging_guidelines-2026.pdf', label: 'iris-kidney.com' },
       { text: 'International Renal Interest Society (IRIS) (2026): Treatment Recommendations for CKD in Cats (2026).', url: 'https://www.iris-kidney.com/s/IRIS_CAT_Treatment_Recommendations_-2026.pdf', label: 'iris-kidney.com' },
@@ -1077,6 +1082,7 @@ const articles = [
     date: '24.9.2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text', 'treatment.med.title', 'treatment.med.text', 'treatment.safety.title', 'treatment.safety.text', 'treatment.surgery.title', 'treatment.surgery.text', 'treatment.radioiodine.title', 'treatment.radioiodine.text', 'treatment.diet.title', 'treatment.diet.text'],
+    htmlSections: ['complications.text'],
     prefix: 'article.hyperthyroid',
     sources: [
       { text: 'Carney H.C. ym. (2016): 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. Journal of Feline Medicine and Surgery 18(5):400–416.', url: 'https://doi.org/10.1177/1098612X16643252', label: 'doi.org' },
@@ -1730,7 +1736,7 @@ const relatedArticles = {
   'munuaisten-vajaatoiminta': ['kissan-munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
   'kissan-munuaisten-vajaatoiminta': ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
   'kyynpurema': ['myrkytys', 'kohtutulehdus', 'koira-ontuu'],
-  'myrkytys': ['kyynpurema', 'kohtutulehdus', 'ripuli'],
+  'myrkytys': ['kyynpurema', 'kissan-munuaisten-vajaatoiminta', 'ripuli'],
   'kohtutulehdus': ['kyynpurema', 'anestesiaturvallisuus', 'rokotukset'],
   'siili': ['kissaystävällinen-klinikka', 'yksityinen-klinikka'],
   'kissaystävällinen-klinikka': ['hammasresorptio', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
@@ -1743,7 +1749,7 @@ const relatedArticles = {
   'hypotermia': ['anestesiaturvallisuus', 'kipulääkeinfuusio', 'avoin-valtimotiehyt-pda'],
   'anestesiaturvallisuus': ['kipulääkeinfuusio', 'hypotermia', 'klinikkaeläinhoitaja'],
   'klinikkaeläinhoitaja': ['anestesiaturvallisuus', 'kissaystävällinen-klinikka', 'yksityinen-klinikka'],
-  'seniorikissan-terveystarkastus': ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'kissaystävällinen-klinikka'],
+  'seniorikissan-terveystarkastus': ['kissan-munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'kissaystävällinen-klinikka'],
   'koira-ontuu': ['tta-leikkaus', 'lateral-suture', 'kipulääkeinfuusio'],
 };
 
@@ -3465,7 +3471,7 @@ const servicePages = [
       { q: 'Is the package suitable if my pet is already sick?', a: 'Yes. The Geriatric Profile panel is also a good baseline for monitoring a known condition, and the fixed price makes the cost predictable. Let us know about your pet\'s current situation when booking so we can prepare properly.' }
       ],
     },
-    relatedArticles: ['seniorikissan-terveystarkastus', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
+    relatedArticles: ['seniorikissan-terveystarkastus', 'kissan-munuaisten-vajaatoiminta', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
     schemaService: 'Senior Pet Health Screening',
     faq: [
     { q: 'Mitä 299 € sisältää?', a: 'Hinta kattaa eläinlääkärikäynnin, verinäytteen oton ja tulkinnan sekä IDEXX Geriatric Profile -laboratoriopaneelin (mukaan lukien verenkuva sekä munuais-, maksa-, sokeri-, rasva- ja kilpirauhasarvot). Koirille paneeli sisältää lisäksi haiman arvot ja CRP-tulehdusmarkkerin. <strong>309 €</strong> sisältää lisäksi verenpaineen mittauksen, jota suosittelemme erityisesti kissoille ja vanhemmille koirille.' },
@@ -3792,7 +3798,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['kilpirauhasen-liikatoiminta', 'munuaisten-vajaatoiminta', 'ibd-lymfooma'],
+    relatedArticles: ['kilpirauhasen-liikatoiminta', 'kissan-munuaisten-vajaatoiminta', 'munuaisten-vajaatoiminta', 'ibd-lymfooma'],
     schemaService: 'Veterinary Internal Medicine'
   },
   {
@@ -4164,7 +4170,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['kilpirauhasen-liikatoiminta', 'munuaisten-vajaatoiminta'],
+    relatedArticles: ['kilpirauhasen-liikatoiminta', 'munuaisten-vajaatoiminta', 'kissan-munuaisten-vajaatoiminta'],
     schemaService: 'Veterinary Blood Testing'
   },
   {
@@ -4293,7 +4299,7 @@ const servicePages = [
       back: '\u2190 Back to homepage',
       relatedTitle: 'Related articles',
     },
-    relatedArticles: ['ruoka-allergiat', 'viljaton-ruoka', 'munuaisten-vajaatoiminta'],
+    relatedArticles: ['ruoka-allergiat', 'viljaton-ruoka', 'munuaisten-vajaatoiminta', 'kissan-munuaisten-vajaatoiminta'],
     lastReviewed: '2026-10-14',
     faq: [
       { q: "Mistä voin ostaa Royal Canin -ruokaa Vaasassa?", a: "Eläinklinikka Saarelta, osoitteesta Gerbyntie 18, Vaasa. Tilaa Royal Canin -arkiruokaa verkkokaupastamme osoitteessa kauppa.elainklinikkasaari.fi ja nouda tilauksesi klinikalta. Saat meiltä tekstiviestin, kun tilaus on valmis. Erikoisruokavalioita myymme klinikalla eläinlääkärin suosituksesta." },
