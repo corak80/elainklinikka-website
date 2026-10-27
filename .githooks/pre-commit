@@ -1,0 +1,18 @@
+#!/bin/sh
+# Rebuild the llms-full.txt files (see build-llms-full.js) when a commit touches
+# pages, sitemap.xml, llms.txt or the builder, and add them to the same commit.
+# Active via: git config core.hooksPath .githooks
+# Never blocks a commit: a failed build only prints a warning.
+root=$(git rev-parse --show-toplevel) || exit 0
+[ -f "$root/build-llms-full.js" ] || exit 0
+git diff --cached --name-only --diff-filter=ACMRD \
+  | grep -qE '\.html$|^sitemap\.xml$|^llms\.txt$|^build-llms-full\.js$' || exit 0
+
+node_bin=$(command -v node || true)
+[ -n "$node_bin" ] || node_bin="$HOME/.local/share/fnm/aliases/default/bin/node"
+if "$node_bin" "$root/build-llms-full.js" >/dev/null 2>&1; then
+  git -C "$root" add -- llms-full.txt sv/llms-full.txt en/llms-full.txt
+else
+  echo "pre-commit: build-llms-full.js failed, llms-full.txt not refreshed" >&2
+fi
+exit 0

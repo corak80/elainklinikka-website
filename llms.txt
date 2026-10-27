@@ -1,15 +1,16 @@
 # Eläinklinikka Saari
 
-> Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It treats dogs and cats and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
+> Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
 ## Core content
 
 - [Home — clinic overview](https://elainklinikkasaari.fi/): What the clinic does, who works there, since 1989.
-- [Services (all)](https://elainklinikkasaari.fi/palvelut/): Full list of veterinary services for dogs and cats.
+- [Services (all)](https://elainklinikkasaari.fi/palvelut/): Full list of veterinary services for dogs, cats and small mammals.
 - [Book an appointment](https://elainklinikkasaari.fi/ajanvaraus/): How to book, phone and online booking.
 - [Contact & location](https://elainklinikkasaari.fi/yhteystiedot/): Address (Gerbyntie 18, 65230 Vaasa), phone, opening hours, map.
 - [Prices](https://elainklinikkasaari.fi/hinnasto/): Price list for common services.
 - [Prices, machine-readable](https://elainklinikkasaari.fi/pricing.md): Full price list in plain Markdown (EUR, VAT incl.) for AI agents and assistants.
+- [Full site text](https://elainklinikkasaari.fi/llms-full.txt): Every page of the site as plain text in one file, home and prices first, articles last (Finnish; Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt).
 - [Staff & veterinarians](https://elainklinikkasaari.fi/henkilokunta/): Vets and nurses, their credentials and specialities.
 - [About the clinic](https://elainklinikkasaari.fi/meista/): History since 1989, values, family ownership.
 - [Reviews](https://elainklinikkasaari.fi/arvostelut/): Customer reviews and ratings.
