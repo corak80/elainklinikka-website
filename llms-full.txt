@@ -6672,7 +6672,7 @@ Takaisin etusivulle
 # Saari mediassa | Eläinklinikka Saari, Vaasa
 
 URL: https://elainklinikkasaari.fi/media/
-Last updated: 2026-10-15
+Last updated: 2026-10-28
 
 ## Saari mediassa
 
@@ -6680,6 +6680,9 @@ Eläinklinikka Saari ja eläinlääkärimme ovat olleet esillä useissa medioiss
 
 ### 2026
 
+28-10-2026 · Yle Österbotten
+Veterinärens råd: Borsta djurets tänder för att undvika dyra veterinärbesök
+Eläinlääkärimme Pamela Kvarngård kertoo lemmikin hoitokuluista: kun raha on tiukalla, voidaan aloittaa vaivan yleisimmän syyn tutkimisesta tai hoidosta, ja vakuutus, säästötili sekä päivittäinen hampaiden harjaus auttavat pitämään kulut kohtuullisina.
 22-07-2026 · Vasabladet
 Här rehabiliteras igelkottar
 Vasabladet vieraili klinikalla: Johanna Tidström pyörittää yhdessä vapaaehtoisten ja eläinlääkäri Assaf Wydran kanssa siilien kuntoutuskeskusta klinikan yläkerrassa.

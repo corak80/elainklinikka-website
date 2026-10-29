@@ -6312,7 +6312,7 @@ Tillbaka till startsidan
 # Saari i media | Djurklinik Saari, Vasa
 
 URL: https://elainklinikkasaari.fi/sv/media/
-Last updated: 2026-09-20
+Last updated: 2026-10-28
 
 ## Saari i media
 
@@ -6320,6 +6320,9 @@ Djurklinik Saari och våra veterinärer har uppmärksammats i flera medier i Fin
 
 ### 2026
 
+28-10-2026 · Yle Österbotten
+Veterinärens råd: Borsta djurets tänder för att undvika dyra veterinärbesök
+Vår veterinär Pamela Kvarngård om vad veterinärvården kostar: försäkring, sparkonto och daglig tandborstning hjälper till att hålla nere kostnaderna, och när det är ont om pengar kan man undersöka eller behandla det vanligaste först.
 22-07-2026 · Vasabladet
 Här rehabiliteras igelkottar
 Vasabladet besökte kliniken: Johanna Tidström driver tillsammans med volontärer och veterinär Assaf Wydra ett rehabiliteringscenter för igelkottar i nöd på klinikens övervåning.
