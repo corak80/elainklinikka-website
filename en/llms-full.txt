@@ -4846,10 +4846,10 @@ Back to homepage
 # Hyperthyroidism in Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hyperthyroidism.html
-Last updated: 2026-10-15
+Last updated: 2026-10-30
 
 Cat Health
-24.9.2026
+30.10.2026
 
 ## Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment
 
@@ -4886,7 +4886,7 @@ Surgery (thyroidectomy) can cure the disease. In about 70 % of cats, both thyroi
 
 ### Radioactive iodine
 
-Radioactive iodine (I-131) is considered the treatment of choice for most cats: a single treatment cures more than 95 %. In Finland, it is offered at only a couple of specialized clinics. The cat stays in isolation in the hospital for several days. For about two weeks after returning home, it must be kept indoors, and children and pregnant women must not be in contact with it. The treating clinic gives detailed instructions, including how to handle the cat’s feces. Before surgery or radioactive iodine, a trial period on medication can help predict how the kidneys will cope once the thyroid is controlled.
+Radioactive iodine (I-131) is considered the treatment of choice for most cats: a single treatment cures more than 95 %. In Finland, it is offered by Vet4Cat in Renko (Hämeenlinna) and Evidensia Tammisto Animal Hospital in Vantaa. The cat stays in isolation in the hospital for several days. For about two weeks after returning home, it must be kept indoors, and children and pregnant women must not be in contact with it. The treating clinic gives detailed instructions, including how to handle the cat’s feces. Before surgery or radioactive iodine, a trial period on medication can help predict how the kidneys will cope once the thyroid is controlled.
 
 ### Iodine-restricted diet
 

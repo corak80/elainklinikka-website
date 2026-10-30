@@ -5123,10 +5123,10 @@ Takaisin etusivulle
 # Kilpirauhasen liikatoiminta kissalla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html
-Last updated: 2026-10-15
+Last updated: 2026-10-30
 
 Kissaterveys
-24.9.2026
+30.10.2026
 
 ## Kilpirauhasen liikatoiminta kissalla – oireet, diagnoosi ja hoito
 
@@ -5163,7 +5163,7 @@ Leikkaus (tyreoidektomia) voi parantaa sairauden. Noin 70 %:lla kissoista sairau
 
 ### Radiojodihoito
 
-Radiojodihoitoa (I-131) pidetään useimmille kissoille ensisijaisena hoitona: yksi hoitokerta parantaa yli 95 % kissoista. Suomessa sitä tarjoaa vain pari erikoistunutta klinikkaa. Kissa on useita päiviä eristyksessä eläinsairaalassa. Sen jälkeen sitä on pidettävä kotona sisällä noin kahden viikon ajan, eivätkä lapset tai raskaana olevat naiset saa olla kosketuksissa siihen. Hoitava klinikka antaa tarkat ohjeet, myös kissan ulosteiden käsittelystä. Ennen leikkausta tai radiojodihoitoa annettava lääkityskokeilu voi auttaa ennakoimaan, miten munuaiset selviävät, kun kilpirauhasen toiminta on saatu hallintaan.
+Radiojodihoitoa (I-131) pidetään useimmille kissoille ensisijaisena hoitona: yksi hoitokerta parantaa yli 95 % kissoista. Suomessa sitä tarjoavat Vet4Cat Rengossa (Hämeenlinna) ja Eläinsairaala Evidensia Tammisto Vantaalla. Kissa on useita päiviä eristyksessä eläinsairaalassa. Sen jälkeen sitä on pidettävä kotona sisällä noin kahden viikon ajan, eivätkä lapset tai raskaana olevat naiset saa olla kosketuksissa siihen. Hoitava klinikka antaa tarkat ohjeet, myös kissan ulosteiden käsittelystä. Ennen leikkausta tai radiojodihoitoa annettava lääkityskokeilu voi auttaa ennakoimaan, miten munuaiset selviävät, kun kilpirauhasen toiminta on saatu hallintaan.
 
 ### Vähäjodinen dieettiruoka
 

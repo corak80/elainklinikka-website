@@ -1107,7 +1107,7 @@ const articles = [
     titleKey: 'article.hyperthyroid.title',
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
-    date: '24.9.2026',
+    date: '30.10.2026',
     publishDate: '2026-02-01',
     sections: ['intro', 'symptoms.title', 'symptoms.text', 'diagnosis.title', 'diagnosis.text', 'complications.title', 'complications.text', 'treatment.title', 'treatment.text', 'treatment.med.title', 'treatment.med.text', 'treatment.safety.title', 'treatment.safety.text', 'treatment.surgery.title', 'treatment.surgery.text', 'treatment.radioiodine.title', 'treatment.radioiodine.text', 'treatment.diet.title', 'treatment.diet.text'],
     htmlSections: ['complications.text'],

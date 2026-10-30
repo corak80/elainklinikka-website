@@ -4837,10 +4837,10 @@ Tillbaka till startsidan
 # Sköldkörtelöverfunktion hos katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hypertyreos-katt.html
-Last updated: 2026-10-15
+Last updated: 2026-10-30
 
 Katthälsa
-24.9.2026
+30.10.2026
 
 ## Sköldkörtelöverfunktion hos katter – symtom, diagnos och behandling
 
@@ -4877,7 +4877,7 @@ Kirurgi (tyreoidektomi) kan bota sjukdomen. Hos ungefär 70 % av katterna är b�
 
 ### Radiojodbehandling
 
-Radiojodbehandling (I-131) anses vara förstahandsvalet för de flesta katter: en enda behandling botar över 95 % av katterna. I Finland erbjuds den bara vid ett par specialiserade kliniker. Katten vårdas isolerad på kliniken i flera dagar. Därefter ska den hållas inomhus hemma i ungefär två veckor, och barn och gravida kvinnor får inte ha kontakt med den. Den behandlande kliniken ger detaljerade instruktioner, bland annat om hur kattens avföring ska hanteras. Före kirurgi eller radiojodbehandling kan en provbehandling med medicin hjälpa till att förutsäga hur njurarna klarar sig när sköldkörteln väl är under kontroll.
+Radiojodbehandling (I-131) anses vara förstahandsvalet för de flesta katter: en enda behandling botar över 95 % av katterna. I Finland erbjuds den av Vet4Cat i Rengo (Tavastehus) och djursjukhuset Evidensia Tammisto i Vanda. Katten vårdas isolerad på kliniken i flera dagar. Därefter ska den hållas inomhus hemma i ungefär två veckor, och barn och gravida kvinnor får inte ha kontakt med den. Den behandlande kliniken ger detaljerade instruktioner, bland annat om hur kattens avföring ska hanteras. Före kirurgi eller radiojodbehandling kan en provbehandling med medicin hjälpa till att förutsäga hur njurarna klarar sig när sköldkörteln väl är under kontroll.
 
 ### Jodfattigt veterinärfoder
 
