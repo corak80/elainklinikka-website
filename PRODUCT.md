@@ -37,7 +37,7 @@ Name "Eläinklinikka Saari" (SV "Djurklinik Saari"). Logo `images/logo.png`; Cat
 
 ## Evidence on Hand
 
-- Google rating 4.6/5 (site aggregateRating, verified 06-10-2026), 327 reviews (as of 26-10-2026); review page `/arvostelut/`.
+- Google rating 4.6/5 (site aggregateRating, verified 06-10-2026), 340 reviews (as of 31-10-2026); review page `/arvostelut/`.
 - Press: Yle (2020, first Cat Friendly Clinic in Ostrobothnia) and Vasabladet articles, linked from the cat page.
 - Vets' training that may be named: Leena Sandström — ESAVS Certificate in Cardiology, Finnish Kennel Club official heart examiner; Pamela Kvarngård — AOVET and ESAVS orthopaedic surgery programmes, Accesia Academy dental; Assaf Wydra, Nina Haglund, Merja Autio — Accesia Academy dental; Nina — ESAVS soft-tissue surgery.
 - Photos in `images/` and `media/` (clinic, team, equipment); no stock imagery policy stated.

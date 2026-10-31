@@ -207,8 +207,8 @@ const translations = {
 
   // Hero rating badge
   'hero.rating.score': { fi: '4,6', sv: '4,6', en: '4.6' },
-  'hero.rating.label': { fi: '327 Google-arvostelua', sv: '327 omdömen på Google', en: '327 Google reviews' },
-  'hero.rating.shortlabel': { fi: '327 arvostelua', sv: '327 omdömen', en: '327 reviews' },
+  'hero.rating.label': { fi: '340 Google-arvostelua', sv: '340 omdömen på Google', en: '340 Google reviews' },
+  'hero.rating.shortlabel': { fi: '340 arvostelua', sv: '340 omdömen', en: '340 reviews' },
 
   // About section eyebrow
   'about.eyebrow': { fi: 'Vuodesta 1989', sv: 'Sedan 1989', en: 'Since 1989' },
