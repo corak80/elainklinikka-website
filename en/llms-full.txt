@@ -1592,7 +1592,7 @@ Back to homepage
 # Veterinary Surgery in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/surgery/
-Last updated: 2026-09-19
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -1621,6 +1621,15 @@ Recovery begins already in the operating theatre. The patient is actively warmed
 ### Pain management and welfare
 
 Pain has no place in post-operative recovery. We use multimodal pain management, combining different drug groups. This allows more effective pain relief with lower doses and reduces side effects. Adequate pain relief speeds up recovery, reduces stress, and lowers the risk of complications — it is both an animal welfare and a medical priority for us.
+
+### Frequently asked questions about surgery
+
+Is veterinary surgery safe? Yes. We use inhalation anaesthesia for most operations, with comprehensive monitoring (heart, oxygen, blood pressure, temperature). The animal is monitored continuously throughout anaesthesia, and pain relief is always part of the care.
+How much does a dog spay cost? Female dog spay starts from €483 and male dog neuter from €383. The price depends on the dog's size. It includes anaesthesia, the surgery, medications and stitch removal.
+How long is recovery from surgery? After a spay, recovery usually takes 10–14 days, and after a castration about 7–10 days. After cruciate ligament surgery, exercise is strictly restricted for the first 6–8 weeks, and most dogs are back to normal exercise in about 3–4 months. Home-care instructions are always provided.
+Does my pet need to fast before surgery? Yes. Adult dogs and cats are usually fasted for 8–12 hours before surgery (last meal the previous evening). Water is generally allowed until morning. Rabbits are not fasted. You always get instructions when you book.
+What's the difference between TTA and lateral suture in cruciate ligament surgery? Lateral suture stabilises the knee with strong synthetic material placed outside the joint. It suits cats and small dogs, and often also medium-sized dogs and older, calmer large dogs. TTA permanently changes the forces on the knee by moving the tibial tuberosity forward with a plate and screws. It suits active and large dogs. We always assess individually which method suits your dog best.
+Does the pet need to wear a cone after surgery? Yes – protecting the surgical wound is important. By licking, the pet can open the stitches or cause a wound infection. The traditional plastic Elizabethan collar or softer alternatives like a recovery suit or inflatable collar are good options. We recommend continuous use for 10–14 days, until stitch removal. Pets usually adjust to the protection within 1–2 days.
 
 ### Book a consultation
 
@@ -2988,7 +2997,7 @@ Back to homepage
 # Orthopaedic Surgery for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/orthopedics/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -3013,7 +3022,12 @@ Our clinic holds Finnish Kennel Club approval for official hip, elbow, and spina
 
 ### Frequently asked questions about orthopaedics
 
-How long is the recovery period after surgery? The recovery period depends on the procedure. After cruciate ligament repair (TTA or lateral suture), recovery takes approximately 8–12 weeks, during which movement is gradually restricted. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery — they accelerate healing and improve the outcome. Can the cause of lameness be determined without surgery? Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery — for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.
+How much does cruciate ligament surgery cost? Cruciate ligament repair using the lateral suture method costs €953 for cats and €1,203 for dogs. TTA surgery costs €1,703 (dogs under 20 kg) or €1,803 (dogs over 20 kg). The price includes anaesthesia, surgery, medication and supplies, and stitch removal. Follow-up visits are charged separately.
+How much does fracture surgery cost? Fracture surgery costs between €1,203 and €2,003 depending on the fracture type, location, and fixation method (plates, screws, or external fixator). You receive an exact price estimate after radiographic and clinical examination.
+How much do official radiographic examinations cost? Hip, elbow, and spine radiographs cost €302 (dogs under 40 kg or up to 3 spine images) or €362 (dogs over 40 kg or more spine images). The price includes light sedation and submission of the images to the Finnish Kennel Club assessor.
+Can I get a price estimate before surgery? Yes. You get a price estimate before you decide on surgery, so you can plan the costs in advance.
+How long is the recovery period after surgery? It depends on the procedure. After cruciate ligament surgery (TTA or lateral suture), exercise is strictly restricted for the first 6–8 weeks, and most dogs are back to normal exercise in about 3–4 months. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery.
+Can the cause of lameness be determined without surgery? Yes, most causes of lameness can be investigated without surgery. Orthopaedic examination, X-rays, and when needed ultrasound or CT provide an accurate diagnosis. Not all causes of lameness require surgery – for example, mild osteoarthritis and tendon problems are often treated conservatively with medication, rest, and rehabilitation. The veterinarian assesses the best treatment approach individually.
 
 ### Book an appointment
 

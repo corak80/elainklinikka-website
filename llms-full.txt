@@ -1862,7 +1862,7 @@ Takaisin etusivulle
 # Eläinkirurgia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kirurgia/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -1891,6 +1891,15 @@ Toipuminen alkaa jo leikkaussalissa. Potilasta lämmitetään aktiivisesti ja ki
 ### Kivunlievitys ja hyvinvointi
 
 Kipu ei kuulu leikkauksen jälkeiseen toipumiseen. Käytämme monitasoista kivunlievitystä (multimodaalinen analgesia), jossa yhdistetään eri lääkeryhmiä. Tämä mahdollistaa tehokkaamman kivunlievityksen pienemmillä annoksilla ja vähentää sivuvaikutuksia. Riittävä kivunlievitys nopeuttaa toipumista, pienentää stressiä ja vähentää komplikaatioita – se on sekä eläinsuojelullinen että lääketieteellinen prioriteetti meille.
+
+### Usein kysyttyä kirurgiasta
+
+Onko leikkaus turvallinen lemmikille? Kyllä. Käytämme useimmissa leikkauksissa inhalaatioanestesiaa, ja monitorointi on kattavaa (sydämen toiminta, happisaturaatio, verenpaine ja lämpötila). Eläintä valvotaan jatkuvasti koko anestesian ajan, ja kivunlievitys kuuluu aina hoitoon.
+Paljonko koiran sterilointi maksaa? Narttukoiran sterilointi maksaa alkaen 483 € ja uroskoiran kastraatio alkaen 383 €. Hinta riippuu koiran koosta. Siihen sisältyvät anestesia, leikkaus, lääkkeet ja ompeleiden poisto.
+Kuinka kauan leikkauksesta toipuminen kestää? Steriloinnista toipuminen kestää yleensä 10–14 päivää ja kastraatiosta noin 7–10 päivää. Ristisideleikkauksen jälkeen liikkumista rajoitetaan tiukasti ensimmäiset 6–8 viikkoa, ja useimmat koirat palaavat normaaliin liikuntaan noin 3–4 kuukauden kuluessa. Saat aina mukaasi kotihoito-ohjeet.
+Pitääkö lemmikin paastota ennen leikkausta? Kyllä. Aikuinen koira ja kissa paastotetaan tavallisesti 8–12 tuntia ennen leikkausta (viimeinen ateria edellisenä iltana). Vettä saa yleensä juoda aamuun asti. Kania ei paastoteta. Saat aina ohjeet, kun varaat ajan.
+Mitä eroa on TTA:lla ja lateral suture -menetelmällä ristisideleikkauksessa? Lateral suture vakauttaa polven nivelen ulkopuolelle asetettavalla vahvalla synteettisellä materiaalilla. Se sopii kissoille ja pienille koirille sekä usein myös keskikokoisille koirille ja iäkkäämmille, rauhallisemmille suurille koirille. TTA taas muuttaa polveen kohdistuvia voimia pysyvästi siirtämällä sääriluun kyhmyä eteenpäin levyn ja ruuvien avulla. Se sopii aktiivisille koirille ja suurille koirille. Arvioimme aina yksilöllisesti, kumpi menetelmä sopii koirallesi parhaiten.
+Tarvitseeko lemmikki kaulurin leikkauksen jälkeen? Kyllä – leikkaushaavan suojaaminen on tärkeää. Nuolemalla lemmikki voi avata ompeleet tai aiheuttaa haavatulehduksen. Hyviä vaihtoehtoja ovat perinteinen muovinen kauluri sekä pehmeämmät suojat, kuten leikkaushaalari tai puhallettava kauluri. Suosittelemme, että suojaa pidetään koko ajan 10–14 päivää eli ompeleiden poistoon asti. Lemmikki tottuu suojaan yleensä 1–2 päivässä.
 
 ### Varaa aika konsultaatioon
 
@@ -3265,7 +3274,7 @@ Takaisin etusivulle
 # Ortopediset leikkaukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ortopedia/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -3290,7 +3299,12 @@ Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- 
 
 ### Usein kysyttyä ortopediasta
 
-Kuinka pitkä on toipumisaika leikkauksen jälkeen? Toipumisaika riippuu toimenpiteestä. Eturistisiteen korjausleikkauksen (TTA tai lateral suture) jälkeen toipuminen kestää noin 8–12 viikkoa, jonka aikana liikkumista rajoitetaan asteittain. Murtumaleikkausten toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista – ne nopeuttavat paranemista ja parantavat lopputulosta. Voiko ontumisen syyn selvittää ilman leikkausta? Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Ortopedinen tutkimus, röntgenkuvat ja tarvittaessa ultraääni tai CT-kuvaus antavat tarkan diagnoosin. Kaikki ontumisen syyt eivät vaadi leikkausta – esimerkiksi lievä nivelrikko ja jänneongelmat hoidetaan usein konservatiivisesti lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.
+Paljonko ristisideleikkaus maksaa? Ristisideleikkaus lateral suture -menetelmällä maksaa kissalle 953 € ja koiralle 1 203 €. TTA-leikkaus maksaa alle 20 kg:n koiralle 1 703 € ja yli 20 kg:n koiralle 1 803 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tarvikkeet sekä ompeleiden poiston. Kontrollikäynnit laskutetaan erikseen.
+Paljonko murtumaleikkaus maksaa? Murtumaleikkaus maksaa 1 203–2 003 €. Hinta riippuu murtuman tyypistä ja sijainnista sekä siitä, kiinnitetäänkö luu levyillä, ruuveilla vai ulkoisella fiksaattorilla. Saat tarkan hinta-arvion röntgenkuvauksen ja eläinlääkärin tutkimuksen jälkeen.
+Paljonko viralliset röntgenkuvaukset maksavat? Lonkka-, kyynär- ja selkäkuvat maksavat 302 € (alle 40 kg:n koira tai enintään 3 selkäkuvaa) tai 362 € (yli 40 kg:n koira tai enemmän selkäkuvia). Hinta sisältää kevyen rauhoituksen ja kuvien lähettämisen Suomen Kennelliiton lausunnonantajalle.
+Saanko hinta-arvion ennen leikkausta? Kyllä. Saat hinta-arvion ennen kuin päätät leikkauksesta, jotta voit varautua kustannuksiin etukäteen.
+Kuinka pitkä on toipumisaika leikkauksen jälkeen? Toipumisaika riippuu toimenpiteestä. Ristisideleikkauksen (TTA tai lateral suture) jälkeen liikkumista rajoitetaan tiukasti ensimmäiset 6–8 viikkoa, ja useimmat koirat palaavat normaaliin liikuntaan noin 3–4 kuukauden kuluessa. Murtumaleikkauksesta toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista.
+Voiko ontumisen syyn selvittää ilman leikkausta? Kyllä, useimmat ontumisen syyt voidaan tutkia ilman leikkausta. Tarkka diagnoosi saadaan ortopedisen tutkimuksen, röntgenkuvien ja tarvittaessa ultraäänitutkimuksen tai TT-kuvauksen avulla. Kaikki ontumisen syyt eivät vaadi leikkausta – esimerkiksi lievää nivelrikkoa ja jännevaivoja hoidetaan usein lääkityksellä, levolla ja kuntoutuksella. Eläinlääkäri arvioi parhaan hoitolinjan yksilöllisesti.
 
 ### Varaa aika
 
