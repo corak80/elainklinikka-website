@@ -1167,12 +1167,14 @@ const articles = [
       { text: 'European Union (2019): Regulation (EU) 2019/6 on veterinary medicinal products, Article 112 (use outside the terms of the marketing authorisation in non-food-producing species). Official Journal of the European Union L 4:43–167.', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0006', label: 'eur-lex.europa.eu' }
     ],
     metaDesc: {
-      fi: 'Munuaisten vajaatoiminta koiralla ja kissalla: oireet, IRIS-vaiheet, hoito, munuaisruokavalio, loppuvaihe ja kuinka kauan munuaissairas lemmikki voi elää.',
-      sv: 'Njursvikt hos hund och katt: symtom, IRIS-stadier, behandling, njurdiet, slutstadiet och hur länge djuret kan leva med sjukdomen.',
-      en: 'Kidney failure in dogs and cats: symptoms, IRIS stages, treatment, kidney diet, the end stage and how long a pet can live with it.'
+      fi: 'Koiran munuaisten vajaatoiminta: oireet, IRIS-vaiheet, hoito, munuaisruokavalio, loppuvaihe ja kuinka kauan munuaissairas koira voi elää.',
+      sv: 'Njursvikt hos hund: symtom, IRIS-stadier, behandling, njurdiet, slutstadiet och hur länge en hund kan leva med sjukdomen.',
+      en: 'Kidney failure in dogs: symptoms, IRIS stages, treatment, kidney diet, the end stage and how long a dog can live with it.'
     },
     seoTitle: {
-      fi: 'Munuaisten vajaatoiminta koiralla ja kissalla – oireet'
+      fi: 'Koiran munuaisten vajaatoiminta – oireet, hoito ja elinikä',
+      sv: 'Njursvikt hos hund – symtom, stadier och livslängd',
+      en: 'Kidney Disease in Dogs – Symptoms and Life Expectancy'
     }
   },
   {
