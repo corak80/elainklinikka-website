@@ -1604,11 +1604,11 @@ Our clinic performs a wide range of soft tissue surgical procedures: spays and n
 
 ### Orthopaedic surgery
 
-Cruciate ligament repair is the most common orthopaedic procedure in dogs. Our clinic uses two methods: the lateral suture technique stabilises the joint with synthetic support material and is especially suited for small dogs and cats. TTA (tibial tuberosity advancement) permanently alters the knee's biomechanics and is a good option for active and larger dogs. We also perform fracture repairs, amputations, and femoral head resections.
+Cruciate ligament repair is the most common orthopaedic procedure in dogs. We use two methods: the lateral suture, which stabilises the knee with strong synthetic material placed outside the joint and suits cats and small dogs, and often medium-sized dogs and older, calmer large dogs as well; and TTA (tibial tuberosity advancement), which permanently changes the forces acting on the knee and suits active dogs and large dogs. We also perform fracture repairs, amputations and femoral head resections.
 
 ### Safe anaesthesia
 
-Anaesthesia safety is close to our hearts. We use inhalation anaesthesia and continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG, and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. Continuous rate infusion (CRI) pain management ensures steady pain relief during and after surgery.
+Anaesthesia safety is close to our hearts. For most operations we use inhalation anaesthesia, with continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. Continuous rate infusion (CRI) pain management ensures steady pain relief during and after surgery.
 
 ### Pre-operative assessment
 
@@ -3005,7 +3005,7 @@ Back to homepage
 
 ### Cruciate ligament repair
 
-Cruciate ligament rupture is the most common orthopaedic problem in dogs. Our clinic uses two repair methods: TTA (tibial tuberosity advancement) permanently alters the knee's biomechanics by advancing the tibial tuberosity — the method is especially suited for active medium to large dogs. The lateral suture technique stabilises the joint with synthetic support material and is a good option for small dogs and cats.
+Cruciate ligament rupture is the most common orthopaedic problem in dogs. Our clinic uses two repair methods. TTA (tibial tuberosity advancement) permanently changes the forces acting on the knee by moving the tibial tuberosity forward; it suits active dogs and large dogs. The lateral suture stabilises the knee with strong synthetic material placed outside the joint; it suits cats and small dogs, and often medium-sized dogs and older, calmer large dogs as well. We always assess individually which method suits your dog best.
 
 ### Fracture surgery and amputations
 
@@ -3411,7 +3411,7 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-10-27
+Last updated: 2026-10-31
 
 ## Articles
 
@@ -3550,7 +3550,7 @@ Pet Health
 
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less often than environmental allergy (atopy). Many owners suspect grains, but the most common culprits in dogs are animal proteins such as beef, dairy products and chicken. Food allergy can only be diagnosed with an elimination diet and a food challenge, and we can help you with both.
 Cat Health
-24.9.2026
+30.10.2026
 
 ### Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment
 
@@ -3592,7 +3592,7 @@ Cardiology
 
 Patent ductus arteriosus (PDA) is one of the most common congenital heart defects in dogs. The ductus is a blood vessel that connects the aorta and the pulmonary artery before birth; it should close soon afterward. If it stays open, it overloads the heart, and most untreated dogs develop heart failure within their first year or two. When PDA is found early and closed, it is usually cured.
 Orthopedics
-27.9.2026
+31.10.2026
 
 ### TTA Surgery in Dogs — Tibial Tuberosity Advancement for Cruciate Ligament Disease
 
@@ -3616,10 +3616,10 @@ Back to homepage
 # TTA Surgery for Cruciate Ligament Disease in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/tta-surgery.html
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Orthopedics
-27.9.2026
+31.10.2026
 
 ## TTA Surgery in Dogs — Tibial Tuberosity Advancement for Cruciate Ligament Disease
 
@@ -3643,6 +3643,10 @@ Back-to-front X-ray of a dog’s left knee after TTA surgery: the cage in the os
 ### Risks and Complications
 
 Most studies report complications in about 1 in 10 to 1 in 3 dogs. Roughly 1 in 10 dogs has a more serious complication, often needing another operation, but most such problems can be treated successfully. Complications include infection, fracture of the tibial tuberosity or shin bone, implant failure, kneecap dislocation and a later meniscal tear (usually reported in 2–10% of knees). Osteoarthritis often still progresses over time, even after successful surgery. During surgery, we monitor anesthesia closely and give a multi-drug pain-relief infusion.
+
+### What Does TTA Surgery Cost?
+
+At our clinic, TTA surgery costs €1,703 for dogs under 20 kg and €1,803 for dogs over 20 kg. The price includes anesthesia, the surgery, medication and supplies, and stitch removal. Follow-up visits, such as the X-ray at 6–8 weeks, are charged separately. The final cost may be higher if additional examinations or treatment are needed. For comparison, lateral suture surgery costs €1,203 for dogs. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. See our price list for current prices.
 
 ### When Should You Contact Us?
 

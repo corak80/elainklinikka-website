@@ -884,6 +884,16 @@ const translations = {
     sv: 'De flesta studier rapporterar komplikationer hos ungefär 1 av 10 till 1 av 3 hundar. Omkring 1 av 10 hundar får en allvarligare komplikation, som ofta kräver en ny operation, men de flesta sådana problem kan behandlas framgångsrikt. Till komplikationerna hör infektion, fraktur på skenbensknölen eller skenbenet, implantatsvikt, patellaluxation (att knäskålen hoppar ur läge) och en senare meniskskada (som vanligen rapporteras i 2–10 % av knäna). Artrosen fortskrider ofta med tiden, även efter en lyckad operation. Under operationen övervakar vi anestesin noggrant och ger en smärtlindrande infusion med flera läkemedel.',
     en: 'Most studies report complications in about 1 in 10 to 1 in 3 dogs. Roughly 1 in 10 dogs has a more serious complication, often needing another operation, but most such problems can be treated successfully. Complications include infection, fracture of the tibial tuberosity or shin bone, implant failure, kneecap dislocation and a later meniscal tear (usually reported in 2–10% of knees). Osteoarthritis often still progresses over time, even after successful surgery. During surgery, we monitor anesthesia closely and give a multi-drug pain-relief infusion.'
   },
+  'article.tta.cost.title': {
+    fi: 'Paljonko TTA-leikkaus maksaa?',
+    sv: 'Vad kostar en TTA-operation?',
+    en: 'What Does TTA Surgery Cost?'
+  },
+  'article.tta.cost.text': {
+    fi: 'TTA-leikkaus maksaa klinikallamme alle 20 kg:n koiralle 1 703 € ja yli 20 kg:n koiralle 1 803 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tarvikkeet sekä tikkien poiston. Kontrollikäynnit, kuten röntgenkontrolli 6–8 viikon kohdalla, laskutetaan erikseen. Lopullinen hinta voi nousta, jos tarvitaan lisätutkimuksia tai -hoitoa. Vertailun vuoksi lateral suture -leikkaus maksaa koiralle 1 203 €. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajantasaiset hinnat löydät <a href="/hinnasto/">hinnastostamme</a>.',
+    sv: 'På vår klinik kostar en TTA-operation 1 703 € för hundar under 20 kg och 1 803 € för hundar över 20 kg. Priset inkluderar anestesi, operationen, läkemedel och förbrukningsmaterial samt borttagning av stygn. Kontrollbesök, till exempel röntgenkontrollen efter 6–8 veckor, debiteras separat. Slutpriset kan bli högre om ytterligare undersökningar eller behandling behövs. Som jämförelse kostar en operation med lateral sutur 1 203 € för hundar. Vi har direktersättning för kunder hos LokalTapiola, Agria och Pohjola. Aktuella priser hittar du i vår <a href="/sv/prislista/">prislista</a>.',
+    en: 'At our clinic, TTA surgery costs €1,703 for dogs under 20 kg and €1,803 for dogs over 20 kg. The price includes anesthesia, the surgery, medication and supplies, and stitch removal. Follow-up visits, such as the X-ray at 6–8 weeks, are charged separately. The final cost may be higher if additional examinations or treatment are needed. For comparison, lateral suture surgery costs €1,203 for dogs. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. See our <a href="/en/pricelist/">price list</a> for current prices.'
+  },
   'article.tta.when.title': {
     fi: 'Milloin kannattaa ottaa yhteyttä?',
     sv: 'När bör du kontakta oss?',

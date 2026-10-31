@@ -1874,11 +1874,11 @@ Klinikallamme tehdään laaja valikoima pehmytkudoskirurgisia toimenpiteitä: st
 
 ### Ortopedinen kirurgia
 
-Eturistisiteen korjausleikkaukset ovat yleisin ortopedinen toimenpide koirilla. Klinikallamme käytetään kahta menetelmää: lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla ja sopii erityisesti pienille koirille ja kissoille. TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa pysyvästi ja on hyvä vaihtoehto aktiivisille ja suuremmille koirille. Lisäksi teemme murtumaleikkauksia, amputaatioita ja reisiluunpään poistoja.
+Ristisideleikkaus on koirien yleisin ortopedinen toimenpide. Teemme sen kahdella menetelmällä. Lateral suture vakauttaa polven nivelen ulkopuolelle asetettavalla vahvalla synteettisellä materiaalilla. Se sopii kissoille ja pienille koirille sekä usein myös keskikokoisille koirille ja iäkkäämmille, rauhallisemmille suurille koirille. TTA (tibial tuberosity advancement) taas muuttaa polveen kohdistuvia voimia pysyvästi, ja se sopii aktiivisille koirille ja suurille koirille. Lisäksi teemme murtumaleikkauksia, amputaatioita ja reisiluunpään poistoja.
 
 ### Turvallinen anestesia
 
-Anestesiaturvallisuus on meille sydämen asia. Käytämme inhalaatioanestesiaa ja jatkuvaa monitorointia: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.
+Anestesiaturvallisuus on meille sydämen asia. Käytämme useimmissa leikkauksissa inhalaatioanestesiaa, ja monitorointi on jatkuvaa: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.
 
 ### Leikkausta edeltävät tutkimukset
 
@@ -3282,7 +3282,7 @@ Takaisin etusivulle
 
 ### Eturistisiteen korjausleikkaukset
 
-Eturistisiteen repeämä on koiran yleisin ortopedinen ongelma. Klinikallamme käytetään kahta korjausmenetelmää: TTA (tibial tuberosity advancement) muuttaa polven biomekaniikkaa pysyvästi siirtämällä sääriluun kyhmyä eteenpäin – menetelmä sopii erityisesti aktiivisille ja keskikokoisille tai suurille koirille. Lateral suture -tekniikka stabiloi nivelen synteettisellä tukimateriaalilla ja on hyvä vaihtoehto pienille koirille ja kissoille.
+Eturistisiteen repeämä on koirien yleisin ortopedinen ongelma. Käytämme klinikallamme kahta korjausmenetelmää. TTA (tibial tuberosity advancement) muuttaa polveen kohdistuvia voimia pysyvästi siirtämällä sääriluun kyhmyä eteenpäin. Se sopii aktiivisille koirille ja suurille koirille. Lateral suture vakauttaa polven nivelen ulkopuolelle asetettavalla vahvalla synteettisellä materiaalilla. Se sopii kissoille ja pienille koirille sekä usein myös keskikokoisille koirille ja iäkkäämmille, rauhallisemmille suurille koirille. Arvioimme aina yksilöllisesti, kumpi menetelmä sopii koirallesi parhaiten.
 
 ### Murtumaleikkaukset ja amputaatiot
 
@@ -3295,7 +3295,7 @@ Koiran lantion ja takajalkojen röntgenkuva: koiralla on molemminpuolinen mediaa
 
 ### Viralliset röntgentutkimukset
 
-Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- ja selkäröntgenkuvauksiin. Viralliset tutkimukset ovat osa jalostustarkastuksia ja niiden tavoitteena on vähentää perinnöllisten ortopedisten sairauksien esiintyvyyttä. Tutkimukset tehdään kevyessä rauhoituksessa ja kuvat lähetetään Kennelliiton arvostelijalle.
+Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- ja selkäröntgenkuvauksiin. Viralliset tutkimukset ovat osa jalostustarkastuksia ja niiden tavoitteena on vähentää perinnöllisten ortopedisten sairauksien esiintyvyyttä. Tutkimukset tehdään kevyessä rauhoituksessa ja kuvat lähetetään Kennelliiton lausunnonantajalle.
 
 ### Usein kysyttyä ortopediasta
 
@@ -3688,7 +3688,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-10-27
+Last updated: 2026-10-31
 
 ## Artikkelit
 
@@ -3827,7 +3827,7 @@ Lemmikkien terveys
 
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista lemmikeistä – harvemmin kuin ympäristöallergiaa (atopiaa). Moni omistaja epäilee syyksi viljoja, mutta koirilla yleisimmät aiheuttajat ovat eläinproteiineja, kuten nautaa, maitotuotteita ja kanaa. Ruoka-allergian voi todeta ainoastaan eliminaatiodieetin ja ruoka-altistuksen avulla, ja autamme sinua kummassakin.
 Kissaterveys
-24.9.2026
+30.10.2026
 
 ### Kilpirauhasen liikatoiminta kissalla – oireet, diagnoosi ja hoito
 
@@ -3869,7 +3869,7 @@ Kardiologia
 
 Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Valtimotiehyt on verisuoni, joka yhdistää aortan ja keuhkovaltimon ennen syntymää ja jonka pitäisi sulkeutua pian syntymän jälkeen. Jos se jää auki, sydän kuormittuu liikaa, ja useimmille hoitamattomille koirille kehittyy sydämen vajaatoiminta ensimmäisten 1–2 elinvuoden aikana. Kun PDA löydetään varhain ja tiehyt suljetaan, koira yleensä paranee.
 Ortopedia
-27.9.2026
+31.10.2026
 
 ### TTA-leikkaus koirilla – eturistisidesairauden hoito sääriluun kyhmyn siirrolla
 
@@ -3893,10 +3893,10 @@ Takaisin etusivulle
 # TTA-leikkaus koiran ristisidevammaan – toipuminen ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/tta-leikkaus.html
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Ortopedia
-27.9.2026
+31.10.2026
 
 ## TTA-leikkaus koirilla – eturistisidesairauden hoito sääriluun kyhmyn siirrolla
 
@@ -3920,6 +3920,10 @@ Koiran vasemman polven röntgenkuva takaa eteen TTA-leikkauksen jälkeen: välik
 ### Riskit ja komplikaatiot
 
 Useimpien tutkimusten mukaan komplikaatioita esiintyy noin kymmenesosalla–kolmasosalla koirista. Noin joka kymmenes koira saa vakavamman komplikaation, joka vaatii usein uuden leikkauksen. Useimmat tällaiset ongelmat voidaan kuitenkin hoitaa onnistuneesti. Mahdollisia komplikaatioita ovat esimerkiksi infektio, sääriluun kyhmyn tai itse sääriluun murtuma, implantin pettäminen, polvilumpion sijoiltaanmeno sekä myöhemmin ilmenevä nivelkierukan repeämä (raportoitu yleensä 2–10 %:ssa polvista). Nivelrikko etenee silti usein ajan myötä, vaikka leikkaus olisi onnistunut. Leikkauksen aikana valvomme anestesiaa tarkasti ja annamme koiralle usean kipulääkkeen yhdistelmää jatkuvana infuusiona.
+
+### Paljonko TTA-leikkaus maksaa?
+
+TTA-leikkaus maksaa klinikallamme alle 20 kg:n koiralle 1 703 € ja yli 20 kg:n koiralle 1 803 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tarvikkeet sekä tikkien poiston. Kontrollikäynnit, kuten röntgenkontrolli 6–8 viikon kohdalla, laskutetaan erikseen. Lopullinen hinta voi nousta, jos tarvitaan lisätutkimuksia tai -hoitoa. Vertailun vuoksi lateral suture -leikkaus maksaa koiralle 1 203 €. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajantasaiset hinnat löydät hinnastostamme.
 
 ### Milloin kannattaa ottaa yhteyttä?
 

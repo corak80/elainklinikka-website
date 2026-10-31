@@ -1594,11 +1594,11 @@ På vår klinik utförs ett brett utbud av mjukdelskirurgiska ingrepp: sterilise
 
 ### Ortopedisk kirurgi
 
-Korsbandsskador är det vanligaste ortopediska ingreppet hos hundar. Vår klinik använder två metoder: lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och passar särskilt för små hundar och katter. TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent och är ett bra alternativ för aktiva och större hundar. Dessutom utför vi frakturoperationer, amputationer och femurhuvudresektioner.
+Korsbandsoperationer är det vanligaste ortopediska ingreppet hos hundar. Vi använder två metoder: lateral sutur och TTA (tibial tuberosity advancement). Lateral sutur stabiliserar knät med ett starkt syntetiskt material som placeras utanför leden. Metoden passar katter och små hundar, och ofta även medelstora hundar samt äldre, lugnare stora hundar. TTA förändrar permanent de krafter som verkar på knät och passar aktiva hundar och stora hundar. Dessutom utför vi frakturoperationer, amputationer och lårbenshuvudresektioner.
 
 ### Säker anestesi
 
-Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi och kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.
+Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi vid de flesta operationer, med kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.
 
 ### Undersökningar före operation
 
@@ -2996,7 +2996,7 @@ Tillbaka till startsidan
 
 ### Korsbandsskador
 
-Korsbandsskada är hundens vanligaste ortopediska problem. Vår klinik använder två reparationsmetoder: TTA (tibial tuberosity advancement) förändrar knäets biomekanik permanent genom att flytta skenbensknölen framåt – metoden lämpar sig särskilt för aktiva och medelstora till stora hundar. Lateral suture-teknik stabiliserar leden med syntetiskt stödmaterial och är ett bra alternativ för små hundar och katter.
+Korsbandsbristning är det vanligaste ortopediska problemet hos hundar. På vår klinik använder vi två operationsmetoder. TTA (tibial tuberosity advancement) förändrar permanent de krafter som verkar på knät genom att skenbensknölen flyttas framåt. Metoden passar aktiva hundar och stora hundar. Lateral sutur stabiliserar knät med ett starkt syntetiskt material som placeras utanför leden. Metoden passar katter och små hundar, och ofta även medelstora hundar samt äldre, lugnare stora hundar. Vi bedömer alltid individuellt vilken metod som passar just din hund bäst.
 
 ### Frakturoperationer och amputationer
 
@@ -3402,7 +3402,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-10-27
+Last updated: 2026-10-31
 
 ## Artiklar
 
@@ -3541,7 +3541,7 @@ Husdjurshälsa
 
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–20 % av husdjuren med klåda – mer sällan än miljöallergi (atopi). Många djurägare misstänker spannmål, men hos hundar är de vanligaste bovarna animaliska proteiner som nötkött, mejeriprodukter och kyckling. Födoämnesallergi kan bara fastställas med en eliminationsdiet och en provokation, där djuret får sitt gamla foder igen. Vi kan hjälpa dig med båda delarna.
 Katthälsa
-24.9.2026
+30.10.2026
 
 ### Sköldkörtelöverfunktion hos katter – symtom, diagnos och behandling
 
@@ -3583,7 +3583,7 @@ Kardiologi
 
 Persisterande (öppen) ductus arteriosus (PDA) är ett av de vanligaste medfödda hjärtfelen hos hund. Ductus är ett blodkärl som före födseln förbinder aorta med lungartären och som ska sluta sig strax därefter. Förblir det öppet överbelastas hjärtet, och de flesta obehandlade hundar utvecklar hjärtsvikt under sitt första eller andra levnadsår. Upptäcks PDA tidigt och ductus stängs, blir hunden i regel botad.
 Ortopedi
-27.9.2026
+31.10.2026
 
 ### TTA-operation hos hund – framflyttning av skenbensknölen vid korsbandssjukdom
 
@@ -3607,10 +3607,10 @@ Tillbaka till startsidan
 # TTA-operation vid korsbandsskada hos hund | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tta-operation.html
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Ortopedi
-27.9.2026
+31.10.2026
 
 ## TTA-operation hos hund – framflyttning av skenbensknölen vid korsbandssjukdom
 
@@ -3634,6 +3634,10 @@ Röntgenbild bakifrån av en hunds vänstra knä efter TTA-operation: titanburen
 ### Risker och komplikationer
 
 De flesta studier rapporterar komplikationer hos ungefär 1 av 10 till 1 av 3 hundar. Omkring 1 av 10 hundar får en allvarligare komplikation, som ofta kräver en ny operation, men de flesta sådana problem kan behandlas framgångsrikt. Till komplikationerna hör infektion, fraktur på skenbensknölen eller skenbenet, implantatsvikt, patellaluxation (att knäskålen hoppar ur läge) och en senare meniskskada (som vanligen rapporteras i 2–10 % av knäna). Artrosen fortskrider ofta med tiden, även efter en lyckad operation. Under operationen övervakar vi anestesin noggrant och ger en smärtlindrande infusion med flera läkemedel.
+
+### Vad kostar en TTA-operation?
+
+På vår klinik kostar en TTA-operation 1 703 € för hundar under 20 kg och 1 803 € för hundar över 20 kg. Priset inkluderar anestesi, operationen, läkemedel och förbrukningsmaterial samt borttagning av stygn. Kontrollbesök, till exempel röntgenkontrollen efter 6–8 veckor, debiteras separat. Slutpriset kan bli högre om ytterligare undersökningar eller behandling behövs. Som jämförelse kostar en operation med lateral sutur 1 203 € för hundar. Vi har direktersättning för kunder hos LokalTapiola, Agria och Pohjola. Aktuella priser hittar du i vår prislista.
 
 ### När bör du kontakta oss?
 
