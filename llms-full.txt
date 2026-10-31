@@ -463,7 +463,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-10-14
+Last updated: 2026-10-31
 
 ## Palvelumme
 
@@ -502,7 +502,7 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 
 - Röntgen – digitaalinen röntgen ja hammasröntgen – korkealaatuiset kuvat ja nopeat tulokset.
 - Ultraäänitutkimukset – vatsan ja sydämen ultraääni sekä tiineystutkimukset.
-- Sydäntutkimukset – sydämen ultraääni, EKG ja Holter – viralliset jalostustarkastukset.
+- Sydäntutkimukset – sydämen ultraääni, EKG ja Holter sekä viralliset tutkimukset jalostuskoirille.
 - Tähystykset – gastroskopia, video-otoskopia, rhinoskopia, kystoskopia ja bronkoskopia.
 - Laboratorio – oma laboratorio: verikokeet, virtsanäytteet, sytologia ja hormonit.
 - Verikokeet – hematologia, kliininen kemia, hormonit ja virtsaviljely – tulokset käynnin aikana.
@@ -1878,7 +1878,7 @@ Ristisideleikkaus on koirien yleisin ortopedinen toimenpide. Teemme sen kahdella
 
 ### Turvallinen anestesia
 
-Anestesiaturvallisuus on meille sydämen asia. Käytämme useimmissa leikkauksissa inhalaatioanestesiaa, ja monitorointi on jatkuvaa: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen kivunlievityksen leikkauksen aikana ja sen jälkeen.
+Anestesiaturvallisuus on meille sydämen asia. Käytämme useimmissa leikkauksissa inhalaatioanestesiaa, ja monitorointi on jatkuvaa: sydämen syke, verenpaine, happisaturaatio, kapnografia, EKG ja lämpötila. Klinikalla on kaksi ventilaattoria ja käytössä moderni balansoitu anestesiaprotokolla. Suuremmissa leikkauksissa, kuten koirien sterilisaatioissa ja ortopedisissä toimenpiteissä, kipulääkeinfuusio (CRI) pitää kivunlievityksen tasaisena leikkauksen aikana ja tarvittaessa myös sen jälkeen.
 
 ### Leikkausta edeltävät tutkimukset
 
@@ -2435,7 +2435,7 @@ Takaisin etusivulle
 # Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -2447,7 +2447,7 @@ Klinikallamme tehdään Suomen Kennelliiton hyväksymiä virallisia röntgentutk
 
 ### Polvi- ja sydäntutkimukset
 
-Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet – kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Nämä tutkimukset ovat osa monen rodun jalostustarkastuksia.
+Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet – kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Monissa roduissa polvet ja sydän tutkitaan osana jalostuskoirien terveystutkimuksia.
 
 ### Kenelle viralliset tutkimukset?
 
@@ -2643,7 +2643,7 @@ Takaisin etusivulle
 # Koiran ja kissan silmätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/silmataudit/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -2667,7 +2667,7 @@ Silmäoireisiin tulee reagoida nopeasti, sillä monet silmäsairaudet etenevät 
 
 ### Usein kysyttyä silmätaudeista
 
-Ovatko silmäsairaudet perinnöllisiä? Monet silmäsairaudet ovat perinnöllisiä tai rotutyypillisiä. Brakykefaalisilla (lyhytkuonoisilla) roduilla, kuten mopseilla ja englanninbulldogeilla, on alttius sarveiskalvon vaurioille ja kuivasilmäisyydelle. Cocker spanielilla ja pudeleilla esiintyy kaihia, ja collieilla verkkokalvosairauksia. Perinnöllisten silmäsairauksien seulonta on osa jalostustarkastuksia. Kuinka nopeasti hoitoon pitää hakeutua? Silmäoireissa nopeus on ratkaisevaa. Sarveiskalvon haavauma voi syventyä vuorokaudessa ilman hoitoa, ja glaukooma voi johtaa pysyvään sokeuteen tunneissa. Jos lemmikkisi siristää silmäänsä, silmä on punainen tai samentunut, tai pupillit ovat erikokoiset, hakeudu vastaanotolle saman päivän aikana. Silmäoireet eivät parane itsestään.
+Ovatko silmäsairaudet perinnöllisiä? Monet silmäsairaudet ovat perinnöllisiä tai rotutyypillisiä. Brakykefaalisilla (lyhytkuonoisilla) roduilla, kuten mopseilla ja englanninbulldogeilla, on alttius sarveiskalvon vaurioille ja kuivasilmäisyydelle. Cocker spanielilla ja pudeleilla esiintyy kaihia, ja collieilla verkkokalvosairauksia. Perinnöllisten silmäsairauksien seulonta kuuluu jalostuskoirien terveystutkimuksiin. Kuinka nopeasti hoitoon pitää hakeutua? Silmäoireissa nopeus on ratkaisevaa. Sarveiskalvon haavauma voi syventyä vuorokaudessa ilman hoitoa, ja glaukooma voi johtaa pysyvään sokeuteen tunneissa. Jos lemmikkisi siristää silmäänsä, silmä on punainen tai samentunut, tai pupillit ovat erikokoiset, hakeudu vastaanotolle saman päivän aikana. Silmäoireet eivät parane itsestään.
 
 ### Varaa aika
 
@@ -3295,7 +3295,7 @@ Koiran lantion ja takajalkojen röntgenkuva: koiralla on molemminpuolinen mediaa
 
 ### Viralliset röntgentutkimukset
 
-Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- ja selkäröntgenkuvauksiin. Viralliset tutkimukset ovat osa jalostustarkastuksia ja niiden tavoitteena on vähentää perinnöllisten ortopedisten sairauksien esiintyvyyttä. Tutkimukset tehdään kevyessä rauhoituksessa ja kuvat lähetetään Kennelliiton lausunnonantajalle.
+Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- ja selkäröntgenkuvauksiin. Viralliset kuvaukset kuuluvat jalostuskoirien terveystutkimuksiin, ja niiden tavoitteena on vähentää perinnöllisten ortopedisten sairauksien esiintyvyyttä. Kuvaukset tehdään kevyessä rauhoituksessa ja kuvat lähetetään Kennelliiton lausunnonantajalle.
 
 ### Usein kysyttyä ortopediasta
 
@@ -3338,7 +3338,7 @@ Takaisin etusivulle
 # Turvallinen eläinanestesia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/anestesia/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -3354,7 +3354,7 @@ Potilasta valvotaan jatkuvasti koko anestesian ajan monitoroimalla: sydämen syk
 
 ### Balansoitu anestesiaprotokolla
 
-Käytämme modernia balansoitua anestesiaprotokollaa, jossa yhdistetään useita eri lääkeaineita pienemmillä annoksilla parhaan vaikutuksen ja turvallisuuden saavuttamiseksi. Jatkuva kipulääkeinfuusio (CRI) varmistaa tasaisen ja tehokkaan kivunlievityksen leikkauksen aikana ja sen jälkeen. Klinikalla on kaksi ventilaattoria potilasturvallisuuden varmistamiseksi.
+Käytämme modernia balansoitua anestesiaprotokollaa, jossa yhdistetään useita eri lääkeaineita pienemmillä annoksilla parhaan vaikutuksen ja turvallisuuden saavuttamiseksi. Suuremmissa leikkauksissa, kuten koirien sterilisaatioissa ja ortopedisissä toimenpiteissä, kipulääkeinfuusio (CRI) pitää kivunlievityksen tasaisena ja tehokkaana leikkauksen aikana ja tarvittaessa myös sen jälkeen. Klinikalla on kaksi ventilaattoria potilasturvallisuuden varmistamiseksi.
 
 ### Ennen anestesiaa
 

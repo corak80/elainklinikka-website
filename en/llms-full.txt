@@ -1608,7 +1608,7 @@ Cruciate ligament repair is the most common orthopaedic procedure in dogs. We us
 
 ### Safe anaesthesia
 
-Anaesthesia safety is close to our hearts. For most operations we use inhalation anaesthesia, with continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. Continuous rate infusion (CRI) pain management ensures steady pain relief during and after surgery.
+Anaesthesia safety is close to our hearts. For most operations we use inhalation anaesthesia, with continuous monitoring: heart rate, blood pressure, oxygen saturation, capnography, ECG and temperature. The clinic has two ventilators and uses a modern balanced anaesthesia protocol. In larger operations, such as dog spays and orthopaedic surgery, a pain-relief infusion (CRI) keeps pain relief steady during surgery and, when needed, afterwards.
 
 ### Pre-operative assessment
 
@@ -3061,7 +3061,7 @@ Back to homepage
 # Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/anesthesia/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -3077,7 +3077,7 @@ The patient is continuously monitored throughout anaesthesia: heart rate and ECG
 
 ### Balanced anaesthesia protocol
 
-We use a modern balanced anaesthesia protocol combining multiple drugs at lower doses for optimal effect and safety. Continuous rate infusion (CRI) pain management ensures steady and effective pain relief during and after surgery. The clinic has two ventilators to ensure patient safety.
+We use a modern balanced anaesthesia protocol combining multiple drugs at lower doses for optimal effect and safety. In larger operations, such as dog spays and orthopaedic surgery, a pain-relief infusion (CRI) keeps pain relief steady and effective during surgery and, when needed, afterwards. The clinic has two ventilators to ensure patient safety.
 
 ### Before anaesthesia
 

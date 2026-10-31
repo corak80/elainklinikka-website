@@ -463,7 +463,7 @@ Boka online
 # Veterinärtjänster i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/
-Last updated: 2026-10-14
+Last updated: 2026-10-31
 
 ## Våra tjänster
 
@@ -502,7 +502,7 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 
 - Röntgen – digital röntgen och dentalröntgen – högkvalitativa bilder och snabba resultat.
 - Ultraljud – bukens och hjärtats ultraljud samt dräktighetsundersökning.
-- Hjärtundersökningar – hjärtultraljud, EKG och Holter – officiella avelskontroller.
+- Hjärtundersökningar – hjärtultraljud, EKG och Holter – officiella undersökningar för avelshundar.
 - Endoskopi – gastroskopi, video-otoskopi, rinoskopi, cystoskopi och bronkoskopi.
 - Laboratorium – eget laboratorium: blodprov, urinprov, cytologi och hormoner.
 - Blodprov – hematologi, klinisk kemi, hormoner och urinodling – resultat under besöket.
@@ -1598,7 +1598,7 @@ Korsbandsoperationer är det vanligaste ortopediska ingreppet hos hundar. Vi anv
 
 ### Säker anestesi
 
-Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi vid de flesta operationer, med kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn smärtlindring under och efter operationen.
+Anestesisäkerhet är en hjärtefråga för oss. Vi använder inhalationsanestesi vid de flesta operationer, med kontinuerlig övervakning: hjärtfrekvens, blodtryck, syremättnad, kapnografi, EKG och temperatur. Kliniken har två ventilatorer och använder ett modernt balanserat anestesiprotokoll. Vid större operationer, till exempel sterilisering av tikar och ortopedisk kirurgi, ger en smärtlindringsinfusion (CRI) jämn smärtlindring under ingreppet och vid behov även efteråt.
 
 ### Undersökningar före operation
 
@@ -2149,7 +2149,7 @@ Tillbaka till startsidan
 # Officiella hälsoundersökningar i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/officiella-undersokningar/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -2161,7 +2161,7 @@ På vår klinik utförs officiella röntgenundersökningar godkända av Finska K
 
 ### Knä- och hjärtundersökningar
 
-Officiella knäundersökningar görs kliniskt utan sedering. Kliniken har även officiella rättigheter för hjärtauskultation – med auskultationsundersökning bedöms om hunden har hjärtblåsljud. Dessa undersökningar är en del av avelskontrollerna för många raser.
+Officiella knäundersökningar görs kliniskt utan sedering. Kliniken har även officiella rättigheter för hjärtauskultation – med auskultationsundersökning bedöms om hunden har hjärtblåsljud. För många raser ingår dessa undersökningar i hälsoundersökningarna av avelshundar.
 
 ### Vem behöver officiella undersökningar?
 
@@ -2357,7 +2357,7 @@ Tillbaka till startsidan
 # Ögonsjukdomar hos hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ogonsjukdomar/
-Last updated: 2026-10-15
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -2381,7 +2381,7 @@ Man bör reagera snabbt på ögonsymtom, eftersom många ögonsjukdomar fortskri
 
 ### Vanliga frågor om ögonsjukdomar
 
-Är ögonsjukdomar ärftliga? Många ögonsjukdomar är ärftliga eller rasspecifika. Brakycefala (kortnosade) raser som mops och engelsk bulldogg har benägenhet för hornhinneskador och torra ögon. Cocker spaniel och pudel drabbas av katarakt, och collier av näthinnesjukdomar. Screening för ärftliga ögonsjukdomar är en del av avelskontrollerna. Hur snabbt ska man söka vård? Vid ögonsymtom är snabbhet avgörande. Ett hornhinnesår kan fördjupas inom ett dygn utan behandling, och glaukom kan leda till permanent blindhet inom timmar. Om ditt husdjur kisar, ögat är rött eller grumligt, eller pupillerna är olika stora, sök vård samma dag. Ögonsymtom läker inte av sig själva.
+Är ögonsjukdomar ärftliga? Många ögonsjukdomar är ärftliga eller rasspecifika. Brakycefala (kortnosade) raser som mops och engelsk bulldogg har benägenhet för hornhinneskador och torra ögon. Cocker spaniel och pudel drabbas av katarakt, och collier av näthinnesjukdomar. Screening för ärftliga ögonsjukdomar ingår i hälsoundersökningarna av avelshundar. Hur snabbt ska man söka vård? Vid ögonsymtom är snabbhet avgörande. Ett hornhinnesår kan fördjupas inom ett dygn utan behandling, och glaukom kan leda till permanent blindhet inom timmar. Om ditt husdjur kisar, ögat är rött eller grumligt, eller pupillerna är olika stora, sök vård samma dag. Ögonsymtom läker inte av sig själva.
 
 ### Boka tid
 
@@ -3004,12 +3004,12 @@ Vår klinik utför frakturoperationer där benfragment fixeras med plattor, skru
 
 ### Patellaluxation och femurhuvudresektion
 
-Knäskålsluxation (patellaluxation) är vanligt särskilt hos små hundraser. Behandlingen är kirurgisk och metoden väljs utifrån luxationens svårighetsgrad. Femurhuvedresektion (FHO) utförs till exempel vid kronisk höftluxation eller Legg-Perthes sjukdom – ingreppet avlägsnar smärtkällan och patienten lär sig använda benet utan höftled.
+Knäskålsluxation (patellaluxation) är vanligt särskilt hos små hundraser. Behandlingen är kirurgisk och metoden väljs utifrån luxationens svårighetsgrad. Lårbenshuvudresektion (femurhuvudresektion, FHO) utförs till exempel vid kronisk höftluxation eller Legg-Perthes sjukdom. Ingreppet avlägsnar smärtkällan, och patienten lär sig använda benet utan höftled.
 Röntgenbild av bäckenet och bakbenen hos en hund med medial patellaluxation i båda knäna. Den vänstra knäskålen (till höger i bilden) har glidit ur sin fåra mot knäts insida (grad 3); i höger knä är luxationen av grad 2. Bild: Djurklinik Saari.
 
 ### Officiella röntgenundersökningar
 
-Vår klinik har Finska Kennelklubbens godkännande för officiella höft-, armbågs- och ryggröntgenundersökningar. Officiella undersökningar är en del av avelskontrollerna och syftar till att minska förekomsten av ärftliga ortopediska sjukdomar. Undersökningarna görs under lätt sedering och bilderna skickas till Kennelklubbens granskare.
+Vår klinik har Finska Kennelklubbens godkännande för officiella höft-, armbågs- och ryggröntgenundersökningar. De ingår i hälsoundersökningarna av avelshundar och syftar till att minska förekomsten av ärftliga ortopediska sjukdomar. Undersökningarna görs under lätt sedering och bilderna skickas till Kennelklubbens granskare.
 
 ### Vanliga frågor om ortopedi
 
@@ -3052,7 +3052,7 @@ Tillbaka till startsidan
 # Anestesi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/anestesi/
-Last updated: 2026-09-20
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -3068,7 +3068,7 @@ Patienten övervakas kontinuerligt under hela anestesin genom monitorering av: h
 
 ### Balanserat anestesiprotokoll
 
-Vi använder ett modernt balanserat anestesiprotokoll där flera olika läkemedel kombineras i lägre doser för bästa effekt och säkerhet. Kontinuerlig smärtlindringsinfusion (CRI) säkerställer jämn och effektiv smärtlindring under och efter operationen. Kliniken har två ventilatorer för att säkerställa patientsäkerheten.
+Vi använder ett modernt balanserat anestesiprotokoll där flera olika läkemedel kombineras i lägre doser för bästa effekt och säkerhet. Vid större operationer, till exempel sterilisering av tikar och ortopedisk kirurgi, ger en smärtlindringsinfusion (CRI) jämn och effektiv smärtlindring under ingreppet och vid behov även efteråt. Kliniken har två ventilatorer för att säkerställa patientsäkerheten.
 
 ### Före anestesin
 
