@@ -391,7 +391,7 @@ function rewriteJsonLd(html, lang) {
   // Simpler approach: after "jobTitle": "...", add "worksFor"
   const worksForLiteral = `,
         "worksFor": {
-          "@type": "VeterinaryCare",
+          "@type": ["VeterinaryCare", "LocalBusiness"],
           "name": "Eläinklinikka Saari",
           "url": "https://elainklinikkasaari.fi"
         }`;

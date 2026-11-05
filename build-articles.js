@@ -2384,14 +2384,14 @@ function generateArticlePage(article, translations, specialContent, lang) {
       "name": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Pamela Kvarngård' : 'Assaf Wydra'}",
       "jobTitle": "${['articles.tag.orthopedics', 'articles.tag.anesthesia', 'article.anesthesia.tag', 'article.hypothermia.tag'].includes(article.tagKey) ? 'Eläinlääkäri' : 'Eläinlääkäri, toimitusjohtaja'}",
       "worksFor": {
-        "@type": "VeterinaryCare",
+        "@type": ["VeterinaryCare", "LocalBusiness"],
         "@id": "${BASE_URL}/#clinic",
         "name": "Eläinklinikka Saari",
         "url": "${BASE_URL}"
       }
     },
     "publisher": {
-      "@type": "VeterinaryCare",
+      "@type": ["VeterinaryCare", "LocalBusiness"],
       "@id": "${BASE_URL}/#clinic",
       "name": "Eläinklinikka Saari",
       "logo": {
@@ -5087,7 +5087,7 @@ function generateServicePage(service, translations, lang) {
     "url": "${canonicalUrl}",
     "areaServed": {"@type": "City", "name": "Vaasa"},
     "provider": {
-      "@type": "VeterinaryCare",
+      "@type": ["VeterinaryCare", "LocalBusiness"],
       "@id": "${BASE_URL}/#clinic",
       "name": "Eläinklinikka Saari",
       "url": "${BASE_URL}",
@@ -5559,7 +5559,7 @@ function generateReviewsPage(lang) {
     inLanguage: lang,
     isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
-      '@type': 'VeterinaryCare',
+      '@type': ['VeterinaryCare', 'LocalBusiness'],
       name: i18n.brandName,
       url: BASE_URL,
       telephone: '+358-6-321-7300',
@@ -5880,7 +5880,7 @@ function generateBookingPage(lang) {
     inLanguage: lang,
     isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
-      '@type': 'VeterinaryCare',
+      '@type': ['VeterinaryCare', 'LocalBusiness'],
       name: i18n.brandName,
       url: BASE_URL,
       telephone: '+358-6-321-7300',
@@ -6098,7 +6098,7 @@ function generateAboutPage() {
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
-    "@type": "VeterinaryCare",
+    "@type": ["VeterinaryCare", "LocalBusiness"],
     "@id": "${BASE_URL}/#clinic",
     "name": "Eläinklinikka Saari",
     "description": "Suomalainen yksityinen pieneläinklinikka Vaasan Vetokannaksella",
@@ -6318,7 +6318,7 @@ function generateContactPage() {
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
-    "@type": "VeterinaryCare",
+    "@type": ["VeterinaryCare", "LocalBusiness"],
     "@id": "${BASE_URL}/#clinic",
     "name": "Eläinklinikka Saari",
     "url": "${BASE_URL}",

@@ -195,7 +195,7 @@ function render(cfg, d, ui) {
       "lastReviewed": "${TODAY}",
       "isPartOf": {"@type": "WebSite", "name": "Eläinklinikka Saari", "url": "${HOST}"},
       "about": {
-        "@type": "VeterinaryCare",
+        "@type": ["VeterinaryCare", "LocalBusiness"],
         "name": "Eläinklinikka Saari",
         "url": "${HOST}",
         "telephone": "+358-6-321-7300",
