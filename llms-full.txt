@@ -2580,7 +2580,7 @@ Takaisin etusivulle
 # Eläinten sisätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sisataudit/
-Last updated: 2026-10-15
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -2630,7 +2630,7 @@ Lemmikkien terveys
 
 #### Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
 
-Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi ikääntyvien kissojen yleisimmistä sairauks...
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, tarkoittaa, että munuaiset menettävät hitaasti ja...
 Terveys
 
 #### IBD vai lymfooma? – kissan tunnetusti vaikea erotusdiagnoosi
@@ -2946,7 +2946,7 @@ Takaisin etusivulle
 # Koiran ja kissan verikokeet Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/verikokeet/
-Last updated: 2026-10-15
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -2991,7 +2991,7 @@ Lemmikkien terveys
 
 #### Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
 
-Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi ikääntyvien kissojen yleisimmistä sairauks...
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, tarkoittaa, että munuaiset menettävät hitaasti ja...
 Lemmikkien terveys
 
 #### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
@@ -3057,7 +3057,7 @@ Takaisin etusivulle
 # Royal Canin ja dieettiruoat Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rehumyynti/
-Last updated: 2026-10-15
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -3119,7 +3119,7 @@ Lemmikkien terveys
 
 #### Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
 
-Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi ikääntyvien kissojen yleisimmistä sairauks...
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, tarkoittaa, että munuaiset menettävät hitaasti ja...
 Lemmikkien terveys
 
 #### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
@@ -3688,7 +3688,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-10-31
+Last updated: 2026-11-05
 
 ## Artikkelit
 
@@ -3809,11 +3809,11 @@ Ortopedia
 
 Eturistisiteen (CCL) repeämä on koirilla yksi yleisimmistä takajalan ontumisen syistä; kissoilla se on harvinaisempi. Lateral suture -tekniikka (lateraalisutuura) eli ekstrakapsulaarinen stabilointi on vakiintunut leikkausmenetelmä, jossa polvi stabiloidaan nivelen ulkopuolelle asetettavalla synteettisellä materiaalilla. Menetelmä sopii parhaiten pienemmille ja vähemmän aktiivisille koirille, ja sitä käytetään myös kissoilla. Klinikallamme leikkauksen tekee eläinlääkäri Pamela Kvarngård.
 Lemmikkien terveys
-25.9.2026
+31.10.2026
 
 ### Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
 
-Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi ikääntyvien kissojen yleisimmistä sairauksista: yli 10-vuotiaista kissoista sitä voi sairastaa 30–40 % tai enemmänkin, vaikka useimmilla sairaus on vielä varhaisessa, lievässä vaiheessa. Koirilla se on paljon harvinaisempi, ja sitä todetaan pääasiassa iäkkäillä eläimillä – laajassa brittiläisessä tutkimuksessa lähes kaksi kolmasosaa sairastuneista koirista oli diagnoosihetkellä yli 12-vuotiaita. Munuaiset menettävät toimintakykyään hitaasti ja peruuttamattomasti, ja ensimmäiset merkit jäävät helposti huomaamatta. Munuaisten vajaatoiminta ei silti ole välitön kuolemantuomio: kun sairaus todetaan varhain ja ruokavalio sekä hoito ovat oikeat, moni kissa elää vielä vuosia ja moni koira useita kuukausia tai vuosia, ja elämänlaatu pysyy hyvänä. Tässä artikkelissa kerromme, miten oireet tunnistaa, mitä IRIS-vaiheet tarkoittavat, miten hoidamme munuaispotilaita Eläinklinikka Saarella, mitä lemmikille kannattaa syöttää ja mitä on odotettavissa.
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, tarkoittaa, että munuaiset menettävät hitaasti ja pysyvästi kykynsä poistaa kuona-aineita verestä. Koirilla se on pääasiassa iäkkäiden eläinten sairaus: yli 100 000 koiran brittiläisessä tutkimuksessa se todettiin noin kahdella koiralla tuhannesta, ja sairastuneista lähes kaksi kolmasosaa oli yli 12-vuotiaita. Ensimmäiset merkit jäävät helposti huomaamatta. Munuaisten vajaatoiminta ei silti ole välitön kuolemantuomio: kun sairaus todetaan varhain ja ruokavalio sekä hoito ovat oikeat, moni koira elää hyvää elämää vielä useita kuukausia ja osa vuosia. Kissoilla munuaissairaus on paljon yleisempi, ja käsittelemme sitä erillisessä artikkelissa <a href="/articles/kissan-munuaisten-vajaatoiminta.html">kissan munuaisten vajaatoiminnasta</a>. Tässä artikkelissa kerromme, mistä koiran munuaissairauden tunnistaa, mistä se johtuu, mitä IRIS-vaiheet tarkoittavat, miten hoidamme sairautta Eläinklinikka Saarella, mitä koiralle kannattaa syöttää ja mitä on odotettavissa.
 Päivystys
 24.9.2026
 
@@ -5228,7 +5228,7 @@ URL: https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html
 Last updated: 2026-10-31
 
 Lemmikkien terveys
-25.9.2026
+31.10.2026
 
 ## Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
 

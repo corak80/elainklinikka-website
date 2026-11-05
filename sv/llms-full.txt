@@ -2294,7 +2294,7 @@ Tillbaka till startsidan
 # Internmedicin för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/internmedicin/
-Last updated: 2026-10-15
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2344,7 +2344,7 @@ Husdjurshälsa
 
 #### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter: den kan d...
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin...
 Hälsa
 
 #### IBD eller lymfom? – en notoriskt svår differentialdiagnos hos katter
@@ -2660,7 +2660,7 @@ Tillbaka till startsidan
 # Blodprov i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/blodprov/
-Last updated: 2026-09-20
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2705,7 +2705,7 @@ Husdjurshälsa
 
 #### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter: den kan d...
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin...
 Husdjurshälsa
 
 #### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
@@ -2771,7 +2771,7 @@ Tillbaka till startsidan
 # Royal Canin-foder och specialfoder i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/foderforsaljning/
-Last updated: 2026-10-14
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2833,7 +2833,7 @@ Husdjurshälsa
 
 #### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter: den kan d...
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin...
 Husdjurshälsa
 
 #### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
@@ -3402,7 +3402,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-10-31
+Last updated: 2026-11-05
 
 ## Artiklar
 
@@ -3523,11 +3523,11 @@ Ortopedi
 
 Ruptur av det främre korsbandet (CCL, cranial cruciate ligament) är en av de vanligaste orsakerna till bakbenshälta hos hundar; hos katter är den mindre vanlig. Lateral sutur, även kallad extrakapsulär lateral suturstabilisering, är en väletablerad kirurgisk metod där knät stabiliseras med syntetiskt material som placeras utanför leden. Metoden lämpar sig bäst för mindre hundar och hundar med lägre aktivitetsnivå, och den används också hos katter. På vår klinik utförs operationen av veterinär Pamela Kvarngård.
 Husdjurshälsa
-25.9.2026
+31.10.2026
 
 ### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter: den kan drabba 30–40 % eller fler av katterna över 10 år, i de flesta fall ännu i ett tidigt, lindrigt stadium. Hos hund är den betydligt ovanligare och förekommer främst hos äldre djur – i en stor brittisk studie var nästan två tredjedelar av de drabbade hundarna över 12 år när diagnosen ställdes. Njurarna förlorar sin funktion långsamt och oåterkalleligt, och de första tecknen är lätta att missa. Men njursvikt är ingen omedelbar dödsdom – med tidig diagnos, rätt diet och rätt behandling lever många katter i flera år, och hundar i allt från många månader till flera år, med god livskvalitet. I den här artikeln går vi igenom hur du känner igen symtomen, vad IRIS-stadierna betyder, hur vi behandlar njurpatienter på Djurklinik Saari, vad djuret ska äta och vad du kan vänta dig.
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin förmåga att rena blodet från slaggprodukter. Hos hund drabbar den främst äldre djur: i en brittisk studie av över 100 000 hundar hade ungefär 2 av 1 000 fått diagnosen, och nästan två tredjedelar av dem var över 12 år gamla. De första tecknen är lätta att missa. Men njursvikt är ingen omedelbar dödsdom – med tidig diagnos, rätt diet och rätt behandling lever många hundar i många månader, och en del i flera år, med god livskvalitet. Njursjukdom är betydligt vanligare hos katter, och om dem har vi en egen artikel: <a href="/sv/artiklar/njursvikt-katt.html">njursvikt hos katt</a>. I den här artikeln går vi igenom tecknen, orsakerna och IRIS-stadierna hos hund, hur vi behandlar sjukdomen på Djurklinik Saari, vad hunden ska äta och vad du kan vänta dig.
 Akutvård
 24.9.2026
 
@@ -4942,7 +4942,7 @@ URL: https://elainklinikkasaari.fi/sv/artiklar/njursvikt.html
 Last updated: 2026-10-31
 
 Husdjurshälsa
-25.9.2026
+31.10.2026
 
 ## Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
