@@ -6341,8 +6341,8 @@ function generateContactPage() {
     ],
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 63.0833,
-      "longitude": 21.6167
+      "latitude": 63.11667,
+      "longitude": 21.61832
     }
   },
   {
