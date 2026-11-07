@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 78 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 79 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3688,12 +3688,18 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-05
+Last updated: 2026-11-07
 
 ## Artikkelit
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Lemmikkien terveys
+7.11.2026
+
+### Koiran ja kissan turkinhoito – milloin se on terveysasia ja milloin trimmaaja on oikea valinta
+
+Hyvin hoidettu turkki ei ole pelkkä ulkonäköasia. Koiralla ja kissalla turkki suojaa ihoa, ja kun turkki takkuuntuu, sen alla oleva iho kärsii. Eläinlääkäreinä näemme säännöllisesti eläimiä, joilla takkuinen turkki on aiheuttanut kipeän ihotulehduksen, kätkenyt alleen haavan tai loisia tai tehnyt liikkumisesta kivuliasta. Tässä artikkelissa kerromme, miksi turkinhoito on tärkeää terveyden kannalta, mitä voit tehdä kotona, milloin turkin ongelma onkin eläinlääkärille kuuluva iho-ongelma, mitä me teemme Eläinklinikka Saarella ja minne suosittelemme menemään säännölliseen trimmaukseen.
 Lemmikkien terveys
 27.10.2026
 
@@ -4405,6 +4411,93 @@ Anestesia
 Kivunhallinta on yksi jokaisen leikkauksen tärkeimmistä osa-alueista. Klinikallamme kipulääkeinfuusio kuuluu rutiinis...
 Takaisin etusivulle
 Soita
+
+---
+
+# Koiran ja kissan turkinhoito – takut, iho ja trimmaus
+
+URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-turkinhoito.html
+Last updated: 2026-11-07
+
+Lemmikkien terveys
+7.11.2026
+
+## Koiran ja kissan turkinhoito – milloin se on terveysasia ja milloin trimmaaja on oikea valinta
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Hyvin hoidettu turkki ei ole pelkkä ulkonäköasia. Koiralla ja kissalla turkki suojaa ihoa, ja kun turkki takkuuntuu, sen alla oleva iho kärsii. Eläinlääkäreinä näemme säännöllisesti eläimiä, joilla takkuinen turkki on aiheuttanut kipeän ihotulehduksen, kätkenyt alleen haavan tai loisia tai tehnyt liikkumisesta kivuliasta. Tässä artikkelissa kerromme, miksi turkinhoito on tärkeää terveyden kannalta, mitä voit tehdä kotona, milloin turkin ongelma onkin eläinlääkärille kuuluva iho-ongelma, mitä me teemme Eläinklinikka Saarella ja minne suosittelemme menemään säännölliseen trimmaukseen.
+Trimmaaja Viktoriia Kutsenko työssään Pet Beauty -trimmaamossaan Vaasassa. Kuva: Viktoriia Kutsenko.
+
+### Miksi takkuinen turkki on terveysongelma?
+
+Takkuja syntyy, kun irtokarva, kosteus ja hankaus sotkevat turkin tiiviiksi möykyiksi, usein aivan ihon tuntumaan. Tiukat takut kiristävät ihoa joka liikkeellä ja voivat olla kivuliaita etenkin korvien takana, kainaloissa, nivusissa sekä pannan tai valjaiden alla. Takun alla kosteus ja lika pysyvät ihoa vasten, mikä voi johtaa ihon ärtymiseen, ihoinfektioon ja epämiellyttävään hajuun. Takut voivat myös kätkeä alleen haavoja, kyhmyjä, punkkeja tai kirppuja, jolloin ongelmat huomataan myöhään. Vaikeissa, pitkään hoitamatta jääneissä tapauksissa jalan ympärille kiristynyt takku voi puristaa jalkaa kuin tiukka nauha, rajoittaa veren ja imunesteen virtausta ja vaurioittaa alla olevaa kudosta. Hännän ja peräpään ympärillä takkuiseen turkkiin voi jäädä ulostetta ja virtsaa. Lämpimällä säällä likainen turkki houkuttelee kärpäsiä, jotka munivat siihen; munista kuoriutuvat toukat syövät ihoa (myiaasi eli kärpäsentoukkatartunta). Jos huomaat lemmikissäsi toukkia, ota yhteyttä eläinlääkäriin vielä samana päivänä.
+
+### Kissa pesee itsensä – miksi sille sitten tulee takkuja?
+
+Terve kissa hoitaa turkkiaan joka päivä, mutta lyhytkarvaistakin kissaa tulisi harjata vähintään kerran viikossa. Pitkäkarvaiset kissat, kuten persialaiset, tarvitsevat harjausta joka päivä, ja myös puolipitkäkarvaiset kissat, kuten maine coonit, tarvitsevat säännöllistä harjausta. Kun aiemmin itsensä siistinä pitänyt kissa alkaa näyttää hoitamattomalta tai sen selkään, takaosaan tai vatsaan tulee takkuja, se on usein merkki siitä, että turkinhoito on käynyt kissalle vaikeaksi. Ylipaino, nivelrikon aiheuttama nivelkipu, hampaiden tai suun kipu tai jokin muu sairaus voivat kaikki saada kissan hoitamaan turkkiaan vähemmän. Tämä on erityisen yleistä iäkkäillä kissoilla, joilla nivelrikko ja hammassairaudet ovat tavallisia. Jos kissa ei yhtäkkiä enää pidä siitä, että sitä harjataan jostakin tietystä kohdasta, sillä voi myös olla kipuja. Kissa, joka lakkaa hoitamasta turkkiaan, on syytä tuoda eläinlääkärin tarkastettavaksi – takut ovat usein vain ongelman näkyvä osa.
+
+### Erilaiset turkit tarvitsevat erilaista hoitoa
+
+Koirat, joiden turkki kasvaa jatkuvasti – esimerkiksi villakoirat, shih tzut ja yorkshirenterrierit – tarvitsevat säännöllistä trimmausta, tai muuten turkki kasvaa pitkäksi ja takkuuntuu. Trimmausväli on mallista riippuen usein muutamasta viikosta pariin kuukauteen. Koirilla, joilla on kaksikerroksinen turkki, kuten pystykorvaroduilla ja pohjoismaisilla roduilla, on tiheä pohjavilla, joka irtoaa runsaasti. Ne tarvitsevat ajamisen sijaan perusteellista harjausta ja pohjavillan poistoa. Lyhyeksi ajaminen ei ole niille rutiiniratkaisu, koska joillakin koirilla turkki kasvaa takaisin hyvin hitaasti tai epätasaisesti – joskus siihen menee vuosi tai enemmänkin. Jos tällainen koira on jo pahasti takussa, ajaminen voi silti olla sille hellävaraisin vaihtoehto. Karkeakarvaisten terrierien turkki nypitään usein. Turkin tyypistä riippumatta tarkista tassujen anturoiden välissä ja korvien ympärillä kasvava karva ja pidä kynnet lyhyinä.
+
+### Mitä voit tehdä kotona?
+
+Harjaa lemmikkiäsi säännöllisesti sen turkille sopivilla välineillä ja harjaa ihoon asti – turkki voi näyttää päältä sileältä, vaikka pinnan alle muodostuu takkuja. Tarkista lopputulos kammalla. Kuivaa turkki kunnolla sade- ja lumikelin lenkkien sekä kylvyn jälkeen sen sijaan, että antaisit sen kuivua itsekseen. Kiinnitä erityistä huomiota kohtiin, joista takkuuntuminen yleensä alkaa: korvien taustoihin, kainaloihin, nivusiin, rintaan, varpaiden väleihin sekä pannan tai valjaiden alla olevaan karvaan. Älä leikkaa takkuja pois saksilla: tiukan takun alla iho vetäytyy ylös takun sisään, ja ihoon on helppo leikata vahingossa. Totuta koiranpentu tai kissanpentu harjaukseen jo varhain: pidä harjaushetket lyhyinä ja rauhallisina ja palkitse pentua.
+
+### Milloin kyse on iho-ongelmasta, joka kuuluu eläinlääkärille?
+
+Osa turkin muutoksista ei liity turkinhoitoon lainkaan. Ota yhteyttä eläinlääkäriin, jos lemmikkisi raapii tai nuolee itseään paljon tai jos huomaat punoittavaa tai hilseilevää ihoa, kaljuja laikkuja tai ohentunutta karvaa, pahaa hajua ihosta tai korvista, haavoja, kyhmyjä, kirppuja tai täitä. Kiilloton, hoitamattoman näköinen turkki – etenkin iäkkäällä eläimellä – voi myös olla merkki sairaudesta muualla elimistössä, kuten kissoilla kilpirauhasen liikatoiminnasta tai munuaissairaudesta tai koirilla kilpirauhasen vajaatoiminnasta. Säännöllinen turkinhoito on hyvä tilaisuus huomata nämä muutokset ajoissa.
+
+### Millaista turkinhoitoa teemme Saarella?
+
+Eläinklinikka Saarella teemme vain lääketieteellistä turkinhoitoa – emme säännöllistä emmekä kosmeettista trimmausta. Autamme, kun turkista on tullut terveysongelma: kun koira tai kissa on pahasti takussa tai kun eläimen turkkia ei voi hoitaa turvallisesti sen ollessa hereillä kivun, pelon tai stressin vuoksi. Näissä tapauksissa takut ajetaan pois rauhoituksessa (sedaatiossa) tai nukutuksessa (yleisanestesiassa). Kun turkki on pahasti takussa, tämä on eläimelle yleensä turvallisempaa ja hellävaraisempaa kuin pitkä ja kivulias käsittely hereillä. Rauhoitukseen ja nukutukseen liittyy aina pieni riski, joka on suurempi iäkkäillä ja sairailla eläimillä, joten eläinlääkäri tutkii lemmikkisi ensin. Iäkkäät ja muista sairauksista kärsivät eläimet voivat tarvita ennen nukutusta verikokeita tai muun tutkimuksen. Kerromme, miten valmistelet lemmikkisi toimenpidepäivään. Jos siitä on sovittu etukäteen, voimme lemmikkisi nukkuessa myös leikata kynnet, puhdistaa korvat sekä tarkistaa hampaat ja ihon. Pienemmissä lääketieteellisissä tapauksissa eläinhoitaja voi myös hoitaa turkkia lyhyesti eläimen ollessa hereillä – tämäkään ei ole säännöllistä trimmausta. Hinta riippuu eläimestä ja siitä, kuinka kauan työ kestää – soita meille, niin kerromme lisää.
+
+### Kun takut on ajettu pois
+
+Takkujen poiston jälkeen iho voi olla muutaman päivän ajan punoittava, ärtynyt tai arka. Pitkään takkujen alla ollut iho on usein jo valmiiksi tulehtunut, ja haavaumat voivat tulla näkyviin vasta, kun takku on poistettu. Ota meihin yhteyttä, jos iho on rikki tai turvonnut tai jos lemmikkisi nuolee tai raapii sitä jatkuvasti. Pahasti takkuuntuneelle kissalle voi jäädä karvaa vain päähän, häntään ja jalkojen alaosiin, kunnes turkki kasvaa takaisin. Useimmilla koirilla ja kissoilla turkki kasvaa takaisin noin kolmen–neljän kuukauden kuluessa. Eräässä tutkimuksessa lyhytkarvaisten labradorinnoutajien karva oli ajettu leikkausta varten, ja sen kasvaminen entiseen pituuteensa kesti keskimäärin noin 14–15 viikkoa. Paksuturkkisilla roduilla, kuten pystykorvaroduilla, se voi kestää paljon kauemmin – joskus vuoden tai enemmänkin. Jos turkki ei ole kasvanut takaisin kolmessa–neljässä kuukaudessa, kysy meiltä: hidas karvankasvu voi johtua myös sairaudesta, esimerkiksi hormonitoiminnan häiriöstä, kuten koiran kilpirauhasen vajaatoiminnasta. Juuri ajettu lemmikki voi palella herkemmin, joten talvella koira saattaa tarvita lenkeillä takin, ja ajettu kissa on syytä pitää lämpimässä sisällä. Jotta ongelma ei palaisi, suunnittele säännöllinen turkinhoito ennen kuin turkki ehtii takkuuntua uudelleen.
+
+### Säännöllinen trimmaus – suosituksemme
+
+Säännölliseen trimmaukseen suosittelemme Viktoriia Kutsenkoa ja hänen Pet Beauty -trimmaamoaan osoitteessa Kauppapuistikko 29 Vaasan keskustassa. Viktoriia toimi vuosia trimmausyrittäjänä klinikkamme tiloissa ennen kuin avasi oman trimmaamonsa, ja tunnemme hänen rauhallisen ja huolellisen työotteensa. Hän tarjoaa trimmausta, pesuja, kynsienleikkuuta, pohjavillan poistoa ja nyppimistä, ja sopimuksen mukaan hän ottaa vastaan myös kissoja. Lisätietoja ja hinnat löydät osoitteesta petbeauty.fi, ja ajan voit varata soittamalla tai WhatsApp-viestillä numeroon 041 318 9823.
+
+### Milloin sinun kannattaa ottaa meihin yhteyttä?
+
+Varaa aika, jos koirallasi tai kissallasi on pahoja takkuja aivan ihon tuntumassa, jos sitä ei voi kivun, pelon tai stressin vuoksi harjata tai trimmata hereillä tai jos huomaat ihomuutoksia, kutinaa, karvanlähtöä tai epätavallista hajua. Myös kissa, joka on lakannut hoitamasta turkkiaan, on syytä tuoda tutkittavaksi. Soita meille numeroon (06) 321 7300 tai varaa aika verkosta.
+
+### Lähteet
+
+- Bennett D, Zainal Ariffin SM, Johnston P. Osteoarthritis in the cat: 1. How common is it and how easy to recognise? J Feline Med Surg. 2012;14(1):65–75. pmc.ncbi.nlm.nih.gov/PMC11148909
+- Vogelnest LJ. Skin as a marker of general feline health: Cutaneous manifestations of systemic disease. J Feline Med Surg. 2017;19(9):948–960. pmc.ncbi.nlm.nih.gov/PMC11128893
+- Dowgray N, Pinchbeck G, Eyre K, Biourge V, Comerford E, German AJ. Aging in Cats: Owner Observations and Clinical Finding in 206 Mature Cats at Enrolment to the Cat Prospective Aging and Welfare Study. Front Vet Sci. 2022;9:859041. pmc.ncbi.nlm.nih.gov/PMC9014291
+- Ray M, Carney HC, Boynton B, et al. 2021 AAFP Feline Senior Care Guidelines. J Feline Med Surg. 2021;23(7):613–638. pmc.ncbi.nlm.nih.gov/PMC10812122
+- Diaz SF, Torres SM, Dunstan RW, Lekcharoensuk C. An analysis of canine hair re-growth after clipping for a surgical procedure. Vet Dermatol. 2004;15(1):25–30. pubmed.ncbi.nlm.nih.gov/14989702
+- Torres SMF (ed.). Canine Post-clipping Alopecia. In: Small and Large Animal Dermatology Handbook, Vol. 2. University of Minnesota Libraries Publishing, 2025. open.lib.umn.edu
+- Moriello KA. Hereditary Alopecia and Hypotrichosis in Animals. Merck Veterinary Manual (2025). merckvetmanual.com/hereditary-alopecia-and-hypotrichosis-in
+- Heseltine J. Hypothyroidism in Animals. Merck Veterinary Manual (2024). merckvetmanual.com/hypothyroidism-in-animals
+- Watson E, Niestat L. Osseous lesions in the distal extremities of dogs with strangulating hair mats. Vet Radiol Ultrasound. 2021;62(1):37–43. pubmed.ncbi.nlm.nih.gov/33184951
+- Šlapeta J. Facultative Myiasis-Producing Flies of Animals. Merck Veterinary Manual (2026). merckvetmanual.com/facultative-myiasis-producing-flies-of-a
+- Brodbelt D. Perioperative mortality in small animal anaesthesia. Vet J. 2009;182(2):152–161. pubmed.ncbi.nlm.nih.gov/18658000
+- International Cat Care. Grooming your cat (2025). icatcare.org
+Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset · Anestesia
+
+### Lue myös
+
+Terveys
+
+#### Koiran korvatulehdus – oireet, syyt, hoito ja hinta
+
+Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkä...
+Terveys
+
+#### Seniorikissan terveystarkastus – sisältö, kuinka usein ja hinta
+
+Seniorikissan terveystarkastus eli senioritutkimus on perusteellinen tutkimus, johon kuuluvat verikokeet ja mieluiten...
+Anestesia
+
+#### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne
+
+Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huol...
+Takaisin etusivulle
 
 ---
 

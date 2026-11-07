@@ -534,6 +534,19 @@ const FIG_CAT_EXAM_CARRIER = {
   }
 };
 
+const FIG_COAT_GROOMER = {
+  src: '/images/coat-care-groomer-viktoriia.webp', width: 1200, height: 750, maxWidth: 640,
+  alt: {
+    fi: "Trimmaaja Viktoriia Kutsenko työssään trimmaamossaan, trimmauspöydällä föönin alla suuri tumma koira",
+    sv: "Trimmaren Viktoriia Kutsenko i arbete i sin salong, med en stor mörk hund på trimbordet under fönen",
+    en: "Groomer Viktoriia Kutsenko at work in her salon, with a large dark dog on the grooming table under the dryer"
+  },
+  caption: {
+    fi: "Trimmaaja Viktoriia Kutsenko työssään Pet Beauty -trimmaamossaan Vaasassa. Kuva: Viktoriia Kutsenko.",
+    sv: "Trimmaren Viktoriia Kutsenko i arbete i sin salong Pet Beauty i Vasa. Foto: Viktoriia Kutsenko.",
+    en: "Groomer Viktoriia Kutsenko at work in her salon Pet Beauty in Vaasa. Photo: Viktoriia Kutsenko."
+  }
+};
 const FIG_CAT_CKD_CHECKUP = {
   src: '/images/cat-checkup-beside-carrier.webp', width: 1000, height: 667, maxWidth: 640,
   alt: {
@@ -794,6 +807,39 @@ const articles = [
       { text: 'Thomas W.B. (2021, updated 2025): Degenerative Diseases of the Spinal Column and Cord in Animals (intervertebral disk disease; cervical disk herniation with thoracic-limb lameness, nerve root signature). Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/degenerative-diseases-of-the-spinal-column-and-cord-in-animals', label: 'merckvetmanual.com' },
       { text: 'Hovda T. (2024, updated 2025): Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual.', url: 'https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals', label: 'merckvetmanual.com' }
     ]
+  },
+  {
+    slug: 'koiran-ja-kissan-turkinhoito',
+    slugSv: 'palsvard-hund-katt',
+    slugEn: 'coat-care-dogs-cats',
+    titleKey: 'article.coatcare.title',
+    tagKey: 'article.coatcare.tag',
+    category: 'health',
+    date: '7.11.2026',
+    publishDate: '2026-11-07',
+    sections: ['intro', 'why.title', 'why.text', 'cats.title', 'cats.text', 'dogs.title', 'dogs.text', 'home.title', 'home.text', 'skin.title', 'skin.text', 'clinic.title', 'clinic.text', 'after.title', 'after.text', 'groomer.title', 'groomer.text', 'contact.title', 'contact.text'],
+    figures: { 'intro': [FIG_COAT_GROOMER] },
+    prefix: 'article.coatcare',
+    sources: [
+      { text: 'Bennett D, Zainal Ariffin SM, Johnston P. Osteoarthritis in the cat: 1. How common is it and how easy to recognise? J Feline Med Surg. 2012;14(1):65–75.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11148909/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Vogelnest LJ. Skin as a marker of general feline health: Cutaneous manifestations of systemic disease. J Feline Med Surg. 2017;19(9):948–960.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11128893/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Dowgray N, Pinchbeck G, Eyre K, Biourge V, Comerford E, German AJ. Aging in Cats: Owner Observations and Clinical Finding in 206 Mature Cats at Enrolment to the Cat Prospective Aging and Welfare Study. Front Vet Sci. 2022;9:859041.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9014291/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Ray M, Carney HC, Boynton B, et al. 2021 AAFP Feline Senior Care Guidelines. J Feline Med Surg. 2021;23(7):613–638.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10812122/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Diaz SF, Torres SM, Dunstan RW, Lekcharoensuk C. An analysis of canine hair re-growth after clipping for a surgical procedure. Vet Dermatol. 2004;15(1):25–30.', url: 'https://pubmed.ncbi.nlm.nih.gov/14989702/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Torres SMF (ed.). Canine Post-clipping Alopecia. In: Small and Large Animal Dermatology Handbook, Vol. 2. University of Minnesota Libraries Publishing, 2025.', url: 'https://open.lib.umn.edu/animaldermatology2/chapter/canine-post-clipping-alopecia/', label: 'open.lib.umn.edu' },
+      { text: 'Moriello KA. Hereditary Alopecia and Hypotrichosis in Animals. Merck Veterinary Manual (2025).', url: 'https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/hereditary-alopecia-and-hypotrichosis-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Heseltine J. Hypothyroidism in Animals. Merck Veterinary Manual (2024).', url: 'https://www.merckvetmanual.com/endocrine-system/the-thyroid-gland/hypothyroidism-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Watson E, Niestat L. Osseous lesions in the distal extremities of dogs with strangulating hair mats. Vet Radiol Ultrasound. 2021;62(1):37–43.', url: 'https://pubmed.ncbi.nlm.nih.gov/33184951/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Šlapeta J. Facultative Myiasis-Producing Flies of Animals. Merck Veterinary Manual (2026).', url: 'https://www.merckvetmanual.com/integumentary-system/flies/facultative-myiasis-producing-flies-of-animals', label: 'merckvetmanual.com' },
+      { text: 'Brodbelt D. Perioperative mortality in small animal anaesthesia. Vet J. 2009;182(2):152–161.', url: 'https://pubmed.ncbi.nlm.nih.gov/18658000/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'International Cat Care. Grooming your cat (2025).', url: 'https://icatcare.org/articles/grooming-your-cat', label: 'icatcare.org' }
+    ],
+    metaDesc: {
+      fi: "Takkuinen turkki voi sattua ja kätkeä iho-ongelmia. Eläinklinikka Saari Vaasassa kertoo turkinhoidosta – milloin eläinlääkäriin, milloin trimmaajalle.",
+      sv: "Toviga pälsar kan göra ont och dölja hudproblem. Djurklinik Saari i Vasa berättar om pälsvård för hund och katt och när du ska välja veterinär eller trimmare.",
+      en: "Matted coats can hurt and hide skin problems. Saari Animal Clinic in Vaasa explains coat care for dogs and cats, when to see a vet and when a groomer."
+    },
+    seoTitle: { fi: "Koiran ja kissan turkinhoito – takut, iho ja trimmaus", sv: "Pälsvård hos hund och katt – tovor, hud och trimning", en: "Coat Care in Dogs and Cats – Mats, Skin and Grooming" }
   },
   {
     slug: 'kissan-munuaisten-vajaatoiminta',
@@ -1774,6 +1820,7 @@ const relatedArticles = {
   'kilpirauhasen-liikatoiminta': ['kissan-munuaisten-vajaatoiminta', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
   'munuaisten-vajaatoiminta': ['kissan-munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
   'kissan-munuaisten-vajaatoiminta': ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
+  'koiran-ja-kissan-turkinhoito': ['koiran-korvatulehdus', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
   'kyynpurema': ['myrkytys', 'kohtutulehdus', 'koira-ontuu'],
   'myrkytys': ['kyynpurema', 'kissan-munuaisten-vajaatoiminta', 'ripuli'],
   'kohtutulehdus': ['kyynpurema', 'anestesiaturvallisuus', 'rokotukset'],
@@ -1807,6 +1854,7 @@ const articleToServices = {
   'kilpirauhasen-liikatoiminta': ['sisataudit', 'verikokeet'],
   'munuaisten-vajaatoiminta': ['sisataudit'],
   'kissan-munuaisten-vajaatoiminta': ['sisataudit', 'senioritarkastus'],
+  'koiran-ja-kissan-turkinhoito': ['ihotaudit', 'anestesia'],
   'kyynpurema': ['sisataudit'],
   'myrkytys': ['sisataudit'],
   'kohtutulehdus': ['kirurgia', 'sterilisaatio'],

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 72 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 73 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3411,12 +3411,18 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-05
+Last updated: 2026-11-07
 
 ## Articles
 
 Veterinary articles from the professionals
 Search articles...
+Pet Health
+7.11.2026
+
+### Coat Care in Dogs and Cats — When It’s a Health Matter and When a Groomer Is the Right Choice
+
+A well-kept coat is not just about looks. In dogs and cats, the coat protects the skin, and when it mats, the skin underneath suffers. As vets, we regularly see animals whose matted coat has caused sore, inflamed skin, hidden a wound or parasites, or made moving painful. This article explains why coat care matters for health, what you can do at home, when a coat problem is really a skin problem for the vet, what we do at Saari Animal Clinic, and where we recommend you go for regular grooming.
 Pet Health
 27.10.2026
 
@@ -4128,6 +4134,93 @@ Anesthesia
 Pain management is one of the most important parts of any surgery. At our clinic, a pain-relief infusion is a routine...
 Back to homepage
 Call
+
+---
+
+# Coat Care in Dogs and Cats – Mats, Skin and Grooming
+
+URL: https://elainklinikkasaari.fi/en/articles/coat-care-dogs-cats.html
+Last updated: 2026-11-07
+
+Pet Health
+7.11.2026
+
+## Coat Care in Dogs and Cats — When It’s a Health Matter and When a Groomer Is the Right Choice
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+A well-kept coat is not just about looks. In dogs and cats, the coat protects the skin, and when it mats, the skin underneath suffers. As vets, we regularly see animals whose matted coat has caused sore, inflamed skin, hidden a wound or parasites, or made moving painful. This article explains why coat care matters for health, what you can do at home, when a coat problem is really a skin problem for the vet, what we do at Saari Animal Clinic, and where we recommend you go for regular grooming.
+Groomer Viktoriia Kutsenko at work in her salon Pet Beauty in Vaasa. Photo: Viktoriia Kutsenko.
+
+### Why is a matted coat a health problem?
+
+Mats form when loose hair, moisture and friction tangle the coat into dense clumps, often close to the skin. Tight mats pull on the skin with every movement and can be painful, especially behind the ears, in the armpits, in the groin and under the collar or harness. Under a mat, moisture and dirt are held against the skin, which can lead to irritation, skin infection and an unpleasant smell. Mats can also hide wounds, lumps, ticks or fleas, so problems are found late. In severe, long-neglected cases, a tight mat around a leg can squeeze it like a band, restricting blood and lymph flow and damaging the tissue underneath. Around the tail and bottom, a matted coat can trap faeces and urine. In warm weather, flies are drawn to a soiled coat and lay their eggs in it; the maggots that hatch feed on the skin (flystrike). If you ever see maggots on your pet, contact a vet the same day.
+
+### Cats groom themselves — so why would a cat get mats?
+
+Healthy cats groom themselves every day, but a short-haired cat should still be brushed at least once a week. Long-haired cats such as Persians need brushing every day, and semi-long-haired cats such as Maine Coons need regular brushing too. When a cat that used to keep itself tidy starts to look unkempt or develops mats on its back, hindquarters or belly, it is often a sign that grooming has become difficult. Being overweight, joint pain from arthritis, pain in the teeth or mouth, or another illness can all make a cat groom less. This is especially common in older cats, in whom arthritis and dental disease are frequent. A cat that suddenly dislikes being brushed in one particular place may also be in pain. A cat that stops grooming should be checked by a vet — the mats are often only the visible part of the problem.
+
+### Different coats need different care
+
+Dogs with a continuously growing coat — for example poodles, shih tzus and Yorkshire terriers — need regular trimming, often every few weeks to every couple of months depending on the cut, or the coat grows long and tangles. Double-coated dogs such as spitz types and Nordic breeds have a dense undercoat that sheds heavily; they need thorough brushing and undercoat removal rather than clipping. A short clip is not a routine solution for them, because in some dogs the coat grows back very slowly or unevenly — sometimes it takes a year or more. If such a dog is already badly matted, though, clipping may still be the kindest option. Wire-haired terriers are often hand-stripped. Whatever the coat, check the hair between the paw pads and around the ears, and keep the nails short.
+
+### What can you do at home?
+
+Brush regularly with tools that suit your pet’s coat, and brush all the way down to the skin — a coat can look smooth on top while mats form underneath. Check the result with a comb. After walks in rain or snow and after a bath, dry the coat properly rather than letting it dry on its own. Pay extra attention to the places where mats start: behind the ears, the armpits, the groin, the chest, between the toes and under the collar or harness. Do not cut mats out with scissors: the skin under a tight mat is pulled up into it, and it is easy to cut the skin by accident. Get your puppy or kitten used to brushing early, with short, calm sessions and rewards.
+
+### When is it a skin problem for the vet?
+
+Some changes in the coat are not grooming problems at all. Contact a vet if your pet scratches or licks a lot, has red or scaly skin, bald patches or thinning hair, a bad smell from the skin or ears, wounds or lumps, or if you see fleas or lice. A dull, unkempt coat — especially in an older animal — can also be a sign of illness elsewhere in the body, such as an overactive thyroid gland or kidney disease in cats, or an underactive thyroid gland in dogs. Regular grooming is a good moment to notice these changes early.
+
+### What coat care do we do at Saari?
+
+At Saari Animal Clinic, we only do medical coat care — not regular or cosmetic grooming. We help when the coat has become a health problem: severely matted dogs and cats, and animals that cannot be groomed safely while awake because of pain, fear or stress. In these cases the mats are clipped off under sedation or general anaesthesia. For severe matting this is usually safer and kinder for the animal than a long, painful session awake. Sedation and anaesthesia always carry a small risk, which is higher in older and sick animals, so a vet examines your pet first. Older animals and those with other illnesses may need blood tests or another check before anaesthesia. We will tell you how to prepare your pet for the day. If agreed in advance, we can also trim the nails, clean the ears and check the teeth and skin while your pet is asleep. For smaller medical cases, a nurse can also do short coat care with the animal awake — this is not regular grooming either. The price depends on the animal and on how long the work takes — call us and we will tell you more.
+
+### After clipping
+
+After mats have been removed, the skin may be red, irritated or sensitive for a few days. Skin that has been under mats for a long time is often already inflamed, and sores may only show once the mat is off. Contact us if the skin is broken or swollen, or if your pet keeps licking or scratching it. A severely matted cat may be left with fur only on its head, tail and lower legs until the coat grows back. In most dogs and cats, the coat grows back within about three to four months. In one study of short-coated Labrador retrievers clipped for surgery, the hair took an average of about 14–15 weeks to reach its previous length. In thick-coated breeds such as spitz types, it can take much longer — sometimes a year or more. If the coat has not grown back after three to four months, ask us: slow regrowth can also have a medical cause, such as a hormonal disease (for example, an underactive thyroid gland in dogs). A freshly clipped pet may feel the cold more, so in winter a dog may need a dog jacket on walks, and a clipped cat should be kept warm indoors. To keep the problem from coming back, plan regular grooming before the coat mats again.
+
+### Regular grooming — our recommendation
+
+For regular grooming we recommend Viktoriia Kutsenko and her salon Pet Beauty at Kauppapuistikko 29 in central Vaasa. Viktoriia ran her own grooming business in our clinic’s premises for years before opening her salon, and we know her calm and careful way of working. She offers trimming, bathing, nail trims, undercoat removal and hand-stripping, and she takes cats by arrangement. You can read more and see her prices at petbeauty.fi, and book by phone or WhatsApp on 041 318 9823.
+
+### When should you contact us?
+
+Book an appointment if your dog or cat has severe mats close to the skin, cannot be brushed or groomed awake because of pain, fear or stress, or if you notice skin changes, itching, hair loss or an unusual smell. A cat that has stopped grooming itself should also be examined. Call us on (06) 321 7300 or book online.
+
+### Sources
+
+- Bennett D, Zainal Ariffin SM, Johnston P. Osteoarthritis in the cat: 1. How common is it and how easy to recognise? J Feline Med Surg. 2012;14(1):65–75. pmc.ncbi.nlm.nih.gov/PMC11148909
+- Vogelnest LJ. Skin as a marker of general feline health: Cutaneous manifestations of systemic disease. J Feline Med Surg. 2017;19(9):948–960. pmc.ncbi.nlm.nih.gov/PMC11128893
+- Dowgray N, Pinchbeck G, Eyre K, Biourge V, Comerford E, German AJ. Aging in Cats: Owner Observations and Clinical Finding in 206 Mature Cats at Enrolment to the Cat Prospective Aging and Welfare Study. Front Vet Sci. 2022;9:859041. pmc.ncbi.nlm.nih.gov/PMC9014291
+- Ray M, Carney HC, Boynton B, et al. 2021 AAFP Feline Senior Care Guidelines. J Feline Med Surg. 2021;23(7):613–638. pmc.ncbi.nlm.nih.gov/PMC10812122
+- Diaz SF, Torres SM, Dunstan RW, Lekcharoensuk C. An analysis of canine hair re-growth after clipping for a surgical procedure. Vet Dermatol. 2004;15(1):25–30. pubmed.ncbi.nlm.nih.gov/14989702
+- Torres SMF (ed.). Canine Post-clipping Alopecia. In: Small and Large Animal Dermatology Handbook, Vol. 2. University of Minnesota Libraries Publishing, 2025. open.lib.umn.edu
+- Moriello KA. Hereditary Alopecia and Hypotrichosis in Animals. Merck Veterinary Manual (2025). merckvetmanual.com/hereditary-alopecia-and-hypotrichosis-in
+- Heseltine J. Hypothyroidism in Animals. Merck Veterinary Manual (2024). merckvetmanual.com/hypothyroidism-in-animals
+- Watson E, Niestat L. Osseous lesions in the distal extremities of dogs with strangulating hair mats. Vet Radiol Ultrasound. 2021;62(1):37–43. pubmed.ncbi.nlm.nih.gov/33184951
+- Šlapeta J. Facultative Myiasis-Producing Flies of Animals. Merck Veterinary Manual (2026). merckvetmanual.com/facultative-myiasis-producing-flies-of-a
+- Brodbelt D. Perioperative mortality in small animal anaesthesia. Vet J. 2009;182(2):152–161. pubmed.ncbi.nlm.nih.gov/18658000
+- International Cat Care. Grooming your cat (2025). icatcare.org
+Related services: Skin diseases, allergies and ear infections · Anesthesia
+
+### Read also
+
+Health
+
+#### Ear Infections in Dogs — Symptoms, Causes, Treatment and Cost
+
+An ear infection in dogs — inflammation of the outer ear canal, or otitis externa — is one of the most common reasons...
+Health
+
+#### Senior Cat Health Check — What’s Included, How Often and Cost
+
+A senior cat health check, or senior check-up, is a thorough examination with blood tests — ideally including a blood...
+Anesthesia
+
+#### Anesthesia Safety — Statistics, Risks, and How We Minimize Them
+
+Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners worry about it, an...
+Back to homepage
 
 ---
 
