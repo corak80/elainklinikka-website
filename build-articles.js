@@ -730,7 +730,7 @@ const articles = [
     figures: { 'symptoms.text': [FIG_EAR_SKIN], 'causes.text': [FIG_EAR_DISCHARGE], 'video.text': [FIG_EAR_OTOSCOPY] },
     prefix: 'article.earinfection',
     metaDesc: {
-      fi: 'Koiran korvatulehdus: oireet, syyt, hoito ja hinta. Miksi ei kannata odottaa, milloin tarvitaan korvahuuhtelu (449–489 €) ja miten estät uusiutumisen.',
+      fi: 'Koira ravistelee päätään ja korvasta tulee ruskeaa eritettä? Oireet, syyt, hoito ja hinta: tutkimuskäynti 137,79 €, korvahuuhtelu nukutuksessa 449–489 €.',
       sv: 'Öroninflammation hos hund: symtom, orsaker, behandling och pris. Varför du inte ska vänta, när öronspolning (449–489 €) behövs och hur du förebygger återfall.',
       en: 'Ear infections in dogs: symptoms, causes, treatment and cost. Why you should not wait, when an ear flush (€449–489) is needed and how to prevent recurrence.'
     },
@@ -1152,6 +1152,7 @@ const articles = [
     slugSv: 'hypertyreos-katt',
     slugEn: 'hyperthyroidism',
     titleKey: 'article.hyperthyroid.title',
+    seoTitle: { fi: 'Kissan kilpirauhasen liikatoiminta – oireet ja hoito' },
     tagKey: 'article.hyperthyroid.tag',
     category: 'health',
     date: '30.10.2026',
@@ -1172,7 +1173,7 @@ const articles = [
       { text: 'International Cat Care: Hyperthyroidism in cats.', url: 'https://icatcare.org/articles/hyperthyroidism-in-cats', label: 'icatcare.org' }
     ],
     metaDesc: {
-      fi: 'Kissan kilpirauhasen liikatoiminta: oireet, verikokeet, hoidot (lääkitys, dieettiruoka, leikkaus) ja seuranta. Vanhan kissan hoito Eläinklinikka Saarella.',
+      fi: 'Vanha kissa syö hyvin mutta laihtuu, juo paljon, oksentelee tai on levoton? Kilpirauhasen liikatoiminnan oireet, verikokeet ja neljä hoitovaihtoehtoa.',
       sv: 'Hypertyreos hos katt: symtom, blodprov, behandling (medicin, foder eller operation) och uppföljning – vård av äldre katter på Djurklinik Saari i Vasa.',
       en: 'Hyperthyroidism in cats: symptoms, blood tests, treatment options (medication, diet, surgery) and follow-up — care for older cats at Saari in Vaasa.'
     }
@@ -1267,6 +1268,7 @@ const articles = [
     slugSv: 'forgiftning',
     slugEn: 'poisoning',
     titleKey: 'article.poison.title',
+    seoTitle: { fi: 'Myrkytys koiralla ja kissalla – oireet ja ensiapu' },
     tagKey: 'article.poison.tag',
     category: 'emergency',
     date: '24.9.2026',
@@ -1298,7 +1300,7 @@ const articles = [
       { text: 'HUS: Myrkytystietokeskus.', url: 'https://www.hus.fi/potilaalle/sairaalat-ja-toimipisteet/myrkytystietokeskus', label: 'hus.fi' }
     ],
     metaDesc: {
-      fi: 'Koiran ja kissan myrkytys: vaaralliset ruoat ja lääkkeet, oireet, ensiapu ja miksi eläinlääkärille soitetaan heti, vaikka lemmikki vaikuttaisi terveeltä.',
+      fi: 'Suklaa, ksylitoli, rypäleet, sipuli ja valkosipuli, ihmisten kipulääkkeet ja kissoille liljat: oireet, ensiapu ja miksi soittaa heti eläinlääkärille.',
       sv: 'Förgiftning hos hund och katt: farlig mat och läkemedel, symtom, första hjälpen och varför du ska ringa veterinären genast, även om djuret verkar piggt.',
       en: 'Poisoning in dogs and cats: dangerous foods and medicines, symptoms, first aid and why to call the vet at once, even if your pet seems well.'
     }
@@ -1308,7 +1310,7 @@ const articles = [
     slugSv: 'livmoderinflammation',
     slugEn: 'pyometra',
     titleKey: 'article.pyometra.title',
-    seoTitle: { en: 'Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery', fi: 'Koiran kohtutulehdus – oireet, leikkaus, hinta ja toipuminen', sv: 'Livmoderinflammation hos hund – symtom, operation och pris' },
+    seoTitle: { en: 'Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery', fi: 'Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta', sv: 'Livmoderinflammation hos hund – symtom, operation och pris' },
     tagKey: 'article.pyometra.tag',
     category: 'emergency',
     date: '25.9.2026',
@@ -1330,6 +1332,7 @@ const articles = [
       { text: 'Wallace G.B. & Casal M.L. (2018): A review of pyometra in small animal medicine: incidence, pathophysiology, clinical diagnosis, and medical management. Clinical Theriogenology 10(4):435–452.', url: 'https://cdn.ymaws.com/www.therio.org/resource/collection/70D14721-6863-458C-9317-D977EACB353A/2018_v4_005.pdf', label: 'cdn.ymaws.com' }
     ],
     metaDesc: {
+      fi: 'Vuoto häpystä, kova jano, oksentelu, väsymys: märkäkohtu on hengenvaarallinen ja vaatii yleensä leikkauksen heti. Oireet, eteneminen, hinta ja toipuminen.',
       en: 'Pyometra in dogs: symptoms, how fast it progresses, why antibiotics alone are not enough, surgery, cost, recovery and prevention.',
       sv: 'Livmoderinflammation (pyometra) hos hund: symtom, förlopp, varför antibiotika inte räcker samt operation, pris och återhämtning. Djurklinik Saari i Vasa.'
     }
@@ -1598,6 +1601,7 @@ const articles = [
     slugSv: 'avmaskning',
     slugEn: 'deworming',
     titleKey: 'article.deworming.title',
+    seoTitle: { fi: 'Kuinka usein koira tai kissa madotetaan?' },
     tagKey: 'articles.filter.health',
     category: 'health',
     date: '25.9.2026',
@@ -1616,7 +1620,7 @@ const articles = [
       { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
     ],
     metaDesc: {
-      fi: 'Koiran ja kissan madotus perustuu riskinarvioon. Katso ESCCAP-suositukset pennuille, aikuisille ja matkustaville lemmikeille sekä matotartunnan oireet.',
+      fi: 'Koiran ja kissan madotus: kuinka usein pennut ja aikuiset madotetaan (ESCCAP), mitä laki vaatii matkustavalta koiralta ja milloin ulostenäyte riittää.',
       en: 'How often to deworm a dog or cat: puppies, kittens, adults, indoor cats and travel – and when a faecal sample can replace deworming.',
       sv: 'Hur ofta ska hund och katt avmaskas? Valpar, kattungar, vuxna och resor – och när avföringsprov kan ersätta avmaskning. Råd från Djurklinik Saari i Vasa.'
     }
@@ -4109,7 +4113,7 @@ const servicePages = [
     slug: 'eu-lemmikkipassi',
     slugSv: 'eu-sallskapsdjurspass',
     slugEn: 'eu-pet-passport',
-    title: 'EU-lemmikkipassi Vaasassa | Eläinklinikka Saari',
+    title: 'Koiran ja kissan passi (EU-lemmikkipassi) – 80,50 € Vaasassa',
     ogTitle: "EU-lemmikkipassi koiralle ja kissalle | Eläinklinikka Saari",
     h1: "EU-lemmikkipassi koiralle ja kissalle Vaasassa – hinta, voimassaolo ja hakeminen",
     metaDesc: "EU-lemmikkipassi Vaasassa 80,50 € (37,50 € muun käynnin yhteydessä), mikrosirutus 68 €. Passin saat samana päivänä. Voimassaolo, rabies 21 pv, kissan passi.",

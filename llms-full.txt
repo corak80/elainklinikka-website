@@ -2854,7 +2854,7 @@ Takaisin etusivulle
 
 ---
 
-# EU-lemmikkipassi Vaasassa | Eläinklinikka Saari
+# Koiran ja kissan passi (EU-lemmikkipassi) – 80,50 € Vaasassa
 
 URL: https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/
 Last updated: 2026-10-15
@@ -5231,7 +5231,7 @@ Takaisin etusivulle
 
 ---
 
-# Kilpirauhasen liikatoiminta kissalla | Eläinklinikka Saari
+# Kissan kilpirauhasen liikatoiminta – oireet ja hoito
 
 URL: https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html
 Last updated: 2026-10-30
@@ -5496,7 +5496,7 @@ Takaisin etusivulle
 
 ---
 
-# Myrkytys koiralla ja kissalla | Eläinklinikka Saari
+# Myrkytys koiralla ja kissalla – oireet ja ensiapu
 
 URL: https://elainklinikkasaari.fi/articles/myrkytys.html
 Last updated: 2026-09-24
@@ -5580,7 +5580,7 @@ Takaisin etusivulle
 
 ---
 
-# Koiran kohtutulehdus – oireet, leikkaus, hinta ja toipuminen
+# Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/kohtutulehdus.html
 Last updated: 2026-10-15
@@ -6345,7 +6345,7 @@ Takaisin etusivulle
 
 ---
 
-# Koiran ja kissan madotus | Eläinklinikka Saari
+# Kuinka usein koira tai kissa madotetaan?
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html
 Last updated: 2026-09-29
