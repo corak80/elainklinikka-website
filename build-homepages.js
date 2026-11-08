@@ -392,6 +392,7 @@ function rewriteJsonLd(html, lang) {
   const worksForLiteral = `,
         "worksFor": {
           "@type": ["VeterinaryCare", "LocalBusiness"],
+          "@id": "https://elainklinikkasaari.fi/#clinic",
           "name": "Eläinklinikka Saari",
           "url": "https://elainklinikkasaari.fi"
         }`;

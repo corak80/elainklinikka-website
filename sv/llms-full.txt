@@ -3402,7 +3402,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-07
+Last updated: 2026-11-08
 
 ## Artiklar
 
@@ -3533,7 +3533,7 @@ Husdjurshälsa
 
 ### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin förmåga att rena blodet från slaggprodukter. Hos hund drabbar den främst äldre djur: i en brittisk studie av över 100 000 hundar hade ungefär 2 av 1 000 fått diagnosen, och nästan två tredjedelar av dem var över 12 år gamla. De första tecknen är lätta att missa. Men njursvikt är ingen omedelbar dödsdom – med tidig diagnos, rätt diet och rätt behandling lever många hundar i många månader, och en del i flera år, med god livskvalitet. Njursjukdom är betydligt vanligare hos katter, och om dem har vi en egen artikel: <a href="/sv/artiklar/njursvikt-katt.html">njursvikt hos katt</a>. I den här artikeln går vi igenom tecknen, orsakerna och IRIS-stadierna hos hund, hur vi behandlar sjukdomen på Djurklinik Saari, vad hunden ska äta och vad du kan vänta dig.
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin förmåga att rena blodet från slaggprodukter. Hos hund drabbar den främst äldre djur: i en brittisk studie av över 100 000 hundar hade ungefär 2 av 1 000 fått diagnosen, och nästan två tredjedelar av dem var över 12 år gamla. De första tecknen är lätta att missa. Men njursvikt är ingen omedelbar dödsdom – med tidig diagnos, rätt diet och rätt behandling lever många hundar i många månader, och en del i flera år, med god livskvalitet. Njursjukdom är betydligt vanligare hos katter, och om dem har vi en egen artikel: njursvikt hos katt. I den här artikeln går vi igenom tecknen, orsakerna och IRIS-stadierna hos hund, hur vi behandlar sjukdomen på Djurklinik Saari, vad hunden ska äta och vad du kan vänta dig.
 Akutvård
 24.9.2026
 

@@ -1944,7 +1944,7 @@ function generateRelatedArticlesHtml(currentSlug, translations, lang) {
     if (!article) continue;
     const title = t(article.titleKey);
     const tag = t(article.tagKey);
-    const intro = t(`${article.prefix}.intro`);
+    const intro = stripTags(t(`${article.prefix}.intro`));
     const shortIntro = intro.length > 120 ? intro.substring(0, 117) + '...' : intro;
     const href = `${baseUrl}${articleSlug(article, lang)}.html`;
     cards += `
@@ -2681,7 +2681,8 @@ function generateArticleIndex(translations, lang) {
   for (const article of sorted) {
     const m = article.manual && (article.manual[lang] || article.manual.fi);
     const title = m ? m.title : t(article.titleKey);
-    const intro = m ? m.intro : t(`${article.prefix}.intro`);
+    // Intros may hold inline links; a card is itself a link, so show plain text.
+    const intro = stripTags(m ? m.intro : t(`${article.prefix}.intro`));
     const tag = m ? m.tag : t(article.tagKey);
     const slug = articleSlug(article, lang);
     const cat = article.category || 'health';
@@ -5608,6 +5609,7 @@ function generateReviewsPage(lang) {
     isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
       '@type': ['VeterinaryCare', 'LocalBusiness'],
+      '@id': `${BASE_URL}/#clinic`,
       name: i18n.brandName,
       url: BASE_URL,
       telephone: '+358-6-321-7300',
@@ -5929,6 +5931,7 @@ function generateBookingPage(lang) {
     isPartOf: { '@type': 'WebSite', '@id': `${BASE_URL}/#website`, name: i18n.brandName, url: BASE_URL },
     about: {
       '@type': ['VeterinaryCare', 'LocalBusiness'],
+      '@id': `${BASE_URL}/#clinic`,
       name: i18n.brandName,
       url: BASE_URL,
       telephone: '+358-6-321-7300',
@@ -7003,6 +7006,10 @@ ${townLandingHreflang}  </url>
 // ──────────────────────────────────────────────
 // Utility functions
 // ──────────────────────────────────────────────
+function stripTags(str) {
+  return String(str || '').replace(/<[^>]*>/g, '');
+}
+
 function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
