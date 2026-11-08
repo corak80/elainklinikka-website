@@ -33,24 +33,25 @@
     n.push = n; n.loaded = true; n.version = '2.0'; n.queue = [];
   }
 
+  // Wording: docs/compliance-2026-11/{fi,sv,en}_final.json (EN approved by Assaf 09-11-2026, FI/SV native writer → critic → editor).
   var TEXT = {
     fi: {
-      text: 'Haluaisimme käyttää evästeitä ja vastaavia seurantatekniikoita kävijämäärien ja mainostemme tehon mittaamiseen: Google Analytics, Google Ads, Meta (Facebook ja Instagram) ja Microsoft Clarity. Ne otetaan käyttöön vain, jos hyväksyt. Voit muuttaa valintaasi milloin tahansa sivun alareunan kohdasta Evästeasetukset.',
-      accept: 'Hyväksy', reject: 'Hylkää', privacy: 'Tietosuojaseloste', settings: 'Evästeasetukset',
-      mapText: 'Kartan näyttää Google Maps, joka käyttää evästeitä.', mapButton: 'Näytä kartta',
+      text: "Haluaisimme käyttää evästeitä ja muita vastaavia seurantatekniikoita, jotta voimme mitata sivuston käyntejä ja mainostemme tehoa: Google Analytics, Google Ads, Meta (Facebook ja Instagram) ja Microsoft Clarity. Ne otetaan käyttöön vain, jos hyväksyt. Voit muuttaa valintaasi milloin tahansa sivun alareunan kohdasta Evästeasetukset.",
+      accept: "Hyväksy", reject: "Hylkää", privacy: "Tietosuojaseloste", settings: "Evästeasetukset",
+      mapText: "Kartan näyttää Google Maps, joka käyttää evästeitä.", mapButton: "Näytä kartta",
       privacyHref: '/tietosuoja/'
     },
     sv: {
-      text: 'Vi vill använda cookies och liknande spårning för att mäta besöken och hur våra annonser fungerar: Google Analytics, Google Ads, Meta (Facebook och Instagram) och Microsoft Clarity. De används bara om du godkänner. Du kan ändra ditt val när som helst under Cookie-inställningar längst ner på sidan.',
-      accept: 'Godkänn', reject: 'Avvisa', privacy: 'Dataskyddsbeskrivning', settings: 'Cookie-inställningar',
-      mapText: 'Kartan visas av Google Maps, som använder cookies.', mapButton: 'Visa kartan',
-      privacyHref: '/tietosuoja/'  // → '/sv/dataskydd/' once that page exists
+      text: "Vi vill använda kakor och liknande spårningstekniker för att mäta besöken och hur våra annonser fungerar: Google Analytics, Google Ads, Meta (Facebook och Instagram) och Microsoft Clarity. De används bara om du godkänner dem. Du kan ändra ditt val när som helst under Inställningar för kakor längst ner på sidan.",
+      accept: "Godkänn", reject: "Avvisa", privacy: "Dataskyddsbeskrivning", settings: "Inställningar för kakor",
+      mapText: "Kartan visas av Google Maps, som använder kakor.", mapButton: "Visa kartan",
+      privacyHref: '/sv/dataskydd/'
     },
     en: {
-      text: 'We would like to use cookies and similar tracking to measure visits and how our ads perform: Google Analytics, Google Ads, Meta (Facebook and Instagram) and Microsoft Clarity. They are switched on only if you accept. You can change your choice at any time under Cookie settings at the bottom of the page.',
-      accept: 'Accept', reject: 'Reject', privacy: 'Privacy policy', settings: 'Cookie settings',
-      mapText: 'The map is shown by Google Maps, which uses cookies.', mapButton: 'Show map',
-      privacyHref: '/tietosuoja/'  // → '/en/privacy/' once that page exists
+      text: "We would like to use cookies and similar tracking to measure visits and how our ads perform: Google Analytics, Google Ads, Meta (Facebook and Instagram) and Microsoft Clarity. They are switched on only if you accept. You can change your choice at any time under Cookie settings at the bottom of the page.",
+      accept: "Accept", reject: "Reject", privacy: "Privacy policy", settings: "Cookie settings",
+      mapText: "The map is shown by Google Maps, which uses cookies.", mapButton: "Show map",
+      privacyHref: '/en/privacy/'
     }
   };
   var lang = 'fi';

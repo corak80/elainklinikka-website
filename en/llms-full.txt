@@ -2,14 +2,14 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 73 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 74 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
 # Veterinarian in Vaasa — Saari Animal Clinic, Mon–Fri 7:45–17
 
 URL: https://elainklinikkasaari.fi/en/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 💉 Drop-in vaccinations without appointment on Tuesdays 3:30–4:00 PM, 10 % off
 
@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Price List — Vet Prices in Vaasa
 
@@ -463,7 +463,7 @@ Book online
 # Services | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## Our Services
 
@@ -495,7 +495,7 @@ Eläinklinikka Saari offers a comprehensive range of small-animal veterinary ser
 - Surgery — soft tissue surgery, orthopaedics, TTA and lateral suture.
 - Orthopaedics — cruciate ligament repair (TTA, lateral suture), fracture surgery and amputations.
 - Spaying — spaying for female dogs, cats and rabbits under general anaesthesia.
-- Castration — castration for male dogs, cats and rabbits, including chemical castration with Suprelorin implant.
+- Castration — castration for male dogs, cats and rabbits, including chemical castration with deslorelin implant.
 - Anaesthesia — inhalation anaesthesia, continuous monitoring and balanced protocol.
 
 ### Diagnostics and Imaging
@@ -557,10 +557,86 @@ Yes. We are an officially Cat Friendly certified clinic and accommodate cats' sp
 
 ---
 
+# Privacy policy | Saari Animal Clinic
+
+URL: https://elainklinikkasaari.fi/en/privacy/
+Last updated: 2026-11-09
+
+## Privacy policy
+
+Updated 9 November 2026
+
+### Controller
+
+Eläinklinikka Saari Oy (business ID 0708667-9), Gerbyntie 18, 65230 Vaasa, Finland. Phone (06) 321 7300, info@saarivet.fi. Contact person for privacy matters: Pamela Kvarngård.
+
+### Whose data we process
+
+Clients (pet owners) and people who contact us by phone, WhatsApp, email or through this website.
+
+### What we process and why
+
+Purpose | Data | Legal basis
+Treating your animal and keeping patient records | Name, contact details, address, your animals' details, treatment history, lab results, images, invoices; personal ID number only if you choose instalment payment | Contract; legal obligation (Veterinary Practice Act 29/2000)
+Appointments | The details you give when booking by phone or online | Contract
+Phone calls we cannot answer | Calls to (06) 321 7300 that staff cannot answer are taken by an AI assistant. It writes down your message so we can call you back. Calls are not recorded. We keep the written transcript and summary of the call. | Contract and legitimate interest (answering our customers)
+WhatsApp | Our WhatsApp line is answered by an AI assistant, and staff can take over. Voice messages are turned into text on our own server. Messages about your animal are saved in its patient record. | Contract and legitimate interest
+Messages we send you | Call-back confirmations, appointment and vaccination reminders, a follow-up question after a visit, preliminary lab results, webshop pick-up notices – by WhatsApp, SMS or email | Contract and legitimate interest (no marketing)
+Waiting-room camera | A live camera picture of the waiting room is shown on staff screens so we can see who is waiting. Software marks each waiting person on the screen and times the wait. Nothing is recorded and no images are saved. A sign at the entrance tells about the camera. | Legitimate interest (customer service and safety)
+Website statistics and ads | See "Cookies" below | Your consent
+Accounting | Invoices and payments | Legal obligation (Accounting Act)
+
+### Who receives data
+
+- Laboratories we send samples to (IDEXX, Movet, Laboklin, Patovet) and other vets we consult for advice: the details needed for that case.
+- Insurance companies, when you ask us to send a direct claim.
+- Authorities, when the law requires it (e.g. the Finnish Food Authority).
+- Instalment payments: Walley decides on the credit as a separate controller and processes your data under its own privacy policy.
+
+### Service providers who process data for us
+
+These data processors are bound by contract:
+- Patient records and online booking: Nordhealth Finland Oy (ProvetCloud), EU
+- Server: Hetzner Online GmbH, EU (Finland/Germany)
+- Phone line and SMS: Twilio Inc. (USA); AI voice assistant: Retell AI Inc. (USA)
+- AI language model for the phone and WhatsApp assistants and for staff tools: Anthropic PBC (USA)
+- WhatsApp: Meta Platforms Ireland Ltd
+- Email: Google (Gmail) and Resend Inc. (USA)
+- Website hosting and security: GitHub Inc. (USA), Cloudflare Inc. (USA)
+- Webshop payments: Stripe (see the webshop's own privacy notice)
+Where a provider is outside the EU/EEA, the transfer is protected by the EU–US Data Privacy Framework and/or the EU Commission's standard contractual clauses.
+
+### How long we keep data
+
+- Patient records: at least 3 years from the last entry (Veterinary Practice Act 29/2000, 15 §); we keep them as long as you are our client.
+- Medicine records: 5 years (EU Regulation 2019/6).
+- Accounting records: vouchers 6 years from the end of the financial year, account books 10 years (Accounting Act).
+- Phone call transcripts and WhatsApp conversations: 12 months, then deleted. Anything about your animal is also saved in its patient record and kept as above.
+- Website statistics: at most 14 months in Google Analytics (our account setting), Microsoft Clarity 13 months, Meta per its own terms.
+
+### Cookies
+
+The website uses Google Analytics and Google Ads (Google Ireland Ltd), the Meta pixel (Meta Platforms Ireland Ltd) and Microsoft Clarity (Microsoft Ireland Operations Ltd) only if you click Accept in the cookie banner. They measure visits, how the site is used and how our ads perform; Clarity also records anonymised page sessions, with form fields hidden. If you reject, none of them loads. Google Maps is loaded only after you accept or click "Show map". You can change your choice at any time under Cookie settings at the bottom of every page.
+
+### Automated decisions
+
+We make no decisions about you by automated means alone. The AI assistants only take messages and answer questions; staff decide on your animal's care.
+
+### Your rights
+
+You have the right to see your data, to have wrong data corrected, to have data deleted when the law does not require us to keep it, to restrict or object to processing, to receive your data in a portable form, and to withdraw consent at any time. Send requests to info@saarivet.fi or call (06) 321 7300. You can also complain to the Data Protection Ombudsman (tietosuoja.fi).
+
+### Company information
+
+Eläinklinikka Saari Oy, business ID 0708667-9, VAT FI07086679, Gerbyntie 18, 65230 Vaasa. Our veterinarians are licensed in Finland (professional title eläinlääkäri / veterinär) and supervised by the Finnish Food Authority (Ruokavirasto). Professional rules: the Veterinary Practice Act (29/2000) and the Finnish Veterinary Association's code of ethics.
+Back to homepage
+
+---
+
 # Contact – Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/contact/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## Contact
 
@@ -616,7 +692,7 @@ Back to home
 # Vets and Nurses in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/staff/
-Last updated: 2026-10-25
+Last updated: 2026-11-09
 
 ## Staff
 
@@ -772,7 +848,7 @@ Back to home page
 # Customer reviews | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/reviews/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -782,7 +858,7 @@ Back to homepage
 345 reviews on Google
 + 73 recommendations on Facebook (98% recommend)
 Read all on Google →
-Below: 29 featured reviews from Google and Facebook. Read all on Google.
+These are 29 reviews we picked from Google and Facebook. We do not check whether each writer has been our client. You can read all our Google reviews, good and bad, on Google.
 K
 Kati Konttinen
 Facebook
@@ -940,7 +1016,7 @@ Reviews are taken from Google Customer Reviews and shown on this page exactly as
 # Book an appointment | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/book-appointment/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 Call us
@@ -960,7 +1036,7 @@ Reply within ~1 business day
 # Wildlife care | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/wildlife/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Wildlife department
 
@@ -1216,7 +1292,7 @@ Our partner who looks after wildlife patients after the clinic — rehabilitates
 # Veterinarian Vaasa | Saari Animal Clinic since 1989
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Veterinarian in Vaasa — Saari Animal Clinic
 
@@ -1305,7 +1381,7 @@ Book online
 # Cat Vet in Vaasa – Cat Friendly Clinic | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Cat vet in Vaasa – calm, unhurried care for your cat
 
@@ -1395,7 +1471,7 @@ Book online
 # Dog and Cat Teeth Cleaning in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dental-care/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1501,7 +1577,7 @@ Back to homepage
 # Dog Heart Ultrasound in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/cardiac-examinations/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1592,7 +1668,7 @@ Back to homepage
 # Veterinary Surgery in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/surgery/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1677,7 +1753,7 @@ Back to homepage
 # Endoscopy for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/endoscopy/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1740,7 +1816,7 @@ Back to homepage
 # Dog and Cat Vaccinations in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/vaccinations/
-Last updated: 2026-10-23
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1830,7 +1906,7 @@ Back to homepage
 # Ultrasound for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/ultrasound/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1888,7 +1964,7 @@ Back to homepage
 # Skin, Allergy and Ear Care in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dermatology/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -1946,7 +2022,7 @@ Back to homepage
 # Senior Pet Check-up €299 in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/senior-check-up/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2042,7 +2118,7 @@ Back to homepage
 # Puppy Check-up and Microchip in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/puppy-check-up/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2100,7 +2176,7 @@ Back to homepage
 # Veterinary Acupuncture in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/acupuncture/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2158,7 +2234,7 @@ Back to homepage
 # Kennel Club Health Examinations, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/official-examinations/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2216,7 +2292,7 @@ Back to homepage
 # Dog and Cat Spaying in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/spay-and-neuter/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2303,7 +2379,7 @@ Back to homepage
 # Internal Medicine for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/internal-medicine/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2366,7 +2442,7 @@ Back to homepage
 # Eye Diseases in Dogs and Cats, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/ophthalmology/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2419,7 +2495,7 @@ Back to homepage
 # In-House Veterinary Lab in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/laboratory/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2473,7 +2549,7 @@ Back to homepage
 # X-ray in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/x-ray/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2531,7 +2607,7 @@ Back to homepage
 # Pet Euthanasia in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/euthanasia/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2580,7 +2656,7 @@ Back to homepage
 # EU Pet Passport in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/eu-pet-passport/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2669,7 +2745,7 @@ Back to homepage
 # Blood Tests for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/blood-tests/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2727,7 +2803,7 @@ Back to homepage
 # Pregnancy Examination for Pets, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/pregnancy-examination/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2780,7 +2856,7 @@ Back to homepage
 # Royal Canin and Vet Diets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/prescription-diets/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2855,7 +2931,7 @@ Back to homepage
 # Wellness and Rehabilitation in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/rehabilitation/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2913,7 +2989,7 @@ Back to homepage
 # Dog and Cat Castration in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/castration/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -2921,7 +2997,7 @@ Back to homepage
 
 ### What does castration mean?
 
-Castration (neutering) is the surgery in which a male animal's testicles are removed. It is a common and safe procedure, performed at Saari Animal Clinic with comprehensive pain relief: dogs and rabbits under inhalation anaesthesia, a routine cat castration under injectable anaesthesia. For dogs we also offer chemical castration with a Suprelorin implant, with no anaesthesia. The procedure for female animals is described on our Spaying page.
+Castration (neutering) is the surgery in which a male animal's testicles are removed. It is a common and safe procedure, performed at Saari Animal Clinic with comprehensive pain relief: dogs and rabbits under inhalation anaesthesia, a routine cat castration under injectable anaesthesia. For dogs we also offer chemical castration with a deslorelin implant, with no anaesthesia. The procedure for female animals is described on our Spaying page.
 
 ### Castration prices
 
@@ -2933,15 +3009,15 @@ Dog castration over 40 kg €553
 Rabbit castration €253
 Cryptorchid surgery, dog €473–623
 Cryptorchid surgery, cat €208–268
-The price includes anaesthesia, the surgery, medicines and take-home pain relief. The dog price depends on weight. For the price of chemical castration (Suprelorin implant), please call (06) 321 7300. All prices are in our price list. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers.
+The price includes anaesthesia, the surgery, medicines and take-home pain relief. The dog price depends on weight. For the price of chemical castration (deslorelin implant), please call (06) 321 7300. All prices are in our price list. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers.
 
 ### Why castrate a dog, cat or rabbit?
 
 Castrating a male cat stops urine marking, reduces roaming and fight injuries and extends the cat's life. Castrating a dog may be medically indicated for prostate problems, testicular tumours or perianal tumours, and it can reduce hormonal behaviour such as marking, escaping and roaming after bitches. Castrating a male rabbit is recommended when the rabbit lives with another rabbit — it prevents fights and litters and reduces marking.
 
-### Chemical castration (Suprelorin implant)
+### Chemical castration (deslorelin implant)
 
-Chemical castration with a Suprelorin hormone implant is available for dogs. The implant is placed under the skin at the back of the neck during a consultation — the procedure is quick and needs no anaesthesia. Full effect is reached within about 6 weeks and lasts 6 or 12 months depending on the implant chosen, after which it wears off completely. Chemical castration is a good option when you want to test the effect of castration on behaviour before a permanent decision, when surgery is to be avoided, or when the dog is elderly.
+Chemical castration with a deslorelin hormone implant is available for dogs. The implant is placed under the skin at the back of the neck during a consultation — the procedure is quick and needs no anaesthesia. Full effect is reached within about 6 weeks and lasts 6 or 12 months depending on the implant chosen, after which it wears off completely. Chemical castration is a good option when you want to test the effect of castration on behaviour before a permanent decision, when surgery is to be avoided, or when the dog is elderly.
 
 ### Cryptorchidism (retained testicle)
 
@@ -2963,10 +3039,10 @@ A cat's castration wound is small and usually has no sutures; most cats are brig
 
 How much does dog castration cost? Castrating a male dog at Saari Animal Clinic costs €383–553 depending on weight: under 10 kg €383, 10–20 kg €453, 20–40 kg €503, over 40 kg €553. The price includes anaesthesia, the surgery, medicines and take-home pain relief. Cryptorchid surgery costs €473–623.
 How much does cat neutering cost? Castrating a male cat costs €108, including anaesthesia, the surgery and pain relief. Castrating a male rabbit costs €253.
-How much does chemical castration cost and how long does it last? Chemical castration is done with a Suprelorin implant during a consultation, with no anaesthesia. Full effect is reached within about 6 weeks and lasts 6 or 12 months depending on the implant. For the price, please call (06) 321 7300.
+How much does chemical castration cost and how long does it last? Chemical castration is done with a deslorelin implant during a consultation, with no anaesthesia. Full effect is reached within about 6 weeks and lasts 6 or 12 months depending on the implant. For the price, please call (06) 321 7300.
 At what age should castration be done? Male cats are usually castrated at 5–6 months of age before marking begins, male rabbits at 4–6 months, and dogs at 6–18 months depending on the breed. In large breeds we recommend waiting until skeletal growth is complete.
 Does a dog's behaviour change after castration? Castration can reduce hormonal behaviour such as marking, escaping and aggression towards other males. The effect depends on the individual — learned behaviour patterns do not necessarily change through castration alone. Basic temperament remains the same. Chemical castration is a good way to test the effect before a permanent decision.
-Can castration be reversed? Surgical castration is permanent. That is why we offer chemical castration with a Suprelorin implant, whose effect lasts 6 or 12 months and then wears off completely.
+Can castration be reversed? Surgical castration is permanent. That is why we offer chemical castration with a deslorelin implant, whose effect lasts 6 or 12 months and then wears off completely.
 How long is recovery after castration? Cats are usually bright again the next day. A dog needs about 7–10 days of rest, and the wound is protected with a cone or recovery suit. Sutures are removed after about 10 days or dissolve on their own.
 What is the difference between castration and spaying? Castration (neutering) refers to male animals: the testicles are removed. Spaying is the surgery for female animals in which the ovaries and often the uterus are removed. Spaying of female dogs, cats and rabbits is covered on our separate spaying page.
 
@@ -2997,7 +3073,7 @@ Back to homepage
 # Orthopaedic Surgery for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/orthopedics/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -3061,7 +3137,7 @@ Back to homepage
 # Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/anesthesia/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -3119,7 +3195,7 @@ Back to homepage
 # Hygiene in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/hygiene/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -3172,7 +3248,7 @@ Back to homepage
 # Emergency Veterinarian Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/emergency/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Back to homepage
 
@@ -3270,7 +3346,7 @@ Back to homepage
 # Vet for Kristinestad, Närpes and Kaskö pet owners – Vaasa
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## A vet for Kristinestad, Närpes and Kaskö – an hour's drive to Vaasa
 
@@ -3411,7 +3487,7 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-08
+Last updated: 2026-11-09
 
 ## Articles
 
@@ -3622,7 +3698,7 @@ Back to homepage
 # TTA Surgery for Cruciate Ligament Disease in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/tta-surgery.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Orthopedics
 31.10.2026
@@ -3698,7 +3774,7 @@ Back to homepage
 # Ear Flushing Under Anaesthesia for Dogs and Cats – Price
 
 URL: https://elainklinikkasaari.fi/en/articles/video-otoscopy.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Endoscopy
 10.10.2026
@@ -3773,7 +3849,7 @@ Back to homepage
 # Ear Infections in Dogs – Symptoms, Treatment and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Health
 10.10.2026
@@ -3868,7 +3944,7 @@ Back to homepage
 # Senior Cat Health Check in Vaasa – What’s Included, Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Health
 9.10.2026
@@ -4013,7 +4089,7 @@ Senior check-up from €299 Book
 # Dog Limping: When to See a Vet, Causes and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-limping.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Health
 9.10.2026
@@ -4140,7 +4216,7 @@ Call
 # Coat Care in Dogs and Cats – Mats, Skin and Grooming
 
 URL: https://elainklinikkasaari.fi/en/articles/coat-care-dogs-cats.html
-Last updated: 2026-11-07
+Last updated: 2026-11-09
 
 Pet Health
 7.11.2026
@@ -4227,7 +4303,7 @@ Back to homepage
 # Kidney Disease in Cats – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease-cats.html
-Last updated: 2026-10-27
+Last updated: 2026-11-09
 
 Pet Health
 27.10.2026
@@ -4355,7 +4431,7 @@ Back to homepage
 # Continuous Rate Infusion (CRI) | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/pain-relief-infusion.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Anesthesia
 25.9.2026
@@ -4432,7 +4508,7 @@ Back to homepage
 # Diarrhoea in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/diarrhoea.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Health
 25.9.2026
@@ -4503,7 +4579,7 @@ Back to homepage
 # Patent Ductus Arteriosus (PDA) in Dogs | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/patent-ductus-arteriosus-pda.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Cardiology
 27.9.2026
@@ -4584,7 +4660,7 @@ Back to homepage
 # Tooth Brushing for Dogs and Cats – How to Get Started
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-brushing.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Dental
 27.9.2026
@@ -4666,7 +4742,7 @@ Back to homepage
 # Grain-Free Food for Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/grain-free-food.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Health
 27.9.2026
@@ -4748,7 +4824,7 @@ Back to homepage
 # PerioVive Gel for Periodontal Disease in Dogs and Cats
 
 URL: https://elainklinikkasaari.fi/en/articles/periovive.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Dental
 27.9.2026
@@ -4820,7 +4896,7 @@ Back to homepage
 # Why Choosing an Independent Veterinary Clinic Matters
 
 URL: https://elainklinikkasaari.fi/en/articles/independent-clinic.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Clinic
 27.9.2026
@@ -4884,7 +4960,7 @@ Back to homepage
 # Food Allergies in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/food-allergies.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Pet Health
 27.9.2026
@@ -4957,7 +5033,7 @@ Back to homepage
 # Hyperthyroidism in Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hyperthyroidism.html
-Last updated: 2026-10-30
+Last updated: 2026-11-09
 
 Cat Health
 30.10.2026
@@ -4985,7 +5061,7 @@ There are four treatment options: daily medication, surgery, radioactive iodine 
 
 ### Daily medication
 
-The medicine, thiamazole (also known as methimazole), is given every day as tablets (e.g., Felimazole) or an oral solution (e.g., Apelka). It is relatively inexpensive, but the treatment is lifelong. Most cats tolerate it well. Side effects usually appear in the first weeks and seldom after two to three months. They include vomiting, poor appetite, lethargy or severe itching of the head and neck that can cause scratch wounds. Rarely, the liver or blood cells are affected, so contact us if your cat becomes unwell or feverish, turns yellowish or bleeds easily. T4, kidney values and blood counts are checked about 3, 6, 10 and 20 weeks after starting and after every dose change, then every few months.
+The medicine, thiamazole (also known as methimazole), is given every day as tablets or an oral solution. It is relatively inexpensive, but the treatment is lifelong. Most cats tolerate it well. Side effects usually appear in the first weeks and seldom after two to three months. They include vomiting, poor appetite, lethargy or severe itching of the head and neck that can cause scratch wounds. Rarely, the liver or blood cells are affected, so contact us if your cat becomes unwell or feverish, turns yellowish or bleeds easily. T4, kidney values and blood counts are checked about 3, 6, 10 and 20 weeks after starting and after every dose change, then every few months.
 
 ### Handling the medicine safely at home
 
@@ -5041,7 +5117,7 @@ Back to homepage
 # Kidney Disease in Dogs – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Pet Health
 31.10.2026
@@ -5157,7 +5233,7 @@ Back to homepage
 # Adder Bite in Dogs and Cats – Symptoms and First Aid
 
 URL: https://elainklinikkasaari.fi/en/articles/snake-bite.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Emergency
 24.9.2026
@@ -5222,7 +5298,7 @@ Back to homepage
 # Poisoning in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/poisoning.html
-Last updated: 2026-09-24
+Last updated: 2026-11-09
 
 Emergency
 24.9.2026
@@ -5306,7 +5382,7 @@ Back to homepage
 # Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery
 
 URL: https://elainklinikkasaari.fi/en/articles/pyometra.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Emergency
 25.9.2026
@@ -5400,7 +5476,7 @@ Back to homepage
 # Lateral Suture for Cruciate Ligament Rupture in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/lateral-suture.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Orthopedics
 27.9.2026
@@ -5481,7 +5557,7 @@ Back to homepage
 # The Hedgehog in Europe and Finland | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hedgehog.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5589,7 +5665,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # Found a Baby Hedgehog? What to Do | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/found-a-baby-hedgehog.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5699,7 +5775,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # A Less Stressful Vet Visit for Your Cat
 
 URL: https://elainklinikkasaari.fi/en/articles/cat-friendly-clinic.html
-Last updated: 2026-09-29
+Last updated: 2026-11-09
 
 Cat Health
 27.9.2026
@@ -5764,7 +5840,7 @@ Back to homepage
 # Unerupted Teeth and Dentigerous Cysts | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/unerupted-teeth.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Dental
 27.9.2026
@@ -5835,7 +5911,7 @@ Back to homepage
 # Gastroscopy for Dogs and Cats – Foreign Bodies and Biopsies
 
 URL: https://elainklinikkasaari.fi/en/articles/gastroscopy.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Endoscopy
 27.9.2026
@@ -5915,7 +5991,7 @@ Back to homepage
 # Tooth Resorption in Cats and Dogs – A Hidden Painful Disease
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-resorption.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Dental
 27.9.2026
@@ -5992,7 +6068,7 @@ Back to homepage
 # Vaccinations in Finland | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/vaccinations-guide.html
-Last updated: 2026-09-24
+Last updated: 2026-11-09
 
 Health
 24.9.2026
@@ -6071,7 +6147,7 @@ Back to homepage
 # How often should a dog or cat be dewormed?
 
 URL: https://elainklinikkasaari.fi/en/articles/deworming.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Health
 25.9.2026
@@ -6163,7 +6239,7 @@ Back to homepage
 # IBD or Intestinal Lymphoma in Cats – Diagnosis Explained
 
 URL: https://elainklinikkasaari.fi/en/articles/ibd-lymphoma.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Health
 25.9.2026
@@ -6232,7 +6308,7 @@ Back to homepage
 # Hypothermia Under Anaesthesia – Why We Warm Every Patient
 
 URL: https://elainklinikkasaari.fi/en/articles/hypothermia.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anesthesia
 25.9.2026
@@ -6306,7 +6382,7 @@ Back to homepage
 # Anaesthesia Safety for Pets – Risks and How We Reduce Them
 
 URL: https://elainklinikkasaari.fi/en/articles/anaesthesia-safety.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anesthesia
 24.9.2026
@@ -6376,7 +6452,7 @@ Back to homepage
 # Why a Veterinary Nurse Monitors Every Anaesthetic
 
 URL: https://elainklinikkasaari.fi/en/articles/veterinary-nurse.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Clinic
 27.9.2026
@@ -6439,7 +6515,7 @@ Back to homepage
 # Saari in the news | Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/media/
-Last updated: 2026-10-28
+Last updated: 2026-11-09
 
 ## Saari in the news
 

@@ -40,7 +40,7 @@ Clients (pet owners) and people who contact us by phone, WhatsApp, email or thro
 | Accounting | Invoices and payments | Legal obligation (Accounting Act) |
 
 **Who receives data**
-- Laboratories we send samples to (IDEXX, Movet, Laboklin, Patovet) and specialist vets we consult: the details needed for that case.
+- Laboratories we send samples to (IDEXX, Movet, Laboklin, Patovet) and other vets we consult for advice: the details needed for that case.
 - Insurance companies, when you ask us to send a direct claim.
 - Authorities, when the law requires it (e.g. the Finnish Food Authority).
 - Instalment payments: Walley decides on the credit as a separate controller and processes your data under its own privacy policy.

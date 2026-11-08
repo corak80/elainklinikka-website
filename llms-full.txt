@@ -9,7 +9,7 @@
 # Eläinlääkäri Vaasa – Eläinklinikka Saari, vuodesta 1989
 
 URL: https://elainklinikkasaari.fi/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 💉 Drop-in-rokotukset ilman ajanvarausta tiistaisin 15.30–16.00, 10 % edullisemmin
 
@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -463,7 +463,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 ## Palvelumme
 
@@ -495,7 +495,7 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 - Kirurgia – pehmytkudoskirurgia, ortopediset toimenpiteet, TTA ja lateral suture.
 - Ortopedia – eturistisiteen korjaus (TTA, lateral suture), murtumaleikkaukset ja amputaatiot.
 - Sterilisaatio – naaraskoiran, naaraskissan ja naaraskanin sterilisaatio yleisanestesiassa.
-- Kastraatio – uroskoiran, uroskissan ja uroskanin kastraatio, myös kemiallinen kastraatio Suprelorin-implantilla.
+- Kastraatio – uroskoiran, uroskissan ja uroskanin kastraatio, myös kemiallinen kastraatio deslorelin-implantilla.
 - Anestesia – inhalaatioanestesia, jatkuva valvonta ja balansoitu protokolla.
 
 ### Diagnostiikka ja kuvantaminen
@@ -560,7 +560,7 @@ Kyllä. Olemme virallisesti Cat Friendly -sertifioitu klinikka, ja huomioimme ki
 # Tietoa klinikasta | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/meista/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 ## Tietoa klinikasta
 
@@ -610,7 +610,7 @@ Takaisin etusivulle
 # Yhteystiedot | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/yhteystiedot/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 ## Yhteystiedot
 
@@ -666,7 +666,7 @@ Takaisin etusivulle
 # Henkilökunta | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/henkilokunta/
-Last updated: 2026-10-25
+Last updated: 2026-11-09
 
 ## Henkilökunta
 
@@ -822,7 +822,7 @@ Takaisin etusivulle
 # Siilihoito & vapaaehtoiseksi – Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/siilihoito/
-Last updated: 2026-10-15
+Last updated: 2026-11-08
 
 Siilihoito · Eläinklinikka Saari
 Igelkottsvård · Djurklinik Saari
@@ -1058,7 +1058,7 @@ Siili-Saari is a wildlife care point connected to Eläinklinikka Saari. We help 
 # Asiakkaiden arvostelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/arvostelut/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -1068,7 +1068,7 @@ Takaisin etusivulle
 345 arvostelua Googlessa
 + 73 suositusta Facebookissa (98 % suosittelee)
 Lue kaikki Googlessa →
-Alla 29 valittua arvostelua Googlesta ja Facebookista. Lue kaikki Googlessa.
+Tässä on 29 arvostelua, jotka olemme valinneet Googlesta ja Facebookista. Emme tarkista, onko jokainen kirjoittaja ollut asiakkaamme. Voit lukea Googlesta kaikki Google-arvostelumme, hyvät ja huonot.
 K
 Kati Konttinen
 Facebook
@@ -1226,7 +1226,7 @@ Arvostelut on koottu Google-asiakasarvosteluista ja näytetään tällä sivulla
 # Varaa aika | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/ajanvaraus/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 Soita meille
@@ -1246,7 +1246,7 @@ Vastausaika n. 1 työpäivä
 # Luonnonvaraisten eläinten hoito | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/villielaimet/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Luonnonvaraisten eläinten osasto
 
@@ -1490,7 +1490,7 @@ Kumppanimme, joka huolehtii villieläinpotilaista klinikan jälkeen – kuntoutt
 # Eläinlääkäri Vaasa – Eläinklinikka Saari, ark. 7:45–17
 
 URL: https://elainklinikkasaari.fi/elainlaakari-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Eläinlääkäri Vaasassa – Eläinklinikka Saari
 
@@ -1575,7 +1575,7 @@ Varaa verkossa
 # Kissan eläinlääkäri Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Kissan eläinlääkäri Vaasassa – rauhallista ja kiireetöntä hoitoa kissallesi
 
@@ -1665,7 +1665,7 @@ Varaa verkossa
 # Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hammashoito/
-Last updated: 2026-09-29
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -1771,7 +1771,7 @@ Takaisin etusivulle
 # Koiran sydänultra Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sydantutkimukset/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -1818,7 +1818,7 @@ Koiran rintakehän sivusuuntainen röntgenkuva: sydämen varjo on suurentunut ko
 
 ### Lääkehoito ja seuranta
 
-Kun sydänsairaus on diagnosoitu, lääkitys räätälöidään yksilöllisesti diagnoosin, sairauden vaiheen ja oireiden mukaan. Tyypillisiä lääkkeitä ovat pimobendaani (Vetmedin), ACE-estäjät, diureetit ja spironolaktoni. ACVIM:n ohjeistusten mukaan varhaisessa vaiheessa aloitettu pimobendaanilääkitys voi pidentää oireettomana pysymisen aikaa merkittävästi. Seurantakäyntejä tarvitaan alkuvaiheessa tiiviimmin (4–8 viikon välein), vakaassa vaiheessa yleensä noin 12 kuukauden välein. Kontrollissa toistetaan sydänultra, arvioidaan lääkityksen tehoa, mitataan tarvittaessa verenpainetta ja seurataan munuaisten toimintaa verikokeilla.
+Kun sydänsairaus on diagnosoitu, lääkitys räätälöidään yksilöllisesti diagnoosin, sairauden vaiheen ja oireiden mukaan. Tyypillisiä lääkkeitä ovat pimobendaani, ACE-estäjät, diureetit ja spironolaktoni. ACVIM:n ohjeistusten mukaan varhaisessa vaiheessa aloitettu pimobendaanilääkitys voi pidentää oireettomana pysymisen aikaa merkittävästi. Seurantakäyntejä tarvitaan alkuvaiheessa tiiviimmin (4–8 viikon välein), vakaassa vaiheessa yleensä noin 12 kuukauden välein. Kontrollissa toistetaan sydänultra, arvioidaan lääkityksen tehoa, mitataan tarvittaessa verenpainetta ja seurataan munuaisten toimintaa verikokeilla.
 
 ### Kotihoito ja elämänlaatu
 
@@ -1862,7 +1862,7 @@ Takaisin etusivulle
 # Eläinkirurgia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kirurgia/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -1947,7 +1947,7 @@ Takaisin etusivulle
 # Koiran ja kissan tähystys Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/tahystykset/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2010,7 +2010,7 @@ Takaisin etusivulle
 # Koiran ja kissan rokotukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rokotukset/
-Last updated: 2026-10-23
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2100,7 +2100,7 @@ Takaisin etusivulle
 # Koiran ja kissan ultraääni Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ultraaani/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2158,7 +2158,7 @@ Takaisin etusivulle
 # Ihotaudit ja allergiat Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ihotaudit/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2216,7 +2216,7 @@ Takaisin etusivulle
 # Senioritutkimus Vaasassa 299 € | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/senioritarkastus/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2319,7 +2319,7 @@ Takaisin etusivulle
 # Pentutarkastus ja mikrosiru Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/pentutarkastus/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2377,7 +2377,7 @@ Takaisin etusivulle
 # Koiran ja kissan akupunktio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/akupunktio/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2435,7 +2435,7 @@ Takaisin etusivulle
 # Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2493,7 +2493,7 @@ Takaisin etusivulle
 # Koiran ja kissan sterilointi Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sterilisaatio/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2580,7 +2580,7 @@ Takaisin etusivulle
 # Eläinten sisätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sisataudit/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2643,7 +2643,7 @@ Takaisin etusivulle
 # Koiran ja kissan silmätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/silmataudit/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2696,7 +2696,7 @@ Takaisin etusivulle
 # Eläinklinikan oma laboratorio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/laboratorio/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2750,7 +2750,7 @@ Takaisin etusivulle
 # Röntgen eläimille Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rontgen/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2808,7 +2808,7 @@ Takaisin etusivulle
 # Eutanasia – lemmikin lopetus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/eutanasia/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2857,7 +2857,7 @@ Takaisin etusivulle
 # Koiran ja kissan passi (EU-lemmikkipassi) – 80,50 € Vaasassa
 
 URL: https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -2946,7 +2946,7 @@ Takaisin etusivulle
 # Koiran ja kissan verikokeet Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/verikokeet/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3004,7 +3004,7 @@ Takaisin etusivulle
 # Lemmikin tiineystutkimus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/tiineystutkimus/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3057,7 +3057,7 @@ Takaisin etusivulle
 # Royal Canin ja dieettiruoat Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rehumyynti/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3132,7 +3132,7 @@ Takaisin etusivulle
 # Hyvinvointi ja kuntoutus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kuntoutus/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3190,7 +3190,7 @@ Takaisin etusivulle
 # Koiran ja kissan kastraatio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kastraatio/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3198,7 +3198,7 @@ Takaisin etusivulle
 
 ### Mitä kastraatio (kastrointi) tarkoittaa?
 
-Kastraatio eli kastrointi on uroseläimen leikkaus, jossa kivekset poistetaan. Se on yleinen ja turvallinen toimenpide, joka tehdään Eläinklinikka Saarella kattavalla kivunlievityksellä. Koirilla ja kaneilla käytämme inhalaatioanestesiaa, kissan tavallisessa kastraatiossa injektioanestesiaa. Koirille tarjoamme myös kemiallisen kastraation Suprelorin-implantilla ilman nukutusta. Naaraseläinten leikkauksesta kerromme sivulla Sterilointi (sterilisaatio).
+Kastraatio eli kastrointi on uroseläimen leikkaus, jossa kivekset poistetaan. Se on yleinen ja turvallinen toimenpide, joka tehdään Eläinklinikka Saarella kattavalla kivunlievityksellä. Koirilla ja kaneilla käytämme inhalaatioanestesiaa, kissan tavallisessa kastraatiossa injektioanestesiaa. Koirille tarjoamme myös kemiallisen kastraation deslorelin-implantilla ilman nukutusta. Naaraseläinten leikkauksesta kerromme sivulla Sterilointi (sterilisaatio).
 
 ### Kastraation hinta
 
@@ -3210,15 +3210,15 @@ Uroskoiran kastraatio yli 40 kg 553 €
 Uroskanin kastraatio 253 €
 Koiran piilokivesleikkaus 473–623 €
 Kissan piilokivesleikkaus 208–268 €
-Hinta sisältää anestesian, leikkauksen, lääkkeet ja kotiin annettavan kipulääkityksen. Koiran hinta määräytyy painon mukaan. Kemiallisen kastraation (Suprelorin-implantti) hinnan saat soittamalla (06) 321 7300. Kaikki hinnat löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.
+Hinta sisältää anestesian, leikkauksen, lääkkeet ja kotiin annettavan kipulääkityksen. Koiran hinta määräytyy painon mukaan. Kemiallisen kastraation (deslorelin-implantti) hinnan saat soittamalla (06) 321 7300. Kaikki hinnat löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.
 
 ### Miksi koira, kissa tai kani kastroidaan?
 
 Uroskissan kastrointi lopettaa virtsalla merkkailun, vähentää kiertelyä ja tappeluvammoja sekä pidentää kissan elinikää. Koiran kastraatio voi olla lääketieteellisesti perusteltua eturauhasvaivojen, kiveskasvainten tai perianaalikasvainten vuoksi, ja se voi vähentää hormonaalista käytöstä kuten merkkailua, karkailua ja narttujen perässä kiertelyä. Uroskanin kastraatio on suositeltavaa, kun kani elää toisen kanin kanssa – se estää tappelut ja pentueet ja vähentää merkkailua.
 
-### Kemiallinen kastraatio (Suprelorin-implantti)
+### Kemiallinen kastraatio (deslorelin-implantti)
 
-Koirille on tarjolla kemiallinen kastraatio Suprelorin-hormoni-implantilla. Implantti asetetaan ihon alle niskaan vastaanottokäynnillä – toimenpide on nopea eikä vaadi anestesiaa. Täysi vaikutus alkaa noin 6 viikon kuluessa ja kestää 6 tai 12 kuukautta valitun implantin mukaan, minkä jälkeen se häviää kokonaan. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta käytökseen ennen pysyvää päätöstä, kun kirurgista toimenpidettä halutaan välttää tai kun koira on iäkäs.
+Koirille on tarjolla kemiallinen kastraatio deslorelin-hormoni-implantilla. Implantti asetetaan ihon alle niskaan vastaanottokäynnillä – toimenpide on nopea eikä vaadi anestesiaa. Täysi vaikutus alkaa noin 6 viikon kuluessa ja kestää 6 tai 12 kuukautta valitun implantin mukaan, minkä jälkeen se häviää kokonaan. Kemiallinen kastraatio on hyvä vaihtoehto, kun halutaan kokeilla kastraation vaikutusta käytökseen ennen pysyvää päätöstä, kun kirurgista toimenpidettä halutaan välttää tai kun koira on iäkäs.
 
 ### Piilokives (kryptorkismi)
 
@@ -3240,10 +3240,10 @@ Kissan kastraatiohaava on pieni ja yleensä ompeleeton; useimmat kissat ovat pir
 
 Paljonko koiran kastraatio maksaa? Uroskoiran kastraatio maksaa Eläinklinikka Saarella koiran painon mukaan 383–553 €: alle 10 kg 383 €, 10–20 kg 453 €, 20–40 kg 503 €, yli 40 kg 553 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kotiin annettavan kipulääkityksen. Piilokivesleikkaus maksaa 473–623 €.
 Paljonko kissan kastrointi maksaa? Uroskissan kastraatio maksaa 108 €, ja hinta sisältää anestesian, leikkauksen ja kipulääkkeet. Uroskanin kastraatio maksaa 253 €.
-Mitä kemiallinen kastraatio maksaa ja kauanko se vaikuttaa? Kemiallinen kastraatio tehdään Suprelorin-implantilla vastaanottokäynnillä ilman nukutusta. Täysi vaikutus alkaa noin 6 viikossa ja kestää 6 tai 12 kuukautta implantin mukaan. Hinnan saat soittamalla (06) 321 7300.
+Mitä kemiallinen kastraatio maksaa ja kauanko se vaikuttaa? Kemiallinen kastraatio tehdään deslorelin-implantilla vastaanottokäynnillä ilman nukutusta. Täysi vaikutus alkaa noin 6 viikossa ja kestää 6 tai 12 kuukautta implantin mukaan. Hinnan saat soittamalla (06) 321 7300.
 Missä iässä kastraatio kannattaa tehdä? Uroskissat kastroidaan yleensä 5–6 kuukauden iässä ennen merkkailun alkamista, uroskanit 4–6 kuukauden iässä ja koirat rodun mukaan 6–18 kuukauden iässä. Suurilla roduilla suositellaan odottamista luuston kasvun valmistumiseen.
 Muuttuuko koiran käytös kastraation jälkeen? Kastraatio voi vähentää hormonaalista käytöstä kuten merkkailua, karkailua ja muita uroksia kohtaan osoitettua aggressiivisuutta. Vaikutus riippuu yksilöstä – opitut käytösmallit eivät välttämättä muutu pelkän kastraation myötä. Perusluonne säilyy ennallaan. Kemiallinen kastraatio on hyvä tapa kokeilla vaikutusta ennen pysyvää päätöstä.
-Voiko kastraation peruuttaa? Kirurginen kastraatio on pysyvä toimenpide. Sen vuoksi tarjoamme kemiallista kastraatiota Suprelorin-implantilla, jonka vaikutus kestää 6 tai 12 kuukautta ja häviää sen jälkeen kokonaan.
+Voiko kastraation peruuttaa? Kirurginen kastraatio on pysyvä toimenpide. Sen vuoksi tarjoamme kemiallista kastraatiota deslorelin-implantilla, jonka vaikutus kestää 6 tai 12 kuukautta ja häviää sen jälkeen kokonaan.
 Kuinka pitkä on toipumisaika kastraatiosta? Kissat ovat yleensä pirteitä jo seuraavana päivänä. Koira tarvitsee lepoa noin 7–10 päivää, ja haavaa suojataan kaulurilla tai haalarilla. Ompeleet poistetaan noin 10 päivän kuluttua tai ne sulavat itsestään.
 Mitä eroa on kastraatiolla, kastroinnilla ja steriloinnilla? Kastraatio ja kastrointi tarkoittavat samaa asiaa: uroseläimen kivesten poistoa. Sterilointi eli sterilisaatio on naaraseläimen leikkaus, jossa poistetaan munasarjat ja usein kohtu. Narttukoiran, naaraskissan ja naaraskanin steriloinnista kerromme erillisellä sterilointisivulla.
 
@@ -3274,7 +3274,7 @@ Takaisin etusivulle
 # Ortopediset leikkaukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ortopedia/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3338,7 +3338,7 @@ Takaisin etusivulle
 # Turvallinen eläinanestesia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/anestesia/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3396,7 +3396,7 @@ Takaisin etusivulle
 # Eläinklinikan hygienia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hygienia/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3449,7 +3449,7 @@ Takaisin etusivulle
 # Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivystys/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Takaisin etusivulle
 
@@ -3547,7 +3547,7 @@ Takaisin etusivulle
 # Eläinlääkäri Kristiinankaupunki – Eläinklinikka Saari, Vaasa
 
 URL: https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## Eläinlääkäri Kristiinankaupungin ja Suupohjan lemmikeille – tunnin ajomatka Vaasaan
 
@@ -3688,7 +3688,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-08
+Last updated: 2026-11-09
 
 ## Artikkelit
 
@@ -3899,7 +3899,7 @@ Takaisin etusivulle
 # TTA-leikkaus koiran ristisidevammaan – toipuminen ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/tta-leikkaus.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Ortopedia
 31.10.2026
@@ -3975,7 +3975,7 @@ Takaisin etusivulle
 # Koiran ja kissan korvahuuhtelu nukutuksessa – hinta Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/video-otoskopia.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tähystys
 10.10.2026
@@ -4050,7 +4050,7 @@ Takaisin etusivulle
 # Koiran korvatulehdus – oireet, hoito ja hinta Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Terveys
 10.10.2026
@@ -4145,7 +4145,7 @@ Takaisin etusivulle
 # Seniorikissan terveystarkastus Vaasassa – sisältö ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Terveys
 9.10.2026
@@ -4290,7 +4290,7 @@ Senioritutkimus alkaen 299 € Varaa aika
 # Koira ontuu – milloin eläinlääkäriin? Syyt ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/koira-ontuu.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Terveys
 9.10.2026
@@ -4417,7 +4417,7 @@ Soita
 # Koiran ja kissan turkinhoito – takut, iho ja trimmaus
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-turkinhoito.html
-Last updated: 2026-11-07
+Last updated: 2026-11-09
 
 Lemmikkien terveys
 7.11.2026
@@ -4504,7 +4504,7 @@ Takaisin etusivulle
 # Kissan munuaisten vajaatoiminta – oireet, hoito ja elinikä
 
 URL: https://elainklinikkasaari.fi/articles/kissan-munuaisten-vajaatoiminta.html
-Last updated: 2026-10-27
+Last updated: 2026-11-09
 
 Lemmikkien terveys
 27.10.2026
@@ -4632,7 +4632,7 @@ Takaisin etusivulle
 # Jatkuva kipulääkeinfuusio (CRI) | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/kipul%C3%A4%C3%A4keinfuusio.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Anestesia
 25.9.2026
@@ -4709,7 +4709,7 @@ Takaisin etusivulle
 # Ripuli koirilla ja kissoilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/ripuli.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Terveys
 25.9.2026
@@ -4780,7 +4780,7 @@ Takaisin etusivulle
 # Avoin valtimotiehyt (PDA) koirilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Kardiologia
 27.9.2026
@@ -4861,7 +4861,7 @@ Takaisin etusivulle
 # Koiran ja kissan hampaiden harjaus – näin pääset alkuun
 
 URL: https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hammashoito
 27.9.2026
@@ -4943,7 +4943,7 @@ Takaisin etusivulle
 # Viljaton ruoka koirille ja kissoille | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/viljaton-ruoka.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Terveys
 27.9.2026
@@ -5025,7 +5025,7 @@ Takaisin etusivulle
 # PerioVive-geeli koiran ja kissan iensairauden hoidon tukena
 
 URL: https://elainklinikkasaari.fi/articles/periovive.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hammashoito
 27.9.2026
@@ -5097,7 +5097,7 @@ Takaisin etusivulle
 # Miksi itsenäinen eläinklinikka on tärkeä valinta?
 
 URL: https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Klinikka
 27.9.2026
@@ -5161,7 +5161,7 @@ Takaisin etusivulle
 # Ruoka-allergiat koirilla ja kissoilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/ruoka-allergiat.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Lemmikkien terveys
 27.9.2026
@@ -5234,7 +5234,7 @@ Takaisin etusivulle
 # Kissan kilpirauhasen liikatoiminta – oireet ja hoito
 
 URL: https://elainklinikkasaari.fi/articles/kilpirauhasen-liikatoiminta.html
-Last updated: 2026-10-30
+Last updated: 2026-11-09
 
 Kissaterveys
 30.10.2026
@@ -5262,7 +5262,7 @@ Hoitovaihtoehtoja on neljä: päivittäinen lääkitys, leikkaus, radiojodihoito
 
 ### Päivittäinen lääkitys
 
-Lääkkeenä käytetään tiamatsolia (toiselta nimeltään metimatsoli), jota annetaan päivittäin joko tabletteina (esim. Felimazole) tai oraaliliuoksena (esim. Apelka). Hoito on suhteellisen edullinen, mutta elinikäinen. Useimmat kissat sietävät lääkettä hyvin. Haittavaikutukset ilmaantuvat yleensä ensimmäisten viikkojen aikana ja harvoin enää kahden tai kolmen kuukauden jälkeen: oksentelu, huono ruokahalu, väsymys tai voimakas pään ja kaulan alueen kutina, joka voi johtaa raapimishaavoihin. Harvoin lääke vaikuttaa maksaan tai verisoluihin, joten ota meihin yhteyttä, jos kissasi alkaa voida huonosti tai sille nousee kuume, sen iho tai limakalvot kellastuvat tai se vuotaa herkästi verta. T4, munuaisarvot ja verenkuva tarkistetaan noin 3, 6, 10 ja 20 viikon kuluttua hoidon aloittamisesta, jokaisen annosmuutoksen jälkeen ja siitä eteenpäin muutaman kuukauden välein.
+Lääkkeenä käytetään tiamatsolia (toiselta nimeltään metimatsoli), jota annetaan päivittäin joko tabletteina tai oraaliliuoksena. Hoito on suhteellisen edullinen, mutta elinikäinen. Useimmat kissat sietävät lääkettä hyvin. Haittavaikutukset ilmaantuvat yleensä ensimmäisten viikkojen aikana ja harvoin enää kahden tai kolmen kuukauden jälkeen: oksentelu, huono ruokahalu, väsymys tai voimakas pään ja kaulan alueen kutina, joka voi johtaa raapimishaavoihin. Harvoin lääke vaikuttaa maksaan tai verisoluihin, joten ota meihin yhteyttä, jos kissasi alkaa voida huonosti tai sille nousee kuume, sen iho tai limakalvot kellastuvat tai se vuotaa herkästi verta. T4, munuaisarvot ja verenkuva tarkistetaan noin 3, 6, 10 ja 20 viikon kuluttua hoidon aloittamisesta, jokaisen annosmuutoksen jälkeen ja siitä eteenpäin muutaman kuukauden välein.
 
 ### Lääkkeen turvallinen käsittely kotona
 
@@ -5318,7 +5318,7 @@ Takaisin etusivulle
 # Koiran munuaisten vajaatoiminta – oireet, hoito ja elinikä
 
 URL: https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Lemmikkien terveys
 31.10.2026
@@ -5434,7 +5434,7 @@ Takaisin etusivulle
 # Kyynpurema koiralla ja kissalla – oireet, ensiapu ja hoito
 
 URL: https://elainklinikkasaari.fi/articles/kyynpurema.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Päivystys
 24.9.2026
@@ -5499,7 +5499,7 @@ Takaisin etusivulle
 # Myrkytys koiralla ja kissalla – oireet ja ensiapu
 
 URL: https://elainklinikkasaari.fi/articles/myrkytys.html
-Last updated: 2026-09-24
+Last updated: 2026-11-09
 
 Päivystys
 24.9.2026
@@ -5583,7 +5583,7 @@ Takaisin etusivulle
 # Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/kohtutulehdus.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Päivystys
 25.9.2026
@@ -5677,7 +5677,7 @@ Takaisin etusivulle
 # Lateral suture – koiran ristisidevamman leikkaus Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/lateral-suture.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Ortopedia
 27.9.2026
@@ -5758,7 +5758,7 @@ Takaisin etusivulle
 # Siili Euroopassa ja Suomessa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/siili.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5866,7 +5866,7 @@ Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosik
 # Löysitkö siilinpoikasen? Näin autat | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/siilinpoikanen.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5976,7 +5976,7 @@ Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosik
 # Vähemmän stressiä kissan eläinlääkärikäyntiin
 
 URL: https://elainklinikkasaari.fi/articles/kissayst%C3%A4v%C3%A4llinen-klinikka.html
-Last updated: 2026-09-29
+Last updated: 2026-11-09
 
 Kissojen terveys
 27.9.2026
@@ -6041,7 +6041,7 @@ Takaisin etusivulle
 # Puhkeamattomat hampaat ja hammasaihekystat
 
 URL: https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hammashoito
 27.9.2026
@@ -6112,7 +6112,7 @@ Takaisin etusivulle
 # Koiran ja kissan gastroskopia – vierasesineet ja koepalat
 
 URL: https://elainklinikkasaari.fi/articles/gastroskopia.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tähystys
 27.9.2026
@@ -6192,7 +6192,7 @@ Takaisin etusivulle
 # Kissan ja koiran hammasresorptio – piilevä, kivulias sairaus
 
 URL: https://elainklinikkasaari.fi/articles/hammasresorptio.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hammashoito
 27.9.2026
@@ -6269,7 +6269,7 @@ Takaisin etusivulle
 # Rokotukset Suomessa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/rokotukset.html
-Last updated: 2026-09-24
+Last updated: 2026-11-09
 
 Terveys
 24.9.2026
@@ -6348,7 +6348,7 @@ Takaisin etusivulle
 # Kuinka usein koira tai kissa madotetaan?
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html
-Last updated: 2026-09-29
+Last updated: 2026-11-09
 
 Terveys
 25.9.2026
@@ -6440,7 +6440,7 @@ Takaisin etusivulle
 # Kissan IBD vai suoliston lymfooma – näin diagnoosi tehdään
 
 URL: https://elainklinikkasaari.fi/articles/ibd-lymfooma.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Terveys
 25.9.2026
@@ -6509,7 +6509,7 @@ Takaisin etusivulle
 # Hypotermia nukutuksessa – miksi lämmitämme jokaisen potilaan
 
 URL: https://elainklinikkasaari.fi/articles/hypotermia.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anestesia
 25.9.2026
@@ -6583,7 +6583,7 @@ Takaisin etusivulle
 # Koiran ja kissan nukutus – riskit ja miten vähennämme niitä
 
 URL: https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anestesia
 24.9.2026
@@ -6653,7 +6653,7 @@ Takaisin etusivulle
 # Miksi klinikkaeläinhoitaja valvoo jokaista nukutusta
 
 URL: https://elainklinikkasaari.fi/articles/klinikkael%C3%A4inhoitaja.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Klinikka
 27.9.2026
@@ -6716,73 +6716,75 @@ Takaisin etusivulle
 # Tietosuojaseloste | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/tietosuoja/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 ## Tietosuojaseloste
 
+Päivitetty 9.11.2026
+
 ### Rekisterinpitäjä
 
-Eläinklinikka Saari Oy
-Y-tunnus: 0708667-9
-Gerbyntie 18, 65230 Vaasa
+Eläinklinikka Saari Oy (Y-tunnus 0708667-9), Gerbyntie 18, 65230 Vaasa, Suomi. Puhelin (06) 321 7300, info@saarivet.fi. Tietosuoja-asioiden yhteyshenkilö: Pamela Kvarngård.
 
-### Rekisteriasioiden yhteyshenkilö
+### Keiden tietoja käsittelemme
 
-Pamela Kvarngård
-Puh: 06-3217300
-info@saarivet.fi
+Asiakkaidemme (eläinten omistajien) sekä niiden ihmisten tietoja, jotka ottavat meihin yhteyttä puhelimitse, WhatsAppilla, sähköpostitse tai tämän verkkosivuston kautta.
 
-### Rekisterin nimi
+### Mitä tietoja käsittelemme ja miksi
 
-Eläinklinikka Saari Oy:n asiakasrekisteri
+Käyttötarkoitus | Tiedot | Käsittelyn oikeusperuste
+Eläimesi hoito ja potilaskertomusten pitäminen | Nimi, yhteystiedot, osoite, eläintesi tiedot, hoitohistoria, laboratoriotulokset, kuvat ja laskut; henkilötunnus vain, jos valitset osamaksun | Sopimus; lakisääteinen velvoite (laki eläinlääkärinammatin harjoittamisesta 29/2000)
+Ajanvaraus | Tiedot, jotka annat varatessasi ajan puhelimitse tai verkossa | Sopimus
+Puhelut, joihin emme ehdi vastata | Numeroon (06) 321 7300 tuleviin puheluihin, joihin henkilökunta ei ehdi vastata, vastaa tekoälyavustaja. Se kirjaa viestisi, jotta voimme soittaa sinulle takaisin. Puheluita ei nauhoiteta. Säilytämme puhelusta tehdyn tekstiversion ja yhteenvedon. | Sopimus ja oikeutettu etu (asiakkaidemme yhteydenottoihin vastaaminen)
+WhatsApp | WhatsApp-linjallamme vastaa tekoälyavustaja ja henkilökunta voi ottaa keskustelun hoitaakseen. Ääniviestit muutetaan tekstiksi omalla palvelimellamme. Eläintäsi koskevat viestit tallennetaan sen potilaskertomukseen. | Sopimus ja oikeutettu etu
+Sinulle lähettämämme viestit | Vahvistukset takaisinsoitosta, aika- ja rokotusmuistutukset, käynnin jälkeinen kysymys eläimesi voinnista, alustavat laboratoriotulokset ja verkkokaupan noutoilmoitukset – WhatsAppilla, tekstiviestillä tai sähköpostilla | Sopimus ja oikeutettu etu (ei markkinointia)
+Odotushuoneen kamera | Henkilökunnan näytöillä näkyy odotushuoneen suora kamerakuva, jotta näemme, kuka odottaa. Ohjelma merkitsee jokaisen odottajan näytölle ja mittaa odotusajan. Mitään ei tallenneta eikä kuvia säilytetä. Sisäänkäynnillä oleva kyltti kertoo kamerasta. | Oikeutettu etu (asiakaspalvelu ja turvallisuus)
+Verkkosivuston tilastot ja mainonta | Katso kohta ”Evästeet” alempana | Suostumuksesi
+Kirjanpito | Laskut ja maksut | Lakisääteinen velvoite (kirjanpitolaki)
 
-### Henkilötietojen käyttötarkoitus
+### Kenelle tietoja luovutetaan
 
-Henkilötietoja käytetään viestintään, asiakaspalveluun ja potilassuhteen ylläpitoon.
+- Laboratorioille, joihin lähetämme näytteitä (IDEXX, Movet, Laboklin, Patovet), ja muille eläinlääkäreille, joita konsultoimme: kyseisen tapauksen hoitoon tarvittavat tiedot.
+- Vakuutusyhtiöille, kun pyydät meitä lähettämään suorakorvaushakemuksen.
+- Viranomaisille, kun laki sitä edellyttää (esimerkiksi Ruokavirastolle).
+- Osamaksu: Walley päättää luotosta erillisenä rekisterinpitäjänä ja käsittelee tietojasi oman tietosuojaselosteensa mukaisesti.
 
-### Käsittelyn oikeusperuste
+### Palveluntarjoajat, jotka käsittelevät tietoja puolestamme
 
-Henkilötietojen käsittely perustuu sopimussuhteeseen (eläinlääkäripalveluiden tarjoaminen) sekä lakisääteisiin velvoitteisiin (eläinlääkintähuoltolaki, kirjanpitolaki). Erämaksun yhteydessä käsittely perustuu oikeutettuun etuun.
+Näitä henkilötietojen käsittelijöitä sitoo kanssamme tehty sopimus.
+- Potilastiedot ja ajanvaraus verkossa: Nordhealth Finland Oy (ProvetCloud), EU
+- Palvelin: Hetzner Online GmbH, EU (Suomi/Saksa)
+- Puhelinlinja ja tekstiviestit: Twilio Inc. (Yhdysvallat); puhelinlinjan tekoälyavustaja: Retell AI Inc. (Yhdysvallat)
+- Tekoälyn kielimalli puhelin- ja WhatsApp-avustajissa sekä henkilökunnan työkaluissa: Anthropic PBC (Yhdysvallat)
+- WhatsApp: Meta Platforms Ireland Ltd
+- Sähköposti: Google (Gmail) ja Resend Inc. (Yhdysvallat)
+- Verkkosivuston palvelintila ja tietoturva: GitHub Inc. (Yhdysvallat), Cloudflare Inc. (Yhdysvallat)
+- Verkkokaupan maksut: Stripe (katso verkkokaupan oma tietosuojaseloste)
+Jos palveluntarjoaja toimii EU:n/ETA:n ulkopuolella, tietojen siirto on suojattu EU:n ja Yhdysvaltojen välisellä tietosuojakehyksellä (EU–US Data Privacy Framework) ja/tai Euroopan komission vakiosopimuslausekkeilla.
 
-### Rekisterin tietokentät
+### Kuinka kauan säilytämme tietoja
 
-Potilaan tiedot ja omistajan nimi, puhelinnumero, osoite ja sähköpostiosoite. Asiakkaiden sosiaaliturvatunnus vain jos käyttää erämaksua. Potilaan hoitohistoria: toimenpiteet, asiakasviestintä ja hoitosuunnitelmat. Vakuutusnumero tarvittaessa.
+- Potilaskertomukset: vähintään 3 vuotta viimeisestä merkinnästä (laki eläinlääkärinammatin harjoittamisesta 29/2000, 15 §). Säilytämme niitä niin kauan kuin olet asiakkaamme.
+- Lääkekirjanpito: 5 vuotta (eläinlääkeasetus (EU) 2019/6).
+- Kirjanpito: tositteet 6 vuotta tilikauden päättymisestä, kirjanpitokirjat 10 vuotta (kirjanpitolaki).
+- Puheluiden tekstiversiot ja WhatsApp-keskustelut: 12 kuukautta, minkä jälkeen ne poistetaan. Kaikki eläintäsi koskeva tallennetaan myös sen potilaskertomukseen ja säilytetään edellä kerrotulla tavalla.
+- Verkkosivuston tilastot: Google Analyticsissa enintään 14 kuukautta (tilimme asetus), Microsoft Clarityssa 13 kuukautta ja Metalla sen omien ehtojen mukaan.
 
-### Tietolähteet
+### Evästeet
 
-Tiedot saadaan pääasiassa asiakkailta. Potilasasiakirjat voivat sisältää tietoja muista klinikoista, mikäli asiakas on saanut hoitoa muualla tai siirtänyt asiakkuutensa.
+Verkkosivusto käyttää seuraavia palveluja vain, jos valitset evästebannerissa Hyväksy: Google Analytics ja Google Ads (Google Ireland Ltd), Meta-pikseli (Meta Platforms Ireland Ltd) ja Microsoft Clarity (Microsoft Ireland Operations Ltd). Ne mittaavat käyntejä, sivuston käyttöä ja mainostemme tehoa. Clarity tallentaa lisäksi sivukäyntejä anonymisoituina niin, että lomakekenttien sisältö on piilotettu. Jos hylkäät, mitään niistä ei ladata. Google Maps ladataan vasta, kun hyväksyt evästeet tai napsautat ”Näytä kartta”. Voit muuttaa valintaasi milloin tahansa jokaisen sivun alareunan kohdasta Evästeasetukset.
 
-### Tietojen luovutus
+### Automaattiset päätökset
 
-Tietoja luovutetaan vain asiantuntijoille (eläinlääkärit) konsultaatiotapauksissa (nimi, osoite, potilastiedot, löydökset). Muutoin tietoja ei luovuteta kolmansille osapuolille ellei asiakas sitä edellytä.
+Emme tee sinua koskevia päätöksiä pelkästään automaattisesti. Tekoälyavustajat vain ottavat vastaan viestejä ja vastaavat kysymyksiin. Eläimesi hoidosta päättää henkilökunta.
 
-### Tietojen suojaus
+### Oikeutesi
 
-Rekisteri on talletettu salasanasuojattuun asiakkuudenhallintajärjestelmään, johon on pääsy Eläinklinikka Saari Oy:n valtuuttamilla henkilökunnan jäsenillä.
+Sinulla on oikeus nähdä tietosi, saada virheelliset tiedot korjatuiksi ja saada tietosi poistetuiksi silloin, kun laki ei velvoita meitä säilyttämään niitä. Voit myös pyytää tietojesi käsittelyn rajoittamista tai vastustaa käsittelyä, saada tietosi siirrettävässä muodossa ja peruuttaa suostumuksesi milloin tahansa. Lähetä pyyntösi osoitteeseen info@saarivet.fi tai soita numeroon (06) 321 7300. Lisäksi voit tehdä valituksen Tietosuojavaltuutetun toimistolle (tietosuoja.fi).
 
-### Tietojen säilytysaika
+### Yritystiedot
 
-Potilasasiakirjoja säilytetään vähintään 3 vuotta viimeisestä hoitokäynnistä eläinlääkintälainsäädännön mukaisesti. Kirjanpitoaineistoa säilytetään 6 vuotta tilikauden päättymisestä. Muut henkilötiedot poistetaan, kun asiakassuhde päättyy eikä säilyttämiselle ole lakisääteistä perustetta.
-
-### Rekisteröidyn oikeudet
-
-Asiakkaalla on oikeus tarkistaa itseään koskevat tiedot sekä pyytää virheellisten, tarpeettomien, puutteellisten tai vanhentuneiden tietojen korjaamista tai poistamista.
-
-### Tarkemmat oikeudet (EU:n yleinen tietosuoja-asetus)
-
-Rekisteröidyllä on oikeus: (1) saada pääsy omiin tietoihinsa, (2) vaatia tietojen oikaisua, (3) vaatia tietojen poistamista, ellei säilyttämiselle ole lakisääteistä perustetta, (4) rajoittaa tietojen käsittelyä, (5) siirtää tiedot toiselle rekisterinpitäjälle (tietojen siirrettävyys), (6) vastustaa tietojen käsittelyä. Pyynnöt tulee osoittaa rekisteriasioiden yhteyshenkilölle. Rekisteröidyllä on myös oikeus tehdä valitus valvontaviranomaiselle: Tietosuojavaltuutetun toimisto, tietosuoja.fi.
-
-### Digitaaliset palvelut
-
-Verkkosivusto käyttää seuraavia kolmannen osapuolen analytiikka- ja markkinointipalveluita. Kaikki seurantaevästeet otetaan käyttöön vain käyttäjän nimenomaisella suostumuksella (Consent Mode v2). Suostumuksen voi peruuttaa milloin tahansa selaimen evästeasetuksista.
-- Google Analytics 4 ja Google Ads -konversioseuranta (Google Ireland Limited, Irlanti). Käyttötarkoitus: kävijäliikenteen analysointi ja mainonnan tehokkuuden mittaaminen. IP-osoitteet anonymisoidaan. Tiedot voidaan siirtää EU:n ulkopuolelle EU-komission vakiosopimuslausekkeilla ja EU–US Data Privacy Framework -järjestelyllä.
-- Microsoft Clarity (Microsoft Ireland Operations Limited, Irlanti / Microsoft Corporation, USA). Käyttötarkoitus: anonymisoidut istuntotallenteet ja lämpökartat sivuston käyttökokemuksen kehittämiseksi. Lomakekenttien sisältö ja arkaluonteiset elementit maskataan automaattisesti tallenteista. Tiedot voidaan siirtää Yhdysvaltoihin Microsoftin EU–US Data Privacy Framework -sertifikaation ja vakiosopimuslausekkeiden mukaisesti.
-- Meta-pikseli (Meta Platforms Ireland Limited, Irlanti). Käyttötarkoitus: Facebook- ja Instagram-mainonnan tehokkuuden mittaaminen.
-Ajanvaraus tapahtuu ProvetCloud-järjestelmän kautta, jonka tietosuojasta vastaa Finnish Net Solutions Oy. WhatsApp-viestipalvelussa viestit käsittelee tekoälypohjainen chatbot asiakaspalvelun tueksi; viestit käsitellään luottamuksellisesti.
-
-### Luottopäätöksen käsittely
-
-Lindorff Invest Oy toimii rekisterinpitäjänä maksuhakemusten käsittelyssä. Henkilötiedot ovat välttämättömiä hakemuksen käsittelyyn, luottopäätökseen ja asiakassuhteen hoitoon. Automaattisia luottopäätöksiä voi kiistää ja pyytää manuaalista käsittelyä ottamalla yhteyttä Lindorffin asiakaspalveluun, puh. 02 2700 327. Lisätietoja: lindorff.fi/tietosuoja.
+Eläinklinikka Saari Oy, Y-tunnus 0708667-9, ALV-numero FI07086679, Gerbyntie 18, 65230 Vaasa. Eläinlääkärimme ovat Suomessa laillistettuja (ammattinimike eläinlääkäri / veterinär) ja heidän toimintaansa valvoo Ruokavirasto. Ammattia koskevat säännöt: laki eläinlääkärinammatin harjoittamisesta (29/2000) ja Suomen Eläinlääkäriliiton eettiset ohjeet.
 Takaisin etusivulle
 
 ---
@@ -6790,7 +6792,7 @@ Takaisin etusivulle
 # Saari mediassa | Eläinklinikka Saari, Vaasa
 
 URL: https://elainklinikkasaari.fi/media/
-Last updated: 2026-10-28
+Last updated: 2026-11-09
 
 ## Saari mediassa
 
@@ -6850,7 +6852,7 @@ Varaa verkossa
 # Yhteistyö eläinten hyväksi · Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/yhteistyo/
-Last updated: 2026-09-29
+Last updated: 2026-11-08
 
 Yhteistyö
 Samarbete
@@ -6945,7 +6947,7 @@ Thank you for helping us help. Every visit with your pet also supports the care 
 # Vaasan Kissatalo × Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/kissatalo/
-Last updated: 2026-09-29
+Last updated: 2026-11-08
 
 Yhteistyökumppani
 Samarbetspartner
@@ -7124,7 +7126,7 @@ Eläinklinikka Saari is proud to support the important work of Vaasa Cat House. 
 # Vaasanseudun eläinsuojeluyhdistys × Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/vesy/
-Last updated: 2026-09-29
+Last updated: 2026-11-08
 
 Yhteistyökumppani
 Samarbetspartner

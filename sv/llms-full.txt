@@ -2,14 +2,14 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 73 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 74 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
 # Veterinär & Smådjursklinik i Vasa – Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 💉 Drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00, 10 % rabatt
 
@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -463,7 +463,7 @@ Boka online
 # Veterinärtjänster i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 ## Våra tjänster
 
@@ -495,7 +495,7 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 - Kirurgi – mjukdelskirurgi, ortopediska ingrepp, TTA och lateral suture.
 - Ortopedi – korsbandsskada (TTA, lateral suture), frakturoperationer och amputationer.
 - Sterilisering – sterilisering av tik, honkatt och honkanin under generell anestesi.
-- Kastrering – kastrering av hane hund, katt och kanin, även kemisk kastrering med Suprelorin-implantat.
+- Kastrering – kastrering av hane hund, katt och kanin, även kemisk kastrering med deslorelinimplantat.
 - Anestesi – inhalationsanestesi, kontinuerlig övervakning och balanserat protokoll.
 
 ### Diagnostik och bilddiagnostik
@@ -557,10 +557,86 @@ Ja. Vi är en officiellt Cat Friendly-certifierad klinik och tar hänsyn till ka
 
 ---
 
+# Dataskyddsbeskrivning – Eläinklinikka Saari Oy | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/dataskydd/
+Last updated: 2026-11-09
+
+## Dataskyddsbeskrivning – Eläinklinikka Saari Oy
+
+Uppdaterad 9.11.2026
+
+### Personuppgiftsansvarig
+
+Eläinklinikka Saari Oy (FO-nummer 0708667-9), Gerbyntie 18, 65230 Vasa, Finland. Telefon (06) 321 7300, info@saarivet.fi. Kontaktperson i dataskyddsfrågor: Pamela Kvarngård.
+
+### Vems uppgifter vi behandlar
+
+Kunder (djurägare) och personer som kontaktar oss per telefon, WhatsApp, e-post eller via den här webbplatsen.
+
+### Vad vi behandlar och varför
+
+Ändamål | Uppgifter | Rättslig grund
+Vård av ditt djur och förande av patientjournal | Namn, kontaktuppgifter, adress, uppgifter om dina djur, vårdhistorik, laboratoriesvar, bilder, fakturor; personbeteckning endast om du väljer delbetalning | Avtal; rättslig förpliktelse (lagen om utövning av veterinäryrket 29/2000)
+Tidsbokning | De uppgifter du ger när du bokar per telefon eller på nätet | Avtal
+Samtal som vi inte hinner svara på | Samtal till (06) 321 7300 som personalen inte kan svara på tas emot av en AI-assistent. Den skriver ner ditt ärende så att vi kan ringa upp dig. Samtalen spelas inte in. Vi sparar en utskrift av samtalet och en sammanfattning av det. | Avtal och berättigat intresse (att svara våra kunder)
+WhatsApp | Vår WhatsApp-linje besvaras av en AI-assistent, och personalen kan ta över. Röstmeddelanden omvandlas till text på vår egen server. Meddelanden som gäller ditt djur sparas i djurets patientjournal. | Avtal och berättigat intresse
+Meddelanden vi skickar dig | Bekräftelser på att vi ringer upp, påminnelser om besökstider och vaccinationer, en uppföljningsfråga efter ett besök, preliminära laboratoriesvar och meddelanden om att en beställning från webbutiken kan hämtas – via WhatsApp, sms eller e-post | Avtal och berättigat intresse (ingen marknadsföring)
+Kamera i väntrummet | Bilden från kameran i väntrummet visas direkt på personalens skärmar så att vi ser vem som väntar. Ett program markerar varje väntande person på skärmen och tar tid på väntan. Ingenting spelas in och inga bilder sparas. En skylt vid ingången informerar om kameran. | Berättigat intresse (kundservice och säkerhet)
+Webbplatsstatistik och annonser | Se ”Kakor” nedan | Ditt samtycke
+Bokföring | Fakturor och betalningar | Rättslig förpliktelse (bokföringslagen)
+
+### Vem som får uppgifter
+
+- Laboratorier som vi skickar prover till (IDEXX, Movet, Laboklin, Patovet) och andra veterinärer som vi konsulterar för råd: de uppgifter som behövs i det enskilda fallet.
+- Försäkringsbolag, när du ber oss skicka en ansökan om direktersättning.
+- Myndigheter, när lagen kräver det (t.ex. Livsmedelsverket).
+- Delbetalning: Walley beslutar om krediten som självständig personuppgiftsansvarig och behandlar dina uppgifter enligt sin egen dataskyddsbeskrivning.
+
+### Tjänsteleverantörer som behandlar uppgifter för vår räkning
+
+De är personuppgiftsbiträden och bundna av avtal.
+- Patientjournaler och tidsbokning på nätet: Nordhealth Finland Oy (ProvetCloud), EU
+- Server: Hetzner Online GmbH, EU (Finland/Tyskland)
+- Telefonlinje och sms: Twilio Inc. (USA); AI-röstassistent: Retell AI Inc. (USA)
+- AI-språkmodell för telefon- och WhatsApp-assistenterna och för personalens verktyg: Anthropic PBC (USA)
+- WhatsApp: Meta Platforms Ireland Ltd
+- E-post: Google (Gmail) och Resend Inc. (USA)
+- Webbhotell och säkerhet för webbplatsen: GitHub Inc. (USA), Cloudflare Inc. (USA)
+- Betalningar i webbutiken: Stripe (se webbutikens egen dataskyddsbeskrivning)
+När en leverantör finns utanför EU/EES skyddas överföringen av ramen för dataskydd mellan EU och USA (EU–US Data Privacy Framework) och/eller EU-kommissionens standardavtalsklausuler.
+
+### Hur länge vi sparar uppgifterna
+
+- Patientjournaler: minst 3 år från den senaste anteckningen (lagen om utövning av veterinäryrket 29/2000, 15 §); vi sparar dem så länge du är vår kund.
+- Anteckningar om läkemedel: 5 år (förordning (EU) 2019/6).
+- Bokföring: verifikationer 6 år från räkenskapsperiodens slut, bokföringar 10 år (bokföringslagen).
+- Utskrifter av telefonsamtal och WhatsApp-konversationer: 12 månader, sedan raderas de. Allt som gäller ditt djur förs också in i djurets patientjournal och sparas så som anges ovan.
+- Webbplatsstatistik: högst 14 månader i Google Analytics (enligt vår kontoinställning), 13 månader i Microsoft Clarity, hos Meta enligt Metas egna villkor.
+
+### Kakor
+
+Webbplatsen använder Google Analytics och Google Ads (Google Ireland Ltd), Meta-pixeln (Meta Platforms Ireland Ltd) och Microsoft Clarity (Microsoft Ireland Operations Ltd) endast om du klickar på Godkänn i kakbannern. De mäter besöken, hur webbplatsen används och hur våra annonser fungerar. Clarity spelar dessutom in anonymiserade besök på sidorna, med formulärfälten dolda. Om du avvisar laddas ingen av dem. Google Maps laddas först när du godkänner eller klickar på ”Visa kartan”. Du kan ändra ditt val när som helst under Inställningar för kakor längst ner på varje sida.
+
+### Automatiserade beslut
+
+Vi fattar inga beslut om dig enbart på automatisk väg. AI-assistenterna tar bara emot meddelanden och svarar på frågor; det är personalen som beslutar om vården av ditt djur.
+
+### Dina rättigheter
+
+Du har rätt att få se dina uppgifter, att få felaktiga uppgifter rättade, att få uppgifter raderade när lagen inte kräver att vi sparar dem, att begränsa eller invända mot behandlingen, att få dina uppgifter i en form som kan överföras och att när som helst återkalla ditt samtycke. Skicka din begäran till info@saarivet.fi eller ring (06) 321 7300. Du kan också lämna in ett klagomål till dataskyddsombudsmannen (Dataombudsmannens byrå, tietosuoja.fi).
+
+### Företagsuppgifter
+
+Eläinklinikka Saari Oy, FO-nummer 0708667-9, momsnummer FI07086679, Gerbyntie 18, 65230 Vasa. Våra veterinärer är legitimerade i Finland (yrkesbeteckning eläinlääkäri / veterinär) och står under tillsyn av Livsmedelsverket (Ruokavirasto). Yrkesregler: lagen om utövning av veterinäryrket (29/2000) och Finlands Veterinärförbunds etiska regler.
+Tillbaka till startsidan
+
+---
+
 # Kontakt – Djurklinik Saari, Vasa
 
 URL: https://elainklinikkasaari.fi/sv/kontakt/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## Kontakt
 
@@ -616,7 +692,7 @@ Tillbaka till startsidan
 # Veterinärer och klinikdjurskötare i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/personal/
-Last updated: 2026-10-25
+Last updated: 2026-11-09
 
 ## Personal
 
@@ -772,7 +848,7 @@ Tillbaka till startsidan
 # Kundernas omdömen | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/omdomen/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -782,7 +858,7 @@ Tillbaka till startsidan
 345 omdömen på Google
 + 73 rekommendationer på Facebook (98 % rekommenderar)
 Läs alla på Google →
-Nedan 29 utvalda omdömen från Google och Facebook. Läs alla på Google.
+Här är 29 omdömen som vi har valt ut från Google och Facebook. Vi kontrollerar inte om var och en som har skrivit ett omdöme har varit vår kund. Alla våra Google-omdömen, både bra och dåliga, kan du läsa på Google.
 K
 Kati Konttinen
 Facebook
@@ -940,7 +1016,7 @@ Omdömena är hämtade från Googles kundomdömen och visas på denna sida i den
 # Boka tid till veterinär i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tidsbokning/
-Last updated: 2026-09-19
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 Ring oss
@@ -960,7 +1036,7 @@ Svar inom ca 1 arbetsdag
 # Vård av vilda djur | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/vilda-djur/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Avdelning för vilda djur
 
@@ -1210,7 +1286,7 @@ Vår partner som tar hand om vilddjurspatienter efter kliniken – rehabiliterar
 # Veterinär i Vasa | Djurklinik Saari – öppet mån–fre 7:45–17
 
 URL: https://elainklinikkasaari.fi/sv/veterinar-vasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Veterinär i Vasa – Djurklinik Saari
 
@@ -1295,7 +1371,7 @@ Boka online
 # Kattveterinär i Vasa – kattvänlig klinik | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/kattveterinar-vasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-09
 
 ## Kattveterinär i Vasa – vård i lugn och ro för din katt
 
@@ -1385,7 +1461,7 @@ Boka online
 # Tandstensborttagning hund & katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/tandvard/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1491,7 +1567,7 @@ Tillbaka till startsidan
 # Hjärtultraljud för hund i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/hjartundersokningar/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1538,7 +1614,7 @@ Röntgenbild från sidan av bröstkorgen hos en hund med en hjärtförändring s
 
 ### Läkemedelsbehandling och uppföljning
 
-När en hjärtsjukdom har diagnostiserats skräddarsys medicineringen individuellt efter diagnos, sjukdomsstadium och symtom. Typiska läkemedel är pimobendan (Vetmedin), ACE-hämmare, diuretika och spironolakton. Enligt ACVIM:s riktlinjer kan tidigt insatt pimobendanbehandling förlänga den symtomfria perioden avsevärt. Uppföljningsbesök behövs tätare i inledningsskedet (var 4–8 vecka) och i stabilt skede vanligen ungefär var 12:e månad. Vid kontrollen upprepas hjärtultraljudet, medicineringens effekt bedöms, vid behov mäts blodtryck och njurfunktionen följs med blodprov.
+När en hjärtsjukdom har diagnostiserats skräddarsys medicineringen individuellt efter diagnos, sjukdomsstadium och symtom. Typiska läkemedel är pimobendan, ACE-hämmare, diuretika och spironolakton. Enligt ACVIM:s riktlinjer kan tidigt insatt pimobendanbehandling förlänga den symtomfria perioden avsevärt. Uppföljningsbesök behövs tätare i inledningsskedet (var 4–8 vecka) och i stabilt skede vanligen ungefär var 12:e månad. Vid kontrollen upprepas hjärtultraljudet, medicineringens effekt bedöms, vid behov mäts blodtryck och njurfunktionen följs med blodprov.
 
 ### Hemvård och livskvalitet
 
@@ -1582,7 +1658,7 @@ Tillbaka till startsidan
 # Veterinärkirurgi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/kirurgi/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1667,7 +1743,7 @@ Tillbaka till startsidan
 # Endoskopi för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/endoskopi/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1730,7 +1806,7 @@ Tillbaka till startsidan
 # Vaccination av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/vaccinationer/
-Last updated: 2026-10-23
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1820,7 +1896,7 @@ Tillbaka till startsidan
 # Ultraljud för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ultraljud/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1878,7 +1954,7 @@ Tillbaka till startsidan
 # Hud-, allergi- och öronproblem i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/hudsjukdomar/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -1936,7 +2012,7 @@ Tillbaka till startsidan
 # Seniorundersökning i Vasa – 299 € | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/seniorundersokning/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2033,7 +2109,7 @@ Tillbaka till startsidan
 # Valpundersökning och mikrochip i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/valpundersokning/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2091,7 +2167,7 @@ Tillbaka till startsidan
 # Akupunktur för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/akupunktur/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2149,7 +2225,7 @@ Tillbaka till startsidan
 # Officiella hälsoundersökningar i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/officiella-undersokningar/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2207,7 +2283,7 @@ Tillbaka till startsidan
 # Sterilisering av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/sterilisering/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2294,7 +2370,7 @@ Tillbaka till startsidan
 # Internmedicin för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/internmedicin/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2357,7 +2433,7 @@ Tillbaka till startsidan
 # Ögonsjukdomar hos hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ogonsjukdomar/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2410,7 +2486,7 @@ Tillbaka till startsidan
 # Djurklinikens eget laboratorium i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/laboratorium/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2464,7 +2540,7 @@ Tillbaka till startsidan
 # Röntgen i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/rontgen/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2522,7 +2598,7 @@ Tillbaka till startsidan
 # Eutanasi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/eutanasi/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2571,7 +2647,7 @@ Tillbaka till startsidan
 # EU-pass för hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/eu-sallskapsdjurspass/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2660,7 +2736,7 @@ Tillbaka till startsidan
 # Blodprov i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/blodprov/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2718,7 +2794,7 @@ Tillbaka till startsidan
 # Dräktighetsundersökning i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/draktighetsundersokning/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2771,7 +2847,7 @@ Tillbaka till startsidan
 # Royal Canin-foder och specialfoder i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/foderforsaljning/
-Last updated: 2026-11-05
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2846,7 +2922,7 @@ Tillbaka till startsidan
 # Välbefinnande och rehabilitering i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/rehabilitering/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2904,7 +2980,7 @@ Tillbaka till startsidan
 # Kastrering av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/kastrering/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -2912,7 +2988,7 @@ Tillbaka till startsidan
 
 ### Vad innebär kastrering?
 
-Kastrering är en operation av handjur där testiklarna avlägsnas. Det är ett vanligt och säkert ingrepp som på Djurklinik Saari utförs med omfattande smärtlindring: hundar och kaniner kastreras under inhalationsanestesi, och en rutinkastrering av katt görs under injektionsanestesi. För hundar erbjuder vi även kemisk kastrering med Suprelorin-implantat utan narkos. Om operationen av hondjur berättar vi på sidan Sterilisering.
+Kastrering är en operation av handjur där testiklarna avlägsnas. Det är ett vanligt och säkert ingrepp som på Djurklinik Saari utförs med omfattande smärtlindring: hundar och kaniner kastreras under inhalationsanestesi, och en rutinkastrering av katt görs under injektionsanestesi. För hundar erbjuder vi även kemisk kastrering med deslorelinimplantat utan narkos. Om operationen av hondjur berättar vi på sidan Sterilisering.
 
 ### Pris för kastrering
 
@@ -2924,15 +3000,15 @@ Kastrering av hanhund över 40 kg 553 €
 Kastrering av hankanin 253 €
 Kryptorkidoperation hund 473–623 €
 Kryptorkidoperation katt 208–268 €
-Priset inkluderar anestesi, operationen, läkemedel och smärtstillande för hemmet. Hundens pris bestäms av vikten. Pris för kemisk kastrering (Suprelorin-implantat) får du genom att ringa (06) 321 7300. Alla priser finns i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
+Priset inkluderar anestesi, operationen, läkemedel och smärtstillande för hemmet. Hundens pris bestäms av vikten. Pris för kemisk kastrering (deslorelinimplantat) får du genom att ringa (06) 321 7300. Alla priser finns i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
 
 ### Varför kastreras hund, katt eller kanin?
 
 Kastrering av hankatt avslutar urinmarkering, minskar strövande och slagsmålsskador och förlänger kattens liv. Kastrering av hund kan vara medicinskt motiverad vid prostataproblem, testikeltumörer eller perianala tumörer, och den kan minska hormonellt beteende som markering, rymning och strövande efter tikar. Kastrering av hankanin rekommenderas när kaninen lever med en annan kanin – det förhindrar slagsmål och kullar och minskar markering.
 
-### Kemisk kastrering (Suprelorin-implantat)
+### Kemisk kastrering (deslorelinimplantat)
 
-För hundar finns kemisk kastrering med Suprelorin-hormonimplantat. Implantatet placeras under huden i nacken vid ett mottagningsbesök – ingreppet är snabbt och kräver ingen narkos. Full effekt uppnås inom cirka 6 veckor och varar 6 eller 12 månader beroende på valt implantat, varefter den försvinner helt. Kemisk kastrering är ett bra alternativ när man vill testa kastreringens effekt på beteendet före ett permanent beslut, när man vill undvika kirurgi eller när hunden är äldre.
+För hundar finns kemisk kastrering med deslorelin-hormonimplantat. Implantatet placeras under huden i nacken vid ett mottagningsbesök – ingreppet är snabbt och kräver ingen narkos. Full effekt uppnås inom cirka 6 veckor och varar 6 eller 12 månader beroende på valt implantat, varefter den försvinner helt. Kemisk kastrering är ett bra alternativ när man vill testa kastreringens effekt på beteendet före ett permanent beslut, när man vill undvika kirurgi eller när hunden är äldre.
 
 ### Kryptorkism (kvarhållen testikel)
 
@@ -2954,10 +3030,10 @@ Kattens kastreringssår är litet och vanligen utan stygn; de flesta katter är 
 
 Vad kostar kastrering av hund? Kastrering av hanhund kostar på Djurklinik Saari 383–553 € beroende på vikt: under 10 kg 383 €, 10–20 kg 453 €, 20–40 kg 503 €, över 40 kg 553 €. Priset inkluderar anestesi, operationen, läkemedel och smärtstillande för hemmet. Kryptorkidoperation kostar 473–623 €.
 Vad kostar kastrering av katt? Kastrering av hankatt kostar 108 €, och priset inkluderar anestesi, operationen och smärtstillande. Kastrering av hankanin kostar 253 €.
-Vad kostar kemisk kastrering och hur länge verkar den? Kemisk kastrering görs med Suprelorin-implantat vid ett mottagningsbesök utan narkos. Full effekt uppnås inom cirka 6 veckor och varar 6 eller 12 månader beroende på implantat. Priset får du genom att ringa (06) 321 7300.
+Vad kostar kemisk kastrering och hur länge verkar den? Kemisk kastrering görs med deslorelinimplantat vid ett mottagningsbesök utan narkos. Full effekt uppnås inom cirka 6 veckor och varar 6 eller 12 månader beroende på implantat. Priset får du genom att ringa (06) 321 7300.
 Vid vilken ålder bör kastreringen göras? Hankatter kastreras vanligen vid 5–6 månaders ålder innan markeringen börjar, hankaniner vid 4–6 månaders ålder och hundar beroende på ras vid 6–18 månaders ålder. Hos stora raser rekommenderas att vänta tills skelettet växt färdigt.
 Förändras hundens beteende efter kastrering? Kastrering kan minska hormonellt beteende som markering, rymning och aggressivitet mot andra hanar. Effekten beror på individen – inlärda beteendemönster förändras inte nödvändigtvis enbart genom kastrering. Grundpersonligheten förblir oförändrad. Kemisk kastrering är ett bra sätt att testa effekten före ett permanent beslut.
-Kan kastrering ångras? Kirurgisk kastrering är permanent. Därför erbjuder vi kemisk kastrering med Suprelorin-implantat, vars effekt varar 6 eller 12 månader och därefter försvinner helt.
+Kan kastrering ångras? Kirurgisk kastrering är permanent. Därför erbjuder vi kemisk kastrering med deslorelinimplantat, vars effekt varar 6 eller 12 månader och därefter försvinner helt.
 Hur lång är återhämtningstiden efter kastrering? Katter är vanligen pigga redan nästa dag. Hunden behöver vila i cirka 7–10 dagar, och såret skyddas med krage eller skyddsdräkt. Stygnen tas bort efter cirka 10 dagar eller löses upp av sig själva.
 Vad är skillnaden mellan kastrering och sterilisering? Kastrering avser handjur: testiklarna avlägsnas. Sterilisering är operationen av hondjur där äggstockarna och ofta livmodern avlägsnas. Om sterilisering av tik, honkatt och honkanin berättar vi på vår separata steriliseringssida.
 
@@ -2988,7 +3064,7 @@ Tillbaka till startsidan
 # Ortopedi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ortopedi/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -3052,7 +3128,7 @@ Tillbaka till startsidan
 # Anestesi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/anestesi/
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -3110,7 +3186,7 @@ Tillbaka till startsidan
 # Hygien i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/hygien/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -3163,7 +3239,7 @@ Tillbaka till startsidan
 # Akut veterinär Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
-Last updated: 2026-09-20
+Last updated: 2026-11-09
 
 Tillbaka till startsidan
 
@@ -3261,7 +3337,7 @@ Tillbaka till startsidan
 # Veterinär för Närpes, Kristinestad, Kaskö | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 ## Veterinär för Närpes, Kristinestad och Kaskö – en timmes bilresa till Vasa
 
@@ -3402,7 +3478,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-08
+Last updated: 2026-11-09
 
 ## Artiklar
 
@@ -3613,7 +3689,7 @@ Tillbaka till startsidan
 # TTA-operation vid korsbandsskada hos hund | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tta-operation.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Ortopedi
 31.10.2026
@@ -3689,7 +3765,7 @@ Tillbaka till startsidan
 # Öronspolning i narkos för hund och katt – pris i Vasa
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/video-otoskopi.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Endoskopi
 10.10.2026
@@ -3764,7 +3840,7 @@ Tillbaka till startsidan
 # Öroninflammation hos hund – symtom, behandling och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hälsa
 10.10.2026
@@ -3859,7 +3935,7 @@ Tillbaka till startsidan
 # Hälsokontroll för seniorkatter i Vasa – innehåll och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Hälsa
 9.10.2026
@@ -4004,7 +4080,7 @@ Seniorundersökning från 299 € Boka
 # Hunden haltar – när till veterinären? Orsaker och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html
-Last updated: 2026-10-09
+Last updated: 2026-11-09
 
 Hälsa
 9.10.2026
@@ -4131,7 +4207,7 @@ Ring
 # Pälsvård hos hund och katt – tovor, hud och trimning
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/palsvard-hund-katt.html
-Last updated: 2026-11-07
+Last updated: 2026-11-09
 
 Husdjurshälsa
 7.11.2026
@@ -4218,7 +4294,7 @@ Tillbaka till startsidan
 # Njursvikt hos katt – symtom, stadier och livslängd
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/njursvikt-katt.html
-Last updated: 2026-10-27
+Last updated: 2026-11-09
 
 Husdjurshälsa
 27.10.2026
@@ -4346,7 +4422,7 @@ Tillbaka till startsidan
 # Kontinuerlig smärtinfusion (CRI) | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/smartlindringsinfusion.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Anestesi
 25.9.2026
@@ -4423,7 +4499,7 @@ Tillbaka till startsidan
 # Diarré hos hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/diarre.html
-Last updated: 2026-09-25
+Last updated: 2026-11-09
 
 Hälsa
 25.9.2026
@@ -4494,7 +4570,7 @@ Tillbaka till startsidan
 # Öppen ductus arteriosus (PDA) hos hundar
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Kardiologi
 27.9.2026
@@ -4575,7 +4651,7 @@ Tillbaka till startsidan
 # Tandborstning för hund och katt – så kommer du igång
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tandborstning.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tandvård
 27.9.2026
@@ -4657,7 +4733,7 @@ Tillbaka till startsidan
 # Spannmålsfri mat för hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/spannmalsfri-mat.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Hälsa
 27.9.2026
@@ -4739,7 +4815,7 @@ Tillbaka till startsidan
 # PerioVive-gel vid parodontal sjukdom hos hund och katt
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/periovive.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tandvård
 27.9.2026
@@ -4811,7 +4887,7 @@ Tillbaka till startsidan
 # Varför är en självständig djurklinik ett viktigt val?
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/privat-klinik.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Klinik
 27.9.2026
@@ -4875,7 +4951,7 @@ Tillbaka till startsidan
 # Födoämnesallergi hos hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/foderallergier.html
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 Husdjurshälsa
 27.9.2026
@@ -4948,7 +5024,7 @@ Tillbaka till startsidan
 # Sköldkörtelöverfunktion hos katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hypertyreos-katt.html
-Last updated: 2026-10-30
+Last updated: 2026-11-09
 
 Katthälsa
 30.10.2026
@@ -4976,7 +5052,7 @@ Det finns fyra behandlingsalternativ: daglig medicinering, kirurgi, radiojodbeha
 
 ### Daglig medicinering
 
-Läkemedlet tiamazol (även kallat metimazol) ges dagligen som tabletter (t.ex. Felimazole) eller oral lösning (t.ex. Apelka). Behandlingen är relativt förmånlig, men livslång. De flesta katter tål medicinen bra. Biverkningar uppträder oftast under de första veckorna och sällan efter två till tre månader: kräkningar, dålig aptit, slöhet eller kraftig klåda på huvudet och halsen som kan leda till rivsår. I sällsynta fall påverkas levern eller blodkropparna, så kontakta oss om katten verkar sjuk eller får feber, om huden eller slemhinnorna blir gulaktiga eller om katten blöder lätt. T4, njurvärden och blodbild kontrolleras ungefär 3, 6, 10 och 20 veckor efter att behandlingen har inletts, efter varje dosändring och sedan med några månaders mellanrum.
+Läkemedlet tiamazol (även kallat metimazol) ges dagligen som tabletter eller oral lösning. Behandlingen är relativt förmånlig, men livslång. De flesta katter tål medicinen bra. Biverkningar uppträder oftast under de första veckorna och sällan efter två till tre månader: kräkningar, dålig aptit, slöhet eller kraftig klåda på huvudet och halsen som kan leda till rivsår. I sällsynta fall påverkas levern eller blodkropparna, så kontakta oss om katten verkar sjuk eller får feber, om huden eller slemhinnorna blir gulaktiga eller om katten blöder lätt. T4, njurvärden och blodbild kontrolleras ungefär 3, 6, 10 och 20 veckor efter att behandlingen har inletts, efter varje dosändring och sedan med några månaders mellanrum.
 
 ### Att hantera medicinen säkert hemma
 
@@ -5032,7 +5108,7 @@ Tillbaka till startsidan
 # Njursvikt hos hund – symtom, stadier och livslängd
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/njursvikt.html
-Last updated: 2026-10-31
+Last updated: 2026-11-09
 
 Husdjurshälsa
 31.10.2026
@@ -5148,7 +5224,7 @@ Tillbaka till startsidan
 # Huggormsbett hos hund och katt – symtom och första hjälpen
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/huggormsbett.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Akutvård
 24.9.2026
@@ -5213,7 +5289,7 @@ Tillbaka till startsidan
 # Förgiftning hos hund och katt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/forgiftning.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Akutvård
 24.9.2026
@@ -5297,7 +5373,7 @@ Tillbaka till startsidan
 # Livmoderinflammation hos hund – symtom, operation och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/livmoderinflammation.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Akutvård
 25.9.2026
@@ -5391,7 +5467,7 @@ Tillbaka till startsidan
 # Lateral sutur vid korsbandsskada hos hund | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/lateral-suture.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Ortopedi
 27.9.2026
@@ -5472,7 +5548,7 @@ Tillbaka till startsidan
 # Igelkotten i Europa och Finland | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/igelkott.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5580,7 +5656,7 @@ Den finländska veterinärmarknaden har förändrats dramatiskt under det senast
 # Igelkottsunge i Vasa? Så gör du rätt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/igelkottsunge.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Wildlife
 25.9.2026
@@ -5690,7 +5766,7 @@ Den finländska veterinärmarknaden har förändrats dramatiskt under det senast
 # Ett mindre stressande veterinärbesök för katten
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/kattvanlig-klinik.html
-Last updated: 2026-09-29
+Last updated: 2026-11-09
 
 Katthälsa
 27.9.2026
@@ -5755,7 +5831,7 @@ Tillbaka till startsidan
 # Icke frambrutna tänder och dentigerösa cystor
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/icke-framvaxta-tander.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tandvård
 27.9.2026
@@ -5826,7 +5902,7 @@ Tillbaka till startsidan
 # Gastroskopi för hund och katt – svalda föremål och biopsier
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/gastroskopi.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Endoskopi
 27.9.2026
@@ -5906,7 +5982,7 @@ Tillbaka till startsidan
 # Tandresorption hos katt och hund – dold och smärtsam sjukdom
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tandresorption.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Tandvård
 27.9.2026
@@ -5983,7 +6059,7 @@ Tillbaka till startsidan
 # Vaccinationer i Finland | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/vaccinationsguide.html
-Last updated: 2026-09-24
+Last updated: 2026-11-09
 
 Hälsa
 24.9.2026
@@ -6062,7 +6138,7 @@ Tillbaka till startsidan
 # Avmaskning av hund och katt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hälsa
 25.9.2026
@@ -6154,7 +6230,7 @@ Tillbaka till startsidan
 # IBD eller tarmlymfom hos katt – så ställs diagnosen
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/ibd-lymfom.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Hälsa
 25.9.2026
@@ -6223,7 +6299,7 @@ Tillbaka till startsidan
 # Hypotermi under narkos – därför värmer vi varje patient
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hypotermi.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anestesi
 25.9.2026
@@ -6297,7 +6373,7 @@ Tillbaka till startsidan
 # Anestesisäkerhet för husdjur – risker och hur vi minskar dem
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/anestesisakerhet.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Anestesi
 24.9.2026
@@ -6367,7 +6443,7 @@ Tillbaka till startsidan
 # Varför en klinikdjurskötare övervakar varje narkos
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/klinikdjurskotare.html
-Last updated: 2026-10-15
+Last updated: 2026-11-09
 
 Klinik
 27.9.2026
@@ -6430,7 +6506,7 @@ Tillbaka till startsidan
 # Saari i media | Djurklinik Saari, Vasa
 
 URL: https://elainklinikkasaari.fi/sv/media/
-Last updated: 2026-10-28
+Last updated: 2026-11-09
 
 ## Saari i media
 

@@ -132,7 +132,7 @@ function render(cfg, d, ui) {
   <meta http-equiv="Content-Security-Policy" content="${CSP}">
   <title>${esc(d.title)}</title>
 
-  <script src="/js/consent.js?v=20261109a"></script>
+  <script src="/js/consent.js?v=20261109b"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

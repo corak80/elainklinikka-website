@@ -13,7 +13,7 @@ What it does to a page that has Google/Meta tags:
 """
 import re, subprocess, sys, os
 
-VERSION = '20261109a'
+VERSION = '20261109b'
 TAG = f'<script src="/js/consent.js?v={VERSION}"></script>'
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 

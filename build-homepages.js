@@ -210,6 +210,9 @@ function rewriteArticleUrls(html, lang) {
   );
   // Rewrite the article-index hub link: /artikkelit/ → /sv/artiklar/ or /en/articles/.
   html = html.replace(/href="\/artikkelit\/"/g, `href="${base}"`);
+  // Footer privacy link → the policy in this language (tools/consent/build_privacy.py, 09-11-2026).
+  html = html.replace(/href="\/tietosuoja\/"( data-i18n="footer\.privacy")/g,
+    `href="${lang === 'sv' ? '/sv/dataskydd/' : '/en/privacy/'}"$1`);
   return html;
 }
 
