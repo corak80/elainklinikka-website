@@ -115,110 +115,10 @@ function minifyJs(code) {
   return out;
 }
 
-function renderCookieBanner(lang, opts) {
-  return renderCookieBannerSource(lang, opts).replace(/<script>([\s\S]*?)<\/script>/, (m, js) => `<script>${minifyJs(js)}</script>`);
-}
-
-function renderCookieBannerSource(lang, { deferredHook = false } = {}) {
-  // main.js is loaded with `defer`, so window.setLanguage does not exist yet when this
-  // inline script runs. The article index pages register the hook on DOMContentLoaded
-  // (deferredHook); the other generated pages keep the original form — their language
-  // toggle is a link to the translated URL, so the hook never fires there anyway.
-  const setLanguageHook = deferredHook
-    ? `      document.addEventListener('DOMContentLoaded', function() {
-        var origSetLang = window.setLanguage;
-        window.setLanguage = function(lang) {
-          if (origSetLang) origSetLang(lang);
-          updateCookieText();
-        };
-      });`
-    : `      var origSetLang = window.setLanguage;
-      window.setLanguage = function(lang) {
-        if (origSetLang) origSetLang(lang);
-        updateCookieText();
-      };`;
-  const cookieBanner = {
-    fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-    sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-    en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-  };
-  const cb = cookieBanner[lang] || cookieBanner.fi;
-  return `
-  <!-- Cookie Consent Banner -->
-  <div id="cookie-consent" style="display:none;">
-    <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">${escapeHtml(cb.text)}</p>
-      <div class="cookie-consent-buttons">
-        <button id="cookie-accept" onclick="acceptCookies()">${escapeHtml(cb.accept)}</button>
-        <button id="cookie-decline" onclick="declineCookies()">${escapeHtml(cb.decline)}</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    (function() {
-      var consent = localStorage.getItem('cookie_consent');
-      if (consent === 'accepted') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'granted',
-          'ad_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted'
-        });
-        loadClarity();
-      } else if (consent !== 'declined') {
-        document.getElementById('cookie-consent').style.display = 'flex';
-      }
-
-      var cookieTexts = {
-        fi: { text: 'Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.', accept: 'Hyväksy', decline: 'Hylkää' },
-        sv: { text: 'Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.', accept: 'Godkänn', decline: 'Avvisa' },
-        en: { text: 'We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.', accept: 'Accept', decline: 'Decline' }
-      };
-
-      function updateCookieText() {
-        var lang = localStorage.getItem('preferredLanguage') || 'fi';
-        var t = cookieTexts[lang] || cookieTexts.fi;
-        var el = document.getElementById('cookie-consent-text');
-        if (el) el.textContent = t.text;
-        var acceptBtn = document.getElementById('cookie-accept');
-        if (acceptBtn) acceptBtn.textContent = t.accept;
-        var declineBtn = document.getElementById('cookie-decline');
-        if (declineBtn) declineBtn.textContent = t.decline;
-      }
-      updateCookieText();
-
-${setLanguageHook}
-    })();
-
-    function loadClarity() {
-      if (window.clarity) return;
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "x3bktm0h06");
-    }
-
-    function acceptCookies() {
-      localStorage.setItem('cookie_consent', 'accepted');
-      document.getElementById('cookie-consent').style.display = 'none';
-      gtag('consent', 'update', {
-        'analytics_storage': 'granted',
-        'ad_storage': 'granted',
-        'ad_user_data': 'granted',
-        'ad_personalization': 'granted'
-      });
-      loadClarity();
-    }
-
-    function declineCookies() {
-      localStorage.setItem('cookie_consent', 'declined');
-      document.getElementById('cookie-consent').style.display = 'none';
-    }
-  </script>
-`;
-}
+// The cookie banner, the tag loaders and the consent state all live in js/consent.js since
+// 08-11-2026 (pages load it in <head>, before their inline gtag/fbq calls). Kept as a no-op so the
+// page templates below need no change.
+function renderCookieBanner() { return ''; }
 
 // ──────────────────────────────────────────────
 // 1. Article Registry
@@ -2351,6 +2251,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <title>${escapeHtml(pageTitle)}</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -2364,7 +2265,6 @@ function generateArticlePage(article, translations, specialContent, lang) {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -2384,17 +2284,9 @@ function generateArticlePage(article, translations, specialContent, lang) {
   </script>
   <!-- Meta Pixel Code -->
   <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2008398676469644');
+    fbq('init', '2008398676469644');
   fbq('track', 'PageView');
   </script>
-  <noscript><img alt="" height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2008398676469644&ev=PageView&noscript=1"
-  /></noscript>
   <!-- End Meta Pixel Code -->
 
   <meta name="description" content="${escapeAttr(description)}">
@@ -2718,6 +2610,7 @@ function generateArticleIndex(translations, lang) {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -2730,23 +2623,6 @@ function generateArticleIndex(translations, lang) {
     gtag('js', new Date());
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
-    // fbq stub (buttons call it inline) + delayed tag loading: gtag.js loads
-    // on first interaction or shortly after load; queued calls replay intact.
-    if(!window.fbq){(function(f){var n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[]})(window);}
-    (function(){
-      var done=false;
-      function loadTags(){
-        if(done)return;done=true;
-        var s=document.createElement('script');s.async=true;
-        s.src='https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2';
-        document.head.appendChild(s);
-      }
-      ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){
-        addEventListener(ev,loadTags,{passive:true,once:true});
-      });
-      if(document.readyState==='complete'){setTimeout(loadTags,1200);}
-      else{addEventListener('load',function(){setTimeout(loadTags,1200);});}
-    })();
   </script>
   <script>
   function gtag_report_conversion(url) {
@@ -5036,6 +4912,7 @@ function generateServicePage(service, translations, lang) {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(pageTitle)}</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -5049,7 +4926,6 @@ function generateServicePage(service, translations, lang) {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -5283,6 +5159,7 @@ function generatePrivacyPage() {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>Tietosuojaseloste | Eläinklinikka Saari</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -5295,7 +5172,6 @@ function generatePrivacyPage() {
     gtag('js', new Date());
     gtag('config', 'G-WKS3P1RFC2');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
 
   <meta name="description" content="Eläinklinikka Saari Oy:n tietosuojaseloste. Henkilötietojen käsittely, rekisteröidyn oikeudet ja tietojen suojaus asiakas- ja potilasrekisterissä.">
   <meta name="page-topic" content="Privacy Policy">
@@ -5650,6 +5526,7 @@ function generateReviewsPage(lang) {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -5662,7 +5539,6 @@ function generateReviewsPage(lang) {
     gtag('js', new Date());
     gtag('config', 'G-WKS3P1RFC2');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call / booking conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -5968,6 +5844,7 @@ function generateBookingPage(lang) {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -5981,7 +5858,6 @@ function generateBookingPage(lang) {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <!-- Google Ads: Click to call / booking conversion -->
   <script>
   function gtag_report_conversion(url) {
@@ -6105,6 +5981,7 @@ function generateAboutPage() {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>Tietoa klinikasta | Eläinklinikka Saari</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -6118,7 +5995,6 @@ function generateAboutPage() {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -6323,6 +6199,7 @@ function generateContactPage() {
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>Yhteystiedot | Eläinklinikka Saari</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -6336,7 +6213,6 @@ function generateContactPage() {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -6467,7 +6343,7 @@ function generateContactPage() {
           <p>Klinikkamme ei tarjoa ympärivuorokautista päivystystä. Hätätilanteissa aukioloaikojen ulkopuolella soita klinikan numeroon <a href="tel:+35863217300">(06) 321 7300</a>, jossa puhelinvastaaja ohjaa lähimpään päivystävään klinikkaan. Akuuteissa hengenvaarallisissa tilanteissa ota välittömästi yhteyttä päivystävään eläinlääkäriin.</p>
 
           <h2>Sijainti kartalla</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.5!2d21.5967!3d63.0883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d6007bf4e31b1%3A0x3e189f57a09e4f42!2sGerbyntie%2018%2C%2065230%20Vaasa!5e0!3m2!1sfi!2sfi!4v1700000000000" width="100%" height="350" style="border:0;border-radius:var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eläinklinikka Saari kartalla"></iframe>
+          <iframe data-consent-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1707.5!2d21.5967!3d63.0883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467d6007bf4e31b1%3A0x3e189f57a09e4f42!2sGerbyntie%2018%2C%2065230%20Vaasa!5e0!3m2!1sfi!2sfi!4v1700000000000" width="100%" height="350" style="border:0;border-radius:var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eläinklinikka Saari kartalla"></iframe>
         </div>
       </article>
 

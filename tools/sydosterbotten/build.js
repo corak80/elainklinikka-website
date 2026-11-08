@@ -132,6 +132,7 @@ function render(cfg, d, ui) {
   <meta http-equiv="Content-Security-Policy" content="${CSP}">
   <title>${esc(d.title)}</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -145,7 +146,6 @@ function render(cfg, d, ui) {
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2"></script>
   <script>
   function gtag_report_conversion(url) {
     var callback = function () {

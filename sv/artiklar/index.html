@@ -7,6 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
   <title>Veterinärmedicinska artiklar | Djurklinik Saari</title>
 
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -19,23 +20,6 @@
     gtag('js', new Date());
     gtag('config', 'G-WKS3P1RFC2');
     gtag('config', 'AW-816483191');
-    // fbq stub (buttons call it inline) + delayed tag loading: gtag.js loads
-    // on first interaction or shortly after load; queued calls replay intact.
-    if(!window.fbq){(function(f){var n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[]})(window);}
-    (function(){
-      var done=false;
-      function loadTags(){
-        if(done)return;done=true;
-        var s=document.createElement('script');s.async=true;
-        s.src='https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2';
-        document.head.appendChild(s);
-      }
-      ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){
-        addEventListener(ev,loadTags,{passive:true,once:true});
-      });
-      if(document.readyState==='complete'){setTimeout(loadTags,1200);}
-      else{addEventListener('load',function(){setTimeout(loadTags,1200);});}
-    })();
   </script>
   <script>
   function gtag_report_conversion(url) {
@@ -552,20 +536,9 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261107a" defer></script>
+  <script src="/js/main.js?v=20261109a" defer></script>
 
-  <!-- Cookie Consent Banner -->
-  <div id="cookie-consent" style="display:none;">
-    <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">Vi använder cookies för att analysera webbplatstrafiken och användningen med Google Analytics och Microsoft Clarity. Cookies används bara om du godkänner dem.</p>
-      <div class="cookie-consent-buttons">
-        <button id="cookie-accept" onclick="acceptCookies()">Godkänn</button>
-        <button id="cookie-decline" onclick="declineCookies()">Avvisa</button>
-      </div>
-    </div>
-  </div>
 
-  <script>(function(){var e=localStorage.getItem("cookie_consent");e==="accepted"?(gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()):e!=="declined"&&(document.getElementById("cookie-consent").style.display="flex");var c={fi:{text:"K\xE4yt\xE4mme ev\xE4steit\xE4 sivuston k\xE4vij\xE4liikenteen ja k\xE4yt\xF6n analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Ev\xE4steit\xE4 k\xE4ytet\xE4\xE4n vain, jos hyv\xE4ksyt ne.",accept:"Hyv\xE4ksy",decline:"Hylk\xE4\xE4"},sv:{text:"Vi anv\xE4nder cookies f\xF6r att analysera webbplatstrafiken och anv\xE4ndningen med Google Analytics och Microsoft Clarity. Cookies anv\xE4nds bara om du godk\xE4nner dem.",accept:"Godk\xE4nn",decline:"Avvisa"},en:{text:"We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.",accept:"Accept",decline:"Decline"}};function t(){var n=localStorage.getItem("preferredLanguage")||"fi",a=c[n]||c.fi,o=document.getElementById("cookie-consent-text");o&&(o.textContent=a.text);var i=document.getElementById("cookie-accept");i&&(i.textContent=a.accept);var d=document.getElementById("cookie-decline");d&&(d.textContent=a.decline)}t(),document.addEventListener("DOMContentLoaded",function(){var n=window.setLanguage;window.setLanguage=function(a){n&&n(a),t()}})})();function loadClarity(){window.clarity||(function(e,c,t,n,a,o,i){e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},o=c.createElement(n),o.async=1,o.src="https://www.clarity.ms/tag/"+a,i=c.getElementsByTagName(n)[0],i.parentNode.insertBefore(o,i)})(window,document,"clarity","script","x3bktm0h06")}function acceptCookies(){localStorage.setItem("cookie_consent","accepted"),document.getElementById("cookie-consent").style.display="none",gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()}function declineCookies(){localStorage.setItem("cookie_consent","declined"),document.getElementById("cookie-consent").style.display="none"}</script>
 
 </body>
 </html>

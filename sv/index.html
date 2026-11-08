@@ -8,6 +8,7 @@
   <title>Veterinär &amp; Smådjursklinik i Vasa – Djurklinik Saari</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
+  <script src="/js/consent.js?v=20261109a"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -40,37 +41,9 @@
   </script>
   <!-- Meta Pixel Code -->
   <script>
-  !function(f){if(f.fbq)return;var n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[]}(window);
   fbq('init', '2008398676469644');
   fbq('track', 'PageView');
-  // Tag scripts load on first interaction or shortly after load: they cost
-  // ~430KB and were the biggest lab-LCP penalty, while every pre-load call
-  // above queues and replays intact.
-  (function(){
-    var done=false;
-    function loadTags(){
-      if(done)return;done=true;
-      ['https://www.googletagmanager.com/gtag/js?id=G-WKS3P1RFC2',
-       'https://connect.facebook.net/en_US/fbevents.js'].forEach(function(src){
-        var s=document.createElement('script');s.async=true;s.src=src;
-        document.head.appendChild(s);
-      });
-      ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){
-        removeEventListener(ev,loadTags,{passive:true});
-      });
-    }
-    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){
-      addEventListener(ev,loadTags,{passive:true,once:true});
-    });
-    if(document.readyState==='complete'){setTimeout(loadTags,1200);}
-    else{addEventListener('load',function(){setTimeout(loadTags,1200);});}
-  })();
   </script>
-  <noscript><img alt="" height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2008398676469644&ev=PageView&noscript=1"
-  /></noscript>
   <!-- End Meta Pixel Code -->
   <meta name="description" content="Smådjursklinik och veterinär i Vasa (Vaasa) sedan 1989. Tandvård, kirurgi, hjärtundersökningar och ultraljud för hundar och katter. Boka tid!">
   <meta name="keywords" content="veterinär, Vasa, djurklinik, smådjursklinik, veterinärstation, hund, katt, tandvård, kirurgi, hjärtundersökning, ultraljud, vaccination, eläinlääkäri">
@@ -974,7 +947,7 @@ a.hero-badge{text-decoration:none}
           <a href="/sv/tidsbokning/" data-href-fi="/ajanvaraus/" data-href-sv="/sv/tidsbokning/" data-href-en="/en/book-appointment/" class="btn btn-cta btn-lg mt-2" data-i18n="contact.book">Boka tid online</a>
         </div>
         <div class="contact-map">
-          <iframe src="https://www.google.com/maps?q=Eläinklinikka+Saari+Oy,+Gerbyntie+18,+65230+Vaasa,+Finland&ll=63.11718,21.6208&z=17&t=k&output=embed" title="Eläinklinikka Saari sijainti kartalla" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe data-consent-src="https://www.google.com/maps?q=Eläinklinikka+Saari+Oy,+Gerbyntie+18,+65230+Vaasa,+Finland&ll=63.11718,21.6208&z=17&t=k&output=embed" title="Eläinklinikka Saari sijainti kartalla" width="100%" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -1082,21 +1055,10 @@ a.hero-badge{text-decoration:none}
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261107a" defer></script>
+  <script src="/js/main.js?v=20261109a" defer></script>
   <script src="/js/leaves.js?v=20261018a" defer></script>
 
-  <!-- Cookie Consent Banner -->
-  <div id="cookie-consent" style="display:none;">
-    <div class="cookie-consent-inner">
-      <p id="cookie-consent-text">Käytämme evästeitä sivuston kävijäliikenteen ja käytön analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Evästeitä käytetään vain, jos hyväksyt ne.</p>
-      <div class="cookie-consent-buttons">
-        <button id="cookie-accept" onclick="acceptCookies()">Hyväksy</button>
-        <button id="cookie-decline" onclick="declineCookies()">Hylkää</button>
-      </div>
-    </div>
-  </div>
 
-  <script>(function(){var e=localStorage.getItem("cookie_consent");e==="accepted"?(gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()):e!=="declined"&&(document.getElementById("cookie-consent").style.display="flex");var c={fi:{text:"K\xE4yt\xE4mme ev\xE4steit\xE4 sivuston k\xE4vij\xE4liikenteen ja k\xE4yt\xF6n analysointiin Google Analyticsin ja Microsoft Clarityn avulla. Ev\xE4steit\xE4 k\xE4ytet\xE4\xE4n vain, jos hyv\xE4ksyt ne.",accept:"Hyv\xE4ksy",decline:"Hylk\xE4\xE4"},sv:{text:"Vi anv\xE4nder cookies f\xF6r att analysera webbplatstrafiken och anv\xE4ndningen med Google Analytics och Microsoft Clarity. Cookies anv\xE4nds bara om du godk\xE4nner dem.",accept:"Godk\xE4nn",decline:"Avvisa"},en:{text:"We use cookies to analyze site traffic and usage with Google Analytics and Microsoft Clarity. Cookies are only used if you accept them.",accept:"Accept",decline:"Decline"}};function t(){var n=localStorage.getItem("preferredLanguage")||"fi",a=c[n]||c.fi,o=document.getElementById("cookie-consent-text");o&&(o.textContent=a.text);var i=document.getElementById("cookie-accept");i&&(i.textContent=a.accept);var d=document.getElementById("cookie-decline");d&&(d.textContent=a.decline)}t(),document.addEventListener("DOMContentLoaded",function(){var n=window.setLanguage;window.setLanguage=function(a){n&&n(a),t()}})})();function loadClarity(){window.clarity||(function(e,c,t,n,a,o,i){e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},o=c.createElement(n),o.async=1,o.src="https://www.clarity.ms/tag/"+a,i=c.getElementsByTagName(n)[0],i.parentNode.insertBefore(o,i)})(window,document,"clarity","script","x3bktm0h06")}function acceptCookies(){localStorage.setItem("cookie_consent","accepted"),document.getElementById("cookie-consent").style.display="none",gtag("consent","update",{analytics_storage:"granted",ad_storage:"granted",ad_user_data:"granted",ad_personalization:"granted"}),loadClarity()}function declineCookies(){localStorage.setItem("cookie_consent","declined"),document.getElementById("cookie-consent").style.display="none"}</script>
 <script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=navigator.connection;if(c&&c.saveData)return;var small=Math.min(screen.width,innerWidth)<720;if(small&&c&&/2g/.test(c.effectiveType||''))return;var started=false;var start=function(){if(started)return;started=true;v.src=v.getAttribute(small?'data-src-mobile':'data-src');v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};v.addEventListener('canplay',go,{once:true});v.load();document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});};if(document.readyState==='complete')start();else addEventListener('load',start);})();</script>
 </body>
 </html>

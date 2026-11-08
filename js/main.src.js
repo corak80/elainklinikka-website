@@ -4883,7 +4883,8 @@ function initPawTrail() {
     const link = e.target && e.target.closest
       ? e.target.closest('a[href*="my.provet.com"]')
       : null;
-    if (!link || typeof gtag !== 'function') return;
+    // No consent = no Google tag loaded (js/consent.js), so don't hold the click for a hit that never leaves.
+    if (!link || typeof gtag !== 'function' || !(window.saariConsent && window.saariConsent.granted())) return;
 
     // Let the browser handle modified clicks and new-tab links itself.
     if (e.defaultPrevented || e.button !== 0) return;
