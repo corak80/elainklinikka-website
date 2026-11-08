@@ -3723,7 +3723,7 @@ Terveys
 
 ### Koiran korvatulehdus – oireet, syyt, hoito ja hinta
 
-Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkärikäynnin syistä. Koira ravistelee päätään ja raapii korviaan, ja korva haisee pahalta tai siitä vuotaa eritettä. Älä jää odottamaan, että tulehdus paranee itsestään: kunnolla tutkittuina ja hoidettuina useimmat äkilliset korvatulehdukset paranevat 2–4 viikossa. Toistuvan tulehduksen taustalla on lähes aina jokin perussyy, joka on selvitettävä ja pidettävä hallinnassa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saaressa ja miten tulehduksen uusiutumista voi ehkäistä.
+Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkärikäynnin syistä. Koira ravistelee päätään ja raapii korviaan, ja korva haisee pahalta tai siitä vuotaa eritettä. Älä jää odottamaan, että tulehdus paranee itsestään: kunnolla tutkittuina ja hoidettuina useimmat äkilliset korvatulehdukset paranevat 2–4 viikossa. Toistuvan tulehduksen taustalla on lähes aina jokin perussyy, joka on selvitettävä ja pidettävä hallinnassa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saarella ja miten tulehduksen uusiutumista voi ehkäistä.
 Päivystys
 24.9.2026
 
@@ -3807,7 +3807,7 @@ Päivystys
 
 ### Koiran kohtutulehdus (pyometra) – oireet, kuinka nopeasti se etenee, hoito ja toipuminen
 
-Kohtutulehdus eli märkäkohtu (pyometra) on hengenvaarallinen infektio, jossa steriloimattoman naaraan kohtu täyttyy märällä. Se on steriloimattomien narttujen yleisimpiä vakavia sairauksia: niistä noin joka viides (19–24 % ruotsalaisessa vakuutusaineistossa) sairastuu siihen 10 ikävuoteen mennessä. Tautia esiintyy myös kissoilla. Kohtutulehdus vaatii yleensä päivystysleikkauksen, ja oireiden varhainen tunnistaminen voi pelastaa lemmikkisi hengen. Tässä artikkelissa kerromme, miltä oireet näyttävät, kuinka nopeasti kohtutulehdus kehittyy, miksi pelkät antibiootit eivät riitä, miten sitä hoidetaan Eläinklinikka Saaressa, mitä toipuminen vaatii ja miten taudin voi ehkäistä.
+Kohtutulehdus eli märkäkohtu (pyometra) on hengenvaarallinen infektio, jossa steriloimattoman naaraan kohtu täyttyy märällä. Se on steriloimattomien narttujen yleisimpiä vakavia sairauksia: niistä noin joka viides (19–24 % ruotsalaisessa vakuutusaineistossa) sairastuu siihen 10 ikävuoteen mennessä. Tautia esiintyy myös kissoilla. Kohtutulehdus vaatii yleensä päivystysleikkauksen, ja oireiden varhainen tunnistaminen voi pelastaa lemmikkisi hengen. Tässä artikkelissa kerromme, miltä oireet näyttävät, kuinka nopeasti kohtutulehdus kehittyy, miksi pelkät antibiootit eivät riitä, miten sitä hoidetaan Eläinklinikka Saarella, mitä toipuminen vaatii ja miten taudin voi ehkäistä.
 Ortopedia
 27.9.2026
 
@@ -3983,7 +3983,7 @@ Tähystys
 ## Koiran ja kissan korvahuuhtelu nukutuksessa (video-otoskopia)
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Korvahuuhtelu nukutuksessa on toimenpide, jossa koko korvakäytävä puhdistetaan video-otoskoopin avulla. Näin tärykalvon kunto voidaan tarkistaa ja korvalääke pääsee korvakäytävän iholle asti. Eläinklinikka Saaressa Vaasassa korvahuuhtelu maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys, mutta korvanäytteiden mikroskopointi veloitetaan erikseen.
+Korvahuuhtelu nukutuksessa on toimenpide, jossa koko korvakäytävä puhdistetaan video-otoskoopin avulla. Näin tärykalvon kunto voidaan tarkistaa ja korvalääke pääsee korvakäytävän iholle asti. Eläinklinikka Saarella Vaasassa korvahuuhtelu maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys, mutta korvanäytteiden mikroskopointi veloitetaan erikseen.
 Korvatulehdus on yksi yleisimmistä syistä, joiden vuoksi koira tuodaan eläinlääkäriin. Useimpiin korvatutkimuksiin riittää tavallinen otoskooppi, mutta turvotus ja erite voivat peittää tärykalvon näkyvistä. Video-otoskopiassa ohut, kameralla varustettu tähystin näyttää korvakäytävän suurennettuna näytöllä.
 
 ### Miksi video-otoskopia?
@@ -4009,7 +4009,7 @@ Koiran uusiutuvan korvatulehduksen taustalla on lähes aina jokin perussyy, usei
 
 ### Paljonko koiran korvahuuhtelu maksaa?
 
-Eläinklinikka Saaressa video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys. Korvanäytteiden mikroskopointi, ulkopuolisessa laboratoriossa tehtävät tutkimukset (bakteeriviljely, koepalat) ja kotiin annettavat lääkkeet veloitetaan erikseen. Tavallinen korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, maksaa käyntimaksuineen 137,79 €. Muut hintamme löydät hinnastostamme.
+Eläinklinikka Saarella video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € lemmikin painon mukaan (alle tai yli 15 kg). Hintaan sisältyvät nukutus ja kipulääkitys. Korvanäytteiden mikroskopointi, ulkopuolisessa laboratoriossa tehtävät tutkimukset (bakteeriviljely, koepalat) ja kotiin annettavat lääkkeet veloitetaan erikseen. Tavallinen korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, maksaa käyntimaksuineen 137,79 €. Muut hintamme löydät hinnastostamme.
 
 ### Milloin kannattaa ottaa yhteyttä?
 
@@ -4058,7 +4058,7 @@ Terveys
 ## Koiran korvatulehdus – oireet, syyt, hoito ja hinta
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkärikäynnin syistä. Koira ravistelee päätään ja raapii korviaan, ja korva haisee pahalta tai siitä vuotaa eritettä. Älä jää odottamaan, että tulehdus paranee itsestään: kunnolla tutkittuina ja hoidettuina useimmat äkilliset korvatulehdukset paranevat 2–4 viikossa. Toistuvan tulehduksen taustalla on lähes aina jokin perussyy, joka on selvitettävä ja pidettävä hallinnassa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saaressa ja miten tulehduksen uusiutumista voi ehkäistä.
+Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkärikäynnin syistä. Koira ravistelee päätään ja raapii korviaan, ja korva haisee pahalta tai siitä vuotaa eritettä. Älä jää odottamaan, että tulehdus paranee itsestään: kunnolla tutkittuina ja hoidettuina useimmat äkilliset korvatulehdukset paranevat 2–4 viikossa. Toistuvan tulehduksen taustalla on lähes aina jokin perussyy, joka on selvitettävä ja pidettävä hallinnassa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saarella ja miten tulehduksen uusiutumista voi ehkäistä.
 
 ### Mitkä ovat koiran korvatulehduksen oireet?
 
@@ -4080,12 +4080,12 @@ Vastaanotolla korvakäytävä ja tärykalvo tutkitaan otoskoopilla. Korvaerittee
 
 ### Milloin koira tarvitsee korvahuuhtelun nukutuksessa?
 
-Jos tulehdus on krooninen tai uusiutuu hoidosta huolimatta, korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin, tarvitaan perusteellisempi tutkimus. Eläinklinikka Saaressa se tehdään video-otoskoopilla yleisanestesiassa eli nukutuksessa: ohut kamera näyttää koko korvakäytävän ja tärykalvon suurennettuna näytöllä, korvakäytävä huuhdellaan puhtaaksi eritteestä ja bakteerien muodostamasta biofilmistä, ja samalla voidaan ottaa näytteitä ja poistaa vierasesineitä. Korvalääke tehoaa vain, jos se pääsee korvakäytävän iholle asti, joten puhdas korvakäytävä on välttämätön. Lue lisää artikkelistamme Korvahuuhtelu nukutuksessa (video-otoskopia).
+Jos tulehdus on krooninen tai uusiutuu hoidosta huolimatta, korvakäytävä on eritteen tukkima tai tärykalvoa ei saada näkyviin, tarvitaan perusteellisempi tutkimus. Eläinklinikka Saarella se tehdään video-otoskoopilla yleisanestesiassa eli nukutuksessa: ohut kamera näyttää koko korvakäytävän ja tärykalvon suurennettuna näytöllä, korvakäytävä huuhdellaan puhtaaksi eritteestä ja bakteerien muodostamasta biofilmistä, ja samalla voidaan ottaa näytteitä ja poistaa vierasesineitä. Korvalääke tehoaa vain, jos se pääsee korvakäytävän iholle asti, joten puhdas korvakäytävä on välttämätön. Lue lisää artikkelistamme Korvahuuhtelu nukutuksessa (video-otoskopia).
 Video-otoskoopilla otettu kuva koiran korvakäytävästä ulkokorvan tulehduksessa: käytävä on täynnä tummaa eritettä ja takkuista karvaa, ja sen seinämä on punoittava. Kuva: Eläinklinikka Saari.
 
 ### Paljonko koiran korvatulehduksen hoito maksaa?
 
-Korvatulehduskäynti Eläinklinikka Saaressa: korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, 99,79 € + käyntimaksu 38 € = yhteensä 137,79 €. Korvatipat ja muut mahdolliset kotiin annettavat lääkkeet veloitetaan erikseen. Jälkitarkastus, joka sisältää uuden näytteen ja mikroskopoinnin, maksaa 77,88 € + käyntimaksu 38 € = yhteensä 115,88 €. Video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € (nukutus ja kipulääkitys sisältyvät hintaan, korvanäytteiden mikroskopointi ei). Muut hintamme löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajoissa hoidettu korvatulehdus tulee yleensä paljon edullisemmaksi kuin kroonistunut.
+Korvatulehduskäynti Eläinklinikka Saarella: korvatutkimus, joka sisältää näytteenoton ja mikroskopoinnin, 99,79 € + käyntimaksu 38 € = yhteensä 137,79 €. Korvatipat ja muut mahdolliset kotiin annettavat lääkkeet veloitetaan erikseen. Jälkitarkastus, joka sisältää uuden näytteen ja mikroskopoinnin, maksaa 77,88 € + käyntimaksu 38 € = yhteensä 115,88 €. Video-otoskooppinen korvahuuhtelu nukutuksessa maksaa 449–489 € (nukutus ja kipulääkitys sisältyvät hintaan, korvanäytteiden mikroskopointi ei). Muut hintamme löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Ajoissa hoidettu korvatulehdus tulee yleensä paljon edullisemmaksi kuin kroonistunut.
 
 ### Miksi koiran korvatulehdus uusiutuu jatkuvasti?
 
@@ -4105,7 +4105,7 @@ Kissoilla korvatulehdukset ovat harvinaisempia kuin koirilla, ja yleisin syy on 
 
 ### Milloin koiran korvatulehduksen kanssa pitää mennä eläinlääkäriin?
 
-Aina, kun koira ravistelee päätään tai raapii korviaan toistuvasti, kun korva haisee tai siitä vuotaa eritettä tai kun korva on punoittava ja arka. Kiireellisesti, samana päivänä, jos koira pitää päätään kallellaan, kävelee horjuen, sen kasvojen toinen puoli roikkuu tai se on selvästi kivulias. Eläinklinikka Saaressa Vaasassa tutkimme korvat otoskoopilla ja korvanäytteen mikroskoopilla samalla käynnillä, ja kroonisia tapauksia varten meillä on video-otoskopia ja korvahuuhtelu. Varaa aika soittamalla (06) 321 7300 tai nettiajanvarauksen kautta.
+Aina, kun koira ravistelee päätään tai raapii korviaan toistuvasti, kun korva haisee tai siitä vuotaa eritettä tai kun korva on punoittava ja arka. Kiireellisesti, samana päivänä, jos koira pitää päätään kallellaan, kävelee horjuen, sen kasvojen toinen puoli roikkuu tai se on selvästi kivulias. Eläinklinikka Saarella Vaasassa tutkimme korvat otoskoopilla ja korvanäytteen mikroskoopilla samalla käynnillä, ja kroonisia tapauksia varten meillä on video-otoskopia ja korvahuuhtelu. Varaa aika soittamalla (06) 321 7300 tai nettiajanvarauksen kautta.
 
 ### Lähteet
 
@@ -5591,7 +5591,7 @@ Päivystys
 ## Koiran kohtutulehdus (pyometra) – oireet, kuinka nopeasti se etenee, hoito ja toipuminen
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Kohtutulehdus eli märkäkohtu (pyometra) on hengenvaarallinen infektio, jossa steriloimattoman naaraan kohtu täyttyy märällä. Se on steriloimattomien narttujen yleisimpiä vakavia sairauksia: niistä noin joka viides (19–24 % ruotsalaisessa vakuutusaineistossa) sairastuu siihen 10 ikävuoteen mennessä. Tautia esiintyy myös kissoilla. Kohtutulehdus vaatii yleensä päivystysleikkauksen, ja oireiden varhainen tunnistaminen voi pelastaa lemmikkisi hengen. Tässä artikkelissa kerromme, miltä oireet näyttävät, kuinka nopeasti kohtutulehdus kehittyy, miksi pelkät antibiootit eivät riitä, miten sitä hoidetaan Eläinklinikka Saaressa, mitä toipuminen vaatii ja miten taudin voi ehkäistä.
+Kohtutulehdus eli märkäkohtu (pyometra) on hengenvaarallinen infektio, jossa steriloimattoman naaraan kohtu täyttyy märällä. Se on steriloimattomien narttujen yleisimpiä vakavia sairauksia: niistä noin joka viides (19–24 % ruotsalaisessa vakuutusaineistossa) sairastuu siihen 10 ikävuoteen mennessä. Tautia esiintyy myös kissoilla. Kohtutulehdus vaatii yleensä päivystysleikkauksen, ja oireiden varhainen tunnistaminen voi pelastaa lemmikkisi hengen. Tässä artikkelissa kerromme, miltä oireet näyttävät, kuinka nopeasti kohtutulehdus kehittyy, miksi pelkät antibiootit eivät riitä, miten sitä hoidetaan Eläinklinikka Saarella, mitä toipuminen vaatii ja miten taudin voi ehkäistä.
 
 ### Mitkä ovat koiran kohtutulehduksen oireet?
 
@@ -5607,7 +5607,7 @@ Perimmäinen syy on hormonaalinen: jokaisen juoksuajan jälkeen keltarauhashormo
 
 ### Voiko kohtutulehdus parantua itsestään tai antibiooteilla?
 
-Ei. Hoitamaton kohtutulehdus on hengenvaarallinen: kohtu voi revetä, ja infektio voi johtaa sepsikseen, munuaisvaurioon ja vatsakalvontulehdukseen. Pelkät antibiootit voivat hidastaa taudin etenemistä, mutta ne eivät paranna kohtua. Lääkehoito hormonivalmisteilla ja antibiooteilla on vaihtoehto vain valikoiduille potilaille: nuorille, muuten terveille jalostusnartuille, joilla on avoin kohtutulehdus eikä merkkejä sepsiksestä. Silloinkin kohtutulehdus uusiutuu jonkin myöhemmän juoksuajan yhteydessä keskimäärin noin kolmella koiralla kymmenestä (29 %; eri tutkimuksissa raportoitu vaihteluväli 0–85 %). Siksi narttu tulisi astuttaa heti seuraavan juoksuajan aikana. Vain leikkaus estää taudin uusiutumisen luotettavasti. Kaikille muille potilaille leikkaus on ensisijainen hoito. Eläinklinikka Saaressa emme tarjoa hormonihoitoa, vaan suosittelemme leikkausta lähes jokaisessa tapauksessa.
+Ei. Hoitamaton kohtutulehdus on hengenvaarallinen: kohtu voi revetä, ja infektio voi johtaa sepsikseen, munuaisvaurioon ja vatsakalvontulehdukseen. Pelkät antibiootit voivat hidastaa taudin etenemistä, mutta ne eivät paranna kohtua. Lääkehoito hormonivalmisteilla ja antibiooteilla on vaihtoehto vain valikoiduille potilaille: nuorille, muuten terveille jalostusnartuille, joilla on avoin kohtutulehdus eikä merkkejä sepsiksestä. Silloinkin kohtutulehdus uusiutuu jonkin myöhemmän juoksuajan yhteydessä keskimäärin noin kolmella koiralla kymmenestä (29 %; eri tutkimuksissa raportoitu vaihteluväli 0–85 %). Siksi narttu tulisi astuttaa heti seuraavan juoksuajan aikana. Vain leikkaus estää taudin uusiutumisen luotettavasti. Kaikille muille potilaille leikkaus on ensisijainen hoito. Eläinklinikka Saarella emme tarjoa hormonihoitoa, vaan suosittelemme leikkausta lähes jokaisessa tapauksessa.
 
 ### Miten kohtutulehdus todetaan?
 

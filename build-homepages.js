@@ -101,7 +101,7 @@ const personDescriptions = {
     en: 'Veterinarian since 2011. Specialised in dentistry, endoscopy and wildlife medicine.',
   },
   'Nina Haglund': {
-    fi: 'Eläinlääkäri vuodesta 2016/2017, Eläinklinikka Saaressa vuodesta 2020. Erikoistunut kirurgiaan, hammashoitoon ja dermatologiaan. Farmaseutin tausta.',
+    fi: 'Eläinlääkäri vuodesta 2016/2017, Eläinklinikka Saarella vuodesta 2020. Erikoistunut kirurgiaan, hammashoitoon ja dermatologiaan. Farmaseutin tausta.',
     sv: 'Veterinär sedan 2016/2017, vid Djurklinik Saari sedan 2020. Specialiserad på kirurgi, tandvård och dermatologi. Bakgrund som farmaceut.',
     en: 'Veterinarian since 2016/2017, at Eläinklinikka Saari since 2020. Specialised in surgery, dentistry and dermatology. Pharmacist background.',
   },
@@ -111,7 +111,7 @@ const personDescriptions = {
     en: 'Veterinarian since 2024. Special interests: soft tissue surgery and exotic animals.',
   },
   'Hanna Takkinen': {
-    fi: 'Eläinlääkäri vuodesta 2024, Eläinklinikka Saaressa elokuusta 2026. Erityiset kiinnostuksen kohteet: sisätaudit, dermatologia, pehmytkudoskirurgia ja eksoottiset nisäkkäät.',
+    fi: 'Eläinlääkäri vuodesta 2024, Eläinklinikka Saarella elokuusta 2026. Erityiset kiinnostuksen kohteet: sisätaudit, dermatologia, pehmytkudoskirurgia ja eksoottiset nisäkkäät.',
     sv: 'Veterinär sedan 2024, vid Djurklinik Saari sedan augusti 2026. Särskilda intressen: invärtesmedicin, dermatologi, mjukdelskirurgi och exotiska däggdjur.',
     en: 'Veterinarian since 2024, at Eläinklinikka Saari since August 2026. Special interests: internal medicine, dermatology, soft-tissue surgery and exotic mammals.',
   },
