@@ -7029,7 +7029,27 @@ function normalizeVolatileDates(s) {
 // dateModified moved forward — search engines see the sitemap claiming a page is
 // older than the page says it is. See writeSitemap below.
 let pagesWritten = 0;
+// Pages that carry OG tags but no twitter:* tags get twitter tags copied from
+// their own OG title/description/image, placed right after the last og: meta.
+// (X falls back poorly without twitter:card.) Hand pages got the same insert
+// once by script on 08-11-2026, so a rebuild stays a no-op.
+function addTwitterTags(html) {
+  if (!/property="og:title"/.test(html) || /name="twitter:/.test(html)) return html;
+  const og = (k) => { const m = html.match(new RegExp(`<meta property="og:${k}" content="([^"]*)">`)); return m ? m[1] : null; };
+  const title = og('title'), desc = og('description'), image = og('image');
+  const lines = [...html.matchAll(/^([ \t]*)<meta property="og:[^"]+" content="[^"]*">[ \t]*$/gm)];
+  if (!title || !lines.length) return html;
+  const last = lines[lines.length - 1], indent = last[1];
+  const tags = [`${indent}<meta name="twitter:card" content="summary_large_image">`,
+    `${indent}<meta name="twitter:title" content="${title}">`];
+  if (desc) tags.push(`${indent}<meta name="twitter:description" content="${desc}">`);
+  if (image) tags.push(`${indent}<meta name="twitter:image" content="${image}">`);
+  const at = last.index + last[0].length;
+  return html.slice(0, at) + '\n' + tags.join('\n') + html.slice(at);
+}
+
 function writeGenerated(file, content) {
+  if (file.endsWith('.html')) content = addTwitterTags(content);
   try {
     const existing = fs.readFileSync(file, 'utf-8');
     if (normalizeVolatileDates(existing) === normalizeVolatileDates(content)) return false;
