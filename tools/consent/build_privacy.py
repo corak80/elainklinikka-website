@@ -16,7 +16,8 @@ DOCS = os.path.join(ROOT, 'docs', 'compliance-2026-11')
 BASE = 'https://elainklinikkasaari.fi'
 PAGES = {
     'fi': {'path': '/tietosuoja/', 'template': 'tietosuoja/index.html', 'locale': 'fi_FI', 'brand': 'Eläinklinikka Saari'},
-    'sv': {'path': '/sv/dataskydd/', 'template': 'sv/kontakt/index.html', 'locale': 'sv_FI', 'brand': 'Djurklinik Saari'},
+    # 'title': short name for the browser/search title only (the H1 keeps the full privacy_title with the company name)
+    'sv': {'path': '/sv/dataskydd/', 'template': 'sv/kontakt/index.html', 'locale': 'sv_FI', 'brand': 'Djurklinik Saari', 'title': 'Dataskyddsbeskrivning'},
     'en': {'path': '/en/privacy/', 'template': 'en/contact/index.html', 'locale': 'en_GB', 'brand': 'Saari Animal Clinic'},
 }
 PRIVACY_CSS = '''  <style id="privacy-css">
@@ -49,7 +50,7 @@ def build(lang):
     p, t = PAGES[lang], text(lang)
     src = open(os.path.join(ROOT, p['template']), encoding='utf-8').read()
     url = BASE + p['path']
-    title = f"{t['privacy_title']} | {p['brand']}"
+    title = f"{p.get('title', t['privacy_title'])} | {p['brand']}"
     desc = t['privacy_meta_description']
     s = re.sub(r'<title>.*?</title>', f'<title>{html.escape(title)}</title>', src, count=1, flags=re.S)
     s = set_attr(s, r'(<meta name="description" content=")[^"]*(")', desc)

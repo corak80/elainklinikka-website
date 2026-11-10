@@ -558,7 +558,7 @@ Ja. Vi är en officiellt Cat Friendly-certifierad klinik och tar hänsyn till ka
 
 ---
 
-# Dataskyddsbeskrivning – Eläinklinikka Saari Oy | Djurklinik Saari
+# Dataskyddsbeskrivning | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/dataskydd/
 Last updated: 2026-11-09
