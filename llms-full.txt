@@ -9,7 +9,7 @@
 # Eläinlääkäri Vaasa – Eläinklinikka Saari, vuodesta 1989
 
 URL: https://elainklinikkasaari.fi/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 💉 Drop-in-rokotukset ilman ajanvarausta tiistaisin 15.30–16.00, 10 % edullisemmin
 
@@ -561,7 +561,7 @@ Kyllä. Olemme virallisesti Cat Friendly -sertifioitu klinikka, ja huomioimme ki
 # Tietoa klinikasta | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/meista/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 ## Tietoa klinikasta
 
@@ -611,7 +611,7 @@ Takaisin etusivulle
 # Yhteystiedot | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/yhteystiedot/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 ## Yhteystiedot
 
@@ -667,7 +667,7 @@ Takaisin etusivulle
 # Henkilökunta | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/henkilokunta/
-Last updated: 2026-11-09
+Last updated: 2026-10-25
 
 ## Henkilökunta
 
@@ -1227,7 +1227,7 @@ Arvostelut on koottu Google-asiakasarvosteluista ja näytetään tällä sivulla
 # Varaa aika | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/ajanvaraus/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Takaisin etusivulle
 Soita meille
@@ -1247,7 +1247,7 @@ Vastausaika n. 1 työpäivä
 # Luonnonvaraisten eläinten hoito | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/villielaimet/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Luonnonvaraisten eläinten osasto
 
@@ -1491,7 +1491,7 @@ Kumppanimme, joka huolehtii villieläinpotilaista klinikan jälkeen – kuntoutt
 # Eläinlääkäri Vaasa – Eläinklinikka Saari, ark. 7:45–17
 
 URL: https://elainklinikkasaari.fi/elainlaakari-vaasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Eläinlääkäri Vaasassa – Eläinklinikka Saari
 
@@ -1576,7 +1576,7 @@ Varaa verkossa
 # Kissan eläinlääkäri Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/kissan-elainlaakari-vaasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Kissan eläinlääkäri Vaasassa – rauhallista ja kiireetöntä hoitoa kissallesi
 
@@ -1666,7 +1666,7 @@ Varaa verkossa
 # Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hammashoito/
-Last updated: 2026-11-09
+Last updated: 2026-09-29
 
 Takaisin etusivulle
 
@@ -1863,7 +1863,7 @@ Takaisin etusivulle
 # Eläinkirurgia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kirurgia/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -1948,7 +1948,7 @@ Takaisin etusivulle
 # Koiran ja kissan tähystys Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/tahystykset/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2011,7 +2011,7 @@ Takaisin etusivulle
 # Koiran ja kissan rokotukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rokotukset/
-Last updated: 2026-11-09
+Last updated: 2026-10-23
 
 Takaisin etusivulle
 
@@ -2101,7 +2101,7 @@ Takaisin etusivulle
 # Koiran ja kissan ultraääni Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ultraaani/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2159,7 +2159,7 @@ Takaisin etusivulle
 # Ihotaudit ja allergiat Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ihotaudit/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2217,7 +2217,7 @@ Takaisin etusivulle
 # Senioritutkimus Vaasassa 299 € | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/senioritarkastus/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2320,7 +2320,7 @@ Takaisin etusivulle
 # Pentutarkastus ja mikrosiru Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/pentutarkastus/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2378,7 +2378,7 @@ Takaisin etusivulle
 # Koiran ja kissan akupunktio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/akupunktio/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2436,7 +2436,7 @@ Takaisin etusivulle
 # Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -2494,7 +2494,7 @@ Takaisin etusivulle
 # Koiran ja kissan sterilointi Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sterilisaatio/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Takaisin etusivulle
 
@@ -2581,7 +2581,7 @@ Takaisin etusivulle
 # Eläinten sisätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sisataudit/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -2644,7 +2644,7 @@ Takaisin etusivulle
 # Koiran ja kissan silmätaudit Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/silmataudit/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -2697,7 +2697,7 @@ Takaisin etusivulle
 # Eläinklinikan oma laboratorio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/laboratorio/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2751,7 +2751,7 @@ Takaisin etusivulle
 # Röntgen eläimille Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rontgen/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Takaisin etusivulle
 
@@ -2809,7 +2809,7 @@ Takaisin etusivulle
 # Eutanasia – lemmikin lopetus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/eutanasia/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -2858,7 +2858,7 @@ Takaisin etusivulle
 # Koiran ja kissan passi (EU-lemmikkipassi) – 80,50 € Vaasassa
 
 URL: https://elainklinikkasaari.fi/palvelut/eu-lemmikkipassi/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Takaisin etusivulle
 
@@ -2947,7 +2947,7 @@ Takaisin etusivulle
 # Koiran ja kissan verikokeet Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/verikokeet/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -3005,7 +3005,7 @@ Takaisin etusivulle
 # Lemmikin tiineystutkimus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/tiineystutkimus/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -3058,7 +3058,7 @@ Takaisin etusivulle
 # Royal Canin ja dieettiruoat Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rehumyynti/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Takaisin etusivulle
 
@@ -3133,7 +3133,7 @@ Takaisin etusivulle
 # Hyvinvointi ja kuntoutus Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kuntoutus/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -3275,7 +3275,7 @@ Takaisin etusivulle
 # Ortopediset leikkaukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ortopedia/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -3339,7 +3339,7 @@ Takaisin etusivulle
 # Turvallinen eläinanestesia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/anestesia/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Takaisin etusivulle
 
@@ -3397,7 +3397,7 @@ Takaisin etusivulle
 # Eläinklinikan hygienia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hygienia/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Takaisin etusivulle
 
@@ -3450,7 +3450,7 @@ Takaisin etusivulle
 # Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivystys/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Takaisin etusivulle
 
@@ -3548,7 +3548,7 @@ Takaisin etusivulle
 # Eläinlääkäri Kristiinankaupunki – Eläinklinikka Saari, Vaasa
 
 URL: https://elainklinikkasaari.fi/elainlaakari-kristiinankaupunki/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 ## Eläinlääkäri Kristiinankaupungin ja Suupohjan lemmikeille – tunnin ajomatka Vaasaan
 
@@ -3689,7 +3689,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 ## Artikkelit
 
@@ -3900,7 +3900,7 @@ Takaisin etusivulle
 # TTA-leikkaus koiran ristisidevammaan – toipuminen ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/tta-leikkaus.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Ortopedia
 31.10.2026
@@ -3976,7 +3976,7 @@ Takaisin etusivulle
 # Koiran ja kissan korvahuuhtelu nukutuksessa – hinta Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/video-otoskopia.html
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Tähystys
 10.10.2026
@@ -4051,7 +4051,7 @@ Takaisin etusivulle
 # Koiran korvatulehdus – oireet, hoito ja hinta Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/koiran-korvatulehdus.html
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Terveys
 10.10.2026
@@ -4146,7 +4146,7 @@ Takaisin etusivulle
 # Seniorikissan terveystarkastus Vaasassa – sisältö ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/seniorikissan-terveystarkastus.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Terveys
 9.10.2026
@@ -4291,7 +4291,7 @@ Senioritutkimus alkaen 299 € Varaa aika
 # Koira ontuu – milloin eläinlääkäriin? Syyt ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/koira-ontuu.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Terveys
 9.10.2026
@@ -4418,7 +4418,7 @@ Soita
 # Koiran ja kissan turkinhoito – takut, iho ja trimmaus
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-turkinhoito.html
-Last updated: 2026-11-09
+Last updated: 2026-11-07
 
 Lemmikkien terveys
 7.11.2026
@@ -4505,7 +4505,7 @@ Takaisin etusivulle
 # Kissan munuaisten vajaatoiminta – oireet, hoito ja elinikä
 
 URL: https://elainklinikkasaari.fi/articles/kissan-munuaisten-vajaatoiminta.html
-Last updated: 2026-11-09
+Last updated: 2026-10-27
 
 Lemmikkien terveys
 27.10.2026
@@ -4633,7 +4633,7 @@ Takaisin etusivulle
 # Jatkuva kipulääkeinfuusio (CRI) | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/kipul%C3%A4%C3%A4keinfuusio.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Anestesia
 25.9.2026
@@ -4710,7 +4710,7 @@ Takaisin etusivulle
 # Ripuli koirilla ja kissoilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/ripuli.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Terveys
 25.9.2026
@@ -4781,7 +4781,7 @@ Takaisin etusivulle
 # Avoin valtimotiehyt (PDA) koirilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/avoin-valtimotiehyt-pda.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Kardiologia
 27.9.2026
@@ -4862,7 +4862,7 @@ Takaisin etusivulle
 # Koiran ja kissan hampaiden harjaus – näin pääset alkuun
 
 URL: https://elainklinikkasaari.fi/articles/hampaiden-harjaus.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hammashoito
 27.9.2026
@@ -4944,7 +4944,7 @@ Takaisin etusivulle
 # Viljaton ruoka koirille ja kissoille | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/viljaton-ruoka.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Terveys
 27.9.2026
@@ -5026,7 +5026,7 @@ Takaisin etusivulle
 # PerioVive-geeli koiran ja kissan iensairauden hoidon tukena
 
 URL: https://elainklinikkasaari.fi/articles/periovive.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hammashoito
 27.9.2026
@@ -5098,7 +5098,7 @@ Takaisin etusivulle
 # Miksi itsenäinen eläinklinikka on tärkeä valinta?
 
 URL: https://elainklinikkasaari.fi/articles/yksityinen-klinikka.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Klinikka
 27.9.2026
@@ -5162,7 +5162,7 @@ Takaisin etusivulle
 # Ruoka-allergiat koirilla ja kissoilla | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/ruoka-allergiat.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Lemmikkien terveys
 27.9.2026
@@ -5319,7 +5319,7 @@ Takaisin etusivulle
 # Koiran munuaisten vajaatoiminta – oireet, hoito ja elinikä
 
 URL: https://elainklinikkasaari.fi/articles/munuaisten-vajaatoiminta.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Lemmikkien terveys
 31.10.2026
@@ -5435,7 +5435,7 @@ Takaisin etusivulle
 # Kyynpurema koiralla ja kissalla – oireet, ensiapu ja hoito
 
 URL: https://elainklinikkasaari.fi/articles/kyynpurema.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Päivystys
 24.9.2026
@@ -5500,7 +5500,7 @@ Takaisin etusivulle
 # Myrkytys koiralla ja kissalla – oireet ja ensiapu
 
 URL: https://elainklinikkasaari.fi/articles/myrkytys.html
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Päivystys
 24.9.2026
@@ -5584,7 +5584,7 @@ Takaisin etusivulle
 # Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/kohtutulehdus.html
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Päivystys
 25.9.2026
@@ -5678,7 +5678,7 @@ Takaisin etusivulle
 # Lateral suture – koiran ristisidevamman leikkaus Vaasassa
 
 URL: https://elainklinikkasaari.fi/articles/lateral-suture.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Ortopedia
 27.9.2026
@@ -5759,7 +5759,7 @@ Takaisin etusivulle
 # Siili Euroopassa ja Suomessa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/siili.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5867,7 +5867,7 @@ Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosik
 # Löysitkö siilinpoikasen? Näin autat | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/siilinpoikanen.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5977,7 +5977,7 @@ Suomen eläinlääkärimarkkinat ovat muuttuneet dramaattisesti viimeisen vuosik
 # Vähemmän stressiä kissan eläinlääkärikäyntiin
 
 URL: https://elainklinikkasaari.fi/articles/kissayst%C3%A4v%C3%A4llinen-klinikka.html
-Last updated: 2026-11-09
+Last updated: 2026-09-29
 
 Kissojen terveys
 27.9.2026
@@ -6042,7 +6042,7 @@ Takaisin etusivulle
 # Puhkeamattomat hampaat ja hammasaihekystat
 
 URL: https://elainklinikkasaari.fi/articles/puhkeamattomat-hampaat.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hammashoito
 27.9.2026
@@ -6113,7 +6113,7 @@ Takaisin etusivulle
 # Koiran ja kissan gastroskopia – vierasesineet ja koepalat
 
 URL: https://elainklinikkasaari.fi/articles/gastroskopia.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tähystys
 27.9.2026
@@ -6193,7 +6193,7 @@ Takaisin etusivulle
 # Kissan ja koiran hammasresorptio – piilevä, kivulias sairaus
 
 URL: https://elainklinikkasaari.fi/articles/hammasresorptio.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hammashoito
 27.9.2026
@@ -6270,7 +6270,7 @@ Takaisin etusivulle
 # Rokotukset Suomessa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/articles/rokotukset.html
-Last updated: 2026-11-09
+Last updated: 2026-09-24
 
 Terveys
 24.9.2026
@@ -6349,7 +6349,7 @@ Takaisin etusivulle
 # Kuinka usein koira tai kissa madotetaan?
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-madotus.html
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Terveys
 25.9.2026
@@ -6441,7 +6441,7 @@ Takaisin etusivulle
 # Kissan IBD vai suoliston lymfooma – näin diagnoosi tehdään
 
 URL: https://elainklinikkasaari.fi/articles/ibd-lymfooma.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Terveys
 25.9.2026
@@ -6510,7 +6510,7 @@ Takaisin etusivulle
 # Hypotermia nukutuksessa – miksi lämmitämme jokaisen potilaan
 
 URL: https://elainklinikkasaari.fi/articles/hypotermia.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anestesia
 25.9.2026
@@ -6584,7 +6584,7 @@ Takaisin etusivulle
 # Koiran ja kissan nukutus – riskit ja miten vähennämme niitä
 
 URL: https://elainklinikkasaari.fi/articles/anestesiaturvallisuus.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anestesia
 24.9.2026
@@ -6654,7 +6654,7 @@ Takaisin etusivulle
 # Miksi klinikkaeläinhoitaja valvoo jokaista nukutusta
 
 URL: https://elainklinikkasaari.fi/articles/klinikkael%C3%A4inhoitaja.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Klinikka
 27.9.2026
@@ -6793,7 +6793,7 @@ Takaisin etusivulle
 # Saari mediassa | Eläinklinikka Saari, Vaasa
 
 URL: https://elainklinikkasaari.fi/media/
-Last updated: 2026-11-09
+Last updated: 2026-10-28
 
 ## Saari mediassa
 
@@ -6853,7 +6853,7 @@ Varaa verkossa
 # Yhteistyö eläinten hyväksi · Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/yhteistyo/
-Last updated: 2026-11-08
+Last updated: 2026-09-29
 
 Yhteistyö
 Samarbete
@@ -6948,7 +6948,7 @@ Thank you for helping us help. Every visit with your pet also supports the care 
 # Vaasan Kissatalo × Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/kissatalo/
-Last updated: 2026-11-08
+Last updated: 2026-09-29
 
 Yhteistyökumppani
 Samarbetspartner
@@ -7127,7 +7127,7 @@ Eläinklinikka Saari is proud to support the important work of Vaasa Cat House. 
 # Vaasanseudun eläinsuojeluyhdistys × Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/vesy/
-Last updated: 2026-11-08
+Last updated: 2026-09-29
 
 Yhteistyökumppani
 Samarbetspartner

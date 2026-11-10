@@ -9,7 +9,7 @@
 # Veterinarian in Vaasa — Saari Animal Clinic, Mon–Fri 7:45–17
 
 URL: https://elainklinikkasaari.fi/en/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 💉 Drop-in vaccinations without appointment on Tuesdays 3:30–4:00 PM, 10 % off
 
@@ -637,7 +637,7 @@ Back to homepage
 # Contact – Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/contact/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 ## Contact
 
@@ -693,7 +693,7 @@ Back to home
 # Vets and Nurses in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/staff/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 ## Staff
 
@@ -1017,7 +1017,7 @@ Reviews are taken from Google Customer Reviews and shown on this page exactly as
 # Book an appointment | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/book-appointment/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 Call us
@@ -1037,7 +1037,7 @@ Reply within ~1 business day
 # Wildlife care | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/wildlife/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Wildlife department
 
@@ -1293,7 +1293,7 @@ Our partner who looks after wildlife patients after the clinic — rehabilitates
 # Veterinarian Vaasa | Saari Animal Clinic since 1989
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-vaasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Veterinarian in Vaasa — Saari Animal Clinic
 
@@ -1382,7 +1382,7 @@ Book online
 # Cat Vet in Vaasa – Cat Friendly Clinic | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Cat vet in Vaasa – calm, unhurried care for your cat
 
@@ -1472,7 +1472,7 @@ Book online
 # Dog and Cat Teeth Cleaning in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dental-care/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 
@@ -1578,7 +1578,7 @@ Back to homepage
 # Dog Heart Ultrasound in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/cardiac-examinations/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 
@@ -1669,7 +1669,7 @@ Back to homepage
 # Veterinary Surgery in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/surgery/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -1754,7 +1754,7 @@ Back to homepage
 # Endoscopy for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/endoscopy/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -1817,7 +1817,7 @@ Back to homepage
 # Dog and Cat Vaccinations in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/vaccinations/
-Last updated: 2026-11-09
+Last updated: 2026-10-23
 
 Back to homepage
 
@@ -1907,7 +1907,7 @@ Back to homepage
 # Ultrasound for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/ultrasound/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -1965,7 +1965,7 @@ Back to homepage
 # Skin, Allergy and Ear Care in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dermatology/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2023,7 +2023,7 @@ Back to homepage
 # Senior Pet Check-up €299 in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/senior-check-up/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2119,7 +2119,7 @@ Back to homepage
 # Puppy Check-up and Microchip in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/puppy-check-up/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2177,7 +2177,7 @@ Back to homepage
 # Veterinary Acupuncture in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/acupuncture/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2235,7 +2235,7 @@ Back to homepage
 # Kennel Club Health Examinations, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/official-examinations/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2293,7 +2293,7 @@ Back to homepage
 # Dog and Cat Spaying in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/spay-and-neuter/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 Back to homepage
 
@@ -2380,7 +2380,7 @@ Back to homepage
 # Internal Medicine for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/internal-medicine/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Back to homepage
 
@@ -2443,7 +2443,7 @@ Back to homepage
 # Eye Diseases in Dogs and Cats, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/ophthalmology/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2496,7 +2496,7 @@ Back to homepage
 # In-House Veterinary Lab in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/laboratory/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2550,7 +2550,7 @@ Back to homepage
 # X-ray in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/x-ray/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 
@@ -2608,7 +2608,7 @@ Back to homepage
 # Pet Euthanasia in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/euthanasia/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2657,7 +2657,7 @@ Back to homepage
 # EU Pet Passport in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/eu-pet-passport/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2746,7 +2746,7 @@ Back to homepage
 # Blood Tests for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/blood-tests/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Back to homepage
 
@@ -2804,7 +2804,7 @@ Back to homepage
 # Pregnancy Examination for Pets, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/pregnancy-examination/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -2857,7 +2857,7 @@ Back to homepage
 # Royal Canin and Vet Diets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/prescription-diets/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Back to homepage
 
@@ -2932,7 +2932,7 @@ Back to homepage
 # Wellness and Rehabilitation in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/rehabilitation/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Back to homepage
 
@@ -3074,7 +3074,7 @@ Back to homepage
 # Orthopaedic Surgery for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/orthopedics/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -3138,7 +3138,7 @@ Back to homepage
 # Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/anesthesia/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Back to homepage
 
@@ -3196,7 +3196,7 @@ Back to homepage
 # Hygiene in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/hygiene/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 
@@ -3249,7 +3249,7 @@ Back to homepage
 # Emergency Veterinarian Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/emergency/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Back to homepage
 
@@ -3347,7 +3347,7 @@ Back to homepage
 # Vet for Kristinestad, Närpes and Kaskö pet owners – Vaasa
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 ## A vet for Kristinestad, Närpes and Kaskö – an hour's drive to Vaasa
 
@@ -3488,7 +3488,7 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 ## Articles
 
@@ -3699,7 +3699,7 @@ Back to homepage
 # TTA Surgery for Cruciate Ligament Disease in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/tta-surgery.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Orthopedics
 31.10.2026
@@ -3775,7 +3775,7 @@ Back to homepage
 # Ear Flushing Under Anaesthesia for Dogs and Cats – Price
 
 URL: https://elainklinikkasaari.fi/en/articles/video-otoscopy.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Endoscopy
 10.10.2026
@@ -3850,7 +3850,7 @@ Back to homepage
 # Ear Infections in Dogs – Symptoms, Treatment and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Health
 10.10.2026
@@ -3945,7 +3945,7 @@ Back to homepage
 # Senior Cat Health Check in Vaasa – What’s Included, Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Health
 9.10.2026
@@ -4090,7 +4090,7 @@ Senior check-up from €299 Book
 # Dog Limping: When to See a Vet, Causes and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-limping.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Health
 9.10.2026
@@ -4217,7 +4217,7 @@ Call
 # Coat Care in Dogs and Cats – Mats, Skin and Grooming
 
 URL: https://elainklinikkasaari.fi/en/articles/coat-care-dogs-cats.html
-Last updated: 2026-11-09
+Last updated: 2026-11-07
 
 Pet Health
 7.11.2026
@@ -4304,7 +4304,7 @@ Back to homepage
 # Kidney Disease in Cats – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease-cats.html
-Last updated: 2026-11-09
+Last updated: 2026-10-27
 
 Pet Health
 27.10.2026
@@ -4432,7 +4432,7 @@ Back to homepage
 # Continuous Rate Infusion (CRI) | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/pain-relief-infusion.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Anesthesia
 25.9.2026
@@ -4509,7 +4509,7 @@ Back to homepage
 # Diarrhoea in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/diarrhoea.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Health
 25.9.2026
@@ -4580,7 +4580,7 @@ Back to homepage
 # Patent Ductus Arteriosus (PDA) in Dogs | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/patent-ductus-arteriosus-pda.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Cardiology
 27.9.2026
@@ -4661,7 +4661,7 @@ Back to homepage
 # Tooth Brushing for Dogs and Cats – How to Get Started
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-brushing.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Dental
 27.9.2026
@@ -4743,7 +4743,7 @@ Back to homepage
 # Grain-Free Food for Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/grain-free-food.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Health
 27.9.2026
@@ -4825,7 +4825,7 @@ Back to homepage
 # PerioVive Gel for Periodontal Disease in Dogs and Cats
 
 URL: https://elainklinikkasaari.fi/en/articles/periovive.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Dental
 27.9.2026
@@ -4897,7 +4897,7 @@ Back to homepage
 # Why Choosing an Independent Veterinary Clinic Matters
 
 URL: https://elainklinikkasaari.fi/en/articles/independent-clinic.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Clinic
 27.9.2026
@@ -4961,7 +4961,7 @@ Back to homepage
 # Food Allergies in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/food-allergies.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Pet Health
 27.9.2026
@@ -5118,7 +5118,7 @@ Back to homepage
 # Kidney Disease in Dogs – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Pet Health
 31.10.2026
@@ -5234,7 +5234,7 @@ Back to homepage
 # Adder Bite in Dogs and Cats – Symptoms and First Aid
 
 URL: https://elainklinikkasaari.fi/en/articles/snake-bite.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Emergency
 24.9.2026
@@ -5299,7 +5299,7 @@ Back to homepage
 # Poisoning in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/poisoning.html
-Last updated: 2026-11-09
+Last updated: 2026-09-24
 
 Emergency
 24.9.2026
@@ -5383,7 +5383,7 @@ Back to homepage
 # Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery
 
 URL: https://elainklinikkasaari.fi/en/articles/pyometra.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Emergency
 25.9.2026
@@ -5477,7 +5477,7 @@ Back to homepage
 # Lateral Suture for Cruciate Ligament Rupture in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/lateral-suture.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Orthopedics
 27.9.2026
@@ -5558,7 +5558,7 @@ Back to homepage
 # The Hedgehog in Europe and Finland | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hedgehog.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5666,7 +5666,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # Found a Baby Hedgehog? What to Do | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/found-a-baby-hedgehog.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5776,7 +5776,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # A Less Stressful Vet Visit for Your Cat
 
 URL: https://elainklinikkasaari.fi/en/articles/cat-friendly-clinic.html
-Last updated: 2026-11-09
+Last updated: 2026-09-29
 
 Cat Health
 27.9.2026
@@ -5841,7 +5841,7 @@ Back to homepage
 # Unerupted Teeth and Dentigerous Cysts | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/unerupted-teeth.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Dental
 27.9.2026
@@ -5912,7 +5912,7 @@ Back to homepage
 # Gastroscopy for Dogs and Cats – Foreign Bodies and Biopsies
 
 URL: https://elainklinikkasaari.fi/en/articles/gastroscopy.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Endoscopy
 27.9.2026
@@ -5992,7 +5992,7 @@ Back to homepage
 # Tooth Resorption in Cats and Dogs – A Hidden Painful Disease
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-resorption.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Dental
 27.9.2026
@@ -6069,7 +6069,7 @@ Back to homepage
 # Vaccinations in Finland | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/vaccinations-guide.html
-Last updated: 2026-11-09
+Last updated: 2026-09-24
 
 Health
 24.9.2026
@@ -6148,7 +6148,7 @@ Back to homepage
 # How often should a dog or cat be dewormed?
 
 URL: https://elainklinikkasaari.fi/en/articles/deworming.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Health
 25.9.2026
@@ -6240,7 +6240,7 @@ Back to homepage
 # IBD or Intestinal Lymphoma in Cats – Diagnosis Explained
 
 URL: https://elainklinikkasaari.fi/en/articles/ibd-lymphoma.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Health
 25.9.2026
@@ -6309,7 +6309,7 @@ Back to homepage
 # Hypothermia Under Anaesthesia – Why We Warm Every Patient
 
 URL: https://elainklinikkasaari.fi/en/articles/hypothermia.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anesthesia
 25.9.2026
@@ -6383,7 +6383,7 @@ Back to homepage
 # Anaesthesia Safety for Pets – Risks and How We Reduce Them
 
 URL: https://elainklinikkasaari.fi/en/articles/anaesthesia-safety.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anesthesia
 24.9.2026
@@ -6453,7 +6453,7 @@ Back to homepage
 # Why a Veterinary Nurse Monitors Every Anaesthetic
 
 URL: https://elainklinikkasaari.fi/en/articles/veterinary-nurse.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Clinic
 27.9.2026
@@ -6516,7 +6516,7 @@ Back to homepage
 # Saari in the news | Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/media/
-Last updated: 2026-11-09
+Last updated: 2026-10-28
 
 ## Saari in the news
 

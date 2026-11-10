@@ -9,7 +9,7 @@
 # Veterinär & Smådjursklinik i Vasa – Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 💉 Drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00, 10 % rabatt
 
@@ -637,7 +637,7 @@ Tillbaka till startsidan
 # Kontakt – Djurklinik Saari, Vasa
 
 URL: https://elainklinikkasaari.fi/sv/kontakt/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 ## Kontakt
 
@@ -693,7 +693,7 @@ Tillbaka till startsidan
 # Veterinärer och klinikdjurskötare i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/personal/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 ## Personal
 
@@ -1017,7 +1017,7 @@ Omdömena är hämtade från Googles kundomdömen och visas på denna sida i den
 # Boka tid till veterinär i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tidsbokning/
-Last updated: 2026-11-09
+Last updated: 2026-09-19
 
 Tillbaka till startsidan
 Ring oss
@@ -1037,7 +1037,7 @@ Svar inom ca 1 arbetsdag
 # Vård av vilda djur | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/vilda-djur/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Avdelning för vilda djur
 
@@ -1287,7 +1287,7 @@ Vår partner som tar hand om vilddjurspatienter efter kliniken – rehabiliterar
 # Veterinär i Vasa | Djurklinik Saari – öppet mån–fre 7:45–17
 
 URL: https://elainklinikkasaari.fi/sv/veterinar-vasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Veterinär i Vasa – Djurklinik Saari
 
@@ -1372,7 +1372,7 @@ Boka online
 # Kattveterinär i Vasa – kattvänlig klinik | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/kattveterinar-vasa/
-Last updated: 2026-11-09
+Last updated: 2026-10-21
 
 ## Kattveterinär i Vasa – vård i lugn och ro för din katt
 
@@ -1462,7 +1462,7 @@ Boka online
 # Tandstensborttagning hund & katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/tandvard/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -1659,7 +1659,7 @@ Tillbaka till startsidan
 # Veterinärkirurgi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/kirurgi/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -1744,7 +1744,7 @@ Tillbaka till startsidan
 # Endoskopi för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/endoskopi/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -1807,7 +1807,7 @@ Tillbaka till startsidan
 # Vaccination av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/vaccinationer/
-Last updated: 2026-11-09
+Last updated: 2026-10-23
 
 Tillbaka till startsidan
 
@@ -1897,7 +1897,7 @@ Tillbaka till startsidan
 # Ultraljud för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ultraljud/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -1955,7 +1955,7 @@ Tillbaka till startsidan
 # Hud-, allergi- och öronproblem i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/hudsjukdomar/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2013,7 +2013,7 @@ Tillbaka till startsidan
 # Seniorundersökning i Vasa – 299 € | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/seniorundersokning/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2110,7 +2110,7 @@ Tillbaka till startsidan
 # Valpundersökning och mikrochip i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/valpundersokning/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2168,7 +2168,7 @@ Tillbaka till startsidan
 # Akupunktur för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/akupunktur/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -2226,7 +2226,7 @@ Tillbaka till startsidan
 # Officiella hälsoundersökningar i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/officiella-undersokningar/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -2284,7 +2284,7 @@ Tillbaka till startsidan
 # Sterilisering av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/sterilisering/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -2371,7 +2371,7 @@ Tillbaka till startsidan
 # Internmedicin för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/internmedicin/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2434,7 +2434,7 @@ Tillbaka till startsidan
 # Ögonsjukdomar hos hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ogonsjukdomar/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -2487,7 +2487,7 @@ Tillbaka till startsidan
 # Djurklinikens eget laboratorium i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/laboratorium/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2541,7 +2541,7 @@ Tillbaka till startsidan
 # Röntgen i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/rontgen/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -2599,7 +2599,7 @@ Tillbaka till startsidan
 # Eutanasi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/eutanasi/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -2648,7 +2648,7 @@ Tillbaka till startsidan
 # EU-pass för hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/eu-sallskapsdjurspass/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2737,7 +2737,7 @@ Tillbaka till startsidan
 # Blodprov i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/blodprov/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2795,7 +2795,7 @@ Tillbaka till startsidan
 # Dräktighetsundersökning i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/draktighetsundersokning/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -2848,7 +2848,7 @@ Tillbaka till startsidan
 # Royal Canin-foder och specialfoder i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/foderforsaljning/
-Last updated: 2026-11-09
+Last updated: 2026-11-05
 
 Tillbaka till startsidan
 
@@ -2923,7 +2923,7 @@ Tillbaka till startsidan
 # Välbefinnande och rehabilitering i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/rehabilitering/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tillbaka till startsidan
 
@@ -3065,7 +3065,7 @@ Tillbaka till startsidan
 # Ortopedi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ortopedi/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -3129,7 +3129,7 @@ Tillbaka till startsidan
 # Anestesi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/anestesi/
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Tillbaka till startsidan
 
@@ -3187,7 +3187,7 @@ Tillbaka till startsidan
 # Hygien i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/hygien/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -3240,7 +3240,7 @@ Tillbaka till startsidan
 # Akut veterinär Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
-Last updated: 2026-11-09
+Last updated: 2026-09-20
 
 Tillbaka till startsidan
 
@@ -3338,7 +3338,7 @@ Tillbaka till startsidan
 # Veterinär för Närpes, Kristinestad, Kaskö | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/veterinar-narpes-kristinestad/
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 ## Veterinär för Närpes, Kristinestad och Kaskö – en timmes bilresa till Vasa
 
@@ -3479,7 +3479,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-09
+Last updated: 2026-11-08
 
 ## Artiklar
 
@@ -3690,7 +3690,7 @@ Tillbaka till startsidan
 # TTA-operation vid korsbandsskada hos hund | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tta-operation.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Ortopedi
 31.10.2026
@@ -3766,7 +3766,7 @@ Tillbaka till startsidan
 # Öronspolning i narkos för hund och katt – pris i Vasa
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/video-otoskopi.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Endoskopi
 10.10.2026
@@ -3841,7 +3841,7 @@ Tillbaka till startsidan
 # Öroninflammation hos hund – symtom, behandling och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/oroninflammation-hund.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hälsa
 10.10.2026
@@ -3936,7 +3936,7 @@ Tillbaka till startsidan
 # Hälsokontroll för seniorkatter i Vasa – innehåll och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/halsokontroll-seniorkatt.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Hälsa
 9.10.2026
@@ -4081,7 +4081,7 @@ Seniorundersökning från 299 € Boka
 # Hunden haltar – när till veterinären? Orsaker och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html
-Last updated: 2026-11-09
+Last updated: 2026-10-09
 
 Hälsa
 9.10.2026
@@ -4208,7 +4208,7 @@ Ring
 # Pälsvård hos hund och katt – tovor, hud och trimning
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/palsvard-hund-katt.html
-Last updated: 2026-11-09
+Last updated: 2026-11-07
 
 Husdjurshälsa
 7.11.2026
@@ -4295,7 +4295,7 @@ Tillbaka till startsidan
 # Njursvikt hos katt – symtom, stadier och livslängd
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/njursvikt-katt.html
-Last updated: 2026-11-09
+Last updated: 2026-10-27
 
 Husdjurshälsa
 27.10.2026
@@ -4423,7 +4423,7 @@ Tillbaka till startsidan
 # Kontinuerlig smärtinfusion (CRI) | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/smartlindringsinfusion.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Anestesi
 25.9.2026
@@ -4500,7 +4500,7 @@ Tillbaka till startsidan
 # Diarré hos hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/diarre.html
-Last updated: 2026-11-09
+Last updated: 2026-09-25
 
 Hälsa
 25.9.2026
@@ -4571,7 +4571,7 @@ Tillbaka till startsidan
 # Öppen ductus arteriosus (PDA) hos hundar
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/oppen-ductus-arteriosus-pda.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Kardiologi
 27.9.2026
@@ -4652,7 +4652,7 @@ Tillbaka till startsidan
 # Tandborstning för hund och katt – så kommer du igång
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tandborstning.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tandvård
 27.9.2026
@@ -4734,7 +4734,7 @@ Tillbaka till startsidan
 # Spannmålsfri mat för hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/spannmalsfri-mat.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Hälsa
 27.9.2026
@@ -4816,7 +4816,7 @@ Tillbaka till startsidan
 # PerioVive-gel vid parodontal sjukdom hos hund och katt
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/periovive.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tandvård
 27.9.2026
@@ -4888,7 +4888,7 @@ Tillbaka till startsidan
 # Varför är en självständig djurklinik ett viktigt val?
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/privat-klinik.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Klinik
 27.9.2026
@@ -4952,7 +4952,7 @@ Tillbaka till startsidan
 # Födoämnesallergi hos hundar och katter | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/foderallergier.html
-Last updated: 2026-11-09
+Last updated: 2026-09-27
 
 Husdjurshälsa
 27.9.2026
@@ -5109,7 +5109,7 @@ Tillbaka till startsidan
 # Njursvikt hos hund – symtom, stadier och livslängd
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/njursvikt.html
-Last updated: 2026-11-09
+Last updated: 2026-10-31
 
 Husdjurshälsa
 31.10.2026
@@ -5225,7 +5225,7 @@ Tillbaka till startsidan
 # Huggormsbett hos hund och katt – symtom och första hjälpen
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/huggormsbett.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Akutvård
 24.9.2026
@@ -5290,7 +5290,7 @@ Tillbaka till startsidan
 # Förgiftning hos hund och katt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/forgiftning.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Akutvård
 24.9.2026
@@ -5374,7 +5374,7 @@ Tillbaka till startsidan
 # Livmoderinflammation hos hund – symtom, operation och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/livmoderinflammation.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Akutvård
 25.9.2026
@@ -5468,7 +5468,7 @@ Tillbaka till startsidan
 # Lateral sutur vid korsbandsskada hos hund | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/lateral-suture.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Ortopedi
 27.9.2026
@@ -5549,7 +5549,7 @@ Tillbaka till startsidan
 # Igelkotten i Europa och Finland | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/igelkott.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5657,7 +5657,7 @@ Den finländska veterinärmarknaden har förändrats dramatiskt under det senast
 # Igelkottsunge i Vasa? Så gör du rätt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/igelkottsunge.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Wildlife
 25.9.2026
@@ -5767,7 +5767,7 @@ Den finländska veterinärmarknaden har förändrats dramatiskt under det senast
 # Ett mindre stressande veterinärbesök för katten
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/kattvanlig-klinik.html
-Last updated: 2026-11-09
+Last updated: 2026-09-29
 
 Katthälsa
 27.9.2026
@@ -5832,7 +5832,7 @@ Tillbaka till startsidan
 # Icke frambrutna tänder och dentigerösa cystor
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/icke-framvaxta-tander.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tandvård
 27.9.2026
@@ -5903,7 +5903,7 @@ Tillbaka till startsidan
 # Gastroskopi för hund och katt – svalda föremål och biopsier
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/gastroskopi.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Endoskopi
 27.9.2026
@@ -5983,7 +5983,7 @@ Tillbaka till startsidan
 # Tandresorption hos katt och hund – dold och smärtsam sjukdom
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tandresorption.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Tandvård
 27.9.2026
@@ -6060,7 +6060,7 @@ Tillbaka till startsidan
 # Vaccinationer i Finland | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/vaccinationsguide.html
-Last updated: 2026-11-09
+Last updated: 2026-09-24
 
 Hälsa
 24.9.2026
@@ -6139,7 +6139,7 @@ Tillbaka till startsidan
 # Avmaskning av hund och katt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hälsa
 25.9.2026
@@ -6231,7 +6231,7 @@ Tillbaka till startsidan
 # IBD eller tarmlymfom hos katt – så ställs diagnosen
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/ibd-lymfom.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Hälsa
 25.9.2026
@@ -6300,7 +6300,7 @@ Tillbaka till startsidan
 # Hypotermi under narkos – därför värmer vi varje patient
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hypotermi.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anestesi
 25.9.2026
@@ -6374,7 +6374,7 @@ Tillbaka till startsidan
 # Anestesisäkerhet för husdjur – risker och hur vi minskar dem
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/anestesisakerhet.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Anestesi
 24.9.2026
@@ -6444,7 +6444,7 @@ Tillbaka till startsidan
 # Varför en klinikdjurskötare övervakar varje narkos
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/klinikdjurskotare.html
-Last updated: 2026-11-09
+Last updated: 2026-10-15
 
 Klinik
 27.9.2026
@@ -6507,7 +6507,7 @@ Tillbaka till startsidan
 # Saari i media | Djurklinik Saari, Vasa
 
 URL: https://elainklinikkasaari.fi/sv/media/
-Last updated: 2026-11-09
+Last updated: 2026-10-28
 
 ## Saari i media
 

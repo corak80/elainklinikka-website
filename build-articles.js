@@ -2250,7 +2250,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>${escapeHtml(pageTitle)}</title>
 
   <!-- Google Analytics: Consent Mode v2 (denied by default, enabled on accept) -->
@@ -2321,6 +2321,7 @@ function generateArticlePage(article, translations, specialContent, lang) {
     "@type": "Article",
     "headline": ${JSON.stringify(title)},
     "description": ${JSON.stringify(description)},
+    "inLanguage": "${lang}",
     "image": ${schemaImage},
     "datePublished": "${isoDatePublished}",
     "dateModified": "${isoDateModified}",
@@ -2610,7 +2611,7 @@ function generateArticleIndex(translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -4912,7 +4913,7 @@ function generateServicePage(service, translations, lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>${escapeHtml(pageTitle)}</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -5159,7 +5160,7 @@ function generatePrivacyPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>Tietosuojaseloste | Eläinklinikka Saari</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -5526,7 +5527,7 @@ function generateReviewsPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -5576,6 +5577,7 @@ function generateReviewsPage(lang) {
   <meta property="og:site_name" content="${i18n.brandName}">
 
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbLd(lang, i18n.h1, canonicalUrl), null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
@@ -5844,7 +5846,7 @@ function generateBookingPage(lang) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>${escapeHtml(i18n.pageTitle)}</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -5895,6 +5897,7 @@ function generateBookingPage(lang) {
   <meta property="og:site_name" content="${i18n.brandName}">
 
   <script type="application/ld+json">${JSON.stringify(jsonLd, null, 2)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbLd(lang, i18n.h1, canonicalUrl), null, 2)}</script>
 
   <link rel="preload" as="image" href="${assetPrefix}images/logo.png">
   <link rel="stylesheet" href="${assetPrefix}css/style.css${CSS_Q}">
@@ -5981,7 +5984,7 @@ function generateAboutPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>Tietoa klinikasta | Eläinklinikka Saari</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -6199,7 +6202,7 @@ function generateContactPage() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net https://connect.facebook.net https://*.facebook.net  https://www.clarity.ms https://*.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.google.fi https://googleads.g.doubleclick.net https://www.googletagmanager.com https://www.facebook.com https://*.facebook.com; font-src 'self'; connect-src 'self' https://pagead2.googlesyndication.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://www.facebook.com https://*.facebook.com https://*.facebook.net https://*.clarity.ms; frame-src https://www.google.com https://td.doubleclick.net https://news.google.com">
   <title>Yhteystiedot | Eläinklinikka Saari</title>
 
   <script src="/js/consent.js?v=20261109b"></script>
@@ -6524,6 +6527,8 @@ ${Object.entries(PRIVACY_HREF).map(([l, q]) => `    <xhtml:link rel="alternate" 
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="${BASE_URL}/meista/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/meista/"/>
   </url>
 `;
 
@@ -6893,6 +6898,18 @@ ${townLandingHreflang}  </url>
 // ──────────────────────────────────────────────
 // Utility functions
 // ──────────────────────────────────────────────
+// Two-step breadcrumb (home > this page) for pages that sit directly under the home page.
+function breadcrumbLd(lang, name, url) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: ({ sv: 'Startsidan', en: 'Home' })[lang] || 'Etusivu', item: BASE_URL + (({ sv: '/sv/', en: '/en/' })[lang] || '/') },
+      { '@type': 'ListItem', position: 2, name, item: url },
+    ],
+  };
+}
+
 function stripTags(str) {
   return String(str || '').replace(/<[^>]*>/g, '');
 }
@@ -6916,6 +6933,8 @@ function normalizeVolatileDates(s) {
 // dateModified moved forward — search engines see the sitemap claiming a page is
 // older than the page says it is. See writeSitemap below.
 let pagesWritten = 0;
+// Absolute paths of the pages rewritten this run (see writeSitemap).
+const writtenFiles = new Set();
 // Pages that carry OG tags but no twitter:* tags get twitter tags copied from
 // their own OG title/description/image, placed right after the last og: meta.
 // (X falls back poorly without twitter:card.) Hand pages got the same insert
@@ -6943,17 +6962,39 @@ function writeGenerated(file, content) {
   } catch (e) { /* new file */ }
   fs.writeFileSync(file, content, 'utf-8');
   pagesWritten++;
+  writtenFiles.add(path.resolve(file));
   return true;
 }
 
-// Write the sitemap, bypassing the date-only skip when pages changed this run so
-// <lastmod> stays consistent with the dateModified now on those pages.
+// Write the sitemap. generateSitemap() stamps today's date on every URL, so the
+// dates are merged here: a URL keeps the <lastmod> it already has in sitemap.xml
+// and moves to today only when its own page file was rewritten in this run, or
+// when the URL is new. (Until 10-11-2026 one rewritten page re-stamped all 227
+// URLs, which is how the 09-11 consent-banner commit dated the whole site.)
+// Hand-written pages are never rewritten by this build: when you change one by
+// hand, set its <lastmod> in sitemap.xml by hand too.
+function sitemapLocToFile(loc) {
+  let p = decodeURI(loc.replace(BASE_URL, ''));
+  if (p === '' || p.endsWith('/')) p += 'index.html';
+  return path.resolve(ROOT, '.' + (p.startsWith('/') ? p : '/' + p));
+}
+const SITEMAP_ENTRY = /(<url>\s*<loc>)([^<]+)(<\/loc>\s*<lastmod>)(\d{4}-\d{2}-\d{2})(<\/lastmod>)/g;
+function mergeSitemapLastmod(existing, content) {
+  const kept = new Map();
+  for (const m of existing.matchAll(SITEMAP_ENTRY)) kept.set(m[2], m[4]);
+  return content.replace(SITEMAP_ENTRY, (all, a, loc, b, date, c) => {
+    const old = kept.get(loc);
+    if (!old || writtenFiles.has(sitemapLocToFile(loc))) return all;
+    return a + loc + b + old + c;
+  });
+}
 function writeSitemap(file, content) {
-  if (pagesWritten > 0) {
-    fs.writeFileSync(file, content, 'utf-8');
-    return true;
-  }
-  return writeGenerated(file, content);
+  let existing = null;
+  try { existing = fs.readFileSync(file, 'utf-8'); } catch (e) { /* first build */ }
+  if (existing !== null) content = mergeSitemapLastmod(existing, content);
+  if (existing === content) return false;
+  fs.writeFileSync(file, content, 'utf-8');
+  return true;
 }
 
 // Wrap the clinic and emergency phone numbers in tel: links in visible HTML.
