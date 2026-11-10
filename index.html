@@ -353,7 +353,6 @@
   <link rel="preload" as="image" href="/images/logo.png">
   <link rel="preload" as="image" href="/media/hero-autumn-poster-mobile.jpg" media="(max-width: 719px)" fetchpriority="high">
   <link rel="preload" as="image" href="/media/hero-autumn-poster.jpg" media="(min-width: 720px)" fetchpriority="high">
-  <link rel="preload" as="image" href="/images/team-hero-1200.webp">
   <link rel="stylesheet" href="/css/style.css?v=20261025a">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
@@ -439,7 +438,8 @@ a.hero-badge{text-decoration:none}
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" poster="/media/hero-autumn-poster.jpg" aria-hidden="true" data-src="/media/hero-autumn.mp4" data-src-mobile="/media/hero-autumn-mobile.mp4"></video>
+    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" aria-hidden="true" data-src="/media/hero-autumn.mp4" data-src-mobile="/media/hero-autumn-mobile.mp4"></video>
+    <script>/* Poster per screen size: the same file the head preloads, so a phone no longer also downloads the desktop poster. */(function(v){if(v)v.poster=matchMedia('(max-width: 719px)').matches?'/media/hero-autumn-poster-mobile.jpg':'/media/hero-autumn-poster.jpg';})(document.getElementById('heroVid'));</script>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
@@ -472,8 +472,9 @@ a.hero-badge{text-decoration:none}
           <span data-i18n="hero.badge.team">14 ammattilaista</span>
         </a>
       </div>
+      <!-- .hero-photo is hidden while the video hero is on (display:none in the head styles), so its image is lazy and has no preload. If the photo returns to the hero: fetchpriority="high" here and a preload with imagesrcset in the head. -->
       <div class="hero-photo">
-        <a href="#team" aria-label="Tutustu henkilökuntaan"><img src="/images/team-hero-1200.webp" srcset="/images/team-hero-800.webp 800w, /images/team-hero-1200.webp 1200w, /images/team-hero.webp 1600w" sizes="(max-width: 900px) 92vw, 560px" alt="Eläinklinikka Saari team" width="1600" height="1067" fetchpriority="high"></a>
+        <a href="#team" aria-label="Tutustu henkilökuntaan"><img src="/images/team-hero-1200.webp" srcset="/images/team-hero-800.webp 800w, /images/team-hero-1200.webp 1200w, /images/team-hero.webp 1600w" sizes="(max-width: 900px) 92vw, 560px" alt="Eläinklinikka Saari team" width="1600" height="1067" loading="lazy"></a>
       </div>
     </div>
   </section>
