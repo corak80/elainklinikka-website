@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 
 ## Prislista – veterinärpriser i Vasa
 

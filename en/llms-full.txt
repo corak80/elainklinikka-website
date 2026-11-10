@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 
 ## Price List — Vet Prices in Vaasa
 

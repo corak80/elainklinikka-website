@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
