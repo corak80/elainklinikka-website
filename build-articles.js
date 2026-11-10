@@ -4976,6 +4976,13 @@ function generateServicePage(service, translations, lang) {
     "url": "${canonicalUrl}",
     "inLanguage": "${lang}",
     "lastReviewed": "${lastReviewed}",
+    "reviewedBy": {
+      "@type": "Person",
+      "@id": "${BASE_URL}/henkilokunta/#assaf-wydra",
+      "url": "${BASE_URL}/henkilokunta/#assaf-wydra",
+      "name": "Assaf Wydra",
+      "jobTitle": "Eläinlääkäri, toimitusjohtaja"
+    },
     "mainEntity": {
       "@type": "MedicalProcedure",
       "name": "${service.schemaService}",
