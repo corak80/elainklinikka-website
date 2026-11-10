@@ -12,6 +12,19 @@
 const fs = require('fs');
 const path = require('path');
 
+// STALE SINCE 10-2026 — DO NOT RUN AS IS. The three output pages were later edited by hand and this
+// script was never updated to match: the googleadservices host in the CSP, the hero image preload,
+// isPartOf + @id in the schema, style.css?v=20261025a and main.js?v=20261109a, the "(06) 321 7300"
+// phone format, image alts + fetchpriority, the footer privacy links, the articles nav link, the EN
+// description and the SV title. Running it would silently undo all of that and re-date the pages.
+// To change these pages: edit the HTML directly, or first bring this script level with its outputs
+// (run with --force in a scratch copy and diff until the output is byte-identical).
+if (!process.argv.includes('--force')) {
+  console.error('tools/sydosterbotten/build.js is stale and would undo later hand edits to its pages.\n' +
+    'Read the comment at the top of the file. Nothing was written.');
+  process.exit(1);
+}
+
 const ROOT = path.resolve(__dirname, '..', '..');
 const HOST = 'https://elainklinikkasaari.fi';
 const CSS_VERSION = '20261006a';
