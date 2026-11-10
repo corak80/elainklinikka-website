@@ -28,6 +28,8 @@ const SLUG_MAP = {
   "/personal/": "/sv/personal/",
   "/ajankohtaista/": "/artikkelit/",
   "/wildlife/": "/yhteystiedot/",
+  // The Finnish articles live in /articles/*.html but their index page is /artikkelit/.
+  "/articles/": "/artikkelit/",
   "/sv/ruokatilaus-sv-translation/": "/sv/tjanster/foderforsaljning/",
   "/sv/dataskyddsregister/": "/tietosuoja/",
   "/sv/tietosuoja/": "/tietosuoja/",
@@ -79,6 +81,12 @@ const SLUG_MAP = {
 };
 
 const ARTICLES = {
+  // Hand-built articles: the old FI-slug copies under /sv/ and /en/ were meta-refresh stubs (200), now real 301s.
+  "koira-ontuu":               { sv: "hunden-haltar",             en: "dog-limping" },
+  "seniorikissan-terveystarkastus": { sv: "halsokontroll-seniorkatt", en: "senior-cat-health-check" },
+  "koiran-ja-kissan-madotus":  { sv: "avmaskning",                en: "deworming" },
+  "koiran-korvatulehdus":      { sv: "oroninflammation-hund",     en: "dog-ear-infection" },
+  "myrkytys":                  { sv: "forgiftning",               en: "poisoning" },
   "anestesiaturvallisuus":     { sv: "anestesisakerhet",         en: "anaesthesia-safety" },
   "avoin-valtimotiehyt-pda":   { sv: "oppen-ductus-arteriosus-pda", en: "patent-ductus-arteriosus-pda" },
   "gastroskopia":              { sv: "gastroskopi",               en: "gastroscopy" },

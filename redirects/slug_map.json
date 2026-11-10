@@ -19,7 +19,8 @@
     "/klinikka/": "/meista/",
     "/personal/": "/sv/personal/",
     "/ajankohtaista/": "/artikkelit/",
-    "/wildlife/": "/yhteystiedot/"
+    "/wildlife/": "/yhteystiedot/",
+    "/articles/": "/artikkelit/"
   },
   "sv": {
     "/sv/ruokatilaus-sv-translation/": "/sv/tjanster/foderforsaljning/",
