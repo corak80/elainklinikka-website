@@ -5,7 +5,7 @@ Machine-readable price list for Eläinklinikka Saari, a family-owned small-anima
 - All prices in EUR, VAT included (prices are total prices).
 - Surgery prices include medication, supplies and suture removal.
 - Human-readable price pages: Finnish https://elainklinikkasaari.fi/hinnasto/ · Swedish https://elainklinikkasaari.fi/sv/prislista/ · English https://elainklinikkasaari.fi/en/pricelist/
-- Last updated: 25-09-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
+- Last updated: 10-11-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
 
 ## Veterinary consultation (Eläinlääkärin vastaanotto)
 
@@ -98,6 +98,7 @@ Tooth extractions are done based on clinical examination and X-rays; price depen
 - Hip X-rays, 20–40 kg: 193 €
 - Hip X-rays, over 40 kg: 233 €
 - Elbow X-rays with hip X-rays: 63 €
+- Shoulder X-rays (osteochondrosis) with other official X-rays: 53 €
 - Spine X-rays: 204–254 €
 - Hip + elbow + spine X-rays, under 40 kg / max 3 spine views: 302 €
 - Hip + elbow + spine X-rays, over 40 kg / multiple spine views: 362 €

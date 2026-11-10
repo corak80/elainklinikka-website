@@ -414,6 +414,7 @@ Hip X-ray <20kg €183
 Hip X-ray 20–40kg €193
 Hip X-ray >40kg €233
 Elbow X-ray with hip X-rays €63
+Shoulder X-ray with other official X-rays €53
 Spine X-ray €204–254
 Hip, elbow and spine X-rays <40kg / max 3 spine images €302
 Hip, elbow and spine X-rays >40kg / multiple spine images €362
