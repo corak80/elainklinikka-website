@@ -45,7 +45,7 @@ const pageMeta = {
   fi: {
     htmlLang: 'fi',
     title: 'Eläinlääkäri Vaasa – Eläinklinikka Saari, vuodesta 1989',
-    description: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille. Varaa aika!',
+    description: 'Eläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille. Varaa aika!',
     ogTitle: 'Eläinklinikka Saari – Pieneläinklinikka ja eläinlääkäri Vaasassa',
     ogDescription: 'Pieneläinklinikka ja eläinlääkäri Vaasassa vuodesta 1989. Hammashoito, kirurgia, sydäntutkimukset ja ultraääni koirille ja kissoille.',
     ogLocale: 'fi_FI',

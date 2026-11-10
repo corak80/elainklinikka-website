@@ -117,7 +117,10 @@ const translations = {
   },
 
   // About
-  'about.title': { fi: 'Tietoa klinikasta', sv: 'Om kliniken', en: 'About the Clinic' },
+  // Key renamed from about.title on 11-11-2026 when the Finnish heading changed: a browser that
+  // still holds an older main.js does not know this key, so it leaves the heading in the HTML alone
+  // instead of writing the old text back over it. No ?v= bump was needed for that reason.
+  'about.heading': { fi: 'Eläinklinikka Vaasassa', sv: 'Om kliniken', en: 'About the Clinic' },
   'about.subtitle': {
     fi: 'Vaasan ainoa perheomisteinen ketjuihin kuulumaton pieneläinklinikka \u2013 vuodesta 1989',
     sv: 'Vasas enda familjeägda kedjefria smådjursklinik \u2013 sedan 1989',

@@ -9,7 +9,7 @@
 # Eläinlääkäri Vaasa – Eläinklinikka Saari, vuodesta 1989
 
 URL: https://elainklinikkasaari.fi/
-Last updated: 2026-11-05
+Last updated: 2026-11-11
 
 💉 Drop-in-rokotukset ilman ajanvarausta tiistaisin 15.30–16.00, 10 % edullisemmin
 
@@ -26,7 +26,7 @@ Perustettu 1989
 14 ammattilaista
 Vuodesta 1989
 
-### Tietoa klinikasta
+### Eläinklinikka Vaasassa
 
 Vaasan ainoa perheomisteinen ketjuihin kuulumaton pieneläinklinikka – vuodesta 1989
 Meille potilaan hyvinvointi ja asiakkaan tyytyväisyys ovat kaikkein tärkeintä. Haluamme luoda lämpimän ja luottamuksellisen suhteen niin sinuun kuin lemmikkiisikin.
