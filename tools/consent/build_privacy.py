@@ -32,6 +32,7 @@ PRIVACY_CSS = '''  <style id="privacy-css">
   </style>
 '''
 BACK = {'fi': 'Takaisin etusivulle', 'sv': 'Tillbaka till startsidan', 'en': 'Back to homepage'}
+HOME = {'fi': ('Etusivu', '/'), 'sv': ('Startsidan', '/sv/'), 'en': ('Home', '/en/')}
 
 
 def text(lang):
@@ -65,8 +66,15 @@ def build(lang):
     alt = ''.join(f'  <link rel="alternate" hreflang="{l}" href="{BASE}{PAGES[l]["path"]}">\n' for l in ('fi', 'sv', 'en'))
     alt += f'  <link rel="alternate" hreflang="x-default" href="{BASE}{PAGES["fi"]["path"]}">\n'
     s = re.sub(r'(<link rel="canonical" href="[^"]*">\n)', lambda m: m.group(1) + alt, s, count=1)
-    # no structured data (the templates' Review/Article JSON-LD does not belong here)
+    # no structured data from the template (its Review/Article JSON-LD does not belong here),
+    # only a breadcrumb: home > this page
     s = re.sub(r'[ \t]*<script type="application/ld\+json">.*?</script>\n?', '', s, flags=re.S)
+    crumb = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
+        {'@type': 'ListItem', 'position': 1, 'name': HOME[lang][0], 'item': BASE + HOME[lang][1]},
+        {'@type': 'ListItem', 'position': 2, 'name': t['privacy_title'].split(' – ')[0], 'item': url},
+    ]}
+    ld = '  <script type="application/ld+json">' + json.dumps(crumb, ensure_ascii=False) + '</script>\n'
+    s = s.replace('</head>', ld + '</head>', 1)
     # language toggle → the privacy page in each language
     def toggle(m):
         block = m.group(0)
