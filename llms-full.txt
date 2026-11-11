@@ -4291,7 +4291,7 @@ Senioritutkimus alkaen 299 € Varaa aika
 # Koira ontuu – milloin eläinlääkäriin? Syyt ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/koira-ontuu.html
-Last updated: 2026-10-09
+Last updated: 2026-11-11
 
 Terveys
 9.10.2026
@@ -4341,6 +4341,10 @@ Koiran lantion ja takajalkojen röntgenkuva: koiralla on molemminpuolinen mediaa
 ### Miksi aikuinen tai iäkäs koira ontuu?
 
 Aikuisilla koirilla yleisiä syitä ovat tassun vammat, nyrjähdykset ja venähdykset liukastumisen tai rajun leikin jälkeen, puremahaavat, polvilumpion sijoiltaanmeno, onnettomuuden aiheuttamat murtumat sekä takajalassa eturistisidesairaus, joka on tämänikäisillä koirilla yksi yleisimmistä takajalan ontumisen syistä. Iäkkäillä koirilla nivelrikko yleistyy: nivelrikkoinen koira nousee hitaasti, on jäykkä levon jälkeen eikä innostu hyppimisestä tai leikistä entiseen tapaan. Jos ontuminen ei mene ohi, jalka on syytä röntgenkuvata viipymättä – etenkin suuren tai jättiläisrodun koiralla tai jos jalan luussa tuntuu kova kohouma – koska yksi mahdollinen syy on luukasvain. Kaikki ontuminen ei lähde jalasta: kaularangan tai selän välilevytyrä voi painaa selkäydintä tai hermojuurta ja aiheuttaa kipua, ontumista tai heikkoutta, etenkin mäyräkoiran kaltaisilla roduilla. Soita eläinlääkärille heti, vuorokaudenajasta riippumatta, jos koira ei yhtäkkiä enää pysty seisomaan tai kävelemään, alkaa yhtäkkiä laahata takajalkojaan tai kävellä rystysillään tai saa äkillisen, kovan selkä- tai niskakivun. Jos koira horjuu mutta kävelee vielä, hakeudu eläinlääkäriin samana päivänä.
+
+### Koira ontuu takajalkaa mutta ei arista – pitääkö se viedä eläinlääkäriin?
+
+Ontuminen tarkoittaa lähes aina, että jokin on kipeä tai jalka ei toimi kunnolla. Usein koira ei vingu, älähdä eikä pidä jalkaa ilmassa, vaikka siihen sattuu: merkki on itse ontuminen. Jalan tunnustelu kotona ei kerro paljon, sillä koira aristaa kipeää niveltä usein vain tietyissä liikkeissä, joita eläinlääkäri testaa. Aikuisella koiralla tällainen takajalan ontuminen on usein lähtöisin polvesta (ristisiteen osittainen repeämä tai sijoiltaan liukuva polvilumpio, joka on lievänä usein kivuton) tai lonkasta. Harvemmin syy on hermoissa tai selässä: silloin koira on jalastaan pikemminkin heikko tai kömpelö kuin kipeä, ja kynnet voivat laahata maata. Jos huomaat tällaista, hakeudu eläinlääkäriin samana päivänä. Muussa tapauksessa pidä koira levossa 24–48 tuntia. Jos ontuminen ei ole selvästi helpottanut tai jos se pahenee tai uusiutuu, varaa aika ontumatutkimukseen: ristisiteen osittainen repeämä etenee lähes aina täydelliseksi, ja polveen kehittyy nivelrikko. Älä anna koiralle kokeeksi kipulääkettä omasta lääkekaapistasi.
 
 ### Mitä ontumatutkimuksessa tehdään?
 

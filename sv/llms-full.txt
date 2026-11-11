@@ -4081,7 +4081,7 @@ Seniorundersökning från 299 € Boka
 # Hunden haltar – när till veterinären? Orsaker och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/hunden-haltar.html
-Last updated: 2026-10-09
+Last updated: 2026-11-11
 
 Hälsa
 9.10.2026
@@ -4131,6 +4131,10 @@ Röntgenbild av bäckenet och bakbenen hos en hund med medial patellaluxation i 
 ### Varför haltar min vuxna eller äldre hund?
 
 Vanliga orsaker hos vuxna hundar är bland annat tasskador, stukningar och sträckningar efter att hunden har halkat eller lekt vilt, bettsår, en knäskål som hoppar ur läge, benbrott efter en olycka och, i ett bakben, sjukdom i det främre korsbandet – en av de vanligaste orsakerna till bakbenshälta i den här åldern. Hos äldre hundar blir artros vanligare: en hund med artros reser sig långsamt, är stel efter vila och har mindre lust att hoppa eller leka. En hund vars hälta inte går över bör röntgas utan dröjsmål – särskilt om den är av stor ras eller jätteras, eller om det finns en hård svullnad på skelettet i något av benen – eftersom en skelettumör är en av de möjliga orsakerna. Orsaken till hälta sitter inte alltid i benen: ett diskbråck i nacken eller ryggen kan trycka på ryggmärgen eller en nervrot och orsaka smärta, hälta eller svaghet, särskilt hos raser som tax. Om hunden plötsligt inte kan stå eller gå, plötsligt börjar släpa på bakbenen eller knoga eller plötsligt får svår smärta i ryggen eller nacken, ring genast en veterinär, dag som natt. Om den är ostadig men fortfarande kan gå, ta den till veterinären samma dag.
+
+### Min hund haltar på ett bakben men verkar inte ha ont. Behöver jag ta den till veterinären?
+
+Hälta betyder nästan alltid att något gör ont eller att benet inte fungerar som det ska. Det är ofta så att hunden varken gnäller, skriker till eller håller upp benet, även när det gör ont: själva hältan är tecknet. Att känna på benet hemma säger inte mycket, eftersom en öm led ofta bara reagerar på de bestämda rörelser som veterinären testar. Hos en vuxen hund kommer en sådan bakbenshälta ofta från knät (en partiell bristning i korsbandet, eller en knäskål som hoppar ur läge och som i lindriga fall ofta inte gör ont) eller från höften. Mer sällan sitter orsaken i nerverna eller ryggen: då är hunden svag eller klumpig i benet snarare än öm, och klorna kan skrapa mot marken. Om du ser det ska du ta hunden till veterinären samma dag. Låt annars hunden vila i 24–48 timmar. Om hältan inte är tydligt bättre, blir värre eller kommer tillbaka gång på gång ska du boka tid för en hältundersökning. En partiell bristning i korsbandet leder nämligen nästan alltid till en fullständig bristning, och knät får artros. Ge inte hunden värkmedicin ur ditt eget medicinskåp för att testa om hältan går över.
 
 ### Vad händer vid en hältundersökning?
 

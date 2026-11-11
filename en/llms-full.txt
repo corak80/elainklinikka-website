@@ -4090,7 +4090,7 @@ Senior check-up from €299 Book
 # Dog Limping: When to See a Vet, Causes and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-limping.html
-Last updated: 2026-10-09
+Last updated: 2026-11-11
 
 Health
 9.10.2026
@@ -4140,6 +4140,10 @@ X-ray of the pelvis and hind legs of a dog with medial patellar luxation in both
 ### Why is my adult or older dog limping?
 
 Common causes in adult dogs include paw injuries, sprains and strains after a slip or rough play, bite wounds, a slipping kneecap, fractures after an accident and, in a hind leg, cranial cruciate ligament disease — one of the most common causes of hind-leg lameness at this age. In older dogs, osteoarthritis becomes more common: an affected dog is slow to get up, stiff after rest and less keen to jump or play. A limp that does not go away should be X-rayed promptly — especially in a large- or giant-breed dog, or if there is a hard swelling on a leg bone — because a bone tumour is one possible cause. Not every limp starts in the leg: a slipped disc in the neck or back can press on the spinal cord or a nerve root and cause pain, lameness or weakness, particularly in breeds such as Dachshunds. If your dog suddenly cannot stand or walk, suddenly starts to drag its hind legs or knuckle over, or has sudden, severe back or neck pain, call a vet immediately, day or night. If it is wobbly but still walking, see a vet the same day.
+
+### My dog is limping on a back leg but does not seem to be in pain. Does it need a vet?
+
+A limp almost always means that something hurts or that the leg does not work properly. Dogs often do not whine, cry out or hold the leg up even when it hurts: the limp itself is the sign. Feeling the leg at home tells you little, because a sore joint often reacts only to the specific movements a vet tests. A hind-leg limp of this kind in an adult dog often comes from the knee (a partial cruciate ligament tear, or a slipping kneecap, which is often not painful when mild) or from the hip. Less often the cause is in the nerves or the back: the dog is then weak or clumsy on the leg rather than sore, and may scuff its nails. If you see that, see a vet the same day. Otherwise rest your dog for 24–48 hours. If the limp is not clearly better, gets worse or keeps coming back, book a lameness examination: a partial cruciate tear almost always becomes a full tear, and the knee develops arthritis. Do not test the leg with a painkiller of your own.
 
 ### What happens at a lameness examination?
 
