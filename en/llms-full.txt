@@ -347,6 +347,7 @@ Dog DHPPI + rabies €85
 Kennel cough PI €75
 Kennel cough KC €77
 Dog leptospira €77
+Read more about vaccinations
 Drop-in vaccinations, Tuesdays 15:30–16:00
 Cat RCP vaccine €67.50
 Cat RCP + rabies €77.40

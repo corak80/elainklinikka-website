@@ -347,6 +347,7 @@ Koiran 4-rokotus + rabies 85 €
 Kennelyskärokotus PI 75 €
 Kennelyskärokotus KC 77 €
 Koiran leptospira 77 €
+Lue lisää rokotuksista
 Drop-in-rokotukset tiistaisin klo 15.30–16.00
 Kissan 3-rokotus (RCP) 67,50 €
 Kissan 3-rokotus + rabies 77,40 €
