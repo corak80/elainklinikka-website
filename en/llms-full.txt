@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-11-10
+Last updated: 2026-11-16
 
 ## Price List — Vet Prices in Vaasa
 
@@ -404,8 +404,9 @@ Dental X-ray during dental treatment €59–99
 Milk tooth extraction 1–2 teeth €453
 Milk tooth extraction 3–4 teeth €533
 Surcharge dog >40kg €50
-Extractions are performed based on clinical examination and X-rays. Price depends on time required and tooth/gum condition.
-More information and price estimates directly from the clinic.
+Permanent tooth extraction visit, cat (typical) about €700
+Permanent tooth extraction visit, dog (typical) about €880
+The typical price is the median (middle) bill for visits with permanent tooth extractions at our clinic in May–November 2026. It covers the whole visit. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove. Large cases are sometimes split into two visits, each billed separately.
 Pregnancy Examinations
 Pregnancy ultrasound €117.80
 Pregnancy X-ray €108.00
@@ -1469,16 +1470,16 @@ Book online
 
 ---
 
-# Dog and Cat Teeth Cleaning in Vaasa | Saari Animal Clinic
+# Dog & Cat Teeth Cleaning in Vaasa – Prices | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dental-care/
-Last updated: 2026-09-19
+Last updated: 2026-11-16
 
 Back to homepage
 
 ## Teeth cleaning, extractions and dental care for dogs and cats in Vaasa
 
-Dog teeth cleaning at Saari Animal Clinic in Vaasa costs €303 (under 20 kg) or €353 (over 20 kg); for cats €263. The price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Dental X-rays (€59–99) are taken at the same time, and you get a cost estimate for any extractions before the procedure.
+Dog teeth cleaning at Saari Animal Clinic in Vaasa costs €303 (under 20 kg) or €353 (over 20 kg); for cats €263. The price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Dental X-rays (€59–99) are taken at the same time. With permanent tooth extractions, the whole visit typically costs about €700 for a cat and about €880 for a dog.
 
 ### Why is dental care important?
 
@@ -1495,8 +1496,14 @@ Surcharge, dog over 40 kg €50
 Dental X-rays with dental treatment €59–99
 Deciduous tooth removal, 1–2 teeth €453
 Deciduous tooth removal, 3–4 teeth €533
-Permanent tooth extraction estimate after examination
-The teeth-cleaning price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Permanent tooth extractions have no fixed price: it is set after the clinical examination and X-rays and depends on the number of teeth, the number and condition of the roots and the time required. You receive an estimate before the procedure. All prices are in our price list. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers.
+Permanent tooth extraction visit, cat (typical) about €700
+Permanent tooth extraction visit, dog (typical) about €880
+The teeth-cleaning price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Permanent tooth extractions have no fixed price. A whole visit with extractions typically costs about €700 for a cat and about €880 for a dog. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove. All prices are in our price list. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers.
+
+#### Why we can't give an exact price in advance
+
+We only know how many teeth need to come out once your pet is under anaesthesia and we have examined every tooth with a probe and taken dental X-rays. Much dental disease sits below the gum line, so a mouth that seems to need one extraction can turn out to need many. How much we can see beforehand also depends on how well your pet lets us look. That's why we give a typical price instead of a quote. It shows what a visit like this usually costs, and the final bill follows what the examination finds.
+When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart, and each visit is billed separately. We never remove a tooth without X-raying it first. At the second visit we use the X-rays taken at the first, so you don't pay for them twice.
 
 ### Teeth cleaning — how is it done?
 
@@ -1504,7 +1511,7 @@ Tartar is removed with an ultrasonic scaler from the tooth surfaces and from bel
 
 ### Tooth extractions
 
-A tooth is extracted when it can no longer be saved: in advanced periodontitis, tooth resorption, root infection, or when the tooth is fractured into the pulp. Extractions are done surgically — multi-rooted teeth are sectioned and the roots removed completely. The wound is closed with dissolvable sutures and pain medication is sent home. Extractions are priced case by case based on the clinical examination and X-rays. Deciduous teeth are often removed during spay or neuter surgery under the same anaesthesia.
+A tooth is extracted when it can no longer be saved: in advanced periodontitis, tooth resorption, root infection, or when the tooth is fractured into the pulp. Extractions are done surgically — multi-rooted teeth are sectioned and the roots removed completely. The wound is closed with dissolvable sutures and pain medication is sent home. How we price extractions is explained under Why we can't give an exact price in advance. Deciduous teeth are often removed during spay or neuter surgery under the same anaesthesia.
 
 ### Dental X-rays — seeing what is hidden
 
@@ -1532,7 +1539,7 @@ Patients are typically discharged the same day and can be collected in the after
 
 How much does dog teeth cleaning cost? Dog teeth cleaning (scaling) at Saari Animal Clinic costs €303 (under 20 kg) or €353 (over 20 kg), with a €50 surcharge for dogs over 40 kg. The price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Dental X-rays are taken with the treatment, €59–99.
 How much does cat teeth cleaning cost? Cat teeth cleaning costs €263. The price includes general anaesthesia, scaling, an oral examination and a dental chart. Dental X-rays (€59–99) are taken with the treatment.
-How much does a dog or cat tooth extraction cost? Permanent tooth extractions have no fixed price. The price is set after the clinical examination and X-rays and depends on the number of teeth, the number and condition of the roots and the time required. You receive an estimate before the procedure. Deciduous tooth removal costs €453 (1–2 teeth) or €533 (3–4 teeth).
+How much does a dog or cat tooth extraction cost? A visit with permanent tooth extractions typically costs about €700 for a cat and about €880 for a dog. This typical price is the median (middle) bill for such visits at our clinic in May–November 2026. It covers the whole visit. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. We only know how many teeth need to come out once your pet is under anaesthesia and every tooth has been examined and X-rayed. That is why we can't give an exact price in advance. The final price depends on how many teeth come out and how difficult they are to remove. When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart. Each visit is billed separately, and the second visit uses the X-rays from the first, so you don't pay for them twice. Deciduous (baby) tooth removal costs €453 (1–2 teeth) or €533 (3–4 teeth).
 Can a dog's teeth be cleaned without anaesthesia? Not properly. On an awake animal only the visible tooth surface can be cleaned — the area below the gum line, where the disease starts, cannot be reached, and the mouth cannot be examined or X-rayed. Anaesthesia-free cleaning is cosmetic and does not treat the disease. That is why all dental treatments at our clinic are done under general anaesthesia with continuous monitoring of vital signs.
 When should a dog have its teeth cleaned? When there is visible tartar, the gums are red or the breath smells bad — gingivitis has then already begun. For dogs and cats over 3 years we recommend a yearly dental check (awake, €32), earlier for small breeds. At the check we assess whether a cleaning is needed and whether any teeth need extracting.
 How long does teeth cleaning take? Teeth cleaning with X-rays usually takes about 1–2 hours. Extractions extend the procedure. Your pet is dropped off in the morning and usually collected the same afternoon.
@@ -5996,7 +6003,7 @@ Back to homepage
 # Tooth Resorption in Cats and Dogs – A Hidden Painful Disease
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-resorption.html
-Last updated: 2026-10-15
+Last updated: 2026-11-16
 
 Dental
 27.9.2026
@@ -6025,7 +6032,7 @@ Dental radiograph of a cat’s left lower jaw: tooth resorption in the mandibula
 
 ### Treatment — Type Determines the Method
 
-Once started, a lesion keeps progressing and no medicine has been shown to stop it, so treatment aims to remove the source of pain. In Type 1, the whole tooth — crown and every root — is extracted surgically. For advanced Type 2 lesions, guidelines accept crown amputation: the crown is removed and the gum stitched closed, leaving in place root remnants that are turning into bone and are often very difficult or impossible to extract. This is suitable only if the radiograph shows no remaining periodontal ligament and there are no signs of periodontitis, infection inside the tooth (endodontic disease), or stomatitis (widespread mouth inflammation); otherwise the tooth is extracted. In Type 3, the Type 1 root is extracted, while a Type 2 root may be left in place, as in crown amputation. An early, painless lesion confined to the root can sometimes be monitored with repeat radiographs instead. Fillings do not stop the disease: in one study, only a third of 154 filled cat teeth showed no further loss of tooth structure after six months or more. At Eläinklinikka Saari, we perform extractions and crown amputations, and one of our vets has additional training in veterinary dentistry.
+Once started, a lesion keeps progressing and no medicine has been shown to stop it, so treatment aims to remove the source of pain. In Type 1, the whole tooth — crown and every root — is extracted surgically. For advanced Type 2 lesions, guidelines accept crown amputation: the crown is removed and the gum stitched closed, leaving in place root remnants that are turning into bone and are often very difficult or impossible to extract. This is suitable only if the radiograph shows no remaining periodontal ligament and there are no signs of periodontitis, infection inside the tooth (endodontic disease), or stomatitis (widespread mouth inflammation); otherwise the tooth is extracted. In Type 3, the Type 1 root is extracted, while a Type 2 root may be left in place, as in crown amputation. An early, painless lesion confined to the root can sometimes be monitored with repeat radiographs instead. Fillings do not stop the disease: in one study, only a third of 154 filled cat teeth showed no further loss of tooth structure after six months or more. At Eläinklinikka Saari, we perform extractions and crown amputations, and one of our vets has additional training in veterinary dentistry. A visit with permanent tooth extractions at our clinic typically costs about €700 for a cat and about €880 for a dog. Why the final price varies.
 
 ### After Treatment
 

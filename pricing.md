@@ -5,7 +5,7 @@ Machine-readable price list for Eläinklinikka Saari, a family-owned small-anima
 - All prices in EUR, VAT included (prices are total prices).
 - Surgery prices include medication, supplies and suture removal.
 - Human-readable price pages: Finnish https://elainklinikkasaari.fi/hinnasto/ · Swedish https://elainklinikkasaari.fi/sv/prislista/ · English https://elainklinikkasaari.fi/en/pricelist/
-- Last updated: 10-11-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
+- Last updated: 16-11-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
 
 ## Veterinary consultation (Eläinlääkärin vastaanotto)
 
@@ -84,8 +84,14 @@ Lateral suture suits cruciate injuries in cats and small dogs; TTA suits active 
 - Deciduous (baby) tooth extraction, 1–2 teeth: 453 €
 - Deciduous tooth extraction, 3–4 teeth: 533 €
 - Surcharge, dog over 40 kg: 50 €
+- Permanent tooth extraction visit, cat (typical): about 700 € (whole visit, anaesthesia included)
+- Permanent tooth extraction visit, dog (typical): about 880 € (whole visit, anaesthesia included)
 
-Tooth extractions are done based on clinical examination and X-rays; price depends on time used and tooth/gum condition. Ask the clinic for estimates.
+"Typical" is the median (middle) bill for visits with permanent tooth extractions at the clinic, 17 May – 16 November 2026 (89 cat visits, 130 dog visits). Anaesthesia is on every bill. Dental scaling (teeth cleaning) is on 78% of cat and 68% of dog bills; dental X-rays are on 78% of cat and 75% of dog bills.
+
+Every tooth is X-rayed before it is removed. When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart, each billed separately. The second visit uses the X-rays from the first, so they are not charged twice.
+
+The number of teeth to remove is only known once the pet is under anaesthesia and every tooth has been examined and X-rayed, so no exact price can be given in advance. The final price depends on how many teeth come out and how difficult they are to remove.
 
 ## Pregnancy diagnostics (Tiineystutkimukset)
 

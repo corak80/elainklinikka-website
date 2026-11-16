@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-10
+Last updated: 2026-11-16
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -404,8 +404,9 @@ Tandröntgen i samband med tandvård 59–99 €
 Mjölktandsextraktion 1–2 tänder 453 €
 Mjölktandsextraktion 3–4 tänder 533 €
 Tillägg hund >40kg 50 €
-Tandextraktioner utförs baserat på klinisk undersökning och röntgenbilder. Priset beror på tidsåtgång och tandens/tandköttets skick.
-Mer information och prisuppskattningar direkt från kliniken.
+Besök med utdragning av permanenta tänder, katt (typiskt pris) cirka 700 €
+Besök med utdragning av permanenta tänder, hund (typiskt pris) cirka 880 €
+Det typiska priset är den mittersta räkningen (medianen) för besök med utdragning av permanenta tänder på vår klinik under maj–november 2026. Priset gäller hela besöket. Narkos ingår alltid, och vanligen ingår också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Omfattande behandlingar delas ibland upp på två besök, och varje besök har sin egen räkning.
 Dräktighetsundersökningar
 Dräktighetsultraljud 117,80 €
 Dräktighetsröntgen 108,00 €
@@ -1459,16 +1460,16 @@ Boka online
 
 ---
 
-# Tandstensborttagning hund & katt i Vasa | Djurklinik Saari
+# Tandstensborttagning hund & katt i Vasa – pris | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/tandvard/
-Last updated: 2026-09-20
+Last updated: 2026-11-16
 
 Tillbaka till startsidan
 
 ## Tandstensborttagning, tandrengöring och tandvård för hund och katt i Vasa
 
-Tandstensborttagning för hund kostar hos Djurklinik Saari i Vasa 303 € (under 20 kg) eller 353 € (över 20 kg), för katt 263 €. Priset omfattar narkos, tandstensborttagning med ultraljud, munundersökning och tandkarta. Tandröntgen (59–99 €) tas samtidigt, och för eventuella tandextraktioner får du en prisuppskattning före ingreppet.
+Tandstensborttagning för hund kostar hos Djurklinik Saari i Vasa 303 € (under 20 kg) eller 353 € (över 20 kg), för katt 263 €. Priset omfattar narkos, tandstensborttagning med ultraljud, munundersökning och tandkarta. Tandröntgen (59–99 €) tas samtidigt. Om permanenta tänder behöver dras ut brukar hela besöket kosta cirka 700 € för katt och cirka 880 € för hund.
 
 ### Varför är tandvård viktigt?
 
@@ -1485,8 +1486,14 @@ Tillägg, hund över 40 kg 50 €
 Dentalröntgen i samband med tandvård 59–99 €
 Borttagning av mjölktänder, 1–2 tänder 453 €
 Borttagning av mjölktänder, 3–4 tänder 533 €
-Utdragning av permanent tand kostnadsförslag efter undersökning
-Priset för tandstensborttagning inkluderar narkos, tandrengöring med ultraljud, munundersökning och tandkarta. Utdragning av permanenta tänder har inget fast pris: priset bestäms utifrån den kliniska undersökningen och röntgenbilderna och påverkas av antalet tänder, rötternas antal och skick samt tidsåtgången. Du får ett kostnadsförslag före ingreppet. Alla priser finns i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
+Besök med utdragning av permanenta tänder, katt (typiskt pris) cirka 700 €
+Besök med utdragning av permanenta tänder, hund (typiskt pris) cirka 880 €
+Priset för tandstensborttagning inkluderar narkos, tandrengöring med ultraljud, munundersökning och tandkarta. Utdragning av permanenta tänder har inget fast pris. Hela besöket med tandutdragning brukar kosta cirka 700 € för katt och cirka 880 € för hund. I priset ingår alltid narkos och vanligen också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Alla priser finns i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
+
+#### Varför vi inte kan ge ett exakt pris på förhand
+
+Hur många tänder som behöver dras ut vet vi först när ditt djur är i narkos och vi har undersökt varje tand med en tandsond och röntgat tänderna. Många tandproblem döljer sig under tandköttskanten, så när det ser ut att räcka med en enda utdragning kan det visa sig att många tänder behöver dras ut. Hur mycket vi kan se i förväg beror också på hur väl ditt djur låter oss titta i munnen. Därför anger vi ett typiskt pris i stället för ett exakt belopp på förhand. Det visar vad ett besök med tandutdragning brukar kosta, och den slutliga räkningen beror på vad vi hittar vid undersökningen.
+Om många tänder behöver dras ut delar vi ibland upp behandlingen på två besök med cirka 3–4 veckors mellanrum, och varje besök har sin egen räkning. Vi drar aldrig ut en tand utan att först röntga den. Vid det andra besöket använder vi röntgenbilderna från det första, så att du inte betalar för dem två gånger.
 
 ### Tandstensborttagning – hur går det till?
 
@@ -1494,7 +1501,7 @@ Tandstenen avlägsnas med ultraljud från tändernas ytor och under tandköttska
 
 ### Tandutdragning
 
-En tand dras ut när den inte längre går att rädda: vid långt framskriden parodontit, tandresorption, rotinfektion eller när tanden är frakturerad in till pulpan. Utdragningarna görs kirurgiskt – flerrotade tänder delas och rötterna avlägsnas helt. Såret sluts med resorberbara stygn och smärtstillande ges med hem. Tandutdragningar prissätts från fall till fall utifrån den kliniska undersökningen och röntgenbilderna. Mjölktänder tas ofta bort i samband med sterilisering eller kastrering under samma narkos.
+En tand dras ut när den inte längre går att rädda: vid långt framskriden parodontit, tandresorption, rotinfektion eller när tanden är frakturerad in till pulpan. Utdragningarna görs kirurgiskt – flerrotade tänder delas och rötterna avlägsnas helt. Såret sluts med resorberbara stygn och smärtstillande ges med hem. Hur vi prissätter tandutdragningar förklarar vi under rubriken Varför vi inte kan ge ett exakt pris på förhand. Mjölktänder tas ofta bort i samband med sterilisering eller kastrering under samma narkos.
 
 ### Dentalröntgen – att se det dolda
 
@@ -1522,7 +1529,7 @@ Hemgång sker vanligen samma dag och husdjuret kan hämtas på eftermiddagen. Mj
 
 Vad kostar tandstensborttagning för hund? Tandstensborttagning för hund kostar på Djurklinik Saari 303 € (under 20 kg) eller 353 € (över 20 kg), för hundar över 40 kg tillkommer 50 €. Priset inkluderar narkos, tandrengöring med ultraljud, munundersökning och tandkarta. Dentalröntgen tas i samband med tandvården, 59–99 €.
 Vad kostar tandstensborttagning för katt? Tandstensborttagning för katt kostar 263 €. Priset inkluderar narkos, tandrengöring, munundersökning och tandkarta. Dentalröntgen 59–99 € tas i samband med tandvården.
-Vad kostar det att dra ut en tand på hund eller katt? Utdragning av permanenta tänder har inget fast pris. Priset bestäms utifrån den kliniska undersökningen och röntgenbilderna: antalet tänder, rötternas antal och skick samt tidsåtgången påverkar. Du får ett kostnadsförslag före ingreppet. Borttagning av mjölktänder kostar 453 € (1–2 tänder) eller 533 € (3–4 tänder).
+Vad kostar det att dra ut en tand på hund eller katt? Ett besök med utdragning av permanenta tänder brukar kosta cirka 700 € för katt och cirka 880 € för hund. Det typiska priset är den mittersta räkningen (medianen) för sådana besök på vår klinik under maj–november 2026. Priset gäller hela besöket. Narkos ingår alltid, och vanligen ingår också tandstensborttagning och tandröntgen. Hur många tänder som behöver dras ut vet vi först när ditt djur är i narkos och varje tand har undersökts och röntgats. Därför kan vi inte ge ett exakt pris på förhand. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Om många tänder behöver dras ut delar vi ibland upp behandlingen på två besök med cirka 3–4 veckors mellanrum. Varje besök har sin egen räkning, och vid det andra besöket använder vi röntgenbilderna från det första, så att du inte betalar för dem två gånger. Borttagning av mjölktänder kostar 453 € (1–2 tänder) eller 533 € (3–4 tänder).
 Kan man ta bort tandsten på hund utan narkos? Inte ordentligt. På ett vaket djur kan bara tändernas synliga yta rengöras – man kommer inte under tandköttskanten där sjukdomen uppstår, och munnen kan inte undersökas eller röntgas. Tandrengöring utan narkos är kosmetisk och behandlar inte sjukdomen. Därför utförs all tandvård på vår klinik under narkos med kontinuerlig övervakning av vitala funktioner.
 När bör hunden få tandstenen borttagen? När det finns synlig tandsten, tandköttet är rött eller andedräkten luktar illa – då har tandköttsinflammationen redan börjat. För hundar och katter över 3 år rekommenderar vi årlig tandkontroll (på vaket djur 32 €), för småraser tidigare. Vid kontrollen bedömer vi om tandstensborttagning behövs och om några tänder behöver dras ut.
 Hur lång tid tar en tandstensborttagning? Tandstensborttagning med röntgen tar vanligen cirka 1–2 timmar. Tandutdragningar förlänger ingreppet. Husdjuret lämnas på morgonen och hämtas vanligen samma eftermiddag.
@@ -5987,7 +5994,7 @@ Tillbaka till startsidan
 # Tandresorption hos katt och hund – dold och smärtsam sjukdom
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/tandresorption.html
-Last updated: 2026-10-15
+Last updated: 2026-11-16
 
 Tandvård
 27.9.2026
@@ -6016,7 +6023,7 @@ Tandröntgenbild av en katts vänstra underkäke: tandresorption i den tredje pr
 
 ### Behandling – typen avgör metoden
 
-En resorptionsskada som väl har börjat fortsätter att utvecklas, och inget läkemedel har visat sig kunna stoppa den. Därför syftar behandlingen till att ta bort källan till smärtan. Vid typ 1 avlägsnas hela tanden – kronan och alla rötter – genom kirurgisk extraktion. Vid framskridna skador av typ 2 godtar riktlinjerna kronamputation: kronan tas bort och tandköttet sys ihop, medan rotrester som håller på att omvandlas till ben lämnas kvar – de är ofta mycket svåra eller omöjliga att dra ut. Metoden lämpar sig bara om röntgenbilden inte visar någon kvarvarande rothinna och det inte finns några tecken på parodontit, infektion inne i tanden (endodontisk sjukdom) eller stomatit (utbredd inflammation i munnen). Annars dras tanden ut. Vid typ 3 dras roten av typ 1 ut, medan en rot av typ 2 kan lämnas kvar, som vid kronamputation. En tidig, smärtfri skada som bara finns i roten kan ibland i stället följas upp med upprepad tandröntgen. Lagningar stoppar inte sjukdomen: i en studie visade bara en tredjedel av 154 lagade tänder hos katter ingen fortsatt förlust av tandsubstans efter minst sex månader. Hos oss på Djurklinik Saari utför vi tandextraktioner och kronamputationer, och en av våra veterinärer har tilläggsutbildning i veterinärmedicinsk tandvård.
+En resorptionsskada som väl har börjat fortsätter att utvecklas, och inget läkemedel har visat sig kunna stoppa den. Därför syftar behandlingen till att ta bort källan till smärtan. Vid typ 1 avlägsnas hela tanden – kronan och alla rötter – genom kirurgisk extraktion. Vid framskridna skador av typ 2 godtar riktlinjerna kronamputation: kronan tas bort och tandköttet sys ihop, medan rotrester som håller på att omvandlas till ben lämnas kvar – de är ofta mycket svåra eller omöjliga att dra ut. Metoden lämpar sig bara om röntgenbilden inte visar någon kvarvarande rothinna och det inte finns några tecken på parodontit, infektion inne i tanden (endodontisk sjukdom) eller stomatit (utbredd inflammation i munnen). Annars dras tanden ut. Vid typ 3 dras roten av typ 1 ut, medan en rot av typ 2 kan lämnas kvar, som vid kronamputation. En tidig, smärtfri skada som bara finns i roten kan ibland i stället följas upp med upprepad tandröntgen. Lagningar stoppar inte sjukdomen: i en studie visade bara en tredjedel av 154 lagade tänder hos katter ingen fortsatt förlust av tandsubstans efter minst sex månader. Hos oss på Djurklinik Saari utför vi tandextraktioner och kronamputationer, och en av våra veterinärer har tilläggsutbildning i veterinärmedicinsk tandvård. På vår klinik brukar ett besök med utdragning av permanenta tänder kosta cirka 700 € för katt och cirka 880 € för hund. Varför slutpriset varierar.
 
 ### Efter behandlingen
 

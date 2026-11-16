@@ -1,0 +1,104 @@
+{
+  "rowCat": {
+    "en": "Permanent tooth extraction visit, cat (typical)",
+    "fi": "Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta)",
+    "sv": "Besök med utdragning av permanenta tänder, katt (typiskt pris)"
+  },
+  "rowDog": {
+    "en": "Permanent tooth extraction visit, dog (typical)",
+    "fi": "Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta)",
+    "sv": "Besök med utdragning av permanenta tänder, hund (typiskt pris)"
+  },
+  "valueCat": {
+    "en": "about €700",
+    "fi": "noin 700 €",
+    "sv": "cirka 700 €"
+  },
+  "valueDog": {
+    "en": "about €880",
+    "fi": "noin 880 €",
+    "sv": "cirka 880 €"
+  },
+  "note": {
+    "en": "The typical price is the median (middle) bill for visits with permanent tooth extractions at our clinic in May–November 2026. It covers the whole visit. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove. Large cases are sometimes split into two visits, each billed separately.",
+    "fi": "Tyypillinen hinta on keskimmäinen lasku (mediaani) niistä omista käynneistämme, joiden aikana poistettiin pysyviä hampaita touko–marraskuussa 2026. Hinta kattaa koko käynnin. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Laajat hoidot jaetaan joskus kahdelle käynnille, ja kumpikin käynti laskutetaan erikseen.",
+    "sv": "Det typiska priset är den mittersta räkningen (medianen) för besök med utdragning av permanenta tänder på vår klinik under maj–november 2026. Priset gäller hela besöket. Narkos ingår alltid, och vanligen ingår också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Omfattande behandlingar delas ibland upp på två besök, och varje besök har sin egen räkning."
+  },
+  "whyHeading": {
+    "en": "Why we can't give an exact price in advance",
+    "fi": "Miksi emme voi antaa tarkkaa hintaa etukäteen",
+    "sv": "Varför vi inte kan ge ett exakt pris på förhand"
+  },
+  "whyText": {
+    "en": "We only know how many teeth need to come out once your pet is under anaesthesia and we have examined every tooth with a probe and taken dental X-rays. Much dental disease sits below the gum line, so a mouth that seems to need one extraction can turn out to need many. How much we can see beforehand also depends on how well your pet lets us look. That's why we give a typical price instead of a quote. It shows what a visit like this usually costs, and the final bill follows what the examination finds.",
+    "fi": "Poistettavien hampaiden määrä selviää vasta, kun lemmikkisi on nukutettu ja olemme tutkineet jokaisen hampaan ientaskumittarilla ja ottaneet hammasröntgenkuvat. Suuri osa hammassairauksista piilee ienrajan alla, joten suussa, jossa näyttää olevan yksi poistettava hammas, poistettavia voi lopulta olla useita. Se, kuinka paljon näemme etukäteen, riippuu myös siitä, kuinka hyvin lemmikkisi antaa katsoa suuhunsa. Siksi kerromme tyypillisen hinnan emmekä tarkkaa summaa. Siitä näet, mitä tällainen käynti yleensä maksaa, ja lopullinen lasku määräytyy sen mukaan, mitä tutkimuksessa löytyy.",
+    "sv": "Hur många tänder som behöver dras ut vet vi först när ditt djur är i narkos och vi har undersökt varje tand med en tandsond och röntgat tänderna. Många tandproblem döljer sig under tandköttskanten, så när det ser ut att räcka med en enda utdragning kan det visa sig att många tänder behöver dras ut. Hur mycket vi kan se i förväg beror också på hur väl ditt djur låter oss titta i munnen. Därför anger vi ett typiskt pris i stället för ett exakt belopp på förhand. Det visar vad ett besök med tandutdragning brukar kosta, och den slutliga räkningen beror på vad vi hittar vid undersökningen."
+  },
+  "faqQuestion": {
+    "en": "How much does a dog or cat tooth extraction cost?",
+    "fi": "Paljonko koiran tai kissan hampaan poisto maksaa?",
+    "sv": "Vad kostar det att dra ut en tand på hund eller katt?"
+  },
+  "faqAnswer": {
+    "en": "A visit with permanent tooth extractions typically costs about €700 for a cat and about €880 for a dog. This typical price is the median (middle) bill for such visits at our clinic in May–November 2026. It covers the whole visit. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. We only know how many teeth need to come out once your pet is under anaesthesia and every tooth has been examined and X-rayed. That is why we can't give an exact price in advance. The final price depends on how many teeth come out and how difficult they are to remove. When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart. Each visit is billed separately, and the second visit uses the X-rays from the first, so you don't pay for them twice. Deciduous (baby) tooth removal costs €453 (1–2 teeth) or €533 (3–4 teeth).",
+    "fi": "Käynti, jonka aikana poistetaan pysyviä hampaita, maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Tyypillinen hinta on keskimmäinen lasku (mediaani) tällaisista käynneistä klinikallamme touko–marraskuussa 2026. Hinta kattaa koko käynnin. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Poistettavien hampaiden määrä selviää vasta, kun lemmikkisi on nukutettu ja jokainen hammas on tutkittu ja röntgenkuvattu. Siksi emme voi antaa tarkkaa hintaa etukäteen. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Jos poistettavia hampaita on paljon, hoito jaetaan joskus kahdelle käynnille, joiden väli on 3–4 viikkoa. Kumpikin käynti laskutetaan erikseen, ja toisella käynnillä käytämme ensimmäisen käynnin röntgenkuvia, joten et maksa niistä kahteen kertaan. Maitohampaan poisto maksaa 453 € (1–2 hammasta) tai 533 € (3–4 hammasta).",
+    "sv": "Ett besök med utdragning av permanenta tänder brukar kosta cirka 700 € för katt och cirka 880 € för hund. Det typiska priset är den mittersta räkningen (medianen) för sådana besök på vår klinik under maj–november 2026. Priset gäller hela besöket. Narkos ingår alltid, och vanligen ingår också tandstensborttagning och tandröntgen. Hur många tänder som behöver dras ut vet vi först när ditt djur är i narkos och varje tand har undersökts och röntgats. Därför kan vi inte ge ett exakt pris på förhand. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Om många tänder behöver dras ut delar vi ibland upp behandlingen på två besök med cirka 3–4 veckors mellanrum. Varje besök har sin egen räkning, och vid det andra besöket använder vi röntgenbilderna från det första, så att du inte betalar för dem två gånger. Borttagning av mjölktänder kostar 453 € (1–2 tänder) eller 533 € (3–4 tänder)."
+  },
+  "introSentence": {
+    "en": "Dental X-rays (€59–99) are taken at the same time. With permanent tooth extractions, the whole visit typically costs about €700 for a cat and about €880 for a dog.",
+    "fi": "Hammasröntgenkuvat (59–99 €) otetaan samalla. Jos pysyviä hampaita joudutaan poistamaan, koko käynti maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €.",
+    "sv": "Tandröntgen (59–99 €) tas samtidigt. Om permanenta tänder behöver dras ut brukar hela besöket kosta cirka 700 € för katt och cirka 880 € för hund."
+  },
+  "costSentence": {
+    "en": "Permanent tooth extractions have no fixed price. A whole visit with extractions typically costs about €700 for a cat and about €880 for a dog. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove.",
+    "fi": "Pysyvien hampaiden poistoille ei ole kiinteää hintaa. Koko hampaanpoistokäynti maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat.",
+    "sv": "Utdragning av permanenta tänder har inget fast pris. Hela besöket med tandutdragning brukar kosta cirka 700 € för katt och cirka 880 € för hund. I priset ingår alltid narkos och vanligen också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är."
+  },
+  "extractionSentence": {
+    "en": "How we price extractions is explained under <a href=\"#extraction-price\">Why we can't give an exact price in advance</a>.",
+    "fi": "Hampaanpoistojen hinnoittelusta kerromme kohdassa <a href=\"#extraction-price\">Miksi emme voi antaa tarkkaa hintaa etukäteen</a>.",
+    "sv": "Hur vi prissätter tandutdragningar förklarar vi under rubriken <a href=\"#extraction-price\">Varför vi inte kan ge ett exakt pris på förhand</a>."
+  },
+  "metaDescription": {
+    "en": "Dog teeth cleaning in Vaasa €303–353, cat €263, dental X-rays €59–99. Extraction visits typically cost about €700 (cat) or €880 (dog). Always under anaesthesia.",
+    "fi": "Koiran hammaskiven poisto Vaasassa 303–353 €, kissan 263 €, röntgen 59–99 €. Hampaanpoistokäynti yleensä: kissa noin 700 €, koira noin 880 €. Aina nukutettuna.",
+    "sv": "Tandstensborttagning i Vasa: hund 303–353 €, katt 263 €, röntgen 59–99 €. Tandutdragningsbesök vanligen cirka 700 € (katt) eller 880 € (hund). Alltid i narkos."
+  },
+  "title": {
+    "en": "Dog & Cat Teeth Cleaning in Vaasa – Prices | Saari Animal Clinic",
+    "fi": "Koiran hammaskiven poisto Vaasassa – hinnat | Eläinklinikka Saari",
+    "sv": "Tandstensborttagning hund & katt i Vasa – pris | Djurklinik Saari"
+  },
+  "articleLine": {
+    "en": "A visit with permanent tooth extractions at our clinic typically costs about €700 for a cat and about €880 for a dog. <a href=\"/en/services/dental-care/#extraction-price\">Why the final price varies</a>.",
+    "fi": "Käynti, jonka aikana poistetaan pysyviä hampaita, maksaa klinikallamme tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. <a href=\"/palvelut/hammashoito/#extraction-price\">Lue, miksi lopullinen hinta vaihtelee</a>.",
+    "sv": "På vår klinik brukar ett besök med utdragning av permanenta tänder kosta cirka 700 € för katt och cirka 880 € för hund. <a href=\"/sv/tjanster/tandvard/#extraction-price\">Varför slutpriset varierar</a>."
+  },
+  "articleLinePlain": {
+    "en": "A visit with permanent tooth extractions at our clinic typically costs about €700 for a cat and about €880 for a dog. Our dental care page explains why the final price varies.",
+    "fi": "Käynti, jonka aikana poistetaan pysyviä hampaita, maksaa klinikallamme tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Hammashoitosivullamme kerromme, miksi lopullinen hinta vaihtelee.",
+    "sv": "På vår klinik brukar ett besök med utdragning av permanenta tänder kosta cirka 700 € för katt och cirka 880 € för hund. Varför slutpriset varierar förklarar vi på vår sida om tandvård."
+  },
+  "pricingMd": {
+    "en": "- Permanent tooth extraction visit, cat (typical): about 700 € (whole visit, anaesthesia included)\n- Permanent tooth extraction visit, dog (typical): about 880 € (whole visit, anaesthesia included)\n\n\"Typical\" is the median (middle) bill for visits with permanent tooth extractions at the clinic, 17 May – 16 November 2026 (89 cat visits, 130 dog visits). Anaesthesia is on every bill. Dental scaling (teeth cleaning) is on 78% of cat and 68% of dog bills; dental X-rays are on 78% of cat and 75% of dog bills.\n\nEvery tooth is X-rayed before it is removed. When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart, each billed separately. The second visit uses the X-rays from the first, so they are not charged twice.\n\nThe number of teeth to remove is only known once the pet is under anaesthesia and every tooth has been examined and X-rayed, so no exact price can be given in advance. The final price depends on how many teeth come out and how difficult they are to remove."
+  },
+  "_meta": {
+    "anchorId": "extraction-price",
+    "articleLinks": {
+      "fi": "/palvelut/hammashoito/#extraction-price",
+      "sv": "/sv/tjanster/tandvard/#extraction-price",
+      "en": "/en/services/dental-care/#extraction-price"
+    },
+    "faqQuestionExisting": {
+      "fi": "Paljonko koiran tai kissan hampaan poisto maksaa?",
+      "sv": "Vad kostar det att dra ut en tand på hund eller katt?",
+      "en": "How much does a dog or cat tooth extraction cost?"
+    },
+    "source": "ProvetCloud finalized bills 17-05→16-11-2026: cat 89 visits median 706 €, dog 130 visits median 881 €"
+  },
+  "twoVisitsText": {
+    "en": "When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart, and each visit is billed separately. We never remove a tooth without X-raying it first. At the second visit we use the X-rays taken at the first, so you don't pay for them twice.",
+    "fi": "Jos poistettavia hampaita on paljon, hoito jaetaan joskus kahdelle käynnille, joiden väli on 3–4 viikkoa, ja kumpikin käynti laskutetaan erikseen. Emme koskaan poista hammasta ottamatta siitä ensin röntgenkuvaa. Toisella käynnillä käytämme ensimmäisellä käynnillä otettuja röntgenkuvia, joten et maksa niistä kahteen kertaan.",
+    "sv": "Om många tänder behöver dras ut delar vi ibland upp behandlingen på två besök med cirka 3–4 veckors mellanrum, och varje besök har sin egen räkning. Vi drar aldrig ut en tand utan att först röntga den. Vid det andra besöket använder vi röntgenbilderna från det första, så att du inte betalar för dem två gånger."
+  }
+}

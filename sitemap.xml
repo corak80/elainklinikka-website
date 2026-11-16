@@ -196,7 +196,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/hinnasto/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/prislista/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -216,7 +216,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/pricelist/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -406,7 +406,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/hammashoito/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -416,7 +416,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/tandvard/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -426,7 +426,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/dental-care/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/hammashoito/"/>
@@ -1996,7 +1996,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/hammasresorptio.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>
@@ -2006,7 +2006,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/tandresorption.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>
@@ -2016,7 +2016,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/tooth-resorption.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/hammasresorptio.html"/>

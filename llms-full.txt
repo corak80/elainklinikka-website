@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-10
+Last updated: 2026-11-16
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -404,8 +404,9 @@ Hammasröntgen hammashoidon yhteydessä 59–99 €
 Maitohampaan poisto 1–2 hammasta 453 €
 Maitohampaan poisto 3–4 hammasta 533 €
 Lisämaksu koira >40kg 50 €
-Hampaiden poistot tehdään kliinisen tutkimuksen ja röntgenkuvien perusteella. Hinta riippuu käytetystä ajasta ja hampaan/ikenen kunnosta.
-Lisätietoa ja hinta-arviot suoraan klinikalta.
+Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) noin 700 €
+Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) noin 880 €
+Tyypillinen hinta on keskimmäinen lasku (mediaani) niistä omista käynneistämme, joiden aikana poistettiin pysyviä hampaita touko–marraskuussa 2026. Hinta kattaa koko käynnin. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Laajat hoidot jaetaan joskus kahdelle käynnille, ja kumpikin käynti laskutetaan erikseen.
 Tiineystutkimukset
 Tiineysultraääni 117,80 €
 Tiineysröntgen 108,00 €
@@ -1663,16 +1664,16 @@ Varaa verkossa
 
 ---
 
-# Koiran hammaskiven poisto Vaasassa | Eläinklinikka Saari
+# Koiran hammaskiven poisto Vaasassa – hinnat | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hammashoito/
-Last updated: 2026-09-29
+Last updated: 2026-11-16
 
 Takaisin etusivulle
 
 ## Koiran ja kissan hammaskiven poisto ja hammashoito Vaasassa
 
-Koiran hammaskiven poisto maksaa Eläinklinikka Saarella Vaasassa 303 € (alle 20 kg) tai 353 € (yli 20 kg), kissan 263 €. Hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Hammasröntgen (59–99 €) kuvataan samalla, ja mahdollisista hampaiden poistoista saat hinta-arvion ennen toimenpidettä.
+Koiran hammaskiven poisto maksaa Eläinklinikka Saarella Vaasassa 303 € (alle 20 kg) tai 353 € (yli 20 kg), kissan 263 €. Hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Hammasröntgenkuvat (59–99 €) otetaan samalla. Jos pysyviä hampaita joudutaan poistamaan, koko käynti maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €.
 
 ### Miksi hammashoito on tärkeää?
 
@@ -1689,8 +1690,14 @@ Lisämaksu, koira yli 40 kg 50 €
 Hammasröntgen hammashoidon yhteydessä 59–99 €
 Maitohampaan poisto, 1–2 hammasta 453 €
 Maitohampaan poisto, 3–4 hammasta 533 €
-Pysyvän hampaan poisto hinta-arvio tutkimuksen jälkeen
-Hammaskiven poiston hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Pysyvien hampaiden poistoille ei ole kiinteää hintaa: hinta määräytyy kliinisen tutkimuksen ja röntgenkuvien perusteella, ja siihen vaikuttavat poistettavien hampaiden määrä, juurten määrä ja kunto sekä toimenpiteeseen kuluva aika. Saat hinta-arvion ennen toimenpidettä. Kaikki hinnat löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.
+Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) noin 700 €
+Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) noin 880 €
+Hammaskiven poiston hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Pysyvien hampaiden poistoille ei ole kiinteää hintaa. Koko hampaanpoistokäynti maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Kaikki hinnat löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.
+
+#### Miksi emme voi antaa tarkkaa hintaa etukäteen
+
+Poistettavien hampaiden määrä selviää vasta, kun lemmikkisi on nukutettu ja olemme tutkineet jokaisen hampaan ientaskumittarilla ja ottaneet hammasröntgenkuvat. Suuri osa hammassairauksista piilee ienrajan alla, joten suussa, jossa näyttää olevan yksi poistettava hammas, poistettavia voi lopulta olla useita. Se, kuinka paljon näemme etukäteen, riippuu myös siitä, kuinka hyvin lemmikkisi antaa katsoa suuhunsa. Siksi kerromme tyypillisen hinnan emmekä tarkkaa summaa. Siitä näet, mitä tällainen käynti yleensä maksaa, ja lopullinen lasku määräytyy sen mukaan, mitä tutkimuksessa löytyy.
+Jos poistettavia hampaita on paljon, hoito jaetaan joskus kahdelle käynnille, joiden väli on 3–4 viikkoa, ja kumpikin käynti laskutetaan erikseen. Emme koskaan poista hammasta ottamatta siitä ensin röntgenkuvaa. Toisella käynnillä käytämme ensimmäisellä käynnillä otettuja röntgenkuvia, joten et maksa niistä kahteen kertaan.
 
 ### Hammaskiven poisto – miten se tehdään?
 
@@ -1698,7 +1705,7 @@ Hammaskivi poistetaan ultraäänilaitteella hampaiden pinnalta ja ienrajan alta,
 
 ### Hampaiden poistot
 
-Hammas poistetaan, kun se ei ole enää säästettävissä: pitkälle edenneessä parodontiitissa, hammasresorptiossa, juuritulehduksessa tai kun hammas on murtunut ytimeen asti. Poistot tehdään kirurgisesti – monijuuriset hampaat jaetaan osiin ja juuret poistetaan kokonaan. Haava suljetaan sulavilla ompeleilla, ja kotiin annetaan kipulääkitys. Hampaiden poistot hinnoitellaan tapauskohtaisesti kliinisen tutkimuksen ja röntgenkuvien perusteella. Maitohampaiden poistot tehdään usein sterilisaation tai kastraation yhteydessä samassa anestesiassa.
+Hammas poistetaan, kun se ei ole enää säästettävissä: pitkälle edenneessä parodontiitissa, hammasresorptiossa, juuritulehduksessa tai kun hammas on murtunut ytimeen asti. Poistot tehdään kirurgisesti – monijuuriset hampaat jaetaan osiin ja juuret poistetaan kokonaan. Haava suljetaan sulavilla ompeleilla, ja kotiin annetaan kipulääkitys. Hampaanpoistojen hinnoittelusta kerromme kohdassa Miksi emme voi antaa tarkkaa hintaa etukäteen. Maitohampaiden poistot tehdään usein sterilisaation tai kastraation yhteydessä samassa anestesiassa.
 
 ### Hammasröntgen – piilossa olevan näkeminen
 
@@ -1726,7 +1733,7 @@ Kotiutus tapahtuu yleensä saman päivän aikana ja lemmikki voidaan noutaa ilta
 
 Paljonko koiran hammaskiven poisto maksaa? Koiran hammaskiven poisto maksaa Eläinklinikka Saarella 303 € (alle 20 kg) tai 353 € (yli 20 kg), yli 40 kg koirilla lisämaksu 50 €. Hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Hammasröntgen kuvataan hammashoidon yhteydessä, 59–99 €.
 Paljonko kissan hammaskiven poisto maksaa? Kissan hammaskiven poisto maksaa 263 €. Hinta sisältää yleisanestesian, hammaskiven poiston, suun tutkimuksen ja hammaskartan. Hammasröntgen 59–99 € kuvataan hammashoidon yhteydessä.
-Paljonko koiran tai kissan hampaan poisto maksaa? Pysyvien hampaiden poistoille ei ole kiinteää hintaa. Hinta määräytyy kliinisen tutkimuksen ja röntgenkuvien perusteella: siihen vaikuttavat poistettavien hampaiden määrä, juurten määrä ja kunto sekä toimenpiteeseen kuluva aika. Saat hinta-arvion ennen toimenpidettä. Maitohampaan poisto maksaa 453 € (1–2 hammasta) tai 533 € (3–4 hammasta).
+Paljonko koiran tai kissan hampaan poisto maksaa? Käynti, jonka aikana poistetaan pysyviä hampaita, maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Tyypillinen hinta on keskimmäinen lasku (mediaani) tällaisista käynneistä klinikallamme touko–marraskuussa 2026. Hinta kattaa koko käynnin. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Poistettavien hampaiden määrä selviää vasta, kun lemmikkisi on nukutettu ja jokainen hammas on tutkittu ja röntgenkuvattu. Siksi emme voi antaa tarkkaa hintaa etukäteen. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Jos poistettavia hampaita on paljon, hoito jaetaan joskus kahdelle käynnille, joiden väli on 3–4 viikkoa. Kumpikin käynti laskutetaan erikseen, ja toisella käynnillä käytämme ensimmäisen käynnin röntgenkuvia, joten et maksa niistä kahteen kertaan. Maitohampaan poisto maksaa 453 € (1–2 hammasta) tai 533 € (3–4 hammasta).
 Voiko koiran hammaskiven poistaa ilman nukutusta? Ei kunnolla. Hereillä olevalta eläimeltä saadaan puhdistettua vain hampaiden näkyvä pinta – ienrajan alle, jossa sairaus syntyy, ei päästä, eikä suuta voida tutkia tai röntgenkuvata. Ilman nukutusta tehtävä hammaskiven poisto on kosmeettinen eikä hoida sairautta. Siksi kaikki hammashoidot tehdään klinikallamme yleisanestesiassa, jonka aikana elintoimintoja valvotaan jatkuvasti.
 Milloin koira kannattaa viedä hammaskiven poistoon? Kun hampaissa on näkyvää hammaskiveä, ikenet punoittavat tai hengitys haisee pahalle – ientulehdus on silloin jo alkanut. Yli 3-vuotiailla koirilla ja kissoilla suosittelemme vuosittaista hampaiden tarkastusta (hereillä 32 €), pieniroduilla jo aiemmin. Tarkastuksessa arvioimme, tarvitaanko hammaskiven poisto ja onko poistettavia hampaita.
 Kuinka kauan hammaskiven poisto kestää? Hammaskiven poisto röntgenkuvineen kestää yleensä noin 1–2 tuntia. Hampaiden poistot pidentävät toimenpidettä. Lemmikki tuodaan aamulla ja noudetaan yleensä samana iltapäivänä.
@@ -6197,7 +6204,7 @@ Takaisin etusivulle
 # Kissan ja koiran hammasresorptio – piilevä, kivulias sairaus
 
 URL: https://elainklinikkasaari.fi/articles/hammasresorptio.html
-Last updated: 2026-10-15
+Last updated: 2026-11-16
 
 Hammashoito
 27.9.2026
@@ -6226,7 +6233,7 @@ Kissan vasemman alaleuan hammasröntgenkuva: alaleuan kolmannessa välihampaassa
 
 ### Hoito – tyyppi määrittää menetelmän
 
-Kerran alkanut vaurio jatkaa etenemistään, eikä minkään lääkkeen ole osoitettu pysäyttävän sitä, joten hoidon tavoitteena on poistaa kivun lähde. Tyypissä 1 koko hammas – kruunu ja jokainen juuri – poistetaan kirurgisesti. Pitkälle edenneissä tyypin 2 vaurioissa hoitosuositukset hyväksyvät kruunuamputaation: kruunu poistetaan ja ien ommellaan kiinni, jolloin paikalleen jäävät luuksi muuttumassa olevat juurenjäänteet, joiden poistaminen on usein hyvin vaikeaa tai mahdotonta. Menetelmä sopii vain, jos röntgenkuvassa ei enää näy juurikalvoa ja jos parodontiitista, hampaan sisäisestä infektiosta (endodonttinen sairaus) tai stomatiitista (laaja suun limakalvotulehdus) ei ole merkkejä; muussa tapauksessa hammas poistetaan. Tyypissä 3 tyypin 1 juuri poistetaan, kun taas tyypin 2 juuri voidaan jättää paikalleen kuten kruunuamputaatiossa. Varhaista, kivutonta ja pelkkään juureen rajoittuvaa vauriota voidaan joskus sen sijaan seurata uusintaröntgenkuvin. Paikkaus ei pysäytä sairautta: yhdessä tutkimuksessa 154 paikatusta kissan hampaasta vain kolmanneksessa hammaskudosta ei ollut tuhoutunut lisää vähintään kuuden kuukauden kuluttua. Eläinklinikka Saarella teemme hampaiden poistoja ja kruunuamputaatioita, ja yhdellä eläinlääkäreistämme on lisäkoulutusta eläinten hammashoidosta.
+Kerran alkanut vaurio jatkaa etenemistään, eikä minkään lääkkeen ole osoitettu pysäyttävän sitä, joten hoidon tavoitteena on poistaa kivun lähde. Tyypissä 1 koko hammas – kruunu ja jokainen juuri – poistetaan kirurgisesti. Pitkälle edenneissä tyypin 2 vaurioissa hoitosuositukset hyväksyvät kruunuamputaation: kruunu poistetaan ja ien ommellaan kiinni, jolloin paikalleen jäävät luuksi muuttumassa olevat juurenjäänteet, joiden poistaminen on usein hyvin vaikeaa tai mahdotonta. Menetelmä sopii vain, jos röntgenkuvassa ei enää näy juurikalvoa ja jos parodontiitista, hampaan sisäisestä infektiosta (endodonttinen sairaus) tai stomatiitista (laaja suun limakalvotulehdus) ei ole merkkejä; muussa tapauksessa hammas poistetaan. Tyypissä 3 tyypin 1 juuri poistetaan, kun taas tyypin 2 juuri voidaan jättää paikalleen kuten kruunuamputaatiossa. Varhaista, kivutonta ja pelkkään juureen rajoittuvaa vauriota voidaan joskus sen sijaan seurata uusintaröntgenkuvin. Paikkaus ei pysäytä sairautta: yhdessä tutkimuksessa 154 paikatusta kissan hampaasta vain kolmanneksessa hammaskudosta ei ollut tuhoutunut lisää vähintään kuuden kuukauden kuluttua. Eläinklinikka Saarella teemme hampaiden poistoja ja kruunuamputaatioita, ja yhdellä eläinlääkäreistämme on lisäkoulutusta eläinten hammashoidosta. Käynti, jonka aikana poistetaan pysyviä hampaita, maksaa klinikallamme tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Lue, miksi lopullinen hinta vaihtelee.
 
 ### Hoidon jälkeen
 
