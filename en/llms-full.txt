@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 74 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 75 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -435,6 +435,11 @@ Heart ultrasound examination €376–476
 Official heart auscultation €80
 Official heart auscultation with another visit €37
 Heart ultrasounds are performed by Kennel Club-approved examiner Leena Sandström. Read more about dog heart ultrasound
+Day care prices
+Day care €200
+Day care with IV fluids €250
+Intensive day care (IV fluids included) €300
+Prices are per day. Medicines, blood tests and urine tests are charged separately. Read more
 Other Services
 EU Passport €80.50
 EU Passport with another visit €37.50
@@ -490,6 +495,7 @@ Eläinklinikka Saari offers a comprehensive range of small-animal veterinary ser
 ### Internal Medicine and Specialty Care
 
 - Internal Medicine — diabetes, Cushing's, pancreatitis and anaemia — diagnostics and treatment.
+- Day care – IV fluids, IV medicines and close monitoring, 7:45 to about 17:00.
 - Dermatology and Allergies — allergy testing, ear infections and itching — diagnosis and treatment.
 - Ophthalmology — corneal ulcers, glaucoma, dry eye and cataracts.
 
@@ -3250,6 +3256,67 @@ Clinic
 #### Why Choosing an Independent Veterinary Clinic Matters
 
 In a 2024 report, the Finnish Competition and Consumer Authority (KKV) found that the Finnish market for small-animal...
+Back to homepage
+
+---
+
+# Vet Day Care for Sick Pets in Vaasa | Saari Animal Clinic
+
+URL: https://elainklinikkasaari.fi/en/services/day-care/
+Last updated: 2026-11-16
+
+Back to homepage
+
+## Day care for sick pets: treatment by day, home for the night
+
+If your pet is ill but well enough to sleep at home, it can spend the day with us. Your pet comes in when we open at 7:45 and goes home at about 17:00, so it is with us for roughly nine hours. Our veterinary nurses watch your pet all day, and the vet checks how it is doing. Cats stay in our cat-only day ward and dogs in a separate dog room, so the two are always kept apart.
+
+### What day care can include
+
+- IV fluids (a drip into a vein)
+- IV medicines (given into a vein)
+- Close monitoring
+- Blood and urine tests
+- Follow-up checks on how the treatment is working
+
+### Day care prices
+
+Day care €200
+Day care with IV fluids €250
+Intensive day care IV fluids included €300
+Intensive day care is for pets in a critical condition that need constant attention.
+Prices are per day. Medicines, blood tests and urine tests are charged separately according to our price list.
+
+### No overnight stays
+
+We don't keep patients overnight. Some pets would be better off with care through the night. There is no 24/7 animal hospital close to Vaasa, so day care is often the best option near home. If your pet needs more than day care can offer, the vet will tell you.
+Ask us about day care at your pet's appointment, or call (06) 321 7300.
+
+### Book an appointment
+
+Call us or book online.
+Call (06) 321 7300
+Book online
+Veterinarian in Vaasa — about our clinic →
+Emergency? Emergency vet in Vaasa →
+
+### Related articles
+
+Pet Health
+
+#### Chronic Kidney Disease in Cats — Symptoms, Stages, Treatment and Life Expectancy
+
+Chronic kidney disease (CKD), often called kidney failure, is one of the most common illnesses of older cats. Studies...
+Cat Health
+
+#### A Less Stressful Vet Visit for Your Cat — How We Help and How You Can Prepare
+
+A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs...
+Anesthesia
+
+#### Anesthesia Safety — Statistics, Risks, and How We Minimize Them
+
+Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners worry about it, an...
 Back to homepage
 
 ---

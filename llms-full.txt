@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 79 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 80 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -435,6 +435,11 @@ Sydämen ultraäänitutkimus 376–476 €
 Virallinen sydänauskultaatio 80 €
 Virallinen sydänauskultaatio muun käynnin yhteydessä 37 €
 Sydänultrat tekee Kennelliiton hyväksymä sydänultraäänitutkija Leena Sandström. Lue lisää koiran sydänultrasta
+Sairaan lemmikin päivähoito
+Päivähoito 200 €
+Päivähoito + tiputus 250 €
+Tehostettu päivähoito + tiputus 300 €
+Hinta päivää kohden. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen. Lue lisää
 Muut toimenpiteet
 EU-passi 80,50 €
 EU-passi muun käynnin yhteydessä 37,50 €
@@ -490,6 +495,7 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 ### Sisätaudit ja erikoisalat
 
 - Sisätaudit – diabetes, Cushing, haimatulehdus ja anemia – diagnostiikka ja hoito.
+- Päivähoito – tiputus, lääkkeet suoneen ja seuranta aamusta iltaan.
 - Ihotaudit ja allergiat – allergiatestit, korvatulehdukset ja kutina – diagnoosi ja hoito.
 - Silmätaudit – sarveiskalvon haavaumat, glaukooma, kuivasilmäisyys ja kaihi.
 
@@ -3451,6 +3457,66 @@ Klinikka
 #### Miksi itsenäinen eläinklinikka on tärkeä valinta?
 
 Kilpailu- ja kuluttajavirasto (KKV) totesi vuonna 2024 julkaistussa selvityksessään, että pieneläinlääkäripalveluiden...
+Takaisin etusivulle
+
+---
+
+# Sairaan lemmikin päivähoito Vaasassa | Eläinklinikka Saari
+
+URL: https://elainklinikkasaari.fi/palvelut/paivahoito/
+Last updated: 2026-11-16
+
+Takaisin etusivulle
+
+## Päivähoito: hoitoa aamusta iltaan
+
+Kun lemmikkisi on huonovointinen mutta pääsee yöksi kotiin, se voi viettää päivän meillä hoidossa. Tuot sen meille, kun avaamme klo 7:45, ja haet sen kotiin noin klo 17, joten hoitoaikaa on noin yhdeksän tuntia. Hoitajamme seuraavat lemmikkiäsi koko päivän, ja eläinlääkäri tarkistaa sen voinnin päivän mittaan. Kissat viettävät päivän kissojen omalla osastolla ja koirat omassa huoneessaan, joten kissat ja koirat eivät ole koskaan samassa huoneessa.
+
+### Päivän aikana hoitoon voi kuulua
+
+- suonensisäinen nesteytys (tiputus)
+- suonensisäiset lääkkeet
+- tiivis seuranta
+- veri- ja virtsakokeet
+- tarkistukset, joista näemme, miten hoito tehoaa
+
+### Hinnat päivää kohden
+
+Päivähoito 200 €
+Päivähoito ja tiputus 250 €
+Tehostettu päivähoito ja tiputus kun lemmikkisi on kriittisessä tilassa ja tarvitsee jatkuvaa valvontaa 300 €
+Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.
+
+### Mitä emme tarjoa
+
+Emme pidä potilaita klinikalla yön yli. Joillekin lemmikeille hoito kellon ympäri olisi parempi, mutta Vaasan lähellä ei ole ympärivuorokautista eläinsairaalaa. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa.
+Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300.
+
+### Varaa aika
+
+Soita meille tai varaa aika verkosta.
+Soita (06) 321 7300
+Varaa verkossa
+Eläinlääkäri Vaasassa – tutustu klinikkaamme →
+Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
+
+### Aiheeseen liittyvät artikkelit
+
+Lemmikkien terveys
+
+#### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
+
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi iäkkäiden kissojen yleisimmistä sairauksis...
+Kissojen terveys
+
+#### Vähemmän stressiä kissan eläinlääkärikäyntiin – näin autamme ja näin voit valmistautua
+
+Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja se, ett...
+Anestesia
+
+#### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne
+
+Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huol...
 Takaisin etusivulle
 
 ---

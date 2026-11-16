@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 74 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 75 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -435,6 +435,11 @@ Hjärtultraljudsundersökning 376–476 €
 Officiell hjärtauskultation 80 €
 Officiell hjärtauskultation i samband med annat besök 37 €
 Hjärtultraljuden utförs av Kennelklubbens godkända undersökare Leena Sandström. Läs mer om hjärtultraljud för hund
+Dagvård
+Dagvård 200 €
+Dagvård med dropp 250 €
+Intensiv dagvård med dropp 300 €
+Pris per dag. Läkemedel samt blod- och urinprov debiteras separat. Läs mer
 Övriga tjänster
 EU-pass 80,50 €
 EU-pass i samband med annat besök 37,50 €
@@ -490,6 +495,7 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 ### Internmedicin och specialområden
 
 - Internmedicin – diabetes, Cushings, pankreatit och anemi – diagnostik och behandling.
+- Dagvård – dropp, läkemedel i en ven och övervakning hela dagen.
 - Hudsjukdomar och allergier – allergitester, öroninflammationer och klåda – diagnos och behandling.
 - Ögonsjukdomar – hornhinnesår, glaukom, torra ögon och katarakt.
 
@@ -3241,6 +3247,66 @@ Klinik
 #### Varför är en självständig djurklinik ett viktigt val?
 
 I en rapport från 2024 konstaterade Konkurrens- och konsumentverket (KKV) att den finländska marknaden för smådjursve...
+Tillbaka till startsidan
+
+---
+
+# Dagvård och dropp för husdjur i Vasa | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/tjanster/dagvard/
+Last updated: 2026-11-16
+
+Tillbaka till startsidan
+
+## Dagvård: behandling från morgon till kväll
+
+När ditt husdjur mår dåligt men kan vara hemma över natten, kan det tillbringa dagen hos oss. Djuret kommer hit när vi öppnar kl. 7:45 och får åka hem omkring kl. 17, så det blir ungefär nio timmars behandling. Våra klinikdjurskötare vakar över djuret hela dagen, och veterinären tittar till det under dagens lopp. Katterna vårdas på vår dagavdelning, som är enbart för katter, och hundarna i ett eget rum, så katter och hundar är aldrig i samma rum.
+
+### Det här kan vi göra under dagen
+
+- ge vätska i en ven (dropp)
+- ge läkemedel i en ven
+- övervaka ditt husdjur noggrant
+- ta blod- och urinprov
+- göra kontroller för att se hur behandlingen verkar
+
+### Pris per dag
+
+Dagvård 200 €
+Dagvård med dropp 250 €
+Intensiv dagvård med dropp när ditt husdjur är kritiskt sjukt och behöver ständig tillsyn 300 €
+Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.
+
+### Det här gör vi inte
+
+Djuren stannar inte över natten hos oss. För en del djur vore vård både dag och natt bättre, men det finns inget djursjukhus nära Vasa som har öppet dygnet runt. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så.
+Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300.
+
+### Boka tid
+
+Ring oss eller boka tid online.
+Ring (06) 321 7300
+Boka online
+Veterinär i Vasa – läs mer om kliniken →
+Akut fall? Jourveterinär i Vasa →
+
+### Relaterade artiklar
+
+Husdjurshälsa
+
+#### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter. Studier t...
+Katthälsa
+
+#### Ett mindre stressande veterinärbesök för katten – så hjälper vi och så kan du förbereda dig
+
+Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, hundar i närheten...
+Anestesi
+
+#### Anestesisäkerhet – statistik, risker och hur vi minimerar dem
+
+Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare oroar sig inför den...
 Tillbaka till startsidan
 
 ---
