@@ -4654,6 +4654,10 @@ const servicePages = [
       {
         "heading": "Mitä emme tarjoa",
         "text": "<p>Emme pidä potilaita klinikalla yön yli. Joillekin lemmikeille hoito kellon ympäri olisi parempi, mutta Vaasan lähellä ei ole <a href=\"/palvelut/paivystys/\">ympärivuorokautista eläinsairaalaa</a>. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa.</p><p>Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300.</p>"
+      },
+      {
+        "heading": "Usein kysyttyä päivähoidosta",
+        "text": "<p><strong>Mitkä lemmikit voivat tulla klinikalle päivähoitoon?</strong> Kun lemmikkisi on huonovointinen mutta pääsee yöksi kotiin, se voi viettää päivän meillä hoidossa.</p><p><strong>Paljonko sairaan lemmikin päivähoito maksaa?</strong> Hinnat ovat päivää kohden: päivähoito 200 €, päivähoito ja tiputus 250 € sekä tehostettu päivähoito ja tiputus 300 €. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.</p><p><strong>Mihin aikaan tuon lemmikkini klinikalle ja haen sen kotiin?</strong> Tuot lemmikkisi meille, kun avaamme klo 7:45, ja haet sen kotiin noin klo 17, joten hoitoaikaa on noin yhdeksän tuntia.</p><p><strong>Mitä hoitoja lemmikkini voi saada päivähoidossa?</strong> Päivän aikana hoitoon voi kuulua suonensisäinen nesteytys (tiputus), suonensisäiset lääkkeet, tiivis seuranta, veri- ja virtsakokeet sekä tarkistukset, joista näemme, miten hoito tehoaa. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.</p><p><strong>Kuka huolehtii lemmikistäni päivän aikana?</strong> Hoitajamme seuraavat lemmikkiäsi koko päivän, ja eläinlääkäri tarkistaa sen voinnin päivän mittaan.</p><p><strong>Ovatko kissat ja koirat päivähoidossa erillään?</strong> Ovat. Kissat viettävät päivän kissojen omalla osastolla ja koirat omassa huoneessaan, joten kissat ja koirat eivät ole koskaan samassa huoneessa.</p><p><strong>Mitä on tehostettu päivähoito?</strong> Tehostettu päivähoito on tarkoitettu lemmikille, joka on kriittisessä tilassa ja tarvitsee jatkuvaa valvontaa.</p><p><strong>Voiko lemmikkini jäädä klinikalle yöksi?</strong> Ei voi. Emme pidä potilaita klinikalla yön yli. Vaasan lähellä ei ole ympärivuorokautista eläinsairaalaa. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa.</p><p><strong>Miten varaan päivähoidon sairaalle lemmikilleni?</strong> Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300.</p>"
       }
     ],
     "sv": {
@@ -4673,6 +4677,10 @@ const servicePages = [
         {
           "heading": "Det här gör vi inte",
           "text": "<p>Djuren stannar inte över natten hos oss. För en del djur vore vård både dag och natt bättre, men det finns <a href=\"/sv/tjanster/jour/\">inget djursjukhus nära Vasa som har öppet dygnet runt</a>. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så.</p><p>Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300.</p>"
+        },
+        {
+          "heading": "Vanliga frågor om dagvård",
+          "text": "<p><strong>Vilka sjuka husdjur kan få dagvård?</strong> När ditt husdjur mår dåligt men kan vara hemma över natten, kan det tillbringa dagen hos oss.</p><p><strong>Vad kostar dagvård på djurkliniken?</strong> Dagvård kostar 200 € per dag, dagvård med dropp 250 € och intensiv dagvård med dropp 300 €. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.</p><p><strong>Vilken tid ska jag lämna och hämta mitt djur?</strong> Djuret kommer hit när vi öppnar kl. 7:45 och får åka hem omkring kl. 17, så det blir ungefär nio timmars behandling.</p><p><strong>Vilken behandling kan mitt djur få under dagvården?</strong> Under dagen kan vi ge vätska i en ven (dropp) och läkemedel i en ven, övervaka ditt husdjur noggrant, ta blod- och urinprov och göra kontroller för att se hur behandlingen verkar. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.</p><p><strong>Vem tar hand om mitt djur under dagen?</strong> Våra klinikdjurskötare vakar över djuret hela dagen, och veterinären tittar till det under dagens lopp.</p><p><strong>Hålls katter och hundar åtskilda?</strong> Ja. Katterna vårdas på vår dagavdelning, som är enbart för katter, och hundarna i ett eget rum, så katter och hundar är aldrig i samma rum.</p><p><strong>Vad är intensiv dagvård?</strong> Intensiv dagvård med dropp ges när ditt husdjur är kritiskt sjukt och behöver ständig tillsyn.</p><p><strong>Kan mitt djur stanna över natten?</strong> Nej, djuren stannar inte över natten hos oss. Det finns inget djursjukhus nära Vasa som har öppet dygnet runt. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så.</p><p><strong>Hur bokar jag dagvård för mitt djur?</strong> Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300.</p>"
         }
       ],
       "ctaTitle": "Boka tid",
@@ -4680,7 +4688,45 @@ const servicePages = [
       "ctaCall": "Ring (06) 321 7300",
       "ctaBook": "Boka online",
       "back": "← Tillbaka till startsidan",
-      "relatedTitle": "Relaterade artiklar"
+      "relatedTitle": "Relaterade artiklar",
+      "faq": [
+        {
+          "q": "Vilka sjuka husdjur kan få dagvård?",
+          "a": "När ditt husdjur mår dåligt men kan vara hemma över natten, kan det tillbringa dagen hos oss."
+        },
+        {
+          "q": "Vad kostar dagvård på djurkliniken?",
+          "a": "Dagvård kostar 200 € per dag, dagvård med dropp 250 € och intensiv dagvård med dropp 300 €. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista."
+        },
+        {
+          "q": "Vilken tid ska jag lämna och hämta mitt djur?",
+          "a": "Djuret kommer hit när vi öppnar kl. 7:45 och får åka hem omkring kl. 17, så det blir ungefär nio timmars behandling."
+        },
+        {
+          "q": "Vilken behandling kan mitt djur få under dagvården?",
+          "a": "Under dagen kan vi ge vätska i en ven (dropp) och läkemedel i en ven, övervaka ditt husdjur noggrant, ta blod- och urinprov och göra kontroller för att se hur behandlingen verkar. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista."
+        },
+        {
+          "q": "Vem tar hand om mitt djur under dagen?",
+          "a": "Våra klinikdjurskötare vakar över djuret hela dagen, och veterinären tittar till det under dagens lopp."
+        },
+        {
+          "q": "Hålls katter och hundar åtskilda?",
+          "a": "Ja. Katterna vårdas på vår dagavdelning, som är enbart för katter, och hundarna i ett eget rum, så katter och hundar är aldrig i samma rum."
+        },
+        {
+          "q": "Vad är intensiv dagvård?",
+          "a": "Intensiv dagvård med dropp ges när ditt husdjur är kritiskt sjukt och behöver ständig tillsyn."
+        },
+        {
+          "q": "Kan mitt djur stanna över natten?",
+          "a": "Nej, djuren stannar inte över natten hos oss. Det finns inget djursjukhus nära Vasa som har öppet dygnet runt. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så."
+        },
+        {
+          "q": "Hur bokar jag dagvård för mitt djur?",
+          "a": "Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300."
+        }
+      ]
     },
     "en": {
       "title": "Vet Day Care for Sick Pets in Vaasa | Saari Animal Clinic",
@@ -4699,6 +4745,10 @@ const servicePages = [
         {
           "heading": "No overnight stays",
           "text": "<p>We don't keep patients overnight. Some pets would be better off with care through the night. There is no <a href=\"/en/services/emergency/\">24/7 animal hospital</a> close to Vaasa, so day care is often the best option near home. If your pet needs more than day care can offer, the vet will tell you.</p><p>Ask us about day care at your pet's appointment, or call (06) 321 7300.</p>"
+        },
+        {
+          "heading": "Frequently asked questions about day care",
+          "text": "<p><strong>Which pets can come for day care?</strong> If your pet is ill but well enough to sleep at home, it can spend the day with us.</p><p><strong>How much does vet day care cost?</strong> Day care costs €200 per day, day care with IV fluids €250 and intensive day care €300 (IV fluids included). Medicines, blood tests and urine tests are charged separately according to our price list.</p><p><strong>What time do I bring my pet in and pick it up?</strong> Your pet comes in when we open at 7:45 and goes home at about 17:00, so it is with us for roughly nine hours.</p><p><strong>What treatment can my pet get in day care?</strong> Day care can include IV fluids (a drip into a vein), IV medicines (given into a vein), close monitoring, blood and urine tests, and follow-up checks on how the treatment is working. Medicines, blood tests and urine tests are charged separately according to our price list.</p><p><strong>Who looks after my pet during the day?</strong> Our veterinary nurses watch your pet all day, and the vet checks how it is doing.</p><p><strong>Are cats and dogs kept apart?</strong> Yes. Cats stay in our cat-only day ward and dogs in a separate dog room, so the two are always kept apart.</p><p><strong>What is intensive day care?</strong> Intensive day care is for pets in a critical condition that need constant attention.</p><p><strong>Can my pet stay overnight?</strong> No. We don't keep patients overnight. There is no 24/7 animal hospital close to Vaasa, so day care is often the best option near home. If your pet needs more than day care can offer, the vet will tell you.</p><p><strong>How do I book day care for my pet?</strong> Ask us about day care at your pet's appointment, or call (06) 321 7300.</p>"
         }
       ],
       "ctaTitle": "Book an appointment",
@@ -4706,7 +4756,45 @@ const servicePages = [
       "ctaCall": "Call (06) 321 7300",
       "ctaBook": "Book online",
       "back": "← Back to homepage",
-      "relatedTitle": "Related articles"
+      "relatedTitle": "Related articles",
+      "faq": [
+        {
+          "q": "Which pets can come for day care?",
+          "a": "If your pet is ill but well enough to sleep at home, it can spend the day with us."
+        },
+        {
+          "q": "How much does vet day care cost?",
+          "a": "Day care costs €200 per day, day care with IV fluids €250 and intensive day care €300 (IV fluids included). Medicines, blood tests and urine tests are charged separately according to our price list."
+        },
+        {
+          "q": "What time do I bring my pet in and pick it up?",
+          "a": "Your pet comes in when we open at 7:45 and goes home at about 17:00, so it is with us for roughly nine hours."
+        },
+        {
+          "q": "What treatment can my pet get in day care?",
+          "a": "Day care can include IV fluids (a drip into a vein), IV medicines (given into a vein), close monitoring, blood and urine tests, and follow-up checks on how the treatment is working. Medicines, blood tests and urine tests are charged separately according to our price list."
+        },
+        {
+          "q": "Who looks after my pet during the day?",
+          "a": "Our veterinary nurses watch your pet all day, and the vet checks how it is doing."
+        },
+        {
+          "q": "Are cats and dogs kept apart?",
+          "a": "Yes. Cats stay in our cat-only day ward and dogs in a separate dog room, so the two are always kept apart."
+        },
+        {
+          "q": "What is intensive day care?",
+          "a": "Intensive day care is for pets in a critical condition that need constant attention."
+        },
+        {
+          "q": "Can my pet stay overnight?",
+          "a": "No. We don't keep patients overnight. There is no 24/7 animal hospital close to Vaasa, so day care is often the best option near home. If your pet needs more than day care can offer, the vet will tell you."
+        },
+        {
+          "q": "How do I book day care for my pet?",
+          "a": "Ask us about day care at your pet's appointment, or call (06) 321 7300."
+        }
+      ]
     },
     "relatedArticles": [
       "kissan-munuaisten-vajaatoiminta",
@@ -4719,7 +4807,45 @@ const servicePages = [
       "lowPrice": "200",
       "highPrice": "300"
     },
-    "lastReviewed": "2026-11-16"
+    "lastReviewed": "2026-11-16",
+    "faq": [
+      {
+        "q": "Mitkä lemmikit voivat tulla klinikalle päivähoitoon?",
+        "a": "Kun lemmikkisi on huonovointinen mutta pääsee yöksi kotiin, se voi viettää päivän meillä hoidossa."
+      },
+      {
+        "q": "Paljonko sairaan lemmikin päivähoito maksaa?",
+        "a": "Hinnat ovat päivää kohden: päivähoito 200 €, päivähoito ja tiputus 250 € sekä tehostettu päivähoito ja tiputus 300 €. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan."
+      },
+      {
+        "q": "Mihin aikaan tuon lemmikkini klinikalle ja haen sen kotiin?",
+        "a": "Tuot lemmikkisi meille, kun avaamme klo 7:45, ja haet sen kotiin noin klo 17, joten hoitoaikaa on noin yhdeksän tuntia."
+      },
+      {
+        "q": "Mitä hoitoja lemmikkini voi saada päivähoidossa?",
+        "a": "Päivän aikana hoitoon voi kuulua suonensisäinen nesteytys (tiputus), suonensisäiset lääkkeet, tiivis seuranta, veri- ja virtsakokeet sekä tarkistukset, joista näemme, miten hoito tehoaa. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan."
+      },
+      {
+        "q": "Kuka huolehtii lemmikistäni päivän aikana?",
+        "a": "Hoitajamme seuraavat lemmikkiäsi koko päivän, ja eläinlääkäri tarkistaa sen voinnin päivän mittaan."
+      },
+      {
+        "q": "Ovatko kissat ja koirat päivähoidossa erillään?",
+        "a": "Ovat. Kissat viettävät päivän kissojen omalla osastolla ja koirat omassa huoneessaan, joten kissat ja koirat eivät ole koskaan samassa huoneessa."
+      },
+      {
+        "q": "Mitä on tehostettu päivähoito?",
+        "a": "Tehostettu päivähoito on tarkoitettu lemmikille, joka on kriittisessä tilassa ja tarvitsee jatkuvaa valvontaa."
+      },
+      {
+        "q": "Voiko lemmikkini jäädä klinikalle yöksi?",
+        "a": "Ei voi. Emme pidä potilaita klinikalla yön yli. Vaasan lähellä ei ole ympärivuorokautista eläinsairaalaa. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa."
+      },
+      {
+        "q": "Miten varaan päivähoidon sairaalle lemmikilleni?",
+        "a": "Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300."
+      }
+    ]
   },
   {
     slug: 'paivystys',

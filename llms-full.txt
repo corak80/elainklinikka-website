@@ -3464,7 +3464,7 @@ Takaisin etusivulle
 # Sairaan lemmikin päivähoito Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivahoito/
-Last updated: 2026-11-16
+Last updated: 2026-11-17
 
 Takaisin etusivulle
 
@@ -3491,6 +3491,18 @@ Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.
 
 Emme pidä potilaita klinikalla yön yli. Joillekin lemmikeille hoito kellon ympäri olisi parempi, mutta Vaasan lähellä ei ole ympärivuorokautista eläinsairaalaa. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa.
 Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300.
+
+### Usein kysyttyä päivähoidosta
+
+Mitkä lemmikit voivat tulla klinikalle päivähoitoon? Kun lemmikkisi on huonovointinen mutta pääsee yöksi kotiin, se voi viettää päivän meillä hoidossa.
+Paljonko sairaan lemmikin päivähoito maksaa? Hinnat ovat päivää kohden: päivähoito 200 €, päivähoito ja tiputus 250 € sekä tehostettu päivähoito ja tiputus 300 €. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.
+Mihin aikaan tuon lemmikkini klinikalle ja haen sen kotiin? Tuot lemmikkisi meille, kun avaamme klo 7:45, ja haet sen kotiin noin klo 17, joten hoitoaikaa on noin yhdeksän tuntia.
+Mitä hoitoja lemmikkini voi saada päivähoidossa? Päivän aikana hoitoon voi kuulua suonensisäinen nesteytys (tiputus), suonensisäiset lääkkeet, tiivis seuranta, veri- ja virtsakokeet sekä tarkistukset, joista näemme, miten hoito tehoaa. Lääkkeet sekä veri- ja virtsakokeet laskutetaan erikseen hinnastomme mukaan.
+Kuka huolehtii lemmikistäni päivän aikana? Hoitajamme seuraavat lemmikkiäsi koko päivän, ja eläinlääkäri tarkistaa sen voinnin päivän mittaan.
+Ovatko kissat ja koirat päivähoidossa erillään? Ovat. Kissat viettävät päivän kissojen omalla osastolla ja koirat omassa huoneessaan, joten kissat ja koirat eivät ole koskaan samassa huoneessa.
+Mitä on tehostettu päivähoito? Tehostettu päivähoito on tarkoitettu lemmikille, joka on kriittisessä tilassa ja tarvitsee jatkuvaa valvontaa.
+Voiko lemmikkini jäädä klinikalle yöksi? Ei voi. Emme pidä potilaita klinikalla yön yli. Vaasan lähellä ei ole ympärivuorokautista eläinsairaalaa. Siksi päivähoito on usein paras vaihtoehto lähellä kotia. Eläinlääkäri kertoo sinulle, jos lemmikkisi tarvitsee enemmän kuin päivähoitoa.
+Miten varaan päivähoidon sairaalle lemmikilleni? Kysy päivähoidosta lemmikkisi käynnin yhteydessä tai soita numeroon (06) 321 7300.
 
 ### Varaa aika
 

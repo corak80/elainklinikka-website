@@ -3254,7 +3254,7 @@ Tillbaka till startsidan
 # Dagvård och dropp för husdjur i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/dagvard/
-Last updated: 2026-11-16
+Last updated: 2026-11-17
 
 Tillbaka till startsidan
 
@@ -3281,6 +3281,18 @@ Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.
 
 Djuren stannar inte över natten hos oss. För en del djur vore vård både dag och natt bättre, men det finns inget djursjukhus nära Vasa som har öppet dygnet runt. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så.
 Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300.
+
+### Vanliga frågor om dagvård
+
+Vilka sjuka husdjur kan få dagvård? När ditt husdjur mår dåligt men kan vara hemma över natten, kan det tillbringa dagen hos oss.
+Vad kostar dagvård på djurkliniken? Dagvård kostar 200 € per dag, dagvård med dropp 250 € och intensiv dagvård med dropp 300 €. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.
+Vilken tid ska jag lämna och hämta mitt djur? Djuret kommer hit när vi öppnar kl. 7:45 och får åka hem omkring kl. 17, så det blir ungefär nio timmars behandling.
+Vilken behandling kan mitt djur få under dagvården? Under dagen kan vi ge vätska i en ven (dropp) och läkemedel i en ven, övervaka ditt husdjur noggrant, ta blod- och urinprov och göra kontroller för att se hur behandlingen verkar. Läkemedel samt blod- och urinprov debiteras separat enligt vår prislista.
+Vem tar hand om mitt djur under dagen? Våra klinikdjurskötare vakar över djuret hela dagen, och veterinären tittar till det under dagens lopp.
+Hålls katter och hundar åtskilda? Ja. Katterna vårdas på vår dagavdelning, som är enbart för katter, och hundarna i ett eget rum, så katter och hundar är aldrig i samma rum.
+Vad är intensiv dagvård? Intensiv dagvård med dropp ges när ditt husdjur är kritiskt sjukt och behöver ständig tillsyn.
+Kan mitt djur stanna över natten? Nej, djuren stannar inte över natten hos oss. Det finns inget djursjukhus nära Vasa som har öppet dygnet runt. Därför är dagvård ofta det bästa alternativet nära hemmet. Veterinären säger till om ditt husdjur behöver mer än så.
+Hur bokar jag dagvård för mitt djur? Fråga om dagvård när du är på besök med ditt husdjur, eller ring (06) 321 7300.
 
 ### Boka tid
 
