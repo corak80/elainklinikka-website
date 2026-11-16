@@ -104,13 +104,15 @@ async function main() {
     requireText(pl, plHtml, vCat, 'cat typical price');
     requireText(pl, plHtml, need('rowDog'), 'dog row name');
     requireText(pl, plHtml, vDog, 'dog typical price');
-    requireText(pl, plHtml, need('note'), 'typical-price note');
+    requireText(pl, plHtml, need('noteShort'), 'typical-price note');
+    requireText(pl, plain(plHtml), need('rowIncludes'), 'what the price includes (row line)');
 
     const dp = DENTAL[lang], dpHtml = await read(dp);
     checkBanned(dp, dpHtml);
     requireText(dp, plain(dpHtml), vCat, 'cat typical price');
     requireText(dp, plain(dpHtml), vDog, 'dog typical price');
     requireText(dp, plain(dpHtml), need('whyHeading'), 'why-heading');
+    requireText(dp, plain(dpHtml), need('rowIncludes'), 'what the price includes (row line)');
     requireText(dp, plain(dpHtml), plain(need('whyText')), 'why-text');
     requireText(dp, plain(dpHtml), plain(need('twoVisitsText')), 'two-visits text');
     if (!/id="extraction-price"/.test(dpHtml)) fail(dp, 'missing anchor id="extraction-price"');
@@ -137,13 +139,13 @@ async function main() {
   const mainJs = await read('js/main.js');
   checkBanned('js/main.js', mainJs, true);
   for (const lang of LANGS) {
-    const note = W.note && W.note[lang];
+    const note = W.noteShort && W.noteShort[lang];
     if (note && !mainJs.includes(escapeLikeMainJs(note)) && !mainJs.includes(note)) fail('js/main.js', `missing ${lang} note`);
   }
   if (!LIVE) {
     const src = fs.readFileSync(path.join(ROOT, 'js/main.src.js'), 'utf8');
     checkBanned('js/main.src.js', src);
-    for (const lang of LANGS) if (W.note && W.note[lang] && !src.includes(W.note[lang])) fail('js/main.src.js', `missing ${lang} note`);
+    for (const lang of LANGS) if (W.noteShort && W.noteShort[lang] && !src.includes(W.noteShort[lang])) fail('js/main.src.js', `missing ${lang} note`);
   }
   const pricing = await read('pricing.md');
   checkBanned('pricing.md', pricing);

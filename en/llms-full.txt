@@ -405,9 +405,9 @@ Dental X-ray during dental treatment €59–99
 Milk tooth extraction 1–2 teeth €453
 Milk tooth extraction 3–4 teeth €533
 Surcharge dog >40kg €50
-Permanent tooth extraction visit, cat (typical) about €700
-Permanent tooth extraction visit, dog (typical) about €880
-The typical price is the median (middle) bill for visits with permanent tooth extractions at our clinic in May–November 2026. It covers the whole visit. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove. Large cases are sometimes split into two visits, each billed separately.
+Permanent tooth extraction visit, cat (typical) Whole visit incl. anaesthesia – usually also teeth cleaning and dental X-rays about €700
+Permanent tooth extraction visit, dog (typical) Whole visit incl. anaesthesia – usually also teeth cleaning and dental X-rays about €880
+The typical price is the median (middle) bill for visits with permanent tooth extractions at our clinic in May–November 2026. The final price depends on how many teeth come out and how difficult they are to remove. Large cases are sometimes split into two visits, each billed separately.
 Pregnancy Examinations
 Pregnancy ultrasound €117.80
 Pregnancy X-ray €108.00
@@ -1497,8 +1497,8 @@ Surcharge, dog over 40 kg €50
 Dental X-rays with dental treatment €59–99
 Deciduous tooth removal, 1–2 teeth €453
 Deciduous tooth removal, 3–4 teeth €533
-Permanent tooth extraction visit, cat (typical) about €700
-Permanent tooth extraction visit, dog (typical) about €880
+Permanent tooth extraction visit, cat (typical) Whole visit incl. anaesthesia – usually also teeth cleaning and dental X-rays about €700
+Permanent tooth extraction visit, dog (typical) Whole visit incl. anaesthesia – usually also teeth cleaning and dental X-rays about €880
 The teeth-cleaning price includes general anaesthesia, ultrasonic scaling, an oral examination and a dental chart. Permanent tooth extractions have no fixed price. A whole visit with extractions typically costs about €700 for a cat and about €880 for a dog. Anaesthesia is always included; teeth cleaning and dental X-rays are usually included too. The final price depends on how many teeth come out and how difficult they are to remove. All prices are in our price list. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers.
 
 #### Why we can't give an exact price in advance

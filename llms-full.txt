@@ -405,9 +405,9 @@ Hammasröntgen hammashoidon yhteydessä 59–99 €
 Maitohampaan poisto 1–2 hammasta 453 €
 Maitohampaan poisto 3–4 hammasta 533 €
 Lisämaksu koira >40kg 50 €
-Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) noin 700 €
-Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) noin 880 €
-Tyypillinen hinta on keskimmäinen lasku (mediaani) niistä omista käynneistämme, joiden aikana poistettiin pysyviä hampaita touko–marraskuussa 2026. Hinta kattaa koko käynnin. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Laajat hoidot jaetaan joskus kahdelle käynnille, ja kumpikin käynti laskutetaan erikseen.
+Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) Koko käynti nukutuksineen – yleensä myös hammaskiven poisto ja hammasröntgen noin 700 €
+Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) Koko käynti nukutuksineen – yleensä myös hammaskiven poisto ja hammasröntgen noin 880 €
+Tyypillinen hinta on keskimmäinen lasku (mediaani) niistä käynneistä, joiden aikana klinikallamme poistettiin pysyviä hampaita touko–marraskuussa 2026. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Laajat hoidot jaetaan joskus kahdelle käynnille, ja kumpikin käynti laskutetaan erikseen.
 Tiineystutkimukset
 Tiineysultraääni 117,80 €
 Tiineysröntgen 108,00 €
@@ -1691,8 +1691,8 @@ Lisämaksu, koira yli 40 kg 50 €
 Hammasröntgen hammashoidon yhteydessä 59–99 €
 Maitohampaan poisto, 1–2 hammasta 453 €
 Maitohampaan poisto, 3–4 hammasta 533 €
-Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) noin 700 €
-Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) noin 880 €
+Pysyvien hampaiden poistokäynti, kissa (tyypillinen hinta) Koko käynti nukutuksineen – yleensä myös hammaskiven poisto ja hammasröntgen noin 700 €
+Pysyvien hampaiden poistokäynti, koira (tyypillinen hinta) Koko käynti nukutuksineen – yleensä myös hammaskiven poisto ja hammasröntgen noin 880 €
 Hammaskiven poiston hinta sisältää yleisanestesian, hammaskiven poiston ultraäänilaitteella, suun tutkimuksen ja hammaskartan. Pysyvien hampaiden poistoille ei ole kiinteää hintaa. Koko hampaanpoistokäynti maksaa tyypillisesti kissalla noin 700 € ja koiralla noin 880 €. Yleisanestesia sisältyy hintaan aina, ja yleensä mukana ovat myös hammaskiven poisto ja hammasröntgenkuvat. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Kaikki hinnat löydät hinnastostamme. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille.
 
 #### Miksi emme voi antaa tarkkaa hintaa etukäteen

@@ -100,5 +100,15 @@
     "en": "When many teeth need to come out, the work is sometimes split into two visits 3–4 weeks apart, and each visit is billed separately. We never remove a tooth without X-raying it first. At the second visit we use the X-rays taken at the first, so you don't pay for them twice.",
     "fi": "Jos poistettavia hampaita on paljon, hoito jaetaan joskus kahdelle käynnille, joiden väli on 3–4 viikkoa, ja kumpikin käynti laskutetaan erikseen. Emme koskaan poista hammasta ottamatta siitä ensin röntgenkuvaa. Toisella käynnillä käytämme ensimmäisellä käynnillä otettuja röntgenkuvia, joten et maksa niistä kahteen kertaan.",
     "sv": "Om många tänder behöver dras ut delar vi ibland upp behandlingen på två besök med cirka 3–4 veckors mellanrum, och varje besök har sin egen räkning. Vi drar aldrig ut en tand utan att först röntga den. Vid det andra besöket använder vi röntgenbilderna från det första, så att du inte betalar för dem två gånger."
+  },
+  "rowIncludes": {
+    "en": "Whole visit incl. anaesthesia – usually also teeth cleaning and dental X-rays",
+    "fi": "Koko käynti nukutuksineen – yleensä myös hammaskiven poisto ja hammasröntgen",
+    "sv": "Hela besöket inkl. narkos – vanligen också tandstensborttagning och tandröntgen"
+  },
+  "noteShort": {
+    "en": "The typical price is the median (middle) bill for visits with permanent tooth extractions at our clinic in May–November 2026. The final price depends on how many teeth come out and how difficult they are to remove. Large cases are sometimes split into two visits, each billed separately.",
+    "fi": "Tyypillinen hinta on keskimmäinen lasku (mediaani) niistä käynneistä, joiden aikana klinikallamme poistettiin pysyviä hampaita touko–marraskuussa 2026. Lopullinen hinta riippuu siitä, kuinka monta hammasta poistetaan ja kuinka vaikeita poistot ovat. Laajat hoidot jaetaan joskus kahdelle käynnille, ja kumpikin käynti laskutetaan erikseen.",
+    "sv": "Det typiska priset är den mittersta räkningen (medianen) för besök med utdragning av permanenta tänder på vår klinik under maj–november 2026. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Omfattande behandlingar delas ibland upp på två besök, och varje besök har sin egen räkning."
   }
 }

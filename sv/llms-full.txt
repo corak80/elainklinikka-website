@@ -405,9 +405,9 @@ Tandröntgen i samband med tandvård 59–99 €
 Mjölktandsextraktion 1–2 tänder 453 €
 Mjölktandsextraktion 3–4 tänder 533 €
 Tillägg hund >40kg 50 €
-Besök med utdragning av permanenta tänder, katt (typiskt pris) cirka 700 €
-Besök med utdragning av permanenta tänder, hund (typiskt pris) cirka 880 €
-Det typiska priset är den mittersta räkningen (medianen) för besök med utdragning av permanenta tänder på vår klinik under maj–november 2026. Priset gäller hela besöket. Narkos ingår alltid, och vanligen ingår också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Omfattande behandlingar delas ibland upp på två besök, och varje besök har sin egen räkning.
+Besök med utdragning av permanenta tänder, katt (typiskt pris) Hela besöket inkl. narkos – vanligen också tandstensborttagning och tandröntgen cirka 700 €
+Besök med utdragning av permanenta tänder, hund (typiskt pris) Hela besöket inkl. narkos – vanligen också tandstensborttagning och tandröntgen cirka 880 €
+Det typiska priset är den mittersta räkningen (medianen) för besök med utdragning av permanenta tänder på vår klinik under maj–november 2026. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Omfattande behandlingar delas ibland upp på två besök, och varje besök har sin egen räkning.
 Dräktighetsundersökningar
 Dräktighetsultraljud 117,80 €
 Dräktighetsröntgen 108,00 €
@@ -1487,8 +1487,8 @@ Tillägg, hund över 40 kg 50 €
 Dentalröntgen i samband med tandvård 59–99 €
 Borttagning av mjölktänder, 1–2 tänder 453 €
 Borttagning av mjölktänder, 3–4 tänder 533 €
-Besök med utdragning av permanenta tänder, katt (typiskt pris) cirka 700 €
-Besök med utdragning av permanenta tänder, hund (typiskt pris) cirka 880 €
+Besök med utdragning av permanenta tänder, katt (typiskt pris) Hela besöket inkl. narkos – vanligen också tandstensborttagning och tandröntgen cirka 700 €
+Besök med utdragning av permanenta tänder, hund (typiskt pris) Hela besöket inkl. narkos – vanligen också tandstensborttagning och tandröntgen cirka 880 €
 Priset för tandstensborttagning inkluderar narkos, tandrengöring med ultraljud, munundersökning och tandkarta. Utdragning av permanenta tänder har inget fast pris. Hela besöket med tandutdragning brukar kosta cirka 700 € för katt och cirka 880 € för hund. I priset ingår alltid narkos och vanligen också tandstensborttagning och tandröntgen. Slutpriset beror på hur många tänder som dras ut och hur svåra utdragningarna är. Alla priser finns i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
 
 #### Varför vi inte kan ge ett exakt pris på förhand
