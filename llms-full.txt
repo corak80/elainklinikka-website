@@ -471,7 +471,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-11-09
+Last updated: 2026-11-16
 
 ## Palvelumme
 

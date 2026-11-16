@@ -18,7 +18,8 @@
 
 ## Key services
 
-- [Dental care](https://elainklinikkasaari.fi/palvelut/hammashoito/): Dental treatment for dogs and cats, incl. resorption and extractions.
+- [Dental care](https://elainklinikkasaari.fi/palvelut/hammashoito/): Dental treatment for dogs and cats, incl. resorption and extractions. Teeth cleaning under anaesthesia €263 (cat), €303–353 (dog); a visit with permanent tooth extractions typically costs about €700 (cat) or €880 (dog) for the whole visit (median bill May–Nov 2026; anaesthesia always, usually also cleaning and dental X-rays). No quote in advance: the number of teeth is only known under anaesthesia after X-rays. English: https://elainklinikkasaari.fi/en/services/dental-care/
+- [Day care for sick pets](https://elainklinikkasaari.fi/en/services/day-care/): Treatment by day (7:45 to about 17:00), home for the night: IV fluids, IV medicines, monitoring, blood and urine tests. €200 per day, €250 with IV fluids, €300 intensive (IV included); medicines and tests extra; no overnight stays. Finnish: https://elainklinikkasaari.fi/palvelut/paivahoito/ · Swedish: https://elainklinikkasaari.fi/sv/tjanster/dagvard/
 - [Cardiac examinations](https://elainklinikkasaari.fi/palvelut/sydantutkimukset/): Heart ultrasound; Finnish Kennel Club authorised heart examiner.
 - [Surgery](https://elainklinikkasaari.fi/palvelut/kirurgia/): Orthopedic and soft-tissue surgery.
 - [Ultrasound](https://elainklinikkasaari.fi/palvelut/ultraaani/): Diagnostic ultrasound imaging.

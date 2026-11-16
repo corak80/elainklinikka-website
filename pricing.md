@@ -127,6 +127,16 @@ The number of teeth to remove is only known once the pet is under anaesthesia an
 - Official cardiac auscultation: 80 €
 - Official cardiac auscultation during another visit: 37 €
 
+## Day care for sick pets (Päivähoito)
+
+Details: https://elainklinikkasaari.fi/en/services/day-care/ (Finnish: https://elainklinikkasaari.fi/palvelut/paivahoito/ · Swedish: https://elainklinikkasaari.fi/sv/tjanster/dagvard/)
+
+- Day care: 200 € per day
+- Day care with IV fluids: 250 € per day (IV fluids included)
+- Intensive day care: 300 € per day (IV fluids included; for a pet in a critical condition that needs constant attention)
+
+The pet comes in at 7:45 and goes home at about 17:00 (about nine hours). Veterinary nurses watch it all day and the vet checks on it; cats stay in the cat-only day ward, dogs in a separate dog room. Day care can include IV fluids, IV medicines, close monitoring, blood and urine tests and follow-up checks. Medicines and blood and urine tests are charged separately. No overnight stays: there is no 24/7 animal hospital close to Vaasa (see the emergency page for the nearest ones).
+
 ## Other procedures (Muut toimenpiteet)
 
 - EU pet passport: 80.50 €
