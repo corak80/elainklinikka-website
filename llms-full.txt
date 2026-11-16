@@ -383,16 +383,16 @@ Ontumatutkimus 163 €
 Ontumatutkimus + röntgentutkimus (nukutettu eläin) 273–323 €
 Ontumatutkimus + röntgentutkimus (nukutettu eläin) laaja/iso koira 323–453 €
 Ristisideleikkaus lateraalisutuura kissa 953 €
-Ristisideleikkaus lateraalisutuura koira 1,203 €
-Ristisideleikkaus TTA <20kg 1,703 €
-Ristisideleikkaus TTA >20kg 1,803 €
+Ristisideleikkaus lateraalisutuura koira 1 203 €
+Ristisideleikkaus TTA <20kg 1 703 €
+Ristisideleikkaus TTA >20kg 1 803 €
 Patellaluksaatio kissa 953 €
-Patellaluksaatio koira 1,103–1,403 €
+Patellaluksaatio koira 1 103–1 403 €
 Reisiluunpään poisto kissa 953 €
-Reisiluunpään poisto koira 1,203 €
+Reisiluunpään poisto koira 1 203 €
 Varvasamputaatio 593 €
 Häntäamputaatio 573 €
-Murtumaleikkaukset 1,203–2,003 €
+Murtumaleikkaukset 1 203–2 003 €
 Lateraalisutuura sopii kissojen ja pienten koirien ristisidevaurioiden hoitoon. Aktiivisesti harrastaville tai suurille koirille sopii paremmin TTA-menetelmä.
 Hammashoidot
 Hampaiden tarkistus hereillä 32 €
