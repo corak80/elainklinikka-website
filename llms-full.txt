@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 80 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 81 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3761,6 +3761,135 @@ Kyllä. Pamela Kvarngård, Leena Sandström ja Nina Haglund palvelevat ruotsiksi
 #### Entä jos lemmikkini tarvitsee kiireellistä hoitoa?
 
 Aukioloaikoina soita ensin meille. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin – rannikkokunnissa numero on 0600 399 199, Teuvalla, Karijoella ja Isojoella 0600 12202.
+
+### Varaa aika
+
+Soita tai varaa aika verkossa.
+Soita (06) 321 7300
+Varaa aika verkossa
+Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
+← Takaisin etusivulle
+
+---
+
+# Eläinlääkäri Jurva, Kurikka ja Kauhajoki – Vaasa
+
+URL: https://elainklinikkasaari.fi/elainlaakari-kurikka/
+Last updated: 2026-11-17
+
+## Eläinlääkäri Jurvan, Kurikan ja Kauhajoen lemmikeille – noin tunnin ajomatka Vaasaan
+
+Eläinklinikka Saari on vuodesta 1989 toiminut riippumaton pieneläinklinikka Vaasassa. Emme kuulu mihinkään ketjuun: meillä on kuusi eläinlääkäriä ja kahdeksan eläintenhoitajaa, ja lemmikkisi tutkiva eläinlääkäri tekee myös hoitopäätökset. Palvelemme suomeksi, ruotsiksi ja englanniksi.
+Moni potilaistamme tulee meille jo nyt Jurvasta. Ajomatka kestää alle tunnin Jurvasta, noin tunnin Kurikasta ja reilun tunnin Kauhajoelta – ja on asioita, joiden vuoksi matka kannattaa.
+Valitse kuntasi
+Jurva
+Kurikka
+Kauhajoki
+
+### Ajomatka Vaasaan
+
+- Jurvasta noin 45 min 59 km
+- Kurikasta noin 1 h 79 km
+- Kauhajoelta noin 1 h 15 min 96 km
+Soita (06) 321 7300
+Varaa aika verkossa
+Avoinna ma–pe 7.45–17.00
+
+### Milloin matka Vaasaan kannattaa
+
+Suurin osa lemmikkisi hoidosta onnistuu oman eläinlääkärisi luona lähellä kotia. Me olemme oikea paikka silloin, kun tarvitaan laitteita tai kokemusta, jota yhden eläinlääkärin vastaanotolla harvoin on omasta takaa:
+
+#### Hammashoito nukutuksessa ja hammasröntgen
+
+Hammaskiven poisto, hampaiden poistot ja kissojen hammasresorptio, joka näkyy vain röntgenkuvassa. Hammasröntgenkuvat otetaan samassa nukutuksessa. Hammashoito →
+Hammaskiven poisto 263–353 €
+
+#### Röntgen ja ultraääni samalla käynnillä
+
+Digitaalinen röntgen ja vatsaontelon ultraäänitutkimus – eläinlääkäri tulkitsee kuvat sillä aikaa, kun odotat. Röntgen → · Ultraääni
+
+#### Sydäntutkimukset
+
+Sydämen ultraäänitutkimus, EKG ja verenpaineen mittaus. Leena Sandströmillä on ESAVS:n kardiologian sertifikaatti, ja hän on Suomen Kennelliiton valtuuttama virallinen sydäntutkija. Sydäntutkimukset →
+Sydämen ultraäänitutkimus 376–476 €
+
+#### Ortopedinen kirurgia
+
+Ristisideleikkaukset TTA-menetelmällä tai lateraalisutuuralla sekä murtumaleikkaukset. Pamela Kvarngård on kouluttautunut ortopediseen kirurgiaan AOVET- ja ESAVS-ohjelmissa. Ortopedia →
+Ristisideleikkaus 953–1 803 €
+
+#### Tähystykset
+
+Mahalaukun, korvien (video-otoskopia), nenän, virtsarakon ja keuhkoputkien tähystykset – kun lemmikki on nielaissut jotain, korva- tai nenävaiva pitkittyy tai koepala tarvitaan ilman avoleikkausta. Tähystykset →
+
+#### Oma laboratorio
+
+Veri-, virtsa- ja hormonitulokset jo käynnin aikana, joten hoitopäätös voidaan yleensä tehdä samana päivänä. Laboratorio →
+
+#### Kissat
+
+Olemme ISFM:n Cat Friendly Clinic (Silver-taso): kissoille on oma odotustila, tutkimushuone ja osasto. Kissan eläinlääkäri Vaasassa →
+Leikkaussalissa nukutusta valvotaan koko toimenpiteen ajan
+Hammasröntgenkuvat otetaan samassa nukutuksessa
+Annamme mielellämme myös toisen mielipiteen diagnoosista tai hoitosuunnitelmasta, jonka olet jo saanut.
+
+### Näin saat yhdestä matkasta kaiken irti
+
+- Kerro ajanvarauksessa, mistä olet tulossa. Suunnittelemme käynnin niin, että tutkimus, tarvittavat kuvaukset ja laboratoriotulokset mahtuvat samaan päivään.
+- Ota mukaan, mitä sinulla jo on. Oman eläinlääkärisi aiemmat potilastiedot, laboratoriotulokset ja röntgenkuvat säästävät aikaa, eikä samoja tutkimuksia tarvitse tehdä uudestaan. Eläinlääkärisi voi myös lähettää ne suoraan meille.
+- Maksuton pysäköinti oven edessä – tilaa on useammalle autolle.
+- Vakuutuksen suorakorvaus LähiTapiolan, Agrian ja Pohjolan kanssa – maksat klinikalla vain oman osuutesi.
+- Ajoajat:
+Jurva
+noin 45 min · 59 km
+Kurikka
+noin 1 h · 79 km
+Kauhajoki
+noin 1 h 15 min · 96 km
+
+### Yhteistyössä oman eläinlääkärisi kanssa
+
+Et tarvitse lähetettä tullaksesi meille. Käynnin jälkeen lähetämme löydökset ja suositukset halutessasi omalle eläinlääkärillesi, jotta jälkitarkastukset, ompeleiden poisto ja reseptien uusiminen voidaan hoitaa lähellä kotia. Monella kauempaa tulevalla potilaallamme on oma eläinlääkäri kotipaikkakunnalla, ja Vaasaan tullaan toimenpiteitä varten.
+
+### Hätätapaukset
+
+Emme ole päivystysklinikka, eikä näin pitkän matkan päässä olevalle klinikalle kannata soittaa ensimmäisenä hätätilanteessa. Aukioloaikoina (ma–pe 7.45–17.00) soita meille ensin numeroon (06) 321 7300 – sovitamme kiireelliset tapaukset päivän ohjelmaan aina, kun se on mahdollista, ja sanomme suoraan, jos jokin lähempänä oleva vastaanotto on parempi vaihtoehto. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin: Kurikassa ja Jurvalla päivystää Ilmajoen ja Kurikan alueen eläinlääkäri, numero 0600 399 005; Kauhajoella päivystävät Kauhajoen eläinlääkärit, numero 0600 12202. → Päivystysohjeet
+Kurikka ja Jurva: aukioloaikojen ulkopuolella Ilmajoen ja Kurikan alueen eläinlääkäripäivystys 0600 399 005
+Kauhajoki: aukioloaikojen ulkopuolella Kauhajoen eläinlääkäripäivystys 0600 12202
+
+### Hinnat
+
+Vastaanotto 15 / 30 min 74,45 / 104,80 €
+Hammaskiven poisto, koira alle / yli 20 kg 303 / 353 €
+Hammaskiven poisto, kissa 263 €
+Hammasröntgen hammashoidon yhteydessä 59–99 €
+Sydämen ultraäänitutkimus 376–476 €
+Senioritutkimus 299 €
+Ristisideleikkaus, lateraalisutuura, kissa / koira 953 / 1 203 €
+Ristisideleikkaus, TTA, alle / yli 20 kg 1 703 / 1 803 €
+Hinnat sisältävät arvonlisäveron – katso koko hinnasto.
+
+### Usein kysyttyjä kysymyksiä
+
+#### Tarvitsenko lähetteen omalta eläinlääkäriltäni?
+
+Et tarvitse. Voit varata ajan suoraan verkossa tai puhelimitse. Jos oma eläinlääkärisi on jo tutkinut lemmikkisi, ota tiedot mukaan tai pyydä häntä lähettämään ne meille.
+
+#### Saako kaiken hoidettua samana päivänä?
+
+Yleensä kyllä, kun kerrot ajanvarauksessa, mitä käynti koskee. Tutkimus, röntgen, ultraääni ja verikokeet voidaan tehdä ja tulkita yhden käynnin aikana. Leikkaukset ja nukutuksessa tehtävä hammashoito varataan yleensä omalle päivälleen, ja lemmikki pääsee kotiin samana iltana.
+
+#### Voinko tulla pelkästään toista mielipidettä varten?
+
+Kyllä. Ota aiemmat tulokset mukaan, niin käymme ne kanssasi läpi.
+
+#### Palveletteko ruotsiksi?
+
+Kyllä. Pamela Kvarngård, Leena Sandström ja Nina Haglund palvelevat ruotsiksi, ja koko tiimi työskentelee molemmilla kielillä joka päivä.
+
+#### Entä jos lemmikkini tarvitsee kiireellistä hoitoa?
+
+Aukioloaikoina soita ensin meille. Aukioloaikojen ulkopuolella ota yhteys oman alueesi päivystävään eläinlääkäriin – Kurikassa ja Jurvalla numero on 0600 399 005, Kauhajoella 0600 12202.
 
 ### Varaa aika
 

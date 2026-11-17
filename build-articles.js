@@ -7110,6 +7110,14 @@ ${links}  </url>
 ${townLandingHreflang}  </url>
 `;
   }
+  // Jurva / Kurikka / Kauhajoki town page (FI only, no SV/EN versions), 17-11-2026
+  xml += `  <url>
+    <loc>${BASE_URL}/elainlaakari-kurikka/</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
 
   xml += `</urlset>
 `;
