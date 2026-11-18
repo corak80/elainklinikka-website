@@ -166,7 +166,7 @@ The pet comes in at 7:45 and goes home at about 17:00 (about nine hours). Veteri
 ## Payment and policies
 
 - Cancellation less than 24 h before the appointment: 30–100 € fee.
-- Payment by card, invoice or instalments (ask the clinic).
+- Payment by card, invoice or instalments (ask the clinic). Note: borrowing money costs money.
 - Direct insurance claim (suorakorvaus) available with: Lähitapiola, Agria, Pohjola.
 - Prices are subject to change.
 

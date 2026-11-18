@@ -652,9 +652,9 @@ const translations = {
     en: 'We reserve the right to change prices.'
   },
   'prices.payment': {
-    fi: 'Voit maksaa myös laskulla tai osamaksulla – ota yhteyttä, niin kerromme lisää!',
-    sv: 'Du kan även betala med faktura eller på avbetalning – kontakta oss för mer info!',
-    en: 'You can also pay by invoice or in installments — contact us for more info!'
+    fi: 'Voit maksaa myös laskulla tai osamaksulla – ota yhteyttä, niin kerromme lisää! Huomio! Luoton ottaminen maksaa.',
+    sv: 'Du kan även betala med faktura eller på avbetalning – kontakta oss för mer info! Obs! Kredit kostar pengar.',
+    en: 'You can also pay by invoice or in installments — contact us for more info! Note: borrowing money costs money.'
   },
   'prices.insurance': {
     fi: 'Suorakorvaus: Lähitapiola, Agria, Pohjola',
