@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-16
+Last updated: 2026-11-18
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -334,6 +334,7 @@ Eläinlääkärin vastaanotto
 Vastaanotto <15 min 74,45 €
 Vastaanotto <30 min 104,80 €
 Vastaanotto <45 min 135,20 €
+Kiireellinen käynti aukioloaikana Ei lisämaksua
 Akuutti tilanne? Aukioloaikoina otamme kiireelliset tapaukset vastaan – soita (06) 321 7300. Iltaisin, öisin ja viikonloppuisin: päivystysohjeet ja Pohjoisen päivystysalueen numero 0600 399 299.
 Senioritutkimus
 Senioritutkimus (käynti + IDEXX Geriatric Profile) 299 €
@@ -3536,7 +3537,7 @@ Takaisin etusivulle
 # Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivystys/
-Last updated: 2026-09-20
+Last updated: 2026-11-18
 
 Takaisin etusivulle
 
@@ -3545,13 +3546,16 @@ Takaisin etusivulle
 ### Päivittäiset akuuttiajat arkisin 7:45–17
 
 Varaamme joka arkipäivälle akuuttiaikoja kiireellisiä tapauksia varten. Soita numeroon (06) 321 7300 – vaikka päivän kalenteri näyttäisi täydeltä, akuuttiaikoja voi silti olla saatavilla. Puhelimessa arvioimme tilanteen, annamme ensiapuohjeita matkan ajaksi ja valmistaudumme vastaanottoon.
+Akuutti tilanne?
+Soita ensin numeroon (06) 321 7300. Aukioloaikana (arkisin 7:45–17) kiireellinen käynti maksaa saman verran kuin tavallinen käynti, eikä lisämaksua peritä.
+Iltaisin, öisin ja viikonloppuisin soita alueen päivystävälle eläinlääkärille numeroon 0600 399 299.
 
 ### Mitä akuuttikäynti maksaa?
 
 Vastaanotto alle 15 min 74,45 €
 Vastaanotto alle 30 min 104,80 €
 Vastaanotto alle 45 min 135,20 €
-Virka-ajan akuuttikäynnistä ei peritä lisämaksua – se maksaa saman kuin tavanomainen vastaanottokäynti. Tutkimukset, hoidot ja lääkkeet veloitetaan tavanomaisen hinnastomme mukaan, ja saat hinta-arvion ennen toimenpiteitä. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Virka-ajan ulkopuolella alueen päivystyksessä hintoihin lisätään päivystyskorotus (katso alla).
+Aukioloaikanamme (arkisin 7:45–17) kiireellinen käynti maksaa saman verran kuin tavallinen käynti, eikä lisämaksua peritä. Soita ensin numeroon (06) 321 7300, niin henkilökuntamme arvioi tilanteen ja kertoo, milloin voit tuoda lemmikkisi. Tutkimukset, hoidot ja lääkkeet veloitetaan tavallisen hinnastomme mukaan, ja saat hinta-arvion ennen toimenpiteitä. Lemmikkivakuutuksen suorakorvaus onnistuu LähiTapiolan, Agrian ja Pohjolan asiakkaille. Lisämaksu voi tulla kyseeseen vain, jos joudumme lemmikkisi hoidon vuoksi pitämään klinikan auki sulkemisajan jälkeen. Aukioloajan ulkopuolella alueen päivystävällä eläinlääkärillä (0600 399 299) on omat hintansa.
 
 ### Milloin on hätätilanne?
 
@@ -3570,7 +3574,7 @@ Virka-ajan akuuttikäynnistä ei peritä lisämaksua – se maksaa saman kuin ta
 
 ### Miten toimit hätätilanteessa
 
-- Soita ensin. Virka-aikana (06) 321 7300, virka-ajan ulkopuolella alueen päivystysnumero 0600 399 299 (katso seuraava osio). Näin ehdimme valmistautua ja voimme antaa ensiapuohjeita matkan ajaksi.
+- Soita ensin. Aukioloaikana (06) 321 7300, aukioloajan ulkopuolella alueen päivystysnumero 0600 399 299 (katso seuraava osio). Näin ehdimme valmistautua ja voimme antaa ensiapuohjeita matkan ajaksi.
 - Pidä lemmikki lämpimänä ja rauhallisena. Kuljeta loukkaantunutta lemmikkiä tasaisella alustalla. Suurille koirille käytä lautaa, auton tavaratilan pohjaa tai jämäkkää pahvilaatikkoa; kissoille ja pienille koirille kantokoria. Tue päätä ja takapäätä samanaikaisesti. Syliin nostaminen voi pahentaa selkä- tai nivelvammoja.
 - Myrkytysepäilyssä ota mukaan pakkaus tai epäilty aine. Älä yritä oksennuttaa kotona ilman, että olet ensin soittanut meille. Joissakin myrkytyksissä (syövyttävät aineet, terävät esineet) se on vaarallista. Älä koskaan käytä suolaa oksennuttamiseen, se on hengenvaarallista erityisesti kissoille.
 - Älä anna ihmislääkkeitä. Parasetamoli on kissalle tappavaa ja koiralle myrkyllistä väärässä annostuksessa. Ibuprofeeni, diklofenaakki ja aspiriini vaurioittavat ruoansulatuskanavaa ja munuaisia koirilla ja kissoilla.
@@ -3578,7 +3582,7 @@ Virka-ajan akuuttikäynnistä ei peritä lisämaksua – se maksaa saman kuin ta
 
 ### Iltaisin ja viikonloppuisin – Pohjoinen päivystysalue
 
-Eläinklinikka Saari on suljettu iltaisin ja viikonloppuisin, emmekä vastaa puhelimeen virka-ajan ulkopuolella. Vaasan alueella, johon kuuluvat Vaasa, Mustasaari, Laihia, Vähäkyrö ja Vöyri, on yhteinen päivystysnumero ilta-, yö- ja viikonloppuaikoihin.
+Eläinklinikka Saari on suljettu iltaisin ja viikonloppuisin, emmekä vastaa puhelimeen aukioloajan ulkopuolella. Vaasan alueella, johon kuuluvat Vaasa, Mustasaari, Laihia, Vähäkyrö ja Vöyri, on yhteinen päivystysnumero ilta-, yö- ja viikonloppuaikoihin.
 Alueen päivystysnumero
 0600 399 299
 Arki-iltaisin 16.00 – 08.00 Viikonloput pe 16.00 – ma 08.00
@@ -3596,12 +3600,12 @@ Olemme koonneet sivuillemme tarkempaa tietoa muutamasta yleisimmästä hätätil
 
 ### Usein kysyttyä päivystyksestä
 
-Voinko tulla ilman ajanvarausta hätätilanteessa? Virka-aikana (arkisin 7:45–17) kyllä – varaamme päivittäin akuuttiaikoja juuri tätä varten. Soita aina ensin numeroon (06) 321 7300, jotta voimme valmistautua ja antaa ensiapuohjeita puhelimessa.
-Entä jos hätätilanne on virka-ajan ulkopuolella? Soita alueen päivystysnumeroon 0600 399 299. Se palvelee Vaasaa, Mustasaarta, Laihiaa, Vähääkyröä ja Vöyriä arki-iltaisin 16–08 ja viikonloppuisin perjantai 16 – maanantai 08.
+Mitä teen, jos lemmikkini tarvitsee kiireellistä apua aukioloaikana? Soita ensin numeroon (06) 321 7300. Varaamme joka arkipäivälle akuuttiaikoja kiireellisiä tapauksia varten. Olemme avoinna arkisin 7:45–17. Henkilökuntamme arvioi tilanteen ja kertoo, milloin voit tuoda lemmikkisi. Aukioloajan ulkopuolella soita alueen päivystävälle eläinlääkärille numeroon 0600 399 299.
+Entä jos hätätilanne on aukioloajan ulkopuolella? Soita alueen päivystysnumeroon 0600 399 299. Se palvelee Vaasaa, Mustasaarta, Laihiaa, Vähääkyröä ja Vöyriä arki-iltaisin 16–08 ja viikonloppuisin perjantai 16 – maanantai 08.
 Missä on lähin 24/7 pieneläinpäivystys? Eläinklinikka Syke (Evidensia) Porissa, noin 2 tunnin ajomatkan päässä Vaasasta. Tapauksissa, joissa potilas tarvitsee sairaalahoitoa yön yli, alueen päivystysnumero osaa neuvoa joko Poriin tai lähempänä olevaan laajemman aukiolon vaihtoehtoon (Evidensia Seinäjoen Eläinsairaala, noin 1 t 15 min päässä, auki klo 21:een asti ma–la).
-Mitä teen, jos lemmikkini on syönyt jotain myrkyllistä? Virka-aikana soita meille numeroon (06) 321 7300 ja ota mukaan pakkaus tai näyte. Virka-ajan ulkopuolella soita 0600 399 299. Älä yritä oksennuttaa kotona ilman, että olet ensin soittanut meille – joissakin myrkytyksissä se pahentaa tilannetta. Älä koskaan käytä suolaa oksennuttamiseen – se on hengenvaarallista erityisesti kissalle.
+Mitä teen, jos lemmikkini on syönyt jotain myrkyllistä? Aukioloaikana soita meille numeroon (06) 321 7300 ja ota mukaan pakkaus tai näyte. Aukioloajan ulkopuolella soita 0600 399 299. Älä yritä oksennuttaa kotona ilman, että olet ensin soittanut meille – joissakin myrkytyksissä se pahentaa tilannetta. Älä koskaan käytä suolaa oksennuttamiseen – se on hengenvaarallista erityisesti kissalle.
 Kuinka tunnistan sokin? Sokin oireita ovat kylmät korvat ja tassut, vaaleat ikenet, nopea pinnallinen hengitys ja äkillinen voimattomuus. Sokki on aina hengenvaarallinen ja vaatii välitöntä nestehoitoa eläinlääkärin valvonnassa – hae apua välittömästi.
-Onko hätäkäynnistä lisämaksu Saarella? Ei – virka-ajan akuuttikäynti maksaa saman kuin tavanomainen vastaanottokäynti. Tutkimuksista ja hoidoista veloitetaan tavanomaisen hinnaston mukaan. Alueen päivystysnumerolla on omat minuuttitaksansa ja päivystyskorotetut käyntimaksunsa, jotka määräytyvät alueellisesti.
+Onko kiireellisestä käynnistä lisämaksua? Aukioloaikana (arkisin 7:45–17) ei peritä lisämaksua: kiireellinen käynti maksaa saman verran kuin tavallinen käynti, ja tutkimukset, hoidot ja lääkkeet veloitetaan tavallisen hinnastomme mukaan. Lisämaksu voi tulla kyseeseen vain, jos joudumme lemmikkisi hoidon vuoksi pitämään klinikan auki sulkemisajan jälkeen. Aukioloajan ulkopuolella alueen päivystävällä eläinlääkärillä (0600 399 299) on omat hintansa.
 
 ### Varaa aika
 

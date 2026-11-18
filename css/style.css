@@ -1901,6 +1901,42 @@ a.article-tag:focus-visible {
   padding-top: 0.5rem;
 }
 
+/* Urgent-case summary under the emergency pages' first section (18-11-2026) */
+.urgent-note {
+  margin: var(--spacing-md) 0 0;
+  padding: var(--spacing-md);
+  background: var(--color-primary-light);
+  border-radius: var(--radius-lg);
+}
+
+.urgent-note p {
+  margin: 0 0 0.4rem;
+  color: var(--color-text);
+}
+
+.urgent-note p:last-child {
+  margin-bottom: 0;
+}
+
+.urgent-note .urgent-note-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.urgent-note a {
+  color: var(--color-primary-text);
+  font-weight: 700;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Price list: the urgent-visit row and the payment line with the consumer-credit warning
+   (KSL 7:8a needs the warning clear and visible, so full-contrast text, not muted italics) */
+.price-footer-note.price-footer-note--credit {
+  color: var(--color-text);
+  font-style: normal;
+}
+
 .emergency-hospital {
   margin: var(--spacing-sm) 0;
   padding: var(--spacing-sm) var(--spacing-md);

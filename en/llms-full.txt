@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-11-16
+Last updated: 2026-11-18
 
 ## Price List — Vet Prices in Vaasa
 
@@ -334,6 +334,7 @@ Veterinary Consultation
 Visit <15 min €74.45
 Visit <30 min €104.80
 Visit <45 min €135.20
+Urgent visit during opening hours No surcharge
 Urgent situation? During opening hours we fit urgent cases into the day — call (06) 321 7300. Evenings and weekends: emergency hours and after-hours care.
 Senior Pet Check-up
 Senior check-up (visit + IDEXX Geriatric Profile) €299
@@ -3336,7 +3337,7 @@ Back to homepage
 # Emergency Veterinarian Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/emergency/
-Last updated: 2026-09-19
+Last updated: 2026-11-18
 
 Back to homepage
 
@@ -3345,13 +3346,16 @@ Back to homepage
 ### Daily acute slots — weekdays 7:45–17
 
 We reserve daily acute appointment slots every weekday for urgent cases. Call (06) 321 7300 — even when the regular schedule looks full, an acute slot may still be available. We assess the situation by phone, give first-aid guidance for the journey, and prepare the clinic for your arrival.
+Urgent case?
+Call us first on (06) 321 7300. During opening hours (Mon–Fri 7:45–17), an urgent visit costs the same as a normal visit: no surcharge.
+Evenings, nights and weekends: call the regional on-call vet on 0600 399 299.
 
 ### What does an acute appointment cost?
 
 Consultation under 15 min €74.45
 Consultation under 30 min €104.80
 Consultation under 45 min €135.20
-There is no surcharge for an acute appointment during business hours — it costs the same as a regular consultation. Examinations, treatments and medicines are charged according to our regular price list, and you receive an estimate before any procedures. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. Outside business hours the regional emergency service adds an after-hours surcharge (see below).
+During our opening hours (Mon–Fri 7:45–17), an urgent visit costs the same as a normal visit. There is no surcharge. Call us first on (06) 321 7300: our staff assess the situation and tell you when to bring your pet in. Examinations, treatments and medicines follow our normal price list, and you get a price estimate before any procedure. Direct insurance billing is available for LähiTapiola, Agria and Pohjola customers. An extra charge may apply only if we have to keep the clinic open after closing time for your pet. Outside opening hours, the regional on-call vet (0600 399 299) has its own prices.
 
 ### When is it an emergency?
 
@@ -3370,7 +3374,7 @@ There is no surcharge for an acute appointment during business hours — it cost
 
 ### What to do in an emergency
 
-- Call first. During business hours: (06) 321 7300. Outside business hours: the regional hotline 0600 399 299 (see next section). We can prepare and give first-aid advice for the journey.
+- Call first. During opening hours: (06) 321 7300. Outside opening hours: the regional hotline 0600 399 299 (see next section). We can prepare and give first-aid advice for the journey.
 - Keep your pet warm and calm. When transporting trauma patients, use a flat surface — a board, the boot floor, or a stiff cardboard box for large dogs; a carrier for cats and small dogs. Support head and rear together. Lifting in your arms can worsen spinal or joint injuries.
 - With suspected poisoning, bring the packaging or a sample of any vomit. Do not attempt to induce vomiting at home before consulting us — in some poisonings (corrosive substances, sharp objects) it is dangerous. Never use salt to induce vomiting — it is life-threatening, especially for cats.
 - Do not give human medications. Paracetamol is fatal to cats and toxic to dogs at the wrong dose. Ibuprofen, diclofenac and aspirin damage the gastrointestinal tract and kidneys in both species.
@@ -3378,7 +3382,7 @@ There is no surcharge for an acute appointment during business hours — it cost
 
 ### Evenings and weekends — Northern Emergency Area
 
-Saari Animal Clinic is closed evenings and weekends, and our office number rings unanswered outside business hours. For the Vaasa region — covering Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri — there is a regional after-hours veterinary emergency hotline.
+Saari Animal Clinic is closed evenings and weekends, and our office number rings unanswered outside opening hours. For the Vaasa region — covering Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri — there is a regional after-hours veterinary emergency hotline.
 Regional after-hours hotline
 0600 399 299
 Weekday evenings 16:00 – 08:00 Weekends Fri 16:00 – Mon 08:00
@@ -3396,12 +3400,12 @@ We have collected detailed information about some of the most common emergencies
 
 ### Frequently asked questions about emergencies
 
-Can I come without an appointment in an emergency? During business hours (weekdays 7:45–17), yes — we reserve daily acute appointment slots specifically for this. Always call (06) 321 7300 first so we can prepare and give first-aid guidance.
-What if it's an emergency outside business hours? Call the regional emergency hotline 0600 399 299. It covers Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri, weekday evenings 16:00–08:00 and weekends Friday 16:00 – Monday 08:00.
+What should I do if my pet needs urgent help during opening hours? Call us first on (06) 321 7300. We reserve appointment slots for urgent cases every weekday (Mon–Fri 7:45–17). Our staff assess the situation and tell you when to bring your pet in. Outside opening hours, call the regional on-call vet on 0600 399 299.
+What if it's an emergency outside opening hours? Call the regional emergency hotline 0600 399 299. It covers Vaasa, Mustasaari, Laihia, Vähäkyrö and Vöyri, weekday evenings 16:00–08:00 and weekends Friday 16:00 – Monday 08:00.
 Where is the nearest 24/7 small-animal hospital? Eläinklinikka Syke (Evidensia) in Pori, about 2 hours from Vaasa. For cases that need overnight hospitalisation, the regional hotline can advise whether to head there or to a closer extended-hours option (Evidensia Seinäjoen Eläinsairaala, about 1 h 15 min away, open until 21:00 Mon–Sat).
-What do I do if my pet ate something toxic? During business hours, call us at (06) 321 7300 and bring the packaging or a sample. Outside business hours, call 0600 399 299. Do not induce vomiting at home before consulting a vet — in some poisonings it makes the situation worse. Never use salt — it is life-threatening for cats.
+What do I do if my pet ate something toxic? During opening hours, call us at (06) 321 7300 and bring the packaging or a sample. Outside opening hours, call 0600 399 299. Do not induce vomiting at home before consulting a vet — in some poisonings it makes the situation worse. Never use salt — it is life-threatening for cats.
 How do I recognise shock? Cold ears and paws, pale gums, rapid shallow breathing, and sudden weakness. Shock is always life-threatening and requires immediate fluid therapy under veterinary supervision — call for help straight away.
-Is there an extra fee for an emergency appointment at Saari? No — an acute appointment during business hours costs the same as a regular consultation. Procedures and tests are charged per our regular price list. The regional after-hours hotline has its own per-minute charges and surcharged visit fees, which are set regionally.
+Is there a surcharge for an urgent visit? No. During opening hours (Mon–Fri 7:45–17), an urgent visit costs the same as a normal visit, and examinations, treatments and medicines follow our normal price list. An extra charge may apply only if we have to keep the clinic open after closing time for your pet. Outside opening hours, the regional on-call vet (0600 399 299) has its own prices.
 
 ### Call us
 

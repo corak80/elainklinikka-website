@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-16
+Last updated: 2026-11-18
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -334,6 +334,7 @@ Veterinärbesök
 Besök <15 min 74,45 €
 Besök <30 min 104,80 €
 Besök <45 min 135,20 €
+Akutbesök under öppettiderna Ingen extra avgift
 Akut situation? Under öppettiderna tar vi emot brådskande fall – ring (06) 321 7300. Kvällar och veckoslut: ring jouren 0600 399 299 (jouranvisningar).
 Seniorundersökning
 Seniorundersökning (besök + IDEXX Geriatric Profile) 299 €
@@ -3326,7 +3327,7 @@ Tillbaka till startsidan
 # Akut veterinär Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
-Last updated: 2026-09-20
+Last updated: 2026-11-18
 
 Tillbaka till startsidan
 
@@ -3335,13 +3336,16 @@ Tillbaka till startsidan
 ### Dagliga akuttider – vardagar 7:45–17
 
 Vi reserverar akuttider varje vardag för brådskande fall. Ring (06) 321 7300 – även om dagens kalender ser full ut kan en akuttid ändå finnas tillgänglig. Per telefon bedömer vi situationen, ger råd om första hjälpen för resan och förbereder mottagningen.
+Akut situation?
+Ring oss först på (06) 321 7300. Under öppettiderna (vardagar 7:45–17) kostar ett akutbesök lika mycket som ett vanligt besök, utan någon extra avgift.
+Kvällar, nätter och veckoslut: ring regionens jourveterinär på 0600 399 299.
 
 ### Vad kostar ett akutbesök?
 
 Veterinärbesök under 15 min 74,45 €
 Veterinärbesök under 30 min 104,80 €
 Veterinärbesök under 45 min 135,20 €
-För ett akutbesök under arbetstid tas ingen extra avgift – det kostar lika mycket som ett vanligt mottagningsbesök. Undersökningar, behandlingar och läkemedel debiteras enligt vår ordinarie prislista, och du får ett kostnadsförslag före åtgärder. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder. Utanför arbetstid tillkommer jourtillägg i regionens jour (se nedan).
+Under öppettiderna (vardagar 7:45–17) kostar ett akutbesök lika mycket som ett vanligt besök. Det tillkommer ingen extra avgift. Ring oss först på (06) 321 7300. Vår personal bedömer situationen och säger när du ska komma med djuret. Undersökningar, behandlingar och läkemedel debiteras enligt vår ordinarie prislista, och du får en kostnadsuppskattning innan några åtgärder görs. Vi har direktersättning för kunder hos LokalTapiola, Agria och Pohjola. En extra avgift kan tillkomma bara om vi måste hålla kliniken öppen efter stängningstid för ditt djurs skull. Utanför öppettiderna har regionens jourveterinär (0600 399 299) egna priser.
 
 ### När är det en nödsituation?
 
@@ -3360,7 +3364,7 @@ För ett akutbesök under arbetstid tas ingen extra avgift – det kostar lika m
 
 ### Så agerar du i en nödsituation
 
-- Ring först. Under arbetstid (06) 321 7300, utanför arbetstid regionens jourtelefon 0600 399 299 (se nästa avsnitt). Då hinner vi förbereda oss och kan ge råd om första hjälpen för resan.
+- Ring först. Under öppettiderna (06) 321 7300, utanför öppettiderna regionens jourtelefon 0600 399 299 (se nästa avsnitt). Då hinner vi förbereda oss och kan ge råd om första hjälpen för resan.
 - Håll djuret varmt och lugnt. Vid transport av traumapatienter ska du använda ett plant underlag – bräda, bakluckans golv eller en stadig kartong för stora hundar; transportbur för katt eller liten hund. Stöd huvud och bakdel samtidigt. Att lyfta djuret i famnen kan förvärra rygg- eller ledskador.
 - Vid misstänkt förgiftning ska du ta med förpackningen eller ett prov. Försök inte framkalla kräkning hemma innan du har talat med oss – vid vissa förgiftningar (frätande ämnen, vassa föremål) är det farligt. Använd aldrig salt – det är livsfarligt särskilt för katter.
 - Ge inte humanläkemedel. Paracetamol är dödligt för katt och giftigt för hund i fel dos. Ibuprofen, diklofenak och aspirin skadar mag-tarmkanalen och njurarna hos båda.
@@ -3368,7 +3372,7 @@ För ett akutbesök under arbetstid tas ingen extra avgift – det kostar lika m
 
 ### Kvällar och helger – Norra jourområdet
 
-Djurklinik Saari är stängd kvällar och helger, och vår telefon besvaras inte utanför arbetstid. För Vasaregionen – som omfattar Vasa, Korsholm, Laihela, Lillkyro och Vörå – finns en gemensam jourtelefon för kvällar, nätter och helger.
+Djurklinik Saari är stängd kvällar och helger, och vår telefon besvaras inte utanför öppettiderna. För Vasaregionen – som omfattar Vasa, Korsholm, Laihela, Lillkyro och Vörå – finns en gemensam jourtelefon för kvällar, nätter och helger.
 Regionens jourtelefon
 0600 399 299
 Vardagskvällar 16.00 – 08.00 Helger fre 16.00 – mån 08.00
@@ -3386,12 +3390,12 @@ Vi har samlat mer information om några av de vanligaste nödsituationerna på v
 
 ### Vanliga frågor om jour och akutbesök
 
-Kan jag komma utan tidsbokning vid en akut situation? Under arbetstid (vardagar 7:45–17) ja – vi reserverar dagligen akuttider just för detta. Ring alltid (06) 321 7300 först så att vi kan förbereda mottagningen och ge råd om första hjälpen per telefon.
-Vad gör jag om det är en nödsituation utanför arbetstid? Ring den regionala jourtelefonen 0600 399 299. Den täcker Vasa, Korsholm, Laihela, Lillkyro och Vörå vardagskvällar 16–08 och helger fredag 16 – måndag 08.
+Vad ska jag göra om mitt djur behöver brådskande hjälp under öppettiderna? Ring oss först på (06) 321 7300. Varje dag under öppettiderna (vardagar 7:45–17) reserverar vi tider för brådskande fall. Vår personal bedömer situationen och säger när du ska komma med djuret. Utanför öppettiderna ringer du regionens jourveterinär på 0600 399 299.
+Vad gör jag om det är en nödsituation utanför öppettiderna? Ring den regionala jourtelefonen 0600 399 299. Den täcker Vasa, Korsholm, Laihela, Lillkyro och Vörå vardagskvällar 16–08 och helger fredag 16 – måndag 08.
 Var finns närmaste 24/7-djursjukhus? Eläinklinikka Syke (Evidensia) i Björneborg, cirka 2 timmar från Vasa. För fall som kräver övernattning på sjukhus kan jourtelefonen vägleda om ni ska åka dit eller till ett närmare alternativ med längre öppettider (Evidensia Seinäjoen Eläinsairaala, cirka 1 tim 15 min bort, öppet till 21.00 må–lö).
-Vad gör jag om mitt djur ätit något giftigt? Under arbetstid ringer du oss på (06) 321 7300 och tar med förpackningen eller ett prov. Utanför arbetstid ringer du 0600 399 299. Försök inte framkalla kräkning hemma innan du har talat med en veterinär – vid vissa förgiftningar förvärrar det situationen. Använd aldrig salt – det är livsfarligt för katter.
+Vad gör jag om mitt djur ätit något giftigt? Under öppettiderna ringer du oss på (06) 321 7300 och tar med förpackningen eller ett prov. Utanför öppettiderna ringer du 0600 399 299. Försök inte framkalla kräkning hemma innan du har talat med en veterinär – vid vissa förgiftningar förvärrar det situationen. Använd aldrig salt – det är livsfarligt för katter.
 Hur känner jag igen chock? Kalla öron och tassar, blekt tandkött, snabb ytlig andning och plötslig matthet. Chock är alltid livshotande och kräver omedelbar vätskebehandling under veterinärvård – sök hjälp direkt.
-Tillkommer extra avgift för ett akutbesök hos Saari? Nej – en akuttid under arbetstid kostar samma som ett vanligt besök. Åtgärder och undersökningar debiteras enligt vår ordinarie prislista. Den regionala jourtelefonen har egna minuttaxor och förhöjda besöksavgifter som fastställs regionalt.
+Tillkommer det någon extra avgift för ett akutbesök? Nej. Under öppettiderna (vardagar 7:45–17) kostar ett akutbesök lika mycket som ett vanligt besök, och undersökningar, behandlingar och läkemedel debiteras enligt vår ordinarie prislista. En extra avgift kan tillkomma bara om vi måste hålla kliniken öppen efter stängningstid för ditt djurs skull. Utanför öppettiderna har regionens jourveterinär (0600 399 299) egna priser.
 
 ### Ring oss
 

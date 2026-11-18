@@ -656,6 +656,16 @@ const translations = {
     sv: 'Du kan även betala med faktura eller på avbetalning – kontakta oss för mer info! Obs! Kredit kostar pengar.',
     en: 'You can also pay by invoice or in installments — contact us for more info! Note: borrowing money costs money.'
   },
+  'prices.urgent.name': {
+    fi: 'Kiireellinen käynti aukioloaikana',
+    sv: 'Akutbesök under öppettiderna',
+    en: 'Urgent visit during opening hours'
+  },
+  'prices.urgent.value': {
+    fi: 'Ei lisämaksua',
+    sv: 'Ingen extra avgift',
+    en: 'No surcharge'
+  },
   'prices.insurance': {
     fi: 'Suorakorvaus: Lähitapiola, Agria, Pohjola',
     sv: 'Direktersättning: LokalTapiola, Agria, Pohjola',

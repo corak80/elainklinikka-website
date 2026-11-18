@@ -13,7 +13,7 @@ Machine-readable price list for Eläinklinikka Saari, a family-owned small-anima
 - Consultation, under 30 min: 104.80 €
 - Consultation, under 45 min: 135.20 €
 
-Urgent cases are seen during opening hours — call +358 6 321 7300. Evenings, nights and weekends: regional on-call service 0600 399 299 (see https://elainklinikkasaari.fi/palvelut/paivystys/).
+Urgent cases are seen during opening hours at normal prices, with no surcharge. Call +358 6 321 7300. Evenings, nights and weekends: regional on-call service 0600 399 299 (see https://elainklinikkasaari.fi/palvelut/paivystys/).
 
 ## Senior health check (Senioritutkimus)
 
