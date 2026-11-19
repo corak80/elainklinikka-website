@@ -1822,7 +1822,7 @@ Tillbaka till startsidan
 # Vaccination av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/vaccinationer/
-Last updated: 2026-10-23
+Last updated: 2026-11-19
 
 Tillbaka till startsidan
 
@@ -1830,7 +1830,7 @@ Tillbaka till startsidan
 
 ### Varför är vaccination viktigt?
 
-Vaccination är den viktigaste formen av förebyggande hälsovård för husdjur. Vaccinationer skyddar mot allvarliga sjukdomar som kan vara livshotande eller till och med dödliga. I Finland baseras vaccinationsprogrammet för hundar och katter på rekommendationer från Finlands Veterinärförbund.
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar som kan vara livshotande. Vaccinationsprogrammen varierar och ändras med tiden. Vi följer de aktuella rekommendationerna från Livsmedelsverket (Ruokavirasto), och veterinären bedömer varje djur individuellt. Hela vaccinationsprogrammet och bakgrunden finns i vår vaccinationsguide.
 
 ### Priser på vaccinationer
 
@@ -1843,42 +1843,42 @@ Kennelhosta KC 77 €
 Hund leptospiravaccin 77 €
 Priserna är totalpriser. Se alla priser i vår prislista. Direktersättning från djurförsäkringen fungerar för LokalTapiolas, Agrias och Pohjolas kunder.
 
-### Hundvaccinationer
+### Vaccination av hund och valp
 
-Hundvalpar vaccineras första gången vid 12 veckors ålder och en boostervaccination ges vid 16 veckors ålder. Grundvaccinationen inkluderar skydd mot valpsjuka, parvovirus och hepatit. Rabiesvaccination ges från 12 veckors ålder. Kennelhosta-vaccination rekommenderas för hundar som har mycket kontakt med andra hundar. Vuxna hundar får boostervaccination vart 1–3 år.
+DHPPi-vaccinet skyddar mot valpsjuka, smittsam leverinflammation (hepatit), parvovirus och parainfluensa. Valpar får den första DHPPi-vaccinationen vanligen vid 12 veckors ålder, eller vid 6–8 veckor om smittrisken är högre, och vaccineras sedan med 3–4 veckors mellanrum tills de är cirka 16 veckor gamla. Vid 16 veckor får de DHPPi och rabies, och ett år efter den sista valpvaccinationen får de en booster. Vuxna hundar får DHPPi och rabies vart tredje år. Vaccinet mot kennelhosta rekommenderas varje år för hundar som vistas på hundpensionat eller ofta deltar i utställningar och andra hundevenemang.
 
 ### Vaccination av katt och kattunge
 
-Vaccination av kattunge: första vaccinationen ges vid 12 veckors ålder och boostern vid 16 veckor. Kattens RCP-vaccin (3-vaccin) skyddar mot kattpest, herpesvirus och calicivirus. Rabiesvaccination ges från 12 veckors ålder; den är obligatorisk för katter som reser utomlands och rekommenderas för utekatter. Första årets booster ges vid 12 månaders ålder, därefter vaccineras den vuxna katten vart 1–3 år beroende på vaccin och levnadsvanor – även innekatter behöver grundvaccinationerna. Om kattens vaccination är försenad kan den vanligen ges som en enda booster; veterinären bedömer om två vaccinationer behövs när det gått flera år sedan förra vaccinationen.
+RCP-vaccinet skyddar mot kattpest (panleukopeni), calicivirus och herpesvirus. Kattungar får den första RCP-vaccinationen vanligen vid 12 veckors ålder, eller vid 6–8 veckor om smittrisken är högre, och vaccineras sedan med 3–4 veckors mellanrum tills de är cirka 16 veckor gamla. Vid 16 veckor får de RCP och rabies, och ett år efter den sista kattungevaccinationen får de en booster. Vuxna katter får RCP och rabies vart tredje år. Katter som har kontakt med andra katter kan behöva kattsnuvekomponenterna varje år; det bedömer vi vid hälsokontrollen. Även innekatter behöver RCP-vaccinationen. Livsmedelsverket rekommenderar vaccination mot rabies för alla sällskapskatter och den krävs för resor. Vi rekommenderar den särskilt för katter som vistas utomhus, främst på grund av fladdermöss.
 
 ### Drop-in-vaccinationer och resehandlingar
 
 Vår klinik erbjuder drop-in-vaccinationer utan tidsbokning på tisdagar kl. 15.30–16.00. De är 10 % billigare än vid ett bokat besök: till exempel kostar kattens RCP-vaccin 67,50 € och hundens DHPPI-vaccin 69,30 €. Alla drop-in-priser finns i vår prislista. Vi utfärdar även EU-pass för sällskapsdjur och resehandlingar för husdjur som reser utomlands. Kraven för resehandlingar varierar beroende på destinationsland – kontakta oss i god tid före resan.
 
-### Valpens vaccinationsprogram steg för steg
+### Försenade vaccinationer
 
-Valpens första vaccinationsserie är avgörande, eftersom antikroppsskyddet från modern upphör vid 8–12 veckors ålder. En hundvalp vaccineras vid 12 veckors ålder (valpsjuka, parvovirus, hepatit) och boostervaccinationen ges vid 16 veckors ålder samtidigt med rabiesvaccination. En kattunge vaccineras vid 12 veckors ålder (kattpest, herpes, calici) och en booster vid 16 veckors ålder. Första årets boostervaccination ges vid 12 månaders ålder – det är ett viktigt steg där det långvariga immunitetsskyddet etableras. Därefter övergår man till vaccinationsintervaller på 1–3 år.
+En försenad booster betyder sällan att man måste börja om från början. Om de tidigare vaccinationerna var fullständiga, räcker vanligen en dos. Om det har gått flera år – för katter mer än 3 år – eller om vaccinationshistorien är okänd, kan veterinären ge två doser med 3–4 veckors mellanrum. En rabiesvaccination som ges efter att den förra har gått ut räknas som en första vaccination och är giltig för resor först 21 dygn senare.
 
 ### Resa med husdjur
 
-Sällskapsdjurspass är obligatoriskt för alla hundar, katter och illrar som reser inom EU. Före resan behöver husdjuret: ett mikrochip för identifiering, ett giltigt rabiesvaccinationsintyg (minst 21 dagar efter vaccinationen första gången) och för hundar en behandling mot ekinokocker 1–5 dagar före återkomsten till Finland (eller enligt Livsmedelsverkets 28-dagarsregel); direkt från Finland till Norge eller Storbritannien krävs ingen behandling. Vid resa utanför EU kan kraven vara betydligt strängare – rabiesantikroppstest och karantän kan krävas. Börja planera resan minst 4–6 månader i förväg. Vi hjälper gärna till med resehandlingarna. Kraven ändras då och då – kontrollera aktuella anvisningar på Livsmedelsverkets webbplats och läs mer på vår sida EU-pass (kontrollerat 29.8.2026).
+Inom EU, Norge och Schweiz behöver ditt djur ett mikrochip, en giltig rabiesvaccination och ett EU-sällskapsdjurspass. Den första rabiesvaccinationen blir giltig tidigast 21 dygn efter att den har getts. Hundar som återvänder till Finland, också från Sverige, behöver en bandmaskbehandling som ges av en veterinär 1–5 dygn före ankomsten, om de inte kommer direkt från Norge, Irland eller Malta. Vid täta resor kan man i stället använda 28-dygnsregeln. För resor utanför EU kan det krävas ett rabiesantikroppstest månader i förväg, så börja förberedelserna minst 4 månader före resan. Läs mer på vår sida om EU-sällskapsdjurspass, och kontrollera de aktuella reglerna hos Livsmedelsverket (kontrollerat i november 2026).
 
-### Vaccinationers säkerhet och biverkningar
+### Biverkningar och väntetid efter vaccination
 
-Vaccinationer är bland veterinärmedicinens säkraste ingrepp, men som alla medicinska åtgärder kan de medföra lindriga reaktioner. Vanliga och ofarliga biverkningar är lätt trötthet, nedsatt aptit eller en liten svullnad vid injektionsstället under 1–2 dagar. Allvarliga reaktioner, såsom kraftig allergisk reaktion (ansiktssvullnad, kräkningar, svaghet), är mycket sällsynta men kräver omedelbar veterinärvård. Vi rekommenderar att du observerar husdjuret i 30 minuter efter vaccinationen på kliniken och resten av dagen hemma. Fördelarna med vaccinationer överstiger vida de små riskerna – ovaccinerade husdjur riskerar att drabbas av allvarliga, ofta livshotande sjukdomar.
+Biverkningar är ovanliga och går vanligen över inom en eller två dagar: kortvarig feber, trötthet, nedsatt aptit eller ett ömt och svullet injektionsställe. Kontakta oss om besvären varar längre än två dagar. Allvarliga allergiska reaktioner är sällsynta och börjar vanligen inom 15 minuter: svullnad i ansiktet, nässelutslag, kräkningar, andningssvårigheter eller kollaps – kontakta genast en veterinär. Det lönar sig alltid att stanna 15–30 minuter på kliniken efter en vaccination, och efter de första vaccinationerna rekommenderar vi det starkt.
 
 ### Vanliga frågor om vaccinationer
 
-Vad kostar en hundvaccination? Hundens DHPPI-vaccin (4-vaccin) kostar 77 € och med rabies 85 €. Vid drop-in på tisdagar kostar samma vaccin 69,30 € och med rabies 76,50 €. Kennelhostavaccin kostar 75–77 €. Priserna är totalpriser och finns i vår prislista.
-Vad kostar en kattvaccination? Kattens RCP-vaccin (3-vaccin) kostar 75 € och med rabies 86 €. Vid drop-in på tisdagar kostar samma vaccin 67,50 € och med rabies 77,40 €. Kattungens vaccinationsserie är två besök (vid 12 och 16 veckors ålder), alltså sammanlagt 150 € utan rabies.
-Vilka vaccinationer behöver en katt? Alla katter, även innekatter, behöver RCP-vaccinet (3-vaccin), som är kattens grundvaccin. Det skyddar mot kattpest, herpesvirus och calicivirus. En kattunge vaccineras vid 12 och 16 veckors ålder och får sedan en booster vid 12 månaders ålder. Därefter vaccineras katten vart 1–3 år beroende på vaccin och levnadsvanor. Rabiesvaccination kan ges från 12 veckors ålder. Den rekommenderas för utekatter och är obligatorisk för katter som reser utomlands. RCP-vaccinet kostar 75 € och med rabies 86 €.
-Vid vilken ålder vaccineras en kattunge? Kattungens första vaccination ges vid 12 veckors ålder och boostern vid 16 veckor. Rabiesvaccin kan ges från 12 veckors ålder. Första årets booster ges vid 12 månaders ålder.
-Vad händer om hundens eller kattens vaccination är försenad? En försenad booster kan vanligen ges som en enda vaccination. Om det gått flera år sedan förra vaccinationen bedömer veterinären om två vaccinationer med 3–4 veckors mellanrum behövs. Du kan också komma utan tidsbokning på tisdagar kl. 15.30–16.00.
-Hur ofta förnyas vaccinationerna? Efter grundvaccinationerna ges en booster ett år senare. Därefter förnyas grundvaccinationerna för vuxna hundar och katter med 1–3 års intervall beroende på vaccin. Rabiesvaccinet förnyas vart tredje år.
+Vad kostar vaccination av hund? Hundens DHPPI-vaccin (4-vaccin) kostar 77 € och med rabies 85 €. Vid drop-in på tisdagar kostar samma vaccin 69,30 € och med rabies 76,50 €. Vaccinet mot kennelhosta kostar 75–77 €. Priserna är totalpriser och finns i vår prislista.
+Vad kostar vaccination av katt? Kattens RCP-vaccin (3-vaccin) kostar 75 € och med rabies 86 €. Vid drop-in på tisdagar kostar samma vaccin 67,50 € och med rabies 77,40 €. Kattungens vaccinationsserie består vanligen av två besök (vid 12 och 16 veckors ålder), alltså sammanlagt 150 € utan rabies.
+Vilka vaccinationer behöver en katt? Alla katter, även innekatter, behöver RCP-vaccinet (3-vaccin) mot kattpest (panleukopeni), calicivirus och herpesvirus: som kattunge till cirka 16 veckors ålder, en booster ett år efter den sista kattungevaccinationen och sedan vart tredje år. Katter som har kontakt med andra katter kan behöva kattsnuvekomponenterna varje år. Livsmedelsverket rekommenderar vaccination mot rabies för alla sällskapskatter. Vi rekommenderar den särskilt för katter som vistas utomhus, och den krävs för resor. RCP-vaccinet kostar 75 € och med rabies 86 €.
+Vid vilken ålder vaccineras en kattunge? Kattungens första vaccination ges vanligen vid 12 veckors ålder, eller vid 6–8 veckor om smittrisken är högre, och därefter vaccineras kattungen med 3–4 veckors mellanrum till cirka 16 veckors ålder. Rabiesvaccinationen ges vid 16 veckor. Boostern ges ett år efter den sista kattungevaccinationen.
+Vad händer om hundens eller kattens vaccination är försenad? En dos räcker vanligen om de tidigare vaccinationerna var fullständiga. Om det har gått flera år – för katter mer än 3 år – eller om vaccinationshistorien är okänd, kan veterinären ge två doser med 3–4 veckors mellanrum. En rabiesvaccination som ges efter att den förra har gått ut är giltig för resor först efter 21 dygn. Du kan också komma utan tidsbokning på tisdagar kl. 15.30–16.00.
+Hur ofta ska hundar och katter vaccineras? En booster ges ett år efter den sista valp- eller kattungevaccinationen. Därefter förnyas DHPPi (hundar), RCP (katter) och rabies vart tredje år. Vaccinationen mot kennelhosta förnyas varje år för hundar som vistas på hundpensionat eller ofta deltar i utställningar. Katter som har kontakt med andra katter kan behöva kattsnuvekomponenterna varje år.
 Kan man komma utan tidsbokning? Ja! På tisdagar kl. 15.30–16.00 kan du komma med ditt djur för vaccination utan tidsbokning. Drop-in-vaccinationer är 10 % billigare än vid ett bokat besök. Annars kan du boka tid per telefon (06) 321 7300 eller online.
-När kan en valp börja vaccinationsserien? Valpens första vaccination ges vid 12 veckors ålder och boostern vid 16 veckor. Före 12 veckor skyddas valpen av antikroppar från modern. Om valpen har importerats från utlandet eller kommer från en särskilt riskfylld miljö kan vaccinationen ibland inledas tidigare (vid 8 veckor) – detta diskuteras med veterinären individuellt.
-Kan ett husdjur få biverkningar av vaccination? Lindriga biverkningar är vanliga och ofarliga: trötthet, dålig aptit eller lätt svullnad vid injektionsstället under 1–2 dagar. Kraftiga reaktioner (svullnad i ansiktet, kräkningar, svaghet) är mycket sällsynta men kräver omedelbar veterinärvård. Vi rekommenderar att husdjuret observeras 30 minuter på kliniken efter vaccinationen och resten av dagen hemma.
-Vilka vaccinationer behövs för resor? Vid resa inom EU-länder krävs ett sällskapsdjurspass, en giltig rabiesvaccination (minst 21 dagar från första vaccinationen) och ett chipp för identifiering. För hundar krävs dessutom behandling mot ekinokocker 1–5 dagar före återkomsten till Finland eller enligt 28-dagarsregeln; direkt från Finland till Norge eller Storbritannien behövs ingen behandling. Vid resor utanför EU är kraven ofta strängare – börja förberedelserna minst 4–6 månader före resan.
+När kan en valp börja vaccinationsserien? Vanligen vid 12 veckors ålder, eller vid 6–8 veckor om smittrisken är högre, till exempel för en valp som har importerats från utlandet – veterinären bedömer det individuellt. Antikroppar från modern skyddar en ung valp i början, men de kan också hindra vaccinet från att verka, så serien fortsätter till cirka 16 veckors ålder.
+Kan ett husdjur få biverkningar av vaccination? Biverkningar är ovanliga och går vanligen över inom en eller två dagar: kortvarig feber, trötthet, nedsatt aptit eller ett ömt och svullet injektionsställe. Allvarliga allergiska reaktioner (svullnad i ansiktet, nässelutslag, kräkningar, andningssvårigheter, kollaps) är sällsynta och börjar vanligen inom 15 minuter – kontakta genast en veterinär. Det lönar sig alltid att stanna 15–30 minuter på kliniken efter en vaccination, och efter de första vaccinationerna rekommenderar vi det starkt.
+Vilka vaccinationer behövs för resor? Inom EU, Norge och Schweiz behöver ditt djur ett mikrochip, en giltig rabiesvaccination (den första blir giltig tidigast 21 dygn efter att den har getts) och ett EU-sällskapsdjurspass. Hundar som återvänder till Finland behöver dessutom en bandmaskbehandling 1–5 dygn före ankomsten eller enligt 28-dygnsregeln, om de inte kommer direkt från Norge, Irland eller Malta. Börja förberedelserna minst 4 månader före en resa utanför EU.
 
 ### Boka tid
 

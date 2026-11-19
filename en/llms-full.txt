@@ -1832,7 +1832,7 @@ Back to homepage
 # Dog and Cat Vaccinations in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/vaccinations/
-Last updated: 2026-10-23
+Last updated: 2026-11-19
 
 Back to homepage
 
@@ -1840,7 +1840,7 @@ Back to homepage
 
 ### Why is vaccination important?
 
-Vaccination is the most important form of preventive healthcare for pets. Vaccinations protect against serious diseases that can be life-threatening or even fatal. In Finland, the vaccination programme for dogs and cats is based on recommendations from the Finnish Veterinary Association.
+Vaccinations protect pets from serious infectious diseases that can be life-threatening. Vaccination protocols vary and change over time; we follow the current recommendations of the Finnish Food Authority (Ruokavirasto), and the vet assesses each pet individually. The full schedule and background are in our vaccination guide.
 
 ### Vaccination prices
 
@@ -1855,40 +1855,40 @@ Prices are total amounts. See all prices in our price list. Direct insurance bil
 
 ### Dog vaccinations
 
-Puppies receive their first vaccination at 12 weeks of age, with a booster at 16 weeks. The core vaccination includes protection against distemper, parvovirus, and hepatitis. Rabies vaccination is given from 12 weeks of age. Kennel cough vaccination is recommended for dogs that have frequent contact with other dogs. Adult dogs receive booster vaccinations every 1–3 years.
+Puppies get their first DHPPi vaccination (distemper, hepatitis, parvovirus and parainfluenza) usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. At 16 weeks they get DHPPi and rabies, and a booster one year after the last puppy vaccination. Adult dogs get DHPPi and rabies every 3 years. The kennel cough vaccine is recommended every year for dogs that stay in kennels or often go to shows and other dog events.
 
 ### Cat and kitten vaccinations
 
-Kitten vaccination: the first vaccine is given at 12 weeks of age and the booster at 16 weeks. The cat RCP vaccine (3-in-1) protects against feline panleukopenia, herpesvirus and calicivirus. Rabies vaccination is given from 12 weeks of age; it is mandatory for cats travelling abroad and recommended for outdoor cats. The first-year booster is given at 12 months, after which an adult cat is vaccinated every 1–3 years depending on the vaccine and lifestyle — indoor cats need the core vaccinations too. If a cat's vaccination is overdue it can usually be given as a single booster; the vet assesses whether two doses are needed when several years have passed since the last vaccination.
+Kittens get their first RCP vaccination (panleukopenia, calicivirus and herpesvirus) usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. At 16 weeks they get RCP and rabies, and a booster one year after the last kitten vaccination. Adult cats get RCP and rabies every 3 years; cats in contact with other cats may need the cat flu components every year, which we assess at the health check. Indoor cats need the RCP vaccination too. Ruokavirasto recommends rabies vaccination for all pet cats, and it is required for travel; we recommend it especially for cats that go outside, mainly because of bats.
 
 ### Drop-in vaccinations and travel documents
 
 Our clinic offers drop-in vaccinations without an appointment on Tuesdays from 15:30 to 16:00, at 10 % less than a booked appointment: for example €67.50 for a cat RCP vaccine and €69.30 for a dog DHPPI vaccine. All drop-in prices are in our price list. We also issue EU pet passports and travel documents for pets travelling abroad. Travel document requirements vary by destination country — please contact us well in advance of your trip.
 
-### Puppy vaccination schedule step by step
+### Late vaccinations
 
-The puppy's first vaccination series is crucial, as maternal antibody protection wanes at 8–12 weeks of age. A puppy is vaccinated at 12 weeks (distemper, parvovirus, hepatitis) and a booster is given at 16 weeks together with the rabies vaccine. A kitten is vaccinated at 12 weeks (feline panleukopenia, herpes, calici) and a booster at 16 weeks. The first-year booster is given at 12 months — an important milestone where long-lasting immunity is established. After that, vaccination intervals move to every 1–3 years.
+A late booster rarely means starting over. If the earlier vaccinations were complete, one dose is usually enough. If several years have passed — for cats, more than 3 years — or the history is unknown, the vet may give two doses 3–4 weeks apart. A rabies vaccination given after a lapse counts as a first vaccination and is valid for travel only 21 days later.
 
 ### Travelling with your pet
 
-A pet passport is mandatory for all dogs, cats, and ferrets travelling within the EU. Before travelling, your pet needs: a microchip for identification, a valid rabies vaccination (at least 21 days after the first vaccination) and, for dogs, a tapeworm (echinococcus) treatment 1–5 days before returning to Finland (or under the Finnish Food Authority's 28-day rule); no treatment is needed when travelling directly from Finland to Norway or Great Britain. Travelling outside the EU can involve much stricter requirements — a rabies antibody test and quarantine may be required. Start planning your trip at least 4–6 months in advance. We are happy to help with travel documentation. Requirements change from time to time – check the current rules on the Finnish Food Authority website and read more on our EU pet passport page (verified 29 August 2026).
+Within the EU, Norway and Switzerland, your pet needs a microchip, a valid rabies vaccination and an EU pet passport; the first rabies vaccination becomes valid no earlier than 21 days after it is given. Dogs returning to Finland, including from Sweden, need tapeworm treatment by a vet 1–5 days before arrival, unless they come directly from Norway, Ireland or Malta; for frequent trips, the 28-day rule can be used instead. Travel outside the EU may require a rabies antibody test months in advance, so start preparing at least 4 months before the trip. Read more on our EU pet passport page and check the current rules with the Finnish Food Authority (checked November 2026).
 
-### Vaccine safety and side effects
+### Side effects and waiting after vaccination
 
-Vaccinations are among the safest procedures in veterinary medicine, but like all medical interventions they can occasionally cause mild reactions. Common and harmless side effects include mild lethargy, reduced appetite, or slight swelling at the injection site for 1–2 days. Serious reactions such as strong allergic responses (facial swelling, vomiting, weakness) are extremely rare but require immediate veterinary care. We recommend observing your pet for 30 minutes after the vaccination at the clinic and for the rest of the day at home. The benefits of vaccination far outweigh the small risks — unvaccinated pets are at risk of serious, often life-threatening diseases.
+Side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Contact us if they last longer than two days. Serious allergic reactions are rare and usually start within 15 minutes: facial swelling, hives, vomiting, difficulty breathing or collapse — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
 
 ### Frequently asked questions about vaccinations
 
 How much does a dog vaccination cost? The dog DHPPI vaccine (4-in-1) costs €77 and with rabies €85; at the Tuesday drop-in it is €69.30, or €76.50 with rabies. Kennel cough vaccine costs €75–77. Prices are total amounts and are listed in our price list.
-How much does a cat vaccination cost? The cat RCP vaccine (3-in-1) costs €75 and with rabies €86; at the Tuesday drop-in it is €67.50, or €77.40 with rabies. A kitten's vaccination series is two visits (at 12 and 16 weeks), i.e. €150 in total without rabies.
-What vaccinations does a cat need? Every cat, indoor cats included, needs the RCP core vaccine (3-in-1). It protects against feline panleukopenia (cat distemper), feline herpesvirus and calicivirus. A kitten gets it at 12 and 16 weeks, then a booster at 12 months, and after that every 1–3 years depending on the vaccine and the cat's lifestyle. Rabies vaccination can be given from 12 weeks of age. It is recommended for outdoor cats and required for travel abroad. The RCP vaccine costs €75, or €86 with rabies.
-At what age is a kitten vaccinated? A kitten's first vaccination is given at 12 weeks of age and the booster at 16 weeks. Rabies vaccine can be given from 12 weeks of age. The first-year booster is given at 12 months.
-What if my dog's or cat's vaccination is overdue? An overdue booster can usually be given as a single vaccination. If several years have passed since the last vaccination, the vet assesses whether two doses 3–4 weeks apart are needed. You can also walk in without an appointment on Tuesdays 15:30–16:00.
-How often are vaccinations renewed? After the primary series a booster is given one year later. After that, the basic vaccinations for adult dogs and cats are renewed every 1–3 years depending on the vaccine. The rabies vaccine is renewed every 3 years.
+How much does a cat vaccination cost? The cat RCP vaccine (3-in-1) costs €75 and with rabies €86; at the Tuesday drop-in it is €67.50, or €77.40 with rabies. A kitten’s vaccination series is usually two visits (at 12 and 16 weeks), i.e. €150 in total without rabies.
+What vaccinations does a cat need? Every cat, indoor cats included, needs the RCP vaccine (3-in-1) against panleukopenia, calicivirus and herpesvirus: as a kitten until about 16 weeks, a booster one year after the last kitten vaccination, then every 3 years. Cats in contact with other cats may need the cat flu components every year. Ruokavirasto recommends rabies vaccination for all pet cats; we recommend it especially for cats that go outside, and it is required for travel. The RCP vaccine costs €75, or €86 with rabies.
+At what age is a kitten vaccinated? A kitten’s first vaccination is usually given at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. Rabies is given at 16 weeks. The booster follows one year after the last kitten vaccination.
+What if my dog’s or cat’s vaccination is overdue? One dose is usually enough if the earlier vaccinations were complete. If several years have passed — for cats, more than 3 years — or the history is unknown, the vet may give two doses 3–4 weeks apart. A rabies vaccination given after a lapse is valid for travel only after 21 days. You can also walk in without an appointment on Tuesdays 15:30–16:00.
+How often are vaccinations renewed? A booster is given one year after the last puppy or kitten vaccination. After that, DHPPi (dogs), RCP (cats) and rabies are renewed every 3 years. Kennel cough vaccination is renewed every year for dogs in kennels or often at shows, and cats in contact with other cats may need the cat flu components every year.
 Can I come without an appointment? Yes! Bring your pet in for vaccination on Tuesdays between 15:30 and 16:00, no appointment needed. Drop-in vaccinations are 10 % cheaper than a booked appointment. At other times, book by phone on (06) 321 7300 or online.
-When can a puppy start the vaccination series? A puppy's first vaccination is given at 12 weeks and the booster at 16 weeks. Before 12 weeks, puppies are protected by maternal antibodies. If a puppy has been imported from abroad or comes from a particularly high-risk environment, vaccination can sometimes start earlier (at 8 weeks) — this is discussed with the veterinarian individually.
-Can a pet have side effects from vaccination? Mild side effects are common and harmless: tiredness, reduced appetite or slight swelling at the injection site for 1–2 days. Strong reactions (facial swelling, vomiting, weakness) are very rare but require immediate veterinary care. We recommend monitoring the pet for 30 minutes at the clinic after vaccination, and the rest of the day at home.
-What vaccinations are needed for travel? When travelling within EU countries, you need a pet passport, a valid rabies vaccination (at least 21 days from the first vaccination) and a microchip for identification. Dogs additionally need a tapeworm treatment 1–5 days before returning to Finland or under the 28-day rule; no treatment is needed when travelling directly from Finland to Norway or Great Britain. For travel outside the EU, requirements are often stricter — start preparations at least 4–6 months before the trip.
+When can a puppy start the vaccination series? Usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, for example for a puppy imported from abroad — the vet assesses this individually. Antibodies from the mother protect a young puppy at first, but they can also block the vaccine, so the series continues until about 16 weeks.
+Can a pet have side effects from vaccination? Side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Serious allergic reactions (facial swelling, hives, vomiting, difficulty breathing, collapse) are rare and usually start within 15 minutes — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
+What vaccinations are needed for travel? Within the EU, Norway and Switzerland your pet needs a microchip, a valid rabies vaccination (the first one is valid no earlier than 21 days after it is given) and an EU pet passport. Dogs returning to Finland also need tapeworm treatment 1–5 days before arrival, unless they come directly from Norway, Ireland or Malta, or the 28-day rule. For travel outside the EU, start preparing at least 4 months before the trip.
 
 ### Book an appointment
 
