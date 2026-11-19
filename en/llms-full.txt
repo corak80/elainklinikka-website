@@ -2751,9 +2751,9 @@ Health
 Vaccinations protect pets from serious infectious diseases. Vaccination protocols vary and change over time. We follo...
 Health
 
-#### How often should a dog or cat be dewormed? Puppies, kittens, adults and travel
+#### Dog and Cat Deworming — How Often for Puppies, Kittens and Adults
 
-Modern advice in Finland is no longer to deworm every pet “just in case” several times a year. Parasite control is no...
+How often a pet needs deworming depends on its risk. A healthy, low-risk adult can have a faecal sample checked inste...
 Back to homepage
 
 ---
@@ -3622,11 +3622,11 @@ Emergency
 
 Poisoning is a common reason for emergency visits to the vet. Often, a dog or cat is poisoned by eating something that is harmless to us but toxic to them, such as chocolate, xylitol or grapes — or by getting into human medicines. How ill the animal becomes depends on the substance, the amount swallowed and the animal’s size. A suspected poisoning is always worth an immediate call to your vet, even if your pet still seems perfectly well. For many poisons, treatment works best — or only works — before any signs appear.
 Health
-25.9.2026
+19.11.2026
 
-### How often should a dog or cat be dewormed? Puppies, kittens, adults and travel
+### Dog and Cat Deworming — How Often for Puppies, Kittens and Adults
 
-Modern advice in Finland is no longer to deworm every pet “just in case” several times a year. Parasite control is now risk-based: puppies, kittens and animals that hunt, roam or travel are dewormed on a schedule, while a healthy, low-risk adult can instead be checked with a faecal sample and treated only when needed. The idea is simple — treat at the right time and for the right reason, not by the calendar. Below are the current recommendations for cats and dogs of every age, based on the European ESCCAP guideline and Finnish practice. We also cover the signs of a worm infection, which product to choose, and the legal tapeworm treatment for travelling dogs.
+How often a pet needs deworming depends on its risk. A healthy, low-risk adult can have a faecal sample checked instead and be treated only when needed. The advice below follows the European ESCCAP guideline and the Finnish Food Authority (Ruokavirasto), checked in November 2026.
 Clinic
 27.9.2026
 
@@ -6257,63 +6257,53 @@ Back to homepage
 
 ---
 
-# How often should a dog or cat be dewormed?
+# Dog and Cat Deworming — How Often? Puppies, Kittens, Adults
 
 URL: https://elainklinikkasaari.fi/en/articles/deworming.html
-Last updated: 2026-09-25
+Last updated: 2026-11-19
 
 Health
-25.9.2026
+19.11.2026
 
-## How often should a dog or cat be dewormed? Puppies, kittens, adults and travel
+## Dog and Cat Deworming — How Often for Puppies, Kittens and Adults
 
 Veterinarian Assaf Wydra, Eläinklinikka Saari
-Modern advice in Finland is no longer to deworm every pet “just in case” several times a year. Parasite control is now risk-based: puppies, kittens and animals that hunt, roam or travel are dewormed on a schedule, while a healthy, low-risk adult can instead be checked with a faecal sample and treated only when needed. The idea is simple — treat at the right time and for the right reason, not by the calendar. Below are the current recommendations for cats and dogs of every age, based on the European ESCCAP guideline and Finnish practice. We also cover the signs of a worm infection, which product to choose, and the legal tapeworm treatment for travelling dogs.
+How often a pet needs deworming depends on its risk. A healthy, low-risk adult can have a faecal sample checked instead and be treated only when needed. The advice below follows the European ESCCAP guideline and the Finnish Food Authority (Ruokavirasto), checked in November 2026.
 
-### How often should a cat be dewormed?
+### How Often Should a Dog Be Dewormed?
 
-For an adult indoor cat, deworming 1–2 times a year is usually enough — or a faecal sample at the same frequency, with treatment only if it shows parasites. A cat that goes outdoors is dewormed 4–12 times a year: about 4 times if it rarely hunts, and up to monthly if it actively hunts mice and other rodents, because rodents transmit tapeworms. Monthly deworming (or a monthly faecal sample) may also be advised if the cat shares a home with children under about six, or with elderly or immunocompromised people. The more your cat hunts, the more often it needs treatment; a strictly indoor cat with clean faecal samples may not need any.
+– Almost always indoors, no contact with other dogs, no parks or gardens, no raw food: 1–2 times a year, or a faecal sample as often.
+– Family dog that meets other dogs on walks and in parks: about 4 times a year, or a faecal sample as often.
+– Hunting dogs and dogs that eat prey or carcasses, or raw meat, fish or offal that has not first been frozen for a week: a tapeworm treatment every month, plus roundworm treatment or a faecal sample 4–12 times a year. The lungs and other offal of moose and reindeer should always be cooked thoroughly before a dog eats them.
+– Monthly deworming or a monthly faecal sample may be advised in homes with small children, elderly people or anyone with a weakened immune system.
 
-### When is a kitten dewormed for the first time?
+### How Often Should a Cat Be Dewormed?
 
-Kittens get their first deworming at 3 weeks of age. It is repeated every 2 weeks until 2 weeks after weaning. After that, kittens with ongoing risk, such as outdoor access, are dewormed monthly until 6 months of age; the others move on to the adult schedule. The mother is treated at the kittens’ first treatment. Kittens are treated so early and so often because roundworm larvae pass to them through the milk, and a heavy worm burden stunts a kitten’s growth — a pot belly, dull coat, diarrhoea and poor weight gain are typical. If you have just adopted a kitten and its history is unknown, deworm it on the same schedule.
+– Indoor cat that does not hunt or eat raw meat: 1–2 times a year, or a faecal sample as often.
+– Outdoor cat: 4–12 times a year — about 4 times if it rarely hunts, up to monthly if it hunts mice and other rodents.
+– Cat fed raw meat, fish or offal that has not first been frozen for a week: at least 4 times a year.
+– Monthly deworming or a monthly faecal sample may be advised in homes with small children, elderly people or anyone with a weakened immune system.
 
-### Does an indoor cat need deworming?
+### Puppies and Kittens
 
-Less often than an outdoor cat, but not never. Indoor cats can pick up roundworm eggs carried in on shoes or from potting soil, parasites from raw meat, and tapeworms from an occasional mouse caught in the house. The sensible approach for an indoor cat is a faecal sample once or twice a year and deworming only if parasites are found — or a routine treatment 1–2 times a year if you prefer not to test. Kittens are dewormed on the kitten schedule regardless of lifestyle.
+Puppies are dewormed for the first time at 2 weeks and kittens at 3 weeks of age, because roundworms pass to them from the mother. Treatment is repeated every 2 weeks until 2 weeks after weaning, then monthly until 6 months of age for puppies and kittens that remain at risk; the others move on to the adult schedule. The mother is treated at the same time as the puppies’ or kittens’ first treatment. Ask the breeder for the deworming record, and we will help you continue.
 
-### How do I know if my cat or dog has worms?
+### When Is a Faecal Sample Enough?
 
-Often you don’t — many infected adults show nothing, which is why the faecal sample matters. Signs to watch for are a swollen belly (especially in kittens and puppies), weight loss despite a good appetite, diarrhoea or vomiting, a dull coat, dragging the bottom along the floor, and rice-grain-like tapeworm segments around the anus or in the bedding. Roundworms are sometimes seen in vomit or faeces as pale spaghetti-like strands. If you see any of these, bring a faecal sample to the clinic and we will arrange the laboratory examination.
+A faecal sample can replace deworming if it is taken as often as the deworming would be. Faecal tests miss many tapeworms, so animals that hunt or eat raw meat still need regular tapeworm treatment. Collect fresh faeces on three consecutive days into one container and bring it to the clinic.
 
-### How often should a dog be dewormed?
+### Signs of Worms
 
-How often depends on the dog’s lifestyle. A dog that is mostly indoors and has little contact with other dogs is dewormed 1–2 times a year — or checked with a faecal sample at the same frequency and treated only if needed. A typical family dog that meets other dogs in parks and on walks should be treated, or have a faecal sample examined, about 4 times a year. Hunting dogs, dogs that roam freely and dogs that eat prey, carcasses or offal are treated 4–12 times a year. The Finnish Food Authority advises that hunting dogs — especially moose dogs — receive regular tapeworm treatment effective against Echinococcus, such as praziquantel, for example after the hunting season and ideally also early in the moose season. Dogs fed raw meat or offal that has not been frozen (one week at −17 to −20 °C) or cooked through (65 °C at the core for 10 minutes) should get a tapeworm treatment every 4 weeks. Dogs travelling to countries where the fox tapeworm occurs need extra treatments during and after the trip — see the travel section below. Monthly deworming, or a monthly faecal sample, may also be advised for dogs that share a home with children under about six, or with elderly or immunocompromised people.
+Many infected adults show no signs. Watch for a swollen belly in puppies and kittens, weight loss, diarrhoea or vomiting, dragging the bottom, and rice-grain-like segments around the anus. Roundworms can also infect people, especially small children, so pick up faeces promptly and wash your hands.
 
-### When is a puppy dewormed for the first time?
+### Which Dewormer to Choose?
 
-Puppies are dewormed for the first time at 2 weeks of age, because roundworm larvae pass to them while still in the womb as well as through the milk. Treatment is repeated every 2 weeks until 2 weeks after weaning and then — for puppies with ongoing risk, such as those going to puppy classes and dog parks — monthly until 6 months of age. The dam is treated at the puppies’ first treatment. Ask the breeder for the puppy’s deworming record when you collect it, and we will help you continue the schedule.
+The right product depends on the parasite and the animal’s weight. Several dewormers are sold at pharmacies without a prescription; others need a veterinary prescription — ask us which one fits your pet.
 
-### When is a faecal sample enough instead of deworming?
+### Tapeworm Treatment for Dogs That Travel
 
-For a healthy adult in the low-risk group — an indoor cat, or a dog that is mostly indoors and has little contact with other dogs — a faecal sample once or twice a year is enough: if it is clean, no medication is needed. Dogs and cats with more exposure (park walks and dog contact, outdoor access) can be tested for roundworms at the same frequency at which they would otherwise be treated, about 4 times a year. Faecal tests miss many tapeworm infections, though, so animals that hunt or eat raw meat should still get regular tapeworm treatment. Collect a small amount of fresh faeces on three consecutive days into one container and bring it to the clinic; we will arrange the laboratory examination. Treating only when parasites are found avoids needless medication and may help slow the development of drug resistance. In Europe there are still virtually no proven cases of resistance in the roundworms and hookworms of dogs and cats, but resistant dog hookworms have been documented in the USA and Australia.
-
-### Which intestinal worms are common in Finland?
-
-Intestinal parasites are uncommon in Finnish pet dogs and cats — a 2024 study found them in about 3.5% of pet dogs and cats over six months old (but in 41% of shelter cats) — which is one reason why testing before treating makes sense. Roundworms (Toxocara) are the most common harmful worm in both dogs and cats, and young animals are the most likely to carry them. They are zoonotic — they can infect people, particularly small children — which is a good reason to deworm young animals properly and to pick up your pet’s faeces promptly. Tapeworms occur mainly in animals that eat rodents or raw meat, or that have fleas (or, in dogs, lice). Giardia is a protozoan that causes diarrhoea and spreads through contaminated water and surroundings. Hookworms are found in Finnish dogs only occasionally, and whipworms are rare. The dangerous fox tapeworm Echinococcus multilocularis has not been found in Finland — the import rules for travelling dogs exist precisely to keep it that way. A related species, the moose tapeworm (E. canadensis), circulates between wolves and moose, reindeer and wild forest reindeer, mainly in eastern and north-eastern Finland, but since 2017 it has also been found in moose and wolves further west. It can infect dogs that eat raw moose or reindeer offal, especially lungs, which is one more reason hunting dogs get regular tapeworm treatment with praziquantel.
-
-### Which dewormer should I use — tablet, paste or spot-on?
-
-The right product depends on which parasites you are targeting. Roundworms respond to fenbendazole, flubendazole, febantel, pyrantel, milbemycin or emodepside. Praziquantel covers all common tapeworms, including Echinococcus, whereas fenbendazole and flubendazole act only on some tapeworms (Taenia, when given for three days). Combination products cover both. Spot-on products applied to the neck are convenient for cats that will not take tablets, and pastes are easy to dose for puppies and kittens. In Finland, several dewormers are sold at pharmacies without prescription — for example fenbendazole and flubendazole products, a pyrantel paste for dogs, Drontal vet tablets for cats (pyrantel and praziquantel), Drontal Comp or Dronbits for dogs (febantel, pyrantel and praziquantel) and the Dronspot spot-on for cats (emodepside and praziquantel). Others, such as Milbemax, Profender and combination products that also treat fleas or ticks, require a veterinary prescription. The dose depends on body weight and the choice of product on the parasite — so ask us which product fits your pet, especially for kittens, puppies, pregnant animals and animals on other medication.
-
-### Should I deworm before vaccination?
-
-For puppies and kittens, the deworming schedule naturally falls around the vaccination visits, and keeping to it is good practice. A symptom-free parasite infection is not, however, a reason to postpone vaccination: in a 2024 study, kittens with symptom-free intestinal parasites (mostly roundworms) responded to the panleukopenia vaccine as well as parasite-free kittens. For healthy adults it is not necessary to deworm just because a vaccination is due — bring a faecal sample instead and we will arrange the laboratory examination.
-
-### What is the legal tapeworm treatment for dogs that travel?
-
-By law, every dog coming to Finland from abroad — puppies included — must be treated against the fox tapeworm (Echinococcus multilocularis) with praziquantel or an equally effective product. There are two ways to do this. Single treatment: a vet outside Finland gives the dose 1–5 days (24–120 hours) before the dog arrives and records it in the pet passport. This also applies to Sweden, including the Vaasa–Umeå ferry. 28-day scheme: this is for dogs that travel often in EU countries, Norway or Switzerland (the scheme cannot be started in Switzerland). Before the trip, a vet — usually here in Finland — gives two doses 1–28 days apart and notes in the passport that the 28-day rule is being used. For as long as the travelling continues, the dog is treated at intervals of no more than 28 days. When it ends, a vet in Finland gives a final dose no more than 28 days after the previous one. Every dose is given by a vet and entered in the passport, and a longer gap means starting the scheme again. Exemptions: no treatment is needed for a dog coming directly from Norway, Ireland or Malta — but a dog travelling home from Norway via Sweden does need it. Leaving Finland: a dog travelling directly from Finland to Norway, Ireland, Malta or Great Britain needs no tapeworm treatment there either. If the route passes through Sweden or another country where the fox tapeworm occurs, Norway accepts the 28-day scheme, but Ireland, Malta and Great Britain require a single dose 1–5 days before arrival. Cats and ferrets do not need the treatment. Rules checked in September 2026. The full travel requirements are on our EU pet passport page.
-We are happy to assess how much deworming your pet really needs, without unnecessary medication. Book a faecal-sample check or a deworming at Saari Animal Clinic — together we will make sure your pet is treated at the right time.
+By law, a dog coming to Finland from abroad, including from Sweden and on the Vaasa–Umeå ferry, must be treated against the fox tapeworm by a vet abroad 1–5 days before arrival. For a trip of under 24 hours, or if the dog never leaves the car or ship, use the 28-day rule instead; it also suits frequent trips. No treatment is needed for a dog coming directly from Norway, Ireland or Malta, but a dog returning from Norway via Sweden needs it. Cats do not need the treatment. Read more on our EU pet passport page.
+Book a faecal-sample check or a deworming at Saari Animal Clinic — we will assess how much your pet really needs.
 
 ### Sources
 
@@ -6323,9 +6313,7 @@ We are happy to assess how much deworming your pet really needs, without unneces
 - Ruokavirasto: Ekinokokit. ruokavirasto.fi/ekinokokit
 - Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta. ruokavirasto.fi/metsastaja--muista-torjua-hirviekinokokk
 - Your Europe (European Union): Travelling with pets and other animals in the EU. europa.eu
-- GOV.UK: Bringing your pet dog to Great Britain – tapeworm treatment for dogs. gov.uk
-- Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org/s13028-024-00776-4
-- Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8). doi.org/1098612X241264731
+- Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org
 Related services: Internal Medicine · Vaccinations
 
 ### Read also

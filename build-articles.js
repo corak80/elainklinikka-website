@@ -1511,9 +1511,10 @@ const articles = [
     seoTitle: { fi: "Koiran ja kissan madotus – kuinka usein? Pennut ja aikuiset", sv: "Avmaskning av hund och katt – hur ofta? Valpar och kattungar", en: "Dog and Cat Deworming — How Often? Puppies, Kittens, Adults" },
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '25.9.2026',
+    date: '19.11.2026',
     publishDate: '2026-07-28',
-    sections: ['intro', 'catoften.title', 'catoften.text', 'kitten.title', 'kitten.text', 'indoor.title', 'indoor.text', 'catsigns.title', 'catsigns.text', 'dogoften.title', 'dogoften.text', 'puppy.title', 'puppy.text', 'fecal.title', 'fecal.text', 'parasites.title', 'parasites.text', 'product.title', 'product.text', 'vaccine.title', 'vaccine.text', 'travel.title', 'travel.text', 'cta'],
+    sections: ['intro', 'dogoften.title', 'dogoften.text', 'catoften.title', 'catoften.text', 'puppy.title', 'puppy.text', 'fecal.title', 'fecal.text', 'catsigns.title', 'catsigns.text', 'product.title', 'product.text', 'travel.title', 'travel.text', 'cta'],
+    htmlSections: ['dogoften.text', 'catoften.text', 'travel.text'],
     prefix: 'article.deworming',
     sources: [
       { text: 'ESCCAP: Worm Control in Dogs and Cats. ESCCAP Guideline 01, 7th edition, June 2025.', url: 'https://www.esccap.org/guidelines/gl1/', label: 'esccap.org' },
@@ -1522,9 +1523,7 @@ const articles = [
       { text: 'Ruokavirasto: Ekinokokit.', url: 'https://www.ruokavirasto.fi/elaimet/elainten-terveys-ja-elaintaudit/elaintaudit/usealle-elainlajille-yhteiset-taudit/ekinokokit/', label: 'ruokavirasto.fi' },
       { text: 'Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta.', url: 'https://www.ruokavirasto.fi/laboratoriopalvelut/ajankohtaista-laboratoriopalveluista/metsastaja--muista-torjua-hirviekinokokkitartunta/', label: 'ruokavirasto.fi' },
       { text: 'Your Europe (European Union): Travelling with pets and other animals in the EU.', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' },
-      { text: 'GOV.UK: Bringing your pet dog to Great Britain – tapeworm treatment for dogs.', url: 'https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs', label: 'gov.uk' },
-      { text: 'Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52.', url: 'https://doi.org/10.1186/s13028-024-00776-4', label: 'doi.org' },
-      { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
+      { text: 'Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52.', url: 'https://doi.org/10.1186/s13028-024-00776-4', label: 'doi.org' }
     ],
     metaDesc: {
       fi: "Koiranpentu madotetaan ensi kerran 2 viikon, kissanpentu 3 viikon iässä. Aikuisen madotusväli riippuu riskistä, ja ulostenäyte voi korvata madotuksen.",

@@ -2742,9 +2742,9 @@ Hälsa
 Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Hälsa
 
-#### Avmaskning av hund och katt – hur ofta? Valpar, kattungar, vuxna och resor
+#### Avmaskning av hund och katt – hur ofta? Valpar, kattungar och vuxna djur
 
-I Finland rekommenderar man i dag inte längre att alla husdjur avmaskas ”för säkerhets skull” flera gånger om året. P...
+Hur ofta ett husdjur behöver avmaskas beror på hur stor risken är att det får mask. Ett friskt vuxet djur med låg ris...
 Tillbaka till startsidan
 
 ---
@@ -3612,11 +3612,11 @@ Akutvård
 
 Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är ofarligt för oss men giftigt för den, till exempel choklad, xylitol eller vindruvor – eller av människors läkemedel som den har kommit åt. Hur sjukt djuret blir beror på ämnet, mängden det har fått i sig och djurets storlek. Misstänker du förgiftning lönar det sig alltid att genast ringa veterinären, även om djuret ännu verkar helt piggt. Vid många förgiftningar fungerar behandlingen bäst – eller enbart – innan några symtom har visat sig.
 Hälsa
-25.9.2026
+19.11.2026
 
-### Avmaskning av hund och katt – hur ofta? Valpar, kattungar, vuxna och resor
+### Avmaskning av hund och katt – hur ofta? Valpar, kattungar och vuxna djur
 
-I Finland rekommenderar man i dag inte längre att alla husdjur avmaskas ”för säkerhets skull” flera gånger om året. Parasitkontrollen utgår numera från risken: valpar, kattungar och djur som jagar, strövar fritt eller reser avmaskas enligt schema, medan en frisk vuxen hund eller katt med låg risk i stället kan kontrolleras med avföringsprov och behandlas bara vid behov. Tanken är enkel – behandla vid rätt tidpunkt och av rätt orsak, inte efter kalendern. Här nedan går vi igenom de aktuella rekommendationerna för katter och hundar i alla åldrar. Rekommendationerna bygger på de europeiska ESCCAP-riktlinjerna och finländsk praxis. Vi tar också upp tecknen på maskinfektion, vilket maskmedel du ska välja och den lagstadgade bandmaskbehandlingen för hundar som reser.
+Hur ofta ett husdjur behöver avmaskas beror på hur stor risken är att det får mask. Ett friskt vuxet djur med låg risk kan i stället få ett avföringsprov undersökt och behandlas bara vid behov. Råden nedan följer den europeiska ESCCAP-riktlinjen och rekommendationerna från Livsmedelsverket (Ruokavirasto). De kontrollerades i november 2026.
 Klinik
 27.9.2026
 
@@ -6247,63 +6247,53 @@ Tillbaka till startsidan
 
 ---
 
-# Avmaskning av hund och katt | Djurklinik Saari
+# Avmaskning av hund och katt – hur ofta? Valpar och kattungar
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/avmaskning.html
-Last updated: 2026-10-15
+Last updated: 2026-11-19
 
 Hälsa
-25.9.2026
+19.11.2026
 
-## Avmaskning av hund och katt – hur ofta? Valpar, kattungar, vuxna och resor
+## Avmaskning av hund och katt – hur ofta? Valpar, kattungar och vuxna djur
 
 Veterinär Assaf Wydra, Eläinklinikka Saari
-I Finland rekommenderar man i dag inte längre att alla husdjur avmaskas ”för säkerhets skull” flera gånger om året. Parasitkontrollen utgår numera från risken: valpar, kattungar och djur som jagar, strövar fritt eller reser avmaskas enligt schema, medan en frisk vuxen hund eller katt med låg risk i stället kan kontrolleras med avföringsprov och behandlas bara vid behov. Tanken är enkel – behandla vid rätt tidpunkt och av rätt orsak, inte efter kalendern. Här nedan går vi igenom de aktuella rekommendationerna för katter och hundar i alla åldrar. Rekommendationerna bygger på de europeiska ESCCAP-riktlinjerna och finländsk praxis. Vi tar också upp tecknen på maskinfektion, vilket maskmedel du ska välja och den lagstadgade bandmaskbehandlingen för hundar som reser.
-
-### Hur ofta ska en katt avmaskas?
-
-För en vuxen innekatt räcker det oftast med avmaskning 1–2 gånger om året – eller ett avföringsprov lika ofta, och behandling bara om provet visar parasiter. En katt som går ute avmaskas 4–12 gånger om året: ungefär 4 gånger om den sällan jagar, och upp till en gång i månaden om den aktivt jagar möss och andra gnagare, eftersom gnagare sprider bandmask. Avmaskning varje månad (eller ett avföringsprov varje månad) kan också rekommenderas om katten bor i samma hem som barn under ungefär sex år, eller som äldre personer eller personer med nedsatt immunförsvar. Ju mer din katt jagar, desto oftare behöver den behandlas; en katt som enbart lever inomhus och har rena avföringsprov behöver kanske ingen avmaskning alls.
-
-### När avmaskas en kattunge första gången?
-
-Kattungar avmaskas första gången vid 3 veckors ålder. Behandlingen upprepas varannan vecka tills det gått 2 veckor efter avvänjningen. Därefter avmaskas kattungar med fortsatt risk, till exempel sådana som får gå ute, varje månad fram till 6 månaders ålder; de övriga går över till schemat för vuxna katter. Kattmamman behandlas samtidigt som kattungarna får sin första behandling. Att kattungar behandlas så tidigt och så ofta beror på att spolmasklarver överförs till dem via mjölken, och en kraftig maskbörda hämmar kattungens tillväxt – typiska tecken är en uppsvälld mage, glanslös päls, diarré och dålig viktökning. Om du just har tagit hem en kattunge och inte känner till dess bakgrund, avmaska den enligt samma schema.
-
-### Behöver en innekatt avmaskas?
-
-Mer sällan än en utekatt, men inte aldrig. En innekatt kan få i sig spolmaskägg som följer med in på skorna eller finns i krukväxtjord, parasiter från rått kött och bandmask från en mus som den då och då fångar inomhus. Det förnuftiga för en innekatt är ett avföringsprov en eller två gånger om året och avmaskning bara om parasiter hittas – eller en rutinmässig behandling 1–2 gånger om året om du hellre låter bli att testa. Kattungar avmaskas enligt kattungeschemat oavsett livsstil.
-
-### Hur vet jag om min katt eller hund har mask?
-
-Ofta märker du ingenting – många infekterade vuxna djur visar inga tecken alls, och det är just därför avföringsprovet är viktigt. Tecken att hålla ögonen på är en uppsvälld mage (särskilt hos kattungar och valpar), viktminskning trots god aptit, diarré eller kräkningar, glanslös päls, att djuret åker kana på baken längs golvet, och riskornsliknande bandmasksegment kring analöppningen eller i bädden. Spolmask syns ibland i kräkningar eller avföring som ljusa, spagettiliknande trådar. Ser du något av detta, ta med ett avföringsprov till kliniken, så ordnar vi laboratorieundersökningen.
+Hur ofta ett husdjur behöver avmaskas beror på hur stor risken är att det får mask. Ett friskt vuxet djur med låg risk kan i stället få ett avföringsprov undersökt och behandlas bara vid behov. Råden nedan följer den europeiska ESCCAP-riktlinjen och rekommendationerna från Livsmedelsverket (Ruokavirasto). De kontrollerades i november 2026.
 
 ### Hur ofta ska en hund avmaskas?
 
-Hur ofta beror på hundens livsstil. En hund som mest är inomhus och har lite kontakt med andra hundar avmaskas 1–2 gånger om året – eller kontrolleras med avföringsprov lika ofta och behandlas bara vid behov. En vanlig familjehund som träffar andra hundar i parker och på promenader bör behandlas, eller få ett avföringsprov undersökt, ungefär 4 gånger om året. Jakthundar, hundar som strövar fritt och hundar som äter bytesdjur, kadaver eller slaktavfall behandlas 4–12 gånger om året. Livsmedelsverket rekommenderar att jakthundar – särskilt älghundar – regelbundet behandlas mot bandmask med ett preparat som är effektivt mot Echinococcus, såsom prazikvantel – till exempel efter jaktsäsongen och helst också i början av älgjakten. Hundar som får rått kött eller råa inälvor som inte har frysts (en vecka vid −17 till −20 °C) eller genomtillagats (65 °C i kärnan i 10 minuter) bör få en bandmaskbehandling var fjärde vecka. Hundar som reser till länder där rävens dvärgbandmask förekommer behöver extra behandlingar under och efter resan – se avsnittet om resor nedan. Avmaskning varje månad, eller ett avföringsprov varje månad, kan också rekommenderas för hundar som bor i samma hem som barn under ungefär sex år, eller som äldre personer eller personer med nedsatt immunförsvar.
+– Nästan alltid inomhus, ingen kontakt med andra hundar, inga parker eller trädgårdar, ingen rå mat: 1–2 gånger om året, eller ett avföringsprov lika ofta.
+– Familjehund som träffar andra hundar på promenader och i parker: ungefär 4 gånger om året, eller ett avföringsprov lika ofta.
+– Jakthundar och hundar som äter bytesdjur eller kadaver, eller rått kött, rå fisk eller råa inälvor som inte först har frysts i en vecka: bandmaskbehandling varje månad, och dessutom spolmaskbehandling eller ett avföringsprov 4–12 gånger om året. Lungor och andra inälvor från älg och ren bör alltid genomtillagas innan en hund får äta dem.
+– Avmaskning eller ett avföringsprov en gång i månaden kan rekommenderas i hem där det bor små barn, äldre personer eller någon med nedsatt immunförsvar.
 
-### När avmaskas en valp första gången?
+### Hur ofta ska en katt avmaskas?
 
-Valpar avmaskas första gången vid 2 veckors ålder, eftersom spolmasklarver överförs till dem redan i livmodern och via mjölken. Behandlingen upprepas varannan vecka tills det gått 2 veckor efter avvänjningen, och därefter – för valpar med fortsatt risk, till exempel valpar som går på valpkurs eller i hundparker – varje månad fram till 6 månaders ålder. Tiken behandlas samtidigt som valparna får sin första behandling. Be uppfödaren om valpens avmaskningsuppgifter när du hämtar den, så hjälper vi dig att fortsätta enligt schemat.
+– Innekatt som varken jagar eller äter rått kött: 1–2 gånger om året, eller ett avföringsprov lika ofta.
+– Utekatt: 4–12 gånger om året – ungefär 4 gånger om den sällan jagar, upp till en gång i månaden om den jagar möss och andra gnagare.
+– Katt som får rått kött, rå fisk eller råa inälvor som inte först har frysts i en vecka: minst 4 gånger om året.
+– Avmaskning eller ett avföringsprov en gång i månaden kan rekommenderas i hem där det bor små barn, äldre personer eller någon med nedsatt immunförsvar.
 
-### När räcker det med avföringsprov i stället för avmaskning?
+### Valpar och kattungar
 
-För ett friskt vuxet djur i lågriskgruppen – en innekatt, eller en hund som mest är inomhus och har lite kontakt med andra hundar – räcker ett avföringsprov en eller två gånger om året: är provet rent behövs ingen medicinering. Hundar och katter som är mer utsatta (parkpromenader och hundkontakter, utevistelse) kan testas för spolmask lika ofta som de annars skulle behandlas, ungefär 4 gånger om året. Avföringsprov missar dock många bandmaskinfektioner, så djur som jagar eller äter rått kött bör ändå få regelbunden bandmaskbehandling. Samla en liten mängd färsk avföring tre dagar i följd i samma burk och ta med den till kliniken; vi ordnar laboratorieundersökningen. Genom att behandla bara när parasiter hittas undviker man onödig medicinering och kan bidra till att bromsa utvecklingen av läkemedelsresistens. I Europa finns det fortfarande i stort sett inga belagda fall av resistens hos hundens och kattens spolmask och hakmask, men resistent hakmask hos hund har påvisats i USA och Australien.
+Valpar avmaskas första gången vid 2 veckors ålder och kattungar vid 3 veckors ålder, eftersom spolmask överförs till dem från mamman. Behandlingen upprepas varannan vecka tills det har gått 2 veckor efter avvänjningen. Valpar och kattungar som fortfarande löper risk att få mask avmaskas därefter varje månad fram till 6 månaders ålder; de övriga går över till schemat för vuxna djur. Mamman avmaskas samtidigt som valparna eller kattungarna avmaskas första gången. Be uppfödaren om avmaskningsuppgifterna, så hjälper vi dig att fortsätta enligt schemat.
 
-### Vilka inälvsmaskar är vanliga i Finland?
+### När räcker det med ett avföringsprov?
 
-Inälvsparasiter är ovanliga hos finländska sällskapshundar och -katter – i en studie från 2024 hittades de hos ungefär 3,5 % av sällskapshundarna och -katterna som var äldre än sex månader (men hos 41 % av katterna på katthem) – vilket är ett av skälen till att det är vettigt att testa före behandling. Spolmask (Toxocara) är den vanligaste skadliga masken hos både hundar och katter, och unga djur är de som oftast bär på den. Spolmask är zoonotisk – den kan smitta människor, särskilt små barn – vilket är ett gott skäl att avmaska unga djur ordentligt och att genast plocka upp efter sitt djur. Bandmask förekommer främst hos djur som äter gnagare eller rått kött, eller som har loppor (eller, hos hundar, löss). Giardia är en encellig parasit som orsakar diarré och sprids via förorenat vatten och förorenad miljö. Hakmask hittas bara då och då hos finländska hundar, och piskmask är sällsynt. Rävens farliga dvärgbandmask, Echinococcus multilocularis, har inte påträffats i Finland – införselreglerna för hundar som reser finns just för att det ska förbli så. En besläktad art, älgechinokocken (E. canadensis), cirkulerar mellan varg och älg, ren och skogsvildren, främst i östra och nordöstra Finland, men sedan 2017 har den också påträffats hos älg och varg längre västerut. Den kan smitta hundar som äter råa inälvor av älg eller ren, särskilt lungor, vilket är ytterligare ett skäl till att jakthundar får regelbunden bandmaskbehandling med prazikvantel.
+Ett avföringsprov kan ersätta avmaskning om provet tas lika ofta som djuret annars skulle avmaskas. Många bandmaskinfektioner upptäcks inte i avföringsprov, så djur som jagar eller äter rått kött behöver ändå regelbunden bandmaskbehandling. Samla färsk avföring tre dagar i följd i samma burk och ta med den till kliniken.
 
-### Vilket maskmedel ska jag välja – tablett, pasta eller spot-on?
+### Tecken på mask
 
-Rätt preparat beror på vilka parasiter du vill komma åt. Spolmask svarar på fenbendazol, flubendazol, febantel, pyrantel, milbemycin eller emodepsid. Prazikvantel verkar mot alla vanliga bandmaskar, även Echinococcus, medan fenbendazol och flubendazol bara verkar mot en del bandmaskar (Taenia, när medlet ges i tre dagar). Kombinationspreparat täcker båda. Spot-on-preparat som droppas i nacken är praktiska för katter som inte tar tabletter, och pasta är lätt att dosera till valpar och kattungar. I Finland säljs flera maskmedel receptfritt på apotek – till exempel fenbendazol- och flubendazolpreparat, en pyrantelpasta för hundar, Drontal vet-tabletter för katter (pyrantel och prazikvantel), Drontal Comp eller Dronbits för hundar (febantel, pyrantel och prazikvantel) och spot-on-preparatet Dronspot för katter (emodepsid och prazikvantel). Andra, till exempel Milbemax, Profender och kombinationspreparat som också verkar mot loppor eller fästingar, kräver recept från veterinären. Dosen bestäms av kroppsvikten och preparatet väljs efter parasit – så fråga oss vilket preparat som passar ditt djur, i synnerhet när det gäller kattungar, valpar, dräktiga djur och djur som får annan medicin.
+Många vuxna djur med mask har inga symtom. Håll utkik efter uppsvälld mage hos valpar och kattungar, viktminskning, diarré eller kräkningar, att djuret åker kana på baken samt riskornsliknande segment kring analöppningen. Spolmask kan också smitta människor, särskilt små barn, så plocka genast upp efter djuret och tvätta händerna.
 
-### Ska jag avmaska före vaccinationen?
+### Vilket maskmedel ska jag välja?
 
-För valpar och kattungar infaller avmaskningsschemat naturligt runt vaccinationsbesöken, och det är god praxis att hålla sig till det. En symtomfri parasitinfektion är ändå inget skäl att skjuta upp vaccinationen: i en studie från 2024 svarade kattungar med symtomfria inälvsparasiter (främst spolmask) lika bra på vaccinet mot kattpest (panleukopeni) som parasitfria kattungar. För friska vuxna djur behöver man inte avmaska bara för att en vaccination står på tur – ta med ett avföringsprov i stället, så ordnar vi laboratorieundersökningen.
+Vilket preparat som är rätt beror på parasiten och djurets vikt. Flera maskmedel säljs receptfritt på apotek, medan andra kräver recept från veterinären – fråga oss vilket som passar ditt djur.
 
-### Vilken bandmaskbehandling krävs enligt lag för hundar som reser?
+### Bandmaskbehandling för hundar som reser
 
-Alla hundar – också valpar – som kommer till Finland från utlandet måste enligt lag behandlas mot rävens dvärgbandmask (Echinococcus multilocularis) med prazikvantel eller ett lika effektivt preparat. Det finns två sätt att göra det. Engångsbehandling: en veterinär utanför Finland ger dosen 1–5 dygn (24–120 timmar) innan hunden anländer och antecknar den i sällskapsdjurspasset. Det gäller också hundar som kommer från Sverige, även med färjan Vasa–Umeå. 28-dygnsregeln: den är avsedd för hundar som reser ofta inom EU, i Norge eller i Schweiz (den kan inte påbörjas i Schweiz). Före resan ger en veterinär – vanligen här i Finland – två doser med 1–28 dygns mellanrum och antecknar i passet att 28-dygnsregeln följs. Så länge resandet pågår behandlas hunden med högst 28 dygns mellanrum. När resandet tar slut ger en veterinär i Finland en sista dos högst 28 dygn efter den föregående. Varje dos ges av en veterinär och antecknas i passet, och blir mellanrummet längre måste man börja om från början. Undantag: ingen behandling behövs för en hund som kommer direkt till Finland från Norge, Irland eller Malta – men en hund som reser hem från Norge via Sverige behöver den. Resor från Finland: en hund som reser direkt från Finland till Norge, Irland, Malta eller Storbritannien behöver inte heller någon bandmaskbehandling för inresan dit. Går resan via Sverige eller något annat land där rävens dvärgbandmask förekommer, godkänner Norge 28-dygnsregeln, men Irland, Malta och Storbritannien kräver en engångsdos 1–5 dygn före ankomsten. Katter och illrar behöver inte behandlas. Reglerna kontrollerades i september 2026. Alla resekrav hittar du på vår sida om EU:s sällskapsdjurspass.
-Vi bedömer gärna ditt djurs verkliga behov av avmaskning – utan onödig medicinering. Boka en kontroll med avföringsprov eller en avmaskning hos Djurklinik Saari, så ser vi tillsammans till att ditt djur behandlas vid rätt tidpunkt.
+Enligt lag ska en hund som kommer till Finland från utlandet, även från Sverige och med färjan mellan Vasa och Umeå, behandlas mot rävens dvärgbandmask av en veterinär utomlands 1–5 dagar före ankomsten. Vid en resa på under 24 timmar, eller om hunden aldrig lämnar bilen eller båten, ska 28-dagarsregeln användas i stället; den passar också bra för hundar som reser ofta. Ingen behandling behövs för en hund som kommer direkt från Norge, Irland eller Malta, men en hund som återvänder från Norge via Sverige måste behandlas. Katter behöver inte den här behandlingen. Läs mer på vår sida om EU-pass för hund och katt.
+Boka en kontroll med avföringsprov eller en avmaskning hos Djurklinik Saari – vi bedömer hur mycket behandling ditt djur verkligen behöver.
 
 ### Källor
 
@@ -6313,9 +6303,7 @@ Vi bedömer gärna ditt djurs verkliga behov av avmaskning – utan onödig medi
 - Ruokavirasto: Ekinokokit. ruokavirasto.fi/ekinokokit
 - Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta. ruokavirasto.fi/metsastaja--muista-torjua-hirviekinokokk
 - Your Europe (European Union): Travelling with pets and other animals in the EU. europa.eu
-- GOV.UK: Bringing your pet dog to Great Britain – tapeworm treatment for dogs. gov.uk
-- Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org/s13028-024-00776-4
-- Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8). doi.org/1098612X241264731
+- Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org
 Relaterade tjänster: Internmedicin · Vaccinationer
 
 ### Läs också
