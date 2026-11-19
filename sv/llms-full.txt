@@ -1892,9 +1892,9 @@ Akut fall? Jourveterinär i Vasa →
 
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Katthälsa
 
 #### Ett mindre stressande veterinärbesök för katten – så hjälper vi och så kan du förbereda dig
@@ -2163,9 +2163,9 @@ Akut fall? Jourveterinär i Vasa →
 
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Katthälsa
 
 #### Ett mindre stressande veterinärbesök för katten – så hjälper vi och så kan du förbereda dig
@@ -2737,9 +2737,9 @@ Akut fall? Jourveterinär i Vasa →
 
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Hälsa
 
 #### Avmaskning av hund och katt – hur ofta? Valpar, kattungar, vuxna och resor
@@ -2848,9 +2848,9 @@ Akut fall? Jourveterinär i Vasa →
 
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Anestesi
 
 #### Anestesisäkerhet – statistik, risker och hur vi minimerar dem
@@ -3569,7 +3569,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-08
+Last updated: 2026-11-19
 
 ## Artiklar
 
@@ -3636,11 +3636,11 @@ Anestesi
 
 Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare oroar sig inför den, och det är förståeligt. För en frisk hund eller katt är risken ändå låg. Den stora brittiska CEPSAF-studien (Brodbelt m.fl. 2008) omfattade 98 036 anestesier och sederingar hos hundar och 79 178 hos katter under åren 2002–2004. Ungefär 1 av 600 hundar (0,17 %) och 1 av 400 katter (0,24 %) dog inom 48 timmar av orsaker relaterade till anestesin eller sederingen. För friska patienter var risken betydligt lägre: 0,05 % (1 av 1 849) hos hundar och 0,11 % (1 av 895) hos katter. En nyare studie (Redondo m.fl. 2024) av 55 022 anestesier hos hundar vid 405 kliniker och djursjukhus i 21 länder (allmänpraktiserande kliniker, remisskliniker och universitetsdjursjukhus) rapporterade en siffra på 0,69 %. De två siffrorna kan inte jämföras direkt, eftersom patienterna och definitionerna skilde sig åt.
 Hälsa
-24.9.2026
+19.11.2026
 
-### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livsmedelsverket (Ruokavirasto) ut vaccinationsrekommendationer. Bortsett från några lagstadgade krav (se avsnitten om rabies och resor nedan) är de inte bindande – veterinären gör alltid en individuell bedömning. Rekommendationerna bygger på de internationella WSAVA-riktlinjerna (2024); för katter har den finländska kattmedicinska föreningen Catus anpassat dem till finländska förhållanden.
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tiden. Vi följer de aktuella rekommendationerna från Livsmedelsverket (Ruokavirasto) och anvisningarna för varje vaccin. Där de inte ger några specifika råd, använder vi WSAVA:s riktlinjer (2024) och för katter rekommendationerna från Catus (2025). Veterinären gör alltid en individuell bedömning. Rekommendationerna är kontrollerade i november 2026.
 Hälsa
 25.9.2026
 
@@ -5036,9 +5036,9 @@ Anestesi
 Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare oroar sig inför den...
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Tillbaka till startsidan
 
 ---
@@ -5552,9 +5552,9 @@ Anestesi
 Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare oroar sig inför den...
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Tillbaka till startsidan
 
 ---
@@ -5916,9 +5916,9 @@ Katthälsa
 Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos äldre katter. Beroende på studie drabbar...
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Tillbaka till startsidan
 
 ---
@@ -6151,62 +6151,79 @@ Tillbaka till startsidan
 
 ---
 
-# Vaccinationer i Finland | Djurklinik Saari
+# Vaccinationsprogram för hund och katt – valp och kattunge
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/vaccinationsguide.html
-Last updated: 2026-09-24
+Last updated: 2026-11-19
 
 Hälsa
-24.9.2026
+19.11.2026
 
-## Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+## Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
 Veterinär Assaf Wydra, Eläinklinikka Saari
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livsmedelsverket (Ruokavirasto) ut vaccinationsrekommendationer. Bortsett från några lagstadgade krav (se avsnitten om rabies och resor nedan) är de inte bindande – veterinären gör alltid en individuell bedömning. Rekommendationerna bygger på de internationella WSAVA-riktlinjerna (2024); för katter har den finländska kattmedicinska föreningen Catus anpassat dem till finländska förhållanden.
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tiden. Vi följer de aktuella rekommendationerna från Livsmedelsverket (Ruokavirasto) och anvisningarna för varje vaccin. Där de inte ger några specifika råd, använder vi WSAVA:s riktlinjer (2024) och för katter rekommendationerna från Catus (2025). Veterinären gör alltid en individuell bedömning. Rekommendationerna är kontrollerade i november 2026.
 
-### Basvacciner för hundar
+### Vaccinationsprogram: valpar, kattungar och vuxna djur
 
-Basvaccinationen för hundar skyddar mot valpsjuka (D), smittsam leverinflammation (H) och parvovirus (P). Den ges oftast som det kombinerade DHPPi-vaccinet, som också omfattar parainfluensa (Pi), en av orsakerna till kennelhosta. Livsmedelsverket rekommenderar vaccination mot rabies för alla sällskapshundar, och enligt lag är den obligatorisk för hundar som används för jakt och för myndigheters tjänstehundar. Eftersom skyddet mot parainfluensa är kortvarigt rekommenderar vi en årlig vaccination mot kennelhosta (parainfluensa + Bordetella) för alla hundar. Vaccination mot leptospiros rekommenderas för hundar som reser till områden där sjukdomen är vanlig (Sydeuropa, Asien, Nordafrika). Leptospiros kan också smitta människor. Under de senaste åren har några kliniska fall hos hundar konstaterats i Finland varje år, bland annat hos flera hundar i södra Finland 2024, så fråga oss om din hunds livsstil talar för vaccination. Den första vaccinationsomgången består av två doser med 3–4 veckors mellanrum, och skyddet utvecklas cirka 3–4 veckor efter den andra dosen, så börja minst två månader före en resa. Därefter ska vaccinationen förnyas varje år.
+Valpar (DHPPi):
+– Första vaccinationen vanligen vid 12 veckors ålder (vid 6–8 veckor om smittrisken är högre), sedan med 3–4 veckors mellanrum tills valpen är cirka 16 veckor gammal.
+– Vid 16 veckor: DHPPi och rabies.
+– Ett år efter den sista valpvaccinationen: booster (DHPPi och rabies).
+– Vuxna hundar: DHPPi och rabies vart tredje år. Vaccin mot kennelhosta varje år för hundar som vistas på hundpensionat eller ofta deltar i utställningar och andra hundevenemang.
+Kattungar (RCP):
+– Första vaccinationen vanligen vid 12 veckors ålder (vid 6–8 veckor om smittrisken är högre), sedan med 3–4 veckors mellanrum tills kattungen är cirka 16 veckor gammal.
+– Vid 16 veckor: RCP och rabies (rekommenderas särskilt för katter som vistas utomhus).
+– Ett år efter den sista kattungevaccinationen: booster (RCP, och rabies om kattungen har fått rabiesvaccin).
+– Vuxna katter: RCP och rabies vart tredje år. Katter som har kontakt med andra katter kan behöva kattsnuvekomponenterna varje år; det bedömer vi vid hälsokontrollen.
+Serien fortsätter till cirka 16 veckors ålder eftersom antikroppar från modern kan hindra vaccinet från att verka fram till dess. Avmaska valpar och kattungar minst 10 dagar före vaccinationen, och berätta för oss om djuret är dräktigt eller får kortison. Tills valpserien är klar ska du bara låta valpen träffa friska, fullvaccinerade hundar som du känner och undvika hundparker. Valpen kan ändå gå på valpkurs när det har gått minst en vecka sedan den första vaccinationen.
 
-### Basvacciner för katter
+### Vad händer om vaccinationen blir försenad?
 
-Alla katter rekommenderas trippelvaccination (RCP) mot kattpest (panleukopeni, FPV), calicivirus (FCV) och herpesvirus (FHV-1). Kattsnuvekomponenterna förhindrar inte smitta, men de gör sjukdomen lindrigare. Vaccination mot rabies är frivillig för katter i Finland, men obligatorisk om katten reser utomlands. Vi rekommenderar den särskilt för utekatter och katter som kan komma i kontakt med fladdermöss. Kattleukemi (FeLV) ingår inte i rutinvaccinationerna i Finland, eftersom FeLV nästan inte alls förekommer här. Behovet bedöms från fall till fall, till exempel för katter som bor tillsammans med en FeLV-positiv katt eller som reser utomlands; katten testas för FeLV före vaccinationen.
+En försenad booster betyder sällan att man måste börja om från början. Om de tidigare vaccinationerna var fullständiga, räcker vanligen en dos. Om det har gått flera år – för katter mer än 3 år – eller om vaccinationshistorien är okänd, kan veterinären ge två doser med 3–4 veckors mellanrum. Om det har gått 18 månader eller mer sedan den senaste leptospirosvaccinationen, börjar man om med två doser. En rabiesvaccination som ges efter att den förra har gått ut räknas som en första vaccination och är giltig för resor först 21 dygn senare.
 
-### Vaccinationsprogram för valpar och kattungar
+### Vaccination av hund
 
-Valpar: DHPPi-vaccinationen inleds vid 8 eller 12 veckors ålder och upprepas var fjärde vecka tills valpen är 16 veckor gammal – en serie som inleds vid 8 veckor omfattar även doser vid 12 och 16 veckor. Vid 16 veckor: DHPPi och rabies. Förnyad vaccination vid 1 års ålder (DHPPi och rabies). Vuxna hundar: DHP och rabies vart tredje år, parainfluensa varje år tillsammans med vaccinet mot kennelhosta.
-Kattungar: RCP-vaccinationen inleds vid 8 eller 12 veckors ålder och upprepas var fjärde vecka tills kattungen är 16 veckor gammal – en serie som inleds vid 8 veckor omfattar även doser vid 12 och 16 veckor. Vid 16 veckor: RCP samt rabies om så önskas. Förnyad vaccination vid 1 års ålder (RCP samt rabies om kattungen har rabiesvaccinerats). Vuxna katter: RCP och rabies vart tredje år.
+DHPPi-vaccinet skyddar mot valpsjuka, smittsam leverinflammation (hepatit), parvovirus och parainfluensa, som är en av orsakerna till kennelhosta. Livsmedelsverket rekommenderar vaccination mot rabies för alla sällskapshundar. För hundar som används för jakt och för myndigheternas tjänstehundar är den obligatorisk. Vaccinet mot kennelhosta (parainfluensa + Bordetella) rekommenderas för hundar som vistas på hundpensionat eller deltar i utställningar, och många evenemang kräver det. Vaccination mot leptospiros rekommenderas för hundar som reser till Sydeuropa, Asien eller Nordafrika, och i Finland konstateras några fall varje år. Vaccinationen kräver två doser med 2–4 veckors mellanrum och därefter en booster varje år, så börja minst två månader före resan.
+
+### Vaccination av katt
+
+RCP-vaccinet mot kattpest (panleukopeni), calicivirus och herpesvirus rekommenderas för alla katter, även innekatter. Kattsnuvekomponenterna gör sjukdomen lindrigare men förhindrar inte smitta. Vaccination mot rabies är inte obligatorisk, men Livsmedelsverket rekommenderar den för alla sällskapskatter och den krävs för resor. Vi rekommenderar den särskilt för katter som vistas utomhus, främst på grund av fladdermöss. Vaccination mot kattleukemi (FeLV) övervägs från fall till fall, eftersom FeLV nästan inte alls förekommer i Finland.
+
+### Biverkningar
+
+Biverkningar är ovanliga och går vanligen över inom en eller två dagar: kortvarig feber, trötthet, nedsatt aptit eller ett ömt och svullet injektionsställe. Kontakta oss om besvären varar längre än två dagar. Allvarliga allergiska reaktioner är sällsynta och börjar vanligen inom 15 minuter: svullnad i ansiktet, nässelutslag, kräkningar, andningssvårigheter eller kollaps – kontakta genast en veterinär. Det lönar sig alltid att stanna 15–30 minuter på kliniken efter en vaccination, och efter de första vaccinationerna rekommenderar vi det starkt. Låt alltid en veterinär undersöka en knöl vid kattens injektionsställe om den finns kvar efter 3 månader, är större än 2 cm eller fortfarande växer en månad efter injektionen.
+
+### Vaccinationer på vår klinik – priser
+
+I varje vaccinationsbesök ingår en kort hälsokontroll hos veterinären. För hundar kostar DHPPi-vaccinationen 77 € (85 € med rabies) och vaccinationen mot kennelhosta 75–77 €. För katter kostar RCP-vaccinationen 75 € (86 € med rabies). På tisdagar kl. 15.30–16.00 är drop-in-vaccinationer utan tidsbokning 10 % billigare. Alla priser och tidsbokning: sidan om vaccinationer.
 
 ### Rabies i Finland
 
-Finland har officiellt varit fritt från rabies sedan 1991; det senaste inhemska fallet hos djur konstaterades 1989. Sedan dess har rabies påträffats endast hos två importerade djur (2003 och 2007), och besläktade lyssavirus har påträffats hos fladdermöss (2009, 2016 och 2017). Enligt lag ska hundar som används för jakt och myndigheters tjänstehundar ha en giltig rabiesvaccination, och den första dosen ska ges minst 21 dagar innan hunden används för jakt eller tjänsteuppdrag. Rabiesvaccination krävs också när hundar, katter och illrar förs in i Finland från utlandet, även när de återvänder från en resa. För andra husdjur är den inte obligatorisk, men Livsmedelsverket rekommenderar den för alla hundar och katter. Finska Kennelklubben kräver att alla hundar som finns på plats vid utställningar, prov, tävlingar och andra hundevenemang har giltiga vaccinationer mot rabies och mot valpsjuka, parvovirus och smittsam leverinflammation. Om en vaccination har gått ut måste hunden vaccineras på nytt och får delta först efter vaccinets karenstid (vanligen 21–30 dagar). Den första rabiesdosen ges vid cirka 4 månaders ålder, en förnyad dos vid ett års ålder och därefter vart tredje år (enligt vaccinets anvisningar).
+Finland har varit rabiesfritt sedan 1991, men virus som är besläktade med rabiesviruset har påträffats hos fladdermöss (2009, 2016 och 2017). Finska Kennelklubben kräver att varje hund på utställningar, prov och andra hundevenemang har giltiga vaccinationer mot rabies, valpsjuka, parvovirus och smittsam leverinflammation. Om en vaccination har gått ut får hunden delta först efter vaccinets karenstid (vanligen 21–30 dygn).
 
 ### Resa med husdjur
 
-Grunderna (EU och Norge): För resor inom EU behöver djuret ett mikrochip (som ska sättas in före rabiesvaccinationen), en giltig rabiesvaccination och ett EU-pass för sällskapsdjur. Den första rabiesvaccinationen kan ges från 12 veckors ålder och blir giltig tidigast 21 dagar efter vaccinationen (senare om vaccinets anvisningar anger det); förnyade vaccinationer som ges innan den föregående har gått ut är giltiga omedelbart.
-Hundar: bandmaskbehandling vid återkomst till Finland. Hundar behöver dessutom en ekinokockbehandling som ges av en veterinär utomlands 1–5 dygn (24–120 timmar) före ankomsten till Finland och som ska antecknas i passet. Detta gäller även vid återkomst från Sverige, men inte när hunden kommer direkt från Norge, Irland eller Malta.
-Täta eller korta resor (28-dagarsregeln): Vid regelbundna resor eller resor som är kortare än 24 timmar (till exempel en dagstur till Sverige) ger en veterinär, oftast i Finland, två behandlingar före resan med minst 24 timmars och högst 28 dagars mellanrum. Veterinären antecknar i passet att 28-dagarsregeln tillämpas. Efter den andra behandlingen kan hunden resa inom EU och i Norge i 28 dagar; om resandet fortsätter upprepar en veterinär behandlingen med högst 28 dagars mellanrum. När du är hemma igen ger en veterinär i Finland en avslutande behandling inom 28 dagar efter den föregående. Om cykeln bryts måste man börja om från början.
-Utanför EU: Djur som kommer från länder som inte finns på EU:s lista över godkända länder (t.ex. Turkiet), och sedan september 2024 även från Ryssland och Belarus, behöver ett rabiesantikroppstest vid ett EU-godkänt laboratorium (blodprovet tas minst 30 dagar efter vaccinationen). Djuren får föras in i EU tidigast 3 månader efter blodprovet. För djur som bor i Finland gäller väntetiden inte, förutsatt att ett test med godkänt resultat har gjorts och antecknats i passet innan djuret lämnade EU och att rabiesvaccinationen har hållits giltig utan avbrott. Om vaccinationen går ut måste både vaccinationen och testet göras om. Djur från dessa länder ska föras in i Finland via ett införselställe för resenärer (t.ex. Helsingfors-Vanda flygplats; Vasa är inte ett sådant) och anmälas till Tullen.
-Boka tid för vaccinationer och resedokument – vi utfärdar EU-pass för sällskapsdjur på vår klinik.
-Reglerna har granskats i september 2026 – kontrollera alltid de aktuella kraven hos Livsmedelsverket före resan.
+Inom EU, Norge och Schweiz behöver ditt djur ett mikrochip, en giltig rabiesvaccination och ett EU-sällskapsdjurspass. Den första rabiesvaccinationen blir giltig tidigast 21 dygn efter att den har getts. Hundar som återvänder till Finland, också från Sverige, behöver en bandmaskbehandling som ges av en veterinär 1–5 dygn före ankomsten (inte när de kommer direkt från Norge, Irland eller Malta). Vid täta resor kan man i stället använda 28-dygnsregeln. För resor utanför EU kan det dessutom krävas ett rabiesantikroppstest månader i förväg. Läs mer på vår sida om EU-sällskapsdjurspass, och kontrollera de aktuella reglerna hos Livsmedelsverket och myndigheterna i destinationslandet före resan. Reglerna är kontrollerade i november 2026.
 
 ### Källor
 
-- Squires R.A. ym. (2024): 2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA). Journal of Small Animal Practice 65(5):277–316. wsava.org
+- Squires R.A., Crawford C., Marcondes M., Whitley N. (2024): 2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA). Journal of Small Animal Practice 65(5):277–316. wsava.org
 - Ruokavirasto: Koirien rokotteet. ruokavirasto.fi/koirien-rokotteet
 - Ruokavirasto: Kissarokotteet. ruokavirasto.fi/kissarokotteet
-- Suomen Kissalääketieteen Seura Catus: Rokotussuositukset suomalaisille kissoille. sep.fi
+- Ruokavirasto: Vastasyntyneiden ja nuorten eläinten rokottaminen. ruokavirasto.fi/vastasyntyneiden-ja-nuorten-elainten-rok
+- Ruokavirasto: Rokotusten haittavaikutukset. ruokavirasto.fi/rokotusten-haittavaikutukset
+- Ruokavirasto: Rokottamisen vasta-aiheet. ruokavirasto.fi/rokottamisen-vasta-aiheet
+- Suomen Kissalääketieteen Seura Catus (2025): Rokotussuositukset suomalaisille kissoille. sep.fi
 - Ruokavirasto: Raivotauti eli rabies. ruokavirasto.fi/raivotauti-eli-rabies
 - Maa- ja metsätalousministeriön asetus b- ja c-luokan eläintautien vastustamisesta 327/2021, 46 §. finlex.fi
 - Ruokavirasto: Leptospiroosi. ruokavirasto.fi/leptospiroosi
 - Suomen Kennelliitto: Kennelliiton rokotusmääräykset (voimassa 1.6.2023 alkaen). kennelliitto.fi
+- American Veterinary Society of Animal Behavior (AVSAB): Position Statement on Puppy Socialization. avsab.org
 - Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen. ruokavirasto.fi/koirien-kissojen-ja-frettien-tuonti-eu-m
 - Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä. ruokavirasto.fi/usein-kysyttya-ekinokokkilaakityksesta
 - Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta. ruokavirasto.fi/lemmikkielaimen-siirto
-- Ruokavirasto (2024): Venäjältä ja Valko-Venäjältä saapuvilta lemmikeiltä vaaditaan raivotaudin vasta-ainetesti 16.9. alkaen. ruokavirasto.fi/venajalta-ja-valko-venajalta-saapuvilta-
-- European Commission: Bringing a pet into the EU from a non-EU country (Delegated Regulation (EU) 2026/131). food.ec.europa.eu/bringing-pet-eu-non-eu-country_en
-- European Commission: Listing of non-EU countries and territories. food.ec.europa.eu/listing-territories-and-non-eu-countries
-- European Commission, Your Europe: Travelling with pets and other animals in the EU. europa.eu
+- Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista. data.europa.eu
 Relaterade tjänster: Vaccinationer
 
 ### Läs också
@@ -6305,9 +6322,9 @@ Relaterade tjänster: Internmedicin · Vaccinationer
 
 Hälsa
 
-#### Vaccinationer i Finland – vaccinationsprogram för hundar och katter
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
 
-Vaccinationer är det mest effektiva sättet att skydda husdjur mot allvarliga smittsamma sjukdomar. I Finland ger Livs...
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Hälsa
 
 #### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken

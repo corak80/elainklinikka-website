@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/artikkelit/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/artikkelit/"/>
@@ -2056,7 +2056,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/articles/rokotukset.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
@@ -2066,7 +2066,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/artiklar/vaccinationsguide.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>
@@ -2076,7 +2076,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/articles/vaccinations-guide.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/rokotukset.html"/>

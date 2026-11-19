@@ -2096,9 +2096,9 @@ Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
 
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Kissojen terveys
 
 #### Vähemmän stressiä kissan eläinlääkärikäyntiin – näin autamme ja näin voit valmistautua
@@ -2373,9 +2373,9 @@ Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
 
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Kissojen terveys
 
 #### Vähemmän stressiä kissan eläinlääkärikäyntiin – näin autamme ja näin voit valmistautua
@@ -2947,9 +2947,9 @@ Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
 
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Terveys
 
 #### Koiran ja kissan madotus – kuinka usein pennut, aikuiset ja matkustavat lemmikit madotetaan?
@@ -3058,9 +3058,9 @@ Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
 
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Anestesia
 
 #### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne
@@ -3908,7 +3908,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-08
+Last updated: 2026-11-19
 
 ## Artikkelit
 
@@ -3975,11 +3975,11 @@ Anestesia
 
 Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huolissaan, ja se on ymmärrettävää. Terveellä koiralla tai kissalla riski on kuitenkin pieni. Laaja brittiläinen CEPSAF-tutkimus (Brodbelt ym. 2008) kattoi vuosina 2002–2004 koirilla 98 036 ja kissoilla 79 178 anestesiaa ja sedaatiota. Tutkimuksessa kuoli 48 tunnin kuluessa anestesiaan tai sedaatioon liittyvistä syistä noin yksi koira 600:sta (0,17 %) ja yksi kissa 400:sta (0,24 %). Terveillä potilailla riski oli paljon pienempi: koirilla 0,05 % (1/1 849) ja kissoilla 0,11 % (1/895). Uudempi tutkimus (Redondo ym. 2024) kattoi 55 022 koirille tehtyä anestesiaa 405 klinikalla ja sairaalassa 21 maassa (yleisklinikat, lähetepotilaita hoitavat klinikat ja yliopistosairaalat), ja siinä luku oli 0,69 %. Lukuja ei voi verrata suoraan, koska potilaat ja määritelmät erosivat toisistaan.
 Terveys
-24.9.2026
+19.11.2026
 
-### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruokavirasto. Muutamaa lakisääteistä vaatimusta lukuun ottamatta (ks. alempana kohdat Rabies Suomessa ja Matkustaminen lemmikin kanssa) ne eivät ole sitovia – eläinlääkäri tekee aina yksilöllisen arvion. Suositukset perustuvat kansainvälisiin WSAVA:n ohjeisiin (2024); kissojen osalta suomalainen kissalääketieteen yhdistys Catus on sovittanut ne Suomen oloihin.
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Noudatamme Ruokaviraston ajantasaisia suosituksia ja kunkin rokotteen käyttöohjetta. Muilta osin käytämme WSAVA:n ohjeita (2024) ja kissoilla Suomen Kissalääketieteen Seura Catuksen suosituksia (2025). Eläinlääkäri tekee aina yksilöllisen arvion. Suositukset on tarkistettu marraskuussa 2026.
 Terveys
 25.9.2026
 
@@ -5375,9 +5375,9 @@ Anestesia
 Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huol...
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Takaisin etusivulle
 
 ---
@@ -5891,9 +5891,9 @@ Anestesia
 Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huol...
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Takaisin etusivulle
 
 ---
@@ -6255,9 +6255,9 @@ Kissaterveys
 Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyneiden kissojen yleisin hormonisairaus. Tutkimuksesta riippuen...
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Takaisin etusivulle
 
 ---
@@ -6490,62 +6490,79 @@ Takaisin etusivulle
 
 ---
 
-# Rokotukset Suomessa | Eläinklinikka Saari
+# Koiran ja kissan rokotukset – koiranpennun rokotusohjelma
 
 URL: https://elainklinikkasaari.fi/articles/rokotukset.html
-Last updated: 2026-09-24
+Last updated: 2026-11-19
 
 Terveys
-24.9.2026
+19.11.2026
 
-## Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+## Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruokavirasto. Muutamaa lakisääteistä vaatimusta lukuun ottamatta (ks. alempana kohdat Rabies Suomessa ja Matkustaminen lemmikin kanssa) ne eivät ole sitovia – eläinlääkäri tekee aina yksilöllisen arvion. Suositukset perustuvat kansainvälisiin WSAVA:n ohjeisiin (2024); kissojen osalta suomalainen kissalääketieteen yhdistys Catus on sovittanut ne Suomen oloihin.
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Noudatamme Ruokaviraston ajantasaisia suosituksia ja kunkin rokotteen käyttöohjetta. Muilta osin käytämme WSAVA:n ohjeita (2024) ja kissoilla Suomen Kissalääketieteen Seura Catuksen suosituksia (2025). Eläinlääkäri tekee aina yksilöllisen arvion. Suositukset on tarkistettu marraskuussa 2026.
 
-### Koirien perusrokotteet
+### Koiranpennun ja kissanpennun rokotusohjelma sekä aikuisten rokotukset
 
-Koiran perusrokotus suojaa penikkataudilta (D), tarttuvalta maksatulehdukselta (H) ja parvovirukselta (P). Se annetaan yleensä DHPPi-yhdistelmärokotteena, joka suojaa lisäksi parainfluenssalta (Pi), yhdeltä kennelyskän aiheuttajista. Ruokavirasto suosittelee rokotusta rabiesta (raivotautia) vastaan kaikille lemmikkikoirille, ja lain mukaan se on pakollinen metsästykseen käytettäville koirille ja viranomaisten palveluskoirille. Koska suoja parainfluenssaa vastaan on lyhytkestoinen, suosittelemme kaikille koirille vuosittaista kennelyskärokotusta (parainfluenssa + Bordetella). Rokotusta leptospiroosia vastaan suositellaan koirille, jotka matkustavat alueille, joilla tauti on yleinen (Etelä-Eurooppa, Aasia, Pohjois-Afrikka). Leptospiroosi voi tarttua myös ihmiseen. Suomessa on viime vuosina todettu koirilla vuosittain muutamia kliinisiä tapauksia, vuonna 2024 muun muassa useilla koirilla Etelä-Suomessa, joten kysy meiltä, tarvitseeko koirasi rokotusta elämäntapansa vuoksi. Ensimmäiseen rokotussarjaan kuuluu kaksi annosta 3–4 viikon välein, ja suoja muodostuu noin 3–4 viikon kuluttua toisesta annoksesta, joten aloita rokotukset vähintään kaksi kuukautta ennen matkaa. Sen jälkeen tarvitaan tehosterokotus joka vuosi.
+Koiranpennut (DHPPi):
+– Ensimmäinen rokotus yleensä 12 viikon iässä (6–8 viikon iässä, jos tartuntariski on suurempi), sitten 3–4 viikon välein noin 16 viikon ikään asti.
+– 16 viikon iässä: DHPPi ja rabies.
+– Vuoden kuluttua viimeisestä penturokotuksesta: tehosterokotus (DHPPi ja rabies).
+– Aikuiset koirat: DHPPi ja rabies 3 vuoden välein. Kennelyskärokote joka vuosi koirille, jotka käyvät hoitolassa tai usein näyttelyissä ja muissa koiratapahtumissa.
+Kissanpennut (RCP):
+– Ensimmäinen rokotus yleensä 12 viikon iässä (6–8 viikon iässä, jos tartuntariski on suurempi), sitten 3–4 viikon välein noin 16 viikon ikään asti.
+– 16 viikon iässä: RCP ja rabies (suositellaan erityisesti ulkoileville kissoille).
+– Vuoden kuluttua viimeisestä penturokotuksesta: tehosterokotus (RCP sekä rabies, jos pentu on rokotettu sitä vastaan).
+– Aikuiset kissat: RCP ja rabies 3 vuoden välein. Kissa, joka on tekemisissä muiden kissojen kanssa, voi tarvita kissanuharokotuksen joka vuosi. Arvioimme tarpeen terveystarkastuksessa.
+Rokotussarja jatkuu noin 16 viikon ikään asti, koska emältä saadut vasta-aineet voivat siihen asti estää rokotetta tehoamasta. Matolääkitse koiran- ja kissanpennut vähintään 10 päivää ennen rokotusta. Kerro meille myös, jos lemmikkisi on tiineenä tai saa kortisonia. Kunnes rokotussarja on valmis, anna koiranpennun tavata vain terveitä, täysin rokotettuja ja tuttuja koiria ja vältä koirapuistoja. Pentukurssille voi osallistua, kun ensimmäisestä rokotuksesta on kulunut vähintään viikko.
 
-### Kissojen perusrokotteet
+### Koiran tai kissan rokotus myöhässä – mitä tehdä?
 
-Kaikille kissoille suositellaan kolmoisrokotusta (RCP) kissaruttoa (panleukopenia, FPV), kalikivirusta (FCV) ja herpesvirusta (FHV-1) vastaan. Kissanuhaa vastaan suojaavat rokotteen osat eivät estä tartuntaa, mutta ne lieventävät taudinkuvaa. Rokotus rabiesta vastaan on Suomessa kissoille vapaaehtoinen, mutta pakollinen, jos kissa matkustaa ulkomaille. Suosittelemme sitä erityisesti ulkoileville kissoille ja kissoille, jotka voivat joutua kosketuksiin lepakoiden kanssa. Kissan leukemia (FeLV) ei kuulu Suomessa rutiinirokotuksiin, koska FeLV:tä ei täällä juuri esiinny. Rokotuksen tarve arvioidaan tapauskohtaisesti, esimerkiksi jos kissa asuu FeLV-positiivisen kissan kanssa tai matkustaa ulkomaille; kissa testataan FeLV:n varalta ennen rokotusta.
+Myöhästynyt tehosterokotus tarkoittaa harvoin, että rokotukset aloitetaan alusta. Jos lemmikki on saanut kaikki aiemmat rokotuksensa, riittää yleensä yksi annos. Jos edellisestä rokotuksesta on kulunut useita vuosia – kissalla yli 3 vuotta – tai rokotushistoriaa ei tunneta, eläinlääkäri voi antaa kaksi annosta 3–4 viikon välein. Leptospiroosirokotukset aloitetaan alusta kahdella annoksella, jos viimeisimmästä rokotuksesta on kulunut vähintään 18 kuukautta. Jos rabiesrokotus on päässyt vanhenemaan, uusi rokotus lasketaan ensimmäiseksi rokotukseksi, ja matkustamista varten se on voimassa vasta 21 päivän kuluttua.
 
-### Koiranpentujen ja kissanpentujen rokotusohjelma
+### Koiran rokotukset
 
-Koiranpennut: DHPPi-rokotukset aloitetaan 8 tai 12 viikon iässä ja toistetaan 4 viikon välein 16 viikon ikään asti – 8 viikon iässä aloitettuun sarjaan kuuluvat myös annokset 12 ja 16 viikon iässä. 16 viikon iässä: DHPPi ja rabies. Tehosterokotus 1 vuoden iässä (DHPPi ja rabies). Aikuiset koirat: DHP ja rabies 3 vuoden välein, parainfluenssa joka vuosi kennelyskärokotteen yhteydessä.
-Kissanpennut: RCP-rokotukset aloitetaan 8 tai 12 viikon iässä ja toistetaan 4 viikon välein 16 viikon ikään asti – 8 viikon iässä aloitettuun sarjaan kuuluvat myös annokset 12 ja 16 viikon iässä. 16 viikon iässä: RCP sekä halutessa rabies. Tehosterokotus 1 vuoden iässä (RCP sekä rabies, jos pentu on rokotettu sitä vastaan). Aikuiset kissat: RCP ja rabies 3 vuoden välein.
+DHPPi-rokote suojaa penikkataudilta, tarttuvalta maksatulehdukselta (hepatiitilta), parvovirukselta ja parainfluenssalta, joka on yksi kennelyskän aiheuttajista. Ruokavirasto suosittelee rabiesrokotusta kaikille lemmikkikoirille. Metsästykseen käytettäville koirille ja viranomaisten palveluskoirille se on pakollinen. Kennelyskärokotetta (parainfluenssa + Bordetella) suositellaan koirille, jotka käyvät hoitolassa tai näyttelyissä, ja useat näyttely- ja kilpailujärjestäjät vaativat sitä. Leptospiroosirokotusta suositellaan koirille, jotka matkustavat Etelä-Eurooppaan, Aasiaan tai Pohjois-Afrikkaan, ja Suomessakin todetaan vuosittain muutamia tapauksia. Rokotukseen tarvitaan kaksi annosta 2–4 viikon välein ja sen jälkeen tehosterokotus joka vuosi, joten aloita rokotukset vähintään kaksi kuukautta ennen matkaa.
+
+### Kissan rokotukset
+
+RCP-rokotetta kissaruttoa eli panleukopeniaa, calicivirusta ja herpesvirusta vastaan suositellaan kaikille kissoille, myös sisäkissoille. Rokote lieventää calici- ja herpesvirusten aiheuttamaa kissanuhaa, mutta se ei estä tartuntaa. Rabiesrokotus ei ole pakollinen, mutta Ruokavirasto suosittelee sitä kaikille lemmikkikissoille, ja ulkomaanmatkoilla se vaaditaan. Me suosittelemme sitä erityisesti ulkoileville kissoille, lähinnä lepakoiden vuoksi. Rokotusta kissan leukemiaa (FeLV) vastaan harkitaan tapauskohtaisesti, koska FeLV:tä ei Suomessa juuri esiinny.
+
+### Rokotuksen sivuvaikutukset
+
+Sivuvaikutukset ovat melko harvinaisia, ja ne menevät yleensä ohi päivässä tai kahdessa: lyhytaikainen kuume, väsymys, heikentynyt ruokahalu tai arka ja turvonnut pistoskohta. Ota meihin yhteyttä, jos oireet kestävät yli kaksi päivää. Vakavat allergiset reaktiot ovat harvinaisia, ja ne alkavat yleensä 15 minuutin kuluessa: kasvojen turvotus, nokkosihottuma, oksentelu, hengitysvaikeudet tai lyyhistyminen. Ota silloin heti yhteys eläinlääkäriin. Rokotuksen jälkeen on aina hyvä odottaa klinikalla 15–30 minuuttia, ja ensimmäisten rokotusten jälkeen suosittelemme sitä vahvasti. Näytä kissan pistoskohdan kyhmy eläinlääkärille, jos se ei ole hävinnyt 3 kuukaudessa, on yli 2 cm:n kokoinen tai kasvaa vielä kuukauden kuluttua pistoksesta.
+
+### Rokotukset klinikallamme – koiran ja kissan rokotuksen hinta
+
+Jokaiseen rokotuskäyntiin kuuluu eläinlääkärin tekemä lyhyt terveystarkastus. Koiran DHPPi-rokotus maksaa 77 € (rabiesrokotuksen kanssa 85 €) ja kennelyskärokotus 75–77 €. Kissan RCP-rokotus maksaa 75 € (rabiesrokotuksen kanssa 86 €). Tiistaisin klo 15.30–16.00 drop-in-rokotukset ilman ajanvarausta ovat 10 % edullisempia. Kaikki hinnat ja ajanvaraus löytyvät rokotussivultamme.
 
 ### Rabies Suomessa
 
-Suomi on ollut virallisesti rabiesvapaa vuodesta 1991; viimeinen kotimainen tapaus eläimillä todettiin vuonna 1989. Sen jälkeen rabiesta on todettu vain kahdella maahan tuodulla eläimellä (2003 ja 2007), ja lepakoista on löydetty rabiekselle sukua olevia lepakkolyssaviruksia (2009, 2016 ja 2017). Lain mukaan metsästykseen käytettävillä koirilla ja viranomaisten palveluskoirilla on oltava voimassa oleva rabiesrokotus, ja ensimmäinen annos on annettava vähintään 21 päivää ennen kuin koiraa käytetään metsästykseen tai palvelustehtäviin. Rabiesrokotus vaaditaan myös, kun koiria, kissoja ja frettejä tuodaan Suomeen ulkomailta, myös matkalta palattaessa. Muille lemmikeille rabiesrokotus ei ole pakollinen, mutta Ruokavirasto suosittelee sitä kaikille koirille ja kissoille. Suomen Kennelliitto edellyttää, että kaikilla näyttelyissä, kokeissa, kilpailuissa ja muissa koiratapahtumissa mukana olevilla koirilla on voimassa olevat rokotukset rabiesta sekä penikkatautia, parvovirusta ja tarttuvaa maksatulehdusta vastaan. Jos rokotus on vanhentunut, koira on rokotettava uudelleen, ja se voi osallistua vasta rokotteen odotusajan (yleensä 21–30 päivää) jälkeen. Ensimmäinen rabiesrokotus annetaan noin 4 kuukauden iässä, tehosterokotus vuoden iässä ja sen jälkeen rokotus 3 vuoden välein (rokotteen käyttöohjeen mukaisesti).
+Suomi on ollut vapaa raivotaudista eli rabieksesta vuodesta 1991, mutta lepakoista on löydetty rabiesvirukselle sukua olevia viruksia (2009, 2016 ja 2017). Suomen Kennelliitto edellyttää, että kaikilla näyttelyihin, kokeisiin ja muihin koiratapahtumiin osallistuvilla koirilla on voimassa olevat rokotukset rabiesta, penikkatautia, parvovirusta ja tarttuvaa maksatulehdusta vastaan. Jos rokotus on päässyt vanhenemaan, koira voi osallistua vasta rokotteen varoajan jälkeen (yleensä 21–30 päivää).
 
 ### Matkustaminen lemmikin kanssa
 
-Perusvaatimukset (EU ja Norja): EU:n sisäisillä matkoilla tarvitaan mikrosiru (asennettava ennen rabiesrokotusta), voimassa oleva rabiesrokotus ja EU-lemmikkipassi. Ensimmäisen rabiesrokotuksen voi antaa 12 viikon iästä alkaen, ja se tulee voimaan aikaisintaan 21 päivän kuluttua rokotuksesta (myöhemmin, jos rokotteen käyttöohje niin edellyttää); ennen edellisen rokotuksen voimassaolon päättymistä annetut tehosterokotukset ovat voimassa heti.
-Koirat: heisimatolääkitys Suomeen palattaessa. Koirat tarvitsevat lisäksi ekinokokkilääkityksen, jonka eläinlääkärin on annettava ulkomailla 1–5 päivää (24–120 tuntia) ennen Suomeen saapumista ja merkittävä passiin. Tämä koskee myös Ruotsista palaamista, mutta ei saapumista suoraan Norjasta, Irlannista tai Maltalta.
-Toistuvat tai lyhyet matkat (28 päivän sääntö): Jos matkustat säännöllisesti tai teet alle 24 tunnin matkoja (kuten päiväretken Ruotsiin), eläinlääkäri – yleensä Suomessa – antaa koiralle ennen matkaa kaksi lääkitystä, joiden väli on vähintään 24 tuntia ja enintään 28 päivää. Hän merkitsee passiin, että käytössä on 28 päivän sääntö. Toisen lääkityksen jälkeen koira voi matkustaa EU:ssa ja Norjassa 28 päivän ajan; jos matkustaminen jatkuu, eläinlääkäri uusii lääkityksen enintään 28 päivän välein. Kotiinpaluun jälkeen eläinlääkäri antaa Suomessa viimeisen lääkityksen 28 päivän kuluessa edellisestä. Jos lääkityskierto katkeaa, se on aloitettava alusta.
-EU:n ulkopuolelta: Jos lemmikki tulee maasta, joka ei ole EU:n hyväksymien maiden luettelossa (esim. Turkista), tai syyskuusta 2024 alkaen Venäjältä tai Valko-Venäjältä, se tarvitsee rabiesvasta-ainetestin EU:n hyväksymässä laboratoriossa (verinäyte vähintään 30 päivää rokotuksen jälkeen). Lisäksi sen on odotettava vähintään 3 kuukautta verinäytteen ottamisesta ennen saapumista EU:hun. Suomessa asuvien lemmikkien ei tarvitse odottaa, jos testi on tehty hyväksytyin tuloksin ja merkitty passiin ennen EU:sta lähtöä ja rabiesrokotus pidetään voimassa katkeamatta. Jos rokotus vanhenee, sekä rokotus että testi on uusittava. Näistä maista tulevien lemmikkien on saavuttava Suomeen nimetyn matkustajien saapumispaikan kautta (esim. Helsinki-Vantaan lentoasema; Vaasa ei ole tällainen), ja ne on ilmoitettava Tullille.
-Varaa aika rokotuksia ja matkustusasiakirjoja varten – myönnämme EU-lemmikkipasseja klinikallamme.
-Säännöt tarkistettu syyskuussa 2026 – tarkista aina ajantasaiset vaatimukset Ruokavirastolta ennen matkaa.
+EU:ssa, Norjassa ja Sveitsissä matkustava lemmikki tarvitsee mikrosirun, voimassa olevan rabiesrokotuksen ja EU-lemmikkipassin. Ensimmäinen rabiesrokotus tulee voimaan aikaisintaan 21 päivän kuluttua rokottamisesta. Suomeen palaavat koirat tarvitsevat – myös Ruotsista tullessaan – eläinlääkärin antaman ekinokokkilääkityksen (heisimatolääkityksen) 1–5 päivää ennen saapumista. Lääkitystä ei tarvita, kun koira saapuu suoraan Norjasta, Irlannista tai Maltalta. Toistuvilla matkoilla voidaan sen sijaan käyttää 28 päivän sääntöä. EU:n ulkopuolelle matkustettaessa voidaan tarvita myös rabiesvasta-ainetesti jo kuukausia etukäteen. Lue lisää lemmikkipassisivultamme ja tarkista ennen matkaa ajantasaiset säännöt Ruokavirastolta ja kohdemaan viranomaisilta. Säännöt on tarkistettu marraskuussa 2026.
 
 ### Lähteet
 
-- Squires R.A. ym. (2024): 2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA). Journal of Small Animal Practice 65(5):277–316. wsava.org
+- Squires R.A., Crawford C., Marcondes M., Whitley N. (2024): 2024 guidelines for the vaccination of dogs and cats – compiled by the Vaccination Guidelines Group (VGG) of the World Small Animal Veterinary Association (WSAVA). Journal of Small Animal Practice 65(5):277–316. wsava.org
 - Ruokavirasto: Koirien rokotteet. ruokavirasto.fi/koirien-rokotteet
 - Ruokavirasto: Kissarokotteet. ruokavirasto.fi/kissarokotteet
-- Suomen Kissalääketieteen Seura Catus: Rokotussuositukset suomalaisille kissoille. sep.fi
+- Ruokavirasto: Vastasyntyneiden ja nuorten eläinten rokottaminen. ruokavirasto.fi/vastasyntyneiden-ja-nuorten-elainten-rok
+- Ruokavirasto: Rokotusten haittavaikutukset. ruokavirasto.fi/rokotusten-haittavaikutukset
+- Ruokavirasto: Rokottamisen vasta-aiheet. ruokavirasto.fi/rokottamisen-vasta-aiheet
+- Suomen Kissalääketieteen Seura Catus (2025): Rokotussuositukset suomalaisille kissoille. sep.fi
 - Ruokavirasto: Raivotauti eli rabies. ruokavirasto.fi/raivotauti-eli-rabies
 - Maa- ja metsätalousministeriön asetus b- ja c-luokan eläintautien vastustamisesta 327/2021, 46 §. finlex.fi
 - Ruokavirasto: Leptospiroosi. ruokavirasto.fi/leptospiroosi
 - Suomen Kennelliitto: Kennelliiton rokotusmääräykset (voimassa 1.6.2023 alkaen). kennelliitto.fi
+- American Veterinary Society of Animal Behavior (AVSAB): Position Statement on Puppy Socialization. avsab.org
 - Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen. ruokavirasto.fi/koirien-kissojen-ja-frettien-tuonti-eu-m
 - Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä. ruokavirasto.fi/usein-kysyttya-ekinokokkilaakityksesta
 - Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta. ruokavirasto.fi/lemmikkielaimen-siirto
-- Ruokavirasto (2024): Venäjältä ja Valko-Venäjältä saapuvilta lemmikeiltä vaaditaan raivotaudin vasta-ainetesti 16.9. alkaen. ruokavirasto.fi/venajalta-ja-valko-venajalta-saapuvilta-
-- European Commission: Bringing a pet into the EU from a non-EU country (Delegated Regulation (EU) 2026/131). food.ec.europa.eu/bringing-pet-eu-non-eu-country_en
-- European Commission: Listing of non-EU countries and territories. food.ec.europa.eu/listing-territories-and-non-eu-countries
-- European Commission, Your Europe: Travelling with pets and other animals in the EU. europa.eu
+- Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista. data.europa.eu
 Aiheeseen liittyvät palvelumme: Rokotukset
 
 ### Lue myös
@@ -6644,9 +6661,9 @@ Aiheeseen liittyvät palvelumme: Sisätaudit · Rokotukset
 
 Terveys
 
-#### Rokotukset Suomessa – koirien ja kissojen rokotusohjelma
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
 
-Rokotukset ovat tehokkain tapa suojata lemmikkiä vakavilta tartuntataudeilta. Suomessa rokotussuositukset antaa Ruoka...
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Terveys
 
 #### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
