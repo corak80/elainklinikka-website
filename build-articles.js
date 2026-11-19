@@ -1508,7 +1508,7 @@ const articles = [
     slugSv: 'avmaskning',
     slugEn: 'deworming',
     titleKey: 'article.deworming.title',
-    seoTitle: { fi: 'Kuinka usein koira tai kissa madotetaan?' },
+    seoTitle: { fi: "Koiran ja kissan madotus – kuinka usein? Pennut ja aikuiset", sv: "Avmaskning av hund och katt – hur ofta? Valpar och kattungar", en: "Dog and Cat Deworming — How Often? Puppies, Kittens, Adults" },
     tagKey: 'articles.filter.health',
     category: 'health',
     date: '25.9.2026',
@@ -1527,9 +1527,9 @@ const articles = [
       { text: 'Weidinger A-K, Hartmann K, Barutzki D, et al. Antibody response after feline panleukopenia virus vaccination in kittens with and without intestinal parasites. Journal of Feline Medicine and Surgery 2024;26(8).', url: 'https://doi.org/10.1177/1098612X241264731', label: 'doi.org' }
     ],
     metaDesc: {
-      fi: 'Koiran ja kissan madotus: kuinka usein pennut ja aikuiset madotetaan (ESCCAP), mitä laki vaatii matkustavalta koiralta ja milloin ulostenäyte riittää.',
-      en: 'How often to deworm a dog or cat: puppies, kittens, adults, indoor cats and travel – and when a faecal sample can replace deworming.',
-      sv: 'Hur ofta ska hund och katt avmaskas? Valpar, kattungar, vuxna och resor – och när avföringsprov kan ersätta avmaskning. Råd från Djurklinik Saari i Vasa.'
+      fi: "Koiranpentu madotetaan ensi kerran 2 viikon, kissanpentu 3 viikon iässä. Aikuisen madotusväli riippuu riskistä, ja ulostenäyte voi korvata madotuksen.",
+      sv: "Hur ofta ska hund och katt avmaskas? Råd för valpar, kattungar och vuxna djur, när avföringsprov räcker och vad lagen kräver av hundar som reser.",
+      en: "How often to deworm a dog or cat: puppies from 2 weeks, kittens from 3 weeks, adults 1–12 times a year depending on risk. When a faecal sample is enough."
     }
   },
   {
