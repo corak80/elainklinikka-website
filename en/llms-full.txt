@@ -1481,7 +1481,7 @@ Book online
 # Dog & Cat Teeth Cleaning in Vaasa – Prices | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dental-care/
-Last updated: 2026-11-16
+Last updated: 2026-11-19
 
 Back to homepage
 
@@ -1519,7 +1519,7 @@ Tartar is removed with an ultrasonic scaler from the tooth surfaces and from bel
 
 ### Tooth extractions
 
-A tooth is extracted when it can no longer be saved: in advanced periodontitis, tooth resorption, root infection, or when the tooth is fractured into the pulp. Extractions are done surgically — multi-rooted teeth are sectioned and the roots removed completely. The wound is closed with dissolvable sutures and pain medication is sent home. How we price extractions is explained under Why we can't give an exact price in advance. Deciduous teeth are often removed during spay or neuter surgery under the same anaesthesia.
+A tooth is extracted when it cannot be saved, or when root canal treatment is not chosen: in advanced periodontitis, tooth resorption, root infection, or when the tooth is fractured into the pulp. Extractions are done surgically — multi-rooted teeth are sectioned and the roots removed completely. The wound is closed with dissolvable sutures and pain medication is sent home. How we price extractions is explained under Why we can't give an exact price in advance. Deciduous teeth are often removed during spay or neuter surgery under the same anaesthesia.
 
 ### Dental X-rays — seeing what is hidden
 
@@ -1534,6 +1534,11 @@ Before the procedure, a health check and blood tests are performed as needed. Ad
 ### Common dental diseases in dogs and cats
 
 Periodontitis — inflammation of the tooth-supporting tissues — is the most common dental disease and leads to tooth loss and chronic pain when advanced. Tooth resorption is particularly common in cats, where the tooth structure breaks down from within — often invisible on visual examination and very painful. Fractured teeth (especially canines) predispose to root infections. Retained deciduous teeth when permanent teeth erupt cause alignment problems, especially in small dog breeds. Each of these conditions can be diagnosed and treated at our clinic.
+
+### Tooth root abscess
+
+A tooth root abscess is an infection around the tip of a tooth root, where pus collects in the jawbone. It usually starts when a broken tooth exposes its pulp, or when a blow kills a tooth without breaking it; such a tooth often looks discoloured. Advanced periodontitis can also spread infection down to the root tip. When the large upper cheek tooth is affected, a typical sign is a swelling below the inner corner of the eye, sometimes with a draining wound; an upper canine can cause a swelling on the side of the nose, and lower teeth a swelling on the jaw. In cats, a swelling caused by a tooth most often comes from an upper canine and often sits just in front of the eye. Other signs are chewing on one side, dropping food, pawing at the face, bad breath and a runny nose on one side. Many pets show no obvious signs, even though the tooth hurts.
+Antibiotics may calm the swelling for a while, but the infection comes back unless the tooth itself is treated. We examine the tooth with dental X-rays under general anaesthesia and treat the abscess by extracting the tooth. If you would like to keep the tooth and it is suitable, root canal treatment is done at some veterinary dental clinics, and we can refer you. Book a visit soon if your pet’s face is swollen or you notice a broken or discoloured tooth.
 
 ### Home dental care — prevention starts at home
 
@@ -2250,7 +2255,7 @@ Back to homepage
 # Kennel Club Health Examinations, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/official-examinations/
-Last updated: 2026-10-15
+Last updated: 2026-11-19
 
 Back to homepage
 
@@ -2258,23 +2263,28 @@ Back to homepage
 
 ### Official radiographic examinations
 
-Our clinic performs official radiographic examinations approved by the Finnish Kennel Club: hip, elbow, and spinal imaging. Official radiographs are sent to the Kennel Club evaluator and results are recorded in the Breeding Information System. Examinations are performed under light sedation to ensure correct positioning.
+We take official hip, elbow and spine X-rays for the Finnish Kennel Club. As the Kennel Club’s instructions require, the dog is sedated so that it is relaxed enough for the correct X-ray positions. We send the X-rays electronically to the Kennel Club, whose evaluating vets grade them, usually within about a week, and the results are recorded in the Kennel Club’s breeding database (KoiraNet).
 
 ### Patella and cardiac examinations
 
-Official patella examinations are performed clinically without sedation. The clinic also holds official cardiac auscultation rights — the auscultation examination assesses whether the dog has a heart murmur. These examinations are part of the breeding evaluations for many breeds.
+Official patella examinations are done without sedation: the vet feels both knees by hand to check that the kneecaps stay in place. Official heart auscultation, which listens for a heart murmur, is done by Assaf Wydra or Leena Sandström, and official heart ultrasound examinations by Leena Sandström; all our patella and heart examinations are done by vets on the Kennel Club’s lists of approved vets for them (read more on our cardiac examinations page). In a few breeds, such as the Dobermann and the Great Dane, auscultation alone is not recorded, and the official heart examination always includes ultrasound and ECG.
 
 ### Who needs official examinations?
 
-Official examinations are mandatory or recommended for breeding dogs depending on the breed. The aim of the examinations is to reduce the incidence of hereditary diseases within breeds. Examinations can be performed from 12 months of age (hips from 18 months) and are valid for the dog's entire lifetime.
+Official examinations are required or recommended for breeding dogs, depending on the breed. Their aim is to reduce hereditary diseases within breeds. Most official examinations can be done from 12 months of age, but some breeds and examinations have other age limits and a few have none, and how long a result stays valid depends on the examination and the breed — see the questions below.
+
+### PEVISA — which examinations does your breed need?
+
+PEVISA is the Finnish Kennel Club’s breed-specific programme for combating hereditary diseases and defects; over 200 breeds and breed varieties have one. In these breeds the parents must have the required official examination results before mating: the results must be valid on the day of mating and within the programme’s limits, and some programmes add other conditions, such as a DNA test. If a result that was missing or out of date at mating is obtained before the litter is registered and meets the requirements, the litter is registered with an extra fee. Otherwise, unless an exemption was applied for and granted in advance, the puppies are registered with a permanent breeding ban and an extra fee, and a breeder can register only one such litter in five years; in a few breeds, puppies from certain results or combinations cannot be registered at all. A breeder can register at most three litters with an extra fee. The requirements differ from breed to breed, so check your breed’s page on the Finnish Kennel Club’s website and ask your breed club. We do the official hip, elbow and spine X-rays, patella examinations, heart auscultation and heart ultrasound. Official eye examinations are done by eye vets approved by the Kennel Club; we do not do them. Rules checked in November 2026.
 
 ### Booking and information
 
-Official examinations require advance booking as they require sedation and sufficient time to take high-quality images. Contact the clinic to arrange an examination appointment — we are happy to advise on which examinations are recommended for your dog's breed. You can find prices for all official examinations in our price list.
+Please book official examinations in advance. Before the visit, order the electronic referral for each examination in the Kennel Club’s Omakoira service; without it, the result cannot be recorded. Your dog must be identified, usually with a microchip, and we check the identification at the examination. X-ray examinations are done under sedation, so fast your dog as before anaesthesia (8–12 hours; water until the morning) and allow more time for the visit. We are happy to advise on which examinations are recommended for your dog’s breed. You can find prices for all official examinations in our price list.
 
 ### Frequently asked questions about official examinations
 
-At what age are official examinations performed? Official hip radiographs are taken from 18 months of age at the earliest, and elbow radiographs from 12 months. Patella examinations can be performed from 12 months. Cardiac auscultation can be done earlier, but an examination approved for breeding typically requires at least 12 months of age. It is important to check breed-specific requirements on the Finnish Kennel Club website. How long are results valid? Official radiographic results are valid for the dog's entire lifetime — they do not need to be renewed. Cardiac auscultation results are valid for 1–2 years depending on the breed. Patella examination results are permanent. Results are recorded in the Kennel Club Breeding Information System, where they are publicly available.
+At what age are official examinations performed? Hip and elbow X-rays can be taken from 12 months of age; in some breeds the PEVISA programme sets the limit at 18 months. In the spine X-ray, transitional vertebra (LTV) and vertebral anomalies (VA) are assessed from 12 months, and spondylosis from 24 months, as are calcified discs (IDD), which are assessed only in certain breeds. Patella examinations and official heart auscultation can be done from 12 months. For the official heart ultrasound, the limit is 24 months for acquired heart disease, with no lower limit for congenital heart disease. Some breeds’ PEVISA programmes set different limits, so check your breed’s requirements.
+How long are results valid? X-ray results do not expire, but a dog can be X-rayed again after a set interval, and the new result may change the old one; some spine results can be given only once. A patella result given before three years of age is valid for two years; one given at three years or older does not expire. A heart auscultation result with no murmur, and an ultrasound result with no acquired heart disease, are valid for 12 months; an ultrasound result with no congenital heart disease given at 12 months or older does not need renewing. A breed’s PEVISA programme can set its own validity periods. Results are recorded in the Kennel Club’s breeding database (KoiraNet), where anyone can see them.
 
 ### Book an appointment
 
@@ -3005,7 +3015,7 @@ Back to homepage
 # Dog and Cat Castration in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/castration/
-Last updated: 2026-11-09
+Last updated: 2026-11-19
 
 Back to homepage
 
@@ -3043,9 +3053,11 @@ If one or both testicles have not descended into the scrotum, the condition is c
 
 Dogs and rabbits are castrated under inhalation anaesthesia, and a routine cat castration is done under injectable anaesthesia, always with comprehensive pain relief. We monitor every patient continuously throughout the procedure. Adult dogs and cats are fasted 8–12 hours before surgery (water until the morning); rabbits are not fasted. Patients usually go home the same day with pain medication for the recovery period. Read more about anaesthesia safety.
 
-### Timing and guidance
+### At what age should a male dog, cat or rabbit be castrated?
 
-The optimal timing for castration depends on the animal's species, breed and size. Male cats are usually castrated at around 5–6 months of age before marking begins, male rabbits at 4–6 months as they reach sexual maturity, and dogs at 6–18 months depending on the breed — in large breeds we recommend waiting until skeletal growth is complete. Let us discuss what is best for your pet: surgical or chemical castration, and the right timing.
+There is no single right age, so we decide it together with you, based on the breed, the dog’s adult size and the reason for castration. Dogs that will weigh under about 20 kg as adults can usually be castrated at 6–12 months of age. For bigger dogs, and especially large and giant breeds, we recommend waiting until skeletal growth is complete, usually at about 12–18 months and in some giant breeds later: in larger dogs, castration before about one year of age has been linked to a higher risk of joint disorders such as cruciate ligament rupture and hip and elbow dysplasia. In a few breeds, including some smaller ones, early castration has also been linked to certain cancers or joint problems, so the breed can matter as much as size. If castration is needed for a medical reason, such as benign prostate enlargement, a testicular tumour or an undescended testicle, the timing depends on that reason instead.
+If you are unsure how castration would affect your dog’s behaviour, a chemical castration implant can give you an idea first: its effect reaches full strength in about six weeks (until then he can still father puppies), lasts 6 or 12 months depending on the implant, and then wears off.
+Male cats are usually castrated at about 5–6 months of age, before most start marking. Male rabbits are usually castrated at 4–6 months, but small breeds can be fertile from about three and a half months, and a male can stay fertile for up to six weeks after castration: keep him apart from unspayed females from about three months of age until six weeks after the operation.
 
 ### Recovery after castration
 
@@ -3056,7 +3068,7 @@ A cat's castration wound is small and usually has no sutures; most cats are brig
 How much does dog castration cost? Castrating a male dog at Saari Animal Clinic costs €383–553 depending on weight: under 10 kg €383, 10–20 kg €453, 20–40 kg €503, over 40 kg €553. The price includes anaesthesia, the surgery, medicines and take-home pain relief. Cryptorchid surgery costs €473–623.
 How much does cat neutering cost? Castrating a male cat costs €108, including anaesthesia, the surgery and pain relief. Castrating a male rabbit costs €253.
 How much does chemical castration cost and how long does it last? Chemical castration is done with a deslorelin implant during a consultation, with no anaesthesia. Full effect is reached within about 6 weeks and lasts 6 or 12 months depending on the implant. For the price, please call (06) 321 7300.
-At what age should castration be done? Male cats are usually castrated at 5–6 months of age before marking begins, male rabbits at 4–6 months, and dogs at 6–18 months depending on the breed. In large breeds we recommend waiting until skeletal growth is complete.
+At what age should castration be done? Male cats are usually castrated at 5–6 months of age, before most start marking, male rabbits at 4–6 months, and dogs at 6–18 months depending on breed and size. For dogs that will weigh over about 20 kg as adults, we recommend waiting until skeletal growth is complete.
 Does a dog's behaviour change after castration? Castration can reduce hormonal behaviour such as marking, escaping and aggression towards other males. The effect depends on the individual — learned behaviour patterns do not necessarily change through castration alone. Basic temperament remains the same. Chemical castration is a good way to test the effect before a permanent decision.
 Can castration be reversed? Surgical castration is permanent. That is why we offer chemical castration with a deslorelin implant, whose effect lasts 6 or 12 months and then wears off completely.
 How long is recovery after castration? Cats are usually bright again the next day. A dog needs about 7–10 days of rest, and the wound is protected with a cone or recovery suit. Sutures are removed after about 10 days or dissolve on their own.
@@ -3153,7 +3165,7 @@ Back to homepage
 # Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/anesthesia/
-Last updated: 2026-10-31
+Last updated: 2026-11-19
 
 Back to homepage
 
@@ -3162,6 +3174,10 @@ Back to homepage
 ### Inhalation anaesthesia
 
 At our clinic, surgery and dental procedures are performed under inhalation anaesthesia, which is the safest form of anaesthesia for animals. The exception is routine spaying and castration of cats, which are done under injectable anaesthesia. In inhalation anaesthesia, the anaesthetic agent is delivered via the airways, enabling precise control of anaesthesia depth. The patient wakes up quickly after the procedure because the anaesthetic is eliminated from the body through breathing.
+
+### Sedation or general anaesthesia?
+
+Sedation means the animal is given medicines that make it calm and drowsy, but it is not fully unconscious. It suits short procedures that cause little pain, such as X-rays — including official X-rays — or examining a frightened or restless animal. Some sedatives can be reversed with an antidote, so the animal recovers faster. In general anaesthesia the animal is fully unconscious and does not feel the procedure; it is needed for surgery, dental treatment and other longer or painful procedures. The body still reacts to pain under anaesthesia, so for painful procedures pain relief is given before and during the procedure and continued afterwards as needed. Sedation also affects breathing and circulation, so it is not automatically the safer choice: for an older or ill animal, a short general anaesthesia can be safer and more controlled. The same fasting applies before sedation as before anaesthesia.
 
 ### Continuous monitoring
 

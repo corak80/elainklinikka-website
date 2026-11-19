@@ -1675,7 +1675,7 @@ Varaa verkossa
 # Koiran hammaskiven poisto Vaasassa – hinnat | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/hammashoito/
-Last updated: 2026-11-16
+Last updated: 2026-11-19
 
 Takaisin etusivulle
 
@@ -1713,7 +1713,7 @@ Hammaskivi poistetaan ultraäänilaitteella hampaiden pinnalta ja ienrajan alta,
 
 ### Hampaiden poistot
 
-Hammas poistetaan, kun se ei ole enää säästettävissä: pitkälle edenneessä parodontiitissa, hammasresorptiossa, juuritulehduksessa tai kun hammas on murtunut ytimeen asti. Poistot tehdään kirurgisesti – monijuuriset hampaat jaetaan osiin ja juuret poistetaan kokonaan. Haava suljetaan sulavilla ompeleilla, ja kotiin annetaan kipulääkitys. Hampaanpoistojen hinnoittelusta kerromme kohdassa Miksi emme voi antaa tarkkaa hintaa etukäteen. Maitohampaiden poistot tehdään usein sterilisaation tai kastraation yhteydessä samassa anestesiassa.
+Hammas poistetaan, kun se ei ole enää säästettävissä tai kun juurihoitoa ei valita: pitkälle edenneessä parodontiitissa, hammasresorptiossa, juuritulehduksessa tai kun hammas on murtunut ytimeen asti. Poistot tehdään kirurgisesti – monijuuriset hampaat jaetaan osiin ja juuret poistetaan kokonaan. Haava suljetaan sulavilla ompeleilla, ja kotiin annetaan kipulääkitys. Hampaanpoistojen hinnoittelusta kerromme kohdassa Miksi emme voi antaa tarkkaa hintaa etukäteen. Maitohampaiden poistot tehdään usein sterilisaation tai kastraation yhteydessä samassa anestesiassa.
 
 ### Hammasröntgen – piilossa olevan näkeminen
 
@@ -1728,6 +1728,11 @@ Ennen toimenpidettä potilaalle tehdään terveystarkastus ja tarvittaessa verik
 ### Yleisimmät hammassairaudet koirilla ja kissoilla
 
 Parodontiitti eli hampaan tukikudosten tulehdus on yleisin hammassairaus ja aiheuttaa pitkälle edettyessään hampaiden irtoamista ja kroonista kipua. Hammasresorptio on kissoilla erityisen yleinen vaurio, jossa hampaan rakenne hajoaa sisältäpäin – usein näkymätön silmämääräisesti ja huomattavasti kipua aiheuttava. Katkenneet hampaat (erityisesti kulmahampaat) altistavat juuritulehduksille. Maitohampaiden jääminen paikalleen pysyvien hampaiden puhjetessa aiheuttaa hammasvirheitä etenkin pienikokoisissa koiraroduissa. Jokainen näistä ongelmista voidaan diagnosoida ja hoitaa klinikallamme.
+
+### Hammasjuuripaise
+
+Hammasjuuripaise on hampaan juuren kärjen ympärillä oleva tulehdus, jossa leukaluuhun kertyy märkää. Se saa yleensä alkunsa, kun murtuneen hampaan ydin paljastuu tai kun hammas kuolee iskun seurauksena murtumatta; tällainen hammas näyttää usein värjäytyneeltä. Myös pitkälle edennyt parodontiitti voi levittää tulehduksen juuren kärkeen asti. Kun kyseessä on yläleuan suuri poskihammas, tyypillinen oire on turvotus silmän sisänurkan alapuolella, joskus myös erittävä haava. Yläleuan kulmahammas voi aiheuttaa turvotuksen nenän sivulle ja alaleuan hampaat turvotuksen leukaan. Kissoilla hampaan aiheuttama turvotus lähtee useimmiten yläleuan kulmahampaasta, ja se on usein aivan silmän etupuolella. Muita oireita ovat pureskelu vain toisella puolella, ruoan pudottelu suusta, kasvojen raapiminen tassulla, pahanhajuinen hengitys ja toispuoleinen nenävuoto. Monella lemmikillä ei ole selviä oireita, vaikka hammas on kipeä.
+Antibiootit voivat laskea turvotusta joksikin aikaa, mutta tulehdus uusiutuu, ellei itse hammasta hoideta. Tutkimme hampaan hammasröntgenkuvin yleisanestesiassa ja hoidamme paiseen poistamalla hampaan. Jos haluat säästää hampaan ja se soveltuu juurihoitoon, voimme tehdä lähetteen jollekin niistä eläinten hammashoitoon keskittyneistä klinikoista, joissa juurihoitoja tehdään. Varaa aika pian, jos lemmikkisi kasvot ovat turvonneet tai huomaat murtuneen tai värjäytyneen hampaan.
 
 ### Hampaiden kotihoito – ennaltaehkäisy alkaa kotoa
 
@@ -2451,7 +2456,7 @@ Takaisin etusivulle
 # Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/
-Last updated: 2026-10-31
+Last updated: 2026-11-19
 
 Takaisin etusivulle
 
@@ -2459,23 +2464,28 @@ Takaisin etusivulle
 
 ### Viralliset röntgentutkimukset
 
-Klinikallamme tehdään Suomen Kennelliiton hyväksymiä virallisia röntgentutkimuksia: lonkka-, kyynär- ja selkäkuvaukset. Viralliset röntgenkuvat lähetetään Kennelliiton arvostelijalle ja tulokset kirjataan Jalostustietojärjestelmään. Tutkimukset tehdään kevyessä rauhoituksessa oikean asennon varmistamiseksi.
+Teemme Suomen Kennelliiton viralliset lonkka-, kyynär- ja selkäkuvaukset. Kuten Kennelliiton ohjeet edellyttävät, koira rauhoitetaan, jotta se on riittävän rento oikeita kuvausasentoja varten. Lähetämme kuvat sähköisesti Kennelliittoon, jossa lausuntoja antavat eläinlääkärit arvostelevat ne yleensä noin viikon kuluessa, ja tulokset kirjataan Kennelliiton jalostustietojärjestelmään (KoiraNet).
 
 ### Polvi- ja sydäntutkimukset
 
-Viralliset polvitutkimukset tehdään kliinisesti ilman rauhoitusta. Klinikalla on myös viralliset sydämen auskultaatio-oikeudet – kuuntelututkimuksella arvioidaan, onko koiralla sydämen sivuääniä. Monissa roduissa polvet ja sydän tutkitaan osana jalostuskoirien terveystutkimuksia.
+Viralliset polvitutkimukset tehdään ilman rauhoitusta: eläinlääkäri tunnustelee käsin molemmat polvet ja tarkistaa, pysyvätkö polvilumpiot paikoillaan. Virallisen sydänkuuntelun eli auskultaation, jossa kuunnellaan, onko sydämessä sivuääntä, tekee Assaf Wydra tai Leena Sandström ja viralliset sydämen ultraäänitutkimukset Leena Sandström. Kaikki polvi- ja sydäntutkimuksemme tekevät Kennelliiton listoilla olevat, näihin tutkimuksiin hyväksytyt eläinlääkärit (lue lisää sydäntutkimuksistamme). Muutamilla roduilla, kuten dobermannilla ja tanskandoggilla, pelkkää sydänkuuntelun tulosta ei kirjata, ja virallinen sydäntutkimus sisältää aina ultraäänitutkimuksen ja sydänfilmin (EKG).
 
 ### Kenelle viralliset tutkimukset?
 
-Viralliset tutkimukset ovat pakollisia tai suositeltuja jalostuskoirille rodusta riippuen. Tutkimusten tavoitteena on vähentää perinnöllisten sairauksien esiintyvyyttä roduissa. Tutkimukset voidaan tehdä aikaisintaan 12 kuukauden iässä (lonkat 18 kk iässä) ja ne ovat voimassa koko koiran eliniän.
+Viralliset tutkimukset ovat jalostuskoirille rodusta riippuen pakollisia tai suositeltuja. Niiden tavoitteena on vähentää perinnöllisiä sairauksia roduissa. Useimmat viralliset tutkimukset voidaan tehdä 12 kuukauden iästä alkaen, mutta joillakin roduilla ja tutkimuksilla ikärajat ovat toiset ja muutamilla ei ole ikärajaa lainkaan. Tuloksen voimassaoloaika riippuu tutkimuksesta ja rodusta – katso alla olevat kysymykset.
+
+### PEVISA – mitä tutkimuksia koirasi rotu tarvitsee?
+
+PEVISA on Suomen Kennelliiton rotukohtainen perinnöllisten vikojen ja sairauksien vastustamisohjelma. Oma PEVISA-ohjelma on yli 200 rodulla ja rotumuunnoksella. Näissä roduissa pentueen vanhemmilla on oltava vaaditut viralliset tutkimustulokset ennen astutusta. Tulosten on oltava voimassa astutuspäivänä ja ohjelman raja-arvojen mukaisia. Osa ohjelmista asettaa muitakin ehtoja, kuten DNA-testin. Jos astutushetkellä puuttunut tai vanhentunut tulos saadaan ennen pentueen rekisteröintiä ja se täyttää vaatimukset, pentue rekisteröidään lisämaksulla. Muussa tapauksessa pennut rekisteröidään lisämaksulla ja merkitään pysyvään jalostuskieltoon, ellei poikkeuslupaa ole etukäteen anottu ja myönnetty. Kasvattaja voi rekisteröidä vain yhden tällaisen pentueen viiden vuoden aikana. Muutamissa roduissa ei voi lainkaan rekisteröidä pentuja, joiden vanhemmilla on tiettyjä tuloksia tai jotka ovat syntyneet tietyistä yhdistelmistä. Kasvattaja voi rekisteröidä lisämaksulla korkeintaan kolme pentuetta. Vaatimukset vaihtelevat roduittain, joten tarkista koirasi rodun sivu Suomen Kennelliiton verkkosivuilla ja kysy rotuyhdistykseltä. Teemme viralliset lonkka-, kyynär- ja selkäkuvaukset, polvitutkimukset, sydänkuuntelut ja sydämen ultraäänitutkimukset. Viralliset silmätutkimukset tekevät Kennelliiton hyväksymät silmätarkastuseläinlääkärit; me emme tee niitä. Säännöt tarkistettu marraskuussa 2026.
 
 ### Ajanvaraus ja lisätiedot
 
-Viralliset tutkimukset vaativat etukäteisvarauksen, sillä ne edellyttävät rauhoitusta ja riittävästi aikaa laadukkaiden kuvien ottamiseen. Ota yhteyttä klinikkaan sopiaksesi tutkimusajan – kerromme mielellämme tarkemmin, mitä tutkimuksia koirasi rodulle suositellaan. Kaikkien virallisten tutkimusten hinnat löydät hinnastostamme.
+Varaa viralliset tutkimukset etukäteen. Tilaa ennen käyntiä jokaiselle tutkimukselle sähköinen lähete Kennelliiton Omakoira-palvelussa; ilman sitä tulosta ei voida kirjata. Koiran on oltava tunnistusmerkitty, yleensä mikrosirulla, ja tarkistamme tunnistusmerkinnän tutkimuksen yhteydessä. Röntgentutkimukset tehdään rauhoituksessa, joten paastota koira samoin kuin ennen nukutusta (8–12 tuntia; vettä saa juoda aamuun asti) ja varaa käyntiin enemmän aikaa. Kerromme mielellämme, mitä tutkimuksia koirasi rodulle suositellaan. Kaikkien virallisten tutkimusten hinnat löydät hinnastostamme.
 
 ### Usein kysyttyä virallisista tutkimuksista
 
-Missä iässä viralliset tutkimukset tehdään? Viralliset lonkkaröntgenkuvat otetaan aikaisintaan 18 kuukauden iässä ja kyynärröntgenkuvat 12 kuukauden iässä. Polvitutkimukset voidaan tehdä 12 kuukauden iästä alkaen. Sydämen auskultaatio voidaan tehdä jo aikaisemmin, mutta jalostuskäyttöön hyväksytty tutkimus edellyttää yleensä vähintään 12 kuukauden ikää. On tärkeää tarkistaa rotukohtaiset vaatimukset Kennelliiton sivuilta. Kuinka kauan tulokset ovat voimassa? Viralliset röntgentutkimustulokset ovat voimassa koiran koko eliniän – niitä ei tarvitse uusia. Sydämen auskultaatiotulokset ovat voimassa rodusta riippuen 1–2 vuotta. Polvitutkimuksen tulos on pysyvä. Tulokset kirjataan Kennelliiton Jalostustietojärjestelmään, jossa ne ovat julkisesti nähtävissä.
+Missä iässä viralliset tutkimukset tehdään? Lonkka- ja kyynärkuvat voidaan ottaa 12 kuukauden iästä alkaen; joillakin roduilla PEVISA-ohjelma asettaa ikärajaksi 18 kuukautta. Selkäkuvauksessa välimuotoinen lanne-ristinikama (LTV) ja nikamien epämuotoisuus (VA) arvioidaan 12 kuukauden iästä alkaen, spondyloosi ja kalkkeutuneet välilevyt (IDD) 24 kuukauden iästä alkaen. Kalkkeutuneita välilevyjä arvioidaan vain tietyillä roduilla. Polvitutkimus ja virallinen sydänkuuntelu voidaan tehdä 12 kuukauden iästä alkaen. Virallisessa sydämen ultraäänitutkimuksessa ikäraja on hankittujen sydänsairauksien osalta 24 kuukautta, eikä synnynnäisten sydänsairauksien osalta ole alaikärajaa. Joidenkin rotujen PEVISA-ohjelmissa ikärajat ovat toiset, joten tarkista koirasi rodun vaatimukset.
+Kuinka kauan tulokset ovat voimassa? Röntgentulokset eivät vanhene, mutta koira voidaan kuvata uudelleen tietyn määräajan kuluttua, ja uusi tulos voi muuttaa aiemman; osa selkälausunnoista annetaan vain kerran. Alle kolmen vuoden iässä annettu polvilausunto on voimassa kaksi vuotta; vähintään kolmen vuoden iässä annettu lausunto ei vanhene. Sydänkuuntelun tulos, jossa sivuääntä ei kuulu, ja ultraäänitutkimuksen tulos, jossa hankittua sydänsairautta ei todeta, ovat voimassa 12 kuukautta. Vähintään 12 kuukauden iässä annettua ultraäänitutkimuksen tulosta, jossa synnynnäistä sydänsairautta ei todeta, ei tarvitse uusia. Rodun PEVISA-ohjelma voi asettaa omat voimassaoloaikansa. Tulokset kirjataan Kennelliiton jalostustietojärjestelmään (KoiraNet), jossa ne ovat kaikkien nähtävissä.
 
 ### Varaa aika
 
@@ -3206,7 +3216,7 @@ Takaisin etusivulle
 # Koiran ja kissan kastraatio Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/kastraatio/
-Last updated: 2026-11-09
+Last updated: 2026-11-19
 
 Takaisin etusivulle
 
@@ -3244,9 +3254,11 @@ Jos toinen tai molemmat kivekset eivät ole laskeutuneet kivespussiin, puhutaan 
 
 Koirat ja kanit kastroidaan inhalaatioanestesiassa ja kissan tavallinen kastraatio tehdään injektioanestesiassa, aina kattavalla kivunlievityksellä. Valvomme jokaista potilasta jatkuvasti koko toimenpiteen ajan. Aikuinen koira ja kissa paastotetaan 8–12 tuntia ennen leikkausta (vettä saa juoda aamuun asti), kania ei paastoteta. Potilas kotiutuu yleensä samana päivänä ja saa mukaansa kipulääkityksen toipumisajalle. Lue lisää anestesiaturvallisuudesta.
 
-### Oikea ajoitus ja neuvonta
+### Missä iässä uroskoira, -kissa tai -kani kannattaa kastroida?
 
-Kastraation optimaalinen ajoitus riippuu eläimen lajista, rodusta ja koosta. Uroskissat kastroidaan yleensä noin 5–6 kuukauden iässä ennen merkkailun alkamista, uroskanit 4–6 kuukauden iässä sukukypsyyden alkaessa ja koirat rodun mukaan 6–18 kuukauden iässä – suurilla roduilla suositellaan odottamista luuston kasvun valmistumiseen. Keskustellaan yhdessä, mikä on paras vaihtoehto juuri sinun lemmikillesi: kirurginen vai kemiallinen kastraatio, ja oikea ajankohta.
+Yhtä oikeaa ikää ei ole, joten päätämme ajankohdan yhdessä kanssasi rodun, koiran aikuiskoon ja kastraation syyn perusteella. Koirat, joiden aikuispaino on alle noin 20 kg, voidaan yleensä kastroida 6–12 kuukauden iässä. Isommilla koirilla, etenkin suurilla ja jättiroduilla, suosittelemme odottamaan, kunnes luuston kasvu on päättynyt, yleensä noin 12–18 kuukauden iässä ja joillakin jättiroduilla myöhemmin. Suuremmilla koirilla alle noin vuoden iässä tehty kastraatio on nimittäin yhdistetty nivelsairauksien, kuten ristisiteen repeämän sekä lonkka- ja kyynärniveldysplasian, kohonneeseen riskiin. Muutamissa roduissa, myös joissakin pienemmissä, varhainen kastraatio on lisäksi yhdistetty tiettyihin syöpiin tai nivelongelmiin, joten rotu voi olla yhtä tärkeä tekijä kuin koko. Jos kastraatio on tarpeen lääketieteellisestä syystä, esimerkiksi eturauhasen hyvänlaatuisen liikakasvun, kiveskasvaimen tai piilokiveksen vuoksi, ajankohta riippuu sen sijaan tästä syystä.
+Jos et ole varma, miten kastraatio vaikuttaisi koirasi käytökseen, kemiallisen kastraation implantti voi ensin antaa siitä käsityksen: sen täysi vaikutus alkaa noin kuudessa viikossa (siihen asti koira voi vielä siittää pentuja), kestää implantista riippuen 6 tai 12 kuukautta ja häviää sitten.
+Uroskissat kastroidaan yleensä noin 5–6 kuukauden iässä, ennen kuin useimmat alkavat merkkailla. Uroskanit kastroidaan yleensä 4–6 kuukauden iässä, mutta pienten rotujen urokset voivat olla hedelmällisiä noin kolmen ja puolen kuukauden iästä alkaen, ja uros voi pysyä hedelmällisenä jopa kuusi viikkoa kastraation jälkeen. Pidä uros siksi erillään steriloimattomista naaraista noin kolmen kuukauden iästä siihen asti, kunnes leikkauksesta on kulunut kuusi viikkoa.
 
 ### Toipuminen kastraation jälkeen
 
@@ -3257,7 +3269,7 @@ Kissan kastraatiohaava on pieni ja yleensä ompeleeton; useimmat kissat ovat pir
 Paljonko koiran kastraatio maksaa? Uroskoiran kastraatio maksaa Eläinklinikka Saarella koiran painon mukaan 383–553 €: alle 10 kg 383 €, 10–20 kg 453 €, 20–40 kg 503 €, yli 40 kg 553 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja kotiin annettavan kipulääkityksen. Piilokivesleikkaus maksaa 473–623 €.
 Paljonko kissan kastrointi maksaa? Uroskissan kastraatio maksaa 108 €, ja hinta sisältää anestesian, leikkauksen ja kipulääkkeet. Uroskanin kastraatio maksaa 253 €.
 Mitä kemiallinen kastraatio maksaa ja kauanko se vaikuttaa? Kemiallinen kastraatio tehdään deslorelin-implantilla vastaanottokäynnillä ilman nukutusta. Täysi vaikutus alkaa noin 6 viikossa ja kestää 6 tai 12 kuukautta implantin mukaan. Hinnan saat soittamalla (06) 321 7300.
-Missä iässä kastraatio kannattaa tehdä? Uroskissat kastroidaan yleensä 5–6 kuukauden iässä ennen merkkailun alkamista, uroskanit 4–6 kuukauden iässä ja koirat rodun mukaan 6–18 kuukauden iässä. Suurilla roduilla suositellaan odottamista luuston kasvun valmistumiseen.
+Missä iässä kastraatio kannattaa tehdä? Uroskissat kastroidaan yleensä 5–6 kuukauden iässä, ennen kuin useimmat alkavat merkkailla, uroskanit 4–6 kuukauden iässä ja koirat rodun ja koon mukaan 6–18 kuukauden iässä. Koirilla, joiden aikuispaino on yli noin 20 kg, suosittelemme odottamaan, kunnes luuston kasvu on päättynyt.
 Muuttuuko koiran käytös kastraation jälkeen? Kastraatio voi vähentää hormonaalista käytöstä kuten merkkailua, karkailua ja muita uroksia kohtaan osoitettua aggressiivisuutta. Vaikutus riippuu yksilöstä – opitut käytösmallit eivät välttämättä muutu pelkän kastraation myötä. Perusluonne säilyy ennallaan. Kemiallinen kastraatio on hyvä tapa kokeilla vaikutusta ennen pysyvää päätöstä.
 Voiko kastraation peruuttaa? Kirurginen kastraatio on pysyvä toimenpide. Sen vuoksi tarjoamme kemiallista kastraatiota deslorelin-implantilla, jonka vaikutus kestää 6 tai 12 kuukautta ja häviää sen jälkeen kokonaan.
 Kuinka pitkä on toipumisaika kastraatiosta? Kissat ovat yleensä pirteitä jo seuraavana päivänä. Koira tarvitsee lepoa noin 7–10 päivää, ja haavaa suojataan kaulurilla tai haalarilla. Ompeleet poistetaan noin 10 päivän kuluttua tai ne sulavat itsestään.
@@ -3354,7 +3366,7 @@ Takaisin etusivulle
 # Turvallinen eläinanestesia Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/anestesia/
-Last updated: 2026-10-31
+Last updated: 2026-11-19
 
 Takaisin etusivulle
 
@@ -3363,6 +3375,10 @@ Takaisin etusivulle
 ### Inhalaatioanestesia
 
 Klinikallamme leikkaukset ja hammastoimenpiteet tehdään inhalaatioanestesiassa, joka on turvallisin anestesiamuoto eläimille. Poikkeuksena ovat kissojen rutiininomaiset steriloinnit ja kastraatiot, jotka tehdään injektioanestesiassa. Inhalaatioanestesiassa nukutusaine annetaan hengitysteitse, mikä mahdollistaa anestesian syvyyden tarkan säätelyn. Potilas herää nopeasti toimenpiteen jälkeen, koska anestesia-aine poistuu elimistöstä hengityksen kautta.
+
+### Rauhoitus vai nukutus?
+
+Rauhoituksessa eläimelle annetaan lääkkeitä, jotka tekevät siitä rauhallisen ja uneliaan, mutta se ei ole täysin tajuton. Rauhoitus sopii lyhyisiin toimenpiteisiin, jotka aiheuttavat vain vähän kipua, kuten röntgenkuvaukseen – myös viralliseen – tai pelokkaan tai levottoman eläimen tutkimiseen. Joidenkin rauhoituslääkkeiden vaikutus voidaan kumota vastalääkkeellä, jolloin eläin toipuu nopeammin. Nukutuksessa eli yleisanestesiassa eläin on täysin tajuton eikä tunne toimenpidettä; sitä tarvitaan leikkauksissa, hammashoidoissa ja muissa pidemmissä tai kivuliaissa toimenpiteissä. Elimistö reagoi kipuun nukutuksessakin, joten kivuliaissa toimenpiteissä kipulääkitystä annetaan ennen toimenpidettä ja sen aikana ja jatketaan tarvittaessa jälkeenpäin. Myös rauhoitus vaikuttaa hengitykseen ja verenkiertoon, joten se ei ole automaattisesti turvallisempi vaihtoehto: iäkkäälle tai sairaalle eläimelle lyhyt nukutus voi olla turvallisempi ja paremmin hallittavissa. Ennen rauhoitusta eläin paastotetaan samoin kuin ennen nukutusta.
 
 ### Jatkuva valvonta
 
