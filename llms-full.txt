@@ -4820,15 +4820,15 @@ Varaa aika, jos kissasi juo tai virtsaa aiempaa enemmän, on laihtunut tai menet
 - Carney H.C. et al. (2016): 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. Journal of Feline Medicine and Surgery 18(5):400–416. pmc.ncbi.nlm.nih.gov/PMC11132203
 - Williams T.L., Elliott J., Syme H.M. (2014): Effect on renal function of restoration of euthyroidism in hyperthyroid cats with iatrogenic hypothyroidism. Journal of Veterinary Internal Medicine 28(4):1251–1255. pubmed.ncbi.nlm.nih.gov/24773059
 - Taylor S. et al. (2024): 2024 ISFM and AAFP consensus guidelines on the long-term use of NSAIDs in cats. Journal of Feline Medicine and Surgery 26(4):1098612X241241951. pmc.ncbi.nlm.nih.gov/PMC11103309
-- Veterinary Medicines Directorate (UK) (2026): Metacam 0.5 mg/ml oral suspension for cats and guinea pigs — package leaflet. vmd.defra.gov.uk
+- Veterinary Medicines Directorate (UK) (2026): meloxicam 0.5 mg/ml oral suspension for cats and guinea pigs — package leaflet. vmd.defra.gov.uk
 - Acierno M.J. et al. (2018): ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats. Journal of Veterinary Internal Medicine 32(6):1803–1822. pmc.ncbi.nlm.nih.gov/PMC6271319
-- European Medicines Agency (EMA): Semintra (telmisartan) oral solution for cats — EPAR, product information. ema.europa.eu/semintra
+- European Union Product Database (UPD): telmisartan 4 mg/ml oral solution for cats — product information. medicines.health.europa.eu
 - Finnish Medicines Agency Fimea: Amodip 1,25 mg purutabletit kissalle — package leaflet. spc.fimea.fi/23406097.pdf
-- Finnish Medicines Agency Fimea: Fortekor vet. 5 mg tabletit kissalle ja koiralle — package leaflet. spc.fimea.fi/23632903.pdf
+- Finnish Medicines Agency Fimea: benazepril 5 mg tablets for cats and dogs — package leaflet. spc.fimea.fi/23632903.pdf
 - Elliott J. et al. (2000): Survival of cats with naturally occurring chronic renal failure: effect of dietary management. Journal of Small Animal Practice 41(6):235–242. pubmed.ncbi.nlm.nih.gov/10879400
 - Plantinga E.A. et al. (2005): Retrospective study of the survival of cats with acquired chronic renal insufficiency offered different commercial diets. Veterinary Record 157(7):185–187. pubmed.ncbi.nlm.nih.gov/16100367
 - Ross S.J. et al. (2006): Clinical evaluation of dietary modification for treatment of spontaneous chronic kidney disease in cats. Journal of the American Veterinary Medical Association 229(6):949–957. pubmed.ncbi.nlm.nih.gov/16978113
-- European Medicines Agency (EMA): Mirataz (mirtazapine) transdermal ointment for cats — EPAR, product information. ema.europa.eu/mirataz
+- European Medicines Agency (EMA): Mirataz (mirtazapine) transdermal ointment for cats — EPAR, product information. ema.europa.eu
 - Boyd L.M. et al. (2008): Survival in cats with naturally occurring chronic kidney disease (2000–2002). Journal of Veterinary Internal Medicine 22(5):1111–1117. pubmed.ncbi.nlm.nih.gov/18691369
 Aiheeseen liittyvät palvelumme: Sisätaudit · Senioritutkimus
 
@@ -5512,7 +5512,7 @@ Hill’s y/d -ruoka tehoaa vain, jos kissa ei syö mitään muuta – ei edes he
 - Peterson M.E., Varela F.V., Rishniw M., Polzin D.J. (2018): Evaluation of Serum Symmetric Dimethylarginine Concentration as a Marker for Masked Chronic Kidney Disease in Cats With Hyperthyroidism. Journal of Veterinary Internal Medicine 32(1):295–304. doi.org/jvim.15036
 - Stammeleer L. ym. (2024): Blood pressure in hyperthyroid cats before and after radioiodine treatment. Journal of Veterinary Internal Medicine 38(3):1359–1369. doi.org/jvim.17032
 - Acierno M.J. ym. (2018): ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats. Journal of Veterinary Internal Medicine 32(6):1803–1822. doi.org/jvim.15331
-- Fimea: Felimazole Vet 2,5 mg päällystetyt tabletit kissalle, valmisteyhteenveto. fimea.fi
+- Fimea: tiamatsoli (metimatsoli) 2,5 mg päällystetyt tabletit kissalle, valmisteyhteenveto. fimea.fi
 - Pharmaca Fennica: Apelka vet 5 mg/ml oraaliliuos kissoille, pakkausseloste. pharmacafennica.fi
 - Cornell Feline Health Center: Hyperthyroidism in Cats. vet.cornell.edu
 - International Cat Care: Hyperthyroidism in cats. icatcare.org
@@ -5628,9 +5628,9 @@ Varaa aika, jos koirasi juo ja virtsaa aiempaa enemmän, tekee tarpeitaan sisäl
 - Chandler M.L. ym. (2007): Juvenile nephropathy in 37 boxer dogs. Journal of Small Animal Practice 48(12):690–694. pubmed.ncbi.nlm.nih.gov/17727634
 - Miyakawa H. ym. (2026): Clinical findings and outcomes of juvenile-onset chronic kidney disease of unknown aetiology in dogs: a retrospective study of 36 cases (2010–2023). Journal of Small Animal Practice (online ahead of print 2.9.2026), doi:10.1111/jsap.70187. pubmed.ncbi.nlm.nih.gov/42687370
 - Larsen J.A. ym. (2012): Evaluation of recipes for home-prepared diets for dogs and cats with chronic kidney disease. Journal of the American Veterinary Medical Association 240(5):532–538. pubmed.ncbi.nlm.nih.gov/22332622
-- Finnish Medicines Agency Fimea (2024): Fortekor vet. 5 mg tabletit kissalle ja koiralle — package leaflet (dogs: congestive heart failure; cats: proteinuria associated with chronic kidney disease). spc.fimea.fi/23632903.pdf
+- Finnish Medicines Agency Fimea (2024): benazepril 5 mg tablets for cats and dogs — package leaflet (dogs: congestive heart failure; cats: proteinuria associated with chronic kidney disease). spc.fimea.fi/23632903.pdf
 - Finnish Medicines Agency Fimea (2025): Amodip 1,25 mg purutabletit kissalle — package leaflet (target species: cats; systemic hypertension). spc.fimea.fi/23406097.pdf
-- European Union Product Database (UPD): Semintra 4 mg/ml oral solution (telmisartan) — target species: cat; authorisation status: valid. medicines.health.europa.eu
+- European Union Product Database (UPD): telmisartan 4 mg/ml oral solution for cats — target species: cat; authorisation status: valid. medicines.health.europa.eu
 - European Union (2019): Regulation (EU) 2019/6 on veterinary medicinal products, Article 112 (use outside the terms of the marketing authorisation in non-food-producing animal species). Official Journal of the European Union L 4, 7.1.2019, p. 43. eur-lex.europa.eu
 Aiheeseen liittyvät palvelumme: Sisätaudit
 
