@@ -1495,9 +1495,11 @@ const articles = [
       { text: 'European Commission: Listing of non-EU countries and territories.', url: 'https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/listing-territories-and-non-eu-countries_en', label: 'food.ec.europa.eu' },
       { text: 'European Commission, Your Europe: Travelling with pets and other animals in the EU.', url: 'https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_en.htm', label: 'europa.eu' }
     ],
+    seoTitle: { fi: "Koiran ja kissan rokotukset – koiranpennun rokotusohjelma", sv: "Vaccinationsprogram för hund och katt – valp och kattunge", en: "Dog, Puppy and Cat Vaccination Schedule in Finland" },
     metaDesc: {
-      en: 'Dog and cat vaccinations in Finland: core vaccines, the puppy and kitten schedule, rabies rules and what you need to travel with a pet.',
-      sv: 'Vaccinationer för hund och katt i Finland: basvacciner, programmet för valpar och kattungar, rabiesregler och vad som krävs för att resa med husdjur.'
+      fi: "Koiran ja kissan rokotusohjelma Suomessa: pentujen ja aikuisten rokotukset, rabies, myöhässä oleva rokotus, sivuvaikutukset, hinnat ja matkustaminen.",
+      sv: "Vaccination av hund och katt i Finland: valpvaccination, kattungar och vuxna djur, rabiesregler, försenad booster, biverkningar, priser och resor.",
+      en: "When to vaccinate puppies, kittens and adult dogs and cats in Finland: the schedule, rabies rules, late boosters, side effects, prices and pet travel."
     }
   },
   {
