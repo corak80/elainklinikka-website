@@ -1837,7 +1837,7 @@ Back to homepage
 # Dog and Cat Vaccinations in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/vaccinations/
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 Back to homepage
 
@@ -1860,7 +1860,21 @@ Prices are total amounts. See all prices in our price list. Direct insurance bil
 
 ### Dog vaccinations
 
-Puppies get their first DHPPi vaccination (distemper, hepatitis, parvovirus and parainfluenza) usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. At 16 weeks they get DHPPi and rabies, and a booster one year after the last puppy vaccination. Adult dogs get DHPPi and rabies every 3 years. The kennel cough vaccine is recommended every year for dogs that stay in kennels or often go to shows and other dog events.
+Puppies get their first DHPPi vaccination (distemper, hepatitis, parvovirus and parainfluenza) usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. At 16 weeks they get DHPPi and rabies, and a booster one year after the last puppy vaccination. Adult dogs get DHPPi and rabies every 3 years.
+
+### Kennel cough vaccine: nose drops or injection?
+
+Kennel cough is a contagious airway infection that spreads wherever dogs meet: in boarding kennels, at shows, training groups and dog parks. Several viruses and bacteria can cause it, often together; the most important are the bacterium Bordetella bronchiseptica and canine parainfluenza virus. Vaccination makes the illness milder and reduces its spread, but it cannot prevent every case: it does not fully stop infection, and some causes have no vaccine.
+We have three kennel cough vaccines:
+- Nose drops (KC, €77) give the most reliable protection, according to current research. One dose a year protects against both: Bordetella after about three days, parainfluenza after about three weeks.
+- Parainfluenza injection (PI, €75) protects against parainfluenza only. The DHPPi vaccine also contains parainfluenza, but unlike its other parts, this part needs renewing every year. In the years between DHPPi boosters, the PI injection keeps it up. Dogs that get the nose drops every year do not need it.
+- Bordetella injection protects against Bordetella only. It contains no live bacteria and suits dogs that will not accept nose drops, or homes where live vaccine bacteria should be avoided. It is first given as two injections four weeks apart, then a booster seven months after the second, and after that once a year. A dog on yearly nose drops can switch to it with one injection when its next dose is due. For parainfluenza, the dog also needs the PI injection, except in years it gets DHPPi.
+We recommend yearly vaccination against both Bordetella and parainfluenza for dogs that stay in kennels, go to shows or training groups, or meet many other dogs. Some kennels require it, so ask the kennel in good time. Book the nose drops at least three weeks and the PI injection four weeks before the stay; start a first Bordetella injection course at least six weeks before.
+
+### After the kennel cough vaccine, and if your dog coughs
+
+After the nose drops, a runny nose or eyes, sneezing or a cough are common, especially in young puppies. They are usually mild and short but can occasionally last up to four weeks. Contact us if your dog seems unwell or the signs get worse. Many dogs get a small, sometimes firm or tender swelling where the Bordetella injection was given; it can last a few weeks. The vaccine bacteria from the nose drops can pass to other dogs and cats for up to six weeks. Tell us before vaccination if your dog is pregnant, on antibiotics or on immune-weakening medicines. Also tell us if someone at home has a weakened immune system or cystic fibrosis, or if another dog at home is sick or not vaccinated against kennel cough. If your dog needs antibiotics within a week after the nose drops, the vaccination is repeated afterwards.
+The typical sign of kennel cough is a dry, harsh, honking cough, often with retching. Most dogs recover within one to three weeks. Puppies, old dogs and dogs with other illnesses can develop pneumonia, so contact us as soon as such a dog starts coughing. If your dog is coughing, call us before you come in. Keep it and your other dogs away from other dogs until it has had no symptoms for at least two weeks. A coughing dog is vaccinated only after it has recovered. Contact us if your dog is tired, will not eat, has a fever or breathes fast, or if the cough gets worse or lasts more than ten days.
 
 ### Cat and kitten vaccinations
 
@@ -1880,19 +1894,19 @@ Within the EU, Norway and Switzerland, your pet needs a microchip, a valid rabie
 
 ### Side effects and waiting after vaccination
 
-Side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Contact us if they last longer than two days. Serious allergic reactions are rare and usually start within 15 minutes: facial swelling, hives, vomiting, difficulty breathing or collapse — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
+Apart from the kennel cough nose drops and the Bordetella injection, side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Contact us if they last longer than two days. Serious allergic reactions are rare and usually start within 15 minutes: facial swelling, hives, vomiting, difficulty breathing or collapse — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
 
 ### Frequently asked questions about vaccinations
 
-How much does a dog vaccination cost? The dog DHPPI vaccine (4-in-1) costs €77 and with rabies €85; at the Tuesday drop-in it is €69.30, or €76.50 with rabies. Kennel cough vaccine costs €75–77. Prices are total amounts and are listed in our price list.
+How much does a dog vaccination cost? The dog DHPPI vaccine (4-in-1) costs €77 and with rabies €85; at the Tuesday drop-in it is €69.30, or €76.50 with rabies. Kennel cough vaccine costs €77 as nose drops; the parainfluenza-only injection costs €75. Prices are total amounts and are listed in our price list.
 How much does a cat vaccination cost? The cat RCP vaccine (3-in-1) costs €75 and with rabies €86; at the Tuesday drop-in it is €67.50, or €77.40 with rabies. A kitten’s vaccination series is usually two visits (at 12 and 16 weeks), i.e. €150 in total without rabies.
 What vaccinations does a cat need? Every cat, indoor cats included, needs the RCP vaccine (3-in-1) against panleukopenia, calicivirus and herpesvirus: as a kitten until about 16 weeks, a booster one year after the last kitten vaccination, then every 3 years. Cats in contact with other cats may need the cat flu components every year. Ruokavirasto recommends rabies vaccination for all pet cats; we recommend it especially for cats that go outside, and it is required for travel. The RCP vaccine costs €75, or €86 with rabies.
 At what age is a kitten vaccinated? A kitten’s first vaccination is usually given at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, and then every 3–4 weeks until about 16 weeks. Rabies is given at 16 weeks. The booster follows one year after the last kitten vaccination.
 What if my dog’s or cat’s vaccination is overdue? One dose is usually enough if the earlier vaccinations were complete. If several years have passed — for cats, more than 3 years — or the history is unknown, the vet may give two doses 3–4 weeks apart. A rabies vaccination given after a lapse is valid for travel only after 21 days. You can also walk in without an appointment on Tuesdays 15:30–16:00.
-How often are vaccinations renewed? A booster is given one year after the last puppy or kitten vaccination. After that, DHPPi (dogs), RCP (cats) and rabies are renewed every 3 years. Kennel cough vaccination is renewed every year for dogs in kennels or often at shows, and cats in contact with other cats may need the cat flu components every year.
+How often are vaccinations renewed? A booster is given one year after the last puppy or kitten vaccination. After that, DHPPi (dogs), RCP (cats) and rabies are renewed every 3 years. Kennel cough vaccination is renewed every year for dogs that stay in kennels, go to shows or meet many other dogs, and cats in contact with other cats may need the cat flu components every year.
 Can I come without an appointment? Yes! Bring your pet in for vaccination on Tuesdays between 15:30 and 16:00, no appointment needed. Drop-in vaccinations are 10 % cheaper than a booked appointment. At other times, book by phone on (06) 321 7300 or online.
 When can a puppy start the vaccination series? Usually at 12 weeks of age, or at 6–8 weeks if the risk of infection is higher, for example for a puppy imported from abroad — the vet assesses this individually. Antibodies from the mother protect a young puppy at first, but they can also block the vaccine, so the series continues until about 16 weeks.
-Can a pet have side effects from vaccination? Side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Serious allergic reactions (facial swelling, hives, vomiting, difficulty breathing, collapse) are rare and usually start within 15 minutes — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
+Can a pet have side effects from vaccination? Apart from the kennel cough nose drops and the Bordetella injection, side effects are uncommon and usually pass within a day or two: a brief fever, tiredness, reduced appetite or a sore, swollen injection site. Serious allergic reactions (facial swelling, hives, vomiting, difficulty breathing, collapse) are rare and usually start within 15 minutes — contact a vet immediately. Waiting 15–30 minutes at the clinic after a vaccination is always a good idea, and we strongly recommend it after the first vaccinations.
 What vaccinations are needed for travel? Within the EU, Norway and Switzerland your pet needs a microchip, a valid rabies vaccination (the first one is valid no earlier than 21 days after it is given) and an EU pet passport. Dogs returning to Finland also need tapeworm treatment 1–5 days before arrival, unless they come directly from Norway, Ireland or Malta, or the 28-day rule. For travel outside the EU, start preparing at least 4 months before the trip.
 
 ### Book an appointment

@@ -2031,7 +2031,7 @@ Takaisin etusivulle
 # Koiran ja kissan rokotukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rokotukset/
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 Takaisin etusivulle
 
@@ -2054,7 +2054,21 @@ Hinnat ovat kokonaishintoja. Katso kaikki hinnat hinnastostamme. Lemmikkivakuutu
 
 ### Koiran rokotukset
 
-Koiranpentu saa ensimmäisen DHPPi-rokotuksen (penikkatauti, tarttuva maksatulehdus, parvovirus ja parainfluenssa) yleensä 12 viikon iässä tai 6–8 viikon iässä, jos tartuntariski on suurempi. Sen jälkeen rokotus toistetaan 3–4 viikon välein noin 16 viikon ikään asti. Pentu saa 16 viikon iässä DHPPi- ja rabiesrokotuksen. Tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta. Aikuiset koirat saavat DHPPi- ja rabiesrokotuksen 3 vuoden välein. Koirille, jotka käyvät hoitolassa tai usein näyttelyissä ja muissa koiratapahtumissa, suositellaan kennelyskärokotusta joka vuosi.
+Koiranpentu saa ensimmäisen DHPPi-rokotuksen (penikkatauti, tarttuva maksatulehdus, parvovirus ja parainfluenssa) yleensä 12 viikon iässä tai 6–8 viikon iässä, jos tartuntariski on suurempi. Sen jälkeen rokotus toistetaan 3–4 viikon välein noin 16 viikon ikään asti. Pentu saa 16 viikon iässä DHPPi- ja rabiesrokotuksen. Tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta. Aikuiset koirat saavat DHPPi- ja rabiesrokotuksen 3 vuoden välein.
+
+### Kennelyskärokote – nenätipat vai pistos?
+
+Kennelyskä on tarttuva hengitystietulehdus, joka leviää kaikkialla, missä koirat tapaavat toisiaan: hoitoloissa, näyttelyissä, koulutusryhmissä ja koirapuistoissa. Sen voivat aiheuttaa useat virukset ja bakteerit, usein yhtä aikaa. Tärkeimmät aiheuttajat ovat Bordetella bronchiseptica -bakteeri ja koiran parainfluenssavirus. Rokotus lieventää tautia ja vähentää sen leviämistä, mutta se ei voi estää jokaista sairastumista: rokotettukin koira voi saada tartunnan, eikä kaikkia aiheuttajia vastaan ole rokotetta.
+Kennelyskää vastaan meillä on kolme rokotetta:
+- Nenätipat (KC, 77 €) antavat tämänhetkisen tutkimustiedon mukaan luotettavimman suojan. Yksi annos vuodessa suojaa molemmilta: Bordetellalta noin kolmen päivän kuluttua ja parainfluenssalta noin kolmen viikon kuluttua.
+- Parainfluenssapistos (PI, 75 €) suojaa vain parainfluenssalta. Myös DHPPi-rokotteessa on parainfluenssaosa, mutta toisin kuin rokotteen muut osat, tämä osa on uusittava joka vuosi. DHPPi-tehosterokotusten välivuosina PI-pistos pitää parainfluenssasuojan yllä. Koira, joka saa nenätipat joka vuosi, ei tarvitse PI-pistosta.
+- Bordetella-pistos suojaa vain Bordetellalta. Siinä ei ole eläviä bakteereja, ja se sopii koirille, jotka eivät suostu nenätippoihin, tai koteihin, joissa eläviä rokotebakteereja on syytä välttää. Aluksi annetaan kaksi pistosta neljän viikon välein, sitten tehosterokotus seitsemän kuukauden kuluttua toisesta pistoksesta ja sen jälkeen kerran vuodessa. Koira, joka on saanut nenätipat joka vuosi, voi siirtyä Bordetella-pistokseen seuraavan annoksen aikaan, ja silloin riittää yksi pistos. Parainfluenssaa vastaan koira tarvitsee lisäksi PI-pistoksen, paitsi niinä vuosina, joina se saa DHPPi-rokotuksen.
+Suosittelemme vuosittaista rokotusta sekä Bordetellaa että parainfluenssaa vastaan koirille, jotka käyvät hoitolassa, näyttelyissä tai koulutusryhmissä tai tapaavat paljon muita koiria. Jotkin hoitolat vaativat rokotuksen, joten kysy asiaa hoitolasta hyvissä ajoin. Varaa aika niin, että koira saa nenätipat vähintään kolme viikkoa ja PI-pistoksen neljä viikkoa ennen kuin se menee hoitolaan. Aloita ensimmäinen Bordetella-pistossarja vähintään kuusi viikkoa etukäteen.
+
+### Kennelyskärokotuksen jälkeen – ja jos koirasi yskii
+
+Nenätippojen jälkeen nenä- ja silmävuoto, aivastelu ja yskä ovat tavallisia, etenkin nuorilla pennuilla. Oireet ovat yleensä lieviä ja lyhytaikaisia, mutta harvoissa tapauksissa ne voivat kestää jopa neljä viikkoa. Ota meihin yhteyttä, jos koirasi vaikuttaa huonovointiselta tai oireet pahenevat. Bordetella-pistoksen jälkeen monelle koiralle tulee pistoskohtaan pieni, joskus kova tai arka turvotus, joka voi kestää muutaman viikon. Nenätippojen rokotebakteerit voivat siirtyä muihin koiriin ja kissoihin jopa kuuden viikon ajan. Kerro meille ennen rokotusta, jos koirasi on tiine, on antibioottikuurilla tai saa vastustuskykyä heikentäviä lääkkeitä. Kerro myös, jos jollakulla kotonasi asuvalla on heikentynyt vastustuskyky tai kystinen fibroosi tai jos samassa taloudessa on toinen koira, joka on sairas tai jota ei ole rokotettu kennelyskää vastaan. Jos koirasi tarvitsee antibiootteja viikon sisällä nenätippojen antamisesta, rokotus uusitaan antibioottikuurin jälkeen.
+Kennelyskän tyypillinen oire on kuiva, kova ja käheä yskä, johon liittyy usein yökkäilyä. Useimmat koirat paranevat 1–3 viikossa. Pennut, vanhat koirat ja koirat, joilla on muita sairauksia, voivat saada keuhkokuumeen, joten ota meihin yhteyttä heti, kun tällainen koira alkaa yskiä. Jos koirasi yskii, soita meille ennen kuin tulet klinikalle. Pidä yskivä koira ja muut koirasi erossa muiden koirista, kunnes se on ollut oireeton vähintään kaksi viikkoa. Yskivä koira rokotetaan vasta, kun se on parantunut. Ota meihin yhteyttä, jos koirasi on väsynyt, ei syö, on kuumeinen tai hengittää tiheästi. Ota yhteyttä myös, jos yskä pahenee tai kestää yli kymmenen päivää.
 
 ### Kissan ja kissanpennun rokotukset
 
@@ -2074,19 +2088,19 @@ EU:ssa, Norjassa ja Sveitsissä matkustava lemmikki tarvitsee mikrosirun, voimas
 
 ### Rokotuksen sivuvaikutukset ja seuranta klinikalla
 
-Sivuvaikutukset ovat melko harvinaisia, ja ne menevät yleensä ohi päivässä tai kahdessa: lyhytaikainen kuume, väsymys, heikentynyt ruokahalu tai arka ja turvonnut pistoskohta. Ota meihin yhteyttä, jos oireet kestävät yli kaksi päivää. Vakavat allergiset reaktiot ovat harvinaisia, ja ne alkavat yleensä 15 minuutin kuluessa: kasvojen turvotus, nokkosihottuma, oksentelu, hengitysvaikeudet tai lyyhistyminen. Ota silloin heti yhteys eläinlääkäriin. Rokotuksen jälkeen on aina hyvä odottaa klinikalla 15–30 minuuttia, ja ensimmäisten rokotusten jälkeen suosittelemme sitä vahvasti.
+Kennelyskän nenätippoja ja Bordetella-pistosta lukuun ottamatta sivuvaikutukset ovat melko harvinaisia, ja ne menevät yleensä ohi päivässä tai kahdessa: lyhytaikainen kuume, väsymys, heikentynyt ruokahalu tai arka ja turvonnut pistoskohta. Ota meihin yhteyttä, jos oireet kestävät yli kaksi päivää. Vakavat allergiset reaktiot ovat harvinaisia, ja ne alkavat yleensä 15 minuutin kuluessa: kasvojen turvotus, nokkosihottuma, oksentelu, hengitysvaikeudet tai lyyhistyminen. Ota silloin heti yhteys eläinlääkäriin. Rokotuksen jälkeen on aina hyvä odottaa klinikalla 15–30 minuuttia, ja ensimmäisten rokotusten jälkeen suosittelemme sitä vahvasti.
 
 ### Usein kysyttyä rokotuksista
 
-Paljonko koiran rokotus maksaa? Koiran 4-rokotus (DHPPI) maksaa 77 € ja rabiesrokotuksen kanssa 85 €. Tiistain drop-in-rokotuksissa sama rokotus maksaa 69,30 € ja rabiesrokotuksen kanssa 76,50 €. Kennelyskärokotus maksaa 75–77 €. Hinnat ovat kokonaishintoja ja löytyvät hinnastostamme.
+Paljonko koiran rokotus maksaa? Koiran 4-rokotus (DHPPI) maksaa 77 € ja rabiesrokotuksen kanssa 85 €. Tiistain drop-in-rokotuksissa sama rokotus maksaa 69,30 € ja rabiesrokotuksen kanssa 76,50 €. Kennelyskärokotus maksaa nenätippoina 77 € ja pelkkänä parainfluenssapistoksena 75 €. Hinnat ovat kokonaishintoja ja löytyvät hinnastostamme.
 Paljonko kissan rokotus maksaa? Kissan 3-rokotus (RCP) maksaa 75 € ja rabiesrokotuksen kanssa 86 €. Tiistain drop-in-rokotuksissa sama rokotus maksaa 67,50 € ja rabiesrokotuksen kanssa 77,40 €. Kissanpennun rokotussarjaan kuuluu yleensä kaksi käyntiä (12 ja 16 viikon iässä), joten se maksaa yhteensä 150 € ilman rabiesrokotusta.
 Mitä rokotteita kissa tarvitsee? Jokainen kissa, myös sisäkissa, tarvitsee 3-rokotuksen (RCP) kissaruttoa eli panleukopeniaa, calicivirusta ja herpesvirusta vastaan. Pentuna kissa rokotetaan noin 16 viikon ikään asti, tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta ja sen jälkeen rokotus uusitaan 3 vuoden välein. Kissa, joka on tekemisissä muiden kissojen kanssa, voi tarvita kissanuharokotuksen joka vuosi. Ruokavirasto suosittelee rabiesrokotusta kaikille lemmikkikissoille. Me suosittelemme sitä erityisesti ulkoileville kissoille, ja ulkomaanmatkoilla se vaaditaan. Kissan 3-rokotus maksaa 75 € ja rabiesrokotuksen kanssa 86 €.
 Minkä ikäisenä kissanpentu rokotetaan? Kissanpennun ensimmäinen rokotus annetaan yleensä 12 viikon iässä tai 6–8 viikon iässä, jos tartuntariski on suurempi. Sen jälkeen rokotus toistetaan 3–4 viikon välein noin 16 viikon ikään asti. Rabiesrokotus annetaan 16 viikon iässä. Tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta.
 Mitä jos koiran tai kissan rokotus on myöhässä? Jos lemmikki on saanut kaikki aiemmat rokotuksensa, riittää yleensä yksi annos. Jos edellisestä rokotuksesta on kulunut useita vuosia – kissalla yli 3 vuotta – tai rokotushistoriaa ei tunneta, eläinlääkäri voi antaa kaksi annosta 3–4 viikon välein. Jos rabiesrokotus on päässyt vanhenemaan, uusi rokotus on matkustamista varten voimassa vasta 21 päivän kuluttua. Rokotukseen voi tulla myös ilman ajanvarausta tiistaisin klo 15.30–16.00.
-Kuinka usein rokotukset uusitaan? Tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta. Sen jälkeen koiran DHPPi-rokotus, kissan RCP-rokotus ja rabiesrokotus uusitaan 3 vuoden välein. Hoitolassa tai usein näyttelyissä käyvillä koirilla kennelyskärokotus uusitaan joka vuosi, ja kissa, joka on tekemisissä muiden kissojen kanssa, voi tarvita kissanuharokotuksen joka vuosi.
+Kuinka usein rokotukset uusitaan? Tehosterokotus annetaan vuoden kuluttua viimeisestä penturokotuksesta. Sen jälkeen koiran DHPPi-rokotus, kissan RCP-rokotus ja rabiesrokotus uusitaan 3 vuoden välein. Kennelyskärokotus uusitaan joka vuosi koirilla, jotka käyvät hoitolassa tai näyttelyissä tai tapaavat paljon muita koiria. Kissa, joka on tekemisissä muiden kissojen kanssa, voi tarvita kissanuharokotuksen joka vuosi.
 Voiko rokotukseen tulla ilman ajanvarausta? Kyllä! Tiistaisin klo 15.30–16.00 voit tuoda lemmikkisi rokotukseen ilman ajanvarausta. Drop-in-rokotukset ovat 10 % edullisempia kuin varatulla ajalla. Muulloin varaa aika puhelimitse numerosta (06) 321 7300 tai verkosta.
 Milloin koiranpennun rokotukset aloitetaan? Rokotussarja aloitetaan yleensä 12 viikon iässä tai 6–8 viikon iässä, jos tartuntariski on suurempi, esimerkiksi ulkomailta tuodulla pennulla. Eläinlääkäri arvioi tämän yksilöllisesti. Emältä saadut vasta-aineet suojaavat nuorta pentua aluksi, mutta ne voivat myös estää rokotetta tehoamasta, joten rokotussarja jatkuu noin 16 viikon ikään asti.
-Voiko lemmikki saada rokotuksesta sivuvaikutuksia? Sivuvaikutukset ovat melko harvinaisia, ja ne menevät yleensä ohi päivässä tai kahdessa: lyhytaikainen kuume, väsymys, heikentynyt ruokahalu tai arka ja turvonnut pistoskohta. Vakavat allergiset reaktiot (kasvojen turvotus, nokkosihottuma, oksentelu, hengitysvaikeudet, lyyhistyminen) ovat harvinaisia, ja ne alkavat yleensä 15 minuutin kuluessa. Ota silloin heti yhteys eläinlääkäriin. Rokotuksen jälkeen on aina hyvä odottaa klinikalla 15–30 minuuttia, ja ensimmäisten rokotusten jälkeen suosittelemme sitä vahvasti.
+Voiko lemmikki saada rokotuksesta sivuvaikutuksia? Kennelyskän nenätippoja ja Bordetella-pistosta lukuun ottamatta sivuvaikutukset ovat melko harvinaisia, ja ne menevät yleensä ohi päivässä tai kahdessa: lyhytaikainen kuume, väsymys, heikentynyt ruokahalu tai arka ja turvonnut pistoskohta. Vakavat allergiset reaktiot (kasvojen turvotus, nokkosihottuma, oksentelu, hengitysvaikeudet, lyyhistyminen) ovat harvinaisia, ja ne alkavat yleensä 15 minuutin kuluessa. Ota silloin heti yhteys eläinlääkäriin. Rokotuksen jälkeen on aina hyvä odottaa klinikalla 15–30 minuuttia, ja ensimmäisten rokotusten jälkeen suosittelemme sitä vahvasti.
 Mitä rokotuksia tarvitaan matkustamiseen? EU:ssa, Norjassa ja Sveitsissä matkustava lemmikki tarvitsee mikrosirun, voimassa olevan rabiesrokotuksen (ensimmäinen rokotus tulee voimaan aikaisintaan 21 päivän kuluttua rokottamisesta) ja EU-lemmikkipassin. Suomeen palaavat koirat tarvitsevat lisäksi ekinokokkilääkityksen (heisimatolääkityksen) 1–5 päivää ennen saapumista tai 28 päivän säännön mukaan. Lääkitystä ei tarvita, kun koira saapuu suoraan Norjasta, Irlannista tai Maltalta. Jos matkustat EU:n ulkopuolelle, aloita valmistelut vähintään 4 kuukautta ennen matkaa.
 
 ### Varaa aika
@@ -2519,7 +2533,7 @@ Takaisin etusivulle
 # Koiran ja kissan sterilointi Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sterilisaatio/
-Last updated: 2026-09-20
+Last updated: 2026-11-20
 
 Takaisin etusivulle
 
@@ -2547,7 +2561,7 @@ Sterilointi ehkäisee hengenvaarallisen kohtutulehduksen (pyometran) ja pienent�
 
 Pienillä ja keskikokoisilla roduilla narttukoiran sterilointi voidaan tehdä noin 6–12 kuukauden iässä. Suurilla ja jättiroduilla suosittelemme odottamista 12–18 kuukauden ikään, jotta luuston kasvu on valmis. Aikuinen narttu steriloidaan juoksuaikojen välissä, noin 2–3 kuukautta edellisestä juoksusta, jolloin kohdun verekkyys on pienimmillään. Steriloinnin jälkeen aineenvaihdunta hidastuu ja koira lihoo herkemmin – ruokamäärää kannattaa vähentää noin 10–20 %. Harvinaisena haittana etenkin isoilla roduilla voi esiintyä virtsankarkailua, joka on hoidettavissa lääkityksellä. Koiran luonne ja opittu käytös eivät steriloinnista muutu.
 
-### Naaraskissan sterilointi
+### Kissan sterilisaatio – naaraskissan sterilointi
 
 Naaraskissa steriloidaan yleensä noin 5–6 kuukauden iässä, mielellään ennen ensimmäistä kiimaa. Kissan kiima alkaa usein jo 5–7 kuukauden iässä ja toistuu kevät- ja kesäkaudella parin viikon välein – steriloimattoman kissan huutaminen, hankaaminen ja merkkailu loppuvat sterilointiin. Lisäksi sterilointi ehkäisee kohtutulehduksen ja pienentää merkittävästi nisäkasvainten riskiä, eniten silloin, kun kissa steriloidaan ennen ensimmäistä kiimaa. Myös sisäkissan steriloinnista ja sen ajankohdasta päätämme yhdessä kanssasi. Kissan sterilointi on nopea toimenpide: se tehdään injektioanestesiassa vain 1–2 cm:n viillosta, ja kissa kotiutuu samana päivänä.
 
