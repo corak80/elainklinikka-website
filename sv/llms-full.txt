@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 75 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 76 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3599,12 +3599,18 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Artiklar
 
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
+Husdjurshälsa
+20.11.2026
+
+### Hunden hostar – orsaker, när till veterinären och behandling
+
+Om hunden hostar någon enstaka gång, till exempel efter att ha druckit för snabbt, är det oftast ofarligt. En hosta som återkommer, blir värre eller åtföljs av andra tecken är ett symtom: orsaken kan vara en infektion, hjärtat, luftstrupen, lungorna eller, mer sällan i Finland, lungmask.
 Husdjurshälsa
 7.11.2026
 
@@ -4329,6 +4335,98 @@ Ring
 
 ---
 
+# Hunden hostar – orsaker, behandling och när till veterinären
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/hund-hostar.html
+Last updated: 2026-11-20
+
+Husdjurshälsa
+20.11.2026
+
+## Hunden hostar – orsaker, när till veterinären och behandling
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Om hunden hostar någon enstaka gång, till exempel efter att ha druckit för snabbt, är det oftast ofarligt. En hosta som återkommer, blir värre eller åtföljs av andra tecken är ett symtom: orsaken kan vara en infektion, hjärtat, luftstrupen, lungorna eller, mer sällan i Finland, lungmask.
+
+### När är hosta ett akutfall?
+
+Ring genast om din hund har svårt att andas i vila, inte kan lägga sig, har blekt, grått eller blåaktigt tandkött, kollapsar, hostar upp blod eller verkar hålla på att kvävas. Andningssvårigheter kan betyda vätska i lungorna vid hjärtsvikt, även om hunden inte hostar. Ring också genast om en stor hund gång på gång försöker kräkas utan att få upp något, vilket kan tyda på magomvridning, eller om din hund kan ha ätit rått- eller musgift: vissa sorter hindrar blodet från att levra sig, och blodig hosta börjar oftast tre till sju dygn senare. Ring oss på (06) 321 7300. Utanför öppettiderna ringer du regionens jourveterinär på 0600 399 299.
+
+### Hosta, kväljningar eller omvänd nysning?
+
+Hostan låter ofta som om hunden hade ”satt något i halsen”: den sträcker på halsen, hostar kraftigt och slutar med att kväljas eller få upp vitt skum. Skummet är oftast slem och saliv, inte maginnehåll. Vid omvänd nysning står hunden still och drar in luft genom näsan med höga, snarkande ljud i några sekunder upp till en minut eller två. Det är vanligt hos små och kortnosiga hundar och oftast ofarligt.
+
+### Kennelhosta
+
+Kennelhosta är en smittsam luftvägsinfektion som sprids där hundar träffas. De flesta blir friska inom en till tre veckor. Ring innan du kommer till kliniken, och håll dina hundar på avstånd från andra hundar tills hostan har varit borta i minst två veckor. Kontakta oss samma dag om din hund är trött, inte vill äta, har feber eller andas snabbt, eller om den är valp, gammal eller har någon annan sjukdom, eftersom den kan få lunginflammation. Läs om vaccinerna på vår sida om vaccinationer.
+
+### Hjärtsjukdom och hosta
+
+Hos äldre hundar av små raser beror ett blåsljud på hjärtat ofta på en läckande mitralisklaff. Ett kraftigt förstorat hjärta kan ge hosta även utan hjärtsvikt, så hostan i sig visar inte om hunden har hjärtsvikt. Varningstecknet är snabb andning i vila och i sömnen. Räkna hundens andetag i en minut medan den sover: under 30 är normalt. Om du upprepade gånger räknar fler än 30, kontakta oss samma dag. Om hunden dessutom har svårt att andas, ring genast. Kontakta oss också samma dag om en hund med konstaterat blåsljud börjar hosta.
+
+### Luftstrupen, bronkit och andra orsaker
+
+Hos små raser som yorkshireterrier, pomeranian och chihuahua kan luftstrupen försvagas och plattas till från medelåldern och framåt (trakealkollaps). Det ger en hård, gåsliknande hosta när hunden blir upphetsad eller drar i halsbandet. De flesta hundar blir bättre med läkemedel, viktminskning och sele, och behandlingen behövs oftast livet ut. Krävs en stent, remitterar vi hunden. Om hunden hostar de flesta dagar i minst två månader kan det vara kronisk bronkit. Hos äldre stora hundar, särskilt labradorer, ger larynxförlamning högljudd andning och ett förändrat skall, och hunden tål värme dåligt. Om hunden får svårt att andas, ring genast.
+
+### Lungmask
+
+Hundar får lungmask genom att äta snäckor, sniglar eller grodor. I Finland är rävens lungmask vanlig hos rävar men hittas sällan hos sällskapshundar, och fransk hjärtmask har hittills rapporterats hos bara några få hundar. Lungmask kan ge en hosta som inte går över, och fransk hjärtmask kan dessutom orsaka blödningar. Vi letar efter larver i avföringsprov som vi skickar till ett laboratorium. Det kan behövas flera prov, eftersom ett enda negativt prov inte utesluter lungmask. Inte alla avmaskningsmedel verkar mot lungmask, så fråga oss vilket din hund behöver.
+
+### Undersökning och behandling
+
+Berätta för oss om din hund har varit utomlands eller är importerad: hjärtmask, en annan mask än fransk hjärtmask, sprids av myggor främst i södra och sydöstra Europa och ger också hosta. Beroende på fynden röntgar vi bröstkorgen, gör ultraljud av hjärtat och tar blodprov, bland annat hjärttestet NT-proBNP. Vid behov undersöker vi luftvägarna med bronkoskop i narkos. Behandlingen beror på orsaken. Ge aldrig hunden host- eller förkylningsmedicin för människor: sådana läkemedel kan innehålla smärtstillande medel, avsvällande medel eller xylitol som är giftiga för hundar, och de kan dölja en allvarlig sjukdom.
+
+### När ska du boka tid?
+
+Boka tid om hostan blir värre, pågår i mer än tio dagar, återkommer gång på gång eller om hunden hostar på natten. Fram till besöket: använd sele i stället för halsband, undvik tobaksrök och filma ett hostanfall med mobilen. Ring oss på (06) 321 7300 eller boka tid på nätet.
+
+### Källor
+
+- Keene BW, Atkins CE, Bonagura JD, et al. ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs. J Vet Intern Med 2019;33(3):1127–1140. pubmed.ncbi.nlm.nih.gov/30974015
+- Ferasin L, Crews L, Biller DS, Lamb KE, Borgarelli M. Risk factors for coughing in dogs with naturally acquired myxomatous mitral valve disease. J Vet Intern Med 2013;27(2):286–292. pubmed.ncbi.nlm.nih.gov/23398050
+- Rishniw M, Borgarelli M, Ferasin L, Menciotti G. Severe left atrial enlargement, but not congestive heart failure, increases the probability of coughing in dogs with mitral valve disease. J Am Vet Med Assoc 2026;264(5):565–570. pubmed.ncbi.nlm.nih.gov/41135574
+- Rishniw M, Ljungvall I, Porciello F, Häggström J, Ohad DG. Sleeping respiratory rates in apparently healthy adult dogs. Res Vet Sci 2012;93(2):965–969. pubmed.ncbi.nlm.nih.gov/22240295
+- Lappin MR, Blondeau J, Boothe D, et al. Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats (ISCAID). J Vet Intern Med 2017;31(2):279–294. pubmed.ncbi.nlm.nih.gov/28185306
+- Rozanski E. Canine chronic bronchitis: an update. Vet Clin North Am Small Anim Pract 2020;50(2):393–404. pubmed.ncbi.nlm.nih.gov/31812219
+- Tappin SW. Canine tracheal collapse. J Small Anim Pract 2016;57(1):9–17. pubmed.ncbi.nlm.nih.gov/26780854
+- American College of Veterinary Surgeons. Tracheal Collapse. acvs.org/tracheal-collapse
+- Kemp MH. Laryngeal Paralysis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/laryngeal-paralysis-in-dogs-and-cats
+- American College of Veterinary Surgeons. Laryngeal Paralysis. acvs.org/laryngeal-paralysis
+- Tonozzi CC. Allergic Pneumonitis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/allergic-pneumonitis-in-dogs-and-cats
+- Winkler KP. Gastric Dilation and Volvulus in Small Animals. Merck Veterinary Manual. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Cornell University, Riney Canine Health Center. Reverse sneezing. vet.cornell.edu
+- Tiškina V, Lindqvist EL, Blomqvist AC, Orav M, Stensvold CR, Jokelainen P. Autochthonous Angiostrongylus vasorum in Finland. Vet Rec Open 2019;6(1):e000314. pubmed.ncbi.nlm.nih.gov/30997112
+- Rapp P, Williamson EM, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Vet Scand 2024;66:52. doi.org
+- Karkamo V, Castrén L, Näreaho A. Ketun keuhkomato, Crenosoma vulpis, koiralla – kirjallisuuskatsaus ja tapausselostus. Suomen Eläinlääkärilehti 2012;118(2):67–72. sell.fi
+- ESCCAP. Worm Control in Dogs and Cats. ESCCAP Guideline 01, 7th edition, June 2025. esccap.org
+- Rossow H, Joutsen S, Tuominen P. Zoonoottiset taudinaiheuttajat tuontikoirissa. Ruokaviraston tutkimuksia 2/2019. ruokavirasto.fi
+- Hayes C. Toxicoses in Animals From Human Cold and Allergy Medications. Merck Veterinary Manual. merckvetmanual.com/toxicoses-in-animals-from-human-cold-and
+- Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
+- Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
+- Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
+Relaterade tjänster: Hjärtundersökningar och hjärtultraljud · Endoskopi
+
+### Läs också
+
+Kardiologi
+
+#### Persisterande (öppen) ductus arteriosus (PDA) hos hund – ett medfött hjärtfel som i regel kan botas
+
+Persisterande (öppen) ductus arteriosus (PDA) är ett av de vanligaste medfödda hjärtfelen hos hund. Ductus är ett blo...
+Hälsa
+
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
+
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Tillbaka till startsidan
+
+---
+
 # Pälsvård hos hund och katt – tovor, hud och trimning
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/palsvard-hund-katt.html
@@ -4754,6 +4852,11 @@ Relaterade tjänster: Hjärtundersökningar och hjärtultraljud · Mjukdelskirur
 
 ### Läs också
 
+Husdjurshälsa
+
+#### Hunden hostar – orsaker, när till veterinären och behandling
+
+Om hunden hostar någon enstaka gång, till exempel efter att ha druckit för snabbt, är det oftast ofarligt. En hosta s...
 Anestesi
 
 #### Anestesisäkerhet – statistik, risker och hur vi minimerar dem
@@ -4764,11 +4867,6 @@ Anestesi
 #### Kontinuerlig smärtinfusion (CRI) – jämn smärtlindring under kirurgi
 
 Smärthantering är en av de viktigaste delarna av varje operation. På vår klinik ingår en smärtlindringsinfusion rutin...
-Anestesi
-
-#### Förebyggande av hypotermi – varför aktiv uppvärmning är viktig
-
-Hypotermi, alltså nedkylning, är en av de vanligaste komplikationerna vid anestesi. I två spanska studier var kroppst...
 Tillbaka till startsidan
 
 ---

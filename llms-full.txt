@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 81 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 82 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3938,12 +3938,18 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Artikkelit
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Lemmikkien terveys
+20.11.2026
+
+### Koira yskii – syyt, milloin eläinlääkäriin ja hoito
+
+Kun koira yskii vain joskus, esimerkiksi liian nopeasti juotuaan, se on yleensä vaaratonta. Jos koiran yskä uusiutuu, pahenee tai siihen liittyy muita oireita, se on merkki jostakin vaivasta. Syynä voi olla infektio, sydän- tai keuhkosairaus, henkitorven ongelma tai Suomessa harvemmin keuhkomadot.
 Lemmikkien terveys
 7.11.2026
 
@@ -4668,6 +4674,98 @@ Soita
 
 ---
 
+# Koira yskii – syyt, milloin eläinlääkäriin ja hoito
+
+URL: https://elainklinikkasaari.fi/articles/koira-yskii.html
+Last updated: 2026-11-20
+
+Lemmikkien terveys
+20.11.2026
+
+## Koira yskii – syyt, milloin eläinlääkäriin ja hoito
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Kun koira yskii vain joskus, esimerkiksi liian nopeasti juotuaan, se on yleensä vaaratonta. Jos koiran yskä uusiutuu, pahenee tai siihen liittyy muita oireita, se on merkki jostakin vaivasta. Syynä voi olla infektio, sydän- tai keuhkosairaus, henkitorven ongelma tai Suomessa harvemmin keuhkomadot.
+
+### Milloin yskä on hätätilanne?
+
+Soita heti, jos koirasi hengittää levossa vaivalloisesti, ei pysty käymään makuulle, lyyhistyy, yskii verta tai näyttää tukehtuvan tai jos sen ikenet ovat kalpeat, harmaat tai sinertävät. Hengitysvaikeus voi johtua sydämen vajaatoiminnan aiheuttamasta nesteestä keuhkoissa (keuhkopöhö), vaikka koira ei yskisi. Soita heti myös, jos suuri koira yrittää toistuvasti oksentaa tuloksetta – syynä voi olla mahalaukun kiertymä – tai jos koirasi on voinut syödä rotan- tai hiirenmyrkkysyöttiä. Osa syöteistä estää veren hyytymisen, ja veren yskiminen alkaa yleensä 3–7 päivän kuluttua. Soita meille numeroon (06) 321 7300 tai aukioloaikojemme ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Yskää, kakistelua vai käänteistä aivastusta?
+
+Yskä kuulostaa usein siltä, kuin kurkkuun olisi juuttunut jotain: koira ojentaa kaulaansa, yskii kovaa ja lopuksi kakistelee tai yskäisee ulos valkoista vaahtoa. Vaahto on yleensä limaa ja sylkeä, ei mahansisältöä. Käänteisessä aivastuksessa koira seisoo paikallaan ja vetää ilmaa nenän kautta sisään kovaäänisesti röhkien muutamasta sekunnista minuuttiin tai kahteen. Se on yleistä pienillä ja lyhytkuonoisilla koirilla ja yleensä vaaratonta.
+
+### Kennelyskä
+
+Kennelyskä on tarttuva hengitystietulehdus, joka leviää siellä, missä koirat tapaavat toisiaan. Useimmat koirat paranevat 1–3 viikossa. Soita, ennen kuin tulet klinikalle. Pidä kaikki koirasi erossa muista koirista, kunnes yskän loppumisesta on kulunut vähintään kaksi viikkoa. Ota yhteyttä samana päivänä, jos koirasi on väsynyt, ei syö, on kuumeinen tai hengittää tiheästi tai jos se on pentu, vanha tai muuten sairas, koska sille voi kehittyä keuhkokuume. Lue rokotteista rokotussivultamme.
+
+### Koiran yskä ja sydänvika
+
+Vanhemmilla pienirotuisilla koirilla sydämen sivuääni johtuu usein mitraaliläpän vuodosta. Hyvin suurentunut sydän voi aiheuttaa yskää myös ilman sydämen vajaatoimintaa, joten pelkkä yskä ei kerro, onko koiralla sydämen vajaatoiminta. Varoitusmerkki on tiheä hengitys levossa ja unessa. Laske koirasi hengenvedot minuutin ajan sen nukkuessa: alle 30 on normaalia. Jos lukema on toistuvasti yli 30, ota yhteyttä samana päivänä. Jos koirasi lisäksi hengittää vaivalloisesti, soita heti. Jos koira, jolla on todettu sivuääni, alkaa yskiä, ota yhteyttä samana päivänä.
+
+### Henkitorvi, keuhkoputkentulehdus ja muut syyt
+
+Pienillä roduilla, kuten yorkshirenterrierillä, pomeranianilla ja chihuahualla, henkitorvi voi keski-iästä alkaen heiketä ja litistyä (henkitorven kollapsi). Tämä aiheuttaa kovaa, hanhen törähtelyä muistuttavaa yskää, kun koira innostuu tai kiskoo kaulapannassa. Useimmat koirat voivat paremmin lääkkeiden, laihdutuksen ja valjaiden avulla, ja hoitoa tarvitaan yleensä koko loppuiän. Jos stentti on tarpeen, teemme lähetteen. Jos koira yskii useimpina päivinä vähintään kahden kuukauden ajan, syynä voi olla krooninen keuhkoputkentulehdus. Vanhemmilla suurilla koirilla, etenkin labradorinnoutajilla, kurkunpään halvaus aiheuttaa äänekästä hengitystä ja haukun muuttumista, ja koira sietää huonosti kuumuutta. Jos hengitys vaikeutuu, soita heti.
+
+### Keuhkomadot
+
+Koira saa keuhkomatoja syömällä kotiloita, etanoita tai sammakoita. Suomessa ketun keuhkomato on yleinen ketuilla, mutta lemmikkikoirilta sitä löytyy harvoin, ja ranskalaista sydänmatoa on toistaiseksi todettu vain muutamalla koiralla. Keuhkomadot voivat aiheuttaa pitkittyvää yskää, ja ranskalainen sydänmato voi aiheuttaa myös verenvuotoja. Etsimme toukkia ulostenäytteistä, jotka lähetämme laboratorioon. Näytteitä voidaan tarvita useita, koska yksi negatiivinen tulos ei sulje keuhkomatotartuntaa pois. Kaikki matolääkkeet eivät tehoa keuhkomatoihin, joten kysy meiltä, mitä lääkettä koirasi tarvitsee.
+
+### Tutkimukset ja hoito
+
+Kerro meille, jos koirasi on käynyt ulkomailla tai on tuontikoira: yskää aiheuttaa myös sydänmato. Se on eri mato kuin ranskalainen sydänmato, ja sitä levittävät hyttyset pääasiassa Etelä- ja Kaakkois-Euroopassa. Löydösten perusteella käytämme rintakehän röntgenkuvia, sydämen ultraääntä ja verikokeita, kuten NT-proBNP-sydäntestiä. Tarvittaessa tähystämme hengitystiet nukutuksessa (bronkoskopia). Hoito riippuu syystä. Älä koskaan anna koirallesi ihmisille tarkoitettua yskän- tai flunssalääkettä. Tällaiset valmisteet voivat sisältää kipulääkkeitä, tukkoisuutta lievittäviä aineita tai ksylitolia, jotka ovat koirille myrkyllisiä, ja ne voivat peittää vakavan sairauden oireet.
+
+### Milloin varata aika
+
+Varaa aika, jos yskä pahenee, kestää yli kymmenen päivää tai uusiutuu tai jos koira yskii öisin. Ennen käyntiä käytä kaulapannan sijaan valjaita, vältä tupakansavua ja kuvaa yskäkohtaus puhelimellasi. Soita meille numeroon (06) 321 7300 tai varaa aika verkossa.
+
+### Lähteet
+
+- Keene BW, Atkins CE, Bonagura JD, et al. ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs. J Vet Intern Med 2019;33(3):1127–1140. pubmed.ncbi.nlm.nih.gov/30974015
+- Ferasin L, Crews L, Biller DS, Lamb KE, Borgarelli M. Risk factors for coughing in dogs with naturally acquired myxomatous mitral valve disease. J Vet Intern Med 2013;27(2):286–292. pubmed.ncbi.nlm.nih.gov/23398050
+- Rishniw M, Borgarelli M, Ferasin L, Menciotti G. Severe left atrial enlargement, but not congestive heart failure, increases the probability of coughing in dogs with mitral valve disease. J Am Vet Med Assoc 2026;264(5):565–570. pubmed.ncbi.nlm.nih.gov/41135574
+- Rishniw M, Ljungvall I, Porciello F, Häggström J, Ohad DG. Sleeping respiratory rates in apparently healthy adult dogs. Res Vet Sci 2012;93(2):965–969. pubmed.ncbi.nlm.nih.gov/22240295
+- Lappin MR, Blondeau J, Boothe D, et al. Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats (ISCAID). J Vet Intern Med 2017;31(2):279–294. pubmed.ncbi.nlm.nih.gov/28185306
+- Rozanski E. Canine chronic bronchitis: an update. Vet Clin North Am Small Anim Pract 2020;50(2):393–404. pubmed.ncbi.nlm.nih.gov/31812219
+- Tappin SW. Canine tracheal collapse. J Small Anim Pract 2016;57(1):9–17. pubmed.ncbi.nlm.nih.gov/26780854
+- American College of Veterinary Surgeons. Tracheal Collapse. acvs.org/tracheal-collapse
+- Kemp MH. Laryngeal Paralysis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/laryngeal-paralysis-in-dogs-and-cats
+- American College of Veterinary Surgeons. Laryngeal Paralysis. acvs.org/laryngeal-paralysis
+- Tonozzi CC. Allergic Pneumonitis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/allergic-pneumonitis-in-dogs-and-cats
+- Winkler KP. Gastric Dilation and Volvulus in Small Animals. Merck Veterinary Manual. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Cornell University, Riney Canine Health Center. Reverse sneezing. vet.cornell.edu
+- Tiškina V, Lindqvist EL, Blomqvist AC, Orav M, Stensvold CR, Jokelainen P. Autochthonous Angiostrongylus vasorum in Finland. Vet Rec Open 2019;6(1):e000314. pubmed.ncbi.nlm.nih.gov/30997112
+- Rapp P, Williamson EM, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Vet Scand 2024;66:52. doi.org
+- Karkamo V, Castrén L, Näreaho A. Ketun keuhkomato, Crenosoma vulpis, koiralla – kirjallisuuskatsaus ja tapausselostus. Suomen Eläinlääkärilehti 2012;118(2):67–72. sell.fi
+- ESCCAP. Worm Control in Dogs and Cats. ESCCAP Guideline 01, 7th edition, June 2025. esccap.org
+- Rossow H, Joutsen S, Tuominen P. Zoonoottiset taudinaiheuttajat tuontikoirissa. Ruokaviraston tutkimuksia 2/2019. ruokavirasto.fi
+- Hayes C. Toxicoses in Animals From Human Cold and Allergy Medications. Merck Veterinary Manual. merckvetmanual.com/toxicoses-in-animals-from-human-cold-and
+- Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
+- Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
+- Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
+Aiheeseen liittyvät palvelumme: Sydäntutkimukset ja sydänultra · Tähystystutkimukset
+
+### Lue myös
+
+Kardiologia
+
+#### Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa
+
+Avoin valtimotiehyt eli PDA on yksi koirien yleisimmistä synnynnäisistä sydänvioista. Valtimotiehyt on verisuoni, jok...
+Terveys
+
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
+
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Usein koira tai kissa myrkyttyy syötyään jotain, mikä on m...
+Takaisin etusivulle
+
+---
+
 # Koiran ja kissan turkinhoito – takut, iho ja trimmaus
 
 URL: https://elainklinikkasaari.fi/articles/koiran-ja-kissan-turkinhoito.html
@@ -5093,6 +5191,11 @@ Aiheeseen liittyvät palvelumme: Sydäntutkimukset ja sydänultra · Pehmytkudos
 
 ### Lue myös
 
+Lemmikkien terveys
+
+#### Koira yskii – syyt, milloin eläinlääkäriin ja hoito
+
+Kun koira yskii vain joskus, esimerkiksi liian nopeasti juotuaan, se on yleensä vaaratonta. Jos koiran yskä uusiutuu,...
 Anestesia
 
 #### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne
@@ -5103,11 +5206,6 @@ Anestesia
 #### Jatkuva kipulääkeinfuusio (CRI) – tasainen kivunhallinta leikkausten aikana
 
 Kivunhallinta on yksi jokaisen leikkauksen tärkeimmistä osa-alueista. Klinikallamme kipulääkeinfuusio kuuluu rutiinis...
-Anestesia
-
-#### Hypotermian ehkäisy – miksi aktiivinen lämmitys on tärkeää
-
-Hypotermia eli alilämpöisyys on yksi anestesian yleisimmistä komplikaatioista. Kahdessa espanjalaisessa tutkimuksessa...
 Takaisin etusivulle
 
 ---

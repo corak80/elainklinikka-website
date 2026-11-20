@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 75 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 76 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3609,12 +3609,18 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Articles
 
 Veterinary articles from the professionals
 Search articles...
+Pet Health
+20.11.2026
+
+### Dog Coughing – Causes, When to See a Vet and Treatment
+
+An occasional cough, for example after drinking too fast, is usually harmless. A cough that keeps coming back, gets worse or comes with other signs is a symptom: the cause can be an infection, the heart, the windpipe, the lungs or, less often in Finland, lungworms.
 Pet Health
 7.11.2026
 
@@ -4339,6 +4345,98 @@ Call
 
 ---
 
+# Dog Coughing – Causes, When to See a Vet and Treatment
+
+URL: https://elainklinikkasaari.fi/en/articles/dog-coughing.html
+Last updated: 2026-11-20
+
+Pet Health
+20.11.2026
+
+## Dog Coughing – Causes, When to See a Vet and Treatment
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+An occasional cough, for example after drinking too fast, is usually harmless. A cough that keeps coming back, gets worse or comes with other signs is a symptom: the cause can be an infection, the heart, the windpipe, the lungs or, less often in Finland, lungworms.
+
+### When is a cough an emergency?
+
+Call at once if your dog struggles to breathe at rest, cannot lie down, has pale, grey or bluish gums, collapses, coughs up blood or seems to be choking. Breathing difficulty can mean fluid in the lungs from heart failure, even without a cough. Also call at once if a large dog keeps retching without bringing anything up, which can be a twisted stomach, or if your dog may have eaten rat or mouse bait: some baits stop the blood from clotting, and coughing blood usually starts three to seven days later. Call us on (06) 321 7300; out of hours, call the regional out-of-hours emergency number, 0600 399 299.
+
+### Cough, gagging or reverse sneezing?
+
+A cough often sounds like “something stuck in the throat”: the dog stretches its neck, coughs hard and ends by gagging or bringing up white foam, which is usually mucus and saliva, not stomach contents. In reverse sneezing the dog stands still and pulls air in through its nose in loud snorts for a few seconds to a minute or two. It is common in small and flat-faced dogs and usually harmless.
+
+### Kennel cough
+
+Kennel cough is a contagious airway infection that spreads where dogs meet; most dogs recover in one to three weeks. Call before you come in, and keep your dogs away from other dogs until the cough has been gone for at least two weeks. Contact us the same day if your dog is tired, will not eat, has a fever or breathes fast, or if it is a puppy, old or ill, because it can develop pneumonia. Read about the vaccines on our vaccinations page.
+
+### Heart disease and coughing
+
+In older small-breed dogs, a heart murmur is often caused by a leaking mitral valve. A very enlarged heart can cause a cough even without heart failure, so a cough alone does not show whether a dog has heart failure. The warning sign is fast breathing at rest and in sleep. Count your dog’s breaths for one minute while it sleeps: under 30 is normal. If it is above 30 on repeated counts, contact us the same day; if your dog also struggles to breathe, call at once. If a dog with a known heart murmur starts coughing, contact us the same day.
+
+### Windpipe, bronchitis and other causes
+
+In small breeds such as the Yorkshire Terrier, Pomeranian and Chihuahua, the windpipe can weaken and flatten from middle age on, causing a harsh, honking cough with excitement or pulling on the collar. Most dogs improve with medicines, weight loss and a harness, usually for life; if a stent is needed, we refer. A cough on most days for at least two months may be chronic bronchitis. In older large dogs, especially Labradors, laryngeal paralysis causes noisy breathing, a changed bark and poor tolerance of heat; if breathing gets difficult, call at once.
+
+### Lungworms
+
+Dogs get lungworms by eating snails, slugs or frogs. In Finland the fox lungworm is common in foxes but rarely found in pet dogs, and the French heartworm has so far been reported in only a few dogs. Lungworms can cause a cough that does not go away, and the French heartworm can also cause bleeding. We look for larvae in faecal samples sent to a laboratory; several samples may be needed, because one negative result does not rule lungworm out. Not every dewormer works against lungworms, so ask us which one your dog needs.
+
+### Examination and treatment
+
+Tell us if your dog has been abroad or was imported: heartworm, a different worm spread by mosquitoes mainly in southern and south-eastern Europe, also causes coughing. Depending on the findings, we use chest X-rays, a heart ultrasound and blood tests, including the NT-proBNP heart test, and if needed examine the airways with a bronchoscope under general anaesthesia. Treatment depends on the cause. Never give your dog a cough or cold medicine meant for people: they can contain painkillers, decongestants or xylitol that are poisonous to dogs, and they can hide a serious disease.
+
+### When to book a visit
+
+Book a visit if the cough gets worse, lasts more than ten days, keeps coming back or comes at night. Until then, use a harness instead of a collar, avoid tobacco smoke and film a coughing episode on your phone. Call us on (06) 321 7300 or book online.
+
+### Sources
+
+- Keene BW, Atkins CE, Bonagura JD, et al. ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs. J Vet Intern Med 2019;33(3):1127–1140. pubmed.ncbi.nlm.nih.gov/30974015
+- Ferasin L, Crews L, Biller DS, Lamb KE, Borgarelli M. Risk factors for coughing in dogs with naturally acquired myxomatous mitral valve disease. J Vet Intern Med 2013;27(2):286–292. pubmed.ncbi.nlm.nih.gov/23398050
+- Rishniw M, Borgarelli M, Ferasin L, Menciotti G. Severe left atrial enlargement, but not congestive heart failure, increases the probability of coughing in dogs with mitral valve disease. J Am Vet Med Assoc 2026;264(5):565–570. pubmed.ncbi.nlm.nih.gov/41135574
+- Rishniw M, Ljungvall I, Porciello F, Häggström J, Ohad DG. Sleeping respiratory rates in apparently healthy adult dogs. Res Vet Sci 2012;93(2):965–969. pubmed.ncbi.nlm.nih.gov/22240295
+- Lappin MR, Blondeau J, Boothe D, et al. Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats (ISCAID). J Vet Intern Med 2017;31(2):279–294. pubmed.ncbi.nlm.nih.gov/28185306
+- Rozanski E. Canine chronic bronchitis: an update. Vet Clin North Am Small Anim Pract 2020;50(2):393–404. pubmed.ncbi.nlm.nih.gov/31812219
+- Tappin SW. Canine tracheal collapse. J Small Anim Pract 2016;57(1):9–17. pubmed.ncbi.nlm.nih.gov/26780854
+- American College of Veterinary Surgeons. Tracheal Collapse. acvs.org/tracheal-collapse
+- Kemp MH. Laryngeal Paralysis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/laryngeal-paralysis-in-dogs-and-cats
+- American College of Veterinary Surgeons. Laryngeal Paralysis. acvs.org/laryngeal-paralysis
+- Tonozzi CC. Allergic Pneumonitis in Dogs and Cats. Merck Veterinary Manual. merckvetmanual.com/allergic-pneumonitis-in-dogs-and-cats
+- Winkler KP. Gastric Dilation and Volvulus in Small Animals. Merck Veterinary Manual. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Cornell University, Riney Canine Health Center. Reverse sneezing. vet.cornell.edu
+- Tiškina V, Lindqvist EL, Blomqvist AC, Orav M, Stensvold CR, Jokelainen P. Autochthonous Angiostrongylus vasorum in Finland. Vet Rec Open 2019;6(1):e000314. pubmed.ncbi.nlm.nih.gov/30997112
+- Rapp P, Williamson EM, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Vet Scand 2024;66:52. doi.org
+- Karkamo V, Castrén L, Näreaho A. Ketun keuhkomato, Crenosoma vulpis, koiralla – kirjallisuuskatsaus ja tapausselostus. Suomen Eläinlääkärilehti 2012;118(2):67–72. sell.fi
+- ESCCAP. Worm Control in Dogs and Cats. ESCCAP Guideline 01, 7th edition, June 2025. esccap.org
+- Rossow H, Joutsen S, Tuominen P. Zoonoottiset taudinaiheuttajat tuontikoirissa. Ruokaviraston tutkimuksia 2/2019. ruokavirasto.fi
+- Hayes C. Toxicoses in Animals From Human Cold and Allergy Medications. Merck Veterinary Manual. merckvetmanual.com/toxicoses-in-animals-from-human-cold-and
+- Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
+- Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
+- Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
+Related services: Cardiac examinations and heart ultrasound · Endoscopy
+
+### Read also
+
+Cardiology
+
+#### Patent Ductus Arteriosus (PDA) in Dogs — A Congenital Heart Defect That Can Usually Be Cured
+
+Patent ductus arteriosus (PDA) is one of the most common congenital heart defects in dogs. The ductus is a blood vess...
+Health
+
+#### Dog and Cat Vaccination Schedule — Puppies, Kittens and Adults
+
+Vaccinations protect pets from serious infectious diseases. Vaccination protocols vary and change over time. We follo...
+Emergency
+
+#### Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away
+
+Poisoning is a common reason for emergency visits to the vet. Often, a dog or cat is poisoned by eating something tha...
+Back to homepage
+
+---
+
 # Coat Care in Dogs and Cats – Mats, Skin and Grooming
 
 URL: https://elainklinikkasaari.fi/en/articles/coat-care-dogs-cats.html
@@ -4764,6 +4862,11 @@ Related services: Cardiac examinations and heart ultrasound · Soft Tissue Surge
 
 ### Read also
 
+Pet Health
+
+#### Dog Coughing – Causes, When to See a Vet and Treatment
+
+An occasional cough, for example after drinking too fast, is usually harmless. A cough that keeps coming back, gets w...
 Anesthesia
 
 #### Anesthesia Safety — Statistics, Risks, and How We Minimize Them
@@ -4774,11 +4877,6 @@ Anesthesia
 #### Continuous Rate Infusion (CRI) — Steady Pain Management During Surgery
 
 Pain management is one of the most important parts of any surgery. At our clinic, a pain-relief infusion is a routine...
-Anesthesia
-
-#### Hypothermia Prevention — Why Active Warming Matters
-
-Hypothermia is one of the most common complications of anesthesia. In two Spanish studies, body temperature at the en...
 Back to homepage
 
 ---

@@ -2458,6 +2458,99 @@ const translations = {
     en: "Book an appointment if your dog or cat has severe mats close to the skin, cannot be brushed or groomed awake because of pain, fear or stress, or if you notice skin changes, itching, hair loss or an unusual smell. A cat that has stopped grooming itself should also be examined. Call us on (06) 321 7300 or book online."
   },
 
+  // Article: Dog coughing (new 2026-11)
+  'article.dogcough.tag': { fi: 'Lemmikkien terveys', sv: 'Husdjurshälsa', en: 'Pet Health' },
+  "article.dogcough.title": {
+    fi: "Koira yskii – syyt, milloin eläinlääkäriin ja hoito",
+    sv: "Hunden hostar – orsaker, när till veterinären och behandling",
+    en: "Dog Coughing – Causes, When to See a Vet and Treatment"
+  },
+  "article.dogcough.intro": {
+    fi: "Kun koira yskii vain joskus, esimerkiksi liian nopeasti juotuaan, se on yleensä vaaratonta. Jos koiran yskä uusiutuu, pahenee tai siihen liittyy muita oireita, se on merkki jostakin vaivasta. Syynä voi olla infektio, sydän- tai keuhkosairaus, henkitorven ongelma tai Suomessa harvemmin keuhkomadot.",
+    sv: "Om hunden hostar någon enstaka gång, till exempel efter att ha druckit för snabbt, är det oftast ofarligt. En hosta som återkommer, blir värre eller åtföljs av andra tecken är ett symtom: orsaken kan vara en infektion, hjärtat, luftstrupen, lungorna eller, mer sällan i Finland, lungmask.",
+    en: "An occasional cough, for example after drinking too fast, is usually harmless. A cough that keeps coming back, gets worse or comes with other signs is a symptom: the cause can be an infection, the heart, the windpipe, the lungs or, less often in Finland, lungworms."
+  },
+  "article.dogcough.emergency.title": {
+    fi: "Milloin yskä on hätätilanne?",
+    sv: "När är hosta ett akutfall?",
+    en: "When is a cough an emergency?"
+  },
+  "article.dogcough.emergency.text": {
+    fi: "Soita heti, jos koirasi hengittää levossa vaivalloisesti, ei pysty käymään makuulle, lyyhistyy, yskii verta tai näyttää tukehtuvan tai jos sen ikenet ovat kalpeat, harmaat tai sinertävät. Hengitysvaikeus voi johtua sydämen vajaatoiminnan aiheuttamasta nesteestä keuhkoissa (keuhkopöhö), vaikka koira ei yskisi. Soita heti myös, jos suuri koira yrittää toistuvasti oksentaa tuloksetta – syynä voi olla mahalaukun kiertymä – tai jos koirasi on voinut syödä rotan- tai hiirenmyrkkysyöttiä. Osa syöteistä estää veren hyytymisen, ja veren yskiminen alkaa yleensä 3–7 päivän kuluttua. Soita meille numeroon (06) 321 7300 tai aukioloaikojemme ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring genast om din hund har svårt att andas i vila, inte kan lägga sig, har blekt, grått eller blåaktigt tandkött, kollapsar, hostar upp blod eller verkar hålla på att kvävas. Andningssvårigheter kan betyda vätska i lungorna vid hjärtsvikt, även om hunden inte hostar. Ring också genast om en stor hund gång på gång försöker kräkas utan att få upp något, vilket kan tyda på magomvridning, eller om din hund kan ha ätit rått- eller musgift: vissa sorter hindrar blodet från att levra sig, och blodig hosta börjar oftast tre till sju dygn senare. Ring oss på (06) 321 7300. Utanför öppettiderna ringer du regionens jourveterinär på 0600 399 299.",
+    en: "Call at once if your dog struggles to breathe at rest, cannot lie down, has pale, grey or bluish gums, collapses, coughs up blood or seems to be choking. Breathing difficulty can mean fluid in the lungs from heart failure, even without a cough. Also call at once if a large dog keeps retching without bringing anything up, which can be a twisted stomach, or if your dog may have eaten rat or mouse bait: some baits stop the blood from clotting, and coughing blood usually starts three to seven days later. Call us on (06) 321 7300; out of hours, call the regional out-of-hours emergency number, 0600 399 299."
+  },
+  "article.dogcough.sound.title": {
+    fi: "Yskää, kakistelua vai käänteistä aivastusta?",
+    sv: "Hosta, kväljningar eller omvänd nysning?",
+    en: "Cough, gagging or reverse sneezing?"
+  },
+  "article.dogcough.sound.text": {
+    fi: "Yskä kuulostaa usein siltä, kuin kurkkuun olisi juuttunut jotain: koira ojentaa kaulaansa, yskii kovaa ja lopuksi kakistelee tai yskäisee ulos valkoista vaahtoa. Vaahto on yleensä limaa ja sylkeä, ei mahansisältöä. Käänteisessä aivastuksessa koira seisoo paikallaan ja vetää ilmaa nenän kautta sisään kovaäänisesti röhkien muutamasta sekunnista minuuttiin tai kahteen. Se on yleistä pienillä ja lyhytkuonoisilla koirilla ja yleensä vaaratonta.",
+    sv: "Hostan låter ofta som om hunden hade ”satt något i halsen”: den sträcker på halsen, hostar kraftigt och slutar med att kväljas eller få upp vitt skum. Skummet är oftast slem och saliv, inte maginnehåll. Vid omvänd nysning står hunden still och drar in luft genom näsan med höga, snarkande ljud i några sekunder upp till en minut eller två. Det är vanligt hos små och kortnosiga hundar och oftast ofarligt.",
+    en: "A cough often sounds like “something stuck in the throat”: the dog stretches its neck, coughs hard and ends by gagging or bringing up white foam, which is usually mucus and saliva, not stomach contents. In reverse sneezing the dog stands still and pulls air in through its nose in loud snorts for a few seconds to a minute or two. It is common in small and flat-faced dogs and usually harmless."
+  },
+  "article.dogcough.kennel.title": {
+    fi: "Kennelyskä",
+    sv: "Kennelhosta",
+    en: "Kennel cough"
+  },
+  "article.dogcough.kennel.text": {
+    fi: "Kennelyskä on tarttuva hengitystietulehdus, joka leviää siellä, missä koirat tapaavat toisiaan. Useimmat koirat paranevat 1–3 viikossa. Soita, ennen kuin tulet klinikalle. Pidä kaikki koirasi erossa muista koirista, kunnes yskän loppumisesta on kulunut vähintään kaksi viikkoa. Ota yhteyttä samana päivänä, jos koirasi on väsynyt, ei syö, on kuumeinen tai hengittää tiheästi tai jos se on pentu, vanha tai muuten sairas, koska sille voi kehittyä keuhkokuume. Lue rokotteista <a href=\"/palvelut/rokotukset/\">rokotussivultamme</a>.",
+    sv: "Kennelhosta är en smittsam luftvägsinfektion som sprids där hundar träffas. De flesta blir friska inom en till tre veckor. Ring innan du kommer till kliniken, och håll dina hundar på avstånd från andra hundar tills hostan har varit borta i minst två veckor. Kontakta oss samma dag om din hund är trött, inte vill äta, har feber eller andas snabbt, eller om den är valp, gammal eller har någon annan sjukdom, eftersom den kan få lunginflammation. Läs om vaccinerna på vår <a href=\"/sv/tjanster/vaccinationer/\">sida om vaccinationer</a>.",
+    en: "Kennel cough is a contagious airway infection that spreads where dogs meet; most dogs recover in one to three weeks. Call before you come in, and keep your dogs away from other dogs until the cough has been gone for at least two weeks. Contact us the same day if your dog is tired, will not eat, has a fever or breathes fast, or if it is a puppy, old or ill, because it can develop pneumonia. Read about the vaccines on our <a href=\"/en/services/vaccinations/\">vaccinations page</a>."
+  },
+  "article.dogcough.heart.title": {
+    fi: "Koiran yskä ja sydänvika",
+    sv: "Hjärtsjukdom och hosta",
+    en: "Heart disease and coughing"
+  },
+  "article.dogcough.heart.text": {
+    fi: "Vanhemmilla pienirotuisilla koirilla sydämen sivuääni johtuu usein mitraaliläpän vuodosta. Hyvin suurentunut sydän voi aiheuttaa yskää myös ilman sydämen vajaatoimintaa, joten pelkkä yskä ei kerro, onko koiralla sydämen vajaatoiminta. Varoitusmerkki on tiheä hengitys levossa ja unessa. Laske koirasi hengenvedot minuutin ajan sen nukkuessa: alle 30 on normaalia. Jos lukema on toistuvasti yli 30, ota yhteyttä samana päivänä. Jos koirasi lisäksi hengittää vaivalloisesti, soita heti. Jos koira, jolla on todettu sivuääni, alkaa yskiä, ota yhteyttä samana päivänä.",
+    sv: "Hos äldre hundar av små raser beror ett blåsljud på hjärtat ofta på en läckande mitralisklaff. Ett kraftigt förstorat hjärta kan ge hosta även utan hjärtsvikt, så hostan i sig visar inte om hunden har hjärtsvikt. Varningstecknet är snabb andning i vila och i sömnen. Räkna hundens andetag i en minut medan den sover: under 30 är normalt. Om du upprepade gånger räknar fler än 30, kontakta oss samma dag. Om hunden dessutom har svårt att andas, ring genast. Kontakta oss också samma dag om en hund med konstaterat blåsljud börjar hosta.",
+    en: "In older small-breed dogs, a heart murmur is often caused by a leaking mitral valve. A very enlarged heart can cause a cough even without heart failure, so a cough alone does not show whether a dog has heart failure. The warning sign is fast breathing at rest and in sleep. Count your dog’s breaths for one minute while it sleeps: under 30 is normal. If it is above 30 on repeated counts, contact us the same day; if your dog also struggles to breathe, call at once. If a dog with a known heart murmur starts coughing, contact us the same day."
+  },
+  "article.dogcough.airways.title": {
+    fi: "Henkitorvi, keuhkoputkentulehdus ja muut syyt",
+    sv: "Luftstrupen, bronkit och andra orsaker",
+    en: "Windpipe, bronchitis and other causes"
+  },
+  "article.dogcough.airways.text": {
+    fi: "Pienillä roduilla, kuten yorkshirenterrierillä, pomeranianilla ja chihuahualla, henkitorvi voi keski-iästä alkaen heiketä ja litistyä (henkitorven kollapsi). Tämä aiheuttaa kovaa, hanhen törähtelyä muistuttavaa yskää, kun koira innostuu tai kiskoo kaulapannassa. Useimmat koirat voivat paremmin lääkkeiden, laihdutuksen ja valjaiden avulla, ja hoitoa tarvitaan yleensä koko loppuiän. Jos stentti on tarpeen, teemme lähetteen. Jos koira yskii useimpina päivinä vähintään kahden kuukauden ajan, syynä voi olla krooninen keuhkoputkentulehdus. Vanhemmilla suurilla koirilla, etenkin labradorinnoutajilla, kurkunpään halvaus aiheuttaa äänekästä hengitystä ja haukun muuttumista, ja koira sietää huonosti kuumuutta. Jos hengitys vaikeutuu, soita heti.",
+    sv: "Hos små raser som yorkshireterrier, pomeranian och chihuahua kan luftstrupen försvagas och plattas till från medelåldern och framåt (trakealkollaps). Det ger en hård, gåsliknande hosta när hunden blir upphetsad eller drar i halsbandet. De flesta hundar blir bättre med läkemedel, viktminskning och sele, och behandlingen behövs oftast livet ut. Krävs en stent, remitterar vi hunden. Om hunden hostar de flesta dagar i minst två månader kan det vara kronisk bronkit. Hos äldre stora hundar, särskilt labradorer, ger larynxförlamning högljudd andning och ett förändrat skall, och hunden tål värme dåligt. Om hunden får svårt att andas, ring genast.",
+    en: "In small breeds such as the Yorkshire Terrier, Pomeranian and Chihuahua, the windpipe can weaken and flatten from middle age on, causing a harsh, honking cough with excitement or pulling on the collar. Most dogs improve with medicines, weight loss and a harness, usually for life; if a stent is needed, we refer. A cough on most days for at least two months may be chronic bronchitis. In older large dogs, especially Labradors, laryngeal paralysis causes noisy breathing, a changed bark and poor tolerance of heat; if breathing gets difficult, call at once."
+  },
+  "article.dogcough.lungworm.title": {
+    fi: "Keuhkomadot",
+    sv: "Lungmask",
+    en: "Lungworms"
+  },
+  "article.dogcough.lungworm.text": {
+    fi: "Koira saa keuhkomatoja syömällä kotiloita, etanoita tai sammakoita. Suomessa ketun keuhkomato on yleinen ketuilla, mutta lemmikkikoirilta sitä löytyy harvoin, ja ranskalaista sydänmatoa on toistaiseksi todettu vain muutamalla koiralla. Keuhkomadot voivat aiheuttaa pitkittyvää yskää, ja ranskalainen sydänmato voi aiheuttaa myös verenvuotoja. Etsimme toukkia ulostenäytteistä, jotka lähetämme laboratorioon. Näytteitä voidaan tarvita useita, koska yksi negatiivinen tulos ei sulje keuhkomatotartuntaa pois. Kaikki matolääkkeet eivät tehoa keuhkomatoihin, joten kysy meiltä, mitä lääkettä koirasi tarvitsee.",
+    sv: "Hundar får lungmask genom att äta snäckor, sniglar eller grodor. I Finland är rävens lungmask vanlig hos rävar men hittas sällan hos sällskapshundar, och fransk hjärtmask har hittills rapporterats hos bara några få hundar. Lungmask kan ge en hosta som inte går över, och fransk hjärtmask kan dessutom orsaka blödningar. Vi letar efter larver i avföringsprov som vi skickar till ett laboratorium. Det kan behövas flera prov, eftersom ett enda negativt prov inte utesluter lungmask. Inte alla avmaskningsmedel verkar mot lungmask, så fråga oss vilket din hund behöver.",
+    en: "Dogs get lungworms by eating snails, slugs or frogs. In Finland the fox lungworm is common in foxes but rarely found in pet dogs, and the French heartworm has so far been reported in only a few dogs. Lungworms can cause a cough that does not go away, and the French heartworm can also cause bleeding. We look for larvae in faecal samples sent to a laboratory; several samples may be needed, because one negative result does not rule lungworm out. Not every dewormer works against lungworms, so ask us which one your dog needs."
+  },
+  "article.dogcough.care.title": {
+    fi: "Tutkimukset ja hoito",
+    sv: "Undersökning och behandling",
+    en: "Examination and treatment"
+  },
+  "article.dogcough.care.text": {
+    fi: "Kerro meille, jos koirasi on käynyt ulkomailla tai on tuontikoira: yskää aiheuttaa myös sydänmato. Se on eri mato kuin ranskalainen sydänmato, ja sitä levittävät hyttyset pääasiassa Etelä- ja Kaakkois-Euroopassa. Löydösten perusteella käytämme rintakehän röntgenkuvia, sydämen ultraääntä ja verikokeita, kuten NT-proBNP-sydäntestiä. Tarvittaessa tähystämme hengitystiet nukutuksessa (bronkoskopia). Hoito riippuu syystä. Älä koskaan anna koirallesi ihmisille tarkoitettua yskän- tai flunssalääkettä. Tällaiset valmisteet voivat sisältää kipulääkkeitä, tukkoisuutta lievittäviä aineita tai ksylitolia, jotka ovat koirille myrkyllisiä, ja ne voivat peittää vakavan sairauden oireet.",
+    sv: "Berätta för oss om din hund har varit utomlands eller är importerad: hjärtmask, en annan mask än fransk hjärtmask, sprids av myggor främst i södra och sydöstra Europa och ger också hosta. Beroende på fynden röntgar vi bröstkorgen, gör ultraljud av hjärtat och tar blodprov, bland annat hjärttestet NT-proBNP. Vid behov undersöker vi luftvägarna med bronkoskop i narkos. Behandlingen beror på orsaken. Ge aldrig hunden host- eller förkylningsmedicin för människor: sådana läkemedel kan innehålla smärtstillande medel, avsvällande medel eller xylitol som är giftiga för hundar, och de kan dölja en allvarlig sjukdom.",
+    en: "Tell us if your dog has been abroad or was imported: heartworm, a different worm spread by mosquitoes mainly in southern and south-eastern Europe, also causes coughing. Depending on the findings, we use chest X-rays, a heart ultrasound and blood tests, including the NT-proBNP heart test, and if needed examine the airways with a bronchoscope under general anaesthesia. Treatment depends on the cause. Never give your dog a cough or cold medicine meant for people: they can contain painkillers, decongestants or xylitol that are poisonous to dogs, and they can hide a serious disease."
+  },
+  "article.dogcough.contact.title": {
+    fi: "Milloin varata aika",
+    sv: "När ska du boka tid?",
+    en: "When to book a visit"
+  },
+  "article.dogcough.contact.text": {
+    fi: "Varaa aika, jos yskä pahenee, kestää yli kymmenen päivää tai uusiutuu tai jos koira yskii öisin. Ennen käyntiä käytä kaulapannan sijaan valjaita, vältä tupakansavua ja kuvaa yskäkohtaus puhelimellasi. Soita meille numeroon (06) 321 7300 tai <a href=\"/ajanvaraus/\">varaa aika verkossa</a>.",
+    sv: "Boka tid om hostan blir värre, pågår i mer än tio dagar, återkommer gång på gång eller om hunden hostar på natten. Fram till besöket: använd sele i stället för halsband, undvik tobaksrök och filma ett hostanfall med mobilen. Ring oss på (06) 321 7300 eller <a href=\"/sv/tidsbokning/\">boka tid på nätet</a>.",
+    en: "Book a visit if the cough gets worse, lasts more than ten days, keeps coming back or comes at night. Until then, use a harness instead of a collar, avoid tobacco smoke and film a coughing episode on your phone. Call us on (06) 321 7300 or <a href=\"/en/book-appointment/\">book online</a>."
+  },
+
   // Article 13: Snake Bite
   'article.snake.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   'article.snake.title': {
@@ -3814,6 +3907,7 @@ function setLanguage(lang) {
     'munuaisten-vajaatoiminta': { sv: 'njursvikt', en: 'kidney-disease' },
     'kissan-munuaisten-vajaatoiminta': { sv: 'njursvikt-katt', en: 'kidney-disease-cats' },
     'koiran-ja-kissan-turkinhoito': { sv: 'palsvard-hund-katt', en: 'coat-care-dogs-cats' },
+    'koira-yskii': { sv: 'hund-hostar', en: 'dog-coughing' },
     'kyynpurema': { sv: 'huggormsbett', en: 'snake-bite' },
     'kohtutulehdus': { sv: 'livmoderinflammation', en: 'pyometra' },
     'siili': { sv: 'igelkott', en: 'hedgehog' },
