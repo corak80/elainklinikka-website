@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 82 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 86 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3944,6 +3944,30 @@ Last updated: 2026-11-20
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Päivystys
+20.11.2026
+
+### Koira söi suklaata – kuinka paljon on vaarallista ja mitä tehdä
+
+Suklaa on yksi yleisimmistä koirien myrkytysten aiheuttajista, etenkin jouluna ja pääsiäisenä. Vaarallisuus riippuu siitä, millaista suklaata ja kuinka paljon koira söi, sekä koiran painosta. Jos et ole varma, soita eläinlääkärille: suklaamyrkytys on helpointa hoitaa ennen kuin oireita ilmaantuu.
+Päivystys
+20.11.2026
+
+### Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
+
+Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: purukumeissa, pastilleissa, makeisissa, hammastahnassa, sokerittomissa leivonnaisissa ja joissakin sokerittomissa lääkkeissä, ja sitä myydään myös sokerinkorvikkeena kotileivontaan. Jo muutama purukumipala voi myrkyttää koiran, joten soita heti eläinlääkärille, jos koira on syönyt vähänkään ksylitolia – vaikka se vaikuttaisi vielä voivan hyvin.
+Päivystys
+20.11.2026
+
+### Viinirypäleet ja rusinat – miksi ne ovat vaarallisia koiralle
+
+Viinirypäleet ja rusinat voivat aiheuttaa koiralle äkillisen munuaisten vajaatoiminnan. Turvallista määrää ei tunneta: osa koirista sairastuu jo muutamasta, kun taas toiset syövät niitä paljon ilman haittaa, eikä etukäteen voi tietää, miten oma koira reagoi. Jos koira on syönyt niitä yhtään, soita heti eläinlääkärille, vaikka se vaikuttaisi voivan hyvin.
+Päivystys
+20.11.2026
+
+### Kissalle myrkylliset kasvit – liljat, joulukukat ja huonekasvit
+
+Moni kissa näykkii mielellään kasveja, ja monet tavalliset kukat ja huonekasvit ovat kissoille myrkyllisiä. Useimmat aiheuttavat vain suun arkuutta, kuolaamista tai oksentelua, mutta liljat voivat tappaa kissan. Jos kissa on pureskellut kasvia etkä ole varma, onko kasvi turvallinen, soita eläinlääkärille ja ota kasvi tai valokuva siitä mukaan.
 Lemmikkien terveys
 20.11.2026
 
@@ -3981,11 +4005,11 @@ Terveys
 
 Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkärikäynnin syistä. Koira ravistelee päätään ja raapii korviaan, ja korva haisee pahalta tai siitä vuotaa eritettä. Älä jää odottamaan, että tulehdus paranee itsestään: kunnolla tutkittuina ja hoidettuina useimmat äkilliset korvatulehdukset paranevat 2–4 viikossa. Toistuvan tulehduksen taustalla on lähes aina jokin perussyy, joka on selvitettävä ja pidettävä hallinnassa. Tässä artikkelissa kerromme, mistä korvatulehduksen tunnistaa, mitä vastaanotolla tapahtuu, mitä hoito maksaa Eläinklinikka Saarella ja miten tulehduksen uusiutumista voi ehkäistä.
 Päivystys
-24.9.2026
+20.11.2026
 
 ### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
 
-Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Usein koira tai kissa myrkyttyy syötyään jotain, mikä on meille harmitonta mutta sille myrkyllistä, kuten suklaata, ksylitolia tai viinirypäleitä – tai päästyään käsiksi ihmisten lääkkeisiin. Myrkytyksen vakavuus riippuu aineesta, nielaistusta määrästä ja eläimen koosta. Myrkytysepäilyssä kannattaa aina soittaa heti eläinlääkärille, vaikka lemmikki vaikuttaisi vielä täysin terveeltä. Monien myrkkyjen kohdalla hoito tehoaa parhaiten – tai ainoastaan – ennen kuin oireita ilmaantuu.
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittomasta, kuten suklaasta, ksylitolista tai viinirypäleistä – tai ihmisten lääkkeistä. Myrkytysepäilyssä kannattaa aina soittaa heti eläinlääkärille, vaikka lemmikki vaikuttaisi vielä terveeltä: monia myrkytyksiä on helpointa hoitaa ennen kuin oireita ilmaantuu.
 Terveys
 19.11.2026
 
@@ -4674,6 +4698,285 @@ Soita
 
 ---
 
+# Koira söi suklaata – paljonko on vaarallista ja mitä tehdä
+
+URL: https://elainklinikkasaari.fi/articles/koira-soi-suklaata.html
+Last updated: 2026-11-20
+
+Päivystys
+20.11.2026
+
+## Koira söi suklaata – kuinka paljon on vaarallista ja mitä tehdä
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Suklaa on yksi yleisimmistä koirien myrkytysten aiheuttajista, etenkin jouluna ja pääsiäisenä. Vaarallisuus riippuu siitä, millaista suklaata ja kuinka paljon koira söi, sekä koiran painosta. Jos et ole varma, soita eläinlääkärille: suklaamyrkytys on helpointa hoitaa ennen kuin oireita ilmaantuu.
+
+### Miksi suklaa on koiralle myrkyllistä?
+
+Suklaassa on teobromiinia ja kofeiinia. Koira hajottaa teobromiinia paljon hitaammin kuin ihminen, joten teobromiini pysyy sen elimistössä pitkään ja kiihdyttää yhdessä kofeiinin kanssa sydämen ja hermoston toimintaa liikaa. Mitä tummempaa suklaa on, sitä enemmän siinä on näitä aineita: eniten niitä on kaakaojauheessa, tummassa suklaassa niitä on moninkertaisesti maitosuklaaseen verrattuna, ja valkoisessa suklaassa niitä ei ole juuri lainkaan. Suklaa on myrkyllistä myös kissoille, mutta ne syövät sitä harvoin.
+
+### Kuinka paljon suklaata on koiralle vaarallista?
+
+Karkeasti arvioiden lieviä oireita voi ilmaantua seuraavista määristä alkaen: 5-kiloisella koiralla noin 9 g 70-prosenttista tummaa suklaata tai 40 g maitosuklaata, 10-kiloisella 18 g tai 85 g, 20-kiloisella 35 g tai 170 g ja 30-kiloisella 55 g tai 260 g. Kaksinkertaiset määrät voivat aiheuttaa sydänongelmia ja kolminkertaiset kouristuksia: 100 gramman levy 70-prosenttista tummaa suklaata voi sairastuttaa jopa 40-kiloisen koiran ja aiheuttaa 20-kiloiselle koiralle sydänongelmia. Puhdas kaakaojauhe eli leivontakaakao on vielä vahvempaa: ruokalusikallinen sitä voi sairastuttaa pienen koiran. Myös suklaakakku, suklaakeksit ja konvehdit voivat olla vaarallisia, ja niissä voi lisäksi olla rusinoita, makadamiapähkinöitä tai ksylitolia. Verkosta löytyvät laskurit antavat vain arvion, joten soita eläinlääkärille, vaikka määrä olisi pienempi.
+
+### Suklaamyrkytyksen oireet
+
+Oireet alkavat yleensä 6–12 tunnin kuluessa. Ensimmäisiä oireita ovat oksentelu, ripuli, janoisuus, levottomuus ja läähättäminen. Suuremmat määrät voivat aiheuttaa kiihtynyttä sykettä, vapinaa, korkeaa ruumiinlämpöä ja kouristuksia. Vakavissa tapauksissa oireet voivat kestää jopa kolme päivää. Koira voi olla vaarassa, vaikka se olisi oksentanut, koska osa suklaasta on voinut jo imeytyä.
+
+### Näin toimit, jos koira söi suklaata
+
+Soita heti eläinlääkärille. Ota kääre talteen ja kerro, millaista suklaata koira söi, suunnilleen kuinka paljon ja milloin sekä paljonko koira painaa. Älä yritä oksennuttaa koiraa itse: suola ja vetyperoksidi voivat aiheuttaa vakavaa vahinkoa. Jos koira pääsee vastaanotolle nopeasti, eläinlääkäri voi usein oksennuttaa sen turvallisesti, ennen kuin suuri osa myrkystä on ehtinyt imeytyä. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Eläinlääkärin hoito
+
+Jos ei ole liian myöhäistä, eläinlääkäri oksennuttaa koiran ja voi antaa ainetta, joka sitoo myrkkyä suolistossa. Oireileva koira voi tarvita suonensisäistä nestehoitoa sekä sydäntä ja hermostoa rauhoittavaa hoitoa. Osa koirista joutuu jäämään sairaalahoitoon, kunnes oireet laantuvat. Kun hoito aloitetaan varhain, useimmat koirat toipuvat täysin. Muista myrkyistä ja ensiavusta voit lukea lisää myrkytysartikkelistamme.
+
+### Lähteet
+
+- Merck Veterinary Manual: Chocolate Toxicosis in Animals. merckvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
+- ASPCA (2025): The Top 10 Toxins of 2025. aspca.org/top-10-toxins-2025
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- Noble P.M. ym. (2017): Heightened risk of canine chocolate exposure at Christmas and Easter. Veterinary Record 181(25):684. pubmed.ncbi.nlm.nih.gov/29263290
+- Lelo A. ym. (1986): Comparative pharmacokinetics of caffeine and its primary demethylated metabolites paraxanthine, theobromine and theophylline in man. British Journal of Clinical Pharmacology 22(2):177–182. pubmed.ncbi.nlm.nih.gov/3756065
+- Weingart C., Hartmann A., Kohn B. (2021): Chocolate ingestion in dogs: 156 events (2015–2019). Journal of Small Animal Practice 62(11):979–983. pubmed.ncbi.nlm.nih.gov/33788297
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Päivystys
+
+#### Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
+
+Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: puruku...
+Päivystys
+
+#### Viinirypäleet ja rusinat – miksi ne ovat vaarallisia koiralle
+
+Viinirypäleet ja rusinat voivat aiheuttaa koiralle äkillisen munuaisten vajaatoiminnan. Turvallista määrää ei tunneta...
+Takaisin etusivulle
+
+---
+
+# Ksylitolimyrkytys koiralla – vaarallinen määrä ja oireet
+
+URL: https://elainklinikkasaari.fi/articles/ksylitolimyrkytys.html
+Last updated: 2026-11-20
+
+Päivystys
+20.11.2026
+
+## Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: purukumeissa, pastilleissa, makeisissa, hammastahnassa, sokerittomissa leivonnaisissa ja joissakin sokerittomissa lääkkeissä, ja sitä myydään myös sokerinkorvikkeena kotileivontaan. Jo muutama purukumipala voi myrkyttää koiran, joten soita heti eläinlääkärille, jos koira on syönyt vähänkään ksylitolia – vaikka se vaikuttaisi vielä voivan hyvin.
+
+### Miksi ksylitoli on koiralle vaarallista?
+
+Koiralla ksylitoli saa elimistön vapauttamaan suuren määrän insuliinia, jolloin verensokeri laskee jyrkästi. Suuremmat määrät voivat myös vaurioittaa maksaa. Kissoilla ksylitolimyrkytyksiä ei ole raportoitu, mutta soita silti eläinlääkärille, jos kissasi on syönyt ksylitolia.
+
+### Kuinka paljon ksylitolia on koiralle vaarallista?
+
+Jo 0,1 g ksylitolia painokiloa kohden voi laskea koiran verensokeria, ja noin 0,5 g painokiloa kohden voi vaurioittaa maksaa. Suomalaisessa täysksylitolipurukumissa on noin gramma ksylitolia palaa kohden. Puolikas pala voi siis olla jo liikaa 5-kiloiselle koiralle, yksi pala 10-kiloiselle, kaksi 20-kiloiselle ja kolme 30-kiloiselle. Viisi tai kuusi palaa voi vaurioittaa 10-kiloisen koiran maksaa. Tarkista muiden tuotteiden pakkausmerkinnät: ainesosat luetellaan suurimmasta määrästä pienimpään, joten jos ksylitoli on listan alkupäässä, sitä on paljon. Usein määrää ei kuitenkaan ilmoiteta. Ksylitoli voi olla merkitty myös tunnuksella E 967. Jo teelusikallinen puhdasta leivontaksylitolia voi laskea ison koiran verensokeria.
+
+### Ksylitolimyrkytyksen oireet
+
+Matala verensokeri aiheuttaa oksentelua, heikkoutta, väsymystä, horjumista, lyyhistymistä ja kouristuksia. Oireet voivat alkaa jo puolen tunnin kuluessa, mutta joidenkin purukumien kohdalla ne voivat viivästyä jopa 12–18 tuntia. Maksavaurio voi näkyä vuorokauden tai pidemmän ajan kuluttua oksenteluna, väsymyksenä, kellertävinä ikeninä tai verenvuotoina. Älä odota oireita: hoito tehoaa parhaiten ennen kuin oireita ilmaantuu.
+
+### Näin toimit, jos koira söi ksylitolia
+
+Soita heti eläinlääkärille ja kerro, mitä koira söi, kuinka paljon ja milloin sekä paljonko se suunnilleen painaa. Ota pakkaus talteen. Älä yritä oksennuttaa koiraa itse. Jos koira heikkenee, alkaa horjua tai saa kouristuskohtauksen, kerro siitä eläinlääkärille ja lähde vastaanotolle mahdollisimman nopeasti. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Eläinlääkärin hoito
+
+Jos koira pääsee vastaanotolle nopeasti, eläinlääkäri voi yleensä oksennuttaa sen turvallisesti. Sen jälkeen verensokeria mitataan tiheään, ja tarvittaessa sitä pidetään yllä suoneen annettavalla sokeriliuoksella. Maksa-arvoja seurataan verikokein muutaman päivän ajan, koska maksavaurio voi alkaa viiveellä. Useimmat varhain hoidetut koirat toipuvat hyvin, mutta maksan vajaatoiminta on hengenvaarallinen.
+
+### Ehkäisy
+
+Moni koira löytää purukumia tai pastilleja käsilaukusta, takin taskusta tai pöydältä. Säilytä ksylitolituotteet suljetuissa kaapeissa ja laukuissa koiran ulottumattomissa äläkä koskaan anna koiralle ihmisille tarkoitettuja makeisia tai leivonnaisia. Muista myrkyistä voit lukea lisää myrkytysartikkelistamme.
+
+### Lähteet
+
+- Merck Veterinary Manual: Xylitol Toxicosis in Dogs. merckvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org
+- YTHS (2022): Xylitol, every day. yths.fi
+- STM: Päivähoitoikäisten lasten hampaiden harjaus ja ksylitolin käyttö. stm.fi
+- Ruokavirasto: Mitä kaikkea elintarvikkeen pakkaus kertoo? ruokavirasto.fi
+- Asetus (EU) N:o 1169/2011 elintarviketietojen antamisesta kuluttajille (18 art., 22 art., liitteet VII ja VIII). eur-lex.europa.eu
+- EFSA: Sweeteners. efsa.europa.eu
+- Dunayer E.K., Gwaltney-Brant S.M. (2006): Acute hepatic failure and coagulopathy associated with xylitol ingestion in eight dogs. Journal of the American Veterinary Medical Association 229(7):1113–1117. pubmed.ncbi.nlm.nih.gov/17014359
+- DuHadway M.R. ym. (2015): Retrospective evaluation of xylitol ingestion in dogs: 192 cases (2007–2012). Journal of Veterinary Emergency and Critical Care 25(5):646–654. pubmed.ncbi.nlm.nih.gov/26220654
+- Lovell T. ym. (2025): Retrospective Evaluation of the Incidence and Risk Factors Associated With the Development of a Hepatopathy in Xylitol Ingestion: 95 Dogs (2018–2022). Journal of Veterinary Emergency and Critical Care 35(5):571–576. pubmed.ncbi.nlm.nih.gov/41056358
+- Jerzsele Á. ym. (2018): Effects of p.o. administered xylitol in cats. Journal of Veterinary Pharmacology and Therapeutics 41(3):409–414. pubmed.ncbi.nlm.nih.gov/29430681
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Päivystys
+
+#### Koira söi suklaata – kuinka paljon on vaarallista ja mitä tehdä
+
+Suklaa on yksi yleisimmistä koirien myrkytysten aiheuttajista, etenkin jouluna ja pääsiäisenä. Vaarallisuus riippuu s...
+Päivystys
+
+#### Viinirypäleet ja rusinat – miksi ne ovat vaarallisia koiralle
+
+Viinirypäleet ja rusinat voivat aiheuttaa koiralle äkillisen munuaisten vajaatoiminnan. Turvallista määrää ei tunneta...
+Takaisin etusivulle
+
+---
+
+# Viinirypäleet ja rusinat – vaarallisia koiralle
+
+URL: https://elainklinikkasaari.fi/articles/viinirypaleet-ja-rusinat-koiralle.html
+Last updated: 2026-11-20
+
+Päivystys
+20.11.2026
+
+## Viinirypäleet ja rusinat – miksi ne ovat vaarallisia koiralle
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Viinirypäleet ja rusinat voivat aiheuttaa koiralle äkillisen munuaisten vajaatoiminnan. Turvallista määrää ei tunneta: osa koirista sairastuu jo muutamasta, kun taas toiset syövät niitä paljon ilman haittaa, eikä etukäteen voi tietää, miten oma koira reagoi. Jos koira on syönyt niitä yhtään, soita heti eläinlääkärille, vaikka se vaikuttaisi voivan hyvin.
+
+### Missä viinirypäleitä ja rusinoita piilee
+
+Vaarallisia ovat kaikki tuoreet viinirypäleet väristä riippumatta sekä rusinat, sultanarusinat ja korintit (kuivattuja viinirypäleitä). Rusinat jäävät helposti huomaamatta: niitä piilee joulukakussa, rusinapullissa, myslissä ja pähkinä-rusinasekoituksissa, ja glögiin niitä lisätään mantelien kanssa.
+
+### Miksi ne ovat vaarallisia?
+
+Tutkijat epäilevät, että haitallinen aine on viinihappo, jolle koirat ovat erityisen herkkiä. Sen määrä vaihtelee rypäleestä toiseen ja tuote-erästä toiseen, mikä voi selittää, miksi osa koirista selviää ilman haittaa ja osa ei. Myrkky vaurioittaa munuaisia, ja vaurio voi jäädä pysyväksi tai johtaa kuolemaan. Myös kissat voivat olla vaarassa, joten soita eläinlääkärille, jos kissasi on syönyt viinirypäleitä tai rusinoita.
+
+### Oireet
+
+Ensimmäinen oire on usein oksentelu, yleensä 6–12 tunnin kuluessa, ja sen jälkeen tulevat ripuli, väsymys ja ruokahaluttomuus. Munuaisten vajaatoiminta kehittyy 1–3 vuorokauden aikana: koira voi virtsata paljon tavallista vähemmän tai ei lainkaan. Koira voi olla vaarassa, vaikka se vaikuttaisi seuraavana päivänä voivan hyvin. Siksi hoito pitäisi aloittaa jo ennen kuin oireita ilmaantuu.
+
+### Mitä tehdä ja miten myrkytystä hoidetaan
+
+Soita heti eläinlääkärille ja kerro, kuinka monta viinirypälettä tai rusinaa koira söi ja milloin sekä paljonko se suunnilleen painaa. Älä yritä oksennuttaa koiraa itse. Jos koira pääsee vastaanotolle nopeasti, eläinlääkäri oksennuttaa sen turvallisesti ja voi antaa ainetta, joka sitoo myrkkyä suolistossa. Osa koirista tarvitsee sen jälkeen suonensisäistä nestehoitoa kaksi vuorokautta tai pidempään, ja munuaisten toimintaa seurataan verikokein. Varhain aloitetulla hoidolla ennuste on hyvä, mutta kun munuaiset ovat lakanneet toimimasta, ennuste on huono. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Muista myrkyistä voit lukea lisää myrkytysartikkelistamme.
+
+### Lähteet
+
+- MSD Veterinary Manual: Grape, Raisin, and Tamarind (Vitis spp, Tamarindus spp) Toxicosis in Dogs. msdvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org
+- Eubig P.A. ym. (2005): Acute renal failure in dogs after the ingestion of grapes or raisins: a retrospective evaluation of 43 dogs (1992–2002). Journal of Veterinary Internal Medicine 19(5):663–674. pubmed.ncbi.nlm.nih.gov/16231710
+- Reich C.F. ym. (2020): Retrospective evaluation of the clinical course and outcome following grape or raisin ingestion in dogs (2005–2014): 139 cases. Journal of Veterinary Emergency and Critical Care 30(1):60–65. pubmed.ncbi.nlm.nih.gov/31714003
+- Downs J. ym. (2024): Scoping review exploring the evidence base on Vitis vinifera toxicity in dogs after ingestion. Veterinary Record 195(7):e4536. pubmed.ncbi.nlm.nih.gov/39183495
+- Downs J. ym. (2026): A descriptive cohort study of Vitis vinifera fruit (grape/raisin/sultana/currant) ingestion in dogs, reported by the Veterinary Poisons Information Service between 1994 and 2023. Veterinary Record Open 13(2):e70052. pubmed.ncbi.nlm.nih.gov/43054498
+- Dijkman M.A. ym. (2022): Incidence of Vitis fruit-induced clinical signs and acute kidney injury in dogs and cats. Journal of Small Animal Practice 63(6):447–453. pubmed.ncbi.nlm.nih.gov/35137417
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Päivystys
+
+#### Koira söi suklaata – kuinka paljon on vaarallista ja mitä tehdä
+
+Suklaa on yksi yleisimmistä koirien myrkytysten aiheuttajista, etenkin jouluna ja pääsiäisenä. Vaarallisuus riippuu s...
+Päivystys
+
+#### Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
+
+Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: puruku...
+Takaisin etusivulle
+
+---
+
+# Kissalle myrkylliset kasvit – liljat ja huonekasvit
+
+URL: https://elainklinikkasaari.fi/articles/kissalle-myrkylliset-kasvit.html
+Last updated: 2026-11-20
+
+Päivystys
+20.11.2026
+
+## Kissalle myrkylliset kasvit – liljat, joulukukat ja huonekasvit
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Moni kissa näykkii mielellään kasveja, ja monet tavalliset kukat ja huonekasvit ovat kissoille myrkyllisiä. Useimmat aiheuttavat vain suun arkuutta, kuolaamista tai oksentelua, mutta liljat voivat tappaa kissan. Jos kissa on pureskellut kasvia etkä ole varma, onko kasvi turvallinen, soita eläinlääkärille ja ota kasvi tai valokuva siitä mukaan.
+
+### Liljat ovat vaarallisimpia
+
+Aidot liljat (Lilium) ja päivänliljat (Hemerocallis) aiheuttavat kissalle äkillisen munuaisten vajaatoiminnan. Niiden kaikki osat ovat myrkyllisiä – kukat, lehdet, varret ja siitepöly – ja myös maljakon vesi on myrkyllistä. Kissa voi myrkyttyä jo nuolemalla siitepölyä turkistaan tai näykkimällä yhtä lehteä. Ensin tulevat tuntien kuluessa oksentelu, kuolaaminen ja väsymys, ja munuaisten vajaatoiminta seuraa 1–3 vuorokauden kuluessa. Kissa, joka pääsee eläinlääkärille nopeasti, ennen kuin munuaiset vaurioituvat, toipuu yleensä. Jos hoito aloitetaan vasta, kun munuaiset ovat jo pettämässä, ennuste on huono. Älä pidä liljoja kodissa tai puutarhassa, jossa on kissa. Myöskään ”siitepölyttömät” liljat eivät ole turvallisia. Viirivehkat ja kallat eivät ole aitoja liljoja, ja ne ärsyttävät yleensä vain suuta, mutta Suomen kansalliskukka kielo sisältää sydämeen vaikuttavia myrkkyjä ja on sekin vaarallinen.
+
+### Joulukukat
+
+Joulutähti on mainettaan vaarattomampi: sen maitiaisneste yleensä vain ärsyttää suuta ja mahaa. Amaryllis ja hyasintti ovat haitallisempia, etenkin niiden sipulit, ja ne voivat aiheuttaa oksentelua, ripulia ja kuolaamista. Jouluruusu voi aiheuttaa kuolaamista, vatsakipua ja ripulia, ja atsalea voi vaikuttaa myös sydämeen. Suurin vaara ovat joulukimppujen liljat.
+
+### Tavalliset huonekasvit
+
+Monet suositut huonekasvit, kuten peikonlehti, kirjovehka (Dieffenbachia), köynnösvehka (Philodendron) ja kultaköynnös, sisältävät pieniä kiteitä, jotka aiheuttavat suun kipua, kuolaamista, suun raapimista tassulla ja oksentelua. Oireet ovat ikäviä mutta harvoin vaarallisia. Aloe vera ja tulilatva voivat aiheuttaa oksentelua ja ripulia, ja tulilatva voi harvinaisissa tapauksissa vaikuttaa sydämeen. Japaninkäpypalmu on hyvin myrkyllinen ja voi aiheuttaa maksan vajaatoiminnan. Keväällä myös tulppaanit ja narsissit eli pääsiäisliljat ovat myrkyllisiä, etenkin niiden sipulit. Ulkona vaarallisimpia kasveja ovat muun muassa kielo, marjakuusi, sormustinkukka ja alppiruusu.
+
+### Turvallisempia kasveja kotiin, jossa on kissa
+
+Rönsylilja, joulukaktus, perhosorkidea ja saintpaulia on luokiteltu kissoille myrkyttömiksi, ja ruukullinen kissanruohoa antaa kissalle muuta näykittävää kuin huonekasvit. Mikä tahansa kasvi, jopa ruoho, voi silti aiheuttaa oksentelua. Ennen kuin ostat uuden kasvin, tarkista se lemmikeille myrkyllisten kasvien luettelosta, esimerkiksi ASPCA:n listasta.
+
+### Jos kissa on pureskellut kasvia
+
+Soita eläinlääkärille. Kerro kasvin nimi, jos tiedät sen, sekä mitä osaa kissa söi ja milloin. Ota kasvi tai valokuva siitä mukaan. Älä yritä oksennuttaa kissaa itse. Jos kyse on liljasta, älä odota oireita: pyyhi mahdollinen siitepöly kissan turkista kostealla liinalla, jottei kissa nuole sitä lisää, ja lähde heti eläinlääkärille. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Muista myrkyistä voit lukea lisää myrkytysartikkelistamme.
+
+### Lähteet
+
+- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- US FDA: Lovely Lilies and Curious Cats: A Dangerous Combination. fda.gov
+- International Cat Care: Poisonous plants. icatcare.org/poisonous-plants
+- Merck Veterinary Manual: Houseplants and Ornamentals Toxic to Animals. merckvetmanual.com
+- Bennett A.J., Reineke E.L. (2013): Outcome following gastrointestinal tract decontamination and intravenous fluid diuresis in cats with known lily ingestion: 25 cases (2001–2010). Journal of the American Veterinary Medical Association 242(8):1110–1116. pubmed.ncbi.nlm.nih.gov/23547675
+- Langston C.E. (2002): Acute renal failure caused by lily ingestion in six cats. Journal of the American Veterinary Medical Association 220(1):49–52. pubmed.ncbi.nlm.nih.gov/12680447
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- ASPCA: Toxic and Non-Toxic Plant List – Cats. aspca.org/cats-plant-list
+- ASPCA: Lily. aspca.org/lily
+- ASPCA: Day Lilies. aspca.org/day-lilies-many-varieties
+- ASPCA: Lily-of-the-Valley. aspca.org/lily-valley
+- ASPCA: Poinsettia. aspca.org/poinsettia
+- ASPCA: Barbados Lily (amaryllis). aspca.org/barbados-lily
+- ASPCA: Christmas Rose. aspca.org/christmas-rose
+- ASPCA: Azalea. aspca.org/azalea
+- ASPCA: Kalanchoe. aspca.org/kalanchoe
+- ASPCA: Sago Palm. aspca.org/sago-palm
+- ASPCA: Spider Plant. aspca.org/spider-plant
+- ASPCA: Christmas Cactus. aspca.org/christmas-cactus
+- ASPCA: Phalaenopsis Orchid. aspca.org/phalaenopsis-orchid
+- ASPCA: African Violet. aspca.org/african-violet
+- thisisFINLAND: Iconic Finnish nature symbols stand out. finland.fi
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Lemmikkien terveys
+
+#### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
+
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi iäkkäiden kissojen yleisimmistä sairauksis...
+Terveys
+
+#### Seniorikissan terveystarkastus – sisältö, kuinka usein ja hinta
+
+Seniorikissan terveystarkastus eli senioritutkimus on perusteellinen tutkimus, johon kuuluvat verikokeet ja mieluiten...
+Takaisin etusivulle
+
+---
+
 # Koira yskii – syyt, milloin eläinlääkäriin ja hoito
 
 URL: https://elainklinikkasaari.fi/articles/koira-yskii.html
@@ -4761,7 +5064,7 @@ Päivystys
 
 #### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
 
-Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Usein koira tai kissa myrkyttyy syötyään jotain, mikä on m...
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
 Takaisin etusivulle
 
 ---
@@ -5833,7 +6136,7 @@ Päivystys
 
 #### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
 
-Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Usein koira tai kissa myrkyttyy syötyään jotain, mikä on m...
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
 Päivystys
 
 #### Koiran kohtutulehdus (pyometra) – oireet, kuinka nopeasti se etenee, hoito ja toipuminen
@@ -5851,63 +6154,65 @@ Takaisin etusivulle
 # Myrkytys koiralla ja kissalla – oireet ja ensiapu
 
 URL: https://elainklinikkasaari.fi/articles/myrkytys.html
-Last updated: 2026-11-08
+Last updated: 2026-11-20
 
 Päivystys
-24.9.2026
+20.11.2026
 
 ## Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Usein koira tai kissa myrkyttyy syötyään jotain, mikä on meille harmitonta mutta sille myrkyllistä, kuten suklaata, ksylitolia tai viinirypäleitä – tai päästyään käsiksi ihmisten lääkkeisiin. Myrkytyksen vakavuus riippuu aineesta, nielaistusta määrästä ja eläimen koosta. Myrkytysepäilyssä kannattaa aina soittaa heti eläinlääkärille, vaikka lemmikki vaikuttaisi vielä täysin terveeltä. Monien myrkkyjen kohdalla hoito tehoaa parhaiten – tai ainoastaan – ennen kuin oireita ilmaantuu.
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittomasta, kuten suklaasta, ksylitolista tai viinirypäleistä – tai ihmisten lääkkeistä. Myrkytysepäilyssä kannattaa aina soittaa heti eläinlääkärille, vaikka lemmikki vaikuttaisi vielä terveeltä: monia myrkytyksiä on helpointa hoitaa ennen kuin oireita ilmaantuu.
 
 ### Vaaralliset ruoka-aineet
 
-Useimmin ongelmia aiheuttavat suklaa, ksylitoli, viinirypäleet ja rusinat sekä sipuli ja valkosipuli. Suklaa ja kaakao sisältävät teobromiinia – mitä tummempi suklaa, sitä vaarallisempi se on. Ksylitoli on makeutusaine, jota on purukumeissa, pastilleissa, makeisissa, joissakin leivonnaisissa ja hammastahnassa. Koiralle se aiheuttaa verensokerin äkillisen laskun ja suurempina annoksina maksavaurion. Viinirypäleet ja rusinat voivat aiheuttaa koiralle munuaisten vajaatoiminnan, eikä turvallista määrää tunneta. Sipuli ja valkosipuli ovat vaarallisia kaikissa muodoissa – raakana, kypsennettynä tai jauheena – koska ne vaurioittavat punasoluja; kissat ovat niille vielä koiria herkempiä.
+Koiria useimmin myrkyttäviä ruoka-aineita ovat muun muassa suklaa, ksylitoli sekä viinirypäleet ja rusinat. Jokaisesta on oma sivunsa, jolla kerrotaan vaaralliset määrät ja oireet. Sipuli ja valkosipuli vaurioittavat punasoluja kaikissa muodoissaan – raakana, kypsennettynä tai jauheena – ja kissat ovat niille vielä koiria herkempiä, joten älä koskaan anna kissalle sipulilla tai valkosipulilla maustettua ruokaa. Suklaa on myrkyllistä myös kissoille, vaikka ne syövät sitä harvoin, ja viinirypäleetkin voivat olla niille vaarallisia. Pidä jouluna myös alkoholi, nouseva leipätaikina ja makadamiapähkinät poissa lemmikkien ulottuvilta. Rasvaiset ruoantähteet, kuten kinkunrasva, voivat aiheuttaa oksentelua tai kivuliaan haimatulehduksen.
 
 ### Jyrsijämyrkyt, lääkkeet ja muut vaarat
 
-Rotan- ja hiirenmyrkyt vaikuttavat eri tavoin. Veren hyytymistä estävät myrkkysyötit (antikoagulantit), joita Suomessa myydään kuluttajille yhä valmiiksi täytetyissä syöttirasioissa sisäkäyttöön, aiheuttavat sisäisiä verenvuotoja. Alfakloraloosi puolestaan on myrkyttänyt Suomessa monia kissoja, usein myrkkyä syöneiden hiirten kautta. Se aiheuttaa horjumista, kosketusherkkyyttä, nykimistä, kouristuksia ja vaarallista ruumiinlämmön laskua. Sen myynti kuluttajille päättyi elokuussa 2023, mutta tuholaistorjunnan ammattilaiset saavat yhä käyttää sitä ja koteihin voi olla jäänyt vanhoja varastoja, joten ulkoilevat kissat voivat edelleen altistua. Auton jäähdytinnesteessä eli pakkasnesteessä oleva etyleeniglykoli maistuu makealta, ja jo teelusikallinen laimentamatonta nestettä voi tappaa keskikokoisen kissan; myös koirat ovat vaarassa. Ihmisten kipulääkkeet ovat toinen yleinen myrkytysten aiheuttaja: ibuprofeeni voi aiheuttaa mahahaavoja ja munuaisvaurion, ja jo osa yhdestä parasetamolitabletista voi tappaa kissan. Permetriini, jota on joissakin koirille tarkoitetuissa iholle tiputettavissa punkki- ja kirppulääkkeissä sekä joissakin ihmisten syyhyvoiteissa, on kissoille erittäin myrkyllistä. Älä koskaan käytä koiralle tarkoitettua valmistetta kissalle. Kissa voi myrkyttyä jo pelkästä läheisestä kosketuksesta vastikään lääkittyyn koiraan tai nuolemalla voidetta käyttävän ihmisen ihoa, pyyhkeitä tai vuodevaatteita. Liljat, myös päivänliljat, ovat erityisen vaarallisia kissoille: turkista nuoltu siitepöly, pieni puraisu lehdestä tai jopa maljakon vesi voi aiheuttaa kuolemaan johtavan munuaisten vajaatoiminnan. Kesällä järvien ja meren sinileväkukinnat voivat myrkyttää koiria, jotka uivat vedessä tai juovat sitä. Oireet voivat alkaa jo minuuttien kuluessa, mutta osa niistä ilmaantuu vasta tuntien kuluttua.
+Hiiren- ja rotanmyrkyt voivat aiheuttaa sisäisiä verenvuotoja. Alfakloraloosilla myrkytettyjä hiiriä syöneet kissat alkavat horjua ja nykiä, ja niiden ruumiinlämpö laskee vaarallisen matalaksi. Auton jäähdytinneste eli pakkasneste maistuu makealta, ja jo teelusikallinen tai kaksi sitä voi tappaa kissan. Ihmisten kipulääkkeet ovat yleinen myrkytysten aiheuttaja: jo osa parasetamolitabletista voi tappaa kissan, ja ibuprofeeni voi aiheuttaa mahahaavoja ja munuaisvaurion. Joissakin koirille tarkoitetuissa iholle tiputettavissa punkki- ja kirppulääkkeissä on permetriiniä, joka on kissoille erittäin myrkyllistä. Kissa voi myrkyttyä jo kosketuksesta vastikään lääkittyyn koiraan. Liljat voivat tappaa kissan: lue lisää kissalle myrkyllisistä kasveista. Kesällä sinilevä voi myrkyttää koiria, jotka uivat sinileväisessä vedessä tai juovat sitä.
 
-### Oireet
+### Myrkytysoireet
 
-Oireet vaihtelevat myrkystä riippuen. Tavallisimpia ovat oksentelu, ripuli, kuolaaminen, vatsakipu, ruokahaluttomuus ja väsymys. Hermosto-oireita voivat olla nykiminen, vapina, kouristukset, tasapainon menetys, levottomuus tai lyyhistyminen. Vakavissa tapauksissa voi esiintyä tiheää hengitystä, kiihtynyttä sykettä, vaaleita, kellertäviä tai ruskehtavia ikeniä, verta oksennuksessa tai ulosteessa, poikkeavan matalaa tai korkeaa ruumiinlämpöä tai tajunnan menetystä. Kaikkien myrkkyjen oireet eivät näy heti: veren hyytymistä estävien jyrsijämyrkkyjen aiheuttama verenvuoto alkaa yleensä vasta 3–7 päivän kuluttua, sipulin tai valkosipulin aiheuttama anemia muutaman päivän kuluttua ja liljojen tai viinirypäleiden aiheuttama munuaisvaurio 1–3 vuorokauden kuluessa. Jäähdytinneste voi tuntien kuluessa aiheuttaa ensin humalan kaltaista horjumista. Sen jälkeen eläin voi näyttää toipuvan, ennen kuin vakava munuaisvaurio kehittyy. Juuri siksi on toimittava heti jo epäilyn perusteella eikä odotettava oireita.
+Oireet vaihtelevat myrkystä riippuen. Tavallisimpia ovat oksentelu, ripuli, kuolaaminen, ruokahaluttomuus ja väsymys. Jotkin myrkyt aiheuttavat nykimistä, vapinaa, kouristuksia, horjumista tai lyyhistymistä. Vakavissa tapauksissa voi esiintyä vaaleita, kellertäviä tai ruskehtavia ikeniä, tiheää hengitystä, verta oksennuksessa tai ulosteessa tai tajunnan menetystä. Ksylitoli voi alkaa vaikuttaa puolen tunnin kuluessa, ja suklaa aiheuttaa oireita yleensä 6–12 tunnin kuluessa. Sen sijaan voi kulua puolesta vuorokaudesta viikkoon, ennen kuin jyrsijämyrkyn aiheuttama verenvuoto ja liljojen, viinirypäleiden tai jäähdytinnesteen aiheuttama munuaisvaurio tulevat esiin. Siksi on toimittava heti jo epäilyn perusteella eikä odotettava oireita.
 
 ### Ensiapu
 
-Soita heti eläinlääkärille ja kerro, mitä lemmikki on nielaissut, kuinka paljon ja milloin sekä paljonko se suunnilleen painaa. Ota pakkaus tai valokuva siitä mukaan klinikalle. Älä yritä oksennuttaa lemmikkiä itse. Suola voi aiheuttaa vaarallisen suolamyrkytyksen, ja vetyperoksidi voi vaurioittaa mahalaukun limakalvoa ja on erityisen vaarallinen kissoille. Oksentaminen on haitallista myös, jos lemmikki on nielaissut syövyttävää tai öljymäistä ainetta tai jos se on unelias tai kouristelee. Älä myöskään anna maitoa tai öljyä – ne eivät neutraloi mitään ja voivat pahentaa tilannetta. Jos myrkkyä on iholla tai turkissa – tai jos lemmikki on uinut vedessä, jossa on sinileväkukinta – pue käsineet ja huuhtele iho ja turkki runsaalla puhtaalla, haalealla vesijohtovedellä (jos aine on öljymäistä, lisää tilkka mietoa astianpesuainetta). Kuivaa lemmikki hyvin ja estä sitä nuolemasta kohtaa. Älä kuitenkaan pese lemmikkiä, joka nykii tai kouristelee. Pidä lemmikki rauhallisena ja levossa matkalla klinikalle: kääri viileältä tuntuva kissa huopaan, pidä nykivä tai kosketusherkkä lemmikki hiljaisessa ja hämärässä paikassa, äläkä vie käsiäsi kouristelevan lemmikin suun lähelle. Vain eläinlääkäri voi arvioida, onko oksennuttamisesta vielä hyötyä: yleensä se auttaa vain ensimmäisen tunnin tai kahden kuluessa nielemisestä, vaikka joidenkin myrkkyjen kohdalla aikaikkuna on pidempi. Huomaa, että Myrkytystietokeskus ei neuvo lemmikinomistajia eläinten myrkytyksissä, joten soita lemmikkisi asioissa aina eläinlääkärille.
+Soita heti eläinlääkärille ja kerro, mitä lemmikki on nielaissut, kuinka paljon ja milloin sekä paljonko se suunnilleen painaa. Ota pakkaus tai valokuva siitä mukaan eläinlääkärille. Älä yritä oksennuttaa lemmikkiä itse: suola ja vetyperoksidi voivat aiheuttaa vakavaa vahinkoa. Älä anna maitoa tai öljyä. Älä myöskään anna mitään lääkettä, edes lääkehiiltä, ellei eläinlääkäri kehota siihen. Kysy eläinlääkäriltä, pitäisikö myrkky pestä turkista. Jos eläinlääkäri neuvoo pesemään, pue käsineet ja käytä haaleaa vettä, johon on lisätty tilkka mietoa astianpesuainetta. Pidä lemmikki matkalla rauhallisena ja kääri viileältä tuntuva kissa huopaan. Myrkytystietokeskus ei neuvo eläinten myrkytyksissä, joten soita aina eläinlääkärille.
 
 ### Eläinlääkärin hoito
 
-Hoito riippuu myrkystä ja siitä, kuinka kauan nielemisestä on kulunut. Varhaisessa vaiheessa eläinlääkäri voi antaa lääkettä, joka saa aikaan hallitun oksennuksen, sekä lääkehiiltä eli aktiivihiiltä, joka sitoo joitakin myrkkyjä suolistossa. Tukihoitoon kuuluvat suonensisäinen nestehoito, pahoinvointi- ja kouristuslääkitys, ruumiinlämmön hallinta ja elintoimintojen tarkka seuranta. Muutamaan myrkkyyn on oma vastalääkkeensä. Veren hyytymistä estävien jyrsijämyrkkyjen vastalääke on K1-vitamiini, jota annetaan yleensä vähintään neljän viikon ajan, kunnes veren hyytymiskokeen tulos on normaali. Jäähdytinnesteen vastalääke on fomepitsoli tai etanoli, jotka tehoavat vain, jos hoito aloitetaan tuntien kuluessa nielemisestä – kissalla mieluiten kolmen tunnin kuluessa – ennen kuin munuaiset vaurioituvat. Monelle myrkylle, kuten alfakloraloosille, permetriinille, liljoille ja sinilevälle, ei ole vastalääkettä, ja siksi varhainen hoito on niin tärkeää. Vakavasti myrkyttynyt eläin tarvitsee sairaalahoitoa, ja sen munuaisten ja maksan toimintaa sekä veren hyytymistä seurataan verikokein. Mitä aikaisemmin hoito alkaa, sitä parempi on ennuste.
+Hoito riippuu myrkystä ja siitä, kuinka pian lemmikki saa apua. Varhaisessa vaiheessa eläinlääkäri voi usein oksennuttaa lemmikin turvallisesti tai antaa ainetta, joka sitoo myrkkyä suolistossa. Sen jälkeen hoidon tavoitteena on pitää lemmikin vointi vakaana ja seurata sitä tarkasti, joskus sairaalahoidossa. Vain muutamaan myrkkyyn on vastalääke, joten mitä aikaisemmin hoito alkaa, sitä parempi on ennuste.
 
 ### Ehkäisy
 
-Säilytä lääkkeet, makeiset, ksylitolituotteet, siivousaineet ja jäähdytinneste hyvin lemmikin ulottumattomissa. Älä koskaan anna lemmikille ihmisten ruokaa tai lääkkeitä kysymättä ensin eläinlääkäriltä, äläkä koskaan käytä koiran kirppulääkettä kissalle. Kun koira on lääkitty permetriinivalmisteella, pidä kissat erossa siitä vähintään kolme päivää. Pidä kissat myös erossa ihmisestä, joka käyttää permetriiniä sisältävää syyhyvoidetta, sekä hänen pyyhkeistään ja vuodevaatteistaan. Pidä koira kytkettynä kaikkialla, missä voi olla jyrsijämyrkkyä tai roskia, äläkä käytä myrkkysyöttejä paikoissa, joissa omat tai naapureiden kissat liikkuvat. Älä pidä liljoja kodissa, jossa on kissa, ja tarkista, ovatko huonekasvisi myrkyllisiä. Älä kesällä päästä koiraa veteen, jossa näkyy sinileväkukintaa. Tallenna Eläinklinikka Saaren numero (06) 321 7300 ja alueen eläinlääkäripäivystyksen numero 0600 399 299 puhelimeesi jo nyt, niin apu on lähellä, jos pahin sattuu.
+Säilytä lääkkeet, makeiset, ksylitolituotteet, siivousaineet ja jäähdytinneste lemmikin ulottumattomissa, älä koskaan käytä koiran kirppulääkettä kissalle äläkä pidä liljoja kodissa tai puutarhassa, jossa on kissa. Tallenna Eläinklinikka Saaren numero (06) 321 7300 ja alueen eläinlääkäripäivystyksen numero 0600 399 299 puhelimeesi jo nyt.
 
 ### Lähteet
 
+- Merck Veterinary Manual: Garlic and Onion (Allium spp) Toxicosis in Animals. merckvetmanual.com/garlic-and-onion-allium-spp-toxicosis-in
+- ASPCA (2025): The Top 10 Toxins of 2025. aspca.org/top-10-toxins-2025
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
 - Merck Veterinary Manual: Chocolate Toxicosis in Animals. merckvetmanual.com/chocolate-toxicosis-in-animals
 - Merck Veterinary Manual: Xylitol Toxicosis in Dogs. merckvetmanual.com/xylitol-toxicosis-in-dogs
-- Merck Veterinary Manual: Garlic and Onion (Allium spp) Toxicosis in Animals. merckvetmanual.com/garlic-and-onion-allium-spp-toxicosis-in
-- MSD Veterinary Manual: Grape, Raisin, and Tamarind Toxicosis in Dogs. msdvetmanual.com
-- Merck Veterinary Manual: Ethylene Glycol Toxicosis in Animals. merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
-- Connally H.E. ym. (2010): Safety and efficacy of high-dose fomepizole compared with ethanol as therapy for ethylene glycol intoxication in cats. Journal of Veterinary Emergency and Critical Care 20(2):191–206. pubmed.ncbi.nlm.nih.gov
+- MSD Veterinary Manual: Grape, Raisin, and Tamarind (Vitis spp, Tamarindus spp) Toxicosis in Dogs. msdvetmanual.com
+- Merck Veterinary Manual: Macadamia Nut Toxicosis in Dogs. merckvetmanual.com/macadamia-nut-toxicosis-in-dogs
+- Merck Veterinary Manual: Bread Dough Toxicosis in Animals. merckvetmanual.com/bread-dough-toxicosis-in-animals
+- Merck Veterinary Manual: Toxicoses From Alcohols in Animals. merckvetmanual.com/toxicoses-from-alcohols-in-animals
 - Merck Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
-- Merck Veterinary Manual: Toxicities from Over-the-Counter Drugs. merckvetmanual.com/toxicities-from-over-the-counter-drugs
-- Merck Veterinary Manual: Houseplants and Ornamentals Toxic to Animals. merckvetmanual.com/houseplants-and-ornamentals-toxic-to-ani
-- Merck Veterinary Manual: Algal Poisoning of Animals. merckvetmanual.com/algal-poisoning-of-animals
-- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
-- ASPCA: Is It Ever Safe to Induce Vomiting? aspca.org/it-ever-safe-induce-vomiting
-- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
-- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- Merck Veterinary Manual: Alpha-Chloralose Poisoning in Animals. merckvetmanual.com/alpha-chloralose-poisoning-in-animals
+- Merck Veterinary Manual: Ethylene Glycol Toxicosis in Animals. merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
+- Merck Veterinary Manual: Ethylene Glycol (Antifreeze) Poisoning (pet owner version). merckvetmanual.com/ethylene-glycol-antifreeze-poisoning
+- Merck Veterinary Manual: Toxicoses From Human Analgesics in Animals. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
 - International Cat Care: Paracetamol poisoning in cats. icatcare.org/paracetamol-poisoning-in-cats
 - International Cat Care: Permethrin poisoning. icatcare.org/permethrin-poisoning
-- Fimea (2024): Syyhylääkkeet voivat olla vaarallisia lemmikeille. fimea.fi
-- Ruokavirasto: Suomen ensimmäinen alfakloraloosimyrkytys varmistettu lemmikkieläimellä. ruokavirasto.fi
-- Tukes (2020): Alfakloraloosia sisältävät jyrsijämyrkyt vaarallisia kissoille. tukes.fi/alfakloraloosia-sisaltavat-jyrsijamyrkyt
-- Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille. tukes.fi/alfakloraloosia-sisaltavia-jyrsijamyrkky
-- Tukes: Usein kysyttyä biosideista. tukes.fi/usein-kysyttya-biosideista
+- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- Merck Veterinary Manual: Algal Poisoning of Animals. merckvetmanual.com/algal-poisoning-of-animals
+- US FDA: Lovely Lilies and Curious Cats: A Dangerous Combination. fda.gov
+- ASPCA: Is It Ever Safe to Induce Vomiting? aspca.org/it-ever-safe-induce-vomiting
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- Merck Veterinary Manual: Principles of Toxicosis Treatment in Animals. merckvetmanual.com/principles-of-toxicosis-treatment-in-ani
+- Merck Veterinary Manual: General Treatment of Poisoning (pet owner version). merckvetmanual.com/general-treatment-of-poisoning
 - HUS: Myrkytystietokeskus. hus.fi
 Aiheeseen liittyvät palvelumme: Sisätaudit
 
@@ -5915,19 +6220,24 @@ Aiheeseen liittyvät palvelumme: Sisätaudit
 
 Päivystys
 
-#### Kyynpurema – Suomen ainoan myrkyllisen käärmeen purema lemmikille
+#### Koira söi suklaata – kuinka paljon on vaarallista ja mitä tehdä
 
-Kyy (Vipera berus) on Suomen ainoa myrkyllinen käärme, ja sitä tavataan lähes koko maassa, myös Pohjanmaalla. Puremia...
-Lemmikkien terveys
+Suklaa on yksi yleisimmistä koirien myrkytysten aiheuttajista, etenkin jouluna ja pääsiäisenä. Vaarallisuus riippuu s...
+Päivystys
 
-#### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
+#### Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
 
-Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi iäkkäiden kissojen yleisimmistä sairauksis...
-Terveys
+Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: puruku...
+Päivystys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Viinirypäleet ja rusinat – miksi ne ovat vaarallisia koiralle
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Viinirypäleet ja rusinat voivat aiheuttaa koiralle äkillisen munuaisten vajaatoiminnan. Turvallista määrää ei tunneta...
+Päivystys
+
+#### Kissalle myrkylliset kasvit – liljat, joulukukat ja huonekasvit
+
+Moni kissa näykkii mielellään kasveja, ja monet tavalliset kukat ja huonekasvit ovat kissoille myrkyllisiä. Useimmat...
 Takaisin etusivulle
 
 ---

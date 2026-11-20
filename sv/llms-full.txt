@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 76 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 80 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3605,6 +3605,30 @@ Last updated: 2026-11-20
 
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
+Akutvård
+20.11.2026
+
+### Hund åt choklad – hur mycket är farligt och vad ska du göra?
+
+Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt beror på vilken sorts choklad det är, hur mycket hunden har ätit och hur mycket den väger. Ring veterinären om du är osäker: chokladförgiftning är lättast att behandla innan några symtom har visat sig.
+Akutvård
+20.11.2026
+
+### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt: i tuggummi, pastiller, godis, tandkräm, sockerfria bakverk och en del sockerfria läkemedel, och det säljs som sockerersättning för bakning hemma. Några bitar tuggummi kan förgifta en hund, så ring veterinären genast om hunden har fått i sig xylitol – även om den ännu verkar pigg.
+Akutvård
+20.11.2026
+
+### Vindruvor och russin – därför är de farliga för hundar
+
+Vindruvor och russin kan orsaka plötslig njursvikt hos hundar. Det finns ingen känd säker mängd: en del hundar blir sjuka av bara några få, medan andra äter många utan att ta skada, och det går inte att veta i förväg. Har hunden ätit vindruvor eller russin ska du genast ringa veterinären, även om den verkar pigg.
+Akutvård
+20.11.2026
+
+### Giftiga växter för katter – liljor, julblommor och krukväxter
+
+Många katter tycker om att knapra på växter, och många vanliga blommor och krukväxter är giftiga för dem. De flesta ger bara ont i munnen, dregling eller kräkningar, men liljor kan döda en katt. Om din katt har tuggat på en växt och du inte är säker på att den är ofarlig, ring veterinären och ta med växten, eller ett foto av den.
 Husdjurshälsa
 20.11.2026
 
@@ -3642,11 +3666,11 @@ Hälsa
 
 Öroninflammation hos hund, det vill säga en inflammation i den yttre hörselgången (otitis externa), är en av de vanligaste orsakerna till veterinärbesök. Hunden skakar på huvudet och kliar sig i öronen, och örat luktar illa eller rinner. Vänta inte på att inflammationen ska läka av sig själv: med ordentlig undersökning och behandling går de flesta akuta öroninflammationer över inom 2–4 veckor. En öroninflammation som återkommer har nästan alltid en bakomliggande orsak, och den måste hittas och hållas under kontroll. Här berättar vi hur du känner igen en öroninflammation, vad som händer hos veterinären, vad behandlingen kostar hos oss på Djurklinik Saari och hur du förhindrar att den kommer tillbaka.
 Akutvård
-24.9.2026
+20.11.2026
 
 ### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
 
-Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är ofarligt för oss men giftigt för den, till exempel choklad, xylitol eller vindruvor – eller av människors läkemedel som den har kommit åt. Hur sjukt djuret blir beror på ämnet, mängden det har fått i sig och djurets storlek. Misstänker du förgiftning lönar det sig alltid att genast ringa veterinären, även om djuret ännu verkar helt piggt. Vid många förgiftningar fungerar behandlingen bäst – eller enbart – innan några symtom har visat sig.
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är ofarligt för oss, till exempel choklad, xylitol eller vindruvor – eller av läkemedel för människor. Misstänker du förgiftning lönar det sig alltid att genast ringa veterinären, även om djuret ännu verkar piggt: många förgiftningar är lättast att behandla innan några symtom har visat sig.
 Hälsa
 19.11.2026
 
@@ -4332,6 +4356,285 @@ Anestesi
 Smärthantering är en av de viktigaste delarna av varje operation. På vår klinik ingår en smärtlindringsinfusion rutin...
 Tillbaka till startsidan
 Ring
+
+---
+
+# Hund åt choklad – hur mycket är farligt och vad ska du göra?
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/hund-at-choklad.html
+Last updated: 2026-11-20
+
+Akutvård
+20.11.2026
+
+## Hund åt choklad – hur mycket är farligt och vad ska du göra?
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt beror på vilken sorts choklad det är, hur mycket hunden har ätit och hur mycket den väger. Ring veterinären om du är osäker: chokladförgiftning är lättast att behandla innan några symtom har visat sig.
+
+### Varför är choklad giftigt för hundar?
+
+Choklad innehåller teobromin och koffein. Hundar bryter ner teobromin mycket långsammare än människor, så ämnet stannar länge i kroppen och överstimulerar tillsammans med koffeinet hjärtat och nervsystemet. Ju mörkare chokladen är, desto mer teobromin och koffein innehåller den: kakaopulver har mest, mörk choklad flera gånger mer än mjölkchoklad och vit choklad nästan ingenting. Choklad är giftigt också för katter, men de äter det sällan.
+
+### Hur mycket choklad är farligt?
+
+Som en grov riktlinje kan lindriga symtom börja vid de här mängderna: för en hund på 5 kg ungefär 9 g mörk choklad med 70 % kakao eller 40 g mjölkchoklad; för en hund på 10 kg 18 g eller 85 g; för en hund på 20 kg 35 g eller 170 g och för en hund på 30 kg 55 g eller 260 g. Dubbelt så stora mängder kan ge hjärtbesvär och tre gånger så stora mängder kramper: en mörk chokladkaka på 100 g med 70 % kakao kan göra till och med en hund på 40 kg sjuk och ge hjärtbesvär hos en hund på 20 kg. Rent kakaopulver är ännu starkare: en matsked av det kan göra en liten hund sjuk. Också chokladtårta, chokladkex och fylld chokladkonfekt kan vara farliga, och de kan dessutom innehålla russin, macadamianötter eller xylitol. Kalkylatorer på nätet ger bara en uppskattning, så ring veterinären även om det gäller en mindre mängd.
+
+### Symtom på chokladförgiftning
+
+Symtomen börjar oftast inom 6–12 timmar. Tidiga symtom är kräkningar, diarré, ökad törst, rastlöshet och flämtande andning. Större mängder kan ge kraftigt förhöjd puls, darrningar, hög kroppstemperatur och kramper. I svåra fall kan symtomen hålla i sig i upp till tre dygn. En hund som har kräkts kan ändå vara i fara, eftersom en del av chokladen kan ha hunnit tas upp i kroppen.
+
+### Så gör du om hunden har ätit choklad
+
+Ring veterinären genast. Spara förpackningen och berätta vilken sorts choklad det var, ungefär hur mycket, när och vad hunden väger. Försök inte själv att få hunden att kräkas: salt och väteperoxid kan orsaka allvarliga skador. Kommer hunden tidigt till mottagningen kan veterinären ofta framkalla kräkning på ett säkert sätt innan mycket av giftet har tagits upp. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Behandling hos veterinären
+
+Om det inte är för sent framkallar veterinären kräkning och kan ge något som binder giftet i tarmen. En hund som har symtom kan behöva dropp och vård som lugnar hjärtat och nervsystemet, och en del hundar behöver läggas in tills symtomen har gått över. Med tidig behandling återhämtar sig de flesta hundar helt. Läs mer om andra gifter och om första hjälpen i vår artikel om förgiftningar.
+
+### Källor
+
+- Merck Veterinary Manual: Chocolate Toxicosis in Animals. merckvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
+- ASPCA (2025): The Top 10 Toxins of 2025. aspca.org/top-10-toxins-2025
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- Noble P.M. ym. (2017): Heightened risk of canine chocolate exposure at Christmas and Easter. Veterinary Record 181(25):684. pubmed.ncbi.nlm.nih.gov/29263290
+- Lelo A. ym. (1986): Comparative pharmacokinetics of caffeine and its primary demethylated metabolites paraxanthine, theobromine and theophylline in man. British Journal of Clinical Pharmacology 22(2):177–182. pubmed.ncbi.nlm.nih.gov/3756065
+- Weingart C., Hartmann A., Kohn B. (2021): Chocolate ingestion in dogs: 156 events (2015–2019). Journal of Small Animal Practice 62(11):979–983. pubmed.ncbi.nlm.nih.gov/33788297
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Akutvård
+
+#### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt:...
+Akutvård
+
+#### Vindruvor och russin – därför är de farliga för hundar
+
+Vindruvor och russin kan orsaka plötslig njursvikt hos hundar. Det finns ingen känd säker mängd: en del hundar blir s...
+Tillbaka till startsidan
+
+---
+
+# Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/xylitol-hund.html
+Last updated: 2026-11-20
+
+Akutvård
+20.11.2026
+
+## Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt: i tuggummi, pastiller, godis, tandkräm, sockerfria bakverk och en del sockerfria läkemedel, och det säljs som sockerersättning för bakning hemma. Några bitar tuggummi kan förgifta en hund, så ring veterinären genast om hunden har fått i sig xylitol – även om den ännu verkar pigg.
+
+### Varför är xylitol farligt för hundar?
+
+Hos hundar får xylitol kroppen att utsöndra en stor mängd insulin, och blodsockret sjunker kraftigt. Större mängder kan också skada levern. Xylitolförgiftning har inte rapporterats hos katter, men ring ändå veterinären om din katt har fått i sig xylitol.
+
+### Hur mycket xylitol är farligt?
+
+Redan 0,1 g xylitol per kilo kroppsvikt kan sänka blodsockret hos en hund, och ungefär 0,5 g per kilo kan skada levern. Finländskt helxylitoltuggummi innehåller ungefär ett gram xylitol per bit. Det betyder att redan en halv bit kan vara för mycket för en hund på 5 kg, en bit för en hund på 10 kg, två bitar för en hund på 20 kg och tre för en hund på 30 kg. Fem eller sex bitar kan skada levern hos en hund på 10 kg. Kontrollera innehållsförteckningen på andra produkter. Ingredienserna anges i fallande ordning efter mängd: står xylitol högt upp på listan innehåller produkten mycket xylitol, men mängden anges ofta inte. Xylitol kan stå som E 967. Redan en tesked rent xylitolsocker för bakning kan sänka blodsockret hos en stor hund.
+
+### Symtom på xylitolförgiftning
+
+Lågt blodsocker ger kräkningar, svaghet, trötthet, ostadighet, kollaps och kramper. Symtomen kan börja inom en halvtimme, men efter vissa tuggummin kan de dröja i upp till 12–18 timmar. En leverskada kan visa sig ett dygn eller mer senare som kräkningar, trötthet, gulaktigt tandkött eller blödningar. Vänta inte på symtom: behandlingen fungerar bäst innan de har visat sig.
+
+### Så gör du om hunden har ätit xylitol
+
+Ring veterinären genast och berätta vad hunden har ätit, hur mycket, när och ungefär vad den väger. Spara förpackningen. Försök inte själv att få hunden att kräkas. Om hunden blir svag eller ostadig eller får kramper ska du säga det till veterinären och ta dig dit så fort du kan. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Behandling hos veterinären
+
+Kommer hunden tidigt till mottagningen kan veterinären oftast framkalla kräkning på ett säkert sätt. Därefter kontrolleras blodsockret ofta, och vid behov hålls det uppe med sockerdropp. Levervärdena följs upp med upprepade blodprov under några dagar, eftersom en leverskada kan uppstå sent. De flesta hundar som behandlas tidigt återhämtar sig väl, men leversvikt är livshotande.
+
+### Förebyggande
+
+Många hundar hittar tuggummi eller pastiller i en handväska, en jackficka eller på ett bord. Förvara xylitolprodukter i stängda skåp och väskor utom räckhåll för hunden, och ge aldrig hunden godis eller bakverk som är avsedda för människor. Läs mer om andra gifter i vår artikel om förgiftningar.
+
+### Källor
+
+- Merck Veterinary Manual: Xylitol Toxicosis in Dogs. merckvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org
+- YTHS (2022): Xylitol, every day. yths.fi
+- STM: Päivähoitoikäisten lasten hampaiden harjaus ja ksylitolin käyttö. stm.fi
+- Ruokavirasto: Mitä kaikkea elintarvikkeen pakkaus kertoo? ruokavirasto.fi
+- Asetus (EU) N:o 1169/2011 elintarviketietojen antamisesta kuluttajille (18 art., 22 art., liitteet VII ja VIII). eur-lex.europa.eu
+- EFSA: Sweeteners. efsa.europa.eu
+- Dunayer E.K., Gwaltney-Brant S.M. (2006): Acute hepatic failure and coagulopathy associated with xylitol ingestion in eight dogs. Journal of the American Veterinary Medical Association 229(7):1113–1117. pubmed.ncbi.nlm.nih.gov/17014359
+- DuHadway M.R. ym. (2015): Retrospective evaluation of xylitol ingestion in dogs: 192 cases (2007–2012). Journal of Veterinary Emergency and Critical Care 25(5):646–654. pubmed.ncbi.nlm.nih.gov/26220654
+- Lovell T. ym. (2025): Retrospective Evaluation of the Incidence and Risk Factors Associated With the Development of a Hepatopathy in Xylitol Ingestion: 95 Dogs (2018–2022). Journal of Veterinary Emergency and Critical Care 35(5):571–576. pubmed.ncbi.nlm.nih.gov/41056358
+- Jerzsele Á. ym. (2018): Effects of p.o. administered xylitol in cats. Journal of Veterinary Pharmacology and Therapeutics 41(3):409–414. pubmed.ncbi.nlm.nih.gov/29430681
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Akutvård
+
+#### Hund åt choklad – hur mycket är farligt och vad ska du göra?
+
+Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt be...
+Akutvård
+
+#### Vindruvor och russin – därför är de farliga för hundar
+
+Vindruvor och russin kan orsaka plötslig njursvikt hos hundar. Det finns ingen känd säker mängd: en del hundar blir s...
+Tillbaka till startsidan
+
+---
+
+# Vindruvor och russin – därför är de farliga för hundar
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/vindruvor-och-russin-hund.html
+Last updated: 2026-11-20
+
+Akutvård
+20.11.2026
+
+## Vindruvor och russin – därför är de farliga för hundar
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Vindruvor och russin kan orsaka plötslig njursvikt hos hundar. Det finns ingen känd säker mängd: en del hundar blir sjuka av bara några få, medan andra äter många utan att ta skada, och det går inte att veta i förväg. Har hunden ätit vindruvor eller russin ska du genast ringa veterinären, även om den verkar pigg.
+
+### Här gömmer sig vindruvor och russin
+
+Färska vindruvor i alla färger, russin, sultanrussin och korinter (torkade vindruvor) är alla farliga. Russin är lätta att missa: de gömmer sig i julens fruktkaka, russinbullar, müsli och nöt- och russinblandningar, och de läggs i glöggen tillsammans med mandel.
+
+### Varför är de farliga?
+
+Forskare misstänker att det skadliga ämnet är vinsyra, som hundar är särskilt känsliga för. Halten varierar från druva till druva och från parti till parti, vilket kan förklara varför en del hundar klarar sig och andra inte. Giftet skadar njurarna, och skadan kan bli bestående eller dödlig. Också katter kan vara i riskzonen, så ring veterinären om din katt har ätit vindruvor eller russin.
+
+### Symtom
+
+Kräkningar är ofta det första symtomet, vanligen inom 6–12 timmar, och därefter följer diarré, trötthet och aptitlöshet. Njursvikten utvecklas under ett till tre dygn: hunden kan kissa mycket mindre än vanligt eller inte alls. En hund som verkar pigg dagen efter kan ändå vara i fara, och därför bör behandlingen inledas innan några symtom har visat sig.
+
+### Så gör du och så behandlas förgiftningen
+
+Ring veterinären genast och berätta hur många vindruvor eller russin hunden har ätit, när och ungefär vad den väger. Försök inte själv att få hunden att kräkas. Kommer hunden tidigt till mottagningen framkallar veterinären kräkning på ett säkert sätt och kan ge något som binder giftet i tarmen. En del hundar behöver sedan dropp i två dygn eller längre, och blodprov tas för att kontrollera njurarna. Med tidig behandling är prognosen god, men när njurarna väl har slutat fungera är den dålig. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Läs mer om andra gifter i vår artikel om förgiftningar.
+
+### Källor
+
+- MSD Veterinary Manual: Grape, Raisin, and Tamarind (Vitis spp, Tamarindus spp) Toxicosis in Dogs. msdvetmanual.com
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org
+- Eubig P.A. ym. (2005): Acute renal failure in dogs after the ingestion of grapes or raisins: a retrospective evaluation of 43 dogs (1992–2002). Journal of Veterinary Internal Medicine 19(5):663–674. pubmed.ncbi.nlm.nih.gov/16231710
+- Reich C.F. ym. (2020): Retrospective evaluation of the clinical course and outcome following grape or raisin ingestion in dogs (2005–2014): 139 cases. Journal of Veterinary Emergency and Critical Care 30(1):60–65. pubmed.ncbi.nlm.nih.gov/31714003
+- Downs J. ym. (2024): Scoping review exploring the evidence base on Vitis vinifera toxicity in dogs after ingestion. Veterinary Record 195(7):e4536. pubmed.ncbi.nlm.nih.gov/39183495
+- Downs J. ym. (2026): A descriptive cohort study of Vitis vinifera fruit (grape/raisin/sultana/currant) ingestion in dogs, reported by the Veterinary Poisons Information Service between 1994 and 2023. Veterinary Record Open 13(2):e70052. pubmed.ncbi.nlm.nih.gov/43054498
+- Dijkman M.A. ym. (2022): Incidence of Vitis fruit-induced clinical signs and acute kidney injury in dogs and cats. Journal of Small Animal Practice 63(6):447–453. pubmed.ncbi.nlm.nih.gov/35137417
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Akutvård
+
+#### Hund åt choklad – hur mycket är farligt och vad ska du göra?
+
+Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt be...
+Akutvård
+
+#### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt:...
+Tillbaka till startsidan
+
+---
+
+# Giftiga växter för katter – liljor, julblommor, krukväxter
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/giftiga-vaxter-for-katter.html
+Last updated: 2026-11-20
+
+Akutvård
+20.11.2026
+
+## Giftiga växter för katter – liljor, julblommor och krukväxter
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Många katter tycker om att knapra på växter, och många vanliga blommor och krukväxter är giftiga för dem. De flesta ger bara ont i munnen, dregling eller kräkningar, men liljor kan döda en katt. Om din katt har tuggat på en växt och du inte är säker på att den är ofarlig, ring veterinären och ta med växten, eller ett foto av den.
+
+### Liljor är farligast
+
+Äkta liljor (Lilium) och dagliljor (Hemerocallis) orsakar plötslig njursvikt hos katter. Alla delar är giftiga – blommorna, bladen, stjälkarna och pollenet – och detsamma gäller vattnet i vasen. En katt kan förgiftas av att slicka i sig pollen från pälsen eller av att tugga på ett enda blad. Först kommer kräkningar, dregling och trötthet inom några timmar, och inom ett till tre dygn följer njursvikt. En katt som snabbt kommer till veterinären, innan njurarna har skadats, återhämtar sig oftast; om behandlingen inleds först när njurarna sviktar är prognosen dålig. Ha inga liljor hemma eller i trädgården om du har katt – inte heller ”pollenfria” liljor är säkra. Fredskalla och kalla är inte äkta liljor och irriterar oftast bara munnen, men liljekonvaljen, Finlands nationalblomma, innehåller hjärtgifter och är också farlig.
+
+### Julblommor
+
+Julstjärnan är mindre farlig än sitt rykte: växtsaften irriterar oftast bara munnen och magen. Amaryllisar och hyacinter är skadligare, särskilt lökarna, och kan ge kräkningar, diarré och dregling. Julrosor kan ge dregling, magsmärtor och diarré, och azaleor kan också påverka hjärtat. Liljor i julbuketter är den största faran.
+
+### Vanliga krukväxter
+
+Många populära krukväxter, som monstera, dieffenbachia, filodendron och gullranka, innehåller små kristaller som ger smärta i munnen, dregling och kräkningar, och som får katten att krafsa med tassen mot munnen. Det är obehagligt men sällan farligt. Aloe vera och våreld (kalanchoe) kan ge kräkningar och diarré, och våreld kan i sällsynta fall påverka hjärtat. Kottepalmen är mycket giftig och kan orsaka leversvikt. På våren är också tulpaner och påskliljor giftiga, särskilt lökarna. Utomhus hör liljekonvalj, idegran, fingerborgsblomma och rhododendron till de farligaste växterna.
+
+### Säkrare växter i ett hem med katt
+
+Ampelliljor, julkaktusar, fjärilsorkidéer och saintpaulior anges som ogiftiga för katter, och en kruka kattgräs ger katten något att knapra på i stället för krukväxterna. Vilken växt som helst, även gräs, kan ändå ge kräkningar. Kontrollera nya växter mot en lista över växter som är giftiga för husdjur, till exempel ASPCA:s, innan du köper dem.
+
+### Om katten har tuggat på en växt
+
+Ring veterinären. Berätta vilken växt det är, om du vet det, vilken del katten har ätit och när, och ta med växten eller ett foto av den. Försök inte själv att få katten att kräkas. Gäller det liljor ska du inte vänta på symtom: torka bort pollen från kattens päls med en fuktig trasa så att den inte kan slicka i sig mer, och åk genast till en veterinär. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Läs mer om andra gifter i vår artikel om förgiftningar.
+
+### Källor
+
+- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- US FDA: Lovely Lilies and Curious Cats: A Dangerous Combination. fda.gov
+- International Cat Care: Poisonous plants. icatcare.org/poisonous-plants
+- Merck Veterinary Manual: Houseplants and Ornamentals Toxic to Animals. merckvetmanual.com
+- Bennett A.J., Reineke E.L. (2013): Outcome following gastrointestinal tract decontamination and intravenous fluid diuresis in cats with known lily ingestion: 25 cases (2001–2010). Journal of the American Veterinary Medical Association 242(8):1110–1116. pubmed.ncbi.nlm.nih.gov/23547675
+- Langston C.E. (2002): Acute renal failure caused by lily ingestion in six cats. Journal of the American Veterinary Medical Association 220(1):49–52. pubmed.ncbi.nlm.nih.gov/12680447
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- ASPCA: Toxic and Non-Toxic Plant List – Cats. aspca.org/cats-plant-list
+- ASPCA: Lily. aspca.org/lily
+- ASPCA: Day Lilies. aspca.org/day-lilies-many-varieties
+- ASPCA: Lily-of-the-Valley. aspca.org/lily-valley
+- ASPCA: Poinsettia. aspca.org/poinsettia
+- ASPCA: Barbados Lily (amaryllis). aspca.org/barbados-lily
+- ASPCA: Christmas Rose. aspca.org/christmas-rose
+- ASPCA: Azalea. aspca.org/azalea
+- ASPCA: Kalanchoe. aspca.org/kalanchoe
+- ASPCA: Sago Palm. aspca.org/sago-palm
+- ASPCA: Spider Plant. aspca.org/spider-plant
+- ASPCA: Christmas Cactus. aspca.org/christmas-cactus
+- ASPCA: Phalaenopsis Orchid. aspca.org/phalaenopsis-orchid
+- ASPCA: African Violet. aspca.org/african-violet
+- thisisFINLAND: Iconic Finnish nature symbols stand out. finland.fi
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Husdjurshälsa
+
+#### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter. Studier t...
+Hälsa
+
+#### Hälsokontroll för seniorkatt – vad ingår, hur ofta och pris
+
+En hälsokontroll för seniorkatt, eller seniorundersökning, är en grundlig undersökning med blodprov – helst också med...
+Tillbaka till startsidan
 
 ---
 
@@ -5512,63 +5815,65 @@ Tillbaka till startsidan
 # Förgiftning hos hund och katt | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/forgiftning.html
-Last updated: 2026-10-15
+Last updated: 2026-11-20
 
 Akutvård
-24.9.2026
+20.11.2026
 
 ## Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
 
 Veterinär Assaf Wydra, Eläinklinikka Saari
-Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är ofarligt för oss men giftigt för den, till exempel choklad, xylitol eller vindruvor – eller av människors läkemedel som den har kommit åt. Hur sjukt djuret blir beror på ämnet, mängden det har fått i sig och djurets storlek. Misstänker du förgiftning lönar det sig alltid att genast ringa veterinären, även om djuret ännu verkar helt piggt. Vid många förgiftningar fungerar behandlingen bäst – eller enbart – innan några symtom har visat sig.
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är ofarligt för oss, till exempel choklad, xylitol eller vindruvor – eller av läkemedel för människor. Misstänker du förgiftning lönar det sig alltid att genast ringa veterinären, även om djuret ännu verkar piggt: många förgiftningar är lättast att behandla innan några symtom har visat sig.
 
 ### Farlig mat
 
-De ämnen som oftast ställer till problem är choklad, xylitol, vindruvor och russin samt lök och vitlök. Choklad och kakao innehåller teobromin – ju mörkare chokladen är, desto farligare är den. Xylitol är ett sötningsmedel som finns i tuggummi, pastiller, godis, vissa bakverk och tandkräm. Hos hund orsakar det ett plötsligt blodsockerfall och i större doser leverskador. Vindruvor och russin kan orsaka njursvikt hos hund, och det finns ingen känd säker mängd. Lök och vitlök i alla former – råa, tillagade eller som pulver – skadar de röda blodkropparna, och katter är ännu känsligare för dem än hundar.
+Till de livsmedel som oftast förgiftar hundar hör choklad, xylitol samt vindruvor och russin. Var och en av dem har en egen sida med farliga mängder och symtom. Lök och vitlök i alla former – råa, tillagade eller som pulver – skadar de röda blodkropparna, och katter är ännu känsligare för dem än hundar, så ge aldrig en katt mat som är kryddad med lök eller vitlök. Choklad är giftigt också för katter, även om de sällan äter det, och detsamma kan gälla vindruvor. Under julen ska du också hålla alkohol, jäsande bröddeg och macadamianötter borta från djuren. Feta matrester, som fettet från julskinkan, kan ge kräkningar eller en smärtsam bukspottkörtelinflammation.
 
 ### Råttgift, läkemedel och andra faror
 
-Rått- och musgift verkar på olika sätt. Antikoagulerande beten, som i Finland fortfarande säljs till konsumenter i färdigt fyllda betesstationer för inomhusbruk, orsakar inre blödningar. Alfakloralos har förgiftat många katter i Finland, ofta genom att katterna har ätit förgiftade möss. Det ger ostadighet, överkänslighet för beröring, ryckningar, kramper och farligt låg kroppstemperatur. Försäljningen till konsumenter upphörde i augusti 2023, men yrkesmässiga skadedjursbekämpare får ännu använda medlet och gamla lager kan finnas kvar i hemmen, så utekatter kan fortfarande utsättas för giftet. Frostskyddsvätska (etylenglykol, som finns i bilens kylarvätska) smakar sött. Redan en tesked outspädd frostskyddsvätska kan döda en medelstor katt, och också hundar är i farozonen. Smärtstillande läkemedel för människor är en annan vanlig orsak: ibuprofen kan ge magsår och njurskador, och redan en del av en enda paracetamoltablett kan döda en katt. Permetrin, som finns i vissa droppreparat (spot on) mot loppor och fästingar för hundar och i vissa skabbkrämer för människor, är mycket giftigt för katter. Använd aldrig ett hundpreparat på katt. En katt kan förgiftas bara genom nära kontakt med en nyss behandlad hund, eller genom att slicka på huden, handdukarna eller sängkläderna hos en person som använder krämen. Liljor, även dagliljor, är särskilt farliga för katter: pollen som katten slickar i sig när den tvättar pälsen, en liten tugga av ett blad eller till och med vattnet i vasen kan orsaka dödlig njursvikt. På sommaren kan algblomning (blågröna alger) i sjöar och i havet förgifta hundar som simmar i vattnet eller dricker av det. Symtomen kan börja inom några minuter, men en del visar sig först flera timmar senare.
+Mus- och råttgift kan orsaka inre blödningar, och katter som äter möss som har förgiftats med alfakloralos blir ostadiga, får ryckningar och en farligt låg kroppstemperatur. Frostskyddsvätska smakar sött, och en eller två teskedar kan döda en katt. Smärtstillande läkemedel för människor är en vanlig orsak: redan en del av en paracetamoltablett kan döda en katt, och ibuprofen kan ge magsår och njurskador. Vissa droppreparat (spot on) mot loppor och fästingar för hundar innehåller permetrin, som är mycket giftigt för katter, även vid kontakt med en nyss behandlad hund. Liljor kan döda en katt: läs om giftiga växter för katter. På sommaren kan blågröna alger (algblomning) förgifta hundar som simmar i vattnet eller dricker av det.
 
 ### Symtom
 
-Symtomen varierar från gift till gift. Vanligast är kräkningar, diarré, dregling, magsmärtor, aptitlöshet och slöhet. Neurologiska symtom kan vara ryckningar, darrningar, kramper, balanssvårigheter, rastlöshet eller kollaps. I svåra fall kan du se snabb andning, kraftigt förhöjd puls, blekt, gulaktigt eller brunaktigt tandkött, blod i uppkastningar eller avföring, onormalt låg eller hög kroppstemperatur eller medvetslöshet. Alla gifter ger sig inte till känna med en gång: blödningar av antikoagulerande råttgift börjar oftast först tre till sju dygn senare, blodbrist (anemi) av lök eller vitlök visar sig efter några dagar och njurskador av liljor eller vindruvor inom ett till tre dygn. Frostskyddsvätska kan inom några timmar först göra djuret berusat och ostadigt. Därefter kan djuret tyckas piggna till innan allvarliga njurskador utvecklas. Just därför ska du agera genast vid minsta misstanke i stället för att vänta på symtom.
+Symtomen beror på giftet. Vanligast är kräkningar, diarré, dregling, aptitlöshet och slöhet. Vissa gifter ger ryckningar, darrningar, kramper, ostadighet eller kollaps. I svåra fall kan du se blekt, gulaktigt eller brunaktigt tandkött, snabb andning, blod i uppkastningar eller avföring, eller medvetslöshet. Xylitol kan verka inom en halvtimme och choklad oftast inom 6–12 timmar, medan det kan ta allt från ett halvt dygn till en vecka innan blödningar av råttgift och njurskador av liljor, vindruvor eller frostskyddsvätska visar sig. Därför ska du agera genast vid minsta misstanke i stället för att vänta på symtom.
 
 ### Första hjälpen
 
-Ring veterinären genast och berätta vad djuret har fått i sig, hur mycket, när och ungefär vad djuret väger. Ta med förpackningen, eller ett foto av den, till kliniken. Försök inte själv att få djuret att kräkas. Salt kan orsaka en farlig saltförgiftning, och väteperoxid kan skada magslemhinnan och är särskilt farlig för katter. Kräkning är dessutom skadlig efter frätande eller oljiga produkter, eller om djuret är dåsigt eller har kramper. Ge inte heller mjölk eller olja – de neutraliserar ingenting och kan förvärra läget. Har djuret fått gift på huden eller i pälsen – eller har det badat i vatten med algblomning – ska du ta på dig handskar och skölja huden och pälsen med rikligt med rent, ljummet kranvatten (tillsätt lite milt diskmedel vid oljiga produkter). Torka djuret ordentligt och hindra det från att slicka på stället. Skölj eller bada inte ett djur som har ryckningar eller kramper. Se till att djuret får vara lugnt och stilla under resan till kliniken. Svep en filt om en katt som känns kall, håll ett djur som har ryckningar eller är överkänsligt på ett lugnt och halvmörkt ställe, och håll händerna borta från munnen på ett djur som har kramper. Bara veterinären kan bedöma om det ännu lönar sig att framkalla kräkning. Det hjälper oftast bara inom en till två timmar efter att djuret har fått i sig giftet, även om tidsfönstret är längre för vissa gifter. Observera att Giftinformationscentralen (Myrkytystietokeskus) inte ger djurägare råd om förgiftningar hos djur. Ring alltid en veterinär när det gäller ditt djur.
+Ring veterinären genast och berätta vad djuret har fått i sig, hur mycket, när och ungefär vad det väger. Ta med förpackningen, eller ett foto av den. Försök inte själv att få djuret att kräkas: salt och väteperoxid kan orsaka allvarliga skador. Ge inte mjölk eller olja. Ge inga läkemedel, inte ens medicinskt kol, om inte veterinären uppmanar dig att göra det. Fråga veterinären om du ska tvätta bort giftet ur pälsen. I så fall ska du ta på dig handskar och använda ljummet vatten med lite milt diskmedel. Håll djuret lugnt under resan och svep en filt om en katt som känns kall. Giftinformationscentralen (Myrkytystietokeskus) ger inte råd om förgiftningar hos djur, så ring alltid en veterinär.
 
 ### Veterinärbehandling
 
-Behandlingen beror på giftet och på hur lång tid det har gått sedan djuret fick i sig det. I ett tidigt skede kan veterinären framkalla en kontrollerad kräkning med läkemedel och ge aktivt kol, som binder vissa gifter i tarmen. Den understödjande vården omfattar dropp, läkemedel mot illamående och kramper, reglering av kroppstemperaturen och noggrann övervakning av vitalfunktionerna. Mot några få gifter finns ett specifikt motgift. Vid antikoagulerande råttgift är det K1-vitamin, som oftast ges i fyra veckor eller längre, tills ett blodprov visar att blodet koagulerar normalt. Vid frostskyddsvätska är det fomepizol eller etanol, som bara hjälper om behandlingen inleds inom några timmar efter att djuret fått i sig vätskan – hos katter helst inom tre timmar – innan njurarna har skadats. Många gifter, däribland alfakloralos, permetrin, liljor och blågröna alger, saknar motgift, och därför är tidig behandling så viktig. I svåra fall behöver djuret läggas in för vård, och blodprov tas för att följa njur- och leverfunktionen och blodets koagulation. Ju tidigare behandlingen inleds, desto bättre är prognosen.
+Behandlingen beror på giftet och på hur snabbt djuret får hjälp. I ett tidigt skede kan veterinären ofta framkalla kräkning på ett säkert sätt eller ge något som binder giftet i tarmen. Därefter går vården ut på att hålla djuret stabilt och övervaka det noga, och ibland behöver det läggas in. Bara några få gifter har ett motgift, så ju tidigare behandlingen inleds, desto bättre är prognosen.
 
 ### Förebyggande
 
-Förvara läkemedel, godis, xylitolprodukter, rengöringsmedel och frostskyddsvätska utom räckhåll för djuret. Ge aldrig djuret människomat eller mediciner utan att först fråga veterinären, och använd aldrig hundens loppmedel på katt. Håll katter åtskilda från hunden i minst tre dygn efter att den har behandlats med ett permetrinpreparat. Katter ska också hållas borta från den som använder en skabbkräm med permetrin och från personens handdukar och sängkläder. Ha hunden kopplad överallt där det kan ligga råttgift eller skräp, och undvik att använda giftbeten där dina egna eller grannarnas katter rör sig. Ha inga liljor hemma om du har katt, och ta reda på om dina krukväxter är giftiga. På sommaren ska du hålla hunden borta från vatten med synlig algblomning. Spara redan nu Djurklinik Saaris nummer (06) 321 7300 och den regionala veterinärjourens nummer 0600 399 299 i telefonen, så har du hjälpen nära till hands om olyckan skulle vara framme.
+Förvara läkemedel, godis, xylitolprodukter, rengöringsmedel och frostskyddsvätska utom räckhåll för djuret, använd aldrig hundens loppmedel på katt och ha inga liljor hemma eller i trädgården om du har katt. Spara redan nu Djurklinik Saaris nummer (06) 321 7300 och den regionala veterinärjourens nummer 0600 399 299 i telefonen.
 
 ### Källor
 
+- Merck Veterinary Manual: Garlic and Onion (Allium spp) Toxicosis in Animals. merckvetmanual.com/garlic-and-onion-allium-spp-toxicosis-in
+- ASPCA (2025): The Top 10 Toxins of 2025. aspca.org/top-10-toxins-2025
+- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
 - Merck Veterinary Manual: Chocolate Toxicosis in Animals. merckvetmanual.com/chocolate-toxicosis-in-animals
 - Merck Veterinary Manual: Xylitol Toxicosis in Dogs. merckvetmanual.com/xylitol-toxicosis-in-dogs
-- Merck Veterinary Manual: Garlic and Onion (Allium spp) Toxicosis in Animals. merckvetmanual.com/garlic-and-onion-allium-spp-toxicosis-in
-- MSD Veterinary Manual: Grape, Raisin, and Tamarind Toxicosis in Dogs. msdvetmanual.com
-- Merck Veterinary Manual: Ethylene Glycol Toxicosis in Animals. merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
-- Connally H.E. ym. (2010): Safety and efficacy of high-dose fomepizole compared with ethanol as therapy for ethylene glycol intoxication in cats. Journal of Veterinary Emergency and Critical Care 20(2):191–206. pubmed.ncbi.nlm.nih.gov
+- MSD Veterinary Manual: Grape, Raisin, and Tamarind (Vitis spp, Tamarindus spp) Toxicosis in Dogs. msdvetmanual.com
+- Merck Veterinary Manual: Macadamia Nut Toxicosis in Dogs. merckvetmanual.com/macadamia-nut-toxicosis-in-dogs
+- Merck Veterinary Manual: Bread Dough Toxicosis in Animals. merckvetmanual.com/bread-dough-toxicosis-in-animals
+- Merck Veterinary Manual: Toxicoses From Alcohols in Animals. merckvetmanual.com/toxicoses-from-alcohols-in-animals
 - Merck Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
-- Merck Veterinary Manual: Toxicities from Over-the-Counter Drugs. merckvetmanual.com/toxicities-from-over-the-counter-drugs
-- Merck Veterinary Manual: Houseplants and Ornamentals Toxic to Animals. merckvetmanual.com/houseplants-and-ornamentals-toxic-to-ani
-- Merck Veterinary Manual: Algal Poisoning of Animals. merckvetmanual.com/algal-poisoning-of-animals
-- ASPCA Animal Poison Control Center: People Foods to Avoid Feeding Your Pets. aspca.org/people-foods-avoid-feeding-your-pets
-- ASPCA: Is It Ever Safe to Induce Vomiting? aspca.org/it-ever-safe-induce-vomiting
-- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
-- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- Merck Veterinary Manual: Alpha-Chloralose Poisoning in Animals. merckvetmanual.com/alpha-chloralose-poisoning-in-animals
+- Merck Veterinary Manual: Ethylene Glycol Toxicosis in Animals. merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
+- Merck Veterinary Manual: Ethylene Glycol (Antifreeze) Poisoning (pet owner version). merckvetmanual.com/ethylene-glycol-antifreeze-poisoning
+- Merck Veterinary Manual: Toxicoses From Human Analgesics in Animals. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
 - International Cat Care: Paracetamol poisoning in cats. icatcare.org/paracetamol-poisoning-in-cats
 - International Cat Care: Permethrin poisoning. icatcare.org/permethrin-poisoning
-- Fimea (2024): Syyhylääkkeet voivat olla vaarallisia lemmikeille. fimea.fi
-- Ruokavirasto: Suomen ensimmäinen alfakloraloosimyrkytys varmistettu lemmikkieläimellä. ruokavirasto.fi
-- Tukes (2020): Alfakloraloosia sisältävät jyrsijämyrkyt vaarallisia kissoille. tukes.fi/alfakloraloosia-sisaltavat-jyrsijamyrkyt
-- Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille. tukes.fi/alfakloraloosia-sisaltavia-jyrsijamyrkky
-- Tukes: Usein kysyttyä biosideista. tukes.fi/usein-kysyttya-biosideista
+- International Cat Care: Lily poisoning in cats. icatcare.org/lily-poisoning-in-cats
+- Merck Veterinary Manual: Algal Poisoning of Animals. merckvetmanual.com/algal-poisoning-of-animals
+- US FDA: Lovely Lilies and Curious Cats: A Dangerous Combination. fda.gov
+- ASPCA: Is It Ever Safe to Induce Vomiting? aspca.org/it-ever-safe-induce-vomiting
+- Pet Poison Helpline: Five Pet Poisoning First Aid Misconceptions. petpoisonhelpline.com
+- Merck Veterinary Manual: Principles of Toxicosis Treatment in Animals. merckvetmanual.com/principles-of-toxicosis-treatment-in-ani
+- Merck Veterinary Manual: General Treatment of Poisoning (pet owner version). merckvetmanual.com/general-treatment-of-poisoning
 - HUS: Myrkytystietokeskus. hus.fi
 Relaterade tjänster: Internmedicin
 
@@ -5576,19 +5881,24 @@ Relaterade tjänster: Internmedicin
 
 Akutvård
 
-#### Huggormsbett – bett av Finlands enda giftiga orm
+#### Hund åt choklad – hur mycket är farligt och vad ska du göra?
 
-Huggormen (Vipera berus) är Finlands enda giftiga orm och finns i nästan hela landet, också i Österbotten. Bett sker...
-Husdjurshälsa
+Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt be...
+Akutvård
 
-#### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
+#### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
 
-Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter. Studier t...
-Hälsa
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt:...
+Akutvård
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Vindruvor och russin – därför är de farliga för hundar
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+Vindruvor och russin kan orsaka plötslig njursvikt hos hundar. Det finns ingen känd säker mängd: en del hundar blir s...
+Akutvård
+
+#### Giftiga växter för katter – liljor, julblommor och krukväxter
+
+Många katter tycker om att knapra på växter, och många vanliga blommor och krukväxter är giftiga för dem. De flesta g...
 Tillbaka till startsidan
 
 ---
