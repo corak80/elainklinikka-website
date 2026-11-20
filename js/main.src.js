@@ -2458,6 +2458,69 @@ const translations = {
     en: "Book an appointment if your dog or cat has severe mats close to the skin, cannot be brushed or groomed awake because of pain, fear or stress, or if you notice skin changes, itching, hair loss or an unusual smell. A cat that has stopped grooming itself should also be examined. Call us on (06) 321 7300 or book online."
   },
 
+  // Article: Rat and Mouse Poison – Dangers to Dogs and Cats, and What to Do (new 2026-11, poisoning hub spoke 5)
+  'article.ratpoison.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
+  "article.ratpoison.title": {
+    fi: "Rotanmyrkky ja hiirenmyrkky – vaarat koiralle ja kissalle sekä ensiapu",
+    sv: "Råttgift och musgift – faror för hundar och katter, och vad du ska göra",
+    en: "Rat and Mouse Poison – Dangers to Dogs and Cats, and What to Do"
+  },
+  "article.ratpoison.intro": {
+    fi: "Rotanmyrkyt ja hiirenmyrkyt ovat yleisiä koirien myrkytysten aiheuttajia, ja kissa voi myrkyttyä syötyään myrkytetyn hiiren. Suomessa kuluttajille myytävät hiirenmyrkyt ovat tällä hetkellä kaikki veren hyytymistä estäviä myrkkyjä (antikoagulantteja), jotka aiheuttavat oireita vasta päivien kuluttua. Jos lemmikki on syönyt – tai on voinut syödä – myrkkyä tai myrkytetyn jyrsijän, soita heti eläinlääkärille, vaikka se vaikuttaisi voivan hyvin.",
+    sv: "Råttgift och musgift är en vanlig orsak till förgiftning hos hundar, och katter kan förgiftas genom att äta en förgiftad mus. Alla musgifter som för närvarande säljs till konsumenter i Finland är blodförtunnande gifter (antikoagulanter), och de ger symtom först efter några dagar. Om ditt djur har ätit gift eller en förgiftad gnagare, eller kan ha gjort det, ska du genast ringa veterinären, även om djuret verkar piggt.",
+    en: "Rat and mouse poisons are a common cause of poisoning in dogs, and cats can be poisoned by eating a poisoned mouse. The mouse poisons sold to consumers in Finland are currently all blood-thinning poisons, which cause signs only days later. If your pet has eaten poison or a poisoned rodent, or might have, call your vet straight away, even if it seems well."
+  },
+  "article.ratpoison.mice.title": {
+    fi: "Voiko kissa myrkyttyä, jos se syö myrkytetyn hiiren?",
+    sv: "Kan en katt bli förgiftad av att äta en förgiftad mus?",
+    en: "Can a cat be poisoned by eating a poisoned mouse?"
+  },
+  "article.ratpoison.mice.text": {
+    fi: "Kyllä voi. Alfakloraloosi, jonka myynti kuluttajille päättyi vuonna 2023, on myrkyttänyt Suomessa monia kissoja, ja jo yksi myrkytetty hiiri voi riittää. Veren hyytymistä estävää myrkkyä syöneet hiiret elävät vielä päiviä, joten kissa voi myrkyttyä myös niistä, jos se syö useita.",
+    sv: "Ja. Alfakloralos, som såldes till konsumenter fram till 2023, har förgiftat många katter i Finland, och redan en förgiftad mus kan räcka. Möss som har ätit blodförtunnande gift lever i flera dagar till, så en katt som äter flera sådana möss kan också bli förgiftad.",
+    en: "Yes. Alpha-chloralose, sold to consumers until 2023, has poisoned many cats in Finland, and one poisoned mouse can be enough. Mice that have eaten a blood-thinning poison live on for days, so a cat that eats several can be poisoned too."
+  },
+  "article.ratpoison.signs.title": {
+    fi: "Myrkytysoireet",
+    sv: "Symtom",
+    en: "Signs"
+  },
+  "article.ratpoison.signs.text": {
+    fi: "Veren hyytymistä estävät myrkyt aiheuttavat verenvuotoja, jotka alkavat yleensä 3–7 päivän kuluttua: lemmikki väsyy ja heikkenee, ja sillä on vaaleat ikenet, hengitysvaikeuksia, nenäverenvuotoa, mustaa tai veristä ulostetta tai mustelmia. Sisäinen verenvuoto voi olla hengenvaarallinen, vaikka verta ei näkyisi. Alfakloraloosi alkaa vaikuttaa tuntien kuluessa: lemmikki vapisee, horjuu, on unelias, tuntuu kylmältä tai kouristelee.",
+    sv: "Blodförtunnande gifter orsakar blödningar, oftast tre till sju dygn senare: djuret blir trött och svagt och får blekt tandkött, ansträngd andning, näsblod, svart eller blodig avföring, eller blåmärken. Inre blödningar kan vara livshotande även när man inte ser något blod. Alfakloralos verkar inom några timmar: djuret darrar, är ostadigt, sömnigt eller kallt, eller får kramper.",
+    en: "Blood-thinning poisons cause bleeding, usually three to seven days later: the pet becomes tired and weak, with pale gums, laboured breathing, nosebleeds, black or bloody stools, or bruises. Bleeding inside the body can be life-threatening even when no blood is visible. Alpha-chloralose acts within hours: the pet trembles, is wobbly, sleepy or cold, or has seizures."
+  },
+  "article.ratpoison.todo.title": {
+    fi: "Näin toimit",
+    sv: "Så gör du",
+    en: "What to do"
+  },
+  "article.ratpoison.todo.text": {
+    fi: "Soita heti eläinlääkärille, vaikka syömisestä olisi kulunut jo päivä tai kaksi: veren hyytymistä estävien myrkkyjen kohdalla lemmikki ehtii usein hoitoon, ennen kuin verenvuoto alkaa. Kerro, mitä lemmikki söi, kuinka paljon ja milloin sekä paljonko se suunnilleen painaa. Ota pakkaus tai valokuva siitä mukaan. Älä yritä oksennuttaa lemmikkiä itse. Kääri vapiseva, horjuva tai kylmältä tuntuva lemmikki huopaan. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring veterinären genast, även om det hände för en dag eller två sedan: vid blodförtunnande gifter hinner man ofta behandla djuret innan blödningarna börjar. Berätta vad djuret har ätit, hur mycket, när och ungefär vad det väger. Ta med förpackningen, eller ett foto av den. Försök inte själv att få djuret att kräkas. Svep en filt om ett djur som darrar, är ostadigt eller känns kallt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call your vet straight away, even if it happened a day or two ago: with blood-thinning poisons there is often time to treat before bleeding starts. Say what your pet ate, how much, when, and roughly what it weighs. Take the packaging, or a photo of it, with you. Do not try to make your pet vomit yourself. Wrap a pet that is trembling, wobbly or cold in a blanket. Outside opening hours, call the regional out-of-hours emergency number, 0600 399 299."
+  },
+  "article.ratpoison.treatment.title": {
+    fi: "Eläinlääkärin hoito",
+    sv: "Behandling hos veterinären",
+    en: "Treatment at the vet"
+  },
+  "article.ratpoison.treatment.text": {
+    fi: "Jos lemmikki on syönyt myrkkyä muutaman viime tunnin aikana, eläinlääkäri voi usein oksennuttaa sen turvallisesti. Jos kyse on veren hyytymistä estävästä myrkystä, eläinlääkäri joko tarkistaa veren hyytymiskyvyn noin kahden päivän kuluttua tai määrää vastalääkettä useiksi viikoiksi. Anna koko kuuri loppuun asti. Alfakloraloosiin ei ole vastalääkettä, mutta lämmityksen ja hoidon avulla useimmat kissat toipuvat muutaman päivän kuluessa.",
+    sv: "Om djuret har ätit giftet under de senaste timmarna kan veterinären ofta framkalla kräkning på ett säkert sätt. Vid blodförtunnande gift kontrollerar veterinären antingen blodets koagulation efter ungefär två dygn eller skriver ut ett motgift som djuret ska få i flera veckor. Fullfölj hela kuren. Mot alfakloralos finns det inget motgift, men med värme och omvårdnad återhämtar sig de flesta katter inom några dagar.",
+    en: "If your pet ate the poison within the last few hours, the vet can often make it vomit safely. With a blood-thinning poison, the vet either checks blood clotting after about two days or prescribes an antidote for several weeks; finish the whole course. There is no antidote to alpha-chloralose, but with warmth and care most cats recover within a few days."
+  },
+  "article.ratpoison.prevention.title": {
+    fi: "Ehkäisy",
+    sv: "Förebyggande",
+    en: "Prevention"
+  },
+  "article.ratpoison.prevention.text": {
+    fi: "Suomessa kuluttaja saa käyttää hiirenmyrkkyä vain sisätiloissa, valmiiksi täytetyissä syöttilaatikoissa. Turvallisuus- ja kemikaalivirasto (Tukes) neuvoo käyttämään ensisijaisesti tappoloukkuja ja välttämään myrkkyjä kodeissa, joissa on lemmikkejä. Jos käytät myrkkyä, sijoita syöttilaatikot lemmikkien ulottumattomiin, älä päästä lemmikkejä kulkemaan vapaana ja kerää kuolleet hiiret pois käsineet kädessä. Muista myrkyistä voit lukea lisää <a href=\"/articles/myrkytys.html\">myrkytysartikkelistamme</a>.",
+    sv: "I Finland får konsumenter använda musgift bara inomhus, i färdigt fyllda beteslådor. Säkerhets- och kemikalieverket (Tukes) rekommenderar att man använder slagfällor innan man tar till gift, och att man undviker gift i hem där det finns husdjur. Om du använder gift ska du placera lådorna utom räckhåll för dina djur, se till att djuren inte strövar fritt och plocka upp döda möss med handskar. Läs mer om andra gifter i vår <a href=\"/sv/artiklar/forgiftning.html\">artikel om förgiftningar</a>.",
+    en: "In Finland, consumers may use mouse poison only indoors, ready-filled in bait boxes. The Finnish Safety and Chemicals Agency (Tukes) advises using snap traps before poison, and avoiding it in homes with pets. If you use it, place the boxes out of your pets’ reach, keep pets from roaming freely, and pick up dead mice with gloves. Read about other poisons in our <a href=\"/en/articles/poisoning.html\">poisoning article</a>."
+  },
+
   // Article: Dog Ate Chocolate – How Much Is Dangerous and What to Do (new 2026-11, poisoning hub spoke)
   'article.dogchoc.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   "article.dogchoc.title": {
@@ -2881,9 +2944,9 @@ const translations = {
     en: "Rat poisons, medicines and other dangers"
   },
   "article.poison.other.text": {
-    fi: "Hiiren- ja rotanmyrkyt voivat aiheuttaa sisäisiä verenvuotoja. Alfakloraloosilla myrkytettyjä hiiriä syöneet kissat alkavat horjua ja nykiä, ja niiden ruumiinlämpö laskee vaarallisen matalaksi. Auton jäähdytinneste eli pakkasneste maistuu makealta, ja jo teelusikallinen tai kaksi sitä voi tappaa kissan. Ihmisten kipulääkkeet ovat yleinen myrkytysten aiheuttaja: jo osa parasetamolitabletista voi tappaa kissan, ja ibuprofeeni voi aiheuttaa mahahaavoja ja munuaisvaurion. Joissakin koirille tarkoitetuissa iholle tiputettavissa punkki- ja kirppulääkkeissä on permetriiniä, joka on kissoille erittäin myrkyllistä. Kissa voi myrkyttyä jo kosketuksesta vastikään lääkittyyn koiraan. Liljat voivat tappaa kissan: lue lisää <a href=\"/articles/kissalle-myrkylliset-kasvit.html\">kissalle myrkyllisistä kasveista</a>. Kesällä sinilevä voi myrkyttää koiria, jotka uivat sinileväisessä vedessä tai juovat sitä.",
-    sv: "Mus- och råttgift kan orsaka inre blödningar, och katter som äter möss som har förgiftats med alfakloralos blir ostadiga, får ryckningar och en farligt låg kroppstemperatur. Frostskyddsvätska smakar sött, och en eller två teskedar kan döda en katt. Smärtstillande läkemedel för människor är en vanlig orsak: redan en del av en paracetamoltablett kan döda en katt, och ibuprofen kan ge magsår och njurskador. Vissa droppreparat (spot on) mot loppor och fästingar för hundar innehåller permetrin, som är mycket giftigt för katter, även vid kontakt med en nyss behandlad hund. Liljor kan döda en katt: läs om <a href=\"/sv/artiklar/giftiga-vaxter-for-katter.html\">giftiga växter för katter</a>. På sommaren kan blågröna alger (algblomning) förgifta hundar som simmar i vattnet eller dricker av det.",
-    en: "Mouse and rat poisons can cause internal bleeding, and cats that eat mice poisoned with alpha-chloralose get unsteady, twitch and become dangerously cold. Antifreeze tastes sweet, and a teaspoonful or two of it can kill a cat. Human painkillers are a common culprit: even part of a paracetamol tablet can kill a cat, and ibuprofen can cause stomach ulcers and kidney damage. Some dog flea and tick spot-ons contain permethrin, which is highly toxic to cats, even through contact with a freshly treated dog. Lilies can kill a cat: read about <a href=\"/en/articles/plants-poisonous-to-cats.html\">plants poisonous to cats</a>. In summer, blue-green algae can poison dogs that swim in or drink the water."
+    fi: "<a href=\"/articles/rotanmyrkky-ja-hiirenmyrkky.html\">Hiiren- ja rotanmyrkyt</a> voivat aiheuttaa sisäisiä verenvuotoja. Alfakloraloosilla myrkytettyjä hiiriä syöneet kissat alkavat horjua ja nykiä, ja niiden ruumiinlämpö laskee vaarallisen matalaksi. Auton jäähdytinneste eli pakkasneste maistuu makealta, ja jo teelusikallinen tai kaksi sitä voi tappaa kissan. Ihmisten kipulääkkeet ovat yleinen myrkytysten aiheuttaja: jo osa parasetamolitabletista voi tappaa kissan, ja ibuprofeeni voi aiheuttaa mahahaavoja ja munuaisvaurion. Joissakin koirille tarkoitetuissa iholle tiputettavissa punkki- ja kirppulääkkeissä on permetriiniä, joka on kissoille erittäin myrkyllistä. Kissa voi myrkyttyä jo kosketuksesta vastikään lääkittyyn koiraan. Liljat voivat tappaa kissan: lue lisää <a href=\"/articles/kissalle-myrkylliset-kasvit.html\">kissalle myrkyllisistä kasveista</a>. Kesällä sinilevä voi myrkyttää koiria, jotka uivat sinileväisessä vedessä tai juovat sitä.",
+    sv: "<a href=\"/sv/artiklar/rattgift-och-musgift.html\">Mus- och råttgift</a> kan orsaka inre blödningar, och katter som äter möss som har förgiftats med alfakloralos blir ostadiga, får ryckningar och en farligt låg kroppstemperatur. Frostskyddsvätska smakar sött, och en eller två teskedar kan döda en katt. Smärtstillande läkemedel för människor är en vanlig orsak: redan en del av en paracetamoltablett kan döda en katt, och ibuprofen kan ge magsår och njurskador. Vissa droppreparat (spot on) mot loppor och fästingar för hundar innehåller permetrin, som är mycket giftigt för katter, även vid kontakt med en nyss behandlad hund. Liljor kan döda en katt: läs om <a href=\"/sv/artiklar/giftiga-vaxter-for-katter.html\">giftiga växter för katter</a>. På sommaren kan blågröna alger (algblomning) förgifta hundar som simmar i vattnet eller dricker av det.",
+    en: "<a href=\"/en/articles/rat-and-mouse-poison.html\">Mouse and rat poisons</a> can cause internal bleeding, and cats that eat mice poisoned with alpha-chloralose get unsteady, twitch and become dangerously cold. Antifreeze tastes sweet, and a teaspoonful or two of it can kill a cat. Human painkillers are a common culprit: even part of a paracetamol tablet can kill a cat, and ibuprofen can cause stomach ulcers and kidney damage. Some dog flea and tick spot-ons contain permethrin, which is highly toxic to cats, even through contact with a freshly treated dog. Lilies can kill a cat: read about <a href=\"/en/articles/plants-poisonous-to-cats.html\">plants poisonous to cats</a>. In summer, blue-green algae can poison dogs that swim in or drink the water."
   },
   "article.poison.symptoms.title": {
     fi: "Myrkytysoireet",
@@ -4157,6 +4220,7 @@ function setLanguage(lang) {
     'kissan-munuaisten-vajaatoiminta': { sv: 'njursvikt-katt', en: 'kidney-disease-cats' },
     'koiran-ja-kissan-turkinhoito': { sv: 'palsvard-hund-katt', en: 'coat-care-dogs-cats' },
     'koira-yskii': { sv: 'hund-hostar', en: 'dog-coughing' },
+    'rotanmyrkky-ja-hiirenmyrkky': { sv: 'rattgift-och-musgift', en: 'rat-and-mouse-poison' },
     'koira-soi-suklaata': { sv: 'hund-at-choklad', en: 'dog-ate-chocolate' },
     'ksylitolimyrkytys': { sv: 'xylitol-hund', en: 'xylitol-poisoning-dogs' },
     'viinirypaleet-ja-rusinat-koiralle': { sv: 'vindruvor-och-russin-hund', en: 'grapes-and-raisins-dogs' },

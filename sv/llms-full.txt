@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 80 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 81 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3608,6 +3608,12 @@ Sök i artiklar...
 Akutvård
 20.11.2026
 
+### Råttgift och musgift – faror för hundar och katter, och vad du ska göra
+
+Råttgift och musgift är en vanlig orsak till förgiftning hos hundar, och katter kan förgiftas genom att äta en förgiftad mus. Alla musgifter som för närvarande säljs till konsumenter i Finland är blodförtunnande gifter (antikoagulanter), och de ger symtom först efter några dagar. Om ditt djur har ätit gift eller en förgiftad gnagare, eller kan ha gjort det, ska du genast ringa veterinären, även om djuret verkar piggt.
+Akutvård
+20.11.2026
+
 ### Hund åt choklad – hur mycket är farligt och vad ska du göra?
 
 Choklad är en av de vanligaste orsakerna till förgiftning hos hundar, särskilt vid jul och påsk. Om det är farligt beror på vilken sorts choklad det är, hur mycket hunden har ätit och hur mycket den väger. Ring veterinären om du är osäker: chokladförgiftning är lättast att behandla innan några symtom har visat sig.
@@ -4356,6 +4362,78 @@ Anestesi
 Smärthantering är en av de viktigaste delarna av varje operation. På vår klinik ingår en smärtlindringsinfusion rutin...
 Tillbaka till startsidan
 Ring
+
+---
+
+# Råttgift och musgift – faror för hundar och katter
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/rattgift-och-musgift.html
+Last updated: 2026-11-20
+
+Akutvård
+20.11.2026
+
+## Råttgift och musgift – faror för hundar och katter, och vad du ska göra
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Råttgift och musgift är en vanlig orsak till förgiftning hos hundar, och katter kan förgiftas genom att äta en förgiftad mus. Alla musgifter som för närvarande säljs till konsumenter i Finland är blodförtunnande gifter (antikoagulanter), och de ger symtom först efter några dagar. Om ditt djur har ätit gift eller en förgiftad gnagare, eller kan ha gjort det, ska du genast ringa veterinären, även om djuret verkar piggt.
+
+### Kan en katt bli förgiftad av att äta en förgiftad mus?
+
+Ja. Alfakloralos, som såldes till konsumenter fram till 2023, har förgiftat många katter i Finland, och redan en förgiftad mus kan räcka. Möss som har ätit blodförtunnande gift lever i flera dagar till, så en katt som äter flera sådana möss kan också bli förgiftad.
+
+### Symtom
+
+Blodförtunnande gifter orsakar blödningar, oftast tre till sju dygn senare: djuret blir trött och svagt och får blekt tandkött, ansträngd andning, näsblod, svart eller blodig avföring, eller blåmärken. Inre blödningar kan vara livshotande även när man inte ser något blod. Alfakloralos verkar inom några timmar: djuret darrar, är ostadigt, sömnigt eller kallt, eller får kramper.
+
+### Så gör du
+
+Ring veterinären genast, även om det hände för en dag eller två sedan: vid blodförtunnande gifter hinner man ofta behandla djuret innan blödningarna börjar. Berätta vad djuret har ätit, hur mycket, när och ungefär vad det väger. Ta med förpackningen, eller ett foto av den. Försök inte själv att få djuret att kräkas. Svep en filt om ett djur som darrar, är ostadigt eller känns kallt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Behandling hos veterinären
+
+Om djuret har ätit giftet under de senaste timmarna kan veterinären ofta framkalla kräkning på ett säkert sätt. Vid blodförtunnande gift kontrollerar veterinären antingen blodets koagulation efter ungefär två dygn eller skriver ut ett motgift som djuret ska få i flera veckor. Fullfölj hela kuren. Mot alfakloralos finns det inget motgift, men med värme och omvårdnad återhämtar sig de flesta katter inom några dagar.
+
+### Förebyggande
+
+I Finland får konsumenter använda musgift bara inomhus, i färdigt fyllda beteslådor. Säkerhets- och kemikalieverket (Tukes) rekommenderar att man använder slagfällor innan man tar till gift, och att man undviker gift i hem där det finns husdjur. Om du använder gift ska du placera lådorna utom räckhåll för dina djur, se till att djuren inte strövar fritt och plocka upp döda möss med handskar. Läs mer om andra gifter i vår artikel om förgiftningar.
+
+### Källor
+
+- Tukes: Jyrsijöiden torjunta kotona ja mökillä (jyrsijämyrkyt). tukes.fi/jyrsijamyrkyt
+- Tukes: Jyrsijämyrkyt – käytön rajoitukset ja sekundäärialtistuminen. tukes.fi/jyrsijamyrkyt1
+- Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille. tukes.fi/alfakloraloosia-sisaltavia-jyrsijamyrkky
+- Tukes KemiDigi: biosidirekisteri (luvan saaneet jyrsijämyrkyt, haettu 21.11.2026). kemidigi.fi
+- MSD Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
+- MSD Veterinary Manual: Cholecalciferol (Vitamin D3) Poisoning in Animals. merckvetmanual.com/cholecalciferol-vitamin-d3-poisoning-in-
+- MSD Veterinary Manual: Alpha-Chloralose Poisoning in Animals. merckvetmanual.com/alpha-chloralose-poisoning-in-animals
+- Windahl U. ym. (2022): Alpha-chloralose poisoning in cats in three Nordic countries – the importance of secondary poisoning. BMC Veterinary Research 18:334. pmc.ncbi.nlm.nih.gov/PMC9446805
+- Tegner C. ym. (2022): Alpha-chloralose poisoning in cats: clinical findings in 25 confirmed and 78 suspected cases. Journal of Feline Medicine and Surgery 24(10):e324–e329. pmc.ncbi.nlm.nih.gov/PMC9510939
+- Dijkman M.A. ym. (2023): Evidence of a sudden increase in α-chloralose poisoning in dogs and cats in the Netherlands 2018–2021. Veterinary Record 192(1):e2342. pubmed.ncbi.nlm.nih.gov/36314571
+- Paulin M.V. ym. (2024): Anticoagulant rodenticide toxicity in dogs: 349 confirmed cases in Saskatchewan. Canadian Veterinary Journal 65(5):496–503. pmc.ncbi.nlm.nih.gov/PMC11017940
+- Walton K.L., Otto C.M. (2018): Retrospective evaluation of feline rodenticide exposure and gastrointestinal decontamination: 146 cases. Journal of Veterinary Emergency and Critical Care 28(5):457–463. pubmed.ncbi.nlm.nih.gov/30129699
+- Cerkvenik-Flajs V. ym. (2025): Exposure of domestic cats (Felis catus) to rodenticidal compounds. Toxics 13(8):663. pmc.ncbi.nlm.nih.gov/PMC12390110
+- Yle (2022): Kymmeniä kissoja ja muutamia koiria saanut myrkytyksen. yle.fi
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Akutvård
+
+#### Giftiga växter för katter – liljor, julblommor och krukväxter
+
+Många katter tycker om att knapra på växter, och många vanliga blommor och krukväxter är giftiga för dem. De flesta g...
+Akutvård
+
+#### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
+
+Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt:...
+Tillbaka till startsidan
 
 ---
 

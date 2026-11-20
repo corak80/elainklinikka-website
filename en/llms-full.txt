@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 80 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 81 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3618,6 +3618,12 @@ Search articles...
 Emergency
 20.11.2026
 
+### Rat and Mouse Poison – Dangers to Dogs and Cats, and What to Do
+
+Rat and mouse poisons are a common cause of poisoning in dogs, and cats can be poisoned by eating a poisoned mouse. The mouse poisons sold to consumers in Finland are currently all blood-thinning poisons, which cause signs only days later. If your pet has eaten poison or a poisoned rodent, or might have, call your vet straight away, even if it seems well.
+Emergency
+20.11.2026
+
 ### Dog Ate Chocolate – How Much Is Dangerous and What to Do
 
 Chocolate is one of the most common causes of poisoning in dogs, especially at Christmas and Easter. Whether it is dangerous depends on the type of chocolate, how much your dog ate and what it weighs. If you are not sure, call your vet: chocolate poisoning is easiest to treat before any signs appear.
@@ -4366,6 +4372,78 @@ Anesthesia
 Pain management is one of the most important parts of any surgery. At our clinic, a pain-relief infusion is a routine...
 Back to homepage
 Call
+
+---
+
+# Dog Ate Rat Poison? Cat Ate a Poisoned Mouse? What to Do
+
+URL: https://elainklinikkasaari.fi/en/articles/rat-and-mouse-poison.html
+Last updated: 2026-11-20
+
+Emergency
+20.11.2026
+
+## Rat and Mouse Poison – Dangers to Dogs and Cats, and What to Do
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+Rat and mouse poisons are a common cause of poisoning in dogs, and cats can be poisoned by eating a poisoned mouse. The mouse poisons sold to consumers in Finland are currently all blood-thinning poisons, which cause signs only days later. If your pet has eaten poison or a poisoned rodent, or might have, call your vet straight away, even if it seems well.
+
+### Can a cat be poisoned by eating a poisoned mouse?
+
+Yes. Alpha-chloralose, sold to consumers until 2023, has poisoned many cats in Finland, and one poisoned mouse can be enough. Mice that have eaten a blood-thinning poison live on for days, so a cat that eats several can be poisoned too.
+
+### Signs
+
+Blood-thinning poisons cause bleeding, usually three to seven days later: the pet becomes tired and weak, with pale gums, laboured breathing, nosebleeds, black or bloody stools, or bruises. Bleeding inside the body can be life-threatening even when no blood is visible. Alpha-chloralose acts within hours: the pet trembles, is wobbly, sleepy or cold, or has seizures.
+
+### What to do
+
+Call your vet straight away, even if it happened a day or two ago: with blood-thinning poisons there is often time to treat before bleeding starts. Say what your pet ate, how much, when, and roughly what it weighs. Take the packaging, or a photo of it, with you. Do not try to make your pet vomit yourself. Wrap a pet that is trembling, wobbly or cold in a blanket. Outside opening hours, call the regional out-of-hours emergency number, 0600 399 299.
+
+### Treatment at the vet
+
+If your pet ate the poison within the last few hours, the vet can often make it vomit safely. With a blood-thinning poison, the vet either checks blood clotting after about two days or prescribes an antidote for several weeks; finish the whole course. There is no antidote to alpha-chloralose, but with warmth and care most cats recover within a few days.
+
+### Prevention
+
+In Finland, consumers may use mouse poison only indoors, ready-filled in bait boxes. The Finnish Safety and Chemicals Agency (Tukes) advises using snap traps before poison, and avoiding it in homes with pets. If you use it, place the boxes out of your pets’ reach, keep pets from roaming freely, and pick up dead mice with gloves. Read about other poisons in our poisoning article.
+
+### Sources
+
+- Tukes: Jyrsijöiden torjunta kotona ja mökillä (jyrsijämyrkyt). tukes.fi/jyrsijamyrkyt
+- Tukes: Jyrsijämyrkyt – käytön rajoitukset ja sekundäärialtistuminen. tukes.fi/jyrsijamyrkyt1
+- Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille. tukes.fi/alfakloraloosia-sisaltavia-jyrsijamyrkky
+- Tukes KemiDigi: biosidirekisteri (luvan saaneet jyrsijämyrkyt, haettu 21.11.2026). kemidigi.fi
+- MSD Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
+- MSD Veterinary Manual: Cholecalciferol (Vitamin D3) Poisoning in Animals. merckvetmanual.com/cholecalciferol-vitamin-d3-poisoning-in-
+- MSD Veterinary Manual: Alpha-Chloralose Poisoning in Animals. merckvetmanual.com/alpha-chloralose-poisoning-in-animals
+- Windahl U. ym. (2022): Alpha-chloralose poisoning in cats in three Nordic countries – the importance of secondary poisoning. BMC Veterinary Research 18:334. pmc.ncbi.nlm.nih.gov/PMC9446805
+- Tegner C. ym. (2022): Alpha-chloralose poisoning in cats: clinical findings in 25 confirmed and 78 suspected cases. Journal of Feline Medicine and Surgery 24(10):e324–e329. pmc.ncbi.nlm.nih.gov/PMC9510939
+- Dijkman M.A. ym. (2023): Evidence of a sudden increase in α-chloralose poisoning in dogs and cats in the Netherlands 2018–2021. Veterinary Record 192(1):e2342. pubmed.ncbi.nlm.nih.gov/36314571
+- Paulin M.V. ym. (2024): Anticoagulant rodenticide toxicity in dogs: 349 confirmed cases in Saskatchewan. Canadian Veterinary Journal 65(5):496–503. pmc.ncbi.nlm.nih.gov/PMC11017940
+- Walton K.L., Otto C.M. (2018): Retrospective evaluation of feline rodenticide exposure and gastrointestinal decontamination: 146 cases. Journal of Veterinary Emergency and Critical Care 28(5):457–463. pubmed.ncbi.nlm.nih.gov/30129699
+- Cerkvenik-Flajs V. ym. (2025): Exposure of domestic cats (Felis catus) to rodenticidal compounds. Toxics 13(8):663. pmc.ncbi.nlm.nih.gov/PMC12390110
+- Yle (2022): Kymmeniä kissoja ja muutamia koiria saanut myrkytyksen. yle.fi
+Related services: Internal Medicine
+
+### Read also
+
+Emergency
+
+#### Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away
+
+Poisoning is a common reason for emergency visits to the vet. Dogs and cats are often poisoned by something harmless...
+Emergency
+
+#### Plants Poisonous to Cats – Lilies, Christmas Flowers and Houseplants
+
+Many cats like to nibble plants, and many common flowers and houseplants are poisonous to them. Most cause only a sor...
+Emergency
+
+#### Xylitol Poisoning in Dogs – How Much Xylitol Is Dangerous?
+
+Xylitol is a sweetener that is harmless to people but dangerous to dogs. In Finland it is everywhere: in chewing gum,...
+Back to homepage
 
 ---
 

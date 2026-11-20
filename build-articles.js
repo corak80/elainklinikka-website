@@ -712,6 +712,41 @@ const articles = [
     ]
   },
   {
+    slug: 'rotanmyrkky-ja-hiirenmyrkky',
+    slugSv: 'rattgift-och-musgift',
+    slugEn: 'rat-and-mouse-poison',
+    titleKey: 'article.ratpoison.title',
+    tagKey: 'article.ratpoison.tag',
+    category: 'emergency',
+    date: '20.11.2026',
+    publishDate: '2026-11-20',
+    sections: ['intro', 'mice.title', 'mice.text', 'signs.title', 'signs.text', 'todo.title', 'todo.text', 'treatment.title', 'treatment.text', 'prevention.title', 'prevention.text'],
+    htmlSections: ['prevention.text'],
+    prefix: 'article.ratpoison',
+    sources: [
+      { text: 'Tukes: Jyrsijöiden torjunta kotona ja mökillä (jyrsijämyrkyt).', url: 'https://tukes.fi/kodin-ja-puutarhan-tuholaiset/jyrsijamyrkyt', label: 'tukes.fi' },
+      { text: 'Tukes: Jyrsijämyrkyt – käytön rajoitukset ja sekundäärialtistuminen.', url: 'https://tukes.fi/kemikaalit/biosidit/jyrsijamyrkyt1', label: 'tukes.fi' },
+      { text: 'Tukes (2023): Alfakloraloosia sisältäviä jyrsijämyrkkyjä ei saa enää myydä kuluttajille.', url: 'https://tukes.fi/-/alfakloraloosia-sisaltavia-jyrsijamyrkkyja-ei-saa-enaa-myyda-kuluttajille', label: 'tukes.fi' },
+      { text: 'Tukes KemiDigi: biosidirekisteri (luvan saaneet jyrsijämyrkyt, haettu 21.11.2026).', url: 'https://www.kemidigi.fi/biosidirekisteri/haku', label: 'kemidigi.fi' },
+      { text: 'MSD Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals.', url: 'https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/anticoagulant-rodenticide-poisoning-in-animals', label: 'merckvetmanual.com' },
+      { text: 'MSD Veterinary Manual: Cholecalciferol (Vitamin D3) Poisoning in Animals.', url: 'https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/cholecalciferol-vitamin-d3-poisoning-in-animals', label: 'merckvetmanual.com' },
+      { text: 'MSD Veterinary Manual: Alpha-Chloralose Poisoning in Animals.', url: 'https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/alpha-chloralose-poisoning-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Windahl U. ym. (2022): Alpha-chloralose poisoning in cats in three Nordic countries – the importance of secondary poisoning. BMC Veterinary Research 18:334.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9446805/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Tegner C. ym. (2022): Alpha-chloralose poisoning in cats: clinical findings in 25 confirmed and 78 suspected cases. Journal of Feline Medicine and Surgery 24(10):e324–e329.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9510939/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Dijkman M.A. ym. (2023): Evidence of a sudden increase in α-chloralose poisoning in dogs and cats in the Netherlands 2018–2021. Veterinary Record 192(1):e2342.', url: 'https://pubmed.ncbi.nlm.nih.gov/36314571/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Paulin M.V. ym. (2024): Anticoagulant rodenticide toxicity in dogs: 349 confirmed cases in Saskatchewan. Canadian Veterinary Journal 65(5):496–503.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11017940/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Walton K.L., Otto C.M. (2018): Retrospective evaluation of feline rodenticide exposure and gastrointestinal decontamination: 146 cases. Journal of Veterinary Emergency and Critical Care 28(5):457–463.', url: 'https://pubmed.ncbi.nlm.nih.gov/30129699/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Cerkvenik-Flajs V. ym. (2025): Exposure of domestic cats (Felis catus) to rodenticidal compounds. Toxics 13(8):663.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12390110/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Yle (2022): Kymmeniä kissoja ja muutamia koiria saanut myrkytyksen.', url: 'https://yle.fi/a/3-12634116', label: 'yle.fi' }
+    ],
+    metaDesc: {
+      fi: "Rotanmyrkky ja hiirenmyrkky ovat vaarallisia koiralle, ja kissa voi myrkyttyä syötyään myrkytetyn hiiren. Oireet, hoito ja mitä tehdä heti.",
+      sv: "Råttgift och musgift: har hunden ätit gift eller katten en förgiftad mus? Symtomen kan komma först efter flera dagar, så ring veterinären genast.",
+      en: "Dog ate rat poison or cat ate a poisoned mouse? Bleeding can start days later, so call your vet straight away. The signs, treatment and prevention."
+    },
+    seoTitle: { fi: "Rotanmyrkky ja hiirenmyrkky – vaarat koiralle ja kissalle", sv: "Råttgift och musgift – faror för hundar och katter", en: "Dog Ate Rat Poison? Cat Ate a Poisoned Mouse? What to Do" }
+  },
+  {
     slug: 'koira-soi-suklaata',
     slugSv: 'hund-at-choklad',
     slugEn: 'dog-ate-chocolate',
@@ -1900,6 +1935,7 @@ const relatedArticles = {
   'ripuli': ['ruoka-allergiat', 'viljaton-ruoka', 'gastroskopia'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
+  'rotanmyrkky-ja-hiirenmyrkky': ['myrkytys', 'kissalle-myrkylliset-kasvit', 'ksylitolimyrkytys'],
   'koira-soi-suklaata': ['myrkytys', 'ksylitolimyrkytys', 'viinirypaleet-ja-rusinat-koiralle'],
   'ksylitolimyrkytys': ['myrkytys', 'koira-soi-suklaata', 'viinirypaleet-ja-rusinat-koiralle'],
   'viinirypaleet-ja-rusinat-koiralle': ['myrkytys', 'koira-soi-suklaata', 'ksylitolimyrkytys'],
@@ -1940,6 +1976,7 @@ const articleToServices = {
   'ripuli': ['sisataudit'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
+  'rotanmyrkky-ja-hiirenmyrkky': ['sisataudit'],
   'koira-soi-suklaata': ['sisataudit'],
   'ksylitolimyrkytys': ['sisataudit'],
   'viinirypaleet-ja-rusinat-koiralle': ['sisataudit'],
