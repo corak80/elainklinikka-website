@@ -4504,6 +4504,21 @@ function searchArticles(query) {
   applyArticleFilters(query);
 }
 
+// Article search: every word typed must appear in the card text (title, category
+// label, summary). A word of 1–3 letters must start a word: before 21-11-2026 any
+// fragment matched anywhere, so "tta" hit 32 of 40 cards ("uuttavuotta") and the
+// search looked broken. A longer word may also sit inside a word, so "myrkky"
+// still finds Finnish compounds like "rotanmyrkky".
+function articleTextMatches(text, query) {
+  const words = (query || '').toLowerCase().split(/\s+/).filter(Boolean);
+  const hay = (text || '').toLowerCase();
+  return words.every(w => {
+    if (w.length >= 4) return hay.includes(w);
+    const esc = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp('(^|[^\\p{L}\\p{N}])' + esc, 'u').test(hay);
+  });
+}
+
 function applyArticleFilters(searchQuery) {
   const articles = document.querySelectorAll('#articles .article-card[data-category]');
   const buttons = document.querySelectorAll('.filter-btn');
@@ -4516,10 +4531,12 @@ function applyArticleFilters(searchQuery) {
     const matchesCategory = currentArticleFilter === 'all' || article.dataset.category === currentArticleFilter;
     let matchesSearch = true;
     if (query) {
-      const title = article.querySelector('h3');
-      const content = article.querySelector('.article-content');
-      const text = ((title ? title.textContent : '') + ' ' + (content ? content.textContent : '')).toLowerCase();
-      matchesSearch = text.includes(query);
+      // Card titles are <h2> on the /artikkelit/ pages (were <h3> on the old homepage list).
+      const parts = ['h2', 'h3', '.article-tag', '.article-content'].map(sel => {
+        const el = article.querySelector(sel);
+        return el ? el.textContent : '';
+      });
+      matchesSearch = articleTextMatches(parts.join(' '), query);
     }
     if (matchesCategory && matchesSearch) {
       article.classList.remove('filter-hidden');
