@@ -459,7 +459,7 @@ Jyrsijät/kanit 88 €
 Alle 24 tuntia ennen vastaanottoaikaa peruutetuista ajoista veloitamme 30–100 €.
 Pidätämme oikeuden hinnanmuutoksiin.
 Voit maksaa myös laskulla tai osamaksulla – ota yhteyttä, niin kerromme lisää! Huomio! Luoton ottaminen maksaa.
-Suorakorvaus: Lähitapiola, Agria, Pohjola
+Suorakorvaus: LähiTapiola, Agria, Pohjola
 
 ### Varaa aika
 
@@ -656,7 +656,7 @@ Verkkoajanvaraus: Varaa aika ympäri vuorokauden verkkoajanvarausjärjestelmäss
 
 ### Mitä ottaa mukaan vastaanotolle
 
-Ota vastaanotolle mukaan lemmikin mahdolliset aiemmat hoitotiedot tai epikriisit, voimassa oleva lääkitys sekä rokotuskortti. Jos lemmikillä on vakuutus, ota mukaan vakuutustodistus – teemme suorakorvauksen Lähitapiolan, Agrian ja Pohjolan vakuutuksille. Kissapotilaat tulisi tuoda kuljetuskopassa ja koirat talutushihnassa.
+Ota vastaanotolle mukaan lemmikin mahdolliset aiemmat hoitotiedot tai epikriisit, voimassa oleva lääkitys sekä rokotuskortti. Jos lemmikillä on vakuutus, ota mukaan vakuutustodistus – teemme suorakorvauksen LähiTapiolan, Agrian ja Pohjolan vakuutuksille. Kissapotilaat tulisi tuoda kuljetuskopassa ja koirat talutushihnassa.
 
 ### Hätätilanteet
 
@@ -1574,7 +1574,7 @@ Emme tarjoa erillistä päivystyspalvelua aukioloaikojen ulkopuolella. Aukioloai
 
 ### Maksuvälineet ja vakuutukset
 
-Hyväksymme yleisimmät maksukortit. Emme ota vastaan käteistä. Suorakorvaus käytössä Lähitapiolan, Agrian ja Pohjolan kanssa – eli vakuutusyhtiön osuus voidaan veloittaa suoraan klinikalla, et maksa koko summaa itse ja hae korvausta jälkikäteen.
+Hyväksymme yleisimmät maksukortit. Emme ota vastaan käteistä. Suorakorvaus käytössä LähiTapiolan, Agrian ja Pohjolan kanssa – eli vakuutusyhtiön osuus voidaan veloittaa suoraan klinikalla, et maksa koko summaa itse ja hae korvausta jälkikäteen.
 
 ### Usein kysyttyjä kysymyksiä
 

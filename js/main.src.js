@@ -667,9 +667,9 @@ const translations = {
     en: 'No surcharge'
   },
   'prices.insurance': {
-    fi: 'Suorakorvaus: Lähitapiola, Agria, Pohjola',
+    fi: 'Suorakorvaus: LähiTapiola, Agria, Pohjola',
     sv: 'Direktersättning: LokalTapiola, Agria, Pohjola',
-    en: 'Direct insurance billing: Lähitapiola, Agria, Pohjola'
+    en: 'Direct insurance billing: LähiTapiola, Agria, Pohjola'
   },
 
   // Wildlife
