@@ -747,6 +747,42 @@ const articles = [
     seoTitle: { fi: "Rotanmyrkky ja hiirenmyrkky – vaarat koiralle ja kissalle", sv: "Råttgift och musgift – faror för hundar och katter", en: "Dog Ate Rat Poison? Cat Ate a Poisoned Mouse? What to Do" }
   },
   {
+    slug: 'koira-pelkaa-ilotulitusta',
+    slugSv: 'hund-radd-for-fyrverkerier',
+    slugEn: 'dog-scared-of-fireworks',
+    titleKey: 'article.fireworks.title',
+    tagKey: 'article.fireworks.tag',
+    category: 'health',
+    date: '21.11.2026',
+    publishDate: '2026-11-21',
+    sections: ['intro', 'ahead.title', 'ahead.text', 'evening.title', 'evening.text', 'escape.title', 'escape.text', 'vet.title', 'vet.text'],
+    htmlSections: ['escape.text', 'vet.text'],
+    prefix: 'article.fireworks',
+    sources: [
+      { text: 'Tukes (Finnish Safety and Chemicals Agency). How to light fireworks safely.', url: 'https://tukes.fi/en/home-and-leisure-time/how-to-light-fireworks-safely', label: 'tukes.fi' },
+      { text: 'Pohjanmaan hyvinvointialue, Pohjanmaan pelastuslaitos. Ilotulitteet ja räjähteet.', url: 'https://pohjanmaanhyvinvointi.fi/palvelumme/pelastuslaitos/onnettomuuksien-ehkaisy/vaaralliset-kemikaalit/ilotulitteet-ja-rajahteet/', label: 'pohjanmaanhyvinvointi.fi' },
+      { text: 'Pohjanmaan pelastuslaitos. Ilotulitteiden käytön rajoittaminen Pohjanmaan pelastuslaitoksen alueella (51/2021), Liite B: Ilotulitteiden ampumakieltoalueet Vaasassa.', url: 'https://pohjanmaanhyvinvointi.fi/wp-content/uploads/2022/11/Ilotulitteiden-kayton-rajoittaminen-51-2021-Liite-B.pdf', label: 'pohjanmaanhyvinvointi.fi' },
+      { text: 'Ruokavirasto (Finnish Food Authority). Dogs, cats and ferrets.', url: 'https://www.ruokavirasto.fi/en/animals/animal-keeping-identification-and-registration/animal-identification/dogs-cats-and-ferrets/', label: 'ruokavirasto.fi' },
+      { text: 'Ruokavirasto (Finnish Food Authority). Notice of change to the dog registry (form 7760/04.01.00.02/2022, updated 2025).', url: 'https://www.ruokavirasto.fi/globalassets/elaimet/elaintenpito-tunnistaminen-ja-rekisterointi/elainten-tunnistaminen-ja-rekisterointi/koirarekisteri/tietojen_muutos_eng.pdf', label: 'ruokavirasto.fi' },
+      { text: 'Suomen Eläinsuojeluyhdistysten liitto (SEY). Kuntien löytökissatilastot 2024 (10.2.2026), incl. each municipality’s lost-animal shelter.', url: 'https://sey.fi/wp-content/uploads/2026/02/SEY_Kuntien-loytokissatilastot-2024_10.2.2026.pdf', label: 'sey.fi' },
+      { text: 'Vaasan kaupunki: Eläinsuojelu – Löytöeläinpalvelut (Koiratarha Kulkuri is the city’s lost-animal reception point; 2025 statistics).', url: 'https://www.vaasa.fi/asu-ja-ela/ymparisto-ja-lemmikit/lemmikit/elainsuojelu/', label: 'vaasa.fi' },
+      { text: 'Suomi.fi palvelupiste: Koiratarha Kulkuri (Mustasaaren kunta), lost animals for Vaasa, Mustasaari, Maalahti and Vöyri (updated 2.6.2025).', url: 'https://www.suomi.fi/palvelut/palvelupiste/koiratarha-kulkuri-mustasaaren-kunta/522f180b-1e6f-43ce-abc9-f2c6ffb8044d', label: 'suomi.fi' },
+      { text: 'Riemer S. Not a one-way road—Severity, progression and prevention of firework fears in dogs. PLoS One. 2019;14(9):e0218150. doi:10.1371/journal.pone.0218150', url: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218150', label: 'journals.plos.org' },
+      { text: 'Riemer S. Effectiveness of treatments for firework fears in dogs. J Vet Behav. 2020;37:61–70. doi:10.1016/j.jveb.2020.04.005 (open preprint: bioRxiv doi:10.1101/663294)', url: 'https://www.biorxiv.org/content/10.1101/663294v2.full.pdf', label: 'biorxiv.org' },
+      { text: 'Riemer S. Therapy and Prevention of Noise Fears in Dogs—A Review of the Current Evidence for Practitioners. Animals (Basel). 2023;13(23):3664. doi:10.3390/ani13233664', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10705068/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Lopes Fagundes AL, Hewison L, McPeake KJ, Zulch H, Mills DS. Noise sensitivities in dogs: an exploration of signs in dogs with and without musculoskeletal pain using qualitative content analysis. Front Vet Sci. 2018;5:17. doi:10.3389/fvets.2018.00017', url: 'https://doi.org/10.3389/fvets.2018.00017', label: 'doi.org' },
+      { text: 'Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403', url: 'https://pubmed.ncbi.nlm.nih.gov/21151214/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/fear-fireworks-and-thunderstorms', label: 'vet.cornell.edu' },
+      { text: 'ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets.', url: 'https://www.aspca.org/news/four-ways-fourth-july-fireworks-can-harm-our-pets', label: 'aspca.org' }
+    ],
+    metaDesc: {
+      fi: "Koira tai kissa pelkää ilotulitusta? Näin valmistaudut ajoissa, autat lemmikkiä uudenvuodenaattona ja toimit, jos se karkaa tai tarvitsee eläinlääkäriä.",
+      sv: "Hund eller katt rädd för fyrverkerier? Fråga veterinären om läkemedel i god tid, ordna ett tryggt gömställe och läs vad du gör på nyårsafton.",
+      en: "Dog scared of fireworks, or your cat? How to prepare weeks before New Year, keep your pet safe on New Year’s Eve and what to do if it runs away."
+    },
+    seoTitle: { fi: "Koira pelkää ilotulitusta? Näin autat koiraa ja kissaa", sv: "Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret", en: "Dog or Cat Scared of Fireworks? How to Get Through New Year" }
+  },
+  {
     slug: 'koira-soi-suklaata',
     slugSv: 'hund-at-choklad',
     slugEn: 'dog-ate-chocolate',
@@ -1935,6 +1971,7 @@ const relatedArticles = {
   'ripuli': ['ruoka-allergiat', 'viljaton-ruoka', 'gastroskopia'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
+  'koira-pelkaa-ilotulitusta': ['myrkytys', 'kissaystävällinen-klinikka', 'koira-ontuu'],
   'rotanmyrkky-ja-hiirenmyrkky': ['myrkytys', 'kissalle-myrkylliset-kasvit', 'ksylitolimyrkytys'],
   'koira-soi-suklaata': ['myrkytys', 'ksylitolimyrkytys', 'viinirypaleet-ja-rusinat-koiralle'],
   'ksylitolimyrkytys': ['myrkytys', 'koira-soi-suklaata', 'viinirypaleet-ja-rusinat-koiralle'],
@@ -1976,6 +2013,7 @@ const articleToServices = {
   'ripuli': ['sisataudit'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
+  'koira-pelkaa-ilotulitusta': ['paivystys'],
   'rotanmyrkky-ja-hiirenmyrkky': ['sisataudit'],
   'koira-soi-suklaata': ['sisataudit'],
   'ksylitolimyrkytys': ['sisataudit'],

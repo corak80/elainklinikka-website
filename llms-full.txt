@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 87 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 88 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3938,12 +3938,18 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Artikkelit
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Lemmikkien terveys
+21.11.2026
+
+### Pelkääkö koira tai kissa ilotulitusta? Näin autat lemmikkiäsi uudenvuoden yli
+
+Moni koira ja kissa pelkää ilotulitusta: ne voivat vapista, läähättää, piiloutua, haukkua, yrittää karata tai kieltäytyä syömästä. Pelko menee harvoin ohi itsestään ja voi pahentua ajan myötä, joten valmistaudu ajoissa. Suomessa ilotulitteita saa käyttää uudenvuodenaattona klo 18–02, paitsi alueilla, joilla pelastuslaitos on kieltänyt niiden käytön, kuten Vaasan keskustassa. Paukkeita kuuluu usein päivien ajan ennen uuttavuotta ja sen jälkeen.
 Päivystys
 20.11.2026
 
@@ -4772,6 +4778,74 @@ Päivystys
 #### Ksylitolimyrkytys koiralla – kuinka paljon ksylitolia on vaarallista?
 
 Ksylitoli on makeutusaine, joka on ihmiselle harmiton mutta koiralle vaarallinen. Suomessa sitä on kaikkialla: puruku...
+Takaisin etusivulle
+
+---
+
+# Koira pelkää ilotulitusta? Näin autat koiraa ja kissaa
+
+URL: https://elainklinikkasaari.fi/articles/koira-pelkaa-ilotulitusta.html
+Last updated: 2026-11-21
+
+Lemmikkien terveys
+21.11.2026
+
+## Pelkääkö koira tai kissa ilotulitusta? Näin autat lemmikkiäsi uudenvuoden yli
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Moni koira ja kissa pelkää ilotulitusta: ne voivat vapista, läähättää, piiloutua, haukkua, yrittää karata tai kieltäytyä syömästä. Pelko menee harvoin ohi itsestään ja voi pahentua ajan myötä, joten valmistaudu ajoissa. Suomessa ilotulitteita saa käyttää uudenvuodenaattona klo 18–02, paitsi alueilla, joilla pelastuslaitos on kieltänyt niiden käytön, kuten Vaasan keskustassa. Paukkeita kuuluu usein päivien ajan ennen uuttavuotta ja sen jälkeen.
+
+### Aloita viikkoja ennen uuttavuotta
+
+Jos lemmikkisi pelkäsi viime vuonna, kysy eläinlääkäriltä hyvissä ajoin lääkkeistä: osa niistä on aloitettava jo päiviä etukäteen, ja lääkettä kannattaa kokeilla ensin jonakin rauhallisena päivänä. Älä koskaan anna lemmikillesi lääkettä, jota eläinlääkäri ei ole määrännyt juuri sille. Järjestä lemmikille turvapaikka, josta se jo valmiiksi pitää: rauhallinen nurkkaus, huone tai häkki, jonka ovi jätetään auki. Aina kun koiranpentu tai koira, joka ei vielä pelkää, kuulee pamauksen, anna sille heti herkku, jotta se oppii yhdistämään paukkeet herkkuihin.
+
+### Uudenvuodenaattona
+
+Ulkoiluta koiraa valoisaan aikaan ja pidä se ulkona hihnassa, myös omalla pihalla. Pidä kissa sisällä jo ennen pimeän tuloa ja varmista, että sillä on piilopaikkansa, hiekkalaatikko ja vettä. Sulje ikkunat ja verhot ja laita televisio tai musiikki päälle. Anna lemmikin piiloutua, minne se haluaa, äläkä vedä sitä pois piilostaan. Jos lemmikki tulee luoksesi, lohduta sitä rauhallisesti, ja jos se suostuu syömään, anna sille pieni herkku jokaisen pamauksen jälkeen. Älä koskaan rankaise pelästynyttä lemmikkiä. Jää lemmikin kanssa kotiin, jos voit.
+
+### Jos lemmikki karkaa
+
+Pelästynyt lemmikki voi syöksyä ulos avoimesta ovesta tai pujahtaa irti pannastaan. Tarkista siksi, että koirasi panta tai valjaat istuvat tiiviisti ja että niissä on nimilaatta, jossa on puhelinnumerosi. Koirasi on oltava merkitty mikrosirulla ja ilmoitettu Ruokaviraston koirarekisteriin: kirjaudu osoitteessa koirarekisteri.ruokavirasto.fi ja tarkista, että puhelinnumerosi on siellä ajan tasalla. Siruta myös kissasi, vaikka sirutus ei ole kissoille vielä pakollista. Jos lemmikkisi katoaa, soita löytöeläinpaikkaan ja kerro sirun numero: Vaasassa, Mustasaaressa, Vöyrillä ja Maalahdella se on Koiratarha Kulkuri, puh. 040 834 2222.
+
+### Milloin eläinlääkäriin?
+
+Ota yhteyttä eläinlääkäriin, jos lemmikkisi joutuu paniikkiin, satuttaa itsensä tai rikkoo tavaroita tai jos sen pelko pahenee. Jos aikuinen lemmikki, etenkin vanha koira, alkaa yhtäkkiä pelätä ääniä, syynä voi olla kipu tai sairaus. Pidä koira uudenvuoden jälkeen erossa ilotulitteiden jäänteistä: ne voivat olla myrkyllisiä, joten soita eläinlääkärille, jos koira on syönyt niitä vähänkään (lue lisää myrkytysartikkelistamme). Kun paukkeet ovat ohi, kysy eläinlääkäriltä harjoittelusta, jossa lemmikille soitetaan tallennettuja ilotulitusääniä aluksi hyvin hiljaa ja annetaan samalla herkkuja. Harjoittelu vie viikkoja tai kuukausia. Soita meille numeroon (06) 321 7300. Jos lemmikki loukkaantuu tai myrkyttyy, soita aukioloaikojen ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Lähteet
+
+- Tukes (Finnish Safety and Chemicals Agency). How to light fireworks safely. tukes.fi
+- Pohjanmaan hyvinvointialue, Pohjanmaan pelastuslaitos. Ilotulitteet ja räjähteet. pohjanmaanhyvinvointi.fi/ilotulitteet-ja-rajahteet
+- Pohjanmaan pelastuslaitos. Ilotulitteiden käytön rajoittaminen Pohjanmaan pelastuslaitoksen alueella (51/2021), Liite B: Ilotulitteiden ampumakieltoalueet Vaasassa. pohjanmaanhyvinvointi.fi/Ilotulitteiden-kayton-rajoittaminen-51-2
+- Ruokavirasto (Finnish Food Authority). Dogs, cats and ferrets. ruokavirasto.fi/dogs-cats-and-ferrets
+- Ruokavirasto (Finnish Food Authority). Notice of change to the dog registry (form 7760/04.01.00.02/2022, updated 2025). ruokavirasto.fi/tietojen_muutos_eng.pdf
+- Suomen Eläinsuojeluyhdistysten liitto (SEY). Kuntien löytökissatilastot 2024 (10.2.2026), incl. each municipality’s lost-animal shelter. sey.fi
+- Vaasan kaupunki: Eläinsuojelu – Löytöeläinpalvelut (Koiratarha Kulkuri is the city’s lost-animal reception point; 2025 statistics). vaasa.fi
+- Suomi.fi palvelupiste: Koiratarha Kulkuri (Mustasaaren kunta), lost animals for Vaasa, Mustasaari, Maalahti and Vöyri (updated 2.6.2025). suomi.fi
+- Riemer S. Not a one-way road—Severity, progression and prevention of firework fears in dogs. PLoS One. 2019;14(9):e0218150. doi:10.1371/journal.pone.0218150 journals.plos.org
+- Riemer S. Effectiveness of treatments for firework fears in dogs. J Vet Behav. 2020;37:61–70. doi:10.1016/j.jveb.2020.04.005 (open preprint: bioRxiv doi:10.1101/663294) biorxiv.org
+- Riemer S. Therapy and Prevention of Noise Fears in Dogs—A Review of the Current Evidence for Practitioners. Animals (Basel). 2023;13(23):3664. doi:10.3390/ani13233664 pmc.ncbi.nlm.nih.gov
+- Lopes Fagundes AL, Hewison L, McPeake KJ, Zulch H, Mills DS. Noise sensitivities in dogs: an exploration of signs in dogs with and without musculoskeletal pain using qualitative content analysis. Front Vet Sci. 2018;5:17. doi:10.3389/fvets.2018.00017 doi.org
+- Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
+- ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+
+### Lue myös
+
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Kissojen terveys
+
+#### Vähemmän stressiä kissan eläinlääkärikäyntiin – näin autamme ja näin voit valmistautua
+
+Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja se, ett...
+Terveys
+
+#### Koira ontuu – milloin eläinlääkäriin, yleisimmät syyt ja hinta
+
+Ontuminen on oire, ei diagnoosi: se kertoo, että koiran tassussa, jalassa, nivelessä tai selkärangassa jokin on kipeä...
 Takaisin etusivulle
 
 ---

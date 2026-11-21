@@ -2521,6 +2521,59 @@ const translations = {
     en: "In Finland, consumers may use mouse poison only indoors, ready-filled in bait boxes. The Finnish Safety and Chemicals Agency (Tukes) advises using snap traps before poison, and avoiding it in homes with pets. If you use it, place the boxes out of your pets’ reach, keep pets from roaming freely, and pick up dead mice with gloves. Read about other poisons in our <a href=\"/en/articles/poisoning.html\">poisoning article</a>."
   },
 
+  // Article: Dog or Cat Scared of Fireworks? How to Get Through New Year (new 2026-11)
+  'article.fireworks.tag': { fi: 'Lemmikkien terveys', sv: 'Husdjurshälsa', en: 'Pet Health' },
+  "article.fireworks.title": {
+    fi: "Pelkääkö koira tai kissa ilotulitusta? Näin autat lemmikkiäsi uudenvuoden yli",
+    sv: "Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret",
+    en: "Dog or Cat Scared of Fireworks? How to Get Through New Year"
+  },
+  "article.fireworks.intro": {
+    fi: "Moni koira ja kissa pelkää ilotulitusta: ne voivat vapista, läähättää, piiloutua, haukkua, yrittää karata tai kieltäytyä syömästä. Pelko menee harvoin ohi itsestään ja voi pahentua ajan myötä, joten valmistaudu ajoissa. Suomessa ilotulitteita saa käyttää uudenvuodenaattona klo 18–02, paitsi alueilla, joilla pelastuslaitos on kieltänyt niiden käytön, kuten Vaasan keskustassa. Paukkeita kuuluu usein päivien ajan ennen uuttavuotta ja sen jälkeen.",
+    sv: "Många hundar och katter är rädda för fyrverkerier: de kan darra, flämta, gömma sig, skälla, försöka fly eller vägra äta. Rädslan går sällan över av sig själv och kan bli värre med tiden. Planera därför i förväg. I Finland är fyrverkerier tillåtna på nyårsafton kl. 18–02, utom där räddningsverket har förbjudit dem, till exempel i Vasa centrum. Smällar hörs ofta i flera dagar före och efter nyår.",
+    en: "Many dogs and cats fear fireworks: they may tremble, pant, hide, bark, try to escape or refuse food. The fear seldom passes by itself and can worsen with time, so plan ahead. In Finland, fireworks are allowed on New Year’s Eve from 6 pm to 2 am, except where the rescue services have banned them, such as Vaasa city centre. Bangs are often heard for days before and after."
+  },
+  "article.fireworks.ahead.title": {
+    fi: "Aloita viikkoja ennen uuttavuotta",
+    sv: "Börja flera veckor före nyår",
+    en: "Start weeks before New Year"
+  },
+  "article.fireworks.ahead.text": {
+    fi: "Jos lemmikkisi pelkäsi viime vuonna, kysy eläinlääkäriltä hyvissä ajoin lääkkeistä: osa niistä on aloitettava jo päiviä etukäteen, ja lääkettä kannattaa kokeilla ensin jonakin rauhallisena päivänä. Älä koskaan anna lemmikillesi lääkettä, jota eläinlääkäri ei ole määrännyt juuri sille. Järjestä lemmikille turvapaikka, josta se jo valmiiksi pitää: rauhallinen nurkkaus, huone tai häkki, jonka ovi jätetään auki. Aina kun koiranpentu tai koira, joka ei vielä pelkää, kuulee pamauksen, anna sille heti herkku, jotta se oppii yhdistämään paukkeet herkkuihin.",
+    sv: "Om ditt djur var rädd förra året ska du i god tid fråga veterinären om läkemedel: vissa måste man börja ge redan flera dagar i förväg, och det är klokt att först pröva läkemedlet en lugn dag. Ge aldrig ditt djur läkemedel som en veterinär inte har skrivit ut åt just det djuret. Ordna ett tryggt gömställe: ett lugnt hörn, en bur med öppen dörr eller ett rum som djuret redan trivs i. Varje gång en valp, eller en hund som ännu inte är rädd, hör en smäll ska du genast ge den en godbit, så att den kopplar ihop smällar med godbitar.",
+    en: "If your pet was afraid last year, ask your vet early about medicines: some must be started days ahead, and a trial run on a quiet day is wise. Never give your pet medicine a vet has not prescribed for it. Set up a safe den: a quiet corner, open crate or room your pet already likes. Whenever a puppy, or a dog not yet afraid, hears a bang, give it a treat straight away, so bangs come to mean treats."
+  },
+  "article.fireworks.evening.title": {
+    fi: "Uudenvuodenaattona",
+    sv: "På nyårsafton",
+    en: "On New Year’s Eve"
+  },
+  "article.fireworks.evening.text": {
+    fi: "Ulkoiluta koiraa valoisaan aikaan ja pidä se ulkona hihnassa, myös omalla pihalla. Pidä kissa sisällä jo ennen pimeän tuloa ja varmista, että sillä on piilopaikkansa, hiekkalaatikko ja vettä. Sulje ikkunat ja verhot ja laita televisio tai musiikki päälle. Anna lemmikin piiloutua, minne se haluaa, äläkä vedä sitä pois piilostaan. Jos lemmikki tulee luoksesi, lohduta sitä rauhallisesti, ja jos se suostuu syömään, anna sille pieni herkku jokaisen pamauksen jälkeen. Älä koskaan rankaise pelästynyttä lemmikkiä. Jää lemmikin kanssa kotiin, jos voit.",
+    sv: "Rasta hunden medan det är ljust och håll den i koppel utomhus, även på din egen gård. Håll katten inomhus redan innan det mörknar, med tillgång till sina gömställen, sin kattlåda och vatten. Stäng fönstren, dra för gardinerna och sätt på tv:n eller musik. Låt djuret gömma sig där det vill och dra inte fram det. Trösta djuret lugnt om det söker sig till dig, och ge en liten godbit efter varje smäll om det vill äta. Straffa aldrig ett djur som är rädd. Stanna hemma hos djuret om du kan.",
+    en: "Walk your dog in daylight, and keep it on a lead outdoors, even in your garden. Keep your cat indoors from before dark, with its hiding places, litter tray and water. Close windows and curtains, and turn on the TV or music. Let your pet hide where it wants; don’t pull it out. Calmly comfort your pet if it comes to you, and if it will eat, give a small treat after each bang. Never punish a scared pet. Stay at home with your pet if you can."
+  },
+  "article.fireworks.escape.title": {
+    fi: "Jos lemmikki karkaa",
+    sv: "Om ditt djur rymmer",
+    en: "If your pet runs away"
+  },
+  "article.fireworks.escape.text": {
+    fi: "Pelästynyt lemmikki voi syöksyä ulos avoimesta ovesta tai pujahtaa irti pannastaan. Tarkista siksi, että koirasi panta tai valjaat istuvat tiiviisti ja että niissä on nimilaatta, jossa on puhelinnumerosi. Koirasi on oltava merkitty mikrosirulla ja ilmoitettu Ruokaviraston koirarekisteriin: kirjaudu osoitteessa <a href=\"https://koirarekisteri.ruokavirasto.fi/\">koirarekisteri.ruokavirasto.fi</a> ja tarkista, että puhelinnumerosi on siellä ajan tasalla. Siruta myös kissasi, vaikka sirutus ei ole kissoille vielä pakollista. Jos lemmikkisi katoaa, soita löytöeläinpaikkaan ja kerro sirun numero: Vaasassa, Mustasaaressa, Vöyrillä ja Maalahdella se on Koiratarha Kulkuri, puh. 040 834 2222.",
+    sv: "Ett skrämt djur kan rusa ut genom en öppen dörr eller dra sig ur halsbandet, så kontrollera att hundens halsband eller sele sitter tillräckligt tätt och har en bricka med ditt telefonnummer. Hunden ska vara märkt med mikrochip och registrerad i Livsmedelsverkets hundregister: logga in på <a href=\"https://koirarekisteri.ruokavirasto.fi/\">koirarekisteri.ruokavirasto.fi</a> och kontrollera att ditt telefonnummer där är aktuellt. Se till att också katten får ett mikrochip, även om det ännu inte är obligatoriskt. Om ditt djur försvinner ska du ringa mottagningsplatsen för hittedjur och uppge mikrochipnumret: för Vasa, Korsholm, Vörå och Malax är det Koiratarha Kulkuri, 040 834 2222.",
+    en: "A scared pet may bolt through an open door or slip its collar, so check that your dog’s collar or harness fits snugly and has a tag with your phone number. Your dog must be microchipped and in Ruokavirasto’s dog register: log in at <a href=\"https://koirarekisteri.ruokavirasto.fi/\">koirarekisteri.ruokavirasto.fi</a> and check that your phone number there is current. Microchip your cat too, though it is not yet compulsory. If your pet goes missing, call the lost-animal shelter and give the chip number: for Vaasa, Mustasaari, Vöyri and Maalahti, that is Koiratarha Kulkuri, 040 834 2222."
+  },
+  "article.fireworks.vet.title": {
+    fi: "Milloin eläinlääkäriin?",
+    sv: "När ska du kontakta veterinären?",
+    en: "When to see the vet"
+  },
+  "article.fireworks.vet.text": {
+    fi: "Ota yhteyttä eläinlääkäriin, jos lemmikkisi joutuu paniikkiin, satuttaa itsensä tai rikkoo tavaroita tai jos sen pelko pahenee. Jos aikuinen lemmikki, etenkin vanha koira, alkaa yhtäkkiä pelätä ääniä, syynä voi olla kipu tai sairaus. Pidä koira uudenvuoden jälkeen erossa ilotulitteiden jäänteistä: ne voivat olla myrkyllisiä, joten soita eläinlääkärille, jos koira on syönyt niitä vähänkään (lue lisää <a href=\"/articles/myrkytys.html\">myrkytysartikkelistamme</a>). Kun paukkeet ovat ohi, kysy eläinlääkäriltä harjoittelusta, jossa lemmikille soitetaan tallennettuja ilotulitusääniä aluksi hyvin hiljaa ja annetaan samalla herkkuja. Harjoittelu vie viikkoja tai kuukausia. Soita meille numeroon (06) 321 7300. Jos lemmikki loukkaantuu tai myrkyttyy, soita aukioloaikojen ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Kontakta veterinären om ditt djur får panik, skadar sig eller förstör saker, eller om rädslan förvärras. Om ett vuxet djur, särskilt en äldre hund, plötsligt blir rädd för ljud kan det vara ett tecken på smärta eller sjukdom. Efter nyår ska du hålla hunden borta från fyrverkerirester: de kan vara giftiga, så ring en veterinär om den äter av dem (läs vår <a href=\"/sv/artiklar/forgiftning.html\">artikel om förgiftningar</a>). När smällarna har tystnat ska du fråga veterinären om träning med inspelade fyrverkeriljud, som till en början spelas på mycket låg volym och kombineras med godbitar: det tar veckor eller månader. Ring oss på (06) 321 7300. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299 om ditt djur har skadat sig eller blivit förgiftat.",
+    en: "Contact your vet if your pet panics, hurts itself or destroys things, or if its fear is worsening. A sudden new noise fear in an adult pet, especially an older dog, can signal pain or illness. After New Year, keep your dog away from firework remains: they can be poisonous, so call a vet if it eats any (see our <a href=\"/en/articles/poisoning.html\">poisoning article</a>). When the bangs are over, ask your vet about training with firework recordings, played very quietly at first and paired with treats: it takes weeks or months. Call us on (06) 321 7300. If your pet is hurt or poisoned out of hours, call the regional emergency vet on 0600 399 299."
+  },
+
   // Article: Dog Ate Chocolate – How Much Is Dangerous and What to Do (new 2026-11, poisoning hub spoke)
   'article.dogchoc.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   "article.dogchoc.title": {
@@ -4220,6 +4273,7 @@ function setLanguage(lang) {
     'kissan-munuaisten-vajaatoiminta': { sv: 'njursvikt-katt', en: 'kidney-disease-cats' },
     'koiran-ja-kissan-turkinhoito': { sv: 'palsvard-hund-katt', en: 'coat-care-dogs-cats' },
     'koira-yskii': { sv: 'hund-hostar', en: 'dog-coughing' },
+    'koira-pelkaa-ilotulitusta': { sv: 'hund-radd-for-fyrverkerier', en: 'dog-scared-of-fireworks' },
     'rotanmyrkky-ja-hiirenmyrkky': { sv: 'rattgift-och-musgift', en: 'rat-and-mouse-poison' },
     'koira-soi-suklaata': { sv: 'hund-at-choklad', en: 'dog-ate-chocolate' },
     'ksylitolimyrkytys': { sv: 'xylitol-hund', en: 'xylitol-poisoning-dogs' },

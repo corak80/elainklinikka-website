@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 81 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 82 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3609,12 +3609,18 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Articles
 
 Veterinary articles from the professionals
 Search articles...
+Pet Health
+21.11.2026
+
+### Dog or Cat Scared of Fireworks? How to Get Through New Year
+
+Many dogs and cats fear fireworks: they may tremble, pant, hide, bark, try to escape or refuse food. The fear seldom passes by itself and can worsen with time, so plan ahead. In Finland, fireworks are allowed on New Year’s Eve from 6 pm to 2 am, except where the rescue services have banned them, such as Vaasa city centre. Bangs are often heard for days before and after.
 Emergency
 20.11.2026
 
@@ -4443,6 +4449,74 @@ Emergency
 #### Xylitol Poisoning in Dogs – How Much Xylitol Is Dangerous?
 
 Xylitol is a sweetener that is harmless to people but dangerous to dogs. In Finland it is everywhere: in chewing gum,...
+Back to homepage
+
+---
+
+# Dog or Cat Scared of Fireworks? How to Get Through New Year
+
+URL: https://elainklinikkasaari.fi/en/articles/dog-scared-of-fireworks.html
+Last updated: 2026-11-21
+
+Pet Health
+21.11.2026
+
+## Dog or Cat Scared of Fireworks? How to Get Through New Year
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+Many dogs and cats fear fireworks: they may tremble, pant, hide, bark, try to escape or refuse food. The fear seldom passes by itself and can worsen with time, so plan ahead. In Finland, fireworks are allowed on New Year’s Eve from 6 pm to 2 am, except where the rescue services have banned them, such as Vaasa city centre. Bangs are often heard for days before and after.
+
+### Start weeks before New Year
+
+If your pet was afraid last year, ask your vet early about medicines: some must be started days ahead, and a trial run on a quiet day is wise. Never give your pet medicine a vet has not prescribed for it. Set up a safe den: a quiet corner, open crate or room your pet already likes. Whenever a puppy, or a dog not yet afraid, hears a bang, give it a treat straight away, so bangs come to mean treats.
+
+### On New Year’s Eve
+
+Walk your dog in daylight, and keep it on a lead outdoors, even in your garden. Keep your cat indoors from before dark, with its hiding places, litter tray and water. Close windows and curtains, and turn on the TV or music. Let your pet hide where it wants; don’t pull it out. Calmly comfort your pet if it comes to you, and if it will eat, give a small treat after each bang. Never punish a scared pet. Stay at home with your pet if you can.
+
+### If your pet runs away
+
+A scared pet may bolt through an open door or slip its collar, so check that your dog’s collar or harness fits snugly and has a tag with your phone number. Your dog must be microchipped and in Ruokavirasto’s dog register: log in at koirarekisteri.ruokavirasto.fi and check that your phone number there is current. Microchip your cat too, though it is not yet compulsory. If your pet goes missing, call the lost-animal shelter and give the chip number: for Vaasa, Mustasaari, Vöyri and Maalahti, that is Koiratarha Kulkuri, 040 834 2222.
+
+### When to see the vet
+
+Contact your vet if your pet panics, hurts itself or destroys things, or if its fear is worsening. A sudden new noise fear in an adult pet, especially an older dog, can signal pain or illness. After New Year, keep your dog away from firework remains: they can be poisonous, so call a vet if it eats any (see our poisoning article). When the bangs are over, ask your vet about training with firework recordings, played very quietly at first and paired with treats: it takes weeks or months. Call us on (06) 321 7300. If your pet is hurt or poisoned out of hours, call the regional emergency vet on 0600 399 299.
+
+### Sources
+
+- Tukes (Finnish Safety and Chemicals Agency). How to light fireworks safely. tukes.fi
+- Pohjanmaan hyvinvointialue, Pohjanmaan pelastuslaitos. Ilotulitteet ja räjähteet. pohjanmaanhyvinvointi.fi/ilotulitteet-ja-rajahteet
+- Pohjanmaan pelastuslaitos. Ilotulitteiden käytön rajoittaminen Pohjanmaan pelastuslaitoksen alueella (51/2021), Liite B: Ilotulitteiden ampumakieltoalueet Vaasassa. pohjanmaanhyvinvointi.fi/Ilotulitteiden-kayton-rajoittaminen-51-2
+- Ruokavirasto (Finnish Food Authority). Dogs, cats and ferrets. ruokavirasto.fi/dogs-cats-and-ferrets
+- Ruokavirasto (Finnish Food Authority). Notice of change to the dog registry (form 7760/04.01.00.02/2022, updated 2025). ruokavirasto.fi/tietojen_muutos_eng.pdf
+- Suomen Eläinsuojeluyhdistysten liitto (SEY). Kuntien löytökissatilastot 2024 (10.2.2026), incl. each municipality’s lost-animal shelter. sey.fi
+- Vaasan kaupunki: Eläinsuojelu – Löytöeläinpalvelut (Koiratarha Kulkuri is the city’s lost-animal reception point; 2025 statistics). vaasa.fi
+- Suomi.fi palvelupiste: Koiratarha Kulkuri (Mustasaaren kunta), lost animals for Vaasa, Mustasaari, Maalahti and Vöyri (updated 2.6.2025). suomi.fi
+- Riemer S. Not a one-way road—Severity, progression and prevention of firework fears in dogs. PLoS One. 2019;14(9):e0218150. doi:10.1371/journal.pone.0218150 journals.plos.org
+- Riemer S. Effectiveness of treatments for firework fears in dogs. J Vet Behav. 2020;37:61–70. doi:10.1016/j.jveb.2020.04.005 (open preprint: bioRxiv doi:10.1101/663294) biorxiv.org
+- Riemer S. Therapy and Prevention of Noise Fears in Dogs—A Review of the Current Evidence for Practitioners. Animals (Basel). 2023;13(23):3664. doi:10.3390/ani13233664 pmc.ncbi.nlm.nih.gov
+- Lopes Fagundes AL, Hewison L, McPeake KJ, Zulch H, Mills DS. Noise sensitivities in dogs: an exploration of signs in dogs with and without musculoskeletal pain using qualitative content analysis. Front Vet Sci. 2018;5:17. doi:10.3389/fvets.2018.00017 doi.org
+- Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
+- ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+
+### Read also
+
+Emergency
+
+#### Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away
+
+Poisoning is a common reason for emergency visits to the vet. Dogs and cats are often poisoned by something harmless...
+Cat Health
+
+#### A Less Stressful Vet Visit for Your Cat — How We Help and How You Can Prepare
+
+A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs...
+Health
+
+#### Dog Limping — When to See a Vet, Common Causes and Cost
+
+Limping is a sign, not a diagnosis: something in the paw, leg, joint or spine hurts or is not working properly. Call...
 Back to homepage
 
 ---

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 81 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 82 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3599,12 +3599,18 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Artiklar
 
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
+Husdjurshälsa
+21.11.2026
+
+### Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret
+
+Många hundar och katter är rädda för fyrverkerier: de kan darra, flämta, gömma sig, skälla, försöka fly eller vägra äta. Rädslan går sällan över av sig själv och kan bli värre med tiden. Planera därför i förväg. I Finland är fyrverkerier tillåtna på nyårsafton kl. 18–02, utom där räddningsverket har förbjudit dem, till exempel i Vasa centrum. Smällar hörs ofta i flera dagar före och efter nyår.
 Akutvård
 20.11.2026
 
@@ -4433,6 +4439,74 @@ Akutvård
 #### Xylitolförgiftning hos hund – hur mycket xylitol är farligt?
 
 Xylitol är ett sötningsmedel som är ofarligt för människor men farligt för hundar. I Finland finns xylitol överallt:...
+Tillbaka till startsidan
+
+---
+
+# Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/hund-radd-for-fyrverkerier.html
+Last updated: 2026-11-21
+
+Husdjurshälsa
+21.11.2026
+
+## Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Många hundar och katter är rädda för fyrverkerier: de kan darra, flämta, gömma sig, skälla, försöka fly eller vägra äta. Rädslan går sällan över av sig själv och kan bli värre med tiden. Planera därför i förväg. I Finland är fyrverkerier tillåtna på nyårsafton kl. 18–02, utom där räddningsverket har förbjudit dem, till exempel i Vasa centrum. Smällar hörs ofta i flera dagar före och efter nyår.
+
+### Börja flera veckor före nyår
+
+Om ditt djur var rädd förra året ska du i god tid fråga veterinären om läkemedel: vissa måste man börja ge redan flera dagar i förväg, och det är klokt att först pröva läkemedlet en lugn dag. Ge aldrig ditt djur läkemedel som en veterinär inte har skrivit ut åt just det djuret. Ordna ett tryggt gömställe: ett lugnt hörn, en bur med öppen dörr eller ett rum som djuret redan trivs i. Varje gång en valp, eller en hund som ännu inte är rädd, hör en smäll ska du genast ge den en godbit, så att den kopplar ihop smällar med godbitar.
+
+### På nyårsafton
+
+Rasta hunden medan det är ljust och håll den i koppel utomhus, även på din egen gård. Håll katten inomhus redan innan det mörknar, med tillgång till sina gömställen, sin kattlåda och vatten. Stäng fönstren, dra för gardinerna och sätt på tv:n eller musik. Låt djuret gömma sig där det vill och dra inte fram det. Trösta djuret lugnt om det söker sig till dig, och ge en liten godbit efter varje smäll om det vill äta. Straffa aldrig ett djur som är rädd. Stanna hemma hos djuret om du kan.
+
+### Om ditt djur rymmer
+
+Ett skrämt djur kan rusa ut genom en öppen dörr eller dra sig ur halsbandet, så kontrollera att hundens halsband eller sele sitter tillräckligt tätt och har en bricka med ditt telefonnummer. Hunden ska vara märkt med mikrochip och registrerad i Livsmedelsverkets hundregister: logga in på koirarekisteri.ruokavirasto.fi och kontrollera att ditt telefonnummer där är aktuellt. Se till att också katten får ett mikrochip, även om det ännu inte är obligatoriskt. Om ditt djur försvinner ska du ringa mottagningsplatsen för hittedjur och uppge mikrochipnumret: för Vasa, Korsholm, Vörå och Malax är det Koiratarha Kulkuri, 040 834 2222.
+
+### När ska du kontakta veterinären?
+
+Kontakta veterinären om ditt djur får panik, skadar sig eller förstör saker, eller om rädslan förvärras. Om ett vuxet djur, särskilt en äldre hund, plötsligt blir rädd för ljud kan det vara ett tecken på smärta eller sjukdom. Efter nyår ska du hålla hunden borta från fyrverkerirester: de kan vara giftiga, så ring en veterinär om den äter av dem (läs vår artikel om förgiftningar). När smällarna har tystnat ska du fråga veterinären om träning med inspelade fyrverkeriljud, som till en början spelas på mycket låg volym och kombineras med godbitar: det tar veckor eller månader. Ring oss på (06) 321 7300. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299 om ditt djur har skadat sig eller blivit förgiftat.
+
+### Källor
+
+- Tukes (Finnish Safety and Chemicals Agency). How to light fireworks safely. tukes.fi
+- Pohjanmaan hyvinvointialue, Pohjanmaan pelastuslaitos. Ilotulitteet ja räjähteet. pohjanmaanhyvinvointi.fi/ilotulitteet-ja-rajahteet
+- Pohjanmaan pelastuslaitos. Ilotulitteiden käytön rajoittaminen Pohjanmaan pelastuslaitoksen alueella (51/2021), Liite B: Ilotulitteiden ampumakieltoalueet Vaasassa. pohjanmaanhyvinvointi.fi/Ilotulitteiden-kayton-rajoittaminen-51-2
+- Ruokavirasto (Finnish Food Authority). Dogs, cats and ferrets. ruokavirasto.fi/dogs-cats-and-ferrets
+- Ruokavirasto (Finnish Food Authority). Notice of change to the dog registry (form 7760/04.01.00.02/2022, updated 2025). ruokavirasto.fi/tietojen_muutos_eng.pdf
+- Suomen Eläinsuojeluyhdistysten liitto (SEY). Kuntien löytökissatilastot 2024 (10.2.2026), incl. each municipality’s lost-animal shelter. sey.fi
+- Vaasan kaupunki: Eläinsuojelu – Löytöeläinpalvelut (Koiratarha Kulkuri is the city’s lost-animal reception point; 2025 statistics). vaasa.fi
+- Suomi.fi palvelupiste: Koiratarha Kulkuri (Mustasaaren kunta), lost animals for Vaasa, Mustasaari, Maalahti and Vöyri (updated 2.6.2025). suomi.fi
+- Riemer S. Not a one-way road—Severity, progression and prevention of firework fears in dogs. PLoS One. 2019;14(9):e0218150. doi:10.1371/journal.pone.0218150 journals.plos.org
+- Riemer S. Effectiveness of treatments for firework fears in dogs. J Vet Behav. 2020;37:61–70. doi:10.1016/j.jveb.2020.04.005 (open preprint: bioRxiv doi:10.1101/663294) biorxiv.org
+- Riemer S. Therapy and Prevention of Noise Fears in Dogs—A Review of the Current Evidence for Practitioners. Animals (Basel). 2023;13(23):3664. doi:10.3390/ani13233664 pmc.ncbi.nlm.nih.gov
+- Lopes Fagundes AL, Hewison L, McPeake KJ, Zulch H, Mills DS. Noise sensitivities in dogs: an exploration of signs in dogs with and without musculoskeletal pain using qualitative content analysis. Front Vet Sci. 2018;5:17. doi:10.3389/fvets.2018.00017 doi.org
+- Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
+- ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+
+### Läs också
+
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Katthälsa
+
+#### Ett mindre stressande veterinärbesök för katten – så hjälper vi och så kan du förbereda dig
+
+Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, hundar i närheten...
+Hälsa
+
+#### Hunden haltar – när till veterinären, vanliga orsaker och pris
+
+Hälta är ett symtom, inte en diagnos: något i tassen, benet, en led eller ryggraden gör ont eller fungerar inte som d...
 Tillbaka till startsidan
 
 ---
