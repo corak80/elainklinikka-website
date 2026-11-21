@@ -6165,6 +6165,29 @@ ${renderCookieBanner(lang)}
 // ──────────────────────────────────────────────
 // 9y. Generate Booking page (/ajanvaraus/ /sv/tidsbokning/ /en/book-appointment/)
 // ──────────────────────────────────────────────
+// "Good to know" section under the booking buttons (added 21-11-2026; EN master approved
+// by Assaf, FI/SV native writer + critic). Card text is HTML; href="@pricelist" becomes the
+// language's price-list drop-in anchor. Phone numbers and "10 %" get no-break spaces.
+// Heading reuses .booking-hero/.booking-subtitle; cards .booking-info-grid/.booking-info-card.
+function renderBookingInfo(info, lang) {
+  const keep = (t) => t
+    .replace(/(\d) %/g, '$1&nbsp;%')
+    .replace(/(\(0\d\)|0600) (\d{3}) (\d{3,4})/g, '$1&nbsp;$2&nbsp;$3');
+  const cards = info.cards.map((c) => `            <div class="booking-info-card">
+              <h3>${escapeHtml(c.h)}</h3>
+              <p>${keep(c.p).replace(/href="@pricelist"/g, `href="${PRICES_URLS[lang]}#drop-in"`)}</p>
+            </div>`).join('\n');
+  return `
+        <section class="booking-info" aria-labelledby="booking-info-title">
+          <div class="booking-hero">
+            <h2 class="booking-subtitle" id="booking-info-title">${escapeHtml(info.divider)}</h2>
+          </div>
+          <div class="booking-info-grid">
+${cards}
+          </div>
+        </section>`;
+}
+
 function generateBookingPage(lang) {
   const i18n = {
     fi: {
@@ -6187,25 +6210,35 @@ function generateBookingPage(lang) {
       emailTitle: 'Sähköposti',
       emailMeta: 'Vastausaika n. 1 työpäivä',
       emailAddress: 'info@saarivet.fi',
-      practicalInfo: 'Käytännön tietoa',
-      hoursHeading: 'Aukioloajat',
-      hoursWeekday: 'Maanantai – perjantai 7.45 – 17.00',
-      hoursClosed: 'Lauantaisin ja sunnuntaisin suljettu',
-      hoursWalkin: 'Drop-in rokotukset tiistaisin klo 15.30 – 16.00 (ilman ajanvarausta)',
-      acuteHeading: 'Akuutit ja päivystys',
-      acuteText: 'Varaamme päivittäin akuuttiaikoja kiireellisiä tapauksia varten. Soita ensin numeroon (06) 321 7300, niin saamme valmistauduttua. Iltaisin ja viikonloppuisin alueen päivystysnumero on 0600 399 299.',
-      acuteLink: 'Katso päivystysohjeet →',
-      bringHeading: 'Mitä ottaa mukaan vastaanotolle',
-      bringList: [
-        'Lemmikkipassi tai rokotuskortti',
-        'Aiemmat tutkimustulokset, jos olette käyneet toisella klinikalla',
-        'Tieto käytössä olevista lääkkeistä ja ruokavaliosta',
-        'Koira hihnassa tai turvavaljaissa, kissa kantokopassa',
-        'Halutessanne tarinanne lemmikin oireista — kuinka kauan, miten muuttunut',
-      ],
-      locationHeading: 'Sijainti',
-      locationAddress: 'Gerbyntie 18, 65230 Vaasa (pukinkulma, Vetokannas)',
-      locationDirections: 'Avaa Google Mapsissa',
+      info: {
+        "divider": "Hyvä tietää",
+        "cards": [
+          {
+            "h": "Verkkoajanvaraus",
+            "p": "Verkkoajanvaraus on auki ympäri vuorokauden. Valitse käynnin syy, joka vastaa parhaiten lemmikkisi vaivaa. Jos mikään syy ei sovi, valitse yleinen sairaskäynti tai soita meille."
+          },
+          {
+            "h": "Kun asia ei voi odottaa",
+            "p": "Jos lemmikkisi on sairas tai loukkaantunut eikä asia voi odottaa, soita verkkoajanvarauksen sijaan numeroon (06) 321 7300. Kiireellisestä käynnistä aukioloaikana ei peritä lisämaksua. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299."
+          },
+          {
+            "h": "Rokotukset ilman ajanvarausta",
+            "p": "Tiistaisin klo 15.30–16.00 voit tuoda lemmikkisi rokotukseen ilman ajanvarausta. Drop-in-rokotukset ovat 10 % edullisempia kuin varatulla ajalla. Hinnat löydät <a href=\"@pricelist\">hinnastostamme</a>."
+          },
+          {
+            "h": "Mitä ottaa mukaan",
+            "p": "Ota mukaan lemmikkisi mahdolliset aiemmat hoitotiedot, voimassa oleva lääkitys ja rokotuskortti. Tuo kissa kuljetuskopassa ja koira talutushihnassa."
+          },
+          {
+            "h": "Lemmikkivakuutus",
+            "p": "Jos lemmikkisi on vakuutettu, ota mukaan vakuutustodistus: teemme suorakorvauksen LähiTapiolan, Agrian ja Pohjolan vakuutuksille."
+          },
+          {
+            "h": "Näin löydät meille",
+            "p": "Olemme osoitteessa Gerbyntie 18, 65230 Vaasa (Vetokannas), noin 5 minuutin ajomatkan päässä keskustasta. Klinikan edessä voit pysäköidä maksutta. Palvelemme suomeksi, ruotsiksi ja englanniksi."
+          }
+        ]
+      },
       backToHome: '← Takaisin etusivulle',
       skipLink: 'Siirry sisältöön',
     },
@@ -6229,25 +6262,35 @@ function generateBookingPage(lang) {
       emailTitle: 'E-post',
       emailMeta: 'Svar inom ca 1 arbetsdag',
       emailAddress: 'info@saarivet.fi',
-      practicalInfo: 'Praktisk information',
-      hoursHeading: 'Öppettider',
-      hoursWeekday: 'Måndag – fredag 7.45 – 17.00',
-      hoursClosed: 'Lördag och söndag stängt',
-      hoursWalkin: 'Drop-in-vaccinationer tisdagar kl. 15.30 – 16.00 (ingen tidsbokning behövs)',
-      acuteHeading: 'Akut och jour',
-      acuteText: 'Vi reserverar dagligen akuttider för brådskande fall. Ring först (06) 321 7300 så hinner vi förbereda mottagningen. Kvällar och helger är regionens jourtelefon 0600 399 299.',
-      acuteLink: 'Se jouranvisningar →',
-      bringHeading: 'Vad ta med till besöket',
-      bringList: [
-        'Husdjurspass eller vaccinationskort',
-        'Tidigare undersökningsresultat om ni varit hos en annan klinik',
-        'Information om aktuella läkemedel och kost',
-        'Hund i koppel eller sele, katt i transportbur',
-        'Gärna en kort historia om symtomen — hur länge, hur de förändrats',
-      ],
-      locationHeading: 'Plats',
-      locationAddress: 'Gerbyntie 18, 65230 Vasa (Bockska hörnet, Dragnäsbäck)',
-      locationDirections: 'Öppna i Google Maps',
+      info: {
+        "divider": "Bra att veta",
+        "cards": [
+          {
+            "h": "Onlinebokning",
+            "p": "Onlinebokningen är öppen dygnet runt. Välj den besöksorsak som bäst stämmer in på ditt djurs besvär. Om ingen passar, välj det allmänna alternativet för sjukbesök eller ring oss."
+          },
+          {
+            "h": "När det inte kan vänta",
+            "p": "Om ditt djur är sjukt eller skadat och det inte kan vänta, ring (06) 321 7300 i stället för att boka online. För akutbesök under öppettiderna tar vi ingen extra avgift. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299."
+          },
+          {
+            "h": "Vaccinationer utan tidsbokning",
+            "p": "På tisdagar kl. 15.30–16.00 kan du komma med ditt djur för vaccination utan tidsbokning. Drop-in-vaccinationer är 10 % billigare än vid ett bokat besök. Priserna finns i vår <a href=\"@pricelist\">prislista</a>."
+          },
+          {
+            "h": "Vad du ska ta med",
+            "p": "Ta med djurets eventuella tidigare vårduppgifter, aktuell medicinering och vaccinationskort. Katter bör tas med i transportbur och hundar i koppel."
+          },
+          {
+            "h": "Djurförsäkring",
+            "p": "Om ditt djur är försäkrat, ta med försäkringsintyget – vi erbjuder direktersättning med LokalTapiola, Agria och Pohjola."
+          },
+          {
+            "h": "Hitta hit",
+            "p": "Vi finns på Gerbyntie 18, 65230 Vasa (Dragnäsbäck), cirka 5 minuters bilväg från centrum. Du kan parkera gratis framför kliniken. Vi betjänar på finska, svenska och engelska."
+          }
+        ]
+      },
       backToHome: '← Tillbaka till startsidan',
       skipLink: 'Hoppa till innehållet',
     },
@@ -6271,25 +6314,35 @@ function generateBookingPage(lang) {
       emailTitle: 'Email',
       emailMeta: 'Reply within ~1 business day',
       emailAddress: 'info@saarivet.fi',
-      practicalInfo: 'Practical information',
-      hoursHeading: 'Opening hours',
-      hoursWeekday: 'Monday – Friday 7:45 – 17:00',
-      hoursClosed: 'Closed Saturday and Sunday',
-      hoursWalkin: 'Walk-in vaccinations on Tuesdays 15:30 – 16:00 (no appointment needed)',
-      acuteHeading: 'Acute cases and after-hours',
-      acuteText: 'We reserve daily acute appointment slots for urgent cases. Call (06) 321 7300 first so we can prepare. Evenings and weekends: the regional emergency hotline is 0600 399 299.',
-      acuteLink: 'See emergency guidance →',
-      bringHeading: 'What to bring to your visit',
-      bringList: [
-        'Pet passport or vaccination card',
-        'Previous examination results if you have been to another clinic',
-        'Information about current medications and diet',
-        'Dog on a leash or harness, cat in a carrier',
-        'A short summary of symptoms — how long, how they have changed',
-      ],
-      locationHeading: 'Location',
-      locationAddress: 'Gerbyntie 18, 65230 Vaasa (Pukinkulma, Dragnäsbäck)',
-      locationDirections: 'Open in Google Maps',
+      info: {
+        "divider": "Good to know",
+        "cards": [
+          {
+            "h": "Booking online",
+            "p": "Online booking is open around the clock. Pick the reason closest to your pet’s problem. If none fits, choose the general sick-visit option, or call us."
+          },
+          {
+            "h": "When it can’t wait",
+            "p": "If your pet is ill or injured and it can’t wait, call (06) 321 7300 instead of booking online. Urgent visits during opening hours have no extra charge. Outside opening hours, call the regional emergency vet on 0600 399 299."
+          },
+          {
+            "h": "Vaccinations without an appointment",
+            "p": "On Tuesdays 15:30–16:00 you can bring your pet for vaccinations without booking. Drop-in vaccinations cost 10 % less than at a booked visit. Prices are on our <a href=\"@pricelist\">price list</a>."
+          },
+          {
+            "h": "What to bring",
+            "p": "Bring any earlier medical records, your pet’s current medicines and its vaccination card. Bring cats in a carrier and dogs on a lead."
+          },
+          {
+            "h": "Pet insurance",
+            "p": "If your pet is insured, bring the insurance certificate: we bill LähiTapiola, Agria and Pohjola directly."
+          },
+          {
+            "h": "Getting here",
+            "p": "We’re at Gerbyntie 18, 65230 Vaasa (Dragnäsbäck), about 5 minutes’ drive from the city centre, with free parking in front of the clinic. We serve you in Finnish, Swedish and English."
+          }
+        ]
+      },
       backToHome: '← Back to homepage',
       skipLink: 'Skip to content',
     },
@@ -6346,8 +6399,6 @@ function generateBookingPage(lang) {
       },
     },
   };
-
-  const bringListHtml = i18n.bringList.map((item) => `        <li>${escapeHtml(item)}</li>`).join('\n');
 
   return `<!DOCTYPE html>
 <html lang="${i18n.htmlLang}">
@@ -6464,6 +6515,7 @@ ${i18n.onlineMeta ? `            <span class="booking-method-meta">${escapeHtml(
             <span class="booking-method-meta">${escapeHtml(i18n.emailMeta)}</span>
           </a>
         </section>
+${renderBookingInfo(i18n.info, lang)}
       </div>
     </article>
   </main>
