@@ -351,14 +351,14 @@
   </script>
 
   <link rel="preload" as="image" href="/images/logo.png">
-  <link rel="preload" as="image" href="/media/hero-autumn-poster-mobile.jpg" media="(max-width: 719px)" fetchpriority="high">
-  <link rel="preload" as="image" href="/media/hero-autumn-poster.jpg" media="(min-width: 720px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/media/clinic-poster-mobile.jpg" media="(max-width: 719px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/media/clinic-poster.jpg" media="(min-width: 720px)" fetchpriority="high">
   <link rel="stylesheet" href="/css/style.css?v=20261118a">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/images/favicon-icon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style id="cine-hero">
-.hero{position:relative;padding:9rem 1rem 5rem!important;background:#14122a url('/media/hero-autumn-poster.jpg') center 42%/cover!important;text-align:center;overflow:hidden;min-height:92vh;display:flex;align-items:center}
+.hero{position:relative;padding:9rem 1rem 5rem!important;background:#14122a url('/media/clinic-poster.jpg') center 42%/cover!important;text-align:center;overflow:hidden;min-height:92vh;display:flex;align-items:center}
 .hero .container{position:relative;z-index:3}
 .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;z-index:0}
 .hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(18,16,40,.62) 0%,rgba(18,16,40,.26) 32%,rgba(18,16,40,.34) 60%,rgba(18,16,40,.84) 100%)}
@@ -377,7 +377,7 @@ a.hero-badge{text-decoration:none}
 @keyframes heroRise{to{transform:none}}
 @media(prefers-reduced-motion:reduce){.hero *{animation:none!important;opacity:1!important;transform:none!important}.hero-bg{display:none}}
 
-@media(max-width:719px){.hero{background-image:url('/media/hero-autumn-poster-mobile.jpg')!important}}
+@media(max-width:719px){.hero{background-image:url('/media/clinic-poster-mobile.jpg')!important}}
 </style>
   <!-- Note: no VideoObject schema for the decorative hero background clip (aria-hidden, muted, looped).
        It is not a "watch page" video; indexing it triggered GSC "Video isn't on a watch page". -->
@@ -438,8 +438,8 @@ a.hero-badge{text-decoration:none}
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" aria-hidden="true" data-src="/media/hero-autumn.mp4" data-src-mobile="/media/hero-autumn-mobile.mp4"></video>
-    <script>/* Poster per screen size: the same file the head preloads, so a phone no longer also downloads the desktop poster. */(function(v){if(v)v.poster=matchMedia('(max-width: 719px)').matches?'/media/hero-autumn-poster-mobile.jpg':'/media/hero-autumn-poster.jpg';})(document.getElementById('heroVid'));</script>
+    <video class="hero-bg" id="heroVid" muted loop playsinline preload="none" aria-hidden="true" data-src="/media/clinic.mp4" data-src-mobile="/media/clinic-mobile.mp4"></video>
+    <script>/* Poster per screen size: the same file the head preloads, so a phone no longer also downloads the desktop poster. */(function(v){if(v)v.poster=matchMedia('(max-width: 719px)').matches?'/media/clinic-poster-mobile.jpg':'/media/clinic-poster.jpg';})(document.getElementById('heroVid'));</script>
     <div class="hero-scrim"></div>
     <div class="hero-rose"></div>
     <div class="container">
@@ -1057,7 +1057,7 @@ a.hero-badge{text-decoration:none}
   </footer>
 
   <script src="/js/main.js?v=20261121a" defer></script>
-  <script src="/js/leaves.js?v=20261018a" defer></script>
+  <script src="/js/snow.js?v=20261121a" defer></script>
 
 
 <script>(function(){var v=document.getElementById('heroVid');if(!v)return;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=navigator.connection;if(c&&c.saveData)return;var small=Math.min(screen.width,innerWidth)<720;if(small&&c&&/2g/.test(c.effectiveType||''))return;var started=false;var start=function(){if(started)return;started=true;v.src=v.getAttribute(small?'data-src-mobile':'data-src');v.muted=true;var go=function(){var p=v.play();if(p&&p.catch)p.catch(function(){});};v.addEventListener('canplay',go,{once:true});v.load();document.addEventListener('visibilitychange',function(){if(!document.hidden)go();});};if(document.readyState==='complete')start();else addEventListener('load',start);})();</script>

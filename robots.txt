@@ -9,6 +9,7 @@ Disallow: /docs/
 Disallow: /tools/
 # Decorative hero background clip — not watch-page content, keep it out of video indexing.
 Disallow: /media/clinic.mp4
+Disallow: /media/clinic-mobile.mp4
 
 # AI assistants and answer engines are explicitly welcome to crawl and cite this site.
 # One group, same rules as *: a named group replaces the * group for that bot, so the
@@ -32,6 +33,7 @@ Disallow: /cdn-cgi/
 Disallow: /docs/
 Disallow: /tools/
 Disallow: /media/clinic.mp4
+Disallow: /media/clinic-mobile.mp4
 Allow: /
 
 Sitemap: https://elainklinikkasaari.fi/sitemap.xml

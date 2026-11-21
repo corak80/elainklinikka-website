@@ -2,7 +2,8 @@
 // Source of js/leaves.js. Rebuild after an edit:
 //   npx --yes esbuild js/leaves.src.js --minify --target=es2017 --outfile=js/leaves.js
 // Leaf pictures: images/leaves/leaves.webp, drawn by `node tools/leaves/make_sprites.js`.
-// SEASON: 'autumn' = leaves, 'off' = nothing. (Snowflakes come later, when the snow does.)
+// SEASON: 'autumn' = leaves, 'off' = nothing. Winter partner: js/snow.js; the season is picked by
+// which of the two scripts index.html loads (see the top of js/snow.src.js).
 (function () {
   var SEASON = 'autumn';
   if (SEASON !== 'autumn') return;
