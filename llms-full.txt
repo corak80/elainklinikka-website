@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 88 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 89 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3976,6 +3976,12 @@ Lemmikkien terveys
 ### Pelkääkö koira tai kissa ilotulitusta? Näin autat lemmikkiäsi uudenvuoden yli
 
 Moni koira ja kissa pelkää ilotulitusta: ne voivat vapista, läähättää, piiloutua, haukkua, yrittää karata tai kieltäytyä syömästä. Pelko menee harvoin ohi itsestään ja voi pahentua ajan myötä, joten valmistaudu ajoissa. Suomessa ilotulitteita saa käyttää uudenvuodenaattona klo 18–02, paitsi alueilla, joilla pelastuslaitos on kieltänyt niiden käytön, kuten Vaasan keskustassa. Paukkeita kuuluu usein päivien ajan ennen uuttavuotta ja sen jälkeen.
+Lemmikkien terveys
+21.11.2026
+
+### Koiran tassut talvella – suola, lumipaakut ja pakkanen
+
+Tiesuola, lumipaakut ja pakkanen koettelevat koiran tassuja talvella. Tassujen nopea tarkistus jokaisen lenkin jälkeen ehkäisee monia ongelmia.
 Päivystys
 20.11.2026
 
@@ -4872,6 +4878,76 @@ Terveys
 #### Koira ontuu – milloin eläinlääkäriin, yleisimmät syyt ja hinta
 
 Ontuminen on oire, ei diagnoosi: se kertoo, että koiran tassussa, jalassa, nivelessä tai selkärangassa jokin on kipeä...
+Takaisin etusivulle
+
+---
+
+# Koiran tassut talvella – suola, lumipaakut ja pakkanen
+
+URL: https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html
+Last updated: 2026-11-21
+
+Lemmikkien terveys
+21.11.2026
+
+## Koiran tassut talvella – suola, lumipaakut ja pakkanen
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Tiesuola, lumipaakut ja pakkanen koettelevat koiran tassuja talvella. Tassujen nopea tarkistus jokaisen lenkin jälkeen ehkäisee monia ongelmia.
+
+### Tiesuola ja hiekoitus
+
+Suola voi kirvellä anturoissa ja saada ne halkeilemaan, ja suolaisten tassujen nuoleminen voi aiheuttaa koiralle vatsavaivoja. Suomessa suolaa käytetään pääasiassa vilkkailla teillä. Jalkakäytäville ja kävelyteille levitetään yleensä hiekkaa tai sepeliä, jota voi juuttua varpaiden väliin. Kun olette ulkoilleet suolattujen teiden lähellä, huuhtele tassut haalealla vedellä ja kuivaa ne hyvin, myös varpaiden välistä.
+
+### Lumipaakut ja halkeilevat anturat
+
+Varpaiden välissä lumi tarttuu pitkään karvaan ja jäätyy kivuliaiksi paakuiksi. Leikkaa anturoiden yli törröttävät karvatupsut pyöreäkärkisillä saksilla tai pyydä trimmaajaa tekemään se, mutta älä leikkaa syvältä anturoiden välistä. Sulata jääpaakut haaleassa vedessä äläkä kisko niitä irti. Koirille tarkoitettu tassurasva voi auttaa suojaamaan kuivia anturoita, mutta se ei korvaa huuhtelua. Hyvin istuvat tassutossut pitävät suolan ja lumen loitolla. Totuta koira niihin ensin sisällä.
+
+### Pakkanen ja jäät
+
+Pienet, lyhytkarvaiset, nuoret, vanhat ja sairaat koirat alkavat palella nopeimmin, etenkin tuulessa tai jos turkki on märkä: kovalla pakkasella pue niille takki ja lyhennä lenkkejä. Jos koirasi tärisee, köyristää selkäänsä, nostelee tassujaan tai ei suostu jatkamaan matkaa, lähtekää kotiin. Paleltumia tulee useimmiten tassuihin, korvien kärkiin, hännänpäähän ja kivespussiin. Paleltunut iho muuttuu vaaleaksi tai harmahtavaksi, kylmäksi ja kovaksi, ja myöhemmin se voi punoittaa, turvota, rakkuloitua tai mustua. Vaurion koko laajuus voi näkyä vasta päivien kuluttua. Kun olette sisällä, missä paleltunut kohta ei pääse jäätymään uudelleen, lämmitä sitä varovasti lämpimässä mutta ei kuumassa vedessä tai lämpimillä, märillä pyyhkeillä. Älä hiero kohtaa äläkä käytä hiustenkuivaajaa. Paleltuneen kohdan sulaminen on kivuliasta, ja kilttikin koira voi purra. Pidä koira hihnassa jäätyneiden vesistöjen lähellä. Jää ei ole koskaan turvallista satamien tai laivaväylien lähellä, ja siltojen kohdalla sekä virtapaikoissa se on aina epävarmaa. Jos koira putoaa jäihin, älä mene sen perässä jäälle, vaan soita hätänumeroon 112. Kun koira on päässyt ylös vedestä, kuivaa se, pidä se lämpimänä ja näytä se eläinlääkärille.
+
+### Pakkasneste
+
+Auton jäähdytinneste eli pakkasneste maistuu makealta ja on tappavan myrkyllistä: jo muutama teelusikallinen laimentamatonta nestettä voi tappaa pienen koiran. Pyyhi läikkynyt neste pois. Jos koirasi on voinut lipoa sitä vähänkään, soita heti eläinlääkärille, vaikka se vaikuttaisi voivan hyvin. Älä yritä oksennuttaa koiraa, ellei eläinlääkäri kehota siihen (lue lisää myrkytysartikkelistamme).
+
+### Milloin eläinlääkäriin?
+
+Vie koira eläinlääkäriin, jos se ontuu (lue lisää koiran ontumisesta), antura on haavalla tai vuotaa verta, halkeama on syvä tai ei parane muutamassa päivässä, tassu turpoaa, varpaiden välinen iho pysyy punoittavana tai koira nuolee tassujaan jatkuvasti. Soita eläinlääkärille heti, jos epäilet paleltumaa tai pakkasnestemyrkytystä tai jos koira on heikko tai sekava oltuaan kylmässä. Soita meille numeroon (06) 321 7300. Hätätilanteessa soita aukioloaikojen ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Lähteet
+
+- Merck Veterinary Manual: Keeping Pets Safe During Cold Winter Months (editorial, 15.1.2025). merckvetmanual.com/keeping-pets-safe-during-cold-winter-mon
+- Regehr T. Ethylene Glycol Toxicosis in Animals. Merck Veterinary Manual (updated 9/2024). merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
+- Joint Trauma System: K9 Clinical Practice Guideline 10 – Hypothermia and Cold Injuries (22.6.2026). jts.health.mil
+- Thawley VJ et al. RECOVER Guidelines: First Aid in Dogs and Cats. J Vet Emerg Crit Care 2026;36(S1):S3. doi.org
+- Cornell University, Riney Canine Health Center: Winter safety tips. vet.cornell.edu
+- ASPCA: Keeping Pets Safe during Winter – The Dangers of Ice Melts (4.12.2018). aspca.org
+- American Kennel Club: How to Clean and Care for Your Dog’s Paws (updated 18.3.2026). akc.org
+- Väylävirasto: Antiskid treatment (road salting and sanding). vayla.fi
+- Helsingin kaupunki: Winter street maintenance. hel.fi/winter-street-maintenance
+- Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026). vaasa.fi
+- Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026). hel.fi/unpredictable-ice-conditions-at-sea-resc
+- Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112? 112.fi
+Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset
+
+### Lue myös
+
+Terveys
+
+#### Koira ontuu – milloin eläinlääkäriin, yleisimmät syyt ja hinta
+
+Ontuminen on oire, ei diagnoosi: se kertoo, että koiran tassussa, jalassa, nivelessä tai selkärangassa jokin on kipeä...
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Lemmikkien terveys
+
+#### Koiran ja kissan turkinhoito – milloin se on terveysasia ja milloin trimmaaja on oikea valinta
+
+Hyvin hoidettu turkki ei ole pelkkä ulkonäköasia. Koiralla ja kissalla turkki suojaa ihoa, ja kun turkki takkuuntuu,...
 Takaisin etusivulle
 
 ---

@@ -1455,6 +1455,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koira-pelkaa-ilotulitusta.html"/>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hundens-tassar-pa-vintern.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-paws-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/hundens-tassar-pa-vintern.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hundens-tassar-pa-vintern.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-paws-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/dog-paws-in-winter.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/hundens-tassar-pa-vintern.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/dog-paws-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/koiran-tassut-talvella.html"/>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/articles/koira-soi-suklaata.html</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>

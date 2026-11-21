@@ -783,6 +783,39 @@ const articles = [
     seoTitle: { fi: "Koira pelkää ilotulitusta? Näin autat koiraa ja kissaa", sv: "Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret", en: "Dog or Cat Scared of Fireworks? How to Get Through New Year" }
   },
   {
+    slug: 'koiran-tassut-talvella',
+    slugSv: 'hundens-tassar-pa-vintern',
+    slugEn: 'dog-paws-in-winter',
+    titleKey: 'article.paws.title',
+    tagKey: 'article.paws.tag',
+    category: 'health',
+    date: '21.11.2026',
+    publishDate: '2026-11-21',
+    sections: ['intro', 'salt.title', 'salt.text', 'snow.title', 'snow.text', 'cold.title', 'cold.text', 'antifreeze.title', 'antifreeze.text', 'vet.title', 'vet.text'],
+    htmlSections: ['antifreeze.text', 'vet.text'],
+    prefix: 'article.paws',
+    sources: [
+      { text: 'Merck Veterinary Manual: Keeping Pets Safe During Cold Winter Months (editorial, 15.1.2025).', url: 'https://www.merckvetmanual.com/news/editorial/2025/01/15/15/23/keeping-pets-safe-during-cold-winter-months', label: 'merckvetmanual.com' },
+      { text: 'Regehr T. Ethylene Glycol Toxicosis in Animals. Merck Veterinary Manual (updated 9/2024).', url: 'https://www.merckvetmanual.com/toxicology/ethylene-glycol-toxicosis/ethylene-glycol-toxicosis-in-animals', label: 'merckvetmanual.com' },
+      { text: 'Joint Trauma System: K9 Clinical Practice Guideline 10 – Hypothermia and Cold Injuries (22.6.2026).', url: 'https://jts.health.mil/assets/docs/cpgs/K9_Hypothermia_CPG_C10_22_June_2026.pdf', label: 'jts.health.mil' },
+      { text: 'Thawley VJ et al. RECOVER Guidelines: First Aid in Dogs and Cats. J Vet Emerg Crit Care 2026;36(S1):S3.', url: 'https://doi.org/10.1111/vec.70139', label: 'doi.org' },
+      { text: 'Cornell University, Riney Canine Health Center: Winter safety tips.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/health-info/winter-safety-tips', label: 'vet.cornell.edu' },
+      { text: 'ASPCA: Keeping Pets Safe during Winter – The Dangers of Ice Melts (4.12.2018).', url: 'https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts', label: 'aspca.org' },
+      { text: 'American Kennel Club: How to Clean and Care for Your Dog’s Paws (updated 18.3.2026).', url: 'https://www.akc.org/expert-advice/health/clean-dog-paws/', label: 'akc.org' },
+      { text: 'Väylävirasto: Antiskid treatment (road salting and sanding).', url: 'https://vayla.fi/en/maintenance/road-network/antiskid-treatment', label: 'vayla.fi' },
+      { text: 'Helsingin kaupunki: Winter street maintenance.', url: 'https://hel.fi/en/urban-environment-and-traffic/general-maintenance/street-maintenance/winter-street-maintenance', label: 'hel.fi' },
+      { text: 'Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026).', url: 'https://www.vaasa.fi/en/news/what-are-your-views-on-the-gritting-of-walking-and-cycling-paths-complete-the-survey/', label: 'vaasa.fi' },
+      { text: 'Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026).', url: 'https://www.hel.fi/en/news/unpredictable-ice-conditions-at-sea-rescue-department-warns-of-dangers', label: 'hel.fi' },
+      { text: 'Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112?', url: 'https://112.fi/elain-hadassa', label: '112.fi' }
+    ],
+    metaDesc: {
+      fi: "Koiran tassut talvella: suojaa anturat suolalta ja lumipaakuilta, tunnista paleltuma ja anna ensiapua. Milloin halkeilevat anturat vaativat eläinlääkäriä?",
+      sv: "Hundens tassar på vintern: skydda dem mot salt och snöklumpar, känn igen förfrysning, ge första hjälpen och få veta när spruckna tassar behöver veterinär.",
+      en: "Dog paws in winter: how to protect pads from road salt and snowballs, spot frostbite and give first aid, and when cracked or sore paws need a vet."
+    },
+    seoTitle: { fi: "Koiran tassut talvella – suola, lumipaakut ja pakkanen", sv: "Hundens tassar på vintern – salt, snöklumpar och kyla", en: "Dog Paws in Winter: Salt, Snowballs and Frost" }
+  },
+  {
     slug: 'koira-soi-suklaata',
     slugSv: 'hund-at-choklad',
     slugEn: 'dog-ate-chocolate',
@@ -1971,6 +2004,7 @@ const relatedArticles = {
   'ripuli': ['ruoka-allergiat', 'viljaton-ruoka', 'gastroskopia'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
+  'koiran-tassut-talvella': ['koira-ontuu', 'myrkytys', 'koiran-ja-kissan-turkinhoito'],
   'koira-pelkaa-ilotulitusta': ['myrkytys', 'kissaystävällinen-klinikka', 'koira-ontuu'],
   'rotanmyrkky-ja-hiirenmyrkky': ['myrkytys', 'kissalle-myrkylliset-kasvit', 'ksylitolimyrkytys'],
   'koira-soi-suklaata': ['myrkytys', 'ksylitolimyrkytys', 'viinirypaleet-ja-rusinat-koiralle'],
@@ -2013,6 +2047,7 @@ const articleToServices = {
   'ripuli': ['sisataudit'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
+  'koiran-tassut-talvella': ['ihotaudit', 'paivystys'],
   'koira-pelkaa-ilotulitusta': ['paivystys'],
   'rotanmyrkky-ja-hiirenmyrkky': ['sisataudit'],
   'koira-soi-suklaata': ['sisataudit'],

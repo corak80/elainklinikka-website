@@ -2574,6 +2574,69 @@ const translations = {
     en: "Contact your vet if your pet panics, hurts itself or destroys things, or if its fear is worsening. A sudden new noise fear in an adult pet, especially an older dog, can signal pain or illness. After New Year, keep your dog away from firework remains: they can be poisonous, so call a vet if it eats any (see our <a href=\"/en/articles/poisoning.html\">poisoning article</a>). When the bangs are over, ask your vet about training with firework recordings, played very quietly at first and paired with treats: it takes weeks or months. Call us on (06) 321 7300. If your pet is hurt or poisoned out of hours, call the regional emergency vet on 0600 399 299."
   },
 
+  // Article: Dog Paws in Winter: Salt, Snowballs and Frost (new 2026-11)
+  'article.paws.tag': { fi: 'Lemmikkien terveys', sv: 'Husdjurshälsa', en: 'Pet Health' },
+  "article.paws.title": {
+    fi: "Koiran tassut talvella – suola, lumipaakut ja pakkanen",
+    sv: "Hundens tassar på vintern – salt, snöklumpar och kyla",
+    en: "Dog Paws in Winter: Salt, Snowballs and Frost"
+  },
+  "article.paws.intro": {
+    fi: "Tiesuola, lumipaakut ja pakkanen koettelevat koiran tassuja talvella. Tassujen nopea tarkistus jokaisen lenkin jälkeen ehkäisee monia ongelmia.",
+    sv: "Vägsalt, snöklumpar och kyla tar hårt på hundens tassar på vintern. En snabb kontroll efter varje promenad förebygger många problem.",
+    en: "Road salt, snowballs and frost are tough on a dog’s paws in winter; a quick check after each walk prevents many problems."
+  },
+  "article.paws.salt.title": {
+    fi: "Tiesuola ja hiekoitus",
+    sv: "Salt och sand",
+    en: "Salt and grit"
+  },
+  "article.paws.salt.text": {
+    fi: "Suola voi kirvellä anturoissa ja saada ne halkeilemaan, ja suolaisten tassujen nuoleminen voi aiheuttaa koiralle vatsavaivoja. Suomessa suolaa käytetään pääasiassa vilkkailla teillä. Jalkakäytäville ja kävelyteille levitetään yleensä hiekkaa tai sepeliä, jota voi juuttua varpaiden väliin. Kun olette ulkoilleet suolattujen teiden lähellä, huuhtele tassut haalealla vedellä ja kuivaa ne hyvin, myös varpaiden välistä.",
+    sv: "Salt kan svida i trampdynorna och få dem att spricka, och en hund som slickar salt från tassarna kan få magbesvär. I Finland används salt främst på livligt trafikerade vägar. På gångbanor strör man oftast sand eller grus, som kan fastna mellan tårna. Skölj tassarna i ljummet vatten efter promenader nära saltade vägar och torka dem ordentligt, också mellan tårna.",
+    en: "Salt can sting and crack the pads, and licking salty paws can upset a dog’s stomach. In Finland, salt is used mainly on busy roads; footpaths usually get sand or gravel, which can lodge between the toes. After walks near salted roads, rinse the paws in lukewarm water and dry them well, between the toes too."
+  },
+  "article.paws.snow.title": {
+    fi: "Lumipaakut ja halkeilevat anturat",
+    sv: "Snöklumpar och spruckna trampdynor",
+    en: "Snowballs and cracked pads"
+  },
+  "article.paws.snow.text": {
+    fi: "Varpaiden välissä lumi tarttuu pitkään karvaan ja jäätyy kivuliaiksi paakuiksi. Leikkaa anturoiden yli törröttävät karvatupsut pyöreäkärkisillä saksilla tai pyydä trimmaajaa tekemään se, mutta älä leikkaa syvältä anturoiden välistä. Sulata jääpaakut haaleassa vedessä äläkä kisko niitä irti. Koirille tarkoitettu tassurasva voi auttaa suojaamaan kuivia anturoita, mutta se ei korvaa huuhtelua. Hyvin istuvat tassutossut pitävät suolan ja lumen loitolla. Totuta koira niihin ensin sisällä.",
+    sv: "I lång päls mellan tårna fryser snön till klumpar som gör ont. Använd en sax med rundade spetsar och klipp av hårtofsar som sticker ut förbi trampdynorna, eller be en trimmare göra det, men klipp inte djupt mellan trampdynorna. Smält bort isklumpar i ljummet vatten och dra inte loss dem. Tassvax eller tassbalsam för hundar kan hjälpa till att skydda torra trampdynor, men det ersätter inte sköljningen. Välsittande hundskor håller salt och snö borta från tassarna. Vänj hunden vid skorna inomhus först.",
+    en: "Snow freezes into painful balls in long fur between the toes. Trim tufts that stick out past the pads with round-tipped scissors, or ask a groomer, but don’t cut deep between the pads. Melt ice balls in lukewarm water; don’t pull them. Paw balm for dogs may help protect dry pads but doesn’t replace rinsing. Well-fitting dog boots keep salt and snow off; get your dog used to them indoors first."
+  },
+  "article.paws.cold.title": {
+    fi: "Pakkanen ja jäät",
+    sv: "Kyla och is",
+    en: "Frost and ice"
+  },
+  "article.paws.cold.text": {
+    fi: "Pienet, lyhytkarvaiset, nuoret, vanhat ja sairaat koirat alkavat palella nopeimmin, etenkin tuulessa tai jos turkki on märkä: kovalla pakkasella pue niille takki ja lyhennä lenkkejä. Jos koirasi tärisee, köyristää selkäänsä, nostelee tassujaan tai ei suostu jatkamaan matkaa, lähtekää kotiin. Paleltumia tulee useimmiten tassuihin, korvien kärkiin, hännänpäähän ja kivespussiin. Paleltunut iho muuttuu vaaleaksi tai harmahtavaksi, kylmäksi ja kovaksi, ja myöhemmin se voi punoittaa, turvota, rakkuloitua tai mustua. Vaurion koko laajuus voi näkyä vasta päivien kuluttua. Kun olette sisällä, missä paleltunut kohta ei pääse jäätymään uudelleen, lämmitä sitä varovasti lämpimässä mutta ei kuumassa vedessä tai lämpimillä, märillä pyyhkeillä. Älä hiero kohtaa äläkä käytä hiustenkuivaajaa. Paleltuneen kohdan sulaminen on kivuliasta, ja kilttikin koira voi purra. Pidä koira hihnassa jäätyneiden vesistöjen lähellä. Jää ei ole koskaan turvallista satamien tai laivaväylien lähellä, ja siltojen kohdalla sekä virtapaikoissa se on aina epävarmaa. Jos koira putoaa jäihin, älä mene sen perässä jäälle, vaan soita hätänumeroon 112. Kun koira on päässyt ylös vedestä, kuivaa se, pidä se lämpimänä ja näytä se eläinlääkärille.",
+    sv: "Små, korthåriga, unga, gamla och sjuka hundar fryser snabbast, särskilt när det blåser eller om pälsen är våt: ge dem ett hundtäcke och kortare promenader i sträng kyla. Om hunden huttrar, kurar ihop sig, lyfter på tassarna gång på gång eller inte vill gå vidare ska du vända hemåt. Förfrysning drabbar oftast tassarna, öronspetsarna, svansspetsen och pungen. Huden blir blek eller gråaktig, kall och hård, och senare kan den rodna, svullna, få blåsor eller svartna. Det kan ta dagar innan hela skadan syns. När ni har kommit inomhus, där det förfrusna stället inte kan frysa på nytt, värmer du det försiktigt i varmt men inte hett vatten eller med varma, våta handdukar. Gnid inte på stället och använd inte hårtork. Det gör ont när huden tinar, och även en snäll hund kan bita. Håll hunden i koppel nära islagda vatten. Isen är aldrig säker nära hamnar eller farleder och alltid riskabel vid broar eller strömmande vatten. Om hunden går genom isen ska du inte gå efter den ut på isen, utan ringa 112. När hunden väl är uppe ur vattnet ska du torka den, hålla den varm och låta en veterinär undersöka den.",
+    en: "Small, short-coated, young, old and ill dogs chill fastest, especially in wind or with wet fur: give them a coat and shorter walks in hard frost. If your dog shivers, hunches up, keeps lifting its paws or won’t walk on, head home. Frostbite most often hits the paws, ear tips, tail tip and scrotum. The skin turns pale or greyish, cold and hard, and later may redden, swell, blister or turn black; full damage can take days to show. Once indoors, where it can’t refreeze, gently warm the area in warm, not hot, water or with warm, wet towels. Don’t rub it or use a hairdryer. Thawing hurts; even a gentle dog may bite. Keep your dog on a lead near frozen water. Ice is never safe near harbours or shipping lanes, and always risky by bridges or flowing water. If your dog falls through, don’t follow it onto the ice: call 112. Once it’s out, dry it, keep it warm and have a vet check it."
+  },
+  "article.paws.antifreeze.title": {
+    fi: "Pakkasneste",
+    sv: "Frostskyddsvätska",
+    en: "Antifreeze"
+  },
+  "article.paws.antifreeze.text": {
+    fi: "Auton jäähdytinneste eli pakkasneste maistuu makealta ja on tappavan myrkyllistä: jo muutama teelusikallinen laimentamatonta nestettä voi tappaa pienen koiran. Pyyhi läikkynyt neste pois. Jos koirasi on voinut lipoa sitä vähänkään, soita heti eläinlääkärille, vaikka se vaikuttaisi voivan hyvin. Älä yritä oksennuttaa koiraa, ellei eläinlääkäri kehota siihen (lue lisää <a href=\"/articles/myrkytys.html\">myrkytysartikkelistamme</a>).",
+    sv: "Frostskyddsvätska (bilens kylarvätska) smakar sött och är livsfarlig: några teskedar av den outspädda vätskan kan döda en liten hund. Torka upp allt spill. Om hunden kan ha slickat i sig något av den ska du genast ringa en veterinär, även om den verkar pigg. Försök inte få hunden att kräkas om inte en veterinär säger åt dig att göra det (läs vår <a href=\"/sv/artiklar/forgiftning.html\">artikel om förgiftningar</a>).",
+    en: "Antifreeze (car coolant) tastes sweet and is deadly: a few teaspoons of the undiluted liquid can kill a small dog. Wipe up spills. If your dog may have lapped any, call a vet at once, even if it seems well. Don’t make it vomit unless a vet says so (see our <a href=\"/en/articles/poisoning.html\">poisoning article</a>)."
+  },
+  "article.paws.vet.title": {
+    fi: "Milloin eläinlääkäriin?",
+    sv: "När ska du kontakta veterinären?",
+    en: "When to see the vet"
+  },
+  "article.paws.vet.text": {
+    fi: "Vie koira eläinlääkäriin, jos se ontuu (lue lisää <a href=\"/articles/koira-ontuu.html\">koiran ontumisesta</a>), antura on haavalla tai vuotaa verta, halkeama on syvä tai ei parane muutamassa päivässä, tassu turpoaa, varpaiden välinen iho pysyy punoittavana tai koira nuolee tassujaan jatkuvasti. Soita eläinlääkärille heti, jos epäilet paleltumaa tai pakkasnestemyrkytystä tai jos koira on heikko tai sekava oltuaan kylmässä. Soita meille numeroon (06) 321 7300. Hätätilanteessa soita aukioloaikojen ulkopuolella alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ta hunden till veterinären om den haltar (läs vår <a href=\"/sv/artiklar/hunden-haltar.html\">artikel om hälta</a>), om en trampdyna har ett skärsår eller blöder, om en spricka är djup eller inte läker inom några dagar, om tassen svullnar, om huden mellan tårna förblir röd eller om hunden hela tiden slickar på tassarna. Ring genast en veterinär om du misstänker förfrysning eller förgiftning med frostskyddsvätska, eller om hunden är svag eller förvirrad efter att ha varit ute i kylan. Ring oss på (06) 321 7300. I akuta fall utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "See your vet if your dog limps (see our <a href=\"/en/articles/dog-limping.html\">limping article</a>), a pad is cut or bleeding, a crack is deep or doesn’t heal in a few days, the paw swells, the skin between the toes stays red, or your dog keeps licking its paws. Call at once if you suspect frostbite or antifreeze poisoning, or your dog is weak or confused after time in the cold. Call us on (06) 321 7300. In an emergency out of hours, call the regional emergency vet on 0600 399 299."
+  },
+
   // Article: Dog Ate Chocolate – How Much Is Dangerous and What to Do (new 2026-11, poisoning hub spoke)
   'article.dogchoc.tag': { fi: 'Päivystys', sv: 'Akutvård', en: 'Emergency' },
   "article.dogchoc.title": {
@@ -4273,6 +4336,7 @@ function setLanguage(lang) {
     'kissan-munuaisten-vajaatoiminta': { sv: 'njursvikt-katt', en: 'kidney-disease-cats' },
     'koiran-ja-kissan-turkinhoito': { sv: 'palsvard-hund-katt', en: 'coat-care-dogs-cats' },
     'koira-yskii': { sv: 'hund-hostar', en: 'dog-coughing' },
+    'koiran-tassut-talvella': { sv: 'hundens-tassar-pa-vintern', en: 'dog-paws-in-winter' },
     'koira-pelkaa-ilotulitusta': { sv: 'hund-radd-for-fyrverkerier', en: 'dog-scared-of-fireworks' },
     'rotanmyrkky-ja-hiirenmyrkky': { sv: 'rattgift-och-musgift', en: 'rat-and-mouse-poison' },
     'koira-soi-suklaata': { sv: 'hund-at-choklad', en: 'dog-ate-chocolate' },

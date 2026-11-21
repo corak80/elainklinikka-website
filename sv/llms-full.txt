@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 82 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 83 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3637,6 +3637,12 @@ Husdjurshälsa
 ### Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret
 
 Många hundar och katter är rädda för fyrverkerier: de kan darra, flämta, gömma sig, skälla, försöka fly eller vägra äta. Rädslan går sällan över av sig själv och kan bli värre med tiden. Planera därför i förväg. I Finland är fyrverkerier tillåtna på nyårsafton kl. 18–02, utom där räddningsverket har förbjudit dem, till exempel i Vasa centrum. Smällar hörs ofta i flera dagar före och efter nyår.
+Husdjurshälsa
+21.11.2026
+
+### Hundens tassar på vintern – salt, snöklumpar och kyla
+
+Vägsalt, snöklumpar och kyla tar hårt på hundens tassar på vintern. En snabb kontroll efter varje promenad förebygger många problem.
 Akutvård
 20.11.2026
 
@@ -4533,6 +4539,76 @@ Hälsa
 #### Hunden haltar – när till veterinären, vanliga orsaker och pris
 
 Hälta är ett symtom, inte en diagnos: något i tassen, benet, en led eller ryggraden gör ont eller fungerar inte som d...
+Tillbaka till startsidan
+
+---
+
+# Hundens tassar på vintern – salt, snöklumpar och kyla
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/hundens-tassar-pa-vintern.html
+Last updated: 2026-11-21
+
+Husdjurshälsa
+21.11.2026
+
+## Hundens tassar på vintern – salt, snöklumpar och kyla
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Vägsalt, snöklumpar och kyla tar hårt på hundens tassar på vintern. En snabb kontroll efter varje promenad förebygger många problem.
+
+### Salt och sand
+
+Salt kan svida i trampdynorna och få dem att spricka, och en hund som slickar salt från tassarna kan få magbesvär. I Finland används salt främst på livligt trafikerade vägar. På gångbanor strör man oftast sand eller grus, som kan fastna mellan tårna. Skölj tassarna i ljummet vatten efter promenader nära saltade vägar och torka dem ordentligt, också mellan tårna.
+
+### Snöklumpar och spruckna trampdynor
+
+I lång päls mellan tårna fryser snön till klumpar som gör ont. Använd en sax med rundade spetsar och klipp av hårtofsar som sticker ut förbi trampdynorna, eller be en trimmare göra det, men klipp inte djupt mellan trampdynorna. Smält bort isklumpar i ljummet vatten och dra inte loss dem. Tassvax eller tassbalsam för hundar kan hjälpa till att skydda torra trampdynor, men det ersätter inte sköljningen. Välsittande hundskor håller salt och snö borta från tassarna. Vänj hunden vid skorna inomhus först.
+
+### Kyla och is
+
+Små, korthåriga, unga, gamla och sjuka hundar fryser snabbast, särskilt när det blåser eller om pälsen är våt: ge dem ett hundtäcke och kortare promenader i sträng kyla. Om hunden huttrar, kurar ihop sig, lyfter på tassarna gång på gång eller inte vill gå vidare ska du vända hemåt. Förfrysning drabbar oftast tassarna, öronspetsarna, svansspetsen och pungen. Huden blir blek eller gråaktig, kall och hård, och senare kan den rodna, svullna, få blåsor eller svartna. Det kan ta dagar innan hela skadan syns. När ni har kommit inomhus, där det förfrusna stället inte kan frysa på nytt, värmer du det försiktigt i varmt men inte hett vatten eller med varma, våta handdukar. Gnid inte på stället och använd inte hårtork. Det gör ont när huden tinar, och även en snäll hund kan bita. Håll hunden i koppel nära islagda vatten. Isen är aldrig säker nära hamnar eller farleder och alltid riskabel vid broar eller strömmande vatten. Om hunden går genom isen ska du inte gå efter den ut på isen, utan ringa 112. När hunden väl är uppe ur vattnet ska du torka den, hålla den varm och låta en veterinär undersöka den.
+
+### Frostskyddsvätska
+
+Frostskyddsvätska (bilens kylarvätska) smakar sött och är livsfarlig: några teskedar av den outspädda vätskan kan döda en liten hund. Torka upp allt spill. Om hunden kan ha slickat i sig något av den ska du genast ringa en veterinär, även om den verkar pigg. Försök inte få hunden att kräkas om inte en veterinär säger åt dig att göra det (läs vår artikel om förgiftningar).
+
+### När ska du kontakta veterinären?
+
+Ta hunden till veterinären om den haltar (läs vår artikel om hälta), om en trampdyna har ett skärsår eller blöder, om en spricka är djup eller inte läker inom några dagar, om tassen svullnar, om huden mellan tårna förblir röd eller om hunden hela tiden slickar på tassarna. Ring genast en veterinär om du misstänker förfrysning eller förgiftning med frostskyddsvätska, eller om hunden är svag eller förvirrad efter att ha varit ute i kylan. Ring oss på (06) 321 7300. I akuta fall utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Källor
+
+- Merck Veterinary Manual: Keeping Pets Safe During Cold Winter Months (editorial, 15.1.2025). merckvetmanual.com/keeping-pets-safe-during-cold-winter-mon
+- Regehr T. Ethylene Glycol Toxicosis in Animals. Merck Veterinary Manual (updated 9/2024). merckvetmanual.com/ethylene-glycol-toxicosis-in-animals
+- Joint Trauma System: K9 Clinical Practice Guideline 10 – Hypothermia and Cold Injuries (22.6.2026). jts.health.mil
+- Thawley VJ et al. RECOVER Guidelines: First Aid in Dogs and Cats. J Vet Emerg Crit Care 2026;36(S1):S3. doi.org
+- Cornell University, Riney Canine Health Center: Winter safety tips. vet.cornell.edu
+- ASPCA: Keeping Pets Safe during Winter – The Dangers of Ice Melts (4.12.2018). aspca.org
+- American Kennel Club: How to Clean and Care for Your Dog’s Paws (updated 18.3.2026). akc.org
+- Väylävirasto: Antiskid treatment (road salting and sanding). vayla.fi
+- Helsingin kaupunki: Winter street maintenance. hel.fi/winter-street-maintenance
+- Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026). vaasa.fi
+- Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026). hel.fi/unpredictable-ice-conditions-at-sea-resc
+- Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112? 112.fi
+Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer
+
+### Läs också
+
+Hälsa
+
+#### Hunden haltar – när till veterinären, vanliga orsaker och pris
+
+Hälta är ett symtom, inte en diagnos: något i tassen, benet, en led eller ryggraden gör ont eller fungerar inte som d...
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Husdjurshälsa
+
+#### Pälsvård hos hund och katt – när det är en hälsofråga och när en trimmare är rätt val
+
+En välskött päls handlar inte bara om utseendet. Hos hundar och katter skyddar pälsen huden, och när den tovar sig fa...
 Tillbaka till startsidan
 
 ---
