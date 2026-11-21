@@ -1742,7 +1742,7 @@ const articles = [
       { text: 'Ruokavirasto: Koirien, kissojen ja frettien tuonti EU-maista Suomeen.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/koirien-kissojen-ja-frettien-tuonti-eu-maista-suomeen/', label: 'ruokavirasto.fi' },
       { text: 'Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/eu-maat-norja-ja-sveitsi/elaimet/koirat-kissat-ja-fretit/usein-kysyttya-ekinokokkilaakityksesta/', label: 'ruokavirasto.fi' },
       { text: 'Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta.', url: 'https://www.ruokavirasto.fi/teemat/tuonti-ja-vienti/tuonti-eun-ulkopuolelta/elaimet-ja-elainperaiset-tuotteet/elaimet-ja-sukusolut/koirat-kissat-ja-fretit/lemmikkielaimen-siirto/', label: 'ruokavirasto.fi' },
-      { text: 'Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista.', url: 'http://data.europa.eu/eli/reg_del/2026/131/oj', label: 'data.europa.eu' }
+      { text: 'Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista.', url: 'https://data.europa.eu/eli/reg_del/2026/131/oj', label: 'data.europa.eu' }
     ],
     seoTitle: { fi: "Koiran ja kissan rokotukset – koiranpennun rokotusohjelma", sv: "Vaccinationsprogram för hund och katt – valp och kattunge", en: "Dog, Puppy and Cat Vaccination Schedule in Finland" },
     metaDesc: {

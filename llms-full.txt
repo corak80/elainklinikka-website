@@ -6397,7 +6397,7 @@ Takaisin etusivulle
 # Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/kohtutulehdus.html
-Last updated: 2026-11-08
+Last updated: 2026-09-25
 
 Päivystys
 25.9.2026
@@ -7006,7 +7006,7 @@ Takaisin etusivulle
 # Kissan ja koiran hammasresorptio – piilevä, kivulias sairaus
 
 URL: https://elainklinikkasaari.fi/articles/hammasresorptio.html
-Last updated: 2026-11-16
+Last updated: 2026-09-27
 
 Hammashoito
 27.9.2026
