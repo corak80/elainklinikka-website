@@ -9,7 +9,7 @@
 # Veterinarian in Vaasa — Saari Animal Clinic, Mon–Fri 7:45–17
 
 URL: https://elainklinikkasaari.fi/en/
-Last updated: 2026-11-05
+Last updated: 2026-11-21
 
 💉 Drop-in vaccinations without appointment on Tuesdays 3:30–4:00 PM, 10 % off
 
@@ -477,7 +477,7 @@ Book online
 # Services | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/
-Last updated: 2026-11-16
+Last updated: 2026-11-21
 
 ## Our Services
 
@@ -575,7 +575,7 @@ Yes. We are an officially Cat Friendly certified clinic and accommodate cats' sp
 # Privacy policy | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/privacy/
-Last updated: 2026-11-09
+Last updated: 2026-11-21
 
 ## Privacy policy
 
@@ -651,7 +651,7 @@ Back to homepage
 # Contact – Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/contact/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 ## Contact
 
@@ -707,7 +707,7 @@ Back to home
 # Vets and Nurses in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/staff/
-Last updated: 2026-11-08
+Last updated: 2026-11-21
 
 ## Staff
 
@@ -863,7 +863,7 @@ Back to home page
 # Customer reviews | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/reviews/
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1077,7 +1077,7 @@ We’re at Gerbyntie 18, 65230 Vaasa (Dragnäsbäck), about 5 minutes’ drive f
 # Wildlife care | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/wildlife/
-Last updated: 2026-09-19
+Last updated: 2026-11-21
 
 Wildlife department
 
@@ -1333,7 +1333,7 @@ Our partner who looks after wildlife patients after the clinic — rehabilitates
 # Veterinarian Vaasa | Saari Animal Clinic since 1989
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-21
 
 ## Veterinarian in Vaasa — Saari Animal Clinic
 
@@ -1422,7 +1422,7 @@ Book online
 # Cat Vet in Vaasa – Cat Friendly Clinic | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/cat-veterinarian-vaasa/
-Last updated: 2026-10-21
+Last updated: 2026-11-21
 
 ## Cat vet in Vaasa – calm, unhurried care for your cat
 
@@ -1512,7 +1512,7 @@ Book online
 # Dog & Cat Teeth Cleaning in Vaasa – Prices | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dental-care/
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1629,7 +1629,7 @@ Back to homepage
 # Dog Heart Ultrasound in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/cardiac-examinations/
-Last updated: 2026-09-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1720,7 +1720,7 @@ Back to homepage
 # Veterinary Surgery in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/surgery/
-Last updated: 2026-10-31
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1805,7 +1805,7 @@ Back to homepage
 # Endoscopy for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/endoscopy/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1868,7 +1868,7 @@ Back to homepage
 # Dog and Cat Vaccinations in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/vaccinations/
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -1972,7 +1972,7 @@ Back to homepage
 # Ultrasound for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/ultrasound/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2030,7 +2030,7 @@ Back to homepage
 # Skin, Allergy and Ear Care in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/dermatology/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2088,7 +2088,7 @@ Back to homepage
 # Senior Pet Check-up €299 in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/senior-check-up/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2184,7 +2184,7 @@ Back to homepage
 # Puppy Check-up and Microchip in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/puppy-check-up/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2242,7 +2242,7 @@ Back to homepage
 # Veterinary Acupuncture in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/acupuncture/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2364,7 +2364,7 @@ Back to homepage
 # Dog and Cat Spaying in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/spay-and-neuter/
-Last updated: 2026-11-08
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2451,7 +2451,7 @@ Back to homepage
 # Internal Medicine for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/internal-medicine/
-Last updated: 2026-11-05
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2575,7 +2575,7 @@ Back to homepage
 # In-House Veterinary Lab in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/laboratory/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2629,7 +2629,7 @@ Back to homepage
 # X-ray in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/x-ray/
-Last updated: 2026-09-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2748,7 +2748,7 @@ Back to homepage
 # EU Pet Passport in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/eu-pet-passport/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2837,7 +2837,7 @@ Back to homepage
 # Blood Tests for Dogs and Cats in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/blood-tests/
-Last updated: 2026-11-05
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -2948,7 +2948,7 @@ Back to homepage
 # Royal Canin and Vet Diets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/prescription-diets/
-Last updated: 2026-11-05
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3023,7 +3023,7 @@ Back to homepage
 # Wellness and Rehabilitation in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/rehabilitation/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3081,7 +3081,7 @@ Back to homepage
 # Dog and Cat Castration in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/castration/
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3232,7 +3232,7 @@ Back to homepage
 # Safe Anaesthesia for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/anesthesia/
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3294,7 +3294,7 @@ Back to homepage
 # Hygiene in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/hygiene/
-Last updated: 2026-09-19
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3347,7 +3347,7 @@ Back to homepage
 # Vet Day Care for Sick Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/day-care/
-Last updated: 2026-11-17
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3420,7 +3420,7 @@ Back to homepage
 # Emergency Veterinarian Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/emergency/
-Last updated: 2026-11-18
+Last updated: 2026-11-21
 
 Back to homepage
 
@@ -3521,7 +3521,7 @@ Back to homepage
 # Vet for Kristinestad, Närpes and Kaskö pet owners – Vaasa
 
 URL: https://elainklinikkasaari.fi/en/veterinarian-kristinestad-narpes/
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 ## A vet for Kristinestad, Närpes and Kaskö – an hour's drive to Vaasa
 
@@ -3921,7 +3921,7 @@ Back to homepage
 # TTA Surgery for Cruciate Ligament Disease in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/tta-surgery.html
-Last updated: 2026-10-31
+Last updated: 2026-11-21
 
 Orthopedics
 31.10.2026
@@ -3997,7 +3997,7 @@ Back to homepage
 # Ear Flushing Under Anaesthesia for Dogs and Cats – Price
 
 URL: https://elainklinikkasaari.fi/en/articles/video-otoscopy.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Endoscopy
 10.10.2026
@@ -4072,7 +4072,7 @@ Back to homepage
 # Ear Infections in Dogs – Symptoms, Treatment and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-ear-infection.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Health
 10.10.2026
@@ -4167,7 +4167,7 @@ Back to homepage
 # Senior Cat Health Check in Vaasa – What’s Included, Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/senior-cat-health-check.html
-Last updated: 2026-10-09
+Last updated: 2026-11-21
 
 Health
 9.10.2026
@@ -4312,7 +4312,7 @@ Senior check-up from €299 Book
 # Dog Limping: When to See a Vet, Causes and Cost
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-limping.html
-Last updated: 2026-11-11
+Last updated: 2026-11-21
 
 Health
 9.10.2026
@@ -4443,7 +4443,7 @@ Call
 # Dog Ate Rat Poison? Cat Ate a Poisoned Mouse? What to Do
 
 URL: https://elainklinikkasaari.fi/en/articles/rat-and-mouse-poison.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -4653,7 +4653,7 @@ Back to homepage
 # Dog Ate Chocolate – How Much Is Dangerous and What to Do
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-ate-chocolate.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -4718,7 +4718,7 @@ Back to homepage
 # Xylitol Poisoning in Dogs – Toxic Dose and What to Do
 
 URL: https://elainklinikkasaari.fi/en/articles/xylitol-poisoning-dogs.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -4791,7 +4791,7 @@ Back to homepage
 # Dog Ate Grapes or Raisins? Signs and What to Do
 
 URL: https://elainklinikkasaari.fi/en/articles/grapes-and-raisins-dogs.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -4852,7 +4852,7 @@ Back to homepage
 # Plants Poisonous to Cats – Lilies and Houseplants
 
 URL: https://elainklinikkasaari.fi/en/articles/plants-poisonous-to-cats.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -4932,7 +4932,7 @@ Back to homepage
 # Dog Coughing – Causes, When to See a Vet and Treatment
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-coughing.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Pet Health
 20.11.2026
@@ -5024,7 +5024,7 @@ Back to homepage
 # Coat Care in Dogs and Cats – Mats, Skin and Grooming
 
 URL: https://elainklinikkasaari.fi/en/articles/coat-care-dogs-cats.html
-Last updated: 2026-11-07
+Last updated: 2026-11-21
 
 Pet Health
 7.11.2026
@@ -5111,7 +5111,7 @@ Back to homepage
 # Kidney Disease in Cats – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease-cats.html
-Last updated: 2026-10-27
+Last updated: 2026-11-21
 
 Pet Health
 27.10.2026
@@ -5239,7 +5239,7 @@ Back to homepage
 # Continuous Rate Infusion (CRI) | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/pain-relief-infusion.html
-Last updated: 2026-09-25
+Last updated: 2026-11-21
 
 Anesthesia
 25.9.2026
@@ -5316,7 +5316,7 @@ Back to homepage
 # Diarrhoea in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/diarrhoea.html
-Last updated: 2026-09-25
+Last updated: 2026-11-21
 
 Health
 25.9.2026
@@ -5387,7 +5387,7 @@ Back to homepage
 # Patent Ductus Arteriosus (PDA) in Dogs | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/patent-ductus-arteriosus-pda.html
-Last updated: 2026-09-27
+Last updated: 2026-11-21
 
 Cardiology
 27.9.2026
@@ -5468,7 +5468,7 @@ Back to homepage
 # Tooth Brushing for Dogs and Cats – How to Get Started
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-brushing.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Dental
 27.9.2026
@@ -5550,7 +5550,7 @@ Back to homepage
 # Grain-Free Food for Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/grain-free-food.html
-Last updated: 2026-09-27
+Last updated: 2026-11-21
 
 Health
 27.9.2026
@@ -5632,7 +5632,7 @@ Back to homepage
 # PerioVive Gel for Periodontal Disease in Dogs and Cats
 
 URL: https://elainklinikkasaari.fi/en/articles/periovive.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Dental
 27.9.2026
@@ -5704,7 +5704,7 @@ Back to homepage
 # Why Choosing an Independent Veterinary Clinic Matters
 
 URL: https://elainklinikkasaari.fi/en/articles/independent-clinic.html
-Last updated: 2026-09-27
+Last updated: 2026-11-21
 
 Clinic
 27.9.2026
@@ -5768,7 +5768,7 @@ Back to homepage
 # Food Allergies in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/food-allergies.html
-Last updated: 2026-09-27
+Last updated: 2026-11-21
 
 Pet Health
 27.9.2026
@@ -5841,7 +5841,7 @@ Back to homepage
 # Hyperthyroidism in Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hyperthyroidism.html
-Last updated: 2026-11-09
+Last updated: 2026-11-21
 
 Cat Health
 30.10.2026
@@ -5925,7 +5925,7 @@ Back to homepage
 # Kidney Disease in Dogs – Symptoms and Life Expectancy
 
 URL: https://elainklinikkasaari.fi/en/articles/kidney-disease.html
-Last updated: 2026-10-31
+Last updated: 2026-11-21
 
 Pet Health
 31.10.2026
@@ -6041,7 +6041,7 @@ Back to homepage
 # Adder Bite in Dogs and Cats – Symptoms and First Aid
 
 URL: https://elainklinikkasaari.fi/en/articles/snake-bite.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Emergency
 24.9.2026
@@ -6106,7 +6106,7 @@ Back to homepage
 # Poisoning in Dogs and Cats | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/poisoning.html
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 Emergency
 20.11.2026
@@ -6197,7 +6197,7 @@ Back to homepage
 # Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery
 
 URL: https://elainklinikkasaari.fi/en/articles/pyometra.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Emergency
 25.9.2026
@@ -6291,7 +6291,7 @@ Back to homepage
 # Lateral Suture for Cruciate Ligament Rupture in Dogs
 
 URL: https://elainklinikkasaari.fi/en/articles/lateral-suture.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Orthopedics
 27.9.2026
@@ -6372,7 +6372,7 @@ Back to homepage
 # The Hedgehog in Europe and Finland | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/hedgehog.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Wildlife
 25.9.2026
@@ -6480,7 +6480,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # Found a Baby Hedgehog? What to Do | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/found-a-baby-hedgehog.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Wildlife
 25.9.2026
@@ -6590,7 +6590,7 @@ The Finnish veterinary market has changed dramatically over the past decade. Two
 # A Less Stressful Vet Visit for Your Cat
 
 URL: https://elainklinikkasaari.fi/en/articles/cat-friendly-clinic.html
-Last updated: 2026-09-29
+Last updated: 2026-11-21
 
 Cat Health
 27.9.2026
@@ -6655,7 +6655,7 @@ Back to homepage
 # Unerupted Teeth and Dentigerous Cysts | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/unerupted-teeth.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Dental
 27.9.2026
@@ -6726,7 +6726,7 @@ Back to homepage
 # Gastroscopy for Dogs and Cats – Foreign Bodies and Biopsies
 
 URL: https://elainklinikkasaari.fi/en/articles/gastroscopy.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Endoscopy
 27.9.2026
@@ -6806,7 +6806,7 @@ Back to homepage
 # Tooth Resorption in Cats and Dogs – A Hidden Painful Disease
 
 URL: https://elainklinikkasaari.fi/en/articles/tooth-resorption.html
-Last updated: 2026-09-27
+Last updated: 2026-11-21
 
 Dental
 27.9.2026
@@ -6883,7 +6883,7 @@ Back to homepage
 # Dog, Puppy and Cat Vaccination Schedule in Finland
 
 URL: https://elainklinikkasaari.fi/en/articles/vaccinations-guide.html
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 Health
 19.11.2026
@@ -6979,7 +6979,7 @@ Back to homepage
 # Dog and Cat Deworming — How Often? Puppies, Kittens, Adults
 
 URL: https://elainklinikkasaari.fi/en/articles/deworming.html
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 Health
 19.11.2026
@@ -7059,7 +7059,7 @@ Back to homepage
 # IBD or Intestinal Lymphoma in Cats – Diagnosis Explained
 
 URL: https://elainklinikkasaari.fi/en/articles/ibd-lymphoma.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Health
 25.9.2026
@@ -7128,7 +7128,7 @@ Back to homepage
 # Hypothermia Under Anaesthesia – Why We Warm Every Patient
 
 URL: https://elainklinikkasaari.fi/en/articles/hypothermia.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Anesthesia
 25.9.2026
@@ -7202,7 +7202,7 @@ Back to homepage
 # Anaesthesia Safety for Pets – Risks and How We Reduce Them
 
 URL: https://elainklinikkasaari.fi/en/articles/anaesthesia-safety.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Anesthesia
 24.9.2026
@@ -7272,7 +7272,7 @@ Back to homepage
 # Why a Veterinary Nurse Monitors Every Anaesthetic
 
 URL: https://elainklinikkasaari.fi/en/articles/veterinary-nurse.html
-Last updated: 2026-10-15
+Last updated: 2026-11-21
 
 Clinic
 27.9.2026
@@ -7335,7 +7335,7 @@ Back to homepage
 # Saari in the news | Saari Animal Clinic, Vaasa
 
 URL: https://elainklinikkasaari.fi/en/media/
-Last updated: 2026-10-28
+Last updated: 2026-11-22
 
 ## Saari in the news
 
@@ -7346,18 +7346,37 @@ Saari Animal Clinic and our veterinarians have been featured in several Finnish 
 28-10-2026 · Yle Österbotten (in Swedish)
 Veterinärens råd: Borsta djurets tänder för att undvika dyra veterinärbesök
 Our veterinarian Pamela Kvarngård on the cost of vet care: when money is tight, care can start with examining or treating the most common cause, and insurance, a savings account and daily tooth brushing help keep costs down.
+28-08-2026 · Österbottens Tidning (in Swedish)
+Veterinärens råd när raketerna drar i gång
+Vets and pharmacies see more demand for calming medicine as the end-of-summer fireworks approach. Our veterinarian Pamela Kvarngård says many owners know that help is available for dogs afraid of fireworks.
+The same article in Vasabladet: ”Onödigt att hunden ska lida”
 22-07-2026 · Vasabladet (in Swedish)
 Här rehabiliteras igelkottar
 Vasabladet visited the clinic: Johanna Tidström, together with volunteers and veterinarian Assaf Wydra, runs a rehabilitation centre for hedgehogs in need on the clinic's upper floor.
+21-06-2026 · Vasabladet (in Swedish)
+Tre frågor till veterinären om fästingmedel
+Our veterinarian Pamela Kvarngård answers three questions about tick treatments and how they affect pets and the environment around them.
 20-06-2026 · Yle Österbotten (in Swedish)
 Skadade igelkottar får hjälp i Vasa
-Yle's video about the new hedgehog help centre in Vasa: volunteers and veterinarians care for injured hedgehogs, which are released back into nature once they have recovered.
+Yle's video about the new hedgehog help centre in Vaasa: volunteers and veterinarians care for injured hedgehogs, which are released back into nature once they have recovered.
+17-06-2026 · Yle Vega Österbotten (radio, in Swedish)
+Igelkottarna rehabiliteras vid nytt center i Vasa
+A 12-minute radio interview: reporter Kati Enkvist talks with Johanna Tidström and our veterinarian Assaf Wydra about the new hedgehog rehabilitation centre in Vaasa.
+02-06-2026 · Yle Österbotten (in Swedish)
+Rekordmånga fästingar men få husdjur blir allvarligt sjuka
+Despite a record number of tick sightings, few pets become seriously ill. Our veterinarian Pamela Kvarngård says tablets and collars protect well and recommends them over natural remedies.
 24-04-2026 · MTV Uutiset (in Finnish)
 Luna-koiran sydän petti yllättäen — eläinlääkäriltä ruokavaliovaroitus
 Six-year-old Luna's DCM heart disease was linked to a grain-free diet. Our veterinarian Assaf Wydra warns against grain-free feeding without medical justification.
+10-01-2026 · Iltalehti (in Finnish)
+Suomea kiertää pakettiauto, josta varoitetaan vakavasti
+According to our clinic, dogs have been given questionable dental treatments in a van at a petrol station. Tartar must also be removed from the gum pockets, which cannot be done while the pet is awake.
 
 ### 2025
 
+09-12-2025 · Vasabladet (in Swedish)
+Veterinär varnade för farlig tandvård – ledde till hatstorm
+Our veterinarian Assaf Wydra raised the alarm about dental work on animals done by non-veterinarians and was met with a storm of hate online. The case has led to a police report.
 05-12-2025 · Ilkka-Pohjalainen (in Finnish)
 Koiralle tehtiin kummallinen operaatio pakettiautossa huoltoasemalla — 13 hammasta poistanut eläinlääkäri joutui koston uhriksi
 Reporter Tiina Juujärvi's article on the smear campaign Assaf Wydra faced after publicly raising concerns about an illegal dental procedure performed at a petrol station.
@@ -7368,20 +7387,59 @@ Veterinarian Assaf Wydra had to extract 13 teeth from a dog after an illegal tar
 Igelkott i Vasa fick nytt hem — efter vård hos veterinär Assaf Wydra
 A hedgehog rescued in Vaasa received treatment from Assaf Wydra. The hedgehog was placed at a private hedgehog shelter for the winter hibernation.
 
+### 2024
+
+10-10-2024 · Österbottens Tidning (in Swedish)
+Hundgodis fick sitt första offer i Vasa – hunden Inez drabbades av anfall
+Inez, a dog from Vaasa, was brought to our clinic with unexplained seizures, which the article links to dog treats. Our veterinarian Pamela Kvarngård advises owners not to buy treats that are not made in Finland.
+24-05-2024 · Yle Österbotten (in Swedish)
+Veterinärens tips: Så minskar du risken för ormbett hos hundar och katter
+Our veterinarian Pamela Kvarngård on adder bites: keep dogs on a lead, keep the lawn short, and take a bitten animal to a vet quickly.
+22-04-2024 · Österbottens Tidning (in Swedish)
+Rädda igelkottar i Österbotten – stäng av robotgräsklipparen nattetid
+Our veterinarian Assaf Wydra rehabilitates wild animals as a volunteer. Every summer he is brought badly injured hedgehogs, most of which cannot be saved. The article's advice: turn off robot lawnmowers at night.
+
 ### 2023
 
 29-09-2023 · MTV Uutiset (in Finnish)
 Vaasalainen eläinklinikka jakoi kuvan pienen potilaan saapumisesta: kuinka monta poliisia tarvitaan tuomaan pöllö klinikalle?
 Three police officers brought an injured pygmy owl to the clinic for treatment. The owl was diagnosed with a broken wing.
+28-07-2023 · Vasabladet (in Swedish)
+Veterinären Assaf Wydra i Vasa vårdade svan som skjutits med luftgevär: ”Hur kan någon göra så?”
+Firefighters brought a mute swan that had been shot with an air rifle to our clinic, where Assaf Wydra treated it. The clinic had recently received several shot birds, and the case was reported to the police.
+
+### 2021
+
+01-10-2021 · Veterinärmagazinet, Sweden (in Swedish)
+Ny digital patologitjänst på väg till Sverige
+A new digital pathology service sends microscope images of cytology and blood samples to pathologists. The first system was installed at our clinic in April 2021. Our veterinarian Assaf Wydra says the diagnosis is fast and the pathologist can also mark the findings on the images.
 
 ### 2020
 
+18-10-2020 · Vasabladet (in Swedish)
+Veterinärparet driver klinik och jobbar ideellt: ”Man blir lyckligare av att ge till andra”
+A portrait of Pamela Kvarngård and Assaf Wydra, the veterinary couple who run our clinic and also help animals in their free time: from neutering street cats in Thailand to trimming the hooves of wild moose.
 17-04-2020 · YLE (in Finnish)
 Kissa on eläinlääkärillä koiraa harvinaisempi potilas — kissaystävällisellä klinikalla saa katsella akvaariokaloja odotushuoneessa
 YLE's feature on the first Cat Friendly Clinic accreditation in Ostrobothnia. Our clinic has a separate, calm waiting room for cats and an aquarium.
 27-03-2020 · Vasabladet (in Swedish)
 Djurklinik Saari ackrediteras för sin kattvänlighet — har byggt eget väntrum för de stresskänsliga patienterna
 Ostrobothnia's first ISFM Cat Friendly Clinic accreditation. Pamela Kvarngård and Assaf Wydra built a dedicated waiting room for cats.
+
+### 2018
+
+13-04-2018 · Yle Vega Österbotten (radio, in Swedish)
+Veterinär Pamela Kvarngård om rescuehundar
+A one-minute clip: most of the rescue dogs our veterinarian Pamela Kvarngård meets in her work are doing well, but those who adopt one cannot know in advance what they will get.
+11-04-2018 · Yle Österbotten (in Swedish)
+En djungel av frågor att ta ställning till för den som vill skaffa hund – uppfödare: Tänk först på vad du kan erbjuda hunden
+A breeder and our veterinarian Pamela Kvarngård advise anyone who wants a dog to first think about what they can offer it. Imported street dogs can bring behaviour problems and diseases.
+
+### 2016
+
+10-02-2016 · Yle (in Finnish)
+Kokeilussa uusi rokote merikotkalle: Poistaako lääke vaarallisen lyijyn linnun elimistöstä?
+Markku Harju's wildlife rehabilitation centre in Ostrobothnia tests a new treatment from Norway on a white-tailed eagle with lead poisoning, a leading cause of death for the species. Our veterinarian Assaf Wydra works with Harju on the case.
 
 ### Book an appointment
 
