@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 85 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 86 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3765,6 +3765,12 @@ Last updated: 2026-11-22
 
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
+Hälsa
+22.11.2026
+
+### Kräkningar hos hund och katt – vård hemma och när du ska ringa
+
+En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar kan också vara ett tecken på förgiftning, ett nedsvalt föremål eller allvarlig sjukdom.
 Husdjurshälsa
 21.11.2026
 
@@ -5410,6 +5416,93 @@ Tillbaka till startsidan
 
 ---
 
+# Hund eller katt som kräks – veterinär eller vård hemma?
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/krakningar.html
+Last updated: 2026-11-22
+
+Hälsa
+22.11.2026
+
+## Kräkningar hos hund och katt – vård hemma och när du ska ringa
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar kan också vara ett tecken på förgiftning, ett nedsvalt föremål eller allvarlig sjukdom.
+
+### Ring genast
+
+Ring oss genast på (06) 321 7300 om ditt djur kan ha ätit något giftigt eller svalt ett föremål, till exempel en leksak, en strumpa, ett ben eller ett snöre (om du ser ett snöre under tungan eller vid analöppningen ska du inte dra i det); om det finns blod i kräkningarna (rött, eller mörkt som kaffesump); om din hund gång på gång försöker kräkas men inte får upp något eller bara lite skum, särskilt om den är rastlös eller dreglar eller om magen ser uppsvälld ut; om en hankatt krystar i kattlådan (den kan ha urinstopp); eller om ditt djur har svårt att andas, faller ihop eller är mycket svagt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Försök inte själv få djuret att kräkas: huskurer kan vara farliga.
+
+### Ring samma dag
+
+Ring samma dag om ditt djur kräks flera gånger eller inte kan behålla vatten; om det finns blod i avföringen; om djuret är slött, har ont i magen, har torrt tandkött eller insjunkna ögon, eller har vägrat äta i ett dygn; om det är en valp eller kattunge; eller om djuret är äldre, har en långvarig sjukdom eller får medicin från veterinären. Om medicinen är smärtstillande ska du inte ge mer av den förrän du har pratat med oss.
+
+### Kräkning eller uppstötning av mat?
+
+Innan ett djur kräks slickar det sig ofta om munnen, dreglar eller sväljer, och sedan drar magen ihop sig i ryck. Det som kommer upp är ofta delvis smält mat eller gul vätska. Mat, skum eller saliv som kommer upp utan ansträngning, ofta osmält, kallas uppstötning och har andra orsaker, så berätta för veterinären vilket av de två du såg. En hund som kräks gult skum en gång, på fastande mage och ofta tidigt på morgonen, och sedan är som vanligt, kan ha nytta av ett litet mål mat sent på kvällen. Om det upprepas ska du boka tid så att andra orsaker kan uteslutas.
+
+### Hembehandling för vuxna djur
+
+Om ditt vuxna djur i övrigt är friskt, har kräkts en eller två gånger och är piggt, ska du inte ge det mat under några timmar, men ta inte bort vattnet: ge lite i taget och ofta. När djuret behåller vattnet ger du små, täta måltider av lättsmält skonkost som inte är fet. Vi säljer lättsmälta dietfoder. Katter får inte vara utan mat länge: om en katt äter lite eller ingenting i några dagar kan den få en farlig leversjukdom. Ge inga mediciner för människor. Ring oss om kräkningarna börjar igen eller om djuret inte är som vanligt igen inom ett dygn.
+
+### Valpar och kattungar
+
+Valpar och kattungar torkar snabbt ut, och parvovirus och kattpest kan vara livshotande, särskilt om djuret inte är färdigvaccinerat. Ring samma dag om en valp eller kattunge kräks.
+
+### Katter och hårbollar
+
+En hårboll då och då kan vara normalt, men boka tid om din katt kräks ofta (mer än en gång i veckan) eller kräks och går ner i vikt: njursjukdom, överaktiv sköldkörtel och tarmsjukdom är vanliga orsaker, särskilt hos äldre katter. Om en katt sitter hopkrupen med halsen utsträckt och harklar sig utan att få upp något, kan det vara hosta, till exempel på grund av astma: ring oss samma dag och filma det om du kan. Om katten har svårt att andas eller andas med öppen mun ska du ringa genast. Regelbunden borstning hjälper mot hårbollar.
+
+### På kliniken
+
+Vid behov tar vi blodprov (svaren får du under besöket), röntgenbilder eller gör en ultraljudsundersökning. Ett nedsvalt föremål som fortfarande är kvar i magsäcken kan ofta tas bort med endoskop, utan operation; om det inte lyckas, eller om föremålet har gått vidare ner i tarmen, behövs det oftast en operation. Om ditt djur behöver dropp kan det stanna hos oss på dagvård. Du kan boka tid på nätet (Akut & sjukt djur → Akut kräkning/diarré) eller ringa oss.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Webb CB. Vomiting in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/vomiting-in-dogs
+- Webb CB. Vomiting in Cats. Merck Veterinary Manual, Cat Owners Version (updated 2024). merckvetmanual.com/vomiting-in-cats
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov
+- PDSA Pet Health Hub: Vomiting in dogs. pdsa.org.uk/vomiting-in-dogs
+- PDSA Pet Health Hub: Vomiting in cats. pdsa.org.uk/vomiting-in-cats
+- PDSA Pet Health Hub: GDV (gastric dilatation volvulus) in dogs. pdsa.org.uk/gdv-gastric-dilatation-volvulus-in-dogs
+- Merck Veterinary Manual: Gastric Dilation and Volvulus in Small Animals. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Merck Veterinary Manual: Gastrointestinal Obstruction in Small Animals. merckvetmanual.com/gastrointestinal-obstruction-in-small-an
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Niedzwecki AH, Book BP, Lewis KM, et al. Effects of oral 3% hydrogen peroxide used as an emetic on the gastroduodenal mucosa of healthy dogs. Journal of Veterinary Emergency and Critical Care 2017;27(2):178–184. pubmed.ncbi.nlm.nih.gov/27973761
+- Cornell Feline Health Center: Vomiting. vet.cornell.edu/vomiting
+- Cornell Feline Health Center: The Danger of Hairballs. vet.cornell.edu/danger-hairballs
+- Cornell Feline Health Center: Hepatic Lipidosis. vet.cornell.edu/hepatic-lipidosis
+- International Cat Care: Asthma and chronic bronchitis in cats. icatcare.org/asthma-and-chronic-bronchitis-in-cats
+- International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Hälsa
+
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
+Akutvård
+
+#### Förgiftning hos hund och katt – symtom, första hjälpen och när du bör agera genast
+
+Förgiftningar är en vanlig orsak till akuta veterinärbesök. Ofta blir hunden eller katten förgiftad av något som är o...
+Endoskopi
+
+#### Gastroskopi – magsäcksundersökning och avlägsnande av främmande föremål med endoskop
+
+Gastroskopi är en undersökning där ett böjligt kamerarör (endoskop) förs in genom munnen till matstrupen, magsäcken o...
+Tillbaka till startsidan
+
+---
+
 # Diarré hos katt, kattunge och hund – när till veterinären?
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/diarre.html
@@ -5469,16 +5562,16 @@ Relaterade tjänster: Internmedicin
 
 ### Läs också
 
+Hälsa
+
+#### Kräkningar hos hund och katt – vård hemma och när du ska ringa
+
+En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar...
 Husdjurshälsa
 
 #### Födoämnesallergi hos hundar och katter – symtom, diagnos och eliminationsdiet
 
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
-Hälsa
-
-#### Spannmålsfri mat för hundar och katter – är det nödvändigt eller skadligt?
-
-Spannmålsfri djurmat blev en stor trend och marknadsfördes som mer ”naturlig”. Men i juli 2018 meddelade amerikanska...
 Endoskopi
 
 #### Gastroskopi – magsäcksundersökning och avlägsnande av främmande föremål med endoskop

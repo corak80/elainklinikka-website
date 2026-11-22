@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 85 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 86 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3775,6 +3775,12 @@ Last updated: 2026-11-22
 
 Veterinary articles from the professionals
 Search articles...
+Health
+22.11.2026
+
+### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can also be a sign of poisoning, a swallowed object or serious illness.
 Pet Health
 21.11.2026
 
@@ -5420,6 +5426,93 @@ Back to homepage
 
 ---
 
+# Dog or Cat Vomiting? When to Call the Vet and Home Care
+
+URL: https://elainklinikkasaari.fi/en/articles/vomiting.html
+Last updated: 2026-11-22
+
+Health
+22.11.2026
+
+## Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can also be a sign of poisoning, a swallowed object or serious illness.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if your pet may have eaten something poisonous or swallowed an object such as a toy, sock, bone or string (if you see string under its tongue or at its bottom, don’t pull it); there is blood in the vomit (red, or dark like coffee grounds); your dog retches again and again but brings up nothing or only a little foam, especially if it is restless or drooling or its belly looks swollen; a male cat is straining in the litter tray (its bladder may be blocked); or your pet struggles to breathe, collapses or is very weak. Outside opening hours, call the regional emergency vet on 0600 399 299. Don’t try to make your pet vomit yourself: home methods can be dangerous.
+
+### Call the Same Day
+
+Call the same day if your pet vomits several times or cannot keep water down; there is blood in its stool; it is dull, has a painful belly, dry gums or sunken eyes, or has refused food for a day; it is a puppy or kitten; or it is elderly, has a long-term illness or takes medicine from a vet — if it is pain relief, give no more until you have spoken to us.
+
+### Vomiting or Bringing Up Food?
+
+Before vomiting, a pet often licks its lips, drools or swallows; then its belly heaves and what comes up is often partly digested food or yellow fluid. Food, froth or saliva that comes up without effort, often undigested, is regurgitation: it has other causes, so tell the vet which one you saw. A dog that vomits yellow foam once, on an empty stomach and often early in the morning, and is then its normal self, may be helped by a small late-evening meal; if it keeps happening, book a visit to rule out other causes.
+
+### Home Care for Adults
+
+If your adult pet is otherwise healthy, has vomited once or twice and is bright, give no food for a few hours, but don’t take its water away: offer a little at a time, often. Once it keeps water down, give small, frequent meals of a bland, easily digestible food, nothing fatty. We sell easily digestible diets. Cats must not go without food for long: a few days of eating little or nothing can cause a dangerous liver disease. Don’t give human medicines. If the vomiting starts again, or your pet is not back to normal within a day, call us.
+
+### Puppies and Kittens
+
+Puppies and kittens dehydrate quickly, and parvovirus and panleukopenia can be life-threatening, especially if not fully vaccinated. Call the same day if a puppy or kitten vomits.
+
+### Cats and Hairballs
+
+An occasional hairball can be normal, but book a visit if your cat vomits more than once a week, or vomits and is losing weight: kidney disease, an overactive thyroid and bowel disease are common causes, especially in older cats. A cat that crouches with its neck stretched out and hacks without bringing anything up may be coughing, for example from asthma: call us the same day, and film it if you can. If it struggles to breathe or breathes with its mouth open, call at once. Regular brushing helps reduce hairballs.
+
+### At the Clinic
+
+When needed, we do blood tests (with results during the visit), X-rays or an ultrasound scan. A swallowed object still in the stomach can often be removed with an endoscope, without surgery; if that fails, or the object has moved on into the intestine, surgery is usually needed. If your pet needs a drip, it can stay with us for the day. You can book online (Akuutti ja sairas lemmikki → Äkillisen oksentelun/ripulin ensiapu) or call us.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- Webb CB. Vomiting in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/vomiting-in-dogs
+- Webb CB. Vomiting in Cats. Merck Veterinary Manual, Cat Owners Version (updated 2024). merckvetmanual.com/vomiting-in-cats
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov
+- PDSA Pet Health Hub: Vomiting in dogs. pdsa.org.uk/vomiting-in-dogs
+- PDSA Pet Health Hub: Vomiting in cats. pdsa.org.uk/vomiting-in-cats
+- PDSA Pet Health Hub: GDV (gastric dilatation volvulus) in dogs. pdsa.org.uk/gdv-gastric-dilatation-volvulus-in-dogs
+- Merck Veterinary Manual: Gastric Dilation and Volvulus in Small Animals. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Merck Veterinary Manual: Gastrointestinal Obstruction in Small Animals. merckvetmanual.com/gastrointestinal-obstruction-in-small-an
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Niedzwecki AH, Book BP, Lewis KM, et al. Effects of oral 3% hydrogen peroxide used as an emetic on the gastroduodenal mucosa of healthy dogs. Journal of Veterinary Emergency and Critical Care 2017;27(2):178–184. pubmed.ncbi.nlm.nih.gov/27973761
+- Cornell Feline Health Center: Vomiting. vet.cornell.edu/vomiting
+- Cornell Feline Health Center: The Danger of Hairballs. vet.cornell.edu/danger-hairballs
+- Cornell Feline Health Center: Hepatic Lipidosis. vet.cornell.edu/hepatic-lipidosis
+- International Cat Care: Asthma and chronic bronchitis in cats. icatcare.org/asthma-and-chronic-bronchitis-in-cats
+- International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
+Related services: Internal Medicine
+
+### Read also
+
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+Emergency
+
+#### Poisoning in Dogs and Cats: Symptoms, First Aid and When to Act Straight Away
+
+Poisoning is a common reason for emergency visits to the vet. Dogs and cats are often poisoned by something harmless...
+Endoscopy
+
+#### Gastroscopy — Stomach Examination and Foreign Body Removal with an Endoscope
+
+Gastroscopy is an examination in which a flexible camera tube (endoscope) is passed through the mouth into the esopha...
+Back to homepage
+
+---
+
 # Diarrhoea in Dogs, Cats and Kittens: When to Call the Vet
 
 URL: https://elainklinikkasaari.fi/en/articles/diarrhoea.html
@@ -5479,16 +5572,16 @@ Related services: Internal Medicine
 
 ### Read also
 
+Health
+
+#### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
 Pet Health
 
 #### Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet
 
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
-Health
-
-#### Grain-Free Food for Dogs and Cats — Is It Necessary or Harmful?
-
-Grain-free pet food became a major trend, marketed as more “natural”. But in July 2018 the US Food and Drug Administr...
 Endoscopy
 
 #### Gastroscopy — Stomach Examination and Foreign Body Removal with an Endoscope

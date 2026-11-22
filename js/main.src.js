@@ -1501,6 +1501,98 @@ const translations = {
     en: 'Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.'
   },
 
+  // Article: Vomiting in dogs and cats (new 2026-11)
+  "article.vomiting.title": {
+    fi: "Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona",
+    sv: "Kräkningar hos hund och katt – vård hemma och när du ska ringa",
+    en: "Vomiting in Dogs and Cats — When to Call and What to Do at Home"
+  },
+  "article.vomiting.intro": {
+    fi: "Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa. Oksentelu voi myös olla merkki myrkytyksestä, nielaistusta vierasesineestä tai vakavasta sairaudesta.",
+    sv: "En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar kan också vara ett tecken på förgiftning, ett nedsvalt föremål eller allvarlig sjukdom.",
+    en: "An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can also be a sign of poisoning, a swallowed object or serious illness."
+  },
+  "article.vomiting.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.vomiting.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos lemmikkisi on voinut syödä jotain myrkyllistä tai nielaista esineen, kuten lelun, sukan, luun tai narun (jos näet narua kielen alla tai peräaukossa, älä vedä siitä); oksennuksessa on verta (punaista tai tummaa, kahvinporoja muistuttavaa); koirasi yökkäilee yhä uudelleen, mutta ylös ei tule mitään tai vain vähän vaahtoa, etenkin jos se on levoton tai kuolaa tai sen vatsa näyttää turvonneelta; uroskissa ponnistelee hiekkalaatikolla (sillä voi olla virtsatietukos) tai lemmikkisi hengittää vaivalloisesti, lyyhistyy tai on hyvin heikko. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Älä yritä oksennuttaa lemmikkiäsi itse: kotikonstit voivat olla vaarallisia.",
+    sv: "Ring oss genast på (06) 321 7300 om ditt djur kan ha ätit något giftigt eller svalt ett föremål, till exempel en leksak, en strumpa, ett ben eller ett snöre (om du ser ett snöre under tungan eller vid analöppningen ska du inte dra i det); om det finns blod i kräkningarna (rött, eller mörkt som kaffesump); om din hund gång på gång försöker kräkas men inte får upp något eller bara lite skum, särskilt om den är rastlös eller dreglar eller om magen ser uppsvälld ut; om en hankatt krystar i kattlådan (den kan ha urinstopp); eller om ditt djur har svårt att andas, faller ihop eller är mycket svagt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Försök inte själv få djuret att kräkas: huskurer kan vara farliga.",
+    en: "Call us on (06) 321 7300 at once if your pet may have eaten something poisonous or swallowed an object such as a toy, sock, bone or string (if you see string under its tongue or at its bottom, don’t pull it); there is blood in the vomit (red, or dark like coffee grounds); your dog retches again and again but brings up nothing or only a little foam, especially if it is restless or drooling or its belly looks swollen; a male cat is straining in the litter tray (its bladder may be blocked); or your pet struggles to breathe, collapses or is very weak. Outside opening hours, call the regional emergency vet on 0600 399 299. Don’t try to make your pet vomit yourself: home methods can be dangerous."
+  },
+  "article.vomiting.sameday.title": {
+    fi: "Soita saman päivän aikana",
+    sv: "Ring samma dag",
+    en: "Call the Same Day"
+  },
+  "article.vomiting.sameday.text": {
+    fi: "Soita saman päivän aikana, jos lemmikkisi oksentaa useita kertoja tai ei pysty pitämään vettä sisällään, jos sen ulosteessa on verta tai jos se on vaisu, sen vatsa on kipeä, ikenet ovat kuivat tai silmät ovat painuneet kuoppiinsa tai se ei ole suostunut syömään vuorokauteen. Soita saman päivän aikana myös, jos lemmikkisi on koiran- tai kissanpentu tai jos se on iäkäs, pitkäaikaissairas tai saa eläinlääkärin määräämää lääkettä – jos lääke on kipulääke, älä anna sitä enää, ennen kuin olet puhunut kanssamme.",
+    sv: "Ring samma dag om ditt djur kräks flera gånger eller inte kan behålla vatten; om det finns blod i avföringen; om djuret är slött, har ont i magen, har torrt tandkött eller insjunkna ögon, eller har vägrat äta i ett dygn; om det är en valp eller kattunge; eller om djuret är äldre, har en långvarig sjukdom eller får medicin från veterinären. Om medicinen är smärtstillande ska du inte ge mer av den förrän du har pratat med oss.",
+    en: "Call the same day if your pet vomits several times or cannot keep water down; there is blood in its stool; it is dull, has a painful belly, dry gums or sunken eyes, or has refused food for a day; it is a puppy or kitten; or it is elderly, has a long-term illness or takes medicine from a vet — if it is pain relief, give no more until you have spoken to us."
+  },
+  "article.vomiting.kinds.title": {
+    fi: "Oksentelu vai ruoan pulauttelu?",
+    sv: "Kräkning eller uppstötning av mat?",
+    en: "Vomiting or Bringing Up Food?"
+  },
+  "article.vomiting.kinds.text": {
+    fi: "Ennen oksentamista lemmikki usein nuolee huuliaan, kuolaa tai nieleskelee. Sitten sen vatsa alkaa nytkähdellä, ja ylös tulee usein osittain sulanutta ruokaa tai keltaista nestettä. Jos ruokaa, vaahtoa tai sylkeä tulee ylös vaivatta, usein sulamattomana, kyse on pulauttelusta (regurgitaatiosta). Sillä on eri syyt kuin oksentelulla, joten kerro eläinlääkärille, kumpaa näit. Jos koira oksentaa keltaista vaahtoa kerran tyhjällä vatsalla, usein aikaisin aamulla, ja on sen jälkeen taas oma itsensä, pieni myöhäinen iltapala voi auttaa. Jos näin käy toistuvasti, varaa aika, jotta muut syyt voidaan sulkea pois.",
+    sv: "Innan ett djur kräks slickar det sig ofta om munnen, dreglar eller sväljer, och sedan drar magen ihop sig i ryck. Det som kommer upp är ofta delvis smält mat eller gul vätska. Mat, skum eller saliv som kommer upp utan ansträngning, ofta osmält, kallas uppstötning och har andra orsaker, så berätta för veterinären vilket av de två du såg. En hund som kräks gult skum en gång, på fastande mage och ofta tidigt på morgonen, och sedan är som vanligt, kan ha nytta av ett litet mål mat sent på kvällen. Om det upprepas ska du boka tid så att andra orsaker kan uteslutas.",
+    en: "Before vomiting, a pet often licks its lips, drools or swallows; then its belly heaves and what comes up is often partly digested food or yellow fluid. Food, froth or saliva that comes up without effort, often undigested, is regurgitation: it has other causes, so tell the vet which one you saw. A dog that vomits yellow foam once, on an empty stomach and often early in the morning, and is then its normal self, may be helped by a small late-evening meal; if it keeps happening, book a visit to rule out other causes."
+  },
+  "article.vomiting.homecare.title": {
+    fi: "Aikuisen koiran ja kissan kotihoito",
+    sv: "Hembehandling för vuxna djur",
+    en: "Home Care for Adults"
+  },
+  "article.vomiting.homecare.text": {
+    fi: "Jos aikuinen lemmikkisi on muuten terve ja virkeä ja se on oksentanut kerran tai kaksi, älä anna sille ruokaa muutamaan tuntiin, mutta älä ota siltä vettä pois: tarjoa vettä vähän kerrallaan ja usein. Kun vesi pysyy sisällä, anna usein pieniä annoksia mietoa ja helposti sulavaa ruokaa, ei mitään rasvaista. Myymme helposti sulavia ruokia. Kissa ei saa olla pitkään syömättä: jos kissa syö muutaman päivän vähän tai ei lainkaan, sille voi kehittyä vaarallinen maksasairaus. Älä anna ihmisten lääkkeitä. Jos oksentelu alkaa uudelleen tai lemmikkisi ei ole toipunut vuorokauden kuluessa, soita meille.",
+    sv: "Om ditt vuxna djur i övrigt är friskt, har kräkts en eller två gånger och är piggt, ska du inte ge det mat under några timmar, men ta inte bort vattnet: ge lite i taget och ofta. När djuret behåller vattnet ger du små, täta måltider av lättsmält skonkost som inte är fet. Vi säljer lättsmälta dietfoder. Katter får inte vara utan mat länge: om en katt äter lite eller ingenting i några dagar kan den få en farlig leversjukdom. Ge inga mediciner för människor. Ring oss om kräkningarna börjar igen eller om djuret inte är som vanligt igen inom ett dygn.",
+    en: "If your adult pet is otherwise healthy, has vomited once or twice and is bright, give no food for a few hours, but don’t take its water away: offer a little at a time, often. Once it keeps water down, give small, frequent meals of a bland, easily digestible food, nothing fatty. We sell easily digestible diets. Cats must not go without food for long: a few days of eating little or nothing can cause a dangerous liver disease. Don’t give human medicines. If the vomiting starts again, or your pet is not back to normal within a day, call us."
+  },
+  "article.vomiting.young.title": {
+    fi: "Koiran- ja kissanpennut",
+    sv: "Valpar och kattungar",
+    en: "Puppies and Kittens"
+  },
+  "article.vomiting.young.text": {
+    fi: "Koiran- ja kissanpennut kuivuvat nopeasti, ja parvovirus ja kissarutto voivat olla hengenvaarallisia, etenkin jos pentu ei ole saanut kaikkia rokotuksiaan. Soita saman päivän aikana, jos koiran- tai kissanpentu oksentaa.",
+    sv: "Valpar och kattungar torkar snabbt ut, och parvovirus och kattpest kan vara livshotande, särskilt om djuret inte är färdigvaccinerat. Ring samma dag om en valp eller kattunge kräks.",
+    en: "Puppies and kittens dehydrate quickly, and parvovirus and panleukopenia can be life-threatening, especially if not fully vaccinated. Call the same day if a puppy or kitten vomits."
+  },
+  "article.vomiting.cats.title": {
+    fi: "Kissan oksentelu ja karvapallot",
+    sv: "Katter och hårbollar",
+    en: "Cats and Hairballs"
+  },
+  "article.vomiting.cats.text": {
+    fi: "Jos kissa oksentaa silloin tällöin karvapallon, se voi olla normaalia, mutta varaa aika, jos kissasi oksentaa useammin kuin kerran viikossa tai jos se oksentaa ja laihtuu: munuaissairaus, kilpirauhasen liikatoiminta ja suolistosairaus ovat yleisiä syitä, etenkin iäkkäillä kissoilla. Jos kissa kyyristyy kaula ojennettuna ja kakoo, mutta ylös ei tule mitään, kyse voi olla yskästä, esimerkiksi astman vuoksi: soita meille saman päivän aikana ja kuvaa se videolle, jos pystyt. Jos kissa hengittää vaivalloisesti tai suu auki, soita heti. Säännöllinen harjaaminen auttaa vähentämään karvapalloja.",
+    sv: "En hårboll då och då kan vara normalt, men boka tid om din katt kräks ofta (mer än en gång i veckan) eller kräks och går ner i vikt: njursjukdom, överaktiv sköldkörtel och tarmsjukdom är vanliga orsaker, särskilt hos äldre katter. Om en katt sitter hopkrupen med halsen utsträckt och harklar sig utan att få upp något, kan det vara hosta, till exempel på grund av astma: ring oss samma dag och filma det om du kan. Om katten har svårt att andas eller andas med öppen mun ska du ringa genast. Regelbunden borstning hjälper mot hårbollar.",
+    en: "An occasional hairball can be normal, but book a visit if your cat vomits more than once a week, or vomits and is losing weight: kidney disease, an overactive thyroid and bowel disease are common causes, especially in older cats. A cat that crouches with its neck stretched out and hacks without bringing anything up may be coughing, for example from asthma: call us the same day, and film it if you can. If it struggles to breathe or breathes with its mouth open, call at once. Regular brushing helps reduce hairballs."
+  },
+  "article.vomiting.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.vomiting.clinic.text": {
+    fi: "Tarvittaessa teemme verikokeita (tulokset valmistuvat käynnin aikana), röntgenkuvauksen tai ultraäänitutkimuksen. Mahalaukussa vielä oleva nielaistu esine voidaan usein poistaa tähystimellä ilman leikkausta. Jos se ei onnistu tai esine on jo edennyt suoleen, tarvitaan yleensä leikkaus. Jos lemmikkisi tarvitsee tiputusta, se voi viettää päivän meillä hoidossa. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Äkillisen oksentelun/ripulin ensiapu) tai soittaa meille.",
+    sv: "Vid behov tar vi blodprov (svaren får du under besöket), röntgenbilder eller gör en ultraljudsundersökning. Ett nedsvalt föremål som fortfarande är kvar i magsäcken kan ofta tas bort med endoskop, utan operation; om det inte lyckas, eller om föremålet har gått vidare ner i tarmen, behövs det oftast en operation. Om ditt djur behöver dropp kan det stanna hos oss på dagvård. Du kan boka tid på nätet (Akut & sjukt djur → Akut kräkning/diarré) eller ringa oss.",
+    en: "When needed, we do blood tests (with results during the visit), X-rays or an ultrasound scan. A swallowed object still in the stomach can often be removed with an endoscope, without surgery; if that fails, or the object has moved on into the intestine, surgery is usually needed. If your pet needs a drip, it can stay with us for the day. You can book online (Akuutti ja sairas lemmikki → Äkillisen oksentelun/ripulin ensiapu) or call us."
+  },
+  "article.vomiting.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.vomiting.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4326,6 +4418,7 @@ function setLanguage(lang) {
     'koira-ontuu': { sv: 'hunden-haltar', en: 'dog-limping' },
     'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
     'ripuli': { sv: 'diarre', en: 'diarrhoea' },
+    'oksentelu': { sv: 'krakningar', en: 'vomiting' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },

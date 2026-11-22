@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 91 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 92 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4104,6 +4104,12 @@ Last updated: 2026-11-22
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Terveys
+22.11.2026
+
+### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
+
+Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa. Oksentelu voi myös olla merkki myrkytyksestä, nielaistusta vierasesineestä tai vakavasta sairaudesta.
 Lemmikkien terveys
 21.11.2026
 
@@ -5749,6 +5755,93 @@ Takaisin etusivulle
 
 ---
 
+# Koira tai kissa oksentaa – kotihoito ja milloin soittaa
+
+URL: https://elainklinikkasaari.fi/articles/oksentelu.html
+Last updated: 2026-11-22
+
+Terveys
+22.11.2026
+
+## Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa. Oksentelu voi myös olla merkki myrkytyksestä, nielaistusta vierasesineestä tai vakavasta sairaudesta.
+
+### Soita heti
+
+Soita meille heti numeroon (06) 321 7300, jos lemmikkisi on voinut syödä jotain myrkyllistä tai nielaista esineen, kuten lelun, sukan, luun tai narun (jos näet narua kielen alla tai peräaukossa, älä vedä siitä); oksennuksessa on verta (punaista tai tummaa, kahvinporoja muistuttavaa); koirasi yökkäilee yhä uudelleen, mutta ylös ei tule mitään tai vain vähän vaahtoa, etenkin jos se on levoton tai kuolaa tai sen vatsa näyttää turvonneelta; uroskissa ponnistelee hiekkalaatikolla (sillä voi olla virtsatietukos) tai lemmikkisi hengittää vaivalloisesti, lyyhistyy tai on hyvin heikko. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Älä yritä oksennuttaa lemmikkiäsi itse: kotikonstit voivat olla vaarallisia.
+
+### Soita saman päivän aikana
+
+Soita saman päivän aikana, jos lemmikkisi oksentaa useita kertoja tai ei pysty pitämään vettä sisällään, jos sen ulosteessa on verta tai jos se on vaisu, sen vatsa on kipeä, ikenet ovat kuivat tai silmät ovat painuneet kuoppiinsa tai se ei ole suostunut syömään vuorokauteen. Soita saman päivän aikana myös, jos lemmikkisi on koiran- tai kissanpentu tai jos se on iäkäs, pitkäaikaissairas tai saa eläinlääkärin määräämää lääkettä – jos lääke on kipulääke, älä anna sitä enää, ennen kuin olet puhunut kanssamme.
+
+### Oksentelu vai ruoan pulauttelu?
+
+Ennen oksentamista lemmikki usein nuolee huuliaan, kuolaa tai nieleskelee. Sitten sen vatsa alkaa nytkähdellä, ja ylös tulee usein osittain sulanutta ruokaa tai keltaista nestettä. Jos ruokaa, vaahtoa tai sylkeä tulee ylös vaivatta, usein sulamattomana, kyse on pulauttelusta (regurgitaatiosta). Sillä on eri syyt kuin oksentelulla, joten kerro eläinlääkärille, kumpaa näit. Jos koira oksentaa keltaista vaahtoa kerran tyhjällä vatsalla, usein aikaisin aamulla, ja on sen jälkeen taas oma itsensä, pieni myöhäinen iltapala voi auttaa. Jos näin käy toistuvasti, varaa aika, jotta muut syyt voidaan sulkea pois.
+
+### Aikuisen koiran ja kissan kotihoito
+
+Jos aikuinen lemmikkisi on muuten terve ja virkeä ja se on oksentanut kerran tai kaksi, älä anna sille ruokaa muutamaan tuntiin, mutta älä ota siltä vettä pois: tarjoa vettä vähän kerrallaan ja usein. Kun vesi pysyy sisällä, anna usein pieniä annoksia mietoa ja helposti sulavaa ruokaa, ei mitään rasvaista. Myymme helposti sulavia ruokia. Kissa ei saa olla pitkään syömättä: jos kissa syö muutaman päivän vähän tai ei lainkaan, sille voi kehittyä vaarallinen maksasairaus. Älä anna ihmisten lääkkeitä. Jos oksentelu alkaa uudelleen tai lemmikkisi ei ole toipunut vuorokauden kuluessa, soita meille.
+
+### Koiran- ja kissanpennut
+
+Koiran- ja kissanpennut kuivuvat nopeasti, ja parvovirus ja kissarutto voivat olla hengenvaarallisia, etenkin jos pentu ei ole saanut kaikkia rokotuksiaan. Soita saman päivän aikana, jos koiran- tai kissanpentu oksentaa.
+
+### Kissan oksentelu ja karvapallot
+
+Jos kissa oksentaa silloin tällöin karvapallon, se voi olla normaalia, mutta varaa aika, jos kissasi oksentaa useammin kuin kerran viikossa tai jos se oksentaa ja laihtuu: munuaissairaus, kilpirauhasen liikatoiminta ja suolistosairaus ovat yleisiä syitä, etenkin iäkkäillä kissoilla. Jos kissa kyyristyy kaula ojennettuna ja kakoo, mutta ylös ei tule mitään, kyse voi olla yskästä, esimerkiksi astman vuoksi: soita meille saman päivän aikana ja kuvaa se videolle, jos pystyt. Jos kissa hengittää vaivalloisesti tai suu auki, soita heti. Säännöllinen harjaaminen auttaa vähentämään karvapalloja.
+
+### Klinikalla
+
+Tarvittaessa teemme verikokeita (tulokset valmistuvat käynnin aikana), röntgenkuvauksen tai ultraäänitutkimuksen. Mahalaukussa vielä oleva nielaistu esine voidaan usein poistaa tähystimellä ilman leikkausta. Jos se ei onnistu tai esine on jo edennyt suoleen, tarvitaan yleensä leikkaus. Jos lemmikkisi tarvitsee tiputusta, se voi viettää päivän meillä hoidossa. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Äkillisen oksentelun/ripulin ensiapu) tai soittaa meille.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- Webb CB. Vomiting in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/vomiting-in-dogs
+- Webb CB. Vomiting in Cats. Merck Veterinary Manual, Cat Owners Version (updated 2024). merckvetmanual.com/vomiting-in-cats
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov
+- PDSA Pet Health Hub: Vomiting in dogs. pdsa.org.uk/vomiting-in-dogs
+- PDSA Pet Health Hub: Vomiting in cats. pdsa.org.uk/vomiting-in-cats
+- PDSA Pet Health Hub: GDV (gastric dilatation volvulus) in dogs. pdsa.org.uk/gdv-gastric-dilatation-volvulus-in-dogs
+- Merck Veterinary Manual: Gastric Dilation and Volvulus in Small Animals. merckvetmanual.com/gastric-dilation-and-volvulus-in-small-a
+- Merck Veterinary Manual: Gastrointestinal Obstruction in Small Animals. merckvetmanual.com/gastrointestinal-obstruction-in-small-an
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Niedzwecki AH, Book BP, Lewis KM, et al. Effects of oral 3% hydrogen peroxide used as an emetic on the gastroduodenal mucosa of healthy dogs. Journal of Veterinary Emergency and Critical Care 2017;27(2):178–184. pubmed.ncbi.nlm.nih.gov/27973761
+- Cornell Feline Health Center: Vomiting. vet.cornell.edu/vomiting
+- Cornell Feline Health Center: The Danger of Hairballs. vet.cornell.edu/danger-hairballs
+- Cornell Feline Health Center: Hepatic Lipidosis. vet.cornell.edu/hepatic-lipidosis
+- International Cat Care: Asthma and chronic bronchitis in cats. icatcare.org/asthma-and-chronic-bronchitis-in-cats
+- International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Terveys
+
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
+Päivystys
+
+#### Myrkytys koiralla ja kissalla – oireet, ensiapu ja milloin on toimittava heti
+
+Myrkytys on yleinen syy päivystyskäyntiin eläinlääkärillä. Koira tai kissa myrkyttyy usein jostakin meille harmittoma...
+Tähystys
+
+#### Gastroskopia – mahalaukun tutkimus ja vierasesineiden poisto tähystimellä
+
+Gastroskopia on tähystystutkimus, jossa taipuisa, kameralla varustettu tähystin (endoskooppi) viedään suun kautta ruo...
+Takaisin etusivulle
+
+---
+
 # Kissan, kissanpennun ja koiran ripuli – milloin soittaa?
 
 URL: https://elainklinikkasaari.fi/articles/ripuli.html
@@ -5808,16 +5901,16 @@ Aiheeseen liittyvät palvelumme: Sisätaudit
 
 ### Lue myös
 
+Terveys
+
+#### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
+
+Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa....
 Lemmikkien terveys
 
 #### Ruoka-allergiat koirilla ja kissoilla – oireet, diagnoosi ja eliminaatiodieetti
 
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
-Terveys
-
-#### Viljaton ruoka koirille ja kissoille – onko se tarpeellista vai haitallista?
-
-Viljattomista lemmikkiruoista tuli suuri trendi, ja niitä markkinoitiin ”luonnollisempina”. Heinäkuussa 2018 Yhdysval...
 Tähystys
 
 #### Gastroskopia – mahalaukun tutkimus ja vierasesineiden poisto tähystimellä
