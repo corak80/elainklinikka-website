@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 89 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 91 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -453,6 +453,7 @@ Mikrosirutus muun käynnin yhteydessä 32,40 €
 Kynsien lyhennys, omistaja pitelee 20 €
 Kynsien lyhennys, hoitaja pitelee 30 €
 Kynsien lyhennys, kaksi tai useampi hoitaja pitelee 40 €
+Anaalirauhasten tyhjennys (hoitaja) 21,97 €
 Kissan turkinhuolto nukutettuna 123–163 €
 Eutanasia
 Kissa 128 €
@@ -477,7 +478,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-11-16
+Last updated: 2026-11-22
 
 ## Palvelumme
 
@@ -525,6 +526,8 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 
 ### Hyvinvointi ja kuntoutus
 
+- Kynsien leikkaus – eläinhoitajan tekemä kynsien leikkaus alkaen 20 €, ajanvaraus verkossa.
+- Anaalirauhaset – eläinhoitajan tekemä tyhjennys 21,97 € – ja milloin takapuoltaan laahaava lemmikki tarvitsee eläinlääkärin.
 - Akupunktio – kivunlievitys, tuki- ja liikuntaelinvaivat sekä neurologiset oireet.
 - Kuntoutus – liikkumisanalyysi, hieronta, elektroterapia ja leikkauksen jälkeinen kuntoutus.
 - Rehumyynti – Royal Canin -arkiruoat verkkokaupastamme, nouto klinikalta. Erikoisruokavaliot vain klinikalla.
@@ -3613,6 +3616,110 @@ Anestesia
 #### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne
 
 Anestesia on välttämätön osa kirurgiaa, hammashoitoa ja monia diagnostisia toimenpiteitä. Moni omistaja on siitä huol...
+Takaisin etusivulle
+
+---
+
+# Koiran ja kissan kynsien leikkaus | Eläinklinikka Saari
+
+URL: https://elainklinikkasaari.fi/palvelut/kynsien-leikkaus/
+Last updated: 2026-11-22
+
+Takaisin etusivulle
+
+## Koiran ja kissan kynsien leikkaus
+
+### Milloin kynnet ovat liian pitkät?
+
+Jos kuulet koirasi kynsien kopisevan kovalla lattialla tai jos kynnet koskettavat lattiaa koiran seistessä paikallaan, ne ovat luultavasti liian pitkät. Pitkät kynnet voivat muuttaa koiran tapaa seistä ja kävellä, ja ne jäävät kiinni ja halkeavat helpommin. Kannuskynnet eli jalan sisäsivulla olevat kynnet eivät osu maahan eivätkä kulu, joten ne voivat kiertyä anturaan. Myös iäkkään kissan kynnet voivat kasvaa paksuiksi ja pitkiksi ja kiertyä anturaan, joten tarkista ne säännöllisesti. Jos kynsi on jo kasvanut anturaan, älä yritä vetää sitä pois itse, vaan soita meille.
+
+### Kynsien leikkaus kotona
+
+Käytä teräviä, lemmikeille tarkoitettuja kynsileikkureita ja leikkaa vain kärki, vähän kerrallaan. Kynnen sisällä on ydin, jossa on verisuonia ja hermoja: jos leikkaat siihen, lemmikkiin sattuu ja kynsi vuotaa verta. Vaaleassa kynnessä näet vaaleanpunaisen ytimen. Tummasta kynnestä leikkaa ohuita siivuja ja lopeta, kun leikkuupinnan keskelle tulee näkyviin tumma täplä. Totuta lemmikkisi tassujen käsittelyyn herkkujen avulla, mieluiten jo pienestä pitäen. Jos kynsi vuotaa, paina sitä tiukasti puhtaalla kankaalla viiden minuutin ajan äläkä nosta kangasta välillä katsoaksesi. Jos kynsi vuotaa vielä sen jälkeen, jatka painamista ja soita meille. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Kynsien leikkaus klinikalla
+
+Eläinhoitaja leikkaa kynnet 15 minuutin vastaanotolla. Varaa aika verkossa kohdasta ”Hoitaja-ajat → Kynsien leikkaus hoitaja” tai soita meille numeroon (06) 321 7300. Hinnat ovat kokonaishintoja: 20 €, jos pitelet lemmikkiäsi itse, 30 €, jos hoitaja pitelee sitä, ja 40 €, jos tarvitaan vähintään kaksi hoitajaa. Jos kynsien leikkaus on lemmikillesi hyvin stressaavaa, kerro siitä aikaa varatessasi. Jos lemmikkisi nukutetaan muusta syystä, esimerkiksi hammashoitoa varten, voimme leikata kynnet samalla.
+
+### Usein kysyttyä
+
+Paljonko koiran tai kissan kynsien leikkaus maksaa? 20 €, jos pitelet lemmikkiäsi itse, 30 €, jos hoitaja pitelee sitä, ja 40 €, jos tarvitaan vähintään kaksi hoitajaa. Hinnat ovat kokonaishintoja.
+Kuinka usein koiran kynnet pitää leikata? Silloin, kun ne kopisevat kovalla lattialla tai koskettavat lattiaa koiran seistessä paikallaan. Monen koiran kynnet pitää leikata kerran tai kaksi kuukaudessa. Kävely kovalla alustalla auttaa kuluttamaan kynsiä, mutta se ei välttämättä riitä, eivätkä kannuskynnet kulu lainkaan.
+Mitä teen, jos leikkaan kynnen liian lyhyeksi? Paina kynttä tiukasti puhtaalla kankaalla viisi minuuttia nostamatta kangasta. Jos kynsi vuotaa yhä, jatka painamista ja soita meille tai aukioloaikojen ulkopuolella alueen eläinlääkäripäivystykseen.
+
+### Varaa aika
+
+Soita meille tai varaa aika verkosta.
+Soita (06) 321 7300
+Varaa verkossa
+Eläinlääkäri Vaasassa – tutustu klinikkaamme →
+Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
+
+### Aiheeseen liittyvät artikkelit
+
+Lemmikkien terveys
+
+#### Koiran tassut talvella – suola, lumipaakut ja pakkanen
+
+Tiesuola, lumipaakut ja pakkanen koettelevat koiran tassuja talvella. Tassujen nopea tarkistus jokaisen lenkin jälkee...
+Lemmikkien terveys
+
+#### Koiran ja kissan turkinhoito – milloin se on terveysasia ja milloin trimmaaja on oikea valinta
+
+Hyvin hoidettu turkki ei ole pelkkä ulkonäköasia. Koiralla ja kissalla turkki suojaa ihoa, ja kun turkki takkuuntuu,...
+Takaisin etusivulle
+
+---
+
+# Koiran ja kissan anaalirauhaset | Eläinklinikka Saari
+
+URL: https://elainklinikkasaari.fi/palvelut/anaalirauhaset/
+Last updated: 2026-11-22
+
+Takaisin etusivulle
+
+## Koiran ja kissan anaalirauhasvaivat
+
+### Mitä anaalirauhaset ovat?
+
+Koiralla ja kissalla on kaksi pientä pussia, anaalirauhaset eli perärauhaset, yksi kummallakin puolella peräaukkoa. Niissä on voimakashajuista nestettä, joka normaalisti puristuu ulos, kun eläin ulostaa. Jos neste ei poistu, pussit täyttyvät ja voivat tulehtua tai niihin voi muodostua paise. Tämä on yleistä koirilla ja paljon harvinaisempaa kissoilla.
+
+### Oireet
+
+Takapuolen laahaaminen lattiaa pitkin, hännänaluksen nuoleminen tai pureminen, kalamainen haju tai kipu istuutuessa tai ulostaessa. Laahaamisella voi olla myös muita syitä, kuten allergiasta johtuva ihon kutina, madot tai takapuoleen tarttunut lika.
+
+### Milloin soittaa?
+
+Soita meille saman päivän aikana, jos peräaukon vieressä on punainen, kipeä turvotus, verta tai märkää tai jos lemmikkisi on kivulias, vaisu tai ruokahaluton: nämä voivat olla merkkejä paiseesta. Aukioloaikojen ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Tutkituta jokainen peräaukon vieressä oleva kyhmy, vaikka se ei olisi kipeä. Älä purista anaalirauhasia tai turvotusta itse: väärin puristettuna ne voivat puhjeta.
+
+### Anaalirauhasten tyhjennys klinikalla
+
+Eläinhoitaja tyhjentää anaalirauhaset 15 minuutin vastaanotolla. Kokonaishinta on 21,97 €. Varaa aika verkossa kohdasta ”Hoitaja-ajat → Anaalirauhasten tyhjennys (eläinhoitaja)” tai soita meille numeroon (06) 321 7300. Jos rauhaset ovat tulehtuneet tai kipeät tai niitä ei saada tyhjennettyä, lemmikkisi tarvitsee eläinlääkärin. Joskus rauhaset pitää huuhdella rauhoituksessa.
+
+### Jos vaiva uusiutuu
+
+Joidenkin koirien anaalirauhaset pitää tyhjentää säännöllisesti. Yleisiä syitä ovat pehmeä uloste, ylipaino ja allergiasta johtuva ihon kutina. Kiinteä uloste ja sopiva paino auttavat rauhasia tyhjenemään, joten kysy meiltä ruokinnasta. Jos lemmikkisi rauhaset ovat kunnossa, niitä ei tarvitse tyhjentää: liian usein tai väärin tehty tyhjentäminen voi aiheuttaa ongelmia.
+
+### Varaa aika
+
+Soita meille tai varaa aika verkosta.
+Soita (06) 321 7300
+Varaa verkossa
+Eläinlääkäri Vaasassa – tutustu klinikkaamme →
+Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
+
+### Aiheeseen liittyvät artikkelit
+
+Terveys
+
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
+Lemmikkien terveys
+
+#### Ruoka-allergiat koirilla ja kissoilla – oireet, diagnoosi ja eliminaatiodieetti
+
+Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
 Takaisin etusivulle
 
 ---

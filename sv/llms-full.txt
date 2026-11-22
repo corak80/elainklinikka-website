@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 83 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 85 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -453,6 +453,7 @@ Mikrochipning i samband med annat besök 32,40 €
 Kloklippning, ägaren håller 20 €
 Kloklippning, skötare håller 30 €
 Kloklippning, två eller flera skötare håller 40 €
+Tömning av analsäckar (djurskötare) 21,97 €
 Kattpälsvård under sedering 123–163 €
 Eutanasi
 Katt 128 €
@@ -477,7 +478,7 @@ Boka online
 # Veterinärtjänster i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/
-Last updated: 2026-11-16
+Last updated: 2026-11-22
 
 ## Våra tjänster
 
@@ -525,6 +526,8 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 
 ### Friskvård och rehabilitering
 
+- Kloklippning – kloklippning hos en djurskötare från 20 €, kan bokas online.
+- Analsäckar – analsäckstömning hos en djurskötare för 21,97 € och när ett djur som släpar baken ska till veterinären.
 - Akupunktur – smärtlindring, muskuloskeletala besvär och neurologiska symtom.
 - Rehabilitering – rörelseanalys, massage, elektroterapi och postoperativ rehabilitering.
 - Foderförsäljning – vardagsfoder från Royal Canin i vår nätbutik med avhämtning på kliniken. Specialfoder säljs bara på kliniken.
@@ -3403,6 +3406,110 @@ Anestesi
 #### Anestesisäkerhet – statistik, risker och hur vi minimerar dem
 
 Anestesi är en nödvändig del av kirurgi, tandvård och många diagnostiska ingrepp. Många djurägare oroar sig inför den...
+Tillbaka till startsidan
+
+---
+
+# Kloklippning för hund och katt i Vasa | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/tjanster/kloklippning/
+Last updated: 2026-11-22
+
+Tillbaka till startsidan
+
+## Kloklippning för hund och katt
+
+### När är klorna för långa?
+
+Om du hör hundens klor klicka mot ett hårt golv, eller om de nuddar golvet när hunden står still, är de troligen för långa. Långa klor kan ändra hur hunden står och går, och de fastnar och spricker lättare. Sporrarna, klorna på insidan av benet, når inte marken och slits inte ner, så de kan kröka sig in i trampdynan. Äldre katters klor kan också bli tjocka och långa och kröka sig in i trampdynan, så kontrollera dem regelbundet. Om en klo redan har vuxit in i trampdynan ska du inte försöka dra ut den själv: ring oss.
+
+### Klippa klorna hemma
+
+Använd en vass klotång avsedd för djur och klipp bara av spetsen, lite i taget. Inne i klon finns pulpan, som innehåller blodkärl och nerver: klipper du i den gör det ont och blöder. I ljusa klor syns den rosa pulpan. I mörka klor klipper du av tunna skivor och slutar när en mörk prick syns mitt på snittytan. Vänj ditt djur vid att du tar i tassarna, med hjälp av godbitar och helst redan när det är ungt. Om en klo blöder trycker du en ren tygbit ordentligt mot den i fem minuter utan att lyfta på tygbiten för att titta. Om det fortfarande blöder efter det fortsätter du att trycka och ringer oss. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Kloklippning på kliniken
+
+En djurskötare klipper klorna under ett besök på 15 minuter. Boka online under ”Skötartider → Kloklippning djurskötare” eller ring oss på (06) 321 7300. Priserna är totalpriser: 20 € om du håller ditt djur själv, 30 € om en djurskötare håller det och 40 € om det behövs två eller flera djurskötare. Om kloklippning är mycket stressande för ditt djur, säg till när du bokar. Om ditt djur är nedsövt av någon annan orsak, till exempel för tandvård, kan vi klippa klorna samtidigt.
+
+### Vanliga frågor
+
+Vad kostar kloklippning? 20 € om du håller ditt djur, 30 € om en djurskötare håller det och 40 € om det behövs två eller flera djurskötare. Priserna är totalpriser.
+Hur ofta ska man klippa klorna på en hund? När de klickar mot ett hårt golv eller nuddar golvet när hunden står still. Många hundar behöver få klorna klippta en eller två gånger i månaden. Promenader på hårt underlag hjälper till att slita ner klorna men räcker kanske inte, och sporrarna slits inte ner alls.
+Vad gör jag om jag har klippt en klo för kort? Tryck en ren tygbit ordentligt mot klon i fem minuter utan att lyfta på tygbiten. Om det fortfarande blöder fortsätter du att trycka och ringer oss, eller den regionala veterinärjouren utanför öppettiderna.
+
+### Boka tid
+
+Ring oss eller boka tid online.
+Ring (06) 321 7300
+Boka online
+Veterinär i Vasa – läs mer om kliniken →
+Akut fall? Jourveterinär i Vasa →
+
+### Relaterade artiklar
+
+Husdjurshälsa
+
+#### Hundens tassar på vintern – salt, snöklumpar och kyla
+
+Vägsalt, snöklumpar och kyla tar hårt på hundens tassar på vintern. En snabb kontroll efter varje promenad förebygger...
+Husdjurshälsa
+
+#### Pälsvård hos hund och katt – när det är en hälsofråga och när en trimmare är rätt val
+
+En välskött päls handlar inte bara om utseendet. Hos hundar och katter skyddar pälsen huden, och när den tovar sig fa...
+Tillbaka till startsidan
+
+---
+
+# Analsäckar hos hund och katt i Vasa | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/tjanster/analsackar/
+Last updated: 2026-11-22
+
+Tillbaka till startsidan
+
+## Problem med analsäckarna hos hund och katt
+
+### Vad är analsäckar?
+
+Hundar och katter har två små analsäckar (ofta kallade analkörtlar), en på var sida om anus. De innehåller en starkt luktande vätska som normalt pressas ut när djuret bajsar. Om vätskan inte töms blir säckarna fulla och kan bli inflammerade eller bilda en böld. Det är vanligt hos hundar och mycket ovanligare hos katter.
+
+### Tecken
+
+Djuret släpar baken längs golvet, slickar eller biter sig under svansen, luktar fisk eller har ont när det sätter sig eller bajsar. Att djuret släpar baken kan också ha andra orsaker, till exempel klåda i huden på grund av allergi, inälvsmask eller smuts som har fastnat runt baken.
+
+### När ska du ringa?
+
+Ring oss samma dag om det finns en röd, smärtsam svullnad intill anus, blod eller var, eller om ditt djur har ont, är hängigt eller har tappat aptiten: det kan vara tecken på en böld. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Alla knölar intill anus ska undersökas, även om de inte gör ont. Kläm inte på analsäckarna eller på en svullnad själv: om du klämmer på fel sätt kan de spricka.
+
+### Tömning på kliniken
+
+En djurskötare tömmer analsäckarna under ett besök på 15 minuter för 21,97 € (totalpris). Boka online under ”Skötartider → Tömning av analsäckar (djurskötare)” eller ring oss på (06) 321 7300. Om analsäckarna är infekterade, gör ont eller inte går att tömma behöver ditt djur träffa en veterinär. Ibland behöver analsäckarna spolas under sedering.
+
+### Om problemet återkommer
+
+Vissa hundar behöver få analsäckarna tömda regelbundet. Vanliga orsaker är mjuk avföring, övervikt och klåda i huden på grund av allergi. Fast avföring och en hälsosam vikt hjälper analsäckarna att tömmas, så fråga oss om fodret. Om ditt djurs analsäckar är friska behöver de inte tömmas: att tömma dem för ofta eller på fel sätt kan orsaka problem.
+
+### Boka tid
+
+Ring oss eller boka tid online.
+Ring (06) 321 7300
+Boka online
+Veterinär i Vasa – läs mer om kliniken →
+Akut fall? Jourveterinär i Vasa →
+
+### Relaterade artiklar
+
+Hälsa
+
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
+Husdjurshälsa
+
+#### Födoämnesallergi hos hundar och katter – symtom, diagnos och eliminationsdiet
+
+Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
 Tillbaka till startsidan
 
 ---

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 83 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 85 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -453,6 +453,7 @@ Microchipping with another visit €32.40
 Nail trimming, owner holds €20
 Nail trimming, nurse holds €30
 Nail trimming, two or more nurses hold €40
+Anal gland emptying (nurse) €21.97
 Cat grooming under sedation €123–163
 Euthanasia
 Cat €128
@@ -477,7 +478,7 @@ Book online
 # Services | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/
-Last updated: 2026-11-16
+Last updated: 2026-11-22
 
 ## Our Services
 
@@ -525,6 +526,8 @@ Eläinklinikka Saari offers a comprehensive range of small-animal veterinary ser
 
 ### Wellness and Rehabilitation
 
+- Nail Trims — nail trims by a nurse from €20, bookable online.
+- Anal Glands — anal gland emptying by a nurse for €21.97, and when scooting needs a vet.
 - Acupuncture — pain relief, musculoskeletal conditions and neurological symptoms.
 - Rehabilitation — mobility analysis, massage, electrotherapy and post-surgical rehab.
 - Food and prescription diets – Royal Canin everyday food online, collected at the clinic. Prescription diets at the clinic only.
@@ -3413,6 +3416,110 @@ Anesthesia
 #### Anesthesia Safety — Statistics, Risks, and How We Minimize Them
 
 Anesthesia is an essential part of surgery, dentistry, and many diagnostic procedures. Many owners worry about it, an...
+Back to homepage
+
+---
+
+# Nail Trims for Dogs and Cats in Vaasa | Saari Animal Clinic
+
+URL: https://elainklinikkasaari.fi/en/services/nail-trims/
+Last updated: 2026-11-22
+
+Back to homepage
+
+## Nail trims for dogs and cats
+
+### When Are Nails Too Long?
+
+If you can hear your dog’s nails clicking on a hard floor, or if they touch the floor when your dog stands still, they are probably too long. Long nails can change how a dog stands and walks, and they catch and split more easily. Dewclaws, the nails on the inner side of the leg, do not touch the ground and do not wear down, so they can curl round into the pad. Older cats’ claws can grow thick and long and curl into the pad too, so check them regularly. If a nail or claw has already grown into the pad, don’t try to pull it out yourself: call us.
+
+### Trimming at Home
+
+Use sharp clippers made for pets and trim only the tip, a little at a time. Inside the nail is the quick, which contains blood vessels and nerves: cutting into it hurts and bleeds. In light nails you can see the pink quick; in dark nails, cut thin slices and stop when a dark spot appears in the middle of the cut end. Get your pet used to having its paws handled, with treats, ideally from a young age. If a nail bleeds, press a clean cloth firmly on it for five minutes without lifting it to look. If it is still bleeding after that, keep pressing and call us; outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### Nail Trims at the Clinic
+
+A nurse trims the nails in a 15-minute appointment. Book online — ‘Hoitaja-ajat → Kynsien leikkaus hoitaja’ — or call us on (06) 321 7300. The prices are total prices: €20 if you hold your pet yourself, €30 if a nurse holds it and €40 if two or more nurses are needed. If nail trims are very stressful for your pet, tell us when you book. If your pet is under anaesthesia for another reason, such as dental treatment, we can trim the nails at the same time.
+
+### Frequently Asked Questions
+
+How much does a nail trim cost? €20 if you hold your pet, €30 if a nurse holds it and €40 if two or more nurses are needed. These are total prices.
+How often should a dog’s nails be trimmed? When they click on a hard floor or touch the floor while your dog stands still. Many dogs need a trim once or twice a month. Walking on hard surfaces helps wear nails down but may not be enough, and dewclaws don’t wear down at all.
+What if I cut a nail too short? Press a clean cloth firmly on it for five minutes without lifting it. If it is still bleeding, keep pressing and call us, or the regional emergency vet outside opening hours.
+
+### Book an appointment
+
+Call us or book online.
+Call (06) 321 7300
+Book online
+Veterinarian in Vaasa — about our clinic →
+Emergency? Emergency vet in Vaasa →
+
+### Related articles
+
+Pet Health
+
+#### Dog Paws in Winter: Salt, Snowballs and Frost
+
+Road salt, snowballs and frost are tough on a dog’s paws in winter; a quick check after each walk prevents many probl...
+Pet Health
+
+#### Coat Care in Dogs and Cats — When It’s a Health Matter and When a Groomer Is the Right Choice
+
+A well-kept coat is not just about looks. In dogs and cats, the coat protects the skin, and when it mats, the skin un...
+Back to homepage
+
+---
+
+# Anal Gland Problems in Dogs and Cats | Saari Animal Clinic
+
+URL: https://elainklinikkasaari.fi/en/services/anal-glands/
+Last updated: 2026-11-22
+
+Back to homepage
+
+## Anal gland problems in dogs and cats
+
+### What Are Anal Glands?
+
+Dogs and cats have two small sacs, the anal glands, one on each side of the anus. They hold a strong-smelling fluid that is normally squeezed out when the animal passes stool. If the fluid does not empty, the sacs fill up and can become inflamed or form an abscess. This is common in dogs and much rarer in cats.
+
+### Signs
+
+Scooting the bottom along the floor, licking or biting under the tail, a fishy smell, or pain when sitting down or passing stool. Scooting can also have other causes, such as itchy skin from an allergy, worms or dirt stuck around the bottom.
+
+### When to Call
+
+Call us the same day if there is a red, painful swelling next to the anus, blood or pus, or if your pet is in pain, dull or off its food: these can be signs of an abscess. Outside opening hours, call the regional emergency vet on 0600 399 299. Have any lump next to the anus checked, even if it does not hurt. Don’t squeeze the glands or a swelling yourself: squeezing them the wrong way can make them burst.
+
+### Emptying at the Clinic
+
+A nurse empties the glands in a 15-minute appointment for €21.97 (total price). Book online — ‘Hoitaja-ajat → Anaalirauhasten tyhjennys (eläinhoitaja)’ — or call us on (06) 321 7300. If the glands are infected, painful or can’t be emptied, your pet needs to see a vet; sometimes the glands need to be flushed under sedation.
+
+### If It Keeps Coming Back
+
+Some dogs need their glands emptied regularly. Common reasons are soft stools, being overweight and itchy skin from an allergy. Firm stools and a healthy weight help the glands empty, so ask us about diet. If your pet’s glands are fine, there is no need to have them emptied: emptying them too often or the wrong way can cause problems.
+
+### Book an appointment
+
+Call us or book online.
+Call (06) 321 7300
+Book online
+Veterinarian in Vaasa — about our clinic →
+Emergency? Emergency vet in Vaasa →
+
+### Related articles
+
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+Pet Health
+
+#### Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet
+
+Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
 Back to homepage
 
 ---
