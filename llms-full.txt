@@ -2568,7 +2568,7 @@ Takaisin etusivulle
 # Koiran ja kissan sterilointi Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/sterilisaatio/
-Last updated: 2026-11-20
+Last updated: 2026-11-22
 
 Takaisin etusivulle
 
@@ -2594,7 +2594,7 @@ Sterilointi ehkäisee hengenvaarallisen kohtutulehduksen (pyometran) ja pienent�
 
 ### Narttukoiran sterilointi
 
-Pienillä ja keskikokoisilla roduilla narttukoiran sterilointi voidaan tehdä noin 6–12 kuukauden iässä. Suurilla ja jättiroduilla suosittelemme odottamista 12–18 kuukauden ikään, jotta luuston kasvu on valmis. Aikuinen narttu steriloidaan juoksuaikojen välissä, noin 2–3 kuukautta edellisestä juoksusta, jolloin kohdun verekkyys on pienimmillään. Steriloinnin jälkeen aineenvaihdunta hidastuu ja koira lihoo herkemmin – ruokamäärää kannattaa vähentää noin 10–20 %. Harvinaisena haittana etenkin isoilla roduilla voi esiintyä virtsankarkailua, joka on hoidettavissa lääkityksellä. Koiran luonne ja opittu käytös eivät steriloinnista muutu.
+Pienillä ja keskikokoisilla roduilla narttukoiran sterilointi voidaan tehdä noin 6–12 kuukauden iässä. Suurilla ja jättiroduilla suosittelemme odottamista 12–18 kuukauden ikään, jotta luuston kasvu on valmis. Aikuinen narttu steriloidaan juoksuaikojen välissä, noin 3 kuukautta edellisestä juoksusta, jolloin kohdun verekkyys on pienimmillään. Steriloinnin jälkeen aineenvaihdunta hidastuu ja koira lihoo herkemmin – ruokamäärää kannattaa vähentää noin 10–20 %. Harvinaisena haittana etenkin isoilla roduilla voi esiintyä virtsankarkailua, joka on hoidettavissa lääkityksellä. Koiran luonne ja opittu käytös eivät steriloinnista muutu.
 
 ### Kissan sterilisaatio – naaraskissan sterilointi
 
@@ -2616,7 +2616,7 @@ Steriloinnin jälkeen lemmikki tarvitsee lepoa noin 10–14 päivää: ei hyppim
 
 Paljonko narttukoiran sterilointi maksaa? Narttukoiran sterilointi maksaa Eläinklinikka Saarella koiran painon mukaan 483–753 €: alle 5 kg 483–503 €, 5–20 kg 503–603 €, 20–40 kg 603–703 €, yli 40 kg 703–753 €. Hinta sisältää anestesian, leikkauksen, lääkkeet, kotiin annettavan kipulääkityksen, haalarin tai kaulurin ja ompeleiden poiston.
 Paljonko naaraskissan sterilointi maksaa? Naaraskissan sterilointi maksaa 208 €. Hinta sisältää anestesian, leikkauksen, lääkkeet, kotiin annettavat kipulääkkeet ja kaulurin. Naaraskanin sterilointi maksaa 363 €.
-Missä iässä sterilointi kannattaa tehdä? Naaraskissa steriloidaan yleensä 5–6 kuukauden iässä, mielellään ennen ensimmäistä kiimaa. Pienten ja keskikokoisten rotujen narttukoirat 6–12 kuukauden iässä, suurten rotujen 12–18 kuukauden iässä luuston kasvun valmistuttua. Aikuinen narttu steriloidaan juoksuaikojen välissä, noin 2–3 kuukautta edellisestä juoksusta. Naaraskanit 6–12 kuukauden iässä.
+Missä iässä sterilointi kannattaa tehdä? Naaraskissa steriloidaan yleensä 5–6 kuukauden iässä, mielellään ennen ensimmäistä kiimaa. Pienten ja keskikokoisten rotujen narttukoirat 6–12 kuukauden iässä, suurten rotujen 12–18 kuukauden iässä luuston kasvun valmistuttua. Aikuinen narttu steriloidaan juoksuaikojen välissä, noin 3 kuukautta edellisestä juoksusta. Naaraskanit 6–12 kuukauden iässä.
 Kuinka pitkä on toipumisaika steriloinnista? Lemmikki tarvitsee lepoa noin 10–14 päivää, ja haavaa suojataan haalarilla tai kaulurilla. Ompeleet poistetaan noin 10 päivän kuluttua. Kissat ovat yleensä pirteitä jo seuraavana päivänä, koirat palaavat normaaliin arkeen noin viikossa.
 Teettekö sterilisaation tähystyksellä? Emme. Eläinklinikka Saarella sterilointi tehdään avoleikkauksena pienestä viillosta vatsan keskilinjaan, aina kattavalla kivunlievityksellä. Kissalla viilto on vain 1–2 cm. Tähystyssterilisaatiota (laparoskopiaa) emme tee.
 Muuttuuko koira steriloinnin jälkeen? Koiran luonne ja opittu käytös eivät muutu. Juoksuajat, valeraskaudet ja kiimakäyttäytyminen loppuvat. Aineenvaihdunta hidastuu, joten ruokamäärää kannattaa vähentää noin 10–20 % lihomisen estämiseksi. Harvinaisena haittana etenkin isoilla roduilla voi esiintyä virtsankarkailua, joka on hoidettavissa lääkityksellä.

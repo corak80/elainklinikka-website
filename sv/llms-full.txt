@@ -2358,7 +2358,7 @@ Tillbaka till startsidan
 # Sterilisering av hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/sterilisering/
-Last updated: 2026-09-20
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 
@@ -2384,7 +2384,7 @@ Sterilisering förebygger den livshotande livmoderinflammationen (pyometra) och 
 
 ### Sterilisering av tik
 
-Hos små och medelstora raser kan tiken steriliseras vid cirka 6–12 månaders ålder. Hos stora raser och jätteraser rekommenderar vi att vänta till 12–18 månaders ålder så att skelettet hunnit växa färdigt. En vuxen tik steriliseras mellan löpen, cirka 2–3 månader efter senaste löp, då livmoderns blodförsörjning är som minst. Efter steriliseringen blir ämnesomsättningen långsammare och hunden går lättare upp i vikt – minska fodermängden med cirka 10–20 %. En sällsynt biverkning, särskilt hos stora raser, är urinläckage som kan behandlas med medicin. Hundens personlighet och inlärda beteende förändras inte.
+Hos små och medelstora raser kan tiken steriliseras vid cirka 6–12 månaders ålder. Hos stora raser och jätteraser rekommenderar vi att vänta till 12–18 månaders ålder så att skelettet hunnit växa färdigt. En vuxen tik steriliseras mellan löpen, cirka 3 månader efter senaste löp, då livmoderns blodförsörjning är som minst. Efter steriliseringen blir ämnesomsättningen långsammare och hunden går lättare upp i vikt – minska fodermängden med cirka 10–20 %. En sällsynt biverkning, särskilt hos stora raser, är urinläckage som kan behandlas med medicin. Hundens personlighet och inlärda beteende förändras inte.
 
 ### Sterilisering av honkatt
 
@@ -2406,7 +2406,7 @@ Efter steriliseringen behöver husdjuret vila i cirka 10–14 dagar: inget hoppa
 
 Vad kostar sterilisering av tik? Sterilisering av tik kostar på Djurklinik Saari 483–753 € beroende på vikt: under 5 kg 483–503 €, 5–20 kg 503–603 €, 20–40 kg 603–703 €, över 40 kg 703–753 €. Priset inkluderar anestesi, operationen, läkemedel, smärtstillande för hemmet, skyddsdräkt eller krage och borttagning av stygn.
 Vad kostar sterilisering av honkatt? Sterilisering av honkatt kostar 208 €. Priset inkluderar anestesi, operationen, läkemedel, smärtstillande för hemmet och krage. Sterilisering av honkanin kostar 363 €.
-Vid vilken ålder bör steriliseringen göras? Honkatter steriliseras vanligen vid 5–6 månaders ålder, helst före första löpet. Tikar av små och medelstora raser vid 6–12 månaders ålder, stora raser vid 12–18 månader när skelettet växt färdigt. En vuxen tik steriliseras mellan löpen, cirka 2–3 månader efter senaste löp. Honkaniner vid 6–12 månaders ålder.
+Vid vilken ålder bör steriliseringen göras? Honkatter steriliseras vanligen vid 5–6 månaders ålder, helst före första löpet. Tikar av små och medelstora raser vid 6–12 månaders ålder, stora raser vid 12–18 månader när skelettet växt färdigt. En vuxen tik steriliseras mellan löpen, cirka 3 månader efter senaste löp. Honkaniner vid 6–12 månaders ålder.
 Hur lång är återhämtningstiden efter sterilisering? Husdjuret behöver vila i cirka 10–14 dagar och såret skyddas med skyddsdräkt eller krage. Stygnen tas bort efter cirka 10 dagar. Katter är vanligen pigga redan nästa dag, hundar återgår till normal vardag inom ungefär en vecka.
 Gör ni titthålssterilisering? Nej. På Djurklinik Saari görs sterilisering som öppen operation genom ett litet snitt i bukens medellinje (hos katter bara 1–2 cm), med omfattande smärtlindring. Titthålssterilisering (laparoskopi) utför vi inte.
 Förändras hunden efter sterilisering? Hundens personlighet och inlärda beteende förändras inte. Löp, skendräktigheter och löpbeteende upphör. Ämnesomsättningen blir långsammare, så fodermängden bör minskas med cirka 10–20 % för att undvika viktuppgång. En sällsynt biverkning, särskilt hos stora raser, är urinläckage som kan behandlas med medicin.
