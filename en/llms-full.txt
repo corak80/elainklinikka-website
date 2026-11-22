@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 86 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 87 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3781,6 +3781,12 @@ Health
 ### Vomiting in Dogs and Cats — When to Call and What to Do at Home
 
 An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can also be a sign of poisoning, a swallowed object or serious illness.
+Health
+22.11.2026
+
+### False Pregnancy in Dogs — Signs, Home Care and When to Call
+
+False pregnancy is common in unspayed bitches. After a heat, a bitch’s hormones change as they would in a real pregnancy, whether or not she was mated. In some bitches this brings on signs, usually six to eight weeks after the heat. It is a natural hormonal state, not an illness, and the signs usually pass by themselves within one to three weeks.
 Pet Health
 21.11.2026
 
@@ -6401,6 +6407,67 @@ Back to homepage
 
 ---
 
+# False Pregnancy in Dogs: Signs, How Long It Lasts, Care
+
+URL: https://elainklinikkasaari.fi/en/articles/false-pregnancy.html
+Last updated: 2026-11-22
+
+Health
+22.11.2026
+
+## False Pregnancy in Dogs — Signs, Home Care and When to Call
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+False pregnancy is common in unspayed bitches. After a heat, a bitch’s hormones change as they would in a real pregnancy, whether or not she was mated. In some bitches this brings on signs, usually six to eight weeks after the heat. It is a natural hormonal state, not an illness, and the signs usually pass by themselves within one to three weeks.
+
+### Signs
+
+Nesting, carrying toys around and guarding them like puppies, restlessness, whining, being less active, eating a little less, and swollen teats that may leak milk or a watery fluid. Some bitches become clingy; others become irritable and may growl or snap near their “puppies” — keep children away. If there is any chance she was mated, she may really be pregnant: book a pregnancy scan soon — it tells the two apart.
+
+### What Helps at Home
+
+Keep her busy with walks and play, and while she is out on a walk, put away the toys she mothers. Don’t rub, squeeze or milk the teats: it makes them produce more milk. If she licks them, a soft body suit or a cone can stop it. Don’t limit her water unless a vet tells you to. Most bitches need nothing more.
+
+### When to Call
+
+Call at once if, in the weeks or months after her heat, she drinks a lot, vomits, is listless, refuses food or has a discharge from the vulva: this can be pyometra, a dangerous infection of the womb. A discharge isn’t always seen, so if she seems ill, don’t assume it is just a false pregnancy. If the area around a teat is hot, red, painful or clearly harder than the rest, or the milk looks bloody or like pus, she may have an infected mammary gland (mastitis): call us the same day, and at once if that area turns dark or she has a fever or seems very unwell. Outside opening hours, call the regional emergency vet on 0600 399 299. Book a visit if the signs last more than about three weeks or are hard for her or you to live with: a vet can give medicine that usually dries up the milk and settles the signs.
+
+### Will It Happen Again?
+
+A bitch who has had one false pregnancy often has another after later heats. Spaying is the only lasting way to prevent them. We spay about three months after her heat has ended, and only once the false pregnancy is completely over: spaying too soon can start a false pregnancy or keep one going, sometimes for months. We go through the benefits and drawbacks of spaying with you.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- MSD Veterinary Manual. Pseudopregnancy in Small Animals. msdvetmanual.com/pseudopregnancy-in-small-animals
+- MSD Veterinary Manual. Mastitis in Small Animals. msdvetmanual.com/mastitis-in-small-animals
+- MSD Veterinary Manual. Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals. msdvetmanual.com/cystic-endometrial-hyperplasia-pyometra-
+- MSD Veterinary Manual (owner version). Reproductive Disorders of Female Dogs. msdvetmanual.com/reproductive-disorders-of-female-dogs
+- PDSA. Phantom pregnancy in dogs. pdsa.org.uk
+- Gobello C, de la Sota RL, Goya RG. A review of canine pseudocyesis. Reprod Domest Anim 2001;36(6):283–288. pubmed.ncbi.nlm.nih.gov/11928922
+- Gobello C. Revisiting canine pseudocyesis. Theriogenology 2021;167:94–98. pubmed.ncbi.nlm.nih.gov/33799011
+- Root AL, Parkin TD, Hutchison P, Warnes C, Yam PS. Canine pseudopregnancy: an evaluation of prevalence and current treatment protocols in the UK. BMC Vet Res 2018;14:170. pmc.ncbi.nlm.nih.gov/PMC5968611
+- Moxon R, England GCW. Retrospective study examining complications and iatrogenic pseudopregnancy in bitches neutered in different stages of the oestrous cycle: identification of an ‘early neutering window’ in bitches. Front Vet Sci 2026;13:1774042. pmc.ncbi.nlm.nih.gov/PMC12909199
+- Jitpean S, Ström-Holst B, Emanuelson U, et al. Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Vet Res 2014;10:6. pmc.ncbi.nlm.nih.gov/PMC3892096
+- Sykes JE, Westropp JL. Bacterial infections of the genitourinary tract. In: Canine and Feline Infectious Diseases. Elsevier 2014:871–885. pmc.ncbi.nlm.nih.gov/PMC7151908
+- Lezama-García K, Mariti C, Mota-Rojas D, et al. Maternal behaviour in domestic dogs. Int J Vet Sci Med 2019;7(1):20–30. pmc.ncbi.nlm.nih.gov/PMC6776987
+- Romagnoli S. An update on pseudopregnancy. WSAVA World Congress Proceedings 2009. vin.com
+Related services: Sterilization
+
+### Read also
+
+Emergency
+
+#### Pyometra in dogs — symptoms, how fast it progresses, treatment and recovery
+
+Pyometra is a life-threatening infection in which the uterus of an unspayed female fills with pus. It is one of the m...
+Back to homepage
+
+---
+
 # Pyometra in Dogs – Symptoms, Surgery, Cost and Recovery
 
 URL: https://elainklinikkasaari.fi/en/articles/pyometra.html
@@ -6476,11 +6543,11 @@ Related services: Soft Tissue Surgery · Sterilization
 
 ### Read also
 
-Emergency
+Health
 
-#### Adder Bite — Finland's Only Venomous Snake Bite in Pets
+#### False Pregnancy in Dogs — Signs, Home Care and When to Call
 
-The European adder (Vipera berus) is Finland’s only venomous snake and lives across almost the whole country, includi...
+False pregnancy is common in unspayed bitches. After a heat, a bitch’s hormones change as they would in a real pregna...
 Anesthesia
 
 #### Anesthesia Safety — Statistics, Risks, and How We Minimize Them

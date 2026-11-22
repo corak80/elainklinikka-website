@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 86 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 87 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3771,6 +3771,12 @@ Hälsa
 ### Kräkningar hos hund och katt – vård hemma och när du ska ringa
 
 En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar kan också vara ett tecken på förgiftning, ett nedsvalt föremål eller allvarlig sjukdom.
+Hälsa
+22.11.2026
+
+### Skendräktighet hos hund – tecken, vård hemma och när du ska ringa
+
+Skendräktighet är vanlig hos osteriliserade tikar. Efter ett löp förändras tikens hormoner på samma sätt som vid en riktig dräktighet, oavsett om hon har parats eller inte. Hos en del tikar märks det, vanligen sex till åtta veckor efter löpet. Det är ett naturligt hormonellt tillstånd, ingen sjukdom, och tecknen går oftast över av sig själva inom en till tre veckor.
 Husdjurshälsa
 21.11.2026
 
@@ -6391,6 +6397,67 @@ Tillbaka till startsidan
 
 ---
 
+# Skendräktighet hos hund – tecken, förlopp och vård hemma
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/skendraktighet.html
+Last updated: 2026-11-22
+
+Hälsa
+22.11.2026
+
+## Skendräktighet hos hund – tecken, vård hemma och när du ska ringa
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Skendräktighet är vanlig hos osteriliserade tikar. Efter ett löp förändras tikens hormoner på samma sätt som vid en riktig dräktighet, oavsett om hon har parats eller inte. Hos en del tikar märks det, vanligen sex till åtta veckor efter löpet. Det är ett naturligt hormonellt tillstånd, ingen sjukdom, och tecknen går oftast över av sig själva inom en till tre veckor.
+
+### Tecken på skendräktighet
+
+Tiken kan bygga bo, bära omkring på leksaker och vakta dem som sina valpar, vara rastlös, pipa, vara mindre aktiv och äta lite mindre. Spenarna kan svullna och läcka mjölk eller en vattnig vätska. En del tikar blir klängiga, andra blir lättretliga och kan morra eller glefsa när någon kommer nära deras ”valpar” – håll barn på avstånd. Om det finns någon möjlighet att hon har parats kan hon verkligen vara dräktig: boka en dräktighetsundersökning snart – den visar vilket det är.
+
+### Det här hjälper hemma
+
+Håll henne sysselsatt med promenader och lek. Medan hon är ute på promenad plockar du undan leksakerna hon pysslar om. Du ska inte gnida, klämma eller mjölka spenarna: då bildas det mer mjölk. Om hon slickar dem kan en mjuk skyddsdräkt eller en krage hindra det. Begränsa inte hur mycket hon dricker om inte en veterinär säger åt dig att göra det. De flesta tikar behöver inget mer än så.
+
+### När ska du ringa?
+
+Ring genast om hon under veckorna eller månaderna efter löpet dricker mycket, kräks, är slö, vägrar äta eller har flytning från vulvan: det kan vara livmoderinflammation (pyometra), en farlig infektion i livmodern. Flytning syns inte alltid, så om hon verkar sjuk ska du inte utgå från att det bara är skendräktighet. Om området runt en spene är varmt, rött, ömt eller tydligt hårdare än resten av juvret, eller om mjölken ser blodig eller varig ut, kan hon ha juverinflammation (mastit), en infektion i mjölkkörteln: ring oss samma dag, och genast om området blir mörkt, om hon har feber eller om hon verkar må mycket dåligt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Boka tid om tecknen varar längre än ungefär tre veckor eller är svåra för henne eller dig att leva med: veterinären kan ge medicin som oftast får mjölken att sina och tecknen att lägga sig.
+
+### Blir hon skendräktig igen?
+
+En tik som har varit skendräktig en gång blir ofta skendräktig igen efter senare löp. Sterilisering är det enda sättet att förebygga skendräktighet varaktigt. Vi steriliserar henne cirka tre månader efter att senaste löpet tagit slut, och först när skendräktigheten är helt över: en för tidig sterilisering kan utlösa en skendräktighet eller få en pågående att fortsätta, ibland i månader. Vi går igenom steriliseringens fördelar och nackdelar tillsammans med dig.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- MSD Veterinary Manual. Pseudopregnancy in Small Animals. msdvetmanual.com/pseudopregnancy-in-small-animals
+- MSD Veterinary Manual. Mastitis in Small Animals. msdvetmanual.com/mastitis-in-small-animals
+- MSD Veterinary Manual. Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals. msdvetmanual.com/cystic-endometrial-hyperplasia-pyometra-
+- MSD Veterinary Manual (owner version). Reproductive Disorders of Female Dogs. msdvetmanual.com/reproductive-disorders-of-female-dogs
+- PDSA. Phantom pregnancy in dogs. pdsa.org.uk
+- Gobello C, de la Sota RL, Goya RG. A review of canine pseudocyesis. Reprod Domest Anim 2001;36(6):283–288. pubmed.ncbi.nlm.nih.gov/11928922
+- Gobello C. Revisiting canine pseudocyesis. Theriogenology 2021;167:94–98. pubmed.ncbi.nlm.nih.gov/33799011
+- Root AL, Parkin TD, Hutchison P, Warnes C, Yam PS. Canine pseudopregnancy: an evaluation of prevalence and current treatment protocols in the UK. BMC Vet Res 2018;14:170. pmc.ncbi.nlm.nih.gov/PMC5968611
+- Moxon R, England GCW. Retrospective study examining complications and iatrogenic pseudopregnancy in bitches neutered in different stages of the oestrous cycle: identification of an ‘early neutering window’ in bitches. Front Vet Sci 2026;13:1774042. pmc.ncbi.nlm.nih.gov/PMC12909199
+- Jitpean S, Ström-Holst B, Emanuelson U, et al. Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Vet Res 2014;10:6. pmc.ncbi.nlm.nih.gov/PMC3892096
+- Sykes JE, Westropp JL. Bacterial infections of the genitourinary tract. In: Canine and Feline Infectious Diseases. Elsevier 2014:871–885. pmc.ncbi.nlm.nih.gov/PMC7151908
+- Lezama-García K, Mariti C, Mota-Rojas D, et al. Maternal behaviour in domestic dogs. Int J Vet Sci Med 2019;7(1):20–30. pmc.ncbi.nlm.nih.gov/PMC6776987
+- Romagnoli S. An update on pseudopregnancy. WSAVA World Congress Proceedings 2009. vin.com
+Relaterade tjänster: Sterilisering
+
+### Läs också
+
+Akutvård
+
+#### Livmoderinflammation (pyometra) hos hund – symtom, förlopp, behandling och återhämtning
+
+Livmoderinflammation (pyometra) är en livshotande infektion där livmodern hos en osteriliserad hona fylls med var. De...
+Tillbaka till startsidan
+
+---
+
 # Livmoderinflammation hos hund – symtom, operation och pris
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/livmoderinflammation.html
@@ -6466,11 +6533,11 @@ Relaterade tjänster: Mjukdelskirurgi · Sterilisering
 
 ### Läs också
 
-Akutvård
+Hälsa
 
-#### Huggormsbett – bett av Finlands enda giftiga orm
+#### Skendräktighet hos hund – tecken, vård hemma och när du ska ringa
 
-Huggormen (Vipera berus) är Finlands enda giftiga orm och finns i nästan hela landet, också i Österbotten. Bett sker...
+Skendräktighet är vanlig hos osteriliserade tikar. Efter ett löp förändras tikens hormoner på samma sätt som vid en r...
 Anestesi
 
 #### Anestesisäkerhet – statistik, risker och hur vi minimerar dem

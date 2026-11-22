@@ -1535,6 +1535,39 @@ const articles = [
     }
   },
   {
+    slug: 'valeraskaus',
+    slugSv: 'skendraktighet',
+    slugEn: 'false-pregnancy',
+    titleKey: 'article.falsepreg.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '22.11.2026',
+    publishDate: '2026-11-22',
+    sections: ['intro', 'signs.title', 'signs.text', 'home.title', 'home.text', 'warning.title', 'warning.text', 'spay.title', 'spay.text', 'contact.title', 'contact.text'],
+    prefix: 'article.falsepreg',
+    sources: [
+      { text: 'MSD Veterinary Manual. Pseudopregnancy in Small Animals.', url: 'https://www.msdvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/pseudopregnancy-in-small-animals', label: 'msdvetmanual.com' },
+      { text: 'MSD Veterinary Manual. Mastitis in Small Animals.', url: 'https://www.msdvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/mastitis-in-small-animals', label: 'msdvetmanual.com' },
+      { text: 'MSD Veterinary Manual. Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals.', url: 'https://www.msdvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal/cystic-endometrial-hyperplasia-pyometra-complex-in-small-animals', label: 'msdvetmanual.com' },
+      { text: 'MSD Veterinary Manual (owner version). Reproductive Disorders of Female Dogs.', url: 'https://www.msdvetmanual.com/dog-owners/reproductive-disorders-of-dogs/reproductive-disorders-of-female-dogs', label: 'msdvetmanual.com' },
+      { text: 'PDSA. Phantom pregnancy in dogs.', url: 'https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/phantom-pregnancy-in-dogs', label: 'pdsa.org.uk' },
+      { text: 'Gobello C, de la Sota RL, Goya RG. A review of canine pseudocyesis. Reprod Domest Anim 2001;36(6):283–288.', url: 'https://pubmed.ncbi.nlm.nih.gov/11928922/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Gobello C. Revisiting canine pseudocyesis. Theriogenology 2021;167:94–98.', url: 'https://pubmed.ncbi.nlm.nih.gov/33799011/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Root AL, Parkin TD, Hutchison P, Warnes C, Yam PS. Canine pseudopregnancy: an evaluation of prevalence and current treatment protocols in the UK. BMC Vet Res 2018;14:170.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5968611/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Moxon R, England GCW. Retrospective study examining complications and iatrogenic pseudopregnancy in bitches neutered in different stages of the oestrous cycle: identification of an ‘early neutering window’ in bitches. Front Vet Sci 2026;13:1774042.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12909199/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Jitpean S, Ström-Holst B, Emanuelson U, et al. Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Vet Res 2014;10:6.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3892096/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Sykes JE, Westropp JL. Bacterial infections of the genitourinary tract. In: Canine and Feline Infectious Diseases. Elsevier 2014:871–885.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7151908/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Lezama-García K, Mariti C, Mota-Rojas D, et al. Maternal behaviour in domestic dogs. Int J Vet Sci Med 2019;7(1):20–30.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6776987/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Romagnoli S. An update on pseudopregnancy. WSAVA World Congress Proceedings 2009.', url: 'https://www.vin.com/doc/?id=4252731', label: 'vin.com' }
+    ],
+    metaDesc: {
+      fi: "Koiran valeraskaus: oireet, kuten pesänteko ja maidoneritys, kesto ja kotihoito sekä milloin soittaa nisätulehduksen tai kohtutulehduksen vuoksi.",
+      sv: "Skendräktighet hos hund: tecken som bobygge och mjölk, hur länge den varar, vad som hjälper hemma och när du ska ringa om juverinflammation eller pyometra.",
+      en: "False pregnancy in dogs: signs such as nesting and milk, how long it lasts, what helps at home, and when to call the vet about mastitis or pyometra."
+    },
+    seoTitle: { fi: "Koiran valeraskaus – oireet, kesto ja hoito kotona", sv: "Skendräktighet hos hund – tecken, förlopp och vård hemma", en: "False Pregnancy in Dogs: Signs, How Long It Lasts, Care" }
+  },
+  {
     slug: 'kohtutulehdus',
     slugSv: 'livmoderinflammation',
     slugEn: 'pyometra',
@@ -2068,7 +2101,8 @@ const relatedArticles = {
   'koiran-ja-kissan-turkinhoito': ['koiran-korvatulehdus', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
   'kyynpurema': ['myrkytys', 'kohtutulehdus', 'koira-ontuu'],
   'myrkytys': ['koira-soi-suklaata', 'ksylitolimyrkytys', 'viinirypaleet-ja-rusinat-koiralle', 'kissalle-myrkylliset-kasvit'],
-  'kohtutulehdus': ['kyynpurema', 'anestesiaturvallisuus', 'rokotukset'],
+  'kohtutulehdus': ['valeraskaus', 'anestesiaturvallisuus', 'rokotukset'],
+  'valeraskaus': ['kohtutulehdus'],
   'siili': ['kissaystävällinen-klinikka', 'yksityinen-klinikka'],
   'kissaystävällinen-klinikka': ['hammasresorptio', 'kilpirauhasen-liikatoiminta', 'rokotukset'],
   'puhkeamattomat-hampaat': ['hammasresorptio', 'hampaiden-harjaus', 'periovive'],
@@ -2112,6 +2146,7 @@ const articleToServices = {
   'kyynpurema': ['sisataudit'],
   'myrkytys': ['sisataudit'],
   'kohtutulehdus': ['kirurgia', 'sterilisaatio'],
+  'valeraskaus': ['sterilisaatio'],
   'lateral-suture': ['ortopedia', 'kirurgia'],
   'puhkeamattomat-hampaat': ['hammashoito'],
   'gastroskopia': ['tahystykset', 'sisataudit'],

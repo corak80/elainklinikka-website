@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 92 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 93 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4110,6 +4110,12 @@ Terveys
 ### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
 
 Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa. Oksentelu voi myös olla merkki myrkytyksestä, nielaistusta vierasesineestä tai vakavasta sairaudesta.
+Terveys
+22.11.2026
+
+### Koiran valeraskaus – oireet, kotihoito ja milloin soittaa
+
+Valeraskaus on yleinen steriloimattomilla nartuilla. Juoksun jälkeen hormonitasot muuttuvat samoin kuin oikeassa tiineydessä, oli narttu astutettu tai ei. Osalla nartuista tämä aiheuttaa oireita, yleensä 6–8 viikon kuluttua juoksusta. Kyse on luonnollisesta hormonaalisesta tilasta eikä sairaudesta, ja oireet menevät yleensä ohi itsestään 1–3 viikon kuluessa.
 Lemmikkien terveys
 21.11.2026
 
@@ -6730,6 +6736,67 @@ Takaisin etusivulle
 
 ---
 
+# Koiran valeraskaus – oireet, kesto ja hoito kotona
+
+URL: https://elainklinikkasaari.fi/articles/valeraskaus.html
+Last updated: 2026-11-22
+
+Terveys
+22.11.2026
+
+## Koiran valeraskaus – oireet, kotihoito ja milloin soittaa
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Valeraskaus on yleinen steriloimattomilla nartuilla. Juoksun jälkeen hormonitasot muuttuvat samoin kuin oikeassa tiineydessä, oli narttu astutettu tai ei. Osalla nartuista tämä aiheuttaa oireita, yleensä 6–8 viikon kuluttua juoksusta. Kyse on luonnollisesta hormonaalisesta tilasta eikä sairaudesta, ja oireet menevät yleensä ohi itsestään 1–3 viikon kuluessa.
+
+### Valeraskauden oireet
+
+Narttu voi tehdä pesää, kanniskella leluja ja vahtia niitä kuin pentujaan. Se voi olla levoton, vinkua, olla tavallista passiivisempi ja syödä hieman vähemmän. Sen nisät voivat turvota, ja niistä voi tihkua maitoa tai vetistä nestettä. Jotkut nartut muuttuvat takertuviksi, toiset taas ärtyisiksi ja voivat murista tai näykkäistä ”pentujensa” lähellä – pidä lapset loitolla. Jos on pienikin mahdollisuus, että narttu on astutettu, se voi todella olla tiineenä: varaa pian aika tiineysultraan – se kertoo, kummasta on kyse.
+
+### Mikä auttaa kotona
+
+Pidä narttu touhussa ulkoilemalla ja leikkimällä sen kanssa. Kerää sen hoivaamat lelut pois sillä aikaa, kun se on lenkillä. Älä hiero, purista tai lypsä nisiä: se lisää maidontuotantoa. Jos narttu nuolee nisiään, pehmeä suojahaalari tai kauluri voi estää sen. Älä rajoita nartun juomista, ellei eläinlääkäri niin neuvo. Useimmat nartut eivät tarvitse muuta.
+
+### Milloin soittaa
+
+Soita heti, jos narttu viikkoja tai kuukausia juoksun jälkeen juo paljon, oksentaa, on vetämätön, ei suostu syömään tai sen häpystä tulee vuotoa: kyse voi olla vaarallisesta kohtutulehduksesta (pyometrasta). Vuotoa ei aina näy, joten jos narttu vaikuttaa sairaalta, älä oleta, että kyse on vain valeraskaudesta. Jos jonkin nisän ympäristö on kuuma, punoittava, kipeä tai selvästi muita kohtia kovempi tai jos maito näyttää veriseltä tai märkäiseltä, nartulla voi olla nisätulehdus (maitorauhasen tulehdus): soita meille saman päivän aikana. Soita heti, jos alue tummuu, nartulla on kuumetta tai se vaikuttaa hyvin huonovointiselta. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Varaa aika, jos oireet kestävät kauemmin kuin noin kolme viikkoa tai tekevät arjesta hankalaa nartulle tai sinulle: eläinlääkäri voi antaa lääkettä, joka yleensä saa maidon ehtymään ja oireet laantumaan.
+
+### Uusiutuuko valeraskaus?
+
+Jos nartulla on kerran ollut valeraskaus, se toistuu usein myöhempien juoksujen jälkeen. Sterilointi on ainoa pysyvä keino ehkäistä valeraskauksia. Steriloimme nartun noin kolme kuukautta edellisen juoksun päättymisestä ja vasta sitten, kun valeraskaus on kokonaan ohi: liian aikainen sterilointi voi saada valeraskauden alkamaan tai jatkumaan, joskus kuukausien ajan. Käymme kanssasi läpi steriloinnin hyödyt ja haitat.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- MSD Veterinary Manual. Pseudopregnancy in Small Animals. msdvetmanual.com/pseudopregnancy-in-small-animals
+- MSD Veterinary Manual. Mastitis in Small Animals. msdvetmanual.com/mastitis-in-small-animals
+- MSD Veterinary Manual. Cystic Endometrial Hyperplasia–Pyometra Complex in Small Animals. msdvetmanual.com/cystic-endometrial-hyperplasia-pyometra-
+- MSD Veterinary Manual (owner version). Reproductive Disorders of Female Dogs. msdvetmanual.com/reproductive-disorders-of-female-dogs
+- PDSA. Phantom pregnancy in dogs. pdsa.org.uk
+- Gobello C, de la Sota RL, Goya RG. A review of canine pseudocyesis. Reprod Domest Anim 2001;36(6):283–288. pubmed.ncbi.nlm.nih.gov/11928922
+- Gobello C. Revisiting canine pseudocyesis. Theriogenology 2021;167:94–98. pubmed.ncbi.nlm.nih.gov/33799011
+- Root AL, Parkin TD, Hutchison P, Warnes C, Yam PS. Canine pseudopregnancy: an evaluation of prevalence and current treatment protocols in the UK. BMC Vet Res 2018;14:170. pmc.ncbi.nlm.nih.gov/PMC5968611
+- Moxon R, England GCW. Retrospective study examining complications and iatrogenic pseudopregnancy in bitches neutered in different stages of the oestrous cycle: identification of an ‘early neutering window’ in bitches. Front Vet Sci 2026;13:1774042. pmc.ncbi.nlm.nih.gov/PMC12909199
+- Jitpean S, Ström-Holst B, Emanuelson U, et al. Outcome of pyometra in female dogs and predictors of peritonitis and prolonged postoperative hospitalization in surgically treated cases. BMC Vet Res 2014;10:6. pmc.ncbi.nlm.nih.gov/PMC3892096
+- Sykes JE, Westropp JL. Bacterial infections of the genitourinary tract. In: Canine and Feline Infectious Diseases. Elsevier 2014:871–885. pmc.ncbi.nlm.nih.gov/PMC7151908
+- Lezama-García K, Mariti C, Mota-Rojas D, et al. Maternal behaviour in domestic dogs. Int J Vet Sci Med 2019;7(1):20–30. pmc.ncbi.nlm.nih.gov/PMC6776987
+- Romagnoli S. An update on pseudopregnancy. WSAVA World Congress Proceedings 2009. vin.com
+Aiheeseen liittyvät palvelumme: Sterilisaatio
+
+### Lue myös
+
+Päivystys
+
+#### Koiran kohtutulehdus (pyometra) – oireet, kuinka nopeasti se etenee, hoito ja toipuminen
+
+Kohtutulehdus eli märkäkohtu (pyometra) on hengenvaarallinen infektio, jossa steriloimattoman naaraan kohtu täyttyy m...
+Takaisin etusivulle
+
+---
+
 # Koiran kohtutulehdus (pyometra) – oireet, leikkaus ja hinta
 
 URL: https://elainklinikkasaari.fi/articles/kohtutulehdus.html
@@ -6805,11 +6872,11 @@ Aiheeseen liittyvät palvelumme: Pehmytkudoskirurgia · Sterilisaatio
 
 ### Lue myös
 
-Päivystys
+Terveys
 
-#### Kyynpurema – Suomen ainoan myrkyllisen käärmeen purema lemmikille
+#### Koiran valeraskaus – oireet, kotihoito ja milloin soittaa
 
-Kyy (Vipera berus) on Suomen ainoa myrkyllinen käärme, ja sitä tavataan lähes koko maassa, myös Pohjanmaalla. Puremia...
+Valeraskaus on yleinen steriloimattomilla nartuilla. Juoksun jälkeen hormonitasot muuttuvat samoin kuin oikeassa tiin...
 Anestesia
 
 #### Anestesiaturvallisuus – tilastot, riskit ja miten minimoimme ne

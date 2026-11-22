@@ -1593,6 +1593,68 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
   },
 
+  // Article: False pregnancy in dogs (new 2026-11)
+  "article.falsepreg.title": {
+    fi: "Koiran valeraskaus – oireet, kotihoito ja milloin soittaa",
+    sv: "Skendräktighet hos hund – tecken, vård hemma och när du ska ringa",
+    en: "False Pregnancy in Dogs — Signs, Home Care and When to Call"
+  },
+  "article.falsepreg.intro": {
+    fi: "Valeraskaus on yleinen steriloimattomilla nartuilla. Juoksun jälkeen hormonitasot muuttuvat samoin kuin oikeassa tiineydessä, oli narttu astutettu tai ei. Osalla nartuista tämä aiheuttaa oireita, yleensä 6–8 viikon kuluttua juoksusta. Kyse on luonnollisesta hormonaalisesta tilasta eikä sairaudesta, ja oireet menevät yleensä ohi itsestään 1–3 viikon kuluessa.",
+    sv: "Skendräktighet är vanlig hos osteriliserade tikar. Efter ett löp förändras tikens hormoner på samma sätt som vid en riktig dräktighet, oavsett om hon har parats eller inte. Hos en del tikar märks det, vanligen sex till åtta veckor efter löpet. Det är ett naturligt hormonellt tillstånd, ingen sjukdom, och tecknen går oftast över av sig själva inom en till tre veckor.",
+    en: "False pregnancy is common in unspayed bitches. After a heat, a bitch’s hormones change as they would in a real pregnancy, whether or not she was mated. In some bitches this brings on signs, usually six to eight weeks after the heat. It is a natural hormonal state, not an illness, and the signs usually pass by themselves within one to three weeks."
+  },
+  "article.falsepreg.signs.title": {
+    fi: "Valeraskauden oireet",
+    sv: "Tecken på skendräktighet",
+    en: "Signs"
+  },
+  "article.falsepreg.signs.text": {
+    fi: "Narttu voi tehdä pesää, kanniskella leluja ja vahtia niitä kuin pentujaan. Se voi olla levoton, vinkua, olla tavallista passiivisempi ja syödä hieman vähemmän. Sen nisät voivat turvota, ja niistä voi tihkua maitoa tai vetistä nestettä. Jotkut nartut muuttuvat takertuviksi, toiset taas ärtyisiksi ja voivat murista tai näykkäistä ”pentujensa” lähellä – pidä lapset loitolla. Jos on pienikin mahdollisuus, että narttu on astutettu, se voi todella olla tiineenä: varaa pian aika tiineysultraan – se kertoo, kummasta on kyse.",
+    sv: "Tiken kan bygga bo, bära omkring på leksaker och vakta dem som sina valpar, vara rastlös, pipa, vara mindre aktiv och äta lite mindre. Spenarna kan svullna och läcka mjölk eller en vattnig vätska. En del tikar blir klängiga, andra blir lättretliga och kan morra eller glefsa när någon kommer nära deras ”valpar” – håll barn på avstånd. Om det finns någon möjlighet att hon har parats kan hon verkligen vara dräktig: boka en dräktighetsundersökning snart – den visar vilket det är.",
+    en: "Nesting, carrying toys around and guarding them like puppies, restlessness, whining, being less active, eating a little less, and swollen teats that may leak milk or a watery fluid. Some bitches become clingy; others become irritable and may growl or snap near their “puppies” — keep children away. If there is any chance she was mated, she may really be pregnant: book a pregnancy scan soon — it tells the two apart."
+  },
+  "article.falsepreg.home.title": {
+    fi: "Mikä auttaa kotona",
+    sv: "Det här hjälper hemma",
+    en: "What Helps at Home"
+  },
+  "article.falsepreg.home.text": {
+    fi: "Pidä narttu touhussa ulkoilemalla ja leikkimällä sen kanssa. Kerää sen hoivaamat lelut pois sillä aikaa, kun se on lenkillä. Älä hiero, purista tai lypsä nisiä: se lisää maidontuotantoa. Jos narttu nuolee nisiään, pehmeä suojahaalari tai kauluri voi estää sen. Älä rajoita nartun juomista, ellei eläinlääkäri niin neuvo. Useimmat nartut eivät tarvitse muuta.",
+    sv: "Håll henne sysselsatt med promenader och lek. Medan hon är ute på promenad plockar du undan leksakerna hon pysslar om. Du ska inte gnida, klämma eller mjölka spenarna: då bildas det mer mjölk. Om hon slickar dem kan en mjuk skyddsdräkt eller en krage hindra det. Begränsa inte hur mycket hon dricker om inte en veterinär säger åt dig att göra det. De flesta tikar behöver inget mer än så.",
+    en: "Keep her busy with walks and play, and while she is out on a walk, put away the toys she mothers. Don’t rub, squeeze or milk the teats: it makes them produce more milk. If she licks them, a soft body suit or a cone can stop it. Don’t limit her water unless a vet tells you to. Most bitches need nothing more."
+  },
+  "article.falsepreg.warning.title": {
+    fi: "Milloin soittaa",
+    sv: "När ska du ringa?",
+    en: "When to Call"
+  },
+  "article.falsepreg.warning.text": {
+    fi: "Soita heti, jos narttu viikkoja tai kuukausia juoksun jälkeen juo paljon, oksentaa, on vetämätön, ei suostu syömään tai sen häpystä tulee vuotoa: kyse voi olla vaarallisesta kohtutulehduksesta (pyometrasta). Vuotoa ei aina näy, joten jos narttu vaikuttaa sairaalta, älä oleta, että kyse on vain valeraskaudesta. Jos jonkin nisän ympäristö on kuuma, punoittava, kipeä tai selvästi muita kohtia kovempi tai jos maito näyttää veriseltä tai märkäiseltä, nartulla voi olla nisätulehdus (maitorauhasen tulehdus): soita meille saman päivän aikana. Soita heti, jos alue tummuu, nartulla on kuumetta tai se vaikuttaa hyvin huonovointiselta. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299. Varaa aika, jos oireet kestävät kauemmin kuin noin kolme viikkoa tai tekevät arjesta hankalaa nartulle tai sinulle: eläinlääkäri voi antaa lääkettä, joka yleensä saa maidon ehtymään ja oireet laantumaan.",
+    sv: "Ring genast om hon under veckorna eller månaderna efter löpet dricker mycket, kräks, är slö, vägrar äta eller har flytning från vulvan: det kan vara livmoderinflammation (pyometra), en farlig infektion i livmodern. Flytning syns inte alltid, så om hon verkar sjuk ska du inte utgå från att det bara är skendräktighet. Om området runt en spene är varmt, rött, ömt eller tydligt hårdare än resten av juvret, eller om mjölken ser blodig eller varig ut, kan hon ha juverinflammation (mastit), en infektion i mjölkkörteln: ring oss samma dag, och genast om området blir mörkt, om hon har feber eller om hon verkar må mycket dåligt. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Boka tid om tecknen varar längre än ungefär tre veckor eller är svåra för henne eller dig att leva med: veterinären kan ge medicin som oftast får mjölken att sina och tecknen att lägga sig.",
+    en: "Call at once if, in the weeks or months after her heat, she drinks a lot, vomits, is listless, refuses food or has a discharge from the vulva: this can be pyometra, a dangerous infection of the womb. A discharge isn’t always seen, so if she seems ill, don’t assume it is just a false pregnancy. If the area around a teat is hot, red, painful or clearly harder than the rest, or the milk looks bloody or like pus, she may have an infected mammary gland (mastitis): call us the same day, and at once if that area turns dark or she has a fever or seems very unwell. Outside opening hours, call the regional emergency vet on 0600 399 299. Book a visit if the signs last more than about three weeks or are hard for her or you to live with: a vet can give medicine that usually dries up the milk and settles the signs."
+  },
+  "article.falsepreg.spay.title": {
+    fi: "Uusiutuuko valeraskaus?",
+    sv: "Blir hon skendräktig igen?",
+    en: "Will It Happen Again?"
+  },
+  "article.falsepreg.spay.text": {
+    fi: "Jos nartulla on kerran ollut valeraskaus, se toistuu usein myöhempien juoksujen jälkeen. Sterilointi on ainoa pysyvä keino ehkäistä valeraskauksia. Steriloimme nartun noin kolme kuukautta edellisen juoksun päättymisestä ja vasta sitten, kun valeraskaus on kokonaan ohi: liian aikainen sterilointi voi saada valeraskauden alkamaan tai jatkumaan, joskus kuukausien ajan. Käymme kanssasi läpi steriloinnin hyödyt ja haitat.",
+    sv: "En tik som har varit skendräktig en gång blir ofta skendräktig igen efter senare löp. Sterilisering är det enda sättet att förebygga skendräktighet varaktigt. Vi steriliserar henne cirka tre månader efter att senaste löpet tagit slut, och först när skendräktigheten är helt över: en för tidig sterilisering kan utlösa en skendräktighet eller få en pågående att fortsätta, ibland i månader. Vi går igenom steriliseringens fördelar och nackdelar tillsammans med dig.",
+    en: "A bitch who has had one false pregnancy often has another after later heats. Spaying is the only lasting way to prevent them. We spay about three months after her heat has ended, and only once the false pregnancy is completely over: spaying too soon can start a false pregnancy or keep one going, sometimes for months. We go through the benefits and drawbacks of spaying with you."
+  },
+  "article.falsepreg.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.falsepreg.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4419,6 +4481,7 @@ function setLanguage(lang) {
     'kipulääkeinfuusio': { sv: 'smartlindringsinfusion', en: 'pain-relief-infusion' },
     'ripuli': { sv: 'diarre', en: 'diarrhoea' },
     'oksentelu': { sv: 'krakningar', en: 'vomiting' },
+    'valeraskaus': { sv: 'skendraktighet', en: 'false-pregnancy' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },
