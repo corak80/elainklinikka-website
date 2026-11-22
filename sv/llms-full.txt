@@ -412,6 +412,10 @@ Det typiska priset är den mittersta räkningen (medianen) för besök med utdra
 Dräktighetsundersökningar
 Dräktighetsultraljud 117,80 €
 Dräktighetsröntgen 108,00 €
+Ögonundersökningar
+Ögonundersökning 104,80 €
+Ögonundersökning med ögontrycksmätning 120,18 €
+Besöksavgiften ingår i priserna. Ögondroppar och behandling debiteras separat. Läs mer om ögonproblem
 Officiella undersökningar
 Höftröntgen <20kg 183 €
 Höftröntgen 20–40kg 193 €
@@ -2501,31 +2505,39 @@ Tillbaka till startsidan
 # Ögonsjukdomar hos hund och katt i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ogonsjukdomar/
-Last updated: 2026-10-31
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 
-## Ögonsjukdomar
+## Ögonproblem hos hund och katt
 
-### De vanligaste ögonsjukdomarna
+### När ska du söka vård?
 
-Ögonsjukdomar är vanliga hos husdjur och kan vara mycket smärtsamma. De vanligaste är hornhinnesår (erosioner och ulcerationer), glaukom (förhöjt ögontryck), torra ögon (keratoconjunctivitis sicca), katarakt (linsgrumling) samt ögonlockssjukdomar som entropion (inåtvänt ögonlock) och ektropion (utåtvänt ögonlock). Vissa raser, som brakycefala (kortnosade) hundar, är särskilt mottagliga för ögonproblem.
+Ett djupt hornhinnesår eller glaukom (grön starr) kan ge bestående skador på ögat, ibland inom ett dygn. Ring (06) 321 7300 genast om ett öga har skadats, buktar ut eller plötsligt blir grumligt, eller om ditt djur plötsligt inte verkar kunna se. Ring samma dag om ögat är rött eller om ditt djur kisar eller krafsar på ögat med tassen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299. Använd inte överblivna ögondroppar eller droppar som är avsedda för människor: vissa kan förvärra ett hornhinnesår.
 
-### Undersökningsmetoder
+### Kattungar med rinnande eller kladdiga ögon
 
-Vid ögonundersökning används flera diagnostiska metoder. Fluoresceinfärgning avslöjar hornhinneskador och sår. Ögontrycksmätning (tonometri) identifierar glaukom. Schirmers tårtest mäter tårproduktionen. Spaltlampsundersökning bedömer strukturerna i ögats främre del. Med hjälp av dessa undersökningar fås en exakt bild av ögats tillstånd och rätt behandling kan påbörjas.
+Rinnande eller kladdiga ögon hos kattungar beror vanligen på kattsnuva. Torka ögonen försiktigt med en bomullstuss fuktad med rent vatten, och ta en ny tuss för varje öga. Ring samma dag om ögonen är igenklistrade, svullna eller grumliga, eller om kattungen kisar, är hängig eller slutar äta; annars bokar du tid inom en dag eller två.
 
-### Behandling
+### Grumligt öga och grå starr
 
-Behandlingen av ögonsjukdomar beror på diagnosen. Hornhinnesår behandlas med ögondroppar och vid behov med skyddslins eller kirurgiskt. Glaukom behandlas med trycksänkande läkemedel. Torra ögon behandlas med tårersättningsmedel och immunmodulerande droppar. Entropion och andra strukturella ögonlocksproblem kräver ofta kirurgisk korrigering.
+Vid grå starr (katarakt) grumlas ögonlinsen, och pupillen blir vit eller grå. Hos hundar är grå starr ofta ärftlig eller beror på diabetes; hos katter uppstår den oftast efter en inflammation inne i ögat, och därför letar vi efter orsaken. Ett hornhinnesår eller glaukom kan också göra ögat grumligt och behöver snabb behandling, medan en svag blåaktig slöja hos äldre djur vanligen hör till det normala åldrandet. Vi opererar inte grå starr, men om en operation kan hjälpa skriver vi en remiss; utan operation behöver ögat regelbundna kontroller.
 
-### När ska man söka undersökning?
+### Rinnande ögon hos hund
 
-Man bör reagera snabbt på ögonsymtom, eftersom många ögonsjukdomar fortskrider snabbt och kan leda till permanent synskada. Sök vård om ditt husdjur kisar, ögat rinner, ögat är rött, pupillerna är olika stora, ögat är grumligt eller husdjuret kliar sig i ögat. Tidig behandling är särskilt viktigt vid ögonsjukdomar.
+Rinnande ögon kan bero på en igentäppt tårkanal, inåtrullade ögonlock, extra ögonfransar, en rispa, allergi eller infektion. Tjock gul eller grön flytning från ögat kan vara ett tecken på torra ögon. Ring samma dag om ögat är rött eller om hunden kisar. Vi spolar igentäppta tårkanaler och opererar inåtrullade ögonlock.
 
-### Vanliga frågor om ögonsjukdomar
+### Vad ingår i ögonundersökningen?
 
-Är ögonsjukdomar ärftliga? Många ögonsjukdomar är ärftliga eller rasspecifika. Brakycefala (kortnosade) raser som mops och engelsk bulldogg har benägenhet för hornhinneskador och torra ögon. Cocker spaniel och pudel drabbas av katarakt, och collier av näthinnesjukdomar. Screening för ärftliga ögonsjukdomar ingår i hälsoundersökningarna av avelshundar. Hur snabbt ska man söka vård? Vid ögonsymtom är snabbhet avgörande. Ett hornhinnesår kan fördjupas inom ett dygn utan behandling, och glaukom kan leda till permanent blindhet inom timmar. Om ditt husdjur kisar, ögat är rött eller grumligt, eller pupillerna är olika stora, sök vård samma dag. Ögonsymtom läker inte av sig själva.
+Vi undersöker ögat och ögonlocken, testar tårproduktionen och använder ett färgämne som visar rispor och hornhinnesår. Vid behov mäter vi ögontrycket. De flesta djur behöver inte sederas.
+
+### Priser
+
+Ögonundersökning 104,80 €; med ögontrycksmätning 120,18 €. Båda är totalpriser, och besöksavgiften ingår. Ögondroppar och behandling kostar extra.
+
+### Vanliga frågor
+
+Hur vet jag om min katt har grå starr? Pupillen ser vit eller grå ut i stället för svart. Andra ögonproblem kan likna grå starr, så låt en veterinär undersöka ögat. Vad kostar det att ta bort ett öga? Det beror på fallet, och du får en kostnadsuppskattning före operationen. De flesta djur klarar sig bra med ett öga. Gör ni Finska Kennelklubbens officiella ögonundersökningar? Nej. De görs av ögonveterinärer som är godkända av Kennelklubben.
 
 ### Boka tid
 

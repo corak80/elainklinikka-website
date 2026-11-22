@@ -5,7 +5,7 @@ Machine-readable price list for Eläinklinikka Saari, a family-owned small-anima
 - All prices in EUR, VAT included (prices are total prices).
 - Surgery prices include medication, supplies and suture removal.
 - Human-readable price pages: Finnish https://elainklinikkasaari.fi/hinnasto/ · Swedish https://elainklinikkasaari.fi/sv/prislista/ · English https://elainklinikkasaari.fi/en/pricelist/
-- Last updated: 16-11-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
+- Last updated: 22-11-2026. Prices may change; the Finnish page /hinnasto/ is canonical.
 
 ## Veterinary consultation (Eläinlääkärin vastaanotto)
 
@@ -97,6 +97,13 @@ The number of teeth to remove is only known once the pet is under anaesthesia an
 
 - Pregnancy ultrasound: 117.80 €
 - Pregnancy X-ray: 108.00 €
+
+## Eye examinations (Silmätutkimukset)
+
+- Eye exam: 104.80 €
+- Eye exam with eye-pressure measurement: 120.18 €
+
+Both prices include the visit fee; eye drops and treatment are charged separately. Cataract surgery is not done at the clinic (referred). Official Kennel Club eye examinations are not done at the clinic. See https://elainklinikkasaari.fi/en/services/ophthalmology/
 
 ## Official Kennel Club examinations (Viralliset tutkimukset)
 
