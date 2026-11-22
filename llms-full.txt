@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-18
+Last updated: 2026-11-22
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -456,6 +456,7 @@ Koira <20kg 143 €
 Koira 20–40kg 173 €
 Koira >40kg 193 €
 Jyrsijät/kanit 88 €
+Hinnat sisältävät käyntimaksun ja rauhoituksen. Tuhkaus laskutetaan erikseen. Lue lisää eutanasiasta
 Alle 24 tuntia ennen vastaanottoaikaa peruutetuista ajoista veloitamme 30–100 €.
 Pidätämme oikeuden hinnanmuutoksiin.
 Voit maksaa myös laskulla tai osamaksulla – ota yhteyttä, niin kerromme lisää! Huomio! Luoton ottaminen maksaa.
@@ -2871,30 +2872,42 @@ Takaisin etusivulle
 
 ---
 
-# Eutanasia – lemmikin lopetus Vaasassa | Eläinklinikka Saari
+# Eutanasia Vaasassa – kokonaishinnat | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/eutanasia/
-Last updated: 2026-10-15
+Last updated: 2026-11-22
 
 Takaisin etusivulle
 
-## Eutanasia – lemmikin viimeinen matka
+## Lemmikin eutanasia Vaasassa
 
 ### Milloin on aika?
 
-Päätös lemmikin lopettamisesta on yksi vaikeimmista hetkistä lemmikkieläimen omistajan elämässä. Tiedämme, ettei päätöstä tehdä kevyesti. Joskus sairaus etenee niin pitkälle, ettei hoito enää tuo helpotusta, tai lemmikin elämänlaatu on laskenut merkittävästi. Jos pohdit, onko lemmikkisi vielä onnellinen, älä epäröi keskustella asiasta kanssamme – olemme täällä auttamassa sinua tässä vaikeassa päätöksessä, ilman painostusta ja oman aikataulusi mukaan.
+Lemmikistä luopuminen ei ole koskaan helppoa. Aika voi olla käsillä, kun hoito ei enää auta tai lemmikkisi elämänlaatu on heikentynyt liikaa: kipua ei saada lievitettyä, lemmikki syö hyvin vähän, liikkuminen on vaikeaa, huonoja päiviä on enemmän kuin hyviä. Jos olet epävarma, kerromme rehellisen näkemyksemme ja päätämme yhdessä kanssasi.
 
-### Miten toimenpide etenee?
+### Näin eutanasia etenee
 
-Pyrimme siihen, että hyvästien otto tapahtuu rauhallisesti, ilman kiirettä. Lemmikille annetaan ensin rauhoittava lääke kipulievityksineen, jolloin eläin rentoutuu ja nukahtaa muutamassa minuutissa. Saat olla lemmikkisi vierellä koko ajan. Kun eläin on syvässä unessa, annetaan nukutuslääke suonensisäisesti. Lemmikki nukkuu pois rauhallisesti ja kivuttomasti – se ei tunne mitään. Koko prosessi on suunniteltu siten, että se on mahdollisimman lempeä sekä lemmikille että sinulle.
+Ensin lemmikkisi saa rauhoittavan lääkkeen, joka vaivuttaa sen syvään uneen yleensä muutamassa minuutissa. Voit olla mukana koko ajan tai hyvästellä lemmikkisi ennen rauhoitusta. Kumpikin vaihtoehto on hyvä. Sen jälkeen eläinlääkäri antaa viimeisen pistoksen, yleensä suoneen. Kun pistos annetaan suoneen, lemmikki menettää tajuntansa täysin sekunneissa. Lemmikkisi ei kärsi. Sydän pysähtyy minuuttien kuluessa, ja eläinlääkäri varmistaa sen. Silmät jäävät usein auki. Keho voi nytkähdellä, lemmikki voi näyttää vetävän henkeä ja rakko tai suoli voi tyhjentyä. Lemmikkisi ei ole tästä tietoinen.
 
-### Käytännön asiat
+### Käynti klinikalla
 
-Voit tuoda mukanasi lemmikkisi lempiviltin tai lelun. Varaathan aikaa, jotta saat hyvästellä rauhassa. Meillä ei ole kiirettä. Toimenpiteen jälkeen voit valita tuhkauksen, yksilötuhkauksen (tuhka palautetaan uurnassa) tai kotihautauksen. Kerromme mielellämme eri vaihtoehdoista.
+Eutanasia tehdään vain klinikallamme. Emme tee kotikäyntejä. Soita meille numeroon (06) 321 7300 ja kerro, että kyse on eutanasiasta, jotta voimme varata rauhallisen, kiireettömän ajan. Voit tuoda mukanasi lemmikkisi lempiviltin tai -lelun. Jos lemmikkisi kärsii aukioloaikojemme (ma–pe 7.45–17.00) ulkopuolella, soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
 
-### Surutyö
+### Tuhkaus tai hautaaminen
 
-Lemmikin menetys on aitoa surua, ja se on luonnollista. Jokainen suree omalla tavallaan ja omassa tahdissaan. Muistot, joita olet jakanut lemmikkisi kanssa, ovat arvokkaita ja pysyviä. Lapsillekin on tärkeää antaa mahdollisuus surra ja käsitellä menetystä. Jos tunnet tarvitsevasi tukea, älä epäröi keskustella kanssamme tai hakea apua. Lemmikin antama rakkaus ei katoa – se jää sydämeen.
+Voimme järjestää tuhkauksen (yhteistuhkauksen tai yksilötuhkauksen, jolloin saat tuhkan takaisin), tai voit haudata lemmikkisi omalle maallesi. Ruokaviraston mukaan hauta tulisi kaivaa vähintään metrin syvyiseksi ja se on peitettävä heti, eikä lemmikkiä saa haudata muovissa tai muussa maatumattomassa kääreessä. Lisäksi Ruokavirasto suosittelee, ettei hautaa tehdä pohjavesialueelle, vedenottamon suoja-alueelle, vesistöön viettävälle rinteelle eikä alle 250 metrin etäisyydelle kaivosta.
+
+### Hinnat
+
+Kissa 128 €. Koira alle 20 kg 143 €, 20–40 kg 173 €, yli 40 kg 193 €. Jyrsijät ja kanit 88 €. Hinnat ovat kokonaishintoja, joihin sisältyvät käyntimaksu ja rauhoitus. Tuhkauksesta veloitetaan erikseen.
+
+### Usein kysyttyä
+
+Paljonko maksaa kissan tai koiran eutanasia? Kissan 128 € ja koiran painon mukaan 143–193 €. Käyntimaksu ja rauhoitus sisältyvät hintaan, mutta tuhkauksesta veloitetaan erikseen. Voiko eutanasian tehdä kotona? Ei meillä: teemme eutanasian vain klinikallamme. Voiko eläinlääkäri kieltäytyä eutanasiasta? Emme koskaan kieltäydy, kun eläin kärsii. Eläinlääkäri voi kieltäytyä lopettamasta tervettä eläintä, ja silloin keskustelemme muista vaihtoehdoista, kuten uuden kodin etsimisestä.
+
+### Suru
+
+Suru lemmikin menetyksestä on aitoa ja vie oman aikansa. Anna myös lasten hyvästellä ja surra. Käytä selkeää sanaa, kuten ”kuoli”, sillä ”nukutettiin” voi pelottaa pieniä lapsia. Jos haluat puhua, olemme täällä.
 
 ### Varaa aika
 

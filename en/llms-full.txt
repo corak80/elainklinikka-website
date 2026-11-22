@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-11-18
+Last updated: 2026-11-22
 
 ## Price List — Vet Prices in Vaasa
 
@@ -456,6 +456,7 @@ Dog <20kg €143
 Dog 20–40kg €173
 Dog >40kg €193
 Rodents/rabbits €88
+Prices include the visit fee and sedation; cremation is charged separately. Read more about euthanasia
 Cancellations less than 24 hours before the appointment are charged €30–100.
 We reserve the right to change prices.
 You can also pay by invoice or in installments — contact us for more info! Note: borrowing money costs money.
@@ -2670,30 +2671,42 @@ Back to homepage
 
 ---
 
-# Pet Euthanasia in Vaasa | Saari Animal Clinic
+# Pet Euthanasia in Vaasa: Total Prices | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/euthanasia/
-Last updated: 2026-10-15
+Last updated: 2026-11-22
 
 Back to homepage
 
-## Euthanasia — your pet's final journey
+## Pet Euthanasia in Vaasa
 
 ### When is it time?
 
-The decision to euthanise a pet is one of the most difficult moments in a pet owner's life. We understand that this decision is never made lightly. Sometimes illness progresses to a point where treatment no longer brings relief, or your pet's quality of life has declined significantly. If you are wondering whether your pet is still happy, please do not hesitate to talk with us — we are here to help you with this difficult decision, without pressure and at your own pace.
+Letting a pet go is never easy. It may be time when treatment no longer helps or your pet’s quality of life has fallen too low: pain that cannot be eased, eating very little, struggling to move, more bad days than good. If you are unsure, we will give you our honest view and decide with you.
 
-### How does the procedure work?
+### What happens
 
-We strive to ensure that saying goodbye happens calmly, without rush. Your pet is first given a sedative with pain relief, causing the animal to relax and fall asleep within a few minutes. You are welcome to stay by your pet's side throughout. Once the animal is in deep sleep, the euthanasia agent is administered intravenously. Your pet passes peacefully and painlessly — they feel nothing. The entire process is designed to be as gentle as possible, both for your pet and for you.
+First a sedative puts your pet into a deep sleep, usually within a few minutes. You can stay throughout, or say goodbye before the sedation; both are fine. The vet then gives the final injection, usually into a vein, where it brings full unconsciousness within seconds. Your pet does not suffer; the heart stops within minutes, and the vet checks to confirm it. The eyes often stay open, and the body may twitch, seem to take a breath or empty the bladder or bowels; your pet is not aware of this.
 
-### Practical matters
+### At the clinic
 
-You are welcome to bring your pet's favourite blanket or toy. Please allow enough time so that you can say goodbye in peace. There is no rush. After the procedure, you may choose cremation, individual cremation (ashes returned in an urn), or home burial. We are happy to explain the different options.
+Euthanasia is done only at our clinic; we do not make home visits. Call (06) 321 7300 and tell us it is for euthanasia, so we can book a calm, unhurried time. You are welcome to bring your pet’s favourite blanket or toy. If your pet is suffering outside our opening hours (Mon–Fri 7:45–17:00), call the regional emergency vet on 0600 399 299.
+
+### Cremation or burial
+
+We can arrange cremation (shared, or individual with the ashes returned to you), or you can bury your pet on your own land. The Finnish Food Authority (Ruokavirasto) says the grave should be at least a metre deep and filled in straight away, with no plastic or other wrapping that does not rot. It recommends avoiding groundwater areas, water-intake protection zones, slopes down to water and anywhere within 250 metres of a well.
+
+### Prices
+
+Cat €128. Dog under 20 kg €143, 20–40 kg €173, over 40 kg €193. Rodents and rabbits €88. These are total prices, including the visit fee and sedation; cremation is extra.
+
+### Frequently asked questions
+
+How much does it cost to put a cat or dog to sleep? A cat €128 and a dog €143–193 by weight, visit fee and sedation included; cremation is extra. Can euthanasia be done at home? Not by us: only at our clinic. Can a vet refuse euthanasia? We never refuse when an animal is suffering. A vet may decline to put down a healthy animal; we then talk through other options, such as rehoming.
 
 ### Grief
 
-Losing a pet is genuine grief, and that is natural. Everyone grieves in their own way and at their own pace. The memories you shared with your pet are precious and lasting. It is important to allow children the opportunity to grieve and process the loss as well. If you feel you need support, do not hesitate to speak with us or seek help. The love a pet gives does not disappear — it stays in your heart.
+Grief for a pet is real and takes its own time. Let children say goodbye and grieve too, and use a plain word like ‘died’: ‘put to sleep’ can frighten young children. If you want to talk, we are here.
 
 ### Contact us
 

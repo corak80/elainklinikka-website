@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-18
+Last updated: 2026-11-22
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -456,6 +456,7 @@ Hund <20kg 143 €
 Hund 20–40kg 173 €
 Hund >40kg 193 €
 Gnagare/kaniner 88 €
+Besöksavgiften och sederingen ingår i priserna. Kremering debiteras separat. Läs mer om avlivning
 Avbokning mindre än 24 timmar före besöket debiteras 30–100 €.
 Vi förbehåller oss rätten att ändra priserna.
 Du kan även betala med faktura eller på avbetalning – kontakta oss för mer info! Obs! Kredit kostar pengar.
@@ -2661,30 +2662,42 @@ Tillbaka till startsidan
 
 ---
 
-# Eutanasi i Vasa | Djurklinik Saari
+# Avlivning av husdjur i Vasa – totalpriser | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/eutanasi/
-Last updated: 2026-09-20
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 
-## Eutanasi – husdjurets sista resa
+## Avlivning av husdjur i Vasa
 
 ### När är det dags?
 
-Beslutet att avliva ett husdjur är ett av de svåraste ögonblicken i en djurägares liv. Vi vet att beslutet inte fattas lättvindigt. Ibland fortskrider sjukdomen så långt att behandling inte längre ger lindring, eller att husdjurets livskvalitet har försämrats avsevärt. Om du funderar på om ditt husdjur fortfarande är lyckligt, tveka inte att prata med oss – vi finns här för att hjälpa dig med detta svåra beslut, utan press och i din egen takt.
+Det är aldrig lätt att skiljas från ett husdjur. Det kan vara dags när behandlingen inte längre hjälper eller när ditt djurs livskvalitet har blivit för dålig, till exempel om djuret har smärtor som inte går att lindra, äter mycket lite, har svårt att röra sig eller har fler dåliga dagar än bra. Om du är osäker ger vi dig vår ärliga bedömning och fattar beslutet tillsammans med dig.
 
-### Hur går ingreppet till?
+### Hur går det till?
 
-Vi strävar efter att avskedet sker lugnt, utan brådska. Husdjuret ges först ett lugnande läkemedel med smärtlindring, varvid djuret slappnar av och somnar inom några minuter. Du får vara vid ditt husdjurs sida hela tiden. När djuret är i djup sömn ges avlivningsmedlet intravenöst. Husdjuret somnar in lugnt och smärtfritt – det känner ingenting. Hela processen är utformad för att vara så skonsam som möjligt, både för husdjuret och för dig.
+Först får ditt djur ett lugnande medel, och inom några minuter sover det vanligen djupt. Du kan vara med hela tiden eller ta farväl före sederingen – båda går bra. Sedan ger veterinären den sista injektionen, vanligen i en ven. När den ges i en ven förlorar djuret medvetandet helt inom några sekunder. Ditt djur lider inte. Hjärtat stannar inom några minuter, och veterinären kontrollerar att det har stannat. Ögonen förblir ofta öppna. Kroppen kan rycka till, det kan se ut som om djuret tar ett andetag, och blåsan eller tarmen kan tömmas – djuret märker ingenting av det.
 
-### Praktiska frågor
+### På kliniken
 
-Du kan ta med ditt husdjurs favoritfilt eller leksak. Reservera gott om tid så att du kan ta farväl i lugn och ro. Vi har ingen brådska. Efter ingreppet kan du välja kremering, individuell kremering (askan returneras i en urna) eller hembegravning. Vi berättar gärna om de olika alternativen.
+Avlivning (eutanasi) görs bara på vår klinik – vi gör inga hembesök. Ring (06) 321 7300 och säg att det gäller avlivning, så att vi kan boka en lugn tid utan brådska. Du får gärna ta med ditt djurs favoritfilt eller -leksak. Om ditt djur lider utanför våra öppettider (mån–fre 7.45–17.00) ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Kremering eller begravning
+
+Vi kan ordna kremering (gemensam, eller individuell så att du får tillbaka askan), eller så kan du begrava ditt djur på egen mark. Enligt Livsmedelsverket (Ruokavirasto) bör graven vara minst en meter djup och fyllas igen genast, och djuret bör inte grävas ner i plast eller annat material som inte förmultnar. Livsmedelsverket rekommenderar också att man undviker grundvattenområden, skyddsområden för vattentäkter, sluttningar ner mot vatten och platser inom 250 meter från en brunn.
+
+### Priser
+
+Katt 128 €. Hund under 20 kg 143 €, 20–40 kg 173 €, över 40 kg 193 €. Gnagare och kaniner 88 €. Priserna är totalpriser, och både besöksavgiften och sederingen ingår. Kremering kostar extra.
+
+### Vanliga frågor
+
+Vad kostar det att avliva en katt eller hund? Det kostar 128 € för en katt och 143–193 € för en hund, beroende på vikt. Besöksavgiften och sederingen ingår, och kremering kostar extra. Kan avlivningen göras hemma? Inte av oss – vi avlivar bara på vår klinik. Kan en veterinär vägra att avliva? Vi vägrar aldrig när ett djur lider. En veterinär kan avböja att avliva ett friskt djur, och då går vi igenom andra alternativ, till exempel att djuret får ett nytt hem.
 
 ### Sorg
 
-Förlusten av ett husdjur är äkta sorg, och det är naturligt. Alla sörjer på sitt eget sätt och i sin egen takt. Minnena du delat med ditt husdjur är värdefulla och bestående. Det är viktigt att även ge barn möjlighet att sörja och bearbeta förlusten. Om du känner att du behöver stöd, tveka inte att prata med oss eller söka hjälp. Kärleken ett husdjur ger försvinner inte – den stannar i hjärtat.
+Sorgen efter ett husdjur är verklig, och den tar den tid den tar. Låt också barnen få ta farväl och sörja, och säg helt enkelt att djuret dog: ord som ’fick somna in’ kan skrämma små barn. Om du vill prata finns vi här.
 
 ### Kontakta oss
 
