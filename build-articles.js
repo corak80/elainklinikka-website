@@ -1114,25 +1114,33 @@ const articles = [
     titleKey: 'article.diarrhea.title',
     tagKey: 'articles.filter.health',
     category: 'health',
-    date: '25.9.2026',
+    date: '22.11.2026',
     publishDate: '2026-01-20',
-    sections: ['intro', 'causes.title', 'causes.text', 'homecare.title', 'homecare.text', 'medicines.title', 'medicines.text', 'warning.title', 'warning.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
+    sections: ['intro', 'warning.title', 'warning.text', 'kittens.title', 'kittens.text', 'homecare.title', 'homecare.text', 'causes.title', 'causes.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
     prefix: 'article.diarrhea',
     sources: [
-      { text: 'Jessen LR, Werner M, Singleton D, et al. European Network for Optimization of Veterinary Antimicrobial Therapy (ENOVAT) guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal 2024;307:106208.', url: 'https://doi.org/10.1016/j.tvjl.2024.106208', label: 'doi.org' },
-      { text: 'Mohr AJ, Leisewitz AL, Jacobson LS, et al. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. Journal of Veterinary Internal Medicine 2003;17(6):791–798.', url: 'https://doi.org/10.1111/j.1939-1676.2003.tb02516.x', label: 'doi.org' },
-      { text: 'Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860.', url: 'https://doi.org/10.1111/j.1939-1676.2011.0738.x', label: 'doi.org' },
-      { text: 'Merck Veterinary Manual: Feline Hepatic Lipidosis.', url: 'https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-hepatic-lipidosis', label: 'merckvetmanual.com' },
-      { text: 'International Cat Care: Inappetence in cats.', url: 'https://icatcare.org/articles/inappetence-in-cats', label: 'icatcare.org' },
-      { text: 'Washington State University, WADDL: MDR1 in dogs.', url: 'https://waddl.vetmed.wsu.edu/mdr1-in-dogs/', label: 'waddl.vetmed.wsu.edu' },
-      { text: 'Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals.', url: 'https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-diarrhea-in-monogastric-animals', label: 'merckvetmanual.com' },
-      { text: 'CDC Healthy Pets: Dogs.', url: 'https://www.cdc.gov/healthy-pets/about/dogs.html', label: 'cdc.gov' },
-      { text: 'Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316.', url: 'https://doi.org/10.2460/javma.236.12.1308', label: 'doi.org' }
+      { text: 'O’Neill DG, Prisk LJ, Brodbelt DC, Church DB, Allerton F. Epidemiology and clinical management of acute diarrhoea in dogs under primary veterinary care in the UK. PLoS One 2025;20(6):e0324203.', url: 'https://doi.org/10.1371/journal.pone.0324203', label: 'doi.org' },
+      { text: 'University of Edinburgh, Royal (Dick) School of Veterinary Studies, DIGEST clinic: Feeding guidance for gut disease in dogs and cats (owner leaflet, 2024).', url: 'https://vet.ed.ac.uk/sites/default/files/2024-09/DIGEST%20-%20What%20is%20the%20right%20food%20for%20my%20dog%20or%20cat%20if%20they%20are%20having%20stomach%20upset%20or%20diarrhoea%20-%20information%20leaflet.docx', label: 'vet.ed.ac.uk' },
+      { text: 'PDSA PetWise Pet Health Hub: Diarrhoea in cats (owner leaflet, November 2020).', url: 'https://www.pdsa.org.uk/media/11907/phh_cat_s_diarrhoea-in-cats.pdf', label: 'pdsa.org.uk' },
+      { text: 'Maddie’s Fund: Diarrhea in Kittens and Puppies (educational handout).', url: 'https://www.maddiesfund.org/diarrhea-in-kittens-and-puppies/assets/a1zcVDRrK38e7wLJ_N-XshhdFkJ-_PQMF-educational-20-handout-20-diarrhea-20-in-20-kittens-20-and-20-puppies.pdf', label: 'maddiesfund.org' },
+      { text: 'Cornell Feline Health Center: Feline Panleukopenia Virus.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-panleukopenia-virus', label: 'vet.cornell.edu' },
+      { text: 'Cornell Feline Health Center: Feline Lower Urinary Tract Disease.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease', label: 'vet.cornell.edu' },
+      { text: 'Cornell Feline Health Center: Poisons.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons', label: 'vet.cornell.edu' },
+      { text: 'Merck Veterinary Manual (Cat Owners): Disorders of the Liver and Gallbladder in Cats.', url: 'https://www.merckvetmanual.com/cat-owners/digestive-disorders-of-cats/disorders-of-the-liver-and-gallbladder-in-cats', label: 'merckvetmanual.com' },
+      { text: 'Merck Veterinary Manual: Chronic Enteropathies in Small Animals.', url: 'https://www.merckvetmanual.com/digestive-system/diseases-of-the-small-intestine-in-small-animals/chronic-enteropathies-in-small-animals', label: 'merckvetmanual.com' },
+      { text: 'US FDA: Controlling Pain and Inflammation in Your Dog with Nonsteroidal Anti-Inflammatory Drugs (content current as of 01/06/2025).', url: 'https://www.fda.gov/animal-veterinary/animal-health-literacy/controlling-pain-and-inflammation-your-dog-nonsteroidal-anti-inflammatory-drugs', label: 'fda.gov' },
+      { text: 'WSAVA: Principles of Wellness (2025).', url: 'https://wsava.org/wp-content/uploads/2025/06/Principles-of-Wellness-FINAL.pdf', label: 'wsava.org' },
+      { text: 'ESCCAP Guideline 01: Worm Control in Dogs and Cats. 7th edition, June 2025.', url: 'https://www.esccap.org/uploads/docs/ag51r456_0778_ESCCAP_GL1__English_2026_v23.pdf', label: 'esccap.org' },
+      { text: 'ESCCAP Guideline 06: Control of Intestinal Protozoa in Dogs and Cats. 3rd edition, March 2025.', url: 'https://www.esccap.org/uploads/docs/82qb4jhx_1477_ESCCAP_GL6_Update_v3_1p.pdf', label: 'esccap.org' },
+      { text: 'Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7166426/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864.', url: 'https://doi.org/10.1111/jvim.15554', label: 'doi.org' },
+      { text: 'Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860.', url: 'https://doi.org/10.1111/j.1939-1676.2011.0738.x', label: 'doi.org' }
     ],
+    seoTitle: { fi: "Kissan, kissanpennun ja koiran ripuli – milloin soittaa?", sv: "Diarré hos katt, kattunge och hund – när till veterinären?", en: "Diarrhoea in Dogs, Cats and Kittens: When to Call the Vet" },
     metaDesc: {
-      fi: 'Ripuli koiralla ja kissalla: yleisimmät syyt, kotihoito, probiootit ja lääkkeet sekä oireet, joiden vuoksi kannattaa ottaa yhteyttä klinikkaan.',
-      sv: 'Diarré hos hund och katt: vanliga orsaker, hembehandling, probiotika och läkemedel samt tecknen på att det är dags att kontakta kliniken.',
-      en: 'Diarrhoea in dogs and cats: common causes, home care, probiotics and medicines, and the signs that mean you should contact the clinic.'
+      fi: "Kissan, kissanpennun ja koiran ripuli: milloin soittaa heti tai saman päivän aikana, mitä ruokaa antaa kotona ja miksi pennut tarvitsevat apua nopeammin.",
+      sv: "Diarré hos katt, kattunge och hund: när du ska ringa genast eller samma dag, rätt mat hemma och varför kattungar och valpar behöver hjälp snabbare.",
+      en: "Diarrhoea in dogs, cats and kittens: when to call at once or the same day, how to feed at home, and why kittens and puppies need help sooner."
     }
   },
   {

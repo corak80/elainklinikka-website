@@ -2433,9 +2433,9 @@ Kissojen terveys
 Eläinlääkärikäynti on monelle kissalle stressaava kokemus. Vieras ympäristö, oudot hajut, koirien läsnäolo ja se, ett...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Takaisin etusivulle
 
 ---
@@ -3991,7 +3991,7 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Artikkelit
 
@@ -4214,11 +4214,11 @@ Terveys
 
 Viljattomista lemmikkiruoista tuli suuri trendi, ja niitä markkinoitiin ”luonnollisempina”. Heinäkuussa 2018 Yhdysvaltain elintarvike- ja lääkevirasto FDA kuitenkin ilmoitti selvittävänsä sydänsairautta (DCM) koirilla, jotka söivät tiettyjä ruokia, joista monet olivat viljattomia. Tässä artikkelissa käymme läpi, mitä tutkimukset osoittavat – ja mitä me suosittelemme.
 Terveys
-25.9.2026
+22.11.2026
 
-### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – mutta ripuli voi olla myös merkki vakavasta sairaudesta. Kerromme, mistä ripuli johtuu, miten lemmikkiä hoidetaan kotona ja milloin kannattaa ottaa yhteyttä klinikkaan.
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Kardiologia
 27.9.2026
 
@@ -4486,9 +4486,9 @@ Lemmikkien terveys
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Takaisin etusivulle
 
 ---
@@ -5642,54 +5642,61 @@ Takaisin etusivulle
 
 ---
 
-# Ripuli koirilla ja kissoilla | Eläinklinikka Saari
+# Kissan, kissanpennun ja koiran ripuli – milloin soittaa?
 
 URL: https://elainklinikkasaari.fi/articles/ripuli.html
-Last updated: 2026-09-25
+Last updated: 2026-11-22
 
 Terveys
-25.9.2026
+22.11.2026
 
-## Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+## Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
 Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – mutta ripuli voi olla myös merkki vakavasta sairaudesta. Kerromme, mistä ripuli johtuu, miten lemmikkiä hoidetaan kotona ja milloin kannattaa ottaa yhteyttä klinikkaan.
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 
-### Yleisimmät syyt
+### Milloin soittaa?
 
-Koirilla ripuli johtuu useimmiten siitä, että koira on syönyt jotain sopimatonta, kuten roskia tai ruoantähteitä, tai ruoka on vaihdettu liian nopeasti. Kissoilla ripulin laukaisee usein äkillinen ruokavalion muutos. Muita syitä ovat suolistoloiset (esim. giardia, suolinkaiset ja kokkidit), stressi, ruoka-aineallergia tai -intoleranssi, myrkyt sekä nielaistut vierasesineet. Myös bakteeri- ja virusinfektiot ovat mahdollisia – vakavimpina parvovirus rokottamattomilla koiranpennuilla ja kissarutto (panleukopenia eli kissan parvovirus) rokottamattomilla kissanpennuilla. Ripulia, joka kestää noin kolmea viikkoa kauemmin tai uusiutuu toistuvasti, kutsutaan krooniseksi, ja sen syy on aina selvitettävä.
+Soita meille heti numeroon (06) 321 7300, jos lemmikkisi on voinut syödä jotain myrkyllistä tai nielaista vierasesineen tai jos uroskissa ponnistelee hiekkalaatikolla: virtsatietukos on hätätilanne. Soita saman päivän aikana, jos ulosteessa on verta (punaista verta tai mustaa, tervamaista ulostetta), jos lemmikki oksentaa toistuvasti, on vaisu tai heikko, sen vatsa on kipeä, ikenet ovat kuivat tai silmät ovat painuneet kuoppiinsa tai jos se ei ole suostunut syömään vuorokauteen. Soita saman päivän aikana myös, jos lemmikkisi on iäkäs, pitkäaikaissairas tai saa eläinlääkärin määräämää lääkettä – jos lääke on kipulääke, älä anna sitä enää, ennen kuin olet puhunut kanssamme. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
 
-### Kotihoito
+### Kissan- ja koiranpennut
 
-Jos aikuinen lemmikkisi on muuten virkeä, syö ja juo normaalisti eikä ripuli ole veristä, voit kokeilla kotihoitoa 24–48 tunnin ajan. Älä paastota lemmikkiä: paastoa ei enää suositella – jopa vakavaa suolistoinfektiota sairastavat koirat toipuivat nopeammin, kun ne saivat ruokaa varhaisessa vaiheessa. Etenkin kissan on jatkettava syömistä: jo muutaman päivän niukan syömisen tai syömättömyyden jälkeen kissalle – varsinkin ylipainoiselle – voi kehittyä vaarallinen maksan rasvoittuminen (hepaattinen lipidoosi). Tarjoa mietoa, vähärasvaista ja helposti sulavaa ruokaa pieninä annoksina 4–6 kertaa päivässä. Klinikalta saa Royal Canin Gastro Intestinal -ruokia koirille ja kissoille. Muutaman päivän ajan sopii myös keitetty nahaton ja luuton kana keitetyn riisin kanssa (noin yksi osa kanaa ja kaksi osaa riisiä), mutta se ei ole täysipainoinen ruokavalio pitkäaikaiseen käyttöön. Raikasta vettä on oltava aina tarjolla. Kun uloste on taas normaalia, jatka mietoa ruokavaliota vielä muutaman päivän ajan ja palaa sitten tavalliseen ruokaan vähitellen noin viikon aikana. Pese kädet ulosteiden siivoamisen jälkeen: osa ripulin aiheuttajista, kuten kampylo- ja salmonellabakteerit, voi tarttua ihmisiin. Valvo lasten käsienpesua.
+Kissanpennuilla ripuli on yleistä uuteen kotiin muuton ja ruoan vaihtamisen jälkeen sekä loisten vuoksi. Kissan- ja koiranpennut kuivuvat nopeasti: soita saman päivän aikana, jos pentu on vaisu, lakkaa syömästä, oksentaa tai sillä on vetistä tai veristä ripulia – etenkin jos se ei ole saanut kaikkia rokotuksiaan, sillä kissarutto ja parvovirus voivat olla hengenvaarallisia. Jos pirteän kissan- tai koiranpennun vatsa on löysällä, jatka ruokintaa: anna usein pieniä annoksia sen tavallista ruokaa tai helposti sulavaa pennunruokaa. Varaa aika, jos ripuli ei ole mennyt ohi päivässä tai kahdessa, ja tuo mukanasi tuore ulostenäyte: lähetämme sen laboratorioon, jossa siitä etsitään loisia, kuten giardiaa. Apteekista saatava matolääke ei tehoa kaikkiin ripulin aiheuttajiin.
 
-### Probiootit ja lääkkeet
+### Aikuisen koiran ja kissan kotihoito
 
-Eläimille tarkoitettu probiootti voi auttaa – kissoille myymme klinikalla FortiFloraa – vaikka näyttö sen hyödystä on melko vähäistä. Älä koskaan anna ihmisten lääkkeitä ilman eläinlääkärin ohjetta. Loperamidi (Imodium) voi aiheuttaa vakavia neurologisia myrkytysoireita koirille, joilla on MDR1-geenivirhe. Geenivirhe on yleinen collieilla, australianpaimenkoirilla ja shetlanninlammaskoirilla, ja sitä esiintyy myös muissa roduissa ja sekarotuisilla koirilla. Vismuttisubsalisylaattia sisältävät valmisteet (kuten ulkomailla myytävä Pepto-Bismol) voivat aiheuttaa kissalle myrkytyksen. Kansainväliset hoitosuositukset kehottavat välttämään antibiootteja koiran äkillisessä ripulissa – silloinkin, kun siinä on verta – ellei koira ole vakavasti sairas.
+Jos aikuinen lemmikkisi on muuten terve ja virkeä, voit kokeilla kotihoitoa 24–48 tunnin ajan. Älä paastota lemmikkiä, vaan anna sille pieniä annoksia usein. Ruoan pitää olla mietoa ja helposti sulavaa, ei mitään rasvaista. Myymme helposti sulavia ruokia, ja muutaman päivän ajan sopii myös keitetty kana ja riisi. Kissan täytyy jatkaa syömistä: jos kissa syö muutaman päivän vähän tai ei lainkaan, sille voi kehittyä vaarallinen maksasairaus. Tarjoa raikasta vettä, älä anna ihmisten lääkkeitä (osa niistä on lemmikeille myrkyllisiä) ja pese kätesi ulosteiden siivoamisen jälkeen. Koirille tai kissoille tarkoitettu probiootti voi lyhentää ripulin kestoa hieman, mutta näyttö sen hyödystä on heikkoa – kysy meiltä, mikä probiootti sopii. Kun uloste on taas normaalia, siirry takaisin tavalliseen ruokaan muutaman päivän aikana. Varaa aika, jos lemmikkisi vointi ei ole parantunut kahdessa päivässä tai ripuli palaa yhä uudelleen.
 
-### Milloin ottaa yhteyttä eläinlääkäriin
+### Yleisiä syitä
 
-Ota yhteyttä klinikkaan samana päivänä, jos ripulissa on verta (kirkkaanpunaista verta tai mustaa, tervamaista ulostetta); lemmikki oksentaa toistuvasti tai ei pysty pitämään vettäkään sisällään; se on vaisu tai heikko, tai sen vatsa vaikuttaa kipeältä; huomaat kuivumisen merkkejä (kuivat, tahmeat ikenet, kuoppiinsa painuneet silmät tai iho, joka palautuu hitaasti, kun sitä nostaa varovasti poimulle); lemmikki on voinut syödä jotain myrkyllistä tai vierasesineen; tai kissa ei ole syönyt yli vuorokauteen. Hiekkalaatikolla ponnistelevalla uroskissalla voi olla virtsaputken tukos – se on hätätilanne. Koiran- ja kissanpennut – etenkin rokottamattomat – tarvitsevat pikaisesti eläinlääkärin arvion: ne kuivuvat nopeasti, ja parvovirus voi olla hengenvaarallinen. Myös iäkkäät lemmikit, pienet rodut ja kroonisesti sairaat eläimet kuivuvat nopeammin. Jos ripuli ei ole helpottanut 48 tunnin kotihoidon jälkeen tai se uusiutuu, varaa aika vastaanotolle. Vinkki: valokuva ulosteesta auttaa eläinlääkäriä.
+Roskien tai ruoantähteiden syöminen, äkillinen ruoan vaihto, loiset, stressi, ruoka-allergia, jotkin lääkkeet, myrkyt, nielaistut vierasesineet, infektiot ja sairaudet muualla elimistössä. Jos ripuli kestää noin kolmea viikkoa kauemmin tai palaa yhä uudelleen, sen syy pitää selvittää.
 
 ### Ehkäisy
 
-Vaihda ruoka vähitellen 7–10 päivän aikana. Älä anna ruoantähteitä tai luita, äläkä päästä lemmikkiä roskiin. Madota lemmikki sen yksilöllisen riskin mukaan – ulostenäyte auttaa selvittämään, tarvitaanko matolääkitystä. Apteekista saa matolääkkeitä ilman reseptiä, mutta ne eivät tehoa kaikkiin ripulin aiheuttajiin – esimerkiksi giardia ja kokkidit vaativat diagnoosin ja juuri niihin tarkoitetun hoidon. Pidä rokotukset ajan tasalla. Vähennä stressiä muutostilanteissa; feromonivalmisteet (kuten kissoille tarkoitettu Feliway) voivat auttaa joitakin eläimiä, vaikka näyttö on vähäistä.
+Vaihda ruoka vähitellen noin viikon aikana ja pidä lemmikki erossa ruoantähteistä ja roskista. Madota kissan- ja koiranpennut säännöllisesti ja aikuiset eläimet niiden riskin mukaan. Pidä rokotukset ajan tasalla.
 
 ### Ota yhteyttä
 
-Jos olet epävarma, soita meille numeroon (06) 321 7300 tai lähetä sähköpostia osoitteeseen info@saarivet.fi – voit liittää mukaan valokuvia. Neuvomme, onko käynti tarpeen.
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
 
 ### Lähteet
 
-- Jessen LR, Werner M, Singleton D, et al. European Network for Optimization of Veterinary Antimicrobial Therapy (ENOVAT) guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal 2024;307:106208. doi.org/j.tvjl.2024.106208
-- Mohr AJ, Leisewitz AL, Jacobson LS, et al. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. Journal of Veterinary Internal Medicine 2003;17(6):791–798. doi.org/j.1939-1676.2003.tb02516.x
+- O’Neill DG, Prisk LJ, Brodbelt DC, Church DB, Allerton F. Epidemiology and clinical management of acute diarrhoea in dogs under primary veterinary care in the UK. PLoS One 2025;20(6):e0324203. doi.org/journal.pone.0324203
+- University of Edinburgh, Royal (Dick) School of Veterinary Studies, DIGEST clinic: Feeding guidance for gut disease in dogs and cats (owner leaflet, 2024). vet.ed.ac.uk
+- PDSA PetWise Pet Health Hub: Diarrhoea in cats (owner leaflet, November 2020). pdsa.org.uk
+- Maddie’s Fund: Diarrhea in Kittens and Puppies (educational handout). maddiesfund.org
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- Cornell Feline Health Center: Feline Lower Urinary Tract Disease. vet.cornell.edu/feline-lower-urinary-tract-disease
+- Cornell Feline Health Center: Poisons. vet.cornell.edu/poisons
+- Merck Veterinary Manual (Cat Owners): Disorders of the Liver and Gallbladder in Cats. merckvetmanual.com/disorders-of-the-liver-and-gallbladder-i
+- Merck Veterinary Manual: Chronic Enteropathies in Small Animals. merckvetmanual.com/chronic-enteropathies-in-small-animals
+- US FDA: Controlling Pain and Inflammation in Your Dog with Nonsteroidal Anti-Inflammatory Drugs (content current as of 01/06/2025). fda.gov
+- WSAVA: Principles of Wellness (2025). wsava.org
+- ESCCAP Guideline 01: Worm Control in Dogs and Cats. 7th edition, June 2025. esccap.org/ag51r456_0778_ESCCAP_GL1__English_2026_v
+- ESCCAP Guideline 06: Control of Intestinal Protozoa in Dogs and Cats. 3rd edition, March 2025. esccap.org/82qb4jhx_1477_ESCCAP_GL6_Update_v3_1p.pd
+- Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
+- Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-- Merck Veterinary Manual: Feline Hepatic Lipidosis. merckvetmanual.com/feline-hepatic-lipidosis
-- International Cat Care: Inappetence in cats. icatcare.org
-- Washington State University, WADDL: MDR1 in dogs. waddl.vetmed.wsu.edu
-- Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals. merckvetmanual.com/drugs-used-to-treat-diarrhea-in-monogast
-- CDC Healthy Pets: Dogs. cdc.gov
-- Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316. doi.org/javma.236.12.1308
 Aiheeseen liittyvät palvelumme: Sisätaudit
 
 ### Lue myös
@@ -5946,9 +5953,9 @@ Lemmikkien terveys
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Terveys
 
 #### IBD vai lymfooma? – kissan tunnetusti vaikea erotusdiagnoosi
@@ -6155,9 +6162,9 @@ Terveys
 Viljattomista lemmikkiruoista tuli suuri trendi, ja niitä markkinoitiin ”luonnollisempina”. Heinäkuussa 2018 Yhdysval...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Terveys
 
 #### IBD vai lymfooma? – kissan tunnetusti vaikea erotusdiagnoosi
@@ -7120,9 +7127,9 @@ Tähystys
 Korvatulehdus on yksi yleisimmistä syistä, joiden vuoksi koira tuodaan eläinlääkäriin. Useimpiin korvatutkimuksiin ri...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Terveys
 
 #### IBD vai lymfooma? – kissan tunnetusti vaikea erotusdiagnoosi
@@ -7373,9 +7380,9 @@ Terveys
 Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
 Terveys
 
-#### Ripuli koirilla ja kissoilla – syyt, kotihoito ja milloin ottaa yhteyttä klinikkaan
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
 
-Ripuli on yksi yleisimmistä eläinlääkärikäyntien syistä. Useimmiten se on lievää ja menee ohi muutamassa päivässä – m...
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Lemmikkien terveys
 
 #### Ruoka-allergiat koirilla ja kissoilla – oireet, diagnoosi ja eliminaatiodieetti

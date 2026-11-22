@@ -2223,9 +2223,9 @@ Katthälsa
 Ett veterinärbesök är en stressande upplevelse för många katter. En främmande miljö, okända lukter, hundar i närheten...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Tillbaka till startsidan
 
 ---
@@ -3652,7 +3652,7 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Artiklar
 
@@ -3875,11 +3875,11 @@ Hälsa
 
 Spannmålsfri djurmat blev en stor trend och marknadsfördes som mer ”naturlig”. Men i juli 2018 meddelade amerikanska livsmedels- och läkemedelsmyndigheten FDA att den inlett en utredning av hjärtsjukdom (DCM) hos hundar som ätit vissa foder, många av dem spannmålsfria. Här går vi igenom vad forskningen visar – och vad vi rekommenderar.
 Hälsa
-25.9.2026
+22.11.2026
 
-### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar – men diarré kan också vara ett tecken på allvarlig sjukdom. Här går vi igenom vad som orsakar diarré, hur du sköter ditt djur hemma och när du ska kontakta kliniken.
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sjukdom.
 Kardiologi
 27.9.2026
 
@@ -4147,9 +4147,9 @@ Husdjurshälsa
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Tillbaka till startsidan
 
 ---
@@ -5303,54 +5303,61 @@ Tillbaka till startsidan
 
 ---
 
-# Diarré hos hundar och katter | Djurklinik Saari
+# Diarré hos katt, kattunge och hund – när till veterinären?
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/diarre.html
-Last updated: 2026-09-25
+Last updated: 2026-11-22
 
 Hälsa
-25.9.2026
+22.11.2026
 
-## Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+## Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
 Veterinär Assaf Wydra, Eläinklinikka Saari
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar – men diarré kan också vara ett tecken på allvarlig sjukdom. Här går vi igenom vad som orsakar diarré, hur du sköter ditt djur hemma och när du ska kontakta kliniken.
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sjukdom.
 
-### De vanligaste orsakerna
+### När ska du ringa?
 
-Hos hundar är den vanligaste orsaken att hunden har ätit något olämpligt, till exempel skräp eller bordsrester, eller att fodret har bytts för snabbt. Hos katter är ett plötsligt foderbyte en vanlig utlösande faktor. Andra orsaker är inälvsparasiter (t.ex. giardia, spolmask och koccidier), stress, foderallergi eller -intolerans, gifter och föremål som djuret har svalt. Även bakterie- och virusinfektioner kan ligga bakom – allvarligast är parvovirus hos ovaccinerade valpar och kattpest (panleukopeni, kattens parvovirus) hos ovaccinerade kattungar. Diarré som pågår längre än ungefär tre veckor eller som återkommer gång på gång kallas kronisk och ska alltid utredas.
+Ring oss genast på (06) 321 7300 om ditt djur kan ha ätit något giftigt eller svalt ett föremål, eller om en hankatt krystar i kattlådan: urinstopp är ett akutfall. Ring samma dag om det finns blod i avföringen (rött, eller svart och tjärliknande); om djuret kräks upprepade gånger, är slött eller svagt, har ont i magen, har torrt tandkött eller insjunkna ögon, eller har vägrat äta i ett dygn; eller om djuret är äldre, har en långvarig sjukdom eller får medicin från veterinären. Om medicinen är smärtstillande ska du inte ge mer av den förrän du har pratat med oss. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
 
-### Hembehandling
+### Kattungar och valpar
 
-Om ditt vuxna djur i övrigt är piggt, äter och dricker normalt och diarrén inte är blodig, kan du prova hembehandling i 24–48 timmar. Låt inte djuret svälta: fasta rekommenderas inte längre – till och med hundar med svår tarminfektion återhämtade sig snabbare när de fick mat tidigt. Särskilt katter måste fortsätta äta: redan efter några dagar med lite eller ingen mat kan en katt – i synnerhet en överviktig katt – drabbas av farlig leverförfettning (hepatisk lipidos). Ge fettsnål och lättsmält skonkost i små portioner 4–6 gånger om dagen. Kliniken säljer Royal Canin Gastro Intestinal-foder för hundar och katter. Under några dagar går det också bra med kokt kyckling utan skinn och ben tillsammans med kokt ris (ungefär en del kyckling till två delar ris), men det är ingen fullvärdig kost på längre sikt. Se till att färskt vatten alltid finns framme. När avföringen har blivit normal fortsätter du med skonkosten i några dagar och går sedan gradvis över till det vanliga fodret under ungefär en vecka. Tvätta händerna efter att du har städat upp efter djuret – vissa orsaker, till exempel bakterierna Campylobacter och Salmonella, kan smitta till människor. Se till att barnen också tvättar händerna ordentligt.
+Diarré är vanligt hos kattungar efter flytten till ett nytt hem, efter ett foderbyte eller på grund av parasiter. Kattungar och valpar torkar snabbt ut: ring samma dag om kattungen eller valpen är slö, slutar äta, kräks eller har vattnig eller blodig diarré – särskilt om den inte är färdigvaccinerad, eftersom kattpest och parvovirus kan vara livshotande. Har en pigg kattunge eller valp mjuk avföring ska du fortsätta ge den mat: små, täta måltider av det vanliga fodret eller ett lättsmält kattunge- eller valpfoder. Boka tid om det inte har gått över inom en dag eller två, och ta med ett färskt avföringsprov: vi skickar det till ett laboratorium som undersöker om det finns parasiter, till exempel giardia. Ett maskmedel från apoteket behandlar inte alla orsaker till diarré.
 
-### Probiotika och läkemedel
+### Hembehandling för vuxna djur
 
-Probiotika för djur kan hjälpa – för katter säljer kliniken FortiFlora – även om det vetenskapliga stödet är måttligt. Ge aldrig läkemedel avsedda för människor utan att först rådfråga veterinär. Loperamid (Imodium) kan ge allvarlig förgiftning med neurologiska symtom hos hundar som bär på en mutation i MDR1-genen – den är vanlig hos collie, australian shepherd och sheltie och förekommer även hos andra raser och blandraser. Preparat som innehåller vismutsubsalicylat (t.ex. Pepto-Bismol, som säljs utomlands) kan förgifta katter. För hundar med akut diarré avråder internationella riktlinjer från antibiotika – även när diarrén innehåller blod – om inte hunden är svårt sjuk.
+Om ditt vuxna djur i övrigt är friskt och piggt kan du prova hembehandling i 24–48 timmar. Låt inte djuret fasta: ge små, täta måltider av lättsmält skonkost som inte är fet. Vi säljer lättsmälta dietfoder, och kokt kyckling och ris går också bra i några dagar. Katter måste fortsätta äta: om en katt äter lite eller ingenting i några dagar kan den få en farlig leversjukdom. Se till att det finns färskt vatten, ge inga mediciner för människor (vissa är giftiga för djur) och tvätta händerna när du har städat upp efter djuret. Probiotika avsedda för hundar eller katter kan förkorta diarrén lite, men det vetenskapliga stödet är svagt – fråga oss vilket preparat du ska välja. När avföringen är normal igen går du gradvis tillbaka till det vanliga fodret under några dagar. Boka tid om djuret inte har blivit bättre efter två dagar eller om diarrén kommer tillbaka gång på gång.
 
-### När du ska kontakta veterinären
+### Vanliga orsaker
 
-Kontakta kliniken samma dag om diarrén innehåller blod (klarrött eller svart och tjärliknande); djuret kräks upprepade gånger eller inte kan behålla vatten; djuret är slött eller svagt eller verkar ha ont i magen; du ser tecken på uttorkning (torrt, klibbigt tandkött, insjunkna ögon eller hud som långsamt faller tillbaka när du försiktigt lyfter den); djuret kan ha ätit något giftigt eller svalt ett främmande föremål; eller din katt inte har ätit på mer än ett dygn. En hankatt som krystar i kattlådan kan ha urinvägsstopp – det är ett akutfall. Valpar och kattungar – särskilt ovaccinerade – ska bedömas utan dröjsmål: de torkar snabbt ut, och parvovirus kan vara livshotande. Även äldre djur, små raser och kroniskt sjuka djur torkar ut snabbare. Om det inte blir bättre efter 48 timmars hembehandling, eller om diarrén återkommer, ska du boka tid för undersökning. Tips: ett foto av avföringen hjälper veterinären.
+Skräp eller bordsrester som djuret har ätit, ett plötsligt foderbyte, parasiter, stress, foderallergi, vissa läkemedel, gifter, svalda föremål, infektioner och sjukdomar i andra delar av kroppen. Om diarrén pågår längre än ungefär tre veckor eller kommer tillbaka gång på gång behöver orsaken utredas.
 
 ### Förebyggande
 
-Byt foder gradvis under 7–10 dagar. Undvik bordsrester, ben och tillgång till sopor. Avmaska utifrån djurets risk – ett avföringsprov hjälper till att visa om behandling behövs. Apoteken säljer avmaskningsmedel utan recept, men de behandlar inte alla orsaker till diarré – giardia och koccidier kräver till exempel en diagnos och en specifik behandling. Håll vaccinationerna uppdaterade. Minska stressen vid förändringar; feromonpreparat (t.ex. Feliway för katter) kan hjälpa en del djur, även om det vetenskapliga stödet är begränsat.
+Byt foder gradvis under ungefär en vecka, håll djuret borta från bordsrester och skräp, avmaska kattungar och valpar regelbundet och vuxna djur utifrån hur stor risken är, och se till att vaccinationerna är giltiga.
 
 ### Kontakta oss
 
-Om du är osäker kan du ringa oss på (06) 321 7300 eller skicka e-post till info@saarivet.fi – du kan bifoga foton. Vi ger råd om huruvida ett besök behövs.
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
 
 ### Källor
 
-- Jessen LR, Werner M, Singleton D, et al. European Network for Optimization of Veterinary Antimicrobial Therapy (ENOVAT) guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal 2024;307:106208. doi.org/j.tvjl.2024.106208
-- Mohr AJ, Leisewitz AL, Jacobson LS, et al. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. Journal of Veterinary Internal Medicine 2003;17(6):791–798. doi.org/j.1939-1676.2003.tb02516.x
+- O’Neill DG, Prisk LJ, Brodbelt DC, Church DB, Allerton F. Epidemiology and clinical management of acute diarrhoea in dogs under primary veterinary care in the UK. PLoS One 2025;20(6):e0324203. doi.org/journal.pone.0324203
+- University of Edinburgh, Royal (Dick) School of Veterinary Studies, DIGEST clinic: Feeding guidance for gut disease in dogs and cats (owner leaflet, 2024). vet.ed.ac.uk
+- PDSA PetWise Pet Health Hub: Diarrhoea in cats (owner leaflet, November 2020). pdsa.org.uk
+- Maddie’s Fund: Diarrhea in Kittens and Puppies (educational handout). maddiesfund.org
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- Cornell Feline Health Center: Feline Lower Urinary Tract Disease. vet.cornell.edu/feline-lower-urinary-tract-disease
+- Cornell Feline Health Center: Poisons. vet.cornell.edu/poisons
+- Merck Veterinary Manual (Cat Owners): Disorders of the Liver and Gallbladder in Cats. merckvetmanual.com/disorders-of-the-liver-and-gallbladder-i
+- Merck Veterinary Manual: Chronic Enteropathies in Small Animals. merckvetmanual.com/chronic-enteropathies-in-small-animals
+- US FDA: Controlling Pain and Inflammation in Your Dog with Nonsteroidal Anti-Inflammatory Drugs (content current as of 01/06/2025). fda.gov
+- WSAVA: Principles of Wellness (2025). wsava.org
+- ESCCAP Guideline 01: Worm Control in Dogs and Cats. 7th edition, June 2025. esccap.org/ag51r456_0778_ESCCAP_GL1__English_2026_v
+- ESCCAP Guideline 06: Control of Intestinal Protozoa in Dogs and Cats. 3rd edition, March 2025. esccap.org/82qb4jhx_1477_ESCCAP_GL6_Update_v3_1p.pd
+- Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
+- Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-- Merck Veterinary Manual: Feline Hepatic Lipidosis. merckvetmanual.com/feline-hepatic-lipidosis
-- International Cat Care: Inappetence in cats. icatcare.org
-- Washington State University, WADDL: MDR1 in dogs. waddl.vetmed.wsu.edu
-- Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals. merckvetmanual.com/drugs-used-to-treat-diarrhea-in-monogast
-- CDC Healthy Pets: Dogs. cdc.gov
-- Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316. doi.org/javma.236.12.1308
 Relaterade tjänster: Internmedicin
 
 ### Läs också
@@ -5607,9 +5614,9 @@ Husdjurshälsa
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Hälsa
 
 #### IBD eller lymfom? – en notoriskt svår differentialdiagnos hos katter
@@ -5816,9 +5823,9 @@ Hälsa
 Spannmålsfri djurmat blev en stor trend och marknadsfördes som mer ”naturlig”. Men i juli 2018 meddelade amerikanska...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Hälsa
 
 #### IBD eller lymfom? – en notoriskt svår differentialdiagnos hos katter
@@ -6781,9 +6788,9 @@ Endoskopi
 Öroninflammationer hör till de vanligaste orsakerna till att hundar kommer till veterinären. För de flesta öronunders...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Hälsa
 
 #### IBD eller lymfom? – en notoriskt svår differentialdiagnos hos katter
@@ -7034,9 +7041,9 @@ Hälsa
 Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
 Hälsa
 
-#### Diarré hos hundar och katter – orsaker, hembehandling och när du ska kontakta kliniken
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
 
-Diarré är en av de vanligaste orsakerna till veterinärbesök. De flesta fall är lindriga och går över inom några dagar...
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Husdjurshälsa
 
 #### Födoämnesallergi hos hundar och katter – symtom, diagnos och eliminationsdiet

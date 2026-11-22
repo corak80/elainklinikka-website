@@ -2232,9 +2232,9 @@ Cat Health
 A vet visit is a stressful experience for many cats. An unfamiliar environment, strange smells, the presence of dogs...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Back to homepage
 
 ---
@@ -3662,7 +3662,7 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Articles
 
@@ -3885,11 +3885,11 @@ Health
 
 Grain-free pet food became a major trend, marketed as more “natural”. But in July 2018 the US Food and Drug Administration (FDA) announced an investigation into heart disease (DCM) in dogs eating certain foods, many of them grain-free. Here we review what the research shows — and what we recommend.
 Health
-25.9.2026
+22.11.2026
 
-### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days — but diarrhoea can also be a sign of serious illness. Here is what causes it, how to care for your pet at home and when to contact the clinic.
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Cardiology
 27.9.2026
 
@@ -4157,9 +4157,9 @@ Pet Health
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Back to homepage
 
 ---
@@ -5313,54 +5313,61 @@ Back to homepage
 
 ---
 
-# Diarrhoea in Dogs and Cats | Saari Animal Clinic
+# Diarrhoea in Dogs, Cats and Kittens: When to Call the Vet
 
 URL: https://elainklinikkasaari.fi/en/articles/diarrhoea.html
-Last updated: 2026-09-25
+Last updated: 2026-11-22
 
 Health
-25.9.2026
+22.11.2026
 
-## Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+## Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
 Veterinarian Assaf Wydra, Eläinklinikka Saari
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days — but diarrhoea can also be a sign of serious illness. Here is what causes it, how to care for your pet at home and when to contact the clinic.
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 
-### Most Common Causes
+### When to Call
 
-In dogs, the most common cause is eating something unsuitable, such as rubbish or table scraps, or changing food too quickly. In cats, a sudden change of diet is a common trigger. Other causes include intestinal parasites (such as Giardia, roundworms and coccidia), stress, food allergy or intolerance, toxins and swallowed foreign objects. Bacterial and viral infections are also possible — the most serious being parvovirus in unvaccinated puppies and panleukopenia (feline parvovirus) in unvaccinated kittens. Diarrhoea that lasts longer than about three weeks or keeps coming back is called chronic and always needs investigating.
+Call us on (06) 321 7300 at once if your pet may have eaten something poisonous or swallowed an object, or if a male cat is straining in the litter tray: a blocked bladder is an emergency. Call the same day if there is blood in the stool (red, or black and tarry); your pet vomits repeatedly, is dull or weak, has a painful belly, dry gums or sunken eyes, or has refused food for a day; or your pet is elderly, has a long-term illness or takes medicine from a vet — if it is pain relief, give no more until you have spoken to us. Outside opening hours, call the regional emergency vet on 0600 399 299.
 
-### Home Care
+### Kittens and Puppies
 
-If your adult pet is otherwise bright, eating and drinking normally, and the diarrhoea is not bloody, you can try home care for 24–48 hours. Do not starve your pet: fasting is no longer recommended — even dogs with severe intestinal infection recovered faster when fed early. Cats especially must keep eating: after just a few days of eating little or nothing, a cat — particularly an overweight one — can develop dangerous fatty liver (hepatic lipidosis). Offer a bland, low-fat, easily digestible diet in small portions 4–6 times a day. The clinic sells Royal Canin Gastro Intestinal diets for dogs and cats; for a few days, boiled skinless, boneless chicken with boiled rice (about one part chicken to two parts rice) also works, but it is not a complete long-term diet. Always provide fresh water. Once the stool is normal, continue the bland diet for a few days, then return gradually to the usual food over about a week. Wash your hands after cleaning up: some causes, such as Campylobacter and Salmonella bacteria, can spread to people. Supervise children’s handwashing.
+Diarrhoea is common in kittens after the move to a new home, a change of food or because of parasites. Kittens and puppies dehydrate quickly: call the same day if the young animal is dull, stops eating, vomits, or has watery or bloody diarrhoea — especially if it is not fully vaccinated, as panleukopenia and parvovirus can be life-threatening. If a lively kitten or puppy has soft stools, keep feeding small, frequent meals of its usual food or an easily digestible kitten or puppy food. Book a visit if it has not settled within a day or two, and bring a fresh stool sample: we send it to a laboratory to check for parasites such as Giardia. A pharmacy dewormer does not treat every cause.
 
-### Probiotics and Medicines
+### Home Care for Adults
 
-A veterinary probiotic may help — for cats, the clinic sells FortiFlora — although the evidence is modest. Never give human medicines without veterinary advice. Loperamide (Imodium) can cause serious neurological poisoning in dogs carrying the MDR1 gene mutation — common in Collies, Australian Shepherds and Shelties, and also found in other breeds and crosses. Products containing bismuth subsalicylate (such as Pepto-Bismol, sold abroad) can poison cats. In dogs, international guidelines advise against antibiotics for acute diarrhoea — even when it contains blood — unless the dog is severely ill.
+If your adult pet is otherwise healthy and bright, you can try home care for 24–48 hours. Don’t withhold food: give small, frequent meals of a bland, easily digestible food, nothing fatty. We sell easily digestible diets; boiled chicken and rice also works for a few days. Cats must keep eating: a few days of eating little or nothing can cause a dangerous liver disease. Provide fresh water, don’t give human medicines (some are poisonous to pets), and wash your hands after cleaning up. A probiotic made for dogs or cats may shorten diarrhoea a little, but the evidence is weak — ask us which one. Once the stool is normal, change back to the usual food over a few days. Book a visit if your pet is no better after two days, or the diarrhoea keeps coming back.
 
-### When to Contact the Veterinarian
+### Common Causes
 
-Contact the clinic the same day if: the diarrhoea contains blood (bright red, or black and tarry); your pet vomits repeatedly or cannot keep water down; your pet is lethargic or weak, or its belly seems painful; you see signs of dehydration (dry, tacky gums, sunken eyes, or skin that is slow to fall back when gently lifted); your pet may have eaten something poisonous or a foreign object; or your cat has not eaten for more than a day. A male cat straining in the litter box may have a urinary blockage — an emergency. Puppies and kittens — especially unvaccinated ones — need prompt assessment: they dehydrate quickly, and parvovirus can be life-threatening. Elderly pets, small breeds and chronically ill animals also dehydrate faster. If there is no improvement after 48 hours of home care, or the diarrhoea recurs, book an examination. Tip: a photo of the stool helps the veterinarian.
+Eating rubbish or table scraps, a sudden change of food, parasites, stress, food allergy, some medicines, poisons, swallowed objects, infections, and illness elsewhere in the body. Diarrhoea that lasts more than about three weeks or keeps coming back needs its cause found.
 
 ### Prevention
 
-Change food gradually over 7–10 days. Avoid table scraps, bones and access to rubbish. Deworm according to your pet’s risk — a faecal sample helps show whether treatment is needed. Pharmacies sell dewormers without a prescription, but they do not treat every cause of diarrhoea — Giardia and coccidia, for example, need a diagnosis and a specific treatment. Keep vaccinations up to date. Reduce stress during changes; pheromone products (such as Feliway for cats) may help some animals, though the evidence is limited.
+Change food gradually over about a week, keep your pet away from scraps and rubbish, deworm kittens and puppies regularly and adults according to their risk, and keep vaccinations up to date.
 
 ### Contact Us
 
-If you are unsure, call us on (06) 321 7300 or email info@saarivet.fi — you can attach photos. We will advise whether a visit is needed.
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
 
 ### Sources
 
-- Jessen LR, Werner M, Singleton D, et al. European Network for Optimization of Veterinary Antimicrobial Therapy (ENOVAT) guidelines for antimicrobial use in canine acute diarrhoea. The Veterinary Journal 2024;307:106208. doi.org/j.tvjl.2024.106208
-- Mohr AJ, Leisewitz AL, Jacobson LS, et al. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. Journal of Veterinary Internal Medicine 2003;17(6):791–798. doi.org/j.1939-1676.2003.tb02516.x
+- O’Neill DG, Prisk LJ, Brodbelt DC, Church DB, Allerton F. Epidemiology and clinical management of acute diarrhoea in dogs under primary veterinary care in the UK. PLoS One 2025;20(6):e0324203. doi.org/journal.pone.0324203
+- University of Edinburgh, Royal (Dick) School of Veterinary Studies, DIGEST clinic: Feeding guidance for gut disease in dogs and cats (owner leaflet, 2024). vet.ed.ac.uk
+- PDSA PetWise Pet Health Hub: Diarrhoea in cats (owner leaflet, November 2020). pdsa.org.uk
+- Maddie’s Fund: Diarrhea in Kittens and Puppies (educational handout). maddiesfund.org
+- Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
+- Cornell Feline Health Center: Feline Lower Urinary Tract Disease. vet.cornell.edu/feline-lower-urinary-tract-disease
+- Cornell Feline Health Center: Poisons. vet.cornell.edu/poisons
+- Merck Veterinary Manual (Cat Owners): Disorders of the Liver and Gallbladder in Cats. merckvetmanual.com/disorders-of-the-liver-and-gallbladder-i
+- Merck Veterinary Manual: Chronic Enteropathies in Small Animals. merckvetmanual.com/chronic-enteropathies-in-small-animals
+- US FDA: Controlling Pain and Inflammation in Your Dog with Nonsteroidal Anti-Inflammatory Drugs (content current as of 01/06/2025). fda.gov
+- WSAVA: Principles of Wellness (2025). wsava.org
+- ESCCAP Guideline 01: Worm Control in Dogs and Cats. 7th edition, June 2025. esccap.org/ag51r456_0778_ESCCAP_GL1__English_2026_v
+- ESCCAP Guideline 06: Control of Intestinal Protozoa in Dogs and Cats. 3rd edition, March 2025. esccap.org/82qb4jhx_1477_ESCCAP_GL6_Update_v3_1p.pd
+- Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
+- Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-- Merck Veterinary Manual: Feline Hepatic Lipidosis. merckvetmanual.com/feline-hepatic-lipidosis
-- International Cat Care: Inappetence in cats. icatcare.org
-- Washington State University, WADDL: MDR1 in dogs. waddl.vetmed.wsu.edu
-- Merck Veterinary Manual: Drugs Used to Treat Diarrhea in Monogastric Animals. merckvetmanual.com/drugs-used-to-treat-diarrhea-in-monogast
-- CDC Healthy Pets: Dogs. cdc.gov
-- Frank D, Beauchamp G, Palestrini C. Systematic review of the use of pheromones for treatment of undesirable behavior in cats and dogs. JAVMA 2010;236(12):1308–1316. doi.org/javma.236.12.1308
 Related services: Internal Medicine
 
 ### Read also
@@ -5617,9 +5624,9 @@ Pet Health
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Health
 
 #### IBD or Lymphoma? — A Notoriously Difficult Differential Diagnosis in Cats
@@ -5826,9 +5833,9 @@ Health
 Grain-free pet food became a major trend, marketed as more “natural”. But in July 2018 the US Food and Drug Administr...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Health
 
 #### IBD or Lymphoma? — A Notoriously Difficult Differential Diagnosis in Cats
@@ -6791,9 +6798,9 @@ Endoscopy
 Ear infections are among the most common reasons dogs see a vet. A hand-held otoscope is enough for most ear examinat...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Health
 
 #### IBD or Lymphoma? — A Notoriously Difficult Differential Diagnosis in Cats
@@ -7044,9 +7051,9 @@ Health
 Vaccinations protect pets from serious infectious diseases. Vaccination protocols vary and change over time. We follo...
 Health
 
-#### Diarrhoea in Dogs and Cats — Causes, Home Care and When to Contact the Clinic
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
 
-Diarrhoea is one of the most common reasons for a veterinary visit. Most cases are mild and settle within a few days...
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Pet Health
 
 #### Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet
