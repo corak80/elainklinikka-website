@@ -1031,7 +1031,7 @@ Omdömena är hämtade från Googles kundomdömen och visas på denna sida i den
 # Boka tid till veterinär i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tidsbokning/
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 Ring oss
@@ -1050,7 +1050,7 @@ Svar inom ca 1 arbetsdag
 
 #### Onlinebokning
 
-Onlinebokningen är öppen dygnet runt. Välj den besöksorsak som bäst stämmer in på ditt djurs besvär. Om ingen passar, välj det allmänna alternativet för sjukbesök eller ring oss.
+Onlinebokningen är öppen dygnet runt. Välj den besöksorsak som bäst stämmer in på ditt djurs besvär. Om ingen passar, välj det allmänna alternativet för sjukbesök eller ring oss. Om du behöver avboka, gör det senast 24 timmar före besöket: senare avbokningar debiteras 30–100 €.
 
 #### När det inte kan vänta
 

@@ -6303,7 +6303,7 @@ function generateBookingPage(lang) {
         "cards": [
           {
             "h": "Verkkoajanvaraus",
-            "p": "Verkkoajanvaraus on auki ympäri vuorokauden. Valitse käynnin syy, joka vastaa parhaiten lemmikkisi vaivaa. Jos mikään syy ei sovi, valitse yleinen sairaskäynti tai soita meille."
+            "p": "Verkkoajanvaraus on auki ympäri vuorokauden. Valitse käynnin syy, joka vastaa parhaiten lemmikkisi vaivaa. Jos mikään syy ei sovi, valitse yleinen sairaskäynti tai soita meille. Jos joudut perumaan ajan, peruthan sen viimeistään 24 tuntia ennen käyntiä: myöhemmin perutuista ajoista veloitamme 30–100&nbsp;€."
           },
           {
             "h": "Kun asia ei voi odottaa",
@@ -6355,7 +6355,7 @@ function generateBookingPage(lang) {
         "cards": [
           {
             "h": "Onlinebokning",
-            "p": "Onlinebokningen är öppen dygnet runt. Välj den besöksorsak som bäst stämmer in på ditt djurs besvär. Om ingen passar, välj det allmänna alternativet för sjukbesök eller ring oss."
+            "p": "Onlinebokningen är öppen dygnet runt. Välj den besöksorsak som bäst stämmer in på ditt djurs besvär. Om ingen passar, välj det allmänna alternativet för sjukbesök eller ring oss. Om du behöver avboka, gör det senast 24 timmar före besöket: senare avbokningar debiteras 30–100&nbsp;€."
           },
           {
             "h": "När det inte kan vänta",
@@ -6407,7 +6407,7 @@ function generateBookingPage(lang) {
         "cards": [
           {
             "h": "Booking online",
-            "p": "Online booking is open around the clock. Pick the reason closest to your pet’s problem. If none fits, choose the general sick-visit option, or call us."
+            "p": "Online booking is open around the clock. Pick the reason closest to your pet’s problem. If none fits, choose the general sick-visit option, or call us. If you need to cancel, please do it at least 24 hours before your appointment: later cancellations are charged €30–100."
           },
           {
             "h": "When it can’t wait",
