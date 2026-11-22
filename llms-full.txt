@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 93 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 94 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4105,6 +4105,12 @@ Last updated: 2026-11-22
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
 Terveys
+23.11.2026
+
+### Koiran ja kissan ummetus – oireet, kotihoito ja milloin soittaa
+
+Useimmat koirat kakkaavat 1–3 kertaa päivässä ja useimmat kissat kerran tai kaksi. Lemmikillä voi olla ummetusta, jos se ponnistelee, sen kakat ovat pieniä ja kovia tai se ei ole kakannut kahteen päivään. Lievä ummetus menee usein ohi kotihoidolla, mutta ponnistelun syy voi olla vakava.
+Terveys
 22.11.2026
 
 ### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
@@ -5761,6 +5767,89 @@ Takaisin etusivulle
 
 ---
 
+# Koiran tai kissan ummetus – oireet ja kotihoito
+
+URL: https://elainklinikkasaari.fi/articles/ummetus.html
+Last updated: 2026-11-22
+
+Terveys
+23.11.2026
+
+## Koiran ja kissan ummetus – oireet, kotihoito ja milloin soittaa
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Useimmat koirat kakkaavat 1–3 kertaa päivässä ja useimmat kissat kerran tai kaksi. Lemmikillä voi olla ummetusta, jos se ponnistelee, sen kakat ovat pieniä ja kovia tai se ei ole kakannut kahteen päivään. Lievä ummetus menee usein ohi kotihoidolla, mutta ponnistelun syy voi olla vakava.
+
+### Soita heti
+
+Soita meille heti numeroon (06) 321 7300, jos uroskissa ponnistelee hiekkalaatikolla, vaikka ponnistelu näyttäisi ummetukselta: sillä voi olla virtsatietukos, joka voi tappaa sen vuorokaudessa tai kahdessa. Soita heti myös, jos lemmikkisi yrittää virtsata, mutta virtsaa ei tule, tai jos se ponnistelee ja oksentaa, sen vatsa on turvonnut tai kipeä, se on voinut nielaista luun tai esineen, se on hyvin heikko tai sen peräaukosta työntyy ulos punainen möykky tai putkimainen ulkonema. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Soita saman päivän aikana
+
+Soita saman päivän aikana, jos lemmikkisi ei ole kakannut kahteen päivään (kissanpentu yhteen päivään), ponnistelee yhä uudelleen tuloksetta, sen ulosteessa on verta tai se on ruokahaluton tai vaisu. Jos koiran- tai kissanpennulla on ummetusta, soita aina saman päivän aikana. Ponnistelu voi johtua myös virtsarakon vaivasta tai ripulista, ja kun ummetus on paha, lemmikiltä voi tulla vain vähän löysää kakkaa.
+
+### Yleisiä syitä
+
+Yleisiä syitä ovat liian vähäinen vedensaanti, luiden syöminen, nielty karva, likainen hiekkalaatikko, stressi ja nivelrikon aiheuttama kipu. Riski on suurempi, jos kissa on iäkäs, ylipainoinen tai munuaissairas. Uroskoirilla, etenkin kastroimattomilla, syynä voi olla suurentunut eturauhanen tai peräaukon viereen syntyvä tyrä (välilihatyrä).
+
+### Kotihoito
+
+Jos aikuinen lemmikkisi voi muuten hyvin, auta sitä saamaan enemmän vettä: tarjoa märkäruokaa ja vettä useasta kupista sekä joillekin kissoille juomalähteestä. Pidä hiekkalaatikko puhtaana ja harjaa pitkäkarvaista kissaa. Lenkit auttavat koiria. Älä anna koirille luita. Kuitupitoinen ruokavalio auttaa monia lemmikkejä mutta ei kaikkia, joten kysy meiltä ensin. Myymme kuitupitoisia ruokia. Älä anna mitään ulostuslääkettä, öljyä tai peräruisketta kysymättä meiltä: ihmisten ulostuslääkkeet ja jotkin ihmisten peräruiskeet voivat olla vaarallisia, etenkin kissoille. Ruiskulla suuhun annettu öljy – jopa ruokaöljy, kuten rypsiöljy – voi joutua keuhkoihin. Soita meille, jos tilanne pahenee tai kakkaa ei ole tullut kahteen päivään.
+
+### Klinikalla
+
+Voimme ottaa röntgenkuvia ja verikokeita (tulokset valmistuvat käynnin aikana), tyhjentää suolen peräruiskeella rauhoituksessa ja antaa tiputusta päivähoidossa. Lemmikki, jolla on usein ummetusta, voi tarvita erikoisruokavaliota tai lääkitystä pitkään. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- Cats Protection. How often should cats poo and pee? cats.org.uk/how-often-should-cats-poo-and-pee
+- Cats Protection. 8 tips to get your cat to drink more water. cats.org.uk/8-tips-get-your-cat-to-drink-more-water
+- PDSA Pet Health Hub. Dog constipation. pdsa.org.uk/dog-constipation
+- PDSA Pet Health Hub. Constipation in cats. pdsa.org.uk/constipation-in-cats
+- International Cat Care. Constipation in cats. icatcare.org/constipation-in-cats
+- International Cat Care. Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center. Feline Lower Urinary Tract Disease. vet.cornell.edu
+- Royal Kennel Club. Constipation in dogs. royalkennelclub.com
+- MSD Veterinary Manual. Constipation, Obstipation, and Megacolon in Small Animals. msdvetmanual.com/constipation-obstipation-and-megacolon-i
+- MSD Veterinary Manual (dog owners). Disorders of the Stomach and Intestines in Dogs. msdvetmanual.com/disorders-of-the-stomach-and-intestines-
+- MSD Veterinary Manual (cat owners). Disorders of the Stomach and Intestines in Cats. msdvetmanual.com/disorders-of-the-stomach-and-intestines- (2)
+- MSD Veterinary Manual (dog owners). Disorders of the Rectum and Anus in Dogs. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-dogs
+- MSD Veterinary Manual (cat owners). Disorders of the Rectum and Anus in Cats. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-cats
+- MSD Veterinary Manual. Rectal Prolapse in Animals. msdvetmanual.com/rectal-prolapse-in-animals
+- MSD Veterinary Manual. Perineal Hernia in Dogs. msdvetmanual.com/perineal-hernia-in-dogs
+- MSD Veterinary Manual. Benign Prostatic Hyperplasia in Dogs. msdvetmanual.com/benign-prostatic-hyperplasia-in-dogs
+- Jones SE, Quimby JM, Summers SC, et al. Survey of defecation habits in apparently healthy and chronic kidney disease cats. J Feline Med Surg 2022;24(2):131–141. pubmed.ncbi.nlm.nih.gov/34013812
+- Benjamin SE, Drobatz KJ. Retrospective evaluation of risk factors and treatment outcome predictors in cats presenting to the emergency room for constipation. J Feline Med Surg 2020;22(2):153–160. pubmed.ncbi.nlm.nih.gov/30834807
+- Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
+- Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
+- van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
+Aiheeseen liittyvät palvelumme: Sisätaudit
+
+### Lue myös
+
+Terveys
+
+#### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
+
+Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa....
+Terveys
+
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
+Lemmikkien terveys
+
+#### Kissan munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
+
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, on yksi iäkkäiden kissojen yleisimmistä sairauksis...
+Takaisin etusivulle
+
+---
+
 # Koira tai kissa oksentaa – kotihoito ja milloin soittaa
 
 URL: https://elainklinikkasaari.fi/articles/oksentelu.html
@@ -5912,16 +6001,16 @@ Terveys
 #### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
 
 Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa....
+Terveys
+
+#### Koiran ja kissan ummetus – oireet, kotihoito ja milloin soittaa
+
+Useimmat koirat kakkaavat 1–3 kertaa päivässä ja useimmat kissat kerran tai kaksi. Lemmikillä voi olla ummetusta, jos...
 Lemmikkien terveys
 
 #### Ruoka-allergiat koirilla ja kissoilla – oireet, diagnoosi ja eliminaatiodieetti
 
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
-Tähystys
-
-#### Gastroskopia – mahalaukun tutkimus ja vierasesineiden poisto tähystimellä
-
-Gastroskopia on tähystystutkimus, jossa taipuisa, kameralla varustettu tähystin (endoskooppi) viedään suun kautta ruo...
 Takaisin etusivulle
 
 ---

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 87 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 88 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3776,6 +3776,12 @@ Last updated: 2026-11-22
 Veterinary articles from the professionals
 Search articles...
 Health
+23.11.2026
+
+### Constipation in Dogs and Cats — Signs, Home Care and When to Call
+
+Most dogs poo one to three times a day and most cats once or twice. Straining, small hard poo or no poo for two days can mean constipation. Mild cases often settle at home, but straining can mean something serious.
+Health
 22.11.2026
 
 ### Vomiting in Dogs and Cats — When to Call and What to Do at Home
@@ -5432,6 +5438,89 @@ Back to homepage
 
 ---
 
+# Dog or Cat Constipation: Signs, Home Care, When to Call
+
+URL: https://elainklinikkasaari.fi/en/articles/constipation.html
+Last updated: 2026-11-22
+
+Health
+23.11.2026
+
+## Constipation in Dogs and Cats — Signs, Home Care and When to Call
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+Most dogs poo one to three times a day and most cats once or twice. Straining, small hard poo or no poo for two days can mean constipation. Mild cases often settle at home, but straining can mean something serious.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if a male cat strains in the litter tray, even if it looks like constipation: his bladder may be blocked, which can kill him within a day or two. Also call at once if your pet tries to pee but nothing comes out, strains and vomits, has a swollen or painful belly, may have swallowed a bone or an object, is very weak, or has a red lump or tube sticking out of its bottom. Outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### Call the Same Day
+
+Call us the same day if your pet has not pooed for two days (a kitten: one day), keeps straining without result, has blood in its poo or is off its food or dull, and for any constipated puppy or kitten. Straining can also be a bladder problem or diarrhoea, and a badly constipated pet may pass only a little runny poo.
+
+### Common Causes
+
+Common causes are too little water, eating bones or hair, a dirty litter tray, stress and arthritis pain. Older or overweight cats and cats with kidney disease are more at risk. In male dogs, especially uncastrated ones, an enlarged prostate or a hernia beside the bottom can be the cause.
+
+### Home Care
+
+If your adult pet is otherwise well, help it get more water: wet food, several water bowls and, for some cats, a fountain. Keep the litter tray clean and brush long-haired cats. Walks help dogs; don’t give them bones. A high-fibre diet helps many pets but not all, so ask us first; we sell these diets. Don’t give any laxative, oil or enema without asking us: laxatives and some enemas made for people can be dangerous, especially for cats. Oil syringed into the mouth, even cooking oil, can go into the lungs. Call us if it gets worse or two days pass without a poo.
+
+### At the Clinic
+
+We can take X-rays and blood tests (results during the visit), empty the bowel with an enema under sedation and give a drip in day care. A pet that is often constipated may need a special diet or medicine long-term. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- Cats Protection. How often should cats poo and pee? cats.org.uk/how-often-should-cats-poo-and-pee
+- Cats Protection. 8 tips to get your cat to drink more water. cats.org.uk/8-tips-get-your-cat-to-drink-more-water
+- PDSA Pet Health Hub. Dog constipation. pdsa.org.uk/dog-constipation
+- PDSA Pet Health Hub. Constipation in cats. pdsa.org.uk/constipation-in-cats
+- International Cat Care. Constipation in cats. icatcare.org/constipation-in-cats
+- International Cat Care. Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center. Feline Lower Urinary Tract Disease. vet.cornell.edu
+- Royal Kennel Club. Constipation in dogs. royalkennelclub.com
+- MSD Veterinary Manual. Constipation, Obstipation, and Megacolon in Small Animals. msdvetmanual.com/constipation-obstipation-and-megacolon-i
+- MSD Veterinary Manual (dog owners). Disorders of the Stomach and Intestines in Dogs. msdvetmanual.com/disorders-of-the-stomach-and-intestines-
+- MSD Veterinary Manual (cat owners). Disorders of the Stomach and Intestines in Cats. msdvetmanual.com/disorders-of-the-stomach-and-intestines- (2)
+- MSD Veterinary Manual (dog owners). Disorders of the Rectum and Anus in Dogs. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-dogs
+- MSD Veterinary Manual (cat owners). Disorders of the Rectum and Anus in Cats. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-cats
+- MSD Veterinary Manual. Rectal Prolapse in Animals. msdvetmanual.com/rectal-prolapse-in-animals
+- MSD Veterinary Manual. Perineal Hernia in Dogs. msdvetmanual.com/perineal-hernia-in-dogs
+- MSD Veterinary Manual. Benign Prostatic Hyperplasia in Dogs. msdvetmanual.com/benign-prostatic-hyperplasia-in-dogs
+- Jones SE, Quimby JM, Summers SC, et al. Survey of defecation habits in apparently healthy and chronic kidney disease cats. J Feline Med Surg 2022;24(2):131–141. pubmed.ncbi.nlm.nih.gov/34013812
+- Benjamin SE, Drobatz KJ. Retrospective evaluation of risk factors and treatment outcome predictors in cats presenting to the emergency room for constipation. J Feline Med Surg 2020;22(2):153–160. pubmed.ncbi.nlm.nih.gov/30834807
+- Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
+- Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
+- van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
+Related services: Internal Medicine
+
+### Read also
+
+Health
+
+#### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+Pet Health
+
+#### Chronic Kidney Disease in Cats — Symptoms, Stages, Treatment and Life Expectancy
+
+Chronic kidney disease (CKD), often called kidney failure, is one of the most common illnesses of older cats. Studies...
+Back to homepage
+
+---
+
 # Dog or Cat Vomiting? When to Call the Vet and Home Care
 
 URL: https://elainklinikkasaari.fi/en/articles/vomiting.html
@@ -5583,16 +5672,16 @@ Health
 #### Vomiting in Dogs and Cats — When to Call and What to Do at Home
 
 An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
+Health
+
+#### Constipation in Dogs and Cats — Signs, Home Care and When to Call
+
+Most dogs poo one to three times a day and most cats once or twice. Straining, small hard poo or no poo for two days...
 Pet Health
 
 #### Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet
 
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
-Endoscopy
-
-#### Gastroscopy — Stomach Examination and Foreign Body Removal with an Endoscope
-
-Gastroscopy is an examination in which a flexible camera tube (endoscope) is passed through the mouth into the esopha...
 Back to homepage
 
 ---

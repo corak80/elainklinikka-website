@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 87 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 88 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3766,6 +3766,12 @@ Last updated: 2026-11-22
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
 Hälsa
+23.11.2026
+
+### Förstoppning hos hund och katt – symtom, vård hemma och när du ska ringa
+
+De flesta hundar bajsar en till tre gånger om dagen och de flesta katter en eller två gånger. Krystningar, små och hårda bajskorvar eller två dagar utan avföring kan tyda på förstoppning. Lindrig förstoppning går ofta över med vård hemma, men krystningar kan vara ett tecken på något allvarligt.
+Hälsa
 22.11.2026
 
 ### Kräkningar hos hund och katt – vård hemma och när du ska ringa
@@ -5422,6 +5428,89 @@ Tillbaka till startsidan
 
 ---
 
+# Förstoppning hos hund eller katt – symtom och vård hemma
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/forstoppning.html
+Last updated: 2026-11-22
+
+Hälsa
+23.11.2026
+
+## Förstoppning hos hund och katt – symtom, vård hemma och när du ska ringa
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+De flesta hundar bajsar en till tre gånger om dagen och de flesta katter en eller två gånger. Krystningar, små och hårda bajskorvar eller två dagar utan avföring kan tyda på förstoppning. Lindrig förstoppning går ofta över med vård hemma, men krystningar kan vara ett tecken på något allvarligt.
+
+### Ring genast
+
+Ring oss genast på (06) 321 7300 om en hankatt krystar i kattlådan, även om det ser ut som förstoppning: katten kan ha urinstopp, som kan döda den inom ett eller två dygn. Ring också genast om ditt djur försöker kissa men inte får ut något, krystar och kräks, har svullen eller öm mage, kan ha svalt ett ben eller ett föremål, är mycket svagt eller har en röd klump eller ett rött rör som sticker ut ur analöppningen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Ring samma dag
+
+Ring oss samma dag om ditt djur inte har bajsat på två dagar (en kattunge: en dag), krystar gång på gång utan resultat, har blod i avföringen, äter dåligt eller är slött, och alltid om en valp eller kattunge är förstoppad. Krystningar kan också bero på problem med urinblåsan eller på diarré, och ett djur med svår förstoppning kan få ut bara lite lös avföring.
+
+### Vanliga orsaker
+
+Vanliga orsaker är för lite vatten, ben eller hår som djuret har fått i sig, en smutsig kattlåda, stress och artrossmärta. Äldre eller överviktiga katter och katter med njursjukdom löper större risk. Hos hanhundar, särskilt okastrerade, kan en förstorad prostata eller ett bråck bredvid analöppningen vara orsaken.
+
+### Vård hemma
+
+Om ditt vuxna djur i övrigt är friskt hjälper du det att få i sig mer vatten: våtfoder, flera vattenskålar och, för vissa katter, en dricksfontän. Håll kattlådan ren och borsta långhåriga katter. Promenader hjälper hundar, men ge dem inga ben. Fiberrikt foder hjälper många djur men inte alla, så fråga oss först – vi säljer sådant foder. Ge inga laxermedel, oljor eller lavemang utan att fråga oss: laxermedel och vissa lavemang avsedda för människor kan vara farliga, särskilt för katter. Olja som sprutas in i munnen, även matolja, kan hamna i lungorna. Ring oss om det blir värre eller om djuret inte har bajsat på två dagar.
+
+### På kliniken
+
+Vi kan ta röntgenbilder och blodprov (svaren får du under besöket), tömma tarmen med lavemang under sedering och ge dropp på dagvård. Ett djur som ofta är förstoppat kan behöva dietfoder eller medicin under lång tid. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Cats Protection. How often should cats poo and pee? cats.org.uk/how-often-should-cats-poo-and-pee
+- Cats Protection. 8 tips to get your cat to drink more water. cats.org.uk/8-tips-get-your-cat-to-drink-more-water
+- PDSA Pet Health Hub. Dog constipation. pdsa.org.uk/dog-constipation
+- PDSA Pet Health Hub. Constipation in cats. pdsa.org.uk/constipation-in-cats
+- International Cat Care. Constipation in cats. icatcare.org/constipation-in-cats
+- International Cat Care. Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
+- Cornell Feline Health Center. Feline Lower Urinary Tract Disease. vet.cornell.edu
+- Royal Kennel Club. Constipation in dogs. royalkennelclub.com
+- MSD Veterinary Manual. Constipation, Obstipation, and Megacolon in Small Animals. msdvetmanual.com/constipation-obstipation-and-megacolon-i
+- MSD Veterinary Manual (dog owners). Disorders of the Stomach and Intestines in Dogs. msdvetmanual.com/disorders-of-the-stomach-and-intestines-
+- MSD Veterinary Manual (cat owners). Disorders of the Stomach and Intestines in Cats. msdvetmanual.com/disorders-of-the-stomach-and-intestines- (2)
+- MSD Veterinary Manual (dog owners). Disorders of the Rectum and Anus in Dogs. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-dogs
+- MSD Veterinary Manual (cat owners). Disorders of the Rectum and Anus in Cats. msdvetmanual.com/disorders-of-the-rectum-and-anus-in-cats
+- MSD Veterinary Manual. Rectal Prolapse in Animals. msdvetmanual.com/rectal-prolapse-in-animals
+- MSD Veterinary Manual. Perineal Hernia in Dogs. msdvetmanual.com/perineal-hernia-in-dogs
+- MSD Veterinary Manual. Benign Prostatic Hyperplasia in Dogs. msdvetmanual.com/benign-prostatic-hyperplasia-in-dogs
+- Jones SE, Quimby JM, Summers SC, et al. Survey of defecation habits in apparently healthy and chronic kidney disease cats. J Feline Med Surg 2022;24(2):131–141. pubmed.ncbi.nlm.nih.gov/34013812
+- Benjamin SE, Drobatz KJ. Retrospective evaluation of risk factors and treatment outcome predictors in cats presenting to the emergency room for constipation. J Feline Med Surg 2020;22(2):153–160. pubmed.ncbi.nlm.nih.gov/30834807
+- Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
+- Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
+- van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
+Relaterade tjänster: Internmedicin
+
+### Läs också
+
+Hälsa
+
+#### Kräkningar hos hund och katt – vård hemma och när du ska ringa
+
+En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar...
+Hälsa
+
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
+Husdjurshälsa
+
+#### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter. Studier t...
+Tillbaka till startsidan
+
+---
+
 # Hund eller katt som kräks – veterinär eller vård hemma?
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/krakningar.html
@@ -5573,16 +5662,16 @@ Hälsa
 #### Kräkningar hos hund och katt – vård hemma och när du ska ringa
 
 En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar...
+Hälsa
+
+#### Förstoppning hos hund och katt – symtom, vård hemma och när du ska ringa
+
+De flesta hundar bajsar en till tre gånger om dagen och de flesta katter en eller två gånger. Krystningar, små och hå...
 Husdjurshälsa
 
 #### Födoämnesallergi hos hundar och katter – symtom, diagnos och eliminationsdiet
 
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
-Endoskopi
-
-#### Gastroskopi – magsäcksundersökning och avlägsnande av främmande föremål med endoskop
-
-Gastroskopi är en undersökning där ett böjligt kamerarör (endoskop) förs in genom munnen till matstrupen, magsäcken o...
 Tillbaka till startsidan
 
 ---

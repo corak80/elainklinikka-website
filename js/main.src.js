@@ -1655,6 +1655,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
   },
 
+  // Article: Constipation in dogs and cats (new 2026-11)
+  "article.constipation.title": {
+    fi: "Koiran ja kissan ummetus – oireet, kotihoito ja milloin soittaa",
+    sv: "Förstoppning hos hund och katt – symtom, vård hemma och när du ska ringa",
+    en: "Constipation in Dogs and Cats — Signs, Home Care and When to Call"
+  },
+  "article.constipation.intro": {
+    fi: "Useimmat koirat kakkaavat 1–3 kertaa päivässä ja useimmat kissat kerran tai kaksi. Lemmikillä voi olla ummetusta, jos se ponnistelee, sen kakat ovat pieniä ja kovia tai se ei ole kakannut kahteen päivään. Lievä ummetus menee usein ohi kotihoidolla, mutta ponnistelun syy voi olla vakava.",
+    sv: "De flesta hundar bajsar en till tre gånger om dagen och de flesta katter en eller två gånger. Krystningar, små och hårda bajskorvar eller två dagar utan avföring kan tyda på förstoppning. Lindrig förstoppning går ofta över med vård hemma, men krystningar kan vara ett tecken på något allvarligt.",
+    en: "Most dogs poo one to three times a day and most cats once or twice. Straining, small hard poo or no poo for two days can mean constipation. Mild cases often settle at home, but straining can mean something serious."
+  },
+  "article.constipation.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.constipation.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos uroskissa ponnistelee hiekkalaatikolla, vaikka ponnistelu näyttäisi ummetukselta: sillä voi olla virtsatietukos, joka voi tappaa sen vuorokaudessa tai kahdessa. Soita heti myös, jos lemmikkisi yrittää virtsata, mutta virtsaa ei tule, tai jos se ponnistelee ja oksentaa, sen vatsa on turvonnut tai kipeä, se on voinut nielaista luun tai esineen, se on hyvin heikko tai sen peräaukosta työntyy ulos punainen möykky tai putkimainen ulkonema. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring oss genast på (06) 321 7300 om en hankatt krystar i kattlådan, även om det ser ut som förstoppning: katten kan ha urinstopp, som kan döda den inom ett eller två dygn. Ring också genast om ditt djur försöker kissa men inte får ut något, krystar och kräks, har svullen eller öm mage, kan ha svalt ett ben eller ett föremål, är mycket svagt eller har en röd klump eller ett rött rör som sticker ut ur analöppningen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call us on (06) 321 7300 at once if a male cat strains in the litter tray, even if it looks like constipation: his bladder may be blocked, which can kill him within a day or two. Also call at once if your pet tries to pee but nothing comes out, strains and vomits, has a swollen or painful belly, may have swallowed a bone or an object, is very weak, or has a red lump or tube sticking out of its bottom. Outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.constipation.sameday.title": {
+    fi: "Soita saman päivän aikana",
+    sv: "Ring samma dag",
+    en: "Call the Same Day"
+  },
+  "article.constipation.sameday.text": {
+    fi: "Soita saman päivän aikana, jos lemmikkisi ei ole kakannut kahteen päivään (kissanpentu yhteen päivään), ponnistelee yhä uudelleen tuloksetta, sen ulosteessa on verta tai se on ruokahaluton tai vaisu. Jos koiran- tai kissanpennulla on ummetusta, soita aina saman päivän aikana. Ponnistelu voi johtua myös virtsarakon vaivasta tai ripulista, ja kun ummetus on paha, lemmikiltä voi tulla vain vähän löysää kakkaa.",
+    sv: "Ring oss samma dag om ditt djur inte har bajsat på två dagar (en kattunge: en dag), krystar gång på gång utan resultat, har blod i avföringen, äter dåligt eller är slött, och alltid om en valp eller kattunge är förstoppad. Krystningar kan också bero på problem med urinblåsan eller på diarré, och ett djur med svår förstoppning kan få ut bara lite lös avföring.",
+    en: "Call us the same day if your pet has not pooed for two days (a kitten: one day), keeps straining without result, has blood in its poo or is off its food or dull, and for any constipated puppy or kitten. Straining can also be a bladder problem or diarrhoea, and a badly constipated pet may pass only a little runny poo."
+  },
+  "article.constipation.causes.title": {
+    fi: "Yleisiä syitä",
+    sv: "Vanliga orsaker",
+    en: "Common Causes"
+  },
+  "article.constipation.causes.text": {
+    fi: "Yleisiä syitä ovat liian vähäinen vedensaanti, luiden syöminen, nielty karva, likainen hiekkalaatikko, stressi ja nivelrikon aiheuttama kipu. Riski on suurempi, jos kissa on iäkäs, ylipainoinen tai munuaissairas. Uroskoirilla, etenkin kastroimattomilla, syynä voi olla suurentunut eturauhanen tai peräaukon viereen syntyvä tyrä (välilihatyrä).",
+    sv: "Vanliga orsaker är för lite vatten, ben eller hår som djuret har fått i sig, en smutsig kattlåda, stress och artrossmärta. Äldre eller överviktiga katter och katter med njursjukdom löper större risk. Hos hanhundar, särskilt okastrerade, kan en förstorad prostata eller ett bråck bredvid analöppningen vara orsaken.",
+    en: "Common causes are too little water, eating bones or hair, a dirty litter tray, stress and arthritis pain. Older or overweight cats and cats with kidney disease are more at risk. In male dogs, especially uncastrated ones, an enlarged prostate or a hernia beside the bottom can be the cause."
+  },
+  "article.constipation.homecare.title": {
+    fi: "Kotihoito",
+    sv: "Vård hemma",
+    en: "Home Care"
+  },
+  "article.constipation.homecare.text": {
+    fi: "Jos aikuinen lemmikkisi voi muuten hyvin, auta sitä saamaan enemmän vettä: tarjoa märkäruokaa ja vettä useasta kupista sekä joillekin kissoille juomalähteestä. Pidä hiekkalaatikko puhtaana ja harjaa pitkäkarvaista kissaa. Lenkit auttavat koiria. Älä anna koirille luita. Kuitupitoinen ruokavalio auttaa monia lemmikkejä mutta ei kaikkia, joten kysy meiltä ensin. Myymme kuitupitoisia ruokia. Älä anna mitään ulostuslääkettä, öljyä tai peräruisketta kysymättä meiltä: ihmisten ulostuslääkkeet ja jotkin ihmisten peräruiskeet voivat olla vaarallisia, etenkin kissoille. Ruiskulla suuhun annettu öljy – jopa ruokaöljy, kuten rypsiöljy – voi joutua keuhkoihin. Soita meille, jos tilanne pahenee tai kakkaa ei ole tullut kahteen päivään.",
+    sv: "Om ditt vuxna djur i övrigt är friskt hjälper du det att få i sig mer vatten: våtfoder, flera vattenskålar och, för vissa katter, en dricksfontän. Håll kattlådan ren och borsta långhåriga katter. Promenader hjälper hundar, men ge dem inga ben. Fiberrikt foder hjälper många djur men inte alla, så fråga oss först – vi säljer sådant foder. Ge inga laxermedel, oljor eller lavemang utan att fråga oss: laxermedel och vissa lavemang avsedda för människor kan vara farliga, särskilt för katter. Olja som sprutas in i munnen, även matolja, kan hamna i lungorna. Ring oss om det blir värre eller om djuret inte har bajsat på två dagar.",
+    en: "If your adult pet is otherwise well, help it get more water: wet food, several water bowls and, for some cats, a fountain. Keep the litter tray clean and brush long-haired cats. Walks help dogs; don’t give them bones. A high-fibre diet helps many pets but not all, so ask us first; we sell these diets. Don’t give any laxative, oil or enema without asking us: laxatives and some enemas made for people can be dangerous, especially for cats. Oil syringed into the mouth, even cooking oil, can go into the lungs. Call us if it gets worse or two days pass without a poo."
+  },
+  "article.constipation.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.constipation.clinic.text": {
+    fi: "Voimme ottaa röntgenkuvia ja verikokeita (tulokset valmistuvat käynnin aikana), tyhjentää suolen peräruiskeella rauhoituksessa ja antaa tiputusta päivähoidossa. Lemmikki, jolla on usein ummetusta, voi tarvita erikoisruokavaliota tai lääkitystä pitkään. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.",
+    sv: "Vi kan ta röntgenbilder och blodprov (svaren får du under besöket), tömma tarmen med lavemang under sedering och ge dropp på dagvård. Ett djur som ofta är förstoppat kan behöva dietfoder eller medicin under lång tid. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.",
+    en: "We can take X-rays and blood tests (results during the visit), empty the bowel with an enema under sedation and give a drip in day care. A pet that is often constipated may need a special diet or medicine long-term. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us."
+  },
+  "article.constipation.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.constipation.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4482,6 +4554,7 @@ function setLanguage(lang) {
     'ripuli': { sv: 'diarre', en: 'diarrhoea' },
     'oksentelu': { sv: 'krakningar', en: 'vomiting' },
     'valeraskaus': { sv: 'skendraktighet', en: 'false-pregnancy' },
+    'ummetus': { sv: 'forstoppning', en: 'constipation' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },
