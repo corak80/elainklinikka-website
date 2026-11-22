@@ -390,8 +390,8 @@ Cruciate ligament TTA <20kg €1,703
 Cruciate ligament TTA >20kg €1,803
 Patellar luxation, cat €953
 Patellar luxation, dog €1,103–1,403
-Femoral head ostectomy, cat €953
-Femoral head ostectomy, dog €1,203
+Femoral head ostectomy (hip surgery), cat €953
+Femoral head ostectomy (hip surgery), dog €1,203
 Toe amputation €593
 Tail amputation €573
 Fracture surgery €1,203–2,003
@@ -2296,7 +2296,7 @@ Back to homepage
 # Kennel Club Health Examinations, Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/official-examinations/
-Last updated: 2026-11-19
+Last updated: 2026-11-22
 
 Back to homepage
 
@@ -2324,6 +2324,7 @@ Please book official examinations in advance. Before the visit, order the electr
 
 ### Frequently asked questions about official examinations
 
+How much do hip X-rays cost? Hip X-rays cost €183 for a dog under 20 kg, €193 for 20–40 kg and €233 over 40 kg. Elbow X-rays at the same visit cost €63 more.
 At what age are official examinations performed? Hip and elbow X-rays can be taken from 12 months of age; in some breeds the PEVISA programme sets the limit at 18 months. In the spine X-ray, transitional vertebra (LTV) and vertebral anomalies (VA) are assessed from 12 months, and spondylosis from 24 months, as are calcified discs (IDD), which are assessed only in certain breeds. Patella examinations and official heart auscultation can be done from 12 months. For the official heart ultrasound, the limit is 24 months for acquired heart disease, with no lower limit for congenital heart disease. Some breeds’ PEVISA programmes set different limits, so check your breed’s requirements.
 How long are results valid? X-ray results do not expire, but a dog can be X-rayed again after a set interval, and the new result may change the old one; some spine results can be given only once. A patella result given before three years of age is valid for two years; one given at three years or older does not expire. A heart auscultation result with no murmur, and an ultrasound result with no acquired heart disease, are valid for 12 months; an ultrasound result with no congenital heart disease given at 12 months or older does not need renewing. A breed’s PEVISA programme can set its own validity periods. Results are recorded in the Kennel Club’s breeding database (KoiraNet), where anyone can see them.
 
@@ -3154,7 +3155,7 @@ Back to homepage
 # Orthopaedic Surgery for Pets in Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/orthopedics/
-Last updated: 2026-10-31
+Last updated: 2026-11-22
 
 Back to homepage
 
@@ -3181,6 +3182,7 @@ Our clinic holds Finnish Kennel Club approval for official hip, elbow, and spina
 
 How much does cruciate ligament surgery cost? Cruciate ligament repair using the lateral suture method costs €953 for cats and €1,203 for dogs. TTA surgery costs €1,703 (dogs under 20 kg) or €1,803 (dogs over 20 kg). The price includes anaesthesia, surgery, medication and supplies, and stitch removal. Follow-up visits are charged separately.
 How much does fracture surgery cost? Fracture surgery costs between €1,203 and €2,003 depending on the fracture type, location, and fixation method (plates, screws, or external fixator). You receive an exact price estimate after radiographic and clinical examination.
+How much does hip surgery cost? Femoral head ostectomy (FHO) costs €953 for a cat and €1,203 for a dog. You get a price estimate before surgery.
 How much do official radiographic examinations cost? Hip, elbow, and spine radiographs cost €302 (dogs under 40 kg or up to 3 spine images) or €362 (dogs over 40 kg or more spine images). The price includes light sedation and submission of the images to the Finnish Kennel Club assessor.
 Can I get a price estimate before surgery? Yes. You get a price estimate before you decide on surgery, so you can plan the costs in advance.
 How long is the recovery period after surgery? It depends on the procedure. After cruciate ligament surgery (TTA or lateral suture), exercise is strictly restricted for the first 6–8 weeks, and most dogs are back to normal exercise in about 3–4 months. Fracture surgery recovery typically takes 6–12 weeks. Rehabilitation and check-up visits are an essential part of recovery.

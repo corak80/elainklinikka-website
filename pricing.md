@@ -66,8 +66,8 @@ Suture removal is included in surgery prices.
 - Cruciate ligament surgery, TTA, over 20 kg: 1,803 €
 - Patellar luxation surgery, cat: 953 €
 - Patellar luxation surgery, dog: 1,103–1,403 €
-- Femoral head ostectomy, cat: 953 €
-- Femoral head ostectomy, dog: 1,203 €
+- Femoral head ostectomy (hip surgery), cat: 953 €
+- Femoral head ostectomy (hip surgery), dog: 1,203 €
 - Toe amputation: 593 €
 - Tail amputation: 573 €
 - Fracture surgery: 1,203–2,003 €

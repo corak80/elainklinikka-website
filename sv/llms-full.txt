@@ -390,8 +390,8 @@ Korsbandsoperation TTA <20kg 1 703 €
 Korsbandsoperation TTA >20kg 1 803 €
 Patellaluxation, katt 953 €
 Patellaluxation, hund 1 103–1 403 €
-Lårbenshuvudresektion, katt 953 €
-Lårbenshuvudresektion, hund 1 203 €
+Lårbenshuvudresektion (höftoperation), katt 953 €
+Lårbenshuvudresektion (höftoperation), hund 1 203 €
 Tåamputation 593 €
 Svansamputation 573 €
 Frakturkirurgi 1 203–2 003 €
@@ -2287,7 +2287,7 @@ Tillbaka till startsidan
 # Officiella hälsoundersökningar i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/officiella-undersokningar/
-Last updated: 2026-11-19
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 
@@ -2315,6 +2315,7 @@ Boka officiella undersökningar i förväg. Beställ före besöket en elektroni
 
 ### Vanliga frågor om officiella undersökningar
 
+Vad kostar höftröntgen? Höftröntgen kostar 183 € för hundar under 20 kg, 193 € för hundar på 20–40 kg och 233 € för hundar över 40 kg. Armbågsröntgen vid samma besök kostar 63 € extra.
 Vid vilken ålder görs officiella undersökningar? Höft- och armbågsröntgen kan tas från 12 månaders ålder; hos vissa raser sätter PEVISA-programmet gränsen vid 18 månader. Vid ryggröntgen bedöms övergångskota (LTV) och kotmissbildningar (VA) från 12 månaders ålder och spondylos från 24 månader, liksom förkalkade diskar (IDD), som bedöms bara hos vissa raser. Patellaundersökningar och officiell hjärtauskultation kan göras från 12 månaders ålder. För den officiella ultraljudsundersökningen av hjärtat är gränsen 24 månader för förvärvade hjärtsjukdomar, medan det inte finns någon nedre gräns för medfödda hjärtsjukdomar. Vissa rasers PEVISA-program har andra gränser, så kontrollera kraven för din ras.
 Hur länge gäller resultaten? Röntgenresultat upphör inte att gälla, men hunden kan röntgas på nytt efter en fastställd tid, och det nya resultatet kan ändra det gamla. Vissa ryggresultat kan ges bara en gång. Ett patellaresultat som ges innan hunden fyllt tre år gäller i två år; ett som ges när hunden är tre år eller äldre upphör inte att gälla. Ett hjärtauskultationsresultat utan blåsljud och ett ultraljudsresultat utan förvärvad hjärtsjukdom gäller i 12 månader. Ett ultraljudsresultat utan medfödd hjärtsjukdom behöver inte förnyas om det ges när hunden är 12 månader eller äldre. Rasens PEVISA-program kan fastställa egna giltighetstider. Resultaten registreras i Kennelklubbens avelsdatasystem (KoiraNet), där vem som helst kan se dem.
 
@@ -3145,7 +3146,7 @@ Tillbaka till startsidan
 # Ortopedi i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/ortopedi/
-Last updated: 2026-10-31
+Last updated: 2026-11-22
 
 Tillbaka till startsidan
 
@@ -3172,6 +3173,7 @@ Vår klinik har Finska Kennelklubbens godkännande för officiella höft-, armb�
 
 Vad kostar en korsbandsoperation? En korsbandsoperation med lateral sutur kostar 953 € för katter och 1 203 € för hundar. En TTA-operation kostar 1 703 € (hundar under 20 kg) eller 1 803 € (hundar över 20 kg). Priset inkluderar anestesi, operationen, läkemedel och förbrukningsmaterial samt borttagning av stygn. Kontrollbesök debiteras separat.
 Vad kostar en frakturoperation? En frakturoperation kostar 1 203–2 003 € beroende på frakturens typ och läge samt vilken fixeringsmetod som används (plattor, skruvar eller extern fixator). Efter röntgen och klinisk undersökning får du en noggrann kostnadsuppskattning.
+Vad kostar en höftoperation? En lårbenshuvudresektion (FHO) kostar 953 € för katter och 1 203 € för hundar. Du får en kostnadsuppskattning före operationen.
 Vad kostar officiella röntgenundersökningar? Höft-, armbågs- och ryggröntgen kostar 302 € (hundar under 40 kg eller högst 3 ryggbilder) eller 362 € (hundar över 40 kg eller fler ryggbilder). Priset inkluderar lätt sedering och att bilderna skickas till Finska Kennelklubbens granskare.
 Kan jag få en kostnadsuppskattning före operationen? Ja. Du får en kostnadsuppskattning innan du bestämmer dig för operationen, så att du kan planera utgifterna i förväg.
 Hur lång är återhämtningstiden efter en operation? Det beror på ingreppet. Efter en korsbandsoperation (TTA eller lateral sutur) begränsas aktiviteten strikt de första 6–8 veckorna, och de flesta hundar återgår till normal aktivitet inom ungefär 3–4 månader. Efter en frakturoperation tar återhämtningen vanligen 6–12 veckor. Rehabilitering och kontrollbesök är en väsentlig del av återhämtningen.

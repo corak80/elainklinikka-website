@@ -390,8 +390,8 @@ Ristisideleikkaus TTA <20kg 1 703 €
 Ristisideleikkaus TTA >20kg 1 803 €
 Patellaluksaatio kissa 953 €
 Patellaluksaatio koira 1 103–1 403 €
-Reisiluunpään poisto kissa 953 €
-Reisiluunpään poisto koira 1 203 €
+Reisiluunpään poisto (lonkkaleikkaus) kissa 953 €
+Reisiluunpään poisto (lonkkaleikkaus) koira 1 203 €
 Varvasamputaatio 593 €
 Häntäamputaatio 573 €
 Murtumaleikkaukset 1 203–2 003 €
@@ -2497,7 +2497,7 @@ Takaisin etusivulle
 # Viralliset terveystutkimukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/viralliset-tutkimukset/
-Last updated: 2026-11-19
+Last updated: 2026-11-22
 
 Takaisin etusivulle
 
@@ -2525,6 +2525,7 @@ Varaa viralliset tutkimukset etukäteen. Tilaa ennen käyntiä jokaiselle tutkim
 
 ### Usein kysyttyä virallisista tutkimuksista
 
+Paljonko lonkkakuvaus maksaa? Lonkkakuvat maksavat alle 20 kg:n koiralle 183 €, 20–40 kg:n koiralle 193 € ja yli 40 kg:n koiralle 233 €. Samalla käynnillä otetut kyynärnivelkuvat maksavat 63 € lisää.
 Missä iässä viralliset tutkimukset tehdään? Lonkka- ja kyynärkuvat voidaan ottaa 12 kuukauden iästä alkaen; joillakin roduilla PEVISA-ohjelma asettaa ikärajaksi 18 kuukautta. Selkäkuvauksessa välimuotoinen lanne-ristinikama (LTV) ja nikamien epämuotoisuus (VA) arvioidaan 12 kuukauden iästä alkaen, spondyloosi ja kalkkeutuneet välilevyt (IDD) 24 kuukauden iästä alkaen. Kalkkeutuneita välilevyjä arvioidaan vain tietyillä roduilla. Polvitutkimus ja virallinen sydänkuuntelu voidaan tehdä 12 kuukauden iästä alkaen. Virallisessa sydämen ultraäänitutkimuksessa ikäraja on hankittujen sydänsairauksien osalta 24 kuukautta, eikä synnynnäisten sydänsairauksien osalta ole alaikärajaa. Joidenkin rotujen PEVISA-ohjelmissa ikärajat ovat toiset, joten tarkista koirasi rodun vaatimukset.
 Kuinka kauan tulokset ovat voimassa? Röntgentulokset eivät vanhene, mutta koira voidaan kuvata uudelleen tietyn määräajan kuluttua, ja uusi tulos voi muuttaa aiemman; osa selkälausunnoista annetaan vain kerran. Alle kolmen vuoden iässä annettu polvilausunto on voimassa kaksi vuotta; vähintään kolmen vuoden iässä annettu lausunto ei vanhene. Sydänkuuntelun tulos, jossa sivuääntä ei kuulu, ja ultraäänitutkimuksen tulos, jossa hankittua sydänsairautta ei todeta, ovat voimassa 12 kuukautta. Vähintään 12 kuukauden iässä annettua ultraäänitutkimuksen tulosta, jossa synnynnäistä sydänsairautta ei todeta, ei tarvitse uusia. Rodun PEVISA-ohjelma voi asettaa omat voimassaoloaikansa. Tulokset kirjataan Kennelliiton jalostustietojärjestelmään (KoiraNet), jossa ne ovat kaikkien nähtävissä.
 
@@ -3355,7 +3356,7 @@ Takaisin etusivulle
 # Ortopediset leikkaukset Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/ortopedia/
-Last updated: 2026-10-31
+Last updated: 2026-11-22
 
 Takaisin etusivulle
 
@@ -3382,6 +3383,7 @@ Klinikallamme on Suomen Kennelliiton hyväksyntä virallisiin lonkka-, kyynär- 
 
 Paljonko ristisideleikkaus maksaa? Ristisideleikkaus lateral suture -menetelmällä maksaa kissalle 953 € ja koiralle 1 203 €. TTA-leikkaus maksaa alle 20 kg:n koiralle 1 703 € ja yli 20 kg:n koiralle 1 803 €. Hinta sisältää anestesian, leikkauksen, lääkkeet ja tarvikkeet sekä ompeleiden poiston. Kontrollikäynnit laskutetaan erikseen.
 Paljonko murtumaleikkaus maksaa? Murtumaleikkaus maksaa 1 203–2 003 €. Hinta riippuu murtuman tyypistä ja sijainnista sekä siitä, kiinnitetäänkö luu levyillä, ruuveilla vai ulkoisella fiksaattorilla. Saat tarkan hinta-arvion röntgenkuvauksen ja eläinlääkärin tutkimuksen jälkeen.
+Paljonko lonkkaleikkaus maksaa? Reisiluunpään poisto (FHO) maksaa kissalle 953 € ja koiralle 1 203 €. Saat hinta-arvion ennen leikkausta.
 Paljonko viralliset röntgenkuvaukset maksavat? Lonkka-, kyynär- ja selkäkuvat maksavat 302 € (alle 40 kg:n koira tai enintään 3 selkäkuvaa) tai 362 € (yli 40 kg:n koira tai enemmän selkäkuvia). Hinta sisältää kevyen rauhoituksen ja kuvien lähettämisen Suomen Kennelliiton lausunnonantajalle.
 Saanko hinta-arvion ennen leikkausta? Kyllä. Saat hinta-arvion ennen kuin päätät leikkauksesta, jotta voit varautua kustannuksiin etukäteen.
 Kuinka pitkä on toipumisaika leikkauksen jälkeen? Toipumisaika riippuu toimenpiteestä. Ristisideleikkauksen (TTA tai lateral suture) jälkeen liikkumista rajoitetaan tiukasti ensimmäiset 6–8 viikkoa, ja useimmat koirat palaavat normaaliin liikuntaan noin 3–4 kuukauden kuluessa. Murtumaleikkauksesta toipuminen kestää yleensä 6–12 viikkoa. Kuntoutus ja kontrollikäynnit ovat olennainen osa toipumista.
