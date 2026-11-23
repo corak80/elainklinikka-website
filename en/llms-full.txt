@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 88 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 89 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3769,12 +3769,18 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-22
+Last updated: 2026-11-23
 
 ## Articles
 
 Veterinary articles from the professionals
 Search articles...
+Health
+23.11.2026
+
+### Fever in Dogs and Cats — Normal Temperature and How to Measure It
+
+A healthy dog’s or cat’s temperature is about 38–39 °C. Above about 39.5 °C is a fever. A warm or dry nose doesn’t show a fever: only a thermometer does. Puppies and kittens under four weeks run cooler.
 Health
 23.11.2026
 
@@ -5434,6 +5440,89 @@ Orthopedics
 #### TTA Surgery in Dogs — Tibial Tuberosity Advancement for Cruciate Ligament Disease
 
 Cranial cruciate ligament (CCL) disease is one of the most common causes of hind-leg lameness in dogs. The ligament u...
+Back to homepage
+
+---
+
+# Dog or Cat Fever: Normal Temperature and How to Measure It
+
+URL: https://elainklinikkasaari.fi/en/articles/fever.html
+Last updated: 2026-11-23
+
+Health
+23.11.2026
+
+## Fever in Dogs and Cats — Normal Temperature and How to Measure It
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+A healthy dog’s or cat’s temperature is about 38–39 °C. Above about 39.5 °C is a fever. A warm or dry nose doesn’t show a fever: only a thermometer does. Puppies and kittens under four weeks run cooler.
+
+### How to Measure
+
+Use an ordinary digital thermometer in your pet’s bottom; ear and forehead thermometers are less reliable, even those sold for pets. Put a little petroleum jelly or oil on the tip, lift the tail, slide the thermometer in gently about 2 cm (1.5 cm in a cat), slightly to the side, and hold it until it beeps. Exercise and excitement can raise the reading: if it is high but under 40 °C and your pet seems well, let it rest and measure again. If your pet resists, don’t force it: call us.
+
+### Signs of Fever
+
+A pet with a fever is often dull, tired, off its food, hiding or shivering, and may breathe faster. Common causes are infections, such as a bite abscess in a cat, and inflammation.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if the temperature is 40 °C or more, or under 37.5 °C in a pet that seems unwell, or if your pet is very weak, collapses, struggles to breathe, has pale gums or has a seizure. A dog that is hot and panting heavily after exercise, on a warm day or after being left in a car may have heatstroke: move it somewhere cool, pour cold tap water over its body but not its face, and let a fan or breeze blow over it; don’t cover it with a wet towel. Then call us and keep cooling it on the way. Outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### Call the Same Day
+
+Call us the same day if your pet has a fever and is dull or off its food, if the fever lasts more than a day or starts after an operation, or if a puppy or kitten has a fever. After a vaccination, a slightly raised temperature, tiredness or a poorer appetite can occur and usually pass within a day or two: call us if they last longer. Don’t give your pet fever or pain medicines meant for people: some are poisonous to pets even in small amounts.
+
+### At the Clinic
+
+A fever is a sign, not a disease, so we look for the cause, when needed with blood tests (results during the visit), an X-ray or ultrasound. We treat the cause and give a drip in day care if your pet is dehydrated. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- Merck Veterinary Manual. Normal Rectal Temperature Ranges (table) merckvetmanual.com/normal-rectal-temperature-ranges
+- Lunn KF. Fever of Unknown Origin in Animals. Merck Veterinary Manual (2022, updated 2024) merckvetmanual.com/fever-of-unknown-origin-in-animals
+- Antinoff N. Defenses Against Infection. Merck Veterinary Manual, pet owner version (2026) merckvetmanual.com/defenses-against-infection
+- Davidson AP. Management of the Neonate in Dogs and Cats. Merck Veterinary Manual (2022, updated 2025) merckvetmanual.com/management-of-the-neonate-in-dogs-and-ca
+- Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual (2024, updated 2025) merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
+- Dorn E, Bogedale K, Pankraz A, Neiger R (2024). Calculation of a reference interval for rectal temperature in adult dogs presenting for veterinary care using an algorithm for mixed data. Animals (Basel) 14:1970 pmc.ncbi.nlm.nih.gov/PMC11240782
+- Levy JK, Nutt KR, Tucker SJ (2015). Reference interval for rectal temperature in healthy confined adult cats. J Feline Med Surg 17:950–952 pubmed.ncbi.nlm.nih.gov/26486981
+- Lamb V, McBrearty AR (2013). Comparison of rectal, tympanic membrane and axillary temperature measurement methods in dogs. Vet Rec 173:524 pubmed.ncbi.nlm.nih.gov/24158324
+- Smith VA, Lamb V, McBrearty AR (2015). Comparison of axillary, tympanic membrane and rectal temperature measurement in cats. J Feline Med Surg 17:1028–1034 pmc.ncbi.nlm.nih.gov/PMC10816342
+- Konietschke U, Kruse BD, Müller R, Stockhaus C, Hartmann K, Wehner A (2014). Comparison of auricular and rectal temperature measurement in normothermic, hypothermic, and hyperthermic dogs. Tierarztl Prax Ausg K Kleintiere Heimtiere 42:13–19 pubmed.ncbi.nlm.nih.gov/24518943
+- Hanström Y, Oltegen S, Eklund I, Gröndahl E, Liszke I, Söder J (2025). Assessed temperatures and stress in cats using tympanic and rectal thermometers. Vet Sci 12:321 pmc.ncbi.nlm.nih.gov/PMC12031553
+- Barton JC, Didier MD, Silvestrini P, German AJ, Ferriani R (2022). A noninvasive method of temperature measurement using a noncontact handheld infrared thermometer fails to correlate with rectal temperature in dogs and cats. JAVMA 260:752–757 pubmed.ncbi.nlm.nih.gov/35066483
+- Nutt KR, Levy JK, Tucker SJ (2016). Comparison of non-contact infrared thermometry and rectal thermometry in cats. J Feline Med Surg 18:798–803 pmc.ncbi.nlm.nih.gov/PMC11112207
+- Hall EJ, Carter AJ, Bradbury J, et al. (2023). Cooling methods used to manage heat-related illness in dogs presented to primary care veterinary practices during 2016–2018 in the UK. Vet Sci 10:465 pmc.ncbi.nlm.nih.gov/PMC10385239
+- Carter AJ, Hall EJ, Bradbury J, et al. (2024). Post-exercise management of exertional hyperthermia in dogs participating in dog sport (canicross) events in the UK. J Therm Biol 121:103827 pubmed.ncbi.nlm.nih.gov/38518416
+- Royal Veterinary College, VetCompass (2023). The RVC urges owners of hot dogs to “cool first, transport second” rvc.ac.uk
+- PDSA. High temperature (fever) in cats pdsa.org.uk/high-temperature-fever-in-cats
+- PDSA. Heatstroke in dogs pdsa.org.uk/heatstroke-in-dogs
+- PDSA. First aid for heatstroke pdsa.org.uk/first-aid-for-heatstroke
+- PDSA. Vaccination reactions in pets pdsa.org.uk/vaccination-reactions-in-pets
+- Texas A&M College of Veterinary Medicine & Biomedical Sciences, Pet Talk (2022). Does the nose know? The truths and myths of canine nasal health vetmed.tamu.edu
+Related services: Internal Medicine
+
+### Read also
+
+Health
+
+#### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+Health
+
+#### Dog and Cat Vaccination Schedule — Puppies, Kittens and Adults
+
+Vaccinations protect pets from serious infectious diseases. Vaccination protocols vary and change over time. We follo...
 Back to homepage
 
 ---
@@ -7320,6 +7409,11 @@ Related services: Vaccinations
 
 ### Read also
 
+Health
+
+#### Fever in Dogs and Cats — Normal Temperature and How to Measure It
+
+A healthy dog’s or cat’s temperature is about 38–39 °C. Above about 39.5 °C is a fever. A warm or dry nose doesn’t sh...
 Cat Health
 
 #### A Less Stressful Vet Visit for Your Cat — How We Help and How You Can Prepare
@@ -7330,11 +7424,6 @@ Emergency
 #### Adder Bite — Finland's Only Venomous Snake Bite in Pets
 
 The European adder (Vipera berus) is Finland’s only venomous snake and lives across almost the whole country, includi...
-Clinic
-
-#### Why Choosing an Independent Veterinary Clinic Matters
-
-In a 2024 report, the Finnish Competition and Consumer Authority (KKV) found that the Finnish market for small-animal...
 Back to homepage
 
 ---

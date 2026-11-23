@@ -1727,6 +1727,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
   },
 
+  // Article: Fever and normal temperature in dogs and cats (new 2026-11)
+  "article.fever.title": {
+    fi: "Koiran ja kissan kuume – normaali lämpö ja sen mittaaminen",
+    sv: "Feber hos hund och katt – normal temperatur och hur du mäter den",
+    en: "Fever in Dogs and Cats — Normal Temperature and How to Measure It"
+  },
+  "article.fever.intro": {
+    fi: "Terveen koiran tai kissan ruumiinlämpö on noin 38–39 °C. Kun lämpö on yli noin 39,5 °C, lemmikillä on kuumetta. Lämmin tai kuiva nenä ei kerro kuumeesta: sen paljastaa vain kuumemittari. Alle neljän viikon ikäisten koiran- ja kissanpentujen lämpö on matalampi.",
+    sv: "En frisk hund eller katt har en kroppstemperatur på ungefär 38–39 °C. Över ungefär 39,5 °C är det feber. En varm eller torr nos visar inte om djuret har feber: det gör bara en termometer. Valpar och kattungar under fyra veckor har lägre temperatur.",
+    en: "A healthy dog’s or cat’s temperature is about 38–39 °C. Above about 39.5 °C is a fever. A warm or dry nose doesn’t show a fever: only a thermometer does. Puppies and kittens under four weeks run cooler."
+  },
+  "article.fever.measure.title": {
+    fi: "Näin mittaat kuumeen",
+    sv: "Så mäter du temperaturen",
+    en: "How to Measure"
+  },
+  "article.fever.measure.text": {
+    fi: "Mittaa lämpö peräaukosta tavallisella digitaalisella kuumemittarilla. Korva- ja otsakuumemittarit ovat vähemmän luotettavia, myös lemmikeille myytävät. Laita mittarin kärkeen vähän vaseliinia tai öljyä, nosta häntää ja työnnä mittari varovasti noin 2 cm syvälle (kissalla 1,5 cm) kärki hieman sivulle suunnattuna. Pidä mittaria paikallaan, kunnes se piippaa. Liikunta ja jännitys voivat nostaa lukemaa: jos lukema on korkea mutta alle 40 °C ja lemmikkisi vaikuttaa voivan hyvin, anna sen levätä ja mittaa uudelleen. Jos lemmikkisi vastustelee, älä pakota sitä: soita meille.",
+    sv: "Mät temperaturen i ändtarmen med en vanlig digital febertermometer; öron- och pannatermometrar är mindre tillförlitliga, även de som säljs för djur. Smörj spetsen med lite vaselin eller olja, lyft på svansen och för försiktigt in termometern ungefär 2 cm (1,5 cm på en katt), lite åt sidan, och håll den kvar tills den piper. Efter motion eller om djuret är uppjagat kan temperaturen stiga: om den är hög men under 40 °C och ditt djur verkar må bra, låt det vila och mät igen. Tvinga inte djuret om det gör motstånd: ring oss.",
+    en: "Use an ordinary digital thermometer in your pet’s bottom; ear and forehead thermometers are less reliable, even those sold for pets. Put a little petroleum jelly or oil on the tip, lift the tail, slide the thermometer in gently about 2 cm (1.5 cm in a cat), slightly to the side, and hold it until it beeps. Exercise and excitement can raise the reading: if it is high but under 40 °C and your pet seems well, let it rest and measure again. If your pet resists, don’t force it: call us."
+  },
+  "article.fever.signs.title": {
+    fi: "Kuumeen oireet",
+    sv: "Symtom på feber",
+    en: "Signs of Fever"
+  },
+  "article.fever.signs.text": {
+    fi: "Kuumeinen lemmikki on usein vaisu, väsynyt tai ruokahaluton, piileskelee tai tärisee, ja se voi hengittää tavallista tiheämmin. Yleisiä syitä ovat infektiot, kuten kissan puremapaise, ja muut tulehdukset.",
+    sv: "Ett djur med feber är ofta slött och trött, äter dåligt, gömmer sig eller darrar och kan andas snabbare. Vanliga orsaker är infektioner, till exempel en böld efter en bitskada hos katter, och inflammationer.",
+    en: "A pet with a fever is often dull, tired, off its food, hiding or shivering, and may breathe faster. Common causes are infections, such as a bite abscess in a cat, and inflammation."
+  },
+  "article.fever.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.fever.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos lämpö on vähintään 40 °C tai jos lemmikkisi vaikuttaa huonovointiselta ja sen lämpö on alle 37,5 °C. Soita heti myös, jos lemmikkisi on hyvin heikko, lyyhistyy, hengittää vaivalloisesti, sen ikenet ovat kalpeat tai se saa kouristuskohtauksen. Jos koira on kuuma ja läähättää voimakkaasti liikunnan jälkeen, lämpimänä päivänä tai autoon jätettynä, sillä voi olla lämpöhalvaus: siirrä se viileään paikkaan, kaada kylmää vesijohtovettä sen vartalolle mutta ei kasvoille ja anna tuulettimen tai tuulen puhaltaa sen päälle. Älä peitä sitä märällä pyyhkeellä. Soita sitten meille ja jatka jäähdyttämistä matkalla. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring oss genast på (06) 321 7300 om temperaturen är 40 °C eller mer, om den är under 37,5 °C och djuret verkar må dåligt, eller om ditt djur är mycket svagt, faller ihop, har svårt att andas, har blekt tandkött eller får ett krampanfall. En hund som är varm och flämtar kraftigt efter motion, en varm dag eller efter att ha lämnats i en bil kan ha värmeslag: flytta den till ett svalt ställe, häll kallt kranvatten över kroppen men inte över ansiktet och låt en fläkt eller ett luftdrag blåsa över den; täck den inte med en våt handduk. Ring oss sedan och fortsätt kyla ner den på vägen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call us on (06) 321 7300 at once if the temperature is 40 °C or more, or under 37.5 °C in a pet that seems unwell, or if your pet is very weak, collapses, struggles to breathe, has pale gums or has a seizure. A dog that is hot and panting heavily after exercise, on a warm day or after being left in a car may have heatstroke: move it somewhere cool, pour cold tap water over its body but not its face, and let a fan or breeze blow over it; don’t cover it with a wet towel. Then call us and keep cooling it on the way. Outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.fever.sameday.title": {
+    fi: "Soita saman päivän aikana",
+    sv: "Ring samma dag",
+    en: "Call the Same Day"
+  },
+  "article.fever.sameday.text": {
+    fi: "Soita saman päivän aikana, jos lemmikilläsi on kuumetta ja se on vaisu tai ruokahaluton, jos kuume kestää yli vuorokauden tai alkaa leikkauksen jälkeen tai jos koiran- tai kissanpennulla on kuumetta. Rokotuksen jälkeen voi esiintyä lievää lämmönnousua, väsymystä tai heikentynyttä ruokahalua, ja ne menevät yleensä ohi päivässä tai kahdessa: soita meille, jos ne kestävät pidempään. Älä anna lemmikillesi ihmisille tarkoitettuja kuume- tai kipulääkkeitä: osa niistä on lemmikeille myrkyllisiä pieninäkin määrinä.",
+    sv: "Ring oss samma dag om ditt djur har feber och är slött eller äter dåligt, om febern pågår längre än ett dygn eller börjar efter en operation, eller om en valp eller kattunge har feber. Efter en vaccination kan djuret få lätt förhöjd temperatur, bli trött eller äta sämre. Det går vanligen över inom en dag eller två: ring oss om besvären varar längre. Ge inte ditt djur feber- eller värkmediciner för människor: vissa är giftiga för djur även i små mängder.",
+    en: "Call us the same day if your pet has a fever and is dull or off its food, if the fever lasts more than a day or starts after an operation, or if a puppy or kitten has a fever. After a vaccination, a slightly raised temperature, tiredness or a poorer appetite can occur and usually pass within a day or two: call us if they last longer. Don’t give your pet fever or pain medicines meant for people: some are poisonous to pets even in small amounts."
+  },
+  "article.fever.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.fever.clinic.text": {
+    fi: "Kuume on oire, ei sairaus, joten etsimme sen syytä. Tarvittaessa teemme verikokeita (tulokset valmistuvat käynnin aikana), röntgenkuvauksen tai ultraäänitutkimuksen. Hoidamme syytä, ja jos lemmikkisi on kuivunut, annamme sille tiputusta päivähoidossa. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.",
+    sv: "Feber är ett symtom, inte en sjukdom, så vi letar efter orsaken, vid behov med blodprov (svaren får du under besöket), röntgen eller ultraljud. Vi behandlar orsaken och ger dropp på dagvård om ditt djur är uttorkat. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.",
+    en: "A fever is a sign, not a disease, so we look for the cause, when needed with blood tests (results during the visit), an X-ray or ultrasound. We treat the cause and give a drip in day care if your pet is dehydrated. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us."
+  },
+  "article.fever.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.fever.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4555,6 +4627,7 @@ function setLanguage(lang) {
     'oksentelu': { sv: 'krakningar', en: 'vomiting' },
     'valeraskaus': { sv: 'skendraktighet', en: 'false-pregnancy' },
     'ummetus': { sv: 'forstoppning', en: 'constipation' },
+    'kuume': { sv: 'feber', en: 'fever' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },
