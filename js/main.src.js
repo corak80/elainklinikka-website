@@ -1943,6 +1943,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos or a video. If it is urgent, call — don’t email."
   },
 
+  // Article: Cushing disease in dogs (new 2026-11)
+  "article.cushing.title": {
+    fi: "Cushingin tauti koiralla – oireet, tutkimukset ja hoito",
+    sv: "Cushings sjukdom hos hund – symtom, prover och behandling",
+    en: "Cushing’s Disease in Dogs — Signs, Tests and Treatment"
+  },
+  "article.cushing.intro": {
+    fi: "Cushingin oireyhtymässä, jota kutsutaan usein Cushingin taudiksi, elimistö tuottaa liikaa stressihormoni kortisolia. Tautia esiintyy enimmäkseen keski-ikäisillä ja vanhemmilla koirilla, ja se kehittyy hitaasti, joten se on helppo sekoittaa vanhenemiseen. Useimmiten syynä on pieni, yleensä hyvänlaatuinen aivolisäkkeen kasvain, harvemmin lisämunuaisen kasvain. Pitkäaikainen kortisonilääkitys voi aiheuttaa samat oireet. Älä koskaan lopeta kortisonilääkitystä äkillisesti kysymättä meiltä.",
+    sv: "Vid Cushings syndrom, som ofta kallas Cushings sjukdom, bildar kroppen för mycket av stresshormonet kortisol. Syndromet drabbar främst medelålders och äldre hundar och utvecklas långsamt, så det förväxlas lätt med åldrande. De flesta fall orsakas av en liten, vanligen godartad tumör i hjärnans hypofys, färre av en tumör i en binjure. Långvarig kortisonbehandling kan ge samma symtom. Avbryt den aldrig tvärt utan att fråga oss.",
+    en: "In Cushing’s syndrome, often called Cushing’s disease, the body makes too much of the stress hormone cortisol. It mostly affects middle-aged and older dogs and comes on slowly, so it is easily mistaken for ageing. Most cases are caused by a small, usually benign growth in the brain’s pituitary gland; fewer by a growth in an adrenal gland. Long-term steroid medicine can cause the same signs; never stop it suddenly without asking us."
+  },
+  "article.cushing.signs.title": {
+    fi: "Oireet",
+    sv: "Symtom",
+    en: "Signs"
+  },
+  "article.cushing.signs.text": {
+    fi: "Runsas juominen ja pissaaminen (joskus myös pissavahinkoja sisällä), suuri ruokahalu, riippuvatsa, läähättäminen, lihasheikkous, karvojen oheneminen molemmin puolin kehoa, ohut iho ja toistuvat iho- tai virtsatietulehdukset.",
+    sv: "Hunden dricker och kissar mycket (ibland även inne), flämtar och har stor aptit, hängbuk, svaga muskler, tunnare päls på båda sidor av kroppen, tunn hud och upprepade hud- eller urinvägsinfektioner.",
+    en: "Drinking and peeing a lot (sometimes with accidents indoors), a big appetite, a pot belly, panting, weak muscles, thinning hair on both sides of the body, thin skin, and repeated skin or urinary infections."
+  },
+  "article.cushing.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.cushing.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos koirasi yhtäkkiä alkaa hengittää vaivalloisesti, lyyhistyy tai saa kouristuskohtauksen. Jos koirasi saa lääkettä Cushingin tautiin ja muuttuu vaisuksi tai heikoksi, lakkaa syömästä, oksentaa tai ripuloi, lopeta Cushingin taudin lääkkeen antaminen ja soita meille heti. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring oss genast på (06) 321 7300 om din hund plötsligt får svårt att andas, faller ihop eller får ett krampanfall. Om din hund får medicin mot Cushings sjukdom och blir slö eller svag, slutar äta, kräks eller får diarré, ska du sluta ge just den medicinen och ringa oss genast. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call us on (06) 321 7300 at once if your dog suddenly struggles to breathe, collapses or has a seizure. If a dog on medicine for Cushing’s becomes dull or weak, stops eating, vomits or has diarrhoea, stop that medicine and call us at once. Outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.cushing.tests.title": {
+    fi: "Tutkimukset",
+    sv: "Prover",
+    en: "Tests"
+  },
+  "article.cushing.tests.text": {
+    fi: "Ensimmäinen tutkimus on yksinkertainen ja edullinen: aamuvirtsanäyte, jonka keräät kotona ja tuot meille. Vähintään 24, mieluiten 48 tuntia ennen näytteen keräämistä pidä koirasi arki rauhallisena ja tavallisena, ilman mitään erityistä: stressi voi nostaa tulosta ja aiheuttaa väärän hälytyksen. Jos tulos on normaali, Cushingin tauti on epätodennäköinen. Kohonnut tulos ei todista tautia, joten seuraavaksi tehdään verikokeita: joko kaksi näytettä noin tunnin välein tai useita näytteitä noin kahdeksan tunnin aikana, kun koirasi on päivähoidossa. Näytteet lähetetään ulkopuoliseen laboratorioon, joten tulokset valmistuvat muutamassa päivässä. Kerro meille kaikista koirasi kortisonilääkkeistä, myös tipoista ja voiteista, sillä ne voivat vaikuttaa tuloksiin.",
+    sv: "Det första provet är enkelt och förmånligt: ett morgonurinprov som du samlar upp hemma och tar med till oss. Håll hundens vardag lugn och normal, utan något särskilt, i minst 24 timmar före provet, helst 48: stress kan höja värdet och ge falskt alarm. Ett normalt värde gör Cushings sjukdom osannolik. Ett förhöjt värde bevisar inte sjukdomen, så nästa steg är blodprover: antingen två prover med ungefär en timmes mellanrum eller flera under ungefär åtta timmar medan hunden är på dagvård. Proverna skickas till ett externt laboratorium, så svaren kommer efter några dagar. Berätta för oss om hunden får något kortisonläkemedel, även droppar eller krämer, eftersom det kan påverka resultaten.",
+    en: "The first test is simple and inexpensive: a morning urine sample that you collect at home and bring to us. For at least 24 hours before, preferably 48, keep your dog’s routine calm and normal, with nothing special: stress can raise the result and give a false alarm. A normal result makes Cushing’s unlikely. A raised result does not prove it, so blood tests follow: either two samples about an hour apart, or several over about eight hours while your dog stays in day care. The samples go to an outside laboratory, so results take a few days. Tell us about any steroid medicine, even drops or creams, as it can affect the results."
+  },
+  "article.cushing.treatment.title": {
+    fi: "Hoito",
+    sv: "Behandling",
+    en: "Treatment"
+  },
+  "article.cushing.treatment.text": {
+    fi: "Hoitona on yleensä päivittäinen, elinikäinen lääkitys, ja annosta säädetään säännöllisten tarkastusten ja verikokeiden perusteella. Juominen ja ruokahalu tasaantuvat usein viikkojen kuluessa, mutta turkin palautuminen voi kestää kuukausia. Lisämunuaisen kasvain voidaan joskus poistaa leikkauksella eläinsairaalassa lähetteellä.",
+    sv: "Behandlingen är vanligen en daglig medicin livet ut, med regelbundna kontroller och blodprover för att justera dosen. Drickandet och aptiten blir ofta mer normala inom några veckor, men pälsen kan ta månader på sig. En binjuretumör kan ibland opereras bort på ett remissjukhus.",
+    en: "Treatment is usually a daily medicine for life, with regular check-ups and blood tests to adjust the dose. Drinking and appetite often improve within weeks; the coat can take months. An adrenal growth can sometimes be removed surgically at a referral hospital."
+  },
+  "article.cushing.untreated.title": {
+    fi: "Jos tautia ei hoideta",
+    sv: "Utan behandling",
+    en: "Without Treatment"
+  },
+  "article.cushing.untreated.text": {
+    fi: "Hoitamattoman Cushingin taudin oireet yleensä jatkuvat ja voivat hitaasti pahentua, ja koiralle voi kehittyä lisäsairauksia, kuten tulehduksia, diabetesta, korkeaa verenpainetta ja verihyytymiä. Hoito aloitetaan yleensä, kun oireet vaikuttavat koirasi elämänlaatuun tai lisäsairauksia ilmaantuu. Lieviä tapauksia voidaan joskus vain seurata. Päätämme asiasta yhdessä kanssasi.",
+    sv: "Om sjukdomen inte behandlas fortsätter symtomen vanligen och kan långsamt bli värre, och komplikationer som infektioner, diabetes, högt blodtryck och blodproppar kan utvecklas. Behandlingen inleds vanligen när symtomen påverkar hundens livskvalitet eller när komplikationer uppstår; lindriga fall kan ibland bara följas upp. Det bestämmer vi tillsammans med dig.",
+    en: "Untreated, the signs usually continue and can slowly get worse, and complications such as infections, diabetes, high blood pressure and blood clots can develop. Treatment usually starts when the signs affect your dog’s quality of life or complications appear; mild cases can sometimes just be monitored. We decide together with you."
+  },
+  "article.cushing.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.cushing.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva). Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär). Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. You can book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva). If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4774,6 +4846,7 @@ function setLanguage(lang) {
     'kuume': { sv: 'feber', en: 'fever' },
     'virtsatietulehdus': { sv: 'urinvagsinfektion', en: 'urinary-tract-infection' },
     'koiran-narastys': { sv: 'halsbranna-hund', en: 'dog-heartburn' },
+    'cushingin-tauti': { sv: 'cushings-sjukdom', en: 'cushings-disease' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },

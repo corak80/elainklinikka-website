@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 91 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 92 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3768,6 +3768,12 @@ Sök i artiklar...
 Hälsa
 23.11.2026
 
+### Cushings sjukdom hos hund – symtom, prover och behandling
+
+Vid Cushings syndrom, som ofta kallas Cushings sjukdom, bildar kroppen för mycket av stresshormonet kortisol. Syndromet drabbar främst medelålders och äldre hundar och utvecklas långsamt, så det förväxlas lätt med åldrande. De flesta fall orsakas av en liten, vanligen godartad tumör i hjärnans hypofys, färre av en tumör i en binjure. Långvarig kortisonbehandling kan ge samma symtom. Avbryt den aldrig tvärt utan att fråga oss.
+Hälsa
+23.11.2026
+
 ### Halsbränna hos hund – symtom, vad som hjälper och när du ska ringa
 
 Hundar kan inte berätta för oss om de har halsbränna. Symtomen brukar skyllas på magsyra som kommer upp i matstrupen, men forskning tyder på att det ofta inte är orsaken: många av de här hundarna har mag-tarmbesvär som ett foderbyte kan hjälpa mot. Symtom som återkommer behöver undersökas av en veterinär.
@@ -5446,6 +5452,78 @@ Tillbaka till startsidan
 
 ---
 
+# Cushings sjukdom hos hund – symtom, prover och behandling
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/cushings-sjukdom.html
+Last updated: 2026-11-23
+
+Hälsa
+23.11.2026
+
+## Cushings sjukdom hos hund – symtom, prover och behandling
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Vid Cushings syndrom, som ofta kallas Cushings sjukdom, bildar kroppen för mycket av stresshormonet kortisol. Syndromet drabbar främst medelålders och äldre hundar och utvecklas långsamt, så det förväxlas lätt med åldrande. De flesta fall orsakas av en liten, vanligen godartad tumör i hjärnans hypofys, färre av en tumör i en binjure. Långvarig kortisonbehandling kan ge samma symtom. Avbryt den aldrig tvärt utan att fråga oss.
+
+### Symtom
+
+Hunden dricker och kissar mycket (ibland även inne), flämtar och har stor aptit, hängbuk, svaga muskler, tunnare päls på båda sidor av kroppen, tunn hud och upprepade hud- eller urinvägsinfektioner.
+
+### Ring genast
+
+Ring oss genast på (06) 321 7300 om din hund plötsligt får svårt att andas, faller ihop eller får ett krampanfall. Om din hund får medicin mot Cushings sjukdom och blir slö eller svag, slutar äta, kräks eller får diarré, ska du sluta ge just den medicinen och ringa oss genast. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Prover
+
+Det första provet är enkelt och förmånligt: ett morgonurinprov som du samlar upp hemma och tar med till oss. Håll hundens vardag lugn och normal, utan något särskilt, i minst 24 timmar före provet, helst 48: stress kan höja värdet och ge falskt alarm. Ett normalt värde gör Cushings sjukdom osannolik. Ett förhöjt värde bevisar inte sjukdomen, så nästa steg är blodprover: antingen två prover med ungefär en timmes mellanrum eller flera under ungefär åtta timmar medan hunden är på dagvård. Proverna skickas till ett externt laboratorium, så svaren kommer efter några dagar. Berätta för oss om hunden får något kortisonläkemedel, även droppar eller krämer, eftersom det kan påverka resultaten.
+
+### Behandling
+
+Behandlingen är vanligen en daglig medicin livet ut, med regelbundna kontroller och blodprover för att justera dosen. Drickandet och aptiten blir ofta mer normala inom några veckor, men pälsen kan ta månader på sig. En binjuretumör kan ibland opereras bort på ett remissjukhus.
+
+### Utan behandling
+
+Om sjukdomen inte behandlas fortsätter symtomen vanligen och kan långsamt bli värre, och komplikationer som infektioner, diabetes, högt blodtryck och blodproppar kan utvecklas. Behandlingen inleds vanligen när symtomen påverkar hundens livskvalitet eller när komplikationer uppstår; lindriga fall kan ibland bara följas upp. Det bestämmer vi tillsammans med dig.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär). Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Behrend EN, Kooistra HS, Nelson R, Reusch CE, Scott-Moncrieff JC. Diagnosis of spontaneous canine hyperadrenocorticism: 2012 ACVIM consensus statement (small animal). J Vet Intern Med. 2013;27(6):1292–1304. doi:10.1111/jvim.12192 doi.org
+- Niessen SJM, Behrend EN, Fracassi F, Church DB, Foster SF, Galac S, Melian C, Pöppl ÁG, Ramsey IK, Sieber-Ruckstuhl NS; on behalf of the ESVE/SCE membership. Agreeing Language in Veterinary Endocrinology (ALIVE): Cushing’s syndrome and hypoadrenocorticism — a modified Delphi-method-based system to create consensus definitions. Vet Sci. 2025;12(8):761. doi:10.3390/vetsci12080761 pmc.ncbi.nlm.nih.gov/PMC12390432
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Categorical Approach to Diagnosis Based on Clinical Presentation aaha.org/categorical-approach-to-diagnosis-based-
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Therapy aaha.org/therapy-2
+- Sanders K, Kooistra HS, Galac S. Treating canine Cushing’s syndrome: current options and future prospects. Vet J. 2018;241:42–51. doi:10.1016/j.tvjl.2018.09.014 pubmed.ncbi.nlm.nih.gov
+- Schofield I, Brodbelt DC, Niessen SJM, Church DB, Geddes RF, O’Neill DG. Frequency and risk factors for naturally occurring Cushing’s syndrome in dogs attending UK primary-care practices. J Small Anim Pract. 2022;63(4):265–274. doi:10.1111/jsap.13450 pmc.ncbi.nlm.nih.gov/PMC9299886
+- Van Vertloo L. Cushing Syndrome (Hyperadrenocorticism) in Animals. MSD Veterinary Manual (professional version), full review July 2024 msdvetmanual.com/cushing-syndrome-hyperadrenocorticism-in
+- Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
+- Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
+Relaterade tjänster: Blodprov
+
+### Läs också
+
+Hälsa
+
+#### Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa
+
+En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ov...
+Husdjurshälsa
+
+#### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin...
+Katthälsa
+
+#### Sköldkörtelöverfunktion hos katter – symtom, diagnos och behandling
+
+Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos äldre katter. Beroende på studie drabbar...
+Tillbaka till startsidan
+
+---
+
 # Halsbränna hos hund – symtom, råd och när du ska ringa
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/halsbranna-hund.html
@@ -6573,9 +6651,9 @@ Katthälsa
 Sköldkörtelöverfunktion (hypertyreos) är den vanligaste hormonsjukdomen hos äldre katter. Beroende på studie drabbar...
 Hälsa
 
-#### Hälsokontroll för seniorkatt – vad ingår, hur ofta och pris
+#### Cushings sjukdom hos hund – symtom, prover och behandling
 
-En hälsokontroll för seniorkatt, eller seniorundersökning, är en grundlig undersökning med blodprov – helst också med...
+Vid Cushings syndrom, som ofta kallas Cushings sjukdom, bildar kroppen för mycket av stresshormonet kortisol. Syndrom...
 Tillbaka till startsidan
 
 ---

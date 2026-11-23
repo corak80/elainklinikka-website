@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 97 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 98 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4107,6 +4107,12 @@ Hae artikkeleista...
 Terveys
 23.11.2026
 
+### Cushingin tauti koiralla – oireet, tutkimukset ja hoito
+
+Cushingin oireyhtymässä, jota kutsutaan usein Cushingin taudiksi, elimistö tuottaa liikaa stressihormoni kortisolia. Tautia esiintyy enimmäkseen keski-ikäisillä ja vanhemmilla koirilla, ja se kehittyy hitaasti, joten se on helppo sekoittaa vanhenemiseen. Useimmiten syynä on pieni, yleensä hyvänlaatuinen aivolisäkkeen kasvain, harvemmin lisämunuaisen kasvain. Pitkäaikainen kortisonilääkitys voi aiheuttaa samat oireet. Älä koskaan lopeta kortisonilääkitystä äkillisesti kysymättä meiltä.
+Terveys
+23.11.2026
+
 ### Koiran närästys – oireet, mikä auttaa ja milloin soittaa
 
 Koira ei osaa kertoa, onko sillä närästystä. Närästyksen oireiden syynä pidetään yleisesti mahahapon nousua ruokatorveen, mutta tutkimukset viittaavat siihen, että syy on usein muualla: monella näin oireilevalla koiralla on maha-suolikanavan vaiva, johon ruokavalion muutos voi auttaa. Jos oireet toistuvat, koiran pitää käydä eläinlääkärissä.
@@ -5785,6 +5791,78 @@ Takaisin etusivulle
 
 ---
 
+# Cushingin tauti koiralla – oireet, tutkimukset ja hoito
+
+URL: https://elainklinikkasaari.fi/articles/cushingin-tauti.html
+Last updated: 2026-11-23
+
+Terveys
+23.11.2026
+
+## Cushingin tauti koiralla – oireet, tutkimukset ja hoito
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Cushingin oireyhtymässä, jota kutsutaan usein Cushingin taudiksi, elimistö tuottaa liikaa stressihormoni kortisolia. Tautia esiintyy enimmäkseen keski-ikäisillä ja vanhemmilla koirilla, ja se kehittyy hitaasti, joten se on helppo sekoittaa vanhenemiseen. Useimmiten syynä on pieni, yleensä hyvänlaatuinen aivolisäkkeen kasvain, harvemmin lisämunuaisen kasvain. Pitkäaikainen kortisonilääkitys voi aiheuttaa samat oireet. Älä koskaan lopeta kortisonilääkitystä äkillisesti kysymättä meiltä.
+
+### Oireet
+
+Runsas juominen ja pissaaminen (joskus myös pissavahinkoja sisällä), suuri ruokahalu, riippuvatsa, läähättäminen, lihasheikkous, karvojen oheneminen molemmin puolin kehoa, ohut iho ja toistuvat iho- tai virtsatietulehdukset.
+
+### Soita heti
+
+Soita meille heti numeroon (06) 321 7300, jos koirasi yhtäkkiä alkaa hengittää vaivalloisesti, lyyhistyy tai saa kouristuskohtauksen. Jos koirasi saa lääkettä Cushingin tautiin ja muuttuu vaisuksi tai heikoksi, lakkaa syömästä, oksentaa tai ripuloi, lopeta Cushingin taudin lääkkeen antaminen ja soita meille heti. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Tutkimukset
+
+Ensimmäinen tutkimus on yksinkertainen ja edullinen: aamuvirtsanäyte, jonka keräät kotona ja tuot meille. Vähintään 24, mieluiten 48 tuntia ennen näytteen keräämistä pidä koirasi arki rauhallisena ja tavallisena, ilman mitään erityistä: stressi voi nostaa tulosta ja aiheuttaa väärän hälytyksen. Jos tulos on normaali, Cushingin tauti on epätodennäköinen. Kohonnut tulos ei todista tautia, joten seuraavaksi tehdään verikokeita: joko kaksi näytettä noin tunnin välein tai useita näytteitä noin kahdeksan tunnin aikana, kun koirasi on päivähoidossa. Näytteet lähetetään ulkopuoliseen laboratorioon, joten tulokset valmistuvat muutamassa päivässä. Kerro meille kaikista koirasi kortisonilääkkeistä, myös tipoista ja voiteista, sillä ne voivat vaikuttaa tuloksiin.
+
+### Hoito
+
+Hoitona on yleensä päivittäinen, elinikäinen lääkitys, ja annosta säädetään säännöllisten tarkastusten ja verikokeiden perusteella. Juominen ja ruokahalu tasaantuvat usein viikkojen kuluessa, mutta turkin palautuminen voi kestää kuukausia. Lisämunuaisen kasvain voidaan joskus poistaa leikkauksella eläinsairaalassa lähetteellä.
+
+### Jos tautia ei hoideta
+
+Hoitamattoman Cushingin taudin oireet yleensä jatkuvat ja voivat hitaasti pahentua, ja koiralle voi kehittyä lisäsairauksia, kuten tulehduksia, diabetesta, korkeaa verenpainetta ja verihyytymiä. Hoito aloitetaan yleensä, kun oireet vaikuttavat koirasi elämänlaatuun tai lisäsairauksia ilmaantuu. Lieviä tapauksia voidaan joskus vain seurata. Päätämme asiasta yhdessä kanssasi.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva). Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- Behrend EN, Kooistra HS, Nelson R, Reusch CE, Scott-Moncrieff JC. Diagnosis of spontaneous canine hyperadrenocorticism: 2012 ACVIM consensus statement (small animal). J Vet Intern Med. 2013;27(6):1292–1304. doi:10.1111/jvim.12192 doi.org
+- Niessen SJM, Behrend EN, Fracassi F, Church DB, Foster SF, Galac S, Melian C, Pöppl ÁG, Ramsey IK, Sieber-Ruckstuhl NS; on behalf of the ESVE/SCE membership. Agreeing Language in Veterinary Endocrinology (ALIVE): Cushing’s syndrome and hypoadrenocorticism — a modified Delphi-method-based system to create consensus definitions. Vet Sci. 2025;12(8):761. doi:10.3390/vetsci12080761 pmc.ncbi.nlm.nih.gov/PMC12390432
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Categorical Approach to Diagnosis Based on Clinical Presentation aaha.org/categorical-approach-to-diagnosis-based-
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Therapy aaha.org/therapy-2
+- Sanders K, Kooistra HS, Galac S. Treating canine Cushing’s syndrome: current options and future prospects. Vet J. 2018;241:42–51. doi:10.1016/j.tvjl.2018.09.014 pubmed.ncbi.nlm.nih.gov
+- Schofield I, Brodbelt DC, Niessen SJM, Church DB, Geddes RF, O’Neill DG. Frequency and risk factors for naturally occurring Cushing’s syndrome in dogs attending UK primary-care practices. J Small Anim Pract. 2022;63(4):265–274. doi:10.1111/jsap.13450 pmc.ncbi.nlm.nih.gov/PMC9299886
+- Van Vertloo L. Cushing Syndrome (Hyperadrenocorticism) in Animals. MSD Veterinary Manual (professional version), full review July 2024 msdvetmanual.com/cushing-syndrome-hyperadrenocorticism-in
+- Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
+- Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
+Aiheeseen liittyvät palvelumme: Verikokeet
+
+### Lue myös
+
+Terveys
+
+#### Koiran ja kissan virtsatietulehdus – oireet, tutkimukset ja milloin soittaa
+
+Virtsatietulehdus on bakteerien aiheuttama tulehdus, yleensä virtsarakossa. Se on yleinen koirilla, etenkin nartuilla...
+Lemmikkien terveys
+
+#### Koiran munuaisten vajaatoiminta – oireet, vaiheet, hoito ja elinikä
+
+Krooninen munuaissairaus (CKD), tutummin munuaisten vajaatoiminta, tarkoittaa, että munuaiset menettävät hitaasti ja...
+Kissaterveys
+
+#### Kilpirauhasen liikatoiminta kissalla – oireet, diagnoosi ja hoito
+
+Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyneiden kissojen yleisin hormonisairaus. Tutkimuksesta riippuen...
+Takaisin etusivulle
+
+---
+
 # Koiran närästys – oireet, kotihoito ja milloin soittaa
 
 URL: https://elainklinikkasaari.fi/articles/koiran-narastys.html
@@ -6912,9 +6990,9 @@ Kissaterveys
 Kilpirauhasen liikatoiminta (hypertyreoosi) on ikääntyneiden kissojen yleisin hormonisairaus. Tutkimuksesta riippuen...
 Terveys
 
-#### Seniorikissan terveystarkastus – sisältö, kuinka usein ja hinta
+#### Cushingin tauti koiralla – oireet, tutkimukset ja hoito
 
-Seniorikissan terveystarkastus eli senioritutkimus on perusteellinen tutkimus, johon kuuluvat verikokeet ja mieluiten...
+Cushingin oireyhtymässä, jota kutsutaan usein Cushingin taudiksi, elimistö tuottaa liikaa stressihormoni kortisolia....
 Takaisin etusivulle
 
 ---

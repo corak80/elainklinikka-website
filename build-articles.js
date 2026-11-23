@@ -1108,6 +1108,36 @@ const articles = [
     }
   },
   {
+    slug: 'cushingin-tauti',
+    slugSv: 'cushings-sjukdom',
+    slugEn: 'cushings-disease',
+    titleKey: 'article.cushing.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '23.11.2026',
+    publishDate: '2026-11-23',
+    sections: ['intro', 'signs.title', 'signs.text', 'urgent.title', 'urgent.text', 'tests.title', 'tests.text', 'treatment.title', 'treatment.text', 'untreated.title', 'untreated.text', 'contact.title', 'contact.text'],
+    prefix: 'article.cushing',
+    sources: [
+      { text: 'Behrend EN, Kooistra HS, Nelson R, Reusch CE, Scott-Moncrieff JC. Diagnosis of spontaneous canine hyperadrenocorticism: 2012 ACVIM consensus statement (small animal). J Vet Intern Med. 2013;27(6):1292–1304. doi:10.1111/jvim.12192', url: 'https://doi.org/10.1111/jvim.12192', label: 'doi.org' },
+      { text: 'Niessen SJM, Behrend EN, Fracassi F, Church DB, Foster SF, Galac S, Melian C, Pöppl ÁG, Ramsey IK, Sieber-Ruckstuhl NS; on behalf of the ESVE/SCE membership. Agreeing Language in Veterinary Endocrinology (ALIVE): Cushing’s syndrome and hypoadrenocorticism — a modified Delphi-method-based system to create consensus definitions. Vet Sci. 2025;12(8):761. doi:10.3390/vetsci12080761', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12390432/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Categorical Approach to Diagnosis Based on Clinical Presentation', url: 'https://www.aaha.org/resources/2023-aaha-selected-endocrinopathies-of-dogs-and-cats-guidelines/categorical-approach-to-diagnosis-based-on-clinical-presentation-2/', label: 'aaha.org' },
+      { text: 'Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Therapy', url: 'https://www.aaha.org/resources/2023-aaha-selected-endocrinopathies-of-dogs-and-cats-guidelines/therapy-2/', label: 'aaha.org' },
+      { text: 'Sanders K, Kooistra HS, Galac S. Treating canine Cushing’s syndrome: current options and future prospects. Vet J. 2018;241:42–51. doi:10.1016/j.tvjl.2018.09.014', url: 'https://pubmed.ncbi.nlm.nih.gov/30340659/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Schofield I, Brodbelt DC, Niessen SJM, Church DB, Geddes RF, O’Neill DG. Frequency and risk factors for naturally occurring Cushing’s syndrome in dogs attending UK primary-care practices. J Small Anim Pract. 2022;63(4):265–274. doi:10.1111/jsap.13450', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9299886/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Van Vertloo L. Cushing Syndrome (Hyperadrenocorticism) in Animals. MSD Veterinary Manual (professional version), full review July 2024', url: 'https://www.msdvetmanual.com/endocrine-system/the-adrenal-glands/cushing-syndrome-hyperadrenocorticism-in-animals', label: 'msdvetmanual.com' },
+      { text: 'Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018', url: 'https://www.msdvetmanual.com/dog-owners/hormonal-disorders-of-dogs/disorders-of-the-adrenal-glands-in-dogs', label: 'msdvetmanual.com' },
+      { text: 'Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cushings-syndrome', label: 'vet.cornell.edu' },
+      { text: 'Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026', url: 'https://vetmed.illinois.edu/pet-health-columns/when-aging-isnt-the-answer-cushings-disease-in-dogs/', label: 'vetmed.illinois.edu' }
+    ],
+    metaDesc: {
+      fi: "Cushingin tauti koiralla: oireet, kuten runsas juominen ja riippuvatsa, miten tauti tutkitaan ja hoidetaan sekä mitä tapahtuu ilman hoitoa.",
+      sv: "Cushings sjukdom hos hund: symtom som att hunden dricker mycket och har hängbuk, hur sjukdomen undersöks och behandlas och vad som händer utan behandling.",
+      en: "Cushing’s disease in dogs: signs such as drinking a lot and a pot belly, how it is tested and treated, and what happens without treatment."
+    },
+    seoTitle: { fi: "Cushingin tauti koiralla – oireet, tutkimukset ja hoito", sv: "Cushings sjukdom hos hund – symtom, prover och behandling", en: "Cushing’s Disease in Dogs: Signs, Tests and Treatment" }
+  },
+  {
     slug: 'koiran-narastys',
     slugSv: 'halsbranna-hund',
     slugEn: 'dog-heartburn',
@@ -2233,6 +2263,7 @@ const relatedArticles = {
   'kuume': ['oksentelu', 'ripuli', 'rokotukset'],
   'virtsatietulehdus': ['ummetus', 'kissan-munuaisten-vajaatoiminta', 'munuaisten-vajaatoiminta'],
   'koiran-narastys': ['oksentelu', 'gastroskopia', 'ripuli'],
+  'cushingin-tauti': ['virtsatietulehdus', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
   'koiran-tassut-talvella': ['koira-ontuu', 'myrkytys', 'koiran-ja-kissan-turkinhoito'],
@@ -2248,7 +2279,7 @@ const relatedArticles = {
   'yksityinen-klinikka': ['kissaystävällinen-klinikka', 'anestesiaturvallisuus', 'rokotukset'],
   'ruoka-allergiat': ['viljaton-ruoka', 'ripuli', 'ibd-lymfooma'],
   'kilpirauhasen-liikatoiminta': ['kissan-munuaisten-vajaatoiminta', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
-  'munuaisten-vajaatoiminta': ['kissan-munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
+  'munuaisten-vajaatoiminta': ['kissan-munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'cushingin-tauti'],
   'kissan-munuaisten-vajaatoiminta': ['munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta', 'seniorikissan-terveystarkastus'],
   'koiran-ja-kissan-turkinhoito': ['koiran-korvatulehdus', 'seniorikissan-terveystarkastus', 'anestesiaturvallisuus'],
   'kyynpurema': ['myrkytys', 'kohtutulehdus', 'koira-ontuu'],
@@ -2282,6 +2313,7 @@ const articleToServices = {
   'kuume': ['sisataudit', 'paivahoito'],
   'virtsatietulehdus': ['ultraaani', 'laboratorio'],
   'koiran-narastys': ['tahystykset', 'rehumyynti'],
+  'cushingin-tauti': ['verikokeet', 'laboratorio'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
   'koiran-tassut-talvella': ['ihotaudit', 'paivystys'],

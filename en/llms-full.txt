@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 91 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 92 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3778,6 +3778,12 @@ Search articles...
 Health
 23.11.2026
 
+### Cushing’s Disease in Dogs — Signs, Tests and Treatment
+
+In Cushing’s syndrome, often called Cushing’s disease, the body makes too much of the stress hormone cortisol. It mostly affects middle-aged and older dogs and comes on slowly, so it is easily mistaken for ageing. Most cases are caused by a small, usually benign growth in the brain’s pituitary gland; fewer by a growth in an adrenal gland. Long-term steroid medicine can cause the same signs; never stop it suddenly without asking us.
+Health
+23.11.2026
+
 ### Heartburn in Dogs — Signs, What Helps and When to Call
 
 Dogs can’t tell us if they have heartburn. Its signs are commonly blamed on stomach acid flowing back into the gullet, but research suggests this often isn’t the cause: many such dogs have a stomach or gut problem that a diet change can help. Signs that keep coming back need a vet.
@@ -5456,6 +5462,78 @@ Back to homepage
 
 ---
 
+# Cushing’s Disease in Dogs: Signs, Tests and Treatment
+
+URL: https://elainklinikkasaari.fi/en/articles/cushings-disease.html
+Last updated: 2026-11-23
+
+Health
+23.11.2026
+
+## Cushing’s Disease in Dogs — Signs, Tests and Treatment
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+In Cushing’s syndrome, often called Cushing’s disease, the body makes too much of the stress hormone cortisol. It mostly affects middle-aged and older dogs and comes on slowly, so it is easily mistaken for ageing. Most cases are caused by a small, usually benign growth in the brain’s pituitary gland; fewer by a growth in an adrenal gland. Long-term steroid medicine can cause the same signs; never stop it suddenly without asking us.
+
+### Signs
+
+Drinking and peeing a lot (sometimes with accidents indoors), a big appetite, a pot belly, panting, weak muscles, thinning hair on both sides of the body, thin skin, and repeated skin or urinary infections.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if your dog suddenly struggles to breathe, collapses or has a seizure. If a dog on medicine for Cushing’s becomes dull or weak, stops eating, vomits or has diarrhoea, stop that medicine and call us at once. Outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### Tests
+
+The first test is simple and inexpensive: a morning urine sample that you collect at home and bring to us. For at least 24 hours before, preferably 48, keep your dog’s routine calm and normal, with nothing special: stress can raise the result and give a false alarm. A normal result makes Cushing’s unlikely. A raised result does not prove it, so blood tests follow: either two samples about an hour apart, or several over about eight hours while your dog stays in day care. The samples go to an outside laboratory, so results take a few days. Tell us about any steroid medicine, even drops or creams, as it can affect the results.
+
+### Treatment
+
+Treatment is usually a daily medicine for life, with regular check-ups and blood tests to adjust the dose. Drinking and appetite often improve within weeks; the coat can take months. An adrenal growth can sometimes be removed surgically at a referral hospital.
+
+### Without Treatment
+
+Untreated, the signs usually continue and can slowly get worse, and complications such as infections, diabetes, high blood pressure and blood clots can develop. Treatment usually starts when the signs affect your dog’s quality of life or complications appear; mild cases can sometimes just be monitored. We decide together with you.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. You can book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva). If it is urgent, call — don’t email.
+
+### Sources
+
+- Behrend EN, Kooistra HS, Nelson R, Reusch CE, Scott-Moncrieff JC. Diagnosis of spontaneous canine hyperadrenocorticism: 2012 ACVIM consensus statement (small animal). J Vet Intern Med. 2013;27(6):1292–1304. doi:10.1111/jvim.12192 doi.org
+- Niessen SJM, Behrend EN, Fracassi F, Church DB, Foster SF, Galac S, Melian C, Pöppl ÁG, Ramsey IK, Sieber-Ruckstuhl NS; on behalf of the ESVE/SCE membership. Agreeing Language in Veterinary Endocrinology (ALIVE): Cushing’s syndrome and hypoadrenocorticism — a modified Delphi-method-based system to create consensus definitions. Vet Sci. 2025;12(8):761. doi:10.3390/vetsci12080761 pmc.ncbi.nlm.nih.gov/PMC12390432
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Categorical Approach to Diagnosis Based on Clinical Presentation aaha.org/categorical-approach-to-diagnosis-based-
+- Bugbee A, Rucinsky R, Cazabon S, Kvitko-White H, Lathan P, Nichelason A, Rudolph L. 2023 AAHA Selected Endocrinopathies of Dogs and Cats Guidelines. J Am Anim Hosp Assoc. 2023;59(3):113–135. doi:10.5326/JAAHA-MS-7368 — section: Canine Hypercortisolism Therapy aaha.org/therapy-2
+- Sanders K, Kooistra HS, Galac S. Treating canine Cushing’s syndrome: current options and future prospects. Vet J. 2018;241:42–51. doi:10.1016/j.tvjl.2018.09.014 pubmed.ncbi.nlm.nih.gov
+- Schofield I, Brodbelt DC, Niessen SJM, Church DB, Geddes RF, O’Neill DG. Frequency and risk factors for naturally occurring Cushing’s syndrome in dogs attending UK primary-care practices. J Small Anim Pract. 2022;63(4):265–274. doi:10.1111/jsap.13450 pmc.ncbi.nlm.nih.gov/PMC9299886
+- Van Vertloo L. Cushing Syndrome (Hyperadrenocorticism) in Animals. MSD Veterinary Manual (professional version), full review July 2024 msdvetmanual.com/cushing-syndrome-hyperadrenocorticism-in
+- Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
+- Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
+Related services: Blood Tests
+
+### Read also
+
+Health
+
+#### Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call
+
+A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females,...
+Pet Health
+
+#### Chronic kidney disease (kidney failure) in dogs — symptoms, stages, treatment and life expectancy
+
+Chronic kidney disease (CKD), often called kidney failure, means that the kidneys slowly and permanently lose their a...
+Cat Health
+
+#### Hyperthyroidism in Cats — Symptoms, Diagnosis and Treatment
+
+Hyperthyroidism is the most common hormonal disease in older cats. Depending on the study, it affects up to about one...
+Back to homepage
+
+---
+
 # Dog Heartburn: Signs, What Helps and When to Call the Vet
 
 URL: https://elainklinikkasaari.fi/en/articles/dog-heartburn.html
@@ -6583,9 +6661,9 @@ Cat Health
 Hyperthyroidism is the most common hormonal disease in older cats. Depending on the study, it affects up to about one...
 Health
 
-#### Senior Cat Health Check — What’s Included, How Often and Cost
+#### Cushing’s Disease in Dogs — Signs, Tests and Treatment
 
-A senior cat health check, or senior check-up, is a thorough examination with blood tests — ideally including a blood...
+In Cushing’s syndrome, often called Cushing’s disease, the body makes too much of the stress hormone cortisol. It mos...
 Back to homepage
 
 ---
