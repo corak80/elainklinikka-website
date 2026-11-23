@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 90 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 91 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3768,6 +3768,12 @@ Sök i artiklar...
 Hälsa
 23.11.2026
 
+### Halsbränna hos hund – symtom, vad som hjälper och när du ska ringa
+
+Hundar kan inte berätta för oss om de har halsbränna. Symtomen brukar skyllas på magsyra som kommer upp i matstrupen, men forskning tyder på att det ofta inte är orsaken: många av de här hundarna har mag-tarmbesvär som ett foderbyte kan hjälpa mot. Symtom som återkommer behöver undersökas av en veterinär.
+Hälsa
+23.11.2026
+
 ### Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa
 
 En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ovanlig hos katter under ungefär tio år: deras blåsbesvär beror oftast på en inflammation utan bakterier (ofta kopplad till stress), urinsten eller, hos hankatter, en urinrörsplugg. Symtomen är desamma, så bara undersökningar visar vilket det är.
@@ -5436,6 +5442,81 @@ Ortopedi
 #### TTA-operation hos hund – framflyttning av skenbensknölen vid korsbandssjukdom
 
 Sjukdom i det främre korsbandet, i vardagligt tal ofta kallad korsbandsskada, är en av de vanligaste orsakerna till b...
+Tillbaka till startsidan
+
+---
+
+# Halsbränna hos hund – symtom, råd och när du ska ringa
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/halsbranna-hund.html
+Last updated: 2026-11-23
+
+Hälsa
+23.11.2026
+
+## Halsbränna hos hund – symtom, vad som hjälper och när du ska ringa
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+Hundar kan inte berätta för oss om de har halsbränna. Symtomen brukar skyllas på magsyra som kommer upp i matstrupen, men forskning tyder på att det ofta inte är orsaken: många av de här hundarna har mag-tarmbesvär som ett foderbyte kan hjälpa mot. Symtom som återkommer behöver undersökas av en veterinär.
+
+### Symtom
+
+Hunden slickar sig om munnen, sväljer om och om igen, dreglar, slickar golv eller möbler, rapar, är rastlös och äter mindre. Vissa hundar kräks gult skum på fastande mage, ofta tidigt på morgonen. Att hunden äter gräs är i sig sällan ett tecken på sjukdom.
+
+### Ring genast
+
+Ring oss genast på (06) 321 7300 om din hund gång på gång försöker kräkas men inte får upp något eller bara lite skum, särskilt om den är rastlös eller dreglar eller om magen ser uppsvälld ut. Ring också genast om hunden kan ha svalt ett föremål, har blod i kräkningarna eller svart, tjärliknande avföring, har svårt att svälja eller andas, eller är mycket svag. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Vad som hjälper hemma
+
+Ge mindre måltider oftare. Om din hund kräks gult skum på morgonen men i övrigt mår bra kan ett litet mål mat sent på kvällen hjälpa. Undvik fet mat och bordsrester. Ingen forskning visar att grynost hjälper, och mjölkprodukter ger vissa hundar magbesvär. Vi säljer lättsmälta dietfoder. Ge inga mediciner för människor utan att fråga oss: vissa är skadliga för hundar.
+
+### När du ska boka tid
+
+Boka tid om symtomen pågår i mer än några dagar eller återkommer, eller om din hund kräks ofta, går ner i vikt eller får upp maten utan ansträngning. Ring samma dag om din hund hostar efter maten, eller om symtomen börjar efter en narkos eller en ny medicin. Om medicinen är smärtstillande ska du inte ge mer av den förrän du har pratat med oss.
+
+### På kliniken
+
+Vid behov undersöker vi hunden med blodprov (svaren får du under besöket), röntgen, ultraljud eller gastroskopi under narkos, där vi tittar in i matstrupen och magsäcken och tar prover. Behandlingen beror på orsaken och kan omfatta foderbyte eller medicin som minskar magsyran. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder eller en video till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Kook PH, Kempf J, Ruetten M, Reusch CE. Wireless ambulatory esophageal pH monitoring in dogs with clinical signs interpreted as gastroesophageal reflux. Journal of Veterinary Internal Medicine 2014;28(6):1716–1723. pmc.ncbi.nlm.nih.gov/PMC4895632
+- Kook PH. Esophagitis in cats and dogs. Veterinary Clinics of North America: Small Animal Practice 2021;51(1):1–15. pubmed.ncbi.nlm.nih.gov/33187619
+- Marks SL, Kook PH, Papich MG, Tolbert MK, Willard MD. ACVIM consensus statement: Support for rational administration of gastrointestinal protectants to dogs and cats. Journal of Veterinary Internal Medicine 2018;32(6):1823–1840. pmc.ncbi.nlm.nih.gov/PMC6271318
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov/PMC7167204
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Sueda KLC, Hart BL, Cliff KD. Characterisation of plant eating in dogs. Applied Animal Behaviour Science 2008;111(1–2):120–132. doi.org
+- Galatos AD, Raptopoulos D. Gastro-oesophageal reflux during anaesthesia in the dog: the effect of age, positioning and type of surgical procedure. Veterinary Record 1995;137(20):513–516. pubmed.ncbi.nlm.nih.gov/8588277
+- Defarges A. Esophagitis in Small Animals. Merck Veterinary Manual (updated 2024). merckvetmanual.com/esophagitis-in-small-animals
+- Walters P. Disorders of the Esophagus in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/disorders-of-the-esophagus-in-dogs
+- Blois S. Gastritis in Small Animals. Merck Veterinary Manual (updated 2025). merckvetmanual.com/gastritis-in-small-animals
+- Defarges A, Blois S, Hall EJ, et al. Disorders of the Stomach and Intestines in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2026). merckvetmanual.com/disorders-of-the-stomach-and-intestines-
+- US FDA: Get the Facts about Pain Relievers for Pets (2022). fda.gov
+- ASPCA Poison Control: People Foods to Avoid Feeding Your Pets. aspca.org
+Relaterade tjänster: Endoskopi · Foderförsäljning
+
+### Läs också
+
+Hälsa
+
+#### Kräkningar hos hund och katt – vård hemma och när du ska ringa
+
+En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar...
+Endoskopi
+
+#### Gastroskopi – magsäcksundersökning och avlägsnande av främmande föremål med endoskop
+
+Gastroskopi är en undersökning där ett böjligt kamerarör (endoskop) förs in genom munnen till matstrupen, magsäcken o...
+Hälsa
+
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
 Tillbaka till startsidan
 
 ---
@@ -7306,11 +7387,11 @@ Relaterade tjänster: Endoskopi · Internmedicin
 
 ### Läs också
 
-Endoskopi
+Hälsa
 
-#### Öronspolning i narkos (video-otoskopi) – hund och katt
+#### Halsbränna hos hund – symtom, vad som hjälper och när du ska ringa
 
-Öroninflammationer hör till de vanligaste orsakerna till att hundar kommer till veterinären. För de flesta öronunders...
+Hundar kan inte berätta för oss om de har halsbränna. Symtomen brukar skyllas på magsyra som kommer upp i matstrupen,...
 Hälsa
 
 #### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa

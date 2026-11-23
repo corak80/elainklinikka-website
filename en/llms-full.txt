@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 90 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 91 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3778,6 +3778,12 @@ Search articles...
 Health
 23.11.2026
 
+### Heartburn in Dogs — Signs, What Helps and When to Call
+
+Dogs can’t tell us if they have heartburn. Its signs are commonly blamed on stomach acid flowing back into the gullet, but research suggests this often isn’t the cause: many such dogs have a stomach or gut problem that a diet change can help. Signs that keep coming back need a vet.
+Health
+23.11.2026
+
 ### Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call
 
 A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females, but uncommon in cats under about ten: their bladder trouble is usually an inflammation without bacteria (often linked to stress), stones or, in males, a urethral plug. The signs are the same, so only tests show which it is.
@@ -5446,6 +5452,81 @@ Orthopedics
 #### TTA Surgery in Dogs — Tibial Tuberosity Advancement for Cruciate Ligament Disease
 
 Cranial cruciate ligament (CCL) disease is one of the most common causes of hind-leg lameness in dogs. The ligament u...
+Back to homepage
+
+---
+
+# Dog Heartburn: Signs, What Helps and When to Call the Vet
+
+URL: https://elainklinikkasaari.fi/en/articles/dog-heartburn.html
+Last updated: 2026-11-23
+
+Health
+23.11.2026
+
+## Heartburn in Dogs — Signs, What Helps and When to Call
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+Dogs can’t tell us if they have heartburn. Its signs are commonly blamed on stomach acid flowing back into the gullet, but research suggests this often isn’t the cause: many such dogs have a stomach or gut problem that a diet change can help. Signs that keep coming back need a vet.
+
+### Signs
+
+Licking the lips, swallowing or gulping again and again, drooling, licking floors or furniture, burping, restlessness and eating less. Some dogs bring up yellow foam on an empty stomach, often early in the morning. Eating grass on its own is rarely a sign of illness.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if your dog retches again and again but brings up nothing or only a little foam, especially if it is restless or drooling or its belly looks swollen; may have swallowed an object; has blood in its vomit or black, tar-like stools; or struggles to swallow or breathe, or is very weak. Outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### What Helps at Home
+
+Feed smaller meals more often; if your dog brings up yellow foam in the morning but is otherwise well, a small late-evening meal may help. Avoid fatty food and table scraps. No research shows cottage cheese helps, and dairy upsets some dogs’ stomachs. We sell easily digestible diets. Don’t give human medicines without asking us: some harm dogs.
+
+### When to Book a Visit
+
+Book a visit if signs last more than a few days or keep coming back, or your dog vomits often, loses weight or brings food back up without effort. Call the same day if your dog coughs after eating, or if signs start after an anaesthetic or a new medicine; if it is pain relief, give no more until you have spoken to us.
+
+### At the Clinic
+
+When needed, we do blood tests (results during the visit), X-rays, ultrasound or a gastroscopy under general anaesthesia to look at the gullet and stomach and take samples. Treatment depends on the cause and may include a diet change or medicine to reduce stomach acid. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos or a video. If it is urgent, call — don’t email.
+
+### Sources
+
+- Kook PH, Kempf J, Ruetten M, Reusch CE. Wireless ambulatory esophageal pH monitoring in dogs with clinical signs interpreted as gastroesophageal reflux. Journal of Veterinary Internal Medicine 2014;28(6):1716–1723. pmc.ncbi.nlm.nih.gov/PMC4895632
+- Kook PH. Esophagitis in cats and dogs. Veterinary Clinics of North America: Small Animal Practice 2021;51(1):1–15. pubmed.ncbi.nlm.nih.gov/33187619
+- Marks SL, Kook PH, Papich MG, Tolbert MK, Willard MD. ACVIM consensus statement: Support for rational administration of gastrointestinal protectants to dogs and cats. Journal of Veterinary Internal Medicine 2018;32(6):1823–1840. pmc.ncbi.nlm.nih.gov/PMC6271318
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov/PMC7167204
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Sueda KLC, Hart BL, Cliff KD. Characterisation of plant eating in dogs. Applied Animal Behaviour Science 2008;111(1–2):120–132. doi.org
+- Galatos AD, Raptopoulos D. Gastro-oesophageal reflux during anaesthesia in the dog: the effect of age, positioning and type of surgical procedure. Veterinary Record 1995;137(20):513–516. pubmed.ncbi.nlm.nih.gov/8588277
+- Defarges A. Esophagitis in Small Animals. Merck Veterinary Manual (updated 2024). merckvetmanual.com/esophagitis-in-small-animals
+- Walters P. Disorders of the Esophagus in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/disorders-of-the-esophagus-in-dogs
+- Blois S. Gastritis in Small Animals. Merck Veterinary Manual (updated 2025). merckvetmanual.com/gastritis-in-small-animals
+- Defarges A, Blois S, Hall EJ, et al. Disorders of the Stomach and Intestines in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2026). merckvetmanual.com/disorders-of-the-stomach-and-intestines-
+- US FDA: Get the Facts about Pain Relievers for Pets (2022). fda.gov
+- ASPCA Poison Control: People Foods to Avoid Feeding Your Pets. aspca.org
+Related services: Endoscopy · Therapeutic Diets
+
+### Read also
+
+Health
+
+#### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+
+An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
+Endoscopy
+
+#### Gastroscopy — Stomach Examination and Foreign Body Removal with an Endoscope
+
+Gastroscopy is an examination in which a flexible camera tube (endoscope) is passed through the mouth into the esopha...
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
 Back to homepage
 
 ---
@@ -7316,11 +7397,11 @@ Related services: Endoscopy · Internal Medicine
 
 ### Read also
 
-Endoscopy
+Health
 
-#### Ear Flushing Under Anesthesia (Video-Otoscopy) – Dogs and Cats
+#### Heartburn in Dogs — Signs, What Helps and When to Call
 
-Ear infections are among the most common reasons dogs see a vet. A hand-held otoscope is enough for most ear examinat...
+Dogs can’t tell us if they have heartburn. Its signs are commonly blamed on stomach acid flowing back into the gullet...
 Health
 
 #### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call

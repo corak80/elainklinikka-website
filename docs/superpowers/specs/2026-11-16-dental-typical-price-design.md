@@ -100,6 +100,6 @@ Dental page section (heading option A, "What does a tooth extraction cost?"), ap
 - Finnish and Swedish: native writer → critic → editor per language from the English master;
   Finland-Swedish. Assaf approves the final FI/SV/EN text before anything is pushed.
 - Exact title wording within the existing length budget; the town ("Vaasa") stays in.
-- Verify after deploy: curl every changed page, Cloudflare purge incl. `/js/main.js` and `/js/main.js?v=20261123c`, no "estimate"
+- Verify after deploy: curl every changed page, Cloudflare purge incl. `/js/main.js` and `/js/main.js?v=20261123d`, no "estimate"
   promise left (grep FI/SV/EN), JSON-LD valid.
 - Recheck our "eläinlääkäri vaasa" search position in early December (2.6 on 16-11).

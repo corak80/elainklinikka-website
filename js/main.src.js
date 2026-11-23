@@ -1871,6 +1871,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
   },
 
+  // Article: Heartburn in dogs (new 2026-11)
+  "article.heartburn.title": {
+    fi: "Koiran närästys – oireet, mikä auttaa ja milloin soittaa",
+    sv: "Halsbränna hos hund – symtom, vad som hjälper och när du ska ringa",
+    en: "Heartburn in Dogs — Signs, What Helps and When to Call"
+  },
+  "article.heartburn.intro": {
+    fi: "Koira ei osaa kertoa, onko sillä närästystä. Närästyksen oireiden syynä pidetään yleisesti mahahapon nousua ruokatorveen, mutta tutkimukset viittaavat siihen, että syy on usein muualla: monella näin oireilevalla koiralla on maha-suolikanavan vaiva, johon ruokavalion muutos voi auttaa. Jos oireet toistuvat, koiran pitää käydä eläinlääkärissä.",
+    sv: "Hundar kan inte berätta för oss om de har halsbränna. Symtomen brukar skyllas på magsyra som kommer upp i matstrupen, men forskning tyder på att det ofta inte är orsaken: många av de här hundarna har mag-tarmbesvär som ett foderbyte kan hjälpa mot. Symtom som återkommer behöver undersökas av en veterinär.",
+    en: "Dogs can’t tell us if they have heartburn. Its signs are commonly blamed on stomach acid flowing back into the gullet, but research suggests this often isn’t the cause: many such dogs have a stomach or gut problem that a diet change can help. Signs that keep coming back need a vet."
+  },
+  "article.heartburn.signs.title": {
+    fi: "Oireet",
+    sv: "Symtom",
+    en: "Signs"
+  },
+  "article.heartburn.signs.text": {
+    fi: "Koira nuolee huuliaan, nieleskelee, kuolaa, nuolee lattiaa tai huonekaluja, röyhtäilee, on levoton tai syö vähemmän. Jotkin koirat oksentavat keltaista vaahtoa tyhjällä vatsalla, usein aikaisin aamulla. Pelkkä ruohon syöminen on harvoin merkki sairaudesta.",
+    sv: "Hunden slickar sig om munnen, sväljer om och om igen, dreglar, slickar golv eller möbler, rapar, är rastlös och äter mindre. Vissa hundar kräks gult skum på fastande mage, ofta tidigt på morgonen. Att hunden äter gräs är i sig sällan ett tecken på sjukdom.",
+    en: "Licking the lips, swallowing or gulping again and again, drooling, licking floors or furniture, burping, restlessness and eating less. Some dogs bring up yellow foam on an empty stomach, often early in the morning. Eating grass on its own is rarely a sign of illness."
+  },
+  "article.heartburn.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.heartburn.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos koirasi yökkäilee yhä uudelleen, mutta ylös ei tule mitään tai vain vähän vaahtoa, etenkin jos se on levoton tai kuolaa tai sen vatsa näyttää turvonneelta. Soita heti myös, jos koirasi on voinut nielaista esineen, sen oksennuksessa on verta, sen uloste on mustaa ja tervamaista, se nielee tai hengittää vaivalloisesti tai se on hyvin heikko. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring oss genast på (06) 321 7300 om din hund gång på gång försöker kräkas men inte får upp något eller bara lite skum, särskilt om den är rastlös eller dreglar eller om magen ser uppsvälld ut. Ring också genast om hunden kan ha svalt ett föremål, har blod i kräkningarna eller svart, tjärliknande avföring, har svårt att svälja eller andas, eller är mycket svag. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call us on (06) 321 7300 at once if your dog retches again and again but brings up nothing or only a little foam, especially if it is restless or drooling or its belly looks swollen; may have swallowed an object; has blood in its vomit or black, tar-like stools; or struggles to swallow or breathe, or is very weak. Outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.heartburn.homecare.title": {
+    fi: "Näin autat kotona",
+    sv: "Vad som hjälper hemma",
+    en: "What Helps at Home"
+  },
+  "article.heartburn.homecare.text": {
+    fi: "Anna ruokaa useammin ja pienempinä annoksina. Jos koirasi oksentaa aamulla keltaista vaahtoa mutta voi muuten hyvin, pieni myöhäinen iltapala voi auttaa. Vältä rasvaista ruokaa ja ruoantähteitä. Raejuuston hyödystä ei ole tutkimusnäyttöä, ja maitotuotteet aiheuttavat joillekin koirille vatsavaivoja. Myymme helposti sulavia ruokia. Älä anna ihmisten lääkkeitä kysymättä meiltä: osa niistä on koirille haitallisia.",
+    sv: "Ge mindre måltider oftare. Om din hund kräks gult skum på morgonen men i övrigt mår bra kan ett litet mål mat sent på kvällen hjälpa. Undvik fet mat och bordsrester. Ingen forskning visar att grynost hjälper, och mjölkprodukter ger vissa hundar magbesvär. Vi säljer lättsmälta dietfoder. Ge inga mediciner för människor utan att fråga oss: vissa är skadliga för hundar.",
+    en: "Feed smaller meals more often; if your dog brings up yellow foam in the morning but is otherwise well, a small late-evening meal may help. Avoid fatty food and table scraps. No research shows cottage cheese helps, and dairy upsets some dogs’ stomachs. We sell easily digestible diets. Don’t give human medicines without asking us: some harm dogs."
+  },
+  "article.heartburn.visit.title": {
+    fi: "Milloin varata aika",
+    sv: "När du ska boka tid",
+    en: "When to Book a Visit"
+  },
+  "article.heartburn.visit.text": {
+    fi: "Varaa aika, jos oireet kestävät yli muutaman päivän tai toistuvat tai jos koirasi oksentaa usein, laihtuu tai siltä tulee ruokaa ylös vaivatta. Soita saman päivän aikana, jos koirasi yskii syötyään tai jos oireet alkavat nukutuksen tai uuden lääkkeen jälkeen – jos lääke on kipulääke, älä anna sitä enää, ennen kuin olet puhunut kanssamme.",
+    sv: "Boka tid om symtomen pågår i mer än några dagar eller återkommer, eller om din hund kräks ofta, går ner i vikt eller får upp maten utan ansträngning. Ring samma dag om din hund hostar efter maten, eller om symtomen börjar efter en narkos eller en ny medicin. Om medicinen är smärtstillande ska du inte ge mer av den förrän du har pratat med oss.",
+    en: "Book a visit if signs last more than a few days or keep coming back, or your dog vomits often, loses weight or brings food back up without effort. Call the same day if your dog coughs after eating, or if signs start after an anaesthetic or a new medicine; if it is pain relief, give no more until you have spoken to us."
+  },
+  "article.heartburn.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.heartburn.clinic.text": {
+    fi: "Tarvittaessa teemme verikokeita (tulokset valmistuvat käynnin aikana), röntgenkuvauksen, ultraäänitutkimuksen tai yleisanestesiassa tehtävän gastroskopian eli ruokatorven ja mahalaukun tähystyksen, jossa otamme myös näytteitä. Hoito riippuu syystä, ja siihen voi kuulua ruokavalion muutos tai mahahappoa vähentävä lääke. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.",
+    sv: "Vid behov undersöker vi hunden med blodprov (svaren får du under besöket), röntgen, ultraljud eller gastroskopi under narkos, där vi tittar in i matstrupen och magsäcken och tar prover. Behandlingen beror på orsaken och kan omfatta foderbyte eller medicin som minskar magsyran. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.",
+    en: "When needed, we do blood tests (results during the visit), X-rays, ultrasound or a gastroscopy under general anaesthesia to look at the gullet and stomach and take samples. Treatment depends on the cause and may include a diet change or medicine to reduce stomach acid. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us."
+  },
+  "article.heartburn.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.heartburn.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia tai video osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder eller en video till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos or a video. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4701,6 +4773,7 @@ function setLanguage(lang) {
     'ummetus': { sv: 'forstoppning', en: 'constipation' },
     'kuume': { sv: 'feber', en: 'fever' },
     'virtsatietulehdus': { sv: 'urinvagsinfektion', en: 'urinary-tract-infection' },
+    'koiran-narastys': { sv: 'halsbranna-hund', en: 'dog-heartburn' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },

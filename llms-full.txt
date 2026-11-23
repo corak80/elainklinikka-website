@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 96 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 97 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4107,6 +4107,12 @@ Hae artikkeleista...
 Terveys
 23.11.2026
 
+### Koiran närästys – oireet, mikä auttaa ja milloin soittaa
+
+Koira ei osaa kertoa, onko sillä närästystä. Närästyksen oireiden syynä pidetään yleisesti mahahapon nousua ruokatorveen, mutta tutkimukset viittaavat siihen, että syy on usein muualla: monella näin oireilevalla koiralla on maha-suolikanavan vaiva, johon ruokavalion muutos voi auttaa. Jos oireet toistuvat, koiran pitää käydä eläinlääkärissä.
+Terveys
+23.11.2026
+
 ### Koiran ja kissan virtsatietulehdus – oireet, tutkimukset ja milloin soittaa
 
 Virtsatietulehdus on bakteerien aiheuttama tulehdus, yleensä virtsarakossa. Se on yleinen koirilla, etenkin nartuilla, mutta melko harvinainen alle noin kymmenvuotiailla kissoilla. Näillä kissoilla rakkovaivojen syy on yleensä tulehdus ilman bakteereja, virtsakivet tai uroskissoilla virtsaputken tulppa. Bakteeriton tulehdus liittyy usein stressiin. Oireet ovat samat, joten vain tutkimukset näyttävät, mistä on kyse.
@@ -5775,6 +5781,81 @@ Ortopedia
 #### TTA-leikkaus koirilla – eturistisidesairauden hoito sääriluun kyhmyn siirrolla
 
 Eturistisiteen (cranial cruciate ligament, CCL) sairaus on yksi koirien yleisimmistä takajalan ontumisen syistä. Rist...
+Takaisin etusivulle
+
+---
+
+# Koiran närästys – oireet, kotihoito ja milloin soittaa
+
+URL: https://elainklinikkasaari.fi/articles/koiran-narastys.html
+Last updated: 2026-11-23
+
+Terveys
+23.11.2026
+
+## Koiran närästys – oireet, mikä auttaa ja milloin soittaa
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Koira ei osaa kertoa, onko sillä närästystä. Närästyksen oireiden syynä pidetään yleisesti mahahapon nousua ruokatorveen, mutta tutkimukset viittaavat siihen, että syy on usein muualla: monella näin oireilevalla koiralla on maha-suolikanavan vaiva, johon ruokavalion muutos voi auttaa. Jos oireet toistuvat, koiran pitää käydä eläinlääkärissä.
+
+### Oireet
+
+Koira nuolee huuliaan, nieleskelee, kuolaa, nuolee lattiaa tai huonekaluja, röyhtäilee, on levoton tai syö vähemmän. Jotkin koirat oksentavat keltaista vaahtoa tyhjällä vatsalla, usein aikaisin aamulla. Pelkkä ruohon syöminen on harvoin merkki sairaudesta.
+
+### Soita heti
+
+Soita meille heti numeroon (06) 321 7300, jos koirasi yökkäilee yhä uudelleen, mutta ylös ei tule mitään tai vain vähän vaahtoa, etenkin jos se on levoton tai kuolaa tai sen vatsa näyttää turvonneelta. Soita heti myös, jos koirasi on voinut nielaista esineen, sen oksennuksessa on verta, sen uloste on mustaa ja tervamaista, se nielee tai hengittää vaivalloisesti tai se on hyvin heikko. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Näin autat kotona
+
+Anna ruokaa useammin ja pienempinä annoksina. Jos koirasi oksentaa aamulla keltaista vaahtoa mutta voi muuten hyvin, pieni myöhäinen iltapala voi auttaa. Vältä rasvaista ruokaa ja ruoantähteitä. Raejuuston hyödystä ei ole tutkimusnäyttöä, ja maitotuotteet aiheuttavat joillekin koirille vatsavaivoja. Myymme helposti sulavia ruokia. Älä anna ihmisten lääkkeitä kysymättä meiltä: osa niistä on koirille haitallisia.
+
+### Milloin varata aika
+
+Varaa aika, jos oireet kestävät yli muutaman päivän tai toistuvat tai jos koirasi oksentaa usein, laihtuu tai siltä tulee ruokaa ylös vaivatta. Soita saman päivän aikana, jos koirasi yskii syötyään tai jos oireet alkavat nukutuksen tai uuden lääkkeen jälkeen – jos lääke on kipulääke, älä anna sitä enää, ennen kuin olet puhunut kanssamme.
+
+### Klinikalla
+
+Tarvittaessa teemme verikokeita (tulokset valmistuvat käynnin aikana), röntgenkuvauksen, ultraäänitutkimuksen tai yleisanestesiassa tehtävän gastroskopian eli ruokatorven ja mahalaukun tähystyksen, jossa otamme myös näytteitä. Hoito riippuu syystä, ja siihen voi kuulua ruokavalion muutos tai mahahappoa vähentävä lääke. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia tai video osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- Kook PH, Kempf J, Ruetten M, Reusch CE. Wireless ambulatory esophageal pH monitoring in dogs with clinical signs interpreted as gastroesophageal reflux. Journal of Veterinary Internal Medicine 2014;28(6):1716–1723. pmc.ncbi.nlm.nih.gov/PMC4895632
+- Kook PH. Esophagitis in cats and dogs. Veterinary Clinics of North America: Small Animal Practice 2021;51(1):1–15. pubmed.ncbi.nlm.nih.gov/33187619
+- Marks SL, Kook PH, Papich MG, Tolbert MK, Willard MD. ACVIM consensus statement: Support for rational administration of gastrointestinal protectants to dogs and cats. Journal of Veterinary Internal Medicine 2018;32(6):1823–1840. pmc.ncbi.nlm.nih.gov/PMC6271318
+- Elwood C, Devauchelle P, Elliott J, et al. Emesis in dogs: a review. Journal of Small Animal Practice 2010;51(1):4–22. pmc.ncbi.nlm.nih.gov/PMC7167204
+- Ferguson L, Wennogle SA, Webb CB. Bilious vomiting syndrome in dogs: retrospective study of 20 cases (2002–2012). Journal of the American Animal Hospital Association 2016;52(3):157–161. pubmed.ncbi.nlm.nih.gov/27008323
+- Sueda KLC, Hart BL, Cliff KD. Characterisation of plant eating in dogs. Applied Animal Behaviour Science 2008;111(1–2):120–132. doi.org
+- Galatos AD, Raptopoulos D. Gastro-oesophageal reflux during anaesthesia in the dog: the effect of age, positioning and type of surgical procedure. Veterinary Record 1995;137(20):513–516. pubmed.ncbi.nlm.nih.gov/8588277
+- Defarges A. Esophagitis in Small Animals. Merck Veterinary Manual (updated 2024). merckvetmanual.com/esophagitis-in-small-animals
+- Walters P. Disorders of the Esophagus in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2024). merckvetmanual.com/disorders-of-the-esophagus-in-dogs
+- Blois S. Gastritis in Small Animals. Merck Veterinary Manual (updated 2025). merckvetmanual.com/gastritis-in-small-animals
+- Defarges A, Blois S, Hall EJ, et al. Disorders of the Stomach and Intestines in Dogs. Merck Veterinary Manual, Dog Owners Version (updated 2026). merckvetmanual.com/disorders-of-the-stomach-and-intestines-
+- US FDA: Get the Facts about Pain Relievers for Pets (2022). fda.gov
+- ASPCA Poison Control: People Foods to Avoid Feeding Your Pets. aspca.org
+Aiheeseen liittyvät palvelumme: Tähystystutkimukset · Rehumyynti
+
+### Lue myös
+
+Terveys
+
+#### Koiran ja kissan oksentelu – milloin soittaa ja mitä tehdä kotona
+
+Kun aikuinen koira tai kissa oksentaa kerran tai kaksi mutta on muuten virkeä, se toipuu usein vuorokauden kuluessa....
+Tähystys
+
+#### Gastroskopia – mahalaukun tutkimus ja vierasesineiden poisto tähystimellä
+
+Gastroskopia on tähystystutkimus, jossa taipuisa, kameralla varustettu tähystin (endoskooppi) viedään suun kautta ruo...
+Terveys
+
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
 Takaisin etusivulle
 
 ---
@@ -7645,11 +7726,11 @@ Aiheeseen liittyvät palvelumme: Tähystystutkimukset · Sisätaudit
 
 ### Lue myös
 
-Tähystys
+Terveys
 
-#### Koiran ja kissan korvahuuhtelu nukutuksessa (video-otoskopia)
+#### Koiran närästys – oireet, mikä auttaa ja milloin soittaa
 
-Korvatulehdus on yksi yleisimmistä syistä, joiden vuoksi koira tuodaan eläinlääkäriin. Useimpiin korvatutkimuksiin ri...
+Koira ei osaa kertoa, onko sillä närästystä. Närästyksen oireiden syynä pidetään yleisesti mahahapon nousua ruokatorv...
 Terveys
 
 #### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
