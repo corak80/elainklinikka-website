@@ -1505,7 +1505,7 @@ Boka online
 # Tandstensborttagning hund & katt i Vasa – pris | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/tandvard/
-Last updated: 2026-11-19
+Last updated: 2026-11-23
 
 Tillbaka till startsidan
 
@@ -1570,7 +1570,7 @@ Regelbunden tandborstning är det effektivaste sättet att förebygga tandsten o
 
 ### Återhämtning efter tandvård
 
-Hemgång sker vanligen samma dag och husdjuret kan hämtas på eftermiddagen. Mjuk föda rekommenderas i 1–3 dygn, särskilt om tänder har dragits ut. Vid behov ges smärtstillande antiinflammatorisk medicin med hem tillsammans med bruksanvisning. De flesta husdjur återgår till normalt matintag och lek inom 24–48 timmar. Om tänder har dragits ut eller tandköttsingrepp utförts bokas ett kontrollbesök efter 5 dagar för att säkerställa läkningen.
+Hemgång sker vanligen samma dag och husdjuret kan hämtas på eftermiddagen. Om tänder har dragits ut rekommenderas mjuk föda i 7–10 dygn. Vid behov ges smärtstillande antiinflammatorisk medicin med hem tillsammans med bruksanvisning. De flesta husdjur återgår till normalt matintag och lek inom 24–48 timmar. Om tänder har dragits ut eller tandköttsingrepp utförts bokas ett kontrollbesök efter 5 dagar för att säkerställa läkningen.
 
 ### Vanliga frågor om tandstensborttagning och tandvård
 
@@ -1581,7 +1581,7 @@ Kan man ta bort tandsten på hund utan narkos? Inte ordentligt. På ett vaket dj
 När bör hunden få tandstenen borttagen? När det finns synlig tandsten, tandköttet är rött eller andedräkten luktar illa – då har tandköttsinflammationen redan börjat. För hundar och katter över 3 år rekommenderar vi årlig tandkontroll (på vaket djur 32 €), för småraser tidigare. Vid kontrollen bedömer vi om tandstensborttagning behövs och om några tänder behöver dras ut.
 Hur lång tid tar en tandstensborttagning? Tandstensborttagning med röntgen tar vanligen cirka 1–2 timmar. Tandutdragningar förlänger ingreppet. Husdjuret lämnas på morgonen och hämtas vanligen samma eftermiddag.
 Hur vet jag om mitt husdjur behöver tandvård? Tecken på tandsjukdom är dålig andedräkt, tandsten, rött tandkött, svårigheter att äta och dregling. Vi rekommenderar tandkontroll i samband med besöket – problem syns ofta inte utåt.
-Hur återhämtar sig hunden efter en tandutdragning? De flesta husdjur äter och leker normalt inom 24–48 timmar. Mjuk föda rekommenderas i 1–3 dygn, smärtstillande ges med hem och resorberbara stygn försvinner av sig själva. Ett kontrollbesök bokas efter cirka 5 dagar för att säkerställa läkningen.
+Hur återhämtar sig hunden efter en tandutdragning? De flesta husdjur äter och leker normalt inom 24–48 timmar. Mjuk föda rekommenderas i 7–10 dygn, smärtstillande ges med hem och resorberbara stygn försvinner av sig själva. Ett kontrollbesök bokas efter cirka 5 dagar för att säkerställa läkningen.
 Kan man borsta husdjurets tänder hemma? Ja, och det är den mest effektiva formen av hemvård. Använd alltid tandkräm avsedd för husdjur – fluor och xylitol i mänsklig tandkräm är giftiga för djur. Börja försiktigt med fingret, vänj sedan in mjuk barntandborste eller en särskild husdjursborste. Daglig borstning ger bäst skydd, men 2–3 gånger i veckan hjälper redan avsevärt.
 När ska kvarvarande mjölktänder tas bort? Om de permanenta tänderna har brutit fram men mjölktanden finns kvar (persisterande mjölktand) kan det orsaka tandfel och inflammationer. De avlägsnas vanligen i samband med sterilisering eller kastrering, medan hunden redan är i narkos – på så sätt undviks en separat narkos.
 
