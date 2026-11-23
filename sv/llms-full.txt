@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 89 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 90 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3768,6 +3768,12 @@ Sök i artiklar...
 Hälsa
 23.11.2026
 
+### Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa
+
+En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ovanlig hos katter under ungefär tio år: deras blåsbesvär beror oftast på en inflammation utan bakterier (ofta kopplad till stress), urinsten eller, hos hankatter, en urinrörsplugg. Symtomen är desamma, så bara undersökningar visar vilket det är.
+Hälsa
+23.11.2026
+
 ### Feber hos hund och katt – normal temperatur och hur du mäter den
 
 En frisk hund eller katt har en kroppstemperatur på ungefär 38–39 °C. Över ungefär 39,5 °C är det feber. En varm eller torr nos visar inte om djuret har feber: det gör bara en termometer. Valpar och kattungar under fyra veckor har lägre temperatur.
@@ -5434,6 +5440,80 @@ Tillbaka till startsidan
 
 ---
 
+# Urinvägsinfektion hos hund eller katt – symtom och prover
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/urinvagsinfektion.html
+Last updated: 2026-11-23
+
+Hälsa
+23.11.2026
+
+## Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ovanlig hos katter under ungefär tio år: deras blåsbesvär beror oftast på en inflammation utan bakterier (ofta kopplad till stress), urinsten eller, hos hankatter, en urinrörsplugg. Symtomen är desamma, så bara undersökningar visar vilket det är.
+
+### Symtom
+
+Djuret kissar ofta men bara lite i taget, krystar, har blod i urinen, slickar sig på könsorganen eller, om det är en rumsren hund, kissar inne. En katt kan kissa utanför kattlådan.
+
+### Ring genast
+
+Ring oss genast på (06) 321 7300 om ditt djur krystar men inte får ut någon urin eller bara några droppar: djuret kan ha stopp i urinröret, vilket kan döda det inom ett eller två dygn. En hankatt som krystar eller gång på gång går till kattlådan är ett akutfall, även om det ser ut som förstoppning. Ring också genast om ett djur med urinvägssymtom kräks, slutar äta, är mycket slött eller har ont i magen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Ring samma dag
+
+Ring oss samma dag vid alla andra urinvägssymtom. Ge inte antibiotika som blivit över: det kan vara fel sort och förstöra urinodlingen. Huskurer som tranbär har ingen bevisad effekt.
+
+### Vanliga orsaker
+
+Hos hundar vandrar bakterier från området kring könsorganen och analöppningen upp i urinblåsan. Urinsten, diabetes och andra sjukdomar ökar risken, och vid återkommande infektioner behöver orsaken utredas. Hos katter ökar stress, för lite vatten, övervikt och ett liv som innekatt risken för blåsinflammation utan bakterier. Mindre stress hjälper till att förebygga nya skov, och mer vatten kan också hjälpa. Katter över ungefär tio år, särskilt de som har njursjukdom, diabetes eller överaktiv sköldkörtel, får oftare urinvägsinfektioner.
+
+### På kliniken
+
+Du behöver inte ta med något urinprov. Vi tar provet med en tunn nål direkt ur urinblåsan med hjälp av ultraljud, vanligen utan sedering. Vid ultraljudet kontrollerar vi också om det finns stenar i urinblåsan. En urinodling visar om det finns bakterier och vilken sorts antibiotika som fungerar, och svaret är vanligen klart nästa dag. Vi ger inte antibiotika i blindo: onödig antibiotika leder till resistenta bakterier. Vissa stenar kan lösas upp med ett specialfoder, andra tas bort om de orsakar besvär. Vi säljer urinvägsfoder för katter och hundar, och vilket som är rätt beror på vilken sorts sten det är. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Weese JS, Blondeau J, Boothe D, et al. (2019). International Society for Companion Animal Infectious Diseases (ISCAID) guidelines for the diagnosis and management of bacterial urinary tract infections in dogs and cats. Vet J 247:8–25 pubmed.ncbi.nlm.nih.gov/30971357
+- Lulich JP, Berent AC, Adams LG, et al. (2016). ACVIM Small Animal Consensus Recommendations on the Treatment and Prevention of Uroliths in Dogs and Cats. J Vet Intern Med 30:1564–1574 pmc.ncbi.nlm.nih.gov/PMC5032870
+- Taylor S, Boysen S, Buffington T, et al. (2025). 2025 iCatCare consensus guidelines on the diagnosis and management of lower urinary tract diseases in cats. J Feline Med Surg 27:1098612X241309176 pmc.ncbi.nlm.nih.gov/PMC11816079
+- Dorsch R, Remer C, Sauter-Louis C, Hartmann K (2014). Feline lower urinary tract disease in a German cat population. A retrospective analysis of demographic data, causes and clinical signs. Tierarztl Prax Ausg K Kleintiere Heimtiere 42:231–239 pubmed.ncbi.nlm.nih.gov/25119631
+- Mayer-Roenne B, Goldstein RE, Erb HN (2007). Urinary tract infections in cats with hyperthyroidism, diabetes mellitus and chronic kidney disease. J Feline Med Surg 9:124–132 pubmed.ncbi.nlm.nih.gov/17088093
+- Seguin MA, Vaden SL, Altier C, Stone E, Levine JF (2003). Persistent urinary tract infections and reinfections in 100 dogs (1989–1999). J Vet Intern Med 17:622–631 pubmed.ncbi.nlm.nih.gov/14529127
+- Forrester SD, Troy GC, Dalton MN, Huffman JW, Holtzman G (1999). Retrospective evaluation of urinary tract infection in 42 dogs with hyperadrenocorticism or diabetes mellitus or both. J Vet Intern Med 13:557–560 pubmed.ncbi.nlm.nih.gov/10587255
+- Weese JS, Weese HE (2026). Effectiveness of Cranberry Supplementation for Prevention and Treatment of Infectious Urinary Tract Disease in Dogs and Cats: A Systematic Review. J Vet Pharmacol Ther 49:102–109 pmc.ncbi.nlm.nih.gov/PMC12968518
+- Weese JS, Allerton F, Scahill K, Sørensen TM, Jessen LR (2026). Development of standard consensus definitions for infectious urinary tract disease in dogs and cats, a modified Delphi study. J Small Anim Pract 67:767–773 pmc.ncbi.nlm.nih.gov/PMC13539680
+- Whitehouse W. Bacterial Cystitis in Small Animals. MSD Veterinary Manual (2025) msdvetmanual.com/bacterial-cystitis-in-small-animals
+- Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025) msdvetmanual.com/lower-urinary-tract-disease-in-cats
+- Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016) vet.cornell.edu
+- Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin ruokavirasto.fi
+
+### Läs också
+
+Hälsa
+
+#### Förstoppning hos hund och katt – symtom, vård hemma och när du ska ringa
+
+De flesta hundar bajsar en till tre gånger om dagen och de flesta katter en eller två gånger. Krystningar, små och hå...
+Husdjurshälsa
+
+#### Kronisk njursvikt hos katt – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, är en av de vanligaste sjukdomarna hos äldre katter. Studier t...
+Husdjurshälsa
+
+#### Kronisk njursvikt hos hund – symtom, stadier, behandling och livslängd
+
+Kronisk njursjukdom (CKD), i vardagligt tal njursvikt, innebär att njurarna långsamt och oåterkalleligt förlorar sin...
+Tillbaka till startsidan
+
+---
+
 # Feber hos hund eller katt – normal temperatur och mätning
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/feber.html
@@ -5583,9 +5663,9 @@ Relaterade tjänster: Internmedicin
 
 Hälsa
 
-#### Kräkningar hos hund och katt – vård hemma och när du ska ringa
+#### Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa
 
-En vuxen hund eller katt som kräks en eller två gånger men i övrigt är pigg mår ofta bättre inom ett dygn. Kräkningar...
+En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ov...
 Hälsa
 
 #### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa

@@ -1785,6 +1785,36 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/kipul%C3%A4%C3%A4keinfuusio.html"/>
   </url>
   <url>
+    <loc>https://elainklinikkasaari.fi/articles/virtsatietulehdus.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/urinvagsinfektion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/urinary-tract-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/artiklar/urinvagsinfektion.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/urinvagsinfektion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/urinary-tract-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/articles/urinary-tract-infection.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/artiklar/urinvagsinfektion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/articles/urinary-tract-infection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/articles/virtsatietulehdus.html"/>
+  </url>
+  <url>
     <loc>https://elainklinikkasaari.fi/articles/kuume.html</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>monthly</changefreq>

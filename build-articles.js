@@ -1108,6 +1108,39 @@ const articles = [
     }
   },
   {
+    slug: 'virtsatietulehdus',
+    slugSv: 'urinvagsinfektion',
+    slugEn: 'urinary-tract-infection',
+    titleKey: 'article.uti.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '23.11.2026',
+    publishDate: '2026-11-23',
+    sections: ['intro', 'signs.title', 'signs.text', 'urgent.title', 'urgent.text', 'sameday.title', 'sameday.text', 'causes.title', 'causes.text', 'clinic.title', 'clinic.text', 'contact.title', 'contact.text'],
+    prefix: 'article.uti',
+    sources: [
+      { text: 'Weese JS, Blondeau J, Boothe D, et al. (2019). International Society for Companion Animal Infectious Diseases (ISCAID) guidelines for the diagnosis and management of bacterial urinary tract infections in dogs and cats. Vet J 247:8–25', url: 'https://pubmed.ncbi.nlm.nih.gov/30971357/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Lulich JP, Berent AC, Adams LG, et al. (2016). ACVIM Small Animal Consensus Recommendations on the Treatment and Prevention of Uroliths in Dogs and Cats. J Vet Intern Med 30:1564–1574', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5032870/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Taylor S, Boysen S, Buffington T, et al. (2025). 2025 iCatCare consensus guidelines on the diagnosis and management of lower urinary tract diseases in cats. J Feline Med Surg 27:1098612X241309176', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11816079/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Dorsch R, Remer C, Sauter-Louis C, Hartmann K (2014). Feline lower urinary tract disease in a German cat population. A retrospective analysis of demographic data, causes and clinical signs. Tierarztl Prax Ausg K Kleintiere Heimtiere 42:231–239', url: 'https://pubmed.ncbi.nlm.nih.gov/25119631/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Mayer-Roenne B, Goldstein RE, Erb HN (2007). Urinary tract infections in cats with hyperthyroidism, diabetes mellitus and chronic kidney disease. J Feline Med Surg 9:124–132', url: 'https://pubmed.ncbi.nlm.nih.gov/17088093/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Seguin MA, Vaden SL, Altier C, Stone E, Levine JF (2003). Persistent urinary tract infections and reinfections in 100 dogs (1989–1999). J Vet Intern Med 17:622–631', url: 'https://pubmed.ncbi.nlm.nih.gov/14529127/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Forrester SD, Troy GC, Dalton MN, Huffman JW, Holtzman G (1999). Retrospective evaluation of urinary tract infection in 42 dogs with hyperadrenocorticism or diabetes mellitus or both. J Vet Intern Med 13:557–560', url: 'https://pubmed.ncbi.nlm.nih.gov/10587255/', label: 'pubmed.ncbi.nlm.nih.gov' },
+      { text: 'Weese JS, Weese HE (2026). Effectiveness of Cranberry Supplementation for Prevention and Treatment of Infectious Urinary Tract Disease in Dogs and Cats: A Systematic Review. J Vet Pharmacol Ther 49:102–109', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12968518/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Weese JS, Allerton F, Scahill K, Sørensen TM, Jessen LR (2026). Development of standard consensus definitions for infectious urinary tract disease in dogs and cats, a modified Delphi study. J Small Anim Pract 67:767–773', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13539680/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Whitehouse W. Bacterial Cystitis in Small Animals. MSD Veterinary Manual (2025)', url: 'https://www.msdvetmanual.com/urinary-system/infectious-diseases-of-the-urinary-system-in-small-animals/bacterial-cystitis-in-small-animals', label: 'msdvetmanual.com' },
+      { text: 'Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025)', url: 'https://www.msdvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/lower-urinary-tract-disease-in-cats', label: 'msdvetmanual.com' },
+      { text: 'Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016)', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease', label: 'vet.cornell.edu' },
+      { text: 'Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin', url: 'https://www.ruokavirasto.fi/globalassets/tietoa-meista/asiointi/oppaat-ja-lomakkeet/viljelijat/elainten-pito/elainten-laakitseminen/mikrobilaakkeiden_kayttosuositukset_fi_2.pdf', label: 'ruokavirasto.fi' }
+    ],
+    metaDesc: {
+      fi: "Koiran ja kissan virtsatietulehdus: oireet, milloin soittaa, virtsakivet, virtsan viljely ja miksi kissan rakkovaiva on usein muu kuin bakteeritulehdus.",
+      sv: "Urinvägsinfektion hos hund och katt: symtom, när du ska ringa veterinären, urinsten, urinodling och varför en katts blåsbesvär ofta inte är en infektion.",
+      en: "Urinary tract infection in dogs and cats: signs, when to call the vet, stones, urine culture and why a cat’s bladder trouble is often not an infection."
+    },
+    seoTitle: { fi: "Koiran ja kissan virtsatietulehdus – oireet ja tutkimukset", sv: "Urinvägsinfektion hos hund eller katt – symtom och prover", en: "Dog or Cat Urinary Tract Infection: Signs and Tests" }
+  },
+  {
     slug: 'kuume',
     slugSv: 'feber',
     slugEn: 'fever',
@@ -2163,8 +2196,9 @@ const relatedArticles = {
   'kipulääkeinfuusio': ['anestesiaturvallisuus', 'hypotermia', 'tta-leikkaus'],
   'ripuli': ['oksentelu', 'ummetus', 'ruoka-allergiat'],
   'oksentelu': ['ripuli', 'myrkytys', 'gastroskopia'],
-  'ummetus': ['oksentelu', 'ripuli', 'kissan-munuaisten-vajaatoiminta'],
+  'ummetus': ['virtsatietulehdus', 'ripuli', 'kissan-munuaisten-vajaatoiminta'],
   'kuume': ['oksentelu', 'ripuli', 'rokotukset'],
+  'virtsatietulehdus': ['ummetus', 'kissan-munuaisten-vajaatoiminta', 'munuaisten-vajaatoiminta'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
   'koiran-tassut-talvella': ['koira-ontuu', 'myrkytys', 'koiran-ja-kissan-turkinhoito'],
@@ -2212,6 +2246,7 @@ const articleToServices = {
   'oksentelu': ['sisataudit', 'paivahoito'],
   'ummetus': ['sisataudit', 'paivahoito'],
   'kuume': ['sisataudit', 'paivahoito'],
+  'virtsatietulehdus': ['ultraaani', 'laboratorio'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
   'koiran-tassut-talvella': ['ihotaudit', 'paivystys'],

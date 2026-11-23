@@ -1799,6 +1799,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
   },
 
+  // Article: Urinary tract infection in dogs and cats (new 2026-11)
+  "article.uti.title": {
+    fi: "Koiran ja kissan virtsatietulehdus – oireet, tutkimukset ja milloin soittaa",
+    sv: "Urinvägsinfektion hos hund och katt – symtom, prover och när du ska ringa",
+    en: "Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call"
+  },
+  "article.uti.intro": {
+    fi: "Virtsatietulehdus on bakteerien aiheuttama tulehdus, yleensä virtsarakossa. Se on yleinen koirilla, etenkin nartuilla, mutta melko harvinainen alle noin kymmenvuotiailla kissoilla. Näillä kissoilla rakkovaivojen syy on yleensä tulehdus ilman bakteereja, virtsakivet tai uroskissoilla virtsaputken tulppa. Bakteeriton tulehdus liittyy usein stressiin. Oireet ovat samat, joten vain tutkimukset näyttävät, mistä on kyse.",
+    sv: "En urinvägsinfektion är en bakterieinfektion, vanligen i urinblåsan. Den är vanlig hos hundar, särskilt tikar, men ovanlig hos katter under ungefär tio år: deras blåsbesvär beror oftast på en inflammation utan bakterier (ofta kopplad till stress), urinsten eller, hos hankatter, en urinrörsplugg. Symtomen är desamma, så bara undersökningar visar vilket det är.",
+    en: "A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females, but uncommon in cats under about ten: their bladder trouble is usually an inflammation without bacteria (often linked to stress), stones or, in males, a urethral plug. The signs are the same, so only tests show which it is."
+  },
+  "article.uti.signs.title": {
+    fi: "Oireet",
+    sv: "Symtom",
+    en: "Signs"
+  },
+  "article.uti.signs.text": {
+    fi: "Tiheä pissaaminen vain vähän kerrallaan, ponnistelu, verta virtsassa, sukuelinten nuoleminen tai sisäsiistin koiran pissavahingot. Kissa voi pissata hiekkalaatikon ulkopuolelle.",
+    sv: "Djuret kissar ofta men bara lite i taget, krystar, har blod i urinen, slickar sig på könsorganen eller, om det är en rumsren hund, kissar inne. En katt kan kissa utanför kattlådan.",
+    en: "Peeing often and only a little, straining, blood in the urine, licking the genitals, or accidents indoors in a house-trained dog. A cat may pee outside the litter tray."
+  },
+  "article.uti.urgent.title": {
+    fi: "Soita heti",
+    sv: "Ring genast",
+    en: "Call at Once"
+  },
+  "article.uti.urgent.text": {
+    fi: "Soita meille heti numeroon (06) 321 7300, jos lemmikkisi ponnistelee, mutta virtsaa ei tule lainkaan tai sitä tulee vain tipoittain: sillä voi olla virtsatietukos, joka voi tappaa sen vuorokaudessa tai kahdessa. Uroskissa, joka ponnistelee tai käy yhä uudelleen hiekkalaatikolla, on hätätapaus, vaikka vaiva näyttäisi ummetukselta. Soita heti myös, jos lemmikilläsi on virtsatieoireita ja se lisäksi oksentaa, lakkaa syömästä, on hyvin vaisu tai sen vatsa on kipeä. Aukioloaikojemme ulkopuolella soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Ring oss genast på (06) 321 7300 om ditt djur krystar men inte får ut någon urin eller bara några droppar: djuret kan ha stopp i urinröret, vilket kan döda det inom ett eller två dygn. En hankatt som krystar eller gång på gång går till kattlådan är ett akutfall, även om det ser ut som förstoppning. Ring också genast om ett djur med urinvägssymtom kräks, slutar äta, är mycket slött eller har ont i magen. Utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Call us on (06) 321 7300 at once if your pet strains but passes no urine or only drops: the urethra may be blocked, which can kill within a day or two. A male cat that strains or keeps going to the litter tray is an emergency, even if it looks like constipation. Also call at once if a pet with urinary signs vomits, stops eating, is very dull or has a painful belly. Outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.uti.sameday.title": {
+    fi: "Soita saman päivän aikana",
+    sv: "Ring samma dag",
+    en: "Call the Same Day"
+  },
+  "article.uti.sameday.text": {
+    fi: "Soita meille saman päivän aikana, jos lemmikilläsi on muita virtsatieoireita. Älä anna ylijääneitä antibiootteja: ne voivat olla vääränlaisia ja pilata virtsan bakteeriviljelyn. Kotikonstien, kuten karpalon, tehoa ei ole osoitettu.",
+    sv: "Ring oss samma dag vid alla andra urinvägssymtom. Ge inte antibiotika som blivit över: det kan vara fel sort och förstöra urinodlingen. Huskurer som tranbär har ingen bevisad effekt.",
+    en: "Call us the same day about any other urinary signs. Don’t give leftover antibiotics: they may be the wrong ones and spoil the urine culture. Home remedies such as cranberry are unproven."
+  },
+  "article.uti.causes.title": {
+    fi: "Yleisiä syitä",
+    sv: "Vanliga orsaker",
+    en: "Common Causes"
+  },
+  "article.uti.causes.text": {
+    fi: "Koirilla bakteerit nousevat virtsarakkoon sukuelinten ja peräaukon ympäriltä. Virtsakivet, diabetes ja muut sairaudet lisäävät virtsatietulehduksen riskiä, ja toistuvien tulehdusten syy on selvitettävä. Kissoilla stressi, liian vähäinen vedensaanti, ylipaino ja sisäkissana eläminen lisäävät bakteerittoman rakkotulehduksen riskiä. Stressin vähentäminen auttaa ehkäisemään uusia oirejaksoja, ja myös runsaampi vedensaanti voi auttaa. Yli noin kymmenvuotiaat kissat saavat bakteerien aiheuttamia virtsatietulehduksia useammin, etenkin jos niillä on munuaissairaus, diabetes tai kilpirauhasen liikatoiminta.",
+    sv: "Hos hundar vandrar bakterier från området kring könsorganen och analöppningen upp i urinblåsan. Urinsten, diabetes och andra sjukdomar ökar risken, och vid återkommande infektioner behöver orsaken utredas. Hos katter ökar stress, för lite vatten, övervikt och ett liv som innekatt risken för blåsinflammation utan bakterier. Mindre stress hjälper till att förebygga nya skov, och mer vatten kan också hjälpa. Katter över ungefär tio år, särskilt de som har njursjukdom, diabetes eller överaktiv sköldkörtel, får oftare urinvägsinfektioner.",
+    en: "In dogs, bacteria from around the genitals and anus travel up into the bladder; stones, diabetes and other diseases make this more likely, and repeat infections need a search for the cause. In cats, stress, too little water and an overweight, indoor life raise the risk of bladder inflammation; less stress helps prevent new bouts, and more water may too. Cats over about ten, especially those with kidney disease, diabetes or an overactive thyroid, get infections more often."
+  },
+  "article.uti.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.uti.clinic.text": {
+    fi: "Sinun ei tarvitse tuoda virtsanäytettä. Otamme näytteen ohuella neulalla suoraan virtsarakosta ultraäänen ohjaamana, yleensä ilman rauhoitusta. Ultraäänellä tarkistamme samalla, onko rakossa kiviä. Bakteeriviljely näyttää, onko virtsassa bakteereja ja mikä antibiootti niihin tehoaa. Tulos valmistuu yleensä seuraavaan päivään mennessä. Emme anna antibiootteja sokkona: tarpeettomat antibiootit edistävät vastustuskykyisten bakteerien syntyä. Osa virtsakivistä voidaan liuottaa erikoisruokavaliolla. Muut poistetaan, jos ne aiheuttavat vaivaa. Myymme kissoille ja koirille virtsateiden erikoisruokia. Oikea ruoka riippuu kivityypistä. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.",
+    sv: "Du behöver inte ta med något urinprov. Vi tar provet med en tunn nål direkt ur urinblåsan med hjälp av ultraljud, vanligen utan sedering. Vid ultraljudet kontrollerar vi också om det finns stenar i urinblåsan. En urinodling visar om det finns bakterier och vilken sorts antibiotika som fungerar, och svaret är vanligen klart nästa dag. Vi ger inte antibiotika i blindo: onödig antibiotika leder till resistenta bakterier. Vissa stenar kan lösas upp med ett specialfoder, andra tas bort om de orsakar besvär. Vi säljer urinvägsfoder för katter och hundar, och vilket som är rätt beror på vilken sorts sten det är. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.",
+    en: "You don’t need to bring a urine sample. We take it straight from the bladder with a fine needle guided by ultrasound, usually without sedation; the ultrasound also checks for bladder stones. A culture shows whether there are bacteria and which antibiotic works, usually by the next day. We don’t give antibiotics blindly: unnecessary antibiotics breed resistant bacteria. Some stones can be dissolved with a special diet; others are removed if they cause trouble. We sell urinary diets for cats and dogs; the right one depends on the stone. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us."
+  },
+  "article.uti.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.uti.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4628,6 +4700,7 @@ function setLanguage(lang) {
     'valeraskaus': { sv: 'skendraktighet', en: 'false-pregnancy' },
     'ummetus': { sv: 'forstoppning', en: 'constipation' },
     'kuume': { sv: 'feber', en: 'fever' },
+    'virtsatietulehdus': { sv: 'urinvagsinfektion', en: 'urinary-tract-infection' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },

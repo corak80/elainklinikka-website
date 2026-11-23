@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 89 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 90 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3778,6 +3778,12 @@ Search articles...
 Health
 23.11.2026
 
+### Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call
+
+A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females, but uncommon in cats under about ten: their bladder trouble is usually an inflammation without bacteria (often linked to stress), stones or, in males, a urethral plug. The signs are the same, so only tests show which it is.
+Health
+23.11.2026
+
 ### Fever in Dogs and Cats — Normal Temperature and How to Measure It
 
 A healthy dog’s or cat’s temperature is about 38–39 °C. Above about 39.5 °C is a fever. A warm or dry nose doesn’t show a fever: only a thermometer does. Puppies and kittens under four weeks run cooler.
@@ -5444,6 +5450,80 @@ Back to homepage
 
 ---
 
+# Dog or Cat Urinary Tract Infection: Signs and Tests
+
+URL: https://elainklinikkasaari.fi/en/articles/urinary-tract-infection.html
+Last updated: 2026-11-23
+
+Health
+23.11.2026
+
+## Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females, but uncommon in cats under about ten: their bladder trouble is usually an inflammation without bacteria (often linked to stress), stones or, in males, a urethral plug. The signs are the same, so only tests show which it is.
+
+### Signs
+
+Peeing often and only a little, straining, blood in the urine, licking the genitals, or accidents indoors in a house-trained dog. A cat may pee outside the litter tray.
+
+### Call at Once
+
+Call us on (06) 321 7300 at once if your pet strains but passes no urine or only drops: the urethra may be blocked, which can kill within a day or two. A male cat that strains or keeps going to the litter tray is an emergency, even if it looks like constipation. Also call at once if a pet with urinary signs vomits, stops eating, is very dull or has a painful belly. Outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### Call the Same Day
+
+Call us the same day about any other urinary signs. Don’t give leftover antibiotics: they may be the wrong ones and spoil the urine culture. Home remedies such as cranberry are unproven.
+
+### Common Causes
+
+In dogs, bacteria from around the genitals and anus travel up into the bladder; stones, diabetes and other diseases make this more likely, and repeat infections need a search for the cause. In cats, stress, too little water and an overweight, indoor life raise the risk of bladder inflammation; less stress helps prevent new bouts, and more water may too. Cats over about ten, especially those with kidney disease, diabetes or an overactive thyroid, get infections more often.
+
+### At the Clinic
+
+You don’t need to bring a urine sample. We take it straight from the bladder with a fine needle guided by ultrasound, usually without sedation; the ultrasound also checks for bladder stones. A culture shows whether there are bacteria and which antibiotic works, usually by the next day. We don’t give antibiotics blindly: unnecessary antibiotics breed resistant bacteria. Some stones can be dissolved with a special diet; others are removed if they cause trouble. We sell urinary diets for cats and dogs; the right one depends on the stone. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- Weese JS, Blondeau J, Boothe D, et al. (2019). International Society for Companion Animal Infectious Diseases (ISCAID) guidelines for the diagnosis and management of bacterial urinary tract infections in dogs and cats. Vet J 247:8–25 pubmed.ncbi.nlm.nih.gov/30971357
+- Lulich JP, Berent AC, Adams LG, et al. (2016). ACVIM Small Animal Consensus Recommendations on the Treatment and Prevention of Uroliths in Dogs and Cats. J Vet Intern Med 30:1564–1574 pmc.ncbi.nlm.nih.gov/PMC5032870
+- Taylor S, Boysen S, Buffington T, et al. (2025). 2025 iCatCare consensus guidelines on the diagnosis and management of lower urinary tract diseases in cats. J Feline Med Surg 27:1098612X241309176 pmc.ncbi.nlm.nih.gov/PMC11816079
+- Dorsch R, Remer C, Sauter-Louis C, Hartmann K (2014). Feline lower urinary tract disease in a German cat population. A retrospective analysis of demographic data, causes and clinical signs. Tierarztl Prax Ausg K Kleintiere Heimtiere 42:231–239 pubmed.ncbi.nlm.nih.gov/25119631
+- Mayer-Roenne B, Goldstein RE, Erb HN (2007). Urinary tract infections in cats with hyperthyroidism, diabetes mellitus and chronic kidney disease. J Feline Med Surg 9:124–132 pubmed.ncbi.nlm.nih.gov/17088093
+- Seguin MA, Vaden SL, Altier C, Stone E, Levine JF (2003). Persistent urinary tract infections and reinfections in 100 dogs (1989–1999). J Vet Intern Med 17:622–631 pubmed.ncbi.nlm.nih.gov/14529127
+- Forrester SD, Troy GC, Dalton MN, Huffman JW, Holtzman G (1999). Retrospective evaluation of urinary tract infection in 42 dogs with hyperadrenocorticism or diabetes mellitus or both. J Vet Intern Med 13:557–560 pubmed.ncbi.nlm.nih.gov/10587255
+- Weese JS, Weese HE (2026). Effectiveness of Cranberry Supplementation for Prevention and Treatment of Infectious Urinary Tract Disease in Dogs and Cats: A Systematic Review. J Vet Pharmacol Ther 49:102–109 pmc.ncbi.nlm.nih.gov/PMC12968518
+- Weese JS, Allerton F, Scahill K, Sørensen TM, Jessen LR (2026). Development of standard consensus definitions for infectious urinary tract disease in dogs and cats, a modified Delphi study. J Small Anim Pract 67:767–773 pmc.ncbi.nlm.nih.gov/PMC13539680
+- Whitehouse W. Bacterial Cystitis in Small Animals. MSD Veterinary Manual (2025) msdvetmanual.com/bacterial-cystitis-in-small-animals
+- Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025) msdvetmanual.com/lower-urinary-tract-disease-in-cats
+- Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016) vet.cornell.edu
+- Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin ruokavirasto.fi
+
+### Read also
+
+Health
+
+#### Constipation in Dogs and Cats — Signs, Home Care and When to Call
+
+Most dogs poo one to three times a day and most cats once or twice. Straining, small hard poo or no poo for two days...
+Pet Health
+
+#### Chronic Kidney Disease in Cats — Symptoms, Stages, Treatment and Life Expectancy
+
+Chronic kidney disease (CKD), often called kidney failure, is one of the most common illnesses of older cats. Studies...
+Pet Health
+
+#### Chronic kidney disease (kidney failure) in dogs — symptoms, stages, treatment and life expectancy
+
+Chronic kidney disease (CKD), often called kidney failure, means that the kidneys slowly and permanently lose their a...
+Back to homepage
+
+---
+
 # Dog or Cat Fever: Normal Temperature and How to Measure It
 
 URL: https://elainklinikkasaari.fi/en/articles/fever.html
@@ -5593,9 +5673,9 @@ Related services: Internal Medicine
 
 Health
 
-#### Vomiting in Dogs and Cats — When to Call and What to Do at Home
+#### Urinary Tract Infection in Dogs and Cats — Signs, Tests and When to Call
 
-An adult dog or cat that vomits once or twice but is otherwise bright often gets better within a day. Vomiting can al...
+A urinary tract infection is a bacterial infection, usually of the bladder. It is common in dogs, especially females,...
 Health
 
 #### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
