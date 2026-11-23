@@ -3514,10 +3514,10 @@ Tillbaka till startsidan
 
 ---
 
-# Akut veterinär Vasa | Djurklinik Saari
+# Veterinärjour Vasa – vardagar har vi akuttider | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
-Last updated: 2026-11-18
+Last updated: 2026-11-23
 
 Tillbaka till startsidan
 
@@ -3528,7 +3528,7 @@ Tillbaka till startsidan
 Vi reserverar akuttider varje vardag för brådskande fall. Ring (06) 321 7300 – även om dagens kalender ser full ut kan en akuttid ändå finnas tillgänglig. Per telefon bedömer vi situationen, ger råd om första hjälpen för resan och förbereder mottagningen.
 Akut situation?
 Ring oss först på (06) 321 7300. Under öppettiderna (vardagar 7:45–17) kostar ett akutbesök lika mycket som ett vanligt besök, utan någon extra avgift.
-Kvällar, nätter och veckoslut: ring regionens jourveterinär på 0600 399 299.
+Kvällar, nätter och veckoslut: ring regionens veterinärjour på 0600 399 299.
 
 ### Vad kostar ett akutbesök?
 
@@ -3560,7 +3560,7 @@ Under öppettiderna (vardagar 7:45–17) kostar ett akutbesök lika mycket som e
 - Ge inte humanläkemedel. Paracetamol är dödligt för katt och giftigt för hund i fel dos. Ibuprofen, diklofenak och aspirin skadar mag-tarmkanalen och njurarna hos båda.
 - Känn igen chocktecken: kalla öron och tassar, blekt tandkött, snabb ytlig andning, plötslig matthet. Håll djuret varmt, ge inte vatten, åk genast iväg och ring under resan – chock kräver omedelbar vätskebehandling under veterinärvård.
 
-### Kvällar och helger – Norra jourområdet
+### Veterinärjour kvällar och helger – Norra jourområdet
 
 Djurklinik Saari är stängd kvällar och helger, och vår telefon besvaras inte utanför öppettiderna. För Vasaregionen – som omfattar Vasa, Korsholm, Laihela, Lillkyro och Vörå – finns en gemensam jourtelefon för kvällar, nätter och helger.
 Regionens jourtelefon
