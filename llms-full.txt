@@ -2833,7 +2833,7 @@ Takaisin etusivulle
 # Röntgen eläimille Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/rontgen/
-Last updated: 2026-09-20
+Last updated: 2026-11-24
 
 Takaisin etusivulle
 
@@ -2857,7 +2857,7 @@ Röntgentutkimusta suositellaan ontumisen tutkimisessa, epäiltäessä murtumia 
 
 ### Usein kysyttyä röntgenistä
 
-Tarvitaanko rauhoitusta röntgeniin? Useimmissa tapauksissa röntgenkuvaus onnistuu ilman rauhoitusta. Potilaan asentoa ohjataan kevyesti ja kuvaus kestää vain sekunteja. Rauhoitusta tarvitaan, jos potilas on kovin levoton tai kivulias, tai kun kyseessä ovat viralliset jalostusröntgenkuvat, jotka vaativat tarkan asennon. Rauhoitus on turvallinen ja potilas toipuu nopeasti. Onko röntgensäteily vaarallista? Röntgenkuvaus on turvallinen diagnostinen tutkimus. Yksittäisen kuvan säteilyannos on erittäin pieni eikä aiheuta terveysriskiä. Digitaalinen röntgen vähentää tarvittavaa säteilyannosta entisestään perinteiseen filmitekniikkaan verrattuna. Hoitohenkilökunta käyttää suojavarusteita ja noudattaa säteilyturvallisuusohjeita.
+Tarvitaanko rauhoitusta röntgeniin? Useimmissa tapauksissa röntgenkuvaus onnistuu ilman rauhoitusta. Potilaan asentoa ohjataan kevyesti ja kuvaus kestää vain sekunteja. Rauhoitusta tarvitaan, jos potilas on kovin levoton tai kivulias, tai kun kyseessä ovat viralliset jalostusröntgenkuvat, jotka vaativat tarkan asennon. Rauhoitus on turvallinen ja potilas toipuu nopeasti. Onko röntgensäteily vaarallista? Röntgenkuvaus on turvallinen diagnostinen tutkimus. Yksittäisen röntgenkuvan säteilyannos on erittäin pieni eikä aiheuta terveysriskiä. Digitaalinen röntgen vähentää tarvittavaa säteilyannosta entisestään perinteiseen filmitekniikkaan verrattuna. Hoitohenkilökunta käyttää suojavarusteita ja noudattaa säteilyturvallisuusohjeita.
 
 ### Varaa aika
 
