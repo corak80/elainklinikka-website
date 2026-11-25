@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 99 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 100 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -454,6 +454,8 @@ Kynsien lyhennys, omistaja pitelee 20 €
 Kynsien lyhennys, hoitaja pitelee 30 €
 Kynsien lyhennys, kaksi tai useampi hoitaja pitelee 40 €
 Anaalirauhasten tyhjennys (hoitaja) 21,97 €
+Ulostenäyte, matojen munien tutkimus (esimerkki) 107,97 €
+Ulostenäyte, laajempi loistutkimus, sis. Giardian (esimerkki) 160,00 €
 Kissan turkinhuolto nukutettuna 123–163 €
 Eutanasia
 Kissa 128 €
@@ -478,7 +480,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Palvelumme
 
@@ -522,6 +524,7 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 - Tähystykset – gastroskopia, video-otoskopia, rhinoskopia, kystoskopia ja bronkoskopia.
 - Laboratorio – oma laboratorio: verikokeet, virtsanäytteet, sytologia ja hormonit.
 - Verikokeet – hematologia, kliininen kemia, hormonit ja virtsaviljely – tulokset käynnin aikana.
+- Ulostenäyte – tutkimus matojen ja Giardian varalta, kolmen päivän näytteen keräys ja tulos noin viikossa.
 - Tiineystutkimus – ultraääni, röntgen ja sikiöiden seuranta – keisarinleikkauksen suunnittelu.
 
 ### Hyvinvointi ja kuntoutus
@@ -3724,6 +3727,59 @@ Takaisin etusivulle
 
 ---
 
+# Koiran ja kissan ulostenäyte Vaasassa | Eläinklinikka Saari
+
+URL: https://elainklinikkasaari.fi/palvelut/ulostenayte/
+Last updated: 2026-11-25
+
+Takaisin etusivulle
+
+## Koiran ja kissan ulostenäyte
+
+### Milloin ulostenäytteestä on hyötyä?
+
+Ulostenäytteestä voi löytyä matoja ja muita suolistoloisia, kuten Giardiaa, mutta negatiivinen tulos ei aina tarkoita, ettei loisia ole. Terveelle ja vähäriskiselle aikuiselle lemmikille voidaan tehdä ulostetutkimus rutiinimadotuksen sijaan, jos se toistetaan yhtä usein kuin lemmikki muuten madotettaisiin. Tutkimuksesta on apua myös silloin, kun ripuli pitkittyy tai palaa yhä uudelleen, kun kotiin tulee uusi lemmikki löytöeläinkodista tai ulkomailta ja kun koiralla on pitkään jatkunut yskä, sillä osa keuhkomadoista löytyy ulosteesta. Ulostetutkimuksessa moni heisimato jää huomaamatta, joten jos lemmikkisi metsästää tai syö raakaa lihaa, jota ei ole ensin pakastettu viikon ajan, se tarvitsee silti säännöllisen heisimatolääkityksen.
+
+### Näin keräät näytteen
+
+Jos koirasi yskii tai lemmikkisi on selvästi huonovointinen, soita meille ensin, koska silloin voidaan tarvita toisenlainen näyte tai käynti vastaanotolla. Pidä koirasi hihnassa ja kissasi sisällä päivä tai kaksi ennen keräämistä ja koko keräyksen ajan: jos lemmikki syö ulosteita tai saaliseläimiä, tulos voi olla väärä. Monien loisten munia, toukkia tai kystia erittyy ulosteeseen epätasaisesti – joinakin päivinä ei lainkaan – joten kerää ulostetta kolmena peräkkäisenä päivänä samaan puhtaaseen, tiiviisti suljettavaan purkkiin, joka päivä noin ruokalusikallinen. Ota uloste talteen heti, kun lemmikki on tehnyt tarpeensa, niin että mukaan tulee mahdollisimman vähän ruohoa, maata tai kissanhiekkaa. Säilytä purkki jääkaapissa, ei pakastimessa, ja kirjoita siihen lemmikkisi nimi.
+
+### Näytteen tuominen klinikalle
+
+Tuo näyte vastaanottotiskillemme aukioloaikoina pian viimeisen keräyspäivän jälkeen. Ajanvarausta ei tarvita. Eläinlääkäri valitsee tutkimuksen yhdessä kanssasi. Näyte lähetetään ulkopuoliseen laboratorioon ja tulos valmistuu noin viikossa. Eläinlääkäri ottaa sen jälkeen sinuun yhteyttä ja kertoo tuloksen sekä mahdolliset jatko-ohjeet.
+
+### Hinta
+
+Hinta riippuu tutkimuksesta ja määräytyy pääosin laboratorion hinnoittelun mukaan, joten se voi muuttua. Syksyn 2026 esimerkkihinnat koskevat pelkkää tutkimusta ja sisältävät näytteen käsittelyn, postikulut ja laboratoriomaksut: matojen munien tutkimus 107,97 € ja laajempi, myös Giardian kattava loistutkimus 160,00 €.
+
+### Ota yhteyttä
+
+Etkö ole varma, mitä tutkimusta lemmikkisi tarvitsee? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia osoitteeseen info@saarivet.fi.
+
+### Varaa aika
+
+Soita meille tai varaa aika verkosta.
+Soita (06) 321 7300
+Varaa verkossa
+Eläinlääkäri Vaasassa – tutustu klinikkaamme →
+Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
+
+### Aiheeseen liittyvät artikkelit
+
+Terveys
+
+#### Koiran ja kissan madotus – kuinka usein pennut ja aikuiset madotetaan?
+
+Madotusväli riippuu siitä, kuinka suuri riski lemmikillä on saada matoja. Terveeltä ja vähäriskiseltä aikuiselta lemm...
+Terveys
+
+#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+
+Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
+Takaisin etusivulle
+
+---
+
 # Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivystys/
@@ -5042,6 +5098,7 @@ Ota yhteyttä eläinlääkäriin, jos lemmikkisi joutuu paniikkiin, satuttaa its
 - Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
 - ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+Aiheeseen liittyvät palvelumme: Päivystys
 
 ### Lue myös
 
@@ -5111,7 +5168,7 @@ Vie koira eläinlääkäriin, jos se ontuu (lue lisää koiran ontumisesta), ant
 - Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026). vaasa.fi
 - Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026). hel.fi/unpredictable-ice-conditions-at-sea-resc
 - Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112? 112.fi
-Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset
+Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset · Päivystys
 
 ### Lue myös
 
@@ -5482,7 +5539,7 @@ Varaa aika, jos yskä pahenee, kestää yli kymmenen päivää tai uusiutuu tai 
 - Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
 - Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
 - Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
-Aiheeseen liittyvät palvelumme: Sydäntutkimukset ja sydänultra · Tähystystutkimukset
+Aiheeseen liittyvät palvelumme: Sydäntutkimukset ja sydänultra · Röntgen · Tähystystutkimukset
 
 ### Lue myös
 
@@ -5847,7 +5904,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
 - Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
 - USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
-Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset
+Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset · Anaalirauhaset
 
 ### Lue myös
 
@@ -5919,7 +5976,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
 - Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
-Aiheeseen liittyvät palvelumme: Verikokeet
+Aiheeseen liittyvät palvelumme: Verikokeet · Laboratorio
 
 ### Lue myös
 
@@ -6069,6 +6126,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025) msdvetmanual.com/lower-urinary-tract-disease-in-cats
 - Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016) vet.cornell.edu
 - Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin ruokavirasto.fi
+Aiheeseen liittyvät palvelumme: Ultraäänitutkimukset · Laboratorio
 
 ### Lue myös
 
@@ -6151,7 +6209,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - PDSA. First aid for heatstroke pdsa.org.uk/first-aid-for-heatstroke
 - PDSA. Vaccination reactions in pets pdsa.org.uk/vaccination-reactions-in-pets
 - Texas A&M College of Veterinary Medicine & Biomedical Sciences, Pet Talk (2022). Does the nose know? The truths and myths of canine nasal health vetmed.tamu.edu
-Aiheeseen liittyvät palvelumme: Sisätaudit
+Aiheeseen liittyvät palvelumme: Sisätaudit · Päivähoito
 
 ### Lue myös
 
@@ -6234,7 +6292,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
 - Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
 - van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
-Aiheeseen liittyvät palvelumme: Sisätaudit
+Aiheeseen liittyvät palvelumme: Sisätaudit · Päivähoito
 
 ### Lue myös
 
@@ -6321,7 +6379,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
 - Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
 - US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
-Aiheeseen liittyvät palvelumme: Sisätaudit
+Aiheeseen liittyvät palvelumme: Sisätaudit · Päivähoito
 
 ### Lue myös
 
@@ -6399,7 +6457,7 @@ Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia 
 - Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
 - Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-Aiheeseen liittyvät palvelumme: Sisätaudit
+Aiheeseen liittyvät palvelumme: Sisätaudit · Ulostenäyte
 
 ### Lue myös
 
@@ -8132,7 +8190,7 @@ Varaa aika ulostenäytteen tutkimukseen tai madotukseen Eläinklinikka Saarelta 
 - Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta. ruokavirasto.fi/metsastaja--muista-torjua-hirviekinokokk
 - Your Europe (European Union): Travelling with pets and other animals in the EU. europa.eu
 - Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org
-Aiheeseen liittyvät palvelumme: Sisätaudit · Rokotukset
+Aiheeseen liittyvät palvelumme: Ulostenäyte · Sisätaudit · Rokotukset
 
 ### Lue myös
 

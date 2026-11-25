@@ -154,6 +154,7 @@ The pet comes in at 7:45 and goes home at about 17:00 (about nine hours). Veteri
 - Nail trim, one nurse holds: 30 €
 - Nail trim, two or more nurses hold: 40 €
 - Anal gland emptying by a nurse: 21.97 € (15-minute nurse appointment, bookable online). See https://elainklinikkasaari.fi/en/services/anal-glands/
+- Stool sample (faecal parasite test, sample only, outside lab, results in about a week; price set mainly by the lab and can change), examples autumn 2026: worm-egg check 107.97 €; wider parasite test incl. Giardia 160.00 €. See https://elainklinikkasaari.fi/en/services/stool-sample/
 - Cat grooming under sedation: 123–163 €
 
 ## Euthanasia (Eutanasia)

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 93 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 94 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -325,7 +325,7 @@ We serve in Finnish, Swedish and English.
 # Vet Prices in Vaasa – Price List | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/pricelist/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Price List — Vet Prices in Vaasa
 
@@ -454,6 +454,8 @@ Nail trimming, owner holds €20
 Nail trimming, nurse holds €30
 Nail trimming, two or more nurses hold €40
 Anal gland emptying (nurse) €21.97
+Stool sample, worm-egg check (example) €107.97
+Stool sample, wider parasite test incl. Giardia (example) €160.00
 Cat grooming under sedation €123–163
 Euthanasia
 Cat €128
@@ -478,7 +480,7 @@ Book online
 # Services | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Our Services
 
@@ -522,6 +524,7 @@ Eläinklinikka Saari offers a comprehensive range of small-animal veterinary ser
 - Endoscopy — gastroscopy, video otoscopy, rhinoscopy, cystoscopy and bronchoscopy.
 - Laboratory — in-house lab: blood tests, urinalysis, cytology and hormones.
 - Blood Tests — haematology, clinical chemistry, hormones and urine cultures — results during your visit.
+- Stool Sample — testing for worms and Giardia: how to collect a three-day sample, results in about a week.
 - Pregnancy Examination — ultrasound, X-ray and fetal monitoring — C-section planning.
 
 ### Wellness and Rehabilitation
@@ -3524,6 +3527,59 @@ Back to homepage
 
 ---
 
+# Stool Sample Test for Dogs and Cats | Saari Animal Clinic
+
+URL: https://elainklinikkasaari.fi/en/services/stool-sample/
+Last updated: 2026-11-25
+
+Back to homepage
+
+## Stool sample test for dogs and cats
+
+### When Is a Stool Sample Useful?
+
+A stool sample can reveal worms and other gut parasites, such as Giardia, but a negative result does not always mean there are none. A healthy, low-risk adult pet can be tested instead of routine deworming, if tested as often as it would be dewormed. A test also helps when diarrhoea lasts or keeps coming back, for a new pet from a shelter or abroad, and for a dog with a long-lasting cough, as some lungworms show up in stool. Stool tests miss many tapeworms, so pets that hunt, or eat raw meat not first frozen for a week, still need regular tapeworm treatment.
+
+### How to Collect the Sample
+
+If your dog coughs or your pet is clearly unwell, call us first, as a different sample or a visit may be needed. From a day or two before collecting until you finish, keep your dog on a lead and your cat indoors: eaten droppings or prey can give a false result. Many parasites pass eggs, larvae or cysts unevenly — some days none — so collect stool on three days in a row into one clean, tightly closed container, about a tablespoonful each day. Pick it up right after your pet has gone, with as little grass, soil or cat litter as possible. Keep it in the fridge, not the freezer, and write your pet’s name on it.
+
+### Bringing the Sample to Us
+
+Bring the sample to our reception soon after the last day, during opening hours; no appointment is needed. The vet chooses the test with you. The sample goes to an outside laboratory, and results take about a week. A vet then contacts you with the result and any advice.
+
+### Price
+
+The price depends on the test and is set mainly by the laboratory, so it can change. Examples from autumn 2026, test only, including handling, postage and laboratory fees: worm-egg check €107.97; wider parasite test including Giardia €160.00.
+
+### Contact Us
+
+Unsure which test your pet needs? Call us on (06) 321 7300 or email info@saarivet.fi.
+
+### Book an appointment
+
+Call us or book online.
+Call (06) 321 7300
+Book online
+Veterinarian in Vaasa — about our clinic →
+Emergency? Emergency vet in Vaasa →
+
+### Related articles
+
+Health
+
+#### Dog and Cat Deworming — How Often for Puppies, Kittens and Adults
+
+How often a pet needs deworming depends on its risk. A healthy, low-risk adult can have a faecal sample checked inste...
+Health
+
+#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+
+Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+Back to homepage
+
+---
+
 # Emergency Veterinarian Vaasa | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/services/emergency/
@@ -4713,6 +4769,7 @@ Contact your vet if your pet panics, hurts itself or destroys things, or if its 
 - Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
 - ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+Related services: Emergency Vet
 
 ### Read also
 
@@ -4782,7 +4839,7 @@ See your vet if your dog limps (see our limping article), a pad is cut or bleedi
 - Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026). vaasa.fi
 - Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026). hel.fi/unpredictable-ice-conditions-at-sea-resc
 - Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112? 112.fi
-Related services: Skin diseases, allergies and ear infections
+Related services: Skin diseases, allergies and ear infections · Emergency Vet
 
 ### Read also
 
@@ -5153,7 +5210,7 @@ Book a visit if the cough gets worse, lasts more than ten days, keeps coming bac
 - Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
 - Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
 - Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
-Related services: Cardiac examinations and heart ultrasound · Endoscopy
+Related services: Cardiac examinations and heart ultrasound · X-ray · Endoscopy
 
 ### Read also
 
@@ -5518,7 +5575,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
 - Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
 - USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
-Related services: Skin diseases, allergies and ear infections
+Related services: Skin diseases, allergies and ear infections · Anal Glands
 
 ### Read also
 
@@ -5590,7 +5647,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. You can 
 - Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
 - Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
-Related services: Blood Tests
+Related services: Blood Tests · Laboratory
 
 ### Read also
 
@@ -5740,6 +5797,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025) msdvetmanual.com/lower-urinary-tract-disease-in-cats
 - Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016) vet.cornell.edu
 - Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin ruokavirasto.fi
+Related services: Ultrasound · Laboratory
 
 ### Read also
 
@@ -5822,7 +5880,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - PDSA. First aid for heatstroke pdsa.org.uk/first-aid-for-heatstroke
 - PDSA. Vaccination reactions in pets pdsa.org.uk/vaccination-reactions-in-pets
 - Texas A&M College of Veterinary Medicine & Biomedical Sciences, Pet Talk (2022). Does the nose know? The truths and myths of canine nasal health vetmed.tamu.edu
-Related services: Internal Medicine
+Related services: Internal Medicine · Day Care
 
 ### Read also
 
@@ -5905,7 +5963,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
 - Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
 - van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
-Related services: Internal Medicine
+Related services: Internal Medicine · Day Care
 
 ### Read also
 
@@ -5992,7 +6050,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
 - Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
 - US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
-Related services: Internal Medicine
+Related services: Internal Medicine · Day Care
 
 ### Read also
 
@@ -6070,7 +6128,7 @@ Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is
 - Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
 - Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-Related services: Internal Medicine
+Related services: Internal Medicine · Stool Sample Test
 
 ### Read also
 
@@ -7803,7 +7861,7 @@ Book a faecal-sample check or a deworming at Saari Animal Clinic — we will ass
 - Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta. ruokavirasto.fi/metsastaja--muista-torjua-hirviekinokokk
 - Your Europe (European Union): Travelling with pets and other animals in the EU. europa.eu
 - Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org
-Related services: Internal Medicine · Vaccinations
+Related services: Stool Sample Test · Internal Medicine · Vaccinations
 
 ### Read also
 

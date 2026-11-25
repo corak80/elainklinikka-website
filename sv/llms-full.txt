@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 93 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 94 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -454,6 +454,8 @@ Kloklippning, ägaren håller 20 €
 Kloklippning, skötare håller 30 €
 Kloklippning, två eller flera skötare håller 40 €
 Tömning av analsäckar (djurskötare) 21,97 €
+Avföringsprov, test för maskägg (exempel) 107,97 €
+Avföringsprov, bredare parasittest inkl. Giardia (exempel) 160,00 €
 Kattpälsvård under sedering 123–163 €
 Eutanasi
 Katt 128 €
@@ -478,7 +480,7 @@ Boka online
 # Veterinärtjänster i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Våra tjänster
 
@@ -522,6 +524,7 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 - Endoskopi – gastroskopi, video-otoskopi, rinoskopi, cystoskopi och bronkoskopi.
 - Laboratorium – eget laboratorium: blodprov, urinprov, cytologi och hormoner.
 - Blodprov – hematologi, klinisk kemi, hormoner och urinodling – resultat under besöket.
+- Avföringsprov – test för mask och Giardia, hur du samlar in provet under tre dagar och resultat efter ungefär en vecka.
 - Dräktighetsundersökning – ultraljud, röntgen och fosterövervakning – planering av kejsarsnitt.
 
 ### Friskvård och rehabilitering
@@ -3514,6 +3517,59 @@ Tillbaka till startsidan
 
 ---
 
+# Avföringsprov för hund och katt i Vasa | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/tjanster/avforingsprov/
+Last updated: 2026-11-25
+
+Tillbaka till startsidan
+
+## Avföringsprov för hund och katt
+
+### När är ett avföringsprov till nytta?
+
+Ett avföringsprov kan avslöja mask och andra tarmparasiter, till exempel Giardia, men ett negativt resultat betyder inte alltid att det inte finns några. Ett friskt vuxet djur med låg risk kan testas med avföringsprov i stället för att avmaskas rutinmässigt, om det testas lika ofta som djuret annars skulle avmaskas. Ett prov hjälper också vid diarré som håller i sig eller som återkommer, för ett nytt djur från ett djurhem eller från utlandet och för en hund med långvarig hosta, eftersom vissa lungmaskar går att upptäcka i avföringen. Många bandmaskar upptäcks inte i avföringsprov, så djur som jagar, eller som äter rått kött som inte först har frysts i en vecka, behöver ändå regelbunden bandmaskbehandling.
+
+### Så samlar du in provet
+
+Om din hund hostar eller ditt djur mår uppenbart dåligt ska du ringa oss först, eftersom det kan behövas ett annat prov eller ett besök. Håll hunden i koppel och katten inomhus redan en dag eller två innan du börjar samla in provet och ända tills du är klar: om djuret äter bytesdjur eller avföring från andra djur kan resultatet bli felaktigt. Många parasiter utsöndrar ägg, larver eller cystor oregelbundet – vissa dagar inga alls – så samla avföring tre dagar i följd i en och samma rena burk som du stänger tätt, ungefär en matsked varje dag. Plocka upp avföringen genast när djuret har bajsat, med så lite gräs, jord eller kattsand som möjligt. Förvara burken i kylskåpet, inte i frysen, och skriv ditt djurs namn på den.
+
+### Ta med provet till oss
+
+Lämna provet i vår reception snart efter den sista dagen, under öppettiderna – du behöver inte boka tid. Veterinären väljer tillsammans med dig vilket test som görs. Provet skickas till ett externt laboratorium, och det tar ungefär en vecka innan resultatet är klart. En veterinär kontaktar dig sedan med resultatet och eventuella råd.
+
+### Pris
+
+Priset beror på testet och bestäms främst av laboratoriet, så det kan ändras. Exempelpriser från hösten 2026, enbart för själva testet, inklusive hantering, porto och laboratoriets avgifter: test för maskägg 107,97 €; bredare parasittest som även omfattar Giardia 160,00 €.
+
+### Kontakta oss
+
+Är du osäker på vilket test ditt djur behöver? Ring oss på (06) 321 7300 eller skicka e-post till info@saarivet.fi.
+
+### Boka tid
+
+Ring oss eller boka tid online.
+Ring (06) 321 7300
+Boka online
+Veterinär i Vasa – läs mer om kliniken →
+Akut fall? Jourveterinär i Vasa →
+
+### Relaterade artiklar
+
+Hälsa
+
+#### Avmaskning av hund och katt – hur ofta? Valpar, kattungar och vuxna djur
+
+Hur ofta ett husdjur behöver avmaskas beror på hur stor risken är att det får mask. Ett friskt vuxet djur med låg ris...
+Hälsa
+
+#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+
+De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
+Tillbaka till startsidan
+
+---
+
 # Veterinärjour Vasa – vardagar har vi akuttider | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
@@ -4703,6 +4759,7 @@ Kontakta veterinären om ditt djur får panik, skadar sig eller förstör saker,
 - Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
 - ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
+Relaterade tjänster: Veterinärjour
 
 ### Läs också
 
@@ -4772,7 +4829,7 @@ Ta hunden till veterinären om den haltar (läs vår artikel om hälta), om en t
 - Vaasan kaupunki: Gritting of walking and cycling paths (11.2.2026). vaasa.fi
 - Helsingin pelastuslaitos: Unpredictable ice conditions at sea (4.3.2026). hel.fi/unpredictable-ice-conditions-at-sea-resc
 - Hätäkeskuslaitos: Eläin hädässä – milloin soitat 112? 112.fi
-Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer
+Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer · Veterinärjour
 
 ### Läs också
 
@@ -5143,7 +5200,7 @@ Boka tid om hostan blir värre, pågår i mer än tio dagar, återkommer gång p
 - Hovda T. Toxicoses From Human Analgesics in Animals. Merck Veterinary Manual. merckvetmanual.com/toxicoses-from-human-analgesics-in-anima
 - Hayes C. Xylitol Toxicosis in Dogs. Merck Veterinary Manual. merckvetmanual.com/xylitol-toxicosis-in-dogs
 - Tauer D. Anticoagulant Rodenticide Poisoning in Animals. Merck Veterinary Manual. merckvetmanual.com/anticoagulant-rodenticide-poisoning-in-a
-Relaterade tjänster: Hjärtundersökningar och hjärtultraljud · Endoskopi
+Relaterade tjänster: Hjärtundersökningar och hjärtultraljud · Röntgen · Endoskopi
 
 ### Läs också
 
@@ -5508,7 +5565,7 @@ Borsta regelbundet bort död underull, särskilt när hunden fäller, och torka 
 - American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
 - Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
 - USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
-Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer
+Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer · Analsäckar
 
 ### Läs också
 
@@ -5580,7 +5637,7 @@ Om sjukdomen inte behandlas fortsätter symtomen vanligen och kan långsamt bli 
 - Bruyette D. Disorders of the Adrenal Glands in Dogs. MSD Veterinary Manual (dog owners version), full review June 2018 msdvetmanual.com/disorders-of-the-adrenal-glands-in-dogs
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Cushing’s syndrome. Canine health information vet.cornell.edu
 - Bellefontaine J. When Aging Isn’t the Answer: Cushing’s Disease in Dogs. University of Illinois College of Veterinary Medicine, Pet Health Columns, 30 January 2026 vetmed.illinois.edu
-Relaterade tjänster: Blodprov
+Relaterade tjänster: Blodprov · Laboratorium
 
 ### Läs också
 
@@ -5730,6 +5787,7 @@ Du behöver inte ta med något urinprov. Vi tar provet med en tunn nål direkt u
 - Van Vertloo L. Lower Urinary Tract Disease in Cats. MSD Veterinary Manual (2025) msdvetmanual.com/lower-urinary-tract-disease-in-cats
 - Cornell Feline Health Center. Feline Lower Urinary Tract Disease (updated October 2016) vet.cornell.edu
 - Evira & Helsingin yliopisto (2016). Mikrobilääkkeiden käyttösuositukset eläinten tärkeimpiin tulehdus- ja tartuntatauteihin ruokavirasto.fi
+Relaterade tjänster: Ultraljud · Laboratorium
 
 ### Läs också
 
@@ -5812,7 +5870,7 @@ Feber är ett symtom, inte en sjukdom, så vi letar efter orsaken, vid behov med
 - PDSA. First aid for heatstroke pdsa.org.uk/first-aid-for-heatstroke
 - PDSA. Vaccination reactions in pets pdsa.org.uk/vaccination-reactions-in-pets
 - Texas A&M College of Veterinary Medicine & Biomedical Sciences, Pet Talk (2022). Does the nose know? The truths and myths of canine nasal health vetmed.tamu.edu
-Relaterade tjänster: Internmedicin
+Relaterade tjänster: Internmedicin · Dagvård
 
 ### Läs också
 
@@ -5895,7 +5953,7 @@ Vi kan ta röntgenbilder och blodprov (svaren får du under besöket), tömma ta
 - Mallol C, Espada Y, Lloret A, et al. Dystrophic mineralisation in chronic exogenous lipid pneumonia in cats. JFMS Open Rep 2019;5(1):2055116919850255. pubmed.ncbi.nlm.nih.gov/31205738
 - Betancourt SL, Martinez-Jimenez S, Rossi SE, et al. Lipoid pneumonia: spectrum of clinical and radiologic manifestations. AJR Am J Roentgenol 2010;194(1):103–109. pubmed.ncbi.nlm.nih.gov/20028911
 - van Diggelen RA, Gillies GJJ, Shoveller AK, et al. Water intake and consumption behavior of colony and privately-owned healthy domestic cats fed 100% dry, 50% dry and 50% wet, and 100% wet diets. J Anim Sci 2026;104:skag201. pubmed.ncbi.nlm.nih.gov/42390131
-Relaterade tjänster: Internmedicin
+Relaterade tjänster: Internmedicin · Dagvård
 
 ### Läs också
 
@@ -5982,7 +6040,7 @@ Vid behov tar vi blodprov (svaren får du under besöket), röntgenbilder eller 
 - International Cat Care: Urethral obstruction in cats. icatcare.org/urethral-obstruction-in-cats
 - Cornell Feline Health Center: Feline Panleukopenia Virus. vet.cornell.edu/feline-panleukopenia-virus
 - US FDA: Get the Facts about Pain Relievers for Pets. fda.gov
-Relaterade tjänster: Internmedicin
+Relaterade tjänster: Internmedicin · Dagvård
 
 ### Läs också
 
@@ -6060,7 +6118,7 @@ Byt foder gradvis under ungefär en vecka, håll djuret borta från bordsrester 
 - Mohr AJ, Leisewitz AL, Jacobson LS, Steiner JM, Ruaux CG, Williams DA. Effect of early enteral nutrition on intestinal permeability, intestinal protein loss, and outcome in dogs with severe parvoviral enteritis. J Vet Intern Med 2003;17(6):791–798. pmc.ncbi.nlm.nih.gov
 - Jensen AP, Bjørnvad CR. Clinical effect of probiotics in prevention or treatment of gastrointestinal disease in dogs: A systematic review. Journal of Veterinary Internal Medicine 2019;33(5):1849–1864. doi.org/jvim.15554
 - Bybee SN, Scorza AV, Lappin MR. Effect of the probiotic Enterococcus faecium SF68 on presence of diarrhea in cats and dogs housed in an animal shelter. Journal of Veterinary Internal Medicine 2011;25(4):856–860. doi.org/j.1939-1676.2011.0738.x
-Relaterade tjänster: Internmedicin
+Relaterade tjänster: Internmedicin · Avföringsprov
 
 ### Läs också
 
@@ -7793,7 +7851,7 @@ Boka en kontroll med avföringsprov eller en avmaskning hos Djurklinik Saari –
 - Ruokavirasto: Metsästäjä – muista torjua hirviekinokokkitartunta. ruokavirasto.fi/metsastaja--muista-torjua-hirviekinokokk
 - Your Europe (European Union): Travelling with pets and other animals in the EU. europa.eu
 - Rapp P, Williamson E-M, Uski R, et al. Low intestinal parasite prevalence in Finnish pet dogs and cats. Acta Veterinaria Scandinavica 2024;66:52. doi.org
-Relaterade tjänster: Internmedicin · Vaccinationer
+Relaterade tjänster: Avföringsprov · Internmedicin · Vaccinationer
 
 ### Läs också
 
