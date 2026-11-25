@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 92 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 93 English pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3769,12 +3769,18 @@ Gerbyntie 18, 65230 Vaasa · Mon–Fri 7:45–17:00
 # Articles | Saari Animal Clinic
 
 URL: https://elainklinikkasaari.fi/en/articles/
-Last updated: 2026-11-23
+Last updated: 2026-11-25
 
 ## Articles
 
 Veterinary articles from the professionals
 Search articles...
+Health
+25.11.2026
+
+### Hotspots in Dogs — Signs, First Aid and When to See the Vet
+
+A hotspot is a red, wet and painful patch of skin that a dog makes by licking, chewing or scratching one spot. It can appear suddenly, grow fast and hide under thick fur. Dogs with a thick or long coat get them more often. The usual places are the cheek, neck, outer thigh and base of the tail.
 Health
 23.11.2026
 
@@ -4306,9 +4312,9 @@ Pet Health
 Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
 Health
 
-#### Diarrhoea in Dogs, Cats and Kittens — Home Care and When to Call
+#### Hotspots in Dogs — Signs, First Aid and When to See the Vet
 
-Most diarrhoea in dogs and cats settles within a few days, but it can be a sign of serious illness.
+A hotspot is a red, wet and painful patch of skin that a dog makes by licking, chewing or scratching one spot. It can...
 Back to homepage
 
 ---
@@ -5458,6 +5464,79 @@ Orthopedics
 #### TTA Surgery in Dogs — Tibial Tuberosity Advancement for Cruciate Ligament Disease
 
 Cranial cruciate ligament (CCL) disease is one of the most common causes of hind-leg lameness in dogs. The ligament u...
+Back to homepage
+
+---
+
+# Hotspots in Dogs: Signs, First Aid and When to See the Vet
+
+URL: https://elainklinikkasaari.fi/en/articles/dog-hotspots.html
+Last updated: 2026-11-25
+
+Health
+25.11.2026
+
+## Hotspots in Dogs — Signs, First Aid and When to See the Vet
+
+Veterinarian Assaf Wydra, Eläinklinikka Saari
+A hotspot is a red, wet and painful patch of skin that a dog makes by licking, chewing or scratching one spot. It can appear suddenly, grow fast and hide under thick fur. Dogs with a thick or long coat get them more often. The usual places are the cheek, neck, outer thigh and base of the tail.
+
+### When to See the Vet
+
+Book a visit as soon as you notice a hotspot: it hurts and can quickly get worse. We can usually see your dog the same or next working day. Call us straight away if it keeps growing or has bloody crusts, or if the skin around it is swollen, thick or dotted with small bumps (signs of a deeper infection). Also call straight away if your dog seems unwell or will not let you touch it, or if sores appear on the back within a few days of a bath or grooming. If any of this happens outside opening hours, call the regional emergency vet on 0600 399 299.
+
+### First Aid at Home
+
+Stop your dog from licking or scratching the spot. A protective cone works best (we sell them), and a clean T-shirt or body suit can cover a sore on the body. Be gentle: a dog in pain may snap. Keep the spot clean and dry, and put nothing on it unless we advise it: dogs lick it off, and some essential oils are poisonous. Don’t cut the hair with scissors: it is easy to cut the skin.
+
+### At the Clinic
+
+We clip the hair around the sore and clean it, often under light sedation because it hurts. Home treatment usually means a cleaning product made for dogs, a medicine to put on the skin and something for itch and pain. An ordinary hotspot does not need antibiotic tablets; they are for deeper infections. With treatment, most heal within two weeks. We also look for the cause, for example by checking a skin or ear sample under the microscope during the visit. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us.
+
+### Why Hotspots Happen
+
+A hotspot starts when something makes the dog itch or hurt and it keeps licking or scratching the same place. Triggers include allergies, fleas, ear infections, anal gland problems, insect bites and pain, such as from sore joints. A wet or matted coat may add to the risk.
+
+### Preventing New Hotspots
+
+Brush out dead undercoat regularly, especially when your dog is moulting, and dry the coat well after swimming. Treat ear infections, itching and any fleas early. If hotspots keep coming back, let us look for the cause: it is often an allergy.
+
+### Contact Us
+
+Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email.
+
+### Sources
+
+- Loeffler A, Cain CL, Ferrer L, et al. Antimicrobial use guidelines for canine pyoderma by the International Society for Companion Animal Infectious Diseases (ISCAID). Vet Dermatol 2025;36(3):234–282. pmc.ncbi.nlm.nih.gov
+- Holm BR, Rest JR, Seewald W. A prospective study of the clinical findings, treatment and histopathology of 44 cases of pyotraumatic dermatitis. Vet Dermatol 2004;15(6):369–376. doi.org/j.1365-3164.2004.00421.x
+- Cain CL, Mauldin EA. Clinical and histopathologic features of dorsally located furunculosis in dogs following water immersion or exposure to grooming products: 22 cases (2005–2013). J Am Vet Med Assoc 2015;246(5):522–529. doi.org/javma.246.5.522
+- Pipe-Martin HN, Peterson TA, Langohr IM, et al. Sepsis and multi-organ dysfunction associated with postgrooming furunculosis in a dog. Vet Dermatol 2016;27:198–e49. doi.org/vde.12298
+- Khan SA, McLean MK, Slater MR. Concentrated tea tree oil toxicosis in dogs and cats: 443 cases (2002–2012). J Am Vet Med Assoc 2014;244(1):95–99. doi.org/javma.244.1.95
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Hot spots. vet.cornell.edu
+- Ravera I. That itches! A guide to canine hot spots. Virginia Tech Veterinary Teaching Hospital, 2025. vth.vetmed.vt.edu
+- PDSA Pet Health Hub. Hot spots (acute moist dermatitis) in dogs. pdsa.org.uk
+- American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
+- Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
+- USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
+Related services: Skin diseases, allergies and ear infections
+
+### Read also
+
+Health
+
+#### Ear Infections in Dogs — Symptoms, Causes, Treatment and Cost
+
+An ear infection in dogs — inflammation of the outer ear canal, or otitis externa — is one of the most common reasons...
+Pet Health
+
+#### Food Allergies in Dogs and Cats — Symptoms, Diagnosis and Elimination Diet
+
+Food allergy is one cause of itching in dogs and cats. In studies, it is found in roughly 15–20% of itchy pets — less...
+Pet Health
+
+#### Coat Care in Dogs and Cats — When It’s a Health Matter and When a Groomer Is the Right Choice
+
+A well-kept coat is not just about looks. In dogs and cats, the coat protects the skin, and when it mats, the skin un...
 Back to homepage
 
 ---

@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 98 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 99 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -4098,12 +4098,18 @@ Gerbyntie 18, 65230 Vaasa · ma–pe 7.45–17.00
 # Artikkelit | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/artikkelit/
-Last updated: 2026-11-23
+Last updated: 2026-11-25
 
 ## Artikkelit
 
 Eläinlääketieteelliset artikkelit ammattilaisilta
 Hae artikkeleista...
+Terveys
+25.11.2026
+
+### Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin
+
+Hotspot eli akuutti kostea ihotulehdus on punoittava ja kipeä ihoalue, jonka koira aiheuttaa itselleen nuolemalla, pureskelemalla tai raapimalla samaa kohtaa. Se voi ilmestyä yhtäkkiä, laajentua nopeasti ja jäädä piiloon paksun karvan alle. Hotspotteja tulee useammin koirille, joilla on paksu tai pitkä turkki. Tavallisimmat paikat ovat poski, kaula, reiden ulkosivu ja hännän tyvi.
 Terveys
 23.11.2026
 
@@ -4635,9 +4641,9 @@ Lemmikkien terveys
 Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
 Terveys
 
-#### Kissan, kissanpennun ja koiran ripuli – kotihoito ja milloin soittaa
+#### Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin
 
-Koiran ja kissan ripuli menee useimmiten ohi muutamassa päivässä, mutta se voi olla merkki vakavasta sairaudesta.
+Hotspot eli akuutti kostea ihotulehdus on punoittava ja kipeä ihoalue, jonka koira aiheuttaa itselleen nuolemalla, pu...
 Takaisin etusivulle
 
 ---
@@ -5787,6 +5793,79 @@ Ortopedia
 #### TTA-leikkaus koirilla – eturistisidesairauden hoito sääriluun kyhmyn siirrolla
 
 Eturistisiteen (cranial cruciate ligament, CCL) sairaus on yksi koirien yleisimmistä takajalan ontumisen syistä. Rist...
+Takaisin etusivulle
+
+---
+
+# Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin
+
+URL: https://elainklinikkasaari.fi/articles/koiran-hotspot.html
+Last updated: 2026-11-25
+
+Terveys
+25.11.2026
+
+## Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin
+
+Eläinlääkäri Assaf Wydra, Eläinklinikka Saari
+Hotspot eli akuutti kostea ihotulehdus on punoittava ja kipeä ihoalue, jonka koira aiheuttaa itselleen nuolemalla, pureskelemalla tai raapimalla samaa kohtaa. Se voi ilmestyä yhtäkkiä, laajentua nopeasti ja jäädä piiloon paksun karvan alle. Hotspotteja tulee useammin koirille, joilla on paksu tai pitkä turkki. Tavallisimmat paikat ovat poski, kaula, reiden ulkosivu ja hännän tyvi.
+
+### Milloin eläinlääkäriin
+
+Varaa aika niin pian kuin huomaat hotspotin: se on kipeä ja voi pahentua nopeasti. Koirasi pääsee meille yleensä samana tai seuraavana arkipäivänä. Soita meille heti, jos hotspot laajenee koko ajan tai siinä on verisiä rupia tai jos sen ympärillä oleva iho on turvonnut, paksuuntunut tai näppyläinen (merkkejä syvemmästä tulehduksesta). Soita heti myös, jos koirasi vaikuttaa huonovointiselta tai ei anna koskea hotspotiin tai jos selkään ilmestyy haavaumia muutaman päivän sisällä pesusta tai trimmauksesta. Jos jokin näistä ilmenee aukioloaikojemme ulkopuolella, soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.
+
+### Ensiapu kotona
+
+Estä koiraasi nuolemasta tai raapimasta kohtaa. Suojakauluri toimii parhaiten (myymme niitä), ja puhdas T-paita tai suojahaalari voi peittää vartalossa olevan hotspotin. Ole hellävarainen: kivulias koira voi näykätä. Pidä kohta puhtaana ja kuivana äläkä laita siihen mitään ilman ohjettamme: koira nuolee sen pois, ja jotkin eteeriset öljyt ovat myrkyllisiä. Älä leikkaa karvoja saksilla: ihoon tulee helposti haava.
+
+### Klinikalla
+
+Ajelemme karvat hotspotin ympäriltä ja puhdistamme sen, usein kevyessä rauhoituksessa, koska kohta on kipeä. Kotihoitoon kuuluu yleensä koirille tarkoitettu puhdistustuote, iholle laitettava lääke sekä kutinaa ja kipua lievittävä hoito. Tavallinen hotspot ei tarvitse antibioottitabletteja: ne on tarkoitettu syvempiin tulehduksiin. Hoidolla useimmat hotspotit paranevat kahden viikon kuluessa. Etsimme myös syytä, esimerkiksi tutkimalla iho- tai korvanäytteen mikroskoopilla käynnin aikana. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.
+
+### Miksi hotspot syntyy
+
+Hotspot saa alkunsa, kun jokin aiheuttaa koiralle kutinaa tai kipua ja koira nuolee tai raapii samaa kohtaa yhä uudelleen. Laukaisevia tekijöitä ovat muun muassa allergiat, kirput, korvatulehdukset, anaalirauhasten vaivat, hyönteisten puremat ja kipu, kuten nivelkipu. Märkä tai takkuinen turkki voi lisätä riskiä.
+
+### Näin ehkäiset uusia hotspotteja
+
+Harjaa kuollut pohjavilla pois säännöllisesti, etenkin karvanvaihdon aikaan, ja kuivaa turkki hyvin uinnin jälkeen. Hoida korvatulehdukset, kutina ja mahdolliset kirput ajoissa. Jos hotspotit uusiutuvat, etsitään syytä yhdessä: se on usein allergia.
+
+### Ota yhteyttä
+
+Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.
+
+### Lähteet
+
+- Loeffler A, Cain CL, Ferrer L, et al. Antimicrobial use guidelines for canine pyoderma by the International Society for Companion Animal Infectious Diseases (ISCAID). Vet Dermatol 2025;36(3):234–282. pmc.ncbi.nlm.nih.gov
+- Holm BR, Rest JR, Seewald W. A prospective study of the clinical findings, treatment and histopathology of 44 cases of pyotraumatic dermatitis. Vet Dermatol 2004;15(6):369–376. doi.org/j.1365-3164.2004.00421.x
+- Cain CL, Mauldin EA. Clinical and histopathologic features of dorsally located furunculosis in dogs following water immersion or exposure to grooming products: 22 cases (2005–2013). J Am Vet Med Assoc 2015;246(5):522–529. doi.org/javma.246.5.522
+- Pipe-Martin HN, Peterson TA, Langohr IM, et al. Sepsis and multi-organ dysfunction associated with postgrooming furunculosis in a dog. Vet Dermatol 2016;27:198–e49. doi.org/vde.12298
+- Khan SA, McLean MK, Slater MR. Concentrated tea tree oil toxicosis in dogs and cats: 443 cases (2002–2012). J Am Vet Med Assoc 2014;244(1):95–99. doi.org/javma.244.1.95
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Hot spots. vet.cornell.edu
+- Ravera I. That itches! A guide to canine hot spots. Virginia Tech Veterinary Teaching Hospital, 2025. vth.vetmed.vt.edu
+- PDSA Pet Health Hub. Hot spots (acute moist dermatitis) in dogs. pdsa.org.uk
+- American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
+- Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
+- USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
+Aiheeseen liittyvät palvelumme: Ihotaudit, allergiat ja korvatulehdukset
+
+### Lue myös
+
+Terveys
+
+#### Koiran korvatulehdus – oireet, syyt, hoito ja hinta
+
+Koiran korvatulehdus eli ulkokorvatulehdus (otitis externa) on korvakäytävän tulehdus ja yksi yleisimmistä eläinlääkä...
+Lemmikkien terveys
+
+#### Ruoka-allergiat koirilla ja kissoilla – oireet, diagnoosi ja eliminaatiodieetti
+
+Ruoka-allergia on yksi koirien ja kissojen kutinan syistä. Tutkimuksissa sitä todetaan noin 15–20 %:lla kutiavista le...
+Lemmikkien terveys
+
+#### Koiran ja kissan turkinhoito – milloin se on terveysasia ja milloin trimmaaja on oikea valinta
+
+Hyvin hoidettu turkki ei ole pelkkä ulkonäköasia. Koiralla ja kissalla turkki suojaa ihoa, ja kun turkki takkuuntuu,...
 Takaisin etusivulle
 
 ---

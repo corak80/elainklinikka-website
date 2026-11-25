@@ -2015,6 +2015,78 @@ const translations = {
     en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. You can book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva). If it is urgent, call — don’t email."
   },
 
+  // Article: Hotspots in dogs (new 2026-11)
+  "article.hotspot.title": {
+    fi: "Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin",
+    sv: "Hot spot hos hund – symtom, första hjälpen och veterinärbesök",
+    en: "Hotspots in Dogs — Signs, First Aid and When to See the Vet"
+  },
+  "article.hotspot.intro": {
+    fi: "Hotspot eli akuutti kostea ihotulehdus on punoittava ja kipeä ihoalue, jonka koira aiheuttaa itselleen nuolemalla, pureskelemalla tai raapimalla samaa kohtaa. Se voi ilmestyä yhtäkkiä, laajentua nopeasti ja jäädä piiloon paksun karvan alle. Hotspotteja tulee useammin koirille, joilla on paksu tai pitkä turkki. Tavallisimmat paikat ovat poski, kaula, reiden ulkosivu ja hännän tyvi.",
+    sv: "En hot spot, eller fuktigt eksem, är en röd, fuktig och smärtsam fläck på huden som hunden själv orsakar genom att slicka, gnaga eller klia sig på ett och samma ställe. Den kan komma plötsligt, växa snabbt och döljas under tjock päls. Hundar med tjock eller lång päls drabbas oftare. Den sitter oftast på kinden, halsen, lårets utsida eller svansroten.",
+    en: "A hotspot is a red, wet and painful patch of skin that a dog makes by licking, chewing or scratching one spot. It can appear suddenly, grow fast and hide under thick fur. Dogs with a thick or long coat get them more often. The usual places are the cheek, neck, outer thigh and base of the tail."
+  },
+  "article.hotspot.sameday.title": {
+    fi: "Milloin eläinlääkäriin",
+    sv: "När du ska till veterinären",
+    en: "When to See the Vet"
+  },
+  "article.hotspot.sameday.text": {
+    fi: "Varaa aika niin pian kuin huomaat hotspotin: se on kipeä ja voi pahentua nopeasti. Koirasi pääsee meille yleensä samana tai seuraavana arkipäivänä. Soita meille heti, jos hotspot laajenee koko ajan tai siinä on verisiä rupia tai jos sen ympärillä oleva iho on turvonnut, paksuuntunut tai näppyläinen (merkkejä syvemmästä tulehduksesta). Soita heti myös, jos koirasi vaikuttaa huonovointiselta tai ei anna koskea hotspotiin tai jos selkään ilmestyy haavaumia muutaman päivän sisällä pesusta tai trimmauksesta. Jos jokin näistä ilmenee aukioloaikojemme ulkopuolella, soita alueen eläinlääkäripäivystykseen numeroon 0600 399 299.",
+    sv: "Boka tid så fort du märker en hot spot: den gör ont och kan snabbt bli värre. Vi kan oftast ta emot din hund samma eller nästa arbetsdag. Ring oss genast om den fortsätter att växa eller har blodiga sårskorpor, eller om huden runt den är svullen, tjock eller har små knottror (tecken på en djupare infektion). Ring också genast om din hund verkar må dåligt eller inte låter dig röra vid såret, eller om hunden får sår på ryggen inom några dagar efter ett bad eller en trimning. Om något av detta händer utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.",
+    en: "Book a visit as soon as you notice a hotspot: it hurts and can quickly get worse. We can usually see your dog the same or next working day. Call us straight away if it keeps growing or has bloody crusts, or if the skin around it is swollen, thick or dotted with small bumps (signs of a deeper infection). Also call straight away if your dog seems unwell or will not let you touch it, or if sores appear on the back within a few days of a bath or grooming. If any of this happens outside opening hours, call the regional emergency vet on 0600 399 299."
+  },
+  "article.hotspot.firstaid.title": {
+    fi: "Ensiapu kotona",
+    sv: "Första hjälpen hemma",
+    en: "First Aid at Home"
+  },
+  "article.hotspot.firstaid.text": {
+    fi: "Estä koiraasi nuolemasta tai raapimasta kohtaa. Suojakauluri toimii parhaiten (myymme niitä), ja puhdas T-paita tai suojahaalari voi peittää vartalossa olevan hotspotin. Ole hellävarainen: kivulias koira voi näykätä. Pidä kohta puhtaana ja kuivana äläkä laita siihen mitään ilman ohjettamme: koira nuolee sen pois, ja jotkin eteeriset öljyt ovat myrkyllisiä. Älä leikkaa karvoja saksilla: ihoon tulee helposti haava.",
+    sv: "Hindra hunden från att slicka eller klia på såret. En skyddskrage fungerar bäst (vi säljer sådana), och en ren t-skjorta eller skyddsdräkt kan täcka ett sår på kroppen. Var varsam: en hund som har ont kan nafsa. Håll stället rent och torrt och lägg ingenting på det utan vårt råd: hundar slickar bort det, och vissa eteriska oljor är giftiga. Klipp inte pälsen med sax: det är lätt att råka klippa i huden.",
+    en: "Stop your dog from licking or scratching the spot. A protective cone works best (we sell them), and a clean T-shirt or body suit can cover a sore on the body. Be gentle: a dog in pain may snap. Keep the spot clean and dry, and put nothing on it unless we advise it: dogs lick it off, and some essential oils are poisonous. Don’t cut the hair with scissors: it is easy to cut the skin."
+  },
+  "article.hotspot.clinic.title": {
+    fi: "Klinikalla",
+    sv: "På kliniken",
+    en: "At the Clinic"
+  },
+  "article.hotspot.clinic.text": {
+    fi: "Ajelemme karvat hotspotin ympäriltä ja puhdistamme sen, usein kevyessä rauhoituksessa, koska kohta on kipeä. Kotihoitoon kuuluu yleensä koirille tarkoitettu puhdistustuote, iholle laitettava lääke sekä kutinaa ja kipua lievittävä hoito. Tavallinen hotspot ei tarvitse antibioottitabletteja: ne on tarkoitettu syvempiin tulehduksiin. Hoidolla useimmat hotspotit paranevat kahden viikon kuluessa. Etsimme myös syytä, esimerkiksi tutkimalla iho- tai korvanäytteen mikroskoopilla käynnin aikana. Voit varata ajan verkossa (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) tai soittaa meille.",
+    sv: "Vi klipper bort pälsen runt såret och rengör det, ofta under lätt sedering eftersom det gör ont. Behandlingen hemma består vanligen av ett rengöringsmedel avsett för hundar, en medicin som används på huden och något mot klådan och smärtan. En vanlig hot spot behöver inte antibiotikatabletter; de är till för djupare infektioner. Med behandling läker de flesta inom två veckor. Vi letar också efter orsaken, till exempel genom att granska ett hud- eller öronprov i mikroskop under besöket. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.",
+    en: "We clip the hair around the sore and clean it, often under light sedation because it hurts. Home treatment usually means a cleaning product made for dogs, a medicine to put on the skin and something for itch and pain. An ordinary hotspot does not need antibiotic tablets; they are for deeper infections. With treatment, most heal within two weeks. We also look for the cause, for example by checking a skin or ear sample under the microscope during the visit. Book online (Akuutti ja sairas lemmikki → Sairaskäynti, muu vaiva) or call us."
+  },
+  "article.hotspot.causes.title": {
+    fi: "Miksi hotspot syntyy",
+    sv: "Varför uppstår en hot spot?",
+    en: "Why Hotspots Happen"
+  },
+  "article.hotspot.causes.text": {
+    fi: "Hotspot saa alkunsa, kun jokin aiheuttaa koiralle kutinaa tai kipua ja koira nuolee tai raapii samaa kohtaa yhä uudelleen. Laukaisevia tekijöitä ovat muun muassa allergiat, kirput, korvatulehdukset, anaalirauhasten vaivat, hyönteisten puremat ja kipu, kuten nivelkipu. Märkä tai takkuinen turkki voi lisätä riskiä.",
+    sv: "En hot spot uppstår när något ger hunden klåda eller smärta och den fortsätter att slicka eller klia sig på samma ställe. Utlösande faktorer är bland annat allergier, loppor, öroninflammationer, problem med analsäckarna, insektsbett och smärta, till exempel i lederna. En blöt eller tovig päls kan öka risken.",
+    en: "A hotspot starts when something makes the dog itch or hurt and it keeps licking or scratching the same place. Triggers include allergies, fleas, ear infections, anal gland problems, insect bites and pain, such as from sore joints. A wet or matted coat may add to the risk."
+  },
+  "article.hotspot.prevention.title": {
+    fi: "Näin ehkäiset uusia hotspotteja",
+    sv: "Så förebygger du nya hot spots",
+    en: "Preventing New Hotspots"
+  },
+  "article.hotspot.prevention.text": {
+    fi: "Harjaa kuollut pohjavilla pois säännöllisesti, etenkin karvanvaihdon aikaan, ja kuivaa turkki hyvin uinnin jälkeen. Hoida korvatulehdukset, kutina ja mahdolliset kirput ajoissa. Jos hotspotit uusiutuvat, etsitään syytä yhdessä: se on usein allergia.",
+    sv: "Borsta regelbundet bort död underull, särskilt när hunden fäller, och torka pälsen ordentligt efter simning. Behandla öroninflammationer, klåda och eventuella loppor i tid. Om hunden får hot spots gång på gång, låt oss leta efter orsaken: ofta är det en allergi.",
+    en: "Brush out dead undercoat regularly, especially when your dog is moulting, and dry the coat well after swimming. Treat ear infections, itching and any fleas early. If hotspots keep coming back, let us look for the cause: it is often an allergy."
+  },
+  "article.hotspot.contact.title": {
+    fi: "Ota yhteyttä",
+    sv: "Kontakta oss",
+    en: "Contact Us"
+  },
+  "article.hotspot.contact.text": {
+    fi: "Etkö ole varma? Soita meille numeroon (06) 321 7300 tai lähetä sähköpostia ja kuvia osoitteeseen info@saarivet.fi. Kiireellisissä asioissa soita – älä lähetä sähköpostia.",
+    sv: "Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.",
+    en: "Unsure? Call us on (06) 321 7300 or email info@saarivet.fi with photos. If it is urgent, call — don’t email."
+  },
+
   // Article: PDA
   'article.pda.title': {
     fi: 'Avoin valtimotiehyt (PDA) koirilla – synnynnäinen sydänvika, joka voidaan yleensä parantaa',
@@ -4847,6 +4919,7 @@ function setLanguage(lang) {
     'virtsatietulehdus': { sv: 'urinvagsinfektion', en: 'urinary-tract-infection' },
     'koiran-narastys': { sv: 'halsbranna-hund', en: 'dog-heartburn' },
     'cushingin-tauti': { sv: 'cushings-sjukdom', en: 'cushings-disease' },
+    'koiran-hotspot': { sv: 'hotspot-hund', en: 'dog-hotspots' },
     'avoin-valtimotiehyt-pda': { sv: 'oppen-ductus-arteriosus-pda', en: 'patent-ductus-arteriosus-pda' },
     'hampaiden-harjaus': { sv: 'tandborstning', en: 'tooth-brushing' },
     'viljaton-ruoka': { sv: 'spannmalsfri-mat', en: 'grain-free-food' },

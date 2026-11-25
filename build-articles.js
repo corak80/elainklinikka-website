@@ -1108,6 +1108,37 @@ const articles = [
     }
   },
   {
+    slug: 'koiran-hotspot',
+    slugSv: 'hotspot-hund',
+    slugEn: 'dog-hotspots',
+    titleKey: 'article.hotspot.title',
+    tagKey: 'articles.filter.health',
+    category: 'health',
+    date: '25.11.2026',
+    publishDate: '2026-11-25',
+    sections: ['intro', 'sameday.title', 'sameday.text', 'firstaid.title', 'firstaid.text', 'clinic.title', 'clinic.text', 'causes.title', 'causes.text', 'prevention.title', 'prevention.text', 'contact.title', 'contact.text'],
+    prefix: 'article.hotspot',
+    sources: [
+      { text: 'Loeffler A, Cain CL, Ferrer L, et al. Antimicrobial use guidelines for canine pyoderma by the International Society for Companion Animal Infectious Diseases (ISCAID). Vet Dermatol 2025;36(3):234–282.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12058580/', label: 'pmc.ncbi.nlm.nih.gov' },
+      { text: 'Holm BR, Rest JR, Seewald W. A prospective study of the clinical findings, treatment and histopathology of 44 cases of pyotraumatic dermatitis. Vet Dermatol 2004;15(6):369–376.', url: 'https://doi.org/10.1111/j.1365-3164.2004.00421.x', label: 'doi.org' },
+      { text: 'Cain CL, Mauldin EA. Clinical and histopathologic features of dorsally located furunculosis in dogs following water immersion or exposure to grooming products: 22 cases (2005–2013). J Am Vet Med Assoc 2015;246(5):522–529.', url: 'https://doi.org/10.2460/javma.246.5.522', label: 'doi.org' },
+      { text: 'Pipe-Martin HN, Peterson TA, Langohr IM, et al. Sepsis and multi-organ dysfunction associated with postgrooming furunculosis in a dog. Vet Dermatol 2016;27:198–e49.', url: 'https://doi.org/10.1111/vde.12298', label: 'doi.org' },
+      { text: 'Khan SA, McLean MK, Slater MR. Concentrated tea tree oil toxicosis in dogs and cats: 443 cases (2002–2012). J Am Vet Med Assoc 2014;244(1):95–99.', url: 'https://doi.org/10.2460/javma.244.1.95', label: 'doi.org' },
+      { text: 'Cornell University College of Veterinary Medicine, Riney Canine Health Center. Hot spots.', url: 'https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/hot-spots', label: 'vet.cornell.edu' },
+      { text: 'Ravera I. That itches! A guide to canine hot spots. Virginia Tech Veterinary Teaching Hospital, 2025.', url: 'https://vth.vetmed.vt.edu/animal-care-tips/vetmed-pet-canine-hot-spots.html', label: 'vth.vetmed.vt.edu' },
+      { text: 'PDSA Pet Health Hub. Hot spots (acute moist dermatitis) in dogs.', url: 'https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/hot-spots-acute-moist-dermatitis-in-dogs', label: 'pdsa.org.uk' },
+      { text: 'American Kennel Club. Hot spots on dogs. Updated 2025.', url: 'https://www.akc.org/expert-advice/health/hot-spots-on-dogs/', label: 'akc.org' },
+      { text: 'Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017.', url: 'https://www.vettimes.com/clinical/small-animal/dermatology-hot-spots-in-dogs-treatment-and-advice-for-owners-cpddermatology', label: 'vettimes.com' },
+      { text: 'USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair.', url: 'https://www.aphis.usda.gov/sites/default/files/AC-Aids-for-Dogs_Coat-Care-Preventing-Matted-Hair_0.pdf', label: 'aphis.usda.gov' }
+    ],
+    metaDesc: {
+      fi: "Koiran hotspot: punoittava, kostea ja kipeä ihoalue, joka voi laajentua nopeasti. Ensiapu kotona, milloin soittaa eläinlääkärille heti, syyt ja ehkäisy.",
+      sv: "Hot spot hos hund: en röd, fuktig och smärtsam fläck som kan växa fort. Första hjälpen hemma, när du genast ska ringa veterinär, orsaker och förebyggande.",
+      en: "Hotspots in dogs: a red, wet, painful patch that can grow fast. First aid at home, when to call the vet straight away, causes and prevention."
+    },
+    seoTitle: { fi: "Koiran hotspot – oireet, ensiapu ja milloin eläinlääkäriin", sv: "Hot spot hos hund: symtom, första hjälpen och veterinärbesök", en: "Hotspots in Dogs: Signs, First Aid and When to See the Vet" }
+  },
+  {
     slug: 'cushingin-tauti',
     slugSv: 'cushings-sjukdom',
     slugEn: 'cushings-disease',
@@ -2255,7 +2286,7 @@ const relatedArticles = {
   'tta-leikkaus': ['lateral-suture', 'anestesiaturvallisuus', 'koira-ontuu'],
   'lateral-suture': ['tta-leikkaus', 'anestesiaturvallisuus', 'koira-ontuu'],
   'video-otoskopia': ['koiran-korvatulehdus', 'ruoka-allergiat', 'anestesiaturvallisuus'],
-  'koiran-korvatulehdus': ['video-otoskopia', 'ruoka-allergiat', 'ripuli'],
+  'koiran-korvatulehdus': ['video-otoskopia', 'ruoka-allergiat', 'koiran-hotspot'],
   'kipulääkeinfuusio': ['anestesiaturvallisuus', 'hypotermia', 'tta-leikkaus'],
   'ripuli': ['oksentelu', 'ummetus', 'ruoka-allergiat'],
   'oksentelu': ['ripuli', 'myrkytys', 'gastroskopia'],
@@ -2264,6 +2295,7 @@ const relatedArticles = {
   'virtsatietulehdus': ['ummetus', 'kissan-munuaisten-vajaatoiminta', 'munuaisten-vajaatoiminta'],
   'koiran-narastys': ['oksentelu', 'gastroskopia', 'ripuli'],
   'cushingin-tauti': ['virtsatietulehdus', 'munuaisten-vajaatoiminta', 'kilpirauhasen-liikatoiminta'],
+  'koiran-hotspot': ['koiran-korvatulehdus', 'ruoka-allergiat', 'koiran-ja-kissan-turkinhoito'],
   'avoin-valtimotiehyt-pda': ['koira-yskii', 'anestesiaturvallisuus', 'kipulääkeinfuusio'],
   'koira-yskii': ['avoin-valtimotiehyt-pda', 'rokotukset', 'myrkytys'],
   'koiran-tassut-talvella': ['koira-ontuu', 'myrkytys', 'koiran-ja-kissan-turkinhoito'],
@@ -2314,6 +2346,7 @@ const articleToServices = {
   'virtsatietulehdus': ['ultraaani', 'laboratorio'],
   'koiran-narastys': ['tahystykset', 'rehumyynti'],
   'cushingin-tauti': ['verikokeet', 'laboratorio'],
+  'koiran-hotspot': ['ihotaudit', 'anaalirauhaset'],
   'avoin-valtimotiehyt-pda': ['sydantutkimukset', 'kirurgia'],
   'koira-yskii': ['sydantutkimukset', 'rontgen', 'tahystykset'],
   'koiran-tassut-talvella': ['ihotaudit', 'paivystys'],

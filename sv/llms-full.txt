@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 92 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 93 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -3759,12 +3759,18 @@ Gerbyvägen 18, 65230 Vasa · mån–fre 7.45–17.00
 # Veterinärmedicinska artiklar | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/artiklar/
-Last updated: 2026-11-23
+Last updated: 2026-11-25
 
 ## Artiklar
 
 Veterinärmedicinska artiklar från proffsen
 Sök i artiklar...
+Hälsa
+25.11.2026
+
+### Hot spot hos hund – symtom, första hjälpen och veterinärbesök
+
+En hot spot, eller fuktigt eksem, är en röd, fuktig och smärtsam fläck på huden som hunden själv orsakar genom att slicka, gnaga eller klia sig på ett och samma ställe. Den kan komma plötsligt, växa snabbt och döljas under tjock päls. Hundar med tjock eller lång päls drabbas oftare. Den sitter oftast på kinden, halsen, lårets utsida eller svansroten.
 Hälsa
 23.11.2026
 
@@ -4296,9 +4302,9 @@ Husdjurshälsa
 Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
 Hälsa
 
-#### Diarré hos hund, katt och kattunge – vård hemma och när du ska ringa
+#### Hot spot hos hund – symtom, första hjälpen och veterinärbesök
 
-De flesta fall av diarré hos hund och katt går över inom några dagar, men diarré kan vara ett tecken på allvarlig sju...
+En hot spot, eller fuktigt eksem, är en röd, fuktig och smärtsam fläck på huden som hunden själv orsakar genom att sl...
 Tillbaka till startsidan
 
 ---
@@ -5448,6 +5454,79 @@ Ortopedi
 #### TTA-operation hos hund – framflyttning av skenbensknölen vid korsbandssjukdom
 
 Sjukdom i det främre korsbandet, i vardagligt tal ofta kallad korsbandsskada, är en av de vanligaste orsakerna till b...
+Tillbaka till startsidan
+
+---
+
+# Hot spot hos hund: symtom, första hjälpen och veterinärbesök
+
+URL: https://elainklinikkasaari.fi/sv/artiklar/hotspot-hund.html
+Last updated: 2026-11-25
+
+Hälsa
+25.11.2026
+
+## Hot spot hos hund – symtom, första hjälpen och veterinärbesök
+
+Veterinär Assaf Wydra, Eläinklinikka Saari
+En hot spot, eller fuktigt eksem, är en röd, fuktig och smärtsam fläck på huden som hunden själv orsakar genom att slicka, gnaga eller klia sig på ett och samma ställe. Den kan komma plötsligt, växa snabbt och döljas under tjock päls. Hundar med tjock eller lång päls drabbas oftare. Den sitter oftast på kinden, halsen, lårets utsida eller svansroten.
+
+### När du ska till veterinären
+
+Boka tid så fort du märker en hot spot: den gör ont och kan snabbt bli värre. Vi kan oftast ta emot din hund samma eller nästa arbetsdag. Ring oss genast om den fortsätter att växa eller har blodiga sårskorpor, eller om huden runt den är svullen, tjock eller har små knottror (tecken på en djupare infektion). Ring också genast om din hund verkar må dåligt eller inte låter dig röra vid såret, eller om hunden får sår på ryggen inom några dagar efter ett bad eller en trimning. Om något av detta händer utanför öppettiderna ringer du den regionala veterinärjouren på 0600 399 299.
+
+### Första hjälpen hemma
+
+Hindra hunden från att slicka eller klia på såret. En skyddskrage fungerar bäst (vi säljer sådana), och en ren t-skjorta eller skyddsdräkt kan täcka ett sår på kroppen. Var varsam: en hund som har ont kan nafsa. Håll stället rent och torrt och lägg ingenting på det utan vårt råd: hundar slickar bort det, och vissa eteriska oljor är giftiga. Klipp inte pälsen med sax: det är lätt att råka klippa i huden.
+
+### På kliniken
+
+Vi klipper bort pälsen runt såret och rengör det, ofta under lätt sedering eftersom det gör ont. Behandlingen hemma består vanligen av ett rengöringsmedel avsett för hundar, en medicin som används på huden och något mot klådan och smärtan. En vanlig hot spot behöver inte antibiotikatabletter; de är till för djupare infektioner. Med behandling läker de flesta inom två veckor. Vi letar också efter orsaken, till exempel genom att granska ett hud- eller öronprov i mikroskop under besöket. Du kan boka tid på nätet (Akut & sjukt djur → Sjukbesök, annat besvär) eller ringa oss.
+
+### Varför uppstår en hot spot?
+
+En hot spot uppstår när något ger hunden klåda eller smärta och den fortsätter att slicka eller klia sig på samma ställe. Utlösande faktorer är bland annat allergier, loppor, öroninflammationer, problem med analsäckarna, insektsbett och smärta, till exempel i lederna. En blöt eller tovig päls kan öka risken.
+
+### Så förebygger du nya hot spots
+
+Borsta regelbundet bort död underull, särskilt när hunden fäller, och torka pälsen ordentligt efter simning. Behandla öroninflammationer, klåda och eventuella loppor i tid. Om hunden får hot spots gång på gång, låt oss leta efter orsaken: ofta är det en allergi.
+
+### Kontakta oss
+
+Är du osäker? Ring oss på (06) 321 7300 eller skicka e-post med bilder till info@saarivet.fi. Om det är bråttom ska du ringa – inte skicka e-post.
+
+### Källor
+
+- Loeffler A, Cain CL, Ferrer L, et al. Antimicrobial use guidelines for canine pyoderma by the International Society for Companion Animal Infectious Diseases (ISCAID). Vet Dermatol 2025;36(3):234–282. pmc.ncbi.nlm.nih.gov
+- Holm BR, Rest JR, Seewald W. A prospective study of the clinical findings, treatment and histopathology of 44 cases of pyotraumatic dermatitis. Vet Dermatol 2004;15(6):369–376. doi.org/j.1365-3164.2004.00421.x
+- Cain CL, Mauldin EA. Clinical and histopathologic features of dorsally located furunculosis in dogs following water immersion or exposure to grooming products: 22 cases (2005–2013). J Am Vet Med Assoc 2015;246(5):522–529. doi.org/javma.246.5.522
+- Pipe-Martin HN, Peterson TA, Langohr IM, et al. Sepsis and multi-organ dysfunction associated with postgrooming furunculosis in a dog. Vet Dermatol 2016;27:198–e49. doi.org/vde.12298
+- Khan SA, McLean MK, Slater MR. Concentrated tea tree oil toxicosis in dogs and cats: 443 cases (2002–2012). J Am Vet Med Assoc 2014;244(1):95–99. doi.org/javma.244.1.95
+- Cornell University College of Veterinary Medicine, Riney Canine Health Center. Hot spots. vet.cornell.edu
+- Ravera I. That itches! A guide to canine hot spots. Virginia Tech Veterinary Teaching Hospital, 2025. vth.vetmed.vt.edu
+- PDSA Pet Health Hub. Hot spots (acute moist dermatitis) in dogs. pdsa.org.uk
+- American Kennel Club. Hot spots on dogs. Updated 2025. akc.org
+- Hardy J. Dermatology: hot spots in dogs – treatment and advice for owners. Vet Times, 2017. vettimes.com
+- USDA APHIS Center for Animal Welfare. Animal Care Aid: Coat care – preventing matted hair. aphis.usda.gov
+Relaterade tjänster: Hudsjukdomar, allergier och öroninflammationer
+
+### Läs också
+
+Hälsa
+
+#### Öroninflammation hos hund – symtom, orsaker, behandling och pris
+
+Öroninflammation hos hund, det vill säga en inflammation i den yttre hörselgången (otitis externa), är en av de vanli...
+Husdjurshälsa
+
+#### Födoämnesallergi hos hundar och katter – symtom, diagnos och eliminationsdiet
+
+Födoämnesallergi är en av orsakerna till klåda hos hundar och katter. I studier har den konstaterats hos ungefär 15–2...
+Husdjurshälsa
+
+#### Pälsvård hos hund och katt – när det är en hälsofråga och när en trimmare är rätt val
+
+En välskött päls handlar inte bara om utseendet. Hos hundar och katter skyddar pälsen huden, och när den tovar sig fa...
 Tillbaka till startsidan
 
 ---
