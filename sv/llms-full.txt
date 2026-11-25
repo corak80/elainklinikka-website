@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 94 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 95 Swedish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Finnish: https://elainklinikkasaari.fi/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -325,7 +325,7 @@ Vi betjänar på finska, svenska och engelska.
 # Veterinärpriser i Vasa – prislista | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/prislista/
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Prislista – veterinärpriser i Vasa
 
@@ -480,7 +480,7 @@ Boka online
 # Veterinärtjänster i Vasa | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Våra tjänster
 
@@ -496,6 +496,7 @@ Djurklinik Saari erbjuder ett brett urval av smådjursveterinära tjänster i Va
 
 - Vaccinationer – valpvaccinationsprogram, boostervaccinationer och rabies.
 - EU-sällskapsdjurspass – EU-pass, rabiesvaccination, titertest och hälsointyg för resa.
+- Mikrochipning – chipning av hund och katt för 68 € (32,40 € vid annat besök), hundregistrets regler och gratis avläsning av chip.
 
 ### Tandvård
 
@@ -3570,6 +3571,69 @@ Tillbaka till startsidan
 
 ---
 
+# Mikrochipning av hund och katt i Vasa | Djurklinik Saari
+
+URL: https://elainklinikkasaari.fi/sv/tjanster/mikrochipning/
+Last updated: 2026-11-26
+
+Tillbaka till startsidan
+
+## Mikrochipning av hund och katt
+
+### Vad är ett mikrochip?
+
+Ett mikrochip är ungefär lika stort som ett riskorn. Det placeras under huden, oftast mellan skulderbladen, och innehåller ett unikt 15-siffrigt nummer. Chipet har inget batteri och håller i regel hela livet. Ett chip är ingen spårsändare: det kan inte visa var ditt djur är. Det ger bara ifrån sig sitt nummer när det läses av, och för hundar kopplar Livsmedelsverkets hundregister numret till dig.
+
+### Hundar ska chippas och registreras
+
+Varje hund som bor i Finland ska vara märkt med mikrochip och registrerad i Livsmedelsverkets hundregister. En valp ska vara chippad och registrerad senast vid tre månaders ålder eller innan den flyttar till ett nytt hem, om flytten sker tidigare. När du skaffar en valp ska du kontrollera att den redan är chippad och registrerad. En hund som flyttar till Finland från utlandet ska vara chippad redan när den kommer hit och registreras inom fyra veckor från ankomsten. Vi ger dig chipnumret skriftligt, och sedan registrerar du själv hunden på koirarekisteri.ruokavirasto.fi. Registreringen kostar 10 € på nätet. Anmäl ändringar till registret inom en månad: ny ägare (både den gamla och den nya ägaren anmäler det), nya kontaktuppgifter eller att hunden har dött eller försvunnit. Om det visar sig att en hund saknar chip eller inte är registrerad, uppmanas ägaren att rätta till bristen. Allvarlig försummelse kan dessutom leda till en påföljdsavgift på minst 300 €. Reglerna är kontrollerade i november 2026.
+
+### Katter
+
+I Finland behöver en sällskapskatt chip bara om den reser utomlands. Det finns ännu inget officiellt kattregister. Livsmedelsverket räknar med att ta ett i bruk 2030. Enligt nya EU-regler ska en katt från och med 31.8.2030 vara chippad och registrerad innan den säljs eller ges bort. Kravet gäller inte när en katt någon enstaka gång ges bort privat utan annons på nätet. Vi rekommenderar att du låter chippa katten redan nu: den får en permanent ID-märkning, och chipet kommer fortfarande att uppfylla de nya reglerna, så länge det går att läsa av.
+
+### Resor och registrering hos Kennelklubben
+
+En hund eller katt som reser inom EU behöver ett mikrochip, en rabiesvaccination och ett EU-sällskapsdjurspass. Hundar som reser in i Finland, också när de återvänder hem, behöver i regel dessutom en bandmaskbehandling. Valpar ska vara chippade innan uppfödaren registrerar dem hos Finska Kennelklubben. Vi kan chippa dem vid valpundersökningen. En registrering hos Kennelklubben ersätter inte registreringen i Livsmedelsverkets hundregister.
+
+### Mikrochipning på vår klinik
+
+En veterinär chippar ditt djur medan det är vaket. Chipet injiceras under huden på ett ögonblick, och ingen sedering behövs. Först kontrollerar vi med en avläsare att ditt djur inte redan har ett chip, och efteråt kontrollerar vi igen att det nya chipet går att läsa av. Du får chipnumret skriftligt, och vi sparar det i djurets journal. Mikrochipning kostar 68 € vid ett separat besök (besöksavgiften ingår) eller 32,40 € i samband med ett annat besök, till exempel en vaccination. Boka tid online under ”Vaccination, pass & resa → Microchip” eller ring oss på (06) 321 7300.
+
+### Gratis avläsning av chip
+
+Vill du kontrollera att ditt djurs chip fortfarande fungerar, eller har du hittat en hund eller katt? Kom till oss under öppettiderna: vi läser av chip kostnadsfritt, och du behöver inte boka tid. Om du har hittat ett djur ska du också ringa mottagningsplatsen för hittedjur: för Vasa, Korsholm, Vörå och Malax är det Koiratarha Kulkuri, 040 834 2222.
+
+### Vanliga frågor om mikrochipning
+
+Vad kostar mikrochipning? 68 € vid ett separat besök (besöksavgiften ingår) eller 32,40 € i samband med ett annat besök, till exempel en vaccination.
+Gör mikrochipningen ont? Chipet injiceras under huden, och det tar bara ett ögonblick. Ditt djur är vaket hela tiden, och ingen sedering behövs.
+Kan ett mikrochip visa var mitt djur är? Nej. Ett chip har varken GPS eller batteri. Det ger bara ifrån sig sitt nummer när det läses av, och för hundar kopplar hundregistret numret till dig.
+
+### Boka tid
+
+Ring oss eller boka tid online.
+Ring (06) 321 7300
+Boka online
+Veterinär i Vasa – läs mer om kliniken →
+Akut fall? Jourveterinär i Vasa →
+
+### Relaterade artiklar
+
+Husdjurshälsa
+
+#### Hund eller katt rädd för fyrverkerier? Så klarar ni nyåret
+
+Många hundar och katter är rädda för fyrverkerier: de kan darra, flämta, gömma sig, skälla, försöka fly eller vägra ä...
+Hälsa
+
+#### Vaccinationsprogram för hund och katt – valpar, kattungar och vuxna djur
+
+Vaccinationer skyddar husdjur mot allvarliga smittsamma sjukdomar. Vaccinationsprogrammen varierar och ändras med tid...
+Tillbaka till startsidan
+
+---
+
 # Veterinärjour Vasa – vardagar har vi akuttider | Djurklinik Saari
 
 URL: https://elainklinikkasaari.fi/sv/tjanster/jour/
@@ -4759,7 +4823,7 @@ Kontakta veterinären om ditt djur får panik, skadar sig eller förstör saker,
 - Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
 - ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
-Relaterade tjänster: Veterinärjour
+Relaterade tjänster: Veterinärjour · Mikrochipning
 
 ### Läs också
 
@@ -7771,7 +7835,7 @@ Inom EU, Norge och Schweiz behöver ditt djur ett mikrochip, en giltig rabiesvac
 - Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä. ruokavirasto.fi/usein-kysyttya-ekinokokkilaakityksesta
 - Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta. ruokavirasto.fi/lemmikkielaimen-siirto
 - Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista. data.europa.eu
-Relaterade tjänster: Vaccinationer
+Relaterade tjänster: Vaccinationer · Mikrochipning
 
 ### Läs också
 

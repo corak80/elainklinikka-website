@@ -2,7 +2,7 @@
 
 > Eläinklinikka Saari is a family-owned small-animal veterinary clinic in Vaasa, Finland, operating since 1989. It cares for dogs, cats and small mammals, as well as exotic species and wildlife, and offers dentistry, surgery (orthopedic, soft-tissue), cardiology, ultrasound, endoscopy, vaccinations, laboratory and imaging (X-ray, ultrasound). Service is available in Finnish, Swedish and English. Address: Gerbyntie 18, 65230 Vaasa. Phone: +358 6 321 7300. Open Monday–Friday 07:45–17:00.
 
-> The text of all 100 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
+> The text of all 101 Finnish pages on https://elainklinikkasaari.fi, generated from the live pages: home and price list first, articles near the end. Same content in other languages: Swedish: https://elainklinikkasaari.fi/sv/llms-full.txt · English: https://elainklinikkasaari.fi/en/llms-full.txt. Short index: https://elainklinikkasaari.fi/llms.txt. Machine-readable prices: https://elainklinikkasaari.fi/pricing.md. Prices are in euros including VAT. When this file and a page disagree, the page is correct.
 
 ---
 
@@ -325,7 +325,7 @@ Palvelemme sujuvasti suomeksi, ruotsiksi ja englanniksi.
 # Eläinlääkärin hinnasto Vaasassa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/hinnasto/
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Hinnasto – eläinlääkärin hinnat Vaasassa
 
@@ -480,7 +480,7 @@ Varaa verkossa
 # Palvelut | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Palvelumme
 
@@ -496,6 +496,7 @@ Eläinklinikka Saari tarjoaa kattavan valikoiman pieneläinlääketieteen palvel
 
 - Rokotukset – pentujen rokotusohjelma, aikuisten tehosterokotukset ja rabies.
 - EU-lemmikkipassi – EU-lemmikkipassi, rabiesrokotus, tiitteritutkimus ja terveystodistukset matkalle.
+- Mikrosirutus – koiran ja kissan sirutus 68 € (32,40 € muun käynnin yhteydessä), koirarekisterin säännöt ja maksuton sirun lukeminen.
 
 ### Hammashoito
 
@@ -3780,6 +3781,69 @@ Takaisin etusivulle
 
 ---
 
+# Koiran ja kissan mikrosirutus Vaasassa | Eläinklinikka Saari
+
+URL: https://elainklinikkasaari.fi/palvelut/mikrosirutus/
+Last updated: 2026-11-26
+
+Takaisin etusivulle
+
+## Koiran ja kissan mikrosirutus
+
+### Mikä on mikrosiru?
+
+Mikrosiru on noin riisinjyvän kokoinen. Se asetetaan ihon alle, yleensä lapaluiden väliin, ja siinä on yksilöllinen 15-numeroinen tunnistenumero. Sirussa ei ole paristoa, ja se kestää yleensä lemmikin koko eliniän. Siru ei ole paikannin: se ei näytä, missä lemmikkisi on. Sen numeron voi lukea vain lukulaitteella, ja koirilla Ruokaviraston koirarekisteri liittää numeron tietoihisi.
+
+### Koira on sirutettava ja rekisteröitävä
+
+Jokainen Suomessa asuva koira on merkittävä mikrosirulla ja rekisteröitävä Ruokaviraston koirarekisteriin. Pentu on sirutettava ja rekisteröitävä kolmen kuukauden ikään mennessä tai jo ennen kuin se muuttaa uuteen kotiin, jos muutto tapahtuu aiemmin. Kun hankit pennun, tarkista, että se on jo sirutettu ja rekisteröity. Ulkomailta Suomeen muuttavan koiran on oltava sirutettu jo saapuessaan, ja se on rekisteröitävä neljän viikon kuluessa saapumisesta. Annamme sinulle sirun numeron kirjallisena, ja sen jälkeen rekisteröit koirasi itse osoitteessa koirarekisteri.ruokavirasto.fi. Rekisteröinti maksaa verkossa 10 €. Ilmoita muutoksista rekisteriin kuukauden kuluessa: omistajanvaihdoksesta (sen ilmoittavat sekä vanha että uusi omistaja), uusista yhteystiedoista sekä koirasi kuolemasta tai katoamisesta. Jos käy ilmi, ettei koiraa ole sirutettu tai rekisteröity, omistajaa kehotetaan korjaamaan puute. Vakavasta laiminlyönnistä voidaan lisäksi määrätä seuraamusmaksu, joka on vähintään 300 €. Säännöt on tarkistettu marraskuussa 2026.
+
+### Kissat
+
+Suomessa lemmikkikissa tarvitsee sirun vain, jos se matkustaa ulkomaille. Virallista kissarekisteriä ei vielä ole, mutta Ruokaviraston arvion mukaan se otetaan käyttöön vuonna 2030. Uusien EU-sääntöjen mukaan kissa on 31.8.2030 alkaen sirutettava ja rekisteröitävä, ennen kuin se myydään tai annetaan pois. Sääntö ei koske satunnaista yksityistä lahjoitusta, jos kissasta ei ole julkaistu ilmoitusta verkossa. Suosittelemme sirutusta jo nyt: kissasi saa pysyvän tunnistusmerkinnän, ja siru kelpaa myös uusien sääntöjen mukaan, kunhan se on luettavissa.
+
+### Matkustaminen ja Kennelliiton rekisteröinti
+
+EU:n sisällä matkustava koira tai kissa tarvitsee mikrosirun, rabiesrokotuksen ja EU-lemmikkipassin. Suomeen saapuva koira tarvitsee yleensä lisäksi heisimatolääkityksen – myös silloin, kun se palaa matkalta kotiin. Pennut on sirutettava, ennen kuin kasvattaja rekisteröi ne Suomen Kennelliittoon. Voimme siruttaa pennut pentutarkastuksen yhteydessä. Kennelliiton rekisteröinti ei korvaa Ruokaviraston koirarekisteriä.
+
+### Mikrosirutus klinikallamme
+
+Eläinlääkäri siruttaa lemmikkisi, kun se on hereillä. Siru pistetään ihon alle hetkessä, eikä rauhoitusta tarvita. Ensin tarkistamme lukulaitteella, ettei lemmikilläsi ole jo sirua, ja sirutuksen jälkeen tarkistamme uudelleen, että uusi siru on luettavissa. Saat sirun numeron kirjallisena, ja tallennamme sen lemmikkisi potilastietoihin. Mikrosirutus maksaa 68 € erillisellä käynnillä (käyntimaksu sisältyy hintaan) tai 32,40 € muun käynnin, esimerkiksi rokotuksen, yhteydessä. Varaa aika verkossa kohdasta ”Rokotus, passi ja matkustus → Mikrosirun laitto” tai soita meille numeroon (06) 321 7300.
+
+### Maksuton sirun lukeminen
+
+Haluatko tarkistaa, toimiiko lemmikkisi siru yhä, vai oletko löytänyt koiran tai kissan? Tule käymään aukioloaikoina: luemme sirun maksutta, eikä ajanvarausta tarvita. Jos löysit eläimen, soita myös löytöeläinten hoitopaikkaan: Vaasassa, Mustasaaressa, Vöyrillä ja Maalahdella se on Koiratarha Kulkuri, puh. 040 834 2222.
+
+### Usein kysyttyä mikrosirutuksesta
+
+Paljonko mikrosirutus maksaa? 68 € erillisellä käynnillä (käyntimaksu sisältyy hintaan) tai 32,40 € muun käynnin, esimerkiksi rokotuksen, yhteydessä.
+Sattuuko mikrosirutus? Siru pistetään ihon alle, mikä vie vain hetken. Lemmikkisi pysyy hereillä, eikä rauhoitusta tarvita.
+Voiko mikrosirusta nähdä, missä lemmikkini on? Ei voi. Sirussa ei ole GPS-paikanninta eikä paristoa. Sen numeron voi lukea vain lukulaitteella, ja koirilla koirarekisteri liittää numeron tietoihisi.
+
+### Varaa aika
+
+Soita meille tai varaa aika verkosta.
+Soita (06) 321 7300
+Varaa verkossa
+Eläinlääkäri Vaasassa – tutustu klinikkaamme →
+Kiireellinen tapaus? Päivystävä eläinlääkäri Vaasassa →
+
+### Aiheeseen liittyvät artikkelit
+
+Lemmikkien terveys
+
+#### Pelkääkö koira tai kissa ilotulitusta? Näin autat lemmikkiäsi uudenvuoden yli
+
+Moni koira ja kissa pelkää ilotulitusta: ne voivat vapista, läähättää, piiloutua, haukkua, yrittää karata tai kieltäy...
+Terveys
+
+#### Koiran ja kissan rokotusohjelma – pennut ja aikuiset
+
+Rokotukset suojaavat lemmikkiä vakavilta tartuntataudeilta. Rokotuskäytännöt vaihtelevat ja muuttuvat ajan myötä. Nou...
+Takaisin etusivulle
+
+---
+
 # Päivystävä eläinlääkäri Vaasa | Eläinklinikka Saari
 
 URL: https://elainklinikkasaari.fi/palvelut/paivystys/
@@ -5098,7 +5162,7 @@ Ota yhteyttä eläinlääkäriin, jos lemmikkisi joutuu paniikkiin, satuttaa its
 - Dale AR, Walker JK, Farnworth MJ, Morrissey SV, Waran NK. A survey of owners’ perceptions of fear of fireworks in a sample of dogs and cats in New Zealand. N Z Vet J. 2010;58(6):286–291. doi:10.1080/00480169.2010.69403 pubmed.ncbi.nlm.nih.gov
 - Cornell University College of Veterinary Medicine, Riney Canine Health Center. Fear of fireworks and thunderstorms. vet.cornell.edu
 - ASPCA. Four Ways Fourth of July Fireworks Can Harm Our Pets. aspca.org
-Aiheeseen liittyvät palvelumme: Päivystys
+Aiheeseen liittyvät palvelumme: Päivystys · Mikrosirutus
 
 ### Lue myös
 
@@ -8110,7 +8174,7 @@ EU:ssa, Norjassa ja Sveitsissä matkustava lemmikki tarvitsee mikrosirun, voimas
 - Ruokavirasto: Usein kysyttyä ekinokokkilääkityksestä. ruokavirasto.fi/usein-kysyttya-ekinokokkilaakityksesta
 - Ruokavirasto: Koirien, kissojen ja frettien siirto EU:n ulkopuolelta. ruokavirasto.fi/lemmikkielaimen-siirto
 - Komission delegoitu asetus (EU) 2026/131 lemmikkieläinten muista kuin kaupallisista siirroista. data.europa.eu
-Aiheeseen liittyvät palvelumme: Rokotukset
+Aiheeseen liittyvät palvelumme: Rokotukset · Mikrosirutus
 
 ### Lue myös
 

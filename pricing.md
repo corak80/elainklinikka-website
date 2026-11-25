@@ -149,7 +149,7 @@ The pet comes in at 7:45 and goes home at about 17:00 (about nine hours). Veteri
 - EU pet passport: 80.50 €
 - EU pet passport during another visit: 37.50 €
 - Microchipping: 68 €
-- Microchipping during another visit: 32.40 €
+- Microchipping during another visit: 32.40 €. Owner registers the dog in Ruokavirasto’s dog register; chip reading is free without an appointment. See https://elainklinikkasaari.fi/en/services/microchipping/
 - Nail trim, owner holds: 20 € (see https://elainklinikkasaari.fi/en/services/nail-trims/)
 - Nail trim, one nurse holds: 30 €
 - Nail trim, two or more nurses hold: 40 €

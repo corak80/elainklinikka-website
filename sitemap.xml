@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/tjanster/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/services/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/"/>
@@ -196,7 +196,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/hinnasto/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/sv/prislista/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -216,7 +216,7 @@
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/en/pricelist/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/hinnasto/"/>
@@ -1303,6 +1303,36 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/tjanster/avforingsprov/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/services/stool-sample/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/palvelut/ulostenayte/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/palvelut/mikrosirutus/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/tjanster/mikrochipning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/services/microchipping/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/sv/tjanster/mikrochipning/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/tjanster/mikrochipning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/services/microchipping/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
+  </url>
+  <url>
+    <loc>https://elainklinikkasaari.fi/en/services/microchipping/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://elainklinikkasaari.fi/sv/tjanster/mikrochipning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elainklinikkasaari.fi/en/services/microchipping/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elainklinikkasaari.fi/palvelut/mikrosirutus/"/>
   </url>
   <url>
     <loc>https://elainklinikkasaari.fi/palvelut/paivystys/</loc>
